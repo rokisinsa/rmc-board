@@ -1,0 +1,162 @@
+{
+ "unit": "セット",
+ "left": {
+  "name": "ダニー・ノッパート",
+  "ranking": "第8シード（世界8位, dartsnews）",
+  "form": [
+   {
+    "date": "2026-09-18",
+    "opp": "ルーク・リトラー",
+    "comp": "ワールドシリーズ・ファイナルズ 1回戦",
+    "ha": "N",
+    "score": "4-6",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   },
+   {
+    "date": "2026-07-20",
+    "opp": "ロブ・クロス",
+    "comp": "ワールドマッチプレー 1回戦",
+    "ha": "N",
+    "score": "3-10",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   }
+  ],
+  "lineup": [
+   "今季マスターズ・UKオープンでQF、以降は主要大会で初戦敗退続き",
+   "GP9回目、2021・2025年SF"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ニコ・シュプリンガー",
+  "ranking": "PDC世界39位・プロツアー1年ランク13位（dartsnews 9/27）",
+  "form": [
+   {
+    "date": "2026-07-18",
+    "opp": "ルーク・リトラー",
+    "comp": "ワールドマッチプレー 1回戦",
+    "ha": "N",
+    "score": "6-10",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   }
+  ],
+  "lineup": [
+   "直近3か月平均92.59、ダブル成功率38.19%（dartsnews）",
+   "PC25(ヒルデスハイム)SF、欧州ツアーは1-2回戦敗退が多い",
+   "GP2回目"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025",
+   "event": "ハンガリアン・ダーツ・トロフィー 決勝",
+   "score": "7-8",
+   "winner": "right",
+   "detail": "レッグ制（units省略）"
+  },
+  {
+   "date": "不明",
+   "event": "欧州ツアー",
+   "score": "6-5",
+   "winner": "left",
+   "detail": "日付不明・レッグ制"
+  },
+  {
+   "date": "不明",
+   "event": "欧州ツアー",
+   "score": "6-4",
+   "winner": "left",
+   "detail": "日付不明・レッグ制"
+  }
+ ],
+ "common_opponents_notes": [
+  "リトラー：ノッパートWSF 4-6敗(9/18)、シュプリンガーはマッチプレー 6-10敗(7/18, 60日窓外)"
+ ],
+ "venue": "Mattioli Arena（英国レスター）、BOYLE Sports World Grand Prix 1回戦。3セット制（2セット先取）・ダブルイン/ダブルアウト。中立",
+ "unavailable": {
+  "left.form": "プロツアー等の試合単位結果が取得できず2試合のみ",
+  "right.form": "同上、1試合のみ",
+  "h2h": "日付は決勝以外不明、順序も不確定"
+ },
+ "match_id": "m20260929-0bb5ffad",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
+ "risks": [
+  "1回戦は3セット制・ダブルインで番狂わせが起きやすい形式",
+  "直近戦績はメジャー大会（マッチプレー7月・WSF 9月）のみ。プロツアー／欧州ツアーの試合単位の結果は取得できず",
+  "ノッパートの主要大会での不振（yahoo予想はシュプリンガー2-1）"
+ ],
+ "missing": [
+  "両者のプロツアー戦績（試合単位）",
+  "H2H 2試合の日付"
+ ],
+ "source_urls": [
+  "https://dartsnews.com/pdc/world-grand-prix-2026-draw-schedule-preview-format-history-and-predictions",
+  "https://dartsnews.com/pdc/one-german-one-huge-opportunity-what-awaits-niko-springer-at-the-world-grand-prix",
+  "https://sports.yahoo.com/articles/2026-world-darts-grand-prix-170837628.html",
+  "https://www.skysports.com/darts/news/13583670/world-series-of-darts-finals-2026-schedule-and-results-with-luke-littler-luke-humphries-michael-van-gerwen-gian-van-veen-in-action",
+  "https://www.skysports.com/darts/news/12288/13561989/betfred-world-matchplay-2026-luke-littler-faces-niko-springer-luke-humphries-takes-on-cameron-menzies-as-draw-confirmed",
+  "https://onlinedarts.com/2026-world-matchplay-draw-schedule-and-results/"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 7,
+   "points_against": 16,
+   "points_games": 2
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 10,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 3,
+   "left": 2,
+   "right": 1,
+   "draw": 0,
+   "points_left": 19,
+   "points_right": 17,
+   "points_games": 3,
+   "avg_left": 6.3,
+   "avg_right": 5.7
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

@@ -1,6 +1,6 @@
 {
  "match_id": "m20260928-ed8197ff",
- "data_as_of": "2026-09-27T23:25:00+09:00",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
  "unit": "フレーム",
  "left": {
   "name": "オサリバン",
@@ -94,10 +94,11 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "宝安体育中心（中国・深圳）、深圳オープン R64（9フレーム制・5フレーム先取）。中国人選手は地元",
+ "venue": "宝安体育中心（中国・深圳）、深圳オープン ベスト64（予選から持ち越しのシード戦）、9フレーム制（5フレーム先取）。中国人選手は地元",
  "risks": [
-  "戦績は部分的",
-  "オサリバンは9月のイングリッシュOPを棄権しており約1か月ぶりの実戦"
+  "9フレーム制の短期戦",
+  "戦績は大会記事の要約取得で部分的（cuetracker/Wikipedia取得不可）",
+  "オサリバンは実戦間隔が空く・棄権歴あり"
  ],
  "missing": [
   "直近10試合の大半",
@@ -110,19 +111,21 @@
   "right.form": "武漢OPの1試合のみ"
  },
  "source_urls": [
-  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
-  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
   "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)",
-  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml",
-  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
-  "https://www.livesnooker.com/qualifiers/world-championship-qualifiers/world-championship-qualifiers-2026-schedule/",
-  "https://snookerhq.com/2026/04/11/world-snooker-championship-qualifiers-2026-draw-schedule-results/",
   "https://en.wikipedia.org/wiki/2026_World_Snooker_Championship",
+  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
+  "https://snookerhq.com/2026/04/11/world-snooker-championship-qualifiers-2026-draw-schedule-results/",
+  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+  "https://www.livesnooker.com/qualifiers/world-championship-qualifiers/world-championship-qualifiers-2026-schedule/",
   "https://www.snooker.org/res/index.asp?event=2214",
   "https://www.snooker.org/res/index.asp?event=2334",
-  "https://www.snooker.org/res/index.asp?event=2759",
   "https://www.snooker.org/res/index.asp?event=2758",
-  "https://www.snooker.org/res/index.asp?event=2764"
+  "https://www.snooker.org/res/index.asp?event=2759",
+  "https://www.snooker.org/res/index.asp?event=2761",
+  "https://www.snooker.org/res/index.asp?event=2764",
+  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
+  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml",
+  "https://www.totallysnookered.com/sport/snooker/tournaments/english-open/2026-english-open-snooker-draw-results-schedule-prize-money-how-to-watch-8967039"
  ],
  "calc": {
   "left": {
@@ -180,13 +183,5 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T00:25:00+09:00",
-  "note": "オサリバンは英国OP・イングリッシュOP棄権。蒋俊の相手（Slessor、S.ムーディ、Si Jiahui×2、Xiao Guodong、Gao Yang等）とは他に重複なし。調査した大会: ツアーC(4/1-5)、世界選手権予選・本戦、Qスクール(アジア)、CL2026、中国OP(予選含)、武漢OP(予選含)、上海M、英国OP(予選含)、イングリッシュOP(予選含)、深圳OP予選、北アイルランドOP予選、国際選手権予選、スコティッシュOP予選。snooker.orgは要約取得のみで日付が出ないため、日付はTNT Sports日別結果・Wikipedia・SnookerHQ/livesnookerで確認できた試合のみ採用。",
-  "opponents": [
-   "A.カーティ"
-  ]
  }
 }

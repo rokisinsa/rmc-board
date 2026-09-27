@@ -1,0 +1,136 @@
+{
+ "match_id": "m20260928-5dbd7a4e",
+ "data_as_of": "2026-09-28T06:38:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "M.シャリポフ",
+  "ranking": "ATP 232位（9/20時点 TennisTonic）。2026年 33勝17敗（ハード21-8）。TA総合Elo 1632.9",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "P.バル・ビリュコフ",
+    "comp": "Guangzhou CH 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-5 6-3"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "E.イマー",
+    "comp": "Guangzhou CH 準々決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(4) 6-3"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "L.ハリス",
+    "comp": "Guangzhou CH 2回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "4-6 7-6(6) 6-3"
+   }
+  ],
+  "lineup": [
+   "Jingshan CH 予選（第5シード）。Guangzhou CH 1回戦でT.ファンカットに6-2 6-3（日付不明）、9/20決勝コトフ戦の結果は未確認"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "本田尚也",
+  "ranking": "unavailable（ランキング・成績を取得できず）",
+  "form": [],
+  "lineup": [
+   "予選準決勝まで勝ち上がり（Flashscore表記）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Jingshan CH（中国）予選・ハード・中立",
+ "risks": [
+  "本田側の情報がほぼ取得できず",
+  "シャリポフは前週Guangzhou CH決勝進出（9/20）→連戦疲労の可能性",
+  "予選試合"
+ ],
+ "missing": [
+  "本田のランキング・直近成績",
+  "H2H",
+  "シャリポフのGuangzhou決勝結果"
+ ],
+ "unavailable": {
+  "h2h": "取得できるソースなし",
+  "right.form": "TennisExplorer/Flashscore/ATPの選手ページが取得不可または内容なし",
+  "left.form": "TennisTonicプレビュー記事から日付の分かる3試合のみ"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1055921/h2h-prediction-of-pavel-kotov-vs-marat-sharipov-in-guangzhou-challenger-with-odds-preview-pick-20th-september-2026/",
+  "https://www.flashscore.com/match/tennis/honda-naoya-pC2uDb19/sharipov-marat-GtQpXmDE/",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://tennistonic.com/tennis-news/1055782/h2h-prediction-of-petr-bar-biryukov-vs-marat-sharipov-in-guangzhou-challenger-with-odds-preview-pick-19th-september-2026/"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 6,
+   "units_lost": 1,
+   "points_for": 6,
+   "points_against": 1,
+   "points_games": 3,
+   "inner_for": 43,
+   "inner_against": 32,
+   "inner_games": 3
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

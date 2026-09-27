@@ -33,8 +33,18 @@
   "left": "チャージャーズ",
   "right": "ビルズ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "16-24",
+   "source_rank": "official_team",
+   "source_url": "https://www.buffalobills.com/news/bills-24-chargers-16-final-score-recap-highlights",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 NFL Week 3、Chargers(アウェイ) @ Bills(ホーム, Highmark Stadium)。Bills公式でBills 24-16、延長なし",
+   "note": "Bills 3-0",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "チャージャーズ0勝2敗",
   "flags": []
  },
@@ -59,8 +69,18 @@
   "left": "ジェッツ",
   "right": "ライオンズ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "24-31",
+   "source_rank": "official_team",
+   "source_url": "https://www.newyorkjets.com/news/jets-lions-game-recap-week-3-09-27-2026",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 NFL Week 3、Jets(アウェイ) @ Lions(ホーム, Detroit)。Jets公式リキャップでLions 31-24、延長なし",
+   "note": "Yahoo/Lions関連報道とも一致",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "",
   "flags": []
  },
@@ -85,8 +105,18 @@
   "left": "チーフス",
   "right": "ドルフィンズ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "24-10",
+   "source_rank": "results_db",
+   "source_url": "https://www.cbssports.com/nfl/gametracker/recap/NFL_20260927_KC@MIA/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 13:00 EDT NFL Week 3、Chiefs(アウェイ) @ Dolphins(ホーム, Hard Rock Stadium)。CBS Gametracker Final 24-10",
+   "note": "ESPN検索結果タイトル『Chiefs 24-10 Dolphins』とも一致。KC 3-0、MIA 0-3",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "今週最大の本命（-11.5）",
   "flags": []
  },
@@ -98,8 +128,18 @@
   "left": "シーホークス",
   "right": "コマンダース",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "31-33",
+   "source_rank": "results_db",
+   "source_url": "https://www.espn.co.uk/nfl/game?gameId=401872955",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 NFL Week 3、Seahawks(アウェイ) @ Commanders(ホーム, Northwest Stadium)。Commanders 33-31",
+   "note": "ESPN UKの本文は取得できずタイトル『Commanders 33-31 Seahawks Final Score』のみ。NBC Sports(PFT)記事本文でWashington 33-31勝利・延長なしを確認: https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-and-the-commanders-stun-the-seahawks-33-31 （QBはMariota先発）",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "コマンダースはQBジェイデン・ダニエルズ（肘）欠場",
   "flags": []
  },
@@ -124,9 +164,9 @@
   "left": "カーディナルス",
   "right": "49ers",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
+  "status": "live",
   "result": null,
-  "note": "49ersはニック・ボサ負傷報道（午後枠 05:05〜05:25 JST）",
+  "note": "49ersはニック・ボサ負傷報道（午後枠 05:05〜05:25 JST）／09-28T06:45時点 live：05:05-05:25 JST頃キックオフ(16:05/16:25 ET)。06:05 JST時点で試合中と判断、スコア未確認",
   "flags": []
  },
  "m20260928-a63f580d": {
@@ -393,9 +433,9 @@
   "left": "レンジャーズ",
   "right": "ツインズ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
+  "status": "live",
   "result": null,
-  "note": "TEXは勝利＋HOU敗戦が必要",
+  "note": "TEXは勝利＋HOU敗戦が必要／09-28T06:45時点 live：MLB.comのゲームストーリー(gamePk 823650, 9/27 Rangers@Twins, レギュラーシーズン最終戦)で5回裏時点 TEX 1-5 ",
   "flags": []
  },
  "m20260928-5a980760": {
@@ -409,7 +449,13 @@
   "status": "scheduled",
   "result": null,
   "note": "工藤 vs 東。横浜スタジアム",
-  "flags": []
+  "flags": [
+   "消化試合",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31396788"
+  ]
  },
  "m20260928-83fe679c": {
   "sport": "野球",
@@ -422,7 +468,12 @@
   "status": "scheduled",
   "result": null,
   "note": "岸 vs 隅田。西武は2位争い",
-  "flags": []
+  "flags": [
+   "消化試合"
+  ],
+  "feed_ids": [
+   "bov:30306167"
+  ]
  },
  "m20260928-9e1725d8": {
   "sport": "野球",
@@ -435,7 +486,13 @@
   "status": "scheduled",
   "result": null,
   "note": "福島 vs ジャクソン。日本ハムは2位争い",
-  "flags": []
+  "flags": [
+   "消化試合",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:30306168"
+  ]
  },
  "m20260928-b1dbea92": {
   "sport": "野球",
@@ -450,6 +507,9 @@
   "note": "開始時刻要確認",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31231778"
   ]
  },
  "m20260928-03e1b28f": {
@@ -465,6 +525,9 @@
   "note": "開始時刻要確認",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31231782"
   ]
  },
  "m20260928-99561164": {
@@ -480,6 +543,9 @@
   "note": "開始時刻要確認",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31232166"
   ]
  },
  "m20260927-86b7f5b7": {
@@ -611,8 +677,18 @@
   "left": "イエメン",
   "right": "カタール",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "0-1",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.com/match/football/qatar-zqzHL77i/yemen-GGzYeY4n/summary/stats/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 第27回アラビアン・ガルフカップ Group B、Yemen v Qatar（表記上Yemenホーム、会場はジッダのAl-Inma Stadium＝中立）。flashscore 0-1 終了",
+   "note": "90分結果。得点はカタールのYoussef Abdulrazzaq 64分（Arab News）。前半0-0。Afif PK失敗73分",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "開始時刻は資料間で差（00:00/00:55）",
   "flags": []
  },
@@ -701,7 +777,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31286972"
+  ]
  },
  "m20260928-51ecf3e2": {
   "sport": "サッカー",
@@ -714,7 +793,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31285613"
+  ]
  },
  "m20260928-e694c0ac": {
   "sport": "サッカー",
@@ -727,7 +809,10 @@
   "status": "scheduled",
   "result": null,
   "note": "取得値がハイチ戦と完全一致のため未採用",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31286987"
+  ]
  },
  "m20260928-68299b52": {
   "sport": "サッカー",
@@ -740,7 +825,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31285606"
+  ]
  },
  "m20260928-66cfc65e": {
   "sport": "サッカー",
@@ -755,6 +843,9 @@
   "note": "広島開催",
   "flags": [
    "親善試合（ローテーション）"
+  ],
+  "feed_ids": [
+   "bov:30305371"
   ]
  },
  "m20260928-87b4687a": {
@@ -771,6 +862,9 @@
   "flags": [
    "親善試合",
    "親善試合（ローテーション）"
+  ],
+  "feed_ids": [
+   "bov:30305169"
   ]
  },
  "m20260927-20b6f83c": {
@@ -927,7 +1021,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31030584"
+  ]
  },
  "m20260928-568322f6": {
   "sport": "サッカー",
@@ -940,7 +1037,10 @@
   "status": "scheduled",
   "result": null,
   "note": "東14位 vs 東3位",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31077575"
+  ]
  },
  "m20260928-5d8c4c77": {
   "sport": "サッカー",
@@ -953,7 +1053,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31101371"
+  ]
  },
  "m20260928-4861ce96": {
   "sport": "サッカー",
@@ -966,7 +1069,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31226219"
+  ]
  },
  "m20260928-61e0f4be": {
   "sport": "サッカー",
@@ -979,7 +1085,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31104183"
+  ]
  },
  "m20260928-020c4b79": {
   "sport": "サッカー",
@@ -992,7 +1101,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31226215"
+  ]
  },
  "m20260927-898ecd6b": {
   "sport": "サッカー",
@@ -1096,7 +1208,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31230417"
+  ]
  },
  "m20260928-36b24da1": {
   "sport": "サッカー",
@@ -1109,7 +1224,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31327583"
+  ]
  },
  "m20260927-9c66f671": {
   "sport": "サッカー",
@@ -1247,7 +1365,13 @@
   "status": "scheduled",
   "result": null,
   "note": "H2Hはバシラシビリ1-0。Polymarketは1.47／開始時刻を09-28T18:00に訂正",
-  "flags": []
+  "flags": [
+   "価格が実力差と不整合の可能性",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3334030"
+  ]
  },
  "m20260928-2f77907f": {
   "sport": "テニス",
@@ -1255,13 +1379,14 @@
   "round": null,
   "start_jst": "2026-09-28T14:00:00+09:00",
   "left": "シャポバロフ",
-  "right": "ハリス/フルカチュ勝者",
+  "right": "フルカチュ",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "シャポバロフはQFでマナリノに6-7 6-3 6-2",
-  "flags": [
-   "対戦相手未確定"
+  "note": "シャポバロフはQFでマナリノに6-7 6-3 6-2／対戦相手確定：ハリス/フルカチュ勝者→フルカチュ（tennisexplorer 09-28T06:45確認）／深掘りで開始時刻09-28T20:00を確認（配信09-28T14:00）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334240"
   ]
  },
  "m20260928-01463b2f": {
@@ -1277,6 +1402,9 @@
   "note": "初対戦／開始時刻を09-28T15:00→09-28T18:30に訂正（https://tennistonic.com/tennis-news/1058343/how-to-watch-rublev-vs-jacquet-on-li）",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3334100"
   ]
  },
  "m20260928-4ef3a3ec": {
@@ -1284,14 +1412,15 @@
   "competition": "ATP杭州 SF",
   "round": null,
   "start_jst": "2026-09-28T15:00:00+09:00",
-  "left": "メドベージェフ/ウォン勝者",
-  "right": "サフィウリン/ブ勝者",
+  "left": "メドベージェフ",
+  "right": "サフィウリン",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "",
-  "flags": [
-   "対戦相手未確定"
+  "note": "／対戦相手確定：メドベージェフ/ウォン勝者→メドベージェフ（tennisexplorer 09-28T06:45確認）／対戦相手確定：サフィウリン/ブ勝者→サフィウリン（tennisexplorer 09-28T06:45確認）／深掘りで開始時刻09-28T20:30を確認（配信09-28T15:00）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334254"
   ]
  },
  "m20260928-38bf98d7": {
@@ -1308,6 +1437,9 @@
   "flags": [
    "価格が実力差と不整合の可能性",
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333622"
   ]
  },
  "m20260928-2c772ddf": {
@@ -1323,6 +1455,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333624"
   ]
  },
  "m20260928-79dbf47e": {
@@ -1368,6 +1503,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333630"
   ]
  },
  "m20260928-3d582a92": {
@@ -1410,7 +1548,11 @@
   "result": null,
   "note": "コート順により開始は後ろにずれる",
   "flags": [
+   "価格が実力差と不整合の可能性",
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333636"
   ]
  },
  "m20260928-7ac3f1df": {
@@ -1480,6 +1622,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333558"
   ]
  },
  "m20260928-bebf6873": {
@@ -1495,6 +1640,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333560"
   ]
  },
  "m20260928-efe65637": {
@@ -1510,6 +1658,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333562"
   ]
  },
  "m20260928-e9872c52": {
@@ -1525,6 +1676,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333564"
   ]
  },
  "m20260928-0fe42197": {
@@ -1616,6 +1770,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333576"
   ]
  },
  "m20260928-eea8d227": {
@@ -1631,6 +1788,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333578"
   ]
  },
  "m20260928-25b5d06b": {
@@ -1646,6 +1806,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333580"
   ]
  },
  "m20260928-cf1f5c5a": {
@@ -1661,6 +1824,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333582"
   ]
  },
  "m20260928-bb2caf8b": {
@@ -1691,6 +1857,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333586"
   ]
  },
  "m20260928-72449523": {
@@ -1766,6 +1935,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333474"
   ]
  },
  "m20260928-b7253392": {
@@ -1781,6 +1953,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333476"
   ]
  },
  "m20260928-654eb19c": {
@@ -1796,6 +1971,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333478"
   ]
  },
  "m20260928-4c99280b": {
@@ -1811,6 +1989,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333480"
   ]
  },
  "m20260928-a16b66b0": {
@@ -1826,6 +2007,9 @@
   "note": "コート順により開始は後ろにずれる",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333482"
   ]
  },
  "m20260928-d431ace3": {
@@ -1841,6 +2025,9 @@
   "note": "",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333446"
   ]
  },
  "m20260928-962eaad9": {
@@ -1856,6 +2043,9 @@
   "note": "",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333448"
   ]
  },
  "m20260928-83a0df74": {
@@ -1871,6 +2061,9 @@
   "note": "",
   "flags": [
    "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333450"
   ]
  },
  "m20260927-aa6275fc": {
@@ -2189,7 +2382,10 @@
   "result": null,
   "note": "BO3・#27 vs #46／BET CHANNEL表記に統一（旧：Liquid vs Wildcard）",
   "flags": [],
-  "betchannel_event_id": "2715801143950323729"
+  "betchannel_event_id": "2715801143950323729",
+  "feed_ids": [
+   "bov:31477373"
+  ]
  },
  "m20260928-b7e8a884": {
   "sport": "CS2",
@@ -2229,8 +2425,13 @@
   "status": "scheduled",
   "result": null,
   "note": "BO3",
-  "flags": [],
-  "betchannel_event_id": "2715805989625536541"
+  "flags": [
+   "下位リーグ（整合性リスク）"
+  ],
+  "betchannel_event_id": "2715805989625536541",
+  "feed_ids": [
+   "bov:31480180"
+  ]
  },
  "m20260927-5d68086f": {
   "sport": "VALORANT",
@@ -2379,7 +2580,10 @@
   "result": null,
   "note": "BO5／BET CHANNEL表記に統一（旧：T1.EA vs CPD）",
   "flags": [],
-  "betchannel_event_id": "2715371054846586888"
+  "betchannel_event_id": "2715371054846586888",
+  "feed_ids": [
+   "bov:31424438"
+  ]
  },
  "m20260928-2b117f0a": {
   "sport": "LoL",
@@ -2729,7 +2933,12 @@
   "result": null,
   "note": "",
   "flags": [
-   "控え中心の編成"
+   "控え中心の編成",
+   "短期戦フォーマット",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31453776"
   ]
  },
  "m20260928-0e4f79c3": {
@@ -2745,7 +2954,12 @@
   "note": "T20でアフガンは強豪。メンバー構成要確認",
   "flags": [
    "価格が実力差と不整合の可能性",
-   "控え中心の編成"
+   "控え中心の編成",
+   "短期戦フォーマット",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31449580"
   ]
  },
  "m20260928-cdd48d36": {
@@ -2759,7 +2973,10 @@
   "status": "scheduled",
   "result": null,
   "note": "／開始時刻を09-28T09:25に訂正",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31494365"
+  ]
  },
  "m20260928-a740bf78": {
   "sport": "バドミントン",
@@ -2774,6 +2991,9 @@
   "note": "",
   "flags": [
    "データ不足"
+  ],
+  "feed_ids": [
+   "bov:31490970"
   ]
  },
  "m20260928-95c4b765": {
@@ -2787,7 +3007,10 @@
   "status": "scheduled",
   "result": null,
   "note": "／開始時刻を09-28T09:55に訂正",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31490771"
+  ]
  },
  "m20260928-8dfed3f8": {
   "sport": "バドミントン",
@@ -2800,7 +3023,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31490192"
+  ]
  },
  "m20260928-cd54f33b": {
   "sport": "バドミントン",
@@ -2813,7 +3039,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31489783"
+  ]
  },
  "m20260928-467991db": {
   "sport": "バドミントン",
@@ -2826,7 +3055,10 @@
   "status": "scheduled",
   "result": null,
   "note": "／開始時刻を09-28T10:25に訂正",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31490381"
+  ]
  },
  "m20260928-bd47822e": {
   "sport": "バドミントン",
@@ -2839,7 +3071,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31490971"
+  ]
  },
  "m20260928-df4e505f": {
   "sport": "バドミントン",
@@ -2852,7 +3087,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31489972"
+  ]
  },
  "m20260928-0553eeac": {
   "sport": "バドミントン",
@@ -2865,7 +3103,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31488771"
+  ]
  },
  "m20260928-d9b57955": {
   "sport": "バドミントン",
@@ -2878,7 +3119,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31489181"
+  ]
  },
  "m20260928-277cb0aa": {
   "sport": "ハンドボール",
@@ -3063,8 +3307,18 @@
   "left": "リンクス",
   "right": "リバティ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "75-91",
+   "source_rank": "results_db",
+   "source_url": "https://www.cbssports.com/wnba/gametracker/boxscore/WNBA_20260927_NYL@MIN/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 14:00 ET WNBAプレーオフ1回戦 Game1、Liberty(アウェイ) @ Lynx(ホーム, Target Center)。CBS box Liberty 91-75",
+   "note": "Q別 MIN 18/26/16/15、NYL 25/15/25/26。WNBA.comでFinal・14:00 ET開始を確認",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "",
   "flags": []
  },
@@ -3092,7 +3346,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31394974"
+  ]
  },
  "m20260928-436d0a7b": {
   "sport": "バスケットボール",
@@ -3105,7 +3362,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31399572"
+  ]
  },
  "m20260927-86eaf6bc": {
   "sport": "バスケットボール",
@@ -4442,8 +4702,18 @@
   "left": "チークセレダ",
   "right": "DAB",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "3-1",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.co.uk/match/ice-hockey/dunaujvarosi-hthnrxZ2/miercurea-ciuc-csikszereda-YNaMFgCa/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 Erste Liga、Csíkszereda(ホーム) vs DAB、flashscoreで3-1 Final。feol.huの試合記事(Csíkszereda開催、ピリオド1-0/2-0/0-1)と一致",
+   "note": "60分決着（ピリオド計3-1、延長なし）。記事: https://www.feol.hu/helyi-sport/2026/09/keson-jott-a-szepites-pont-nelkul-maradt-csikszeredaban-a-dab",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "60分1X2",
   "flags": []
  },
@@ -4455,8 +4725,18 @@
   "left": "アローザ",
   "right": "シエール",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "2-8",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.com/match/hockey/arosa-GUfCjGXm/sierre-tKuxxCIO/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 Swiss League、EHC Arosa(ホーム) vs HC Sierre。flashscore 2-8 Final、planetehockey.com記事でも2-8",
+   "note": "6点差のため60分決着と判断（延長表記なし）",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "60分1X2",
   "flags": []
  },
@@ -4468,8 +4748,18 @@
   "left": "アングレ",
   "right": "グルノーブル",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "2-3",
+   "source_rank": "results_db",
+   "source_url": "https://www.sofascore.com/ice-hockey/match/anglet-hormadi-pays-basque-bruleurs-de-loups-grenoble/lBksFgbb",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 17:00 UTC(=02:00 JST) Ligue Magnus第5節、Anglet(ホーム, Patinoire de la Barre) vs Grenoble。sofascore/flashscore 2-3 終了",
+   "note": "sofascore累計スコア 1P後0-2、2P後2-3、3P後2-3 → 60分でGrenoble勝ち（延長/SO表記なし）。Grenoble公式の試合前記事で会場・19時開始を確認",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "60分1X2",
   "flags": []
  },
@@ -4523,7 +4813,10 @@
   "status": "scheduled",
   "result": null,
   "note": "60分1X2",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31441577"
+  ]
  },
  "m20260927-b05b31a5": {
   "sport": "ハンドボール",
@@ -4741,8 +5034,18 @@
   "left": "ツェリェ",
   "right": "ゴレニェ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "28-29",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.si/tekma/rokomet/celje-bcsZkcJn/gorenje-velenje-jocFKdjs/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 スロベニア1. NLBリーガ第5節、Celje(ホーム, Dvorana Zlatorog) vs Gorenje Velenje。flashscore 28-29、svet24.si記事(前半18-14 Gorenje)と一致",
+   "note": "記事: https://svet24.si/lokalno/savinjska/sport/rokomet-celje-gorenje-derbi-prvenstvo-1929346",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "",
   "flags": []
  },
@@ -4806,8 +5109,18 @@
   "left": "ドランメン",
   "right": "アーレンダール",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "26-34",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.de/spiel/handball/arendal-0zP0LP1j/drammen-trC7vI1O/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 ノルウェー Elkjøp-ligaen（旧REMA 1000-ligaen）、Drammen(ホーム) vs Arendal。flashscoreでFinal 26-34",
+   "note": "Drammenの次戦は04.10 Bergen戦(flashscoreチームページ)で27日分は消化済み。NRK見出し『Arendalが順位を上げた』とも整合（本文は403で未読）",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "",
   "flags": []
  },
@@ -4907,7 +5220,12 @@
   "result": null,
   "note": "",
   "flags": [
-   "価格が実力差と不整合の可能性"
+   "価格が実力差と不整合の可能性",
+   "控え中心の編成",
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31494787"
   ]
  },
  "m20260928-902336c3": {
@@ -4918,8 +5236,18 @@
   "left": "エルサルバドル",
   "right": "ドミニカ共和国",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "0-3",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.com/match/volleyball/dominican-republic-jPh3AAFr/el-salvador-YFM6gaxd/",
+   "identity_checked": true,
+   "identity_note": "2026-09-27 Pan-American Cup U23 5-6位決定戦、El Salvador U23(ホーム表記) vs Dominican Republic U23。flashscore 0-3 終了",
+   "note": "セット別スコアは未取得。ラウンドは5位決定戦",
+   "checked_at": "2026-09-28T06:45:16+09:00",
+   "run_id": "run-20260928-0600"
+  },
   "note": "",
   "flags": []
  },
@@ -4947,7 +5275,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31493979"
+  ]
  },
  "m20260927-7d9bfe16": {
   "sport": "ラグビー",
@@ -5040,7 +5371,12 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31462780"
+  ]
  },
  "m20260928-dd27bf6d": {
   "sport": "スヌーカー",
@@ -5053,7 +5389,12 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463565"
+  ]
  },
  "m20260928-91eda476": {
   "sport": "スヌーカー",
@@ -5066,7 +5407,10 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [],
+  "feed_ids": [
+   "bov:31463765"
+  ]
  },
  "m20260928-ed8197ff": {
   "sport": "スヌーカー",
@@ -5079,7 +5423,13 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "主力休養リスク",
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31462799"
+  ]
  },
  "m20260928-5a448cec": {
   "sport": "スヌーカー",
@@ -5092,7 +5442,12 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463391"
+  ]
  },
  "m20260928-a2895545": {
   "sport": "スヌーカー",
@@ -5105,7 +5460,12 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463784"
+  ]
  },
  "m20260928-5da1304a": {
   "sport": "スヌーカー",
@@ -5118,7 +5478,13 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "価格が実力差と不整合の可能性",
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463386"
+  ]
  },
  "m20260928-4df3d89e": {
   "sport": "クリケット",
@@ -5159,6 +5525,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31461370"
   ]
  },
  "m20260928-9fd628b3": {
@@ -5174,6 +5543,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31485168"
   ]
  },
  "m20260928-74d8c800": {
@@ -5189,6 +5561,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463388"
   ]
  },
  "m20260928-5d86b9da": {
@@ -5204,6 +5579,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31462800"
   ]
  },
  "m20260928-ce341a70": {
@@ -5219,6 +5597,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31457582"
   ]
  },
  "m20260928-349d653a": {
@@ -5234,6 +5615,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31485169"
   ]
  },
  "m20260928-03cfe7a6": {
@@ -5249,6 +5633,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31463387"
   ]
  },
  "m20260928-b09308b0": {
@@ -5264,6 +5651,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31459563"
   ]
  },
  "m20260928-e19626df": {
@@ -5279,6 +5669,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31485167"
   ]
  },
  "m20260928-334595f6": {
@@ -5294,6 +5687,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31458971"
   ]
  },
  "m20260928-42c2b4f3": {
@@ -5309,6 +5705,9 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31485166"
   ]
  },
  "m20260928-e23bd850": {
@@ -5468,7 +5867,10 @@
   "result": null,
   "note": "BET CHANNEL event_id=2712790534480601113（23:59取得）",
   "flags": [],
-  "betchannel_event_id": "2712790534480601113"
+  "betchannel_event_id": "2712790534480601113",
+  "feed_ids": [
+   "bov:31023368"
+  ]
  },
  "m20260930-53f009f5": {
   "sport": "Dota 2",
@@ -6235,8 +6637,13 @@
   "status": "scheduled",
   "result": null,
   "note": "BET CHANNEL event_id=2715872089012838411（23:59取得）",
-  "flags": [],
-  "betchannel_event_id": "2715872089012838411"
+  "flags": [
+   "価格が実力差と不整合の可能性"
+  ],
+  "betchannel_event_id": "2715872089012838411",
+  "feed_ids": [
+   "bov:31439179"
+  ]
  },
  "m20260928-9ce7cd8e": {
   "sport": "World of Tanks",
@@ -6246,9 +6653,9 @@
   "left": "GHOST SQUAD",
   "right": "PARADOX",
   "home_away": "中立（オンライン/大会会場）",
-  "status": "scheduled",
+  "status": "unknown",
   "result": null,
-  "note": "BET CHANNEL event_id=2715872089012838436（23:59取得）",
+  "note": "BET CHANNEL event_id=2715872089012838436（23:59取得）／09-28T06:45時点 unknown：Liquipedia(WoT)が429でアクセス不可、他に結果DB見当たらず。GHOST SQUAD vs PARADOXの試合結果を確認できず",
   "flags": [],
   "betchannel_event_id": "2715872089012838436"
  },
@@ -6532,9 +6939,9 @@
   "left": "Galorys",
   "right": "Procyon",
   "home_away": "中立（オンライン/大会会場）",
-  "status": "scheduled",
+  "status": "unknown",
   "result": null,
-  "note": "BET CHANNEL event_id=2715483061344153619（23:59取得）",
+  "note": "BET CHANNEL event_id=2715483061344153619（23:59取得）／09-28T06:45時点 unknown：06:00 JST開始予定の直後（06:05確認）。HLTVで該当試合の進行状況を確認できず",
   "flags": [],
   "betchannel_event_id": "2715483061344153619"
  },
@@ -7088,7 +7495,10 @@
   "flags": [
    "BO1"
   ],
-  "betchannel_event_id": "2714482843525980196"
+  "betchannel_event_id": "2714482843525980196",
+  "feed_ids": [
+   "bov:31322576"
+  ]
  },
  "m20260929-46970f50": {
   "sport": "Rainbow Six",
@@ -7102,9 +7512,13 @@
   "result": null,
   "note": "BET CHANNEL event_id=2714482843525980206（23:59取得）",
   "flags": [
-   "BO1"
+   "BO1",
+   "価格が実力差と不整合の可能性"
   ],
-  "betchannel_event_id": "2714482843525980206"
+  "betchannel_event_id": "2714482843525980206",
+  "feed_ids": [
+   "bov:31322577"
+  ]
  },
  "m20260928-11d56d92": {
   "sport": "CS2",
@@ -7388,7 +7802,10 @@
   "result": null,
   "note": "BET CHANNEL event_id=2715371054846586889（23:59取得）",
   "flags": [],
-  "betchannel_event_id": "2715371054846586889"
+  "betchannel_event_id": "2715371054846586889",
+  "feed_ids": [
+   "bov:31424444"
+  ]
  },
  "m20260928-369d616b": {
   "sport": "FC 26（eFootball）",
@@ -8334,7 +8751,10 @@
   "flags": [
    "BO1"
   ],
-  "betchannel_event_id": "2714485889819611140"
+  "betchannel_event_id": "2714485889819611140",
+  "feed_ids": [
+   "bov:31322578"
+  ]
  },
  "m20260929-3e7cc8a2": {
   "sport": "Rainbow Six",
@@ -8350,7 +8770,10 @@
   "flags": [
    "BO1"
   ],
-  "betchannel_event_id": "2714485889819611171"
+  "betchannel_event_id": "2714485889819611171",
+  "feed_ids": [
+   "bov:31323766"
+  ]
  },
  "m20260929-d7d14e8e": {
   "sport": "Rainbow Six",
@@ -8366,7 +8789,10 @@
   "flags": [
    "BO1"
   ],
-  "betchannel_event_id": "2714485889819611184"
+  "betchannel_event_id": "2714485889819611184",
+  "feed_ids": [
+   "bov:31322579"
+  ]
  },
  "m20261006-cfa904c5": {
   "sport": "King of Glory",
@@ -8597,5 +9023,5431 @@
   "note": "BET CHANNEL event_id=2714113519929929766（23:59取得）",
   "flags": [],
   "betchannel_event_id": "2714113519929929766"
+ },
+ "m20260928-457930e3": {
+  "sport": "CS2",
+  "competition": "Counter-Strike 2 / European Pro League",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Bushido Wildcats",
+  "right": "Leo Team",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31491172（05:56取得）",
+  "flags": [
+   "下位リーグ（整合性リスク）",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31491172"
+  ]
+ },
+ "m20260929-0bb5ffad": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T03:15:00+09:00",
+  "left": "Danny Noppert",
+  "right": "Niko Springer",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31298788（05:56取得）",
+  "flags": [
+   "価格が実力差と不整合の可能性",
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31298788"
+  ]
+ },
+ "m20260929-a3abbc4f": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Ross Smith",
+  "right": "Cameron Menzies",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31282780（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31282780"
+  ]
+ },
+ "m20260929-289e3b62": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T04:15:00+09:00",
+  "left": "Nathan Aspinall",
+  "right": "Kevin Doets",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31283167（05:56取得）",
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31283167"
+  ]
+ },
+ "m20260929-859948b4": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T04:45:00+09:00",
+  "left": "Jonny Clayton",
+  "right": "Krzysztof Ratajski",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31298795（05:56取得）",
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31298795"
+  ]
+ },
+ "m20260929-a421d9a8": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T05:15:00+09:00",
+  "left": "Gerwyn Price",
+  "right": "Sebastian Bialecki",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31298978（05:56取得）",
+  "flags": [
+   "短期戦フォーマット"
+  ],
+  "feed_ids": [
+   "bov:31298978"
+  ]
+ },
+ "m20260929-63218a98": {
+  "sport": "ダーツ",
+  "competition": "World Grand Prix",
+  "round": null,
+  "start_jst": "2026-09-29T05:45:00+09:00",
+  "left": "Michael van Gerwen",
+  "right": "Ryan Joyce",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31283166（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31283166"
+  ]
+ },
+ "m20260928-26ef4be2": {
+  "sport": "ダーツ",
+  "competition": "MODUS Super Series",
+  "round": null,
+  "start_jst": "2026-09-28T20:55:00+09:00",
+  "left": "Nico Plovier",
+  "right": "Jamie Atkins",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31458378（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31458378"
+  ]
+ },
+ "m20260928-60f9ff60": {
+  "sport": "ダーツ",
+  "competition": "MODUS Super Series",
+  "round": null,
+  "start_jst": "2026-09-28T21:10:00+09:00",
+  "left": "Michael Wiles",
+  "right": "Jim Widmayer",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31485170（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31485170"
+  ]
+ },
+ "m20260928-eb053f59": {
+  "sport": "ダーツ",
+  "competition": "MODUS Super Series",
+  "round": null,
+  "start_jst": "2026-09-28T21:30:00+09:00",
+  "left": "Jamie Atkins",
+  "right": "Jeff Smith",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31458972（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31458972"
+  ]
+ },
+ "m20260928-971f2b02": {
+  "sport": "ダーツ",
+  "competition": "MODUS Super Series",
+  "round": null,
+  "start_jst": "2026-09-28T21:50:00+09:00",
+  "left": "Robert Thornton",
+  "right": "Nico Plovier",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31460975（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31460975"
+  ]
+ },
+ "m20260928-9054fe1a": {
+  "sport": "バレーボール",
+  "competition": "Uruguay / Uruguay Div A Women",
+  "round": null,
+  "start_jst": "2026-09-28T06:30:00+09:00",
+  "left": "Bigua W",
+  "right": "Nautico W",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31494391（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31494391"
+  ]
+ },
+ "m20260929-43f4defb": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Armenia",
+  "right": "Montenegro",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304004（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30304004"
+  ]
+ },
+ "m20260929-ecbc0092": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Georgia",
+  "right": "Ukraine",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30207394（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30207394"
+  ]
+ },
+ "m20260929-8409b90b": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Latvia",
+  "right": "Cyprus",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304000（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30304000"
+  ]
+ },
+ "m20260929-2d18cae5": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Belgium",
+  "right": "France",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304001（05:56取得）",
+  "flags": [
+   "主力休養リスク"
+  ],
+  "feed_ids": [
+   "bov:30304001"
+  ]
+ },
+ "m20260929-0c124880": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Northern Ireland",
+  "right": "Hungary",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304002（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30304002"
+  ]
+ },
+ "m20260929-19d8568e": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Romania",
+  "right": "Bosnia & Herzegovina",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304003（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30304003"
+  ]
+ },
+ "m20260929-6cb71cf0": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Sweden",
+  "right": "Poland",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30304771（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30304771"
+  ]
+ },
+ "m20260929-3a88f56d": {
+  "sport": "サッカー",
+  "competition": "International / UEFA Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "Turkey",
+  "right": "Italy",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305366（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305366"
+  ]
+ },
+ "m20260929-678a5d24": {
+  "sport": "サッカー",
+  "competition": "International / CONCACAF Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T04:00:00+09:00",
+  "left": "Guadeloupe",
+  "right": "Barbados",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31285982（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31285982"
+  ]
+ },
+ "m20260929-913bf49e": {
+  "sport": "サッカー",
+  "competition": "International / CONCACAF Nations League",
+  "round": null,
+  "start_jst": "2026-09-29T06:00:00+09:00",
+  "left": "Cuba",
+  "right": "Bonaire",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31285430（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31285430"
+  ]
+ },
+ "m20260928-4bed3ef1": {
+  "sport": "サッカー",
+  "competition": "International / Friendlies National Teams",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Kyrgyzstan",
+  "right": "Maldives",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31047972（05:56取得）",
+  "flags": [
+   "価格が実力差と不整合の可能性",
+   "親善試合（ローテーション）"
+  ],
+  "feed_ids": [
+   "bov:31047972"
+  ]
+ },
+ "m20260929-dac352a3": {
+  "sport": "サッカー",
+  "competition": "International / Africa Cup of Nations",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Central African Republic",
+  "right": "Burkina Faso",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30298768（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30298768"
+  ]
+ },
+ "m20260929-f52b5246": {
+  "sport": "サッカー",
+  "competition": "International / Africa Cup of Nations",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Equatorial Guinea",
+  "right": "Sierra Leone",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30428176（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30428176"
+  ]
+ },
+ "m20260929-6d044d44": {
+  "sport": "サッカー",
+  "competition": "International / Africa Cup of Nations",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Zimbabwe",
+  "right": "DR Congo",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30587388（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30587388"
+  ]
+ },
+ "m20260929-1aa68707": {
+  "sport": "サッカー",
+  "competition": "Europe / Spain / LaLiga 2",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Leganés",
+  "right": "Castellón",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31249967（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31249967"
+  ]
+ },
+ "m20260928-ec05a046": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Primera Nacional",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Gimnasia Jujuy",
+  "right": "San Martín de Tucumán",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31232790（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31232790"
+  ]
+ },
+ "m20260928-ce2cf447": {
+  "sport": "サッカー",
+  "competition": "South America / Chile / Copa Chile",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Santa Cruz",
+  "right": "O'Higgins",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226809（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226809"
+  ]
+ },
+ "m20260929-405a301f": {
+  "sport": "サッカー",
+  "competition": "South America / Paraguay / Primera División",
+  "round": null,
+  "start_jst": "2026-09-29T04:30:00+09:00",
+  "left": "San Lorenzo",
+  "right": "CD Recoleta",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31272165（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31272165"
+  ]
+ },
+ "m20260928-095fd115": {
+  "sport": "サッカー",
+  "competition": "South America / Uruguay / Segunda Division",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Huracán FC",
+  "right": "Miramar Misiones",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227765（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227765"
+  ]
+ },
+ "m20260929-55f1070d": {
+  "sport": "サッカー",
+  "competition": "Europe / England / England Professional Development League",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Swansea U21",
+  "right": "QPR U21",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31492773（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31492773"
+  ]
+ },
+ "m20260928-49e90c16": {
+  "sport": "サッカー",
+  "competition": "International Club / Club Friendlies",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Maribor",
+  "right": "Gorica",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31410399（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31410399"
+  ]
+ },
+ "m20260929-ffb18321": {
+  "sport": "サッカー",
+  "competition": "International / UEFA U21 European Championship / U21 European Championship",
+  "round": null,
+  "start_jst": "2026-09-29T01:30:00+09:00",
+  "left": "Denmark U21",
+  "right": "Belarus U21",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305367（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305367"
+  ]
+ },
+ "m20260928-2f0e5eac": {
+  "sport": "サッカー",
+  "competition": "North America / Mexico / Liga TDP",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "CDC Dominguez Osos",
+  "right": "Huracanes Izcalli II",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31477772（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31477772"
+  ]
+ },
+ "m20260928-94a37b64": {
+  "sport": "サッカー",
+  "competition": "North America / Mexico / Liga Premier Serie A",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Acambaro FC",
+  "right": "Artesanos Metepec",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31449967（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31449967"
+  ]
+ },
+ "m20260928-6a801fad": {
+  "sport": "サッカー",
+  "competition": "North America / Mexico / Liga de Expansion MX",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Tapatío",
+  "right": "Tepatitlán",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31232006（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31232006"
+  ]
+ },
+ "m20260928-b0389e31": {
+  "sport": "サッカー",
+  "competition": "North America / United States / USL League One",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "One Knoxville",
+  "right": "Westchester SC",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31369988（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31369988"
+  ]
+ },
+ "m20260928-69729a36": {
+  "sport": "サッカー",
+  "competition": "Europe / Greece / Super League 2",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Kallithea Athén",
+  "right": "Asteras Tripolis B",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31185187（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31185187"
+  ]
+ },
+ "m20260928-5036ec87": {
+  "sport": "サッカー",
+  "competition": "Europe / Greece / Super League 2",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Marko",
+  "right": "Panthrakikos",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31184237（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31184237"
+  ]
+ },
+ "m20260929-066381d4": {
+  "sport": "サッカー",
+  "competition": "Europe / Israel / National League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Hapoel Kfar Saba",
+  "right": "Bnei Yehuda Tel Aviv",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31332965（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31332965"
+  ]
+ },
+ "m20260929-9900860f": {
+  "sport": "サッカー",
+  "competition": "Europe / Israel / National League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Hapoel Kfar Shelem",
+  "right": "Maccabi Jaffa",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227183（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227183"
+  ]
+ },
+ "m20260929-d5a11468": {
+  "sport": "サッカー",
+  "competition": "Europe / Israel / National League",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Maccabi Ironi Kiryat Gat",
+  "right": "Kfar Qasim",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227182（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227182"
+  ]
+ },
+ "m20260929-edd07ea6": {
+  "sport": "サッカー",
+  "competition": "Europe / Israel / National League",
+  "round": null,
+  "start_jst": "2026-09-29T01:45:00+09:00",
+  "left": "Maccabi Bney Reine",
+  "right": "Hapoel Ra'anana",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226218（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226218"
+  ]
+ },
+ "m20260929-63b03242": {
+  "sport": "サッカー",
+  "competition": "Europe / Norway / 3. Division",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Rælingen",
+  "right": "Lyn 1896 FK 2",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231780（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231780"
+  ]
+ },
+ "m20260929-e8a561bb": {
+  "sport": "サッカー",
+  "competition": "Europe / Portugal / Liga Next Gen U23",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Leixões U23",
+  "right": "Vizela U23",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231779（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231779"
+  ]
+ },
+ "m20260928-018ba535": {
+  "sport": "サッカー",
+  "competition": "Europe / Serbia / Prva Liga",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Graficar Beograd",
+  "right": "FK Teleoptik",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31249195（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31249195"
+  ]
+ },
+ "m20260929-ab3455a2": {
+  "sport": "サッカー",
+  "competition": "Europe / Serbia / Prva Liga",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Bor 1919",
+  "right": "Metalac GM",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31252199（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31252199"
+  ]
+ },
+ "m20260929-4a650e02": {
+  "sport": "サッカー",
+  "competition": "Europe / Serbia / Prva Liga",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Loznica",
+  "right": "Spartak Subotica",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231970（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231970"
+  ]
+ },
+ "m20260929-4abf70b2": {
+  "sport": "サッカー",
+  "competition": "Europe / Slovakia / 2. Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "MSK Zilina B",
+  "right": "Humenne",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31282983（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31282983"
+  ]
+ },
+ "m20260929-3fe5964b": {
+  "sport": "サッカー",
+  "competition": "Europe / Slovenia / 2nd Liga",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Rudar Velenje",
+  "right": "ND Dravinja",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31143788（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31143788"
+  ]
+ },
+ "m20260928-e7b86bde": {
+  "sport": "サッカー",
+  "competition": "Europe / Ukraine / Persha Liga",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Zhytomyr 2",
+  "right": "Kolos Kovalivka (R)",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31367766（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31367766"
+  ]
+ },
+ "m20260928-81b75f8a": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Torneo Federal A",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Sol de America de Formosa",
+  "right": "Cipolletti",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31239588（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31239588"
+  ]
+ },
+ "m20260928-110ddf58": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Torneo Federal A",
+  "round": null,
+  "start_jst": "2026-09-28T07:30:00+09:00",
+  "left": "Sportivo y Biblioteca Atenas",
+  "right": "San Martín Formosa",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31239587（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31239587"
+  ]
+ },
+ "m20260928-e01fd8d1": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Primera Division, Women",
+  "round": null,
+  "start_jst": "2026-09-28T21:00:00+09:00",
+  "left": "SATSAID (W)",
+  "right": "Gimnasia La Plata (W)",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31330385（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31330385"
+  ]
+ },
+ "m20260929-0a96985c": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Primera C Metropolitana",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Centro Español",
+  "right": "Defensores de Cambaceres",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31373594（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31373594"
+  ]
+ },
+ "m20260929-b71198c3": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Primera C Metropolitana",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Justo José de Urquiza",
+  "right": "Leandro N. Alem",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31492814（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31492814"
+  ]
+ },
+ "m20260929-56c20a03": {
+  "sport": "サッカー",
+  "competition": "South America / Argentina / Primera C Metropolitana",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Leones de Rosario",
+  "right": "Luján",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31493765（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31493765"
+  ]
+ },
+ "m20260928-1b3a7bb8": {
+  "sport": "サッカー",
+  "competition": "South America / Brazil / Brasileiro Serie C",
+  "round": null,
+  "start_jst": "2026-09-28T06:30:00+09:00",
+  "left": "Brusque SC",
+  "right": "Ferroviária SP",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31192171（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31192171"
+  ]
+ },
+ "m20260928-1d2c93a8": {
+  "sport": "サッカー",
+  "competition": "South America / Brazil / Paranaense 3",
+  "round": null,
+  "start_jst": "2026-09-28T06:30:00+09:00",
+  "left": "City London PR",
+  "right": "CA Cambé PR",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31191177（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31191177"
+  ]
+ },
+ "m20260928-33c27427": {
+  "sport": "サッカー",
+  "competition": "South America / Brazil / Campeonato Gaucho 3",
+  "round": null,
+  "start_jst": "2026-09-28T08:30:00+09:00",
+  "left": "Clube 1992",
+  "right": "CF Com Vida SAF RS",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31462368（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31462368"
+  ]
+ },
+ "m20260928-960b2f7d": {
+  "sport": "サッカー",
+  "competition": "North America / El Salvador / Primera Division",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Municipal Limeño",
+  "right": "CD FAS",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31310964（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31310964"
+  ]
+ },
+ "m20260928-aba30bd7": {
+  "sport": "サッカー",
+  "competition": "North America / Panama / LPF",
+  "round": null,
+  "start_jst": "2026-09-28T08:15:00+09:00",
+  "left": "Veraguas FC",
+  "right": "Sporting San Miguelito",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31471567（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31471567"
+  ]
+ },
+ "m20260928-f04b2405": {
+  "sport": "サッカー",
+  "competition": "North America / Dominican Republic / Championship",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Cibao CF",
+  "right": "Jarabacoa",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31469569（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31469569"
+  ]
+ },
+ "m20260928-e5b313f9": {
+  "sport": "サッカー",
+  "competition": "North America / Jamaica / Premier League",
+  "round": null,
+  "start_jst": "2026-09-28T07:05:00+09:00",
+  "left": "Racing United",
+  "right": "Montego Bay United",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31439171（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31439171"
+  ]
+ },
+ "m20260928-a7e59907": {
+  "sport": "サッカー",
+  "competition": "North America / Jamaica / Premier League",
+  "round": null,
+  "start_jst": "2026-09-28T10:00:00+09:00",
+  "left": "Waterhouse",
+  "right": "Treasure Beach",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31451378（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31451378"
+  ]
+ },
+ "m20260928-3aef2414": {
+  "sport": "サッカー",
+  "competition": "South America / Bolivia / Copa Division Profesional",
+  "round": null,
+  "start_jst": "2026-09-28T06:15:00+09:00",
+  "left": "Bolívar",
+  "right": "Blooming",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31184222（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31184222"
+  ]
+ },
+ "m20260928-ab2eb67f": {
+  "sport": "サッカー",
+  "competition": "South America / Bolivia / Copa Division Profesional",
+  "round": null,
+  "start_jst": "2026-09-28T08:30:00+09:00",
+  "left": "Real Tomayapo",
+  "right": "Real Oruro",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226220（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226220"
+  ]
+ },
+ "m20260928-fe499e60": {
+  "sport": "サッカー",
+  "competition": "South America / Colombia / Primera B",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Barranquilla FC",
+  "right": "Real Soacha Cundinamarca",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31309163（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31309163"
+  ]
+ },
+ "m20260929-d01fb750": {
+  "sport": "サッカー",
+  "competition": "South America / Colombia / Primera B",
+  "round": null,
+  "start_jst": "2026-09-29T05:30:00+09:00",
+  "left": "Independiente Yumbo",
+  "right": "Orsomarso SC",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31345569（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31345569"
+  ]
+ },
+ "m20260929-af802354": {
+  "sport": "サッカー",
+  "competition": "South America / Colombia / Primera B",
+  "round": null,
+  "start_jst": "2026-09-29T06:00:00+09:00",
+  "left": "Internacional FC Palmira",
+  "right": "Itagüí Leones",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31345209（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31345209"
+  ]
+ },
+ "m20260929-c723ef5e": {
+  "sport": "サッカー",
+  "competition": "South America / Paraguay / Segunda Division",
+  "round": null,
+  "start_jst": "2026-09-29T04:30:00+09:00",
+  "left": "CA Tembetary",
+  "right": "Paraguari Ac",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231783（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231783"
+  ]
+ },
+ "m20260928-c2477d0e": {
+  "sport": "サッカー",
+  "competition": "Asia / Bhutan / Premier League",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Tensung FC",
+  "right": "RTC FC",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227185（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227185"
+  ]
+ },
+ "m20260928-d1bc590a": {
+  "sport": "サッカー",
+  "competition": "Asia / Iran / Azadegan League",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Ario Bam Eslamshahr",
+  "right": "Havadar SC",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226214（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226214"
+  ]
+ },
+ "m20260928-7a864fdc": {
+  "sport": "サッカー",
+  "competition": "Asia / Iran / Azadegan League",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Kara Gostar",
+  "right": "Mes Kerman",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227365（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227365"
+  ]
+ },
+ "m20260928-58ed3ab2": {
+  "sport": "サッカー",
+  "competition": "Asia / Iran / Azadegan League",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Saipa FC",
+  "right": "Niroye Zamini Tehran",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227766（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227766"
+  ]
+ },
+ "m20260929-823610d1": {
+  "sport": "サッカー",
+  "competition": "Asia / Iran / Azadegan League",
+  "round": null,
+  "start_jst": "2026-09-29T00:30:00+09:00",
+  "left": "Palayesh Naft Bandar Abbas",
+  "right": "Naft Gachsaran",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31227764（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31227764"
+  ]
+ },
+ "m20260929-df130952": {
+  "sport": "サッカー",
+  "competition": "Asia / Iran / Azadegan League",
+  "round": null,
+  "start_jst": "2026-09-29T00:30:00+09:00",
+  "left": "Pars Jonoubi Jam",
+  "right": "Naft Masjed Soleyman",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226217（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226217"
+  ]
+ },
+ "m20260929-e7fc0ab9": {
+  "sport": "サッカー",
+  "competition": "Asia / Qatar / QSL Cup",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Al Kharitiyath",
+  "right": "Al Wakrah",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226808（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226808"
+  ]
+ },
+ "m20260929-1809c6a7": {
+  "sport": "サッカー",
+  "competition": "Asia / Qatar / QSL Cup",
+  "round": null,
+  "start_jst": "2026-09-29T02:15:00+09:00",
+  "left": "Al Sailiya",
+  "right": "Al Rayyan",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226216（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226216"
+  ]
+ },
+ "m20260929-082951b1": {
+  "sport": "サッカー",
+  "competition": "Asia / Qatar / QSL Cup",
+  "round": null,
+  "start_jst": "2026-09-29T02:15:00+09:00",
+  "left": "Al-Shahaniya SC",
+  "right": "Al Duhail",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31226213（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31226213"
+  ]
+ },
+ "m20260928-4f792a79": {
+  "sport": "サッカー",
+  "competition": "Asia / UAE / UAE Presidents Cup",
+  "round": null,
+  "start_jst": "2026-09-28T23:40:00+09:00",
+  "left": "Al Ittifaq",
+  "right": "Al Urooba",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31490776（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31490776"
+  ]
+ },
+ "m20260928-773fa8b5": {
+  "sport": "サッカー",
+  "competition": "Asia / UAE / UAE Presidents Cup",
+  "round": null,
+  "start_jst": "2026-09-28T23:40:00+09:00",
+  "left": "Al Arabi",
+  "right": "Al-Dhaid",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31491963（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31491963"
+  ]
+ },
+ "m20260928-dae3856b": {
+  "sport": "サッカー",
+  "competition": "International / Friendlies National Teams U19",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Kazakhstan U19",
+  "right": "Switzerland U19",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31492377（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31492377"
+  ]
+ },
+ "m20260929-45ffc614": {
+  "sport": "サッカー",
+  "competition": "International / Friendlies National Teams U19",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Slovakia U19",
+  "right": "Poland U19",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31492368（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31492368"
+  ]
+ },
+ "m20260928-c4694ed8": {
+  "sport": "サッカー",
+  "competition": "International / National Friendlies U21",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "North Macedonia U21",
+  "right": "Russia U21",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31076387（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31076387"
+  ]
+ },
+ "m20260929-49a5169a": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T02:30:00+09:00",
+  "left": "FEA NF NX",
+  "right": "Argonaftis Triljyas",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31418371（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31418371"
+  ]
+ },
+ "m20260929-c7f584c8": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T02:45:00+09:00",
+  "left": "AO Vrilisiakos",
+  "right": "AO Karea",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31418963（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31418963"
+  ]
+ },
+ "m20260929-2da7df27": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Ilioupolis",
+  "right": "Amilla Peristeriou",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31419364（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31419364"
+  ]
+ },
+ "m20260929-cca50987": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Aharnis LFM",
+  "right": "Eolos Tavros 2006",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31420171（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31420171"
+  ]
+ },
+ "m20260929-9645c74d": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Enosi Iliou",
+  "right": "Oion Ag. Stefanou",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31419977（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31419977"
+  ]
+ },
+ "m20260929-c05f049d": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T03:45:00+09:00",
+  "left": "GS Kifisias",
+  "right": "KAO Likovrisis",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31419980（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31419980"
+  ]
+ },
+ "m20260929-98840cfa": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Greece / Eskana A1",
+  "round": null,
+  "start_jst": "2026-09-29T04:00:00+09:00",
+  "left": "AO Ekalis",
+  "right": "AO Kronos Geraka",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31422163（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31422163"
+  ]
+ },
+ "m20260928-31b33aba": {
+  "sport": "バスケットボール",
+  "competition": "Europe / Latvia / National League",
+  "round": null,
+  "start_jst": "2026-09-28T23:30:00+09:00",
+  "left": "Marupes NSS/LU",
+  "right": "Jekabpils BA",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31339978（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31339978"
+  ]
+ },
+ "m20260928-b7c34e62": {
+  "sport": "バスケットボール",
+  "competition": "International Club / Club Friendlies",
+  "round": null,
+  "start_jst": "2026-09-28T07:45:00+09:00",
+  "left": "Malvín",
+  "right": "Urunday",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31499770（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31499770"
+  ]
+ },
+ "m20260928-0d9df3bf": {
+  "sport": "バスケットボール",
+  "competition": "International Club / West Asia Super League",
+  "round": null,
+  "start_jst": "2026-09-28T23:45:00+09:00",
+  "left": "Indian Railways",
+  "right": "Al Ittihad Jeddah",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31399765（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31399765"
+  ]
+ },
+ "m20260928-f30a94e2": {
+  "sport": "バスケットボール",
+  "competition": "Asia / Philippines / NCAA",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "SBU Red Lions",
+  "right": "MU Cardinals",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31443971（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31443971"
+  ]
+ },
+ "m20260928-438221e0": {
+  "sport": "バスケットボール",
+  "competition": "Asia / Philippines / NCAA",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "CSJL Knights",
+  "right": "AU Chiefs",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31489769（05:56取得）",
+  "flags": [
+   "下位リーグ（整合性リスク）"
+  ],
+  "feed_ids": [
+   "bov:31489769"
+  ]
+ },
+ "m20260929-c05c9fcd": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Brazil / Paulista FPB U20",
+  "round": null,
+  "start_jst": "2026-09-29T04:00:00+09:00",
+  "left": "Mogi das Cruzes SP U20",
+  "right": "São José SP U20",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31493170（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31493170"
+  ]
+ },
+ "m20260928-753318ca": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Dominican Republic / TBS",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "San Lazzaro",
+  "right": "San Carlos",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31448984（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31448984"
+  ]
+ },
+ "m20260928-d1d283e7": {
+  "sport": "バスケットボール",
+  "competition": "Americas / El Salvador / Liga Mayor",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Salvadorenos BC",
+  "right": "Ahuachapán",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31497987（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31497987"
+  ]
+ },
+ "m20260928-7f0ec6ca": {
+  "sport": "バスケットボール",
+  "competition": "Americas / El Salvador / Liga Mayor",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Izalco",
+  "right": "Santa Ana",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31497991（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31497991"
+  ]
+ },
+ "m20260928-9b6ef5e4": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Mexico / LNBP",
+  "round": null,
+  "start_jst": "2026-09-28T07:15:00+09:00",
+  "left": "Diablos Rojos del México",
+  "right": "Astros de Jalisco",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31322168（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31322168"
+  ]
+ },
+ "m20260928-8428e3cb": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Mexico / LNBP",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Lobos Plateados de la BUAP",
+  "right": "Mineros de Zacatecas",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31476573（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31476573"
+  ]
+ },
+ "m20260928-e3d29142": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Puerto Rico / BSN Women",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Monarcas Juana Diaz W",
+  "right": "Explosivas de Moca W",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31439386（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31439386"
+  ]
+ },
+ "m20260928-c62af0f9": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Puerto Rico / BSN Women",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Criollos de Caguas W",
+  "right": "Ganaderas de Hatillo W",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31434576（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31434576"
+  ]
+ },
+ "m20260928-ee12bd91": {
+  "sport": "バスケットボール",
+  "competition": "Americas / Puerto Rico / BSN Women",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Leonas de Ponce W",
+  "right": "Pollitas de Isabela W",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31438591（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31438591"
+  ]
+ },
+ "m20260928-7db74eae": {
+  "sport": "アイスホッケー",
+  "competition": "United States / AHL",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Ontario Reign",
+  "right": "Coachella Valley Firebirds",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31440981（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31440981"
+  ]
+ },
+ "m20260928-634fa6e3": {
+  "sport": "アイスホッケー",
+  "competition": "United States / AHL",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Texas Stars",
+  "right": "Tucson Roadrunners",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31440589（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31440589"
+  ]
+ },
+ "m20260929-0f6ae3c4": {
+  "sport": "アイスホッケー",
+  "competition": "United States / AHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Milwaukee Admirals",
+  "right": "Rockford Icehogs",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31441179（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31441179"
+  ]
+ },
+ "m20260929-8f24ae5c": {
+  "sport": "アイスホッケー",
+  "competition": "United States / AHL",
+  "round": null,
+  "start_jst": "2026-09-29T05:00:00+09:00",
+  "left": "Calgary Wranglers",
+  "right": "Abbotsford Canucks",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31441178（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31441178"
+  ]
+ },
+ "m20260928-66e28991": {
+  "sport": "アイスホッケー",
+  "competition": "Canada / OHL",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Kitchener Rangers",
+  "right": "Kingston Frontenacs",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31191374（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31191374"
+  ]
+ },
+ "m20260928-204356a8": {
+  "sport": "アイスホッケー",
+  "competition": "Canada / WHL",
+  "round": null,
+  "start_jst": "2026-09-28T07:00:00+09:00",
+  "left": "Edmonton Oil Kings",
+  "right": "Medicine Hat Tigers",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31487365（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31487365"
+  ]
+ },
+ "m20260928-b30f90af": {
+  "sport": "アイスホッケー",
+  "competition": "Canada / WHL",
+  "round": null,
+  "start_jst": "2026-09-28T08:00:00+09:00",
+  "left": "Vancouver Giants",
+  "right": "Prince George Cougars",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31190779（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31190779"
+  ]
+ },
+ "m20260928-d5373990": {
+  "sport": "アイスホッケー",
+  "competition": "KHL",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Avangard Omsk",
+  "right": "Metallurg Magnitogorsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31398415（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31398415"
+  ]
+ },
+ "m20260929-476364b7": {
+  "sport": "アイスホッケー",
+  "competition": "KHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:10:00+09:00",
+  "left": "Dinamo Minsk",
+  "right": "Lada Togliatti",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31399374（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31399374"
+  ]
+ },
+ "m20260929-ba3b60e5": {
+  "sport": "アイスホッケー",
+  "competition": "KHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:30:00+09:00",
+  "left": "Shanghai Dragons",
+  "right": "HC Sochi",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31399965（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31399965"
+  ]
+ },
+ "m20260929-8555cfc0": {
+  "sport": "アイスホッケー",
+  "competition": "KHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:30:00+09:00",
+  "left": "Torpedo N. Novgorod",
+  "right": "Salavat Yulaev Ufa",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31399963（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31399963"
+  ]
+ },
+ "m20260929-9ef8b43a": {
+  "sport": "アイスホッケー",
+  "competition": "KHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:30:00+09:00",
+  "left": "Dynamo Moscow",
+  "right": "Traktor Chelyabinsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31400965（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31400965"
+  ]
+ },
+ "m20260928-bf1a608c": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / Extraliga",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Sparta Prague",
+  "right": "Energie Karlovy Vary",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31412189（05:56取得）",
+  "flags": [
+   "価格が実力差と不整合の可能性"
+  ],
+  "feed_ids": [
+   "bov:31412189"
+  ]
+ },
+ "m20260928-3b750047": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Russia / VHL",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Yuzhny Ural Orsk",
+  "right": "Neftjanik Almetjevsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31442365（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31442365"
+  ]
+ },
+ "m20260928-2fd12677": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Russia / VHL",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "HC Magnitka Magnitogorsk",
+  "right": "CSK VVS Samara",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31442164（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31442164"
+  ]
+ },
+ "m20260928-15b9f9b5": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Russia / MHL",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Snezhnye Barsy Astana",
+  "right": "Sputnik Almetievsk U20",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31441769（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31441769"
+  ]
+ },
+ "m20260929-57391567": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Russia / MHL",
+  "round": null,
+  "start_jst": "2026-09-29T00:30:00+09:00",
+  "left": "Loko-76 Yaroslavl",
+  "right": "Mamonty Yugry U20",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31441584（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31441584"
+  ]
+ },
+ "m20260929-b2ab3be5": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Russia / MHL",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Mikhaylov Academy U20",
+  "right": "Red Machine U20",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31442374（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31442374"
+  ]
+ },
+ "m20260929-8bfc5bbf": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Sweden / Allsvenskan",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Västerås IK",
+  "right": "Kalmar HC",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305187（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305187"
+  ]
+ },
+ "m20260929-0344121b": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Sweden / Allsvenskan",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Nybro Vikings IF",
+  "right": "MoDo Hockey",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305186（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305186"
+  ]
+ },
+ "m20260929-6316c0fb": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Belarus / Extraliga",
+  "round": null,
+  "start_jst": "2026-09-29T00:30:00+09:00",
+  "left": "Mogilev",
+  "right": "Vitebsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231994（05:56取得）",
+  "flags": [
+   "下位リーグ（整合性リスク）"
+  ],
+  "feed_ids": [
+   "bov:31231994"
+  ]
+ },
+ "m20260929-cd9b7793": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Belarus / Extraliga",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Slavutych Smolensk",
+  "right": "Shakhtyor Soligorsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231604（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231604"
+  ]
+ },
+ "m20260929-b07131a8": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Belarus / Extraliga",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Aviator Baranovichi",
+  "right": "Yunost Minsk",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31231995（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31231995"
+  ]
+ },
+ "m20260928-8fc52e68": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Horacka Slavia Trebic",
+  "right": "HC Chomutov",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31232165（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:31232165"
+  ]
+ },
+ "m20260928-aee88602": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "SC Kolin",
+  "right": "Zubr Prerov",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305980（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305980"
+  ]
+ },
+ "m20260929-2778a266": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Havirov Panthers",
+  "right": "Dukla Jihlava",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30306173（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30306173"
+  ]
+ },
+ "m20260929-03409a63": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Banik Sokolov",
+  "right": "Frydek Mistek",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30306172（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30306172"
+  ]
+ },
+ "m20260929-1cbdb94c": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "VHK Vsetin",
+  "right": "HC Tábor",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305188（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305188"
+  ]
+ },
+ "m20260929-d4d2db7b": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Dynamo Pardubice B",
+  "right": "PSG Berani Zlin",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305189（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305189"
+  ]
+ },
+ "m20260929-a84737f0": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Czechia / 1st Liga",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Stadion Litomerice",
+  "right": "Slavia Prague",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305979（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305979"
+  ]
+ },
+ "m20260929-28f8e627": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Denmark / Superisligaen",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Aalborg Pirates",
+  "right": "IK SønderjyskE",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30305370（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30305370"
+  ]
+ },
+ "m20260928-d14130fe": {
+  "sport": "アイスホッケー",
+  "competition": "Europe / Kazakhstan / Pro Hockey League",
+  "round": null,
+  "start_jst": "2026-09-28T21:00:00+09:00",
+  "left": "Nomad Astana",
+  "right": "Saryarka",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:30941375（05:56取得）",
+  "flags": [],
+  "feed_ids": [
+   "bov:30941375"
+  ]
+ },
+ "m20260928-6cde717a": {
+  "sport": "クリケット",
+  "competition": "Oman / One Day Tri Series",
+  "round": null,
+  "start_jst": "2026-09-28T14:30:00+09:00",
+  "left": "Oman",
+  "right": "Kerala",
+  "home_away": "左＝ホーム（配信表記）",
+  "status": "scheduled",
+  "result": null,
+  "note": "Bovada bov:31462387（05:56取得）",
+  "flags": [
+   "親善試合（ローテーション）",
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "bov:31462387"
+  ]
+ },
+ "m20260928-a58ab886": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-28T06:25:00+09:00",
+  "left": "Oliveira N.",
+  "right": "Tu L.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333978（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333978"
+  ]
+ },
+ "m20260928-2070329b": {
+  "sport": "テニス",
+  "competition": "Porto challenger",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Dimitrov G.",
+  "right": "Rincon D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334908（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334908"
+  ]
+ },
+ "m20260929-f384ab75": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Milavsky D.",
+  "right": "Bicknell B.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333990（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333990"
+  ]
+ },
+ "m20260929-351a99be": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Zink T.",
+  "right": "Krueger M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334002（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334002"
+  ]
+ },
+ "m20260929-8a37308d": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-29T05:00:00+09:00",
+  "left": "Shick B.",
+  "right": "Baris O.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333994（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333994"
+  ]
+ },
+ "m20260929-a834cc04": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-29T05:00:00+09:00",
+  "left": "Rottgering M.",
+  "right": "Winter E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333996（05:59取得）",
+  "flags": [
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3333996"
+  ]
+ },
+ "m20260928-e9fb8b82": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Andrade Da Silva L.",
+  "right": "Olivieri G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333948（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333948"
+  ]
+ },
+ "m20260929-7a0a9f1c": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Meligeni Rodrigues Alves F.",
+  "right": "Zarate C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333944（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333944"
+  ]
+ },
+ "m20260929-e9ba60f1": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-29T02:00:00+09:00",
+  "left": "Justo G.",
+  "right": "Roncadelli F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333952（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333952"
+  ]
+ },
+ "m20260929-fd4f4c49": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Villanueva G.",
+  "right": "Prado Angelo J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333954（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333954"
+  ]
+ },
+ "m20260928-f30bc178": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Basile A.",
+  "right": "Losaberidze V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334538（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334538"
+  ]
+ },
+ "m20260928-eda0808e": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Madaras D.",
+  "right": "Ferrari F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334542（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334542"
+  ]
+ },
+ "m20260928-ddcc59ce": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Tiukaev R.",
+  "right": "Paardekooper S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334548（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334548"
+  ]
+ },
+ "m20260928-b2dc5ecb": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Grippo V.",
+  "right": "Misasi G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334550（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334550"
+  ]
+ },
+ "m20260928-ca31fc0a": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Derepasko T.",
+  "right": "Dimic M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334540（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334540"
+  ]
+ },
+ "m20260928-661d396c": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Tkemaladze Z.",
+  "right": "Cherie Ligniere E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334544（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334544"
+  ]
+ },
+ "m20260928-6f3e3e57": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Klok D.",
+  "right": "Villoslada E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334554（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334554"
+  ]
+ },
+ "m20260928-b74087ca": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Fiorentini A.",
+  "right": "Kukasian A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334556（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334556"
+  ]
+ },
+ "m20260928-31f8fad5": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Shvangiradze A.",
+  "right": "Mecarelli M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334546（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334546"
+  ]
+ },
+ "m20260928-1c125f3f": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Champigneulle E.",
+  "right": "Stirbu C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334012（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334012"
+  ]
+ },
+ "m20260929-32893fe5": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T00:10:00+09:00",
+  "left": "Lamchinniah H.",
+  "right": "Bracks I.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334014（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334014"
+  ]
+ },
+ "m20260929-9ec821ea": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T01:30:00+09:00",
+  "left": "Lassila J.",
+  "right": "Lundell M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334016（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334016"
+  ]
+ },
+ "m20260929-f99edb29": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Alvarez M.",
+  "right": "Brumm J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334018（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334018"
+  ]
+ },
+ "m20260929-41e5a169": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T05:30:00+09:00",
+  "left": "Liu Y.",
+  "right": "Papoe C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334778（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334778"
+  ]
+ },
+ "m20260929-0b71aa49": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T06:00:00+09:00",
+  "left": "Khosla R.",
+  "right": "McDonald B.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334020（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334020"
+  ]
+ },
+ "m20260929-39d57f9f": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 3",
+  "round": null,
+  "start_jst": "2026-09-29T06:00:00+09:00",
+  "left": "Bernadsky G.",
+  "right": "Gold N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334780（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334780"
+  ]
+ },
+ "m20260928-2108f4a8": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Yamamoto N.",
+  "right": "King L.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3332804（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3332804"
+  ]
+ },
+ "m20260928-cd950dcb": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Kistanov K.",
+  "right": "Tashiro Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334104（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334104"
+  ]
+ },
+ "m20260928-4f23ada8": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "Nakanishi S.",
+  "right": "Menichella S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334564（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334564"
+  ]
+ },
+ "m20260928-9cc5eacc": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T10:10:00+09:00",
+  "left": "Kamalov A.",
+  "right": "Mochizuki K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334106（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334106"
+  ]
+ },
+ "m20260928-fd2287aa": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T10:10:00+09:00",
+  "left": "Kawada K.",
+  "right": "Yamamoto N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334108（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334108"
+  ]
+ },
+ "m20260928-32439632": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T11:20:00+09:00",
+  "left": "Yamamoto S.",
+  "right": "Kistanov K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334110（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334110"
+  ]
+ },
+ "m20260928-eb5402f0": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Nakanishi S.",
+  "right": "Yamamoto N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334560（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334560"
+  ]
+ },
+ "m20260928-f1bb6834": {
+  "sport": "テニス",
+  "competition": "UTR Pro Tennis Series 9",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Menichella S.",
+  "right": "Kawada K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334562（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334562"
+  ]
+ },
+ "m20260928-117f0fb2": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Lopez Morillo I.",
+  "right": "Oetzbach A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334748（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334748"
+  ]
+ },
+ "m20260928-de667f8c": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Agamenone F.",
+  "right": "Sperle J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334750（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334750"
+  ]
+ },
+ "m20260928-aa5bd874": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Ovcharenko O.",
+  "right": "Basile P.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334752（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334752"
+  ]
+ },
+ "m20260928-39cca4d9": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Donald M.",
+  "right": "Sakellaridis D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334754（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334754"
+  ]
+ },
+ "m20260928-8771b375": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Moroni F.",
+  "right": "Andaloro F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334756（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334756"
+  ]
+ },
+ "m20260928-ed72b988": {
+  "sport": "テニス",
+  "competition": "Bari challenger",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Arnaboldi F.",
+  "right": "Gulin S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334758（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334758"
+  ]
+ },
+ "m20260928-3a1ca70d": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Hanfmann Y.",
+  "right": "Machac T.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334566（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334566"
+  ]
+ },
+ "m20260928-ea97a753": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Te R.",
+  "right": "Duckworth J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334568（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334568"
+  ]
+ },
+ "m20260928-29c02b9b": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Landaluce M.",
+  "right": "Trungelliti M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334570（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334570"
+  ]
+ },
+ "m20260928-8d98dcce": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Molcan A.",
+  "right": "Kopriva V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334572（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334572"
+  ]
+ },
+ "m20260928-729b2235": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Zhou Y.",
+  "right": "Carreno-Busta P.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334574（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334574"
+  ]
+ },
+ "m20260928-ec066ea8": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Van De Zandschulp B.",
+  "right": "Royer V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334576（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334576"
+  ]
+ },
+ "m20260928-7438e8f7": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Cui J.",
+  "right": "Altmaier D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334578（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334578"
+  ]
+ },
+ "m20260928-dfa687fb": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Kecmanovic M.",
+  "right": "Mannarino A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334580（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334580"
+  ]
+ },
+ "m20260928-e0a6c075": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-28T07:30:00+09:00",
+  "left": "Zamora N.",
+  "right": "Bigun K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333986（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333986"
+  ]
+ },
+ "m20260928-9336a822": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-28T07:55:00+09:00",
+  "left": "Palavestra I.",
+  "right": "Ostapenkov D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333982（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333982"
+  ]
+ },
+ "m20260928-aa33ec73": {
+  "sport": "テニス",
+  "competition": "Columbus 3 challenger",
+  "round": null,
+  "start_jst": "2026-09-28T09:05:00+09:00",
+  "left": "Ayeni A.",
+  "right": "Bassem Sobhy M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333984（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333984"
+  ]
+ },
+ "m20260928-61ed2038": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Heredia S.",
+  "right": "Osorio J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334256（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334256"
+  ]
+ },
+ "m20260928-2fe6b8e7": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Rodriguez L.",
+  "right": "Leite W.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334884（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334884"
+  ]
+ },
+ "m20260928-426bee5a": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Fernandez B.",
+  "right": "Remondy Pagotto V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334886（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334886"
+  ]
+ },
+ "m20260928-2c17ad8f": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-28T23:10:00+09:00",
+  "left": "Saraiva Dos Santos P.",
+  "right": "Schenekenberg G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334888（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334888"
+  ]
+ },
+ "m20260928-bb4afde9": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Tixhon D.",
+  "right": "Nannelli M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334412（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334412"
+  ]
+ },
+ "m20260928-5882f038": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T15:05:00+09:00",
+  "left": "Delicata L.",
+  "right": "Bajurko A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334112（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334112"
+  ]
+ },
+ "m20260928-38184b24": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T15:05:00+09:00",
+  "left": "Krivoshchekov M.",
+  "right": "Ikeda Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334114（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334114"
+  ]
+ },
+ "m20260928-e4cdf016": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T15:05:00+09:00",
+  "left": "Stamatopoulos I.",
+  "right": "Morag S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334116（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334116"
+  ]
+ },
+ "m20260928-90e6fb1f": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T15:05:00+09:00",
+  "left": "Kypriotis E.",
+  "right": "Dubinin A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334260（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334260"
+  ]
+ },
+ "m20260928-c5496ba1": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Zgola B.",
+  "right": "Brignacca A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334398（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334398"
+  ]
+ },
+ "m20260928-29c85159": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Khorozov M.",
+  "right": "Chetverikov R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334400（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334400"
+  ]
+ },
+ "m20260928-e85d40c9": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Rispoli N.",
+  "right": "Seleznev B.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334402（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334402"
+  ]
+ },
+ "m20260928-bc390c07": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Malirz K.",
+  "right": "Boi G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334406（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334406"
+  ]
+ },
+ "m20260928-868dc291": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Valle F.",
+  "right": "Sabbatini M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334408（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334408"
+  ]
+ },
+ "m20260928-377a1b90": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Ricci P.",
+  "right": "Khotchenkov E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334410（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334410"
+  ]
+ },
+ "m20260928-4d76ae63": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Petre S.",
+  "right": "Popa D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334832（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334832"
+  ]
+ },
+ "m20260928-33cd31b2": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Breazu M.",
+  "right": "Maguire C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334834（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334834"
+  ]
+ },
+ "m20260928-3adb4efe": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:35:00+09:00",
+  "left": "Elesin M.",
+  "right": "Kothari A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334262（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334262"
+  ]
+ },
+ "m20260928-5e71bdf9": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T16:35:00+09:00",
+  "left": "Drayton T.",
+  "right": "Allen L.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334264（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334264"
+  ]
+ },
+ "m20260928-f8f5eebf": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Amadike C.",
+  "right": "Mintz Z.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334278（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334278"
+  ]
+ },
+ "m20260928-5c56a8a6": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Savano M.",
+  "right": "Knezevic M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334350（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334350"
+  ]
+ },
+ "m20260928-3118e181": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Lopez N.",
+  "right": "Tsapenko M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334356（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334356"
+  ]
+ },
+ "m20260928-83d7d24a": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Petrovic D.",
+  "right": "Hausberger G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334360（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334360"
+  ]
+ },
+ "m20260928-05a20fdc": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Bataljin L.",
+  "right": "Thakkar A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334794（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334794"
+  ]
+ },
+ "m20260928-da88d174": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Stoica I.",
+  "right": "Schinteie G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334836（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334836"
+  ]
+ },
+ "m20260928-12125eb6": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Todorov M.",
+  "right": "Bentzel C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334838（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334838"
+  ]
+ },
+ "m20260928-aead912c": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Bieldiugin T.",
+  "right": "Gadoiu A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334840（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334840"
+  ]
+ },
+ "m20260928-b5652836": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Suresh D.",
+  "right": "Chaurasia Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334796（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334796"
+  ]
+ },
+ "m20260928-2d3b60ca": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Venkataraman A.",
+  "right": "Umuhoza K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334798（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334798"
+  ]
+ },
+ "m20260928-a196f228": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Terblanche E.",
+  "right": "Mayank S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334800（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334800"
+  ]
+ },
+ "m20260928-5cddd485": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Mikovic N.",
+  "right": "Barbic A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334352（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334352"
+  ]
+ },
+ "m20260928-3ba836e3": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Van Noord N.",
+  "right": "Galus P.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334354（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334354"
+  ]
+ },
+ "m20260928-04654431": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Biletic I.",
+  "right": "Behr R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334362（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334362"
+  ]
+ },
+ "m20260928-e5abc1df": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Chayka A.",
+  "right": "Siftar J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334364（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334364"
+  ]
+ },
+ "m20260928-d825dd85": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Ganchev A.",
+  "right": "Font O.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334894（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334894"
+  ]
+ },
+ "m20260928-3dca74a1": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Garcia Paez L.",
+  "right": "Pujol Navarro B.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334896（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334896"
+  ]
+ },
+ "m20260928-0429ef5b": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T20:15:00+09:00",
+  "left": "Sheyngezikht L.",
+  "right": "Regas Luis N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334422（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334422"
+  ]
+ },
+ "m20260928-656c31ea": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Reyes Tirado O.",
+  "right": "Naharro D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334898（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334898"
+  ]
+ },
+ "m20260928-0e241ff3": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Palomar X.",
+  "right": "Casas Blasi J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334900（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334900"
+  ]
+ },
+ "m20260928-1718a32f": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-28T22:00:00+09:00",
+  "left": "Giraldi C.",
+  "right": "Garcia Mestre J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334902（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334902"
+  ]
+ },
+ "m20260929-b79dcc08": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Martinez Serrano M.",
+  "right": "Stanke C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334904（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334904"
+  ]
+ },
+ "m20260929-efb3f34b": {
+  "sport": "テニス",
+  "competition": "Futures 2026",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Petrov A.",
+  "right": "Andres Pastor Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334906（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334906"
+  ]
+ },
+ "m20260928-5dbd7a4e": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Sharipov M.",
+  "right": "Honda N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334196（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334196"
+  ]
+ },
+ "m20260928-b41bae0c": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Jasika O.",
+  "right": "Ferguson C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334200（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334200"
+  ]
+ },
+ "m20260928-286df5cb": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Fancutt T.",
+  "right": "Leong M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334198（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334198"
+  ]
+ },
+ "m20260928-5eb5c2fc": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T12:10:00+09:00",
+  "left": "Ding C.",
+  "right": "Aguiard E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334182（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334182"
+  ]
+ },
+ "m20260928-7e8be052": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Huang J.",
+  "right": "Moriya H.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334202（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334202"
+  ]
+ },
+ "m20260928-efcb91bf": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T14:00:00+09:00",
+  "left": "Atmane T.",
+  "right": "Palan D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334180（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334180"
+  ]
+ },
+ "m20260928-9dfb23cc": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T14:00:00+09:00",
+  "left": "Walton A.",
+  "right": "Shiraishi H.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334192（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334192"
+  ]
+ },
+ "m20260928-1e7e60fe": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T14:00:00+09:00",
+  "left": "Rawat S.",
+  "right": "Binda A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334194（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334194"
+  ]
+ },
+ "m20260928-98b2335c": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T15:30:00+09:00",
+  "left": "Bellucci M.",
+  "right": "Peliwo F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334184（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334184"
+  ]
+ },
+ "m20260928-05bc0005": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T15:30:00+09:00",
+  "left": "Saitoh K.",
+  "right": "Matsuda K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334186（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334186"
+  ]
+ },
+ "m20260928-4060d3c6": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T15:30:00+09:00",
+  "left": "Xia Z.",
+  "right": "Zhu E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334190（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334190"
+  ]
+ },
+ "m20260928-413c0b7f": {
+  "sport": "テニス",
+  "competition": "Jingshan challenger",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Vukic A.",
+  "right": "Seggerman R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334188（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334188"
+  ]
+ },
+ "m20260928-ba1b4de6": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Visker N.",
+  "right": "McDonald N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334102（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334102"
+  ]
+ },
+ "m20260928-974cd8f3": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Reco A.",
+  "right": "Zahraj P.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334098（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334098"
+  ]
+ },
+ "m20260928-6ce3b9fc": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T19:30:00+09:00",
+  "left": "Romano F.",
+  "right": "Peniston R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334250（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334250"
+  ]
+ },
+ "m20260928-be8f5fb9": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T19:30:00+09:00",
+  "left": "Dhamne M.",
+  "right": "Durasovic V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334252（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334252"
+  ]
+ },
+ "m20260928-5d5b6b54": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T20:20:00+09:00",
+  "left": "Erhard M.",
+  "right": "Barroso Campos A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334890（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334890"
+  ]
+ },
+ "m20260928-be961f72": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-28T20:20:00+09:00",
+  "left": "Rossi L.",
+  "right": "Ghazouani Durand Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334892（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334892"
+  ]
+ },
+ "m20260928-eeaca045": {
+  "sport": "テニス",
+  "competition": "Porto challenger",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Tabacco F.",
+  "right": "Sanchez Quilez A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334248（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334248"
+  ]
+ },
+ "m20260928-26f1330a": {
+  "sport": "テニス",
+  "competition": "Porto challenger",
+  "round": null,
+  "start_jst": "2026-09-28T20:10:00+09:00",
+  "left": "Matusevich A.",
+  "right": "Bertrand R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334918（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334918"
+  ]
+ },
+ "m20260928-041c5833": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Tsitsipas S.",
+  "right": "Nishioka Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334582（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334582"
+  ]
+ },
+ "m20260928-164872b2": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Hijikata R.",
+  "right": "Ugo Carabelli C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334584（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334584"
+  ]
+ },
+ "m20260928-e410a624": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T11:00:00+09:00",
+  "left": "Svajda Z.",
+  "right": "Kovacevic A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334586（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334586"
+  ]
+ },
+ "m20260928-49ff6b35": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Fils A.",
+  "right": "Damm M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334588（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334588"
+  ]
+ },
+ "m20260928-b2ef03cc": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Sonego L.",
+  "right": "Majchrzak K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334590（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334590"
+  ]
+ },
+ "m20260928-b329a759": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T12:30:00+09:00",
+  "left": "Munar J.",
+  "right": "Giron M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334592（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334592"
+  ]
+ },
+ "m20260928-347ebc83": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T14:30:00+09:00",
+  "left": "Vallejo A.",
+  "right": "Daniel T.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334594（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334594"
+  ]
+ },
+ "m20260928-f36d0a5e": {
+  "sport": "テニス",
+  "competition": "Tokyo (Japan Open)",
+  "round": null,
+  "start_jst": "2026-09-28T15:30:00+09:00",
+  "left": "Mochizuki S.",
+  "right": "Faria J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334596（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334596"
+  ]
+ },
+ "m20260928-77ebe723": {
+  "sport": "テニス",
+  "competition": "Chengdu",
+  "round": null,
+  "start_jst": "2026-09-28T16:00:00+09:00",
+  "left": "Arribage / Olivetti",
+  "right": "Galloway / Goransson",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3332966（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3332966"
+  ]
+ },
+ "m20260928-7ec84024": {
+  "sport": "テニス",
+  "competition": "Hangzhou",
+  "round": null,
+  "start_jst": "2026-09-28T14:30:00+09:00",
+  "left": "King E. / Stevens B",
+  "right": "Arends S. / Pel D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334028（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334028"
+  ]
+ },
+ "m20260928-4089fd1c": {
+  "sport": "テニス",
+  "competition": "Hangzhou",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Rojer J. / Winegar T",
+  "right": "Cabral F. / Tracy J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334238（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334238"
+  ]
+ },
+ "m20260929-16d51a85": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "De La Fue / Olivieri",
+  "right": "Perez B. / Saraiva D",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334734（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334734"
+  ]
+ },
+ "m20260929-ed132394": {
+  "sport": "テニス",
+  "competition": "Curitiba challenger",
+  "round": null,
+  "start_jst": "2026-09-29T03:30:00+09:00",
+  "left": "Pissetti / Storck Fr",
+  "right": "Pereira J / Sakamoto",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334744（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334744"
+  ]
+ },
+ "m20260929-6bc3d590": {
+  "sport": "テニス",
+  "competition": "Mouilleron-Le-Captif challenger",
+  "round": null,
+  "start_jst": "2026-09-29T01:00:00+09:00",
+  "left": "Poullain / Reco A.",
+  "right": "Broady L. / Hudd E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334160（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334160"
+  ]
+ },
+ "m20260928-7e80e1b8": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Ruzic A.",
+  "right": "Valdmannova V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334518（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334518"
+  ]
+ },
+ "m20260928-4eded1e1": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Riera J.",
+  "right": "Siskova A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334520（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334520"
+  ]
+ },
+ "m20260928-55e3ccb8": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Arango E.",
+  "right": "Blinkova A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334536（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334536"
+  ]
+ },
+ "m20260928-f17d07e8": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T18:40:00+09:00",
+  "left": "Bertea E.",
+  "right": "Stefanini L.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334920（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334920"
+  ]
+ },
+ "m20260928-95fe3747": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T19:00:00+09:00",
+  "left": "Jeanjean L.",
+  "right": "Lamens S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334526（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334526"
+  ]
+ },
+ "m20260928-502fdf4d": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T19:50:00+09:00",
+  "left": "Hruncakova V.",
+  "right": "Gasanova A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334922（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334922"
+  ]
+ },
+ "m20260928-fd730ca7": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T20:30:00+09:00",
+  "left": "Efremova K.",
+  "right": "Kubka M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334534（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334534"
+  ]
+ },
+ "m20260928-5eedc8e8": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T20:30:00+09:00",
+  "left": "Noha Akugue N.",
+  "right": "Crawley F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334924（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334924"
+  ]
+ },
+ "m20260928-88de2150": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Saito S.",
+  "right": "Zhu C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334218（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334218"
+  ]
+ },
+ "m20260928-d8a598f9": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Yang Y.",
+  "right": "Ferro F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334226（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334226"
+  ]
+ },
+ "m20260928-ae81dbae": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Yamaguchi M.",
+  "right": "Zheng W.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334232（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334232"
+  ]
+ },
+ "m20260928-29fa0c44": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Lu J.",
+  "right": "Kinoshita H.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334224（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334224"
+  ]
+ },
+ "m20260928-6dfda009": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Wei S.",
+  "right": "Huang Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334234（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334234"
+  ]
+ },
+ "m20260928-8c3f98e5": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Kaji H.",
+  "right": "Jones E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334220（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334220"
+  ]
+ },
+ "m20260928-e3212e41": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Smith R.",
+  "right": "Grilliot A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3333650（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3333650"
+  ]
+ },
+ "m20260928-e0e6c0f5": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Taranova M.",
+  "right": "Rahimkhani N.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334782（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334782"
+  ]
+ },
+ "m20260929-733eeacb": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-29T00:00:00+09:00",
+  "left": "Coe R.",
+  "right": "Spencer K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334784（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334784"
+  ]
+ },
+ "m20260929-05198907": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-29T03:00:00+09:00",
+  "left": "Reami A.",
+  "right": "Zhytelna Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334786（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334786"
+  ]
+ },
+ "m20260929-d91e617e": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-29T04:30:00+09:00",
+  "left": "Scaldalai E.",
+  "right": "Saravanan T.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334788（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334788"
+  ]
+ },
+ "m20260929-ef821d37": {
+  "sport": "テニス",
+  "competition": "UTR Pro Match Series",
+  "round": null,
+  "start_jst": "2026-09-29T05:40:00+09:00",
+  "left": "Orzechowski A.",
+  "right": "Wojcik M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334790（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334790"
+  ]
+ },
+ "m20260928-ccba2449": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Arifullina A.",
+  "right": "Liu M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334242（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334242"
+  ]
+ },
+ "m20260928-478c259c": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Lopez Martinez C.",
+  "right": "Vancea G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334428（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334428"
+  ]
+ },
+ "m20260928-b8e77faf": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T17:30:00+09:00",
+  "left": "Cabassers Morros A.",
+  "right": "Ngounoue M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334430（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334430"
+  ]
+ },
+ "m20260928-4a32b9c6": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Novak K.",
+  "right": "Parres Azcoitia O.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334426（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334426"
+  ]
+ },
+ "m20260928-3b7ec83c": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Giaccio J.",
+  "right": "Gomez V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334432（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334432"
+  ]
+ },
+ "m20260928-03cb789b": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Moccia C.",
+  "right": "Gomez C.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334842（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334842"
+  ]
+ },
+ "m20260928-2a86b574": {
+  "sport": "テニス",
+  "competition": "Baza ITF",
+  "round": null,
+  "start_jst": "2026-09-28T20:30:00+09:00",
+  "left": "Lazarenko K.",
+  "right": "Bruno V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334846（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334846"
+  ]
+ },
+ "m20260928-4619c366": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Yastremska D.",
+  "right": "Wang J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334652（05:59取得）",
+  "flags": [
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3334652"
+  ]
+ },
+ "m20260928-11a523f3": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Hodzic M.",
+  "right": "Bai Z.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334654（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334654"
+  ]
+ },
+ "m20260928-25997d3d": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Dart H.",
+  "right": "Lemaitre T.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334656（05:59取得）",
+  "flags": [
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3334656"
+  ]
+ },
+ "m20260928-8cd05f41": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Ren Y.",
+  "right": "Ma Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334658（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334658"
+  ]
+ },
+ "m20260928-8f88d56f": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T12:00:00+09:00",
+  "left": "Zhao C.",
+  "right": "Wolff V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334660（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334660"
+  ]
+ },
+ "m20260928-c6ea8faf": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:10:00+09:00",
+  "left": "Lazaro Garcia A.",
+  "right": "Tian J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334668（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334668"
+  ]
+ },
+ "m20260928-92831133": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Dang Y.",
+  "right": "You X.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334662（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334662"
+  ]
+ },
+ "m20260928-f89a0b03": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Kawa K.",
+  "right": "Matsuda R.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334664（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334664"
+  ]
+ },
+ "m20260928-1631c030": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Savinykh V.",
+  "right": "Burillo Escorihuela I.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334666（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334666"
+  ]
+ },
+ "m20260928-6cbb530b": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T13:30:00+09:00",
+  "left": "Jacquemot E.",
+  "right": "Li Z.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334670（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334670"
+  ]
+ },
+ "m20260928-a9cd11e0": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Kalieva E.",
+  "right": "Perez E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334672（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334672"
+  ]
+ },
+ "m20260928-60b1fc88": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Sasnovich A.",
+  "right": "Zhang J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334674（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334674"
+  ]
+ },
+ "m20260928-34669848": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Ye S.",
+  "right": "Fruhvirtova L.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334676（05:59取得）",
+  "flags": [
+   "開始時刻要確認"
+  ],
+  "feed_ids": [
+   "te:3334676"
+  ]
+ },
+ "m20260928-998b5e25": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Zidansek T.",
+  "right": "Zaytseva K.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334678（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334678"
+  ]
+ },
+ "m20260928-219d262e": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Mihalikova T.",
+  "right": "Shi H.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334692（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334692"
+  ]
+ },
+ "m20260928-9a05a978": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Bassols Ribera M.",
+  "right": "Nicholls O.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334694（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334694"
+  ]
+ },
+ "m20260928-53fa2742": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Eikeri U.",
+  "right": "Lepchenko V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334680（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334680"
+  ]
+ },
+ "m20260928-170599c6": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Zhang R.",
+  "right": "Hunter S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334682（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334682"
+  ]
+ },
+ "m20260928-add02806": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Sramkova R.",
+  "right": "Burrage J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334684（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334684"
+  ]
+ },
+ "m20260928-ab98df50": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Montgomery R.",
+  "right": "Teixido Garcia M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334686（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334686"
+  ]
+ },
+ "m20260928-5e846a4a": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Inglis M.",
+  "right": "Yao X.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334688（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334688"
+  ]
+ },
+ "m20260928-f9ef79b7": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Kulikova A.",
+  "right": "Friedsam A.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334690（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334690"
+  ]
+ },
+ "m20260928-39a57b90": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Krawczyk D.",
+  "right": "Astakhova D.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334696（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334696"
+  ]
+ },
+ "m20260928-a03886d7": {
+  "sport": "テニス",
+  "competition": "Beijing",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Panova A.",
+  "right": "Hontama M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334698（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334698"
+  ]
+ },
+ "m20260928-23d8dac3": {
+  "sport": "テニス",
+  "competition": "Quinta do Lago ITF",
+  "round": null,
+  "start_jst": "2026-09-28T19:20:00+09:00",
+  "left": "Nagy A.",
+  "right": "Isakova P.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334474（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334474"
+  ]
+ },
+ "m20260928-60ff5ee9": {
+  "sport": "テニス",
+  "competition": "Quinta do Lago ITF",
+  "round": null,
+  "start_jst": "2026-09-28T19:20:00+09:00",
+  "left": "Sedlackova P.",
+  "right": "Gudelj V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334476（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334476"
+  ]
+ },
+ "m20260928-daae35d7": {
+  "sport": "テニス",
+  "competition": "Quinta do Lago ITF",
+  "round": null,
+  "start_jst": "2026-09-28T19:20:00+09:00",
+  "left": "Sebestova I.",
+  "right": "Slavikova E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334478（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334478"
+  ]
+ },
+ "m20260928-ff0cb6a4": {
+  "sport": "テニス",
+  "competition": "Quinta do Lago ITF",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Nilsson L.",
+  "right": "Jurna E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334860（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334860"
+  ]
+ },
+ "m20260928-7203d1cf": {
+  "sport": "テニス",
+  "competition": "Quinta do Lago ITF",
+  "round": null,
+  "start_jst": "2026-09-28T20:45:00+09:00",
+  "left": "Bonardi B.",
+  "right": "Mtvarelishvili T.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334480（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334480"
+  ]
+ },
+ "m20260928-60c0548f": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "Biot A.",
+  "right": "Kim E.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334484（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334484"
+  ]
+ },
+ "m20260928-719038de": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T17:05:00+09:00",
+  "left": "Veldman K.",
+  "right": "Bekker S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334482（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334482"
+  ]
+ },
+ "m20260928-96813de0": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T18:00:00+09:00",
+  "left": "Poling L.",
+  "right": "Pire F.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334486（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334486"
+  ]
+ },
+ "m20260928-c764e723": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T18:30:00+09:00",
+  "left": "Root M.",
+  "right": "Yardley S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334862（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334862"
+  ]
+ },
+ "m20260928-912cf8f0": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Nesmianovych A.",
+  "right": "Khrebtova V.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334866（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334866"
+  ]
+ },
+ "m20260928-9216f332": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T20:00:00+09:00",
+  "left": "Chiarello K.",
+  "right": "Deppner S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334868（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334868"
+  ]
+ },
+ "m20260928-82d7a191": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T21:30:00+09:00",
+  "left": "Bretnacher J.",
+  "right": "Djoubri S.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334870（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334870"
+  ]
+ },
+ "m20260928-29986515": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T21:30:00+09:00",
+  "left": "Gram O.",
+  "right": "Bougouffa H.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334872（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334872"
+  ]
+ },
+ "m20260928-7c6bf9d7": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Ramirez E.",
+  "right": "Myatovic J.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334874（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334874"
+  ]
+ },
+ "m20260928-e4cb1587": {
+  "sport": "テニス",
+  "competition": "Reims ITF",
+  "round": null,
+  "start_jst": "2026-09-28T23:00:00+09:00",
+  "left": "Lopez C.",
+  "right": "Ciocan M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334876（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334876"
+  ]
+ },
+ "m20260928-3c2a91dc": {
+  "sport": "テニス",
+  "competition": "Varna ITF",
+  "round": null,
+  "start_jst": "2026-09-28T15:30:00+09:00",
+  "left": "Rasim M.",
+  "right": "Krastenova G.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334500（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334500"
+  ]
+ },
+ "m20260928-99ee43cf": {
+  "sport": "テニス",
+  "competition": "Adana",
+  "round": null,
+  "start_jst": "2026-09-28T22:30:00+09:00",
+  "left": "Aksu A. / Mert A.",
+  "right": "Bertea E. / Ercan M.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334618（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334618"
+  ]
+ },
+ "m20260928-559cbad9": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "Brooks M. / Rajecki A",
+  "right": "Ninomiya / Radisic N",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334702（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334702"
+  ]
+ },
+ "m20260928-50b6bcab": {
+  "sport": "テニス",
+  "competition": "Jingshan",
+  "round": null,
+  "start_jst": "2026-09-28T16:30:00+09:00",
+  "left": "Li Y. / Zhang Y.",
+  "right": "Cho I. / Cho Y.",
+  "home_away": "中立（大会会場）",
+  "status": "scheduled",
+  "result": null,
+  "note": "tennisexplorer te:3334712（05:59取得）",
+  "flags": [],
+  "feed_ids": [
+   "te:3334712"
+  ]
  }
 }

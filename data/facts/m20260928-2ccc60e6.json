@@ -1,79 +1,15 @@
 {
  "match_id": "m20260928-2ccc60e6",
- "data_as_of": "2026-09-28T00:06:00+09:00",
- "start_jst_confirmed": {
-  "unavailable": true,
-  "reason": "大会ページ（Liquipedia 429、LOLTV 403）から公式開始時刻を取得できず。依頼の15:00/18:00 JSTは未検証"
- },
+ "data_as_of": "2026-09-28T06:21:00+09:00",
  "unit": "ゲーム",
  "left": {
   "name": "T1 Esports Academy",
-  "ranking": "WSCIグループ5勝1敗（DNS・EDG Youth・Fuegoの組で首位相当）、LCK CL 2026 Playoffs優勝（決勝KT 3-0）",
+  "ranking": "WSCI 2026 グループA 1位（5-1）、LCK CL所属",
   "form": [
-   {
-    "date": "2026-09-24",
-    "opp": "DN SOOPers Challengers",
-    "comp": "2026 World Star Challengers Invitational グループDay5（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-24",
-    "opp": "Fuego",
-    "comp": "2026 World Star Challengers Invitational グループDay5（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-22",
-    "opp": "Fuego",
-    "comp": "2026 World Star Challengers Invitational グループDay3（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-22",
-    "opp": "EDG Youth Team",
-    "comp": "2026 World Star Challengers Invitational グループDay3（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-20",
-    "opp": "EDG Youth Team",
-    "comp": "2026 World Star Challengers Invitational グループDay1（BO1）",
-    "ha": "N",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 1
-   },
-   {
-    "date": "2026-09-20",
-    "opp": "DN SOOPers Challengers",
-    "comp": "2026 World Star Challengers Invitational グループDay1（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
    {
     "date": "2026-09-15",
     "opp": "KT Rolster Challengers",
-    "comp": "LCK CL 2026 Playoffs 決勝（BO5）",
+    "comp": "LCK CL 2026（BO5）",
     "ha": "N",
     "score": "3-0",
     "res": "W",
@@ -81,9 +17,9 @@
     "units_lost": 0
    },
    {
-    "date": "2026-09-10",
-    "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Playoffs R4（BO5）",
+    "date": "2026-09-08",
+    "opp": "KT Rolster Challengers",
+    "comp": "LCK CL 2026（BO5）",
     "ha": "N",
     "score": "3-1",
     "res": "W",
@@ -91,129 +27,93 @@
     "units_lost": 1
    },
    {
-    "date": "2026-09-08",
-    "opp": "KT Rolster Challengers",
-    "comp": "LCK CL 2026 Playoffs R2（BO5）",
+    "date": "2026-08-15",
+    "opp": "SOOPers Challengers",
+    "comp": "LCK CL 2026",
     "ha": "N",
-    "score": "3-1",
+    "score": "2-1",
     "res": "W",
-    "units_won": 3,
+    "units_won": 2,
     "units_lost": 1
-   }
-  ],
-  "lineup": [
-   "Top: Haetae",
-   "Jungle: Painter",
-   "Mid: Guti",
-   "Bot: Cypher",
-   "Support: Cloud"
-  ],
-  "history": [
+   },
    {
-    "date": "2026-04-17",
+    "date": "2026-08-13",
     "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Rounds 1-2 第3週（BO3）",
+    "comp": "LCK CL 2026",
+    "ha": "N",
     "score": "0-2",
     "res": "L",
     "units_won": 0,
     "units_lost": 2
    },
    {
-    "date": "2026-05-18",
-    "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Rounds 1-2 第8週（BO3）",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-07-30",
-    "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Rounds 3-4 第10週（BO3）",
+    "date": "2026-08-06",
+    "opp": "SOOPers Challengers",
+    "comp": "LCK CL 2026",
+    "ha": "N",
     "score": "1-2",
     "res": "L",
     "units_won": 1,
     "units_lost": 2
    },
    {
-    "date": "2026-08-14",
-    "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Rounds 3-4 第12週（BO3）",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
+    "date": "2026-08-04",
+    "opp": "KT Rolster Challengers",
+    "comp": "LCK CL 2026",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "2026-09-10",
-    "opp": "Dplus KIA Challengers",
-    "comp": "LCK CL 2026 Playoffs R4（BO5）",
-    "score": "3-1",
+    "date": "2026-07-27",
+    "opp": "Nongshim RedForce Academy",
+    "comp": "LCK CL 2026",
+    "ha": "N",
+    "score": "2-1",
     "res": "W",
-    "units_won": 3,
+    "units_won": 2,
     "units_lost": 1
    }
-  ]
+  ],
+  "lineup": [
+   "Top Guti",
+   "Jungle Dal",
+   "Mid Quokka",
+   "ADC Haetae",
+   "Support Soft（egamersworld、WSCIの出場メンバーは未確認）"
+  ],
+  "history": []
  },
  "right": {
   "name": "Cupid Esports",
-  "ranking": "WSCIグループ4勝1敗（DK Challengers戦1試合はgol.ggに結果なし）、NACL 2026 Summer Playoffs決勝でMaryville Univ.に3-0（gol.gg、日付未取得）",
+  "ranking": "WSCI 2026 グループ突破（NA代表、NACL所属）",
   "form": [
    {
-    "date": "2026-09-25",
-    "opp": "Vivo Keyd Stars Academy",
-    "comp": "2026 World Star Challengers Invitational グループDay6（BO1）",
+    "date": "2026-09-11",
+    "opp": "Maryville University",
+    "comp": "NACL（BO5）",
     "ha": "N",
-    "score": "1-0",
+    "score": "3-0",
     "res": "W",
-    "units_won": 1,
+    "units_won": 3,
     "units_lost": 0
    },
    {
-    "date": "2026-09-23",
-    "opp": "Vivo Keyd Stars Academy",
-    "comp": "2026 World Star Challengers Invitational グループDay4（BO1）",
+    "date": "2026-09-09",
+    "opp": "Winthrop University",
+    "comp": "NACL（BO5）",
     "ha": "N",
-    "score": "1-0",
+    "score": "3-1",
     "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-23",
-    "opp": "FENNEL",
-    "comp": "2026 World Star Challengers Invitational グループDay4（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-21",
-    "opp": "FENNEL",
-    "comp": "2026 World Star Challengers Invitational グループDay2（BO1）",
-    "ha": "N",
-    "score": "1-0",
-    "res": "W",
-    "units_won": 1,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-21",
-    "opp": "Dplus KIA Challengers",
-    "comp": "2026 World Star Challengers Invitational グループDay2（BO1）",
-    "ha": "N",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
+    "units_won": 3,
     "units_lost": 1
    },
    {
     "date": "2026-09-04",
     "opp": "Winthrop University",
-    "comp": "NACL 2026 Summer Playoffs R4（BO5）",
+    "comp": "NACL（BO5）",
     "ha": "N",
     "score": "3-1",
     "res": "W",
@@ -223,7 +123,7 @@
    {
     "date": "2026-08-28",
     "opp": "Maryville University",
-    "comp": "NACL 2026 Summer Playoffs R2（BO5）",
+    "comp": "NACL",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -232,79 +132,72 @@
    },
    {
     "date": "2026-08-20",
-    "opp": "Conviction",
-    "comp": "NACL 2026 Summer Playoffs R1",
+    "opp": "ConViction",
+    "comp": "NACL",
     "ha": "N",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
     "units_lost": 0
+   },
+   {
+    "date": "2026-08-05",
+    "opp": "NRG",
+    "comp": "NACL",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
    }
   ],
   "lineup": [
-   "Top: Horder",
-   "Jungle: Music",
-   "Mid: Ablazeolive",
-   "Bot: Mobility",
-   "Support: Breezy"
+   "Mobility",
+   "Ablazeolive",
+   "Music",
+   "DrCalculus",
+   "Horder（egamersworld）"
   ],
-  "history": [
-   {
-    "date": "2026-09-21",
-    "opp": "Dplus KIA Challengers",
-    "comp": "2026 World Star Challengers Invitational グループDay2（BO1）",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 1
-   }
-  ]
+  "history": []
  },
  "h2h": [],
- "venue": "LAN・韓国（egamersworld）",
+ "venue": "LAN・中立（World Star Challengers Invitational 2026、韓国）",
  "esports": {
-  "format": "BO5（プレーオフ1回戦、シングルエリミネーション）",
-  "lan_online": "LAN（韓国）",
-  "map_pool": "LoLのため該当なし",
-  "veto": "未確認",
-  "patch": "16.18（gol.ggのグループステージ記録）",
+  "format": "BO5（WSCI 2026 準々決勝）",
+  "lan_online": "LAN（韓国、9/20-10/2）",
+  "map_pool": "該当なし（LoL）",
+  "veto": "unavailable: ドラフト方式（フィアレス等）未確認",
+  "patch": "unavailable: 使用パッチ未確認",
   "map_h2h": "該当なし"
  },
  "risks": [
-  "グループはBO1でサンプル小、地域間比較が難しい",
-  "Cupid対DK Challengersの2戦目がgol.ggで結果未記載",
-  "開始時刻未検証"
+  "同一試合がBovadaで2つのfid（bov:31424438 / bov:31497003、チーム名 Cupid Esports / Cupid）で配信されている",
+  "T1AのWSCIグループ6試合の個別結果が未取得（formに入っていない）",
+  "egamersworldのT1Aページは 8/19 KT戦を敗戦と表示しKTページ（T1A 2-1勝）と矛盾→除外、8/21 NS・7/30 Dplus戦もスコアの向きが不明で除外",
+  "CupidのWSCI結果（FENNEL戦2件）はスコアと勝敗表記が矛盾するため除外",
+  "地域格差（LCK CL vs NACL）が大きく、log5は地域差を反映しない"
  ],
  "missing": [
-  "開始時刻",
-  "H2H",
-  "NACL決勝の日付"
+  "T1A・CupidのWSCIグループ個別結果",
+  "パッチ・ドラフト方式"
  ],
  "unavailable": {
-  "h2h": "対戦記録なし",
-  "start_jst_confirmed": "公式スケジュール取得失敗",
-  "map_pool": "LoLのため該当なし",
-  "veto": "情報なし"
+  "h2h": "過去対戦なし"
  },
  "source_urls": [
-  "https://gol.gg/tournament/tournament-matchlist/2026%20World%20Star%20Challengers%20Invitational/",
-  "https://gol.gg/teams/list/season-S16/split-ALL/tournament-2026%20World%20Star%20Challengers%20Invitational/",
-  "https://www.sheepesports.com/en/articles/sources-world-star-challengers-invitational-2026-playoffs-bracket/en",
-  "https://egamersworld.com/blog/world-star-challengers-invitational-2026-viewer-gu-fgxoxzXxIR",
-  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Season%20Playoffs/",
-  "https://gol.gg/tournament/tournament-matchlist/NACL%202026%20Summer%20Playoffs/",
-  "https://gol.gg/teams/team-matchlist/2822/split-ALL/tournament-ALL/",
-  "https://gol.gg/teams/team-matchlist/3100/split-ALL/tournament-ALL/",
-  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%201-2/",
-  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%203-4/"
+  "https://egamersworld.com/lol/team/t1-academy",
+  "https://egamersworld.com/lol/team/cupid-esports-8ZR5RW_Ht",
+  "https://egamersworld.com/lol/team/kt-rolster-challengers-4J4Lsgqg5",
+  "https://www.sheepesports.com/en/articles/t1-esports-academy-qualifies-for-wsci-2026-playoffs-with-5-1-record/en",
+  "https://www.strafe.com/event/world-star-challengers-invitational-2026-76e942/"
  ],
  "calc": {
   "left": {
-   "games": 9,
-   "W": 8,
-   "L": 1,
+   "games": 7,
+   "W": 5,
+   "L": 2,
    "D": 0,
-   "win_rate": 88.9,
+   "win_rate": 71.4,
    "home": {
     "W": 0,
     "L": 0,
@@ -315,19 +208,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": "4連勝",
-   "units_won": 14,
-   "units_lost": 3,
-   "points_for": 14,
-   "points_against": 3,
-   "points_games": 9
+   "streak": "3連勝",
+   "units_won": 13,
+   "units_lost": 7,
+   "points_for": 13,
+   "points_against": 7,
+   "points_games": 7
   },
   "right": {
-   "games": 8,
-   "W": 7,
+   "games": 6,
+   "W": 5,
    "L": 1,
    "D": 0,
-   "win_rate": 87.5,
+   "win_rate": 83.3,
    "home": {
     "W": 0,
     "L": 0,
@@ -338,12 +231,12 @@
     "L": 0,
     "D": 0
    },
-   "streak": "4連勝",
-   "units_won": 11,
-   "units_lost": 3,
-   "points_for": 11,
-   "points_against": 3,
-   "points_games": 8
+   "streak": "5連勝",
+   "units_won": 13,
+   "units_lost": 5,
+   "points_for": 13,
+   "points_against": 5,
+   "points_games": 6
   },
   "h2h": {
    "games": 0,
@@ -351,57 +244,8 @@
    "right": 0,
    "draw": 0
   },
-  "common": [
-   {
-    "opp": "Dplus KIA Challengers",
-    "left": [
-     {
-      "date": "2026-09-10",
-      "iso": "2026-09-10",
-      "score": "3-1",
-      "res": "W",
-      "comp": "LCK CL 2026 Playoffs R4（BO5）"
-     },
-     {
-      "date": "2026-08-14",
-      "iso": "2026-08-14",
-      "score": "0-2",
-      "res": "L",
-      "comp": "LCK CL 2026 Rounds 3-4 第12週（BO3）"
-     },
-     {
-      "date": "2026-07-30",
-      "iso": "2026-07-30",
-      "score": "1-2",
-      "res": "L",
-      "comp": "LCK CL 2026 Rounds 3-4 第10週（BO3）"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-21",
-      "iso": "2026-09-21",
-      "score": "0-1",
-      "res": "L",
-      "comp": "2026 World Star Challengers Invitational グループDay2（BO1）"
-     }
-    ],
-    "edge": "left",
-    "basis": "勝率",
-    "latest": "2026-09-21",
-    "left_rec": "1勝2敗",
-    "right_rec": "0勝1敗"
-   }
-  ],
+  "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T00:35:00+09:00",
-  "note": "gol.gg の LCK CL 2026 Rounds 1-2 / 3-4 / Playoffs 大会一覧と両チームのチーム戦績ページで確認。T1A対DKの5/18・8/14は大会一覧のみ（チームページ未掲載）。CupidのNACL 2026 Summer/Playoffs は日付未取得だがT1Aと共通の相手なし。",
-  "opponents": [
-   "Dplus KIA Challengers"
-  ]
  }
 }

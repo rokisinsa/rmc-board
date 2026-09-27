@@ -1,6 +1,6 @@
 {
  "match_id": "m20260928-dd27bf6d",
- "data_as_of": "2026-09-27T23:25:00+09:00",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
  "unit": "フレーム",
  "left": {
   "name": "ロバートソン",
@@ -119,10 +119,10 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "宝安体育中心（中国・深圳）、深圳オープン R64（9フレーム制・5フレーム先取）。中国人選手は地元",
+ "venue": "宝安体育中心（中国・深圳）、深圳オープン ベスト64（予選から持ち越しのシード戦）、9フレーム制（5フレーム先取）。中国人選手は地元",
  "risks": [
-  "戦績はWikipedia大会記事の要約取得で部分的",
-  "セッション開始時刻（07:00 BST=15:00 JST）で卓の開始は前後し得る"
+  "9フレーム制の短期戦",
+  "戦績は大会記事の要約取得で部分的（cuetracker/Wikipedia取得不可）"
  ],
  "missing": [
   "直近10試合の大半",
@@ -135,19 +135,20 @@
   "right.form": "同上、1試合のみ"
  },
  "source_urls": [
-  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
-  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
+  "https://cuetracker.net/tournaments/championship-league/2026/7890",
   "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)",
   "https://en.wikipedia.org/wiki/2026_Tour_Championship",
-  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
-  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml",
-  "https://snookerhq.com/2026/07/27/2026-english-open-qualifiers-results/",
+  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
   "https://snookerhq.com/2026/07/24/2026-english-open-qualifiers-full-draw-preview-schedule/",
+  "https://snookerhq.com/2026/07/27/2026-english-open-qualifiers-results/",
+  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+  "https://www.snooker.org/res/index.asp?event=2311",
   "https://www.snooker.org/res/index.asp?event=2755",
   "https://www.snooker.org/res/index.asp?event=2757",
+  "https://www.snooker.org/res/index.asp?event=2761",
   "https://www.snooker.org/res/index.asp?event=2769",
-  "https://www.snooker.org/res/index.asp?event=2311",
-  "https://cuetracker.net/tournaments/championship-league/2026/7890"
+  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
+  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml"
  ],
  "calc": {
   "left": {
@@ -239,15 +240,5 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T00:25:00+09:00",
-  "note": "劉宏宇の武漢OPベスト64はヒギンズ棄権の不戦勝（2026-08-24）で除外。L.デービス戦(予選)の日付はSnookerHQの組み合わせ予定日(7/26)。CL2026の劉宏宇グループ(Grace/Surety/Lei)はロバートソン側と重複なし。調査した大会: ツアーC(4/1-5)、世界選手権予選・本戦、Qスクール(アジア)、CL2026、中国OP(予選含)、武漢OP(予選含)、上海M、英国OP(予選含)、イングリッシュOP(予選含)、深圳OP予選、北アイルランドOP予選、国際選手権予選、スコティッシュOP予選。snooker.orgは要約取得のみで日付が出ないため、日付はTNT Sports日別結果・Wikipedia・SnookerHQ/livesnookerで確認できた試合のみ採用。",
-  "opponents": [
-   "B.ホーキンス",
-   "常冰玉",
-   "L.デービス"
-  ]
  }
 }

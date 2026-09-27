@@ -1,0 +1,127 @@
+{
+ "match_id": "m20260928-2c772ddf",
+ "data_as_of": "2026-09-28T06:38:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "M.ベイシング",
+  "ranking": "ATP 241位（自己最高219位）。2026年 33勝16敗（ハード25-9, 室内2-2, 芝6-5）。TA総合Elo 1562.7（クレーElo 1391.3）",
+  "form": [
+   {
+    "date": "2026-09-16",
+    "opp": "G.タバッコ",
+    "comp": "M25 Sintra 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 6-7(2)"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "M.ポリチャク",
+  "ranking": "ATP 291位（自己最高257位）。2026年 36勝20敗（クレー31-17, ハード5-3）",
+  "form": [
+   {
+    "date": "2026-09-07",
+    "opp": "S.サケラリディス",
+    "comp": "Genoa CH 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 4-6"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Porto CH（ポルトガル）1回戦・Court 3・中立。TennisTonicはHard、Sofascore（同大会別試合）はRed clay",
+ "risks": [
+  "サーフェス情報が食い違う：ポリチャクはクレー31-17、ベイシングはハード中心（クレー記録なし）。クレーならポリチャク有利材料",
+  "ベイシングはITF M25で1回戦負け直後"
+ ],
+ "missing": [
+  "両者の直近10試合（直近1試合のみ）",
+  "共通の対戦相手"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（TennisTonic）",
+  "left.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ",
+  "right.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058430/h2h-prediction-of-max-basing-vs-mili-poljicak-in-porto-challenger-with-odds-preview-pick-28th-september-2026/",
+  "https://www.sofascore.com/tennis/match/michael-mmoh-laslo-djere/GUNsRDcb",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 8,
+   "inner_against": 13,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 8,
+   "inner_against": 12,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

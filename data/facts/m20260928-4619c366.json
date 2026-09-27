@@ -1,0 +1,153 @@
+{
+ "match_id": "m20260928-4619c366",
+ "data_as_of": "2026-09-28T06:33:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ダヤナ・ヤストレムスカ",
+  "ranking": "WTA 110位・予選第1シード（mezha.net）",
+  "form": [
+   {
+    "date": "2026-08-30",
+    "opp": "ルクレツィア・ステファニーニ",
+    "comp": "USオープン2026 R1",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 1-6"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "ジャニス・チェン",
+    "comp": "アビエルトGNPセグロス2026",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-2 3-6 6-7"
+   },
+   {
+    "date": "2026-08-13",
+    "opp": "タチアナ・マリア",
+    "comp": "シンシナティ2026 R1",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "1-6 2-6"
+   },
+   {
+    "date": "2026-07-01",
+    "opp": "ジェシカ・ボウサス・マネイロ",
+    "comp": "ウィンブルドン2026 R2",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "3-6 7-6 2-6"
+   },
+   {
+    "date": "2026-06-29",
+    "opp": "伊藤あおい",
+    "comp": "ウィンブルドン2026 R1",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "7-6 4-6 7-5"
+   }
+  ],
+  "lineup": [
+   "北京本戦は過去5回出場、最高R2（2019・2024・2025）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ワン・ジアイー",
+  "ranking": "WTA 544位・ワイルドカード（mezha.net）",
+  "form": [],
+  "lineup": [
+   "ワイルドカード出場"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "チャイナ・オープン（WTA1000北京）予選1回戦・屋外ハード・中立（ワンは地元中国）",
+ "risks": [
+  "ヤストレムスカは直近5試合1勝4敗・4連敗中",
+  "ヤストレムスカは約4週間ぶりの実戦"
+ ],
+ "missing": [
+  "ワン・ジアイーの直近成績",
+  "開始時刻の確認"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（Tennis Majors 0-0）",
+  "right.form": "出典に試合データなし"
+ },
+ "source_urls": [
+  "https://www.tennismajors.com/matches/wta/china-open/dayana-yastremska-vs-jiayi-wang",
+  "https://mezha.net/eng/news/5183874c_top-seeded_dayana_yastremska/",
+  "https://tennisabstract.com/reports/wta_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連敗",
+   "units_won": 4,
+   "units_lost": 9,
+   "points_for": 4,
+   "points_against": 9,
+   "points_games": 5,
+   "inner_for": 52,
+   "inner_against": 74,
+   "inner_games": 5
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

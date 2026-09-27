@@ -1,0 +1,109 @@
+{
+ "unit": "ゲーム",
+ "left": {
+  "name": "山口茜",
+  "ranking": "未取得",
+  "form": [],
+  "lineup": [
+   "開催国日本の選手（地元の声援）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "王祉怡",
+  "ranking": "未取得",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "林湘緹",
+    "comp": "アジア大会 女子単 QF",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-7 21-12（36分）"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "愛知・名古屋アジア大会（日本開催）バドミントン個人戦 準決勝（QF結果記事より）。3ゲーム制",
+ "unavailable": {
+  "h2h": "AiScoreのH2Hページはデータなし。Flashscoreに9/24アジア大会（団体戦とみられる）での対戦ページあるが結果取得できず",
+  "left.form": "QF勝利の記載のみでスコア・相手不明"
+ },
+ "match_id": "m20260928-df4e505f",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
+ "risks": [
+  "QF結果は機械翻訳調のニュース記事1本のみ（選手名表記が崩れている）",
+  "個人戦前に団体戦があり疲労の可能性",
+  "9/24に団体戦で対戦している可能性（結果未確認）"
+ ],
+ "missing": [
+  "世界ランク",
+  "直近戦績",
+  "H2H"
+ ],
+ "source_urls": [
+  "https://www.newsdirectory3.com/nagoya-asian-games-badminton-quarterfinals-conclude-with-semifinalists/",
+  "https://www.flashscore.co.uk/match/badminton/wang-zhiyi-SvXcpLPt/yamaguchi-akane-pKuBkeNb/"
+ ],
+ "common_opponents_notes": [],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1,
+   "inner_for": 42,
+   "inner_against": 19,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

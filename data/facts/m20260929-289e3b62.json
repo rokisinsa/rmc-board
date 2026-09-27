@@ -1,0 +1,171 @@
+{
+ "unit": "セット",
+ "left": {
+  "name": "ネイサン・アスピナル",
+  "ranking": "第16シード",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "ルーク・リトラー",
+    "comp": "ワールドシリーズ・ファイナルズ 2回戦",
+    "ha": "N",
+    "score": "9-10",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "レイモンド・スミス",
+    "comp": "ワールドシリーズ・ファイナルズ 1回戦",
+    "ha": "N",
+    "score": "6-4",
+    "res": "W",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   },
+   {
+    "date": "2026-07-21",
+    "opp": "ルーク・リトラー",
+    "comp": "ワールドマッチプレー 2回戦",
+    "ha": "N",
+    "score": "8-11",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   },
+   {
+    "date": "2026-07-18",
+    "opp": "ジョー・カレン",
+    "comp": "ワールドマッチプレー 1回戦",
+    "ha": "N",
+    "score": "10-5",
+    "res": "W",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   }
+  ],
+  "lineup": [
+   "2022年GP準優勝"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ケビン・ドーツ",
+  "ranking": "ノーシード",
+  "form": [
+   {
+    "date": "2026-09-17",
+    "opp": "ロス・スミス",
+    "comp": "ワールドシリーズ・ファイナルズ 1回戦",
+    "ha": "N",
+    "score": "3-6",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   },
+   {
+    "date": "2026-07-20",
+    "opp": "ロス・スミス",
+    "comp": "ワールドマッチプレー 1回戦",
+    "ha": "N",
+    "score": "6-10",
+    "res": "L",
+    "detail": "レッグ制の試合（unit=セットと混同しないよう units は省略）"
+   }
+  ],
+  "lineup": [
+   "GP初出場"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2024-12〜2025-01",
+   "event": "2025 PDC世界選手権",
+   "score": "3-4",
+   "winner": "right",
+   "units_left": 3,
+   "units_right": 4,
+   "detail": "セット制・日付詳細不明"
+  }
+ ],
+ "venue": "Mattioli Arena（英国レスター）、BOYLE Sports World Grand Prix 1回戦。3セット制（2セット先取）・ダブルイン/ダブルアウト。中立",
+ "unavailable": {
+  "left.form": "プロツアー等の試合単位結果が取得できずメジャー4試合のみ",
+  "right.form": "同上2試合のみ"
+ },
+ "match_id": "m20260929-289e3b62",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
+ "risks": [
+  "1回戦は3セット制・ダブルインで番狂わせが起きやすい形式",
+  "直近戦績はメジャー大会（マッチプレー7月・WSF 9月）のみ。プロツアー／欧州ツアーの試合単位の結果は取得できず"
+ ],
+ "missing": [
+  "両者のプロツアー戦績",
+  "H2Hの正確な日付"
+ ],
+ "source_urls": [
+  "https://dartsnews.com/pdc/world-grand-prix-2026-draw-schedule-preview-format-history-and-predictions",
+  "https://sports.yahoo.com/articles/2026-world-darts-grand-prix-170837628.html",
+  "https://www.skysports.com/darts/news/13583670/world-series-of-darts-finals-2026-schedule-and-results-with-luke-littler-luke-humphries-michael-van-gerwen-gian-van-veen-in-action",
+  "https://www.skysports.com/darts/news/12288/13561989/betfred-world-matchplay-2026-luke-littler-faces-niko-springer-luke-humphries-takes-on-cameron-menzies-as-draw-confirmed",
+  "https://onlinedarts.com/2026-world-matchplay-draw-schedule-and-results/"
+ ],
+ "common_opponents_notes": [],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 33,
+   "points_against": 30,
+   "points_games": 4
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 9,
+   "points_against": 16,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "units_left": 3,
+   "units_right": 4,
+   "points_left": 3,
+   "points_right": 4,
+   "points_games": 1,
+   "avg_left": 3.0,
+   "avg_right": 4.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

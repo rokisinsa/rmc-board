@@ -1,0 +1,132 @@
+{
+ "match_id": "m20260928-7205c863",
+ "data_as_of": "2026-09-28T06:38:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ムモー",
+  "ranking": "ATP 148位（自己最高81位）。2026年 30勝19敗（ハード26-12, クレー3-3, 室内1-1, 芝0-3）",
+  "form": [
+   {
+    "date": "2026-09-20",
+    "opp": "D.ブランチ",
+    "comp": "Tiburon CH 決勝",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-3 4-6 2-6（準優勝）"
+   }
+  ],
+  "lineup": [
+   "Porto CH 1回戦。Porto CH初出場（TennisTonic）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ジェレ",
+  "ranking": "ATP 181位（自己最高27位）。2026年 26勝16敗（クレー22-11, ハード3-4, 芝1-1）。2026年 Oeiras 4 CH優勝",
+  "form": [
+   {
+    "date": "2026-09-16",
+    "opp": "L.ミクルト",
+    "comp": "Szczecin CH 2回戦",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "3-6 2-2 途中棄権"
+   }
+  ],
+  "lineup": [
+   "直近試合で途中棄権→今大会出場（コンディション要注意）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Porto CH（ポルトガル）1回戦・中立。サーフェスはSofascoreでRed clay（別記事はHard表記で要確認）",
+ "risks": [
+  "ジェレは直近9/16 Szczecin CH 2回戦ミクルト戦で 3-6 2-2 途中棄権（コンディション不明）",
+  "サーフェス情報が食い違う：Sofascoreは『Red clay』、同じPorto CHの別試合のTennisTonicプレビューは『Hard』。クレーならジェレ有利材料（TA cElo 1689.8 vs 1495.4、2026クレー22-11 vs 3-3）",
+  "ランキング表記の食い違い：ジェレ ATP181（TennisTonic）/206（TennisTemple検索結果タイトル）",
+  "市場はムモー本命（1.53）だがTA総合Eloはジェレ63%：棄権明け・直近のムモー決勝進出が価格に反映されている可能性",
+  "開始時刻：feed 23:30 JST、TennisTonic『4:00 pm・Court 3』（現地表記）、Sofascore 10:00 UTC と不一致"
+ ],
+ "missing": [
+  "両者の直近10試合（直近1試合のみ）",
+  "共通の対戦相手（60日以内）"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（TennisTonic）",
+  "left.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ",
+  "right.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058439/h2h-prediction-of-michael-mmoh-vs-laslo-djere-in-porto-challenger-with-odds-preview-pick-28th-september-2026/",
+  "https://www.sofascore.com/tennis/match/michael-mmoh-laslo-djere/GUNsRDcb",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://en.wikipedia.org/wiki/Laslo_Djere"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 12,
+   "inner_against": 15,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 1,
+   "points_for": 0,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

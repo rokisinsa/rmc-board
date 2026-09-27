@@ -1,66 +1,63 @@
 {
- "match_id": "m20260928-efe86671",
- "data_as_of": "2026-09-27T23:22:00+09:00",
  "unit": "なし",
  "left": {
   "name": "パキスタン",
-  "ranking": "ICC正会員、準々決勝シード（本大会初戦）",
+  "ranking": "準々決勝から登場（グループ戦の試合なし・シード扱いとみられるが未確認）",
   "form": [],
   "lineup": [
-   "2軍中心: 主将サーヒブザーダ・ファルハーン、副主将アブドゥル・サマド、サイム・アユーブ、アブラル・アフマド、ハイダル・アリら。ババル・シャヒーン・リズワン不在"
+   "主将サーヒブザーダ・ファルハン",
+   "予想XI：サイム・アユーブ、マーズ・サダーカト、ハイダー・アリ、ウスマン・ハーン(wk)、アブドゥル・サマド、アラファト・ミンハス、ハサン・ナワーズ、アブラル・アフマド、スフィヤン・モキーム、アフマド・ダニヤル",
+   "若手中心の「新体制」メンバー（cricinfo見出し）"
   ],
   "history": []
  },
  "right": {
   "name": "香港",
-  "ranking": "準会員、グループB 2位（2pt, NRR -0.075）",
+  "ranking": "グループB 2位通過（マレーシアに8ウィケット負、オマーンに41ラン勝）",
   "form": [
    {
     "date": "2026-09-25",
     "opp": "オマーン",
-    "comp": "アジア大会 グループB",
+    "comp": "アジア大会2026 男子クリケット（T20） グループB",
     "ha": "N",
-    "score": "41ラン差勝利",
-    "res": "W"
-   },
-   {
-    "date": "2026-09-24",
-    "opp": "マレーシア",
-    "comp": "アジア大会 グループB",
-    "ha": "N",
-    "score": "8ウィケット差敗戦",
-    "res": "L"
+    "score": "",
+    "res": "W",
+    "detail": "41ラン差勝利（スコア未取得）"
    }
   ],
   "lineup": [
-   "主将ヤシム・ムルタザ、ババル・ハヤト、アンシュマン・ラス、ニザカット・カーンら15名"
+   "主将ヤシム・ムルタザ",
+   "予想XI：ババル・ハヤト、アンシー・ラス、シヴ・マトゥール、ニザカト・ハーン、エフサン・ハーン(wk)、ムハンマド・ガザンファル、ハフィーズ・ハーン、シャヒド・ワシフ、ナスルッラ・ラナ、アーユシュ・シュクラ"
   ],
   "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "日本・愛知県日進市 Korogi Sports Park。中立",
+ "common_opponents_notes": [
+  "bdcrictime：過去2度の対戦はいずれもパキスタン勝利（日付・スコアの明細なし）",
+  "香港はグループBでマレーシアに8ウィケット差で敗戦（日付・スコア未取得のため form から除外）"
+ ],
+ "venue": "日本・日進市 口論義運動公園（中立）",
+ "unavailable": {
+  "h2h": "過去対戦の日付・スコアが取得できず",
+  "left.form": "パキスタンは今大会未出場、直近の国際試合明細は未取得"
+ },
+ "match_id": "m20260928-efe86671",
+ "data_as_of": "2026-09-28T06:39:00+09:00",
  "risks": [
-  "パキスタンは本大会初戦、香港は2試合消化",
-  "小規模グラウンド",
-  "天候未確認"
+  "天候：大会期間中雨予報（wionewsは9/28に降水確率91%・雷雨22%）。中止時はICC T20Iランキング上位が勝ち上がる規定＝ベットはブック規定で無効/成立が分かれる",
+  "T20の番狂わせリスク",
+  "パキスタンは若手中心の編成"
  ],
  "missing": [
-  "両国の直近10試合",
-  "H2H"
+  "開始時刻の一次確認",
+  "香港のグループ戦スコア",
+  "H2H明細"
  ],
- "unavailable": {
-  "left.form": "本大会未出場。大会前T20I結果は時間内に取得できず",
-  "right.form": "本大会2試合のみ取得。それ以前未取得",
-  "h2h": "ESPNcricinfo等の過去対戦記録を時間内に取得できず"
- },
  "source_urls": [
-  "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/hong-kong-vs-pakistan-1st-quarter-final-1552772/live-cricket-score",
-  "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/hong-kong-vs-oman-3rd-match-group-b-1552768/live-cricket-score",
-  "https://www.icc-cricket.com/news/all-the-squads-at-the-men-s-asian-games-2026",
-  "https://khelnow.com/asian-games/cricket-qf-schedule-dates-asian-games-202609",
-  "https://en.wikipedia.org/wiki/International_cricket_in_2026",
-  "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449"
+  "https://bdcrictime.com/pakistan-vs-hong-kong-china-asian-games-2026-1st-quarter-final-dream-11-prediction-fantasy-cricket",
+  "https://www.wionews.com/sports/asian-games-2026-cricket-quarterfinal-schedule-india-afghanistan-pakistan-hong-kong-1790418018707",
+  "https://www.icc-cricket.com/news/men-s-asian-games-cricket-quarter-final-fixtures-confirmed",
+  "https://en.wikipedia.org/wiki/Cricket_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament"
  ],
  "calc": {
   "left": {
@@ -82,11 +79,11 @@
    "streak": null
   },
   "right": {
-   "games": 2,
+   "games": 1,
    "W": 1,
-   "L": 1,
+   "L": 0,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 100.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -108,11 +105,5 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T01:02:00+09:00",
-  "note": "2026-04〜09のパキスタンの対戦相手はオーストラリア（ODI）・西インド諸島・イングランド（Test）等の正会員、香港はアジア大会のオマーン・マレーシアとCWCチャレンジリーグの準会員のみで、重なる相手は見つからず。試合単位の全結果までは未取得。",
-  "opponents": []
  }
 }

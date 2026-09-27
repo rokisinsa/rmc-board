@@ -1,68 +1,53 @@
 {
- "match_id": "m20260928-0e4f79c3",
- "data_as_of": "2026-09-27T23:22:00+09:00",
  "unit": "なし",
  "left": {
   "name": "インド",
-  "ranking": "ICC正会員、第1シードで準々決勝から（本大会初戦）",
+  "ranking": "前回（2023杭州）金メダル・準々決勝から登場",
   "form": [],
   "lineup": [
-   "主将シュレヤス・アイヤー、アビシェーク・シャルマ、サンジュ・サムソン、ブムラー、アルシュディープ、アクサル・パテルら",
-   "ハルシット・ラナ（大腿直筋損傷）→ヤシュ・タクールに交代"
+   "主将シュレヤス・アイヤー、副主将ティラク・ヴァルマ",
+   "シヴァム・ドゥベ、アビシェーク・シャルマ、サンジュ・サムソン、イシャン・キシャン、アクシャル・パテル、ヴィプラジ・ニガム、ラヴィ・ビシュノイ、ワシントン・スンダル、アルシュディープ・シン、ジャスプリト・ブムラ、ヴァイバヴ・スーリヤヴァンシ、ハルシット・ラナ"
   ],
   "history": []
  },
  "right": {
   "name": "アフガニスタン",
-  "ranking": "グループA 2位（2pt, NRR +0.846）",
-  "form": [
-   {
-    "date": "2026-09-25",
-    "opp": "ネパール",
-    "comp": "アジア大会 グループA",
-    "ha": "N",
-    "score": "5ウィケット差敗戦",
-    "res": "L"
-   },
-   {
-    "date": "2026-09-24",
-    "opp": "日本",
-    "comp": "アジア大会 グループA",
-    "ha": "N",
-    "score": "48ラン差勝利",
-    "res": "W"
-   }
-  ],
+  "ranking": "グループA 2位通過（ネパールが首位）",
+  "form": [],
   "lineup": [
-   "B代表: 主将ダルウィシュ・ラスーリ。ラシード、ナビ、グルバーズ、ファルーキ、ヌール不在"
+   "メンバー情報は取得できず"
   ],
   "history": []
  },
- "h2h": [],
- "common_opponents_notes": [],
- "venue": "日本・愛知県日進市 Korogi Sports Park。中立",
+ "h2h": [
+  {
+   "date": "2023-10",
+   "event": "アジア大会2023 決勝（杭州）",
+   "score": "",
+   "winner": "left",
+   "detail": "インドが金（wionews「決勝でアフガニスタンを破った」と記載）。スコア・試合内容は未検証"
+  }
+ ],
+ "venue": "日本・日進市 口論義運動公園（中立）",
+ "unavailable": {
+  "left.form": "今大会未出場。直近国際試合明細は未取得",
+  "right.form": "グループ戦のスコア取得できず（cricinfo・olympics.com取得不可）"
+ },
+ "match_id": "m20260928-0e4f79c3",
+ "data_as_of": "2026-09-28T06:39:00+09:00",
  "risks": [
-  "インドは本大会初戦",
-  "アフガンはB代表でネパールに敗戦",
-  "天候未確認"
+  "9/28は降水確率91%・雷雨22%予報（wionews）。中止時はICCランキング上位（インド）が勝ち上がり＝ベット無効/成立はブック規定次第",
+  "開始時刻がfeed（13:30 JST）と報道（14:00 JST）で不一致"
  ],
  "missing": [
-  "両国の直近10試合",
-  "H2H（2023年アジア大会決勝の結果は未検証）"
+  "開始時刻の一次確認",
+  "アフガニスタンのメンバー・グループ戦スコア",
+  "2023年決勝の詳細"
  ],
- "unavailable": {
-  "left.form": "本大会未出場。大会前結果は未取得",
-  "right.form": "本大会2試合のみ",
-  "h2h": "未検証のため記載せず"
- },
  "source_urls": [
-  "https://www.icc-cricket.com/news/all-the-squads-at-the-men-s-asian-games-2026",
-  "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449",
-  "https://en.wikipedia.org/wiki/Cricket_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament",
-  "https://en.wikipedia.org/wiki/International_cricket_in_2026",
-  "https://en.wikipedia.org/wiki/Indian_cricket_team_against_Afghanistan_in_India_in_2026",
-  "https://en.wikipedia.org/wiki/Afghan_cricket_team_in_Ireland_in_2026",
-  "https://en.wikipedia.org/wiki/Indian_cricket_team_in_Zimbabwe_in_2026"
+  "https://www.cricketwinner.com/cricket-news/asian-games-2026-india-vs-afghanistan-quarter-final-schedule/",
+  "https://www.wionews.com/sports/asian-games-2026-cricket-quarterfinal-schedule-india-afghanistan-pakistan-hong-kong-1790418018707",
+  "https://www.icc-cricket.com/news/men-s-asian-games-cricket-quarter-final-fixtures-confirmed"
  ],
  "calc": {
   "left": {
@@ -84,11 +69,11 @@
    "streak": null
   },
   "right": {
-   "games": 2,
-   "W": 1,
-   "L": 1,
+   "games": 0,
+   "W": 0,
+   "L": 0,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": null,
    "home": {
     "W": 0,
     "L": 0,
@@ -102,19 +87,13 @@
    "streak": null
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
+   "games": 1,
+   "left": 1,
    "right": 0,
    "draw": 0
   },
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T01:02:00+09:00",
-  "note": "2026-04〜09のインドの相手はアフガニスタン（6月ホームシリーズ＝H2Hのため除外）・ジンバブエ・イングランド等、アフガニスタンはインド・アイルランド（ODI）・アジア大会の日本・ネパールで、両者の共通相手は見つからず。試合単位の全結果までは未取得。",
-  "opponents": []
  }
 }

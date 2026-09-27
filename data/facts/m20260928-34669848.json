@@ -1,0 +1,173 @@
+{
+ "match_id": "m20260928-34669848",
+ "data_as_of": "2026-09-28T06:33:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "イエ・シーユー",
+  "ranking": "WTA順位は取得できず（Tennis Abstract Elo表に未掲載）",
+  "form": [
+   {
+    "date": "2026-04-26",
+    "opp": "ジベク・クランバエワ",
+    "comp": "湖州オープン2026 予選1回戦（クレー）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 2-6"
+   }
+  ],
+  "lineup": [
+   "2026年4月以降の実戦記録が出典にない"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "リンダ・フルフビルトバ",
+  "ranking": "予選第15シード（WTA順位は取得できず）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "マリア・サッカリ",
+    "comp": "シンガポール・オープン2026",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 1-6"
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "カーソン・ブランスティン",
+    "comp": "USオープン2026 予選2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 5-7"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "ポリナ・クデルメトワ",
+    "comp": "USオープン2026 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-3"
+   },
+   {
+    "date": "2026-08-03",
+    "opp": "カタジナ・カバ",
+    "comp": "ポーランド・オープン2026",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-4 4-6 6-7"
+   },
+   {
+    "date": "2026-07-27",
+    "opp": "アナスタシア・ザハロワ",
+    "comp": "メンフィス2026",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7 1-6"
+   }
+  ],
+  "lineup": [
+   "特記事項なし"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "チャイナ・オープン（WTA1000北京）予選1回戦・屋外ハード・中立",
+ "risks": [
+  "フルフビルトバは直近5試合1勝4敗と不調",
+  "イエは出場記録がほぼ見つからず地元ワイルドカードの可能性（未確認）"
+ ],
+ "missing": [
+  "両者のWTA順位",
+  "イエの直近成績",
+  "開始時刻の確認"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（Tennis Majors 0-0）",
+  "left.form": "2026-04-26の1試合のみ"
+ },
+ "source_urls": [
+  "https://www.tennismajors.com/matches/wta/china-open/ye-shiyu-vs-linda-fruhvirtova",
+  "https://tennisabstract.com/reports/wta_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 4,
+   "inner_against": 12,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 3,
+   "units_lost": 8,
+   "points_for": 3,
+   "points_against": 8,
+   "points_games": 5,
+   "inner_for": 49,
+   "inner_against": 59,
+   "inner_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

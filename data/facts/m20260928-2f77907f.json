@@ -1,0 +1,207 @@
+{
+ "match_id": "m20260928-2f77907f",
+ "data_as_of": "2026-09-28T06:33:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "デニス・シャポバロフ",
+  "ranking": "ATP 50位（自己最高10位）／成都第7シード",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "アドリアン・マナリノ",
+    "comp": "成都オープン2026 QF",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "6-7(6) 6-3 6-2"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "ビト・コプリバ",
+    "comp": "成都オープン2026 R2",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-2 6-3"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "タロン・グリークスプア",
+    "comp": "成都オープン2026 R1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-4 7-6(3)"
+   }
+  ],
+  "lineup": [
+   "棄権・負傷の報道なし"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "フベルト・フルカチュ",
+  "ranking": "ATP 46位（自己最高6位）／成都第5シード",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "ロイド・ハリス",
+    "comp": "成都オープン2026 QF",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(10) 6-4"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "マルティン・ダム",
+    "comp": "成都オープン2026 R2",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "4-6 6-3 6-4"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "アレクサンドル・シェフチェンコ",
+    "comp": "成都オープン2026 R1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-3 7-6(10)"
+   }
+  ],
+  "lineup": [
+   "棄権・負傷の報道なし（tennistonic・Last Word On Tennis）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2024-05-31",
+   "event": "全仏オープン2024 R3（クレー）",
+   "score": "1-3",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 3,
+   "detail": "6-3 7-6(0) 4-6 6-1"
+  },
+  {
+   "date": "2023-01-20",
+   "event": "全豪オープン2023（ハード）",
+   "score": "2-3",
+   "winner": "right",
+   "units_left": 2,
+   "units_right": 3
+  }
+ ],
+ "common_opponents_notes": [
+  "H2H通算はフルカチュ5勝1敗（ハード4勝1敗）とtennistonic/Last Word On Tennis。個別日付が取れたのは2試合のみ"
+ ],
+ "venue": "成都オープン（ATP250）準決勝・センターコート・屋外ハード・中立",
+ "risks": [
+  "大会前の直近試合（USオープン等）はsportytraderの行に矛盾（同一大会で敗戦後に試合がある等）があり採用せず",
+  "Tennis Abstract Elo はページ更新 2026-09-21 時点の値（今週の試合は未反映）。値はWebFetchの抽出結果で、原表を直接目視していない"
+ ],
+ "missing": [
+  "成都以前の直近7試合（信頼できる行データを取得できず）",
+  "H2Hの残り4試合の日付・スコア"
+ ],
+ "unavailable": {
+  "right.form": "成都以前の試合は出典の行が矛盾するため未採用",
+  "left.form": "同上",
+  "h2h": "通算5-1のうち2試合分のみ日付あり"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058374/h2h-prediction-of-hubert-hurkacz-vs-denis-shapovalov-in-chengdu-with-odds-preview-pick-28th-september-2026/",
+  "https://www.sportytrader.com/en/betting-tips/hurkacz-h-pol-denis-shapovalov-375639/",
+  "https://lastwordonsports.com/tennis/2026/09/27/atp-chengdu-semifinal-predictions-hurkacz-vs-shapovalov/",
+  "https://www.atptour.com/en/news/chengdu-2026-sunday-report",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 6,
+   "units_lost": 1,
+   "points_for": 6,
+   "points_against": 1,
+   "points_games": 3,
+   "inner_for": 43,
+   "inner_against": 27,
+   "inner_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 6,
+   "units_lost": 1,
+   "points_for": 6,
+   "points_against": 1,
+   "points_games": 3,
+   "inner_for": 42,
+   "inner_against": 32,
+   "inner_games": 3
+  },
+  "h2h": {
+   "games": 2,
+   "left": 0,
+   "right": 2,
+   "draw": 0,
+   "units_left": 3,
+   "units_right": 6,
+   "points_left": 3,
+   "points_right": 6,
+   "points_games": 2,
+   "avg_left": 1.5,
+   "avg_right": 3.0,
+   "inner_left": 16,
+   "inner_right": 23,
+   "inner_games": 1
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

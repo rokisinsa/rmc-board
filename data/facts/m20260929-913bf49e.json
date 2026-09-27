@@ -1,0 +1,149 @@
+{
+ "left": {
+  "name": "キューバ",
+  "ranking": "FIFAランク164位（FotMob）／CONCACAFネーションズリーグB 3組首位（1勝、勝点3）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "グレナダ",
+    "comp": "CONCACAFネーションズリーグB 3組",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "ドミニカ共和国",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "マルティニーク",
+    "comp": "国際親善試合",
+    "ha": "N",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2025-10-11",
+    "opp": "グレナダ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-09",
+    "opp": "セントビンセント・グレナディーン",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "監督：ペドロ・パブロ・ペレイラ（national-football-teams.com）",
+   "個別の欠場情報は見つからず"
+  ]
+ },
+ "right": {
+  "name": "ボネール",
+  "ranking": "FIFA非加盟（CONCACAF加盟）／ネーションズリーグB 3組 1敗",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "セントクリストファー・ネービス",
+    "comp": "CONCACAFネーションズリーグB 3組",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "9/25はSonnenscheinが7分に先制も逆転負け（ZIZ）",
+   "個別の欠場情報は見つからず"
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "SKNFAテクニカルセンター（セントクリストファー・ネービス、バセテール）／キューバのホーム扱いだが中立地",
+ "risks": [
+  "キューバは国内開催できず中立地（statszone）",
+  "ボネールは直近3連敗（statszone）だが試合数・データが少ない",
+  "キューバは代表の主力流出（亡命等）で年ごとに編成が変わりやすい（一般論、今回の具体情報なし）"
+ ],
+ "missing": [
+  "ボネールの過去試合（9/25以外）",
+  "H2H",
+  "両軍先発"
+ ],
+ "unavailable": {
+  "h2h": "確認できる情報源なし",
+  "right.form": "ボネールの9/25以前の試合日付・スコアを取得できず（BeSoccer 403）"
+ },
+ "match_id": "m20260929-913bf49e",
+ "data_as_of": "2026-09-28T06:27:00+09:00",
+ "unit": "なし",
+ "source_urls": [
+  "https://www.thestatszone.com/cuba-vs-bonaire-preview-prediction-2026-27-concacaf-nations-league-226413",
+  "https://www.fotmob.com/teams/5857/overview/cuba",
+  "https://www.national-football-teams.com/country/48/2026/Cuba.html",
+  "https://zizonline.com/sugar-boyz-open-nations-league-with-2-1-win-over-bonaire/"
+ ],
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 1,
+   "L": 2,
+   "D": 2,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 6,
+   "points_games": 5
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

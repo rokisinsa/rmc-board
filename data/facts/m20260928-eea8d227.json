@@ -1,0 +1,129 @@
+{
+ "match_id": "m20260928-eea8d227",
+ "data_as_of": "2026-09-28T06:38:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Z.ピロシュ",
+  "ranking": "ATP 114位（自己最高106位）。2026年 41勝18敗（クレー27-13, 室内ハード10-1, ハード3-3, 芝1-1）。TA総合Elo 1710.9",
+  "form": [
+   {
+    "date": "2026-09-18",
+    "opp": "A.クナフ",
+    "comp": "デビスカップ 第2試合",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-4 6-0"
+   }
+  ],
+  "lineup": [
+   "Bari CH 第1シード・初出場"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "B.ハッサン",
+  "ranking": "ATP 428位（自己最高143位）。2026年 21勝22敗（クレー16-13, ハード4-8）",
+  "form": [
+   {
+    "date": "2026-09-21",
+    "opp": "P.マルティン・ティフォン",
+    "comp": "Plovdiv 4 CH 1回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-1 4-6 1-6"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Bari CH（イタリア）1回戦・センターコート・中立",
+ "risks": [
+  "ピロシュは前週デビスカップ出場（移動・連戦）",
+  "サーフェス未確認（TennisTonic記事に記載なし）"
+ ],
+ "missing": [
+  "両者の直近10試合（直近1試合のみ）",
+  "共通の対戦相手"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（TennisTonic）",
+  "left.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ",
+  "right.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058380/h2h-prediction-of-zsombor-piros-vs-benjamin-hassan-in-bari-challenger-with-odds-preview-pick-28th-september-2026/",
+  "https://en.wikipedia.org/wiki/Zsombor_Piros",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1,
+   "inner_for": 12,
+   "inner_against": 4,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 11,
+   "inner_against": 13,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

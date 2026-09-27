@@ -1,0 +1,129 @@
+{
+ "match_id": "m20260929-a834cc04",
+ "data_as_of": "2026-09-28T06:38:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "M.ロッテリング",
+  "ranking": "ATP 335位（自己最高）。2026年 30勝13敗（ハード18-7, 室内ハード11-4, 芝1-2）。TA総合Elo 1614.2",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "N.バサバレディ",
+    "comp": "San Diego 2 CH 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 3-6"
+   }
+  ],
+  "lineup": [
+   "Columbus CH初出場"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "E.ウィンター",
+  "ranking": "ATP 338位（自己最高）。2026年 24勝21敗（ハード24-19, 芝0-2, 室内0-0）。キャリア室内ハード3-5",
+  "form": [
+   {
+    "date": "2026-09-21",
+    "opp": "K.スミス",
+    "comp": "San Diego 2 CH 1回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "3-6 6-4 2-6"
+   }
+  ],
+  "lineup": [
+   "2025年Columbus CH予選出場"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Columbus CH（米国）1回戦・室内ハード・Court 3・中立",
+ "risks": [
+  "両者とも前週San Diego 2 CHで1回戦敗退"
+ ],
+ "missing": [
+  "両者の直近10試合（直近1試合のみ）",
+  "共通の対戦相手"
+ ],
+ "unavailable": {
+  "h2h": "初対戦（TennisTonic）",
+  "left.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ",
+  "right.form": "直近10試合の一覧ソース（TennisExplorer/ATP/Flashscore）が取得不可・古いキャッシュのみのため、TennisTonicのプレビュー記載の直近1試合のみ"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058565/h2h-prediction-of-mees-rottgering-vs-edward-winter-in-columbus-challenger-with-odds-preview-pick-28th-september-2026/",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 6,
+   "inner_against": 12,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 11,
+   "inner_against": 16,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

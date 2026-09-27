@@ -1,16 +1,15 @@
 {
  "match_id": "m20260928-855f5752",
- "data_as_of": "2026-09-28T00:10:00+09:00",
- "start_jst_confirmed": "2026-09-28T06:30:00+09:00",
+ "data_as_of": "2026-09-28T06:21:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Team Liquid",
-  "ranking": "HLTV #27 / VRS #18（HLTV試合ページ、試合前時点）",
+  "ranking": "HLTV #27 / VRS #18（HLTV試合ページ）",
   "form": [
    {
-    "date": "2026-09-27",
+    "date": "2026-09-26",
     "opp": "M80",
-    "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -20,7 +19,7 @@
    {
     "date": "2026-09-26",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -30,7 +29,7 @@
    {
     "date": "2026-09-25",
     "opp": "Chicken Coop",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -38,44 +37,26 @@
     "units_lost": 0
    },
    {
-    "date": "2026-09-13",
-    "opp": "NRG",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選（BO5）",
+    "date": "2026-09-18",
+    "opp": "BBL",
+    "comp": "iBUYPOWER Masters FML 2026 関連（BO1）",
     "ha": "N",
-    "score": "3-2",
-    "res": "W",
-    "units_won": 3,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-09-12",
-    "opp": "Voca",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
-    "ha": "N",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1
-   },
-   {
-    "date": "2026-09-12",
-    "opp": "NRG",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
-    "ha": "N",
-    "score": "0-2",
+    "score": "0-1",
     "res": "L",
     "units_won": 0,
-    "units_lost": 2
+    "units_lost": 1,
+    "detail": "6-13"
    },
    {
-    "date": "2026-09-11",
-    "opp": "Marsborne",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
+    "date": "2026-09-18",
+    "opp": "3DMAX",
+    "comp": "iBUYPOWER Masters FML 2026 関連（BO1）",
     "ha": "N",
-    "score": "2-1",
+    "score": "1-0",
     "res": "W",
-    "units_won": 2,
-    "units_lost": 1
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "13-6"
    }
   ],
   "lineup": [
@@ -83,22 +64,13 @@
    "malbsMd",
    "NAF",
    "EliGE",
-   "JT（HLTV試合ページ記載の5人）"
+   "JT"
   ],
   "history": [
    {
-    "date": "2026-09-27",
-    "opp": "M80",
-    "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
     "date": "2026-09-26",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
@@ -107,53 +79,17 @@
    {
     "date": "2026-09-25",
     "opp": "Chicken Coop",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
     "units_lost": 0
    },
    {
-    "date": "2026-09-13",
-    "opp": "NRG",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選（BO5）",
-    "score": "3-2",
-    "res": "W",
-    "units_won": 3,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-09-12",
-    "opp": "NRG",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-09-12",
-    "opp": "Voca",
-    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1
-   },
-   {
-    "date": "2026-05-21",
-    "opp": "The MongolZ",
-    "comp": "CS Asia Championships 2026",
-    "score": "1-2",
-    "res": "L",
-    "units_won": 1,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-05-20",
-    "opp": "PARIVISION",
-    "comp": "CS Asia Championships 2026（BO1）",
-    "score": "9-13",
+    "date": "2026-09-18",
+    "opp": "BBL",
+    "comp": "iBUYPOWER Masters FML 2026 関連（BO1）",
+    "score": "0-1",
     "res": "L",
     "units_won": 0,
     "units_lost": 1
@@ -162,23 +98,22 @@
  },
  "right": {
   "name": "Wildcard",
-  "ranking": "HLTV #46 / VRS #50（HLTV試合ページ、試合前時点）",
+  "ranking": "HLTV #46 / VRS #50（HLTV試合ページ）",
   "form": [
    {
-    "date": "2026-09-27",
+    "date": "2026-09-26",
     "opp": "DENDELE",
-    "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-1",
     "res": "W",
     "units_won": 2,
-    "units_lost": 1,
-    "detail": "決勝進出のため勝利と判断（HLTV結果ページ要約は表記揺れあり）"
+    "units_lost": 1
    },
    {
     "date": "2026-09-26",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -186,9 +121,9 @@
     "units_lost": 0
    },
    {
-    "date": "2026-09-26",
+    "date": "2026-09-25",
     "opp": "Chicken Coop",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -198,7 +133,7 @@
    {
     "date": "2026-09-25",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "ha": "N",
     "score": "0-2",
     "res": "L",
@@ -208,57 +143,7 @@
    {
     "date": "2026-09-12",
     "opp": "BBL",
-    "comp": "Thunderpick World Championship 2026 クローズド予選",
-    "ha": "N",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-09-11",
-    "opp": "Nemesis",
-    "comp": "Thunderpick World Championship 2026 クローズド予選",
-    "ha": "N",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-09-10",
-    "opp": "EYEBALLERS",
-    "comp": "Thunderpick World Championship 2026 クローズド予選",
-    "ha": "N",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1
-   },
-   {
-    "date": "2026-09-09",
-    "opp": "HOTU",
-    "comp": "Thunderpick World Championship 2026 クローズド予選",
-    "ha": "N",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-08-15",
-    "opp": "paiN",
-    "comp": "Esports World Cup 2026",
-    "ha": "N",
-    "score": "1-2",
-    "res": "L",
-    "units_won": 1,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-07-26",
-    "opp": "The MongolZ",
-    "comp": "BLAST Bounty 2026 Season 2",
+    "comp": "（大会名未確認）",
     "ha": "N",
     "score": "0-2",
     "res": "L",
@@ -271,22 +156,22 @@
    "reck",
    "HexT",
    "nEMANHA",
-   "fr3nd（HLTV試合ページ記載の5人）"
+   "fr3nd"
   ],
   "history": [
    {
     "date": "2026-09-26",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
     "units_lost": 0
    },
    {
-    "date": "2026-09-26",
+    "date": "2026-09-25",
     "opp": "Chicken Coop",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
@@ -295,79 +180,16 @@
    {
     "date": "2026-09-25",
     "opp": "NRG",
-    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "comp": "iBUYPOWER Masters FML 2026（LAN）",
     "score": "0-2",
     "res": "L",
     "units_won": 0,
     "units_lost": 2
    },
    {
-    "date": "2026-07-26",
-    "opp": "The MongolZ",
-    "comp": "BLAST Bounty 2026 Season 2",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-05-04",
-    "opp": "M80",
-    "comp": "Thunderpick World Championship 2026 North America",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-05-04",
-    "opp": "Voca",
-    "comp": "ESL Challenger League S51 NA Cup #4",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-05-02",
-    "opp": "Voca",
-    "comp": "ESL Challenger League S51 NA Cup #4",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-04-26",
-    "opp": "Chicken Coop",
-    "comp": "FRAG 20",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-04-26",
-    "opp": "Voca",
-    "comp": "FRAG 20",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
-   },
-   {
-    "date": "2026-04-08",
-    "opp": "PARIVISION",
-    "comp": "PGL Bucharest 2026",
-    "score": "0-2",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 2
-   },
-   {
-    "date": "2026-04-07",
-    "opp": "The MongolZ",
-    "comp": "PGL Bucharest 2026",
+    "date": "2026-09-12",
+    "opp": "BBL",
+    "comp": "（大会名未確認）",
     "score": "0-2",
     "res": "L",
     "units_won": 0,
@@ -375,68 +197,86 @@
    }
   ]
  },
- "h2h": [],
- "venue": "LAN・米国ネバダ州ラスベガス（iBUYPOWER Masters fl0m's Mythical LAN）",
+ "h2h": [
+  {
+   "date": "2025-01-31",
+   "event": "IEM Katowice 2025 LB",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0
+  },
+  {
+   "date": "2024-11-30",
+   "event": "PW Shanghai Major 2024 Swiss R2（BO1）",
+   "score": "1-0",
+   "winner": "left",
+   "units_left": 1,
+   "units_right": 0,
+   "detail": "13-10（egamersworld）"
+  },
+  {
+   "date": "2024-11-12",
+   "event": "PW Shanghai Major 2024 Americas RMR Swiss R1（BO1）",
+   "score": "0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1,
+   "detail": "12-16（egamersworld）"
+  },
+  {
+   "date": "2024-02-26",
+   "event": "IEM Dallas 2024 Closed Qualifier LB Final",
+   "score": "2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1
+  },
+  {
+   "date": "2024-01-20",
+   "event": "IEM Chengdu 2024 Closed Qualifier UB Final",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0
+  }
+ ],
+ "venue": "LAN・中立（iBUYPOWER Masters fl0m's Mythical LAN 2026 グランドファイナル、米国）",
  "esports": {
   "format": "BO3（グランドファイナル）",
-  "lan_online": "LAN",
-  "map_pool": "Cache, Dust2, Mirage, Inferno, Nuke, Ancient, Anubis",
-  "veto": "未公開（TBA）",
-  "patch": "不明",
-  "map_h2h": "対戦記録なし"
+  "lan_online": "LAN（iBUYPOWER Masters fl0m's Mythical LAN 2026）",
+  "map_pool": "Active Duty（HLTVのマップ統計表示）: Cache / Dust2 / Mirage / Inferno / Nuke / Ancient / Anubis",
+  "veto": "unavailable: 試合前でveto未公開",
+  "patch": "unavailable: CS2の直近パッチ内容は未確認",
+  "map_h2h": "unavailable: マップ別H2Hは未取得。過去3ヶ月マップ勝率（HLTV）: Liquid Mirage83%/Inferno100%/Anubis73%/Nuke64%/Cache67%/Dust2 43%、Wildcard Cache50%/Dust2 50%/Inferno50%/Mirage33%/Nuke33%"
  },
  "risks": [
-  "Liquidの9/18 Logitech G Play Connectの単マップ結果（ショーマッチ的な可能性）は直近成績から除外",
-  "Wildcard 9/27 DENDELE戦の勝敗はHLTV要約で表記揺れがあったため決勝進出の事実から判断",
-  "同日中の準決勝からの連戦"
+  "同じLANでWildcardは9/25 NRGに0-2で敗れてから敗者側を勝ち上がり（NRGには9/26に2-0で勝利）",
+  "9/18のBBL/3DMAX戦はBO1で大会ステージ名が未確認",
+  "開始時刻が非常に近い（データ取得時点で約10分前）"
  ],
  "missing": [
-  "マップベト",
-  "選手レーティング",
-  "パッチ"
+  "Liquid・Wildcardとも直近10シリーズのうち日付付きで確認できたのは各5件（それ以前はegamersworldにあるが日付なしのため不採用）",
+  "マップveto・マップ別H2H"
  ],
  "unavailable": {
-  "h2h": "HLTV上で対戦記録なし",
-  "veto": "試合前にベト未公開",
-  "rating": "取得できず",
-  "patch": "未確認"
+  "left.form": "日付付きの結果は5件まで確認",
+  "right.form": "日付付きの結果は5件まで確認"
  },
  "source_urls": [
   "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
-  "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026",
-  "https://www.hltv.org/results?team=5973",
-  "https://www.hltv.org/results?team=12257"
+  "https://tips.gg/matches/counter-strike/27-09-2026/team-liquid-vs-wildcard/10-30/",
+  "https://www.dust2.us/matches/2398300/liquid-vs-wildcard",
+  "https://www.strafe.com/match/team-liquid-vs-wildcard-gaming-final-2026-ibuypower-masters-fml-df35b0/",
+  "https://egamersworld.com/counterstrike/tip/V1NRE88Cmx/liquid-vs-wildcard-EVtQTcrSd"
  ],
  "calc": {
   "left": {
-   "games": 7,
-   "W": 6,
+   "games": 5,
+   "W": 4,
    "L": 1,
    "D": 0,
-   "win_rate": 85.7,
-   "home": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "away": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "streak": "5連勝",
-   "units_won": 13,
-   "units_lost": 6,
-   "points_for": 13,
-   "points_against": 6,
-   "points_games": 7
-  },
-  "right": {
-   "games": 10,
-   "W": 5,
-   "L": 5,
-   "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -448,17 +288,47 @@
     "D": 0
    },
    "streak": "3連勝",
-   "units_won": 11,
-   "units_lost": 12,
-   "points_for": 11,
-   "points_against": 12,
-   "points_games": 10
+   "units_won": 7,
+   "units_lost": 1,
+   "points_for": 7,
+   "points_against": 1,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 6,
+   "units_lost": 5,
+   "points_for": 6,
+   "points_against": 5,
+   "points_games": 5
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 5,
+   "left": 4,
+   "right": 1,
+   "draw": 0,
+   "units_left": 7,
+   "units_right": 2,
+   "points_left": 7,
+   "points_right": 2,
+   "points_games": 5,
+   "avg_left": 1.4,
+   "avg_right": 0.4
   },
   "common": [
    {
@@ -469,21 +339,7 @@
       "iso": "2026-09-26",
       "score": "2-0",
       "res": "W",
-      "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
-     },
-     {
-      "date": "2026-09-13",
-      "iso": "2026-09-13",
-      "score": "3-2",
-      "res": "W",
-      "comp": "PGL Masters Bucharest 2026 北米クローズド予選（BO5）"
-     },
-     {
-      "date": "2026-09-12",
-      "iso": "2026-09-12",
-      "score": "0-2",
-      "res": "L",
-      "comp": "PGL Masters Bucharest 2026 北米クローズド予選"
+      "comp": "iBUYPOWER Masters FML 2026（LAN）"
      }
     ],
     "right": [
@@ -492,20 +348,20 @@
       "iso": "2026-09-26",
       "score": "2-0",
       "res": "W",
-      "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
+      "comp": "iBUYPOWER Masters FML 2026（LAN）"
      },
      {
       "date": "2026-09-25",
       "iso": "2026-09-25",
       "score": "0-2",
       "res": "L",
-      "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
+      "comp": "iBUYPOWER Masters FML 2026（LAN）"
      }
     ],
     "edge": "left",
     "basis": "勝率",
     "latest": "2026-09-26",
-    "left_rec": "2勝1敗",
+    "left_rec": "1勝0敗",
     "right_rec": "1勝1敗"
    },
    {
@@ -516,39 +372,52 @@
       "iso": "2026-09-25",
       "score": "2-0",
       "res": "W",
-      "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
+      "comp": "iBUYPOWER Masters FML 2026（LAN）"
      }
     ],
     "right": [
      {
-      "date": "2026-09-26",
-      "iso": "2026-09-26",
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
       "score": "2-0",
       "res": "W",
-      "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
+      "comp": "iBUYPOWER Masters FML 2026（LAN）"
      }
     ],
     "edge": "even",
     "basis": null,
-    "latest": "2026-09-26",
+    "latest": "2026-09-25",
     "left_rec": "1勝0敗",
     "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "BBL",
+    "left": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "0-1",
+      "res": "L",
+      "comp": "iBUYPOWER Masters FML 2026 関連（BO1）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "0-2",
+      "res": "L",
+      "comp": "（大会名未確認）"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-18",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
    }
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
- },
- "common_window": {
-  "days": 180,
-  "data_as_of": "2026-09-28T00:25:00+09:00",
-  "note": "HLTVチーム別結果ページで2026-04-01〜09-27を確認。Liquidの09-18 Logitech G Play Connect 2026（単マップのショーマッチ的イベント、facts方針に合わせ除外）は含めず、含めればBBL・EYEBALLERS・Inner Circleも共通相手になる。",
-  "opponents": [
-   "Chicken Coop",
-   "M80",
-   "NRG",
-   "PARIVISION",
-   "The MongolZ",
-   "Voca"
-  ]
  }
 }

@@ -1,0 +1,144 @@
+{
+ "unit": "なし",
+ "left": {
+  "name": "オマーン",
+  "ranking": "ICC準会員（ODI資格国）。今シリーズ判明分2勝",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "ケーララ",
+    "comp": "オマーン招待三角ワンデーシリーズ 2026",
+    "ha": "H",
+    "score": "240-225",
+    "res": "W",
+    "detail": "240/10 (48.4) vs 225/10 (48.3)、15ラン差勝"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ムンバイ",
+    "comp": "オマーン招待三角ワンデーシリーズ 2026",
+    "ha": "H",
+    "score": "258-194",
+    "res": "W",
+    "detail": "258/9 (50) vs 194/10 (42.1)、64ラン差勝"
+   }
+  ],
+  "lineup": [
+   "シャキール・アフマド、ナディーム・ハーン（ケーララ戦各2ウィケット）",
+   "スカッド詳細は未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ケーララ",
+  "ranking": "インド国内州代表（ランジ・トロフィー等）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "オマーン",
+    "comp": "オマーン招待三角ワンデーシリーズ 2026",
+    "ha": "A",
+    "score": "225-240",
+    "res": "L",
+    "detail": "225/10 (48.3)、ローハン・ナイル93、アブドゥル・バシト41"
+   }
+  ],
+  "lineup": [
+   "主将クリシュナ・プラサード",
+   "ヴァツァル・ゴーヴィンド・シャルマ、アルジュン・A・K、シジョモン・ジョセフ、ヴィグネシュ・プトゥール ほか"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09-22",
+   "event": "オマーン招待三角ワンデーシリーズ 2026",
+   "score": "240-225",
+   "winner": "left",
+   "detail": "オマーン15ラン差勝"
+  }
+ ],
+ "common_opponents_notes": [
+  "9/16 第1戦オマーン対ケーララの結果、ケーララ対ムンバイ（9/18・9/24）の結果は取得できず"
+ ],
+ "venue": "オマーン・アル・アメラト（オマーン・クリケット・アカデミー／ミニストリー・ターフ）とみられる。オマーンのホーム",
+ "unavailable": {
+  "right.form": "9/16・9/18・9/24の結果取得できず"
+ },
+ "match_id": "m20260928-6cde717a",
+ "data_as_of": "2026-09-28T06:39:00+09:00",
+ "risks": [
+  "公表日程にない試合（追加試合・決勝等か不明）",
+  "招待シリーズでメンバー起用が流動的",
+  "市場はケーララ本命（1.69）だが判明分の直接対決はオマーン勝利＝価格の向きに注意"
+ ],
+ "missing": [
+  "9/28試合の位置付け・開始時刻",
+  "9/16初戦結果",
+  "ケーララの他試合結果",
+  "オマーンのスカッド"
+ ],
+ "source_urls": [
+  "https://khelnow.com/live-cricket-score/oman-vs-kerala-oman-invitational-triangular--22nd-september-2026-41169",
+  "https://khelnow.com/live-cricket-score/oman-vs-mumbai-oman-invitational-triangular--20th-september-2026-41166",
+  "https://www.sportsdunia.com/cricket-news/oman-mumbai-kerala-tri-series-2026-schedule-squads"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 498,
+   "points_against": 419,
+   "points_games": 2
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 225,
+   "points_against": 240,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 240,
+   "points_right": 225,
+   "points_games": 1,
+   "avg_left": 240.0,
+   "avg_right": 225.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}
