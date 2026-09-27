@@ -206,6 +206,24 @@ def check_independence(rep, ana_by_logic):
             rep.err("INDEPENDENCE", f"{mid}: ④の base_probability が market_probability の流用")
 
 
+def check_facts(rep, matches):
+    import glob, os, json as _j
+    from .core import DATA
+    for f in glob.glob(os.path.join(DATA, "facts", "*.json")):
+        mid = os.path.basename(f)[:-5]
+        try:
+            x = _j.load(open(f, encoding="utf-8"))
+        except Exception as e:
+            rep.err("FACTS_JSON", f"{mid}: facts が壊れたJSON ({e})"); continue
+        if mid not in matches:
+            rep.err("FACTS_MATCH", f"{mid}: facts に対応する試合がない")
+        for side in ("left", "right"):
+            if not isinstance(x.get(side), dict) or not isinstance(x[side].get("form", []), list):
+                rep.err("FACTS_SHAPE", f"{mid}: {side}.form は1試合1行のリストにする（docs/FACTS_SPEC.md）")
+        if not isinstance(x.get("h2h", []), list):
+            rep.err("FACTS_SHAPE", f"{mid}: h2h は1試合1行のリストにする")
+
+
 def run(base=None):
     rep = Report()
     matches = load("matches.json", {})
@@ -226,6 +244,7 @@ def run(base=None):
     check_ledger(rep, "experience", load("ledger/experience.json", []), matches, base_exp)
     check_runs(rep, runs, ana)
     check_independence(rep, ana)
+    check_facts(rep, matches)
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}

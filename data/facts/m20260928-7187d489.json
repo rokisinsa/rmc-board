@@ -1,0 +1,135 @@
+{
+ "match_id": "m20260928-7187d489",
+ "data_as_of": "2026-09-27T22:25:00+09:00",
+ "left": {
+  "name": "Nemiga",
+  "ranking": "HLTV 46位 / VRS 49位（9/8時点の試合ページ。gosugamersは9/14に世界30位と表記しており不一致）",
+  "form": [
+   {
+    "date": "9/25",
+    "opp": "INOX Division",
+    "score": "2-0",
+    "res": "W",
+    "note": "NODWIN Clutch Series 12 ベスト16"
+   },
+   {
+    "date": "9/14",
+    "opp": "Color",
+    "score": "—",
+    "res": "W",
+    "note": "CCT Europe Series #8 プレーオフ Bo1・不戦勝"
+   },
+   {
+    "date": "9/8",
+    "opp": "Color",
+    "score": "2-0",
+    "res": "W",
+    "note": "1win Private Club S1 クローズド予選 ベスト16"
+   },
+   {
+    "date": "—",
+    "opp": "Metizport",
+    "score": "2-0",
+    "res": "W",
+    "note": "日付不明"
+   },
+   {
+    "date": "—",
+    "opp": "SINNERS",
+    "score": "2-0",
+    "res": "W",
+    "note": "日付不明"
+   }
+  ],
+  "form_summary": "stavka.tvでは5シリーズ連続でマップを落とさず勝利。ただしmaisesportsは直近5試合に1-2の敗戦1つと表示（食い違いあり）",
+  "lineup": [
+   "9/8の出場メンバー：robo、KaiR0N-、Xant3r、khaN、syph0"
+  ]
+ },
+ "right": {
+  "name": "Color",
+  "ranking": "HLTV 54位 / VRS 51位（HLTVのWW対Color試合ページ、9/26）",
+  "form": [
+   {
+    "date": "9/26",
+    "opp": "WW",
+    "score": "2-0",
+    "res": "W",
+    "note": "NCS12（Dust2 13-8、Mirage 16-14）"
+   },
+   {
+    "date": "—",
+    "opp": "SPARTA",
+    "score": "2-0",
+    "res": "W",
+    "note": "日付不明"
+   },
+   {
+    "date": "—",
+    "opp": "UPGRADE",
+    "score": "2-0",
+    "res": "W",
+    "note": "NCS12 スイスステージ"
+   },
+   {
+    "date": "9/14",
+    "opp": "Nemiga",
+    "score": "—",
+    "res": "L",
+    "note": "CCT Europe Series #8 プレーオフ Bo1・不戦敗"
+   },
+   {
+    "date": "9/8",
+    "opp": "Nemiga",
+    "score": "0-2",
+    "res": "L",
+    "note": "1win Private Club S1 クローズド予選"
+   }
+  ],
+  "form_summary": "5シリーズ連勝中（好調）",
+  "lineup": [
+   "9/8の出場メンバー（控え含む）：lattykk、reyoz、cronuss、oz1k、kurosa（控え）",
+   "9/26のWW戦ではPatsiが出場（レーティング1.40）",
+   "現在の5人・9/26のラインナップは完全には確認できていない"
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-14",
+   "event": "CCT Europe Series #8 プレーオフ（Bo1）",
+   "score": "Nemiga 不戦勝（gosugamers）",
+   "winner": "left"
+  },
+  {
+   "date": "2026-09-08",
+   "event": "1win Private Club S1 クローズド予選 ベスト16",
+   "score": "Nemiga 2-0 Color（Dust2 16-13、Anubis 13-6）",
+   "winner": "left"
+  }
+ ],
+ "h2h_summary": "判明している対戦はNemigaの2勝0敗（2-0のシリーズ1回、Bo1の不戦勝1回）",
+ "venue": "オンライン（欧州）・中立",
+ "esports": {
+  "format": "BO3・NODWIN Clutch Series 12 プレーオフ準々決勝（シングルエリミネーション）。24チーム、スイス→プレーオフ、賞金3万ドル、2026/9/15-28。NemigaはVRS欧州枠でプレーオフに招待",
+  "lan_online": "オンライン",
+  "map_pool": "NCS12のActive Duty：Cache、Dust2、Mirage、Inferno、Nuke、Ancient、Anubisの見込み（9月の他大会と同じ。大会ページでは未確認）。Nemiga：Anubis 84%、Cache 78%。Color：Mirage 80%、Cache 33%、Nuke 0%（いずれもstavka.tv）",
+  "veto": "前回（9/8）：ColorがNukeバン、NemigaがInfernoバン、ColorがDust2ピック、NemigaがAnubisピック、NemigaがMirageバン、ColorがCacheバン、Ancientが残り。今回もColorのNukeバン、NemigaのInfernoバンが予想される",
+  "patch": "CS2の現行ライブビルド（大会固有のパッチ情報なし）",
+  "map_h2h": "Dust2：Nemiga 16-13、Anubis：Nemiga 13-6"
+ },
+ "risks": [
+  "開始時刻の食い違い：stavka.tvはモスクワ時間9/27 17:00（日本時間9/27 23:00、data_as_ofの約40分後）、kushvsporteとmaisesportsは14:00表記（maisesportsはタイムゾーン不明、ブラジル時間なら日本時間9/28 02:00）。HLTV上のNCS12の枠（UTC 08/11/14時）からは日本時間9/27 23:00の可能性が高い",
+  "オンラインのBo3でティア2〜3のため振れ幅が大きい",
+  "Colorは連勝中で勢いがある",
+  "Colorのロスター・控えの状況が不明確",
+  "ColorはNukeが勝率0%（常時バン）、Cacheも33%と弱い。NemigaはAnubis 84%、Cache 78%と強い（stavka.tv）"
+ ],
+ "missing": [
+  "HLTVの試合ページ・ID",
+  "確定した開始時刻",
+  "ブックメーカー名が明示されたオッズ",
+  "HLTVの詳細なマップ成績",
+  "Colorの現在の5人の確定情報"
+ ],
+ "unavailable": {}
+}
