@@ -1,12 +1,9 @@
 name: bc-fetch
 # BET CHANNELの配信を定時更新の15分前に取得して data/bc/feed/ に保存（PCオフでも定時更新が実オッズを使えるように）
+# 2026-09-28 00:34 の試験で GitHub（米国）の実行環境からは HTTP 503 で拒否された。定時実行は止め、手動実行だけ残す。
+# 実運用は日本のVPSで scripts/bc_fetch.py を cron 実行する（RUNBOOK参照）。
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "40 20,2,8,13 * * *"   # JST 05:40 / 11:40 / 17:40 / 22:40
-  push:
-    branches: [main]
-    paths: [".github/workflows/bc-fetch.yml", "scripts/bc_fetch.py"]
 permissions:
   contents: write
 concurrency: { group: bc-fetch, cancel-in-progress: false }
