@@ -175,6 +175,12 @@ table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:
 .cmp .cl,.cmp .cr{font-family:var(--mono);font-size:18px;font-weight:600}.cmp .cr{text-align:right}
 .cmp .lead{color:var(--ok)}
 .cmp .cm{text-align:center;font-size:12px;color:var(--ink)}.cmp .cm small{display:block;color:var(--muted);font-size:10.5px}
+
+.card .mode{display:flex;flex-direction:column;gap:1px;border-top:1px solid var(--line);padding-top:8px;margin-top:2px}
+.card .mode span:first-child{font-size:11.5px;color:var(--muted);font-weight:600}
+.card .roi{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.kv.sep{border-top:1px dashed var(--line);padding-top:6px}
+#cards .note{grid-column:1/-1;font-size:12px;color:var(--muted);margin:0}
 </style>
 </head>
 <body>
@@ -244,11 +250,15 @@ document.getElementById('banner').innerHTML = run.status==='complete'
   : `<div class="banner"><b>この回は完全更新ではありません（${esc(run.status)}）。</b>未完了の項目：<ul>${(run.blockers||[]).map(b=>`<li>${esc(b)}</li>`).join('')}</ul></div>`;
 
 // 収支カード
-document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const s=D.summary.logics[l];
-  return `<div class="card"><span class="t">${T[l]}</span><span class="big ${s.net>0?'pos':s.net<0?'neg':''}">${money(s.net)}</span>
+document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const s=D.summary.logics[l];const c=s.compound||{};
+  return `<div class="card"><span class="t">${T[l]}</span>
+  <div class="mode"><span>単利（毎回$100固定）</span><span class="big ${s.net>0?'pos':s.net<0?'neg':''}">${money(s.net)}</span><span class="roi">ROI ${s.roi??'—'}${s.roi!=null?'%':''}</span></div>
   <dl class="kv"><dt>戦績</dt><dd>${s.settled}戦 ${s.win}勝 ${s.loss}敗${s.void?' / 無効'+s.void:''}</dd><dt>勝率</dt><dd>${s.hit_rate??'—'}${s.hit_rate!=null?'%':''}</dd>
-  <dt>ROI</dt><dd>${s.roi??'—'}${s.roi!=null?'%':''}</dd><dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd>
-  <dt>金額未計算</dt><dd>${s.amount_missing}</dd><dt>複利（参考）</dt><dd>$${s.compound_ref.toFixed(2)}</dd><dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}（${s.kelly_quarter.bets}件）</dd></dl></div>`;}).join('');
+  <dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd><dt>金額未計算</dt><dd>${s.amount_missing}</dd></dl>
+  <div class="mode"><span>複利（倍額でリセット）</span><span class="big ${c.net>0?'pos':c.net<0?'neg':''}">${money(c.net??0)}</span></div>
+  <dl class="kv"><dt>現在資金</dt><dd>$${(c.bankroll??100).toFixed(2)}</dd><dt>ストック</dt><dd>$${(c.stock??0).toFixed(2)}</dd><dt>確保（倍額到達）</dt><dd>${c.secured??0}回</dd><dt>失敗（資金0）</dt><dd>${c.busted??0}回</dd><dt>投入元金合計</dt><dd>$${(c.principal??100).toFixed(2)}</dd></dl>
+  <dl class="kv sep"><dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}（${s.kelly_quarter.bets}件）</dd></dl></div>`;}).join('')+
+  `<p class="note">複利のルール：元金$100を1件ごとに全額投入し、試合開始順に進めます。$200（倍額）以上になったら利益分をストックに移して$100から再開、負けて0になったら「失敗」として$100から再開します。純損益＝現在資金＋ストック−投入元金合計。</p>`;
 
 // カバレッジ
 const cov=run.coverage||{};

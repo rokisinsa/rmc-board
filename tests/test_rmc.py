@@ -44,6 +44,19 @@ class TestSettlement(Base):
         self.assertTrue(r["amount_missing"])
         self.assertIsNone(r["payout"])
 
+    def test_compound_reset(self):
+        m = {f"m{i}": dict(start_jst=f"2026-10-0{i}T20:00:00+09:00", status="final") for i in range(1, 5)}
+        def e(i, o, out):
+            return dict(entry_id=str(i), match_id=f"m{i}", stake=100.0, odds_taken=o, locked_at="x", prior_prob=None,
+                        result=dict(outcome=out, payout=round(100*o, 2) if out == "win" else 0.0,
+                                    profit=round(100*o-100, 2) if out == "win" else -100.0))
+        s = core.summarize([e(1, 1.5, "win"), e(2, 1.5, "win"), e(3, 1.2, "win"), e(4, 2.0, "loss")], m)
+        c = s["compound"]
+        # 100→150→225(倍額到達: ストック125, 100に戻す)→120→負けで失敗、100から再開
+        self.assertEqual((c["stock"], c["secured"], c["busted"], c["bankroll"], c["principal"]), (125.0, 1, 1, 100.0, 200.0))
+        self.assertEqual(c["net"], 25.0)
+        self.assertEqual(s["simple"]["net"], s["net"])
+
     def test_summary_and_kelly(self):
         e = dict(E1, result=core.settle_entry(E1, M["m1"]))
         s = core.summarize([e], M)

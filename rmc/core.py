@@ -106,14 +106,22 @@ def summarize(entries, matches):
     dec = s["win"] + s["loss"]
     if dec:
         s["hit_rate"] = round(s["win"] / dec * 100, 1)
-    # 複利（参考値）：開始時刻順、資金$100から毎回全額
+    # 単利：毎回$100固定（net / roi がそのまま単利の成績）
+    s["simple"] = dict(stake=STAKE, net=s["net"], roi=s["roi"], staked=s["staked"])
+    # 複利：開始時刻順に元金$100を全額投入。$200（倍額）以上になったら利益分をストックへ移し元金$100から再開。
+    #       負けて0になったら「失敗」として元金$100から再開（再投入した元金も投入元金合計に数える）。
     seq.sort(key=lambda x: x[0])
-    bank = 100.0
+    bank, stock, secured, busted, principal = STAKE, 0.0, 0, 0, STAKE
     for _, o, out, _ in seq:
-        bank = bank * o if out == "win" else 0.0 if out == "loss" else bank
-        if bank == 0:
-            break
-    s["compound_ref"] = round(bank, 2)
+        if out == "win":
+            bank = round(bank * o, 2)
+            if bank >= STAKE * 2:
+                stock = round(stock + bank - STAKE, 2); bank = STAKE; secured += 1
+        elif out == "loss":
+            busted += 1; bank = STAKE; principal += STAKE
+    s["compound"] = dict(bankroll=bank, stock=stock, secured=secured, busted=busted, principal=principal,
+                         net=round(bank + stock - principal, 2), rule="元金$100全額→倍額($200)到達で利益をストックし$100から再開、0になったら$100から再開")
+    s["compound_ref"] = round(bank + stock, 2)
     # 1/4ケリー：試合前に固定した prior_prob があるものだけ
     kb, kbets, kskip = 100.0, 0, 0
     for _, o, out, p in seq:
