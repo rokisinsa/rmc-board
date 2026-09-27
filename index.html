@@ -152,6 +152,23 @@ details.how{margin-top:14px;border:1px solid var(--line);border-radius:8px;paddi
 details.how summary{cursor:pointer;font-size:13px;font-weight:600}
 details.how p,details.how ol,details.how ul{margin-top:8px}
 @media (max-width:640px){.sides{grid-template-columns:1fr}.fgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.srow{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.srow div{border:1px solid var(--line);border-radius:6px;padding:3px 8px;display:flex;flex-direction:column;min-width:64px}
+.srow span{font-size:10.5px;color:var(--muted)}.srow b{font-family:var(--mono);font-size:13px}
+ol.form li{grid-template-columns:auto 52px minmax(0,1fr) auto}
+.vlist .dt small{display:block;font-size:10px;color:var(--muted);font-family:var(--body)}
+.vlist .sc small{display:block;font-size:10.5px;font-weight:400;color:var(--muted)}
+.rk{font-style:normal;font-size:10.5px;color:var(--accent);margin-left:6px}
+.h2hsum{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px}
+.h2hsum .hl,.h2hsum .hr{display:flex;flex-direction:column;gap:2px}.h2hsum .hr{text-align:right}
+.h2hsum span{font-size:12px;color:var(--muted)}.h2hsum b{font-family:var(--mono);font-size:22px}
+.h2hsum .lead b{color:var(--ok)}
+.h2hsum .hm{text-align:center;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.tblw{overflow-x:auto}
+table.cmn{border-collapse:collapse;width:100%;font-size:12.5px}
+table.cmn th,table.cmn td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:normal}
+table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:static}
 </style>
 </head>
 <body>
@@ -270,29 +287,49 @@ async function loadFacts(mid){
   try{const r=await fetch('data/facts/'+mid+'.json'+bust,{cache:'no-store'});FACTS_CACHE[mid]=r.ok?await r.json():null;}catch(e){FACTS_CACHE[mid]=null;}
   return FACTS_CACHE[mid];}
 const RES={W:['勝','w'],L:['敗','l'],D:['分','d']};
-function formList(side,why){
+const HA={H:'ホーム',A:'アウェイ',N:'中立'};
+function recStr(c){if(!c||!c.games)return '—';return `${c.W}勝${c.L}敗${c.D?c.D+'分':''}`;}
+function formList(side,unit,why){
   const f=side.form||[];
   if(!f.length)return `<p class="na">${esc(why||'直近成績は取得できませんでした')}</p>`;
-  return `<ol class="vlist">${f.map(x=>{const r=RES[x.res]||['—','n'];return `<li><span class="chip ${r[1]}">${r[0]}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.opp||'—')}${x.note?`<small>${esc(x.note)}</small>`:''}</span><span class="sc">${esc(x.score||'—')}</span></li>`;}).join('')}</ol>`;}
-function sideCol(side,label,un){
+  const hasU=unit&&unit!=='なし';
+  return `<ol class="vlist form">${f.map(x=>{const r=RES[x.res]||['—','n'];
+    return `<li><span class="chip ${r[1]}">${r[0]}</span><span class="dt">${esc((x.date||'—').replace(/^20\d\d-/,'').replace('-','/'))}${x.ha?`<small>${HA[x.ha]||esc(x.ha)}</small>`:''}</span>
+    <span class="op">${esc(x.opp||'—')}${x.opp_rank?`<em class="rk">${esc(x.opp_rank)}</em>`:''}<small>${esc([x.comp,x.detail].filter(Boolean).join('｜'))}</small></span>
+    <span class="sc">${esc(x.score||'—')}${hasU&&x.units_won!=null?`<small>${unit} ${x.units_won}-${x.units_lost}</small>`:''}</span></li>`;}).join('')}</ol>`;}
+function statRow(c,unit){
+  if(!c||!c.games)return '';
+  const u=unit&&unit!=='なし'&&c.units_won!=null?`<div><span>${unit}</span><b>${c.units_won}-${c.units_lost}</b></div>`:'';
+  const h=c.home,a=c.away;const hs=h&&(h.W+h.L+h.D)?`<div><span>ホーム</span><b>${recStr({games:1,...h})}</b></div>`:'';const as=a&&(a.W+a.L+a.D)?`<div><span>アウェイ</span><b>${recStr({games:1,...a})}</b></div>`:'';
+  return `<div class="srow"><div><span>直近${c.games}試合</span><b>${recStr(c)}</b></div><div><span>勝率</span><b>${c.win_rate}%</b></div>${u}${hs}${as}${c.streak?`<div><span>連続</span><b>${c.streak}</b></div>`:''}</div>`;}
+function sideCol(side,label,calc,unit,un,key){
   return `<div class="side"><div class="sname">${esc(side.name||label)}</div>
-   ${side.ranking?`<div class="srank">${esc(side.ranking)}</div>`:''}
-   <div class="sub">直近成績${side.form_summary?`<span>${esc(side.form_summary)}</span>`:''}</div>${formList(side,un&&un.form)}
-   ${(side.lineup||[]).length?`<div class="sub">メンバー・欠場</div><ul class="blist">${side.lineup.map(l=>`<li>${esc(l)}</li>`).join('')}</ul>`:''}</div>`;}
+   ${side.ranking?`<div class="srank">${esc(side.ranking)}</div>`:''}${statRow(calc,unit)}
+   <div class="sub">直近成績（新しい順）</div>${formList(side,unit,un&&(un[key+'.form']||un.form))}
+   ${(side.lineup||[]).length?`<div class="sub">メンバー・先発・欠場</div><ul class="blist">${side.lineup.map(l=>`<li>${esc(l)}</li>`).join('')}</ul>`:''}</div>`;}
 function factsHtml(fx,m){
   if(!fx)return '';
-  const un=fx.unavailable||{};
-  let h=`<section class="blk"><h4>両チームの比較</h4><div class="sides">${sideCol(fx.left||{},m.left,un)}${sideCol(fx.right||{},m.right,un)}</div></section>`;
-  const hh=fx.h2h||[];
-  h+=`<section class="blk"><h4>H2H（直接対戦）${fx.h2h_summary?`<span class="hs">${esc(fx.h2h_summary)}</span>`:''}</h4>`+
-    (hh.length?`<ol class="vlist h2h">${hh.map(x=>{const w=x.winner==='left'?(fx.left||{}).name||m.left:x.winner==='right'?(fx.right||{}).name||m.right:'引分け';const c=x.winner==='left'?'lw':x.winner==='right'?'rw':'d';
-      return `<li><span class="chip ${c}">${esc(w)}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.event||'')}</span><span class="sc">${esc(x.score||'—')}</span></li>`;}).join('')}</ol>`
-      :`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`)+`</section>`;
+  const un=fx.unavailable||{};const c=fx.calc||{};const unit=fx.unit;const L=(fx.left||{}).name||m.left,R=(fx.right||{}).name||m.right;
+  let h=`<section class="blk"><h4>両チームの比較</h4><div class="sides">${sideCol(fx.left||{},m.left,c.left,unit,un,'left')}${sideCol(fx.right||{},m.right,c.right,unit,un,'right')}</div></section>`;
+  const hh=fx.h2h||[];const hc=c.h2h||{};
+  h+=`<section class="blk"><h4>H2H（過去の直接対戦）</h4>`;
+  if(hh.length){
+    h+=`<div class="h2hsum"><div class="hl ${hc.left>hc.right?'lead':''}"><span>${esc(L)}</span><b>${hc.left}勝</b></div><div class="hm">${hc.games}試合${hc.draw?`<br>${hc.draw}分`:''}${hc.units_left!=null?`<br>${unit} ${hc.units_left}-${hc.units_right}`:''}</div><div class="hr ${hc.right>hc.left?'lead':''}"><span>${esc(R)}</span><b>${hc.right}勝</b></div></div>`;
+    h+=`<ol class="vlist h2h">${hh.map(x=>{const w=x.winner==='left'?L:x.winner==='right'?R:'引分け';const cc=x.winner==='left'?'lw':x.winner==='right'?'rw':'d';
+      return `<li><span class="chip ${cc}">${esc(w)}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.event||'')}${x.detail?`<small>${esc(x.detail)}</small>`:''}</span><span class="sc">${esc(x.score||'—')}${x.units_left!=null?`<small>${unit} ${x.units_left}-${x.units_right}</small>`:''}</span></li>`;}).join('')}</ol>`;
+  }else h+=`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`;
+  h+=`</section>`;
+  const cm=c.common||[];
+  h+=`<section class="blk"><h4>共通の対戦相手（直近成績の中）</h4>`+(cm.length?`<div class="tblw"><table class="cmn"><thead><tr><th>相手</th><th>${esc(L)}</th><th>${esc(R)}</th><th>優勢</th></tr></thead><tbody>${cm.map(r=>{
+      const cell=a=>a.map(x=>{const q=RES[x.res]||['—','n'];return `<span class="chip ${q[1]}">${q[0]}</span> ${esc(x.score||'')}`;}).join('<br>');
+      return `<tr><td>${esc(r.opp)}</td><td>${cell(r.left)}</td><td>${cell(r.right)}</td><td>${r.edge==='left'?esc(L):r.edge==='right'?esc(R):'互角'}</td></tr>`;}).join('')}</tbody></table></div>`
+      :`<p class="na">直近成績の中に共通の対戦相手はいません。</p>`)+((fx.common_opponents_notes||[]).length?`<ul class="blist" style="margin-top:8px">${fx.common_opponents_notes.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'')+`</section>`;
   if(fx.venue)h+=`<section class="blk"><h4>会場</h4><p>${esc(fx.venue)}</p></section>`;
   if(fx.esports){const E={format:'形式',lan_online:'LAN/オンライン',map_pool:'マッププール',veto:'ピック/バン',patch:'パッチ',map_h2h:'マップ別H2H'};
     h+=`<section class="blk"><h4>eスポーツ情報</h4><dl class="kv2">${Object.entries(fx.esports).map(([k,v])=>`<dt>${E[k]||esc(k)}</dt><dd>${esc(typeof v==='object'?JSON.stringify(v):v)}</dd>`).join('')}</dl></section>`;}
   const lst=(t,a)=>a&&a.length?`<section class="blk"><h4>${t}</h4><ul class="blist">${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></section>`:'';
   h+=lst('リスク',fx.risks)+lst('取れなかった情報',fx.missing);
+  if(Object.keys(un).length)h+=`<section class="blk"><h4>空欄の理由</h4><ul class="blist">${Object.entries(un).map(([k,v])=>`<li>${esc(k.replace('left.',L+'：').replace('right.',R+'：').replace('form','直近成績').replace('h2h','H2H'))}：${esc(v)}</li>`).join('')}</ul></section>`;
   return h;}
 function tiles(l,r){
   const t=(k,v,s)=>v==null||v===''?'':`<div class="tile"><span class="k">${k}</span><span class="v">${esc(v)}</span>${s?`<span class="s">${esc(s)}</span>`:''}</div>`;
@@ -321,7 +358,7 @@ async function openMatch(mid,l){
   const fx=await loadFacts(mid);
   const anyDeep=LG.some(x=>D.ana[x][mid]?.deep_dive);
   let dd='';const r0=LG.map(x=>D.ana[x][mid]).find(x=>x&&x.deep_dive_detail);const d0=r0?r0.deep_dive_detail:null;
-  const src=(d0&&Array.isArray(d0.source_urls))?d0.source_urls:[];
+  const src=[...new Set([...(fx&&Array.isArray(fx.source_urls)?fx.source_urls:[]),...((d0&&Array.isArray(d0.source_urls))?d0.source_urls:[])])];
   p.innerHTML=`<div class="phead"><div><div class="c">${esc(m.sport)}｜${esc(m.competition)}｜${t.d} ${t.t} JST${m.status!=='scheduled'?'｜'+esc(m.status):''}</div>
     <h3><span>${esc(m.left)}</span><em>vs</em><span>${esc(m.right)}</span></h3>${(m.flags||[]).map(f=>`<span class="flag">${esc(f)}</span>`).join('')}${m.note?`<p class="c">${esc(m.note)}</p>`:''}</div>
     <button class="x" id="pclose" aria-label="閉じる">×</button></div>

@@ -1,46 +1,150 @@
 {
  "match_id": "m20260928-cdd48d36",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:22:00+09:00",
+ "unit": "ゲーム",
  "left": {
-  "name": "馮彦哲／黄東萍（中国）",
-  "ranking": "BWFランキング未取得",
+  "name": "馮彦哲/黄東萍（中国）",
+  "ranking": "混合ダブルス世界1位（myKhel）、第1シード",
   "form": [
    {
-    "date": "9/27",
-    "opp": "ドゥルブ・カピラ／タニーシャ・クラスト（インド）",
-    "score": "21-14, 18-21, 21-18",
+    "date": "2026-09-27",
+    "opp": "カピラ/クラスト（インド）",
+    "comp": "アジア大会 XD 準々決勝",
+    "ha": "N",
+    "score": "2-1",
     "res": "W",
-    "note": "アジア大会 準々決勝"
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "21-14, 18-21, 21-18"
    }
   ],
-  "form_summary": "準々決勝でインドペアにフルゲームの末勝利",
-  "lineup": []
- },
- "right": {
-  "name": "シャナウィ／マルワ（インドネシア？）",
-  "ranking": "BWFランキング未取得",
-  "form": [],
-  "form_summary": "未取得",
   "lineup": [
-   "対戦ペアはどの情報源でも確認できていない"
+   "アジア大会XDトップシード"
   ]
  },
- "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "一宮市総合体育館（愛知県一宮市）、2026年アジア競技大会（愛知・名古屋）。日本ペア以外は中立",
+ "right": {
+  "name": "シャーナウィ/マルワ（インドネシア）",
+  "ranking": "XD 最高15位（2026-07-07）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "ジョ・ソンヒョン/チョン・ナウン（韓国）",
+    "comp": "アジア大会 XD 準々決勝",
+    "ha": "N",
+    "score": "勝利（スコア未取得）",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-2x",
+    "opp": "渡辺勇大/田口真彩（日本）",
+    "comp": "アジア大会 XD 2回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "3ゲーム（スコア未取得）"
+   },
+   {
+    "date": "2026",
+    "opp": "馮彦哲/黄東萍（中国）",
+    "comp": "BWF世界選手権2026 準決勝",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "22-20, 14-21, 20-22（銅メダル）"
+   }
+  ],
+  "lineup": [
+   "アムリ・シャーナウィ/ニタ・ビオリナ・マルワ"
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026（世界選手権、正確な日付未確認）",
+   "event": "BWF世界選手権2026 準決勝（ニューデリー）",
+   "score": "2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "detail": "20-22, 21-14, 22-20（左側視点）"
+  }
+ ],
+ "common_opponents_notes": [
+  "2026年のシャーナウィ/マルワ: タイマスターズSF・スイスOP SF・全英QF・オルレアンQF敗退など（Wikipedia、スコア無し）"
+ ],
+ "venue": "日本・一宮市総合体育館（2026愛知・名古屋アジア大会）。中立（日本ペアは地元）",
  "risks": [
-  "9:30はWikipediaの日程による混合ダブルス準決勝のセッション開始時刻で、正確なコート順は未確認",
-  "対戦相手が未検証"
+  "試合時刻09:30はSFセッション開始時刻",
+  "直近10試合のスコアを取得できず"
  ],
  "missing": [
-  "対戦相手の確認",
-  "BWFランキング",
-  "対戦成績",
-  "オッズ",
-  "独立したモデル確率"
+  "両ペアの直近10試合の詳細",
+  "BWF最新ランク"
  ],
  "unavailable": {
-  "h2h": "対戦記録が見つからなかった",
-  "form": "右側ペアが未確定のため直近成績なし"
+  "left.form": "アジア大会R16以前・他大会の日付付き結果を取得できず（BWF/badmintonstatistics未取得）",
+  "right.form": "同上。2026年大会の敗退ラウンドのみ判明（対戦相手・スコア無し）",
+  "h2h": "世界選手権SF以外は未確認"
+ },
+ "source_urls": [
+  "https://www.mykhel.com/badminton/asian-games-2026-treesa-gayatri-kapila-crasto-bow-out-in-badminton-quarterfinals-454621.html",
+  "https://bwfbadminton.com/news-single/2026/09/25/asian-games-defending-champs-tumble-out",
+  "https://en.wikipedia.org/wiki/Amri_Syahnawi",
+  "https://www.youtube.com/watch?v=wvi44OUp27k",
+  "https://en.wikipedia.org/wiki/Badminton_at_the_2026_Asian_Games_%E2%80%93_Mixed_doubles"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 1
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "units_won": 3,
+   "units_lost": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "units_left": 2,
+   "units_right": 1
+  },
+  "common": []
  }
 }

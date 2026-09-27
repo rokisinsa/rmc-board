@@ -222,6 +222,10 @@ def check_facts(rep, matches):
                 rep.err("FACTS_SHAPE", f"{mid}: {side}.form は1試合1行のリストにする（docs/FACTS_SPEC.md）")
         if not isinstance(x.get("h2h", []), list):
             rep.err("FACTS_SHAPE", f"{mid}: h2h は1試合1行のリストにする")
+        from .facts import enrich
+        import copy as _c
+        if x.get("calc") != enrich(_c.deepcopy(x)).get("calc"):
+            rep.err("FACTS_CALC", f"{mid}: 集計（calc）が行データからの再計算と一致しない（python -m rmc.build）")
 
 
 def run(base=None):

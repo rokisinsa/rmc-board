@@ -1,65 +1,106 @@
 {
  "match_id": "m20260928-0e4f79c3",
- "data_as_of": "2026-09-27T22:25:00+09:00",
+ "data_as_of": "2026-09-27T23:22:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "インド",
-  "ranking": "ICCフルメンバー。第1シードで準々決勝から登場",
+  "ranking": "ICC正会員、第1シードで準々決勝から（本大会初戦）",
   "form": [],
-  "form_summary": "今大会はこれが初戦（シードのためグループ免除）",
   "lineup": [
-   "フルのT20I代表ではないが強力な混成メンバー",
-   "主将：シュレヤス・アイヤー",
-   "他：Abhishek Sharma、Sanju Samson、Ishan Kishan、Shivam Dube、Tilak Varma、Vipraj Nigam、Axar Patel、Washington Sundar、Ravi Bishnoi、Jasprit Bumrah、Arshdeep Singh、Vaibhav Sooryavanshi、Yash Thakur",
-   "Yash ThakurはHarshit Rana（大腿直筋の肉離れ）の代替"
+   "主将シュレヤス・アイヤー、アビシェーク・シャルマ、サンジュ・サムソン、ブムラー、アルシュディープ、アクサル・パテルら",
+   "ハルシット・ラナ（大腿直筋損傷）→ヤシュ・タクールに交代"
   ]
  },
  "right": {
   "name": "アフガニスタン",
-  "ranking": "グループA 2位（2ポイント、NRR +0.846。ネパールと勝ち点で並ぶ）",
+  "ranking": "グループA 2位（2pt, NRR +0.846）",
   "form": [
    {
-    "date": "9/25",
+    "date": "2026-09-25",
     "opp": "ネパール",
-    "score": "5ウィケット差",
-    "res": "L",
-    "note": "グループステージ"
+    "comp": "アジア大会 グループA",
+    "ha": "N",
+    "score": "5ウィケット差敗戦",
+    "res": "L"
    },
    {
-    "date": "9/24",
+    "date": "2026-09-24",
     "opp": "日本",
-    "score": "48ラン差",
-    "res": "W",
-    "note": "グループステージ"
+    "comp": "アジア大会 グループA",
+    "ha": "N",
+    "score": "48ラン差勝利",
+    "res": "W"
    }
   ],
-  "form_summary": "グループで1勝1敗（ネパールに敗戦）",
   "lineup": [
-   "B代表（ラシッド、ナビ、グルバズ、ファルーキ、ヌールは不在）",
-   "主将：Darwish Rasooli",
-   "他：Abdullah Ahmadzai、Mohammad Akram、Ismat Alam、Faridoon Dawoodzai、Hassan Eisakhil、Mohammad Ishaq、Karim Janat、Faisal Khan、Nangyal Kharoti、Imran Mir、Arab Gul Momand、Farmanullah Safi、Khalid Taniwal、Najibullah Zadran"
+   "B代表: 主将ダルウィシュ・ラスーリ。ラシード、ナビ、グルバーズ、ファルーキ、ヌール不在"
   ]
  },
- "h2h": [
-  {
-   "date": "2023",
-   "event": "2023年アジア大会 決勝",
-   "score": "ノーリザルト（雨で中止）、インドが金メダル ※入力では記憶ベースで未再確認",
-   "winner": "draw"
-  }
- ],
- "h2h_summary": "2023年アジア大会決勝の再戦（ESPNの見出しより）。T20Iの通算対戦成績は未取得",
- "venue": "Korogi Sports Park（日本・日進市）・中立",
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "日本・愛知県日進市 Korogi Sports Park。中立",
  "risks": [
-  "インドが大本命（アフガニスタンはネパールに敗れたB代表）",
-  "2023年決勝の結果は未検証",
-  "天候は未確認"
+  "インドは本大会初戦",
+  "アフガンはB代表でネパールに敗戦",
+  "天候未確認"
  ],
  "missing": [
-  "オッズ",
-  "検証済みの対戦成績",
-  "天候"
+  "両国の直近10試合",
+  "H2H（2023年アジア大会決勝の結果は未検証）"
  ],
  "unavailable": {
-  "form": "インドは今大会初戦（シード）で、入力に直近の試合結果がない"
+  "left.form": "本大会未出場。大会前結果は未取得",
+  "right.form": "本大会2試合のみ",
+  "h2h": "未検証のため記載せず"
+ },
+ "source_urls": [
+  "https://www.icc-cricket.com/news/all-the-squads-at-the-men-s-asian-games-2026",
+  "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449",
+  "https://en.wikipedia.org/wiki/Cricket_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

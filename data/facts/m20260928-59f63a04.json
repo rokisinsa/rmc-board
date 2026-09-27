@@ -1,48 +1,101 @@
 {
  "match_id": "m20260928-59f63a04",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "セット",
  "left": {
   "name": "ラヤル",
-  "ranking": "第1シード／Tennis Abstract Elo 149位 総合1644.5・ハード1618.8",
+  "ranking": "ATP 149位前後（tennisexplorer 表記 149/自己最高145）、本大会第1シード。Tennis Abstract Elo #149（1644.5、ハード1618.8）",
   "form": [
    {
-    "date": "—",
-    "opp": "ダビド・ゴファン",
-    "score": "—",
-    "res": "—",
-    "note": "サントロペ・チャレンジャー125 1回戦（第7シード、結果未取得）"
+    "date": "2026-09-22頃",
+    "opp": "D.ゴフィン",
+    "comp": "サントロペCH125 R1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-3 6-4（TennisTonic結果一覧で 'Lajal – Goffin 6-3 6-4' と勝者先表記と判断）"
    }
   ],
-  "form_summary": "前週サントロペ・チャレンジャーに第7シードで出場（結果未取得）",
   "lineup": [
-   "ATPドローで確定：M.ラヤル（第1シード）対 L.プーラン（WC）"
+   "ATPドロー: M.ラヤル(1) vs L.プーラン(WC)"
   ]
  },
  "right": {
-  "name": "プーラン",
-  "ranking": "ATPランキング不明（Tennis Abstract Eloリストに掲載なし）。ルーカス・プーラン（マキシムではない）",
+  "name": "L.プーラン",
+  "ranking": "ワイルドカード（フランス）。ATPランク・Elo見つからず",
   "form": [],
-  "form_summary": "情報なし",
   "lineup": [
-   "フランスのワイルドカード（準ホーム）"
+   "ルーカス・プーラン（マキシムではない）、WC出場"
   ]
  },
  "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "オープン・ド・ヴァンデ・チャレンジャー、フランス・ムイユロン＝ル＝カプティフ（2026年9月28日〜10月4日）。プーランは地元フランス勢（準ホーム）。サーフェスは室内ハードとみられるが未確認",
+ "common_opponents_notes": [],
+ "venue": "Open de Vendée チャレンジャー、フランス・ムイユロン＝ル＝キャプティフ。プーランは地元フランス（準ホーム）。サーフェスは室内ハードとみられるが未確認",
  "risks": [
-  "ラヤルは今週サントロペに出場していた可能性があり、移動・疲労の懸念",
-  "対戦相手の情報が乏しい"
+  "ラヤルのサントロペR2以降の結果不明（連戦の可能性）",
+  "プーランの情報ほぼなし"
  ],
  "missing": [
-  "オッズ",
-  "開始時刻（オーダー・オブ・プレー未発見、ドローのみ）",
-  "プーランのランキング・直近成績",
-  "対戦成績",
-  "モデル確率（プーランにEloがないため算出不可）"
+  "ラヤルの直近10試合（1試合のみ判明）",
+  "プーランの戦績・ランク"
  ],
  "unavailable": {
-  "h2h": "対戦記録が見つからなかった",
-  "form": "プーランの直近成績は見つからず、ラヤルの前週の結果も未取得"
+  "h2h": "対戦記録見つからず",
+  "left.form": "tennisexplorerは2026年データ欠落、tennisabstract取得不可、ATPは動的ページで取得不可。1試合のみ",
+  "right.form": "プーランの戦績を掲載するページ見つからず"
+ },
+ "source_urls": [
+  "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
+  "https://tennistonic.com/tennis-news/1056961/edas-butvilas-surprises-dimitrov-in-the-1st-round-st-tropez-challenger-results-highlights/",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

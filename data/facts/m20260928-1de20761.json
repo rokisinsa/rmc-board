@@ -1,100 +1,340 @@
 {
  "match_id": "m20260928-1de20761",
- "data_as_of": "2026-09-27T22:19:00+09:00",
+ "data_as_of": "2026-09-27T23:20:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "ボリビア",
-  "ranking": "Elo 60位（1621）",
+  "ranking": "eloratings #60 (1621)",
   "form": [
    {
-    "date": "6/11",
+    "date": "2026-06-10",
     "opp": "アルジェリア",
+    "comp": "国際親善試合",
+    "ha": "H",
     "score": "0-4",
     "res": "L"
    },
    {
-    "date": "6/6",
+    "date": "2026-06-06",
     "opp": "スコットランド",
+    "comp": "国際親善試合",
+    "ha": "N",
     "score": "0-4",
+    "res": "L",
+    "detail": "eloratings会場US"
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "イラク",
+    "comp": "W杯大陸間プレーオフ",
+    "ha": "N",
+    "score": "1-2",
     "res": "L"
    },
    {
-    "date": "3/15",
-    "opp": "トリニダード",
+    "date": "2026-03-26",
+    "opp": "スリナム",
+    "comp": "W杯大陸間プレーオフ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-15",
+    "opp": "トリニダード・トバゴ",
+    "comp": "国際親善試合",
+    "ha": "H",
     "score": "3-0",
     "res": "W"
    },
    {
-    "date": "1/25",
+    "date": "2026-01-25",
     "opp": "メキシコ",
+    "comp": "国際親善試合",
+    "ha": "H",
     "score": "0-1",
     "res": "L"
    },
    {
-    "date": "1/18",
+    "date": "2026-01-18",
     "opp": "パナマ",
+    "comp": "国際親善試合",
+    "ha": "H",
     "score": "1-1",
     "res": "D"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "日本",
+    "comp": "キリンチャレンジカップ",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2025-11-14",
+    "opp": "韓国",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-10",
+    "opp": "ヨルダン",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
    }
   ],
-  "form_summary": "直近5試合1勝1分3敗、直近2試合はともに0-4敗戦",
   "lineup": [
    "情報なし"
   ]
  },
  "right": {
   "name": "パラグアイ",
-  "ranking": "Elo 23位（1814）",
+  "ranking": "eloratings #23 (1814)",
   "form": [
    {
-    "date": "7/4",
+    "date": "2026-07-04",
     "opp": "フランス",
+    "comp": "W杯2026 決勝T",
+    "ha": "N",
     "score": "0-1",
-    "res": "L",
-    "note": "W杯"
+    "res": "L"
    },
    {
-    "date": "6/29",
+    "date": "2026-06-29",
     "opp": "ドイツ",
-    "score": "5-4",
-    "res": "W",
-    "note": "W杯ラウンド32（Betfair）"
+    "comp": "W杯2026 決勝T",
+    "ha": "N",
+    "score": "1-1",
+    "res": "D",
+    "detail": "PK4-3で勝ち抜け"
    },
    {
-    "date": "6/26",
+    "date": "2026-06-25",
     "opp": "オーストラリア",
+    "comp": "W杯2026 GS",
+    "ha": "N",
     "score": "0-0",
     "res": "D"
    },
    {
-    "date": "6/20",
+    "date": "2026-06-19",
     "opp": "トルコ",
+    "comp": "W杯2026 GS",
+    "ha": "N",
     "score": "1-0",
     "res": "W"
    },
    {
-    "date": "6/13",
+    "date": "2026-06-12",
     "opp": "アメリカ",
+    "comp": "W杯2026 GS",
+    "ha": "A",
     "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-05",
+    "opp": "ニカラグア",
+    "comp": "国際親善試合",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "モロッコ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "ギリシャ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "メキシコ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "アメリカ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-2",
     "res": "L"
    }
   ],
-  "form_summary": "直近5試合2勝1分2敗、W杯ではラウンド32でドイツに勝利",
   "lineup": [
    "情報なし"
   ]
  },
- "h2h": [],
- "h2h_summary": "直近の対戦成績は取得できず",
- "venue": "中立地：アウディ・フィールド（米国ワシントンDC）（Betfair、eloratingsも開催国US）。海抜が低く、ボリビアの高地の利はなし",
+ "h2h": [
+  {
+   "date": "2024-11-19",
+   "event": "W杯南米予選",
+   "score": "2-2",
+   "winner": "draw"
+  },
+  {
+   "date": "2023-10-17",
+   "event": "W杯南米予選",
+   "score": "0-1",
+   "winner": "right",
+   "detail": "パラグアイ開催"
+  },
+  {
+   "date": "2021-10-14",
+   "event": "W杯南米予選",
+   "score": "4-0",
+   "winner": "left"
+  },
+  {
+   "date": "2021-06-14",
+   "event": "コパ・アメリカ",
+   "score": "1-3",
+   "winner": "right"
+  },
+  {
+   "date": "2020-11-17",
+   "event": "W杯南米予選",
+   "score": "2-2",
+   "winner": "draw",
+   "detail": "パラグアイ開催"
+  },
+  {
+   "date": "2016-11-15",
+   "event": "W杯南米予選",
+   "score": "1-0",
+   "winner": "left"
+  },
+  {
+   "date": "2015-11-17",
+   "event": "W杯南米予選",
+   "score": "1-2",
+   "winner": "right",
+   "detail": "パラグアイ開催"
+  },
+  {
+   "date": "2013-09-06",
+   "event": "W杯南米予選",
+   "score": "0-4",
+   "winner": "right",
+   "detail": "パラグアイ開催"
+  },
+  {
+   "date": "2012-06-09",
+   "event": "W杯南米予選",
+   "score": "3-1",
+   "winner": "left"
+  },
+  {
+   "date": "2011-06-07",
+   "event": "国際親善試合",
+   "score": "0-0",
+   "winner": "draw",
+   "detail": "パラグアイ開催"
+  }
+ ],
+ "common_opponents_notes": [
+  "日本: ボリビア 0-3 敗(2025-11-18)／パラグアイ 2-2(2025-10-10、直近10試合外)",
+  "アメリカ・メキシコ: パラグアイ 1-4, 1-2, 2-1／ボリビア 0-1 メキシコ(2026-01-25)"
+ ],
+ "venue": "中立: アウディ・フィールド（米ワシントンDC）。標高の利なし",
  "risks": [
-  "米国での親善試合のためローテーションの可能性",
-  "ボリビアの通常のラパスでの高地の利がない"
+  "米国での親善試合で交代多数の可能性",
+  "ボリビアの高地アドバンテージなし",
+  "ボリビアの1月・6月親善試合の開催地は未確認",
+  "ha は親善試合・FIFAシリーズ等では11v11の表記順（先に書かれた側=H）に従っており、実際の開催地が中立の可能性あり。W杯2026本大会は開催国以外N。"
  ],
  "missing": [
-  "スタメン",
-  "対戦成績"
+  "両チーム先発・負傷"
  ],
  "unavailable": {
-  "h2h": "直近の対戦成績を取得できなかった"
+  "left.lineup": "情報源見つからず",
+  "right.lineup": "情報源見つからず"
+ },
+ "source_urls": [
+  "https://www.11v11.com/teams/bolivia/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/paraguay/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/bolivia/tab/opposingTeams/opposition/Paraguay/",
+  "https://betting.betfair.com/football/predictions/internationals/bolivia-vs-paraguay/efchz2ndzeizt2yd03kmcbf9w/"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 3,
+   "L": 6,
+   "D": 1,
+   "win_rate": 30.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "3連敗"
+  },
+  "right": {
+   "games": 10,
+   "W": 4,
+   "L": 4,
+   "D": 2,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 3,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 10,
+   "left": 3,
+   "right": 4,
+   "draw": 3
+  },
+  "common": [
+   {
+    "opp": "メキシコ",
+    "left": [
+     {
+      "date": "2026-01-25",
+      "score": "0-1",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2025-11-18",
+      "score": "2-1",
+      "res": "W"
+     }
+    ],
+    "edge": "right"
+   }
+  ]
  }
 }

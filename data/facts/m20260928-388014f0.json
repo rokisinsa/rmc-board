@@ -1,50 +1,290 @@
 {
  "match_id": "m20260928-388014f0",
- "data_as_of": "2026-09-27T22:19:00+09:00",
+ "data_as_of": "2026-09-27T23:20:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "ガイアナ",
-  "ranking": "Elo 133位（1304）・CONCACAFネーションズリーグ リーグB A組（プエルトリコ、ドミニカ国と同組）",
-  "form": [],
-  "form_summary": "直近の結果は見つからず",
+  "ranking": "eloratings #133 (1304)。CONCACAF NL リーグB A組",
+  "form": [
+   {
+    "date": "2026-03-30",
+    "opp": "ベリーズ",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "ドミニカ国",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "アンティグア・バーブーダ",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "ボネール",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-06-10",
+    "opp": "モントセラト",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-06-06",
+    "opp": "ニカラグア",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-03-25",
+    "opp": "グアテマラ",
+    "comp": "ゴールドカップ予選",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-03-21",
+    "opp": "グアテマラ",
+    "comp": "ゴールドカップ予選",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2024-11-19",
+    "opp": "バルバドス",
+    "comp": "CONCACAFネーションズリーグ",
+    "ha": "H",
+    "score": "5-3",
+    "res": "W"
+   },
+   {
+    "date": "2024-11-15",
+    "opp": "バルバドス",
+    "comp": "CONCACAFネーションズリーグ",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   }
+  ],
   "lineup": [
-   "スタメン情報なし"
+   "情報なし"
   ]
  },
  "right": {
   "name": "ケイマン諸島",
-  "ranking": "Elo 208位（812）・CONCACAFネーションズリーグ リーグB A組、リーグCから昇格",
+  "ranking": "eloratings #208 (812)。CONCACAF NL リーグB A組（リーグCから昇格）",
   "form": [
    {
-    "date": "9/24",
+    "date": "2026-09-24",
     "opp": "ドミニカ国",
-    "score": "—",
-    "res": "—",
-    "note": "スコア未取得"
+    "comp": "CONCACAFネーションズリーグ B",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D",
+    "detail": "ドミニカ国ロゾー集中開催（11v11表記はケイマンがホーム）"
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "ジブラルタル",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "バハマ",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "英領ヴァージン諸島",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "アンギラ",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-12",
+    "opp": "英領ヴァージン諸島",
+    "comp": "CONCACAFフレンドリーシリーズ",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-06-07",
+    "opp": "ホンジュラス",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-06-04",
+    "opp": "バミューダ",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2024-11-19",
+    "opp": "グアドループ",
+    "comp": "CONCACAFネーションズリーグ",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2024-11-15",
+    "opp": "グアドループ",
+    "comp": "CONCACAFネーションズリーグ",
+    "ha": "H",
+    "score": "0-6",
+    "res": "L"
    }
   ],
-  "form_summary": "9/24にドミニカ国と対戦（結果未取得）。リーグCから昇格したばかり",
   "lineup": [
-   "監督：ダギー・ロウ",
-   "スタメン情報なし"
+   "監督ダギー・ロウ。先発情報なし"
   ]
  },
- "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "中立地：ウィンザー・パーク（ドミニカ国ロゾー）（Radio Cayman）。eloratingsはケイマン諸島をチーム1、開催地をドミニカ国と記載",
+ "h2h": [
+  {
+   "date": "1993-03-11",
+   "event": "カリブカップ",
+   "score": "3-2",
+   "winner": "left"
+  },
+  {
+   "date": "1991-05-28",
+   "event": "カリブカップ",
+   "score": "2-1",
+   "winner": "left",
+   "detail": "ケイマン開催"
+  }
+ ],
+ "common_opponents_notes": [
+  "ドミニカ国: ガイアナ 2-0 勝(2026-03-27)／ケイマン 0-0(2026-09-24)"
+ ],
+ "venue": "中立: ウィンザー・パーク（ドミニカ国ロゾー）での集中開催（Radio Cayman）。ガイアナ名目ホーム",
  "risks": [
-  "データが非常に少ない",
-  "キックオフ時刻が不確定",
-  "情報源によってホーム/アウェイの扱いが異なる"
+  "データが薄い",
+  "キックオフ時刻未確定（04:00/05:00 JST）",
+  "ガイアナの2026-09-24 プエルトリコ戦はスコア未確認のためformから除外",
+  "ha は親善試合・FIFAシリーズ等では11v11の表記順（先に書かれた側=H）に従っており、実際の開催地が中立の可能性あり。W杯2026本大会は開催国以外N。"
  ],
  "missing": [
-  "オッズ",
-  "確定したキックオフ時刻",
-  "直近成績",
-  "スタメン",
-  "対戦成績"
+  "ガイアナ 2026-09-24 プエルトリコ戦スコア",
+  "両チーム先発"
  ],
  "unavailable": {
-  "h2h": "過去の対戦記録が見つからなかった",
-  "form": "ガイアナの直近結果は見つからず、ケイマン諸島の9/24ドミニカ国戦もスコア未取得"
+  "left.lineup": "情報源見つからず"
+ },
+ "source_urls": [
+  "https://www.11v11.com/teams/guyana/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/guyana/tab/matches/season/2027/",
+  "https://www.11v11.com/teams/cayman-islands/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/cayman-islands/tab/matches/season/2027/",
+  "https://www.11v11.com/teams/guyana/tab/matches/season/2025/",
+  "https://www.11v11.com/teams/cayman-islands/tab/matches/season/2025/",
+  "https://www.11v11.com/teams/guyana/tab/opposingTeams/opposition/Cayman%20Islands/",
+  "https://www.radiocayman.gov.ky/news/cimnt-nations-league-schedule-confirmed"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 8,
+   "L": 2,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 6,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "5連勝"
+  },
+  "right": {
+   "games": 10,
+   "W": 2,
+   "L": 6,
+   "D": 2,
+   "win_rate": 20.0,
+   "home": {
+    "W": 2,
+    "L": 3,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 3,
+    "D": 1
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 2,
+   "left": 2,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "ドミニカ国",
+    "left": [
+     {
+      "date": "2026-03-27",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "score": "0-0",
+      "res": "D"
+     }
+    ],
+    "edge": "left"
+   }
+  ]
  }
 }

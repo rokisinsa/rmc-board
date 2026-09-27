@@ -131,5 +131,50 @@
   "HLTVの詳細なマップ成績",
   "Colorの現在の5人の確定情報"
  ],
- "unavailable": {}
+ "unavailable": {},
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 5,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "5連勝"
+  },
+  "right": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝"
+  },
+  "h2h": {
+   "games": 2,
+   "left": 2,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
+ }
 }

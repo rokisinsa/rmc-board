@@ -1,133 +1,338 @@
 {
  "match_id": "m20260928-dbf16a37",
- "data_as_of": "2026-09-27T22:19:00+09:00",
+ "data_as_of": "2026-09-27T23:20:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "イエメン",
-  "ranking": "Elo 157位（1199）・湾岸杯B組 第1節終了時 0pt",
+  "ranking": "eloratings #157 (1199)。ガルフカップB組1節終了時0pt",
   "form": [
    {
-    "date": "9/24",
+    "date": "2026-09-24",
     "opp": "UAE",
+    "comp": "ガルフカップ GS1",
+    "ha": "N",
     "score": "0-4",
     "res": "L",
-    "note": "湾岸杯"
+    "detail": "出典: 前段メモ(MightyTips)、11v11未反映"
    },
    {
-    "date": "6/4",
+    "date": "2026-06-04",
     "opp": "レバノン",
+    "comp": "AFCアジアカップ予選",
+    "ha": "A",
     "score": "2-0",
     "res": "W"
    },
    {
-    "date": "2025/11/26",
-    "opp": "コモロ",
-    "score": "2-4",
-    "res": "L"
-   },
-   {
-    "date": "2025/11/18",
+    "date": "2025-11-18",
     "opp": "ブータン",
+    "comp": "AFCアジアカップ予選",
+    "ha": "H",
     "score": "7-1",
     "res": "W"
    },
    {
-    "date": "2025/10/14",
+    "date": "2025-10-14",
     "opp": "ブルネイ",
+    "comp": "AFCアジアカップ予選",
+    "ha": "H",
     "score": "9-0",
     "res": "W"
-   }
-  ],
-  "form_summary": "直近5試合3勝2敗（湾岸杯初戦はUAEに0-4で敗戦）",
-  "lineup": [
-   "確定スタメン未発表",
-   "具体的な負傷情報は見つからず"
-  ]
- },
- "right": {
-  "name": "カタール",
-  "ranking": "Elo 93位（1441）・湾岸杯B組 第1節終了時 3pt",
-  "form": [
+   },
    {
-    "date": "9/24",
-    "opp": "バーレーン",
+    "date": "2025-10-09",
+    "opp": "ブルネイ",
+    "comp": "AFCアジアカップ予選",
+    "ha": "A",
     "score": "2-0",
-    "res": "W",
-    "note": "湾岸杯"
+    "res": "W"
    },
    {
-    "date": "6/24",
-    "opp": "ボスニア",
-    "score": "1-3",
-    "res": "L"
-   },
-   {
-    "date": "6/13",
-    "opp": "スイス",
-    "score": "1-1",
-    "res": "D"
-   },
-   {
-    "date": "6/6",
-    "opp": "エルサルバドル",
+    "date": "2025-06-10",
+    "opp": "レバノン",
+    "comp": "AFCアジアカップ予選",
+    "ha": "H",
     "score": "0-0",
     "res": "D"
    },
    {
-    "date": "5/28",
-    "opp": "アイルランド",
-    "score": "0-1",
-    "res": "L"
+    "date": "2025-03-25",
+    "opp": "ブータン",
+    "comp": "AFCアジアカップ予選",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2024-12-28",
+    "opp": "バーレーン",
+    "comp": "ガルフカップ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W"
    }
   ],
-  "form_summary": "直近5試合1勝2分2敗（湾岸杯初戦はバーレーンに2-0で勝利）",
   "lineup": [
-   "確定スタメン未発表",
-   "監督：フレン・ロペテギ",
-   "具体的な負傷情報は見つからず"
+   "確定先発・負傷情報なし"
+  ]
+ },
+ "right": {
+  "name": "カタール",
+  "ranking": "eloratings #93 (1441)。ガルフカップB組1節終了時3pt",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "バーレーン",
+    "comp": "ガルフカップ GS1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "detail": "出典: 前段メモ、11v11未反映"
+   },
+   {
+    "date": "2026-06-24",
+    "opp": "ボスニア・ヘルツェゴビナ",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-18",
+    "opp": "カナダ",
+    "comp": "W杯2026 GS",
+    "ha": "A",
+    "score": "0-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-13",
+    "opp": "スイス",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "エルサルバドル",
+    "comp": "国際親善試合",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-05-28",
+    "opp": "アイルランド",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-12-07",
+    "opp": "チュニジア",
+    "comp": "FIFAアラブ杯 GS",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2025-12-04",
+    "opp": "シリア",
+    "comp": "FIFAアラブ杯 GS",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2025-12-01",
+    "opp": "パレスチナ",
+    "comp": "FIFAアラブ杯 GS",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-14",
+    "opp": "UAE",
+    "comp": "W杯アジア予選",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "監督ロペテギ。確定先発・負傷情報なし"
   ]
  },
  "h2h": [
   {
    "date": "2019-11-29",
-   "event": "湾岸杯",
-   "score": "イエメン 0-6 カタール",
+   "event": "ガルフカップ",
+   "score": "0-6",
    "winner": "right"
   },
   {
    "date": "2017-12-23",
-   "event": "湾岸杯",
-   "score": "カタール 4-0 イエメン",
+   "event": "ガルフカップ",
+   "score": "0-4",
    "winner": "right"
   },
   {
    "date": "2014-11-16",
-   "event": "湾岸杯",
-   "score": "イエメン 0-0 カタール",
+   "event": "ガルフカップ",
+   "score": "0-0",
    "winner": "draw"
   },
   {
    "date": "2013-11-15",
-   "event": "アジアカップ予選",
-   "score": "イエメン 1-4 カタール",
+   "event": "AFCアジアカップ予選",
+   "score": "1-4",
    "winner": "right"
   },
   {
    "date": "2013-10-13",
-   "event": "アジアカップ予選",
-   "score": "カタール 6-0 イエメン",
+   "event": "AFCアジアカップ予選",
+   "score": "0-6",
+   "winner": "right"
+  },
+  {
+   "date": "2010-11-25",
+   "event": "ガルフカップ",
+   "score": "1-2",
+   "winner": "right"
+  },
+  {
+   "date": "2009-01-11",
+   "event": "ガルフカップ",
+   "score": "1-2",
+   "winner": "right"
+  },
+  {
+   "date": "2004-12-05",
+   "event": "国際親善試合",
+   "score": "0-0",
+   "winner": "draw"
+  },
+  {
+   "date": "2004-01-05",
+   "event": "ガルフカップ",
+   "score": "0-3",
+   "winner": "right"
+  },
+  {
+   "date": "1994-09-21",
+   "event": "Independence大会",
+   "score": "0-2",
    "winner": "right"
   }
  ],
- "h2h_summary": "上記5試合はカタール4勝1分。MightyTipsによればカタールが直近7戦で6勝",
- "venue": "中立地：第27回湾岸杯（サウジアラビア開催）、ジッダのキング・アブドゥッラー・スポーツシティ・スタジアム（Qatar Living、eloratingsも開催国SA）。名目上はイエメンのホーム（MightyTipsはジャービル・アル＝アフマド・スタジアムと記載、誤りの可能性）",
+ "common_opponents_notes": [
+  "バーレーン: イエメン 2-1 勝(2024-12-28)／カタール 2-0 勝(2026-09-24)、2-2(2025-09-03)",
+  "UAE: イエメン 0-4 敗(2026-09-24)／カタール 2-1 勝(2025-10-14)"
+ ],
+ "venue": "中立: ガルフカップ27（サウジアラビア、ジッダ King Abdullah Sports City）。イエメン名目ホーム",
  "risks": [
-  "イエメンは初戦0-4敗戦で勝利が必須",
-  "カタールは準決勝を見据えてローテーションの可能性",
-  "情報源間で会場の記載に食い違い"
+  "イエメンは初戦0-4で勝利必須",
+  "カタールは準決勝見据え主力温存の可能性",
+  "開催会場に情報源間の食い違い",
+  "ha は親善試合・FIFAシリーズ等では11v11の表記順（先に書かれた側=H）に従っており、実際の開催地が中立の可能性あり。W杯2026本大会は開催国以外N。"
  ],
  "missing": [
-  "確定スタメン・負傷情報",
-  "オッズの正確な取得時刻（22betの価格はMightyTipsのウィジェット経由）"
+  "確定先発",
+  "イエメン直近10試合のうち2試合（2025-11-26 コモロ戦、2024-12-25 サウジ戦）はスコア不確実/未取得のため除外"
  ],
- "unavailable": {}
+ "unavailable": {
+  "left.form": "8試合のみ。コモロ戦は11v11表記が'4-4 (4-2)'、前段メモは'2-4'と矛盾し除外。サウジ戦スコア未取得"
+ },
+ "source_urls": [
+  "https://www.11v11.com/teams/yemen/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/qatar/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/yemen/tab/opposingTeams/opposition/Qatar/",
+  "https://www.qatarliving.com/en/article/gulf-cup-27-qatar-face-yemen-on-sunday-seeking-to-secure-semi-final-place",
+  "https://www.mightytips.com/football-predictions/yemen-vs-qatar-prediction-27-09-2026/"
+ ],
+ "calc": {
+  "left": {
+   "games": 8,
+   "W": 5,
+   "L": 1,
+   "D": 2,
+   "win_rate": 62.5,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 10,
+   "W": 2,
+   "L": 5,
+   "D": 3,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 2
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 10,
+   "left": 0,
+   "right": 8,
+   "draw": 2
+  },
+  "common": [
+   {
+    "opp": "UAE",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "score": "0-4",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2025-10-14",
+      "score": "2-1",
+      "res": "W"
+     }
+    ],
+    "edge": "right"
+   },
+   {
+    "opp": "バーレーン",
+    "left": [
+     {
+      "date": "2024-12-28",
+      "score": "2-1",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "edge": "even"
+   }
+  ]
+ }
 }

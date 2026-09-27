@@ -1,41 +1,133 @@
 {
  "match_id": "m20260928-dd27bf6d",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "フレーム",
  "left": {
   "name": "ロバートソン",
   "ranking": "未取得",
-  "form": [],
-  "form_summary": "未取得",
-  "lineup": [
-   "ロバートソン対劉宏宇（劉は中国選手＝地元の声援）",
-   "マーク・アレンは大会を棄権"
-  ]
+  "form": [
+   {
+    "date": "2026-09-09〜10頃",
+    "opp": "羅澤濤(Luo Zetao)",
+    "comp": "イングリッシュOP ベスト16",
+    "ha": "N",
+    "score": "3-4",
+    "res": "L",
+    "units_won": 3,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-08-27",
+    "opp": "趙心童",
+    "comp": "武漢OP QF",
+    "ha": "N",
+    "score": "1-5",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 5
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "B.メルテンス",
+    "comp": "武漢OP ベスト16",
+    "ha": "N",
+    "score": "5-1",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 1
+   }
+  ],
+  "lineup": []
  },
  "right": {
-  "name": "劉宏宇（リウ・ホンユー）",
+  "name": "劉宏宇",
   "ranking": "未取得",
-  "form": [],
-  "form_summary": "未取得",
+  "form": [
+   {
+    "date": "2026-08-26",
+    "opp": "常冰玉",
+    "comp": "武漢OP ベスト16",
+    "ha": "N",
+    "score": "1-5",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 5
+   }
+  ],
   "lineup": [
-   "ロバートソン対劉宏宇（劉は中国選手＝地元の声援）",
-   "マーク・アレンは大会を棄権"
+   "武漢OP ベスト32はヒギンズ棄権による不戦勝（試合数に含めず）",
+   "中国出身＝地元の観客"
   ]
  },
  "h2h": [],
- "h2h_summary": "未取得",
- "venue": "宝安体育センター、中国・深圳（深圳オープン 1回戦、9フレーム制＝5フレーム先取）",
+ "common_opponents_notes": [],
+ "venue": "宝安体育中心（中国・深圳）、深圳オープン R64（9フレーム制・5フレーム先取）。中国人選手は地元",
  "risks": [
-  "開始時刻はSnookerHQによるセッション開始（英国夏時間07:00）で、同じ台の前の試合の後になる可能性がありテーブル開始は保証されない"
+  "戦績はWikipedia大会記事の要約取得で部分的",
+  "セッション開始時刻（07:00 BST=15:00 JST）で卓の開始は前後し得る"
  ],
  "missing": [
-  "オッズ",
-  "ランキング",
-  "対戦成績",
-  "直近成績",
-  "独立したモデル確率"
+  "直近10試合の大半",
+  "世界ランク",
+  "H2H"
  ],
  "unavailable": {
-  "h2h": "取得できず",
-  "form": "取得できず"
+  "h2h": "cuetracker が429、flashscoreは動的でH2H取得不可",
+  "left.form": "cuetracker 429。武漢OP・イングリッシュOPの記事からの3試合のみ",
+  "right.form": "同上、1試合のみ"
+ },
+ "source_urls": [
+  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
+  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 9,
+   "units_lost": 10
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

@@ -125,5 +125,79 @@
  ],
  "unavailable": {
   "lineup": "Liquipediaがアクセス制限（429）でロスターを取得できず"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 2,
+   "left": 0,
+   "right": 2,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Team Nemesis",
+    "left": [
+     {
+      "date": "—",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "—",
+      "score": "1-3",
+      "res": "L"
+     },
+     {
+      "date": "—",
+      "score": "2-1",
+      "res": "W"
+     },
+     {
+      "date": "—",
+      "score": "1-2",
+      "res": "L"
+     }
+    ],
+    "edge": "right"
+   }
+  ]
  }
 }

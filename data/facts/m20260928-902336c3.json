@@ -1,76 +1,245 @@
 {
  "match_id": "m20260928-902336c3",
- "data_as_of": "2026-09-27T22:25:00+09:00",
+ "data_as_of": "2026-09-27T23:12:00+09:00",
+ "unit": "セット",
  "left": {
-  "name": "エルサルバドル",
-  "ranking": "パンアメリカンカップU23 2026（組み合わせから男子とみられる）5位決定戦。FIVB U23ランキングは未取得",
+  "name": "エルサルバドル U23",
+  "ranking": "パンアメリカンカップU23 2026 グループC 2位相当（1勝1敗）→順位決定戦（5位決定戦とされる）。FIVBランク未取得",
   "form": [
    {
-    "date": "9/26",
+    "date": "2026-09-26",
     "opp": "メキシコ U23",
+    "comp": "パンアメリカンカップU23 2026 プレーオフ",
+    "ha": "N",
     "score": "0-3",
-    "res": "L"
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "14-25 18-25 20-25"
    },
    {
-    "date": "9/24",
+    "date": "2026-09-24",
     "opp": "グアテマラ U23",
+    "comp": "パンアメリカンカップU23 2026 グループC",
+    "ha": "N",
     "score": "0-3",
-    "res": "L"
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "21-25 23-25 20-25"
    },
    {
-    "date": "9/23",
+    "date": "2026-09-23",
     "opp": "グレナダ U23",
+    "comp": "パンアメリカンカップU23 2026 グループC",
+    "ha": "N",
     "score": "3-0",
-    "res": "W"
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-12 25-12 25-16"
    }
   ],
-  "form_summary": "3試合1勝2敗",
   "lineup": [
-   "ロスター情報なし"
+   "ロスター情報は見つからず"
   ]
  },
  "right": {
-  "name": "ドミニカ共和国",
-  "ranking": "パンアメリカンカップU23 2026 5位決定戦。FIVB U23ランキングは未取得",
+  "name": "ドミニカ共和国 U23",
+  "ranking": "パンアメリカンカップU23 2025 優勝（決勝でアメリカに3-2）。2026大会は準々決勝でコスタリカに0-3敗退",
   "form": [
    {
-    "date": "9/26",
+    "date": "2026-09-26",
     "opp": "コスタリカ U23",
+    "comp": "パンアメリカンカップU23 2026 準々決勝",
+    "ha": "N",
     "score": "0-3",
-    "res": "L"
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "22-25 17-25 23-25"
    },
    {
-    "date": "9/24",
+    "date": "2026-09-23",
     "opp": "アメリカ U23",
+    "comp": "パンアメリカンカップU23 2026 グループB",
+    "ha": "N",
     "score": "0-3",
-    "res": "L"
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "19-25 18-25 22-25"
    },
    {
-    "date": "9/23",
+    "date": "2026-09-23",
     "opp": "トリニダード・トバゴ U23",
+    "comp": "パンアメリカンカップU23 2026 グループB",
+    "ha": "N",
     "score": "3-0",
-    "res": "W"
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-16 25-17 25-23"
+   },
+   {
+    "date": "2025-08-04",
+    "opp": "アメリカ U23",
+    "comp": "パンアメリカンカップU23 2025 決勝",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "25-23 21-25 23-25 25-19 16-14（セットスコアから算出、自分側先）"
+   },
+   {
+    "date": "2025-08-03",
+    "opp": "メキシコ U23",
+    "comp": "パンアメリカンカップU23 2025 準決勝",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "25-21 23-25 25-21 25-20"
+   },
+   {
+    "date": "2025-07-31",
+    "opp": "メキシコ U23",
+    "comp": "パンアメリカンカップU23 2025 グループB",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "25-22 23-25 27-25 22-25 15-12"
+   },
+   {
+    "date": "2025-07-30",
+    "opp": "ベリーズ U23",
+    "comp": "パンアメリカンカップU23 2025 グループB",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-22 25-16 25-23"
+   },
+   {
+    "date": "2025-07-29",
+    "opp": "アメリカ U23",
+    "comp": "パンアメリカンカップU23 2025 グループB",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "23-25 26-24 31-29 25-16"
    }
   ],
-  "form_summary": "3試合1勝2敗",
   "lineup": [
-   "ロスター情報なし"
+   "ロスター情報は見つからず"
   ]
  },
  "h2h": [],
- "h2h_summary": "betexplorerに過去の対戦記録なし",
- "venue": "大会会場（開催国がエルサルバドルでなければ両者中立。エルサルバドルが先に表記されているが開催国は未確認）",
+ "common_opponents_notes": [
+  "メキシコ U23: エルサルバドル 0-3（2026）／ドミニカ 3-1, 3-2（2025）",
+  "アメリカ U23: ドミニカ 0-3（2026）"
+ ],
+ "venue": "パンアメリカンカップU23 2026 開催地（中立扱い。開催国は未確認）",
  "risks": [
-  "取り扱いが3社のみで市場が薄い",
-  "開催国アドバンテージの有無は未確認"
+  "ドミニカは2025年優勝だが2026年は主力級相手に2戦ストレート負け",
+  "U23は世代入れ替わりで前年結果の参考度が低い",
+  "betexplorerの試合日付・ホーム表記は大会会場基準で中立",
+  "男女区分はbetexplorer表記に性別記載なし（男子と推定される文脈のみ、未確認）"
  ],
  "missing": [
-  "開催都市・会場",
+  "大会開催地",
   "ロスター",
-  "ランキング",
-  "独立した予測モデル"
+  "FIVBランク",
+  "エルサルバドルの2026大会以前の試合（betexplorer掲載なし）"
  ],
  "unavailable": {
-  "h2h": "betexplorerに過去の対戦が見つからない"
+  "h2h": "betexplorer・検索で過去の対戦が見つからず",
+  "left.form": "betexplorerに今大会3試合しか掲載なし",
+  "right.form": "2024年大会分はbetexplorer内で相手チーム側と勝敗が矛盾したため除外、8件のみ"
+ },
+ "source_urls": [
+  "https://www.betexplorer.com/volleyball/team/el-salvador/YFM6gaxd/results/",
+  "https://www.betexplorer.com/volleyball/team/dominican-republic/jPh3AAFr/results/",
+  "https://www.betexplorer.com/volleyball/world/pan-american-cup-u23/el-salvador-dominican-republic/j1lsF8tP/"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 3,
+   "units_lost": 6
+  },
+  "right": {
+   "games": 8,
+   "W": 6,
+   "L": 2,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 18,
+   "units_lost": 12
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "メキシコ U23",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "score": "0-3",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2025-08-03",
+      "score": "3-1",
+      "res": "W"
+     },
+     {
+      "date": "2025-07-31",
+      "score": "3-2",
+      "res": "W"
+     }
+    ],
+    "edge": "right"
+   }
+  ]
  }
 }

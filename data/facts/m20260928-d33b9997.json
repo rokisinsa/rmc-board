@@ -1,119 +1,405 @@
 {
  "match_id": "m20260928-d33b9997",
- "data_as_of": "2026-09-27T22:25:00+09:00",
+ "data_as_of": "2026-09-27T23:22:00+09:00",
+ "unit": "マップ",
  "left": {
   "name": "Imperial",
-  "ranking": "HLTV 62位 / VRS 47位（HLTV試合ページ）",
+  "ranking": "HLTV #62 / VRS #47（HLTVマッチページ）",
   "form": [
    {
-    "date": "—",
+    "date": "2026-09-26",
     "opp": "Bounty Hunters",
+    "comp": "FERJEE In House S2 準決勝",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2 準決勝（Mirage 13-9、Nuke 13-7）"
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "Mirage 13-9, Nuke 13-7"
    },
    {
-    "date": "—",
+    "date": "2026-09-24",
     "opp": "Galorys",
+    "comp": "FERJEE In House S2",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "—",
+    "date": "2026-09-23",
     "opp": "Juventus",
+    "comp": "FERJEE In House S2",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "9/11",
-    "opp": "DENDELE",
-    "score": "0-2",
+    "date": "2026-09-19",
+    "opp": "BESTIA",
+    "comp": "Circuit X Curitiba S3",
+    "ha": "N",
+    "score": "1-2",
     "res": "L",
-    "note": "PGL Masters予選"
+    "units_won": 1,
+    "units_lost": 2
    },
    {
-    "date": "—",
-    "opp": "paiN",
+    "date": "2026-09-17",
+    "opp": "Bounty Hunters",
+    "comp": "Circuit X Curitiba S3",
+    "ha": "N",
     "score": "2-1",
     "res": "W",
-    "note": "PGL Masters予選（約2週間前）"
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Fluxo",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "DENDELE",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "paiN",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Inferno 13-9, Dust2 9-13, Mirage 13-10"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Galorys",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Bounty Hunters",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
    }
   ],
-  "form_summary": "FERJEE S2では3連勝（すべて2-0）。9/11にDENDELEに0-2で敗戦、paiNには2-1で勝利",
   "lineup": [
-   "VINI、saadzin、noway、decenty、chelo",
-   "欠場の報道なし"
+   "VINI, saadzin, noway, decenty, chelo（コーチ tacitus）",
+   "欠場・変更の報道なし"
   ]
  },
  "right": {
   "name": "paiN",
-  "ranking": "HLTV 28位 / VRS 44位（HLTV試合ページ）",
+  "ranking": "HLTV #28 / VRS #44（HLTVマッチページ）",
   "form": [
    {
-    "date": "—",
+    "date": "2026-09-26",
     "opp": "Galorys",
+    "comp": "FERJEE In House S2 準決勝",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2 準決勝（Cache 13-9、Dust2 13-5）"
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "Cache 13-9, Dust2 13-5"
    },
    {
-    "date": "—",
+    "date": "2026-09-24",
     "opp": "Bounty Hunters",
+    "comp": "FERJEE In House S2",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "—",
+    "date": "2026-09-23",
     "opp": "Turma do Pagode",
+    "comp": "FERJEE In House S2",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "FERJEE S2"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "—",
-    "opp": "Imperial",
+    "date": "2026-09-18",
+    "opp": "Fluxo",
+    "comp": "Circuit X Curitiba S3",
+    "ha": "N",
     "score": "1-2",
     "res": "L",
-    "note": "PGL Masters予選（約2週間前）"
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Turma do Pagode",
+    "comp": "Circuit X Curitiba S3",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "ShineN",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "Imperial",
+    "comp": "PGL Masters Bucharest 2026 南米クローズド予選",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "Inferno 9-13, Dust2 13-9, Mirage 10-13"
    }
   ],
-  "form_summary": "FERJEE S2では3連勝（すべて2-0）",
   "lineup": [
-   "Rkzinho、biguzera、saffee、Tatu、snow",
-   "欠場の報道なし"
+   "Rkzinho, biguzera, saffee, Tatu, snow（コーチ rikz）",
+   "欠場・変更の報道なし"
   ]
  },
  "h2h": [
   {
-   "date": "2026-09",
-   "event": "PGL Masters予選（約2週間前）",
-   "score": "Imperial 2-1 paiN",
-   "winner": "left"
+   "date": "2026-09-11",
+   "event": "PGL Masters Bucharest 2026 南米クローズド予選",
+   "score": "2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "detail": "Inferno 13-9（Imperialピック）, Dust2 9-13（paiNピック）, Mirage 13-10（デサイダー）。veto: Imp Nuke除外, paiN Cache除外, Imp Inferno, paiN Dust2, paiN Ancient除外, Imp Anubis除外"
+  },
+  {
+   "date": "2025（春）",
+   "event": "ACE South American Masters Spring 2025",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0,
+   "detail": "マップスコア未取得（egamersworld）"
+  },
+  {
+   "date": "2024",
+   "event": "Perfect World Shanghai Major 2024 Opening Stage (Bo1)",
+   "score": "0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1,
+   "detail": "paiN 13-5（マップ名未取得）"
+  },
+  {
+   "date": "2024",
+   "event": "Perfect World Shanghai Major 2024 Americas RMR (Bo1)",
+   "score": "0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1,
+   "detail": "マップスコア未取得"
+  },
+  {
+   "date": "不明",
+   "event": "ESL Challenger League S48 South America (Bo1)",
+   "score": "1-0",
+   "winner": "left",
+   "units_left": 1,
+   "units_right": 0,
+   "detail": "Imperial 19-17（OT、マップ名未取得）"
   }
  ],
- "h2h_summary": "通算はpaiN 16勝・Imperial 13勝（egamersworld）。直近の対戦はImperialが2-1で勝利",
- "venue": "LAN、ブラジル・リオデジャネイロ（FERJEE In House）。両チームともブラジル勢で実質中立（両者にとってホーム）",
+ "common_opponents_notes": [
+  "Bounty Hunters: Imperial 2-0(9/26 FERJEE), 2-1(9/17), 1-2(9/6) / paiN 2-0(9/24 FERJEE)",
+  "Galorys: Imperial 2-0(9/24), 2-0(9/10) / paiN 2-0(9/26)",
+  "Fluxo: Imperial 0-2(9/12) / paiN 1-2(9/18)",
+  "Turma do Pagode: paiN 2-0 x2 / DENDELE 2-0(9/9)（Imperialは対戦なし）",
+  "通算H2H（egamersworld）: paiN 16勝 / Imperial 13勝"
+ ],
+ "venue": "LAN、ブラジル・リオデジャネイロ（FERJEE In House）。両チームともブラジル拠点で中立扱い",
  "esports": {
-  "format": "BO5・グランドファイナル（プレーオフはBo3シングルエリミ、決勝のみBo5）。FERJEE In House Season 2、2026/9/23-27、賞金12万5000レアル（約2万4330ドル）、VRSポイント対象",
+  "format": "BO5（グランドファイナル）",
   "lan_online": "LAN",
-  "map_pool": "Cache、Dust2、Mirage、Inferno、Nuke、Ancient、Anubis。HLTV直近3か月の勝率：Imperial Mirage 75%、Inferno 68%、Cache 25%／paiN Dust2 73%、Nuke 45%、Mirage 50%、Inferno 30%",
-  "veto": "Bo5のベトはまだ公開されていない。ImperialはCacheを避け、paiNはInfernoを避けると予想",
-  "patch": "CS2の現行ライブビルド（大会固有の情報なし）",
-  "map_h2h": "通算（egamersworld）：Inferno paiN 9-4、Anubis paiN 4-1、Ancient paiN 3-0、Vertigo paiN 3-1、Nuke Imperial 7-4、Mirage Imperial 3-0"
+  "map_pool": "Active Duty: Ancient, Anubis, Cache, Dust2, Inferno, Mirage, Nuke（9/11のvetoに登場した7マップ）",
+  "veto": "本試合のvetoは未公表（試合前）",
+  "patch": "未確認",
+  "map_h2h": "通算マップ別(egamersworld): Inferno paiN 9-4, Anubis paiN 4-1, Ancient paiN 3-0, Nuke Imperial 7-4, Mirage Imperial 3-0。HLTV直近: Imperial Mirage 75%(24マップ)/Nuke 75%(20), paiN Dust2 73%(11)"
  },
  "risks": [
-  "Bo5の決勝はマッププールの厚いチームが有利",
-  "VRSの影響：paiNが勝つと南北米VRSでNRGの順位が下がる可能性（HLTV）",
-  "直近の対戦はImperialが勝利。HLTV順位はpaiNが上だが、市場（ブック名不明）はImperialを優位と見ている",
-  "HLTVのコミュニティ投票はImperial 67.1%（ファン投票でありモデルではない）"
+  "BO5のためマッププールの深さが影響",
+  "最新対戦はImperial 2-1勝利、通算はpaiN優勢",
+  "HLTVコミュニティ投票67.1%がImperial（モデルではない）"
  ],
  "missing": [
-  "ブックメーカー名が明示されたオッズ",
-  "独立した予測モデル",
-  "PGL予選での対戦の正確な日付とマップスコア"
+  "paiNの直近10試合のうち3試合（9/11以前、HLTV結果ページ取得失敗）",
+  "H2H古い試合の正確な日付とマップ名",
+  "パッチ情報"
  ],
- "unavailable": {}
+ "unavailable": {
+  "right.form": "9/11以前のpaiN試合はHLTV/liquipediaから取得できず（liquipedia 429、HLTV結果ページが古いキャッシュ）。7試合のみ",
+  "h2h": "egamersworldで5件のみ詳細確認、それ以前は未取得"
+ },
+ "source_urls": [
+  "https://www.hltv.org/matches/2398459/imperial-vs-pain-ferjee-in-house-season-2",
+  "https://www.hltv.org/results?team=9455",
+  "https://www.hltv.org/team/4773/pain",
+  "https://www.hltv.org/matches/2397761/imperial-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+  "https://egamersworld.com/counterstrike/history/pain-gaming-vs-imperial-br-fZhDbsKJk",
+  "https://www.hltv.org/events/9346/ferjee-in-house-season-2"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 6,
+   "L": 4,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 14,
+   "units_lost": 10
+  },
+  "right": {
+   "games": 7,
+   "W": 4,
+   "L": 3,
+   "D": 0,
+   "win_rate": 57.1,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 10,
+   "units_lost": 6
+  },
+  "h2h": {
+   "games": 5,
+   "left": 3,
+   "right": 2,
+   "draw": 0,
+   "units_left": 5,
+   "units_right": 3
+  },
+  "common": [
+   {
+    "opp": "Bounty Hunters",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "score": "2-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-17",
+      "score": "2-1",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-06",
+      "score": "1-2",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "edge": "right"
+   },
+   {
+    "opp": "Galorys",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "score": "2-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-10",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "edge": "even"
+   },
+   {
+    "opp": "Fluxo",
+    "left": [
+     {
+      "date": "2026-09-12",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-18",
+      "score": "1-2",
+      "res": "L"
+     }
+    ],
+    "edge": "even"
+   }
+  ]
+ }
 }

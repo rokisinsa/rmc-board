@@ -1,41 +1,85 @@
 {
  "match_id": "m20260928-bb2e4540",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "セット",
  "left": {
   "name": "プリズミッチ",
-  "ranking": "Tennis Abstract Elo 47位 総合1800.2・ハード1705.6（ATPランキングは未取得）",
+  "ranking": "tennisexplorer 表記79位（更新時期不明）。Tennis Abstract Elo #47（1800.2、ハード1705.6）",
   "form": [],
-  "form_summary": "未取得",
   "lineup": [
-   "組み合わせは事前情報によるもので、ドロー表で独自確認できていない"
+   "組み合わせはブリーフ由来、ドローで未確認"
   ]
  },
  "right": {
   "name": "リンコン",
-  "ranking": "Tennis Abstract Elo 207位 総合1565.5・ハード1536.0（ATPランキングは未取得）",
+  "ranking": "Tennis Abstract Elo #207（1565.5、ハード1536.0）。ATPランク未取得",
   "form": [],
-  "form_summary": "未取得",
-  "lineup": [
-   "組み合わせは事前情報によるもので、ドロー表で独自確認できていない"
-  ]
+  "lineup": []
  },
  "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "エウパゴ・ポルト・オープン（ATPチャレンジャー125）、コンプレクソ・デスポルティーボ・ド・モンテ・アベンティーノ、ポルトガル・ポルト（2026年9月27日〜10月4日）、屋外ハード",
+ "common_opponents_notes": [],
+ "venue": "Eupago Porto Open（ATPチャレンジャー125）、ポルトガル・ポルト、屋外ハード。中立",
  "risks": [
-  "ドロー上の組み合わせが未検証",
-  "Eloは2026-09-21時点",
-  "モデル確率（参考）：ハードElo 1705.6 対 1536.0 で左側勝率0.726（総合Eloでは0.794）"
+  "tennisexplorerのプリズミッチ戦績は2026年5月（ローマ）までしか表示されず直近状況不明",
+  "組み合わせ未検証"
  ],
  "missing": [
-  "オッズ",
-  "開始時刻（オーダー・オブ・プレー未発見）",
-  "直近成績",
-  "対戦成績",
-  "ドローでの組み合わせ確認"
+  "両者の直近10試合",
+  "H2H",
+  "ドロー確認"
  ],
  "unavailable": {
-  "h2h": "対戦記録が見つからなかった",
-  "form": "直近成績は取得できず"
+  "h2h": "見つからず",
+  "left.form": "tennisexplorerは2026年5月以降が欠落、tennisabstract/ATPは取得不可（robots/動的）",
+  "right.form": "取得できる情報源なし"
+ },
+ "source_urls": [
+  "https://www.tennisexplorer.com/player/prizmic/?annual=2026",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

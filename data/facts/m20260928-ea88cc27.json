@@ -1,81 +1,126 @@
 {
- "match_id": "m20260928-ea88cc27",
- "data_as_of": "2026-09-27T22:19:00+09:00",
  "left": {
   "name": "ウルム",
-  "ranking": "BBL 2026-27開幕直後（順位なし）",
+  "ranking": "BBL 2026-27序盤：365scoresでは2勝0敗・2位表示（2勝目の相手は未確認）",
   "form": [
    {
-    "date": "9/25",
+    "date": "2026-09-25",
     "opp": "フェニックス・ハーゲン",
+    "comp": "BBL 2026-27",
+    "ha": "A",
     "score": "93-78",
     "res": "W",
-    "note": "アウェイ"
+    "detail": "昇格組ハーゲンのBBL復帰ホーム初戦"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "リェイダ",
+    "comp": "プレシーズン（スペイン、サン・ジュリア・デ・ビラトルタ）",
+    "ha": "N",
+    "score": "66-100",
+    "res": "L"
    }
   ],
-  "form_summary": "開幕戦でアウェイ勝利",
   "lineup": [
    "情報なし"
   ]
  },
  "right": {
   "name": "ヴュルツブルク",
-  "ranking": "BBL 2026-27開幕直後（順位なし）",
+  "ranking": "BBL 2026-27序盤：0勝1敗（365scoresで14位表示）",
   "form": [
    {
-    "date": "9/25",
+    "date": "2026-09-26",
     "opp": "オルデンブルク",
+    "comp": "BBL 2026-27 開幕戦（sport.deは第2節表記）",
+    "ha": "H",
     "score": "68-77",
     "res": "L",
-    "note": "ホーム"
+    "detail": "クラブ発表は9/26、365scores/sportytraderは9/25表記。ティシュラー15点9R、コルバート14点12R"
    }
   ],
-  "form_summary": "開幕戦でホーム敗戦",
   "lineup": [
-   "情報なし"
+   "監督サシャ・フィリポフスキ",
+   "負傷情報は未確認"
   ]
  },
- "h2h": [
-  {
-   "date": "02/05（年不明）",
-   "event": "—",
-   "score": "ヴュルツブルク 98-84 ウルム",
-   "winner": "right"
-  },
-  {
-   "date": "29/12（年不明）",
-   "event": "—",
-   "score": "ウルム 66-61 ヴュルツブルク",
-   "winner": "left"
-  },
-  {
-   "date": "12/06（年不明）",
-   "event": "—",
-   "score": "ウルム 91-84 ヴュルツブルク",
-   "winner": "left"
-  },
-  {
-   "date": "10/06（年不明）",
-   "event": "—",
-   "score": "ヴュルツブルク 78-77 ウルム",
-   "winner": "right"
-  },
-  {
-   "date": "07/06（年不明）",
-   "event": "—",
-   "score": "ウルム 99-86 ヴュルツブルク",
-   "winner": "left"
-  }
+ "h2h": [],
+ "common_opponents_notes": [
+  "対リェイダ：ウルム 9/4 N 66-100 L（プレシーズン）",
+  "365scoresのH2H（年表記なし、日付のみ）：ヴュルツブルク98-84ウルム(5/2)、ウルム66-61ヴュルツブルク(12/29)、ウルム91-84(6/12)、ヴュルツブルク78-77(6/10)、ウルム99-86(6/7)。通算ウルム8勝7敗、ウルムはホームで直近5戦全勝と記載",
+  "2025/9/21 プレシーズンでウルム64-67ヴュルツブルク（ウルム公式）"
  ],
- "h2h_summary": "判明分5試合でウルム3勝、ヴュルツブルク2勝（365scores、年は表示なし）",
- "venue": "ウルムのホーム（ノイウルムのratiopharmアレーナと推定、未確認）",
+ "venue": "ウルムのホーム（ratiopharm arena, ノイウルムと推定、未検証）。ヴュルツブルクは前日9/26ホーム戦からの連戦",
  "risks": [
-  "シーズン序盤",
-  "両チームとも前の試合から中2日"
+  "ヴュルツブルクは連戦（9/26→9/27現地）",
+  "ウルムはプレシーズンでリェイダに34点差負け",
+  "両チームのプレシーズン結果をほぼ取得できず"
  ],
  "missing": [
-  "オッズ",
-  "スタメン"
+  "プレシーズン結果",
+  "2025-26シーズン終盤の結果",
+  "ウルムの2勝目の詳細",
+  "負傷者"
  ],
- "unavailable": {}
+ "unavailable": {
+  "h2h": "365scoresのH2Hに年が表示されず日付確定不可のため notes に記載",
+  "left.form": "確認できたのは2試合のみ",
+  "right.form": "確認できたのは1試合のみ"
+ },
+ "source_urls": [
+  "https://www.365scores.com/en-uk/basketball/match/bundesliga-27/oliver-baskets-ratiopharm-ulm-380-8649-27",
+  "https://www.wuerzburg-baskets.de/news/newsdetails/nervoeser-auftakt-baskets-unterliegen-gegen-oldenburg",
+  "https://www.sportschau.de/regional/wdr/wdr-phoenix-hagen-verliert-bbl-heim-comeback-gegen-ulm-100.html",
+  "https://www.infobae.com/espana/agencias/2026/09/04/100-66-el-ilerna-lleida-se-exhibe-ante-un-flojo-ratiopharm-ulm/",
+  "https://ratiopharmulm.com/news/generalprobe-missglueckt-2581/",
+  "https://www.sportytrader.com/en/results-live/s-oliver-wurzburg-ewe-baskets-oldenburg-8709796/"
+ ],
+ "match_id": "m20260928-ea88cc27",
+ "data_as_of": "2026-09-27T23:15:00+09:00",
+ "unit": "なし",
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
+ }
 }

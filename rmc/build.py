@@ -4,6 +4,8 @@ from .core import load, save, summarize, LOGICS, now_jst
 
 
 def build():
+    from .facts import enrich_all
+    enrich_all()
     matches = load("matches.json", {})
     runs = load("automation-runs.json", [])
     logics = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}

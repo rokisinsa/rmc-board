@@ -1,107 +1,310 @@
 {
  "match_id": "m20260928-66cfc65e",
- "data_as_of": "2026-09-27T22:19:00+09:00",
+ "data_as_of": "2026-09-27T23:20:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "日本",
-  "ranking": "Elo 15位（1897）",
+  "ranking": "eloratings #15 (1897)",
   "form": [
    {
-    "date": "9/24",
+    "date": "2026-09-24",
     "opp": "ウルグアイ",
+    "comp": "キリンチャレンジカップ",
+    "ha": "H",
     "score": "3-1",
     "res": "W"
    },
    {
-    "date": "6/29",
+    "date": "2026-06-29",
     "opp": "ブラジル",
+    "comp": "W杯2026 決勝T",
+    "ha": "N",
     "score": "1-2",
-    "res": "L",
-    "note": "W杯ラウンド32"
+    "res": "L"
    },
    {
-    "date": "6/25",
+    "date": "2026-06-25",
     "opp": "スウェーデン",
+    "comp": "W杯2026 GS",
+    "ha": "N",
     "score": "1-1",
-    "res": "D",
-    "note": "W杯"
+    "res": "D"
    },
    {
-    "date": "—",
+    "date": "2026-06-20",
     "opp": "チュニジア",
+    "comp": "W杯2026 GS",
+    "ha": "N",
     "score": "4-0",
-    "res": "W",
-    "note": "日付不明"
+    "res": "W"
    },
    {
-    "date": "—",
+    "date": "2026-06-14",
     "opp": "オランダ",
-    "score": "—",
-    "res": "D",
-    "note": "日付不明"
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-05-31",
+    "opp": "アイスランド",
+    "comp": "キリンチャレンジカップ",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "イングランド",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "スコットランド",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ボリビア",
+    "comp": "キリンチャレンジカップ",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-14",
+    "opp": "ガーナ",
+    "comp": "キリンチャレンジカップ",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
    }
   ],
-  "form_summary": "直近はウルグアイに3-1で勝利。W杯はラウンド32でブラジルに敗退",
   "lineup": [
-   "冨安：欠場（ふくらはぎ）",
-   "鈴木彩艶：GKに復帰",
-   "予想布陣 GK：鈴木",
-   "予想布陣 DF：板倉、伊藤洋輝、瀬古",
-   "予想布陣 MF：伊東純也、田中、佐野、堂安／鎌田、久保",
-   "予想布陣 FW：上田"
+   "冨安欠場（ふくらはぎ）",
+   "鈴木彩艶がGK復帰",
+   "予想: 鈴木; 板倉, 伊藤洋輝, 瀬古; 伊東純也, 田中, 佐野, 堂安; 鎌田, 久保; 上田"
   ]
  },
  "right": {
   "name": "ベネズエラ",
-  "ranking": "Elo 38位（1733）",
+  "ranking": "eloratings #38 (1733)",
   "form": [
    {
-    "date": "6/10",
+    "date": "2026-06-09",
     "opp": "イラク",
+    "comp": "国際親善試合",
+    "ha": "A",
     "score": "2-0",
-    "res": "W",
-    "note": "アウェイ"
+    "res": "W"
    },
    {
-    "date": "6/6",
+    "date": "2026-06-06",
     "opp": "トルコ",
+    "comp": "国際親善試合",
+    "ha": "N",
     "score": "1-2",
+    "res": "L",
+    "detail": "eloratings会場US"
+   },
+   {
+    "date": "2026-03-30",
+    "opp": "ウズベキスタン",
+    "comp": "FIFAシリーズ",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D",
+    "detail": "PK4-5で敗戦"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "トリニダード・トバゴ",
+    "comp": "FIFAシリーズ",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "カナダ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-2",
     "res": "L"
    },
    {
-    "date": "3/30",
-    "opp": "ウズベキスタン",
-    "score": "4-5",
+    "date": "2025-11-14",
+    "opp": "オーストラリア",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-10",
+    "opp": "アルゼンチン",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-09",
+    "opp": "コロンビア",
+    "comp": "W杯南米予選",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-04",
+    "opp": "アルゼンチン",
+    "comp": "W杯南米予選",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2025-06-10",
+    "opp": "ウルグアイ",
+    "comp": "W杯南米予選",
+    "ha": "A",
+    "score": "0-2",
     "res": "L"
    }
   ],
-  "form_summary": "直近3試合1勝2敗",
   "lineup": [
-   "ロンドン、ソテルド、サバリーノ：招集外",
-   "ラマドリッド：負傷",
-   "D・ペレイラ：出場微妙"
+   "ロンドン、ソテルド、サバリノ招集外",
+   "ラマドリード負傷、D.ペレイラ出場微妙"
   ]
  },
  "h2h": [
   {
-   "date": "2019",
+   "date": "2019-11-19",
    "event": "キリンチャレンジカップ",
-   "score": "日本 1-4 ベネズエラ",
+   "score": "1-4",
    "winner": "right"
   },
   {
-   "date": "2014",
-   "event": "—",
-   "score": "日本の勝利（スコア不明）",
-   "winner": "left"
+   "date": "2018-11-16",
+   "event": "国際親善試合",
+   "score": "1-1",
+   "winner": "draw"
+  },
+  {
+   "date": "2014-09-09",
+   "event": "国際親善試合",
+   "score": "3-0",
+   "winner": "left",
+   "detail": "11v11表記。記憶上は2-2の可能性あり要確認"
+  },
+  {
+   "date": "2012-08-15",
+   "event": "国際親善試合",
+   "score": "1-1",
+   "winner": "draw"
+  },
+  {
+   "date": "2010-02-02",
+   "event": "国際親善試合",
+   "score": "0-0",
+   "winner": "draw"
   }
  ],
- "h2h_summary": "通算5戦：日本1勝、ベネズエラ1勝、3分（Sports Mole）",
- "venue": "日本のホーム：エディオンピースウイング広島",
+ "common_opponents_notes": [
+  "ウルグアイ: 日本 3-1 勝(2026-09-24)／ベネズエラ 0-2 敗(2025-06-10)",
+  "ボリビア: 日本 3-0 勝(2025-11-18)／ベネズエラ 2-0 勝(2025-06-06、直近10試合外)"
+ ],
+ "venue": "日本ホーム: エディオンピースウイング広島",
  "risks": [
-  "親善試合のため選手交代が多い見込み"
+  "親善試合で交代多数",
+  "h2h 2014年戦のスコアは11v11で3-0だが他資料と食い違う可能性",
+  "ha は親善試合・FIFAシリーズ等では11v11の表記順（先に書かれた側=H）に従っており、実際の開催地が中立の可能性あり。W杯2026本大会は開催国以外N。"
  ],
  "missing": [
-  "確定スタメン"
+  "確定先発",
+  "ベネズエラの2026年9月の試合（あれば）"
  ],
- "unavailable": {}
+ "unavailable": {
+  "right.form": "11v11の2026-27シーズンにベネズエラの試合掲載なし"
+ },
+ "source_urls": [
+  "https://www.11v11.com/teams/japan/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/japan/tab/matches/season/2027/",
+  "https://www.11v11.com/teams/venezuela/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/venezuela/tab/matches/season/2025/",
+  "https://www.11v11.com/teams/japan/tab/opposingTeams/opposition/Venezuela/",
+  "https://www.sportsmole.co.uk/football/japan/preview/japan-vs-venezuela-prediction-team-news-lineups_605849.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 7,
+   "L": 1,
+   "D": 2,
+   "win_rate": 70.0,
+   "home": {
+    "W": 4,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 10,
+   "W": 3,
+   "L": 6,
+   "D": 1,
+   "win_rate": 30.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 4,
+    "D": 1
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 5,
+   "left": 1,
+   "right": 1,
+   "draw": 3
+  },
+  "common": [
+   {
+    "opp": "ウルグアイ",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "score": "3-1",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2025-06-10",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "edge": "left"
+   }
+  ]
+ }
 }

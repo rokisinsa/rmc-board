@@ -1,67 +1,140 @@
 {
  "match_id": "m20260928-fb0aa938",
- "data_as_of": "2026-09-27T22:25:00+09:00",
+ "data_as_of": "2026-09-27T23:12:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "ウィガン W",
-  "ranking": "2026女子スーパーリーグ首位（Wikipedia表：12勝0分1敗、24ポイント）でリーグ・リーダーズ・シールド獲得。2026年女子チャレンジカップ優勝",
+  "ranking": "2026 女子スーパーリーグ 1位（13試合12勝1敗、24点）・リーグリーダーズシールド獲得、2026女子チャレンジカップ優勝",
   "form": [
    {
-    "date": "9/13",
+    "date": "2026-09-13",
     "opp": "ヨーク W",
+    "comp": "女子SL スーパー4 最終節",
+    "ha": "A",
     "score": "12-26",
     "res": "L",
-    "note": "アウェイ（今季唯一の敗戦）"
+    "detail": "今季公式戦初黒星"
    }
   ],
-  "form_summary": "リーグ首位のため準決勝は免除で決勝へ直行。直近の試合は9/13のヨーク戦の敗戦",
   "lineup": [
-   "メンバー・負傷者の情報なし"
+   "先発・欠場情報は見つからず"
   ]
  },
  "right": {
   "name": "ヨーク W",
-  "ranking": "3位（Wikipedia表で7勝6敗・14ポイント。表の数字に不整合の疑い）",
+  "ranking": "2026 女子スーパーリーグ 3位（13試合7勝6敗、14点。聖ヘレンズと同勝点で得失点差上位）",
   "form": [
    {
-    "date": "9/25",
-    "opp": "リーズ・ライノズ W",
+    "date": "2026-09-18",
+    "opp": "リーズ W",
+    "comp": "女子SL 準決勝",
+    "ha": "A",
     "score": "12-0",
     "res": "W",
-    "note": "準決勝・アウェイ（AMTヘディングリー）"
+    "detail": "AMTヘディングリー"
    },
    {
-    "date": "9/13",
+    "date": "2026-09-13",
     "opp": "ウィガン W",
+    "comp": "女子SL スーパー4 最終節",
+    "ha": "H",
     "score": "26-12",
-    "res": "W",
-    "note": "ホーム"
+    "res": "W"
    }
   ],
-  "form_summary": "準決勝を完封勝利し、2週間前には首位ウィガンにも勝利",
   "lineup": [
-   "メンバー・負傷者の情報なし"
+   "先発・欠場情報は見つからず"
   ]
  },
  "h2h": [
   {
    "date": "2026-09-13",
-   "event": "2026女子スーパーリーグ（ヨークホーム）",
-   "score": "ヨーク W 26-12 ウィガン W",
+   "event": "女子SL スーパー4 最終節（ヨークホーム）",
+   "score": "12-26",
    "winner": "right"
+  },
+  {
+   "date": "2026-06-20",
+   "event": "女子SL 第5節（ヨークホーム）",
+   "score": "32-12",
+   "winner": "left"
+  },
+  {
+   "date": "2026-05-09",
+   "event": "女子チャレンジカップ準決勝（中立）",
+   "score": "52-0",
+   "winner": "left"
   }
  ],
- "h2h_summary": "2026年9月にヨークが26-12で勝利（ウィガンの今季唯一の黒星）。それ以前の2026年の対戦は未取得",
- "venue": "ウィガンのホーム（Brick Community Stadium、ウィガン）。2026女子スーパーリーグ・グランドファイナル、キックオフ現地9/27（日）17:30 BST（Sky Sports中継）",
+ "common_opponents_notes": [
+  "以下はウィガン W の2026年前半（Wikipedia季節ページ、6/27まで。7月〜9月上旬の結果は未取得で直近10試合としては不連続）: 6/27 聖ヘレンズ W 32-28(H)、6/14 ハダースフィールド W 56-12(A)、6/04 リー W 68-4(H)、5/30 聖ヘレンズ W 54-6（CC決勝, N）、5/24 バロー W 74-6(A)、5/16 リーズ W 18-10(H)",
+  "リーズ W: ウィガン 18-10(H, 5/16)／ヨーク 12-0(A, 9/18 準決勝)"
+ ],
+ "venue": "女子スーパーリーグ・グランドファイナル。ウィガンのブリック・コミュニティ・スタジアム（ウィガン）開催（リーグ1位ホーム）、英国時間9/27 17:30",
  "risks": [
   "一発勝負の決勝",
-  "ヨークは2週間前にウィガンに勝利",
-  "ウィガンは準決勝の週末に試合がなく、試合勘の鈍りか休養十分かが分かれる"
+  "ヨークは2週間前にウィガンを26-12で破り今季唯一の黒星を付けた",
+  "ウィガンは準決勝免除で9/13以来の試合（休養/実戦間隔）"
  ],
  "missing": [
-  "オッズ",
-  "メンバー",
-  "通算の対戦成績",
-  "独立した予測モデル"
+  "両チームの7月〜8月の試合結果",
+  "スコッド・欠場情報",
+  "2025年8月のヨーク勝利（リーグ戦）のスコア・日付"
  ],
- "unavailable": {}
+ "unavailable": {
+  "left.form": "ウィガンの7月〜9月上旬（第7〜13節・スーパー4前半）の結果を取得できず、連続した直近試合は9/13の1件のみ",
+  "right.form": "ヨークの9/13より前の結果を取得できず"
+ },
+ "source_urls": [
+  "https://en.wikipedia.org/wiki/2026_Wigan_Warriors_Women_season",
+  "https://en.wikipedia.org/wiki/2026_RFL_Women%27s_Super_League",
+  "https://www.superleague.co.uk/article/6589/super-four-and-shield-final-round-story",
+  "https://www.yorkshireeveningpost.co.uk/sport/rugby-league/heartbreak-for-leeds-rhinos-as-york-valkyrie-win-through-to-womens-grand-final-v-wigan-warriors-9094342",
+  "https://www.wigantoday.net/sport/rugby-league/wigan-warriors/wigan-warriors-york-valkyrie-womens-super-league-grand-final-9102397"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝"
+  },
+  "h2h": {
+   "games": 3,
+   "left": 2,
+   "right": 1,
+   "draw": 0
+  },
+  "common": []
+ }
 }

@@ -1,39 +1,85 @@
 {
  "match_id": "m20260928-7ac3f1df",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "セット",
  "left": {
   "name": "ホルダ・サンチス",
-  "ranking": "不明（ファーストネーム未確認、Tennis Abstract Eloリストに掲載なし）",
+  "ranking": "不明（名の特定もできず、Tennis Abstract Eloリストに該当なし）",
   "form": [],
-  "form_summary": "未取得",
   "lineup": [
-   "組み合わせは事前情報によるもので、ドロー表で未検証"
+   "組み合わせはブリーフ由来、ドローで未確認"
   ]
  },
  "right": {
   "name": "デ・ヨング",
-  "ranking": "ATP95位（Raquetc）／Tennis Abstract Elo 123位 総合1680.0・ハード1599.5",
+  "ranking": "ATP 95位（Raquetc）、Tennis Abstract Elo #123（1680.0、ハード1599.5）",
   "form": [],
-  "form_summary": "未取得",
   "lineup": [
-   "出場は確認済み"
+   "ポルト出場は確認済み（Raquetc）"
   ]
  },
  "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "エウパゴ・ポルト・オープン（ATPチャレンジャー125）、コンプレクソ・デスポルティーボ・ド・モンテ・アベンティーノ、ポルトガル・ポルト（2026年9月27日〜10月4日）、屋外ハード",
+ "common_opponents_notes": [],
+ "venue": "Eupago Porto Open（ATPチャレンジャー125）、ポルトガル・ポルト、屋外ハード。中立",
  "risks": [
-  "対戦相手（ホルダ・サンチス）の身元・ファーストネームが未確認"
+  "左側選手の同定不可"
  ],
  "missing": [
-  "オッズ",
-  "開始時刻（オーダー・オブ・プレー未発見）",
-  "直近成績",
-  "対戦成績",
-  "モデル確率（ホルダ・サンチスにEloがないため算出不可）"
+  "両者の直近10試合",
+  "H2H"
  ],
  "unavailable": {
-  "h2h": "対戦記録が見つからなかった",
-  "form": "直近成績は取得できず"
+  "h2h": "見つからず",
+  "left.form": "選手の特定ができず",
+  "right.form": "tennisexplorerの該当ページ取得失敗、tennisabstract/ATP取得不可"
+ },
+ "source_urls": [
+  "https://www.raquetc.com/2026/09/27/eupago-porto-open-reune-dimitrov-cinco-top-100-e-nata-da-casa-numa-semana-de-luxo",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

@@ -1,41 +1,150 @@
 {
  "match_id": "m20260928-5a448cec",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "フレーム",
  "left": {
-  "name": "趙心童（ジャオ・シントン）",
-  "ranking": "未取得",
-  "form": [],
-  "form_summary": "未取得",
+  "name": "趙心童",
+  "ranking": "世界ランク1位（2026年武漢OP後に就任）。深圳OP優勝オッズ本命（約11/4, SnookerHQ）",
+  "form": [
+   {
+    "date": "2026-09-07〜08頃",
+    "opp": "O.ラインズ",
+    "comp": "イングリッシュOP ベスト16",
+    "ha": "N",
+    "score": "2-4",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "常冰玉",
+    "comp": "武漢OP 決勝",
+    "ha": "N",
+    "score": "7-10",
+    "res": "L",
+    "units_won": 7,
+    "units_lost": 10
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "肖国棟",
+    "comp": "武漢OP SF",
+    "ha": "N",
+    "score": "6-2",
+    "res": "W",
+    "units_won": 6,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-27",
+    "opp": "ロバートソン",
+    "comp": "武漢OP QF",
+    "ha": "N",
+    "score": "5-1",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "B.ホーキンス",
+    "comp": "武漢OP ベスト16",
+    "ha": "N",
+    "score": "5-2",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "高楊",
+    "comp": "武漢OP ベスト32",
+    "ha": "N",
+    "score": "5-0",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 0
+   }
+  ],
   "lineup": [
-   "趙心童（中国選手＝地元の声援）対スコット・ドナルドソン",
-   "マーク・アレンは大会を棄権"
+   "中国出身＝地元の観客"
   ]
  },
  "right": {
   "name": "ドナルドソン",
   "ranking": "未取得",
   "form": [],
-  "form_summary": "未取得",
-  "lineup": [
-   "趙心童（中国選手＝地元の声援）対スコット・ドナルドソン",
-   "マーク・アレンは大会を棄権"
-  ]
+  "lineup": []
  },
  "h2h": [],
- "h2h_summary": "未取得",
- "venue": "宝安体育センター、中国・深圳（深圳オープン 1回戦、9フレーム制＝5フレーム先取）",
+ "common_opponents_notes": [
+  "ロバートソン: 趙心童は武漢OP QFで5-1勝利"
+ ],
+ "venue": "宝安体育中心（中国・深圳）、深圳オープン R64（9フレーム制・5フレーム先取）。中国人選手は地元",
  "risks": [
-  "開始時刻はSnookerHQによるセッション開始（英国夏時間12:30）で、同じ台の前の試合の後になる可能性がありテーブル開始は保証されない"
+  "戦績は部分的（Wikipedia要約取得）"
  ],
  "missing": [
-  "オッズ",
-  "ランキング",
-  "対戦成績",
-  "直近成績",
-  "独立したモデル確率"
+  "ドナルドソンの戦績",
+  "H2H"
  ],
  "unavailable": {
-  "h2h": "取得できず",
-  "form": "取得できず"
+  "h2h": "cuetracker が429、flashscoreは動的でH2H取得不可",
+  "left.form": "cuetracker 429。6試合のみ",
+  "right.form": "取得できた大会記事に出場記録なし"
+ },
+ "source_urls": [
+  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+  "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
+  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)",
+  "https://en.wikipedia.org/wiki/Zhao_Xintong"
+ ],
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 4,
+   "L": 2,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 30,
+   "units_lost": 19
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

@@ -1,67 +1,135 @@
 {
- "match_id": "m20260928-d9e2c3a7",
- "data_as_of": "2026-09-27T22:19:00+09:00",
  "left": {
   "name": "レアル・マドリード",
-  "ranking": "リーガACB開幕節（順位なし）",
+  "ranking": "リーガACB 2026-27 開幕節（順位なし）。ユーロリーグ・スーパーカップ2026優勝",
   "form": [
    {
-    "date": "9月中旬",
-    "opp": "ウニカハ",
-    "score": "113-74",
+    "date": "2026-09-19",
+    "opp": "オリンピアコス",
+    "comp": "ユーロリーグ・スーパーカップ2026 決勝",
+    "ha": "N",
+    "score": "93-89",
     "res": "W",
-    "note": "コスタ・デル・ソル・トーナメント決勝"
+    "detail": "アブダビ・エティハドアリーナ"
    },
    {
-    "date": "—",
-    "opp": "—",
-    "score": "—",
+    "date": "2026-09-18",
+    "opp": "ドバイ",
+    "comp": "ユーロリーグ・スーパーカップ2026 準決勝",
+    "ha": "N",
+    "score": "98-95",
     "res": "W",
-    "note": "ユーロリーグ・スーパーカップ優勝"
+    "detail": "アブダビ"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "ウニカハ",
+    "comp": "トルネオ・コスタ・デル・ソル決勝（親善）",
+    "ha": "A",
+    "score": "113-74",
+    "res": "W",
+    "detail": "マラガ開催"
    }
   ],
-  "form_summary": "ユーロリーグ・スーパーカップとコスタ・デル・ソル・トーナメントで優勝",
   "lineup": [
-   "新監督：ペドロ・マルティネス",
-   "新加入選手7人",
-   "負傷情報の報告なし"
+   "新監督ペドロ・マルティネス、新加入7人（前段メモ）",
+   "負傷情報は報道なし（確認範囲）"
   ]
  },
  "right": {
   "name": "ウニカハ",
-  "ranking": "リーガACB開幕節（順位なし）",
+  "ranking": "リーガACB 2026-27 開幕節（順位なし）",
   "form": [
    {
-    "date": "9月中旬",
+    "date": "2026-09-12",
     "opp": "レアル・マドリード",
+    "comp": "トルネオ・コスタ・デル・ソル決勝（親善）",
+    "ha": "H",
     "score": "74-113",
-    "res": "L",
-    "note": "コスタ・デル・ソル・トーナメント決勝"
+    "res": "L"
    }
   ],
-  "form_summary": "プレシーズン大会決勝でレアル・マドリードに大敗",
   "lineup": [
-   "新監督：チュス・ビドレタ",
-   "新加入選手7人（ウィリー・エルナンゴメス、ブラズデイキス、ハント、パンツァルを含む）",
-   "負傷情報の報告なし"
+   "新監督チュス・ビドレタ、新加入7人（ウィリー・エルナンゴメス、ブラズデイキス、ハント、パンツァーら）（前段メモ）"
   ]
  },
  "h2h": [
   {
-   "date": "2026-09（中旬）",
-   "event": "コスタ・デル・ソル・トーナメント決勝",
-   "score": "レアル・マドリード 113-74 ウニカハ",
+   "date": "2026-09-12",
+   "event": "トルネオ・コスタ・デル・ソル決勝（親善、マラガ）",
+   "score": "113-74",
    "winner": "left"
   }
  ],
- "h2h_summary": "レアル・マドリードはウニカハの直近4回の来訪で全勝（2023年以降）",
- "venue": "レアル・マドリードのホーム：モビスター・アレーナ（マドリード）",
+ "common_opponents_notes": [
+  "レアル・マドリードはユニカハのマドリード遠征で2023年以降4連勝（前段メモ、realmadrid.com）"
+ ],
+ "venue": "モビスター・アリーナ（マドリード）レアル・マドリードのホーム",
  "risks": [
-  "両チームとも大幅にロスターを入れ替え"
+  "両チームとも大幅な選手入替",
+  "レアルは9/18-19にアブダビで連戦後"
  ],
  "missing": [
-  "オッズ",
-  "負傷情報"
+  "両チームの他のプレシーズン結果、2025-26終盤の結果",
+  "公式戦H2H（2025-26）"
  ],
- "unavailable": {}
+ "unavailable": {
+  "left.form": "3試合のみ確認（他の親善試合・2025-26終盤は時間内に取得できず）",
+  "right.form": "1試合のみ確認",
+  "h2h": "公式戦の過去対戦スコアは取得できず（親善1試合のみ）"
+ },
+ "source_urls": [
+  "https://www.realmadrid.com/es-ES/noticias/baloncesto/primer-equipo/actualidad/horarios-de-la-supercopa-de-la-euroliga-18-09-2026",
+  "https://acb.com/es/liga/noticias/el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol-74-113-145993",
+  "https://www.infobae.com/espana/agencias/2026/09/12/74-113-el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol/",
+  "https://www.realmadrid.com/en-US/news/basket/first-team/fixtures/real-madrid-unicaja-27-09-2026"
+ ],
+ "match_id": "m20260928-d9e2c3a7",
+ "data_as_of": "2026-09-27T23:15:00+09:00",
+ "unit": "なし",
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝"
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
+ }
 }

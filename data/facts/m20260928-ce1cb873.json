@@ -1,47 +1,128 @@
 {
  "match_id": "m20260928-ce1cb873",
- "data_as_of": "2026-09-27T22:27:00+09:00",
+ "data_as_of": "2026-09-27T23:25:00+09:00",
+ "unit": "セット",
  "left": {
-  "name": "グルニエ",
-  "ranking": "ATP289位（元トップ100）。ユーゴ・グルニエ（アルチュールではない）。Tennis Abstract Eloリストに掲載なし",
-  "form": [],
-  "form_summary": "未取得",
+  "name": "H.グルニエ",
+  "ranking": "ATP 289位（元トップ100）。Tennis Abstract Eloリスト外",
+  "form": [
+   {
+    "date": "2026-09-21〜22頃",
+    "opp": "T.フォレル",
+    "comp": "サントロペCH125 R1",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 4-6（TennisTonic 'Thomas Faurel – Hugo Grenier 6-4 6-4' を勝者先表記と判断）"
+   }
+  ],
   "lineup": [
-   "1回戦でディミトロフと対戦することが確定"
+   "ルーカスではなくヒューゴ・グルニエ"
   ]
  },
  "right": {
   "name": "ディミトロフ",
-  "ranking": "Tennis Abstract Elo 84位 総合1743.4・ハード1722.6（RaquetcはATP27位としているが疑わしく未検証）",
+  "ranking": "Tennis Abstract Elo #84（1743.4、ハード1722.6）。ATPランクは未確認（Raquetcの27位は疑わしい）",
   "form": [
    {
-    "date": "—",
-    "opp": "エダス・ブトビラス",
-    "score": "—",
-    "res": "—",
-    "note": "前週サントロペ・チャレンジャー125 1回戦（第6シード、結果未取得）"
+    "date": "2026-09-22",
+    "opp": "E.ブトビラス",
+    "comp": "サントロペCH125 R1",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(3) 3-6（1時間28分）"
+   },
+   {
+    "date": "2026-06-20〜27（大会期間）",
+    "opp": "ダビドビッチ・フォキナ",
+    "comp": "ATPマヨルカ QF",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 3-6（ESPN、ダビドビッチ・フォキナ側記録より）"
    }
   ],
-  "form_summary": "前週サントロペ・チャレンジャーに第6シードで出場（結果未取得）",
   "lineup": [
-   "出場確定（Raquetc 9/27によるとワイルドカード）、1回戦でユーゴ・グルニエと対戦"
+   "ポルトはワイルドカード出場（Raquetc）",
+   "2週連続チャレンジャー出場"
   ]
  },
  "h2h": [],
- "h2h_summary": "対戦記録は見つからず",
- "venue": "エウパゴ・ポルト・オープン（ATPチャレンジャー125）、コンプレクソ・デスポルティーボ・ド・モンテ・アベンティーノ、ポルトガル・ポルト（2026年9月27日〜10月4日）、屋外ハード",
+ "common_opponents_notes": [],
+ "venue": "Eupago Porto Open（ATPチャレンジャー125）、ポルトガル・ポルト、屋外ハード。中立",
  "risks": [
-  "ディミトロフは35歳で最近は不調、チャレンジャー2週連続出場",
-  "ランキング情報に食い違いあり"
+  "ディミトロフ35歳、サントロペ初戦敗退",
+  "ESPNのディミトロフ戦績ページはレート制限(429)で取得不可"
  ],
  "missing": [
-  "オッズ",
-  "開始時刻（1回戦の実施日も未確認）",
-  "グルニエのデータ",
-  "モデル確率（グルニエにEloがないため算出不可）"
+  "両者の直近10試合（各1〜2試合のみ）",
+  "H2H"
  ],
  "unavailable": {
-  "h2h": "対戦記録が見つからなかった",
-  "form": "グルニエの直近成績は未取得、ディミトロフの前週の結果も未取得"
+  "h2h": "見つからず",
+  "left.form": "1試合のみ判明",
+  "right.form": "ESPN 429・tennisexplorerはページ不整合、2試合のみ判明（6月〜9月の間は不明）"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1056961/edas-butvilas-surprises-dimitrov-in-the-1st-round-st-tropez-challenger-results-highlights/",
+  "https://www.espn.com/tennis/player/results/_/id/3212/alejandro-davidovich-fokina",
+  "https://www.raquetc.com/2026/09/27/eupago-porto-open-reune-dimitrov-cinco-top-100-e-nata-da-casa-numa-semana-de-luxo",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 0,
+   "units_lost": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": []
  }
 }

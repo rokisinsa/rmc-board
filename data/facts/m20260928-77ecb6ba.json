@@ -1,101 +1,254 @@
 {
- "match_id": "m20260928-77ecb6ba",
- "data_as_of": "2026-09-27T22:19:00+09:00",
  "left": {
   "name": "バレンシア",
-  "ranking": "リーガACB 2026-27開幕節（順位なし）",
+  "ranking": "リーガACB 2026-27 開幕節（順位なし）。2025-26はACBファイナル進出（対バルセロナ）",
   "form": [
    {
-    "date": "6/24",
+    "date": "2026-09-19",
     "opp": "バルセロナ",
+    "comp": "スーペルコパ・エンデサ2026 準決勝",
+    "ha": "N",
+    "score": "86-87",
+    "res": "L",
+    "detail": "バダロナ開催"
+   },
+   {
+    "date": "2026-06-24",
+    "opp": "バルセロナ",
+    "comp": "ACB 2025-26 ファイナル",
+    "ha": "A",
     "score": "108-84",
-    "res": "W",
-    "note": "2025-26決勝"
+    "res": "W"
    },
    {
-    "date": "6/22",
+    "date": "2026-06-22",
     "opp": "バルセロナ",
+    "comp": "ACB 2025-26 ファイナル",
+    "ha": "A",
     "score": "88-80",
-    "res": "W",
-    "note": "2025-26決勝"
+    "res": "W"
    },
    {
-    "date": "6/20",
+    "date": "2026-06-20",
     "opp": "バルセロナ",
+    "comp": "ACB 2025-26 ファイナル",
+    "ha": "H",
     "score": "102-75",
-    "res": "W",
-    "note": "2025-26決勝"
+    "res": "W"
    }
   ],
-  "form_summary": "昨季（2025-26）決勝でバルセロナに3連勝",
   "lineup": [
-   "情報なし"
+   "2026-27 監督シャビ・アルベルト（クラブ発表）",
+   "負傷情報は未確認"
   ]
  },
  "right": {
   "name": "リェイダ",
-  "ranking": "リーガACB 2026-27開幕節（順位なし）",
+  "ranking": "リーガACB 2026-27 開幕節（順位なし）。今季チーム名 iLERNA Lleida",
   "form": [
    {
-    "date": "5/29",
+    "date": "2026-09-13",
+    "opp": "バルセロナ",
+    "comp": "リーガ・カタラナ2026 決勝",
+    "ha": "N",
+    "score": "87-96",
+    "res": "L",
+    "detail": "タラゴナ開催。gigantesは9/13、basketpasionは9/14と記載"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "ジローナ",
+    "comp": "リーガ・カタラナ2026 準決勝",
+    "ha": "A",
+    "score": "98-88",
+    "res": "W",
+    "detail": "infobae表記88-98（ジローナ側先）。ホーム/アウェイは表記順からの判断"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "マンレサ",
+    "comp": "プレシーズン（サン・ジュリア・デ・ビラトルタ）",
+    "ha": "N",
+    "score": "103-99",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "ウルム",
+    "comp": "プレシーズン（サン・ジュリア・デ・ビラトルタ）",
+    "ha": "N",
+    "score": "100-66",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-29",
     "opp": "UCAMムルシア",
+    "comp": "ACB 2025-26 レギュラーシーズン",
+    "ha": "A",
     "score": "95-116",
     "res": "L"
    },
    {
-    "date": "5/24",
+    "date": "2026-05-24",
     "opp": "アンドラ",
+    "comp": "ACB 2025-26 レギュラーシーズン",
+    "ha": "H",
     "score": "88-116",
     "res": "L"
    },
    {
-    "date": "5/17",
+    "date": "2026-05-17",
     "opp": "グラン・カナリア",
+    "comp": "ACB 2025-26 レギュラーシーズン",
+    "ha": "H",
     "score": "75-72",
     "res": "W"
    }
   ],
-  "form_summary": "昨季終盤の3試合1勝2敗",
   "lineup": [
-   "情報なし"
+   "9/4の試合でPGダニ・ガルシアが足首負傷の可能性（infobae）",
+   "メルビン・イージムは9/13決勝で5ファウル退場（負傷ではない）"
   ]
  },
  "h2h": [
   {
    "date": "2026-02-01",
-   "event": "—",
-   "score": "バレンシア 101-65 リェイダ",
-   "winner": "left"
+   "event": "ACB 2025-26",
+   "score": "101-65",
+   "winner": "left",
+   "detail": "バレンシアホーム"
   },
   {
    "date": "2025-10-19",
-   "event": "—",
-   "score": "リェイダ 78-99 バレンシア",
-   "winner": "left"
+   "event": "ACB 2025-26",
+   "score": "99-78",
+   "winner": "left",
+   "detail": "リェイダホーム"
   },
   {
    "date": "2025-04-20",
-   "event": "—",
-   "score": "リェイダ 67-76 バレンシア",
-   "winner": "left"
+   "event": "ACB 2024-25",
+   "score": "76-67",
+   "winner": "left",
+   "detail": "リェイダホーム"
   },
   {
    "date": "2024-12-30",
-   "event": "—",
-   "score": "バレンシア 107-92 リェイダ",
-   "winner": "left"
+   "event": "ACB 2024-25",
+   "score": "107-92",
+   "winner": "left",
+   "detail": "バレンシアホーム"
   }
  ],
- "h2h_summary": "判明分4試合はバレンシアが全勝",
- "venue": "バレンシアのホーム（ロイグ・アレーナと推定、未確認）",
+ "common_opponents_notes": [
+  "対バルセロナ：バレンシア 9/19 N 86-87 L（スーペルコパ準決勝）／リェイダ 9/13 N 87-96 L（リーガ・カタラナ決勝）",
+  "バレンシアのプレシーズン：365scoresにサラゴサ 81-88 バレンシア（親善）の記載あり、日付未確認のためformから除外。クラブ発表の親善日程は9/7サラゴサ（ベニカルロ）、9/11オブラドイロ、9/12バスコニアorアルバ（ポンテベドラ）"
+ ],
+ "venue": "バレンシアのホーム（ロイグ・アリーナと推定、未検証）",
  "risks": [
-  "開幕戦",
-  "オフシーズンのロスター変動は不明"
+  "両チームとも開幕戦でオフの補強・入替の影響不明",
+  "バレンシアのプレシーズン親善3試合の結果未取得"
  ],
  "missing": [
-  "オッズ",
-  "スタメン",
-  "開始時刻の確認"
+  "バレンシアのプレシーズン親善試合結果",
+  "両チームの2025-26レギュラーシーズン終盤の詳細",
+  "負傷者情報"
  ],
- "unavailable": {}
+ "unavailable": {
+  "left.form": "直近10試合に届かず（2025-26ファイナル3試合＋スーペルコパ1試合のみ確認。プレシーズン結果・プレーオフ前ラウンドは取得できず）",
+  "right.form": "7試合のみ確認（リーガ・カタラナ初戦の対ジョベントゥット等、結果不明）"
+ },
+ "source_urls": [
+  "https://www.valenciabasket.com/en/the-mens-team-wraps-up-its-preseason-with-three-friendly-games",
+  "https://www.unocontraunoweb.com/2026/09/19/barcelona-valencia-basket-supercopa-endesa-2026/",
+  "https://www.gigantes.com/liga-endesa/barca-lleida-liga-catalana-resultado/",
+  "https://basketpasion.es/nueva-remontada-y-final-ilerna-lleida/",
+  "https://www.infobae.com/espana/agencias/2026/09/10/88-98-el-ilerna-lleida-remonta-al-fiatc-girona-y-se-mete-en-la-final-de-la-liga-catalana/",
+  "https://www.infobae.com/espana/agencias/2026/09/06/99-103-el-ilerna-lleida-logra-su-segunda-victora-en-pretemporada/",
+  "https://www.infobae.com/espana/agencias/2026/09/04/100-66-el-ilerna-lleida-se-exhibe-ante-un-flojo-ratiopharm-ulm/",
+  "https://gainblers.com/us/bets/basketball/spain/acb/valencia-lleida/",
+  "https://www.365scores.com/es/basketball/match/club-friendlies-7271/basket-zaragoza-valencia-basket-208-222-7271"
+ ],
+ "match_id": "m20260928-77ecb6ba",
+ "data_as_of": "2026-09-27T23:15:00+09:00",
+ "unit": "なし",
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 7,
+   "W": 4,
+   "L": 3,
+   "D": 0,
+   "win_rate": 57.1,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 4,
+   "left": 4,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "バルセロナ",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "score": "86-87",
+      "res": "L"
+     },
+     {
+      "date": "2026-06-24",
+      "score": "108-84",
+      "res": "W"
+     },
+     {
+      "date": "2026-06-22",
+      "score": "88-80",
+      "res": "W"
+     },
+     {
+      "date": "2026-06-20",
+      "score": "102-75",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-13",
+      "score": "87-96",
+      "res": "L"
+     }
+    ],
+    "edge": "left"
+   }
+  ]
+ }
 }

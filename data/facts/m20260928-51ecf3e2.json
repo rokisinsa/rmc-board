@@ -1,76 +1,286 @@
 {
  "match_id": "m20260928-51ecf3e2",
- "data_as_of": "2026-09-27T22:19:00+09:00",
+ "data_as_of": "2026-09-27T23:20:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "キュラソー",
-  "ranking": "Elo 85位（1471）・CONCACAFネーションズリーグ リーグA A組",
+  "ranking": "eloratings #85 (1471)。CONCACAF NL リーグA A組",
   "form": [
    {
-    "date": "—",
+    "date": "2026-09-24",
     "opp": "コスタリカ",
+    "comp": "CONCACAFネーションズリーグ A",
+    "ha": "A",
     "score": "4-3",
-    "res": "W",
-    "note": "ネーションズリーグ第1節"
+    "res": "W"
+   },
+   {
+    "date": "2026-06-25",
+    "opp": "コートジボワール",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-20",
+    "opp": "エクアドル",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-14",
+    "opp": "ドイツ",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "1-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "アルバ",
+    "comp": "国際親善試合",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-30",
+    "opp": "スコットランド",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "オーストラリア",
+    "comp": "FIFAシリーズ",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "中国",
+    "comp": "FIFAシリーズ",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ジャマイカ",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2025-11-13",
+    "opp": "バミューダ",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "7-0",
+    "res": "W"
    }
   ],
-  "form_summary": "ネーションズリーグ初戦勝利、ホームで8試合無敗中",
   "lineup": [
-   "監督：ディック・アドフォカート",
-   "フォンヴィル：欠場（足首）",
-   "チョン、ゴレ、パウリナ：出場可能",
-   "予想布陣 GK：ローム",
-   "予想布陣 DF：ガーリ、オビスポ、フローラヌス",
-   "予想布陣 MF：サンボ、マルタ、L・バクナ、コメネンシア、マルガリータ",
-   "予想布陣 FW：ロカディア、J・バクナ"
+   "監督アドフォカート",
+   "フォンヴィル欠場（足首）、チョン、ゴレ、パウリナは出場可",
+   "予想: ロム; ガーリ, オビスポ, フロラヌス; サンボ, マルタ, L.バクナ, コメネンシア, マルガリータ; ロカディア, J.バクナ"
   ]
  },
  "right": {
   "name": "ニカラグア",
-  "ranking": "Elo 130位（1316）・CONCACAFネーションズリーグ リーグA A組",
+  "ranking": "eloratings #130 (1316)。CONCACAF NL リーグA A組",
   "form": [
    {
-    "date": "—",
+    "date": "2026-09-24",
     "opp": "ドミニカ共和国",
+    "comp": "CONCACAFネーションズリーグ A",
+    "ha": "A",
     "score": "2-3",
-    "res": "L",
-    "note": "ネーションズリーグ第1節"
+    "res": "L"
+   },
+   {
+    "date": "2026-06-05",
+    "opp": "パラグアイ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-05-29",
+    "opp": "南アフリカ",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ハイチ",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-11-13",
+    "opp": "ホンジュラス",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-13",
+    "opp": "コスタリカ",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-09",
+    "opp": "ハイチ",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-09",
+    "opp": "ホンジュラス",
+    "comp": "W杯北中米予選",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-05",
+    "opp": "コスタリカ",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2025-06-06",
+    "opp": "ガイアナ",
+    "comp": "W杯北中米予選",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
    }
   ],
-  "form_summary": "5試合未勝利（4敗）",
   "lineup": [
-   "予想布陣（5-4-1） GK：ベガ",
-   "予想布陣 DF：グティエレス、カノ、フレテス、ペレス、ゴメス",
-   "予想布陣 MF：マルティネス、モンカダ、コール、メヒア",
-   "予想布陣 FW：モレノ"
+   "予想5-4-1: ベガ; グティエレス, カノ, フレテス, ペレス, ゴメス; マルティネス, モンカダ, コール, メヒア; モレノ"
   ]
  },
  "h2h": [
   {
-   "date": "2017",
-   "event": "親善試合",
-   "score": "キュラソー 0-0 ニカラグア",
+   "date": "2017-06-17",
+   "event": "国際親善試合",
+   "score": "0-0",
    "winner": "draw"
-  },
-  {
-   "date": "—",
-   "event": "W杯予選",
-   "score": "オランダ領アンティル／キュラソー 1-0 ニカラグア",
-   "winner": "left"
-  },
-  {
-   "date": "—",
-   "event": "W杯予選",
-   "score": "オランダ領アンティル／キュラソー 2-0 ニカラグア",
-   "winner": "left"
   }
  ],
- "h2h_summary": "判明分3試合はキュラソー（オランダ領アンティル含む）2勝1分",
- "venue": "キュラソーのホーム：スタディオン・エルヒリオ・ハト（ウィレムスタッド）",
+ "common_opponents_notes": [
+  "コスタリカ: キュラソー 4-3 勝(A, 2026-09-24)／ニカラグア 1-1(H), 1-4(A)"
+ ],
+ "venue": "キュラソーホーム: スタディオン・エルヒリオ・ハト（ウィレムスタッド）",
  "risks": [
-  "キュラソーはコスタリカ戦で3失点"
+  "キュラソーはコスタリカ戦で3失点",
+  "前段メモではオランダ領アンティル時代にW杯予選で1-0、2-0勝の記録ありとされるが日付未確認のためh2hに含めず",
+  "ha は親善試合・FIFAシリーズ等では11v11の表記順（先に書かれた側=H）に従っており、実際の開催地が中立の可能性あり。W杯2026本大会は開催国以外N。"
  ],
  "missing": [
-  "1X2オッズの全体"
+  "確定先発"
  ],
- "unavailable": {}
+ "unavailable": {
+  "h2h": "11v11ではキュラソー名義の対戦は2017年の1件のみ"
+ },
+ "source_urls": [
+  "https://www.11v11.com/teams/curacao/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/curacao/tab/matches/season/2027/",
+  "https://www.11v11.com/teams/nicaragua/tab/matches/season/2026/",
+  "https://www.11v11.com/teams/nicaragua/tab/matches/season/2027/",
+  "https://www.11v11.com/teams/nicaragua/tab/matches/season/2025/",
+  "https://www.11v11.com/teams/curacao/tab/opposingTeams/opposition/Nicaragua/",
+  "https://www.sportsmole.co.uk/football/curacao/preview/curacao-vs-nicaragua-prediction-team-news-lineups_605805.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 3,
+   "L": 5,
+   "D": 2,
+   "win_rate": 30.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 3,
+    "D": 1
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 10,
+   "W": 2,
+   "L": 6,
+   "D": 2,
+   "win_rate": 20.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 5,
+    "D": 1
+   },
+   "streak": "2連敗"
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 0,
+   "draw": 1
+  },
+  "common": [
+   {
+    "opp": "コスタリカ",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "score": "4-3",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2025-10-13",
+      "score": "1-4",
+      "res": "L"
+     },
+     {
+      "date": "2025-09-05",
+      "score": "1-1",
+      "res": "D"
+     }
+    ],
+    "edge": "left"
+   }
+  ]
+ }
 }
