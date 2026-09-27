@@ -191,6 +191,14 @@ table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:
 .cres+.cres{margin-top:3px}
 td.cedge{font-weight:600;white-space:nowrap}td.cedge small{display:block;font-weight:400;color:var(--muted);font-size:10.5px}td.cedge.left,td.cedge.right{color:var(--ok)}td.cedge.even{color:var(--muted)}
 #cards .kv dd{white-space:nowrap}#cards .kv dt{white-space:nowrap}
+
+details.sport>summary .cnt{font-size:13px;color:var(--muted)}
+.sumchips{display:flex;flex-wrap:wrap;gap:6px}
+.sumchips .sc{font-size:13px;border-radius:6px;padding:3px 10px;background:var(--ex-bg);color:var(--ex);font-weight:600}
+.sumchips .sc b{font-family:var(--mono);font-size:14px}
+.sumchips .sc.on{background:var(--ok);color:var(--surface)}
+.sumchips .sc.w.on{background:var(--warn-bg);color:var(--warn)}
+.b{font-size:13px!important;padding:4px 10px!important}
 </style>
 </head>
 <body>
@@ -422,7 +430,7 @@ function renderSports(){
     const cnt=l=>list.filter(([mid])=>D.ana[l][mid]?.status===FORMAL[l]).length;
     const w=list.filter(([mid])=>LG.some(l=>D.ana[l][mid]?.status==='watch')).length;
     const anyFormal=LG.some(l=>cnt(l)>0);
-    return `<details class="sport" data-sp="${esc(sp)}" ${openSet.has(sp)||anyFormal||keys.length<=3?'open':''}><summary><span class="name">${esc(sp)}</span><span class="stat">${list.length}試合｜正式 ①${cnt('r1')} ②${cnt('r2')} ③${cnt('r3')} ④${cnt('r4')}｜watchあり ${w}</span></summary>`+
+    return `<details class="sport" data-sp="${esc(sp)}" ${openSet.has(sp)||anyFormal||keys.length<=3?'open':''}><summary><span class="name">${esc(sp)}</span><span class="cnt">${list.length}試合</span><span class="sumchips">${LG.map(l=>{const n=cnt(l);return `<span class="sc ${n?'on':''}">${T[l].slice(0,1)} 正式 <b>${n}</b></span>`;}).join('')}<span class="sc w ${w?'on':''}">watch <b>${w}</b></span></span></summary>`+
     list.map(([mid,m])=>{const t=jst(m.start_jst),o=D.odds[mid];const past=new Date(m.start_jst).getTime()<=now;
       const os=o?Object.entries(o.prices).map(([k,v])=>`${k==='L'?m.left.slice(0,10):k==='R'?m.right.slice(0,10):'分'} ${v}`).join(' / '):'オッズなし';
       const formal=LG.some(l=>D.ana[l][mid]?.status===FORMAL[l]);const deep=LG.some(l=>D.ana[l][mid]?.deep_dive);
