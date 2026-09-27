@@ -29,6 +29,17 @@
   ],
   "lineup": [
    "ソロ競技。所属 SouL Gaming。種族 Zerg"
+  ],
+  "history": [
+   {
+    "date": "2026-05-24",
+    "opp": "Lee Young-ho（이영호 / Flash, T）",
+    "comp": "ASL Season 21 決勝（BO7）",
+    "score": "4-3",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 3
+   }
   ]
  },
  "right": {
@@ -67,6 +78,17 @@
   ],
   "lineup": [
    "ソロ競技。種族 Zerg"
+  ],
+  "history": [
+   {
+    "date": "2026-04-20",
+    "opp": "Lee Young-ho（이영호 / Flash, T）",
+    "comp": "ASL Season 21 16強 グループC 初戦（BO1）",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   }
   ]
  },
  "h2h": [],
@@ -100,7 +122,14 @@
   "https://www.invenglobal.com/articles/25690/jaedong-i-will-keep-improving-until-i-win-a-championship-again",
   "https://www.invenglobal.com/articles/24766/soops-google-play-asl-season-22-kicks-off-on-the-17th",
   "https://www.techm.kr/news/articleView.html?idxno=155266",
-  "https://liquipedia.net/starcraft/Soma"
+  "https://liquipedia.net/starcraft/Soma",
+  "https://www.invenglobal.com/articles/21013/google-play-asl-season-21-enters-week-2-of-round-of-16-the-return-of-the-lee-ssang-rok-after-eight-years",
+  "https://v.daum.net/v/YfC093AiCs",
+  "https://v.daum.net/v/20260420202213400",
+  "https://www.inven.co.kr/webzine/news/?news=316761",
+  "https://www.gamevu.co.kr/news/articleView.html?idxno=57822",
+  "https://www.inven.co.kr/webzine/news/?news=316112",
+  "https://m.news.nate.com/view/20260413n34976"
  ],
  "calc": {
   "left": {
@@ -155,8 +184,43 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "Lee Young-ho（이영호 / Flash, T）",
+    "left": [
+     {
+      "date": "2026-05-24",
+      "iso": "2026-05-24",
+      "score": "4-3",
+      "res": "W",
+      "comp": "ASL Season 21 決勝（BO7）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-20",
+      "iso": "2026-04-20",
+      "score": "1-0",
+      "res": "W",
+      "comp": "ASL Season 21 16強 グループC 初戦（BO1）"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-05-24",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T01:05:00+09:00",
+  "note": "ASL S21（4/13 Soma 16強A組 윤수철・최호선、4/20 JD 16強C組 이영호・김택용、4/27 Soma 8強 조일장、5/3-4頃 JD 8強 이재호 2-3、5/11 Soma 4強 신상문 4-1、5/24 決勝）とASL S22 16強（9/7-8）のみ確認。Liquipediaが429で、Proleague・Escore等の非ASL大会とJDのASL22 24強グループの対戦相手は取得できず。",
+  "opponents": [
+   "Lee Young-ho（이영호 / Flash, T）"
+  ]
  }
 }

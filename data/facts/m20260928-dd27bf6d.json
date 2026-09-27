@@ -37,7 +37,36 @@
     "units_lost": 1
    }
   ],
-  "lineup": []
+  "lineup": [],
+  "history": [
+   {
+    "date": "2026-04-02",
+    "opp": "B.ホーキンス",
+    "comp": "ツアーチャンピオンシップ QF",
+    "score": "10-8",
+    "res": "W",
+    "units_won": 10,
+    "units_lost": 8
+   },
+   {
+    "date": "2026-08-10",
+    "opp": "常冰玉",
+    "comp": "中国OP 1回戦(ベスト32)",
+    "score": "6-3",
+    "res": "W",
+    "units_won": 6,
+    "units_lost": 3
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "L.デービス",
+    "comp": "武漢OP ベスト16",
+    "score": "5-3",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 3
+   }
+  ]
  },
  "right": {
   "name": "劉宏宇",
@@ -57,6 +86,35 @@
   "lineup": [
    "武漢OP ベスト32はヒギンズ棄権による不戦勝（試合数に含めず）",
    "中国出身＝地元の観客"
+  ],
+  "history": [
+   {
+    "date": "2026-07-26",
+    "opp": "L.デービス",
+    "comp": "イングリッシュOP予選 R96",
+    "score": "3-4",
+    "res": "L",
+    "units_won": 3,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-08-08",
+    "opp": "B.ホーキンス",
+    "comp": "中国OP 1回戦(ベスト32)",
+    "score": "6-4",
+    "res": "W",
+    "units_won": 6,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "常冰玉",
+    "comp": "武漢OP ベスト32",
+    "score": "1-5",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 5
+   }
   ]
  },
  "h2h": [],
@@ -79,7 +137,17 @@
  "source_urls": [
   "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
   "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
-  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)"
+  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)",
+  "https://en.wikipedia.org/wiki/2026_Tour_Championship",
+  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
+  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml",
+  "https://snookerhq.com/2026/07/27/2026-english-open-qualifiers-results/",
+  "https://snookerhq.com/2026/07/24/2026-english-open-qualifiers-full-draw-preview-schedule/",
+  "https://www.snooker.org/res/index.asp?event=2755",
+  "https://www.snooker.org/res/index.asp?event=2757",
+  "https://www.snooker.org/res/index.asp?event=2769",
+  "https://www.snooker.org/res/index.asp?event=2311",
+  "https://cuetracker.net/tournaments/championship-league/2026/7890"
  ],
  "calc": {
   "left": {
@@ -134,8 +202,104 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "常冰玉",
+    "left": [
+     {
+      "date": "2026-08-10",
+      "iso": "2026-08-10",
+      "score": "6-3",
+      "res": "W",
+      "comp": "中国OP 1回戦(ベスト32)"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-26",
+      "iso": "2026-08-26",
+      "score": "1-5",
+      "res": "L",
+      "comp": "武漢OP ベスト16"
+     },
+     {
+      "date": "2026-08-25",
+      "iso": "2026-08-25",
+      "score": "1-5",
+      "res": "L",
+      "comp": "武漢OP ベスト32"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-08-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝2敗"
+   },
+   {
+    "opp": "L.デービス",
+    "left": [
+     {
+      "date": "2026-08-26",
+      "iso": "2026-08-26",
+      "score": "5-3",
+      "res": "W",
+      "comp": "武漢OP ベスト16"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-07-26",
+      "iso": "2026-07-26",
+      "score": "3-4",
+      "res": "L",
+      "comp": "イングリッシュOP予選 R96"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-08-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "B.ホーキンス",
+    "left": [
+     {
+      "date": "2026-04-02",
+      "iso": "2026-04-02",
+      "score": "10-8",
+      "res": "W",
+      "comp": "ツアーチャンピオンシップ QF"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-08",
+      "iso": "2026-08-08",
+      "score": "6-4",
+      "res": "W",
+      "comp": "中国OP 1回戦(ベスト32)"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-08-08",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:25:00+09:00",
+  "note": "劉宏宇の武漢OPベスト64はヒギンズ棄権の不戦勝（2026-08-24）で除外。L.デービス戦(予選)の日付はSnookerHQの組み合わせ予定日(7/26)。CL2026の劉宏宇グループ(Grace/Surety/Lei)はロバートソン側と重複なし。調査した大会: ツアーC(4/1-5)、世界選手権予選・本戦、Qスクール(アジア)、CL2026、中国OP(予選含)、武漢OP(予選含)、上海M、英国OP(予選含)、イングリッシュOP(予選含)、深圳OP予選、北アイルランドOP予選、国際選手権予選、スコティッシュOP予選。snooker.orgは要約取得のみで日付が出ないため、日付はTNT Sports日別結果・Wikipedia・SnookerHQ/livesnookerで確認できた試合のみ採用。",
+  "opponents": [
+   "B.ホーキンス",
+   "常冰玉",
+   "L.デービス"
+  ]
  }
 }

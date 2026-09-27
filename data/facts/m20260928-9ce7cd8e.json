@@ -19,6 +19,26 @@
   ],
   "lineup": [
    "ロスター情報は取得できず"
+  ],
+  "history": [
+   {
+    "date": "2026-06-27",
+    "opp": "QW0TROBERY",
+    "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ",
+    "score": "1-4",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-07-27",
+    "opp": "HELLHEIM",
+    "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ",
+    "score": "4-3",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 3
+   }
   ]
  },
  "right": {
@@ -37,6 +57,26 @@
   ],
   "lineup": [
    "ロスター情報は取得できず"
+  ],
+  "history": [
+   {
+    "date": "2026-04-23",
+    "opp": "HELLHEIM",
+    "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-05-02",
+    "opp": "QW0TROBERY",
+    "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ",
+    "score": "4-0",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 0
+   }
   ]
  },
  "h2h": [
@@ -76,7 +116,13 @@
  "source_urls": [
   "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-nachala-s-pobedy-vystupleniye-v-zakrytoi-kvalifikatsii-na-betboom",
   "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-sygrayet-s-ghost-squad-v-chetvertfinale-kvalifikatsii-na-final",
-  "https://www.cybersport.ru/tags/mir-tankov/esforce-anonsiroval-daty-otkrytykh-kvalifikatsii-betboom-kubok-chempionov-2026"
+  "https://www.cybersport.ru/tags/mir-tankov/esforce-anonsiroval-daty-otkrytykh-kvalifikatsii-betboom-kubok-chempionov-2026",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-4-divizion-3",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-4-divizion-2",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-3-divizion-2",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-3-divizion-3",
+  "https://www.cybersport.ru/tags/mir-tankov/qw0trobery-nachala-s-pobedy-vystupleniye-v-tretem-divizione-betboom-bitvy",
+  "https://www.cybersport.ru/matches/mir-tankov/10094453"
  ],
  "calc": {
   "left": {
@@ -121,8 +167,70 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "HELLHEIM",
+    "left": [
+     {
+      "date": "2026-07-27",
+      "iso": "2026-07-27",
+      "score": "4-3",
+      "res": "W",
+      "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-23",
+      "iso": "2026-04-23",
+      "score": "4-2",
+      "res": "W",
+      "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-07-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "QW0TROBERY",
+    "left": [
+     {
+      "date": "2026-06-27",
+      "iso": "2026-06-27",
+      "score": "1-4",
+      "res": "L",
+      "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-02",
+      "iso": "2026-05-02",
+      "score": "4-0",
+      "res": "W",
+      "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-06-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T01:20:00+09:00",
+  "note": "cybersport.ruの大会ページ（BoC スプリット3 第2/第3ディビジョン、スプリット4 第2/第3ディビジョン）と記事で確認。GHOST SQUADのスプリット4第3ディビジョン（6/27〜8/11、2回総当たり）は前半戦の対HELLHEIM・後半の対QW0TROBERY等の結果が大会ページに載っておらず未取得。スプリット3でのGHOST SQUADの所属・BBKC2026予選9/26の結果、PARADOXのスプリット3対Kuzbass戦は取得できず。8/19のH2Hは除外。",
+  "opponents": [
+   "HELLHEIM",
+   "QW0TROBERY"
+  ]
  }
 }

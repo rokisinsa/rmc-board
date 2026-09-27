@@ -21,7 +21,8 @@
    }
   ],
   "form_summary": "杭州で開幕からヒジカタ、QFでガストンを撃破しSF進出",
-  "lineup": []
+  "lineup": [],
+  "history": []
  },
  "right": {
   "name": "ジャケ",
@@ -36,7 +37,8 @@
    }
   ],
   "form_summary": "予選勝者かはなお未確認、エチェベリー撃破を含み勝ち上がりSF進出",
-  "lineup": []
+  "lineup": [],
+  "history": []
  },
  "h2h": [],
  "h2h_summary": "対戦成績は確認できなかった",
@@ -100,7 +102,18 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "ルブレフはtennisexplorerで4/1〜9/27を網羅。ジャケ（Kyrian Jacquet）のページは3/24までしか掲載がなく、4月以降で判明したのはダブリンCH準々決勝のディミトロフ戦（ディミトロフ側ページ）と杭州のエチェベリー戦のみで、いずれもルブレフとは対戦なし。共通の相手は見つからず（ジャケ側データ欠落のため取りこぼしの可能性大）。",
+  "opponents": []
+ },
+ "source_urls": [
+  "https://www.tennisexplorer.com/player/rublev/?annual=2026",
+  "https://www.tennisexplorer.com/player/jacquet-d2059/?annual=2026",
+  "https://www.tennisexplorer.com/player/dimitrov-779bc/?annual=2026"
+ ]
 }

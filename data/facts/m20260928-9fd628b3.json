@@ -10,7 +10,8 @@
   "form_summary": "直近フォームの詳細は時間内に取得できず。flashscore上でJamie Atkinsとの別対戦カードの存在のみ確認（Jeff Smithとみられる）。",
   "lineup": [
    "個人競技のため対象外"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "ワイルズ",
@@ -29,7 +30,8 @@
   "form_summary": "直近のCazoo UK OpenでLayton M.に2-4で敗戦。",
   "lineup": [
    "個人競技のため対象外"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "h2h_summary": "過去対戦記録を時間内に確認できず。",
@@ -100,7 +102,18 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:25:00+09:00",
+  "note": "選手のフルネームが未特定（factsでも未検証）で、MODUSスーパーシリーズの結果はlivesport/live-darts/flashscoreとも動的表示で取得できず、dartsdatabase/dartsorakelも時間内に確認できなかったため共通の相手を特定できず。",
+  "opponents": []
+ },
+ "source_urls": [
+  "https://www.livesport.com/darts/world/modus-super-series/results/",
+  "https://www.live-darts.com/modus-super-series/",
+  "https://www.sofascore.com/darts/tournament/international/modus-super-series/16756"
+ ]
 }

@@ -16,7 +16,8 @@
   "form_summary": "直近5試合は1勝3敗1分と低調",
   "lineup": [
    "出場メンバー情報は確認できず"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "ナイツ",
@@ -33,7 +34,8 @@
   "form_summary": "直近5試合は3勝1分（ただし直近戦はノースウエストに135点差で大敗）",
   "lineup": [
    "出場メンバー情報は確認できず"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "h2h_summary": "対戦成績は確認できず",
@@ -95,7 +97,17 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T01:08:00+09:00",
+  "note": "CSA T20 Challenge 2026-27の日程・結果ページ（ESPN/Cricinfo/cricketworld）が取得できず（空ページ・403）、両チームの日付付き試合結果を確認できなかったため共通相手は未特定。既存formのタイタンズ戦・ノースウエスト戦も日付不明。",
+  "opponents": []
+ },
+ "source_urls": [
+  "https://www.cricinfo.com/series/csa-t20-challenge-2026-27-1551607/titans-vs-western-province-pool-b-1551834/live-cricket-score",
+  "https://www.espn.com/cricket/scores/series/8656/season/2026/csa-t20-challenge"
+ ]
 }

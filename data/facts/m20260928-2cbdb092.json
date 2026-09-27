@@ -8,6 +8,36 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-05-10",
+    "opp": "SCマクデブルク",
+    "comp": "ブンデスリーガ 25/26",
+    "score": "28-41",
+    "res": "L"
+   },
+   {
+    "date": "2026-05-25",
+    "opp": "ゲッピンゲン",
+    "comp": "ブンデスリーガ 25/26",
+    "score": "28-34",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-07",
+    "opp": "アイゼナハ",
+    "comp": "ブンデスリーガ 25/26 最終節",
+    "score": "40-33",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "ゲッピンゲン",
+    "comp": "ブンデスリーガ 第4節",
+    "score": "31-32",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -53,6 +83,43 @@
   "form_summary": "リーグ開幕5試合は1分4敗と苦しい立ち上がり",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-05-07",
+    "opp": "ゲッピンゲン",
+    "comp": "ブンデスリーガ 25/26",
+    "score": "30-31",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-07",
+    "opp": "SCマクデブルク",
+    "comp": "ブンデスリーガ 25/26 最終節",
+    "score": "30-31",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "アイゼナハ",
+    "comp": "ブンデスリーガ 第3節",
+    "score": "31-31",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "SCマクデブルク",
+    "comp": "ブンデスリーガ 第4節",
+    "score": "30-38",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "SCマクデブルク",
+    "comp": "DHBポカール",
+    "score": "28-38",
+    "res": "L"
+   }
   ]
  },
  "h2h": [],
@@ -116,8 +183,124 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "SCマクデブルク",
+    "left": [
+     {
+      "date": "2026-05-10",
+      "iso": "2026-05-10",
+      "score": "28-41",
+      "res": "L",
+      "comp": "ブンデスリーガ 25/26"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "28-38",
+      "res": "L",
+      "comp": "DHBポカール"
+     },
+     {
+      "date": "9/13",
+      "iso": "2026-09-13",
+      "score": "30-38",
+      "res": "L",
+      "comp": null
+     },
+     {
+      "date": "2026-06-07",
+      "iso": "2026-06-07",
+      "score": "30-31",
+      "res": "L",
+      "comp": "ブンデスリーガ 25/26 最終節"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-23",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝3敗"
+   },
+   {
+    "opp": "ゲッピンゲン",
+    "left": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "31-32",
+      "res": "L",
+      "comp": "ブンデスリーガ 第4節"
+     },
+     {
+      "date": "2026-05-25",
+      "iso": "2026-05-25",
+      "score": "28-34",
+      "res": "L",
+      "comp": "ブンデスリーガ 25/26"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-07",
+      "iso": "2026-05-07",
+      "score": "30-31",
+      "res": "L",
+      "comp": "ブンデスリーガ 25/26"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-13",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "アイゼナハ",
+    "left": [
+     {
+      "date": "2026-06-07",
+      "iso": "2026-06-07",
+      "score": "40-33",
+      "res": "W",
+      "comp": "ブンデスリーガ 25/26 最終節"
+     }
+    ],
+    "right": [
+     {
+      "date": "9/7",
+      "iso": "2026-09-07",
+      "score": "31-31",
+      "res": "D",
+      "comp": null
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-07",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:44:00+09:00",
+  "note": "betexplorerのチーム結果・25/26リーグ結果ページから集約。ハンブルクは4/6〜5/2と5月中旬、ヴェッツラーは4月全体と5月中旬の25/26ブンデスリーガ結果が取得ページに載っておらず欠落（この期間に共通相手が追加される可能性あり）。親善試合は除外。6/4の直接対決は除外。",
+  "opponents": [
+   "SCマクデブルク",
+   "ゲッピンゲン",
+   "アイゼナハ"
+  ]
+ },
+ "source_urls": [
+  "https://www.betexplorer.com/handball/team/hsv-hamburg/2XSOzhbr/results/",
+  "https://www.betexplorer.com/handball/team/hsg-wetzlar/63rDfiKQ/results/",
+  "https://www.betexplorer.com/handball/germany/bundesliga-2025-2026/results/",
+  "https://www.betexplorer.com/handball/germany/bundesliga/results/"
+ ]
 }

@@ -107,6 +107,53 @@
    "Mid: Guti",
    "Bot: Cypher",
    "Support: Cloud"
+  ],
+  "history": [
+   {
+    "date": "2026-04-17",
+    "opp": "Dplus KIA Challengers",
+    "comp": "LCK CL 2026 Rounds 1-2 第3週（BO3）",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-05-18",
+    "opp": "Dplus KIA Challengers",
+    "comp": "LCK CL 2026 Rounds 1-2 第8週（BO3）",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-07-30",
+    "opp": "Dplus KIA Challengers",
+    "comp": "LCK CL 2026 Rounds 3-4 第10週（BO3）",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-14",
+    "opp": "Dplus KIA Challengers",
+    "comp": "LCK CL 2026 Rounds 3-4 第12週（BO3）",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Dplus KIA Challengers",
+    "comp": "LCK CL 2026 Playoffs R4（BO5）",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   }
   ]
  },
  "right": {
@@ -200,6 +247,17 @@
    "Mid: Ablazeolive",
    "Bot: Mobility",
    "Support: Breezy"
+  ],
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "Dplus KIA Challengers",
+    "comp": "2026 World Star Challengers Invitational グループDay2（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
   ]
  },
  "h2h": [],
@@ -236,7 +294,9 @@
   "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Season%20Playoffs/",
   "https://gol.gg/tournament/tournament-matchlist/NACL%202026%20Summer%20Playoffs/",
   "https://gol.gg/teams/team-matchlist/2822/split-ALL/tournament-ALL/",
-  "https://gol.gg/teams/team-matchlist/3100/split-ALL/tournament-ALL/"
+  "https://gol.gg/teams/team-matchlist/3100/split-ALL/tournament-ALL/",
+  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%201-2/",
+  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%203-4/"
  ],
  "calc": {
   "left": {
@@ -299,7 +359,36 @@
       "date": "2026-09-10",
       "iso": "2026-09-10",
       "score": "3-1",
-      "res": "W"
+      "res": "W",
+      "comp": "LCK CL 2026 Playoffs R4（BO5）"
+     },
+     {
+      "date": "2026-08-14",
+      "iso": "2026-08-14",
+      "score": "0-2",
+      "res": "L",
+      "comp": "LCK CL 2026 Rounds 3-4 第12週（BO3）"
+     },
+     {
+      "date": "2026-07-30",
+      "iso": "2026-07-30",
+      "score": "1-2",
+      "res": "L",
+      "comp": "LCK CL 2026 Rounds 3-4 第10週（BO3）"
+     },
+     {
+      "date": "2026-05-18",
+      "iso": "2026-05-18",
+      "score": "2-0",
+      "res": "W",
+      "comp": "LCK CL 2026 Rounds 1-2 第8週（BO3）"
+     },
+     {
+      "date": "2026-04-17",
+      "iso": "2026-04-17",
+      "score": "0-2",
+      "res": "L",
+      "comp": "LCK CL 2026 Rounds 1-2 第3週（BO3）"
      }
     ],
     "right": [
@@ -307,15 +396,26 @@
       "date": "2026-09-21",
       "iso": "2026-09-21",
       "score": "0-1",
-      "res": "L"
+      "res": "L",
+      "comp": "2026 World Star Challengers Invitational グループDay2（BO1）"
      }
     ],
     "edge": "left",
     "basis": "勝率",
-    "latest": "2026-09-21"
+    "latest": "2026-09-21",
+    "left_rec": "2勝3敗",
+    "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg の LCK CL 2026 Rounds 1-2 / 3-4 / Playoffs 大会一覧と両チームのチーム戦績ページで確認。T1A対DKの5/18・8/14は大会一覧のみ（チームページ未掲載）。CupidのNACL 2026 Summer/Playoffs は日付未取得だがT1Aと共通の相手なし。",
+  "opponents": [
+   "Dplus KIA Challengers"
+  ]
  }
 }

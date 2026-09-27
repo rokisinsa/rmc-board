@@ -8,6 +8,29 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-04-02",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準々決勝 第5戦",
+    "score": "3-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-04-04",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準々決勝 第6戦",
+    "score": "3-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ニュルンベルク",
+    "comp": "DEL 2026/27",
+    "score": "2-6",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -17,6 +40,60 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-04-08",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準決勝 第1戦",
+    "score": "3-2",
+    "res": "W",
+    "detail": "延長勝ち AET"
+   },
+   {
+    "date": "2026-04-10",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準決勝 第2戦",
+    "score": "3-2",
+    "res": "W",
+    "detail": "延長勝ち AET"
+   },
+   {
+    "date": "2026-04-12",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準決勝 第3戦",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-14",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準決勝 第4戦",
+    "score": "1-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-04-17",
+    "opp": "ミュンヘン",
+    "comp": "DEL 25/26 PO準決勝 第5戦",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "ミュンヘン",
+    "comp": "DEL 2026/27",
+    "score": "3-4",
+    "res": "L",
+    "detail": "SO負け AfP"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "ニュルンベルク",
+    "comp": "DEL 2026/27",
+    "score": "3-5",
+    "res": "L"
+   }
   ]
  },
  "h2h": [],
@@ -79,8 +156,117 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ニュルンベルク",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "2-6",
+      "res": "L",
+      "comp": "DEL 2026/27"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "3-5",
+      "res": "L",
+      "comp": "DEL 2026/27"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-22",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ミュンヘン",
+    "left": [
+     {
+      "date": "2026-04-04",
+      "iso": "2026-04-04",
+      "score": "3-7",
+      "res": "L",
+      "comp": "DEL 25/26 PO準々決勝 第6戦"
+     },
+     {
+      "date": "2026-04-02",
+      "iso": "2026-04-02",
+      "score": "3-6",
+      "res": "L",
+      "comp": "DEL 25/26 PO準々決勝 第5戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "3-4",
+      "res": "L",
+      "comp": "DEL 2026/27"
+     },
+     {
+      "date": "2026-04-17",
+      "iso": "2026-04-17",
+      "score": "4-1",
+      "res": "W",
+      "comp": "DEL 25/26 PO準決勝 第5戦"
+     },
+     {
+      "date": "2026-04-14",
+      "iso": "2026-04-14",
+      "score": "1-5",
+      "res": "L",
+      "comp": "DEL 25/26 PO準決勝 第4戦"
+     },
+     {
+      "date": "2026-04-12",
+      "iso": "2026-04-12",
+      "score": "4-1",
+      "res": "W",
+      "comp": "DEL 25/26 PO準決勝 第3戦"
+     },
+     {
+      "date": "2026-04-10",
+      "iso": "2026-04-10",
+      "score": "3-2",
+      "res": "W",
+      "comp": "DEL 25/26 PO準決勝 第2戦"
+     },
+     {
+      "date": "2026-04-08",
+      "iso": "2026-04-08",
+      "score": "3-2",
+      "res": "W",
+      "comp": "DEL 25/26 PO準決勝 第1戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-18",
+    "left_rec": "0勝2敗",
+    "right_rec": "4勝2敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "DEL 26/27（9/17〜9/25）と25/26の4/1以降のPO（インゴルシュタットは4/4準々決勝敗退、マンハイムは5/3決勝まで）を確認。マンハイムのCHL（ヘルニング戦など）は共通相手なし。",
+  "opponents": [
+   "ミュンヘン",
+   "ニュルンベルク"
+  ]
+ },
+ "source_urls": [
+  "https://www.betexplorer.com/hockey/germany/del/results/",
+  "https://www.betexplorer.com/hockey/germany/del-2025-2026/results/",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_Champions_Hockey_League"
+ ]
 }

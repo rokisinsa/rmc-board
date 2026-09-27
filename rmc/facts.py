@@ -3,7 +3,7 @@ import glob, json, os, re
 from datetime import date
 from . import core
 
-RECENT_DAYS = 50  # 共通の対戦相手は試合日から50日以内の結果だけで比較する
+RECENT_DAYS = 180  # 共通の対戦相手は試合日から180日以内の全試合（form＋history）で比較する
 
 
 def _norm(name):
@@ -125,8 +125,20 @@ def _parse(d, ref):
     return None
 
 
+def _games(side, ref):
+    """直近10試合（form）と、共通相手用の180日分の結果（history）を合わせ、同じ試合（日付＋相手）は1つにする。"""
+    seen, out = set(), []
+    for g in (side.get("form") or []) + (side.get("history") or []):
+        gd = _parse(g.get("date"), ref)
+        k = (str(gd) if gd else g.get("date"), _norm(g.get("opp")))
+        if gd and k in seen:
+            continue
+        seen.add(k); out.append(g)
+    return out
+
+
 def _common(left, right, ref=None):
-    lf, rf = left.get("form") or [], right.get("form") or []
+    lf, rf = _games(left, ref), _games(right, ref)
     by = {}
     for side, form in (("left", lf), ("right", rf)):
         for g in form:
@@ -137,7 +149,7 @@ def _common(left, right, ref=None):
             if not k or k in ("—", "-"):
                 continue
             by.setdefault(k, {"opp": g.get("opp"), "left": [], "right": []})[side].append(
-                {"date": g.get("date"), "iso": str(gd), "score": g.get("score"), "res": g.get("res")})
+                {"date": g.get("date"), "iso": str(gd), "score": g.get("score"), "res": g.get("res"), "comp": g.get("comp")})
     # 相手どうしの直接対戦は共通相手から除く
     ln, rn = _norm(left.get("name")), _norm(right.get("name"))
     rows = []
@@ -157,7 +169,8 @@ def _common(left, right, ref=None):
                     edge = "left" if ml > mr else "right"; basis = "得失差"
             v["left"].sort(key=lambda x: x["iso"], reverse=True); v["right"].sort(key=lambda x: x["iso"], reverse=True)
             latest = max([x["iso"] for x in v["left"] + v["right"]])
-            rows.append(dict(v, edge=edge, basis=basis if edge != "even" else None, latest=latest))
+            rows.append(dict(v, edge=edge, basis=basis if edge != "even" else None, latest=latest,
+                             left_rec=f"{lw}勝{lt - lw}敗", right_rec=f"{rw}勝{rt - rw}敗"))
     rows.sort(key=lambda r: r["latest"], reverse=True)  # 直近の対戦ほど上
     return rows
 

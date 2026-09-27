@@ -20,6 +20,18 @@
   ],
   "lineup": [
    "個人戦R16・QFの結果未取得"
+  ],
+  "history": [
+   {
+    "date": "2026-06-21",
+    "opp": "広田彩花/櫻本絢子（日本）",
+    "comp": "全日本実業団選手権2026 決勝（15点制）",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "12-15 16-14 11-15"
+   }
   ]
  },
  "right": {
@@ -40,6 +52,18 @@
   ],
   "lineup": [
    "個人戦R16・QFの結果未取得"
+  ],
+  "history": [
+   {
+    "date": "2026-07-23",
+    "opp": "広田彩花/櫻本絢子（日本）",
+    "comp": "中国OP 2026 2回戦",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-13 21-11"
+   }
   ]
  },
  "h2h": [],
@@ -62,7 +86,10 @@
  },
  "source_urls": [
   "https://www.badmintonplanet.com/badminton-news/an-se-young-japan-korea-asian-games-semifinal.html",
-  "https://news.sbs.co.kr/english/article.do?news_id=N1008767913"
+  "https://news.sbs.co.kr/english/article.do?news_id=N1008767913",
+  "https://takeorilab.ybcjr.com/en/senshu/iwanaga-nakanishi/",
+  "https://takeorilab.ybcjr.com/en/senshu/hirota-sakuramoto/",
+  "https://www.badmintonplanet.com/badminton-news/2026-world-championships-semifinals-an-se-young.html"
  ],
  "calc": {
   "left": {
@@ -123,8 +150,43 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "広田彩花/櫻本絢子（日本）",
+    "left": [
+     {
+      "date": "2026-06-21",
+      "iso": "2026-06-21",
+      "score": "1-2",
+      "res": "L",
+      "comp": "全日本実業団選手権2026 決勝（15点制）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-07-23",
+      "iso": "2026-07-23",
+      "score": "2-0",
+      "res": "W",
+      "comp": "中国OP 2026 2回戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-07-23",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:45:00+09:00",
+  "note": "岩永/中西の2026年全試合（TakeoriLab）と白荷娜/李紹希の判明分（世界選手権QF-F、中国OP、アジア大会団体SF）を照合。7/24中国OP QFの直接対戦（白/李 2-0）は除外。岩永/中西の全日本実業団は国内団体戦（15点制）。白/李の日本ペアが絡まないツアー戦は網羅できていない。",
+  "opponents": [
+   "広田彩花/櫻本絢子（日本）"
+  ]
  }
 }

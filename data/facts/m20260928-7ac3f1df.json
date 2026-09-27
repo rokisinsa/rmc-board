@@ -8,7 +8,8 @@
   "form": [],
   "lineup": [
    "組み合わせはブリーフ由来、ドローで未確認"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "デ・ヨング",
@@ -16,7 +17,8 @@
   "form": [],
   "lineup": [
    "ポルト出場は確認済み（Raquetc）"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
@@ -35,7 +37,9 @@
  },
  "source_urls": [
   "https://www.raquetc.com/2026/09/27/eupago-porto-open-reune-dimitrov-cinco-top-100-e-nata-da-casa-numa-semana-de-luxo",
-  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.tennisexplorer.com/player/jorda-sanchis/?annual=2026",
+  "https://www.tennisexplorer.com/player/de-jong-57322/?annual=2026"
  ],
  "calc": {
   "left": {
@@ -81,7 +85,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "ホルダ・サンチス＝David Jorda Sanchis と判断（tennisexplorer）。同選手は4/20（Rome 2 CH予選）まで、デ・ヨング（Jesper de Jong）は5/1（Cagliari CH）までしか掲載がなく、6〜9月が欠落。取得できた範囲では共通の相手なし。",
+  "opponents": []
  }
 }

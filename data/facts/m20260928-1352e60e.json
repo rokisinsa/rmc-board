@@ -32,6 +32,26 @@
   "lineup": [
    "egamersworld チームページ：Bean(Top) / Kaiser(Jg) / Reeker(Mid) / Patrik(ADC) / LIMIT(Sup)",
    "試合ページでは Habubu・Lebron の名前もあり、未確定"
+  ],
+  "history": [
+   {
+    "date": "2026-05-28",
+    "opp": "E WIE EINFACH E-SPORTS",
+    "comp": "Prime League 2026 Spring Playoffs 3位決定戦（BO5）",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3
+   },
+   {
+    "date": "2026-07-21",
+    "opp": "E WIE EINFACH E-SPORTS",
+    "comp": "Prime League 2026 Summer Split 第4週（BO3）",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   }
   ]
  },
  "right": {
@@ -111,6 +131,17 @@
   ],
   "lineup": [
    "ロスター不明（egamersworld に選手情報なし、試合ページは Unkn0wn・Speedy1 のみ記載）"
+  ],
+  "history": [
+   {
+    "date": "2026-06-09",
+    "opp": "E WIE EINFACH E-SPORTS",
+    "comp": "EMEA Masters 2026 Spring プレイイン 予選ラウンド（BO3）",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   }
   ]
  },
  "h2h": [],
@@ -149,7 +180,12 @@
   "https://egamersworld.com/lol/team/big-NkTM6Vq3S",
   "https://egamersworld.com/lol/team/valerion-cwSG_uhGR",
   "https://egamersworld.com/lol/team/unicorns-of-love-academy-E1bisE5hB",
-  "https://egamersworld.com/lol/match/z27dDLdCP/berlin-international-gaming-vs-valerion-ID0OVag6_b"
+  "https://egamersworld.com/lol/match/z27dDLdCP/berlin-international-gaming-vs-valerion-ID0OVag6_b",
+  "https://gol.gg/tournament/tournament-matchlist/Prime%20League%201st%20Div%202026%20Spring%20Playoffs/",
+  "https://gol.gg/tournament/tournament-matchlist/Prime%20League%201st%20Div%202026%20Summer%20Split/",
+  "https://gol.gg/tournament/tournament-matchlist/EMEA%20Masters%202026%20Spring%20Play-In/",
+  "https://gol.gg/teams/team-matchlist/2965/split-ALL/tournament-ALL/",
+  "https://gol.gg/teams/team-matchlist/2864/split-ALL/tournament-ALL/"
  ],
  "start_note": "egamersworld の試合ページのメタ情報で 2026-09-27 18:00（UTC想定）＝JST 03:00。ページ本文表記は14:00（タイムゾーン不明、米東部時間なら一致）",
  "calc": {
@@ -205,8 +241,50 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "E WIE EINFACH E-SPORTS",
+    "left": [
+     {
+      "date": "2026-07-21",
+      "iso": "2026-07-21",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Prime League 2026 Summer Split 第4週（BO3）"
+     },
+     {
+      "date": "2026-05-28",
+      "iso": "2026-05-28",
+      "score": "1-3",
+      "res": "L",
+      "comp": "Prime League 2026 Spring Playoffs 3位決定戦（BO5）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-06-09",
+      "iso": "2026-06-09",
+      "score": "0-2",
+      "res": "L",
+      "comp": "EMEA Masters 2026 Spring プレイイン 予選ラウンド（BO3）"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-07-21",
+    "left_rec": "1勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg の大会一覧・チーム戦績ページと egamersworld で確認。BIG対EWIのBO1（2026-04-10 Spring第2週、2026-06-30 Summer第1週）は gol.gg 大会一覧の勝敗向きが不確かで未記載。ValerionのHLL各チームとBIGの対戦はなし。",
+  "opponents": [
+   "E WIE EINFACH E-SPORTS"
+  ]
  }
 }

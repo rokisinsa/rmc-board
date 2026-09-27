@@ -112,6 +112,44 @@
   "lineup": [
    "egamersworld チームページ：Cinkrof(Top) / Sinmivak(Jg) / iBo(Mid) / Decay(ADC) / Zamulek(Sup)",
    "試合ページでは Color・Maxi・Syzyfek・Lucker と別表記＝未確定"
+  ],
+  "history": [
+   {
+    "date": "2026-04-14",
+    "opp": "Bomba Team",
+    "comp": "Rift Legends 2026 Spring Split 第3週（BO3）",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-05-31",
+    "opp": "Bomba Team",
+    "comp": "Rift Legends 2026 Spring Playoffs 決勝（BO5）",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Bomba Team",
+    "comp": "Rift Legends 2026 Summer プレーオフ（BO5）",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Bomba Team",
+    "comp": "Rift Legends 2026 Summer 決勝（BO5）",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0
+   }
   ]
  },
  "right": {
@@ -224,6 +262,17 @@
   "lineup": [
    "egamersworld チームページ：Silk(Top) / bicas(Jg) / Quintero22(Mid) / Ze Luis(ADC) / Creepano(Sup)",
    "試合ページでは kkero・TheGreatGary 等別表記＝未確定"
+  ],
+  "history": [
+   {
+    "date": "2026-06-08",
+    "opp": "Bomba Team",
+    "comp": "EMEA Masters 2026 Spring プレイイン R3（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
   ]
  },
  "h2h": [],
@@ -260,7 +309,13 @@
   "https://www.team-aaa.com/fr/actualite/emea-masters-2026-le-suivi-de-ledition-spring_135624",
   "https://egamersworld.com/lol/team/forsaken-VJk2ggSho",
   "https://egamersworld.com/lol/team/the-otter-side-MtRtGgxHL",
-  "https://egamersworld.com/lol/match/z27dDLdCP/forsaken-vs-the-otter-side-mU4NeqHmW4"
+  "https://egamersworld.com/lol/match/z27dDLdCP/forsaken-vs-the-otter-side-mU4NeqHmW4",
+  "https://gol.gg/tournament/tournament-matchlist/Rift%20Legends%202026%20Spring%20Split/",
+  "https://gol.gg/tournament/tournament-matchlist/Rift%20Legends%202026%20Spring%20Playoffs/",
+  "https://gol.gg/tournament/tournament-matchlist/Rift%20Legends%202026%20Summer%20Split/",
+  "https://gol.gg/tournament/tournament-matchlist/EMEA%20Masters%202026%20Spring%20Play-In/",
+  "https://gol.gg/teams/team-matchlist/3002/split-ALL/tournament-ALL/",
+  "https://gol.gg/teams/team-matchlist/2977/split-ALL/tournament-ALL/"
  ],
  "start_note": "egamersworld の試合ページのメタ情報で 2026-09-27 18:00（UTC想定）＝JST 03:00。ページ本文表記は14:00（タイムゾーン不明、米東部時間なら一致）",
  "calc": {
@@ -316,8 +371,64 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "Bomba Team",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "3-0",
+      "res": "W",
+      "comp": "Rift Legends 2026 Summer プレーオフ"
+     },
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "3-2",
+      "res": "W",
+      "comp": "Rift Legends 2026 Summer プレーオフ"
+     },
+     {
+      "date": "2026-05-31",
+      "iso": "2026-05-31",
+      "score": "3-1",
+      "res": "W",
+      "comp": "Rift Legends 2026 Spring Playoffs 決勝（BO5）"
+     },
+     {
+      "date": "2026-04-14",
+      "iso": "2026-04-14",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Rift Legends 2026 Spring Split 第3週（BO3）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-06-08",
+      "iso": "2026-06-08",
+      "score": "0-1",
+      "res": "L",
+      "comp": "EMEA Masters 2026 Spring プレイイン R3（BO1）"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-19",
+    "left_rec": "4勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg の Rift Legends / EMEA Masters Spring Play-In 大会一覧・チーム戦績ページと egamersworld で確認。9/19 Rift Legends Summer 決勝は egamersworld（既存form）が Forsaken 3-0 勝ち、gol.gg チームページは 0-3 負けと食い違い（既存formに合わせて記載、要確認）。",
+  "opponents": [
+   "Bomba Team"
+  ]
  }
 }

@@ -23,6 +23,36 @@
   ],
   "lineup": [
    "情報なし"
+  ],
+  "history": [
+   {
+    "date": "2026-04-01",
+    "opp": "ミッテルドイッチャーBC",
+    "comp": "BBL 2025-26",
+    "score": "104-81",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-25",
+    "opp": "ハンブルク",
+    "comp": "BBL 2025-26",
+    "score": "81-72",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-10",
+    "opp": "フランクフルト",
+    "comp": "BBL 2025-26",
+    "score": "103-64",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ルートヴィヒスブルク",
+    "comp": "BBL 2026-27 第1節",
+    "score": "86-77",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -42,6 +72,36 @@
   "lineup": [
    "監督サシャ・フィリポフスキ",
    "負傷情報は未確認"
+  ],
+  "history": [
+   {
+    "date": "2026-04-17",
+    "opp": "フランクフルト",
+    "comp": "BBL 2025-26",
+    "score": "80-66",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-26",
+    "opp": "ミッテルドイッチャーBC",
+    "comp": "BBL 2025-26",
+    "score": "52-83",
+    "res": "L"
+   },
+   {
+    "date": "2026-05-07",
+    "opp": "ハンブルク",
+    "comp": "BBL 2025-26",
+    "score": "90-73",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-10",
+    "opp": "ルートヴィヒスブルク",
+    "comp": "BBL 2025-26",
+    "score": "75-58",
+    "res": "W"
+   }
   ]
  },
  "h2h": [],
@@ -73,7 +133,13 @@
   "https://www.sportschau.de/regional/wdr/wdr-phoenix-hagen-verliert-bbl-heim-comeback-gegen-ulm-100.html",
   "https://www.infobae.com/espana/agencias/2026/09/04/100-66-el-ilerna-lleida-se-exhibe-ante-un-flojo-ratiopharm-ulm/",
   "https://ratiopharmulm.com/news/generalprobe-missglueckt-2581/",
-  "https://www.sportytrader.com/en/results-live/s-oliver-wurzburg-ewe-baskets-oldenburg-8709796/"
+  "https://www.sportytrader.com/en/results-live/s-oliver-wurzburg-ewe-baskets-oldenburg-8709796/",
+  "https://basketball.realgm.com/international/league/15/German-BBL/team/169/Ratiopharm-Ulm/schedule/2026",
+  "https://basketball.realgm.com/international/league/15/German-BBL/team/687/sOliver-Baskets/schedule/2026",
+  "https://basketball.realgm.com/international/league/15/German-BBL/team/169/Ratiopharm-Ulm/schedule/2027",
+  "https://ratiopharmulm.com/",
+  "https://www.wuerzburg-baskets.de/spielplan",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_Basketball_Bundesliga"
  ],
  "match_id": "m20260928-ea88cc27",
  "data_as_of": "2026-09-27T23:15:00+09:00",
@@ -127,8 +193,124 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ルートヴィヒスブルク",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "86-77",
+      "res": "W",
+      "comp": "BBL 2026-27 第1節"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-10",
+      "iso": "2026-05-10",
+      "score": "75-58",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-20",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "フランクフルト",
+    "left": [
+     {
+      "date": "2026-05-10",
+      "iso": "2026-05-10",
+      "score": "103-64",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-17",
+      "iso": "2026-04-17",
+      "score": "80-66",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-05-10",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "ハンブルク",
+    "left": [
+     {
+      "date": "2026-04-25",
+      "iso": "2026-04-25",
+      "score": "81-72",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-07",
+      "iso": "2026-05-07",
+      "score": "90-73",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-05-07",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "ミッテルドイッチャーBC",
+    "left": [
+     {
+      "date": "2026-04-01",
+      "iso": "2026-04-01",
+      "score": "104-81",
+      "res": "W",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-26",
+      "iso": "2026-04-26",
+      "score": "52-83",
+      "res": "L",
+      "comp": "BBL 2025-26"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-04-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:33:00+09:00",
+  "note": "RealGMの両チーム2025-26/2026-27日程（BBL・プレーオフ・欧州杯）で4/1以降を確認し、Wikipedia対戦表でスコア照合。ウルムのPO準々決勝（バンベルク）・ヴュルツブルクのPO準々決勝（ボン）とBCL予選（マンチェスター）は相手が共通でない。5/2の両者対戦はH2Hのため除外。プレシーズン親善（ウルム対リェイダ等）は除外。",
+  "opponents": [
+   "ミッテルドイッチャーBC",
+   "ハンブルク",
+   "フランクフルト",
+   "ルートヴィヒスブルク"
+  ]
  }
 }

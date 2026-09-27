@@ -8,13 +8,15 @@
   "form": [],
   "lineup": [
    "組み合わせはブリーフ由来、ドローで未確認"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "リンコン",
   "ranking": "Tennis Abstract Elo #207（1565.5、ハード1536.0）。ATPランク未取得",
   "form": [],
-  "lineup": []
+  "lineup": [],
+  "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
@@ -35,7 +37,8 @@
  },
  "source_urls": [
   "https://www.tennisexplorer.com/player/prizmic/?annual=2026",
-  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.tennisexplorer.com/player/rincon-fe1fb/"
  ],
  "calc": {
   "left": {
@@ -81,7 +84,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "プリズミッチはtennisexplorerで4/26（マドリード3回戦）まで掲載、以降欠落。リンコンは選手ページ（rincon-fe1fb）が「Player does not exist」で名・戦績とも特定できず。共通の相手は判定不能。",
+  "opponents": []
  }
 }

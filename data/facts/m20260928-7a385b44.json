@@ -90,6 +90,22 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-06",
+    "opp": "フィエルハンマー",
+    "comp": "Elkjøp-ligaen",
+    "score": "29-26",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "フォロ",
+    "comp": "Elkjøp-ligaen",
+    "score": "27-28",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -180,6 +196,22 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-08-30",
+    "opp": "フィエルハンマー",
+    "comp": "Elkjøp-ligaen",
+    "score": "22-23",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "フォロ",
+    "comp": "Elkjøp-ligaen",
+    "score": "33-29",
+    "res": "W"
+   }
   ]
  },
  "h2h": [
@@ -240,7 +272,9 @@
  "source_urls": [
   "https://www.betexplorer.com/handball/team/drammen/trC7vI1O/results/",
   "https://www.betexplorer.com/handball/team/arendal/0zP0LP1j/results/",
-  "https://www.betexplorer.com/handball/norway/elkjop-ligaen/drammen-arendal/QwFSoLdd/"
+  "https://www.betexplorer.com/handball/norway/elkjop-ligaen/drammen-arendal/QwFSoLdd/",
+  "https://www.betexplorer.com/handball/team/drammen/trC7vI1O/",
+  "https://www.betexplorer.com/handball/team/arendal/0zP0LP1j/"
  ],
  "calc": {
   "left": {
@@ -304,7 +338,8 @@
       "date": "2026-09-13",
       "iso": "2026-09-13",
       "score": "27-28",
-      "res": "L"
+      "res": "L",
+      "comp": "Elkjøp-ligaen"
      }
     ],
     "right": [
@@ -312,12 +347,15 @@
       "date": "2026-09-06",
       "iso": "2026-09-06",
       "score": "33-29",
-      "res": "W"
+      "res": "W",
+      "comp": "Elkjøp-ligaen"
      }
     ],
     "edge": "right",
     "basis": "勝率",
-    "latest": "2026-09-13"
+    "latest": "2026-09-13",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
    },
    {
     "opp": "フィエルハンマー",
@@ -326,7 +364,8 @@
       "date": "2026-09-06",
       "iso": "2026-09-06",
       "score": "29-26",
-      "res": "W"
+      "res": "W",
+      "comp": "Elkjøp-ligaen"
      }
     ],
     "right": [
@@ -334,15 +373,27 @@
       "date": "2026-08-30",
       "iso": "2026-08-30",
       "score": "22-23",
-      "res": "L"
+      "res": "L",
+      "comp": "Elkjøp-ligaen"
      }
     ],
     "edge": "left",
     "basis": "勝率",
-    "latest": "2026-09-06"
+    "latest": "2026-09-06",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:50:00+09:00",
+  "note": "betexplorerチームページで確認。ドランメンの25/26レギュラーシーズン4月分（4/8・4/11節）はページに載らず未取得のため、アーレンダールの4月の相手（サンデフィヨルド、ベッケラーゲット）との対戦有無は不明。親善試合は除外。",
+  "opponents": [
+   "フィエルハンマー",
+   "フォロ"
+  ]
  }
 }

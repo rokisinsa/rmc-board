@@ -111,6 +111,26 @@
   "lineup": [
    "egamersworld チームページ：Elramir(Top) / Juzu(Jg) / Uden(Mid) / Mercy(ADC) / Cipher(Sup)",
    "試合ページでは Maged・Theocacs・Giyuu 等別表記＝未確定"
+  ],
+  "history": [
+   {
+    "date": "2026-06-10",
+    "opp": "Eintracht Spandau",
+    "comp": "EMEA Masters 2026 Spring グループDay1（BO3）",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-06-12",
+    "opp": "Eintracht Spandau",
+    "comp": "EMEA Masters 2026 Spring グループDay3（BO3）",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   }
   ]
  },
  "right": {
@@ -221,6 +241,17 @@
   "lineup": [
    "egamersworld チームページ：DenVoksne(Top) / RoyalKanin(Jg) / Fornoreason(Mid) / Twiizt(ADC) / White(Sup)",
    "試合ページでは Sheepy・Invi 等別表記＝未確定"
+  ],
+  "history": [
+   {
+    "date": "2026-04-09",
+    "opp": "Eintracht Spandau",
+    "comp": "Prime League 2026 Spring Split 第2週（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
   ]
  },
  "h2h": [],
@@ -259,7 +290,12 @@
   "https://egamersworld.com/lol/team/anubis-gaming-4JHU4hZk6",
   "https://egamersworld.com/lol/team/unicorns-of-love-academy-E1bisE5hB",
   "https://www.gosugamers.net/lol/teams/32097-unicorns-of-love-sexy-edition",
-  "https://egamersworld.com/lol/match/z27dDLdCP/anubis-gaming-vs-unicorns-of-love-sexy-edition-yuIdwxxt46"
+  "https://egamersworld.com/lol/match/z27dDLdCP/anubis-gaming-vs-unicorns-of-love-sexy-edition-yuIdwxxt46",
+  "https://gol.gg/tournament/tournament-matchlist/EMEA%20Masters%202026%20Spring%20Main%20Event/",
+  "https://gol.gg/tournament/tournament-matchlist/Prime%20League%201st%20Div%202026%20Spring%20Split/",
+  "https://gol.gg/tournament/tournament-matchlist/Prime%20League%201st%20Div%202026%20Summer%20Split/",
+  "https://gol.gg/teams/team-matchlist/2833/split-ALL/tournament-ALL/",
+  "https://gol.gg/teams/team-matchlist/2973/split-ALL/tournament-ALL/"
  ],
  "start_note": "egamersworld の試合ページのメタ情報で 2026-09-27 18:00（UTC想定）＝JST 03:00。ページ本文表記は14:00（タイムゾーン不明、米東部時間なら一致）",
  "calc": {
@@ -315,8 +351,50 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "Eintracht Spandau",
+    "left": [
+     {
+      "date": "2026-06-12",
+      "iso": "2026-06-12",
+      "score": "1-2",
+      "res": "L",
+      "comp": "EMEA Masters 2026 Spring グループ"
+     },
+     {
+      "date": "2026-06-10",
+      "iso": "2026-06-10",
+      "score": "0-2",
+      "res": "L",
+      "comp": "EMEA Masters 2026 Spring グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-09",
+      "iso": "2026-04-09",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Prime League 2026 Spring Split 第2週（BO1）"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-06-12",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg の大会一覧とチーム戦績ページで確認。UOL SE対Eintracht Spandau の Prime League 2026 Summer 第2週（2026-07-07, BO1）は gol.gg 大会一覧の勝敗向きが不確かで裏付けが取れず未記載。UOL SEの Prime League Summer の一部はチームページ未掲載。",
+  "opponents": [
+   "Eintracht Spandau"
+  ]
  }
 }

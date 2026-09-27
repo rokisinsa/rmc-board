@@ -23,7 +23,8 @@
   "form_summary": "直近はセインツに逆転負け",
   "lineup": [
    "WRゼイ・フラワーズが故障者リストで出場微妙"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "カウボーイズ",
@@ -32,7 +33,8 @@
   "form_summary": "詳細未取得",
   "lineup": [
    "守備陣に負傷者が出始めていると報道（個別選手名は未確認）。守備は総獲得ヤード許容がリーグ4番目に多い"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "h2h_summary": "",
@@ -96,7 +98,16 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:19:00+09:00",
+  "note": "180日窓内の公式戦は2026レギュラーシーズン第1〜2週の各2試合のみ（プレシーズン除外、第3週は本試合）。両チームの対戦相手に重複なしのため共通の相手は0。",
+  "opponents": []
+ },
+ "source_urls": [
+  "https://www.pro-football-reference.com/years/2026/games.htm"
+ ]
 }

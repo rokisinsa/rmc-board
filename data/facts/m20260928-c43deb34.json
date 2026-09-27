@@ -93,7 +93,8 @@
    "NFL.com第3週公式インジャリーレポート: OUT ジョシュ・シモンズ（OT・背中）",
    "DOUBTFUL シャマーリ・コナー（S・膝）",
    "パトリック・マホームズ: ESPNフィードに『Questionable - knee ACL』表記があるがNFL.com最終レポートの欠場/疑わしいリストには無し（出場見込み、未確定）"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "ドルフィンズ",
@@ -185,7 +186,8 @@
    "NFL.com第3週公式インジャリーレポート: OUT ケイレブ・ダグラス（足首）、ロバート・ビール・ジュニア（ハムストリング）",
    "DOUBTFUL ジェイレン・ライト（RB）",
    "QUESTIONABLE ライアン・ミラー、ジュリアス・ブレンツ"
-  ]
+  ],
+  "history": []
  },
  "h2h": [
   {
@@ -274,7 +276,8 @@
   "https://www.pro-football-reference.com/teams/mia/2025.htm",
   "https://www.statmuse.com/nfl/ask/chiefs-vs-dolphins-last-10-games",
   "https://www.nfl.com/injuries/",
-  "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?seasontype=2&week=2&dates=2026"
+  "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?seasontype=2&week=2&dates=2026",
+  "https://www.pro-football-reference.com/years/2026/games.htm"
  ],
  "calc": {
   "left": {
@@ -331,7 +334,13 @@
    "avg_right": 20.8
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:19:00+09:00",
+  "note": "180日窓内の公式戦は2026レギュラーシーズン第1〜2週の各2試合のみ（プレシーズン除外、第3週は本試合）。両チームの対戦相手に重複なしのため共通の相手は0。",
+  "opponents": []
  }
 }

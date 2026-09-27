@@ -18,6 +18,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-05-16",
+    "opp": "リーズ W",
+    "comp": "女子SL 第1節",
+    "score": "18-10",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -44,6 +53,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-18",
+    "opp": "リーズ W",
+    "comp": "女子SL 準決勝",
+    "score": "12-0",
+    "res": "W"
+   }
   ]
  },
  "h2h": [
@@ -90,7 +108,9 @@
   "https://en.wikipedia.org/wiki/2026_RFL_Women%27s_Super_League",
   "https://www.superleague.co.uk/article/6589/super-four-and-shield-final-round-story",
   "https://www.yorkshireeveningpost.co.uk/sport/rugby-league/heartbreak-for-leeds-rhinos-as-york-valkyrie-win-through-to-womens-grand-final-v-wigan-warriors-9094342",
-  "https://www.wigantoday.net/sport/rugby-league/wigan-warriors/wigan-warriors-york-valkyrie-womens-super-league-grand-final-9102397"
+  "https://www.wigantoday.net/sport/rugby-league/wigan-warriors/wigan-warriors-york-valkyrie-womens-super-league-grand-final-9102397",
+  "https://en.wikipedia.org/wiki/2026_RFL_Women%27s_Super_League_results",
+  "https://en.wikipedia.org/wiki/2026_Women%27s_Challenge_Cup"
  ],
  "calc": {
   "left": {
@@ -146,8 +166,43 @@
    "avg_left": 32.0,
    "avg_right": 12.7
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "リーズ W",
+    "left": [
+     {
+      "date": "2026-05-16",
+      "iso": "2026-05-16",
+      "score": "18-10",
+      "res": "W",
+      "comp": "女子SL 第1節"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "12-0",
+      "res": "W",
+      "comp": "女子SL 準決勝"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-18",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:29:00+09:00",
+  "note": "ウィガンはWikipediaシーズンページで4/1〜6/27を確認（7月以降は一部のみ）。ヨークは個別スコア付きの試合一覧が取れず、確認できたのは既存formの9/18準決勝のみ。ヨークのチャレンジカップ群リーグ vs バロー 54-12は日付不明のため除外。聖ヘレンズ・バロー・リー・ハダースフィールドも共通相手の可能性大だがヨーク側スコア未取得。",
+  "opponents": [
+   "リーズ W"
+  ]
  }
 }

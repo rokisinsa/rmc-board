@@ -18,6 +18,22 @@
    "得点：中田航太9点、杉岡尚樹9点、蔦谷大雅8点",
    "GK：中村匠11セーブ",
    "監督評「前半は就任後ベストゲーム、後半のシュートミスが課題」"
+  ],
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "香港",
+    "comp": "アジア大会 予選ラウンド グループA",
+    "score": "44-17",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "クウェート",
+    "comp": "アジア大会 準々決勝",
+    "score": "37-32",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -35,6 +51,22 @@
   "form_summary": "準々決勝で香港に37-16と大勝し準決勝進出。得点力は高い",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-24",
+    "opp": "クウェート",
+    "comp": "アジア大会 予選ラウンド グループB",
+    "score": "28-25",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "香港",
+    "comp": "アジア大会 準々決勝",
+    "score": "37-16",
+    "res": "W"
+   }
   ]
  },
  "h2h": [],
@@ -103,8 +135,76 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "クウェート",
+    "left": [
+     {
+      "date": "9/26",
+      "iso": "2026-09-26",
+      "score": "37-32",
+      "res": "W",
+      "comp": null
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "28-25",
+      "res": "W",
+      "comp": "アジア大会 予選ラウンド グループB"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "香港",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "44-17",
+      "res": "W",
+      "comp": "アジア大会 予選ラウンド グループA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "37-16",
+      "res": "W",
+      "comp": "アジア大会 準々決勝"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:56:00+09:00",
+  "note": "アジア大会の結果一覧（sportzorg24）と日本協会リリースで確認。バーレーン vs クウェートの日付はArab Timesの9/24付「本日」記事に基づく。準々決勝4試合は9/26開催（大会日程）。2026年1月のアジア選手権は180日窓外のため対象外、4〜8月の国際親善試合は未確認。",
+  "opponents": [
+   "香港",
+   "クウェート"
+  ]
+ },
+ "source_urls": [
+  "https://www.sportzorg24.tv/asian-games-2026-handball-results",
+  "https://prtimes.jp/main/html/rd/p/000000306.000106743.html",
+  "https://www.arabtimesonline.com/news/kuwait-faces-bahrain-in-the-asian-games-handball-derby/",
+  "https://en.wikipedia.org/wiki/Handball_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament"
+ ]
 }

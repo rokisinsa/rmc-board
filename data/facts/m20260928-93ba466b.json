@@ -112,7 +112,8 @@
   "lineup": [
    "egamersworld チームページ：Scorth(Top) / Beplush(Jg) / MonkaS(Mid) / Stalken(ADC) / Bayonetta(Sup)",
    "試合ページでは Nawa 等別表記あり＝未確定"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "The Secret Club",
@@ -222,7 +223,8 @@
   "lineup": [
    "egamersworld チームページ：Anonymouss(Top) / Nio(Jg) / FENZ1(Mid) / Falleo(ADC) / Yuki(Sup)",
    "試合ページは Alishor 等別表記＝未確定"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "venue": "オンライン（EMEA Masters 2026 Summer、2026-09-20〜10-22 開催）",
@@ -258,7 +260,9 @@
   "https://www.team-aaa.com/fr/actualite/emea-masters-2026-le-suivi-de-ledition-spring_135624",
   "https://egamersworld.com/lol/team/pcific-esports-gyuw100kQib",
   "https://egamersworld.com/lol/team/the-secret-club-esport-5soSvN6Dp",
-  "https://egamersworld.com/lol/match/z27dDLdCP/pcific-esports-vs-the-secret-club-esport-l0HXv_6n47"
+  "https://egamersworld.com/lol/match/z27dDLdCP/pcific-esports-vs-the-secret-club-esport-l0HXv_6n47",
+  "https://gol.gg/teams/team-matchlist/2911/split-ALL/tournament-ALL/",
+  "https://gol.gg/teams/team-matchlist/2959/split-ALL/tournament-ALL/"
  ],
  "start_note": "egamersworld の試合ページのメタ情報で 2026-09-27 18:00（UTC想定）＝JST 03:00。ページ本文表記は14:00（タイムゾーン不明、米東部時間なら一致）",
  "calc": {
@@ -315,7 +319,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg チーム戦績ページ（TCL・EBL・EMEA Masters）と egamersworld で確認したが、180日以内に共通の相手なし（PCIFIC＝TCL各チーム・Karmine Corp Blue・Forsaken・UOL SE、The Secret Club＝EBL各チーム・Anubis Gaming）。TCL/EBLの一部日付は未取得。",
+  "opponents": []
  }
 }

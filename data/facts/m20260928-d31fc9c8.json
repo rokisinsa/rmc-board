@@ -117,7 +117,8 @@
    "Mid: HwiChan",
    "Bot: FenRir",
    "Support: Pollu"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "Galions",
@@ -221,7 +222,8 @@
    "Mid: OMON",
    "Bot: Harpoon",
    "Support: Zoelys"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "venue": "LAN・韓国（egamersworld）",
@@ -257,7 +259,10 @@
   "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Season%20Playoffs/",
   "https://gol.gg/tournament/tournament-matchlist/LFL%202026%20Summer%20Playoffs/",
   "https://gol.gg/teams/team-matchlist/2824/split-ALL/tournament-ALL/",
-  "https://gol.gg/teams/team-matchlist/2917/split-ALL/tournament-ALL/"
+  "https://gol.gg/teams/team-matchlist/2917/split-ALL/tournament-ALL/",
+  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%201-2/",
+  "https://gol.gg/tournament/tournament-matchlist/LCK%20CL%202026%20Rounds%203-4/",
+  "https://gol.gg/tournament/tournament-matchlist/EMEA%20Masters%202026%20Winter/"
  ],
  "calc": {
   "left": {
@@ -313,7 +318,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "gol.gg で両チームの2026シーズン全戦績を確認したが、180日以内に共通の相手なし（KT＝LCK CL各チーム・WSCIのMovistar KOI Fenix/BLG Junior/CFO Academy、Galions＝LFL各チーム・EMEA Masters・EWC予選・WSCIのSolary/ZSK/Saigon Warriors）。GalionsのMovistar KOI Fenix戦は2026-03-24で期間外。",
+  "opponents": []
  }
 }

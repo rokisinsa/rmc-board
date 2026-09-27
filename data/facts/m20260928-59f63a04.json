@@ -20,6 +20,18 @@
   ],
   "lineup": [
    "ATPドロー: M.ラヤル(1) vs L.プーラン(WC)"
+  ],
+  "history": [
+   {
+    "date": "2026-07-30",
+    "opp": "シデク",
+    "comp": "バンクーバーCH R16",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(3) 7-5"
+   }
   ]
  },
  "right": {
@@ -28,6 +40,18 @@
   "form": [],
   "lineup": [
    "ルーカス・プーラン（マキシムではない）、WC出場"
+  ],
+  "history": [
+   {
+    "date": "2026-09-16",
+    "opp": "シデク",
+    "comp": "レンヌCH R16",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 4-6"
+   }
   ]
  },
  "h2h": [],
@@ -49,7 +73,10 @@
  "source_urls": [
   "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
   "https://tennistonic.com/tennis-news/1056961/edas-butvilas-surprises-dimitrov-in-the-1st-round-st-tropez-challenger-results-highlights/",
-  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.tennisexplorer.com/player/lajal/?annual=2026",
+  "https://www.tennisexplorer.com/player/poullain/?annual=2026",
+  "https://www.tennisexplorer.com/player/chidekh/?annual=2026"
  ],
  "calc": {
   "left": {
@@ -99,8 +126,43 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "シデク",
+    "left": [
+     {
+      "date": "2026-07-30",
+      "iso": "2026-07-30",
+      "score": "2-0",
+      "res": "W",
+      "comp": "バンクーバーCH R16"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "0-2",
+      "res": "L",
+      "comp": "レンヌCH R16"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-16",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "tennisexplorer（ラヤル・シデク・プーラン各ページ）で確認。プーラン（Lucas Poullain）のページは4〜5月のFutures数試合のみ掲載で、6〜9月の大半が欠落しており共通相手は取りこぼしの可能性あり。プーランのレンヌ戦はシデク側ページから採録。",
+  "opponents": [
+   "シデク"
+  ]
  }
 }

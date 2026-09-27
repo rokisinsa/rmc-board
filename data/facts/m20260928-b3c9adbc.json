@@ -89,6 +89,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-22",
+    "opp": "ラ・ショー＝ド＝フォン",
+    "comp": "Swiss League 2026/27",
+    "score": "5-2",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -181,6 +190,36 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-18",
+    "opp": "ラ・ショー＝ド＝フォン",
+    "comp": "Swiss League 2026/27",
+    "score": "8-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-02",
+    "opp": "ラ・ショー＝ド＝フォン",
+    "comp": "Swiss League 25/26 PO決勝 第3戦",
+    "score": "7-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-04",
+    "opp": "ラ・ショー＝ド＝フォン",
+    "comp": "Swiss League 25/26 PO決勝 第4戦",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-07",
+    "opp": "ラ・ショー＝ド＝フォン",
+    "comp": "Swiss League 25/26 PO決勝 第5戦",
+    "score": "4-1",
+    "res": "W"
+   }
   ]
  },
  "h2h": [
@@ -239,7 +278,9 @@
  "source_urls": [
   "https://www.betexplorer.com/hockey/team/arosa/GUfCjGXm/results/",
   "https://www.betexplorer.com/hockey/team/sierre/tKuxxCIO/results/",
-  "https://www.betexplorer.com/hockey/switzerland/swiss-league/arosa-sierre/WOTPVhg5/"
+  "https://www.betexplorer.com/hockey/switzerland/swiss-league/arosa-sierre/WOTPVhg5/",
+  "https://www.betexplorer.com/hockey/switzerland/swiss-league/results/",
+  "https://www.betexplorer.com/hockey/switzerland/swiss-league-2025-2026/results/"
  ],
  "calc": {
   "left": {
@@ -303,7 +344,8 @@
       "date": "2026-09-22",
       "iso": "2026-09-22",
       "score": "5-2",
-      "res": "W"
+      "res": "W",
+      "comp": "Swiss League"
      }
     ],
     "right": [
@@ -311,12 +353,36 @@
       "date": "2026-09-18",
       "iso": "2026-09-18",
       "score": "8-4",
-      "res": "W"
+      "res": "W",
+      "comp": "Swiss League"
+     },
+     {
+      "date": "2026-04-07",
+      "iso": "2026-04-07",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Swiss League 25/26 PO決勝 第5戦"
+     },
+     {
+      "date": "2026-04-04",
+      "iso": "2026-04-04",
+      "score": "5-0",
+      "res": "W",
+      "comp": "Swiss League 25/26 PO決勝 第4戦"
+     },
+     {
+      "date": "2026-04-02",
+      "iso": "2026-04-02",
+      "score": "7-2",
+      "res": "W",
+      "comp": "Swiss League 25/26 PO決勝 第3戦"
      }
     ],
     "edge": "right",
     "basis": "得失差",
-    "latest": "2026-09-22"
+    "latest": "2026-09-22",
+    "left_rec": "1勝0敗",
+    "right_rec": "4勝0敗"
    },
    {
     "opp": "ベリンツォーナ・スネークス",
@@ -325,7 +391,8 @@
       "date": "2026-09-19",
       "iso": "2026-09-19",
       "score": "2-4",
-      "res": "L"
+      "res": "L",
+      "comp": "Swiss League"
      }
     ],
     "right": [
@@ -333,12 +400,15 @@
       "date": "2026-08-28",
       "iso": "2026-08-28",
       "score": "5-3",
-      "res": "W"
+      "res": "W",
+      "comp": "クラブ親善試合"
      }
     ],
     "edge": "right",
     "basis": "勝率",
-    "latest": "2026-09-19"
+    "latest": "2026-09-19",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
    },
    {
     "opp": "オルテン",
@@ -347,7 +417,8 @@
       "date": "2026-08-29",
       "iso": "2026-08-29",
       "score": "1-4",
-      "res": "L"
+      "res": "L",
+      "comp": "クラブ親善試合"
      }
     ],
     "right": [
@@ -355,15 +426,26 @@
       "date": "2026-08-14",
       "iso": "2026-08-14",
       "score": "3-4",
-      "res": "L"
+      "res": "L",
+      "comp": "クラブ親善試合"
      }
     ],
     "edge": "right",
     "basis": "得失差",
-    "latest": "2026-08-29"
+    "latest": "2026-08-29",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "Swiss League 26/27（9/17〜9/27）と25/26のPO（アローザは4/1以降試合なし）を確認。クラブ親善試合（オルテン・ベリンツォーナ等）は公式戦でないため除外。スイス杯26/27は未確認。",
+  "opponents": [
+   "ラ・ショー＝ド＝フォン"
+  ]
  }
 }

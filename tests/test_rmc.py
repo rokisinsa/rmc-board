@@ -148,6 +148,18 @@ class TestFacts(unittest.TestCase):
         self.assertEqual([r["opp"] for r in c["common"]], ["C"])  # D は50日より前、E は日付なしで除外
         self.assertEqual(c["common"][0]["edge"], "left")
 
+    def test_common_history_180(self):
+        from rmc.facts import enrich
+        x = enrich({"left": {"name": "A", "form": [{"date": "2026-09-20", "opp": "C", "res": "W"}],
+                             "history": [{"date": "2026-09-20", "opp": "C", "res": "W"}, {"date": "2026-05-01", "opp": "C", "res": "L"},
+                                         {"date": "2026-03-01", "opp": "C", "res": "W"}]},
+                    "right": {"name": "B", "form": [{"date": "2026-06-01", "opp": "C", "res": "W"}]}, "h2h": []},
+                   "2026-10-01T20:00:00+09:00")
+        r = x["calc"]["common"][0]
+        # 9/20は form と history の重複で1試合、3/1 は180日より前で除外 → A は2試合1勝1敗
+        self.assertEqual((len(r["left"]), r["left_rec"], r["right_rec"], r["edge"]), (2, "1勝1敗", "1勝0敗", "right"))
+        self.assertEqual(r["left"][0]["iso"], "2026-09-20")
+
 
 if __name__ == "__main__":
     unittest.main()

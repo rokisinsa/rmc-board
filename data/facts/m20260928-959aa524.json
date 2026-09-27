@@ -120,6 +120,48 @@
   "lineup": [
    "ウィンブルドン後約2か月半実戦なし→成都で復帰（Umag R2 トルンゲリッティ戦はESPN上で結果未記載・出場実態不明）",
    "成都では2試合とも被ブレークなしとの報道（R2）"
+  ],
+  "history": [
+   {
+    "date": "2026-06-27",
+    "opp": "E.クイン",
+    "comp": "ATPマヨルカ 決勝",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(4) 6-3"
+   },
+   {
+    "date": "2026-05-27",
+    "opp": "ティランテ",
+    "comp": "全仏OP 2回戦",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "6-4 6-7(4) 1-6 3-6"
+   },
+   {
+    "date": "2026-05-11",
+    "opp": "ルブレフ",
+    "comp": "ローマ 3回戦",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 4-6"
+   },
+   {
+    "date": "2026-05-09",
+    "opp": "ガリン",
+    "comp": "ローマ 2回戦",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(2) 6-4"
+   }
   ]
  },
  "right": {
@@ -240,6 +282,48 @@
   "lineup": [
    "予選から成都5連勝中（今大会5試合目を消化、34歳で疲労要素）",
    "2022年ドーハ以来のATP準決勝"
+  ],
+  "history": [
+   {
+    "date": "2026-07-16",
+    "opp": "ティランテ",
+    "comp": "ATPバスタッド 2回戦",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "5-7 6-3 4-6"
+   },
+   {
+    "date": "2026-05-12",
+    "opp": "ルブレフ",
+    "comp": "ローマ 4回戦",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-3 6-7(5) 2-6"
+   },
+   {
+    "date": "2026-04-11",
+    "opp": "E.クイン",
+    "comp": "バルセロナ 予選1回戦",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-2 6-7(9) 4-6"
+   },
+   {
+    "date": "2026-04-05",
+    "opp": "ガリン",
+    "comp": "モンテカルロ 予選2回戦",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "5-7 0-6"
+   }
   ]
  },
  "h2h": [
@@ -274,7 +358,9 @@
   "https://www.tennisexplorer.com/player/basilashvili/?annual=2026",
   "https://tennistonic.com/tennis-news/1058333/h2h-prediction-of-alejandro-davidovich-fokina-vs-nikoloz-basilashvili-in-chengdu-with-odds-preview-pick-28th-september-2026/",
   "https://tennistonic.com/tennis-news/1058206/chengdu-results-alejandro-davidovich-fokina-hubert-hurkacz-lloyd-harris-alexandre-muller-win-on-saturday/",
-  "https://lastwordonsports.com/tennis/2026/09/26/atp-chengdu-quarterfinal-predictions-including-alejandro-davidovich-fokina-vs-alexandre-muller/"
+  "https://lastwordonsports.com/tennis/2026/09/26/atp-chengdu-quarterfinal-predictions-including-alejandro-davidovich-fokina-vs-alexandre-muller/",
+  "https://www.tennisexplorer.com/player/davidovich-fokina/?annual=2026",
+  "https://www.tennisexplorer.com/player/rublev/?annual=2026"
  ],
  "calc": {
   "left": {
@@ -345,8 +431,131 @@
    "inner_right": 13,
    "inner_games": 1
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ティランテ",
+    "left": [
+     {
+      "date": "2026-05-27",
+      "iso": "2026-05-27",
+      "score": "1-3",
+      "res": "L",
+      "comp": "全仏OP 2回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-07-16",
+      "iso": "2026-07-16",
+      "score": "1-2",
+      "res": "L",
+      "comp": "ATPバスタッド 2回戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-07-16",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "E.クイン",
+    "left": [
+     {
+      "date": "2026-06-27",
+      "iso": "2026-06-27",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ATPマヨルカ 決勝"
+     },
+     {
+      "date": "2026-06-20〜27（大会期間）",
+      "iso": "2026-06-20",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ATPマヨルカ 決勝"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-11",
+      "iso": "2026-04-11",
+      "score": "1-2",
+      "res": "L",
+      "comp": "バルセロナ 予選1回戦"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-06-27",
+    "left_rec": "2勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ルブレフ",
+    "left": [
+     {
+      "date": "2026-05-11",
+      "iso": "2026-05-11",
+      "score": "0-2",
+      "res": "L",
+      "comp": "ローマ 3回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-12",
+      "iso": "2026-05-12",
+      "score": "1-2",
+      "res": "L",
+      "comp": "ローマ 4回戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-05-12",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ガリン",
+    "left": [
+     {
+      "date": "2026-05-09",
+      "iso": "2026-05-09",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ローマ 2回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-05",
+      "iso": "2026-04-05",
+      "score": "0-2",
+      "res": "L",
+      "comp": "モンテカルロ 予選2回戦"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-05-09",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "両者とも tennisexplorer 2026年ページで4/1〜9/27をほぼ網羅（バシラシビリの独ブンデスリーガ団体戦は掲載なし・対象外）。スコアは勝者先表記を各選手側に並べ替え。",
+  "opponents": [
+   "E.クイン",
+   "ティランテ",
+   "ルブレフ",
+   "ガリン"
+  ]
  }
 }

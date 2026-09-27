@@ -75,6 +75,35 @@
    "takizawa",
    "EARTHQ",
    "balod9l"
+  ],
+  "history": [
+   {
+    "date": "2026-07-27",
+    "opp": "Daxak Team",
+    "comp": "BetBoom Streamers Battle 14 グループ",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-07-28",
+    "opp": "avice Team",
+    "comp": "BetBoom Streamers Battle 14 グループ",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Daxak Team",
+    "comp": "BBSB15 プレーオフ UB準決勝",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   }
   ]
  },
  "right": {
@@ -139,6 +168,35 @@
    "Limitless",
    "Shishak",
    "Dabex"
+  ],
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "avice Team",
+    "comp": "BetBoom Streamers Battle 15 グループ",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Daxak Team",
+    "comp": "BetBoom Streamers Battle 15 グループ",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "avice Team",
+    "comp": "BBSB15 プレーオフ LB1回戦",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
   ]
  },
  "h2h": [],
@@ -173,7 +231,11 @@
   "https://esports.ru/dota-2/news/raspisanie-i-rezultaty-matchej-betboom-streamers-battle-15-po-dota-2/",
   "https://www.cybersport.ru/matches/dota-2/10098639",
   "https://escorenews.com/ru/dota-2/betboom-streamers-battle-15/playoff/avice-vs-cake-663391",
-  "https://www.cybersport.ru/tournaments/dota-2/betboom-streamers-battle-15"
+  "https://www.cybersport.ru/tournaments/dota-2/betboom-streamers-battle-15",
+  "https://cyber.sports.ru/dota2/1117313477-raspisanie-betboom-streamers-battle-14.html",
+  "https://cyber.sports.ru/dota2/1117173400-raspisanie-betboom-streamers-battle-13.html",
+  "https://www.cybersport.ru/tags/dota-2/komanda-daxak-obygrala-ybn-team-na-betboom-streamers-battle-14",
+  "https://www.cybersport.ru/tags/dota-2/sostav-voodoosh-i-cake-vyletel-iz-betboom-streamers-battle-14-ustupiv-rosteru-ns"
  ],
  "calc": {
   "left": {
@@ -233,13 +295,54 @@
   },
   "common": [
    {
+    "opp": "avice Team",
+    "left": [
+     {
+      "date": "2026-07-28",
+      "iso": "2026-07-28",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BetBoom Streamers Battle 14 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "2-0",
+      "res": "W",
+      "comp": "BBSB15 プレーオフ LB1回戦"
+     },
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "1-2",
+      "res": "L",
+      "comp": "BetBoom Streamers Battle 15 グループ"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝1敗"
+   },
+   {
     "opp": "Daxak Team",
     "left": [
      {
       "date": "2026-09-26",
       "iso": "2026-09-26",
       "score": "0-2",
-      "res": "L"
+      "res": "L",
+      "comp": "BBSB15 プレーオフ UB準決勝"
+     },
+     {
+      "date": "2026-07-27",
+      "iso": "2026-07-27",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BetBoom Streamers Battle 14 グループ"
      }
     ],
     "right": [
@@ -247,15 +350,27 @@
       "date": "2026-09-23",
       "iso": "2026-09-23",
       "score": "1-2",
-      "res": "L"
+      "res": "L",
+      "comp": "BetBoom Streamers Battle 15 グループ"
      }
     ],
     "edge": "right",
     "basis": "得失差",
-    "latest": "2026-09-26"
+    "latest": "2026-09-26",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:50:00+09:00",
+  "note": "期間内のBetBoom Streamers Battle 13（5/18-24）・14（7/27-8/2）・15（9/21-）を確認。Cake Teamは15のみ出場（14ではCakeはVooDooSh Teamの一員、13は不参加）、YBN Teamは14・15に出場（13は不参加）。YBNの14での対戦（7月）はストリーマー名義チームのため15とメンバーが異なる可能性あり。",
+  "opponents": [
+   "Daxak Team",
+   "avice Team"
+  ]
  }
 }

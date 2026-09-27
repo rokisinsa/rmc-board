@@ -12,7 +12,8 @@
   "form": [],
   "lineup": [
    "ロスター情報は取得できず"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "For Fun",
@@ -30,7 +31,8 @@
   ],
   "lineup": [
    "ロスター情報は取得できず"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "venue": "オンライン（ESforce主催 BETBOOM 杯予選）",
@@ -61,7 +63,12 @@
   "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-nachala-s-pobedy-vystupleniye-v-zakrytoi-kvalifikatsii-na-betboom",
   "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-sygrayet-s-ghost-squad-v-chetvertfinale-kvalifikatsii-na-final",
   "https://www.cybersport.ru/tags/mir-tankov/esforce-anonsiroval-daty-otkrytykh-kvalifikatsii-betboom-kubok-chempionov-2026",
-  "https://plitur.ru/betboom_kubok_chempionov_2026"
+  "https://plitur.ru/betboom_kubok_chempionov_2026",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-4-divizion-3",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-4-divizion-2",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-3-divizion-2",
+  "https://www.cybersport.ru/tournaments/mir-tankov/betboom-bitva-chempionov-split-3-divizion-3",
+  "https://www.cybersport.ru/tags/mir-tankov/for-fun-oderzhala-vosmuyu-pobedu-v-tretem-divizione-betboom-bitvy-chempionov"
  ],
  "calc": {
   "left": {
@@ -107,7 +114,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T01:20:00+09:00",
+  "note": "Sub3の2026-04〜09の公式戦記録がcybersport.ru・Web検索で見つからず（BoC スプリット3 第2/第3、スプリット4 第2/第3ディビジョンに不在。BBKC2026予選9/26の初戦も未取得）。For funはスプリット4第3ディビジョン（6/27〜8/11、For fun首位）で対戦記録ありだが、Sub3側の記録がないため共通の相手は特定できず。",
+  "opponents": []
  }
 }

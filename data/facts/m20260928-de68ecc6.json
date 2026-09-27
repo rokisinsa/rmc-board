@@ -89,6 +89,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-06",
+    "opp": "ピョトルコヴィアニン",
+    "comp": "スーパーリーガ 第1節",
+    "score": "29-21",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -178,6 +187,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-04-29",
+    "opp": "ピョトルコヴィアニン",
+    "comp": "スーパーリーガ 25/26 下位ステージ第2節",
+    "score": "28-27",
+    "res": "W"
+   }
   ]
  },
  "h2h": [
@@ -231,7 +249,9 @@
  "source_urls": [
   "https://www.betexplorer.com/handball/team/slask-wroclaw/YyaCfwJG/results/",
   "https://www.betexplorer.com/handball/team/gwardia-opole/MDbYGLuO/results/",
-  "https://www.betexplorer.com/handball/poland/superliga/slask-wroclaw-gwardia-opole/OEUus92E/"
+  "https://www.betexplorer.com/handball/poland/superliga/slask-wroclaw-gwardia-opole/OEUus92E/",
+  "https://www.betexplorer.com/handball/team/slask-wroclaw/YyaCfwJG/",
+  "https://www.betexplorer.com/handball/team/gwardia-opole/MDbYGLuO/"
  ],
  "calc": {
   "left": {
@@ -287,8 +307,43 @@
    "avg_left": 20.6,
    "avg_right": 27.2
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ピョトルコヴィアニン",
+    "left": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "29-21",
+      "res": "W",
+      "comp": "スーパーリーガ 第1節"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-04-29",
+      "iso": "2026-04-29",
+      "score": "28-27",
+      "res": "W",
+      "comp": "スーパーリーガ 25/26 下位ステージ第2節"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-06",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:50:00+09:00",
+  "note": "シロンスクは25/26が2部(Central League)のため4〜5月の相手が重ならず、共通相手は26/27開幕後のみ。betexplorerチームページと既存formで確認。グワルディアの25/26 ピョトルコヴィアニン戦27-25は日付未確認のため除外。",
+  "opponents": [
+   "ピョトルコヴィアニン"
+  ]
  }
 }

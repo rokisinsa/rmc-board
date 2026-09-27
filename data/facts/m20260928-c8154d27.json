@@ -90,6 +90,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-05",
+    "opp": "ジェルジョー",
+    "comp": "ルーマニア杯 グループB",
+    "score": "3-5",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -183,6 +192,15 @@
   ],
   "lineup": [
    "先発・欠場情報は見つからず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-25",
+    "opp": "ジェルジョー",
+    "comp": "Erste Liga 2026/27",
+    "score": "0-10",
+    "res": "L"
+   }
   ]
  },
  "h2h": [
@@ -268,7 +286,9 @@
  "source_urls": [
   "https://www.betexplorer.com/hockey/team/miercurea-ciuc-csikszereda/YNaMFgCa/results/",
   "https://www.betexplorer.com/hockey/team/dunaujvarosi/hthnrxZ2/results/",
-  "https://www.betexplorer.com/hockey/hungary/erste-liga/miercurea-ciuc-csikszereda-dunaujvarosi/jVa3HIV8/"
+  "https://www.betexplorer.com/hockey/hungary/erste-liga/miercurea-ciuc-csikszereda-dunaujvarosi/jVa3HIV8/",
+  "https://www.betexplorer.com/hockey/hungary/erste-liga/results/",
+  "https://www.betexplorer.com/hockey/hungary/erste-liga-2025-2026/results/"
  ],
  "calc": {
   "left": {
@@ -332,7 +352,8 @@
       "date": "2026-09-05",
       "iso": "2026-09-05",
       "score": "3-5",
-      "res": "L"
+      "res": "L",
+      "comp": "ルーマニア杯 グループB"
      }
     ],
     "right": [
@@ -340,15 +361,26 @@
       "date": "2026-09-25",
       "iso": "2026-09-25",
       "score": "0-10",
-      "res": "L"
+      "res": "L",
+      "comp": "Erste Liga 本戦"
      }
     ],
     "edge": "left",
     "basis": "得失差",
-    "latest": "2026-09-25"
+    "latest": "2026-09-25",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "Erste Liga 25/26（DABは2月、チークは3/16で敗退）と26/27の9/18〜9/25、チークのルーマニア杯を確認。DABのタトラ杯はプレシーズン大会のため除外。ルーマニア国内選手権・ハンガリー国内杯の4月以降の試合は未確認。",
+  "opponents": [
+   "ジェルジョー"
+  ]
  }
 }

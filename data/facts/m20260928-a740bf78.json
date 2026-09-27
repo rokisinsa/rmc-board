@@ -6,14 +6,68 @@
   "ranking": "BWFランキング情報は確認できず",
   "form": [],
   "form_summary": "直近の試合結果ソースが見つからず不明",
-  "lineup": []
+  "lineup": [],
+  "history": [
+   {
+    "date": "2026-06-07",
+    "opp": "福島由紀/松本麻佑（日本）",
+    "comp": "インドネシアOP 2026 決勝",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "15-21 21-18 18-21"
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "福島由紀/松本麻佑（日本）",
+    "comp": "中国OP 2026 決勝",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-14 21-19"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "ジョリー/ゴピチャンド（インド）",
+    "comp": "BWF世界選手権2026 準決勝",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "18-21 21-13 21-8"
+   }
+  ]
  },
  "right": {
   "name": "Tan/Muralitharan",
   "ranking": "BWFランキング情報は確認できず",
   "form": [],
   "form_summary": "直近の試合結果ソースが見つからず不明",
-  "lineup": []
+  "lineup": [],
+  "history": [
+   {
+    "date": "2026-07-24",
+    "opp": "福島由紀/松本麻佑（日本）",
+    "comp": "中国OP 2026 準々決勝",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "16-21 16-21"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "ジョリー/ゴピチャンド（インド）",
+    "comp": "アジア大会 WD 準々決勝",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-18 21-9"
+   }
+  ]
  },
  "h2h": [],
  "h2h_summary": "対戦成績は確認できず",
@@ -73,8 +127,85 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ジョリー/ゴピチャンド（インド）",
+    "left": [
+     {
+      "date": "2026-08-22",
+      "iso": "2026-08-22",
+      "score": "2-1",
+      "res": "W",
+      "comp": "BWF世界選手権2026 準決勝"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "2-0",
+      "res": "W",
+      "comp": "アジア大会 WD 準々決勝"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "福島由紀/松本麻佑（日本）",
+    "left": [
+     {
+      "date": "2026-07-26",
+      "iso": "2026-07-26",
+      "score": "2-0",
+      "res": "W",
+      "comp": "中国OP 2026 決勝"
+     },
+     {
+      "date": "2026-06-07",
+      "iso": "2026-06-07",
+      "score": "1-2",
+      "res": "L",
+      "comp": "インドネシアOP 2026 決勝"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-07-24",
+      "iso": "2026-07-24",
+      "score": "0-2",
+      "res": "L",
+      "comp": "中国OP 2026 準々決勝"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-07-26",
+    "left_rec": "1勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:45:00+09:00",
+  "note": "Liu/Tan＝劉聖書/譚寧（中国）、Tan/Muralitharan＝パーリー・タン/ティナー（マレーシア）と判断。福島/松本の2026年全試合（TakeoriLab）・世界選手権QF/SF記事・The Star/Bernama報道から照合。日本ペアが絡まない早期ラウンドは網羅できていない（パーリー/ティナーは5-7月に約2か月の負傷離脱）。",
+  "opponents": [
+   "福島由紀/松本麻佑（日本）",
+   "ジョリー/ゴピチャンド（インド）"
+  ]
+ },
+ "source_urls": [
+  "https://takeorilab.ybcjr.com/en/senshu/fukushima-matsumoto/",
+  "https://snesports.co/china-open-2026-pearly-thinaah-bow-out-in-quarter-finals/",
+  "https://www.badmintonplanet.com/badminton-news/an-se-young-akane-yamaguchi-2026-world-championships-final.html",
+  "https://www.thestar.com.my/sport/badminton/2026/09/27/pearly-thinaah-book-asian-games-semis-spot-secure-bronze",
+  "https://www.bernama.com/en/sports/news.php?id=2612380",
+  "https://en.wikipedia.org/wiki/Liu_Shengshu"
+ ]
 }

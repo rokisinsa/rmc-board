@@ -218,8 +218,8 @@ def check_facts(rep, matches):
         if mid not in matches:
             rep.err("FACTS_MATCH", f"{mid}: facts に対応する試合がない")
         for side in ("left", "right"):
-            if not isinstance(x.get(side), dict) or not isinstance(x[side].get("form", []), list):
-                rep.err("FACTS_SHAPE", f"{mid}: {side}.form は1試合1行のリストにする（docs/FACTS_SPEC.md）")
+            if not isinstance(x.get(side), dict) or not isinstance(x[side].get("form", []), list) or not isinstance(x[side].get("history", []), list):
+                rep.err("FACTS_SHAPE", f"{mid}: {side}.form / history は1試合1行のリストにする（docs/FACTS_SPEC.md）")
         if not isinstance(x.get("h2h", []), list):
             rep.err("FACTS_SHAPE", f"{mid}: h2h は1試合1行のリストにする")
         from .facts import enrich

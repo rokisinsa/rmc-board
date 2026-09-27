@@ -91,6 +91,15 @@
   "lineup": [
    "J.ムボング出場停止明け、カメンズーリ負傷から復帰、ガルツィア欠場",
    "アンドラ戦先発: カルドナ, シュアレフ, P.ムボング, テウマ"
+  ],
+  "history": [
+   {
+    "date": "2026-09-24",
+    "opp": "アンドラ",
+    "comp": "UEFAネーションズリーグ",
+    "score": "2-1",
+    "res": "W"
+   }
   ]
  },
  "right": {
@@ -181,6 +190,15 @@
   "lineup": [
    "ビュッヘル、ハスラー復帰",
    "初招集: アルゴイアー、ロ・ルッソ"
+  ],
+  "history": [
+   {
+    "date": "2026-06-04",
+    "opp": "アンドラ",
+    "comp": "国際親善試合",
+    "score": "0-2",
+    "res": "L"
+   }
   ]
  },
  "h2h": [
@@ -241,7 +259,11 @@
   "https://www.11v11.com/teams/malta/tab/matches/season/2026/",
   "https://www.11v11.com/teams/malta/tab/matches/season/2027/",
   "https://www.11v11.com/teams/liechtenstein/tab/matches/season/2026/",
-  "https://www.11v11.com/teams/malta/tab/opposingTeams/opposition/Liechtenstein/"
+  "https://www.11v11.com/teams/malta/tab/opposingTeams/opposition/Liechtenstein/",
+  "https://www.national-football-teams.com/country/117/2026/Malta.html",
+  "https://www.national-football-teams.com/country/107/2026/Liechtenstein.html",
+  "https://www.national-football-teams.com/country/5/2026/Andorra.html",
+  "https://www.eloratings.net/2026_results.tsv"
  ],
  "calc": {
   "left": {
@@ -297,8 +319,43 @@
    "avg_left": 2.7,
    "avg_right": 0.5
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "アンドラ",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "2-1",
+      "res": "W",
+      "comp": "UEFAネーションズリーグ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-06-04",
+      "iso": "2026-06-04",
+      "score": "0-2",
+      "res": "L",
+      "comp": "国際親善試合"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-24",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:22:00+09:00",
+  "note": "マルタ（04-01〜09-27）: スロバキア、アゼルバイジャン、アンドラ。リヒテンシュタイン: アンドラ、キプロス、リトアニア(09-24 UNL 0-2)。共通はアンドラのみ。",
+  "opponents": [
+   "アンドラ"
+  ]
  }
 }

@@ -16,6 +16,36 @@
   "form_summary": "予選プールAはここまで3勝1敗（直近はインドに0-2で敗戦）。本戦はプールA最終戦",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-20",
+    "opp": "スリランカ",
+    "comp": "アジア大会 予選プールA",
+    "score": "9-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "バングラデシュ",
+    "comp": "アジア大会 予選プールA",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "インドネシア",
+    "comp": "アジア大会 予選プールA",
+    "score": "12-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "インド",
+    "comp": "アジア大会 予選プールA",
+    "score": "0-2",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -25,6 +55,36 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-18",
+    "opp": "バングラデシュ",
+    "comp": "アジア大会 予選プールA",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "インドネシア",
+    "comp": "アジア大会 予選プールA",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "インド",
+    "comp": "アジア大会 予選プールA",
+    "score": "2-8",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "スリランカ",
+    "comp": "アジア大会 予選プールA",
+    "score": "5-0",
+    "res": "W"
+   }
   ]
  },
  "h2h": [],
@@ -89,8 +149,131 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "インド",
+    "left": [
+     {
+      "date": "9/26",
+      "iso": "2026-09-26",
+      "score": "0-2",
+      "res": "L",
+      "comp": null
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "2-8",
+      "res": "L",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "スリランカ",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "9-0",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "5-0",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "インドネシア",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "12-1",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "5-0",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-24",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "バングラデシュ",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "6-1",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "5-0",
+      "res": "W",
+      "comp": "アジア大会 予選プールA"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-22",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "アジア大会（愛知・名古屋）男子プールAの両国4試合を確認（日本の得失差+23・韓国+9と整合）。4〜8月の国際大会（FIHネーションズカップ等）での両国の試合は未確認。",
+  "opponents": [
+   "インド",
+   "インドネシア",
+   "バングラデシュ",
+   "スリランカ"
+  ]
+ },
+ "source_urls": [
+  "https://khelnow.com/asian-games/hockey-schedule-results-asian-games-202609",
+  "https://www.newspim.com/news/view/20260926000137",
+  "https://www.segye.com/newsView/20260926506627",
+  "https://news.sbs.co.kr/english/article.do?news_id=N1008765808",
+  "https://www.aninews.in/news/sports/hockey/asian-games-2026-india-beat-japan-2-0-to-seal-semi-final-berth20260926153810/"
+ ]
 }

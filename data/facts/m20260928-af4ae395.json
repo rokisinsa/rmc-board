@@ -23,6 +23,15 @@
   "form_summary": "確認できた直近2試合は1勝1敗（9/4にフィラッハへ4-3で勝利、直近はリンツに3-4で敗戦）",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-25",
+    "opp": "クラーゲンフルト",
+    "comp": "ICEホッケーリーグ 2026/27",
+    "score": "3-7",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -76,6 +85,15 @@
   "form_summary": "直近7試合2勝5敗と苦しい立ち上がり（直近はザルツブルクに4-2で勝利）",
   "lineup": [
    "先発・欠場情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-23",
+    "opp": "クラーゲンフルト",
+    "comp": "ICEホッケーリーグ 2026/27",
+    "score": "1-6",
+    "res": "L"
+   }
   ]
  },
  "h2h": [
@@ -155,8 +173,47 @@
    "avg_left": 4.0,
    "avg_right": 3.0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "クラーゲンフルト",
+    "left": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "3-7",
+      "res": "L",
+      "comp": "ICEホッケーリーグ 2026/27"
+     }
+    ],
+    "right": [
+     {
+      "date": "9/23",
+      "iso": "2026-09-23",
+      "score": "1-6",
+      "res": "L",
+      "comp": null
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-25",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "ICEHL 26/27（9/18〜9/25）と25/26プレーオフ（オリンピヤは4/7の準決勝敗退まで、フィラッハは4/1以降の試合なし）を確認。9月初旬のオリンピヤ対フィラッハ・リンツ戦などプレシーズン親善試合は除外。",
+  "opponents": [
+   "クラーゲンフルト"
+  ]
+ },
+ "source_urls": [
+  "https://www.betexplorer.com/hockey/austria/ice-hockey-league/results/",
+  "https://www.betexplorer.com/hockey/austria/ice-hockey-league-2025-2026/results/"
+ ]
 }

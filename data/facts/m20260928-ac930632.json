@@ -115,7 +115,8 @@
    "puni",
    "vinaabEAST",
    "proSHOW"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "MIRA",
@@ -150,7 +151,8 @@
    "bacc",
    "fokiu",
    "reNTU"
-  ]
+  ],
+  "history": []
  },
  "h2h": [],
  "venue": "オンライン（南米）",
@@ -245,7 +247,13 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:25:00+09:00",
+  "note": "MIRAのHLTV記録は2026-04-01以降でCCT SA 2026 Series #6の2試合（MEIA NOITE 2-1、Peladona 不戦勝）のみで、ALKAの2026-04-01〜09-27の記録（HLTVページ＋facts）にMEIA NOITE・Peladonaとの対戦がないため共通の相手なし。ALKAのHLTVページは08-30以降が未反映（9月分はfacts・対戦相手側ページで確認）。",
+  "opponents": []
  }
 }

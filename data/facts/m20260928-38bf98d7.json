@@ -6,14 +6,16 @@
   "ranking": "Tennis Abstract Elo 77位 総合1761.8・ハード1721.3（ATP自己都合でチャレンジャー出場、ATP公式順位は未取得）",
   "form": [],
   "form_summary": "未取得",
-  "lineup": []
+  "lineup": [],
+  "history": []
  },
  "right": {
   "name": "ホルムグレン",
   "ranking": "Tennis Abstract Eloリストに掲載なし（ATP公式順位は未取得）",
   "form": [],
   "form_summary": "未取得",
-  "lineup": []
+  "lineup": [],
+  "history": []
  },
  "h2h": [],
  "h2h_summary": "対戦記録は見つからず",
@@ -75,7 +77,17 @@
    "draw": 0
   },
   "common": [],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "tennisexplorerでボンジは4/4〜5/24（全仏1回戦）まで、ホルムグレンは4/8（Wuning CH）までしか掲載がなく、両者とも6〜9月が欠落。取得できた範囲では共通の相手なし。",
+  "opponents": []
+ },
+ "source_urls": [
+  "https://www.tennisexplorer.com/player/bonzi-a38fa/?annual=2026",
+  "https://www.tennisexplorer.com/player/holmgren-a5794/?annual=2026"
+ ]
 }

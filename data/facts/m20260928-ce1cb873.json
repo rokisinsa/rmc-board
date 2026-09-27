@@ -20,6 +20,28 @@
   ],
   "lineup": [
    "ルーカスではなくヒューゴ・グルニエ"
+  ],
+  "history": [
+   {
+    "date": "2026-08-26",
+    "opp": "S.バエス",
+    "comp": "ATPウィンストンセーラム 2回戦",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "5-7 6-7(2)"
+   },
+   {
+    "date": "2026-06-22",
+    "opp": "J.ファリア",
+    "comp": "ウィンブルドン 予選1回戦",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 3-6"
+   }
   ]
  },
  "right": {
@@ -52,6 +74,28 @@
   "lineup": [
    "ポルトはワイルドカード出場（Raquetc）",
    "2週連続チャレンジャー出場"
+  ],
+  "history": [
+   {
+    "date": "2026-08-14",
+    "opp": "S.バエス",
+    "comp": "シンシナティ 1回戦",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-1 3-6 4-6"
+   },
+   {
+    "date": "2026-05-19",
+    "opp": "J.ファリア",
+    "comp": "全仏OP 予選1回戦",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-3 5-7 6-7(6)"
+   }
   ]
  },
  "h2h": [],
@@ -74,7 +118,9 @@
   "https://tennistonic.com/tennis-news/1056961/edas-butvilas-surprises-dimitrov-in-the-1st-round-st-tropez-challenger-results-highlights/",
   "https://www.espn.com/tennis/player/results/_/id/3212/alejandro-davidovich-fokina",
   "https://www.raquetc.com/2026/09/27/eupago-porto-open-reune-dimitrov-cinco-top-100-e-nata-da-casa-numa-semana-de-luxo",
-  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.tennisexplorer.com/player/grenier-baaf0/?annual=2026",
+  "https://www.tennisexplorer.com/player/dimitrov-779bc/?annual=2026"
  ],
  "calc": {
   "left": {
@@ -132,8 +178,70 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "S.バエス",
+    "left": [
+     {
+      "date": "2026-08-26",
+      "iso": "2026-08-26",
+      "score": "0-2",
+      "res": "L",
+      "comp": "ATPウィンストンセーラム 2回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-14",
+      "iso": "2026-08-14",
+      "score": "1-2",
+      "res": "L",
+      "comp": "シンシナティ 1回戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-08-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "J.ファリア",
+    "left": [
+     {
+      "date": "2026-06-22",
+      "iso": "2026-06-22",
+      "score": "0-2",
+      "res": "L",
+      "comp": "ウィンブルドン 予選1回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-05-19",
+      "iso": "2026-05-19",
+      "score": "1-2",
+      "res": "L",
+      "comp": "全仏OP 予選1回戦"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-06-22",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "グルニエ（Hugo Grenier）はtennisexplorerで5/11〜9/1掲載（サントロペのフォレル戦は同ページ未掲載）。ディミトロフは4/7〜9/22を網羅（全米予選3回戦ビルタネン戦はスコアなし）。",
+  "opponents": [
+   "S.バエス",
+   "J.ファリア"
+  ]
  }
 }

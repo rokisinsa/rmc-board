@@ -8,6 +8,18 @@
   "form_summary": "未取得",
   "lineup": [
    "1回戦でゴファンと対戦することが確定（ドロー確認済み）"
+  ],
+  "history": [
+   {
+    "date": "2026-07-30",
+    "opp": "ラヤル",
+    "comp": "バンクーバーCH R16",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(3) 5-7"
+   }
   ]
  },
  "right": {
@@ -17,6 +29,18 @@
   "form_summary": "未取得",
   "lineup": [
    "オルタネート枠での出場、1回戦でシデク（第7シード）と対戦"
+  ],
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "ラヤル",
+    "comp": "サントロペCH R1",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 4-6"
+   }
   ]
  },
  "h2h": [],
@@ -79,8 +103,48 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "ラヤル",
+    "left": [
+     {
+      "date": "2026-07-30",
+      "iso": "2026-07-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "バンクーバーCH R16"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "0-2",
+      "res": "L",
+      "comp": "サントロペCH R1"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-21",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:35:00+09:00",
+  "note": "シデクはtennisexplorerで4〜9月ほぼ網羅。ゴファンのページは6/22（ウィンブルドン予選）以降が欠落しており、7〜9月の試合は未取得（サントロペのラヤル戦はラヤル側ページから採録）。",
+  "opponents": [
+   "ラヤル"
+  ]
+ },
+ "source_urls": [
+  "https://www.tennisexplorer.com/player/chidekh/?annual=2026",
+  "https://www.tennisexplorer.com/player/goffin/?annual=2026",
+  "https://www.tennisexplorer.com/player/lajal/?annual=2026"
+ ]
 }

@@ -20,6 +20,28 @@
   ],
   "lineup": [
    "アジア大会XDトップシード"
+  ],
+  "history": [
+   {
+    "date": "2026-08-20",
+    "opp": "渡辺勇大/田口真彩（日本）",
+    "comp": "BWF世界選手権2026 3回戦",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-19 21-18"
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "渡辺勇大/田口真彩（日本）",
+    "comp": "中国マスターズ 2026 1回戦",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "21-9 19-21 27-25"
+   }
   ]
  },
  "right": {
@@ -59,6 +81,18 @@
   ],
   "lineup": [
    "アムリ・シャーナウィ/ニタ・ビオリナ・マルワ"
+  ],
+  "history": [
+   {
+    "date": "2026-09-25",
+    "opp": "渡辺勇大/田口真彩（日本）",
+    "comp": "アジア大会 XD 2回戦",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "9-21 21-18 21-15"
+   }
   ]
  },
  "h2h": [
@@ -94,7 +128,11 @@
   "https://bwfbadminton.com/news-single/2026/09/25/asian-games-defending-champs-tumble-out",
   "https://en.wikipedia.org/wiki/Amri_Syahnawi",
   "https://www.youtube.com/watch?v=wvi44OUp27k",
-  "https://en.wikipedia.org/wiki/Badminton_at_the_2026_Asian_Games_%E2%80%93_Mixed_doubles"
+  "https://en.wikipedia.org/wiki/Badminton_at_the_2026_Asian_Games_%E2%80%93_Mixed_doubles",
+  "https://takeorilab.ybcjr.com/en/senshu/watanabe-taguchi/",
+  "https://sport.detik.com/juara-olahraga-asia-2026/raket/d-8679055/hasil-asian-games-2026-amri-nita-maju-ke-perempatfinal",
+  "https://pbsi.id/2026/09/26/asian-games-2026-amri-nita-melaju-ke-perempatfinal/",
+  "https://www.badmintonplanet.com/badminton-news/2026-world-championships-semifinals-an-se-young.html"
  ],
  "calc": {
   "left": {
@@ -165,8 +203,57 @@
    "inner_right": 56,
    "inner_games": 1
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "渡辺勇大/田口真彩（日本）",
+    "left": [
+     {
+      "date": "2026-09-01",
+      "iso": "2026-09-01",
+      "score": "2-1",
+      "res": "W",
+      "comp": "中国マスターズ 2026 1回戦"
+     },
+     {
+      "date": "2026-08-20",
+      "iso": "2026-08-20",
+      "score": "2-0",
+      "res": "W",
+      "comp": "BWF世界選手権2026 3回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "2-1",
+      "res": "W",
+      "comp": "アジア大会 XD 2回戦"
+     },
+     {
+      "date": "2026-09-2x",
+      "iso": "2026-09-02",
+      "score": "2-1",
+      "res": "W",
+      "comp": "アジア大会 XD 2回戦"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-25",
+    "left_rec": "2勝0敗",
+    "right_rec": "2勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:45:00+09:00",
+  "note": "渡辺/田口の2026年全試合（TakeoriLab）と世界選手権QF・SF、アジア大会の報道から照合。両ペアの世界選手権SF（直接対戦）は除外。日本ペアが絡まない試合（例：馮/黄の豪州OP・日本OP優勝時の各ラウンド、シャーナウィ/マルワのツアー戦）は網羅できていない。",
+  "opponents": [
+   "渡辺勇大/田口真彩（日本）"
+  ]
  }
 }

@@ -8,6 +8,15 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "ロスター情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "中国",
+    "comp": "アジア大会 グループB",
+    "score": "8-12",
+    "res": "L"
+   }
   ]
  },
  "right": {
@@ -17,6 +26,23 @@
   "form_summary": "直近の試合結果ソースが見つからず不明",
   "lineup": [
    "ロスター情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-26",
+    "opp": "中国",
+    "comp": "アジア大会 グループB",
+    "score": "15-14",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "シンガポール",
+    "comp": "アジア大会 グループB",
+    "score": "16-18",
+    "res": "L",
+    "detail": "正規14-14、PS負け"
+   }
   ]
  },
  "h2h": [],
@@ -77,8 +103,49 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
-  "common_window_days": 50,
+  "common": [
+   {
+    "opp": "中国",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "8-12",
+      "res": "L",
+      "comp": "アジア大会 グループB"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "15-14",
+      "res": "W",
+      "comp": "アジア大会 グループB"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
- }
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:28:00+09:00",
+  "note": "アジア大会グループBのみ確認。イランの初戦シンガポール戦は勝利と複数報道があるがスコア・日付を取得できず行に含めていない。4〜8月の国際大会（世界選手権予選等）は未確認。",
+  "opponents": [
+   "中国",
+   "シンガポール"
+  ]
+ },
+ "source_urls": [
+  "https://fa.shafaqna.com/news/2366718/",
+  "https://news.sbs.co.kr/english/article.do?news_id=N1008770873",
+  "https://www.spotvnews.co.kr/news/articleView.html?idxno=1009850"
+ ]
 }

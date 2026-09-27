@@ -113,6 +113,71 @@
   "lineup": [
    "Swisher, JBa, Lake, slaxz-, s1n（コーチ dephh）",
    "変更報道なし"
+  ],
+  "history": [
+   {
+    "date": "2026-09-26",
+    "opp": "Voca",
+    "comp": "iBUYPOWER Masters FML 2026 グループB",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Aurora",
+    "comp": "BLAST Open Porto 2026",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "FURIA",
+    "comp": "BLAST Open Porto 2026",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-13",
+    "opp": "Aurora",
+    "comp": "Esports World Cup 2026",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-07-12",
+    "opp": "Voca",
+    "comp": "Circuit X BLAST Open Porto 2026 North America Rising Event",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-05-29",
+    "opp": "Voca",
+    "comp": "ESL Challenger League Season 51 North America Finals (Bo5)",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-05-04",
+    "opp": "Wildcard",
+    "comp": "Thunderpick World Championship 2026 North America",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
   ]
  },
  "right": {
@@ -216,6 +281,44 @@
   "lineup": [
    "gafolo, koala, maxxkor, rdnzao, doc（コーチ coachi）",
    "変更報道なし"
+  ],
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "Wildcard",
+    "comp": "iBUYPOWER Masters FML 2026 準決勝",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Voca",
+    "comp": "iBUYPOWER Masters FML 2026 グループB",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "Aurora",
+    "comp": "BLAST Open Porto 2026",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-07-24",
+    "opp": "FURIA",
+    "comp": "BLAST Bounty 2026 Season 2",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   }
   ]
  },
  "h2h": [
@@ -264,7 +367,8 @@
   "https://www.hltv.org/matches/2398298/dendele-vs-wildcard-ibuypower-masters-fml-2026",
   "https://www.hltv.org/results?team=12376",
   "https://www.hltv.org/team/13926/dendele",
-  "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026"
+  "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026",
+  "https://www.hltv.org/results?team=13926"
  ],
  "calc": {
   "left": {
@@ -337,13 +441,54 @@
   },
   "common": [
    {
+    "opp": "Wildcard",
+    "left": [
+     {
+      "date": "2026-05-04",
+      "iso": "2026-05-04",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Thunderpick World Championship 2026 North America"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "1-2",
+      "res": "L",
+      "comp": "iBUYPOWER Masters FML 2026 準決勝"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
     "opp": "Voca",
     "left": [
      {
       "date": "2026-09-26",
       "iso": "2026-09-26",
       "score": "2-0",
-      "res": "W"
+      "res": "W",
+      "comp": "iBUYPOWER Masters FML 2026 グループB"
+     },
+     {
+      "date": "2026-07-12",
+      "iso": "2026-07-12",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Circuit X BLAST Open Porto 2026 North America Rising Event"
+     },
+     {
+      "date": "2026-05-29",
+      "iso": "2026-05-29",
+      "score": "3-1",
+      "res": "W",
+      "comp": "ESL Challenger League Season 51 North America Finals (Bo5)"
      }
     ],
     "right": [
@@ -351,15 +496,88 @@
       "date": "2026-09-25",
       "iso": "2026-09-25",
       "score": "2-0",
-      "res": "W"
+      "res": "W",
+      "comp": "iBUYPOWER Masters FML 2026 グループB"
      }
     ],
     "edge": "even",
     "basis": null,
-    "latest": "2026-09-26"
+    "latest": "2026-09-26",
+    "left_rec": "3勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Aurora",
+    "left": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BLAST Open Porto 2026"
+     },
+     {
+      "date": "2026-08-13",
+      "iso": "2026-08-13",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Esports World Cup 2026"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-28",
+      "iso": "2026-08-28",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BLAST Open Porto 2026"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-08-30",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "FURIA",
+    "left": [
+     {
+      "date": "2026-08-28",
+      "iso": "2026-08-28",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BLAST Open Porto 2026"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-07-24",
+      "iso": "2026-07-24",
+      "score": "2-1",
+      "res": "W",
+      "comp": "BLAST Bounty 2026 Season 2"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-08-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
    }
   ],
-  "common_window_days": 50,
+  "common_window_days": 180,
   "common_ref_date": "2026-09-28"
+ },
+ "common_window": {
+  "days": 180,
+  "data_as_of": "2026-09-28T00:25:00+09:00",
+  "note": "HLTVチーム別results（M80・DENDELE）で2026-04-01〜09-27を確認。DENDELEのHLTV記録は2026-07-24以降のみ（それ以前の同ロスター戦績は未確認）。日付はHLTV表示（M80のLiquid戦は9/27表示）。",
+  "opponents": [
+   "Voca",
+   "Aurora",
+   "FURIA",
+   "Wildcard"
+  ]
  }
 }
