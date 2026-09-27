@@ -15,6 +15,7 @@ def get(url):
 def main():
     os.makedirs(OUT, exist_ok=True)
     if "--sample" in sys.argv:
+      try:
         d = dt.datetime.now(JST)
         lst = get(f"https://www.tennisexplorer.com/matches/?type=all&year={d.year}&month={d.month:02d}&day={d.day:02d}")
         open(os.path.join(OUT, "_sample_list.html"), "w").write(lst)
@@ -22,6 +23,9 @@ def main():
         if ids:
             open(os.path.join(OUT, "_sample_detail.html"), "w").write(get(f"https://www.tennisexplorer.com/match-detail/?id={ids[0]}"))
         print("sample saved", len(lst), len(ids)); return 0
+      except Exception as e:
+        json.dump(dict(error=f"{type(e).__name__}: {e}"[:300]), open(os.path.join(OUT, "_sample_status.json"), "w"))
+        return 1
     return 0
 
 
