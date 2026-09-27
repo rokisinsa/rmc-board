@@ -1,0 +1,533 @@
+# RMC 定時更新チェックリスト（完全版）
+
+ユーザー指定の原文そのまま。各定時更新（06:00／12:00／18:00／23:00 JST）で41項目すべてを確認し、結果を `data/automation-runs.json` の `checklist`（"01"〜"41": true/false と `checklist_notes`）に記録する。1つでも false なら run の status は `partial` か `failed`（`complete` にしない）。
+
+```
+完全版で出す。今後の6:00／12:00／18:00／23:00 JST のRMC定時更新では、下の項目を毎回すべてチェック対象にする。1つでも必須項目が未完了なら「完全更新成功」扱いにしない。
+1. 定時更新の起動確認
+   - 06:00／12:00／18:00／23:00 JSTの4回。
+   - 実行時刻・run_id・開始SHAを記録。
+   - 前回更新が正常終了しているか確認。
+   - 前回の未解決blocker・pending reviewがあれば引き継ぐ。
+2. BET CHANNELの最新インベントリ確認
+   - BET CHANNELを基準サイトとして全メニューを取得。
+   - 親カテゴリだけでなくサブカテゴリまで確認。
+   - 「もっと試合を表示」等があれば最後まで展開。
+   - 全リーグ・全大会・全イベント・全市場を取得。
+   - event_id／match_id／開始日時／大会名／対戦カード／市場／選択肢／オッズを取得。
+   - メニュー終端まで取得できたか確認。
+   - event_count = event_ids.length を確認。
+   - 重複event_idが0件か確認。
+   - インベントリ取得時刻が古くないか確認。
+   - 取得失敗カテゴリが0件か確認。
+   - 新しく追加された未知カテゴリも自動対象。
+   - 固定競技リストだけで終了しない。
+3. 他サイトの補助確認
+   - カジ旅。
+   - bet365。
+   - 優雅堂。
+   - 利用可能な場合は市場・オッズをクロスチェック。
+   - ログイン等で確認不能なら「確認不能」と記録。
+   - 確認不能なのに推測値を入れない。
+4. リアルスポーツ全種目の走査
+   - サッカー。
+   - 女子サッカー。
+   - ユースサッカー。
+   - 代表戦。
+   - クラブ戦。
+   - 下部リーグ。
+   - 野球。
+   - バスケットボール。
+   - バレーボール。
+   - ハンドボール。
+   - ホッケー。
+   - アイスホッケー。
+   - 水球。
+   - テニス。
+   - 卓球。
+   - バドミントン。
+   - ラグビー。
+   - クリケット。
+   - アメフト。
+   - フットサル。
+   - ボクシング。
+   - MMA・その他格闘技。
+   - スヌーカー／ビリヤード。
+   - ダーツ。
+   - モータースポーツ。
+   - その他その日に掲載されている全競技。
+   - 「今日はこの競技を見る必要がなさそう」で飛ばさない。
+5. eスポーツ全タイトルの走査
+   - eSports Hub等の親カテゴリ自体も確認。
+   - Counter-Strike／CS2。
+   - VALORANT。
+   - Dota 2。
+   - League of Legends。
+   - Rainbow Six Siege。
+   - Honor of Kings／King of Glory。
+   - World of Tanks。
+   - EA SPORTS FC 26／FC26系。
+   - NBA 2K26／eBasketball。
+   - Fortnite。
+   - StarCraft／StarCraft II。
+   - Overwatch 2。
+   - Rocket League。
+   - Call of Duty。
+   - PUBG／PUBG Mobile。
+   - Mobile Legends: Bang Bang。
+   - Arena of Valor。
+   - Warcraft系。
+   - Hearthstone。
+   - Halo。
+   - その他その日にBET CHANNEL等に存在する全タイトル。
+   - 新規タイトル・未知タイトルも対象。
+   - 略称や表記揺れを正規化して同一タイトルとして管理。
+6. 競技別カバレッジ確認
+   - 各競技・各eスポーツタイトルについてevent_countを記録。
+   - priced_upcoming_countを記録。
+   - market_countを記録。
+   - 「サッカー何件、CS2何件、VALORANT何件…」を毎回記録。
+   - event_count > 0なのにscreened=0なら更新失敗。
+   - 前回存在した競技が消えた場合、理由を確認。
+   - 本当に掲載0件なのか。
+   - 全件一次除外だったのか。
+   - deep_dive後に全件不採用だったのか。
+   - 理由なしに競技が候補一覧から消えることは禁止。
+7. ①推奨ロジックの全件独立走査
+   - 全inventory_event_idsを①専用で全部確認。
+   - ②③④の候補を流用しない。
+   - 格差・高勝率を中心に判定。
+   - ランキング差。
+   - rating差。
+   - H2H。
+   - 直近成績。
+   - 得失点差。
+   - セット差。
+   - マップ差。
+   - ラウンド差。
+   - 共通相手。
+   - ホーム／アウェイ。
+   - roster・欠場。
+   - 競技固有要因。
+   - オッズ。
+   - 条件合格なら件数上限なしで正式採用。
+   - 新規正式採用はodds_takenとstake必須。
+8. ②VALUE①ロジックの全件独立走査
+   - 全inventory_event_idsを②専用で全部確認。
+   - ①③④の候補を流用しない。
+   - 市場オッズから必要勝率計算。
+   - 独立事前推定勝率。
+   - 必要勝率との差。
+   - EV。
+   - H2H。
+   - 直近フォーム。
+   - Strength of Schedule。
+   - ranking／rating。
+   - 得失点／セット／マップ差。
+   - 会場。
+   - roster／欠場。
+   - 競技固有要因。
+   - 外部市場クロスチェック。
+   - formal／conditional／watch／excludedを独立判定。
+   - formalはexact odds必須。
+9. ③VALUE②ロジックの全件独立走査
+   - 全inventory_event_idsを③専用で全部確認。
+   - ①②④の候補を流用しない。
+   - $100均等買い前提。
+   - 長期ROI重視。
+   - market baseline。
+   - 独立推定勝率。
+   - edge。
+   - CLV。
+   - calibration。
+   - odds帯ROI。
+   - edge帯ROI。
+   - 推定勝率帯ROI。
+   - Upset Risk。
+   - freshness。
+   - Strength of Schedule。
+   - adopted／watch／excludedを独立判定。
+   - adoptedはexact odds必須。
+10. ④PRO EDGEロジックの全件独立走査
+    - 全inventory_event_idsを④専用で全部確認。
+    - ①②③の候補を流用しない。
+    - 複数bookがあればno-vig処理。
+    - market_probability。
+    - 独立base_probability。
+    - expert_adjustment。
+    - final_probability。
+    - edge。
+    - fair_odds。
+    - EV。
+    - required_EV。
+    - minimum_entry_odds。
+    - opening odds。
+    - bet odds。
+    - closing odds。
+    - CLV。
+    - accepted／watch／rejectedを独立判定。
+    - acceptedはbet_odds + stake必須。
+11. 競技別ショートリスト確認
+    - 全競技を横一列に並べて上位だけ取る方式は禁止。
+    - サッカー内で候補選定。
+    - 野球内で候補選定。
+    - バスケ内で候補選定。
+    - CS2内で候補選定。
+    - VALORANT内で候補選定。
+    - Dota2内で候補選定。
+    - LoL内で候補選定。
+    - 以下すべて同じ。
+    - ①②③④それぞれ別順位を作る。
+    - 競技別順位の根拠を保存。
+12. 競技ごとのdeep_dive漏れ確認
+    - 常に今後24時間をローリングで確認。
+    - 価格付き・ベット可能な通常試合がある競技は対象。
+    - 原則①〜④それぞれ最低1件を競技別deep_dive。
+    - 試合数の多い競技は競技内上位3件程度まで。
+    - これは正式採用強制ではない。
+    - deep_dive後にrejectでもよい。
+    - 特定競技だけでdeep_dive枠を使い切らない。
+    - サッカーがあるのにNFLだけ。
+    - CS2があるのにVALORANTだけ。
+    - こういう偏りを禁止。
+    - priced_upcoming_count > 0なのにdeep_dive=0の場合は理由を検査。
+    - 明白な先物・無効市場・重複・中止等以外で0なら更新失敗。
+13. 一次除外理由の品質確認
+    - no_deep_dive_signalだけで落とすのは禁止。
+    - オッズ。
+    - 必要勝率。
+    - rating差。
+    - ranking差。
+    - H2H。
+    - 直近フォーム。
+    - データ不足。
+    - 時間窓。
+    - 無効市場。
+    - 先物。
+    - 重複。
+    - その他具体理由を残す。
+14. deep_dive完全分析チェック
+    - 競技名／eスポーツタイトル。
+    - 大会名／リーグ名。
+    - 開催日。
+    - 日本時間開始時刻。
+    - 対戦カード。
+    - 世界ランキング／リーグ順位／rating。
+    - H2Hは確認できる限り全件。
+    - H2Hの日付。
+    - H2Hのスコア。
+    - 双方の直近6〜10試合。
+    - 勝敗。
+    - 得失点。
+    - セット差。
+    - マップ差。
+    - ラウンド差。
+    - 連勝／連敗。
+    - 共通相手。
+    - home／away／会場。
+    - 当日メンバー。
+    - 先発。
+    - 欠場。
+    - roster変更。
+    - 大会現在成績。
+    - 競技固有データ。
+    - BET CHANNELオッズ。
+    - exact oddsかrangeか。
+    - 必要勝率。
+    - 事前推定勝率。
+    - EV／EDGE。
+    - 外部市場比較。
+    - 採用理由。
+    - リスク。
+    - 不足情報。
+    - source_urls。
+    - 取れない情報はunavailable + 理由。
+    - 数字を推測で作らない。
+15. eスポーツdeep_dive追加項目
+    - BO1／BO2／BO3／BO5。
+    - LAN／Online。
+    - roster。
+    - roster変更。
+    - map pool。
+    - veto。
+    - 確定map。
+    - map別勝率。
+    - side差。
+    - patch／version。
+    - 大会フォーマット。
+    - 過去シリーズH2H。
+    - 過去map H2H。
+    - rating。
+    - 直近シリーズ。
+    - 直近map。
+    - 必要ならラウンド差。
+16. 新規候補件数確認
+    - 「①1件だけ」は禁止。
+    - 「②1件だけ」は禁止。
+    - Top3だけで切るのは禁止。
+    - 正式条件を満たすなら全部出す。
+    - 5件でも10件でも20件でも可。
+    - 逆に条件未達なのに競技バランスのため無理に正式採用しない。
+17. 既存RMC全カードの結果再確認
+    - ①推奨。
+    - ②VALUE①。
+    - ③VALUE②。
+    - ④PRO EDGE。
+    - 経験値取引。
+    - 全既存カードを毎回確認。
+    - 開始時刻を過ぎてpendingのものを抽出。
+    - unknown。
+    - review_required。
+    - 延期。
+    - 中止。
+    - abandoned。
+    - final。
+    - 全件状態確認。
+18. 結果ソース確認
+    - 第一優先：競技・チーム・大会の公式。
+    - 第二優先：大会／リーグ公式。
+    - 第三優先：信頼できる専門結果DB。
+    - 第四優先：信頼できるライブスコア。
+    - 予想サイトだけで結果確定禁止。
+    - Correct Score予想で確定禁止。
+    - 検索スニペットだけで確定禁止。
+19. 試合同一性確認
+    - 日付。
+    - JST開始時刻。
+    - 大会名。
+    - ラウンド。
+    - 対戦相手。
+    - home／away。
+    - 同カードが連日開催の場合はGAME1／GAME2まで確認。
+    - 前日の結果を翌日の試合へ付けない。
+    - 川崎vs名古屋Dのような誤紐付けを再発させない。
+20. 正式採用オッズ確認
+    - 採用時のexact oddsが保存されているか。
+    - odds_taken。
+    - bet_atまたはlocked_at。
+    - stake。
+    - 市場名。
+    - 選択肢。
+    - 試合開始後のオッズを事前採用オッズにしない。
+    - rangeしかない場合は勝手に一点化しない。
+21. 結果確定時の自動精算確認
+    - 勝敗○×。
+    - stake。
+    - odds。
+    - 払戻額。
+    - 純利益／損失。
+    - ROI。
+    - 同じmatch_idを使っている全①〜④へ結果反映。
+    - 一部だけ○、他がpendingは禁止。
+    - 経験値取引にも反映。
+22. ①推奨の収益集計
+    - 正式採用件数。
+    - 確定件数。
+    - 勝数。
+    - 敗数。
+    - pending。
+    - 確定投入額。
+    - 払戻総額。
+    - 純損益。
+    - ROI。
+    - amount_missing。
+    - $100固定単利。
+    - 複利。
+    - 1/4 Kelly。
+23. ②VALUE①の収益集計
+    - 正式件数。
+    - 勝敗。
+    - pending。
+    - 確定投入額。
+    - 純損益。
+    - ROI。
+    - amount_missing。
+    - watchは正式成績と混ぜない。
+24. ③VALUE②の収益集計
+    - 正式件数。
+    - 勝敗。
+    - pending。
+    - 確定投入額。
+    - 純損益。
+    - ROI。
+    - amount_missing。
+    - CLV等。
+    - watchは正式成績と混ぜない。
+25. ④PRO EDGEの収益集計
+    - acceptedのみ正式集計。
+    - 勝敗。
+    - pending。
+    - 確定投入額。
+    - 純損益。
+    - ROI。
+    - amount_missing。
+    - CLV。
+    - watch/rejectedは正式成績と混ぜない。
+26. 過去データのオッズ欠損確認
+    - 旧移行カードでexact oddsの証拠が無いものだけamount_missingを許可。
+    - 1.03〜1.06なら中央値1.045、のような補完は禁止。
+    - 0円扱い禁止。
+    - 負け扱い禁止。
+    - 今後の新規正式採用ではexact odds欠落を許可しない。
+27. 敗戦カードのpost-match review
+    - 事前仮説。
+    - 実際の結果。
+    - 見落とし。
+    - failure factor。
+    - 推定勝率過大評価。
+    - varianceかstructuralか。
+    - CLV。
+    - roster等の変化。
+    - 再発防止仮説。
+    - 1敗だけでモデル係数を即変更しない。
+    - 複数サンプルで改善効果を確認。
+28. ①〜④独立性チェック
+    - 共通候補プールから4つへ振り分けていないか。
+    - ①の分析結果を②へコピペしていないか。
+    - ②の推定勝率を③でそのまま利用していないか。
+    - ④のmarket probabilityをbase probabilityとして流用していないか。
+    - 共有可能なのは試合の客観的事実のみ。
+    - 判断・推定・採否は完全独立。
+29. 未来情報リーク確認
+    - locked_at後の情報を事前推定へ使っていないか。
+    - 試合開始後のroster情報を事前分析へ混ぜていないか。
+    - closing oddsを事前EVへ使っていないか。
+    - 結果後のratingを事前分析へ使っていないか。
+    - データ時刻を必ず確認。
+30. RMC表示構成チェック
+    - 競技別／タイトル別に表示。
+    - サッカー。
+    - バスケ。
+    - 野球。
+    - CS2。
+    - VALORANT。
+    - Dota2。
+    - LoL。
+    - その他全競技。
+    - 各試合の横に①②③④の判定。
+    - クリックで①専用分析。
+    - クリックで②専用分析。
+    - クリックで③専用分析。
+    - クリックで④専用分析。
+    - 正式採用。
+    - watch。
+    - reject／excluded。
+    - データ不足。
+    - 全部区別。
+31. 競技別集計表示
+    - 走査件数。
+    - priced upcoming件数。
+    - deep_dive件数。
+    - ①正式件数。
+    - ②正式件数。
+    - ③正式件数。
+    - ④正式件数。
+    - watch件数。
+    - reject件数。
+    - 「サッカー：走査20→deep dive3→正式0/watch1/reject2」のように確認可能にする。
+32. GitHubデータ整合性
+    - schema validation。
+    - match_id整合。
+    - 重複。
+    - JST。
+    - null。
+    - source。
+    - confidence。
+    - provenance。
+    - update log。
+    - append-only。
+    - locked保護。
+    - snapshots不変。
+    - baseline不変。
+    - 既存正式採用値を勝手に書き換えない。
+33. 本番コードテスト
+    - npm test相当の全テスト。
+    - data validate。
+    - audit。
+    - locked check。
+    - coverage check。
+    - settlement check。
+    - result propagation check。
+    - profit audit check。
+    - 競技別coverage gate。
+    - public profit verification。
+34. main反映確認
+    - GitHub mainへcommit/push。
+    - push競合時は最新mainを取り直す。
+    - payloadを最新データに再適用。
+    - 全テストを最初から再実行。
+    - 同時更新でデータが消えないか確認。
+    - 最終SHAを記録。
+35. GitHub Actions確認
+    - production update成功。
+    - tests成功。
+    - validation成功。
+    - retry経路も成功。
+    - Actions失敗なら完了扱い禁止。
+36. GitHub Pages公開確認
+    - 最新production commitが公開されたか。
+    - analysis-v2ページHTTP 200。
+    - 最新run_idが公開JSONに存在するか。
+    - Pagesが古いmainを表示していないか。
+37. 公開RMC実データ再取得
+    - 公開matches。
+    - match-updates。
+    - recommendations。
+    - value1。
+    - value2。
+    - pro_edge。
+    - automation-runs。
+    - 公開JSONを実際に再取得して再計算。
+    - GitHub内部だけ合っていて公開側が古い状態は禁止。
+38. 公開収支再計算確認
+    - 公開側の①〜④集計を再計算。
+    - profit_auditと一致するか。
+    - 正式採用オッズ。
+    - stake。
+    - payout。
+    - profit。
+    - ROI。
+    - 複利。
+    - 1/4 Kelly。
+    - 一致しなければ更新失敗。
+39. キャッシュ対策確認
+    - 最新分析ページを開く際にcache bust。
+    - 古いJS・古いJSONが残っていないか。
+    - 公開JSとmainのJSが一致するか。
+    - 公開settlementロジックとmainが一致するか。
+40. 最終更新報告
+    - 全カテゴリ数。
+    - 全イベント数。
+    - 全市場数。
+    - リアルスポーツ競技一覧。
+    - eスポーツタイトル一覧。
+    - 競技別event_count。
+    - 競技別priced_upcoming_count。
+    - 各競技の①screened/deep_dive/accepted/watch/rejected。
+    - ②同様。
+    - ③同様。
+    - ④同様。
+    - 新規正式採用を全件。
+    - watchを全件。
+    - 重要reject。
+    - 結果更新を全件。
+    - ①の戦績・投入・損益・ROI。
+    - ②の戦績・投入・損益・ROI。
+    - ③の戦績・投入・損益・ROI。
+    - ④の戦績・投入・損益・ROI。
+    - amount_missing。
+    - pending。
+    - 複利。
+    - 1/4 Kelly。
+    - commit SHA。
+    - Actions結果。
+    - Pages結果。
+    - 公開RMC再確認結果。
+41. 最後の絶対条件
+    - 「調査した」で終わらない。
+    - 「JSONを作った」で終わらない。
+    - 「GitHubへ入れた」で終わらない。
+    - 「Pagesが200」で終わらない。
+    - 全競技取得 → ①〜④全件独立走査 → 競技別deep_dive → 採否 → 結果更新 → exact odds精算 → 全収支再計算 → GitHub → Actions → Pages → 公開RMCの実表示・実数値一致確認まで終わって初めて「定時更新完了」。
+これを定時更新の完全チェックリストとして扱えばいい
+```
