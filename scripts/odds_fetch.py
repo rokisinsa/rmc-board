@@ -6,7 +6,7 @@ BASE = "https://www.bovada.lv/services/sports/event/coupon/events/A/description/
 Q = "?marketFilterId=def&preMatchOnly=true&lang=en"
 PATHS = ["esports", "tennis", "darts", "snooker", "badminton", "table-tennis", "volleyball", "handball", "soccer", "basketball",
          "baseball", "football", "hockey", "cricket", "rugby-union", "rugby-league", "aussie-rules", "ufc-mma", "boxing", "water-polo",
-         "futsal", "field-hockey"]
+         "futsal"]
 HDR = {"User-Agent": "Mozilla/5.0 (compatible; rmc-board-fetch/1.0)", "Accept": "application/json"}
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "odds_feed")
 JST = dt.timezone(dt.timedelta(hours=9))
@@ -47,6 +47,8 @@ def main():
     for p in PATHS:
         try:
             data = get(BASE + p + Q)
+            if not data:          # 空応答は一時的なことがあるので1回だけ取り直す
+                time.sleep(20); data = get(BASE + p + Q)
         except Exception as e:
             status["paths"][p] = f"失敗 {type(e).__name__}: {e}"[:160]; continue
         n = 0

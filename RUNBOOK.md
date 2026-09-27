@@ -22,6 +22,7 @@
 
 1. **起動確認（項目1）**：`git pull`、`git rev-parse HEAD` を start_sha に記録。前回runの status と blockers を読み、未解決分を `carried_blockers` に引き継ぐ。
 2. **インベントリ（項目2〜6）**：BET CHANNEL を基準に全メニューを取得（取得できなければ `sources.betchannel` に「確認不能：理由」）。カジ旅・bet365・遊雅堂も同様に記録。今後24時間の試合を全競技・全eスポーツタイトルで集め、`matches.json` と `odds_snapshots.json` に追記。競技別に event_count / priced_upcoming_count / market_count を数える。前回あった競技が消えたら `sports_disappeared` に理由。
+   - **PCオフでの実オッズ（優先）**：GitHub Actions `odds-fetch` が JST 05:40／11:40／17:40／22:40 に公開オッズ配信（Bovada）を取り、`data/odds_feed/bovada.json` に保存している（`status.json` で取得件数と時刻を確認）。定時更新はまず `git pull` してこれを使う。1試合＝1ブックの exact odds として `odds_snapshots` に `source: "Bovada（公開coupon JSON・<取得時刻>取得）"` で追記し、①〜④の判定・正式採用に使ってよい。チーム名は英語なので、`rmc/oddsfeed.py` の `match()` で自動対応づけし、日本語名の試合は開始時刻と大会で目視対応づけする。
    - **BET CHANNELの取得元**：`data/bc/feed/status.json` が ok かつ `taken_at` が1時間以内なら `data/bc/feed/latest.json`（`scripts/bc_fetch.py` が日本のVPS等から保存した配信）を使う。古い・失敗なら PC の内蔵ブラウザで取得し、どちらも無理なら `sources.betchannel` に「確認不能：理由」。
    - **eスポーツは全タイトル必須**：BET CHANNEL の LIVEスポーツ prematch配信（sptpub）から eスポーツ（CS2・LoL・Dota 2・VALORANT・R6・World of Tanks・CrossFire・King of Glory・Mobile Legends・StarCraft BW・Fortnite）とシミュレーション系（FC 26・NBA 2K26・eサッカー・eバスケ・eテニス・V-クリケット等）を全件取り、`data/bc/<取得時刻>-esports.txt` に控えを残す（形式は `rmc/bcfeed.py`）。
    - 既存の略称行（LoL EMEA Masters の TLNP など）は `rmc/bcmap.py` の KNOWN で BET CHANNEL の event に対応づけ、重複登録しない。取り込み・判定の手順は `scripts/run_20260928_0030_esports.py` を雛形にする。
