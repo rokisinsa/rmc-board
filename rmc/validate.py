@@ -103,8 +103,11 @@ def check_analysis(rep, lg, ana, matches, inventory, odds_idx):
             lack = [f for f in need if not filled(d.get(f))]
             if lack:
                 rep.err("DEEP_DIVE_FIELDS", f"{lg}/{mid}: deep_dive 必須項目が空（値か unavailable+理由を入れる）: {lack}")
-            if d.get("data_as_of") and ana.get("run_started_at") and parse(d["data_as_of"]) > parse(ana["run_started_at"]):
-                rep.err("FUTURE_LEAK", f"{lg}/{mid}: data_as_of が走査開始より後")
+            cut = ana.get("decided_at") or ana.get("run_started_at")
+            if d.get("data_as_of") and cut and parse(d["data_as_of"]) > parse(cut):
+                rep.err("FUTURE_LEAK", f"{lg}/{mid}: data_as_of が判定確定時刻（decided_at）より後")
+            if d.get("data_as_of") and parse(d["data_as_of"]) >= parse(matches[mid]["start_jst"]):
+                rep.err("FUTURE_LEAK", f"{lg}/{mid}: 試合開始後のデータで事前分析している")
         if r.get("status") == FORMAL[lg]:
             if not r.get("deep_dive"):
                 rep.err("FORMAL_NO_DEEP", f"{lg}/{mid}: deep_dive なしで正式採用")

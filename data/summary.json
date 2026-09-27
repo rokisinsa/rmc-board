@@ -1,15 +1,15 @@
 {
- "run_id": "run-20260927-2145-seed",
+ "run_id": "run-20260927-2300",
  "run_status": "partial",
- "built_at": "2026-09-27T21:48:40+09:00",
+ "built_at": "2026-09-27T22:30:57+09:00",
  "logics": {
   "r1": {
-   "formal": 0,
+   "formal": 15,
    "settled": 0,
    "win": 0,
    "loss": 0,
    "void": 0,
-   "pending": 0,
+   "pending": 15,
    "staked": 0.0,
    "returned": 0.0,
    "net": 0.0,
@@ -46,12 +46,12 @@
    }
   },
   "r3": {
-   "formal": 0,
+   "formal": 1,
    "settled": 0,
    "win": 0,
    "loss": 0,
    "void": 0,
-   "pending": 0,
+   "pending": 1,
    "staked": 0.0,
    "returned": 0.0,
    "net": 0.0,

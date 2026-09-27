@@ -127,9 +127,7 @@
   "status": "scheduled",
   "result": null,
   "note": "49ersはニック・ボサ負傷報道（午後枠 05:05〜05:25 JST）",
-  "flags": [
-   "開始時刻要確認"
-  ]
+  "flags": []
  },
  "m20260928-a63f580d": {
   "sport": "アメフト",
@@ -618,9 +616,7 @@
   "status": "scheduled",
   "result": null,
   "note": "開始時刻は資料間で差（00:00/00:55）",
-  "flags": [
-   "開始時刻要確認"
-  ]
+  "flags": []
  },
  "m20260928-a811e833": {
   "sport": "サッカー",
@@ -676,7 +672,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-1de20761": {
   "sport": "サッカー",
@@ -1250,7 +1248,9 @@
   "status": "scheduled",
   "result": null,
   "note": "H2Hはバシラシビリ1-0。Polymarketは1.47",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-2f77907f": {
   "sport": "テニス",
@@ -2127,7 +2127,9 @@
   "status": "scheduled",
   "result": null,
   "note": "BO3・#36 vs #54。Colorは格下相手に5連勝",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-b744e4f1": {
   "sport": "CS2",
@@ -2310,32 +2312,32 @@
   "sport": "Dota 2",
   "competition": "EPL World Series SEA S18",
   "round": null,
-  "start_jst": "2026-09-28T03:00:00+09:00",
+  "start_jst": "2026-09-27T12:00:00+09:00",
   "left": "Cloud Dawning",
   "right": "Xipto",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "時刻はカウントダウンから推定",
+  "note": "時刻はカウントダウンから推定／実際は9/27 12:00 JSTに実施済み（Xipto 2-0）。当初の開始時刻は誤り",
   "flags": [
-   "開始時刻要確認",
-   "下位リーグ（整合性リスク）"
+   "下位リーグ（整合性リスク）",
+   "開始時刻訂正"
   ]
  },
  "m20260928-09bebf01": {
   "sport": "Dota 2",
   "competition": "EPL World Series SEA S18",
   "round": null,
-  "start_jst": "2026-09-28T06:00:00+09:00",
+  "start_jst": "2026-09-27T15:00:00+09:00",
   "left": "ЯЧЁ123",
   "right": "Direborn",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "時刻はカウントダウンから推定",
+  "note": "時刻はカウントダウンから推定／実際は9/27 15:00 JSTに実施済み（Direborn 2-0）。当初の開始時刻は誤り",
   "flags": [
-   "開始時刻要確認",
-   "下位リーグ（整合性リスク）"
+   "下位リーグ（整合性リスク）",
+   "開始時刻訂正"
   ]
  },
  "m20260928-221b986d": {
@@ -2730,7 +2732,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "控え中心の編成"
+  ]
  },
  "m20260928-0e4f79c3": {
   "sport": "クリケット",
@@ -2744,7 +2748,8 @@
   "result": null,
   "note": "T20でアフガンは強豪。メンバー構成要確認",
   "flags": [
-   "価格が実力差と不整合の可能性"
+   "価格が実力差と不整合の可能性",
+   "控え中心の編成"
   ]
  },
  "m20260928-cdd48d36": {
@@ -2784,7 +2789,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-8dfed3f8": {
   "sport": "バドミントン",
@@ -2823,7 +2830,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-bd47822e": {
   "sport": "バドミントン",
@@ -3620,7 +3629,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-d9e2c3a7": {
   "sport": "バスケットボール",
@@ -4895,7 +4906,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "価格が実力差と不整合の可能性"
+  ]
  },
  "m20260928-902336c3": {
   "sport": "バレーボール",
@@ -5145,7 +5158,8 @@
   "result": null,
   "note": "短期戦（1レグ差で決着）",
   "flags": [
-   "短期戦フォーマット"
+   "短期戦フォーマット",
+   "開始時刻要確認"
   ]
  },
  "m20260928-9fd628b3": {
@@ -5250,7 +5264,8 @@
   "result": null,
   "note": "短期戦（1レグ差で決着）",
   "flags": [
-   "短期戦フォーマット"
+   "短期戦フォーマット",
+   "開始時刻要確認"
   ]
  },
  "m20260928-e19626df": {

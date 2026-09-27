@@ -9,7 +9,7 @@
 |---|---|---|
 | `matches.json` | `{match_id: {sport, competition, round, start_jst, left, right, home_away, status, result, note, flags}}`。status は scheduled / live / final / postponed / cancelled / abandoned / unknown / review_required | 追記・状態更新のみ |
 | `odds_snapshots.json` | `[{match_id, taken_at, source, market, prices{L,D,R}, exact, book_verified}]` | 追記のみ |
-| `analysis/r1〜r4.json` | その回の全件判定 `{logic, run_id, run_started_at, rows:[{match_id, status, reason, deep_dive, deep_dive_detail, priced, …指標}]}` | 毎回まるごと作り直す（前回分は `snapshots/` に保存） |
+| `analysis/r1〜r4.json` | その回の全件判定 `{logic, run_id, run_started_at, decided_at（判定・ロック時刻。deep_dive の data_as_of はこれ以前）, rows:[{match_id, status, reason, deep_dive, deep_dive_detail, priced, …指標}]}` | 毎回まるごと作り直す（前回分は `snapshots/` に保存） |
 | `ledger/r1〜r4.json`, `ledger/experience.json` | 正式採用の台帳 `[{entry_id, match_id, market, selection, selection_key(L/D/R), odds_taken, stake, locked_at, odds_source, prior_prob, result}]` | **append-only**。既存行は `result` を null→値 にする以外変更禁止 |
 | `automation-runs.json` | run記録 `[{run_id, slot, started_at, finished_at, start_sha, end_sha, status, previous_run_ok, carried_blockers, inventory_match_ids, coverage, sources, blockers, checklist, checklist_notes, sports_disappeared}]` | 追記のみ |
 | `summary.json` | `python -m rmc.build` が台帳から生成。手で書かない | 生成のみ |
