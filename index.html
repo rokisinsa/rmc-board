@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="ja">
 <head>
+<meta name="robots" content="noindex,nofollow,noarchive">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>RMC 分析ボード</title>
@@ -88,6 +89,8 @@ details.sport>summary .stat{font-family:var(--mono);font-size:11.5px;color:var(-
 .mrow.isformal{box-shadow:inset 4px 0 0 var(--ok)}
 .dd{color:var(--accent);font-weight:600}
 .lrow{cursor:pointer}.lrow:hover td{background:var(--sunk)}
+*,*::before,*::after{box-sizing:border-box}
+html,body{overflow-x:hidden}
 #scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:10}
 #panel{position:fixed;top:0;right:0;bottom:0;width:min(720px,100%);background:var(--surface);color:var(--ink);z-index:11;overflow-y:auto;
   box-shadow:-8px 0 24px rgba(0,0,0,.18);padding:calc(env(safe-area-inset-top,0px) + 16px) 20px calc(env(safe-area-inset-bottom,0px) + 32px)}
@@ -200,6 +203,25 @@ details.sport>summary .cnt{font-size:13px;color:var(--muted)}
 .sumchips .sc.w.on{background:var(--warn-bg);color:var(--warn)}
 .b{font-size:13px!important;padding:4px 10px!important}
 .crec{font-size:12px;font-weight:700;margin-bottom:2px}
+
+details.banner summary{cursor:pointer;list-style:none}details.banner summary::-webkit-details-marker{display:none}
+details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:none}details.banner ul{margin:8px 0 0}
+@media (max-width:560px){.cards{grid-template-columns:1fr}}
+@media (max-width:640px){
+ #panel{padding-left:14px;padding-right:14px}
+ .tblw{overflow-x:visible}
+ table.cmn,table.cmn tbody{display:block;width:100%}
+ table.cmn thead{display:none}
+ table.cmn tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4px 10px;padding:10px 0;border-bottom:1px solid var(--line)}
+ table.cmn td{border:0;padding:0;min-width:0}
+ table.cmn td.copp{grid-column:1/-1;font-weight:700;font-size:13.5px}
+ table.cmn td[data-l]::before{content:attr(data-l);display:block;font-size:11px;color:var(--muted);margin-bottom:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ table.cmn td.cedge{grid-column:1/-1}
+ .cres{flex-wrap:wrap;white-space:normal;gap:2px 6px}.cres small{flex-basis:100%}
+ .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .mrow{padding:8px 10px;gap:4px 8px}
+ .b{font-size:12.5px}
+}
 .grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
 </style>
 </head>
@@ -267,7 +289,7 @@ const jst=iso=>{const d=new Date(iso),j=new Date(d.getTime()+9*3600e3),p=n=>Stri
 document.getElementById('runinfo').innerHTML=`<span>最新更新 <b>${esc(run.run_id)}</b></span><span>完了 <b>${esc((run.finished_at||'').replace('T',' ').slice(0,16))} JST</b></span><span>集計 run <b>${esc(D.summary.run_id)}</b>／状態 <b>${esc(run.status)}</b></span>`;
 document.getElementById('banner').innerHTML = run.status==='complete'
   ? `<div class="banner ok">定時更新完了：チェックリスト41項目すべて完了</div>`
-  : `<div class="banner"><b>この回は完全更新ではありません（${esc(run.status)}）。</b>未完了の項目：<ul>${(run.blockers||[]).map(b=>`<li>${esc(b)}</li>`).join('')}</ul></div>`;
+  : `<details class="banner"><summary><b>この回は完全更新ではありません（${esc(run.status)}）</b>・未完了 ${(run.blockers||[]).length} 項目<span class="tap">（タップで表示）</span></summary><ul>${(run.blockers||[]).map(b=>`<li>${esc(b)}</li>`).join('')}</ul></details>`;
 
 // 収支カード
 document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const s=D.summary.logics[l];const c=s.compound||{};
@@ -368,7 +390,7 @@ function factsHtml(fx,m){
     const nl=cm.filter(r=>r.edge==='left').length,nr=cm.filter(r=>r.edge==='right').length,ne=cm.length-nl-nr;
     h+=`<p class="cmnsum">同じ相手に対して、<b class="${nl>nr?'up':''}">${esc(L)}が上 ${nl}</b>／<b class="${nr>nl?'up':''}">${esc(R)}が上 ${nr}</b>／互角 ${ne}<span>スコアは各チーム自身の得点−失点。勝率が同じときは1試合あたりの得失差で比較</span></p>`;
     h+=`<div class="tblw"><table class="cmn"><thead><tr><th>共通の相手</th><th>${esc(L)} の結果</th><th>${esc(R)} の結果</th><th>比較</th></tr></thead><tbody>${cm.map(r=>
-      `<tr><td>${esc(r.opp)}</td><td>${rec(r.left_rec)}${r.left.map(res1).join('')}</td><td>${rec(r.right_rec)}${r.right.map(res1).join('')}</td><td class="cedge ${r.edge}">${r.edge==='left'?esc(L)+'が上':r.edge==='right'?esc(R)+'が上':'互角'}${r.basis?`<small>（${esc(r.basis)}）</small>`:''}</td></tr>`).join('')}</tbody></table></div>`;
+      `<tr><td class="copp">${esc(r.opp)}</td><td data-l="${esc(L)}">${rec(r.left_rec)}${r.left.map(res1).join('')}</td><td data-l="${esc(R)}">${rec(r.right_rec)}${r.right.map(res1).join('')}</td><td class="cedge ${r.edge}">${r.edge==='left'?esc(L)+'が上':r.edge==='right'?esc(R)+'が上':'互角'}${r.basis?`<small>（${esc(r.basis)}）</small>`:''}</td></tr>`).join('')}</tbody></table></div>`;
   }else h+=`<p class="na">直近${W}日以内に共通の対戦相手はいません。</p>`;
   h+=`</section>`;
   if(fx.venue)h+=`<section class="blk"><h4>会場</h4><p>${esc(fx.venue)}</p></section>`;
