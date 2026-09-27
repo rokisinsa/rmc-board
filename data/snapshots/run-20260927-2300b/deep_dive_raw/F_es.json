@@ -1,0 +1,111 @@
+{
+ "group": "F_es",
+ "finished_at": "2026-09-27T23:38:00+09:00",
+ "scan": {
+  "CS2": {
+   "sources_checked": [
+    "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+    "https://www.hltv.org/matches",
+    "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+    "https://www.hltv.org/matches/2398571/metanoia-wolves-vs-mibr-fe-cct-2026-south-america-series-6"
+   ],
+   "note": "Liquipedia/HLTVは429(レート制限)・PROVENANCE_REQUIREDエラーが頻発し全件の網羅走査はできず。既存インベントリ外の新規CS2大会・対戦は確認できなかった（取れた範囲では）。既存分の中でLiquid vs Wildcard（iBUYPOWER Masters決勝）はHLTVで確認・深掘り実施。"
+  },
+  "VALORANT": {
+   "sources_checked": [
+    "https://www.vlr.gg/matches",
+    "https://www.vlr.gg/event/matches/2766/valorant-champions-2026"
+   ],
+   "note": "既存インベントリにVALORANTの試合が0件だったため走査。Valorant Champions 2026 グループステージ（100 Thieves vs T1、JD Gaming vs FUT Esportsなど）が窓内に存在する可能性が高いが、vlr.ggの2回のフェッチで表示時刻が食い違い（『9/28 21:00 JST』と『9/27 5:00 AM（TZ不明）』）、正確な開始時刻を確定できなかったため new_events には追加していない。要再走査。"
+  },
+  "Dota 2": {
+   "sources_checked": [
+    "https://liquipedia.net/dota2/Liquipedia:Matches"
+   ],
+   "note": "2回ともHLTV/Liquipediaが429エラーで取得失敗。既存の1件（BetBoom Streamers Battle 15、ショーマッチ、窓の深掘り対象時間帯より前）以外の新規Dota2試合の有無を確認できず。"
+  },
+  "LoL": {
+   "sources_checked": [
+    "https://fieldlevelmedia.com/esports/team-liquid-to-face-cloud9-in-upper-bracket-final-at-lcs-summer-playoffs/",
+    "https://win.gg/team-liquid-vs-cloud9-lcs-playoffs-2026-bets-predictions/"
+   ],
+   "note": "LCS Summer Playoffs UB決勝（Team Liquid vs Cloud9）を深掘り。EMEA Masters等の新規大会・取りこぼしの走査はLiquipedia側のレート制限で未実施。"
+  },
+  "Rainbow Six": {
+   "sources_checked": [
+    "https://siege.gg/competitions/187-south-america-league-2026-stage-2"
+   ],
+   "note": "既存インベントリのFaZe vs LOUD（R6 South America League S2、9/28 02:15 JST）をsiege.ggで確認しようとしたが、同ページには『Black Dragons vs LOUD』の消化済み結果と『FaZe vs Black Dragons（10/4）』の予定戦のみが見え、FaZe vs LOUDの直接該当が確認できなかった。誤記/対戦カード変更の可能性があるが確証不足のため changes には計上せず、要再確認として報告のみ。Liquipedia側は429で未確認。"
+  },
+  "Honor of Kings": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "Overwatch 2": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "Rocket League": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "CoD": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "PUBG": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "MLBB": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "StarCraft II": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "EA FC": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "eBasketball": {"sources_checked": [], "note": "時間切れのため未走査。"},
+  "その他": {"sources_checked": [], "note": "時間切れのため未走査。"}
+ },
+ "new_events": [],
+ "changes": [],
+ "deep_dives": [
+  {
+   "match_id": "m20260928-855f5752",
+   "start_jst_confirmed": "2026-09-28T06:30:00+09:00",
+   "data_as_of": "2026-09-27T23:33:00+09:00",
+   "odds": {"unavailable": true, "reason": "HLTVのオッズ枠にはStake Casinoのみ表示されていたが具体的な倍率の値が取得できず、他の単一ブック（bet365/1xBet/Pinnacle等）のページはレート制限(429)で取得不可だった"},
+   "model_prob": {"unavailable": true, "reason": "numberFire/Dimers等、CS2を対象とした公開独立モデルは確認できず"},
+   "ranking": "Liquid: HLTV #27 / Valveランキング #18。Wildcard: HLTV #46 / Valveランキング #50（HLTV試合ページ）",
+   "h2h": "過去の対戦記録なし（HLTV試合ページに表示なし）",
+   "recent_form": "Liquid: 本大会3連勝（M80 2-0、NRG 2-0、Chicken Coop 2-0）。Wildcard: 本大会3連勝（Chicken Coop 2-0、NRG 2-0、DENDELE 2-1）",
+   "venue": "LAN（iBUYPOWER Masters FML 2026 決勝）",
+   "lineup": "両チームともロスター変更・欠場の報道は確認できず（詳細な先発オーダーはHLTVページから未取得）",
+   "risks": ["直近対戦なしで実力比較の直接指標が乏しい", "Wildcardはマップ別データがまだ少なく（Ancient/Infernoのみ）安定性が未知数"],
+   "missing": ["単一ブックの具体的なオッズ倍率", "独立予測モデルの値", "確定ロスター・欠場情報", "マップベト結果"],
+   "source_urls": [
+    "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+    "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026"
+   ],
+   "extra_flags": ["開始時刻要確認（HLTV表示のタイムゾーンが未明示のため間接確認）"],
+   "format": "BO3（iBUYPOWER Masters FML 2026 決勝）",
+   "lan_online": "LAN",
+   "roster": "unavailable（HLTVページから確定ロスターの一覧を取得できず。欠場の報道は確認できず）",
+   "map_pool": "3マップとも『TBA』表示（ベト未実施の時点）。直近3か月の勝率：Liquid Mirage 83%・Inferno 100%・Anubis 73%・Dust2 43%、Wildcard Ancient 100%・Inferno 50%（他マップはサンプル不足）",
+   "veto": "unavailable（試合前のためベト未実施）",
+   "patch": "unavailable（大会固有のパッチ情報は確認できず。CS2現行ライブビルドと推定されるが未確認のため記載せず）",
+   "series_h2h": "対戦記録なし",
+   "map_h2h": "unavailable（両者間の対戦がないため算出不可）",
+   "rating": "unavailable（HLTV/VRS以外の独立レーティングは確認できず）"
+  },
+  {
+   "match_id": "m20260928-400681f9",
+   "start_jst_confirmed": "2026-09-28T05:00:00+09:00",
+   "data_as_of": "2026-09-27T23:35:00+09:00",
+   "odds": {"book": "GG.bet", "L": 2.60, "R": 1.47, "taken_at": "2026-09-27T23:33:00+09:00", "exact": true, "market": "ML", "via": "https://win.gg/team-liquid-vs-cloud9-lcs-playoffs-2026-bets-predictions/（記事内でGG.betのオッズとして紹介）"},
+   "model_prob": {"unavailable": true, "reason": "LoLを対象としたnumberFire/Dimers等の公開独立モデル値は確認できず。記事内の『3-1予想』はアナリストの見解でありモデル値ではないため不採用"},
+   "ranking": "LCS Summer Playoffsアッパーブラケット決勝進出（両チームともプレーオフ上位）。勝者はWorlds 2026スイスステージ出場権とLCSサマーグランドファイナル進出権を獲得",
+   "h2h": "直近の対戦でTeam Liquidが5連勝中（win.gg記事）。個別の日付・スコアは未取得",
+   "recent_form": "Team Liquid: 準決勝でFlyQuestに3-0（Map1/2を34分・33分、Map3を43分で勝利）。Cloud9: 準決勝でLYONに3-1で勝利",
+   "venue": "LCS Studio（推定、詳細未確認）。LAN/オンラインの明記は取得できず",
+   "lineup": "Team Liquid: Josedeodo（Map1/2 MVP、K/D/A 11-5-22）、CoreJJ（Map3 MVP、K/D/A 1-0-41）の活躍が記事で言及。フルロスター・欠場情報はunavailable",
+   "risks": ["直近5連勝と『Bo5で接戦になる』というアナリスト予想が矛盾しており、オッズ（GG.bet Liquid 2.60/Cloud9 1.47＝Cloud9有利）と直近の対戦成績（Liquid5連勝）の間に不整合がある可能性", "記事の予想はアナリストの主観であり独立統計モデルではない"],
+   "missing": ["正確な開始時刻の確定ソース（インベントリのJST表記を採用、二次情報での直接確認は不可）", "フルロスター・欠場情報", "独立予測モデル", "H2Hの日付・スコア詳細"],
+   "source_urls": [
+    "https://fieldlevelmedia.com/esports/team-liquid-to-face-cloud9-in-upper-bracket-final-at-lcs-summer-playoffs/",
+    "https://win.gg/team-liquid-vs-cloud9-lcs-playoffs-2026-bets-predictions/"
+   ],
+   "extra_flags": ["開始時刻要確認", "価格が実力差と不整合の可能性（直近5連勝のLiquidをオッズはCloud9有利と評価）"],
+   "format": "BO5（アッパーブラケット決勝）",
+   "lan_online": "unavailable（明記されたソースなし）",
+   "roster": "Josedeodo・CoreJJ（Liquid側の活躍選手として言及）。両チームのフルロスター・欠場情報はunavailable",
+   "map_pool": "unavailable（LoLのためマッププール概念は非該当。パッチ別バン/ピック傾向は未取得）",
+   "veto": "該当なし（LoLはドラフト制。ピック/バン傾向の情報は未取得）",
+   "patch": "unavailable（該当パッチバージョン未確認）",
+   "series_h2h": "直近5戦でLiquidが5連勝（win.gg記事、日付・スコア詳細はunavailable）",
+   "map_h2h": "該当なし（LoLのためマップH2Hではなくシリーズ単位。詳細スコア未取得）",
+   "rating": "unavailable（独立レーティング未確認）"
+  }
+ ]
+}

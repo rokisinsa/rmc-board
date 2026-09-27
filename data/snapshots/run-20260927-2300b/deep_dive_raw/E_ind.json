@@ -1,0 +1,84 @@
+{
+"group": "E_ind",
+"finished_at": "2026-09-27T23:33:00+09:00",
+"scan": {
+ "スヌーカー": {
+  "sources_checked": [
+   "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+   "https://www.snooker.org/res/index.asp?event=2761",
+   "https://en.wikipedia.org/wiki/2026_Shenzhen_Open"
+  ],
+  "note": "深圳オープン1回戦(9/28)は snooker.org のセッション表(BST)と既存インベントリ7試合が一致（10:30=M.Williams-Fan Zhengyi, 15:00=Trump-Jiahao/Robertson-Liu Hongyu, 20:30=O'Sullivan-Jun/Zhao-Donaldson/Si Jiahui-Lines/Wakelin-L.J.Davis）。取りこぼしなし。なお Kyren Wilson の1回戦(vs Sam Craigie/ワイルドカード)は snooker.org 表記で9/29 01:30 UTC(=9/29 10:30 JST)開始と判明し、走査窓(〜9/28 23:10 JST)の外のため対象外。"
+ },
+ "ダーツ": {
+  "sources_checked": [
+   "https://www.flashscore.com/darts/world/modus-super-series/fixtures/",
+   "https://www.livesport.com/en/darts/world/modus-super-series/fixtures/",
+   "https://www.sofascore.com/darts/player/wiles-michael/70180",
+   "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
+   "https://www.scotsman.com/sport/other-sport/world-grand-prix-darts-2026-prize-money-first-round-order-of-play-full-schedule..."
+  ],
+  "note": "MODUSスーパーシリーズは6選手(Atkins/Thornton/Smith/Wiles/Plovier/Widmayer)の総当たり15試合と判明。既存インベントリには17:40〜20:35の11試合のみ登録済みで一致確認。残り4試合(Plovier対Atkins、Wiles対Widmayer、Atkins対Smith、Thornton対Plovier)がflashscore/livesportの一覧に存在するが、開始時刻がページ上で動的読込(JS)のため取得できず、betexplorer/oddsportal/oddscheckerの該当ページはプロキシの承認待ちでタイムアウトし閲覧不可だった。20:35以降・21時台に行われる可能性が高い(取りこぼし要フォローアップ、次回優先確認)。\n別件：PDC World Grand Prix(ダーツ)が9/28にライセスターで開幕することを確認(Littler対Woodhouseなど1回戦8試合)。ただし現地18:00開始=9/29 02:00 JST頃で、走査窓(〜9/28 23:10 JST)の外のため new_events には含めず。"
+ },
+ "格闘技(ボクシング/MMA)": {
+  "sources_checked": [
+   "WebSearch: UFC boxing September 28 2026 fight card schedule",
+   "WebSearch: boxing MMA card September 27 28 2026 Asia/Japan/Korea/ONE Championship"
+  ],
+  "note": "検索範囲内で2026-09-27 23:10〜09-28 23:10 JSTに開始するUFC/主要ボクシング/ONE Championship興行は確認できず。番組表が確定していない可能性もあり断定はしない。"
+ },
+ "モータースポーツ(F1/MotoGP等)": {
+  "sources_checked": [
+   "WebSearch: F1 MotoGP race September 28 2026",
+   "WebSearch: F1 2026 calendar Azerbaijan Singapore September race dates"
+  ],
+  "note": "走査窓内に開催されるF1/MotoGPレースは確認できず(アゼルバイジャンGPは既に終了済みの様子)。該当なしのため new_events なし。"
+ }
+},
+"new_events": [],
+"changes": [],
+"deep_dives": [
+ {
+  "match_id": "m20260928-91eda476",
+  "start_jst_confirmed": "2026-09-28T15:00:00+09:00",
+  "data_as_of": "2026-09-27T23:30:00+09:00",
+  "odds": {"unavailable": true, "reason": "betexplorer/oddsportal/oddscheckerの該当ページがプロキシの承認待ちでタイムアウトし単一ブック値を取得できなかった。参考：インベントリ記録値はOddsPortal最高値 L1.02/R12.63(exact=false、取得時刻不明の旧値のため今回のoddsとしては採用せず)。"},
+  "model_prob": {"unavailable": true, "reason": "numberFire/Dimers等、指定条件を満たす公開独立モデル値を時間内に確認できなかった。"},
+  "ranking": "J.トランプ：世界ランキング5位(2026/8/29時点、Wikipedia)。Huang Jiahao(黄嘉豪)：ランキング122位(2026/7/16時点、Wikipediaの最新反映データ)。",
+  "h2h": {"unavailable": true, "reason": "flashscoreのH2Hページに過去対戦データの記載なし（初対戦の可能性）。"},
+  "recent_form": "トランプ：2026年はジャーマンマスターズ優勝(2月、決勝でマーフィーに10-4)、プレーヤーズ選手権・ワールドオープンでベスト4、ツアーチャンピオンシップ準優勝(決勝でZhao Xintongに3-10)、世界選手権2回戦敗退(12-13 Vafaei)、上海マスターズ優勝(6月、決勝でKyren Wilsonに11-6)、直近の武漢オープンは準々決勝でChang Bingyuに敗れ世界ランク1位をZhao Xintongに明け渡した。\nHuang Jiahao：2026年5月のQスクール(アジア・オセアニア/タイ)決勝でLiang Xiaolongを4-2で下しツアーカードを獲得したばかりのプロ1年目。2026/27シーズンの本大会成績はWikipedia記載データでは大半が予選落ち(LQ)。",
+  "venue": "深圳オープン(中国・深圳)、1回戦(1/32ファイナル)。",
+  "lineup": {"unavailable": true, "reason": "個人競技のため対象外／欠場情報なし。"},
+  "risks": "世界ランク5位と122位という極端な実力差があり、格下Huang Jiahaoはプロ1年目でツアー本戦の経験が浅い。トランプ側は直近フォームがやや低調(武漢オープン準々決勝敗退)である点はリスク要因。",
+  "missing": "単一ブックの現在オッズ、独立モデル勝率、過去対戦成績。",
+  "source_urls": [
+   "https://en.wikipedia.org/wiki/Judd_Trump",
+   "https://en.wikipedia.org/wiki/Huang_Jiahao",
+   "https://www.snooker.org/res/index.asp?event=2761",
+   "https://www.flashscore.com/match/snooker/jiahao-huang-z7J3u3QR/trump-judd-IuJlytb5/",
+   "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-9fd628b3",
+  "start_jst_confirmed": "2026-09-28T18:00:00+09:00",
+  "data_as_of": "2026-09-27T23:31:00+09:00",
+  "odds": {"unavailable": true, "reason": "betexplorer/oddsportal/oddscheckerの該当ページがプロキシの承認待ちでタイムアウトし単一ブック値を取得できなかった。参考：インベントリ記録値はOddsPortal最高値 L1.62/R2.16(exact=false、旧値のため今回のoddsとしては採用せず)。"},
+  "model_prob": {"unavailable": true, "reason": "DartsOrakel等の公開統計モデル値を時間内に確認できなかった。"},
+  "ranking": {"unavailable": true, "reason": "MODUSスーパーシリーズ参加選手のPDCオーダーオブメリット順位を時間内に確認できず。"},
+  "h2h": {"unavailable": true, "reason": "sofascore等で過去対戦データを確認できなかった。"},
+  "recent_form": "M.ワイルズ：直近試合はCazoo UK Openでレイトン(Layton M.)に4-2で敗戦(sofascore)。\nJ.スミス(Jeff Smith)：flashscoreの表記でJamie Atkinsとの対戦カードが別途確認できたのみで、直近フォームの詳細は時間内に取得できず。",
+  "venue": {"unavailable": true, "reason": "MODUSスーパーシリーズの開催地情報を時間内に確認できず。"},
+  "lineup": {"unavailable": true, "reason": "個人競技のため対象外。"},
+  "risks": "短期戦フォーマット(1レグ差で決着)のため番狂わせが起きやすく、少ないサンプルでの評価はぶれが大きい。",
+  "missing": "単一ブックの現在オッズ、独立モデル勝率、両者の過去対戦成績、選手ランキング。",
+  "source_urls": [
+   "https://www.sofascore.com/darts/player/wiles-michael/70180",
+   "https://www.flashscore.com/darts/world/modus-super-series/fixtures/",
+   "https://www.livesport.com/en/darts/world/modus-super-series/fixtures/"
+  ],
+  "extra_flags": ["短期戦フォーマット"]
+ }
+]
+}

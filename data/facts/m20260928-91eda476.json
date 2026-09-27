@@ -1,0 +1,150 @@
+{
+ "match_id": "m20260928-91eda476",
+ "data_as_of": "2026-09-27T23:30:00+09:00",
+ "left": {
+  "name": "J.トランプ",
+  "ranking": "世界ランキング5位（2026年8月29日時点）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "Chang Bingyu",
+    "score": "—",
+    "res": "L",
+    "note": "武漢オープン 準々決勝"
+   },
+   {
+    "date": "—",
+    "opp": "Kyren Wilson",
+    "score": "11-6",
+    "res": "W",
+    "note": "上海マスターズ 決勝（優勝）"
+   },
+   {
+    "date": "—",
+    "opp": "Hossein Vafaei",
+    "score": "12-13",
+    "res": "L",
+    "note": "世界選手権 2回戦"
+   },
+   {
+    "date": "—",
+    "opp": "Zhao Xintong",
+    "score": "3-10",
+    "res": "L",
+    "note": "ツアーチャンピオンシップ 決勝（準優勝）"
+   },
+   {
+    "date": "—",
+    "opp": "—",
+    "score": "—",
+    "res": "L",
+    "note": "ワールドオープン 準決勝敗退"
+   },
+   {
+    "date": "—",
+    "opp": "—",
+    "score": "—",
+    "res": "L",
+    "note": "プレーヤーズ選手権 準決勝敗退"
+   },
+   {
+    "date": "—",
+    "opp": "Shaun Murphy",
+    "score": "10-4",
+    "res": "W",
+    "note": "ジャーマンマスターズ 決勝（優勝、通算31回目のランキングタイトル）"
+   }
+  ],
+  "form_summary": "2026年は優勝2回（ジャーマンマスターズ、上海マスターズ）を含む上位進出が多いが、直近の武漢オープンは準々決勝で敗退し世界ランク1位の座をZhao Xintongに明け渡した。",
+  "lineup": [
+   "個人競技のため対象外"
+  ]
+ },
+ "right": {
+  "name": "Jiahao",
+  "ranking": "ランキング122位（2026年7月16日時点）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "Liang Xiaolong",
+    "score": "4-2",
+    "res": "W",
+    "note": "2026年5月 Qスクール（アジア・オセアニア地区、タイ）決勝、勝利しツアーカード獲得"
+   }
+  ],
+  "form_summary": "2026年5月のQスクールでツアーカードを獲得したばかりのプロ1年目。2026/27シーズンの本大会成績は大半が予選落ち（LQ）と記録されている。",
+  "lineup": [
+   "個人競技のため対象外"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "過去対戦記録は確認できず（初対戦の可能性）。",
+ "venue": "深圳オープン（中国・深圳）、1回戦（1/32ファイナル）。2026-09-28 15:00 JST開始（snooker.org記載の06:00 UTC/07:00 BSTセッションに対応）。",
+ "risks": [
+  "世界ランク5位と122位という極端な実力差があり、格下Jiahaoはプロ1年目でツアー本戦経験が浅い。",
+  "トランプは直近の武漢オープンで準々決勝敗退と、やや調子を落としている可能性がある。"
+ ],
+ "missing": [
+  "単一ブック（bet365等）の現在オッズ",
+  "独立モデル（numberFire/Dimers等）による勝率",
+  "両者の過去対戦成績の詳細"
+ ],
+ "unavailable": {
+  "h2h": "flashscoreのH2Hページに過去対戦データの記載なし",
+  "odds": "betexplorer/oddsportal/oddscheckerへのアクセスがプロキシの承認待ちでタイムアウトし、単一ブックの現在値を取得できなかった",
+  "model_prob": "numberFire/Dimers等、指定条件を満たす公開独立モデル値を時間内に確認できなかった"
+ },
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 2,
+   "L": 5,
+   "D": 0,
+   "win_rate": 28.6,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 36,
+   "points_against": 33,
+   "points_games": 4
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 4,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

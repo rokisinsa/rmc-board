@@ -1,0 +1,106 @@
+{
+ "match_id": "m20260928-01463b2f",
+ "data_as_of": "2026-09-27T23:46:00+09:00",
+ "left": {
+  "name": "ルブレフ",
+  "ranking": "Tennis Abstract Elo 28位 総合1879.7・ハード1825.1（ATP公式順位は未取得）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "ガストン",
+    "score": "—",
+    "res": "W",
+    "note": "杭州QF"
+   },
+   {
+    "date": "—",
+    "opp": "ヒジカタ",
+    "score": "—",
+    "res": "W",
+    "note": "杭州1回戦"
+   }
+  ],
+  "form_summary": "杭州で開幕からヒジカタ、QFでガストンを撃破しSF進出",
+  "lineup": []
+ },
+ "right": {
+  "name": "ジャケ",
+  "ranking": "Tennis Abstract Elo 133位 総合1663.6・ハード1625.0（ATP公式順位は未取得）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "エチェベリー",
+    "score": "2-0",
+    "res": "W",
+    "note": "杭州"
+   }
+  ],
+  "form_summary": "予選勝者かはなお未確認、エチェベリー撃破を含み勝ち上がりSF進出",
+  "lineup": []
+ },
+ "h2h": [],
+ "h2h_summary": "対戦成績は確認できなかった",
+ "venue": "AITO杭州オープン（ATP250）準決勝、センターコート、現地（中国標準時UTC+8）月曜17:30開始予定＝日本時間18:30",
+ "risks": [
+  "Tennis Abstract Eloのハード評価差（1825.1対1625.0）からモデル的にはルブレフが約76%の勝率",
+  "開始時刻は現地17:30（センターコート）との報道があり、インベントリ記載の15:00 JSTから変更の可能性"
+ ],
+ "missing": [
+  "対戦成績（H2H）",
+  "単一ブック名を明示したオッズ（TennisTonic記載値は参照元ブック名不明）",
+  "ATP公式ランキング数値"
+ ],
+ "unavailable": {
+  "h2h": "対戦記録が見つからなかった"
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝"
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "match_id": "m20260928-855f5752",
+ "data_as_of": "2026-09-27T23:33:00+09:00",
+ "left": {
+  "name": "Liquid",
+  "ranking": "HLTV 27位 / Valveランキング18位（HLTV試合ページ）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "M80",
+    "score": "2-0",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   },
+   {
+    "date": "—",
+    "opp": "NRG",
+    "score": "2-0",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   },
+   {
+    "date": "—",
+    "opp": "Chicken Coop",
+    "score": "2-0",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   }
+  ],
+  "form_summary": "本大会3連勝（いずれも2-0）",
+  "lineup": [
+   "確定ロスター・欠場の詳細はHLTVページから取得できず",
+   "欠場の報道なし"
+  ]
+ },
+ "right": {
+  "name": "Wildcard",
+  "ranking": "HLTV 46位 / Valveランキング50位（HLTV試合ページ）",
+  "form": [
+   {
+    "date": "—",
+    "opp": "Chicken Coop",
+    "score": "2-0",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   },
+   {
+    "date": "—",
+    "opp": "NRG",
+    "score": "2-0",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   },
+   {
+    "date": "—",
+    "opp": "DENDELE",
+    "score": "2-1",
+    "res": "W",
+    "note": "iBUYPOWER Masters FML 2026"
+   }
+  ],
+  "form_summary": "本大会3連勝（うち1試合は2-1の接戦）",
+  "lineup": [
+   "確定ロスター・欠場の詳細はHLTVページから取得できず",
+   "欠場の報道なし"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "過去の対戦記録なし（HLTV試合ページに表示なし）",
+ "venue": "LAN、iBUYPOWER Masters FML 2026 決勝",
+ "esports": {
+  "format": "BO3（iBUYPOWER Masters FML 2026 決勝）",
+  "lan_online": "LAN",
+  "map_pool": "3マップとも試合前で『TBA』表示。直近3か月の勝率：Liquid Mirage 83%・Inferno 100%・Anubis 73%・Dust2 43%、Wildcard Ancient 100%・Inferno 50%（他マップはサンプル不足）",
+  "veto": "試合前のため未実施",
+  "map_h2h": "対戦記録がないため算出不可"
+ },
+ "risks": [
+  "直近対戦なしで実力比較の直接指標が乏しい",
+  "Wildcardはマップ別データがまだ少なく（Ancient/Infernoのみ）安定性が未知数",
+  "HLTVランキングはLiquidが上（27位 vs 46位）だが、決勝までの直近成績は両者とも3連勝で拮抗"
+ ],
+ "missing": [
+  "単一ブックメーカーの具体的なオッズ倍率（HLTVにはStake Casino枠のみ表示され数値未取得。他ブックはアクセス制限で未取得）",
+  "独立した予測モデル（numberFire等）",
+  "確定先発ロスター・欠場情報",
+  "試合開始タイムゾーンの一次確認"
+ ],
+ "unavailable": {
+  "odds": "HLTVのオッズ枠にはStake Casinoのみ表示され数値が取得できず、他の単一ブックのページはアクセス制限で取得不可だった"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 6,
+   "points_against": 0,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 6,
+   "points_against": 1,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

@@ -1,0 +1,178 @@
+{
+"group": "C_us",
+"finished_at": "2026-09-27T23:25:00+09:00",
+"scan": {
+ "バスケットボール": {
+  "sources_checked": [
+   "https://www.espn.com/wnba/story/_/id/49882118/wnba-playoffs-2026-schedule-games-first-round-semifinals-finals-scores-results-news-highlights",
+   "既存インベントリ（欧州各国リーグ）"
+  ],
+  "note": "WNBAプレーオフ1回戦4カード（Lynx-Liberty/Aces-Fever/Dream-Mystics/Valkyries-Wings）が窓内の全カードと一致、取りこぼしなし。欧州国内リーグ（ACB/レガA/BBL/LNB等）は既存インベントリの規模が大きく、今回は個別リーグの全数照合までは時間内に完了できず、追加検出なし（新規大会の兆候も見当たらず）。"
+ },
+ "野球": {
+  "sources_checked": [
+   "https://npb.jp/games/2026/schedule_09_detail.html",
+   "MLB週末最終戦（既知情報の整合確認）",
+   "https://stats.cpbl.com.tw/schedule",
+   "https://cpbl.com.tw/schedule（403でアクセス不可）"
+  ],
+  "note": "NPBは9/28（月）3試合（広島-DeNA、西武-楽天、ロッテ-日本ハム）で確定・インベントリと一致、取りこぼしなし。MLBは9/28が全30球団のレギュラーシーズン最終戦（15試合＝インベントリの02:05×2/04:05×4/04:07×1/04:10×8と一致）、取りこぼしなし。CPBLは公式サイトが403、stats.cpbl.com.twの自動取得結果がインベントリ（台鋼-中信兄弟／統一-楽天モンキーズ／味全-富邦）と一致せず不審（別カード・別時刻を提示）のため、今回は開始時刻・カードとも確定できず「開始時刻要確認」フラグを維持。"
+ },
+ "アメフト": {
+  "sources_checked": [
+   "https://www.nfl-schedule.com/weeks/week-3",
+   "https://fbschedules.com/2026-nfl-monday-night-football-schedule/"
+  ],
+  "note": "NFL Week3の日曜枠14試合（1:00pmET×9／4:05・4:25pmET×4／SNF 8:20pmET×1）は全てインベントリに存在し取りこぼしなし。月曜MNF（イーグルス-ベアーズ、8:15pmET＝JST 9/29 09:15）は走査窓（〜9/28 23:10 JST）の外なので対象外（正しく未収録）。カレッジフットボールはこの走査窓（JST日曜深夜〜月曜夜）に該当する主要カードなし（カレッジは基本土曜開催で窓外）。"
+ }
+},
+"new_events": [],
+"changes": [
+ {
+  "match_id": "m20260928-dec413cc",
+  "start_jst_new": "2026-09-28T05:25:00+09:00",
+  "source": "https://www.nfl-schedule.com/weeks/week-3",
+  "note": "レイブンズ@カウボーイズ（ブラジル/マラカナン）はキックオフ4:25pmET。インベントリの05:05は4:05pmET枠の時刻で、本カードは05:25 JSTが正しい。「開始時刻要確認」フラグはこれで解消。"
+ },
+ {
+  "match_id": "m20260928-9812ab7d",
+  "start_jst_new": "2026-09-28T05:25:00+09:00",
+  "source": "https://www.nfl-schedule.com/weeks/week-3",
+  "note": "レイダース@セインツも4:25pmET枠。インベントリの05:05は誤りで05:25 JSTが正しい。「開始時刻要確認」フラグはこれで解消。"
+ }
+],
+"deep_dives": [
+ {
+  "match_id": "m20260928-4912f3cb",
+  "start_jst_confirmed": "2026-09-28T05:00:00+09:00",
+  "data_as_of": "2026-09-27T23:15:00+09:00",
+  "odds": {"book": "DraftKings", "L": 1.645, "R": 2.30, "taken_at": "2026-09-27（記事更新時点、時刻不明）", "exact": true, "market": "ML", "via": "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-for-wnba-playoffs-game-1-2026"},
+  "model_prob": {"side": "L", "prob": 0.607, "method": "Dimers WNBAモデル（10,000回シミュレーション、2026-09-27時点）", "as_of": "2026-09-27", "url": "https://www.dimers.com/wnba/predictions/2026_143_lv_ind"},
+  "ranking": "エーシズ：前年王者、プレーオフ1回戦。フィーバー：シーズン得点力リーグ最高(97.1点/試合、100点超20試合)、一方で失点90.8点/試合と守備は弱点",
+  "h2h": {"unavailable": true, "reason": "今回の検索範囲では対戦成績の記事が見つからず未取得"},
+  "recent_form": "エーシズ：7連勝中、直近試合はA'ja Wilsonが34得点10リバウンド4アシスト。フィーバー：直近試合はキャトリン・クラークが2得点4リバウンドと不振",
+  "venue": "Michelob Ultra Arena（ラスベガス、エーシズのホーム）",
+  "lineup": "A'ja Wilson（エーシズ）シーズン平均25.7得点9.4リバウンド2.0ブロック・52.4%シュート成功率で健在。キャトリン・クラーク（フィーバー）は出場前提も直近不振",
+  "risks": "プレーオフ第1戦。フィーバーは守備がリーグ最下位クラス（90.8失点/試合）でエーシズの得点力に晒されるリスク",
+  "missing": "両者の直近H2H対戦成績、負傷者リストの詳細",
+  "source_urls": [
+   "https://www.lineups.com/articles/fever-vs-aces-picks-predictions-odds-wnba-playoffs-first-round/",
+   "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-for-wnba-playoffs-game-1-2026",
+   "https://www.dimers.com/wnba/predictions/2026_143_lv_ind"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-00dea091",
+  "start_jst_confirmed": "2026-09-28T01:15:00+09:00",
+  "data_as_of": "2026-09-27T23:10:00+09:00",
+  "odds": {"book": "OddsPortal（最高値）", "L": 1.78, "R": 1.99, "taken_at": "前回スキャン時点（時刻不明、インベントリ値を継続使用）", "exact": false, "market": "ML", "via": "oddsportal.com"},
+  "model_prob": {"unavailable": true, "reason": "イタリア国内リーグ（レガA）はnumberFire/Dimers/ESPN BPI等の対象外で、公開の独立モデル値が今回の検索範囲では見つからず"},
+  "ranking": "リーグ開幕戦のため順位なし",
+  "h2h": {"unavailable": true, "reason": "対戦成績の記事が見つからず未取得"},
+  "recent_form": "ローマ：プレシーズン3勝3敗（Scafati・ASVELに勝利／Hapoel Tel Aviv・Virtus Bologna・Vareseに敗戦、「連携がまだ不完全」との指摘）。ナポリ：プレシーズン5勝3敗（Strasbourg・Reggiana・Scafatiに勝利／PAOKに大敗）",
+  "venue": "パラユール（ローマ、マキシマ・ローマのホーム）",
+  "lineup": "現時点で両チームとも公式な出場停止・欠場の報告なし（記事時点）",
+  "risks": "開幕戦かつ両チームともロスター刷新中で不確実性が高い",
+  "missing": "単一ブックの最新オッズ（Diretta.itはJS描画のため個社列を取得できず）、H2H対戦成績、独立モデル値",
+  "source_urls": [
+   "https://www.pronosticisportivi.it/pronostici/basket/serie-a-basket/pronostico-maxima-roma-basket-napoli-27-09-2026-ore-18-15/"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-83fe679c",
+  "start_jst_confirmed": "2026-09-28T18:00:00+09:00",
+  "data_as_of": "2026-09-27T23:16:00+09:00",
+  "odds": {"unavailable": true, "reason": "NPB向けの単一ブック掲載オッズが今回の検索範囲では見つからず"},
+  "model_prob": {"unavailable": true, "reason": "NPB向けの公開独立モデル（numberFire/Dimers等）は対象外・見つからず"},
+  "ranking": "パ・リーグ2位争いに絡む西武（詳細な勝敗数は未取得）",
+  "h2h": {"unavailable": true, "reason": "未取得"},
+  "recent_form": {"unavailable": true, "reason": "未取得"},
+  "venue": "ベルーナドーム（西武のホーム）",
+  "lineup": "予告先発：西武・隅田 対 楽天・岸（NPB公示ベース、確定）",
+  "risks": "西武の2位争いに直結する一戦（順位表の具体的数値は未確認）",
+  "missing": "順位表の具体的な勝敗数・ゲーム差、両チームの直近成績、オッズ、独立モデル値",
+  "source_urls": [
+   "https://www.daily.co.jp/baseball/2026/09/27/0020866259.shtml",
+   "https://npb.jp/announcement/starter/"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-9e1725d8",
+  "start_jst_confirmed": "2026-09-28T18:00:00+09:00",
+  "data_as_of": "2026-09-27T23:16:00+09:00",
+  "odds": {"unavailable": true, "reason": "NPB向けの単一ブック掲載オッズが今回の検索範囲では見つからず"},
+  "model_prob": {"unavailable": true, "reason": "NPB向けの公開独立モデルは対象外・見つからず"},
+  "ranking": "パ・リーグ2位争いに絡む日本ハム（詳細な勝敗数は未取得）",
+  "h2h": {"unavailable": true, "reason": "未取得"},
+  "recent_form": {"unavailable": true, "reason": "未取得"},
+  "venue": "ZOZOマリンスタジアム（ロッテのホーム）",
+  "lineup": "予告先発：ロッテ・ジャクソン 対 日本ハム・福島（NPB公示ベース、確定）",
+  "risks": "日本ハムの2位争いに直結する一戦（順位表の具体的数値は未確認）",
+  "missing": "順位表の具体的な勝敗数・ゲーム差、両チームの直近成績、オッズ、独立モデル値",
+  "source_urls": [
+   "https://www.daily.co.jp/baseball/2026/09/27/0020866259.shtml",
+   "https://npb.jp/announcement/starter/"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-2540a13c",
+  "start_jst_confirmed": "2026-09-28T04:05:00+09:00",
+  "data_as_of": "2026-09-27T23:12:00+09:00",
+  "odds": {"book": "FanDuel", "L": 1.806, "R": 2.06, "taken_at": "2026-09-27（記事更新時点、時刻不明）", "exact": true, "market": "ML", "via": "https://www.sportsgrid.com/mlb/game/chicago-cubs-boston-red-sox-scores-odds-picks-props-september-27-2026/b438dd73-7a78-4f51-a0c5-889d7f3a3dde"},
+  "model_prob": {"side": "L", "prob": 0.56, "method": "SportsGridモデル（自社予測モデル、2026-09-27時点、0.4点差予想）", "as_of": "2026-09-27", "url": "https://www.sportsgrid.com/mlb/game/chicago-cubs-boston-red-sox-scores-odds-picks-props-september-27-2026/b438dd73-7a78-4f51-a0c5-889d7f3a3dde"},
+  "ranking": "カブスは88勝73敗でシーズン最終戦（ワイルドカード確定済み、最終順位・シードに影響）",
+  "h2h": {"unavailable": true, "reason": "未取得"},
+  "recent_form": {"unavailable": true, "reason": "未取得"},
+  "venue": "フェンウェイ・パーク（レッドソックスのホーム）",
+  "lineup": {"unavailable": true, "reason": "両先発投手名は記事に記載がなく未取得"},
+  "risks": "両軍ともワイルドカード確定済みのシーズン最終戦のため、シード確定状況次第で主力温存のリスクあり（詳細未確認）",
+  "missing": "両先発投手名、直近成績、シード確定状況の詳細",
+  "source_urls": [
+   "https://www.sportsgrid.com/mlb/game/chicago-cubs-boston-red-sox-scores-odds-picks-props-september-27-2026/b438dd73-7a78-4f51-a0c5-889d7f3a3dde"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-dec413cc",
+  "start_jst_confirmed": "2026-09-28T05:25:00+09:00",
+  "data_as_of": "2026-09-27T23:18:00+09:00",
+  "odds": {"book": "DraftKings", "L": 1.571, "R": 2.45, "taken_at": "2026-09-27（記事更新時点、時刻不明）", "exact": true, "market": "ML", "via": "https://www.cbssports.com/betting/news/cowboys-vs-ravens-odds-picks-prediction-nfl-week-3-matchup-start-time-preview-best-bets-for-brazil-game/"},
+  "model_prob": {"side": "L", "prob": 0.624, "method": "Dimers NFLモデル（10,000回シミュレーション）", "as_of": "2026-09-25T23:36:00-04:00", "url": "https://www.dimers.com/nfl/predictions/2026_3_dal_bal"},
+  "ranking": "両チームとも1勝1敗",
+  "h2h": {"unavailable": true, "reason": "未取得"},
+  "recent_form": "レイブンズ：Week2はセインツに17-24で4Q途中まで先行しながら逆転負け、Week1はコルツに41-23で快勝。カウボーイズ：1勝1敗（詳細未取得）",
+  "venue": "マラカナン・スタジアム（ブラジル・リオデジャネイロ、NFL史上初のブラジル開催・中立地）",
+  "lineup": "レイブンズWRゼイ・フラワーズが故障者リストで出場微妙（マラカナンの芝コンディションを巡るNFLPAの懸念も報道）。カウボーイズは守備陣に負傷者が出始めていると報道（個別選手名は未確認）、守備は総獲得ヤード許容がリーグ4番目に多い",
+  "risks": "中立地（ブラジル）開催で芝コンディション懸念あり。両チームに故障者",
+  "missing": "カウボーイズの具体的な故障者名、直近試合の詳細スコア",
+  "source_urls": [
+   "https://www.cbssports.com/betting/news/cowboys-vs-ravens-odds-picks-prediction-nfl-week-3-matchup-start-time-preview-best-bets-for-brazil-game/",
+   "https://www.dimers.com/nfl/predictions/2026_3_dal_bal",
+   "https://www.baltimoreravens.com/news/late-for-work-what-pundits-expect-ravens-cowboys-rio-nfl-week-3-predictions"
+  ],
+  "extra_flags": []
+ },
+ {
+  "match_id": "m20260928-bc2baae9",
+  "start_jst_confirmed": "2026-09-28T02:00:00+09:00",
+  "data_as_of": "2026-09-27T23:19:00+09:00",
+  "odds": {"book": "bet365", "L": 1.667, "R": 2.25, "taken_at": "2026-09-25（FOX Sports掲載、当日の単一ブック再取得はできず前回値を継続使用）", "exact": true, "market": "ML", "via": "FOX Sports（9/25掲載）"},
+  "model_prob": {"unavailable": true, "reason": "covers.comの記事はアナリスト個人の見解（58%）のみで、numberFire/Dimers/ESPN BPI等の公開モデル値は今回の検索範囲では確認できず（市場逆算値は使用不可のため不採用）"},
+  "ranking": "両チームとも0勝2敗",
+  "h2h": {"unavailable": true, "reason": "未取得"},
+  "recent_form": "テキサンズ：直近5回のアウェイ戦は4勝1敗、2025年以降ATS53%。コルツ：守備がリーグ最下位クラス（1試合平均被514ヤード・37失点）",
+  "venue": "NRGスタジアム（テキサンズのホーム）",
+  "lineup": "テキサンズWRニコ・コリンズが欠場継続。コルツ側の具体的な欠場情報は記事になし",
+  "risks": "0勝2敗同士の対戦。コルツ守備の崩壊ぶりが焦点",
+  "missing": "独立モデル値、両チームのH2H、当日時点の単一ブック最新オッズ",
+  "source_urls": [
+   "https://www.covers.com/nfl/texans-vs-colts-prediction-picks-sept-27-2026"
+  ],
+  "extra_flags": []
+ }
+]
+}

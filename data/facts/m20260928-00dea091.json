@@ -1,0 +1,149 @@
+{
+ "match_id": "m20260928-00dea091",
+ "data_as_of": "2026-09-27T23:10:00+09:00",
+ "left": {
+  "name": "ローマ",
+  "ranking": "イタリア・レガA開幕戦（順位なし）",
+  "form": [
+   {
+    "date": "9月",
+    "opp": "Scafati",
+    "score": "—",
+    "res": "W",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "ASVEL",
+    "score": "—",
+    "res": "W",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "Hapoel Tel Aviv",
+    "score": "—",
+    "res": "L",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "Virtus Bologna",
+    "score": "—",
+    "res": "L",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "Varese",
+    "score": "—",
+    "res": "L",
+    "note": "プレシーズン"
+   }
+  ],
+  "form_summary": "プレシーズン3勝3敗。「連携がまだ不完全」との指摘",
+  "lineup": [
+   "公式な出場停止・欠場の報告なし（記事時点）"
+  ]
+ },
+ "right": {
+  "name": "ナポリ",
+  "ranking": "イタリア・レガA開幕戦（順位なし）",
+  "form": [
+   {
+    "date": "9月",
+    "opp": "Strasbourg",
+    "score": "—",
+    "res": "W",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "Reggiana",
+    "score": "—",
+    "res": "W",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "Scafati",
+    "score": "—",
+    "res": "W",
+    "note": "プレシーズン"
+   },
+   {
+    "date": "9月",
+    "opp": "PAOK",
+    "score": "—",
+    "res": "L",
+    "note": "プレシーズン、大敗"
+   }
+  ],
+  "form_summary": "プレシーズン5勝3敗",
+  "lineup": [
+   "公式な出場停止・欠場の報告なし（記事時点）"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "",
+ "venue": "パラユール（ローマ、マキシマ・ローマのホーム）",
+ "risks": [
+  "開幕戦かつ両チームともロスター刷新中で不確実性が高い"
+ ],
+ "missing": [
+  "単一ブックの最新オッズ",
+  "H2H対戦成績",
+  "独立モデル値"
+ ],
+ "unavailable": {
+  "h2h": "対戦成績の記事が見つからず未取得",
+  "model_prob": "イタリア国内リーグはnumberFire/Dimers/ESPN BPI等の対象外で公開の独立モデル値が見つからず"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝"
+  },
+  "right": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝"
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

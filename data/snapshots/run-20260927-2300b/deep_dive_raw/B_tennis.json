@@ -1,0 +1,107 @@
+{
+ "group": "B_tennis",
+ "finished_at": "2026-09-27T23:50:00+09:00",
+ "scan": {
+  "テニス（ATP/WTA/チャレンジャー/ITF）": {
+   "sources_checked": [
+    "https://www.atptour.com/en/scores/current/chengdu/7581/results",
+    "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
+    "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/daily-schedule",
+    "https://www.betexplorer.com/tennis/atp-singles/hangzhou/",
+    "https://tennistonic.com/tennis-news/1058336/",
+    "WebSearch: WTA tennis schedule 2026-09-28 Ningbo/Guangzhou/Osaka"
+   ],
+   "note": "既存インベントリの主要カードはATP成都(SF2枠)・ATP杭州(SF)・チャレンジャー各地・ITF女子の網羅で概ね一致。ATP成都QF結果を確認：シャポバロフがマナリノに6-7 6-3 6-2で勝利（インベントリ記載と一致）。SF2（m20260928-2f77907f）の相手はハリス対フルカチュ（Hurkacz）のQF勝者だが、当該QFは取得時点で結果未確定のため対戦相手はなお未確定のまま。杭州SF（Rublev-Jacquet）は組み合わせ確定済みだが、現地報道で開始が月曜17:30(CST)＝18:30 JST時点との情報があり、インベントリの15:00 JST推定と差異あり（changesに記載）。WTA本戦レベルの新規大会は検索で確認できず、9/28 20:40〜23:10 JST枠の見落とし大会は発見できなかった（時間切れのため追加走査は打ち切り）。チャレンジャー各地（ムイユロン/バーリ/ポルト）・ITF女子（ランス/キンタ・ド・ラゴ）は既存インベントリと一致、取りこぼしは確認できず。"
+  },
+  "卓球": {
+   "sources_checked": [
+    "https://www.ittf.com/2026-events-calendar/",
+    "WebSearch: table tennis WTT event 2026-09-28"
+   ],
+   "note": "WTTシリーズの直近大会（WTT Champions重慶等）は2026年3月開催で、走査窓（9/27 23:10〜9/28 23:10 JST）に該当する主要卓球国際大会は発見できず。該当試合なしと判断（追加確認は時間切れのため未実施）。"
+  }
+ },
+ "new_events": [],
+ "changes": [
+  {
+   "match_id": "m20260928-01463b2f",
+   "start_jst_new": "2026-09-28T18:30:00+09:00",
+   "source": "https://tennistonic.com/tennis-news/1058343/how-to-watch-rublev-vs-jacquet-on-live-streaming-in-hangzhou-on-monday/",
+   "note": "TennisTonicが「月曜17:30 現地時間（センターコート）」と報道。杭州は中国標準時（UTC+8）のためJSTは+1時間で18:30。インベントリの15:00 JSTから変更の可能性（現地コートオーダーで前後する可能性はあり、要再確認）"
+  }
+ ],
+ "deep_dives": [
+  {
+   "match_id": "m20260928-01463b2f",
+   "start_jst_confirmed": {"unavailable": true, "reason": "現地報道ベースの18:30 JST推定のみで、公式オーダーオブプレーは未取得"},
+   "data_as_of": "2026-09-27T23:46:00+09:00",
+   "odds": {"unavailable": true, "reason": "TennisTonic記載の1.29/3.55はブックメーカー名が明示されておらず、単一ブック値として確認できなかった（betexplorer杭州ページにも本カードのオッズ掲載なし）"},
+   "model_prob": {"side": "L", "prob": 0.76, "method": "Tennis Abstract ATP Elo（ハードコート, 2026-09-21更新）Rublev hElo1825.1 対 Jacquet hElo1625.0 から算出", "as_of": "2026-09-21", "url": "https://tennisabstract.com/reports/atp_elo_ratings.html"},
+   "ranking": "ルブレフ：Elo28位（総合1879.7・ハード1825.1）／ジャケ：Elo133位（総合1663.6・ハード1625.0）。ATP公式順位は未取得",
+   "h2h": "対戦記録は見つからず（未対戦の可能性）",
+   "recent_form": "ルブレフ：杭州1回戦でヒジカタ、QFでガストンを撃破。ジャケ：杭州でエチェベリー（2-0）ほかを撃破しSF進出",
+   "venue": "AITO杭州オープン（ATP250）準決勝、センターコート、屋外/屋内ハード",
+   "lineup": "両者ともSF進出が確定済み（対戦相手未確定要素なし）",
+   "risks": [
+    "オッズが単一ブック名で確認できておらず市場価格の確度が低い",
+    "開始時刻がインベントリ記載（15:00 JST）と現地報道（18:30 JST）で食い違い、未確定"
+   ],
+   "missing": "単一ブックのオッズ、公式開始時刻、H2H記録",
+   "source_urls": [
+    "https://www.tennismajors.com/matches/atp/hangzhou-open-2026-men-s-singles/kyrian-jacquet-vs-andrey-rublev",
+    "https://tennistonic.com/tennis-news/1058336/h2h-prediction-of-andrey-rublev-vs-kyrian-jacquet-in-hangzhou-with-odds-preview-pick-28th-september-2026/",
+    "https://tennistonic.com/tennis-news/1058343/how-to-watch-rublev-vs-jacquet-on-live-streaming-in-hangzhou-on-monday/",
+    "https://tennisabstract.com/reports/atp_elo_ratings.html",
+    "https://www.betexplorer.com/tennis/atp-singles/hangzhou/"
+   ],
+   "extra_flags": ["開始時刻要確認"]
+  },
+  {
+   "match_id": "m20260928-38bf98d7",
+   "start_jst_confirmed": {"unavailable": true, "reason": "情報源時点（デンマーク語記事）で「時刻未確定」と明記"},
+   "data_as_of": "2026-09-27T23:46:00+09:00",
+   "odds": {"book": "bet365", "L": 1.22, "R": 4.00, "taken_at": "2026-09-27T23:46:00+09:00", "exact": true, "market": "ML", "via": "https://www.spilxperten.com/tennis/august-holmgren-paa-svaer-opgave-mod-bonzi-i-porto/"},
+   "model_prob": {"side": "L", "prob": "unavailable", "method": "unavailable", "as_of": "unavailable", "url": "unavailable", "unavailable": true, "reason": "ホルムグレンがTennis Abstract Eloリストに未掲載のため算出不可"},
+   "ranking": "ボンジ：Tennis Abstract Elo77位（総合1761.8・ハード1721.3）。ホルムグレン：Eloリストに掲載なし。ATP公式順位はいずれも未取得",
+   "h2h": "対戦記録は見つからず",
+   "recent_form": "両者とも直近成績は未取得",
+   "venue": "エウパゴ・ポルト・オープン（ATPチャレンジャー125）、ポルトガル・ポルト、屋外ハード",
+   "lineup": "特記情報なし（欠場・棄権報道なし）",
+   "risks": [
+    "ボンジはATP本戦級選手（Elo77位）がチャレンジャー出場という実力差の大きいカード",
+    "開始時刻未確定（コート順次第）"
+   ],
+   "missing": "ホルムグレンのElo/ランキング、直近成績、対戦成績、確定開始時刻",
+   "source_urls": [
+    "https://www.spilxperten.com/tennis/august-holmgren-paa-svaer-opgave-mod-bonzi-i-porto/",
+    "https://tennisabstract.com/reports/atp_elo_ratings.html",
+    "https://www.flashscore.fr/match/tennis/bonzi-benjamin-M5OpGHqH/holmgren-august-QTqxSQsj/"
+   ],
+   "extra_flags": ["開始時刻要確認", "価格が実力差と不整合の可能性"]
+  },
+  {
+   "match_id": "m20260928-0fe42197",
+   "start_jst_confirmed": {"unavailable": true, "reason": "コート順次第のオーダーオブプレーで、現地09:00開始セッション内としか確認できず"},
+   "data_as_of": "2026-09-27T23:46:00+09:00",
+   "odds": {"book": "Betano", "L": 1.29, "R": 3.50, "taken_at": "2026-09-27T23:46:00+09:00", "exact": true, "market": "ML", "via": "https://gainblers.com/pt/apostas/tenis/atp-challenger/mouilleron-le-captif/chidekhc-goffind/"},
+   "model_prob": {"side": "R", "prob": 0.596, "method": "Tennis Abstract ATP Elo（ハードコート, 2026-09-21更新）Goffin hElo1620.1 対 Chidekh hElo1552.3 から算出", "as_of": "2026-09-21", "url": "https://tennisabstract.com/reports/atp_elo_ratings.html"},
+   "ranking": "シデク（Clement Chidekh、第7シード）：Elo211位（総合1560.8・ハード1552.3）／ゴファン（元トップ10、本戦オルタネート出場）：Elo139位（総合1654.1・ハード1620.1）",
+   "h2h": "対戦記録は見つからず",
+   "recent_form": "両者とも直近成績は未取得",
+   "venue": "ムイユロン・ル・キャプティフ（オープン・ド・ヴァンデ、ATPチャレンジャー）、フランス。サーフェスは屋内ハードと推定（未検証）",
+   "lineup": "ドロー表で1回戦の組み合わせ確認済み（シデク＝第7シード、ゴファン＝オルタネート枠）",
+   "risks": [
+    "市場オッズ（Betano、シデク1.29favorite）とTennis Abstract Eloモデル（ゴファン優位・推定勝率約59.6%）が逆方向を示しており、価格と実力差の不整合の可能性が高い",
+    "第7シード（シデク）のシード根拠とEloランキング（211位）が一致していない",
+    "確定オッズ・確定開始時刻ともに未取得で、上記はあくまで参考値"
+   ],
+   "missing": "両者の直近成績、対戦成績、確定開始時刻、サーフェス種別の確証",
+   "source_urls": [
+    "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
+    "https://gainblers.com/pt/apostas/tenis/atp-challenger/mouilleron-le-captif/chidekhc-goffind/",
+    "https://tennisabstract.com/reports/atp_elo_ratings.html"
+   ],
+   "extra_flags": ["開始時刻要確認", "価格が実力差と不整合の可能性"]
+  }
+ ]
+}

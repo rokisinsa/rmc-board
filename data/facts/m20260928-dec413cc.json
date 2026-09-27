@@ -1,0 +1,102 @@
+{
+ "match_id": "m20260928-dec413cc",
+ "data_as_of": "2026-09-27T23:18:00+09:00",
+ "left": {
+  "name": "レイブンズ",
+  "ranking": "1勝1敗",
+  "form": [
+   {
+    "date": "Week2",
+    "opp": "セインツ",
+    "score": "17-24",
+    "res": "L",
+    "note": "4Q途中までリードしながら逆転負け"
+   },
+   {
+    "date": "Week1",
+    "opp": "コルツ",
+    "score": "41-23",
+    "res": "W",
+    "note": ""
+   }
+  ],
+  "form_summary": "直近はセインツに逆転負け",
+  "lineup": [
+   "WRゼイ・フラワーズが故障者リストで出場微妙"
+  ]
+ },
+ "right": {
+  "name": "カウボーイズ",
+  "ranking": "1勝1敗",
+  "form": [],
+  "form_summary": "詳細未取得",
+  "lineup": [
+   "守備陣に負傷者が出始めていると報道（個別選手名は未確認）。守備は総獲得ヤード許容がリーグ4番目に多い"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "",
+ "venue": "マラカナン・スタジアム（ブラジル・リオデジャネイロ、NFL史上初のブラジル開催・中立地）",
+ "risks": [
+  "中立地（ブラジル）開催で芝コンディション懸念あり（NFLPAが指摘）",
+  "両チームに故障者"
+ ],
+ "missing": [
+  "カウボーイズの具体的な故障者名",
+  "直近試合の詳細スコア",
+  "両者のH2H"
+ ],
+ "unavailable": {
+  "h2h": "未取得"
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 58,
+   "points_against": 47,
+   "points_games": 2
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

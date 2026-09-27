@@ -148,31 +148,27 @@
   "sport": "アメフト",
   "competition": "NFL Week 3",
   "round": null,
-  "start_jst": "2026-09-28T05:05:00+09:00",
+  "start_jst": "2026-09-28T05:25:00+09:00",
   "left": "レイブンズ",
   "right": "カウボーイズ",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "ブラジル開催・カウボーイズ守備4人欠場（午後枠 05:05〜05:25 JST）",
-  "flags": [
-   "開始時刻要確認"
-  ]
+  "note": "ブラジル開催・カウボーイズ守備4人欠場（午後枠 05:05〜05:25 JST）／開始時刻を09-28T05:05→09-28T05:25に訂正（https://www.nfl-schedule.com/weeks/week-3）",
+  "flags": []
  },
  "m20260928-9812ab7d": {
   "sport": "アメフト",
   "competition": "NFL Week 3",
   "round": null,
-  "start_jst": "2026-09-28T05:05:00+09:00",
+  "start_jst": "2026-09-28T05:25:00+09:00",
   "left": "レイダース",
   "right": "セインツ",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "（午後枠 05:05〜05:25 JST）",
-  "flags": [
-   "開始時刻要確認"
-  ]
+  "note": "（午後枠 05:05〜05:25 JST）／開始時刻を09-28T05:05→09-28T05:25に訂正（https://www.nfl-schedule.com/weeks/week-3）",
+  "flags": []
  },
  "m20260928-28c5f798": {
   "sport": "アメフト",
@@ -549,7 +545,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "価格が実力差と不整合の可能性"
+  ]
  },
  "m20260928-23d74110": {
   "sport": "サッカー",
@@ -771,6 +769,7 @@
   "result": null,
   "note": "韓国は9/24にエクアドルに3-0",
   "flags": [
+   "親善試合",
    "親善試合（ローテーション）"
   ]
  },
@@ -1269,13 +1268,13 @@
   "sport": "テニス",
   "competition": "ATP杭州 SF",
   "round": null,
-  "start_jst": "2026-09-28T15:00:00+09:00",
+  "start_jst": "2026-09-28T18:30:00+09:00",
   "left": "ルブレフ",
   "right": "ジャケ",
   "home_away": "left=home（NFL/MLBはleft=away）",
   "status": "scheduled",
   "result": null,
-  "note": "初対戦",
+  "note": "初対戦／開始時刻を09-28T15:00→09-28T18:30に訂正（https://tennistonic.com/tennis-news/1058343/how-to-watch-rublev-vs-jacquet-on-li）",
   "flags": [
    "開始時刻要確認"
   ]
@@ -1307,6 +1306,7 @@
   "result": null,
   "note": "コート順により開始は後ろにずれる",
   "flags": [
+   "価格が実力差と不整合の可能性",
    "開始時刻要確認"
   ]
  },
@@ -1539,6 +1539,7 @@
   "result": null,
   "note": "コート順により開始は後ろにずれる",
   "flags": [
+   "価格が実力差と不整合の可能性",
    "開始時刻要確認"
   ]
  },
@@ -2182,7 +2183,9 @@
   "status": "scheduled",
   "result": null,
   "note": "BO3・#27 vs #46",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-b7e8a884": {
   "sport": "CS2",
@@ -2355,6 +2358,7 @@
   "result": null,
   "note": "BO5。C9が直近3連勝、TLは3連敗",
   "flags": [
+   "価格が実力差と不整合の可能性",
    "開始時刻要確認"
   ]
  },
@@ -2764,7 +2768,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "データ不足"
+  ]
  },
  "m20260928-95c4b765": {
   "sport": "バドミントン",
@@ -2881,7 +2887,9 @@
   "status": "scheduled",
   "result": null,
   "note": "QF：日本37-32クウェート、バーレーン37-16香港",
-  "flags": []
+  "flags": [
+   "開催国主催の国際大会"
+  ]
  },
  "m20260928-827fb711": {
   "sport": "ハンドボール",
@@ -3011,7 +3019,9 @@
   "status": "scheduled",
   "result": null,
   "note": "",
-  "flags": []
+  "flags": [
+   "データ不足"
+  ]
  },
  "m20260928-fb252914": {
   "sport": "水球",
@@ -4351,7 +4361,9 @@
   "status": "scheduled",
   "result": null,
   "note": "60分1X2",
-  "flags": []
+  "flags": [
+   "開始時刻要確認"
+  ]
  },
  "m20260928-85846c3b": {
   "sport": "アイスホッケー",
@@ -5293,6 +5305,67 @@
   "note": "短期戦（1レグ差で決着）",
   "flags": [
    "短期戦フォーマット"
+  ]
+ },
+ "m20260928-e23bd850": {
+  "sport": "ホッケー",
+  "competition": "アジア大会 男子 予選プールA",
+  "round": null,
+  "start_jst": "2026-09-28T17:00:00+09:00",
+  "left": "日本",
+  "right": "韓国",
+  "home_away": "N",
+  "status": "scheduled",
+  "result": null,
+  "note": "run-20260927-2300bの走査で追加",
+  "flags": [
+   "新規取りこぼし試合",
+   "新規追加"
+  ]
+ },
+ "m20260928-ba6c3767": {
+  "sport": "ホッケー",
+  "competition": "アジア大会 男子 予選プールB",
+  "round": null,
+  "start_jst": "2026-09-28T09:00:00+09:00",
+  "left": "中国",
+  "right": "マレーシア",
+  "home_away": "N",
+  "status": "scheduled",
+  "result": null,
+  "note": "run-20260927-2300bの走査で追加",
+  "flags": [
+   "新規追加"
+  ]
+ },
+ "m20260928-884acce7": {
+  "sport": "ホッケー",
+  "competition": "アジア大会 男子 予選プールB",
+  "round": null,
+  "start_jst": "2026-09-28T13:00:00+09:00",
+  "left": "ウズベキスタン",
+  "right": "タイ",
+  "home_away": "N",
+  "status": "scheduled",
+  "result": null,
+  "note": "run-20260927-2300bの走査で追加",
+  "flags": [
+   "新規追加"
+  ]
+ },
+ "m20260928-e45bb2e9": {
+  "sport": "ホッケー",
+  "competition": "アジア大会 男子 予選プールB",
+  "round": null,
+  "start_jst": "2026-09-28T15:00:00+09:00",
+  "left": "パキスタン",
+  "right": "オマーン",
+  "home_away": "N",
+  "status": "scheduled",
+  "result": null,
+  "note": "run-20260927-2300bの走査で追加",
+  "flags": [
+   "新規追加"
   ]
  }
 }

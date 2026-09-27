@@ -1,0 +1,100 @@
+{
+ "match_id": "m20260928-bc2baae9",
+ "data_as_of": "2026-09-27T23:19:00+09:00",
+ "left": {
+  "name": "テキサンズ",
+  "ranking": "0勝2敗",
+  "form": [
+   {
+    "date": "—",
+    "opp": "—",
+    "score": "—",
+    "res": "—",
+    "note": "直近5回のアウェイ戦は4勝1敗、2025年以降ATS53%"
+   }
+  ],
+  "form_summary": "直近アウェイ戦は好調",
+  "lineup": [
+   "WRニコ・コリンズが欠場継続"
+  ]
+ },
+ "right": {
+  "name": "コルツ",
+  "ranking": "0勝2敗",
+  "form": [
+   {
+    "date": "—",
+    "opp": "—",
+    "score": "—",
+    "res": "—",
+    "note": "守備がリーグ最下位クラス（1試合平均被514ヤード・37失点）"
+   }
+  ],
+  "form_summary": "守備崩壊",
+  "lineup": [
+   "具体的な欠場情報は記事になし"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "",
+ "venue": "NRGスタジアム（テキサンズのホーム）",
+ "risks": [
+  "0勝2敗同士の対戦。コルツ守備の崩壊ぶりが焦点"
+ ],
+ "missing": [
+  "独立モデル値",
+  "両チームのH2H",
+  "当日時点の単一ブック最新オッズ"
+ ],
+ "unavailable": {
+  "h2h": "未取得",
+  "model_prob": "アナリスト個人の見解のみで、公開の独立モデル値（numberFire/Dimers/ESPN BPI等）は今回の検索範囲では確認できず"
+ },
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

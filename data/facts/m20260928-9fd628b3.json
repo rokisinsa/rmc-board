@@ -1,0 +1,106 @@
+{
+ "match_id": "m20260928-9fd628b3",
+ "data_as_of": "2026-09-27T23:31:00+09:00",
+ "left": {
+  "name": "スミス",
+  "ranking": {
+   "unavailable": true
+  },
+  "form": [],
+  "form_summary": "直近フォームの詳細は時間内に取得できず。flashscore上でJamie Atkinsとの別対戦カードの存在のみ確認（Jeff Smithとみられる）。",
+  "lineup": [
+   "個人競技のため対象外"
+  ]
+ },
+ "right": {
+  "name": "ワイルズ",
+  "ranking": {
+   "unavailable": true
+  },
+  "form": [
+   {
+    "date": "—",
+    "opp": "Layton M.",
+    "score": "2-4",
+    "res": "L",
+    "note": "Cazoo UK Open（直近試合、sofascore記載）"
+   }
+  ],
+  "form_summary": "直近のCazoo UK OpenでLayton M.に2-4で敗戦。",
+  "lineup": [
+   "個人競技のため対象外"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "過去対戦記録を時間内に確認できず。",
+ "venue": {
+  "unavailable": true,
+  "reason": "MODUSスーパーシリーズの開催地情報を時間内に確認できなかった"
+ },
+ "risks": [
+  "短期戦フォーマット（1レグ差で決着）のため番狂わせが起きやすく、少ないサンプルでの評価はぶれが大きい。"
+ ],
+ "missing": [
+  "単一ブックの現在オッズ",
+  "独立モデル勝率",
+  "両者の過去対戦成績",
+  "選手ランキング（PDCオーダーオブメリット等）"
+ ],
+ "unavailable": {
+  "ranking": "MODUSスーパーシリーズ参加選手のランキング情報を時間内に確認できなかった",
+  "h2h": "sofascore等で過去対戦データを確認できなかった",
+  "venue": "開催地情報を時間内に確認できなかった",
+  "odds": "betexplorer/oddsportal/oddscheckerへのアクセスがプロキシの承認待ちでタイムアウトし、単一ブックの現在値を取得できなかった",
+  "model_prob": "DartsOrakel等の公開統計モデル値を時間内に確認できなかった"
+ },
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 4,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

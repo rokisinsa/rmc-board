@@ -1,0 +1,99 @@
+{
+ "group": "A_soccer",
+ "finished_at": "2026-09-27T23:20:00+09:00",
+ "scan": {
+  "サッカー": {
+   "sources_checked": [
+    "https://www.jfa.jp/samuraiblue/20260928/",
+    "https://www.jleague.jp/sp/match/search/all/sep/",
+    "WebSearch: Jリーグ 2026年9月28日 試合",
+    "WebSearch: サッカー 2026年9月28日 20時〜22時 試合 日本時間"
+   ],
+   "note": "国際Aマッチウィークのため9/28はJリーグの試合なし（既存インベントリのキリンチャレンジカップのみ確認）。9/28 20:40〜23:10 JST帯の新規リーグ・大会の取りこぼしは、時間予算の制約で個別ブックメーカーサイト（betexplorer/oddsportal）への網羅的アクセスができず、既存33試合以外の追加候補は見つからなかった（ネガティブ確認のみ、悉皆調査ではない）。開始時刻変更・中止の情報は見つからず"
+  }
+ },
+ "new_events": [],
+ "changes": [],
+ "deep_dives": [
+  {
+   "match_id": "m20260928-182424a2",
+   "start_jst_confirmed": "2026-09-28T01:00:00+09:00",
+   "data_as_of": "2026-09-27T23:15:00+09:00",
+   "odds": {"book": "bet365", "L": 1.48, "D": 4.50, "R": 5.75, "taken_at": "2026-09-27T23:15:00+09:00", "exact": true, "market": "1X2", "via": "https://www.racingpost.com/sport/football-tips/nations-league/denmark-vs-wales-predictions-team-news-odds-betting-tips-bet-builder-auG9F9P8UvZv/"},
+   "model_prob": {"unavailable": true, "reason": "Opta/FootyStats等の個別試合予測ページに時間内でアクセスできず（FootyStatsはアクセス許可待ちでタイムアウト）"},
+   "ranking": "両者ともUEFA NL A4組開幕戦で敗戦（デンマークはノルウェーに2-3、ウェールズはポルトガルに0-1）",
+   "h2h": "直近対戦はデンマークが4-0で勝利（EURO予選、日付詳細不明）",
+   "recent_form": "デンマーク：2026年の代表戦6試合中勝利1のみだが、ホーム22試合で敗戦はスペイン戦のみという長期好記録／ウェールズ：2026年の代表戦5試合連続未勝利、直近はポルトガルに23本対5本とシュート数で圧倒されて0-1敗戦",
+   "venue": "パルケン・スタジアム（コペンハーゲン、デンマークのホーム）",
+   "lineup": "デンマーク：オスラ、M・イェンセン、ノアゴー欠場、エリクセン欠場、グロンベック微妙。予想布陣（4-2-3-1）ヨアンセン他／ウェールズ：ウィルソン、ブロードヘッド、ダーロウ、ロドン、ロウラー、コルウィル、I・デイヴィス欠場、カバンゴ要経過観察",
+   "risks": "ウェールズは主力多数が負傷離脱中で戦力が手薄。デンマークは直近のノルウェー戦で逆転負けを喫しており勢いは不透明",
+   "missing": "確定スタメン、H2Hの正確な日付・大会名",
+   "source_urls": [
+    "https://www.racingpost.com/sport/football-tips/nations-league/denmark-vs-wales-predictions-team-news-odds-betting-tips-bet-builder-auG9F9P8UvZv/",
+    "https://www.sportsgambler.com/betting-tips/football/denmark-vs-wales-prediction-lineups-odds-2026-09-27/",
+    "https://www.whoscored.com/matches/1969859/preview/international-uefa-nations-league-a-2026-2027-denmark-wales"
+   ],
+   "extra_flags": []
+  },
+  {
+   "match_id": "m20260928-05fda1e5",
+   "start_jst_confirmed": "2026-09-28T03:45:00+09:00",
+   "data_as_of": "2026-09-27T23:15:00+09:00",
+   "odds": {"book": "bet365", "L": 2.50, "D": 3.60, "R": 2.70, "taken_at": "2026-09-27T23:15:00+09:00", "exact": true, "market": "1X2", "via": "https://www.canadasportsbetting.ca/news/soccer/norway-portugal-prediction-odds-september-27/"},
+   "model_prob": {"unavailable": true, "reason": "Opta/FootyStats等の個別試合予測ページに時間内でアクセスできず。canadasportsbetting独自アルゴリズムの数値（ノルウェー38%/引分25%/ポルトガル37%）は手法不明で市場オッズからの逆算の可能性を排除できないため不採用"},
+   "ranking": "UEFA NL A4組・両者とも開幕戦を勝利（ノルウェーはデンマークに3-2、ポルトガルはウェールズに1-0）。ポルトガルはNL連覇中の王者",
+   "h2h": "情報源に直近対戦履歴の記載なし（unavailable）",
+   "recent_form": "ノルウェー：2024年3月以降ホーム無敗、2025年以降21試合15勝、直近はホーランド2発でデンマークに逆転勝利／ポルトガル：2025年以降20試合中黒星わずか3、直近はウェールズに支配率61%・シュート23本で完勝",
+   "venue": "ウレヴァール・スタジアム（オスロ、ノルウェーのホーム）",
+   "lineup": "ノルウェー：シェルロート欠場。予想布陣（4-3-3）ニーランド、ホーランド他／ポルトガル：サ、セメド、ヌネス、S・コスタ、ゲデス非招集。予想布陣（4-2-3-1）コスタ、C・ロナウド他",
+   "risks": "両チームとも開幕戦を勝利しており勢いは拮抗。ポルトガルはロナウド・フェルナンデス・ネヴェスら主力が健在で個の質は高い",
+   "missing": "両チームの直近対戦（H2H）履歴、確定スタメン",
+   "source_urls": [
+    "https://www.canadasportsbetting.ca/news/soccer/norway-portugal-prediction-odds-september-27/",
+    "https://www.sportsgambler.com/betting-tips/football/norway-vs-portugal-prediction-lineups-odds-2026-09-27/"
+   ],
+   "extra_flags": []
+  },
+  {
+   "match_id": "m20260928-80be98fb",
+   "start_jst_confirmed": "2026-09-28T01:00:00+09:00",
+   "data_as_of": "2026-09-27T23:15:00+09:00",
+   "odds": {"book": "1xBet", "L": 3.73, "D": 2.84, "R": 2.44, "taken_at": "2026-09-27T23:15:00+09:00", "exact": true, "market": "1X2", "via": "https://www.sportytrader.com/en/betting-tips/gibraltar-andorra-375317/"},
+   "model_prob": {"unavailable": true, "reason": "FootyStats等の個別試合予測ページに時間内でアクセスできず。sportytrader独自『アルゴリズム』の数値は表示オッズと整合せず手法不明のため不採用対象外（採用リストに含まれないサイト独自モデル）"},
+   "ranking": "UEFA NLD組。共に開幕戦で敗戦（ジブラルタルはラトビアに0-1、アンドラはマルタに1-2）",
+   "h2h": "2021年以降の3対戦でジブラルタルの2勝1分（1-0、1-0、0-0）、アンドラは一度も得点できていない",
+   "recent_form": "ジブラルタル：情報源間で評価が正反対（sportsgamblerは『直近10連敗、直近20ホーム試合中17敗』、sportytraderは『直近3試合無敗・失点1のみ』）。対象範囲不明で確定できず／アンドラ：直近4試合3敗、直近5試合中3試合無得点、直近18試合で勝利はリヒテンシュタイン戦のみ",
+   "venue": "ヨーロッパ・スポーツパーク（ジブラルタル、ジブラルタルのホーム）",
+   "lineup": "ジブラルタル：カルロス・リチャーズ先発復帰見込み、注目はJ・スキャンロン（アーセナル加入）／アンドラ：ロサス、J・アラエスが先発争い",
+   "risks": "H2Hはジブラルタルが3戦無敗・無失点で圧倒しているのに対し、市場オッズはアンドラをやや優位としており価格と過去の対戦成績が不整合の可能性。ジブラルタルの近況評価が情報源間で矛盾しており実力見極めが困難",
+   "missing": "ジブラルタルの直近試合結果の正確な記録（情報源間で矛盾）、確定スタメン",
+   "source_urls": [
+    "https://insights.betfred.com/football/gibraltar-vs-andorra-prediction-betting-tips-sunday-27-september-2026/",
+    "https://www.sportytrader.com/en/betting-tips/gibraltar-andorra-375317/",
+    "https://www.sportsgambler.com/betting-tips/football/gibraltar-vs-andorra-prediction-lineups-odds-2026-09-27/",
+    "https://footballpredictions.com/footballpredictions/nations-league-predictions/gibraltar-vs-andorra-prediction-27-09-2026/"
+   ],
+   "extra_flags": ["価格が実力差と不整合の可能性"]
+  },
+  {
+   "match_id": "m20260928-87b4687a",
+   "start_jst_confirmed": "2026-09-28T20:00:00+09:00",
+   "data_as_of": "2026-09-27T23:15:00+09:00",
+   "odds": {"book": "bet365", "L": 6.25, "D": 3.50, "R": 1.73, "taken_at": "2026-09-27T23:15:00+09:00", "exact": true, "market": "1X2", "via": "https://www.goal.com/en-us/news/uruguay-vs-south-korea-predictions-tips-and-latest-odds/blt22aa5f342869ae41"},
+   "model_prob": {"unavailable": true, "reason": "FootyStatsページに時間内でアクセスできず（403エラー）"},
+   "ranking": "国際親善試合",
+   "h2h": "情報源に具体的な記録なし（プレビュー記事に『韓国が前回対戦で3点差勝利』との言及のみ、unavailable扱い）",
+   "recent_form": "韓国：直近5試合3勝2敗、直近のエクアドル戦は3-0で快勝／ウルグアイ：情報源間で直近フォームの記述が大きく矛盾（sportskeedaは『アロンソ新監督下でCONMEBOL予選最終4試合全勝』と好調を伝える一方、foxsportsの直近試合データでは引分・黒星が中心で9/24は日本に1-3敗戦との記載もあり整合しない。実際の調子は確定できず）",
+   "venue": "情報源に記載なし（韓国開催）",
+   "lineup": "韓国：ソン・フンミン欠場、ファン・ヒチャンが攻撃の軸／ウルグアイ：D・ヌニェス、スアレスが攻撃陣、アラウホはフィットすれば起用、ベンタンクール・バルベルデが中盤の軸",
+   "risks": "ウルグアイの直近フォームが情報源間で大きく矛盾しており実際の調子を確定できない。韓国はエースのソン・フンミンを欠く。親善試合でありローテーション起用の可能性",
+   "missing": "確定スタメン、開催スタジアム、正確なH2H記録",
+   "source_urls": [
+    "https://www.goal.com/en-us/news/uruguay-vs-south-korea-predictions-tips-and-latest-odds/blt22aa5f342869ae41",
+    "https://www.foxsports.com/soccer/friendlies-men-south-korea-vs-uruguay-sep-28-2026-game-boxscore-1017927",
+    "https://www.sportskeeda.com/football/south-korea-vs-uruguay-prediction-betting-tips-september-28th-2026"
+   ],
+   "extra_flags": ["親善試合（ローテーション）"]
+  }
+ ]
+}

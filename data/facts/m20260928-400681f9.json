@@ -1,0 +1,117 @@
+{
+ "match_id": "m20260928-400681f9",
+ "data_as_of": "2026-09-27T23:35:00+09:00",
+ "left": {
+  "name": "Team Liquid",
+  "ranking": "LCS Summer Playoffs アッパーブラケット決勝進出。勝者はWorlds 2026スイスステージ出場権とLCSサマーグランドファイナル進出権を獲得",
+  "form": [
+   {
+    "date": "—",
+    "opp": "FlyQuest",
+    "score": "3-0",
+    "res": "W",
+    "note": "アッパーブラケット準決勝（Map1 34分、Map2 33分でブルーサイド勝利、Map3 43分でレッドサイド勝利）"
+   }
+  ],
+  "form_summary": "準決勝でFlyQuestを3-0で下し決勝進出。直近5戦でCloud9に5連勝中（win.gg記事、日付・スコア詳細は不明）",
+  "lineup": [
+   "Josedeodo（準決勝Map1/2 MVP、K/D/A 11-5-22）",
+   "CoreJJ（準決勝Map3 MVP、K/D/A 1-0-41）",
+   "フルロスター・欠場情報は取得できず"
+  ]
+ },
+ "right": {
+  "name": "Cloud9",
+  "ranking": "LCS Summer Playoffs アッパーブラケット決勝進出。勝者はWorlds 2026スイスステージ出場権とLCSサマーグランドファイナル進出権を獲得",
+  "form": [
+   {
+    "date": "—",
+    "opp": "LYON",
+    "score": "3-1",
+    "res": "W",
+    "note": "アッパーブラケット準決勝"
+   }
+  ],
+  "form_summary": "準決勝でLYONを3-1で下し決勝進出",
+  "lineup": [
+   "フルロスター・欠場情報は取得できず"
+  ]
+ },
+ "h2h": [],
+ "h2h_summary": "直近の対戦でTeam Liquidが5連勝中とされる（win.gg記事）。個別の日付・スコアは取得できず",
+ "venue": "LCS Summer Playoffs アッパーブラケット決勝。LAN/オンラインの明記は取得できず",
+ "esports": {
+  "format": "BO5（アッパーブラケット決勝）",
+  "lan_online": "unavailable（明記されたソースなし）",
+  "map_pool": "該当なし（LoLのためマッププール概念は非該当）",
+  "veto": "該当なし（LoLはドラフト制。ピック/バン傾向は未取得）",
+  "patch": "unavailable（該当パッチバージョン未確認）",
+  "map_h2h": "該当なし。シリーズH2Hとして直近5戦でLiquidが5連勝（詳細スコア未取得）"
+ },
+ "risks": [
+  "直近5連勝と『接戦になる』というアナリスト予想が併存しており、GG.betのオッズ（Team Liquid 2.60・Cloud9 1.47＝Cloud9優位）と直近の対戦成績（Liquid5連勝）の間に不整合が見える",
+  "記事中の『Liquid 3-1予想』はアナリストの主観でありモデル値ではない"
+ ],
+ "missing": [
+  "正確な開始時刻の一次ソース確認",
+  "フルロスター・欠場情報",
+  "独立予測モデル（numberFire等）の値",
+  "H2Hの日付・スコア詳細"
+ ],
+ "unavailable": {
+  "model_prob": "LoLを対象とした公開独立モデル（numberFire/Dimers等）の値は確認できなかった"
+ },
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}
