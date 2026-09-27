@@ -7297,7 +7297,7 @@
   "run_id": "run-20260928-0600",
   "slot": "06:00",
   "started_at": "2026-09-28T05:55:27+09:00",
-  "finished_at": "2026-09-28T06:45:56+09:00",
+  "finished_at": "2026-09-28T06:57:56+09:00",
   "start_sha": "5b513ac",
   "status": "partial",
   "previous_run_ok": false,
@@ -8817,7 +8817,7 @@
    "eスポーツはBovada掲載のCS2・LoL・R6のみ新規判定。VALORANT等は前回分の引継ぎ（項目5）",
    "サッカー・ホッケー・ダーツ・スヌーカー・バドミントン・クリケット・NPBは直前の独立モデルが取れず②③④は判定不能（項目8〜10・14）",
    "試合中・結果未判明の既存カード4件は次回確認（項目17）",
-   "Actions・Pages・公開値の確認はpush後（項目34〜39）"
+   "公開ページ・公開JSONの取得確認ができない（WebFetch承認待ちタイムアウト）（項目36〜39）"
   ],
   "checklist": {
    "01": true,
@@ -8853,8 +8853,8 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
+   "34": true,
+   "35": true,
    "36": false,
    "37": false,
    "38": false,
@@ -8879,14 +8879,15 @@
    "19": "日付・JST時刻・大会・相手・H/Aを確認（identity_note 記録）",
    "21": "同じ match_id の全ロジック・経験値取引へ反映",
    "27": "①の敗戦4件（ツェリェ・ドランメン・シーホークス・リンクス）を data/reviews/ に記録（1敗で係数は変えない）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
+   "34": "main へ push（f684e16）。競合なし",
+   "35": "test-validate-deploy run 36352923899 成功（Unit tests・Data validation・Profit audit・deploy-pages すべて success）",
+   "36": "GitHub API で github-pages デプロイ（f684e167, 21:46Z）成功を確認。公開URLの取得は WebFetch の承認待ちタイムアウト（無人実行）で確認不能",
+   "37": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は profit audit 済み）",
+   "38": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は profit audit 済み）",
+   "39": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は profit audit 済み）",
    "40": "報告送信後に確定",
    "41": "上記未完了があるため定時更新完了とはしない"
-  }
+  },
+  "end_sha": "f684e16756e6a8ea0c5232cfa2768a4643ef0afb"
  }
 ]
