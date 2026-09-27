@@ -291,7 +291,10 @@
     "L": 0,
     "D": 1
    },
-   "streak": "2連分"
+   "streak": "2連分",
+   "points_for": 30,
+   "points_against": 11,
+   "points_games": 10
   },
   "right": {
    "games": 10,
@@ -309,13 +312,21 @@
     "L": 2,
     "D": 3
    },
-   "streak": null
+   "streak": null,
+   "points_for": 9,
+   "points_against": 16,
+   "points_games": 10
   },
   "h2h": {
    "games": 10,
    "left": 7,
    "right": 0,
-   "draw": 3
+   "draw": 3,
+   "points_left": 23,
+   "points_right": 10,
+   "points_games": 10,
+   "avg_left": 2.3,
+   "avg_right": 1.0
   },
   "common": [],
   "common_window_days": 30,

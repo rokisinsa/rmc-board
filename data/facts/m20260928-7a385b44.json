@@ -259,7 +259,10 @@
     "L": 1,
     "D": 0
    },
-   "streak": "2連勝"
+   "streak": "2連勝",
+   "points_for": 289,
+   "points_against": 297,
+   "points_games": 10
   },
   "right": {
    "games": 10,
@@ -277,13 +280,21 @@
     "L": 1,
     "D": 0
    },
-   "streak": "2連敗"
+   "streak": "2連敗",
+   "points_for": 337,
+   "points_against": 316,
+   "points_games": 10
   },
   "h2h": {
    "games": 6,
    "left": 2,
    "right": 3,
-   "draw": 1
+   "draw": 1,
+   "points_left": 175,
+   "points_right": 182,
+   "points_games": 6,
+   "avg_left": 29.2,
+   "avg_right": 30.3
   },
   "common": [
    {

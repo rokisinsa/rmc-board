@@ -143,7 +143,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 5,
+   "points_against": 8,
+   "points_games": 5
   },
   "right": {
    "games": 5,
@@ -161,13 +164,21 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 8,
+   "points_against": 6,
+   "points_games": 5
   },
   "h2h": {
    "games": 2,
    "left": 0,
    "right": 2,
-   "draw": 0
+   "draw": 0,
+   "points_left": 0,
+   "points_right": 4,
+   "points_games": 2,
+   "avg_left": 0.0,
+   "avg_right": 2.0
   },
   "common": [],
   "common_window_days": 30,

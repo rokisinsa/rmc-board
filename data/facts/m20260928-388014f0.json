@@ -240,7 +240,10 @@
     "L": 2,
     "D": 0
    },
-   "streak": "5連勝"
+   "streak": "5連勝",
+   "points_for": 26,
+   "points_against": 12,
+   "points_games": 10
   },
   "right": {
    "games": 10,
@@ -258,13 +261,21 @@
     "L": 3,
     "D": 1
    },
-   "streak": null
+   "streak": null,
+   "points_for": 8,
+   "points_against": 20,
+   "points_games": 10
   },
   "h2h": {
    "games": 2,
    "left": 2,
    "right": 0,
-   "draw": 0
+   "draw": 0,
+   "points_left": 5,
+   "points_right": 3,
+   "points_games": 2,
+   "avg_left": 2.5,
+   "avg_right": 1.5
   },
   "common": [],
   "common_window_days": 30,

@@ -124,11 +124,14 @@ class TestFacts(unittest.TestCase):
                         {"opp": "D", "res": "W", "ha": "A", "units_won": 2, "units_lost": 1},
                         {"opp": "E", "res": "L", "ha": "H", "units_won": 1, "units_lost": 2}]},
                     "right": {"name": "B", "form": [{"date": "2026-09-01", "opp": "C", "res": "L"}, {"date": "2025-01-01", "opp": "D", "res": "W"}, {"opp": "E", "res": "W"}]},
-                    "h2h": [{"winner": "left", "units_left": 2, "units_right": 1}, {"winner": "right"}]}, "2026-10-01T20:00:00+09:00")
+                    "h2h": [{"winner": "left", "score": "2-1", "units_left": 2, "units_right": 1, "detail": "6-4 3-6 7-6(5)"}, {"winner": "right", "score": "20-27"}, {"winner": "left", "score": "30-10"}]}, "2026-10-01T20:00:00+09:00")
         c = x["calc"]
         self.assertEqual((c["left"]["W"], c["left"]["L"], c["left"]["units_won"], c["left"]["units_lost"]), (2, 1, 5, 3))
         self.assertEqual(c["left"]["streak"], "2連勝")
-        self.assertEqual((c["h2h"]["left"], c["h2h"]["right"]), (1, 1))
+        self.assertEqual((c["h2h"]["left"], c["h2h"]["right"]), (2, 1))
+        self.assertEqual((c["h2h"]["points_left"], c["h2h"]["points_right"]), (52, 38))
+        self.assertEqual((c["h2h"]["units_left"], c["h2h"]["units_right"]), (2, 1))
+        self.assertEqual((c["h2h"]["inner_left"], c["h2h"]["inner_right"]), (16, 16))
         self.assertEqual([r["opp"] for r in c["common"]], ["C"])  # D は180日より前、E は日付なしで除外
         self.assertEqual(c["common"][0]["edge"], "left")
 

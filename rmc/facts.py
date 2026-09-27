@@ -12,11 +12,44 @@ def _norm(name):
     return s.lower()
 
 
+def _pts(score, res=None):
+    """スコア文字列から (自分/左, 相手/右) の点数を取り出す。勝敗と矛盾する並びは入れ替え、判断できなければ None。"""
+    m = re.search(r"(\d+)\s*[-–:：]\s*(\d+)", str(score or ""))
+    if not m:
+        return None
+    a, b = int(m[1]), int(m[2])
+    if res in ("W", "left") and a < b or res in ("L", "right") and a > b:
+        a, b = b, a
+    if res in ("D", "draw") and a != b:
+        return None
+    return a, b
+
+
+def _inner(detail, a_units, b_units):
+    """セット別スコア（例 '25-20 23-25 25-18' / '6-4 3-6 7-6(5)'）から中身の点数（ゲーム数・ラリー点）の合計を出す。
+    セット勝敗が units と一致する向きのときだけ採用する。"""
+    if not isinstance(a_units, (int, float)) or not isinstance(b_units, (int, float)):
+        return None
+    txt = re.sub(r"\(\d+\)", "", str(detail or ""))
+    pairs = [(int(x), int(y)) for x, y in re.findall(r"(?<![\d.])(\d{1,2})\s*-\s*(\d{1,2})(?![\d.])", txt)]
+    if len(pairs) < 2 or len(pairs) != a_units + b_units:
+        return None
+    wa = sum(1 for x, y in pairs if x > y); wb = sum(1 for x, y in pairs if y > x)
+    sa = sum(x for x, _ in pairs); sb = sum(y for _, y in pairs)
+    if (wa, wb) == (a_units, b_units):
+        return sa, sb
+    if (wb, wa) == (a_units, b_units):
+        return sb, sa
+    return None
+
+
 def _side_calc(side):
     f = side.get("form") or []
     rec = {"W": 0, "L": 0, "D": 0}
     ha = {"H": {"W": 0, "L": 0, "D": 0}, "A": {"W": 0, "L": 0, "D": 0}, "N": {"W": 0, "L": 0, "D": 0}}
     uw = ul = 0
+    pf = pa = pn = 0
+    ifor = iag = inn = 0
     has_units = False
     streak_res, streak_n = None, 0
     for i, g in enumerate(f):
@@ -28,6 +61,12 @@ def _side_calc(side):
             ha[g["ha"]][r] += 1
         if isinstance(g.get("units_won"), (int, float)) and isinstance(g.get("units_lost"), (int, float)):
             uw += g["units_won"]; ul += g["units_lost"]; has_units = True
+        p = _pts(g.get("score"), r)
+        if p:
+            pf += p[0]; pa += p[1]; pn += 1
+        q = _inner(g.get("detail"), g.get("units_won"), g.get("units_lost"))
+        if q:
+            ifor += q[0]; iag += q[1]; inn += 1
         if i == 0:
             streak_res, streak_n = r, 1
         elif r == streak_res and streak_n == i:
@@ -39,22 +78,39 @@ def _side_calc(side):
                streak=(f"{streak_n}連{'勝' if streak_res == 'W' else '敗' if streak_res == 'L' else '分'}" if streak_n >= 2 else None))
     if has_units:
         out.update(units_won=uw, units_lost=ul)
+    if pn:
+        out.update(points_for=pf, points_against=pa, points_games=pn)
+    if inn:
+        out.update(inner_for=ifor, inner_against=iag, inner_games=inn)
     return out
 
 
 def _h2h_calc(h2h):
     rec = {"left": 0, "right": 0, "draw": 0}
     ul = ur = 0
+    pl = pr = pn = 0
+    il = ir = inn = 0
     has_units = False
     for g in h2h or []:
         w = g.get("winner")
         if w in rec:
             rec[w] += 1
+        p = _pts(g.get("score"), w)
+        if p:
+            pl += p[0]; pr += p[1]; pn += 1
+        q = _inner(g.get("detail"), g.get("units_left"), g.get("units_right"))
+        if q:
+            il += q[0]; ir += q[1]; inn += 1
         if isinstance(g.get("units_left"), (int, float)) and isinstance(g.get("units_right"), (int, float)):
             ul += g["units_left"]; ur += g["units_right"]; has_units = True
     out = dict(games=sum(rec.values()), left=rec["left"], right=rec["right"], draw=rec["draw"])
     if has_units:
         out.update(units_left=ul, units_right=ur)
+    if pn:
+        out.update(points_left=pl, points_right=pr, points_games=pn,
+                   avg_left=round(pl / pn, 1), avg_right=round(pr / pn, 1))
+    if inn:
+        out.update(inner_left=il, inner_right=ir, inner_games=inn)
     return out
 
 

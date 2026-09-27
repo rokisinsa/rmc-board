@@ -115,7 +115,13 @@
    },
    "streak": null,
    "units_won": 2,
-   "units_lost": 1
+   "units_lost": 1,
+   "points_for": 2,
+   "points_against": 1,
+   "points_games": 1,
+   "inner_for": 60,
+   "inner_against": 53,
+   "inner_games": 1
   },
   "right": {
    "games": 3,
@@ -135,7 +141,13 @@
    },
    "streak": "2連勝",
    "units_won": 3,
-   "units_lost": 3
+   "units_lost": 3,
+   "points_for": 3,
+   "points_against": 3,
+   "points_games": 2,
+   "inner_for": 56,
+   "inner_against": 63,
+   "inner_games": 1
   },
   "h2h": {
    "games": 1,
@@ -143,7 +155,15 @@
    "right": 0,
    "draw": 0,
    "units_left": 2,
-   "units_right": 1
+   "units_right": 1,
+   "points_left": 2,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 1.0,
+   "inner_left": 63,
+   "inner_right": 56,
+   "inner_games": 1
   },
   "common": [],
   "common_window_days": 30,

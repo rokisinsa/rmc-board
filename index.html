@@ -169,6 +169,12 @@ ol.form li{grid-template-columns:auto 52px minmax(0,1fr) auto}
 table.cmn{border-collapse:collapse;width:100%;font-size:12.5px}
 table.cmn th,table.cmn td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:normal}
 table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:static}
+
+.cmps{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.cmp{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;border:1px solid var(--line);border-radius:8px;padding:6px 14px}
+.cmp .cl,.cmp .cr{font-family:var(--mono);font-size:18px;font-weight:600}.cmp .cr{text-align:right}
+.cmp .lead{color:var(--ok)}
+.cmp .cm{text-align:center;font-size:12px;color:var(--ink)}.cmp .cm small{display:block;color:var(--muted);font-size:10.5px}
 </style>
 </head>
 <body>
@@ -286,6 +292,7 @@ async function loadFacts(mid){
   if(mid in FACTS_CACHE)return FACTS_CACHE[mid];
   try{const r=await fetch('data/facts/'+mid+'.json'+bust,{cache:'no-store'});FACTS_CACHE[mid]=r.ok?await r.json():null;}catch(e){FACTS_CACHE[mid]=null;}
   return FACTS_CACHE[mid];}
+const INNER={'テニス':'ゲーム数合計','CS2':'ラウンド数合計','VALORANT':'ラウンド数合計','スヌーカー':'得点合計','バレーボール':'得点合計','バドミントン':'得点合計','卓球':'得点合計'};
 const RES={W:['勝','w'],L:['敗','l'],D:['分','d']};
 const HA={H:'ホーム',A:'アウェイ',N:'中立'};
 function recStr(c){if(!c||!c.games)return '—';return `${c.W}勝${c.L}敗${c.D?c.D+'分':''}`;}
@@ -297,24 +304,26 @@ function formList(side,unit,why){
     return `<li><span class="chip ${r[1]}">${r[0]}</span><span class="dt">${esc((x.date||'—').replace(/^20\d\d-/,'').replace('-','/'))}${x.ha?`<small>${HA[x.ha]||esc(x.ha)}</small>`:''}</span>
     <span class="op">${esc(x.opp||'—')}${x.opp_rank?`<em class="rk">${esc(x.opp_rank)}</em>`:''}<small>${esc([x.comp,x.detail].filter(Boolean).join('｜'))}</small></span>
     <span class="sc">${esc(x.score||'—')}${hasU&&x.units_won!=null?`<small>${unit} ${x.units_won}-${x.units_lost}</small>`:''}</span></li>`;}).join('')}</ol>`;}
-function statRow(c,unit){
+function statRow(c,unit,sport){
   if(!c||!c.games)return '';
-  const u=unit&&unit!=='なし'&&c.units_won!=null?`<div><span>${unit}</span><b>${c.units_won}-${c.units_lost}</b></div>`:'';
+  const u=unit&&unit!=='なし'&&c.units_won!=null?`<div><span>${unit}取得-喪失</span><b>${c.units_won}-${c.units_lost}</b></div>`:'';const pts=c.points_games&&!(unit&&unit!=='なし')?`<div><span>得点-失点</span><b>${c.points_for}-${c.points_against}</b></div>`:(c.inner_games?`<div><span>${(INNER[sport]||'得点合計').replace('合計','')}（${c.inner_games}試合）</span><b>${c.inner_for}-${c.inner_against}</b></div>`:'');
   const h=c.home,a=c.away;const hs=h&&(h.W+h.L+h.D)?`<div><span>ホーム</span><b>${recStr({games:1,...h})}</b></div>`:'';const as=a&&(a.W+a.L+a.D)?`<div><span>アウェイ</span><b>${recStr({games:1,...a})}</b></div>`:'';
-  return `<div class="srow"><div><span>直近${c.games}試合</span><b>${recStr(c)}</b></div><div><span>勝率</span><b>${c.win_rate}%</b></div>${u}${hs}${as}${c.streak?`<div><span>連続</span><b>${c.streak}</b></div>`:''}</div>`;}
-function sideCol(side,label,calc,unit,un,key){
+  return `<div class="srow"><div><span>直近${c.games}試合</span><b>${recStr(c)}</b></div><div><span>勝率</span><b>${c.win_rate}%</b></div>${u}${pts}${hs}${as}${c.streak?`<div><span>連続</span><b>${c.streak}</b></div>`:''}</div>`;}
+function sideCol(side,label,calc,unit,un,key,sport){
   return `<div class="side"><div class="sname">${esc(side.name||label)}</div>
-   ${side.ranking?`<div class="srank">${esc(side.ranking)}</div>`:''}${statRow(calc,unit)}
+   ${side.ranking?`<div class="srank">${esc(side.ranking)}</div>`:''}${statRow(calc,unit,sport)}
    <div class="sub">直近成績（新しい順）</div>${formList(side,unit,un&&(un[key+'.form']||un.form))}
    ${(side.lineup||[]).length?`<div class="sub">メンバー・先発・欠場</div><ul class="blist">${side.lineup.map(l=>`<li>${esc(l)}</li>`).join('')}</ul>`:''}</div>`;}
 function factsHtml(fx,m){
   if(!fx)return '';
   const un=fx.unavailable||{};const c=fx.calc||{};const unit=fx.unit;const L=(fx.left||{}).name||m.left,R=(fx.right||{}).name||m.right;
-  let h=`<section class="blk"><h4>両チームの比較</h4><div class="sides">${sideCol(fx.left||{},m.left,c.left,unit,un,'left')}${sideCol(fx.right||{},m.right,c.right,unit,un,'right')}</div></section>`;
+  let h=`<section class="blk"><h4>両チームの比較</h4><div class="sides">${sideCol(fx.left||{},m.left,c.left,unit,un,'left',m.sport)}${sideCol(fx.right||{},m.right,c.right,unit,un,'right',m.sport)}</div></section>`;
   const hh=fx.h2h||[];const hc=c.h2h||{};
   h+=`<section class="blk"><h4>H2H（過去の直接対戦）</h4>`;
   if(hh.length){
-    h+=`<div class="h2hsum"><div class="hl ${hc.left>hc.right?'lead':''}"><span>${esc(L)}</span><b>${hc.left}勝</b></div><div class="hm">${hc.games}試合${hc.draw?`<br>${hc.draw}分`:''}${hc.units_left!=null?`<br>${unit} ${hc.units_left}-${hc.units_right}`:''}</div><div class="hr ${hc.right>hc.left?'lead':''}"><span>${esc(R)}</span><b>${hc.right}勝</b></div></div>`;
+    const cmp=(lab,a,b,sub)=>`<div class="cmp"><span class="cl ${a>b?'lead':''}">${a}</span><span class="cm">${lab}${sub?`<small>${sub}</small>`:''}</span><span class="cr ${b>a?'lead':''}">${b}</span></div>`;
+    h+=`<div class="h2hsum"><div class="hl ${hc.left>hc.right?'lead':''}"><span>${esc(L)}</span><b>${hc.left}勝</b></div><div class="hm">${hc.games}試合${hc.draw?`<br>${hc.draw}分`:''}</div><div class="hr ${hc.right>hc.left?'lead':''}"><span>${esc(R)}</span><b>${hc.right}勝</b></div></div>`;
+    if(hc.points_games||hc.units_left!=null||hc.inner_games)h+=`<div class="cmps">${hc.points_games&&!(unit&&unit!=='なし'&&hc.units_left!=null&&hc.points_left===hc.units_left)?cmp('得点合計',hc.points_left,hc.points_right,`${hc.points_games}試合分・1試合平均 ${hc.avg_left} − ${hc.avg_right}`):''}${hc.units_left!=null?cmp(unit+'数合計',hc.units_left,hc.units_right,''):''}${hc.inner_games?cmp(INNER[m.sport]||'得点合計',hc.inner_left,hc.inner_right,`セット別スコアが分かる${hc.inner_games}試合分`):''}</div>`;
     h+=`<ol class="vlist h2h">${hh.map(x=>{const w=x.winner==='left'?L:x.winner==='right'?R:'引分け';const cc=x.winner==='left'?'lw':x.winner==='right'?'rw':'d';
       return `<li><span class="chip ${cc}">${esc(w)}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.event||'')}${x.detail?`<small>${esc(x.detail)}</small>`:''}</span><span class="sc">${esc(x.score||'—')}${x.units_left!=null?`<small>${unit} ${x.units_left}-${x.units_right}</small>`:''}</span></li>`;}).join('')}</ol>`;
   }else h+=`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`;
