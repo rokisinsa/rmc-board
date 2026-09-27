@@ -320,10 +320,10 @@ function factsHtml(fx,m){
   }else h+=`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`;
   h+=`</section>`;
   const cm=c.common||[];
-  h+=`<section class="blk"><h4>共通の対戦相手（直近成績の中）</h4>`+(cm.length?`<div class="tblw"><table class="cmn"><thead><tr><th>相手</th><th>${esc(L)}</th><th>${esc(R)}</th><th>優勢</th></tr></thead><tbody>${cm.map(r=>{
+  h+=`<section class="blk"><h4>共通の対戦相手<span class="hs">試合日から${c.common_window_days||30}日以内の結果のみ</span></h4>`+(cm.length?`<div class="tblw"><table class="cmn"><thead><tr><th>相手</th><th>${esc(L)}</th><th>${esc(R)}</th><th>優勢</th></tr></thead><tbody>${cm.map(r=>{
       const cell=a=>a.map(x=>{const q=RES[x.res]||['—','n'];return `<span class="chip ${q[1]}">${q[0]}</span> ${esc(x.score||'')}`;}).join('<br>');
       return `<tr><td>${esc(r.opp)}</td><td>${cell(r.left)}</td><td>${cell(r.right)}</td><td>${r.edge==='left'?esc(L):r.edge==='right'?esc(R):'互角'}</td></tr>`;}).join('')}</tbody></table></div>`
-      :`<p class="na">直近成績の中に共通の対戦相手はいません。</p>`)+((fx.common_opponents_notes||[]).length?`<ul class="blist" style="margin-top:8px">${fx.common_opponents_notes.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'')+`</section>`;
+      :`<p class="na">直近${c.common_window_days||30}日以内に共通の対戦相手はいません。</p>`)+`</section>`;
   if(fx.venue)h+=`<section class="blk"><h4>会場</h4><p>${esc(fx.venue)}</p></section>`;
   if(fx.esports){const E={format:'形式',lan_online:'LAN/オンライン',map_pool:'マッププール',veto:'ピック/バン',patch:'パッチ',map_h2h:'マップ別H2H'};
     h+=`<section class="blk"><h4>eスポーツ情報</h4><dl class="kv2">${Object.entries(fx.esports).map(([k,v])=>`<dt>${E[k]||esc(k)}</dt><dd>${esc(typeof v==='object'?JSON.stringify(v):v)}</dd>`).join('')}</dl></section>`;}

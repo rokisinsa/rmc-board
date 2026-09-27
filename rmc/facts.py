@@ -1,6 +1,9 @@
 """data/facts/*.json の行データから集計（calc）を計算して書き込む。集計は手書きせず必ずここで出す。"""
 import glob, json, os, re
-from .core import DATA
+from datetime import date
+from . import core
+
+RECENT_DAYS = 30  # 共通の対戦相手は試合日から30日以内（約1か月）の結果だけで比較する
 
 
 def _norm(name):
@@ -55,11 +58,25 @@ def _h2h_calc(h2h):
     return out
 
 
-def _common(left, right):
+def _parse(d, ref):
+    m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", str(d or ""))
+    if m:
+        return date(int(m[1]), int(m[2]), int(m[3]))
+    m = re.match(r"^(\d{1,2})/(\d{1,2})$", str(d or ""))
+    if m and ref:  # 年なしは試合日以前で最も近い日付とみなす
+        y = ref.year if (int(m[1]), int(m[2])) <= (ref.month, ref.day) else ref.year - 1
+        return date(y, int(m[1]), int(m[2]))
+    return None
+
+
+def _common(left, right, ref=None):
     lf, rf = left.get("form") or [], right.get("form") or []
     by = {}
     for side, form in (("left", lf), ("right", rf)):
         for g in form:
+            gd = _parse(g.get("date"), ref)
+            if ref is None or gd is None or (ref - gd).days > RECENT_DAYS or gd > ref:
+                continue
             k = _norm(g.get("opp"))
             if not k or k in ("—", "-"):
                 continue
@@ -77,17 +94,20 @@ def _common(left, right):
     return rows
 
 
-def enrich(x):
+def enrich(x, start=None):
+    ref = _parse(start, None) if start else None
     x["calc"] = dict(left=_side_calc(x.get("left") or {}), right=_side_calc(x.get("right") or {}),
-                     h2h=_h2h_calc(x.get("h2h")), common=_common(x.get("left") or {}, x.get("right") or {}))
+                     h2h=_h2h_calc(x.get("h2h")), common=_common(x.get("left") or {}, x.get("right") or {}, ref),
+                     common_window_days=RECENT_DAYS, common_ref_date=str(ref) if ref else None)
     return x
 
 
 def enrich_all():
     n = 0
-    for f in sorted(glob.glob(os.path.join(DATA, "facts", "*.json"))):
+    matches = core.load("matches.json", {})
+    for f in sorted(glob.glob(os.path.join(core.DATA, "facts", "*.json"))):
         x = json.load(open(f, encoding="utf-8"))
-        enrich(x)
+        enrich(x, (matches.get(x.get("match_id")) or {}).get("start_jst"))
         with open(f, "w", encoding="utf-8") as fh:
             json.dump(x, fh, ensure_ascii=False, indent=1); fh.write("\n")
         n += 1

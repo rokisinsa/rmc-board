@@ -120,16 +120,16 @@ class TestFacts(unittest.TestCase):
     def test_calc(self):
         from rmc.facts import enrich
         x = enrich({"left": {"name": "A", "form": [
-                        {"opp": "C", "res": "W", "ha": "H", "units_won": 2, "units_lost": 0},
+                        {"date": "2026-09-20", "opp": "C", "res": "W", "ha": "H", "units_won": 2, "units_lost": 0},
                         {"opp": "D", "res": "W", "ha": "A", "units_won": 2, "units_lost": 1},
                         {"opp": "E", "res": "L", "ha": "H", "units_won": 1, "units_lost": 2}]},
-                    "right": {"name": "B", "form": [{"opp": "C", "res": "L"}, {"opp": "A", "res": "W"}]},
-                    "h2h": [{"winner": "left", "units_left": 2, "units_right": 1}, {"winner": "right"}]})
+                    "right": {"name": "B", "form": [{"date": "2026-09-01", "opp": "C", "res": "L"}, {"date": "2025-01-01", "opp": "D", "res": "W"}, {"opp": "E", "res": "W"}]},
+                    "h2h": [{"winner": "left", "units_left": 2, "units_right": 1}, {"winner": "right"}]}, "2026-10-01T20:00:00+09:00")
         c = x["calc"]
         self.assertEqual((c["left"]["W"], c["left"]["L"], c["left"]["units_won"], c["left"]["units_lost"]), (2, 1, 5, 3))
         self.assertEqual(c["left"]["streak"], "2連勝")
         self.assertEqual((c["h2h"]["left"], c["h2h"]["right"]), (1, 1))
-        self.assertEqual([r["opp"] for r in c["common"]], ["C"])
+        self.assertEqual([r["opp"] for r in c["common"]], ["C"])  # D は180日より前、E は日付なしで除外
         self.assertEqual(c["common"][0]["edge"], "left")
 
 

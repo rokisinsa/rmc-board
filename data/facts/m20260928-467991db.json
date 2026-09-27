@@ -236,58 +236,8 @@
    "right": 0,
    "draw": 0
   },
-  "common": [
-   {
-    "opp": "ラチャノック・インタノン（タイ）",
-    "left": [
-     {
-      "date": "2026-09-27",
-      "score": "2-0",
-      "res": "W"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026",
-      "score": "0-2",
-      "res": "L"
-     }
-    ],
-    "edge": "left"
-   },
-   {
-    "opp": "山口茜（日本）",
-    "left": [
-     {
-      "date": "2026-09-23",
-      "score": "2-1",
-      "res": "W"
-     },
-     {
-      "date": "2026",
-      "score": "2-0",
-      "res": "W"
-     },
-     {
-      "date": "2026",
-      "score": "2-1",
-      "res": "W"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026",
-      "score": "0-2",
-      "res": "L"
-     },
-     {
-      "date": "2026",
-      "score": "0-2",
-      "res": "L"
-     }
-    ],
-    "edge": "left"
-   }
-  ]
+  "common": [],
+  "common_window_days": 30,
+  "common_ref_date": "2026-09-28"
  }
 }

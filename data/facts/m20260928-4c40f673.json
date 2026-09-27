@@ -301,30 +301,8 @@
    "right": 2,
    "draw": 0
   },
-  "common": [
-   {
-    "opp": "スロヴァン",
-    "left": [
-     {
-      "date": "2026-09-20",
-      "score": "34-33",
-      "res": "W"
-     },
-     {
-      "date": "2026-05-31",
-      "score": "41-39",
-      "res": "W"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-04-29",
-      "score": "25-35",
-      "res": "L"
-     }
-    ],
-    "edge": "left"
-   }
-  ]
+  "common": [],
+  "common_window_days": 30,
+  "common_ref_date": "2026-09-28"
  }
 }

@@ -257,30 +257,8 @@
    "right": 0,
    "draw": 1
   },
-  "common": [
-   {
-    "opp": "コスタリカ",
-    "left": [
-     {
-      "date": "2026-09-24",
-      "score": "4-3",
-      "res": "W"
-     }
-    ],
-    "right": [
-     {
-      "date": "2025-10-13",
-      "score": "1-4",
-      "res": "L"
-     },
-     {
-      "date": "2025-09-05",
-      "score": "1-1",
-      "res": "D"
-     }
-    ],
-    "edge": "left"
-   }
-  ]
+  "common": [],
+  "common_window_days": 30,
+  "common_ref_date": "2026-09-28"
  }
 }

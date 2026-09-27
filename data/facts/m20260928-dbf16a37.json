@@ -296,43 +296,8 @@
    "right": 8,
    "draw": 2
   },
-  "common": [
-   {
-    "opp": "UAE",
-    "left": [
-     {
-      "date": "2026-09-24",
-      "score": "0-4",
-      "res": "L"
-     }
-    ],
-    "right": [
-     {
-      "date": "2025-10-14",
-      "score": "2-1",
-      "res": "W"
-     }
-    ],
-    "edge": "right"
-   },
-   {
-    "opp": "バーレーン",
-    "left": [
-     {
-      "date": "2024-12-28",
-      "score": "2-1",
-      "res": "W"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-24",
-      "score": "2-0",
-      "res": "W"
-     }
-    ],
-    "edge": "even"
-   }
-  ]
+  "common": [],
+  "common_window_days": 30,
+  "common_ref_date": "2026-09-28"
  }
 }

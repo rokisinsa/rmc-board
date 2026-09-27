@@ -208,8 +208,8 @@ def check_independence(rep, ana_by_logic):
 
 def check_facts(rep, matches):
     import glob, os, json as _j
-    from .core import DATA
-    for f in glob.glob(os.path.join(DATA, "facts", "*.json")):
+    from . import core as _core
+    for f in glob.glob(os.path.join(_core.DATA, "facts", "*.json")):
         mid = os.path.basename(f)[:-5]
         try:
             x = _j.load(open(f, encoding="utf-8"))
@@ -224,7 +224,7 @@ def check_facts(rep, matches):
             rep.err("FACTS_SHAPE", f"{mid}: h2h は1試合1行のリストにする")
         from .facts import enrich
         import copy as _c
-        if x.get("calc") != enrich(_c.deepcopy(x)).get("calc"):
+        if x.get("calc") != enrich(_c.deepcopy(x), (matches.get(mid) or {}).get("start_jst")).get("calc"):
             rep.err("FACTS_CALC", f"{mid}: 集計（calc）が行データからの再計算と一致しない（python -m rmc.build）")
 
 

@@ -315,61 +315,8 @@
    "right": 6,
    "draw": 0
   },
-  "common": [
-   {
-    "opp": "パッカーズ",
-    "left": [
-     {
-      "date": "2026-09-20",
-      "score": "17-20",
-      "res": "L"
-     }
-    ],
-    "right": [
-     {
-      "date": "2025-11-27",
-      "score": "24-31",
-      "res": "L"
-     }
-    ],
-    "edge": "even"
-   },
-   {
-    "opp": "ビルズ",
-    "left": [
-     {
-      "date": "2026-01-04",
-      "score": "8-35",
-      "res": "L"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-17",
-      "score": "31-41",
-      "res": "L"
-     }
-    ],
-    "edge": "even"
-   },
-   {
-    "opp": "セインツ",
-    "left": [
-     {
-      "date": "2025-12-21",
-      "score": "6-29",
-      "res": "L"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-13",
-      "score": "31-30",
-      "res": "W"
-     }
-    ],
-    "edge": "right"
-   }
-  ]
+  "common": [],
+  "common_window_days": 30,
+  "common_ref_date": "2026-09-28"
  }
 }
