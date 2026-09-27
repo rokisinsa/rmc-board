@@ -55,7 +55,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Stamp deployed commit
-        run: echo "{\"sha\":\"${GITHUB_SHA}\",\"run\":\"${GITHUB_RUN_ID}\"}" > data/deploy.json
+        run: |
+          mkdir -p data/deploys
+          echo "{\"sha\":\"${GITHUB_SHA}\",\"run\":\"${GITHUB_RUN_ID}\"}" > data/deploy.json
+          cp data/deploy.json "data/deploys/${GITHUB_SHA}.json"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -27,7 +27,7 @@
 6. **結果更新（項目17〜21）**：全ledgerの開始済み未確定カードを確認。公式→リーグ公式→結果DB→ライブスコアの順でソースを取り、`result.source_rank` と `identity_checked` を付けて matches を更新。同じ match_id の全ロジック・経験値取引へ精算を反映。
 7. **集計・post-match review（項目22〜27）**：`python -m rmc.build`。敗戦カードは `reviews/<entry_id>.md` に事前仮説・結果・見落とし・variance/structural 判定を書く。
 8. **検証・反映（項目32〜35）**：`python -m unittest discover -s tests -t .` → `python -m rmc.validate --base HEAD` → commit → push（競合時は pull --rebase して 3〜7 のデータを再適用し、テストを最初から）→ end_sha を記録。GitHub Actions の結果を確認。
-9. **公開確認（項目36〜39）**：Pages の `index.html` と `data/summary.json`・`data/deploy.json` を cache bust 付きで取得し、run_id と SHA が最新か、公開JSONから再計算した収支が一致するかを確認。
+9. **公開確認（項目36〜39）**：WebFetch は15分キャッシュでクエリを無視することがあるため、SHA の確認は `data/deploys/<push したSHA>.json`（デプロイごとに新しいURL）を取得して行う。Pages の `index.html` と `data/summary.json`・`data/deploy.json` を cache bust 付きで取得し、run_id と SHA が最新か、公開JSONから再計算した収支が一致するかを確認。
 10. **報告（項目40, 41）**：全カテゴリ数・イベント数・市場数、競技別の走査→深掘り→正式/watch/除外、新規正式採用・watch全件、結果更新全件、①〜④と経験値取引の戦績・投入・損益・ROI・未計算・pending・複利・1/4ケリー、SHA・Actions・Pages結果を報告する。
 
 ## コマンド
