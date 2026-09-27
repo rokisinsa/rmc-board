@@ -4879,7 +4879,7 @@
    "betexplorer/oddsportal/Liquipedia/HLTVへの取得失敗が多く、走査の網羅性が不完全（項目4〜6）。ダーツMODUS残り4試合未登録",
    "eスポーツはCS2/LoL/Dota2/R6以外のタイトルを時間内に走査できず（項目5）",
    "深掘りの多くで単一ブックの現在値・独立モデルが取れず正式採用なし。Dota2・ラグビー系は新規深掘りなし（項目12・14・15）",
-   "Actions・Pages・公開値の確認はpush後（項目34〜39）"
+   "公開ページ・公開JSONの取得確認ができない（WebFetch承認待ちタイムアウト）（項目36〜39）"
   ],
   "checklist": {
    "01": true,
@@ -4915,8 +4915,8 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
+   "34": true,
+   "35": true,
    "36": false,
    "37": false,
    "38": false,
@@ -4942,15 +4942,23 @@
    "21": "精算対象なし",
    "26": "旧移行カードなし",
    "27": "敗戦カードなし",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
+   "34": "push済み ba8ae076ef2c7140c7877005981c0ae879f5b2d0（競合1回：run-20260927-2345の上に再適用しテスト・検証を最初から再実行）",
+   "35": "Actions test-validate-deploy run 36327377503 成功（test・validation・profit audit・deploy）",
+   "36": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "37": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "38": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "39": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
    "40": "報告送信後に確定",
    "41": "上記未完了があるため定時更新完了とはしない"
   },
-  "rebased_onto": "94b4a9b99690f42244bb08428a3d5e3da72cf722"
+  "rebased_onto": "94b4a9b99690f42244bb08428a3d5e3da72cf722",
+  "post_push": {
+   "pushed_sha": "ba8ae076ef2c7140c7877005981c0ae879f5b2d0",
+   "actions_run": 36327377503,
+   "actions": "success",
+   "pages_deployment": "success（API）",
+   "public_fetch": "確認不能：WebFetch承認待ちタイムアウト",
+   "checked_at": "2026-09-28T00:01:58+09:00"
+  }
  }
 ]
