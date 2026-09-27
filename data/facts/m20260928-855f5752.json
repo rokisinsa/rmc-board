@@ -1,101 +1,244 @@
 {
  "match_id": "m20260928-855f5752",
- "data_as_of": "2026-09-27T23:33:00+09:00",
+ "data_as_of": "2026-09-28T00:10:00+09:00",
+ "start_jst_confirmed": "2026-09-28T06:30:00+09:00",
+ "unit": "マップ",
  "left": {
-  "name": "Liquid",
-  "ranking": "HLTV 27位 / Valveランキング18位（HLTV試合ページ）",
+  "name": "Team Liquid",
+  "ranking": "HLTV #27 / VRS #18（HLTV試合ページ、試合前時点）",
   "form": [
    {
-    "date": "—",
+    "date": "2026-09-27",
     "opp": "M80",
+    "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "—",
+    "date": "2026-09-26",
     "opp": "NRG",
+    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
+    "units_won": 2,
+    "units_lost": 0
    },
    {
-    "date": "—",
+    "date": "2026-09-25",
     "opp": "Chicken Coop",
+    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "ha": "N",
     "score": "2-0",
     "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "NRG",
+    "comp": "PGL Masters Bucharest 2026 北米クローズド予選（BO5）",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Voca",
+    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "NRG",
+    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "Marsborne",
+    "comp": "PGL Masters Bucharest 2026 北米クローズド予選",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
    }
   ],
-  "form_summary": "本大会3連勝（いずれも2-0）",
   "lineup": [
-   "確定ロスター・欠場の詳細はHLTVページから取得できず",
-   "欠場の報道なし"
+   "Jorko",
+   "malbsMd",
+   "NAF",
+   "EliGE",
+   "JT（HLTV試合ページ記載の5人）"
   ]
  },
  "right": {
   "name": "Wildcard",
-  "ranking": "HLTV 46位 / Valveランキング50位（HLTV試合ページ）",
+  "ranking": "HLTV #46 / VRS #50（HLTV試合ページ、試合前時点）",
   "form": [
    {
-    "date": "—",
-    "opp": "Chicken Coop",
-    "score": "2-0",
-    "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
-   },
-   {
-    "date": "—",
-    "opp": "NRG",
-    "score": "2-0",
-    "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
-   },
-   {
-    "date": "—",
+    "date": "2026-09-27",
     "opp": "DENDELE",
+    "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝",
+    "ha": "N",
     "score": "2-1",
     "res": "W",
-    "note": "iBUYPOWER Masters FML 2026"
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "決勝進出のため勝利と判断（HLTV結果ページ要約は表記揺れあり）"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "NRG",
+    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Chicken Coop",
+    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "NRG",
+    "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "BBL",
+    "comp": "Thunderpick World Championship 2026 クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "Nemesis",
+    "comp": "Thunderpick World Championship 2026 クローズド予選",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "EYEBALLERS",
+    "comp": "Thunderpick World Championship 2026 クローズド予選",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "HOTU",
+    "comp": "Thunderpick World Championship 2026 クローズド予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "paiN",
+    "comp": "Esports World Cup 2026",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "The MongolZ",
+    "comp": "BLAST Bounty 2026 Season 2",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
    }
   ],
-  "form_summary": "本大会3連勝（うち1試合は2-1の接戦）",
   "lineup": [
-   "確定ロスター・欠場の詳細はHLTVページから取得できず",
-   "欠場の報道なし"
+   "Cxzi",
+   "reck",
+   "HexT",
+   "nEMANHA",
+   "fr3nd（HLTV試合ページ記載の5人）"
   ]
  },
  "h2h": [],
- "h2h_summary": "過去の対戦記録なし（HLTV試合ページに表示なし）",
- "venue": "LAN、iBUYPOWER Masters FML 2026 決勝",
+ "venue": "LAN・米国ネバダ州ラスベガス（iBUYPOWER Masters fl0m's Mythical LAN）",
  "esports": {
-  "format": "BO3（iBUYPOWER Masters FML 2026 決勝）",
+  "format": "BO3（グランドファイナル）",
   "lan_online": "LAN",
-  "map_pool": "3マップとも試合前で『TBA』表示。直近3か月の勝率：Liquid Mirage 83%・Inferno 100%・Anubis 73%・Dust2 43%、Wildcard Ancient 100%・Inferno 50%（他マップはサンプル不足）",
-  "veto": "試合前のため未実施",
-  "map_h2h": "対戦記録がないため算出不可"
+  "map_pool": "Cache, Dust2, Mirage, Inferno, Nuke, Ancient, Anubis",
+  "veto": "未公開（TBA）",
+  "patch": "不明",
+  "map_h2h": "対戦記録なし"
  },
  "risks": [
-  "直近対戦なしで実力比較の直接指標が乏しい",
-  "Wildcardはマップ別データがまだ少なく（Ancient/Infernoのみ）安定性が未知数",
-  "HLTVランキングはLiquidが上（27位 vs 46位）だが、決勝までの直近成績は両者とも3連勝で拮抗"
+  "Liquidの9/18 Logitech G Play Connectの単マップ結果（ショーマッチ的な可能性）は直近成績から除外",
+  "Wildcard 9/27 DENDELE戦の勝敗はHLTV要約で表記揺れがあったため決勝進出の事実から判断",
+  "同日中の準決勝からの連戦"
  ],
  "missing": [
-  "単一ブックメーカーの具体的なオッズ倍率（HLTVにはStake Casino枠のみ表示され数値未取得。他ブックはアクセス制限で未取得）",
-  "独立した予測モデル（numberFire等）",
-  "確定先発ロスター・欠場情報",
-  "試合開始タイムゾーンの一次確認"
+  "マップベト",
+  "選手レーティング",
+  "パッチ"
  ],
  "unavailable": {
-  "odds": "HLTVのオッズ枠にはStake Casinoのみ表示され数値が取得できず、他の単一ブックのページはアクセス制限で取得不可だった"
+  "h2h": "HLTV上で対戦記録なし",
+  "veto": "試合前にベト未公開",
+  "rating": "取得できず",
+  "patch": "未確認"
  },
+ "source_urls": [
+  "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+  "https://www.hltv.org/events/9187/ibuypower-masters-fml-2026",
+  "https://www.hltv.org/results?team=5973",
+  "https://www.hltv.org/results?team=12257"
+ ],
  "calc": {
   "left": {
-   "games": 3,
-   "W": 3,
-   "L": 0,
+   "games": 7,
+   "W": 6,
+   "L": 1,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 85.7,
    "home": {
     "W": 0,
     "L": 0,
@@ -106,17 +249,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": "3連勝",
-   "points_for": 6,
-   "points_against": 0,
-   "points_games": 3
+   "streak": "5連勝",
+   "units_won": 13,
+   "units_lost": 6,
+   "points_for": 13,
+   "points_against": 6,
+   "points_games": 7
   },
   "right": {
-   "games": 3,
-   "W": 3,
-   "L": 0,
+   "games": 10,
+   "W": 5,
+   "L": 5,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -128,9 +273,11 @@
     "D": 0
    },
    "streak": "3連勝",
-   "points_for": 6,
-   "points_against": 1,
-   "points_games": 3
+   "units_won": 11,
+   "units_lost": 12,
+   "points_for": 11,
+   "points_against": 12,
+   "points_games": 10
   },
   "h2h": {
    "games": 0,
@@ -138,7 +285,70 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "NRG",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "3-2",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-26"
+   },
+   {
+    "opp": "Chicken Coop",
+    "left": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26"
+   }
+  ],
   "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }

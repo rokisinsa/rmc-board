@@ -9,7 +9,7 @@ DEEP_FIELDS_COMMON = ("title", "competition", "date", "start_jst", "matchup", "r
                       "venue", "lineup", "odds", "odds_exact", "required_prob", "prior_prob", "edge_or_ev",
                       "external_market", "rationale", "risks", "missing", "source_urls")
 DEEP_FIELDS_ESPORTS = ("format", "lan_online", "roster", "map_pool", "veto", "patch", "series_h2h", "map_h2h", "rating")
-ESPORTS = {"CS2", "VALORANT", "Dota 2", "LoL", "Rainbow Six", "Honor of Kings", "Overwatch 2", "Rocket League",
+ESPORTS = {"CS2", "VALORANT", "King of Glory", "CrossFire", "StarCraft: BW", "Dota 2", "LoL", "Rainbow Six", "Honor of Kings", "Overwatch 2", "Rocket League",
            "Call of Duty", "PUBG", "Mobile Legends", "StarCraft II", "EA FC", "eBasketball", "Arena of Valor",
            "Warcraft", "Hearthstone", "Halo", "Fortnite", "World of Tanks"}
 

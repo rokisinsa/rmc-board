@@ -199,6 +199,7 @@ details.sport>summary .cnt{font-size:13px;color:var(--muted)}
 .sumchips .sc.on{background:var(--ok);color:var(--surface)}
 .sumchips .sc.w.on{background:var(--warn-bg);color:var(--warn)}
 .b{font-size:13px!important;padding:4px 10px!important}
+.grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
 </style>
 </head>
 <body>
@@ -277,11 +278,14 @@ document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const
   <dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}</dd></dl></div>`;}).join('')+
   `<p class="note">大きい数字と「単利」は毎回$100固定の純損益。複利は元金$100を全額投入し、$200（倍額）到達で利益をストックして$100から再開、0になったら$100から再開（純損益＝資金＋ストック−投入元金）。</p>`;
 
+const ES_REAL=new Set(['CS2','LoL','Dota 2','VALORANT','Rainbow Six','World of Tanks','CrossFire','King of Glory','Mobile Legends','StarCraft: BW','Fortnite']);
+const ES_SIM=new Set(['FC 26（eFootball）','NBA 2K26','Cricket 24','eサッカー','eバスケットボール','eテニス','V-クリケット','eサッカー：ヴォルタ','eクリケット','イバケジャダ（BET CHANNEL表記）']);
+const grp=sp=>ES_REAL.has(sp)?1:ES_SIM.has(sp)?2:0;const GRPN=['','eスポーツ','シミュレーション／バーチャル（BET CHANNEL・実力データなしのため正式採用なし）'];
 // カバレッジ
 const cov=run.coverage||{};
 const lgCell=(c,l)=>{const x=c[l]||{};return `${x.screened||0}→${x.deep_dive||0}→${x.formal||0}/${x.watch||0}/${x.rejected||0}`;};
 document.getElementById('cov').innerHTML=`<thead><tr><th>競技</th><th>走査</th><th>価格あり・未開始</th>${LG.map(l=>`<th>${T[l]}<br><span style="font-size:10.5px">走査→深掘り→正式/watch/除外</span></th>`).join('')}</tr></thead><tbody>`+
-  Object.entries(cov).sort((a,b)=>b[1].event_count-a[1].event_count).map(([sp,c])=>`<tr><td>${esc(sp)}</td><td class="mono">${c.event_count}</td><td class="mono">${c.priced_upcoming_count}</td>${LG.map(l=>`<td class="mono">${lgCell(c,l)}</td>`).join('')}</tr>`).join('')+'</tbody>';
+  Object.entries(cov).sort((a,b)=>grp(a[0])-grp(b[0])||b[1].event_count-a[1].event_count).map(([sp,c])=>`<tr><td>${esc(sp)}</td><td class="mono">${c.event_count}</td><td class="mono">${c.priced_upcoming_count}</td>${LG.map(l=>`<td class="mono">${lgCell(c,l)}</td>`).join('')}</tr>`).join('')+'</tbody>';
 
 // 試合一覧（競技別）
 const st={up:true,pick:false,q:''};
@@ -424,9 +428,10 @@ function renderSports(){
     (by[m.sport]=by[m.sport]||[]).push([mid,m]);}
   const el=document.getElementById('sports');
   const openSet=new Set([...el.querySelectorAll('details[open]')].map(d=>d.dataset.sp));
-  const keys=Object.keys(by).sort((a,b)=>by[b].length-by[a].length);
+  const keys=Object.keys(by).sort((a,b)=>grp(a)-grp(b)||by[b].length-by[a].length);
   if(!keys.length){el.innerHTML='<div class="empty">条件に当てはまる試合はありません。</div>';return;}
-  el.innerHTML=keys.map(sp=>{const list=by[sp].sort((a,b)=>a[1].start_jst.localeCompare(b[1].start_jst));
+  let lastG=-1;
+  el.innerHTML=keys.map(sp=>{const g=grp(sp);const head=g!==lastG&&g>0?`<h3 class="grp">${GRPN[g]}（${keys.filter(k=>grp(k)===g).length}タイトル・${keys.filter(k=>grp(k)===g).reduce((n,k)=>n+by[k].length,0)}試合）</h3>`:'';lastG=g;return head+(()=>{const list=by[sp].sort((a,b)=>a[1].start_jst.localeCompare(b[1].start_jst));
     const cnt=l=>list.filter(([mid])=>D.ana[l][mid]?.status===FORMAL[l]).length;
     const w=list.filter(([mid])=>LG.some(l=>D.ana[l][mid]?.status==='watch')).length;
     const anyFormal=LG.some(l=>cnt(l)>0);
@@ -437,7 +442,7 @@ function renderSports(){
       return `<div class="mrow ${past?'past':''} ${formal?'isformal':''}" data-m="${mid}" tabindex="0" role="button" aria-label="${esc(m.left)} vs ${esc(m.right)} の分析を開く">
       <div class="time"><span class="d">${t.d}</span>${t.t}</div>
       <div class="mt"><div class="c">${esc(m.competition)}${deep?'｜<span class="dd">深掘り済み</span>':''}</div><div class="n">${esc(m.left)} vs ${esc(m.right)}</div><div class="o">${esc(os)}${D.ana.r1[mid]&&D.ana.r1[mid].gap!=null?`<span class="gapc ${D.ana.r1[mid].gap>=70?'hi':D.ana.r1[mid].gap>=63?'mid':''}">格差 ${D.ana.r1[mid].gap}</span>`:''}</div></div>
-      <div class="badges">${LG.map(l=>{const s=D.ana[l][mid]?.status||'nodata';return `<button class="b ${cls(l,s)}" data-m="${mid}" data-l="${l}" title="${T[l]}：${JA[s]||s}">${T[l].slice(0,1)} ${JA[s]||s}</button>`;}).join('')}</div></div>`;}).join('')+'</details>';}).join('');
+      <div class="badges">${LG.map(l=>{const s=D.ana[l][mid]?.status||'nodata';return `<button class="b ${cls(l,s)}" data-m="${mid}" data-l="${l}" title="${T[l]}：${JA[s]||s}">${T[l].slice(0,1)} ${JA[s]||s}</button>`;}).join('')}</div></div>`;}).join('')+'</details>';})();}).join('');
   el.querySelectorAll('.mrow').forEach(r=>{r.onclick=e=>{const b=e.target.closest('.b');openMatch(r.dataset.m,b?b.dataset.l:null);};
     r.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(r.dataset.m);}};});
 }

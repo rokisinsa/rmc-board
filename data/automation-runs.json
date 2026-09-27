@@ -4960,5 +4960,2337 @@
    "public_fetch": "確認不能：WebFetch承認待ちタイムアウト",
    "checked_at": "2026-09-28T00:01:58+09:00"
   }
+ },
+ {
+  "run_id": "run-20260928-0030",
+  "slot": "00:30（追加・eスポーツ全件）",
+  "started_at": "2026-09-27T23:55:00+09:00",
+  "finished_at": "2026-09-28T00:12:30+09:00",
+  "start_sha": "1c7306bc3ea43956ede32b2c4af8e258529e1706",
+  "status": "partial",
+  "previous_run_ok": false,
+  "carried_blockers": [
+   "BET CHANNELの全メニュー取得ができない（項目2）",
+   "カジ旅・遊雅堂は確認不能（項目3）",
+   "betexplorer/oddsportal/Liquipedia/HLTVへの取得失敗が多く、走査の網羅性が不完全（項目4〜6）。ダーツMODUS残り4試合未登録",
+   "eスポーツはCS2/LoL/Dota2/R6以外のタイトルを時間内に走査できず（項目5）",
+   "深掘りの多くで単一ブックの現在値・独立モデルが取れず正式採用なし。Dota2・ラグビー系は新規深掘りなし（項目12・14・15）",
+   "公開ページ・公開JSONの取得確認ができない（WebFetch承認待ちタイムアウト）（項目36〜39）"
+  ],
+  "inventory_match_ids": [
+   "m20260928-3fbfcc80",
+   "m20260928-da2b5f00",
+   "m20260928-e4c1bff1",
+   "m20260928-09b158dd",
+   "m20260928-bab1b631",
+   "m20260928-e65e2736",
+   "m20260928-d7850472",
+   "m20260928-fbbace34",
+   "m20260928-4c6683a6",
+   "m20260928-09f6dbac",
+   "m20260928-51689a25",
+   "m20260928-9eb27b31",
+   "m20260928-ea2cf481",
+   "m20260928-2faac80f",
+   "m20260928-d7afc0df",
+   "m20260928-999ef981",
+   "m20260928-54e23009",
+   "m20260928-4aa2f43d",
+   "m20260928-38adb619",
+   "m20260928-9ba3d721",
+   "m20260928-031ddc45",
+   "m20260928-529b763c",
+   "m20260928-f44b553b",
+   "m20260928-7271879f",
+   "m20260928-589e58a1",
+   "m20260928-ce24ce4b",
+   "m20260928-b464dc62",
+   "m20260928-8c491c03",
+   "m20260928-b47db4f0",
+   "m20260928-4d342a05",
+   "m20260928-6b1b68c6",
+   "m20260928-ece732d6",
+   "m20260928-1fd3b324",
+   "m20260928-a0e24d59",
+   "m20260928-593088d0",
+   "m20260928-8c462c5e",
+   "m20260928-0fd13d74",
+   "m20260928-4d16ea97",
+   "m20260928-0de36346",
+   "m20260928-32f66e1e",
+   "m20260928-8acd5db0",
+   "m20260928-37e10099",
+   "m20260928-f49bc22c",
+   "m20260928-a0b53579",
+   "m20260928-b7928bbb",
+   "m20260928-c3990fd3",
+   "m20260928-0fe2ec67",
+   "m20260928-f476bb31",
+   "m20260928-21f48c30",
+   "m20260928-4e4eb56b",
+   "m20260928-1ab81871",
+   "m20260928-93f2ce0a",
+   "m20260928-1da03792",
+   "m20260928-c8154d27",
+   "m20260928-4c40f673",
+   "m20260928-b6216554",
+   "m20260928-da70f133",
+   "m20260928-41d29f76",
+   "m20260928-53cfbd9f",
+   "m20260928-07892c98",
+   "m20260928-369d616b",
+   "m20260928-574ffcec",
+   "m20260928-e7742e76",
+   "m20260928-e4c18623",
+   "m20260928-85d5241b",
+   "m20260928-f34c3f7c",
+   "m20260928-2838f9e9",
+   "m20260928-d00666f0",
+   "m20260928-32a4d94e",
+   "m20260928-d1ff5873",
+   "m20260928-964d10bb",
+   "m20260928-27fb29ff",
+   "m20260928-bc2c8d3c",
+   "m20260928-4503cf0f",
+   "m20260928-ad6ac969",
+   "m20260928-3c3bbaea",
+   "m20260928-c1e3618c",
+   "m20260928-b8befb35",
+   "m20260928-16e0cb6c",
+   "m20260928-2422a264",
+   "m20260928-1e32f7ea",
+   "m20260928-7792d9bb",
+   "m20260928-eb03e0c5",
+   "m20260928-a9274eea",
+   "m20260928-544b00ed",
+   "m20260928-be29ee04",
+   "m20260928-fd7a0a81",
+   "m20260928-37676ddb",
+   "m20260928-dbf16a37",
+   "m20260928-8e84c889",
+   "m20260928-f3fe4130",
+   "m20260928-182424a2",
+   "m20260928-f2db1067",
+   "m20260928-7dad71ef",
+   "m20260928-80be98fb",
+   "m20260928-a0a9e575",
+   "m20260928-32f06f5e",
+   "m20260928-221b986d",
+   "m20260928-2b117f0a",
+   "m20260928-ed6295b7",
+   "m20260928-d1620820",
+   "m20260928-623e77cc",
+   "m20260928-50cbcfbc",
+   "m20260928-77ecb6ba",
+   "m20260928-a5a72c85",
+   "m20260928-ea88cc27",
+   "m20260928-5b57fd16",
+   "m20260928-af4ae395",
+   "m20260928-1f4e7993",
+   "m20260928-b3c9adbc",
+   "m20260928-2cbdb092",
+   "m20260928-de68ecc6",
+   "m20260928-7a385b44",
+   "m20260928-62fdb66e",
+   "m20260928-f7bc47f3",
+   "m20260928-4df3d89e",
+   "m20260928-4f88203a",
+   "m20260928-1e56d5bd",
+   "m20260928-26a3795d",
+   "m20260928-1946a3ee",
+   "m20260928-319c4227",
+   "m20260928-6fabdd09",
+   "m20260928-af587e68",
+   "m20260928-f5bd2282",
+   "m20260928-073695d9",
+   "m20260928-9c53ee6e",
+   "m20260928-00dea091",
+   "m20260928-b44aa11e",
+   "m20260928-3acf6692",
+   "m20260928-32d4195f",
+   "m20260928-b3873b81",
+   "m20260928-9b8b0c6b",
+   "m20260928-1675369d",
+   "m20260928-c96bb572",
+   "m20260928-a811e833",
+   "m20260928-7a56b059",
+   "m20260928-ed1edddc",
+   "m20260928-fb0aa938",
+   "m20260928-67a185d8",
+   "m20260928-6e7a55bb",
+   "m20260928-1583470c",
+   "m20260928-d63c8417",
+   "m20260928-36ff0ea0",
+   "m20260928-40354afe",
+   "m20260928-49f178a1",
+   "m20260928-fc652e0b",
+   "m20260928-9b9a2a89",
+   "m20260928-390829fe",
+   "m20260928-f0cc9ad7",
+   "m20260928-376af976",
+   "m20260928-5ac1f0c3",
+   "m20260928-71497faf",
+   "m20260928-a0d6dfb6",
+   "m20260928-bc2baae9",
+   "m20260928-c43deb34",
+   "m20260928-13d3febd",
+   "m20260928-8d524162",
+   "m20260928-dd6dc4ba",
+   "m20260928-7187d489",
+   "m20260928-b744e4f1",
+   "m20260928-d33b9997",
+   "m20260928-67fc147b",
+   "m20260928-9b7a57b1",
+   "m20260928-d7848204",
+   "m20260928-f9a30b94",
+   "m20260928-20d582fa",
+   "m20260928-d9e2c3a7",
+   "m20260928-1ae3f427",
+   "m20260928-437e665c",
+   "m20260928-ee24bc2c",
+   "m20260928-e7f548fc",
+   "m20260928-a56acffb",
+   "m20260928-805b8dc7",
+   "m20260928-bc640a64",
+   "m20260928-823b56f9",
+   "m20260928-0f102c14",
+   "m20260928-57ff5146",
+   "m20260928-79996e29",
+   "m20260928-4e476f4f",
+   "m20260928-d5e99a04",
+   "m20260928-b12603c1",
+   "m20260928-e801ab6e",
+   "m20260928-9eaf8969",
+   "m20260928-1352e60e",
+   "m20260928-d7c3ad48",
+   "m20260928-93ba466b",
+   "m20260928-5b856305",
+   "m20260928-d6fe55cd",
+   "m20260928-018f970b",
+   "m20260928-902336c3",
+   "m20260928-70c2eaf9",
+   "m20260928-9ce7cd8e",
+   "m20260928-7dc14dab",
+   "m20260928-0385fbef",
+   "m20260928-b72536ed",
+   "m20260928-5ab5e6ee",
+   "m20260928-23d74110",
+   "m20260928-05fda1e5",
+   "m20260928-a1988168",
+   "m20260928-3dcccb80",
+   "m20260928-388014f0",
+   "m20260928-0ac19747",
+   "m20260928-ee4c4946",
+   "m20260928-5d80de27",
+   "m20260928-3211f0db",
+   "m20260928-095b2f1a",
+   "m20260928-32c55335",
+   "m20260928-895b26be",
+   "m20260928-5aceaf45",
+   "m20260928-11d56d92",
+   "m20260928-61f41b99",
+   "m20260928-64bc9f6f",
+   "m20260928-00054b2e",
+   "m20260928-2540a13c",
+   "m20260928-23f8aa48",
+   "m20260928-a633c6ff",
+   "m20260928-0ae6f943",
+   "m20260928-0b03b8ed",
+   "m20260928-f888dcbe",
+   "m20260928-6f51b6e0",
+   "m20260928-5f0df9a7",
+   "m20260928-d2599ebe",
+   "m20260928-b9fea432",
+   "m20260928-a0cdba24",
+   "m20260928-d48057e4",
+   "m20260928-4fbe50a2",
+   "m20260928-400681f9",
+   "m20260928-4912f3cb",
+   "m20260928-6ee3d04c",
+   "m20260928-954e754b",
+   "m20260928-ecc53e6e",
+   "m20260928-26777f99",
+   "m20260928-a63f580d",
+   "m20260928-dec413cc",
+   "m20260928-9812ab7d",
+   "m20260928-1de20761",
+   "m20260928-646aea2f",
+   "m20260928-40921a7f",
+   "m20260928-b644c8e1",
+   "m20260928-ff27cd43",
+   "m20260928-1b08d56b",
+   "m20260928-aa7ed2c1",
+   "m20260928-855f5752",
+   "m20260928-e74e8709",
+   "m20260928-26a0b804",
+   "m20260928-ac930632",
+   "m20260928-d11d4d0e",
+   "m20260928-568322f6",
+   "m20260928-f7adba52",
+   "m20260928-e0b03c61",
+   "m20260928-5d8c4c77",
+   "m20260928-51ecf3e2",
+   "m20260928-e694c0ac",
+   "m20260928-efe86671",
+   "m20260928-ba6c3767",
+   "m20260928-36b24da1",
+   "m20260928-28c5f798",
+   "m20260928-cdd48d36",
+   "m20260928-b7e8a884",
+   "m20260928-a740bf78",
+   "m20260928-95c4b765",
+   "m20260928-68299b52",
+   "m20260928-4861ce96",
+   "m20260928-5501eada",
+   "m20260928-a8b2736c",
+   "m20260928-ce15207b",
+   "m20260928-75049451",
+   "m20260928-436d0a7b",
+   "m20260928-61e0f4be",
+   "m20260928-8dfed3f8",
+   "m20260928-467991db",
+   "m20260928-f744601e",
+   "m20260928-cd54f33b",
+   "m20260928-bd47822e",
+   "m20260928-df4e505f",
+   "m20260928-020c4b79",
+   "m20260928-0553eeac",
+   "m20260928-d9b57955",
+   "m20260928-260ed937",
+   "m20260928-1ac8b5f4",
+   "m20260928-884acce7",
+   "m20260928-0e4f79c3",
+   "m20260928-2f77907f",
+   "m20260928-c5263634",
+   "m20260928-4ef3a3ec",
+   "m20260928-2ccc60e6",
+   "m20260928-277cb0aa",
+   "m20260928-dd27bf6d",
+   "m20260928-91eda476",
+   "m20260928-e45bb2e9",
+   "m20260928-59f63a04",
+   "m20260928-8a6c094f",
+   "m20260928-c386fd8c",
+   "m20260928-2e85d28b",
+   "m20260928-bebf6873",
+   "m20260928-efe65637",
+   "m20260928-e9872c52",
+   "m20260928-0fe42197",
+   "m20260928-89a61d47",
+   "m20260928-b6a0cede",
+   "m20260928-d6a3d185",
+   "m20260928-3be20ed4",
+   "m20260928-d29da1c3",
+   "m20260928-eea8d227",
+   "m20260928-25b5d06b",
+   "m20260928-cf1f5c5a",
+   "m20260928-bb2caf8b",
+   "m20260928-7f385979",
+   "m20260928-72449523",
+   "m20260928-5bda090d",
+   "m20260928-e1c88093",
+   "m20260928-01fa3041",
+   "m20260928-e23bd850",
+   "m20260928-fb252914",
+   "m20260928-827fb711",
+   "m20260928-59fc54ca",
+   "m20260928-5a980760",
+   "m20260928-83fe679c",
+   "m20260928-9e1725d8",
+   "m20260928-959aa524",
+   "m20260928-38bf98d7",
+   "m20260928-2c772ddf",
+   "m20260928-79dbf47e",
+   "m20260928-cf3be127",
+   "m20260928-bbb26063",
+   "m20260928-3d582a92",
+   "m20260928-bb2e4540",
+   "m20260928-7205c863",
+   "m20260928-7ac3f1df",
+   "m20260928-e6fc1017",
+   "m20260928-ce1cb873",
+   "m20260928-36811051",
+   "m20260928-b7253392",
+   "m20260928-654eb19c",
+   "m20260928-4c99280b",
+   "m20260928-a16b66b0",
+   "m20260928-46733395",
+   "m20260928-9fd628b3",
+   "m20260928-d31fc9c8",
+   "m20260928-b1dbea92",
+   "m20260928-03e1b28f",
+   "m20260928-99561164",
+   "m20260928-74d8c800",
+   "m20260928-01463b2f",
+   "m20260928-5d86b9da",
+   "m20260928-ce341a70",
+   "m20260928-d431ace3",
+   "m20260928-962eaad9",
+   "m20260928-83a0df74",
+   "m20260928-eb06f1bf",
+   "m20260928-c276a1b7",
+   "m20260928-6a9a8d12",
+   "m20260928-349d653a",
+   "m20260928-31a47a23",
+   "m20260928-66cfc65e",
+   "m20260928-03cfe7a6",
+   "m20260928-b09308b0",
+   "m20260928-87b4687a",
+   "m20260928-e19626df",
+   "m20260928-334595f6",
+   "m20260928-ed8197ff",
+   "m20260928-5a448cec",
+   "m20260928-a2895545",
+   "m20260928-5da1304a",
+   "m20260928-42c2b4f3",
+   "m20260929-6a751dcb",
+   "m20260929-46970f50",
+   "m20260929-65408ddc",
+   "m20260929-095209d3",
+   "m20260929-3e7cc8a2",
+   "m20260929-d7d14e8e",
+   "m20260929-14fff661",
+   "m20260929-30c61e0d",
+   "m20260929-9d234a66",
+   "m20260929-e3b094e6",
+   "m20260929-4b0e1bed",
+   "m20260929-cfa67b30",
+   "m20260929-1be5b03d",
+   "m20260929-a777d35d",
+   "m20260929-096c2e08",
+   "m20260929-f361db8c",
+   "m20260930-53f009f5",
+   "m20260930-f202b0ec",
+   "m20260930-38c1d50f",
+   "m20260930-59336c27",
+   "m20260930-0ace6a46",
+   "m20260930-8def69e6",
+   "m20260930-9e355dfe",
+   "m20260930-2c49eb96",
+   "m20260930-15fe2bbe",
+   "m20260930-53588cfa",
+   "m20260930-90bb624c",
+   "m20260930-11a4b29c",
+   "m20260930-4b7a2990",
+   "m20260930-8120a114",
+   "m20260930-a85e1677",
+   "m20260930-badae5c2",
+   "m20260930-bb5ff659",
+   "m20261001-286e7505",
+   "m20261001-c25bab15",
+   "m20261001-29fd339d",
+   "m20261001-74660ba2",
+   "m20261001-b72dc595",
+   "m20261001-3cf6f0a3",
+   "m20261002-09529f95",
+   "m20261002-9238c571",
+   "m20261002-b1ed0350",
+   "m20261002-8176d8e3",
+   "m20261002-44840c3a",
+   "m20261002-75eeea44",
+   "m20261002-045d9ff4",
+   "m20261002-2565638d",
+   "m20261002-0a5d57e4",
+   "m20261002-89812843",
+   "m20261002-c9ea48cb",
+   "m20261002-be645144",
+   "m20261002-18543bf2",
+   "m20261002-08df4311",
+   "m20261003-792cf016",
+   "m20261003-fd81f942",
+   "m20261003-1280a793",
+   "m20261003-669225e8",
+   "m20261003-ee884515",
+   "m20261003-e743ac88",
+   "m20261003-480a2dda",
+   "m20261003-4d9f11a6",
+   "m20261003-aa680892",
+   "m20261003-c0fe1031",
+   "m20261003-dd8b6ddc",
+   "m20261004-c7471ca6",
+   "m20261004-6d4369a2",
+   "m20261004-d58da1d9",
+   "m20261004-95fb72e3",
+   "m20261004-e558b4b7",
+   "m20261004-9f3c73e9",
+   "m20261004-fc69fec0",
+   "m20261004-38c16d1a",
+   "m20261005-4fd63538",
+   "m20261005-40f231b9",
+   "m20261005-0a327a60",
+   "m20261006-d67f171c",
+   "m20261006-cfa904c5",
+   "m20261006-f4345dbf",
+   "m20261006-b7fb286d",
+   "m20261007-6861d630",
+   "m20261007-ab4ae7da",
+   "m20261007-ee5591c3",
+   "m20261007-1e9a8939",
+   "m20261008-c021caa8",
+   "m20261008-f05b1def",
+   "m20261009-c6774f28",
+   "m20261009-bf4382cd",
+   "m20261009-4bd02888",
+   "m20261009-bc30c94b",
+   "m20261011-d89e2c67",
+   "m20261011-10a116bf",
+   "m20261011-8b4891a1"
+  ],
+  "coverage": {
+   "FC 26（eFootball）": {
+    "event_count": 25,
+    "priced_upcoming_count": 25,
+    "market_count": 25,
+    "r1": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 24,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "V-クリケット": {
+    "event_count": 4,
+    "priced_upcoming_count": 4,
+    "market_count": 4,
+    "r1": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 2,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "eサッカー": {
+    "event_count": 25,
+    "priced_upcoming_count": 25,
+    "market_count": 25,
+    "r1": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 23,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 25,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 25,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "eサッカー：ヴォルタ": {
+    "event_count": 7,
+    "priced_upcoming_count": 7,
+    "market_count": 7,
+    "r1": {
+     "screened": 7,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 7,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 7,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 7,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "eバスケットボール": {
+    "event_count": 34,
+    "priced_upcoming_count": 20,
+    "market_count": 20,
+    "r1": {
+     "screened": 34,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 3,
+     "rejected": 17,
+     "nodata": 14,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 34,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 20,
+     "nodata": 14,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 34,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 20,
+     "nodata": 14,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 34,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 20,
+     "nodata": 14,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "eクリケット": {
+    "event_count": 1,
+    "priced_upcoming_count": 1,
+    "market_count": 1,
+    "r1": {
+     "screened": 1,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 1,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 1,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 1,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "eテニス": {
+    "event_count": 5,
+    "priced_upcoming_count": 5,
+    "market_count": 5,
+    "r1": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 5,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 5,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 5,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "NBA 2K26": {
+    "event_count": 4,
+    "priced_upcoming_count": 4,
+    "market_count": 4,
+    "r1": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 2,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r2": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r3": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    },
+    "r4": {
+     "screened": 4,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "シミュレーション/バーチャル試合のため深掘り対象外（実力データなし）"
+    }
+   },
+   "CS2": {
+    "event_count": 35,
+    "priced_upcoming_count": 32,
+    "market_count": 32,
+    "r1": {
+     "screened": 35,
+     "deep_dive": 11,
+     "formal": 2,
+     "watch": 11,
+     "rejected": 19,
+     "nodata": 3
+    },
+    "r2": {
+     "screened": 35,
+     "deep_dive": 11,
+     "formal": 0,
+     "watch": 7,
+     "rejected": 25,
+     "nodata": 3
+    },
+    "r3": {
+     "screened": 35,
+     "deep_dive": 11,
+     "formal": 0,
+     "watch": 4,
+     "rejected": 28,
+     "nodata": 3
+    },
+    "r4": {
+     "screened": 35,
+     "deep_dive": 11,
+     "formal": 0,
+     "watch": 6,
+     "rejected": 26,
+     "nodata": 3
+    }
+   },
+   "サッカー": {
+    "event_count": 38,
+    "priced_upcoming_count": 34,
+    "market_count": 34,
+    "r1": {
+     "screened": 38,
+     "deep_dive": 12,
+     "formal": 1,
+     "watch": 7,
+     "rejected": 26,
+     "nodata": 4
+    },
+    "r2": {
+     "screened": 38,
+     "deep_dive": 12,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 34,
+     "nodata": 4
+    },
+    "r3": {
+     "screened": 38,
+     "deep_dive": 12,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 34,
+     "nodata": 4
+    },
+    "r4": {
+     "screened": 38,
+     "deep_dive": 12,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 34,
+     "nodata": 4
+    }
+   },
+   "バスケットボール": {
+    "event_count": 18,
+    "priced_upcoming_count": 18,
+    "market_count": 18,
+    "r1": {
+     "screened": 18,
+     "deep_dive": 8,
+     "formal": 2,
+     "watch": 10,
+     "rejected": 6,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 18,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 4,
+     "rejected": 14,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 18,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 17,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 18,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 17,
+     "nodata": 0
+    }
+   },
+   "アイスホッケー": {
+    "event_count": 12,
+    "priced_upcoming_count": 12,
+    "market_count": 12,
+    "r1": {
+     "screened": 12,
+     "deep_dive": 5,
+     "formal": 3,
+     "watch": 2,
+     "rejected": 7,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 12,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 12,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 12,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 12,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 12,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 12,
+     "nodata": 0
+    }
+   },
+   "ハンドボール": {
+    "event_count": 7,
+    "priced_upcoming_count": 5,
+    "market_count": 5,
+    "r1": {
+     "screened": 7,
+     "deep_dive": 5,
+     "formal": 2,
+     "watch": 0,
+     "rejected": 4,
+     "nodata": 1
+    },
+    "r2": {
+     "screened": 7,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 1
+    },
+    "r3": {
+     "screened": 7,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 1
+    },
+    "r4": {
+     "screened": 7,
+     "deep_dive": 5,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 1
+    }
+   },
+   "Fortnite": {
+    "event_count": 5,
+    "priced_upcoming_count": 0,
+    "market_count": 0,
+    "r1": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 0,
+     "nodata": 5
+    },
+    "r2": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 0,
+     "nodata": 5
+    },
+    "r3": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 0,
+     "nodata": 5
+    },
+    "r4": {
+     "screened": 5,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 0,
+     "nodata": 5
+    }
+   },
+   "LoL": {
+    "event_count": 24,
+    "priced_upcoming_count": 19,
+    "market_count": 19,
+    "r1": {
+     "screened": 24,
+     "deep_dive": 8,
+     "formal": 1,
+     "watch": 10,
+     "rejected": 8,
+     "nodata": 5
+    },
+    "r2": {
+     "screened": 24,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 7,
+     "rejected": 12,
+     "nodata": 5
+    },
+    "r3": {
+     "screened": 24,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 3,
+     "rejected": 16,
+     "nodata": 5
+    },
+    "r4": {
+     "screened": 24,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 6,
+     "rejected": 13,
+     "nodata": 5
+    }
+   },
+   "Rainbow Six": {
+    "event_count": 19,
+    "priced_upcoming_count": 19,
+    "market_count": 19,
+    "r1": {
+     "screened": 19,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 10,
+     "rejected": 9,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 19,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 3,
+     "rejected": 16,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 19,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 18,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 19,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 18,
+     "nodata": 0
+    }
+   },
+   "バレーボール": {
+    "event_count": 16,
+    "priced_upcoming_count": 8,
+    "market_count": 8,
+    "r1": {
+     "screened": 16,
+     "deep_dive": 4,
+     "formal": 2,
+     "watch": 3,
+     "rejected": 4,
+     "nodata": 7
+    },
+    "r2": {
+     "screened": 16,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 9,
+     "nodata": 7
+    },
+    "r3": {
+     "screened": 16,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 9,
+     "nodata": 7
+    },
+    "r4": {
+     "screened": 16,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 9,
+     "nodata": 7
+    }
+   },
+   "クリケット": {
+    "event_count": 3,
+    "priced_upcoming_count": 3,
+    "market_count": 3,
+    "r1": {
+     "screened": 3,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 3,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 3,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 3,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 3,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 3,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 3,
+     "nodata": 0
+    }
+   },
+   "ラグビーリーグ": {
+    "event_count": 1,
+    "priced_upcoming_count": 1,
+    "market_count": 1,
+    "r1": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    }
+   },
+   "アメフト": {
+    "event_count": 14,
+    "priced_upcoming_count": 14,
+    "market_count": 14,
+    "r1": {
+     "screened": 14,
+     "deep_dive": 7,
+     "formal": 5,
+     "watch": 1,
+     "rejected": 8,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 14,
+     "deep_dive": 7,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 13,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 14,
+     "deep_dive": 7,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 13,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 14,
+     "deep_dive": 7,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 13,
+     "nodata": 0
+    }
+   },
+   "Mobile Legends": {
+    "event_count": 16,
+    "priced_upcoming_count": 16,
+    "market_count": 16,
+    "r1": {
+     "screened": 16,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 9,
+     "rejected": 7,
+     "nodata": 0,
+     "deep_dive_waiver": "未実施：本回の深掘り枠に入らず（次回の対象）"
+    },
+    "r2": {
+     "screened": 16,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 16,
+     "nodata": 0,
+     "deep_dive_waiver": "未実施：本回の深掘り枠に入らず（次回の対象）"
+    },
+    "r3": {
+     "screened": 16,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 16,
+     "nodata": 0,
+     "deep_dive_waiver": "未実施：本回の深掘り枠に入らず（次回の対象）"
+    },
+    "r4": {
+     "screened": 16,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 16,
+     "nodata": 0,
+     "deep_dive_waiver": "未実施：本回の深掘り枠に入らず（次回の対象）"
+    }
+   },
+   "野球": {
+    "event_count": 21,
+    "priced_upcoming_count": 15,
+    "market_count": 15,
+    "r1": {
+     "screened": 21,
+     "deep_dive": 9,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 15,
+     "nodata": 4
+    },
+    "r2": {
+     "screened": 21,
+     "deep_dive": 9,
+     "formal": 0,
+     "watch": 5,
+     "rejected": 12,
+     "nodata": 4
+    },
+    "r3": {
+     "screened": 21,
+     "deep_dive": 9,
+     "formal": 1,
+     "watch": 1,
+     "rejected": 15,
+     "nodata": 4
+    },
+    "r4": {
+     "screened": 21,
+     "deep_dive": 9,
+     "formal": 0,
+     "watch": 2,
+     "rejected": 15,
+     "nodata": 4
+    }
+   },
+   "World of Tanks": {
+    "event_count": 2,
+    "priced_upcoming_count": 2,
+    "market_count": 2,
+    "r1": {
+     "screened": 2,
+     "deep_dive": 2,
+     "formal": 1,
+     "watch": 1,
+     "rejected": 0,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 2,
+     "deep_dive": 2,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 2,
+     "deep_dive": 2,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 2,
+     "deep_dive": 2,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    }
+   },
+   "Dota 2": {
+    "event_count": 8,
+    "priced_upcoming_count": 8,
+    "market_count": 8,
+    "r1": {
+     "screened": 8,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 6,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 8,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 7,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 8,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 7,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 8,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 7,
+     "nodata": 0
+    }
+   },
+   "ラグビー": {
+    "event_count": 1,
+    "priced_upcoming_count": 1,
+    "market_count": 1,
+    "r1": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 1,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 0
+    }
+   },
+   "ホッケー": {
+    "event_count": 5,
+    "priced_upcoming_count": 0,
+    "market_count": 0,
+    "r1": {
+     "screened": 5,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 4
+    },
+    "r2": {
+     "screened": 5,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 4
+    },
+    "r3": {
+     "screened": 5,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 4
+    },
+    "r4": {
+     "screened": 5,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 4
+    }
+   },
+   "バドミントン": {
+    "event_count": 10,
+    "priced_upcoming_count": 10,
+    "market_count": 10,
+    "r1": {
+     "screened": 10,
+     "deep_dive": 4,
+     "formal": 3,
+     "watch": 5,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 10,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 10,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 10,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 10,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 10,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 10,
+     "nodata": 0
+    }
+   },
+   "スヌーカー": {
+    "event_count": 7,
+    "priced_upcoming_count": 7,
+    "market_count": 7,
+    "r1": {
+     "screened": 7,
+     "deep_dive": 4,
+     "formal": 3,
+     "watch": 1,
+     "rejected": 3,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 7,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 7,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 7,
+     "deep_dive": 4,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 7,
+     "nodata": 0
+    }
+   },
+   "テニス": {
+    "event_count": 43,
+    "priced_upcoming_count": 37,
+    "market_count": 37,
+    "r1": {
+     "screened": 43,
+     "deep_dive": 8,
+     "formal": 5,
+     "watch": 17,
+     "rejected": 16,
+     "nodata": 5
+    },
+    "r2": {
+     "screened": 43,
+     "deep_dive": 8,
+     "formal": 2,
+     "watch": 2,
+     "rejected": 34,
+     "nodata": 5
+    },
+    "r3": {
+     "screened": 43,
+     "deep_dive": 8,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 37,
+     "nodata": 5
+    },
+    "r4": {
+     "screened": 43,
+     "deep_dive": 8,
+     "formal": 1,
+     "watch": 3,
+     "rejected": 34,
+     "nodata": 5
+    }
+   },
+   "水球": {
+    "event_count": 2,
+    "priced_upcoming_count": 0,
+    "market_count": 0,
+    "r1": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 1
+    },
+    "r2": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 1
+    },
+    "r3": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 1
+    },
+    "r4": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 1,
+     "nodata": 1
+    }
+   },
+   "ダーツ": {
+    "event_count": 11,
+    "priced_upcoming_count": 11,
+    "market_count": 11,
+    "r1": {
+     "screened": 11,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 6,
+     "rejected": 5,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 11,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 11,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 11,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 11,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 11,
+     "deep_dive": 3,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 11,
+     "nodata": 0
+    }
+   },
+   "StarCraft: BW": {
+    "event_count": 2,
+    "priced_upcoming_count": 2,
+    "market_count": 2,
+    "r1": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 1,
+     "rejected": 1,
+     "nodata": 0
+    },
+    "r2": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r3": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    },
+    "r4": {
+     "screened": 2,
+     "deep_dive": 1,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 2,
+     "nodata": 0
+    }
+   },
+   "VALORANT": {
+    "event_count": 8,
+    "priced_upcoming_count": 8,
+    "market_count": 8,
+    "r1": {
+     "screened": 8,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 4,
+     "rejected": 4,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r2": {
+     "screened": 8,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 8,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r3": {
+     "screened": 8,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 8,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r4": {
+     "screened": 8,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 8,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    }
+   },
+   "CrossFire": {
+    "event_count": 6,
+    "priced_upcoming_count": 6,
+    "market_count": 6,
+    "r1": {
+     "screened": 6,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 3,
+     "rejected": 3,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r2": {
+     "screened": 6,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r3": {
+     "screened": 6,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r4": {
+     "screened": 6,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 6,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    }
+   },
+   "King of Glory": {
+    "event_count": 18,
+    "priced_upcoming_count": 18,
+    "market_count": 18,
+    "r1": {
+     "screened": 18,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 6,
+     "rejected": 12,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r2": {
+     "screened": 18,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 18,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r3": {
+     "screened": 18,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 18,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    },
+    "r4": {
+     "screened": 18,
+     "deep_dive": 0,
+     "formal": 0,
+     "watch": 0,
+     "rejected": 18,
+     "nodata": 0,
+     "deep_dive_waiver": "24時間以内の試合がなく、次回以降の定時更新で深掘り"
+    }
+   }
+  },
+  "sports_disappeared": {},
+  "sources": {
+   "betchannel": "取得：LIVEスポーツprematch配信のeスポーツ・シミュレーション系 全280件（23:59取得、控え data/bc/20260927-2359-esports.txt）。優勝者市場4件は試合でないため除外",
+   "kajitabi": "確認不能：ログインが必要",
+   "bet365": "一部取得：記事掲載のbet365値（デンマーク戦・ノルウェー戦・韓国戦・ボンジ戦・ハンブルク戦）",
+   "yuugado": "確認不能：ログインが必要",
+   "scan_notes": {
+    "サッカー": {
+     "sources_checked": [
+      "https://www.jfa.jp/samuraiblue/20260928/",
+      "https://www.jleague.jp/sp/match/search/all/sep/",
+      "WebSearch: Jリーグ 2026年9月28日 試合",
+      "WebSearch: サッカー 2026年9月28日 20時〜22時 試合 日本時間"
+     ],
+     "note": "国際Aマッチウィークのため9/28はJリーグの試合なし（既存インベントリのキリンチャレンジカップのみ確認）。9/28 20:40〜23:10 JST帯の新規リーグ・大会の取りこぼしは、時間予算の制約で個別ブックメーカーサイト（betexplorer/oddsportal）への網羅的アクセスができず、既存33試合以外の追加候補は見つからなかった（ネガティブ確認のみ、悉皆調査ではない）。開始時刻変更・中止の情報は見つからず"
+    },
+    "テニス（ATP/WTA/チャレンジャー/ITF）": {
+     "sources_checked": [
+      "https://www.atptour.com/en/scores/current/chengdu/7581/results",
+      "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
+      "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/daily-schedule",
+      "https://www.betexplorer.com/tennis/atp-singles/hangzhou/",
+      "https://tennistonic.com/tennis-news/1058336/",
+      "WebSearch: WTA tennis schedule 2026-09-28 Ningbo/Guangzhou/Osaka"
+     ],
+     "note": "既存インベントリの主要カードはATP成都(SF2枠)・ATP杭州(SF)・チャレンジャー各地・ITF女子の網羅で概ね一致。ATP成都QF結果を確認：シャポバロフがマナリノに6-7 6-3 6-2で勝利（インベントリ記載と一致）。SF2（m20260928-2f77907f）の相手はハリス対フルカチュ（Hurkacz）のQF勝者だが、当該QFは取得時点で結果未確定のため対戦相手はなお未確定のまま。杭州SF（Rublev-Jacquet）は組み合わせ確定済みだが、現地報道で開始が月曜17:30(CST)＝18:30 JST時点との情報があり、インベントリの15:00 JST推定と差異あり（changesに記載）。WTA本戦レベルの新規大会は検索で確認できず、9/28 20:40〜23:10 JST枠の見落とし大会は発見できなかった（時間切れのため追加走査は打ち切り）。チャレンジャー各地（ムイユロン/バーリ/ポルト）・ITF女子（ランス/キンタ・ド・ラゴ）は既存インベントリと一致、取りこぼしは確認できず。"
+    },
+    "卓球": {
+     "sources_checked": [
+      "https://www.ittf.com/2026-events-calendar/",
+      "WebSearch: table tennis WTT event 2026-09-28"
+     ],
+     "note": "WTTシリーズの直近大会（WTT Champions重慶等）は2026年3月開催で、走査窓（9/27 23:10〜9/28 23:10 JST）に該当する主要卓球国際大会は発見できず。該当試合なしと判断（追加確認は時間切れのため未実施）。"
+    },
+    "バスケットボール": {
+     "sources_checked": [
+      "https://www.espn.com/wnba/story/_/id/49882118/wnba-playoffs-2026-schedule-games-first-round-semifinals-finals-scores-results-news-highlights",
+      "既存インベントリ（欧州各国リーグ）"
+     ],
+     "note": "WNBAプレーオフ1回戦4カード（Lynx-Liberty/Aces-Fever/Dream-Mystics/Valkyries-Wings）が窓内の全カードと一致、取りこぼしなし。欧州国内リーグ（ACB/レガA/BBL/LNB等）は既存インベントリの規模が大きく、今回は個別リーグの全数照合までは時間内に完了できず、追加検出なし（新規大会の兆候も見当たらず）。"
+    },
+    "野球": {
+     "sources_checked": [
+      "https://npb.jp/games/2026/schedule_09_detail.html",
+      "MLB週末最終戦（既知情報の整合確認）",
+      "https://stats.cpbl.com.tw/schedule",
+      "https://cpbl.com.tw/schedule（403でアクセス不可）"
+     ],
+     "note": "NPBは9/28（月）3試合（広島-DeNA、西武-楽天、ロッテ-日本ハム）で確定・インベントリと一致、取りこぼしなし。MLBは9/28が全30球団のレギュラーシーズン最終戦（15試合＝インベントリの02:05×2/04:05×4/04:07×1/04:10×8と一致）、取りこぼしなし。CPBLは公式サイトが403、stats.cpbl.com.twの自動取得結果がインベントリ（台鋼-中信兄弟／統一-楽天モンキーズ／味全-富邦）と一致せず不審（別カード・別時刻を提示）のため、今回は開始時刻・カードとも確定できず「開始時刻要確認」フラグを維持。"
+    },
+    "アメフト": {
+     "sources_checked": [
+      "https://www.nfl-schedule.com/weeks/week-3",
+      "https://fbschedules.com/2026-nfl-monday-night-football-schedule/"
+     ],
+     "note": "NFL Week3の日曜枠14試合（1:00pmET×9／4:05・4:25pmET×4／SNF 8:20pmET×1）は全てインベントリに存在し取りこぼしなし。月曜MNF（イーグルス-ベアーズ、8:15pmET＝JST 9/29 09:15）は走査窓（〜9/28 23:10 JST）の外なので対象外（正しく未収録）。カレッジフットボールはこの走査窓（JST日曜深夜〜月曜夜）に該当する主要カードなし（カレッジは基本土曜開催で窓外）。"
+    },
+    "アイスホッケー": {
+     "sources_checked": [
+      "https://www.betexplorer.com/hockey/austria/ice-hockey-league/",
+      "https://www.betexplorer.com/hockey/germany/del/",
+      "WebSearch各種"
+     ],
+     "note": "既存インベントリ記載試合以外の窓内新規カードは確認できず。ICEHL/DEL/チェコ/スロバキア/ポーランド/スウェーデン等は既存インベントリでほぼ網羅。9/28 20:40〜23:10 JST帯の新規大会追加は確認できなかった（時間内で全リーグを精査しきれていない可能性あり）。"
+    },
+    "ハンドボール": {
+     "sources_checked": [
+      "WebSearch各種",
+      "https://www.betexplorer.com/handball/germany/bundesliga/（読み込み不可）"
+     ],
+     "note": "既存インベントリでほぼ網羅。9/28 20:40〜23:10 JST帯の新規カードは確認できず。"
+    },
+    "バレーボール": {
+     "sources_checked": [
+      "WebSearch各種",
+      "https://volleyballking.jp/article/91881/",
+      "https://www.olympics.com/ja/news/asian-games-2026-mens-volleyball-results"
+     ],
+     "note": "アジア大会男子・パンアメリカン系は既存インベントリでほぼ網羅。新規取りこぼしは確認できず。"
+    },
+    "水球": {
+     "sources_checked": [
+      "WebSearch各種"
+     ],
+     "note": "アジア大会の男子水球は既存インベントリに記載あり。詳細な追加試合は確認できず。"
+    },
+    "ラグビー": {
+     "sources_checked": [
+      "既存インベントリのみ確認"
+     ],
+     "note": "窓内はトップ14 トゥールーズ-モンペリエ（既深掘り済み）のみ。他の新規カードは見つからず。"
+    },
+    "ラグビーリーグ": {
+     "sources_checked": [
+      "既存インベントリのみ確認"
+     ],
+     "note": "窓内は女子スーパーリーグ ウィガン-ヨーク（既深掘り済み）のみ。他の新規カードは見つからず。"
+    },
+    "クリケット": {
+     "sources_checked": [
+      "WebSearch各種",
+      "https://www.cricinfo.com/series/csa-t20-challenge-2026-27-1551607"
+     ],
+     "note": "CSA T20チャレンジとアジア大会T20プレーオフは既存インベントリに記載あり。新規取りこぼしは確認できず。"
+    },
+    "バドミントン": {
+     "sources_checked": [
+      "WebSearch各種"
+     ],
+     "note": "アジア大会バドミントンは既存インベントリでほぼ網羅。"
+    },
+    "ホッケー（フィールドホッケー）": {
+     "sources_checked": [
+      "https://hockey.or.jp/samurai/asiangames/f2026-aichi-nagoya",
+      "https://myhockey.jp/news/2026092780178/",
+      "https://www.sportzorg24.tv/asian-games-2026/sport/hockey/"
+     ],
+     "note": "既存インベントリには男子インド-バングラデシュ(19:00)のみ記載だったが、日本ホッケー協会公式サイトで9/28の男子アジア大会全5試合の日程を確認。日本vs韓国(17:00)、中国vsマレーシア(9:00)、ウズベキスタンvsタイ(13:00)、パキスタンvsオマーン(15:00)の4試合が未収録の取りこぼしとして判明（new_eventsに追加）。既存のインド-バングラデシュ19:00開始は公式情報と一致し、時刻変更なしを確認（『開始時刻要確認』フラグは解消可）。"
+    },
+    "その他球技": {
+     "sources_checked": [
+      "WebSearch各種"
+     ],
+     "note": "GROUP内の他競技（水球・ラグビー等）以外で該当する新規競技・大会は確認できず。"
+    },
+    "スヌーカー": {
+     "sources_checked": [
+      "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+      "https://www.snooker.org/res/index.asp?event=2761",
+      "https://en.wikipedia.org/wiki/2026_Shenzhen_Open"
+     ],
+     "note": "深圳オープン1回戦(9/28)は snooker.org のセッション表(BST)と既存インベントリ7試合が一致（10:30=M.Williams-Fan Zhengyi, 15:00=Trump-Jiahao/Robertson-Liu Hongyu, 20:30=O'Sullivan-Jun/Zhao-Donaldson/Si Jiahui-Lines/Wakelin-L.J.Davis）。取りこぼしなし。なお Kyren Wilson の1回戦(vs Sam Craigie/ワイルドカード)は snooker.org 表記で9/29 01:30 UTC(=9/29 10:30 JST)開始と判明し、走査窓(〜9/28 23:10 JST)の外のため対象外。"
+    },
+    "ダーツ": {
+     "sources_checked": [
+      "https://www.flashscore.com/darts/world/modus-super-series/fixtures/",
+      "https://www.livesport.com/en/darts/world/modus-super-series/fixtures/",
+      "https://www.sofascore.com/darts/player/wiles-michael/70180",
+      "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
+      "https://www.scotsman.com/sport/other-sport/world-grand-prix-darts-2026-prize-money-first-round-order-of-play-full-schedule..."
+     ],
+     "note": "MODUSスーパーシリーズは6選手(Atkins/Thornton/Smith/Wiles/Plovier/Widmayer)の総当たり15試合と判明。既存インベントリには17:40〜20:35の11試合のみ登録済みで一致確認。残り4試合(Plovier対Atkins、Wiles対Widmayer、Atkins対Smith、Thornton対Plovier)がflashscore/livesportの一覧に存在するが、開始時刻がページ上で動的読込(JS)のため取得できず、betexplorer/oddsportal/oddscheckerの該当ページはプロキシの承認待ちでタイムアウトし閲覧不可だった。20:35以降・21時台に行われる可能性が高い(取りこぼし要フォローアップ、次回優先確認)。\n別件：PDC World Grand Prix(ダーツ)が9/28にライセスターで開幕することを確認(Littler対Woodhouseなど1回戦8試合)。ただし現地18:00開始=9/29 02:00 JST頃で、走査窓(〜9/28 23:10 JST)の外のため new_events には含めず。"
+    },
+    "格闘技(ボクシング/MMA)": {
+     "sources_checked": [
+      "WebSearch: UFC boxing September 28 2026 fight card schedule",
+      "WebSearch: boxing MMA card September 27 28 2026 Asia/Japan/Korea/ONE Championship"
+     ],
+     "note": "検索範囲内で2026-09-27 23:10〜09-28 23:10 JSTに開始するUFC/主要ボクシング/ONE Championship興行は確認できず。番組表が確定していない可能性もあり断定はしない。"
+    },
+    "モータースポーツ(F1/MotoGP等)": {
+     "sources_checked": [
+      "WebSearch: F1 MotoGP race September 28 2026",
+      "WebSearch: F1 2026 calendar Azerbaijan Singapore September race dates"
+     ],
+     "note": "走査窓内に開催されるF1/MotoGPレースは確認できず(アゼルバイジャンGPは既に終了済みの様子)。該当なしのため new_events なし。"
+    },
+    "CS2": {
+     "sources_checked": [
+      "https://liquipedia.net/counterstrike/Liquipedia:Matches",
+      "https://www.hltv.org/matches",
+      "https://www.hltv.org/matches/2398300/liquid-vs-wildcard-ibuypower-masters-fml-2026",
+      "https://www.hltv.org/matches/2398571/metanoia-wolves-vs-mibr-fe-cct-2026-south-america-series-6"
+     ],
+     "note": "Liquipedia/HLTVは429(レート制限)・PROVENANCE_REQUIREDエラーが頻発し全件の網羅走査はできず。既存インベントリ外の新規CS2大会・対戦は確認できなかった（取れた範囲では）。既存分の中でLiquid vs Wildcard（iBUYPOWER Masters決勝）はHLTVで確認・深掘り実施。"
+    },
+    "VALORANT": {
+     "sources_checked": [
+      "https://www.vlr.gg/matches",
+      "https://www.vlr.gg/event/matches/2766/valorant-champions-2026"
+     ],
+     "note": "既存インベントリにVALORANTの試合が0件だったため走査。Valorant Champions 2026 グループステージ（100 Thieves vs T1、JD Gaming vs FUT Esportsなど）が窓内に存在する可能性が高いが、vlr.ggの2回のフェッチで表示時刻が食い違い（『9/28 21:00 JST』と『9/27 5:00 AM（TZ不明）』）、正確な開始時刻を確定できなかったため new_events には追加していない。要再走査。"
+    },
+    "Dota 2": {
+     "sources_checked": [
+      "https://liquipedia.net/dota2/Liquipedia:Matches"
+     ],
+     "note": "2回ともHLTV/Liquipediaが429エラーで取得失敗。既存の1件（BetBoom Streamers Battle 15、ショーマッチ、窓の深掘り対象時間帯より前）以外の新規Dota2試合の有無を確認できず。"
+    },
+    "LoL": {
+     "sources_checked": [
+      "https://fieldlevelmedia.com/esports/team-liquid-to-face-cloud9-in-upper-bracket-final-at-lcs-summer-playoffs/",
+      "https://win.gg/team-liquid-vs-cloud9-lcs-playoffs-2026-bets-predictions/"
+     ],
+     "note": "LCS Summer Playoffs UB決勝（Team Liquid vs Cloud9）を深掘り。EMEA Masters等の新規大会・取りこぼしの走査はLiquipedia側のレート制限で未実施。"
+    },
+    "Rainbow Six": {
+     "sources_checked": [
+      "https://siege.gg/competitions/187-south-america-league-2026-stage-2"
+     ],
+     "note": "既存インベントリのFaZe vs LOUD（R6 South America League S2、9/28 02:15 JST）をsiege.ggで確認しようとしたが、同ページには『Black Dragons vs LOUD』の消化済み結果と『FaZe vs Black Dragons（10/4）』の予定戦のみが見え、FaZe vs LOUDの直接該当が確認できなかった。誤記/対戦カード変更の可能性があるが確証不足のため changes には計上せず、要再確認として報告のみ。Liquipedia側は429で未確認。"
+    },
+    "Honor of Kings": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "Overwatch 2": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "Rocket League": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "CoD": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "PUBG": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "MLBB": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "StarCraft II": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "EA FC": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "eBasketball": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    },
+    "その他": {
+     "sources_checked": [],
+     "note": "時間切れのため未走査。"
+    }
+   }
+  },
+  "betchannel_esports": {
+   "taken_at": "2026-09-27T23:59:22+09:00",
+   "file": "data/bc/20260927-2359-esports.txt",
+   "total": 280,
+   "outrights": 4,
+   "by_title": {
+    "King of Glory": {
+     "kind": "real",
+     "events": 18,
+     "priced": 18,
+     "outright": 0,
+     "in_24h": 0,
+     "new": 18,
+     "mapped": 0
+    },
+    "LoL": {
+     "kind": "real",
+     "events": 19,
+     "priced": 19,
+     "outright": 0,
+     "in_24h": 15,
+     "new": 5,
+     "mapped": 14
+    },
+    "CS2": {
+     "kind": "real",
+     "events": 35,
+     "priced": 32,
+     "outright": 3,
+     "in_24h": 13,
+     "new": 24,
+     "mapped": 8
+    },
+    "Dota 2": {
+     "kind": "real",
+     "events": 9,
+     "priced": 8,
+     "outright": 1,
+     "in_24h": 1,
+     "new": 8,
+     "mapped": 0
+    },
+    "eバスケットボール": {
+     "kind": "sim",
+     "events": 38,
+     "priced": 20,
+     "outright": 0,
+     "in_24h": 34,
+     "new": 34,
+     "mapped": 0
+    },
+    "Mobile Legends": {
+     "kind": "real",
+     "events": 16,
+     "priced": 16,
+     "outright": 0,
+     "in_24h": 1,
+     "new": 16,
+     "mapped": 0
+    },
+    "Rainbow Six": {
+     "kind": "real",
+     "events": 19,
+     "priced": 19,
+     "outright": 0,
+     "in_24h": 5,
+     "new": 14,
+     "mapped": 5
+    },
+    "VALORANT": {
+     "kind": "real",
+     "events": 8,
+     "priced": 8,
+     "outright": 0,
+     "in_24h": 0,
+     "new": 8,
+     "mapped": 0
+    },
+    "eサッカー": {
+     "kind": "sim",
+     "events": 37,
+     "priced": 25,
+     "outright": 0,
+     "in_24h": 25,
+     "new": 25,
+     "mapped": 0
+    },
+    "Fortnite": {
+     "kind": "br",
+     "events": 6,
+     "priced": 0,
+     "outright": 0,
+     "in_24h": 5,
+     "new": 5,
+     "mapped": 0
+    },
+    "eサッカー：ヴォルタ": {
+     "kind": "sim",
+     "events": 11,
+     "priced": 7,
+     "outright": 0,
+     "in_24h": 7,
+     "new": 7,
+     "mapped": 0
+    },
+    "イバケジャダ（BET CHANNEL表記）": {
+     "kind": "sim",
+     "events": 2,
+     "priced": 0,
+     "outright": 0,
+     "in_24h": 0,
+     "new": 0,
+     "mapped": 0
+    },
+    "V-クリケット": {
+     "kind": "sim",
+     "events": 8,
+     "priced": 4,
+     "outright": 0,
+     "in_24h": 4,
+     "new": 4,
+     "mapped": 0
+    },
+    "eテニス": {
+     "kind": "sim",
+     "events": 7,
+     "priced": 5,
+     "outright": 0,
+     "in_24h": 5,
+     "new": 5,
+     "mapped": 0
+    },
+    "World of Tanks": {
+     "kind": "real",
+     "events": 2,
+     "priced": 2,
+     "outright": 0,
+     "in_24h": 2,
+     "new": 2,
+     "mapped": 0
+    },
+    "FC 26（eFootball）": {
+     "kind": "sim",
+     "events": 28,
+     "priced": 25,
+     "outright": 0,
+     "in_24h": 25,
+     "new": 25,
+     "mapped": 0
+    },
+    "NBA 2K26": {
+     "kind": "sim",
+     "events": 4,
+     "priced": 4,
+     "outright": 0,
+     "in_24h": 4,
+     "new": 4,
+     "mapped": 0
+    },
+    "CrossFire": {
+     "kind": "real",
+     "events": 6,
+     "priced": 6,
+     "outright": 0,
+     "in_24h": 0,
+     "new": 6,
+     "mapped": 0
+    },
+    "StarCraft: BW": {
+     "kind": "real",
+     "events": 2,
+     "priced": 2,
+     "outright": 0,
+     "in_24h": 1,
+     "new": 2,
+     "mapped": 0
+    },
+    "eクリケット": {
+     "kind": "sim",
+     "events": 3,
+     "priced": 1,
+     "outright": 0,
+     "in_24h": 1,
+     "new": 1,
+     "mapped": 0
+    },
+    "Cricket 24": {
+     "kind": "sim",
+     "events": 2,
+     "priced": 0,
+     "outright": 0,
+     "in_24h": 0,
+     "new": 0,
+     "mapped": 0
+    }
+   }
+  },
+  "blockers": [
+   "BET CHANNELの全メニュー取得ができない（項目2）",
+   "カジ旅・遊雅堂は確認不能（項目3）",
+   "betexplorer/oddsportal/Liquipedia/HLTVへの取得失敗が多く、走査の網羅性が不完全（項目4〜6）。ダーツMODUS残り4試合未登録",
+   "eスポーツはCS2/LoL/Dota2/R6以外のタイトルを時間内に走査できず（項目5）",
+   "深掘りの多くで単一ブックの現在値・独立モデルが取れず正式採用なし。Dota2・ラグビー系は新規深掘りなし（項目12・14・15）",
+   "公開ページ・公開JSONの取得確認ができない（WebFetch承認待ちタイムアウト）（項目36〜39）",
+   "eスポーツ：24時間超の試合（VALORANT Champions・King of Glory・CrossFire・BLAST SLAM・ESL Pro League等）は深掘り未実施で一次判定のみ",
+   "eスポーツの独立勝率はRMC内製log5（直近成績のみ・相手の強さ未補正）。外部モデルは見つからず"
+  ],
+  "checklist": {
+   "01": true,
+   "02": false,
+   "03": false,
+   "04": false,
+   "05": false,
+   "06": false,
+   "07": true,
+   "08": true,
+   "09": true,
+   "10": true,
+   "11": true,
+   "12": false,
+   "13": true,
+   "14": false,
+   "15": false,
+   "16": true,
+   "17": true,
+   "18": true,
+   "19": true,
+   "20": true,
+   "21": true,
+   "22": true,
+   "23": true,
+   "24": true,
+   "25": true,
+   "26": true,
+   "27": true,
+   "28": true,
+   "29": true,
+   "30": true,
+   "31": true,
+   "32": true,
+   "33": true,
+   "34": true,
+   "35": true,
+   "36": false,
+   "37": false,
+   "38": false,
+   "39": false,
+   "40": false,
+   "41": false
+  },
+  "checklist_notes": {
+   "01": "23:00枠。22:56 JST起動、start_sha記録。前回run-20260927-2345（別セッションの追加更新）はpartial→blockersを引き継ぎ。push競合のため最新mainに再適用",
+   "02": "BET CHANNEL全メニュー未取得（クラウドから直接接続不可。直前のrun-20260927-2345はPC内蔵ブラウザ経由で721件取得したが、本回はPC未接続）",
+   "03": "カジ旅・遊雅堂はログイン必要で確認不能、bet365は記事掲載値のみ部分的",
+   "04": "6系統のサブエージェントで走査。フィールドホッケー（アジア大会）4試合を追加。ダーツMODUS残り4試合は開始時刻取れず未登録。betexplorer/oddsportal/Liquipedia/HLTVで取得失敗（承認タイムアウト・429）が多く網羅性は不完全",
+   "05": "eスポーツはBET CHANNELの全タイトル（実チーム11タイトル＋シミュレーション系10種）を取り込み済み。深掘りは24時間以内の実チーム試合のみ",
+   "06": "競技別件数は記録したが、走査が不完全なため件数自体が全数と言えない",
+   "11": "競技内でロジック別に判定・深掘り対象を選定（競技横断の上位抽出なし）",
+   "12": "Dota 2・ラグビー・ラグビーリーグ・Rainbow Six（価格なし）は本回の新規深掘りなし（前回深掘り継続またはwaiver記録）。VALORANTは掲載0件",
+   "14": "深掘り27件。H2H・フォーム・単一ブック値・独立モデルが unavailable の項目が多い",
+   "15": "eスポーツ深掘りは CS2 1件・LoL 1件のみ。map pool/veto/patch の多くが unavailable",
+   "16": "本回の新規正式採用0件（条件を満たす候補なし。無理な採用はしない）",
+   "17": "既存正式カード16件（①15・③1）はすべて開始前（最早 9/28 00:30）で pending。開始済み未確定カードなし",
+   "18": "結果確定対象なし（開始済みカードなし）",
+   "19": "結果確定対象なし",
+   "21": "精算対象なし",
+   "26": "旧移行カードなし",
+   "27": "敗戦カードなし",
+   "34": "push済み ba8ae076ef2c7140c7877005981c0ae879f5b2d0（競合1回：run-20260927-2345の上に再適用しテスト・検証を最初から再実行）",
+   "35": "Actions test-validate-deploy run 36327377503 成功（test・validation・profit audit・deploy）",
+   "36": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "37": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "38": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "39": "未確認：Pagesデプロイ（deployment 6693686602）はAPI上success。WebFetchが承認待ちタイムアウト（PROVENANCE_REQUIRED）で公開JSON・deploys/<SHA>.jsonを取得できず、公開値の再計算ができない",
+   "40": "報告送信後に確定",
+   "41": "上記未完了があるため定時更新完了とはしない"
+  }
  }
 ]

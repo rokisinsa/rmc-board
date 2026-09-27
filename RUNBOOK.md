@@ -22,6 +22,9 @@
 
 1. **起動確認（項目1）**：`git pull`、`git rev-parse HEAD` を start_sha に記録。前回runの status と blockers を読み、未解決分を `carried_blockers` に引き継ぐ。
 2. **インベントリ（項目2〜6）**：BET CHANNEL を基準に全メニューを取得（取得できなければ `sources.betchannel` に「確認不能：理由」）。カジ旅・bet365・遊雅堂も同様に記録。今後24時間の試合を全競技・全eスポーツタイトルで集め、`matches.json` と `odds_snapshots.json` に追記。競技別に event_count / priced_upcoming_count / market_count を数える。前回あった競技が消えたら `sports_disappeared` に理由。
+   - **eスポーツは全タイトル必須**：BET CHANNEL の LIVEスポーツ prematch配信（sptpub）から eスポーツ（CS2・LoL・Dota 2・VALORANT・R6・World of Tanks・CrossFire・King of Glory・Mobile Legends・StarCraft BW・Fortnite）とシミュレーション系（FC 26・NBA 2K26・eサッカー・eバスケ・eテニス・V-クリケット等）を全件取り、`data/bc/<取得時刻>-esports.txt` に控えを残す（形式は `rmc/bcfeed.py`）。
+   - 既存の略称行（LoL EMEA Masters の TLNP など）は `rmc/bcmap.py` の KNOWN で BET CHANNEL の event に対応づけ、重複登録しない。取り込み・判定の手順は `scripts/run_20260928_0030_esports.py` を雛形にする。
+   - シミュレーション系は実力データがないため①の一次判定のみ（正式採用しない）。実チームの試合は24時間以内のものを深掘りし、独立勝率は外部モデルがなければ `rmc/model.py`（直近成績の log5）を使う。内製モデルと市場の差が15pt超なら正式採用しない。
 3. **①〜④の全件独立走査（項目7〜13, 28, 29）**：4ロジックそれぞれが inventory の全 match_id を1行ずつ判定する。他ロジックの推定・理由を流用しない。競技ごとに（全競技横並びの上位抽出は禁止）各ロジック最低1件、試合数が多い競技は上位3件程度を deep_dive。deep_dive しない場合は理由を `deep_dive_waiver` に書く。
 4. **deep_dive（項目14, 15）**：事実は `docs/FACTS_SPEC.md` の形で `data/facts/<match_id>.json` にも保存する（日本語・1試合1行）。`rmc/validate.py` の `DEEP_FIELDS_COMMON`（eスポーツは `DEEP_FIELDS_ESPORTS` も）をすべて埋める。取れない項目は `{"unavailable": true, "reason": "…"}`。`data_as_of` は走査開始時刻より前。
 5. **正式採用（項目16, 20）**：条件を満たすものは件数上限なしで ledger に追記。exact odds・stake($100)・locked_at（試合開始前）必須。レンジしかなければ正式採用しない。

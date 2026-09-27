@@ -1,0 +1,162 @@
+{
+ "match_id": "m20260928-6a9a8d12",
+ "data_as_of": "2026-09-28T00:08:00+09:00",
+ "start_jst_confirmed": "2026-09-28T19:00:00+09:00",
+ "unit": "ゲーム",
+ "left": {
+  "name": "Soma（박상현 / Park Sang-hyeon, Zerg）",
+  "ranking": "前シーズン王者（ASL S21優勝と報道、16強シード）。ASL S20（2025）優勝。ASL22 16強グループA 1位",
+  "form": [
+   {
+    "date": "2026-09-07",
+    "opp": "Do Jae-wook（도재욱, P）",
+    "comp": "ASL Season 22 16強 グループA 勝者戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Kim Yoon-joong（김윤중, P）",
+    "comp": "ASL Season 22 16強 グループA 初戦",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "1セット目Aeolosで約5分勝利"
+   }
+  ],
+  "lineup": [
+   "ソロ競技。所属 SouL Gaming。種族 Zerg"
+  ]
+ },
+ "right": {
+  "name": "JD（이제동 / Lee Jae-dong, Zerg）",
+  "ranking": "ASL22 24強（グループC）突破→16強グループB 2位",
+  "form": [
+   {
+    "date": "2026-09-08",
+    "opp": "Kim Myung-woon（김명운, Z）",
+    "comp": "ASL Season 22 16強 グループB 最終戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "ZvZ"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Kim Kyung-mo（김경모）",
+    "comp": "ASL Season 22 16強 グループB 敗者戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Kim Myung-woon（김명운, Z）",
+    "comp": "ASL Season 22 16強 グループB 初戦",
+    "ha": "N",
+    "score": "敗戦（スコア未確認）",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "ソロ競技。種族 Zerg"
+  ]
+ },
+ "h2h": [],
+ "venue": "LAN・ソウル大峙洞 FreecUP Studio",
+ "esports": {
+  "format": "BO5（準々決勝、シングルエリミ）",
+  "lan_online": "LAN",
+  "map_pool": "大会マップ：Knockout、Attitude SE、Colorless Fate、Odyssey RE、Octagon SE、Aeolus、Backroom（8強のマップ割当は未確認）",
+  "veto": "16強グループ1位（Soma）が第1セットのマップを選択、以降は前セット敗者が選択",
+  "patch": "該当なし（Brood War）",
+  "map_h2h": "未取得"
+ },
+ "risks": [
+  "ZvZミラーは序盤ビルド次第でブレが大きい",
+  "H2HはLiquipediaがレート制限で取得できず空",
+  "JDは同組でZvZを連勝して勝ち上がり調子上向き"
+ ],
+ "missing": [
+  "H2H",
+  "24強以前の成績",
+  "マップ別成績"
+ ],
+ "unavailable": {
+  "h2h": "Liquipediaが429（レート制限）で取得不可。韓国/英語記事にも過去対戦記録の言及なし",
+  "form_older": "Liquipediaが429（レート制限）で取得不可"
+ },
+ "source_urls": [
+  "https://www.invenglobal.com/articles/26168/soop-to-kick-off-asl-season-22-quarterfinals-on-september-21",
+  "https://www.invenglobal.com/articles/25665/park-soma-sang-hyeon-tops-group-a-yoo-young-jin-advances-in-second-to-quarterfinals",
+  "https://www.inven.co.kr/webzine/news/?news=320558",
+  "https://www.invenglobal.com/articles/25690/jaedong-i-will-keep-improving-until-i-win-a-championship-again",
+  "https://www.invenglobal.com/articles/24766/soops-google-play-asl-season-22-kicks-off-on-the-17th",
+  "https://www.techm.kr/news/articleView.html?idxno=155266",
+  "https://liquipedia.net/starcraft/Soma"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "units_won": 2,
+   "units_lost": 1,
+   "points_for": 2,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "units_won": 4,
+   "units_lost": 0,
+   "points_for": 4,
+   "points_against": 0,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

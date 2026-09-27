@@ -1,0 +1,128 @@
+{
+ "match_id": "m20260928-9ce7cd8e",
+ "data_as_of": "2026-09-28T00:08:00+09:00",
+ "start_jst_confirmed": "2026-09-28T03:00:00+09:00",
+ "unit": "マップ",
+ "left": {
+  "name": "GHOST SQUAD",
+  "ranking": "順位情報なし（2026年8月のBoCスプリット4決勝予選でベスト16突破→QFでVirtus.proと対戦）",
+  "form": [
+   {
+    "date": "2026-08-19",
+    "opp": "PARADOX",
+    "comp": "BetBoom Battle of Champions スプリット4 決勝予選 1/8決勝",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "cybersport.ruが『GHOST SQUADがPARADOXを下した』と報道。スコア記載なし。日付は記事公開日"
+   }
+  ],
+  "lineup": [
+   "ロスター情報は取得できず"
+  ]
+ },
+ "right": {
+  "name": "PARADOX",
+  "ranking": "順位情報なし",
+  "form": [
+   {
+    "date": "2026-08-19",
+    "opp": "GHOST SQUAD",
+    "comp": "BetBoom Battle of Champions スプリット4 決勝予選 1/8決勝",
+    "ha": "N",
+    "score": "敗戦（スコア未確認）",
+    "res": "L",
+    "detail": "日付は記事公開日"
+   }
+  ],
+  "lineup": [
+   "ロスター情報は取得できず"
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-08-19",
+   "event": "BetBoom Battle of Champions スプリット4 決勝予選 1/8決勝",
+   "score": "左側勝利（スコア未確認）",
+   "winner": "left",
+   "detail": "cybersport.ru報道、日付は記事公開日（試合は8/18〜19頃）"
+  }
+ ],
+ "venue": "オンライン（ESforce主催 BETBOOM 杯予選）",
+ "esports": {
+  "format": "グループステージ（9/26〜10/4）：公開済みスコアが4:1・4:2のため先に4勝＝BO7と判断。上位8チームがプレーオフへ",
+  "lan_online": "オンライン",
+  "map_pool": "大会全体で11マップ（詳細リスト未取得）",
+  "veto": "未取得",
+  "patch": "未取得",
+  "map_h2h": "未取得"
+ },
+ "risks": [
+  "Liquipediaがレート制限で見られず、両チームの直近成績がほぼ空",
+  "BO7の判断は同日他試合のスコアからの推定",
+  "下位〜中堅チーム同士でデータが極端に少ない"
+ ],
+ "missing": [
+  "直近成績",
+  "ロスター",
+  "H2Hスコア",
+  "マップ別成績"
+ ],
+ "unavailable": {
+  "form": "Liquipediaが429（レート制限）で取得不可。cybersport.ruに断片的報道のみ",
+  "lineup": "情報源なし",
+  "h2h_score": "記事にスコア記載なし"
+ },
+ "source_urls": [
+  "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-nachala-s-pobedy-vystupleniye-v-zakrytoi-kvalifikatsii-na-betboom",
+  "https://www.cybersport.ru/tags/mir-tankov/virtus-pro-sygrayet-s-ghost-squad-v-chetvertfinale-kvalifikatsii-na-final",
+  "https://www.cybersport.ru/tags/mir-tankov/esforce-anonsiroval-daty-otkrytykh-kvalifikatsii-betboom-kubok-chempionov-2026"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 50,
+  "common_ref_date": "2026-09-28"
+ }
+}

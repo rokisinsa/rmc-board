@@ -1,73 +1,308 @@
 {
  "match_id": "m20260928-400681f9",
- "data_as_of": "2026-09-27T23:35:00+09:00",
+ "data_as_of": "2026-09-28T00:06:00+09:00",
+ "start_jst_confirmed": {
+  "unavailable": true,
+  "reason": "Sheep Esportsは9月27日20:00（タイムゾーン表記不明、UTCなら05:00 JSTと一致）、win.ggは9月27日15:00（タイムゾーン不明）と表記しており、JST開始時刻を確定できず"
+ },
+ "unit": "ゲーム",
  "left": {
-  "name": "Team Liquid",
-  "ranking": "LCS Summer Playoffs アッパーブラケット決勝進出。勝者はWorlds 2026スイスステージ出場権とLCSサマーグランドファイナル進出権を獲得",
+  "name": "Cloud9",
+  "ranking": "LCS 2026 Summer レギュラー5勝2敗（gol.gg試合一覧から集計）、プレーオフR1でSR 3-0・上位R2でLYON 3-1勝ち→上位決勝",
   "form": [
    {
-    "date": "—",
-    "opp": "FlyQuest",
+    "date": "2026-09-19",
+    "opp": "LYON",
+    "comp": "LCS 2026 Summer Playoffs 上位R2（BO5）",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Shopify Rebellion",
+    "comp": "LCS 2026 Summer Playoffs R1（BO5）",
+    "ha": "N",
     "score": "3-0",
     "res": "W",
-    "note": "アッパーブラケット準決勝（Map1 34分、Map2 33分でブルーサイド勝利、Map3 43分でレッドサイド勝利）"
+    "units_won": 3,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Sentinels",
+    "comp": "LCS 2026 Summer 第7週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Shopify Rebellion",
+    "comp": "LCS 2026 Summer 第6週（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "LYON",
+    "comp": "LCS 2026 Summer 第6週（BO3）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-16",
+    "opp": "FlyQuest",
+    "comp": "LCS 2026 Summer 第4週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-08",
+    "opp": "Disguised",
+    "comp": "LCS 2026 Summer 第3週（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "Dignitas",
+    "comp": "LCS 2026 Summer 第2週（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "Team Liquid",
+    "comp": "LCS 2026 Summer 第1週（BO3）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-06-13",
+    "opp": "Team Liquid",
+    "comp": "LCS 2026 Spring Playoffs 敗者側決勝（BO5）",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "gol.gg日付は2026-06-13、Sheep Esports記事は6月14日表記。勝者はSheep記事・win.ggの『TLが直近2シリーズでC9に5-0』に従いTL"
    }
   ],
-  "form_summary": "準決勝でFlyQuestを3-0で下し決勝進出。直近5戦でCloud9に5連勝中（win.gg記事、日付・スコア詳細は不明）",
   "lineup": [
-   "Josedeodo（準決勝Map1/2 MVP、K/D/A 11-5-22）",
-   "CoreJJ（準決勝Map3 MVP、K/D/A 1-0-41）",
-   "フルロスター・欠場情報は取得できず"
+   "Top: Thanatos",
+   "Jungle: Blaber",
+   "Mid: APA / Loki（7人ロスターでローテーション、Sheepの試合ページはLoki記載）",
+   "ADC: Tactical / Zven（ローテーション、Sheepの試合ページはTactical記載）",
+   "Support: Vulcan"
   ]
  },
  "right": {
-  "name": "Cloud9",
-  "ranking": "LCS Summer Playoffs アッパーブラケット決勝進出。勝者はWorlds 2026スイスステージ出場権とLCSサマーグランドファイナル進出権を獲得",
+  "name": "Team Liquid",
+  "ranking": "LCS 2026 Summer レギュラー6勝1敗（gol.gg集計、第1シード級でプレーオフR2から出場）、上位R2でFlyQuest 3-0",
   "form": [
    {
-    "date": "—",
-    "opp": "LYON",
-    "score": "3-1",
+    "date": "2026-09-20",
+    "opp": "FlyQuest",
+    "comp": "LCS 2026 Summer Playoffs 上位R2（BO5）",
+    "ha": "N",
+    "score": "3-0",
     "res": "W",
-    "note": "アッパーブラケット準決勝"
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "34分・33分・43分（Field Level Media）"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Dignitas",
+    "comp": "LCS 2026 Summer 第7週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "LYON",
+    "comp": "LCS 2026 Summer 第6週（BO3）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Shopify Rebellion",
+    "comp": "LCS 2026 Summer 第6週（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Disguised",
+    "comp": "LCS 2026 Summer 第4週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-09",
+    "opp": "FlyQuest",
+    "comp": "LCS 2026 Summer 第3週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "Sentinels",
+    "comp": "LCS 2026 Summer 第2週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "Cloud9",
+    "comp": "LCS 2026 Summer 第1週（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-07-01",
+    "opp": "T1",
+    "comp": "MSI 2026 Play-In Day4（BO5）",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "この敗戦でMSI敗退"
+   },
+   {
+    "date": "2026-06-30",
+    "opp": "Karmine Corp",
+    "comp": "MSI 2026 Play-In Day3（BO5）",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "Sheep EsportsのX投稿『3-0 vs KC』に従う（Sheepの試合ページは0-3表記で食い違いあり）"
    }
   ],
-  "form_summary": "準決勝でLYONを3-1で下し決勝進出",
   "lineup": [
-   "フルロスター・欠場情報は取得できず"
+   "Top: Morgan",
+   "Jungle: Josedeodo",
+   "Mid: Quid",
+   "ADC: Yeon",
+   "Support: CoreJJ"
   ]
  },
- "h2h": [],
- "h2h_summary": "直近の対戦でTeam Liquidが5連勝中とされる（win.gg記事）。個別の日付・スコアは取得できず",
- "venue": "LCS Summer Playoffs アッパーブラケット決勝。LAN/オンラインの明記は取得できず",
+ "h2h": [
+  {
+   "date": "2026-07-26",
+   "event": "LCS 2026 Summer 第1週",
+   "score": "0-2",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 2
+  },
+  {
+   "date": "2026-06-13",
+   "event": "LCS 2026 Spring Playoffs 敗者側決勝",
+   "score": "0-3",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 3,
+   "detail": "日付はgol.gg（Sheep記事は6月14日）。TLがMSI出場権獲得"
+  }
+ ],
+ "venue": "LAN・米ロサンゼルス Riot Games Arena（Leaguepediaのプレーオフページ記載。決勝週末10/3-4はアトランタ）",
  "esports": {
-  "format": "BO5（アッパーブラケット決勝）",
-  "lan_online": "unavailable（明記されたソースなし）",
-  "map_pool": "該当なし（LoLのためマッププール概念は非該当）",
-  "veto": "該当なし（LoLはドラフト制。ピック/バン傾向は未取得）",
-  "patch": "unavailable（該当パッチバージョン未確認）",
-  "map_h2h": "該当なし。シリーズH2Hとして直近5戦でLiquidが5連勝（詳細スコア未取得）"
+  "format": "BO5（ダブルエリミネーション上位決勝。勝者は10/4決勝へ、敗者は10/3下位決勝へ）",
+  "lan_online": "LAN",
+  "map_pool": "LoLのため該当なし（サモナーズリフト）",
+  "veto": "フィアレスドラフト等の詳細は未確認",
+  "patch": "16.17（gol.ggのプレーオフ既試合）",
+  "map_h2h": "該当なし"
  },
  "risks": [
-  "直近5連勝と『接戦になる』というアナリスト予想が併存しており、GG.betのオッズ（Team Liquid 2.60・Cloud9 1.47＝Cloud9優位）と直近の対戦成績（Liquid5連勝）の間に不整合が見える",
-  "記事中の『Liquid 3-1予想』はアナリストの主観でありモデル値ではない"
+  "C9はMid（APA/Loki）とADC（Tactical/Zven）がローテーションで、当日の出場者が不確定",
+  "各ソース間でSpring Playoffsの日付・勝者表記に食い違いあり（gol.ggはC9 3-0 TL表記、Sheep記事とwin.ggはTL勝利）",
+  "開始時刻のタイムゾーン未確認",
+  "勝者はWorlds出場権と決勝進出、敗者も下位決勝で再挑戦可能"
  ],
  "missing": [
-  "正確な開始時刻の一次ソース確認",
-  "フルロスター・欠場情報",
-  "独立予測モデル（numberFire等）の値",
-  "H2Hの日付・スコア詳細"
+  "開始時刻（JST）の確定",
+  "2026年Lock-In/Spring以前のH2H",
+  "選手KDAなどの定量スタッツ",
+  "ドラフト傾向"
  ],
  "unavailable": {
-  "model_prob": "LoLを対象とした公開独立モデル（numberFire/Dimers等）の値は確認できなかった"
+  "start_jst_confirmed": "ソースのタイムゾーン不明",
+  "map_pool": "LoLのため該当なし",
+  "veto": "情報なし",
+  "map_h2h": "LoLのため該当なし",
+  "h2h_older": "2026年初めのLock-In等での対戦は未確認"
  },
+ "source_urls": [
+  "https://gol.gg/tournament/tournament-matchlist/LCS%202026%20Summer/",
+  "https://gol.gg/tournament/tournament-matchlist/LCS%202026%20Summer%20Playoffs/",
+  "https://gol.gg/tournament/tournament-matchlist/LCS%202026%20Spring%20Playoffs/",
+  "https://gol.gg/tournament/tournament-matchlist/MSI%202026/",
+  "https://www.sheepesports.com/en/all/matches/LCS%2F2026%20Season%2FSummer%20Playoffs_Round%204_1",
+  "https://www.sheepesports.com/en/all/articles/team-liquid-sweeps-cloud9-to-clinch-a-spot-in-the-2026-mid-season-invitational/en",
+  "https://www.sheepesports.com/en/articles/loki-returns-to-cloud9-as-the-team-builds-a-7-man-roster-for-summer-2026/en",
+  "https://x.com/Sheep_Esports/status/2072266919822954640",
+  "https://fieldlevelmedia.com/esports/team-liquid-to-face-cloud9-in-upper-bracket-final-at-lcs-summer-playoffs/",
+  "https://win.gg/team-liquid-vs-cloud9-lcs-playoffs-2026-bets-predictions/",
+  "https://lol.fandom.com/wiki/LCS/2026_Season/Summer_Playoffs"
+ ],
  "calc": {
   "left": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
+   "games": 10,
+   "W": 7,
+   "L": 3,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 70.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -78,17 +313,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "points_for": 3,
-   "points_against": 0,
-   "points_games": 1
+   "streak": "4連勝",
+   "units_won": 16,
+   "units_lost": 11,
+   "points_for": 16,
+   "points_against": 11,
+   "points_games": 10
   },
   "right": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
+   "games": 10,
+   "W": 8,
+   "L": 2,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -99,18 +336,112 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "points_for": 3,
-   "points_against": 1,
-   "points_games": 1
+   "streak": "2連勝",
+   "units_won": 18,
+   "units_lost": 6,
+   "points_for": 18,
+   "points_against": 6,
+   "points_games": 10
   },
   "h2h": {
-   "games": 0,
+   "games": 2,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 2,
+   "draw": 0,
+   "units_left": 0,
+   "units_right": 5,
+   "points_left": 0,
+   "points_right": 5,
+   "points_games": 2,
+   "avg_left": 0.0,
+   "avg_right": 2.5
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "FlyQuest",
+    "left": [
+     {
+      "date": "2026-08-16",
+      "iso": "2026-08-16",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "3-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-08-09",
+      "iso": "2026-08-09",
+      "score": "2-0",
+      "res": "W"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-20"
+   },
+   {
+    "opp": "LYON",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "3-1",
+      "res": "W"
+     },
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "0-2",
+      "res": "L"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-19"
+   },
+   {
+    "opp": "Shopify Rebellion",
+    "left": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "3-0",
+      "res": "W"
+     },
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "2-1",
+      "res": "W"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "2-1",
+      "res": "W"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-12"
+   }
+  ],
   "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
