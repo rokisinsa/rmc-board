@@ -181,6 +181,9 @@ table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:
 .card .roi{font-family:var(--mono);font-size:12px;color:var(--muted)}
 .kv.sep{border-top:1px dashed var(--line);padding-top:6px}
 #cards .note{grid-column:1/-1;font-size:12px;color:var(--muted);margin:0}
+
+.gapc{display:inline-block;margin-left:8px;font-family:var(--mono);font-size:11.5px;font-weight:600;border-radius:5px;padding:0 6px;background:var(--ex-bg);color:var(--ex)}
+.gapc.mid{background:var(--warn-bg);color:var(--warn)}.gapc.hi{background:var(--ok-bg);color:var(--ok)}
 </style>
 </head>
 <body>
@@ -414,7 +417,7 @@ function renderSports(){
       const formal=LG.some(l=>D.ana[l][mid]?.status===FORMAL[l]);const deep=LG.some(l=>D.ana[l][mid]?.deep_dive);
       return `<div class="mrow ${past?'past':''} ${formal?'isformal':''}" data-m="${mid}" tabindex="0" role="button" aria-label="${esc(m.left)} vs ${esc(m.right)} の分析を開く">
       <div class="time"><span class="d">${t.d}</span>${t.t}</div>
-      <div class="mt"><div class="c">${esc(m.competition)}${deep?'｜<span class="dd">深掘り済み</span>':''}</div><div class="n">${esc(m.left)} vs ${esc(m.right)}</div><div class="o">${esc(os)}</div></div>
+      <div class="mt"><div class="c">${esc(m.competition)}${deep?'｜<span class="dd">深掘り済み</span>':''}</div><div class="n">${esc(m.left)} vs ${esc(m.right)}</div><div class="o">${esc(os)}${D.ana.r1[mid]&&D.ana.r1[mid].gap!=null?`<span class="gapc ${D.ana.r1[mid].gap>=70?'hi':D.ana.r1[mid].gap>=63?'mid':''}">格差 ${D.ana.r1[mid].gap}</span>`:''}</div></div>
       <div class="badges">${LG.map(l=>{const s=D.ana[l][mid]?.status||'nodata';return `<button class="b ${cls(l,s)}" data-m="${mid}" data-l="${l}" title="${T[l]}：${JA[s]||s}">${T[l].slice(0,1)} ${JA[s]||s}</button>`;}).join('')}</div></div>`;}).join('')+'</details>';}).join('');
   el.querySelectorAll('.mrow').forEach(r=>{r.onclick=e=>{const b=e.target.closest('.b');openMatch(r.dataset.m,b?b.dataset.l:null);};
     r.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(r.dataset.m);}};});
