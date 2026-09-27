@@ -1,9 +1,9 @@
 """公開オッズ配信（Bovada の公開 coupon JSON）を取得して data/odds_feed/ に保存する。GitHub Actions から実行（PCオフで動く）。
 閲覧・分析用。各試合の勝敗系市場（Moneyline / 3-Way / Match Winner 等）の実オッズ（decimal）を残す。"""
-import datetime as dt, json, os, sys, time, urllib.request
+import datetime as dt, json, os, sys, time, urllib.error, urllib.request
 
 BASE = "https://www.bovada.lv/services/sports/event/coupon/events/A/description/"
-Q = "?marketFilterId=def&preMatchOnly=true&eventsLimit=5000&lang=en"
+Q = "?marketFilterId=def&preMatchOnly=true&lang=en"
 PATHS = ["esports", "tennis", "darts", "snooker", "badminton", "table-tennis", "volleyball", "handball", "soccer", "basketball",
          "baseball", "football", "hockey", "cricket", "rugby-union", "rugby-league", "aussie-rules", "ufc-mma", "boxing", "water-polo",
          "futsal", "field-hockey"]
@@ -13,9 +13,15 @@ JST = dt.timezone(dt.timedelta(hours=9))
 WIN = ("moneyline", "match winner", "winner", "3-way", "match result", "to win", "fight winner", "match odds")
 
 
-def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=HDR), timeout=40) as r:
-        return json.load(r)
+def get(url, tries=3):
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=HDR), timeout=40) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == tries - 1:
+                raise
+            time.sleep(30 * (i + 1))
 
 
 def pick_market(ev):
@@ -57,7 +63,7 @@ def main():
                                    live=ev.get("live"), market=mk, link=ev.get("link")))
                 n += 1
         status["paths"][p] = f"取得 {n}件"
-        time.sleep(0.5)
+        time.sleep(4)
     status.update(ok=bool(events), events=len(events), priced=sum(1 for e in events if e["market"]))
     json.dump(dict(taken_at=status["taken_at"], source=status["source"], events=events),
               open(os.path.join(OUT, "bovada.json"), "w"), ensure_ascii=False, separators=(",", ":"))
