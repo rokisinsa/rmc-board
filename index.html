@@ -17,10 +17,14 @@
   --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   color-scheme:dark;--bg:#0E1412;--surface:#161F1B;--sunk:#1D2823;--ink:#E4ECE7;--muted:#98A79F;--line:#2B3832;
   --accent:#3DBE95;--pos:#5FD18E;--neg:#F07A6B;
   --ok:#5FD18E;--ok-bg:#15301F;--warn:#E7B45A;--warn-bg:#33270F;--ex:#8F9A94;--ex-bg:#222B27;--nd:#A4A9DC;--nd-bg:#23253A;}}
+:root[data-theme="dark"]{
+  color-scheme:dark;--bg:#0E1412;--surface:#161F1B;--sunk:#1D2823;--ink:#E4ECE7;--muted:#98A79F;--line:#2B3832;
+  --accent:#3DBE95;--pos:#5FD18E;--neg:#F07A6B;
+  --ok:#5FD18E;--ok-bg:#15301F;--warn:#E7B45A;--warn-bg:#33270F;--ex:#8F9A94;--ex-bg:#222B27;--nd:#A4A9DC;--nd-bg:#23253A;}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.55}
