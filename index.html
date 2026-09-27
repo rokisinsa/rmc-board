@@ -83,6 +83,34 @@ details.sport>summary .stat{font-family:var(--mono);font-size:11.5px;color:var(-
 .err{padding:18px;color:var(--neg)}
 @media (max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.mrow{grid-template-columns:62px minmax(0,1fr)}.badges{grid-column:1/-1;justify-content:flex-start}.runinfo{text-align:left}}
+
+.mrow{cursor:pointer}.mrow:hover{background:var(--sunk)}.mrow:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.mrow.isformal{box-shadow:inset 4px 0 0 var(--ok)}
+.dd{color:var(--accent);font-weight:600}
+.lrow{cursor:pointer}.lrow:hover td{background:var(--sunk)}
+#scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:10}
+#panel{position:fixed;top:0;right:0;bottom:0;width:min(720px,100%);background:var(--surface);color:var(--ink);z-index:11;overflow-y:auto;
+  box-shadow:-8px 0 24px rgba(0,0,0,.18);padding:calc(env(safe-area-inset-top,0px) + 16px) 20px calc(env(safe-area-inset-bottom,0px) + 32px)}
+.phead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.phead h3{font-family:var(--display);font-size:20px;margin:4px 0 6px}
+.phead .c{font-size:12px;color:var(--muted);margin:0}
+.x{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;width:36px;height:36px;font-size:20px;cursor:pointer;flex:none}
+.ptabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:14px 0}
+.ptabs button{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px;font:inherit;font-size:12.5px;cursor:pointer;display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.ptabs button[aria-selected="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.ptabs .b{cursor:inherit}
+.pbody h4{font-family:var(--display);font-size:14px;margin:18px 0 6px;color:var(--ink)}
+.pbody p{margin:0;font-size:13px;line-height:1.7}
+.steps{color:var(--muted)}
+.verdict{border-radius:8px;padding:10px 12px;font-size:13.5px}
+.verdict.s-formal{background:var(--ok-bg);color:var(--ok)}
+.formalbox{margin-top:10px;border:1px solid var(--ok);border-radius:8px;padding:10px 12px}
+.kv2{display:grid;grid-template-columns:minmax(96px,max-content) 1fr;gap:4px 14px;font-size:13px;margin:0}
+.kv2 dt{color:var(--muted)}.kv2 dd{margin:0;overflow-wrap:anywhere}
+.na{color:var(--muted);font-size:12.5px}
+ul.src{margin:0;padding-left:18px;font-size:12.5px;overflow-wrap:anywhere}
+ul.src a{color:var(--accent)}
+@media (max-width:560px){.ptabs{grid-template-columns:repeat(2,minmax(0,1fr))}.kv2{grid-template-columns:1fr}.kv2 dt{margin-top:6px}}
 </style>
 </head>
 <body>
@@ -110,16 +138,19 @@ details.sport>summary .stat{font-family:var(--mono);font-size:11.5px;color:var(-
       <label class="tog"><input type="checkbox" id="hasPick"> どれかで採用・watchのある試合だけ</label>
       <input type="search" id="q" placeholder="チーム・選手・大会で絞り込み" aria-label="検索">
     </div>
-    <p style="font-size:12px;color:var(--muted);margin:6px 0 10px">各試合の ①②③④ を押すと、そのロジック専用の分析を開きます。濃い緑＝正式採用、黄＝watch、灰＝除外、紫＝データ不足。</p>
+    <p style="font-size:12px;color:var(--muted);margin:6px 0 10px">試合カードを押すと、①〜④それぞれの分析内容（判定の手順・計算・調べた事実・出典）を開きます。①②③④のボタンを押すとそのロジックから開きます。濃い緑＝正式採用、黄＝watch、灰＝除外、紫＝データ不足。</p>
     <div id="sports" style="display:flex;flex-direction:column;gap:8px"></div>
   </section>
 
   <section>
     <h2>正式採用の台帳</h2>
+    <p style="font-size:12px;color:var(--muted);margin:0 0 8px">行を押すと、その採用の根拠になった分析を開きます。</p>
     <div class="ledger-tabs" id="ltabs"></div>
     <div class="tbl"><table id="ledger"></table></div>
   </section>
 </div>
+<div id="scrim" hidden></div>
+<aside id="panel" hidden role="dialog" aria-modal="true" aria-label="試合の分析"></aside>
 <script>
 (async function(){
 const LG=['r1','r2','r3','r4'], T={r1:'① 推奨取引',r2:'② VALUE①',r3:'③ VALUE②',r4:'④ PRO EDGE',experience:'経験値取引'};
@@ -137,7 +168,8 @@ try{
   const ana={},led={};LG.forEach((l,i)=>ana[l]=rest[i]);LG.concat('experience').forEach((l,i)=>led[l]=rest[4+i]);
   const oi={};odds.forEach(o=>{if(!oi[o.match_id]||o.taken_at>oi[o.match_id].taken_at)oi[o.match_id]=o;});
   const ai={};LG.forEach(l=>{ai[l]={};ana[l].rows.forEach(r=>ai[l][r.match_id]=r);});
-  D={matches,odds:oi,runs,summary,ana:ai,led};
+  const oa={};odds.forEach(o=>(oa[o.match_id]=oa[o.match_id]||[]).push(o));
+  D={matches,odds:oi,oddsAll:oa,runs,summary,ana:ai,led};
 }catch(e){document.querySelector('.wrap').insertAdjacentHTML('beforeend',`<div class="err">データを読み込めませんでした（${esc(e.message)}）。</div>`);return;}
 
 const run=D.runs[D.runs.length-1];
@@ -161,16 +193,68 @@ document.getElementById('cov').innerHTML=`<thead><tr><th>競技</th><th>走査</
   Object.entries(cov).sort((a,b)=>b[1].event_count-a[1].event_count).map(([sp,c])=>`<tr><td>${esc(sp)}</td><td class="mono">${c.event_count}</td><td class="mono">${c.priced_upcoming_count}</td>${LG.map(l=>`<td class="mono">${lgCell(c,l)}</td>`).join('')}</tr>`).join('')+'</tbody>';
 
 // 試合一覧（競技別）
-const st={up:true,pick:false,q:'',open:null};
+const st={up:true,pick:false,q:''};
+const LBL={title:'競技',competition:'大会',date:'開催日',start_jst:'開始（JST）',matchup:'対戦カード',ranking:'ランキング・順位・レーティング',h2h:'H2H（直接対戦）',
+  recent_form:'直近成績',venue:'会場・ホーム/アウェイ',lineup:'メンバー・先発・欠場',odds:'取得オッズ',odds_exact:'単一ブックの実オッズ',required_prob:'必要勝率',
+  prior_prob:'事前推定勝率',edge_or_ev:'EDGE／EV',external_market:'他市場との比較',rationale:'判定の根拠',risks:'リスク',missing:'不足している情報',
+  source_urls:'出典',data_as_of:'データ時点',format:'形式（BO）',lan_online:'LAN／オンライン',roster:'ロスター',map_pool:'マッププール',veto:'ピック／バン',
+  patch:'パッチ',series_h2h:'シリーズH2H',map_h2h:'マップ別H2H',rating:'レーティング'};
+const FACTS=['ranking','h2h','recent_form','venue','lineup','format','lan_online','roster','map_pool','veto','patch','series_h2h','map_h2h','rating'];
+const pct=v=>typeof v==='number'&&v>0&&v<=1?(v*100).toFixed(1)+'%':v;
+function fv(k,v){
+  if(v==null||v==='')return '<span class="na">—</span>';
+  if(typeof v==='object'&&!Array.isArray(v)&&v.unavailable)return `<span class="na">取得不可：${esc(v.reason||'理由未記録')}</span>`;
+  if(k==='source_urls'&&Array.isArray(v))return '<ul class="src">'+v.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,'').slice(0,80))}</a></li>`).join('')+'</ul>';
+  if(k==='odds'&&typeof v==='object')return `${esc(v.book||'')}：${esc(v.L)}${v.D?' / '+esc(v.D):''} / ${esc(v.R)}（${esc((v.taken_at||'').slice(11,16))}取得・${v.exact?'単一ブック':'集計値'}）`;
+  if(typeof v==='boolean')return v?'はい':'いいえ';
+  if(k==='required_prob'||k==='prior_prob')return esc(pct(v));
+  if(typeof v==='object')return esc(JSON.stringify(v));
+  return esc(v);
+}
 function metrics(l,r){const f=(k,v)=>v==null||v===''?'':`<dt>${k}</dt><dd>${esc(v)}</dd>`;
   let h=f('選択',r.pick)+f('オッズ',r.odds);
   if(l==='r1')h+=f('適正勝率',r.nv!=null?r.nv+'%':'')+f('格差',r.gap)+f('信頼度',r.conf)+f('控除率',r.overround!=null?r.overround+'%':'');
   if(l==='r2')h+=f('必要勝率',r.need!=null?r.need+'%':'')+f('推定勝率',r.est)+f('推定EV',r.ev_range);
   if(l==='r3')h+=f('必要勝率',r.need!=null?r.need+'%':'')+f('推定勝率',r.est)+f('市場差',r.diff)+f('Upset Risk',r.upset);
   if(l==='r4')h+=f('市場適正',r.fair!=null?r.fair+'%':'')+f('RMC最終',r.final!=null?r.final+'%':'')+f('EDGE',r.edge)+f('EV',r.ev)+f('最低購入',r.min_odds)+f('信頼度',r.reliability);
-  h+=f('深掘り',r.deep_dive?'実施':'未実施')+f('補正根拠',r.adj_reason);
-  if(r.deep_dive_detail)for(const[k,v]of Object.entries(r.deep_dive_detail))h+=f(k,typeof v==='object'?JSON.stringify(v):v);
   return h;}
+const STEPS={
+ r1:'本命のオッズが1.05〜1.45か → 単一ブックの実オッズから控除率を除いた適正勝率（格差）が70以上か → 消化試合・休養・親善試合・時刻未確認などのリスクがないか。すべて満たせば正式採用。',
+ r2:'市場以外の独立モデルの勝率を±4ptの幅で持つ → 必要勝率（1÷オッズ）と比べ、幅の下限でもEVがプラスかつ中央EVが+2%以上なら正式採用。',
+ r3:'オッズ1.50〜3.00の選択肢だけを見る → 独立推定と市場ベースライン（no-vig）の差が+3pt以上、EV+2%以上、Upset Riskが高でなければ正式採用。',
+ r4:'no-vig市場確率と独立ベース確率を半々に混ぜてRMC最終確率を作る → EDGE+3pt以上・EV+3%以上・データ信頼度がlowでなければ正式採用。'};
+function logicPane(mid,l){
+  const r=D.ana[l][mid];const e=(D.led[l]||[]).find(x=>x.match_id===mid);
+  if(!r)return '<p class="na">この回の判定はありません。</p>';
+  const d=r.deep_dive_detail||{};
+  let h=`<div class="verdict ${cls(l,r.status)}"><b>${JA[r.status]||r.status}</b>　${esc(r.reason)}</div>`;
+  if(e)h+=`<div class="formalbox"><b>正式採用の記録</b><dl class="kv2"><dt>選択</dt><dd>${esc(e.selection)}</dd><dt>採用オッズ</dt><dd>${esc(e.odds_taken)}（${esc(e.odds_source)}）</dd><dt>投入</dt><dd>$${e.stake.toFixed(2)}</dd><dt>ロック時刻</dt><dd>${esc(e.locked_at.replace('T',' ').slice(0,16))} JST</dd><dt>事前推定勝率</dt><dd>${esc(pct(e.prior_prob))}</dd><dt>結果</dt><dd>${e.result?esc(e.result.outcome==='win'?'○ 的中':e.result.outcome==='loss'?'× 不的中':'無効')+`（損益 ${money(e.result.profit)}）`:'未確定'}</dd></dl></div>`;
+  h+=`<h4>判定の手順</h4><p class="steps">${STEPS[l]}</p>`;
+  h+=`<h4>計算結果</h4><dl class="kv2">${metrics(l,r)}${d.required_prob!==undefined&&r.need==null?`<dt>必要勝率</dt><dd>${fv('required_prob',d.required_prob)}</dd>`:''}${l==='r2'&&d.prior_prob!==undefined?`<dt>モデル勝率（中央）</dt><dd>${fv('prior_prob',d.prior_prob)}</dd>`:''}</dl>`;
+  if(r.rationale||d.rationale)h+=`<h4>このロジックの判断</h4><p>${esc(r.rationale||d.rationale.reason||d.rationale)}</p>`;
+  if(!r.deep_dive){h+=`<p class="na">この試合はこのロジックでは深掘りしていません（一次判定のみ）。</p>`;return h;}
+  h+=`<h4>調べた事実</h4><dl class="kv2">${FACTS.filter(k=>k in d).map(k=>`<dt>${LBL[k]}</dt><dd>${fv(k,d[k])}</dd>`).join('')}</dl>`;
+  h+=`<h4>オッズ・リスク・不足</h4><dl class="kv2">${['odds','external_market','risks','missing','data_as_of'].map(k=>`<dt>${LBL[k]}</dt><dd>${fv(k,d[k])}</dd>`).join('')}</dl>`;
+  h+=`<h4>出典</h4>${fv('source_urls',d.source_urls)}`;
+  return h;}
+function openMatch(mid,l){
+  const m=D.matches[mid];if(!m)return;
+  if(!l){l=LG.find(x=>D.ana[x][mid]?.status===FORMAL[x])||LG.find(x=>D.ana[x][mid]?.deep_dive)||'r1';}
+  const t=jst(m.start_jst);const os=(D.oddsAll[mid]||[]).slice().sort((a,b)=>b.taken_at.localeCompare(a.taken_at));
+  const p=document.getElementById('panel');
+  p.innerHTML=`<div class="phead"><div><div class="c">${esc(m.sport)}｜${esc(m.competition)}｜${t.d} ${t.t} JST${m.status!=='scheduled'?'｜'+esc(m.status):''}</div>
+    <h3>${esc(m.left)} vs ${esc(m.right)}</h3>${(m.flags||[]).map(f=>`<span class="flag">${esc(f)}</span>`).join('')}${m.note?`<p class="c">${esc(m.note)}</p>`:''}</div>
+    <button class="x" id="pclose" aria-label="閉じる">×</button></div>
+    <div class="ptabs" role="tablist">${LG.map(x=>{const s=D.ana[x][mid]?.status||'nodata';return `<button role="tab" aria-selected="${x===l}" data-l="${x}"><span>${T[x]}</span><span class="b ${cls(x,s)}">${JA[s]||s}</span></button>`;}).join('')}</div>
+    <div class="pbody">${logicPane(mid,l)}
+    <h4>取得したオッズの履歴</h4>${os.length?'<ul class="src">'+os.map(o=>`<li>${esc(o.taken_at.replace('T',' ').slice(5,16))}　${esc(o.source)}：${Object.entries(o.prices).map(([k,v])=>(k==='L'?m.left:k==='R'?m.right:'引分')+' '+v).map(esc).join(' / ')}${o.exact?'':'（集計値）'}</li>`).join('')+'</ul>':'<p class="na">オッズ未取得</p>'}</div>`;
+  document.getElementById('scrim').hidden=false;p.hidden=false;p.scrollTop=0;
+  p.querySelectorAll('.ptabs button').forEach(b=>b.onclick=()=>openMatch(mid,b.dataset.l));
+  document.getElementById('pclose').onclick=closePanel;document.getElementById('pclose').focus();
+}
+function closePanel(){document.getElementById('panel').hidden=true;document.getElementById('scrim').hidden=true;}
+document.getElementById('scrim').onclick=closePanel;
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
 function renderSports(){
   const now=Date.now();const by={};
   for(const[mid,m]of Object.entries(D.matches)){
@@ -179,25 +263,23 @@ function renderSports(){
     if(st.pick&&!LG.some(l=>{const s=D.ana[l][mid]?.status;return s===FORMAL[l]||s==='watch'||s==='conditional';}))continue;
     (by[m.sport]=by[m.sport]||[]).push([mid,m]);}
   const el=document.getElementById('sports');
+  const openSet=new Set([...el.querySelectorAll('details[open]')].map(d=>d.dataset.sp));
   const keys=Object.keys(by).sort((a,b)=>by[b].length-by[a].length);
   if(!keys.length){el.innerHTML='<div class="empty">条件に当てはまる試合はありません。</div>';return;}
   el.innerHTML=keys.map(sp=>{const list=by[sp].sort((a,b)=>a[1].start_jst.localeCompare(b[1].start_jst));
     const cnt=l=>list.filter(([mid])=>D.ana[l][mid]?.status===FORMAL[l]).length;
     const w=list.filter(([mid])=>LG.some(l=>D.ana[l][mid]?.status==='watch')).length;
-    return `<details class="sport" ${keys.length<=3?'open':''}><summary><span class="name">${esc(sp)}</span><span class="stat">${list.length}試合｜正式 ①${cnt('r1')} ②${cnt('r2')} ③${cnt('r3')} ④${cnt('r4')}｜watchあり ${w}</span></summary>`+
+    const anyFormal=LG.some(l=>cnt(l)>0);
+    return `<details class="sport" data-sp="${esc(sp)}" ${openSet.has(sp)||anyFormal||keys.length<=3?'open':''}><summary><span class="name">${esc(sp)}</span><span class="stat">${list.length}試合｜正式 ①${cnt('r1')} ②${cnt('r2')} ③${cnt('r3')} ④${cnt('r4')}｜watchあり ${w}</span></summary>`+
     list.map(([mid,m])=>{const t=jst(m.start_jst),o=D.odds[mid];const past=new Date(m.start_jst).getTime()<=now;
       const os=o?Object.entries(o.prices).map(([k,v])=>`${k==='L'?m.left.slice(0,10):k==='R'?m.right.slice(0,10):'分'} ${v}`).join(' / '):'オッズなし';
-      const open=st.open&&st.open[0]===mid?st.open[1]:null;
-      const r=open?D.ana[open][mid]:null;
-      return `<div class="mrow ${past?'past':''}"><div class="time"><span class="d">${t.d}</span>${t.t}</div>
-      <div class="mt"><div class="c">${esc(m.competition)}${m.status!=='scheduled'?'｜'+esc(m.status):''}</div><div class="n">${esc(m.left)} vs ${esc(m.right)}</div><div class="o">${esc(os)}</div></div>
-      <div class="badges">${LG.map(l=>{const s=D.ana[l][mid]?.status||'nodata';return `<button class="b ${cls(l,s)}" data-m="${mid}" data-l="${l}" aria-expanded="${open===l}" title="${T[l]}：${s}">${T[l].slice(0,1)} ${JA[s]||s}</button>`;}).join('')}</div>
-      ${r?`<div class="detail"><b>${T[open]}｜${esc(JA[r.status]||r.status)}</b><div>${esc(r.reason)}</div><dl class="kv">${metrics(open,r)}</dl>
-        ${(m.flags||[]).length?`<div>${m.flags.map(f=>`<span class="flag">${esc(f)}</span>`).join('')}</div>`:''}
-        ${o?`<div style="color:var(--muted)">オッズ出典：${esc(o.source)}（${esc(o.taken_at.replace('T',' ').slice(0,16))}取得${o.exact?'':'・集計値'}）</div>`:''}</div>`:''}</div>`;}).join('')+'</details>';}).join('');
-  el.querySelectorAll('.b').forEach(b=>b.onclick=()=>{const k=[b.dataset.m,b.dataset.l];st.open=(st.open&&st.open[0]===k[0]&&st.open[1]===k[1])?null:k;
-    const openSet=[...el.querySelectorAll('details[open]')].map(d=>d.querySelector('.name').textContent);renderSports();
-    el.querySelectorAll('details').forEach(d=>{if(openSet.includes(d.querySelector('.name').textContent))d.open=true;});});
+      const formal=LG.some(l=>D.ana[l][mid]?.status===FORMAL[l]);const deep=LG.some(l=>D.ana[l][mid]?.deep_dive);
+      return `<div class="mrow ${past?'past':''} ${formal?'isformal':''}" data-m="${mid}" tabindex="0" role="button" aria-label="${esc(m.left)} vs ${esc(m.right)} の分析を開く">
+      <div class="time"><span class="d">${t.d}</span>${t.t}</div>
+      <div class="mt"><div class="c">${esc(m.competition)}${deep?'｜<span class="dd">深掘り済み</span>':''}</div><div class="n">${esc(m.left)} vs ${esc(m.right)}</div><div class="o">${esc(os)}</div></div>
+      <div class="badges">${LG.map(l=>{const s=D.ana[l][mid]?.status||'nodata';return `<button class="b ${cls(l,s)}" data-m="${mid}" data-l="${l}" title="${T[l]}：${JA[s]||s}">${T[l].slice(0,1)} ${JA[s]||s}</button>`;}).join('')}</div></div>`;}).join('')+'</details>';}).join('');
+  el.querySelectorAll('.mrow').forEach(r=>{r.onclick=e=>{const b=e.target.closest('.b');openMatch(r.dataset.m,b?b.dataset.l:null);};
+    r.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(r.dataset.m);}};});
 }
 document.getElementById('up').onchange=e=>{st.up=e.target.checked;renderSports();};
 document.getElementById('hasPick').onchange=e=>{st.pick=e.target.checked;renderSports();};
@@ -214,9 +296,10 @@ function renderLedger(){
   tb.innerHTML=`<thead><tr><th>結果</th><th>開始</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th></tr></thead><tbody>`+
    rows.slice().sort((a,b)=>(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
     const mark=!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';
-    return `<tr><td>${mark}</td><td class="mono">${t.d} ${t.t}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
+    return `<tr class="lrow" data-m="${e.match_id}" tabindex="0" title="分析を開く"><td>${mark}</td><td class="mono">${t.d} ${t.t}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
     <td class="mono">${e.odds_taken??esc(e.odds_range||'未確認')}</td><td class="mono">$${e.stake.toFixed(2)}</td><td class="mono">${r?(r.payout==null?'金額未計算':'$'+r.payout.toFixed(2)):'—'}</td>
     <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td></tr>`;}).join('')+'</tbody>';
+  tb.querySelectorAll('.lrow').forEach(r=>{r.onclick=()=>openMatch(r.dataset.m,lt==='experience'?null:lt);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,lt==='experience'?null:lt);};});
 }
 renderLedger();
 })();
