@@ -3,7 +3,7 @@ import glob, json, os, re
 from datetime import date
 from . import core
 
-RECENT_DAYS = 30  # 共通の対戦相手は試合日から30日以内（約1か月）の結果だけで比較する
+RECENT_DAYS = 50  # 共通の対戦相手は試合日から50日以内の結果だけで比較する
 
 
 def _norm(name):
@@ -137,7 +137,7 @@ def _common(left, right, ref=None):
             if not k or k in ("—", "-"):
                 continue
             by.setdefault(k, {"opp": g.get("opp"), "left": [], "right": []})[side].append(
-                {"date": g.get("date"), "score": g.get("score"), "res": g.get("res")})
+                {"date": g.get("date"), "iso": str(gd), "score": g.get("score"), "res": g.get("res")})
     # 相手どうしの直接対戦は共通相手から除く
     ln, rn = _norm(left.get("name")), _norm(right.get("name"))
     rows = []
@@ -146,7 +146,19 @@ def _common(left, right, ref=None):
             lw = sum(1 for x in v["left"] if x["res"] == "W"); rw = sum(1 for x in v["right"] if x["res"] == "W")
             lt = len(v["left"]); rt = len(v["right"])
             edge = "left" if lw / lt > rw / rt else "right" if rw / rt > lw / lt else "even"
-            rows.append(dict(v, edge=edge))
+            basis = "勝率"
+            if edge == "even":  # 勝率が同じなら1試合あたりの得失差で比べる
+                def md(lst):
+                    ps = [_pts(x["score"], x["res"]) for x in lst]
+                    ps = [p for p in ps if p]
+                    return sum(a - b for a, b in ps) / len(ps) if ps else None
+                ml, mr = md(v["left"]), md(v["right"])
+                if ml is not None and mr is not None and ml != mr:
+                    edge = "left" if ml > mr else "right"; basis = "得失差"
+            v["left"].sort(key=lambda x: x["iso"], reverse=True); v["right"].sort(key=lambda x: x["iso"], reverse=True)
+            latest = max([x["iso"] for x in v["left"] + v["right"]])
+            rows.append(dict(v, edge=edge, basis=basis if edge != "even" else None, latest=latest))
+    rows.sort(key=lambda r: r["latest"], reverse=True)  # 直近の対戦ほど上
     return rows
 
 

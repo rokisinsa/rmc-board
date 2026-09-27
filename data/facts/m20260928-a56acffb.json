@@ -316,6 +316,7 @@
     "left": [
      {
       "date": "2026-09-25",
+      "iso": "2026-09-25",
       "score": "1-6",
       "res": "L"
      }
@@ -323,14 +324,17 @@
     "right": [
      {
       "date": "2026-09-15",
+      "iso": "2026-09-15",
       "score": "4-1",
       "res": "W"
      }
     ],
-    "edge": "right"
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-25"
    }
   ],
-  "common_window_days": 30,
+  "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
 }

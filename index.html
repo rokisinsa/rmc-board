@@ -184,6 +184,13 @@ table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:
 
 .gapc{display:inline-block;margin-left:8px;font-family:var(--mono);font-size:11.5px;font-weight:600;border-radius:5px;padding:0 6px;background:var(--ex-bg);color:var(--ex)}
 .gapc.mid{background:var(--warn-bg);color:var(--warn)}.gapc.hi{background:var(--ok-bg);color:var(--ok)}
+
+.cmnsum{font-size:12.5px;margin:0 0 8px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.cmnsum b{font-weight:600}.cmnsum b.up{color:var(--ok)}.cmnsum span{font-size:11px;color:var(--muted)}
+.cres{display:flex;gap:6px;align-items:center;white-space:nowrap}.cres b{font-family:var(--mono);font-weight:600}.cres small{color:var(--muted);font-family:var(--mono);font-size:10.5px}
+.cres+.cres{margin-top:3px}
+td.cedge{font-weight:600;white-space:nowrap}td.cedge small{display:block;font-weight:400;color:var(--muted);font-size:10.5px}td.cedge.left,td.cedge.right{color:var(--ok)}td.cedge.even{color:var(--muted)}
+#cards .kv dd{white-space:nowrap}#cards .kv dt{white-space:nowrap}
 </style>
 </head>
 <body>
@@ -254,14 +261,13 @@ document.getElementById('banner').innerHTML = run.status==='complete'
 
 // 収支カード
 document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const s=D.summary.logics[l];const c=s.compound||{};
-  return `<div class="card"><span class="t">${T[l]}</span>
-  <div class="mode"><span>単利（毎回$100固定）</span><span class="big ${s.net>0?'pos':s.net<0?'neg':''}">${money(s.net)}</span><span class="roi">ROI ${s.roi??'—'}${s.roi!=null?'%':''}</span></div>
-  <dl class="kv"><dt>戦績</dt><dd>${s.settled}戦 ${s.win}勝 ${s.loss}敗${s.void?' / 無効'+s.void:''}</dd><dt>勝率</dt><dd>${s.hit_rate??'—'}${s.hit_rate!=null?'%':''}</dd>
-  <dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd><dt>金額未計算</dt><dd>${s.amount_missing}</dd></dl>
-  <div class="mode"><span>複利（倍額でリセット）</span><span class="big ${c.net>0?'pos':c.net<0?'neg':''}">${money(c.net??0)}</span></div>
-  <dl class="kv"><dt>現在資金</dt><dd>$${(c.bankroll??100).toFixed(2)}</dd><dt>ストック</dt><dd>$${(c.stock??0).toFixed(2)}</dd><dt>確保（倍額到達）</dt><dd>${c.secured??0}回</dd><dt>失敗（資金0）</dt><dd>${c.busted??0}回</dd><dt>投入元金合計</dt><dd>$${(c.principal??100).toFixed(2)}</dd></dl>
-  <dl class="kv sep"><dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}（${s.kelly_quarter.bets}件）</dd></dl></div>`;}).join('')+
-  `<p class="note">複利のルール：元金$100を1件ごとに全額投入し、試合開始順に進めます。$200（倍額）以上になったら利益分をストックに移して$100から再開、負けて0になったら「失敗」として$100から再開します。純損益＝現在資金＋ストック−投入元金合計。</p>`;
+  return `<div class="card"><span class="t">${T[l]}</span><span class="big ${s.net>0?'pos':s.net<0?'neg':''}">${money(s.net)}</span>
+  <dl class="kv"><dt>戦績</dt><dd>${s.win}勝${s.loss}敗${s.void?s.void+'無効':''}</dd><dt>勝率</dt><dd>${s.hit_rate??'—'}${s.hit_rate!=null?'%':''}</dd>
+  <dt>単利</dt><dd>${money(s.net)}（ROI ${s.roi??'—'}${s.roi!=null?'%':''}）</dd>
+  <dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd><dt>金額未計算</dt><dd>${s.amount_missing}</dd>
+  <dt>複利</dt><dd>${money(c.net??0)}</dd><dt>　資金/ストック</dt><dd>$${(c.bankroll??100).toFixed(0)}/$${(c.stock??0).toFixed(0)}</dd><dt>　確保/失敗</dt><dd>${c.secured??0}/${c.busted??0}回</dd>
+  <dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}</dd></dl></div>`;}).join('')+
+  `<p class="note">大きい数字と「単利」は毎回$100固定の純損益。複利は元金$100を全額投入し、$200（倍額）到達で利益をストックして$100から再開、0になったら$100から再開（純損益＝資金＋ストック−投入元金）。</p>`;
 
 // カバレッジ
 const cov=run.coverage||{};
@@ -341,11 +347,16 @@ function factsHtml(fx,m){
       return `<li><span class="chip ${cc}">${esc(w)}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.event||'')}${x.detail?`<small>${esc(x.detail)}</small>`:''}</span><span class="sc">${esc(x.score||'—')}${x.units_left!=null?`<small>${unit} ${x.units_left}-${x.units_right}</small>`:''}</span></li>`;}).join('')}</ol>`;
   }else h+=`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`;
   h+=`</section>`;
-  const cm=c.common||[];
-  h+=`<section class="blk"><h4>共通の対戦相手<span class="hs">試合日から${c.common_window_days||30}日以内の結果のみ</span></h4>`+(cm.length?`<div class="tblw"><table class="cmn"><thead><tr><th>相手</th><th>${esc(L)}</th><th>${esc(R)}</th><th>優勢</th></tr></thead><tbody>${cm.map(r=>{
-      const cell=a=>a.map(x=>{const q=RES[x.res]||['—','n'];return `<span class="chip ${q[1]}">${q[0]}</span> ${esc(x.score||'')}`;}).join('<br>');
-      return `<tr><td>${esc(r.opp)}</td><td>${cell(r.left)}</td><td>${cell(r.right)}</td><td>${r.edge==='left'?esc(L):r.edge==='right'?esc(R):'互角'}</td></tr>`;}).join('')}</tbody></table></div>`
-      :`<p class="na">直近${c.common_window_days||30}日以内に共通の対戦相手はいません。</p>`)+`</section>`;
+  const cm=c.common||[];const W=c.common_window_days||50;
+  const res1=x=>{const q=RES[x.res]||['—','n'];return `<div class="cres"><span class="chip ${q[1]}">${q[0]}</span><b>${esc(x.score||'—')}</b><small>${esc((x.iso||x.date||'').slice(5).replace('-','/'))}</small></div>`;};
+  h+=`<section class="blk"><h4>共通の対戦相手<span class="hs">試合日から${W}日以内・新しい対戦ほど上</span></h4>`;
+  if(cm.length){
+    const nl=cm.filter(r=>r.edge==='left').length,nr=cm.filter(r=>r.edge==='right').length,ne=cm.length-nl-nr;
+    h+=`<p class="cmnsum">同じ相手に対して、<b class="${nl>nr?'up':''}">${esc(L)}が上 ${nl}</b>／<b class="${nr>nl?'up':''}">${esc(R)}が上 ${nr}</b>／互角 ${ne}<span>スコアは各チーム自身の得点−失点。勝率が同じときは1試合あたりの得失差で比較</span></p>`;
+    h+=`<div class="tblw"><table class="cmn"><thead><tr><th>共通の相手</th><th>${esc(L)} の結果</th><th>${esc(R)} の結果</th><th>比較</th></tr></thead><tbody>${cm.map(r=>
+      `<tr><td>${esc(r.opp)}</td><td>${r.left.map(res1).join('')}</td><td>${r.right.map(res1).join('')}</td><td class="cedge ${r.edge}">${r.edge==='left'?esc(L)+'が上':r.edge==='right'?esc(R)+'が上':'互角'}${r.basis?`<small>（${esc(r.basis)}）</small>`:''}</td></tr>`).join('')}</tbody></table></div>`;
+  }else h+=`<p class="na">直近${W}日以内に共通の対戦相手はいません。</p>`;
+  h+=`</section>`;
   if(fx.venue)h+=`<section class="blk"><h4>会場</h4><p>${esc(fx.venue)}</p></section>`;
   if(fx.esports){const E={format:'形式',lan_online:'LAN/オンライン',map_pool:'マッププール',veto:'ピック/バン',patch:'パッチ',map_h2h:'マップ別H2H'};
     h+=`<section class="blk"><h4>eスポーツ情報</h4><dl class="kv2">${Object.entries(fx.esports).map(([k,v])=>`<dt>${E[k]||esc(k)}</dt><dd>${esc(typeof v==='object'?JSON.stringify(v):v)}</dd>`).join('')}</dl></section>`;}

@@ -302,6 +302,7 @@
     "left": [
      {
       "date": "2026-09-13",
+      "iso": "2026-09-13",
       "score": "27-28",
       "res": "L"
      }
@@ -309,17 +310,21 @@
     "right": [
      {
       "date": "2026-09-06",
+      "iso": "2026-09-06",
       "score": "33-29",
       "res": "W"
      }
     ],
-    "edge": "right"
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-13"
    },
    {
     "opp": "フィエルハンマー",
     "left": [
      {
       "date": "2026-09-06",
+      "iso": "2026-09-06",
       "score": "29-26",
       "res": "W"
      }
@@ -327,14 +332,17 @@
     "right": [
      {
       "date": "2026-08-30",
+      "iso": "2026-08-30",
       "score": "22-23",
       "res": "L"
      }
     ],
-    "edge": "left"
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-06"
    }
   ],
-  "common_window_days": 30,
+  "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
 }

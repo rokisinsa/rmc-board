@@ -356,16 +356,19 @@
     "left": [
      {
       "date": "2026-09-26",
+      "iso": "2026-09-26",
       "score": "2-0",
       "res": "W"
      },
      {
       "date": "2026-09-17",
+      "iso": "2026-09-17",
       "score": "2-1",
       "res": "W"
      },
      {
       "date": "2026-09-06",
+      "iso": "2026-09-06",
       "score": "1-2",
       "res": "L"
      }
@@ -373,22 +376,27 @@
     "right": [
      {
       "date": "2026-09-24",
+      "iso": "2026-09-24",
       "score": "2-0",
       "res": "W"
      }
     ],
-    "edge": "right"
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-26"
    },
    {
     "opp": "Galorys",
     "left": [
      {
       "date": "2026-09-24",
+      "iso": "2026-09-24",
       "score": "2-0",
       "res": "W"
      },
      {
       "date": "2026-09-10",
+      "iso": "2026-09-10",
       "score": "2-0",
       "res": "W"
      }
@@ -396,17 +404,21 @@
     "right": [
      {
       "date": "2026-09-26",
+      "iso": "2026-09-26",
       "score": "2-0",
       "res": "W"
      }
     ],
-    "edge": "even"
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26"
    },
    {
     "opp": "Fluxo",
     "left": [
      {
       "date": "2026-09-12",
+      "iso": "2026-09-12",
       "score": "0-2",
       "res": "L"
      }
@@ -414,14 +426,17 @@
     "right": [
      {
       "date": "2026-09-18",
+      "iso": "2026-09-18",
       "score": "1-2",
       "res": "L"
      }
     ],
-    "edge": "even"
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-18"
    }
   ],
-  "common_window_days": 30,
+  "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
 }

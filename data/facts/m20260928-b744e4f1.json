@@ -341,6 +341,7 @@
     "left": [
      {
       "date": "2026-09-26",
+      "iso": "2026-09-26",
       "score": "2-0",
       "res": "W"
      }
@@ -348,14 +349,17 @@
     "right": [
      {
       "date": "2026-09-25",
+      "iso": "2026-09-25",
       "score": "2-0",
       "res": "W"
      }
     ],
-    "edge": "even"
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26"
    }
   ],
-  "common_window_days": 30,
+  "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
 }

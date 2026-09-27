@@ -145,7 +145,7 @@ class TestFacts(unittest.TestCase):
         self.assertEqual((c["h2h"]["points_left"], c["h2h"]["points_right"]), (52, 38))
         self.assertEqual((c["h2h"]["units_left"], c["h2h"]["units_right"]), (2, 1))
         self.assertEqual((c["h2h"]["inner_left"], c["h2h"]["inner_right"]), (16, 16))
-        self.assertEqual([r["opp"] for r in c["common"]], ["C"])  # D は180日より前、E は日付なしで除外
+        self.assertEqual([r["opp"] for r in c["common"]], ["C"])  # D は50日より前、E は日付なしで除外
         self.assertEqual(c["common"][0]["edge"], "left")
 
 

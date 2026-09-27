@@ -300,6 +300,7 @@
     "left": [
      {
       "date": "2026-09-19",
+      "iso": "2026-09-19",
       "score": "29-23",
       "res": "W"
      }
@@ -307,14 +308,17 @@
     "right": [
      {
       "date": "2026-09-12",
+      "iso": "2026-09-12",
       "score": "26-12",
       "res": "W"
      }
     ],
-    "edge": "even"
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-19"
    }
   ],
-  "common_window_days": 30,
+  "common_window_days": 50,
   "common_ref_date": "2026-09-28"
  }
 }
