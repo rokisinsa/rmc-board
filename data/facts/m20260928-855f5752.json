@@ -462,32 +462,6 @@
   },
   "common": [
    {
-    "opp": "M80",
-    "left": [
-     {
-      "date": "2026-09-27",
-      "iso": "2026-09-27",
-      "score": "2-0",
-      "res": "W",
-      "comp": "iBUYPOWER Masters FML 2026 プレーオフ準決勝"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-05-04",
-      "iso": "2026-05-04",
-      "score": "0-2",
-      "res": "L",
-      "comp": "Thunderpick World Championship 2026 North America"
-     }
-    ],
-    "edge": "left",
-    "basis": "勝率",
-    "latest": "2026-09-27",
-    "left_rec": "1勝0敗",
-    "right_rec": "0勝1敗"
-   },
-   {
     "opp": "NRG",
     "left": [
      {
@@ -552,122 +526,16 @@
       "score": "2-0",
       "res": "W",
       "comp": "iBUYPOWER Masters FML 2026 グループ（GSL）"
-     },
-     {
-      "date": "2026-04-26",
-      "iso": "2026-04-26",
-      "score": "2-0",
-      "res": "W",
-      "comp": "FRAG 20"
      }
     ],
     "edge": "even",
     "basis": null,
     "latest": "2026-09-26",
     "left_rec": "1勝0敗",
-    "right_rec": "2勝0敗"
-   },
-   {
-    "opp": "Voca",
-    "left": [
-     {
-      "date": "2026-09-12",
-      "iso": "2026-09-12",
-      "score": "2-1",
-      "res": "W",
-      "comp": "PGL Masters Bucharest 2026 北米クローズド予選"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-05-04",
-      "iso": "2026-05-04",
-      "score": "0-2",
-      "res": "L",
-      "comp": "ESL Challenger League S51 NA Cup #4"
-     },
-     {
-      "date": "2026-05-02",
-      "iso": "2026-05-02",
-      "score": "2-0",
-      "res": "W",
-      "comp": "ESL Challenger League S51 NA Cup #4"
-     },
-     {
-      "date": "2026-04-26",
-      "iso": "2026-04-26",
-      "score": "2-0",
-      "res": "W",
-      "comp": "FRAG 20"
-     }
-    ],
-    "edge": "left",
-    "basis": "勝率",
-    "latest": "2026-09-12",
-    "left_rec": "1勝0敗",
-    "right_rec": "2勝1敗"
-   },
-   {
-    "opp": "The MongolZ",
-    "left": [
-     {
-      "date": "2026-05-21",
-      "iso": "2026-05-21",
-      "score": "1-2",
-      "res": "L",
-      "comp": "CS Asia Championships 2026"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-07-26",
-      "iso": "2026-07-26",
-      "score": "0-2",
-      "res": "L",
-      "comp": "BLAST Bounty 2026 Season 2"
-     },
-     {
-      "date": "2026-04-07",
-      "iso": "2026-04-07",
-      "score": "0-2",
-      "res": "L",
-      "comp": "PGL Bucharest 2026"
-     }
-    ],
-    "edge": "left",
-    "basis": "得失差",
-    "latest": "2026-07-26",
-    "left_rec": "0勝1敗",
-    "right_rec": "0勝2敗"
-   },
-   {
-    "opp": "PARIVISION",
-    "left": [
-     {
-      "date": "2026-05-20",
-      "iso": "2026-05-20",
-      "score": "9-13",
-      "res": "L",
-      "comp": "CS Asia Championships 2026（BO1）"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-04-08",
-      "iso": "2026-04-08",
-      "score": "0-2",
-      "res": "L",
-      "comp": "PGL Bucharest 2026"
-     }
-    ],
-    "edge": "right",
-    "basis": "得失差",
-    "latest": "2026-05-20",
-    "left_rec": "0勝1敗",
-    "right_rec": "0勝1敗"
+    "right_rec": "1勝0敗"
    }
   ],
-  "common_window_days": 180,
+  "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  },
  "common_window": {

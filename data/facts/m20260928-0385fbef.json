@@ -295,39 +295,6 @@
   },
   "common": [
    {
-    "opp": "avice Team",
-    "left": [
-     {
-      "date": "2026-07-28",
-      "iso": "2026-07-28",
-      "score": "0-2",
-      "res": "L",
-      "comp": "BetBoom Streamers Battle 14 グループ"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-27",
-      "iso": "2026-09-27",
-      "score": "2-0",
-      "res": "W",
-      "comp": "BBSB15 プレーオフ LB1回戦"
-     },
-     {
-      "date": "2026-09-21",
-      "iso": "2026-09-21",
-      "score": "1-2",
-      "res": "L",
-      "comp": "BetBoom Streamers Battle 15 グループ"
-     }
-    ],
-    "edge": "right",
-    "basis": "勝率",
-    "latest": "2026-09-27",
-    "left_rec": "0勝1敗",
-    "right_rec": "1勝1敗"
-   },
-   {
     "opp": "Daxak Team",
     "left": [
      {
@@ -336,13 +303,6 @@
       "score": "0-2",
       "res": "L",
       "comp": "BBSB15 プレーオフ UB準決勝"
-     },
-     {
-      "date": "2026-07-27",
-      "iso": "2026-07-27",
-      "score": "0-2",
-      "res": "L",
-      "comp": "BetBoom Streamers Battle 14 グループ"
      }
     ],
     "right": [
@@ -357,11 +317,11 @@
     "edge": "right",
     "basis": "得失差",
     "latest": "2026-09-26",
-    "left_rec": "0勝2敗",
+    "left_rec": "0勝1敗",
     "right_rec": "0勝1敗"
    }
   ],
-  "common_window_days": 180,
+  "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  },
  "common_window": {

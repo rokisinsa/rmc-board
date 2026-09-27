@@ -3,7 +3,7 @@ import glob, json, os, re
 from datetime import date
 from . import core
 
-RECENT_DAYS = 180  # 共通の対戦相手は試合日から180日以内の全試合（form＋history）で比較する
+RECENT_DAYS = 60  # 共通の対戦相手は試合日から60日以内の全試合（form＋history）で比較する
 
 
 def _norm(name):

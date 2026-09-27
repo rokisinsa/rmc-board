@@ -360,7 +360,7 @@ function factsHtml(fx,m){
       return `<li><span class="chip ${cc}">${esc(w)}</span><span class="dt">${esc(x.date||'—')}</span><span class="op">${esc(x.event||'')}${x.detail?`<small>${esc(x.detail)}</small>`:''}</span><span class="sc">${esc(x.score||'—')}${x.units_left!=null?`<small>${unit} ${x.units_left}-${x.units_right}</small>`:''}</span></li>`;}).join('')}</ol>`;
   }else h+=`<p class="na">${esc(un.h2h||'対戦記録は取得できませんでした')}</p>`;
   h+=`</section>`;
-  const cm=c.common||[];const W=c.common_window_days||180;
+  const cm=c.common||[];const W=c.common_window_days||60;
   const res1=x=>{const q=RES[x.res]||['—','n'];return `<div class="cres"><span class="chip ${q[1]}">${q[0]}</span><b>${esc(x.score||'—')}</b><small>${esc((x.iso||x.date||'').replace(/-/g,'/'))}${x.comp?' '+esc(String(x.comp).slice(0,18)):''}</small></div>`;};
   const rec=s=>s?`<div class="crec">${esc(s)}</div>`:'';
   h+=`<section class="blk"><h4>共通の対戦相手<span class="hs">試合日から${W}日以内の全試合・新しい対戦ほど上</span></h4>`;

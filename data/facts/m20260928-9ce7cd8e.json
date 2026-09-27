@@ -167,61 +167,8 @@
    "right": 0,
    "draw": 0
   },
-  "common": [
-   {
-    "opp": "HELLHEIM",
-    "left": [
-     {
-      "date": "2026-07-27",
-      "iso": "2026-07-27",
-      "score": "4-3",
-      "res": "W",
-      "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-04-23",
-      "iso": "2026-04-23",
-      "score": "4-2",
-      "res": "W",
-      "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ"
-     }
-    ],
-    "edge": "right",
-    "basis": "得失差",
-    "latest": "2026-07-27",
-    "left_rec": "1勝0敗",
-    "right_rec": "1勝0敗"
-   },
-   {
-    "opp": "QW0TROBERY",
-    "left": [
-     {
-      "date": "2026-06-27",
-      "iso": "2026-06-27",
-      "score": "1-4",
-      "res": "L",
-      "comp": "BetBoom Battle of Champions スプリット4 第3ディビジョン グループ"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-05-02",
-      "iso": "2026-05-02",
-      "score": "4-0",
-      "res": "W",
-      "comp": "BetBoom Battle of Champions スプリット3 第2ディビジョン グループ"
-     }
-    ],
-    "edge": "right",
-    "basis": "勝率",
-    "latest": "2026-06-27",
-    "left_rec": "0勝1敗",
-    "right_rec": "1勝0敗"
-   }
-  ],
-  "common_window_days": 180,
+  "common": [],
+  "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  },
  "common_window": {

@@ -441,32 +441,6 @@
   },
   "common": [
    {
-    "opp": "Wildcard",
-    "left": [
-     {
-      "date": "2026-05-04",
-      "iso": "2026-05-04",
-      "score": "2-0",
-      "res": "W",
-      "comp": "Thunderpick World Championship 2026 North America"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-09-27",
-      "iso": "2026-09-27",
-      "score": "1-2",
-      "res": "L",
-      "comp": "iBUYPOWER Masters FML 2026 準決勝"
-     }
-    ],
-    "edge": "left",
-    "basis": "勝率",
-    "latest": "2026-09-27",
-    "left_rec": "1勝0敗",
-    "right_rec": "0勝1敗"
-   },
-   {
     "opp": "Voca",
     "left": [
      {
@@ -475,20 +449,6 @@
       "score": "2-0",
       "res": "W",
       "comp": "iBUYPOWER Masters FML 2026 グループB"
-     },
-     {
-      "date": "2026-07-12",
-      "iso": "2026-07-12",
-      "score": "2-0",
-      "res": "W",
-      "comp": "Circuit X BLAST Open Porto 2026 North America Rising Event"
-     },
-     {
-      "date": "2026-05-29",
-      "iso": "2026-05-29",
-      "score": "3-1",
-      "res": "W",
-      "comp": "ESL Challenger League Season 51 North America Finals (Bo5)"
      }
     ],
     "right": [
@@ -503,7 +463,7 @@
     "edge": "even",
     "basis": null,
     "latest": "2026-09-26",
-    "left_rec": "3勝0敗",
+    "left_rec": "1勝0敗",
     "right_rec": "1勝0敗"
    },
    {
@@ -538,35 +498,9 @@
     "latest": "2026-08-30",
     "left_rec": "0勝2敗",
     "right_rec": "0勝1敗"
-   },
-   {
-    "opp": "FURIA",
-    "left": [
-     {
-      "date": "2026-08-28",
-      "iso": "2026-08-28",
-      "score": "0-2",
-      "res": "L",
-      "comp": "BLAST Open Porto 2026"
-     }
-    ],
-    "right": [
-     {
-      "date": "2026-07-24",
-      "iso": "2026-07-24",
-      "score": "2-1",
-      "res": "W",
-      "comp": "BLAST Bounty 2026 Season 2"
-     }
-    ],
-    "edge": "right",
-    "basis": "勝率",
-    "latest": "2026-08-28",
-    "left_rec": "0勝1敗",
-    "right_rec": "1勝0敗"
    }
   ],
-  "common_window_days": 180,
+  "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  },
  "common_window": {
