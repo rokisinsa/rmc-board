@@ -1,0 +1,123 @@
+{
+ "match_id": "m20260929-3e7cc8a2",
+ "data_as_of": "2026-09-28T13:14:00+09:00",
+ "unit": "マップ",
+ "left": {
+  "name": "Geekay Esports",
+  "ranking": "EWC 2026 4位",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "Fnatic",
+    "comp": "EU MENA League 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "4-7（ラウンド）",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
+  ],
+  "lineup": [
+   "ASK, SARKS, EUPOR, GRUBY, YOGGAH"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "Twisted Minds",
+  "ranking": "BLAST Major Salt Lake City 2026 3位、EU MENA Kickoff 3位",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "Team Secret",
+    "comp": "EU MENA League 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "3-7（ラウンド）",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
+  ],
+  "lineup": [
+   "JLADD, HASHOM, P9, TR1IXD, BLAZ, MOWWWGLI"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "オンライン、EU MENA League 2026 Stage 2（リーグ戦）",
+ "risks": [
+  "BO1",
+  "過去対戦（2026-03-31 Kickoff, 2026-06-29 Stage 1）はあるがスコア未取得"
+ ],
+ "missing": [
+  "両チーム直近10試合（siege.ggの試合一覧取得できず）",
+  "H2Hスコア"
+ ],
+ "unavailable": {
+  "h2h": "試合頁は存在（siege.gg 3352, 3848）が時間内にスコア取得不可",
+  "form": "1件のみ確認"
+ },
+ "source_urls": [
+  "https://siege.gg/competitions/185-europe-mena-league-2026-stage-2",
+  "https://siege.gg/teams/886-geekay-esports",
+  "https://siege.gg/teams/641-twisted-minds",
+  "https://siege.gg/matches/3352-eul-eu-geekay-esports-vs-twisted-minds",
+  "https://siege.gg/matches/3848-eul-eu-twisted-minds-vs-geekay-esports"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 1,
+   "points_for": 4,
+   "points_against": 7,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 1,
+   "points_for": 3,
+   "points_against": 7,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

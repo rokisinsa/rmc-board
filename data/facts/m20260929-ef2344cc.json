@@ -1,0 +1,120 @@
+{
+ "match_id": "m20260929-ef2344cc",
+ "data_as_of": "2026-09-28T12:48:00+09:00",
+ "unit": "フレーム",
+ "left": {
+  "name": "バリー・ホーキンス",
+  "ranking": "世界ランク10位（snooker.orgのシード表記[10]）",
+  "form": [
+   {
+    "date": "2026-09-09",
+    "opp": "マーク・ウィリアムズ",
+    "comp": "イングリッシュ・オープン2026（ラウンドはソース間で不一致、準決勝/3回戦）",
+    "ha": "N",
+    "score": "1-4",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "リュー・ハオティエン",
+    "comp": "イングリッシュ・オープン2026",
+    "ha": "N",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2,
+    "detail": "日付・ラウンドはTNT表記、Wikipediaはラスト16"
+   }
+  ],
+  "lineup": [
+   "出場確定（予選持ち越し）",
+   "イングリッシュ・オープン2026でダニエル・ウェルズにも4-1で勝利（日付不確定のためform未記載）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "リアム・ハイフィールド",
+  "ranking": "世界ランク68位（snooker.org表記[68]）",
+  "form": [],
+  "lineup": [
+   "出場確定"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "宝安体育中心（中国・深セン）、深センオープン ラスト64 ベスト・オブ9フレーム（シード選手の予選持ち越し試合）",
+ "risks": [
+  "ベスト・オブ9で番狂わせ余地",
+  "ホーキンスの長距離移動直後の初戦"
+ ],
+ "missing": [
+  "通算H2H",
+  "ハイフィールドの直近成績",
+  "ホーキンスの直近10試合の残り"
+ ],
+ "unavailable": {
+  "h2h": "CueTracker取得不可・snooker.orgのH2Hページが結果を返さず",
+  "form": "2026-27シーズンの試合一覧を時間内に取得できず（CueTrackerが旧シーズンのみ表示）",
+  "history": "共通対戦相手の突き合わせ未実施"
+ },
+ "source_urls": [
+  "https://www.snooker.org/res/index.asp?event=2768",
+  "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
+  "https://www.tntsports.co.uk/snooker/betvictor-english-open/2026/schedule-results-scores-prize-money-judd-trump-mark-selby-wu-yize_sto23334170/story.shtml",
+  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 5,
+   "units_lost": 6,
+   "points_for": 5,
+   "points_against": 6,
+   "points_games": 2
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

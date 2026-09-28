@@ -1,30 +1,30 @@
 {
- "match_id": "m20260928-01463b2f",
+ "match_id": "m20260928-2070329b",
  "data_as_of": "2026-09-28T13:00:00+09:00",
  "unit": "セット",
  "left": {
-  "name": "ルブレフ",
-  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1879.7・ハード1825.1。ATPランキングは取得できず",
+  "name": "ディミトロフ",
+  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1743.4・ハード1722.6。ATPランキングは取得できず",
   "form": [],
   "lineup": [
-   "出場予定（配信・ドローによる）"
+   "WC出場。プリズミッチの欠場で第9シードに繰り上がり、プリズミッチの枠へ移動（raquetc 2026-09-27）"
   ],
   "history": []
  },
  "right": {
-  "name": "ジャケ",
-  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1663.6・ハード1625.0。ATPランキングは取得できず",
+  "name": "リンコン",
+  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1565.5・ハード1536.0。ATPランキングは取得できず",
   "form": [],
   "lineup": [
-   "出場予定（配信・ドローによる）"
+   "ATP260位（raquetc）。当初の相手はプリズミッチだったが、欠場によりディミトロフに変わった"
   ],
   "history": []
  },
  "h2h": [],
- "venue": "ATP杭州オープン SF（ATP記事：ジャケはQFでマロジャンに7-6(12) 6-4で勝ってSFへ。相手はルブレフ（第2シード）かガストンの勝者）、中国・杭州、屋外ハード",
+ "venue": "ATPチャレンジャー125 ポルト（Eupago Porto Open）R1、ポルトガル・ポルト（モンテ・アヴェンティーノ）、屋外ハード。センターコート第3試合、現地14:30以降",
  "risks": [
   "直近の試合結果（form）とH2Hが取れていない",
-  "開始時刻はコート順により後ろにずれる。公式オーダーでは未確認"
+  "組み合わせが変わった直後の試合（当初の相手はグルニエ）。ディミトロフは元世界3位だが現在ATP127位（raquetc）"
  ],
  "missing": [
   "両者の直近10試合（ATP・ESPNの選手ページがJSで描画され取れず、tennisexplorer・tennisabstractの選手ページは取得がブロックされた）",
@@ -38,7 +38,8 @@
  },
  "source_urls": [
   "https://tennisabstract.com/reports/atp_elo_ratings.html",
-  "https://www.atptour.com/en/news/hangzhou-2026-sunday-report"
+  "https://www.raquetc.com/2026/09/27/grigor-dimitrov-tem-novo-adversario-e-estreia-se-esta-segunda-feira-no-eupago-porto-open",
+  "https://www.atptour.com/en/scores/current-challenger/porto/9526/draws"
  ],
  "calc": {
   "left": {

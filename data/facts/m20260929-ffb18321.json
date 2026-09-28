@@ -1,0 +1,153 @@
+{
+ "match_id": "m20260929-ffb18321",
+ "data_as_of": "2026-09-28T13:02:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "デンマークU21",
+  "ranking": "U21欧州選手権予選I組 3位 10pt（3勝1分1敗）",
+  "form": [
+   {
+    "date": "2026-03-31",
+    "opp": "ウェールズU21",
+    "comp": "U21欧州選手権予選",
+    "ha": "H",
+    "score": "6-2",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ベラルーシU21",
+    "comp": "U21欧州選手権予選",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L",
+    "detail": "BelTA見出しは「ベラルーシがデンマークに敗れる」で資料不一致"
+   }
+  ],
+  "lineup": [
+   "欠場情報未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ベラルーシU21",
+  "ranking": "U21欧州選手権予選I組 5位 4pt",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "ベルギーU21",
+    "comp": "U21欧州選手権予選",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-08",
+    "opp": "カザフスタンU21",
+    "comp": "U21欧州選手権予選",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "デンマークU21",
+    "comp": "U21欧州選手権予選",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W",
+    "detail": "BelTA見出しと不一致"
+   }
+  ],
+  "lineup": [
+   "欠場情報未取得",
+   "予選アウェー6連敗中（scores24）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025-11-18",
+   "event": "U21欧州選手権予選（ベラルーシ主催）",
+   "score": "0-1",
+   "winner": "right"
+  }
+ ],
+ "venue": "デンマークのホーム（会場名未確認）",
+ "risks": [
+  "H2H結果が資料間で矛盾（scores24: ベラルーシ1-0勝／BelTA: ベラルーシ敗戦）",
+  "scores24記載の開始16:30が配信（01:30 JST=16:30 UTC）と一致するかタイムゾーン不明",
+  "U21は招集構成で戦力変動大"
+ ],
+ "missing": [
+  "直近10試合の完全な日付付き一覧",
+  "欠場・招集情報"
+ ],
+ "unavailable": {
+  "form": "日付付きで確認できたのは数試合のみ",
+  "history": "共通相手データ不足"
+ },
+ "source_urls": [
+  "https://scores24.live/en/soccer/m-27-09-2026-denmark-u21-belarus-u21-prediction",
+  "https://eng.belta.by/sport/view/belarus-u21-fall-to-denmark-in-2027-euro-qualifier-173741-2025/",
+  "https://www.espn.com/soccer/match/_/gameId/732423/belarus-u21-denmark-u21"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 3,
+   "points_games": 2
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 2,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "points_left": 0,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 0.0,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

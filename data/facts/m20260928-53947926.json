@@ -1,0 +1,87 @@
+{
+ "match_id": "m20260928-53947926",
+ "data_as_of": "2026-09-28T12:48:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Tomas Nohejl",
+  "ranking": "リーガ・プロ（チェコ）登録選手、公式ランキング未確認",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Martin Stefek",
+  "ranking": "リーガ・プロ（チェコ）登録選手、公式ランキング未確認",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "チェコ・リーガ・プロ（会場詳細未確認）",
+ "risks": [
+  "下位の配信向けリーグで整合性リスク",
+  "同日連戦による疲労・棄権"
+ ],
+ "missing": [
+  "H2H",
+  "直近成績",
+  "開始時刻の公式確認"
+ ],
+ "unavailable": {
+  "h2h": "一次ソースなし（BetsAPI/AiScore/scores24等の賭け向け集計のみで検証不可）",
+  "form": "同上",
+  "ranking": "公式ランキングなし",
+  "start": "公式スケジュール未確認"
+ },
+ "source_urls": [
+  "https://betsapi.com/table-tennis/t/699464/martin-stefek",
+  "https://scores24.live/en/table-tennis/t-tomas-nohejl-2"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

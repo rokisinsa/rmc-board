@@ -1,0 +1,129 @@
+{
+ "match_id": "m20260929-c5daef13",
+ "data_as_of": "2026-09-28T12:48:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ルーク・リトラー",
+  "ranking": "第1シード、ワールドグランプリ前回王者（連覇狙い）",
+  "form": [
+   {
+    "date": "2025-10-07",
+    "opp": "ジャン・ファン・フェーン",
+    "comp": "ワールドグランプリ2025 1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "平均105.58"
+   }
+  ],
+  "lineup": [
+   "出場確定（第1シード）",
+   "直前のオランダでのメジャー連勝が途切れた（Yahoo記事）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ルーク・ウッドハウス",
+  "ranking": "ノーシード。2026年6月時点PDC世界ランク17位（Wikipedia）",
+  "form": [
+   {
+    "date": "2025-10-07",
+    "opp": "デイモン・ヘタ",
+    "comp": "ワールドグランプリ2025 1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "平均84.86"
+   }
+  ],
+  "lineup": [
+   "2026年にプレーヤーズ選手権18とバルティック・シー・ダーツ・オープン（欧州ツアー）で優勝"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "マッティオーリ・アリーナ（英国レスター）、ワールドグランプリ1回戦 ベスト・オブ3セット、ダブルイン・ダブルアウト",
+ "risks": [
+  "ベスト・オブ3セットのダブルイン形式でばらつきが大きい",
+  "個別開始時刻はセッション進行次第"
+ ],
+ "missing": [
+  "通算H2H",
+  "直近10試合",
+  "3ダーツ平均の最新値"
+ ],
+ "unavailable": {
+  "h2h": "通算対戦成績の信頼できる一次ソースを時間内に取得できず",
+  "form": "直近10試合の個別結果を時間内に取得できず",
+  "start": "1回戦は9/28 19:00英国時間開始のセッション内（8試合目）で個別開始時刻は未確認",
+  "history": "共通対戦相手の突き合わせ未実施"
+ },
+ "source_urls": [
+  "https://dartsnews.com/pdc/world-grand-prix-2026-draw-schedule-preview-format-history-and-predictions",
+  "https://sports.yahoo.com/articles/2026-world-darts-grand-prix-170837628.html",
+  "https://dartsnews.com/pdc/world-grand-prix-2025-field-schedule-draw-results-predictions-and-format",
+  "https://en.wikipedia.org/wiki/Luke_Woodhouse",
+  "https://dartsworld.com/2026/09/littler-opens-world-grand-prix-defence-against-woodhouse/"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

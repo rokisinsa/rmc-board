@@ -1,0 +1,104 @@
+{
+ "match_id": "m20260929-57da7ce7",
+ "data_as_of": "2026-09-28T13:02:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "チュニジア",
+  "ranking": "AFCON2027予選 第1節ウガンダと1-1",
+  "form": [
+   {
+    "date": "2026-06-15",
+    "opp": "スウェーデン",
+    "comp": "FIFAワールドカップ",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "詳細な欠場情報は未取得（ウガンダ・ボツワナ・リビア戦の招集メンバー発表あり）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ボツワナ",
+  "ranking": "AFCON2027予選 第1節リビアと2-2",
+  "form": [],
+  "lineup": [
+   "欠場情報未取得"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "チュニジアのホーム（Dailysports）。一部資料は「Botswana vs Tunisia」表記でボツワナ主催の可能性あり",
+ "risks": [
+  "チュニジアは7戦未勝利・11試合1勝と不振で、1.20の本命価格と直近成績の乖離",
+  "ホーム/アウェイ表記が資料間で不一致",
+  "Dailysports記載のキックオフ15:00が配信（04:00 JST）と整合しない"
+ ],
+ "missing": [
+  "両チームの直近10試合の日付付き結果（第1節の日付含む）",
+  "H2Hの日付付き一覧",
+  "欠場情報"
+ ],
+ "unavailable": {
+  "form": "日付付きの試合結果が取得できず（第1節は日付不明のため未記載）",
+  "h2h": "通算成績の集計のみで個別試合の日付・スコア未取得",
+  "history": "日付付きデータ不足"
+ },
+ "source_urls": [
+  "https://dailysports.net/predictions/can-tunisia-end-their-winless-run-tunisia-vs-botswana-prediction-september-28-2026/",
+  "https://africasoccer.com/botswana-vs-tunisia-orebonye-threat-gives-hosts-hope-in-september-28-clash/",
+  "https://tips.gg/article/sweden-vs-poland-head-to-head-28-09-2026/"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 5,
+   "points_games": 1
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}
