@@ -1,15 +1,15 @@
 {
- "run_id": "run-20260928-1200",
+ "run_id": "run-20260928-1720",
  "run_status": "partial",
- "built_at": "2026-09-28T16:29:42+09:00",
+ "built_at": "2026-09-28T17:22:44+09:00",
  "logics": {
   "r1": {
-   "formal": 39,
+   "formal": 53,
    "settled": 22,
    "win": 14,
    "loss": 6,
    "void": 2,
-   "pending": 17,
+   "pending": 31,
    "staked": 2000.0,
    "returned": 1680.8,
    "net": -319.2,
@@ -76,12 +76,12 @@
    }
   },
   "r3": {
-   "formal": 1,
+   "formal": 2,
    "settled": 1,
    "win": 1,
    "loss": 0,
    "void": 0,
-   "pending": 0,
+   "pending": 1,
    "staked": 100.0,
    "returned": 205.0,
    "net": 105.0,
@@ -112,12 +112,12 @@
    }
   },
   "r4": {
-   "formal": 1,
+   "formal": 2,
    "settled": 1,
    "win": 0,
    "loss": 0,
    "void": 1,
-   "pending": 0,
+   "pending": 1,
    "staked": 0.0,
    "returned": 0.0,
    "net": 0.0,
@@ -187,31 +187,31 @@
  "gap_bands": {
   "r1": {
    "70-80": {
-    "count": 21,
+    "count": 27,
     "win": 8,
     "loss": 4,
     "void": 0,
-    "pending": 9,
+    "pending": 15,
     "invested": 1200.0,
     "net": -187.3,
     "roi": -15.61
    },
    "80-90": {
-    "count": 18,
+    "count": 25,
     "win": 6,
     "loss": 2,
     "void": 2,
-    "pending": 8,
+    "pending": 15,
     "invested": 800.0,
     "net": -131.9,
     "roi": -16.49
    },
    "90+": {
-    "count": 0,
+    "count": 1,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 0,
+    "pending": 1,
     "invested": 0.0,
     "net": 0.0,
     "roi": null
@@ -219,31 +219,31 @@
   },
   "all": {
    "70-80": {
-    "count": 22,
+    "count": 28,
     "win": 8,
     "loss": 4,
     "void": 0,
-    "pending": 10,
+    "pending": 16,
     "invested": 1200.0,
     "net": -187.3,
     "roi": -15.61
    },
    "80-90": {
-    "count": 20,
+    "count": 27,
     "win": 6,
     "loss": 2,
     "void": 4,
-    "pending": 8,
+    "pending": 15,
     "invested": 800.0,
     "net": -131.9,
     "roi": -16.49
    },
    "90+": {
-    "count": 0,
+    "count": 1,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 0,
+    "pending": 1,
     "invested": 0.0,
     "net": 0.0,
     "roi": null

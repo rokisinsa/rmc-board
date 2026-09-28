@@ -1,0 +1,202 @@
+{
+ "match_id": "m20260928-7c852bd3",
+ "data_as_of": "2026-09-28T17:18:00+09:00",
+ "unit": "マップ",
+ "left": {
+  "name": "CYBERSHOKE（サイバーショック、ロシア）",
+  "ranking": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 ファイナリスト（グループステージを突破しプレーオフを勝ち上がり）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "不明（プレーオフ準決勝の相手）",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "9/27のcybersport.ru報道『CYBERSHOKEはCYBERHEROと決勝で対戦』により決勝進出＝準決勝勝利を確認。相手とスコアは記事見出しからは不明（候補：Virtus.pro／Rats eSports／Resolute&Capable／ES1ZE Team）"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "不明（グループステージ）",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 グループステージ",
+    "ha": "N",
+    "score": "突破（個別スコア未確認）",
+    "res": "W",
+    "detail": "9/20報道『CYBERSHOKEとES1ZE Teamがプレーオフ進出』。グループ内の個別対戦は未確認"
+   }
+  ],
+  "lineup": [
+   "Standoff 2部門のロスターは未確認（CYBERSHOKEはCS2で知られるロシアの組織で、公式Telegram/VKは当環境からアクセス不可）"
+  ]
+ },
+ "right": {
+  "name": "CYBERHERO（サイバーヒーロー）",
+  "ranking": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 優勝（2026-09-06）→Season 7でも決勝進出",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "不明（プレーオフ準決勝の相手）",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "9/27報道により決勝進出を確認。相手とスコアは不明"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "不明（Season 5決勝の相手）",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 決勝",
+    "ha": "N",
+    "score": "優勝（スコア未確認）",
+    "res": "W",
+    "detail": "9/6報道『CYBERHEROがSeason 5王者に』。決勝の相手は記事要約間で矛盾（Virtus.proとする要約と、9/5の準決勝でVirtus.proを破ったとする見出しがあり、後者ならVozWooden等の可能性）"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 プレーオフ",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "見出し『CYBERHEROがVirtus.proを破り決勝進出』"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 準々決勝",
+    "ha": "N",
+    "score": "勝利（スコア未確認）",
+    "res": "W",
+    "detail": "見出し『CYBERHEROがES1ZE Teamを脱落させた』"
+   }
+  ],
+  "lineup": [
+   "ロスターは未確認（下記unavailable参照）"
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "候補となる共通相手：ES1ZE Team（CYBERHEROが9/4のSeason 5準々決勝で勝利。CYBERSHOKEとはSeason 7グループで同時期にプレーオフ進出しており対戦の可能性があるが未確認）",
+  "Virtus.pro・Rats eSports・Resolute&Capable・VozWooden・Berser SpiritがSeason 5/7の参加チームとして確認できるが、両者との個別対戦記録は取得不可"
+ ],
+ "venue": "オンラインとみられる（ロシア語圏のWINLINEスポンサー大会。開催形態の明示ソースは未取得）",
+ "esports": {
+  "format": "未確認（本試合はSeason 7の決勝。BO3/BO5等の明示ソースなし）",
+  "lan_online": "未確認（オンラインとみられる）",
+  "map_pool": "未確認",
+  "veto": "未確認",
+  "patch": "未確認",
+  "map_h2h": "未取得"
+ },
+ "risks": [
+  "指示の大会名『EPIC Jumble Rumble Season 5』はデータフィードの誤記の可能性が高い：Season 5は9/6にCYBERHERO優勝で終了済みで、9/28の本試合はcybersport.ruが9/27に報じた『WINLINE EPIC Standoff 2 Jumble Rumble Season 7 決勝』と一致する",
+  "CYBERHEROは前シーズン（Season 5）王者で2大会連続決勝。CYBERSHOKE側の詳細戦績が不明なため実力比較の材料が乏しい",
+  "Standoff 2はモバイルFPSで試合DBが未整備。スコア・ロスターの事後検証が難しい",
+  "Season 8が10/2-18に予定されており、日程的に本試合がSeason 7最終戦"
+ ],
+ "missing": [
+  "両チームの直近10試合のマップスコア付き戦績",
+  "H2H",
+  "ロスター5人",
+  "決勝のBO形式・マッププール・開始時刻の一次ソース確認",
+  "data_as_ofは調査エージェントが将来時刻（18:00）を書いたため、ファイル保存時刻17:18に訂正"
+ ],
+ "unavailable": {
+  "left.form": "Standoff 2の試合結果DB（escorenews・ggscore・GosuGamers等）が本タイトル未対応。一次ソースのVK・公式Telegramはブロック、Liquipedia standoff2は429（レート制限）が継続、検索エンジン（DuckDuckGo/Bing/Mojeek/Brave/searx）もブロックまたはrobots拒否のため、cybersport.ruのニュース見出しで確認できた事実のみ記載",
+  "right.form": "同上。CYBERHEROのSeason 7準決勝以前（グループ免除か通過か）も未確認",
+  "h2h": "対戦記録を照会できるDBが存在せず未確認。両者が過去に対戦したか（Season 5〜7内を含め）は情報なし。『初対戦』とも断定できない",
+  "common": "60日以内の対戦相手一覧自体が両者とも不完全（上記の取得制約による）ため突き合わせ不能。判明分はcommon_opponents_notesに記載"
+ },
+ "source_urls": [
+  "https://www.cybersport.ru/tags/standoff-2",
+  "https://www.cybersport.ru/tags/standoff-2?page=2"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝"
+  },
+  "right": {
+   "games": 4,
+   "W": 4,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連勝"
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "不明（プレーオフ準決勝の相手）",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "勝利（スコア未確認）",
+      "res": "W",
+      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ"
+     },
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "突破（個別スコア未確認）",
+      "res": "W",
+      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 グループステージ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "勝利（スコア未確認）",
+      "res": "W",
+      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ"
+     },
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "優勝（スコア未確認）",
+      "res": "W",
+      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 決勝"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-27",
+    "left_rec": "2勝0敗",
+    "right_rec": "2勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-28"
+ }
+}

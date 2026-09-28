@@ -1,0 +1,693 @@
+{
+ "match_id": "m20260930-38c1d50f",
+ "data_as_of": "2026-09-28T16:55:00+09:00",
+ "start_jst_confirmed": "2026-09-30T01:00:00+09:00",
+ "unit": "ゲーム",
+ "left": {
+  "name": "Aurora Gaming",
+  "ranking": "PGL Wallachia S9でプレーオフ上位（UBでYandexに1-2、LBでNAVIに0-2で敗退）。TI2026はグループ敗退",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "NAVI",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Team Yandex",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "GamerLegion",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "LGD Gaming",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Cobra",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "NAVI",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Pipsqueak",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-16",
+    "opp": "BetBoom Team",
+    "comp": "The International 2026",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Team Liquid",
+    "comp": "The International 2026 グループ",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "BetBoom Team",
+    "comp": "The International 2026 グループ",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
+  ],
+  "lineup": [
+   "skiter（キャリー。TI後にNightfall（ベンチ）に代わり加入）",
+   "Mikoto（ミッド）",
+   "Ws（オフレーン）",
+   "Mira（ポジション4）",
+   "kaori（ポジション5）",
+   "コーチ: kpii",
+   "Wallachia S9プレーオフの対GamerLegion戦はミッドにスタンドインを起用して勝利（stavka.tv）"
+  ],
+  "history": [
+   {
+    "date": "2026-09-26",
+    "opp": "NAVI",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "LGD Gaming",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Cobra",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "NAVI",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Pipsqueak",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-16",
+    "opp": "BetBoom Team",
+    "comp": "The International 2026",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Team Liquid",
+    "comp": "The International 2026 グループ",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "BetBoom Team",
+    "comp": "The International 2026 グループ",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
+  ]
+ },
+ "right": {
+  "name": "GamerLegion",
+  "ranking": "PGL Wallachia S9プレーオフ進出（UB1回戦でAuroraに0-2、LBで1winに2-1）。Dota部門（CS2部門とは別）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "1win",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Aurora Gaming",
+    "comp": "PGL Wallachia S9 プレーオフ",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Team Nemesis",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Pipsqueak",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "LGD Gaming",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Cobra",
+    "comp": "PGL Wallachia S9 グループ",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Pipsqueak",
+    "comp": "BLAST Slam IX 欧州予選",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Klim Sani4",
+    "comp": "EPL Masters II",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "Klim Sani4",
+    "comp": "BLAST Slam IX 欧州予選",
+    "ha": "N",
+    "score": "W-FF",
+    "res": "W",
+    "detail": "不戦勝（相手フォーフェイト）"
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "Synapse",
+    "comp": "BLAST Slam IX 欧州予選",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
+  ],
+  "lineup": [
+   "Timado（キャリー）",
+   "RCY（ミッド）",
+   "Fayde（オフレーン）",
+   "Bignum（ポジション4）",
+   "Speed（ポジション5）",
+   "コーチ: Mangusu",
+   "TI2026後のロスター変更は報じられていない（GosuGamersシャッフルトラッカーに記載なし）"
+  ],
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "Pipsqueak",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "LGD Gaming",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Cobra",
+    "comp": "PGL Wallachia S9 グループ",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Pipsqueak",
+    "comp": "BLAST Slam IX 欧州予選",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "NAVI",
+    "comp": "EPL Masters II",
+    "score": "FF-W",
+    "res": "L",
+    "detail": "不戦敗（GamerLegion側フォーフェイト）"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Pipsqueak",
+    "comp": "EPL Masters II",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "Team Liquid",
+    "comp": "1win Essence II",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "BetBoom Team",
+    "comp": "1win Essence II",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-24",
+   "event": "PGL Wallachia S9 プレーオフ",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0
+  },
+  {
+   "date": "2026-08-13",
+   "event": "The International 2026 グループ",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0
+  },
+  {
+   "date": "2026-05-15",
+   "event": "DreamLeague S29 グループA",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0
+  }
+ ],
+ "common_opponents_notes": [
+  "60日以内の共通相手：Team Liquid・BetBoom Team・NAVI・LGD Gaming・Pipsqueak・Cobra",
+  "AuroraはNAVIに2連敗（0-2, 0-2）、GLはNAVIに不戦敗。LGDにはAuroraが2-0勝利、GLは0-2敗北",
+  "cyberscoreはH2H通算をAurora 5勝0敗と表示（日付が確認できたのは上記3件のみ）。stavka.tvは「直近3回すべてAuroraがマップを落とさず勝利」と記載"
+ ],
+ "venue": "オンライン（BLAST Slam VIIIグループステージ、グループD第1戦）。プレーオフ（10/8-11）のみマルタ・Attard「BLAST Arena Studios」でLAN",
+ "esports": {
+  "format": "BO3（GSL方式・4チームグループD。1位はシーディングマッチ経由でプレーオフ、2位はラストチャンス、下位2チーム敗退）",
+  "lan_online": "グループステージはオンライン（プレーオフのみマルタでLAN）",
+  "map_pool": "なし（Dota 2は単一マップ）",
+  "patch": "7.41f（2026年9月時点の最新ゲームプレイパッチ）",
+  "veto": "不明",
+  "map_h2h": "直近3シリーズ（6ゲーム）は全てAurora勝利"
+ },
+ "risks": [
+  "AuroraはWallachia S9プレーオフ（対GL戦）でミッドにスタンドインを起用しており、本大会での正規ミッドの稼働は要確認",
+  "GLの9/9-9/12の対戦（BLAST Slam IX予選・EPL Masters II）にはフォーフェイト絡みが2件あり、フォーム評価のノイズになる",
+  "escorenewsはAuroraの一部表記が「GamersLegion」等で揺れており、同一チーム（Dota部門GamerLegion）として突合した"
+ ],
+ "missing": [
+  "各シリーズのゲーム別詳細スコア",
+  "両チームのGosuGamers世界ランク数値"
+ ],
+ "unavailable": {},
+ "source_urls": [
+  "https://escorenews.com/en/dota-2/team/aurora",
+  "https://escorenews.com/en/dota-2/team/gamerlegion",
+  "https://cyberscore.live/en/matches/aurora-gaming-vs-gamerlegion-179572/head-to-head/",
+  "https://cyberscore.live/en/tournaments/blast-slam-8/matches/",
+  "https://stavka.tv/matches/dota2/29-09-2026-aurora-gamerlegion",
+  "https://www.gosugamers.net/dota2/news/79066-dota-2-post-the-international-2026-roster-shuffle-tracker",
+  "https://www.cybersport.ru/tournaments/dota-2/blast-slam-viii",
+  "https://esports.gg/news/dota-2/dota-2-blast-slam-8-teams-schedule-where-to-watch-results/",
+  "https://www.talkesport.com/news/dota2/blast-slam-8-dota-2-teams-schedule-where-to-watch/",
+  "https://www.dota2.com/patches"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 5,
+   "L": 5,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 12,
+   "units_lost": 11,
+   "points_for": 12,
+   "points_against": 11,
+   "points_games": 10
+  },
+  "right": {
+   "games": 10,
+   "W": 6,
+   "L": 4,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 10,
+   "units_lost": 11,
+   "points_for": 10,
+   "points_against": 11,
+   "points_games": 9
+  },
+  "h2h": {
+   "games": 3,
+   "left": 3,
+   "right": 0,
+   "draw": 0,
+   "units_left": 6,
+   "units_right": 0,
+   "points_left": 6,
+   "points_right": 0,
+   "points_games": 3,
+   "avg_left": 2.0,
+   "avg_right": 0.0
+  },
+  "common": [
+   {
+    "opp": "NAVI",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "0-2",
+      "res": "L",
+      "comp": "PGL Wallachia S9 プレーオフ"
+     },
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "0-2",
+      "res": "L",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-09",
+      "iso": "2026-09-09",
+      "score": "FF-W",
+      "res": "L",
+      "comp": "EPL Masters II"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "LGD Gaming",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "2-0",
+      "res": "W",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "0-2",
+      "res": "L",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-22",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Cobra",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "2-0",
+      "res": "W",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-0",
+      "res": "W",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-21",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Pipsqueak",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-1",
+      "res": "W",
+      "comp": "PGL Wallachia S9 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "2-1",
+      "res": "W",
+      "comp": "PGL Wallachia S9 グループ"
+     },
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "0-2",
+      "res": "L",
+      "comp": "BLAST Slam IX 欧州予選"
+     },
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "2-0",
+      "res": "W",
+      "comp": "EPL Masters II"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-21",
+    "left_rec": "1勝0敗",
+    "right_rec": "2勝1敗"
+   },
+   {
+    "opp": "BetBoom Team",
+    "left": [
+     {
+      "date": "2026-08-16",
+      "iso": "2026-08-16",
+      "score": "0-2",
+      "res": "L",
+      "comp": "The International 2026"
+     },
+     {
+      "date": "2026-08-15",
+      "iso": "2026-08-15",
+      "score": "2-0",
+      "res": "W",
+      "comp": "The International 2026 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-01",
+      "iso": "2026-08-01",
+      "score": "0-2",
+      "res": "L",
+      "comp": "1win Essence II"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-08-16",
+    "left_rec": "1勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Team Liquid",
+    "left": [
+     {
+      "date": "2026-08-15",
+      "iso": "2026-08-15",
+      "score": "1-2",
+      "res": "L",
+      "comp": "The International 2026 グループ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-01",
+      "iso": "2026-08-01",
+      "score": "0-2",
+      "res": "L",
+      "comp": "1win Essence II"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-08-15",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

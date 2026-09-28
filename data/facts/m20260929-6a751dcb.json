@@ -1,10 +1,10 @@
 {
  "match_id": "m20260929-6a751dcb",
- "data_as_of": "2026-09-28T06:21:00+09:00",
+ "data_as_of": "2026-09-28T16:47:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Rebels Gaming",
-  "ranking": "EML 2026 Stage 2 1-5（6試合、W1個別結果の一部はGamereactorの勝敗集計から、W2-3はescorenews/siege.gg）",
+  "ranking": "EML 2026 Stage 2 1-5（10チーム中9-10位相当、6試合終了時点）",
   "form": [
    {
     "date": "2026-09-22",
@@ -25,7 +25,8 @@
     "score": "0-1",
     "res": "L",
     "units_won": 0,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "7-8（OT）"
    },
    {
     "date": "2026-09-15",
@@ -46,16 +47,92 @@
     "score": "1-0",
     "res": "W",
     "units_won": 1,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "7-5"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Twisted Minds",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "4-7"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Geekay Esports",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "1-7"
+   },
+   {
+    "date": "2026-07-07",
+    "opp": "Geekay Esports",
+    "comp": "EML 2026 Stage 1 プレーオフ（BO3）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-06-30",
+    "opp": "Shifters",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-5"
+   },
+   {
+    "date": "2026-06-29",
+    "opp": "Team Heretics",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "8-7（OT）"
+   },
+   {
+    "date": "2026-06-24",
+    "opp": "Geekay Esports",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "4-7"
    }
   ],
   "lineup": [
-   "unavailable: ロスター未取得"
+   "ロスター: Asa・Feno・Marteau・Elemzje・Linkoo・Leadjay（Ubisoft公式R6 Esportsチームページ）",
+   "コーチ情報は未取得"
   ],
   "history": [
    {
-    "date": "2026-09-15",
-    "opp": "G2 Esports",
+    "date": "2026-09-07",
+    "opp": "Geekay Esports",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Twisted Minds",
     "comp": "EML 2026 Stage 2（BO1）",
     "score": "0-1",
     "res": "L",
@@ -70,12 +147,21 @@
     "res": "W",
     "units_won": 1,
     "units_lost": 0
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "G2 Esports",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
    }
   ]
  },
  "right": {
   "name": "Team Heretics",
-  "ranking": "EML 2026 Stage 2 1-5（6試合、W1個別結果の一部はGamereactorの勝敗集計から、W2-3はescorenews/siege.gg）",
+  "ranking": "EML 2026 Stage 2 1-5（10チーム中9-10位相当、6試合終了時点）",
   "form": [
    {
     "date": "2026-09-22",
@@ -86,7 +172,7 @@
     "res": "L",
     "units_won": 0,
     "units_lost": 1,
-    "detail": "6-8"
+    "detail": "6-8（OT）"
    },
    {
     "date": "2026-09-21",
@@ -96,7 +182,8 @@
     "score": "0-1",
     "res": "L",
     "units_won": 0,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "4-7"
    },
    {
     "date": "2026-09-15",
@@ -106,7 +193,8 @@
     "score": "1-0",
     "res": "W",
     "units_won": 1,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "8-7（OT）"
    },
    {
     "date": "2026-09-14",
@@ -116,21 +204,98 @@
     "score": "0-1",
     "res": "L",
     "units_won": 0,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "3-7"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Team Secret",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "5-7"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Virtus.pro",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "3-7"
+   },
+   {
+    "date": "2026-06-30",
+    "opp": "Twisted Minds",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-3"
+   },
+   {
+    "date": "2026-06-29",
+    "opp": "Rebels Gaming",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "7-8（OT）"
+   },
+   {
+    "date": "2026-06-23",
+    "opp": "Shifters",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "1-7"
+   },
+   {
+    "date": "2026-06-08",
+    "opp": "Team Secret",
+    "comp": "EML 2026 Stage 1（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-2"
    }
   ],
   "lineup": [
-   "Lasmooo・Skeptic 加入、コーチ Rickzz（siege.gg W3プレビュー）"
+   "ロスター: AQUI・LOLLO・ZAARAMY・Lasmooo・Skeptic（siege.ggチームページ。イタリア人主体、W3から英語コムスに変更）",
+   "Lasmooo（Vivien Berthelot）・Skeptic は第3週前に加入、コーチ Rickzz 就任（siege.gg W3プレビュー）"
   ],
   "history": [
    {
-    "date": "2026-09-22",
-    "opp": "G2 Esports",
+    "date": "2026-09-14",
+    "opp": "Geekay Esports",
     "comp": "EML 2026 Stage 2（BO1）",
     "score": "0-1",
     "res": "L",
     "units_won": 0,
     "units_lost": 1
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Twisted Minds",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
    },
    {
     "date": "2026-09-21",
@@ -140,50 +305,76 @@
     "res": "L",
     "units_won": 0,
     "units_lost": 1
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "G2 Esports",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
    }
   ]
  },
- "h2h": [],
- "venue": "中立（EML 2026 Stage 2 リーグ戦）",
+ "h2h": [
+  {
+   "date": "2026-06-29",
+   "event": "EML 2026 Stage 1（BO1）",
+   "score": "1-0",
+   "winner": "left",
+   "units_left": 1,
+   "units_right": 0,
+   "detail": "ラウンド 8-7（OT）でRebels勝利"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "中立（EML 2026 Stage 2 リーグ戦・オンライン）",
  "esports": {
-  "format": "BO1（リーグ戦グループステージ）",
-  "lan_online": "unavailable: 開催形態（スタジオ/オンライン）未確認",
-  "map_pool": "unavailable: Y11S3のマッププール未確認",
-  "veto": "unavailable: BO1のマップバン結果未公開",
-  "patch": "Year 11 Season 3（9/1開始、siege.gg）",
-  "map_h2h": "unavailable"
+  "format": "BO1（10チーム単回総当たりのグループステージ。プレーオフはBO3ダブルエリミネーション）",
+  "lan_online": "オンライン（siege.gg大会ページ: Format Online）",
+  "map_pool": "unavailable: Y11S3の競技マッププール一覧は未確認（直近の公式戦使用マップ: Bank・Chalet・Border・Club House・Lair・Consulate・Fortress・Nighthaven Labs）",
+  "veto": "BO1は両チーム計8バン後の1マップ（siege.gg試合ページの記述）。今回のバン結果は試合前のため未公開",
+  "patch": "Year 11 Season 3「Operation Split Fire」（2026-09-01開始、siege.gg）",
+  "map_h2h": "unavailable: 過去1回の直接対戦（6/29）のマップ名は未取得"
  },
  "risks": [
   "BO1（1マップ）で番狂わせが起きやすい",
-  "Stage 2 第1週（9/7-8）の個別結果は G2 の2試合（TM 7-1 G2、G2 4-7 Falcons）以外取得できず、各チームのformは4-5件",
-  "Week3でロスター変更（VP: Mowwwgli/BlaZ加入、Heretics: Lasmooo/Skeptic加入、Shifters: CTZN/DEADSHT加入）があり過去成績の参照価値が低下",
-  "上位4チームがBLAST R6 Major Osaka出場権、5-6位はプレーオフLB（順位争いの動機は高い）",
-  "両者1-5でプレーオフ（上位6）圏外、残り3試合"
+  "第3週終了時点の暫定順位: Virtus.pro 5-1 / G2・Falcons・Geekay 4-2 / Secret・TM・Shifters 3-3 / Fnatic 2-4 / Rebels・Heretics 1-5（残り3試合）",
+  "上位4チームがBLAST R6 Major Osaka出場権、上位6チームがプレーオフ進出（5-6位はLBスタート）で順位争いの動機は高い",
+  "第3週前にロスター変更（Twisted Minds: Mowwwgli/BlaZ加入、Heretics: Lasmooo/Skeptic加入、Shifters: CTZN/DEADSHT/NATHAN_加入）があり、それ以前の成績の参照価値が低下",
+  "escorenewsの週3欄の数字は予想値のため結果としては不使用",
+  "両者1-5で下位に沈み、プレーオフ圏（上位6）残留には残り3試合の白星が必須"
  ],
  "missing": [
-  "H2H",
-  "Rebelsロスター",
-  "第1週個別結果"
+  "Rebels・Hereticsの6月中旬（Stage 1第2-4節）の一部個別結果",
+  "6/29 H2H戦のマップ名"
  ],
  "unavailable": {
-  "h2h": "確認できず"
+  "h2h": "確認できたのは2026-06-29 Stage 1の1回のみ。2026 Kickoffでの対戦はsiege.gg検索でヒットせず確認できなかった（Kickoffは総当たりだが該当試合ページ不検出）",
+  "right.form": "HereticsのStage 1中盤（6/9-6/24、G2・Fnatic・VP・Falcons・Geekay戦）の個別スコアが未取得のため、7件目以降は取得できた試合で構成（厳密な直近10と一部前後する可能性）"
  },
  "source_urls": [
-  "https://escorenews.com/en/r6/europe-mena-league-2026-stage-2",
   "https://siege.gg/competitions/185-europe-mena-league-2026-stage-2",
-  "https://siege.gg/matches?tab=results&team=G2+Esports&page=1",
-  "https://www.gamereactor.eu/rainbow-six-siege-europe-mena-league-2026-stage-2-four-teams-start-campaign-undefeated-1768353/",
-  "https://siege.gg/news/blast-r6-europe-and-mena-league-2026-stage-2-week-3-preview-virtuspro-to-play-against-falcons-and-g2-do-or-die-week-for-fnatic-and-more",
   "https://siege.gg/news/blast-r6-2026-stage-2-everything-you-need-to-know",
-  "https://www.strafe.com/event/europe-mena-league-stage-2-8e421c/"
+  "https://siege.gg/news/blast-r6-europe-and-mena-league-2026-stage-2-week-3-preview-virtuspro-to-play-against-falcons-and-g2-do-or-die-week-for-fnatic-and-more",
+  "https://escorenews.com/en/r6/europe-mena-league-2026-stage-2",
+  "https://siege.gg/matches",
+  "https://siege.gg/matches?tab=results&team=Rebels+Gaming&page=1",
+  "https://siege.gg/matches?tab=results&team=Team+Heretics&page=1",
+  "https://siege.gg/matches?tab=results&team=Team+Secret&page=1",
+  "https://siege.gg/matches?tab=results&team=Shifters&page=1",
+  "https://siege.gg/teams/856-team-heretics",
+  "https://www.ubisoft.com/en-us/esports/rainbow-six/siege/team/394/roster",
+  "https://siege.gg/matches/6438-eul-eu-rebels-gaming-vs-team-heretics"
  ],
  "calc": {
   "left": {
-   "games": 4,
-   "W": 1,
-   "L": 3,
+   "games": 10,
+   "W": 3,
+   "L": 7,
    "D": 0,
-   "win_rate": 25.0,
+   "win_rate": 30.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -195,18 +386,18 @@
     "D": 0
    },
    "streak": "3連敗",
-   "units_won": 1,
-   "units_lost": 3,
-   "points_for": 1,
-   "points_against": 3,
-   "points_games": 4
+   "units_won": 3,
+   "units_lost": 8,
+   "points_for": 3,
+   "points_against": 8,
+   "points_games": 10
   },
   "right": {
-   "games": 4,
-   "W": 1,
-   "L": 3,
+   "games": 10,
+   "W": 3,
+   "L": 7,
    "D": 0,
-   "win_rate": 25.0,
+   "win_rate": 30.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -218,17 +409,24 @@
     "D": 0
    },
    "streak": "2連敗",
-   "units_won": 1,
-   "units_lost": 3,
-   "points_for": 1,
-   "points_against": 3,
-   "points_games": 4
+   "units_won": 3,
+   "units_lost": 7,
+   "points_for": 3,
+   "points_against": 7,
+   "points_games": 10
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
+   "games": 1,
+   "left": 1,
    "right": 0,
-   "draw": 0
+   "draw": 0,
+   "units_left": 1,
+   "units_right": 0,
+   "points_left": 1,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 0.0
   },
   "common": [
    {
@@ -281,6 +479,58 @@
     "basis": "勝率",
     "latest": "2026-09-21",
     "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Twisted Minds",
+    "left": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "0-1",
+      "res": "L",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-15",
+      "iso": "2026-09-15",
+      "score": "1-0",
+      "res": "W",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-15",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Geekay Esports",
+    "left": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "0-1",
+      "res": "L",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "0-1",
+      "res": "L",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-14",
+    "left_rec": "0勝1敗",
     "right_rec": "0勝1敗"
    }
   ],

@@ -1,10 +1,10 @@
 {
  "match_id": "m20260929-65408ddc",
- "data_as_of": "2026-09-28T06:21:00+09:00",
+ "data_as_of": "2026-09-28T16:47:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "G2 Esports",
-  "ranking": "EML 2026 Stage 2 4-2（6試合、W1個別結果の一部はGamereactorの勝敗集計から、W2-3はescorenews/siege.gg）",
+  "ranking": "EML 2026 Stage 2 4-2（6試合終了時点）。BLAST Major Salt Lake City 2026出場（5月）",
   "form": [
    {
     "date": "2026-09-22",
@@ -15,7 +15,7 @@
     "res": "W",
     "units_won": 1,
     "units_lost": 0,
-    "detail": "8-6"
+    "detail": "8-6（OT）"
    },
    {
     "date": "2026-09-21",
@@ -75,7 +75,7 @@
    {
     "date": "2026-07-07",
     "opp": "Fnatic",
-    "comp": "EML 2026 Stage 1",
+    "comp": "EML 2026 Stage 1 プレーオフ（BO3）",
     "ha": "N",
     "score": "1-2",
     "res": "L",
@@ -85,7 +85,7 @@
    {
     "date": "2026-07-06",
     "opp": "Team Falcons",
-    "comp": "EML 2026 Stage 1",
+    "comp": "EML 2026 Stage 1 プレーオフ（BO3）",
     "ha": "N",
     "score": "1-2",
     "res": "L",
@@ -95,35 +95,40 @@
    {
     "date": "2026-06-30",
     "opp": "Fnatic",
-    "comp": "EML 2026 Stage 1",
+    "comp": "EML 2026 Stage 1（BO1）",
     "ha": "N",
     "score": "1-0",
     "res": "W",
     "units_won": 1,
     "units_lost": 0,
-    "detail": "8-7"
+    "detail": "8-7（OT）"
    },
    {
     "date": "2026-06-29",
     "opp": "Virtus.pro",
-    "comp": "EML 2026 Stage 1",
+    "comp": "EML 2026 Stage 1（BO1）",
     "ha": "N",
     "score": "1-0",
     "res": "W",
     "units_won": 1,
     "units_lost": 0,
-    "detail": "7-3 Club House"
+    "detail": "Club House 7-3"
    }
   ],
   "lineup": [
-   "Doki",
-   "Alem4o",
-   "Stompn",
-   "Benjamaster",
-   "Shaiiko（2026-06-29時点）",
-   "CTZNはShiftersへ移籍（siege.gg）"
+   "ロスター: Doki・Alem4o・Stompn・Benjamaster・Shaiiko（2026年シーズン、siege.gg）",
+   "変更報道は未確認（EWC 2026はG2不参加）"
   ],
   "history": [
+   {
+    "date": "2026-09-07",
+    "opp": "Twisted Minds",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   },
    {
     "date": "2026-09-08",
     "opp": "Team Falcons",
@@ -134,19 +139,28 @@
     "units_lost": 1
    },
    {
-    "date": "2026-09-07",
-    "opp": "Twisted Minds",
+    "date": "2026-09-14",
+    "opp": "Fnatic",
     "comp": "EML 2026 Stage 2（BO1）",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 1
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Team Heretics",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
    }
   ]
  },
  "right": {
   "name": "Virtus.pro",
-  "ranking": "EML 2026 Stage 2 5-1（6試合、W1個別結果の一部はGamereactorの勝敗集計から、W2-3はescorenews/siege.gg）",
+  "ranking": "EML 2026 Stage 2 5-1・暫定首位（6試合終了時点）。Stage 1準優勝、EWC 2026出場",
   "form": [
    {
     "date": "2026-09-22",
@@ -167,7 +181,8 @@
     "score": "1-0",
     "res": "W",
     "units_won": 1,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "7-4"
    },
    {
     "date": "2026-09-15",
@@ -177,7 +192,8 @@
     "score": "0-1",
     "res": "L",
     "units_won": 0,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "5-7"
    },
    {
     "date": "2026-09-14",
@@ -187,29 +203,88 @@
     "score": "1-0",
     "res": "W",
     "units_won": 1,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "7-1"
    },
    {
-    "date": "2026-06-29",
-    "opp": "G2 Esports",
-    "comp": "EML 2026 Stage 1",
+    "date": "2026-09-08",
+    "opp": "Fnatic",
+    "comp": "EML 2026 Stage 2（BO1）",
     "ha": "N",
-    "score": "0-1",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-0"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Team Heretics",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-3"
+   },
+   {
+    "date": "2026-08-09",
+    "opp": "Weibo Gaming",
+    "comp": "Esports World Cup 2026（BO3）",
+    "ha": "N",
+    "score": "1-2",
     "res": "L",
-    "units_won": 0,
-    "units_lost": 1,
-    "detail": "3-7 Club House"
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-07",
+    "opp": "FaZe Clan",
+    "comp": "Esports World Cup 2026（BO3）",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-06",
+    "opp": "EDward Gaming",
+    "comp": "Esports World Cup 2026 グループ（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "7-2"
+   },
+   {
+    "date": "2026-07-14",
+    "opp": "Team Falcons",
+    "comp": "EML 2026 Stage 1 プレーオフ グランドファイナル（BO3）",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "Stage 1準優勝。同日のLB決勝ではGeekayに2-1勝利"
    }
   ],
   "lineup": [
-   "p4sh4",
-   "dan",
-   "RORICK",
-   "SkyZs",
-   "Nayqo（2026-06-29時点）",
-   "Mowwwgli・BlaZ加入（siege.gg W3プレビュー、誰と入替かは未確認）"
+   "ロスター: p4sh4・dan・RORICK・SkyZs・Nayqo（2026-06-29時点、siege.gg）",
+   "注: 旧ファイルにあった「Mowwwgli/BlaZ加入」はW3プレビュー原文ではTwisted Mindsへの加入。VPの変更報道は未確認"
   ],
   "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "Twisted Minds",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   },
    {
     "date": "2026-09-22",
     "opp": "Team Falcons",
@@ -220,8 +295,17 @@
     "units_lost": 0
    },
    {
-    "date": "2026-09-21",
-    "opp": "Twisted Minds",
+    "date": "2026-09-08",
+    "opp": "Fnatic",
+    "comp": "EML 2026 Stage 2（BO1）",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Team Heretics",
     "comp": "EML 2026 Stage 2（BO1）",
     "score": "1-0",
     "res": "W",
@@ -233,44 +317,77 @@
  "h2h": [
   {
    "date": "2026-06-29",
-   "event": "EML 2026 Stage 1",
+   "event": "EML 2026 Stage 1（BO1）",
    "score": "1-0",
    "winner": "left",
    "units_left": 1,
    "units_right": 0,
    "detail": "Club House 7-3"
+  },
+  {
+   "date": "2026-05-12",
+   "event": "BLAST Major Salt Lake City 2026（BO3・LAN）",
+   "score": "2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "detail": "Bank 5-7 / Chalet 7-4 / Border 7-3"
+  },
+  {
+   "date": "2026-04-16",
+   "event": "EML 2026 Kickoff プレーオフ（BO3）",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0,
+   "detail": "Club House 7-5 / Lair 7-3"
+  },
+  {
+   "date": "2026-03-31",
+   "event": "EML 2026 Kickoff（BO1）",
+   "score": "0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1,
+   "detail": "Consulate 6-8（OT）"
   }
  ],
- "venue": "中立（EML 2026 Stage 2 リーグ戦）",
+ "common_opponents_notes": [],
+ "venue": "中立（EML 2026 Stage 2 リーグ戦・オンライン）",
  "esports": {
-  "format": "BO1（リーグ戦グループステージ）",
-  "lan_online": "unavailable: 開催形態（スタジオ/オンライン）未確認",
-  "map_pool": "unavailable: Y11S3のマッププール未確認",
-  "veto": "unavailable: BO1のマップバン結果未公開",
-  "patch": "Year 11 Season 3（9/1開始、siege.gg）",
-  "map_h2h": "Club House: G2 7-3（6/29）"
+  "format": "BO1（10チーム単回総当たりのグループステージ。プレーオフはBO3ダブルエリミネーション）",
+  "lan_online": "オンライン（siege.gg大会ページ: Format Online）",
+  "map_pool": "unavailable: Y11S3の競技マッププール一覧は未確認（直近の公式戦使用マップ: Bank・Chalet・Border・Club House・Lair・Consulate・Fortress・Nighthaven Labs）",
+  "veto": "BO1は両チーム計8バン後の1マップ（siege.gg試合ページの記述）。今回のバン結果は試合前のため未公開",
+  "patch": "Year 11 Season 3「Operation Split Fire」（2026-09-01開始、siege.gg）",
+  "map_h2h": "Club House: G2 2勝（6/29 7-3、4/16 7-5）/ Bank: VP 7-5（5/12）/ Chalet: G2 7-4（5/12）/ Border: G2 7-3（5/12）/ Lair: G2 7-3（4/16）/ Consulate: VP 8-6（3/31）"
  },
  "risks": [
   "BO1（1マップ）で番狂わせが起きやすい",
-  "Stage 2 第1週（9/7-8）の個別結果は G2 の2試合（TM 7-1 G2、G2 4-7 Falcons）以外取得できず、各チームのformは4-5件",
-  "Week3でロスター変更（VP: Mowwwgli/BlaZ加入、Heretics: Lasmooo/Skeptic加入、Shifters: CTZN/DEADSHT加入）があり過去成績の参照価値が低下",
-  "上位4チームがBLAST R6 Major Osaka出場権、5-6位はプレーオフLB（順位争いの動機は高い）"
+  "第3週終了時点の暫定順位: Virtus.pro 5-1 / G2・Falcons・Geekay 4-2 / Secret・TM・Shifters 3-3 / Fnatic 2-4 / Rebels・Heretics 1-5（残り3試合）",
+  "上位4チームがBLAST R6 Major Osaka出場権、上位6チームがプレーオフ進出（5-6位はLBスタート）で順位争いの動機は高い",
+  "第3週前にロスター変更（Twisted Minds: Mowwwgli/BlaZ加入、Heretics: Lasmooo/Skeptic加入、Shifters: CTZN/DEADSHT/NATHAN_加入）があり、それ以前の成績の参照価値が低下",
+  "escorenewsの週3欄の数字は予想値のため結果としては不使用",
+  "首位VP（5-1）と2位グループG2（4-2）の直接対決で、大阪Major出場権レースの天王山",
+  "G2は開幕2連敗後6連勝中と対照的にVPはGeekay戦のみ落として5-1",
+  "2026年の直接対戦はG2の3勝1敗"
  ],
- "missing": [
-  "Stage 2 第1週のVP個別結果",
-  "VP新ロスターの詳細"
- ],
+ "missing": [],
  "unavailable": {},
  "source_urls": [
-  "https://escorenews.com/en/r6/europe-mena-league-2026-stage-2",
   "https://siege.gg/competitions/185-europe-mena-league-2026-stage-2",
-  "https://siege.gg/matches?tab=results&team=G2+Esports&page=1",
-  "https://www.gamereactor.eu/rainbow-six-siege-europe-mena-league-2026-stage-2-four-teams-start-campaign-undefeated-1768353/",
-  "https://siege.gg/news/blast-r6-europe-and-mena-league-2026-stage-2-week-3-preview-virtuspro-to-play-against-falcons-and-g2-do-or-die-week-for-fnatic-and-more",
   "https://siege.gg/news/blast-r6-2026-stage-2-everything-you-need-to-know",
-  "https://www.strafe.com/event/europe-mena-league-stage-2-8e421c/",
+  "https://siege.gg/news/blast-r6-europe-and-mena-league-2026-stage-2-week-3-preview-virtuspro-to-play-against-falcons-and-g2-do-or-die-week-for-fnatic-and-more",
+  "https://escorenews.com/en/r6/europe-mena-league-2026-stage-2",
+  "https://siege.gg/matches",
+  "https://siege.gg/matches?tab=results&team=G2+Esports&page=1",
+  "https://siege.gg/matches?tab=results&team=Virtus.pro&page=1",
+  "https://siege.gg/matches/3849-eul-eu-virtuspro-vs-g2-esports",
+  "https://siege.gg/matches/3540-mjr-intl-g2-esports-vs-virtuspro",
+  "https://siege.gg/matches/3414-eul-eu-virtuspro-vs-g2-esports",
+  "https://siege.gg/matches/3353-eul-eu-virtuspro-vs-g2-esports",
   "https://siege.gg/matches/6440-eul-eu-g2-esports-vs-virtuspro",
-  "https://siege.gg/matches/3849-eul-eu-virtuspro-vs-g2-esports"
+  "https://www.gamereactor.eu/rainbow-six-siege-europe-mena-league-2026-stage-2-four-teams-start-campaign-undefeated-1768353/"
  ],
  "calc": {
   "left": {
@@ -297,9 +414,9 @@
    "points_games": 10
   },
   "right": {
-   "games": 5,
-   "W": 3,
-   "L": 2,
+   "games": 10,
+   "W": 6,
+   "L": 4,
    "D": 0,
    "win_rate": 60.0,
    "home": {
@@ -313,26 +430,55 @@
     "D": 0
    },
    "streak": "2連勝",
-   "units_won": 3,
-   "units_lost": 2,
-   "points_for": 3,
-   "points_against": 2,
-   "points_games": 5
+   "units_won": 9,
+   "units_lost": 7,
+   "points_for": 9,
+   "points_against": 7,
+   "points_games": 10
   },
   "h2h": {
-   "games": 1,
-   "left": 1,
-   "right": 0,
+   "games": 4,
+   "left": 3,
+   "right": 1,
    "draw": 0,
-   "units_left": 1,
-   "units_right": 0,
-   "points_left": 1,
-   "points_right": 0,
-   "points_games": 1,
-   "avg_left": 1.0,
-   "avg_right": 0.0
+   "units_left": 5,
+   "units_right": 2,
+   "points_left": 5,
+   "points_right": 2,
+   "points_games": 4,
+   "avg_left": 1.2,
+   "avg_right": 0.5,
+   "inner_left": 33,
+   "inner_right": 22,
+   "inner_games": 2
   },
   "common": [
+   {
+    "opp": "Team Heretics",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "1-0",
+      "res": "W",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "1-0",
+      "res": "W",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-22",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
    {
     "opp": "Team Falcons",
     "left": [
@@ -383,6 +529,32 @@
     "basis": "勝率",
     "latest": "2026-09-21",
     "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Fnatic",
+    "left": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "1-0",
+      "res": "W",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "1-0",
+      "res": "W",
+      "comp": "EML 2026 Stage 2（BO1）"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-14",
+    "left_rec": "1勝0敗",
     "right_rec": "1勝0敗"
    }
   ],
