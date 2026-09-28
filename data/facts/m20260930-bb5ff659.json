@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-bb5ff659",
- "data_as_of": "2026-09-28T16:47:00+09:00",
+ "data_as_of": "2026-09-28T21:59:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Sharper Esports",
@@ -73,6 +73,36 @@
     "opp": "Elevate",
     "opp_rank": "世界28位",
     "comp": "APL 2026 Asia Stage 2 リーグ戦（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   },
+   {
+    "date": "2022-01-29",
+    "opp": "ROFLCOPT",
+    "comp": "APAC League 2021（escorenews表記）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2021-12-27",
+    "opp": "200D Ac",
+    "comp": "GS S4（東南アジア大会・BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
+   },
+   {
+    "date": "2021-12-21",
+    "opp": "ELV.Ac（Elevateアカデミー）",
+    "comp": "GS S4（東南アジア大会・BO1）",
     "ha": "N",
     "score": "1-0",
     "res": "W",
@@ -336,7 +366,8 @@
    "score": "1-0",
    "winner": "left",
    "units_left": 1,
-   "units_right": 0
+   "units_right": 0,
+   "detail": "日付は両チームのescorenews対戦記録で再確認済み"
   },
   {
    "date": "2021-12-16",
@@ -344,7 +375,8 @@
    "score": "1-1",
    "winner": "draw",
    "units_left": 1,
-   "units_right": 1
+   "units_right": 1,
+   "detail": "escorenews Sharper対戦記録（page2）で2021-12-16のELV戦1-1を再確認済み"
   }
  ],
  "common_opponents_notes": [
@@ -371,7 +403,7 @@
   "2026年シーズンの正式マッププール・パッチ"
  ],
  "unavailable": {
-  "left.form": "escorenews上のSharperの公式戦記録はAPL 2026 Asia Stage 2の7試合のみで、それ以前は2022年1月（APAC League 2021）まで空白。昇格経路（Challenger Series等）の試合はescorenews・siege.ggで確認できず（Liquipediaは429で参照不可）。よって直近10試合に満たない7試合を記載",
+  "left.form": "escorenews上のSharperの2026年の公式戦記録はAPL 2026 Asia Stage 2の7試合のみで、その前は2022年1月（APAC League 2021）まで約4年半の空白。10試合に揃えるため8〜10件目は2021-22年の試合（APAC League 2021・GS S4）を記載。昇格経路（Challenger Series等）の試合はescorenews・siege.ggで確認できず（Liquipediaは429で参照不可）",
   "h2h": "2022〜2025年の直接対戦は両者の対戦記録一覧（escorenews）に存在せず。2021-12-20/21のELV.AS・ELV.Ac戦はElevateのアカデミーチームのため除外"
  },
  "source_urls": [
@@ -385,11 +417,11 @@
  ],
  "calc": {
   "left": {
-   "games": 7,
-   "W": 6,
-   "L": 1,
+   "games": 10,
+   "W": 8,
+   "L": 2,
    "D": 0,
-   "win_rate": 85.7,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -401,11 +433,11 @@
     "D": 0
    },
    "streak": "2連勝",
-   "units_won": 6,
-   "units_lost": 1,
-   "points_for": 6,
-   "points_against": 1,
-   "points_games": 7
+   "units_won": 8,
+   "units_lost": 3,
+   "points_for": 8,
+   "points_against": 3,
+   "points_games": 10
   },
   "right": {
    "games": 10,

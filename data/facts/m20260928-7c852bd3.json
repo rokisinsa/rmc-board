@@ -1,123 +1,358 @@
 {
  "match_id": "m20260928-7c852bd3",
- "data_as_of": "2026-09-28T17:18:00+09:00",
+ "data_as_of": "2026-09-28T22:03:00+09:00",
+ "start_jst_confirmed": "2026-09-28T23:00:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "CYBERSHOKE（サイバーショック、ロシア）",
-  "ranking": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 ファイナリスト（グループステージを突破しプレーオフを勝ち上がり）",
+  "ranking": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 決勝進出（グループB1位相当で突破→プレーオフ3連勝）。cybersport.ru登録での通算108試合66勝11分31敗（勝率61%）",
   "form": [
    {
     "date": "2026-09-27",
-    "opp": "不明（プレーオフ準決勝の相手）",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "2-1",
     "res": "W",
-    "detail": "9/27のcybersport.ru報道『CYBERSHOKEはCYBERHEROと決勝で対戦』により決勝進出＝準決勝勝利を確認。相手とスコアは記事見出しからは不明（候補：Virtus.pro／Rats eSports／Resolute&Capable／ES1ZE Team）"
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Dune 13-10 Breeze 11-13 Rust 17-15。グループで敗れたES1ZEにリベンジ"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Berser Spirit",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準々決勝（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
    },
    {
     "date": "2026-09-20",
-    "opp": "不明（グループステージ）",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 グループステージ",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループB 進出決定戦",
     "ha": "N",
-    "score": "突破（個別スコア未確認）",
+    "score": "2-1",
     "res": "W",
-    "detail": "9/20報道『CYBERSHOKEとES1ZE Teamがプレーオフ進出』。グループ内の個別対戦は未確認"
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Prison 15-13 Dune 8-13 Rust 13-9"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "SaiNts",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループB",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-07-12",
+    "opp": "CYBERHERO",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major メインステージ（ロワーブラケット）",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "旧ロスターでの最後の試合。この敗戦でMajor敗退→7/23にロスター解散"
    }
   ],
   "lineup": [
-   "Standoff 2部門のロスターは未確認（CYBERSHOKEはCS2で知られるロシアの組織で、公式Telegram/VKは当環境からアクセス不可）"
+   "現ロスター（cybersport.ru チームページ 2026-09時点）：RelayX（Paul Aldiyarov）、l1rkuzz（Alexey Tkachuk）、blaster、sLv（Vyacheslav Litvinov）、naoto",
+   "2026-07-23に旧Standoff 2ロスター（dazz・scndoom・kot・FraNker・Somber等）を全員解散→新体制。Season 7が新ロスターの主要実績",
+   "旧メンバーのscndoom（Konstantin Li）は2026-08-07に相手チームCYBERHEROへ加入（元チームメイトとの対戦）"
+  ],
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループB 進出決定戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   }
   ]
  },
  "right": {
-  "name": "CYBERHERO（サイバーヒーロー）",
-  "ranking": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 優勝（2026-09-06）→Season 7でも決勝進出",
+  "name": "CYBERHERO（サイバーヒーロー、ロシア）",
+  "ranking": "直近3大会で優勝2回（Jumble Rumble Major 8/2・Season 5 9/6）＋Season 7決勝進出。cybersport.ru登録での通算112試合64勝9分39敗（勝率57%）",
   "form": [
    {
     "date": "2026-09-27",
-    "opp": "不明（プレーオフ準決勝の相手）",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "2-0",
     "res": "W",
-    "detail": "9/27報道により決勝進出を確認。相手とスコアは不明"
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "Hanami 13-8 Rust 13-11"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Resolute&Capable",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準々決勝（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループA 進出決定戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "Rust 13-10 Breeze 11-13 第3マップ 6-13。グループ2位相当でプレーオフへ"
    },
    {
     "date": "2026-09-06",
-    "opp": "不明（Season 5決勝の相手）",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 決勝",
+    "opp": "Absolute",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 グランドファイナル（BO5）",
     "ha": "N",
-    "score": "優勝（スコア未確認）",
+    "score": "3-2",
     "res": "W",
-    "detail": "9/6報道『CYBERHEROがSeason 5王者に』。決勝の相手は記事要約間で矛盾（Virtus.proとする要約と、9/5の準決勝でVirtus.proを破ったとする見出しがあり、後者ならVozWooden等の可能性）"
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "Breeze 13-4 Rust 13-15 Sandstone 13-9 Prison 5-13 Hanami 13-11。優勝賞金$10,250"
    },
    {
     "date": "2026-09-05",
     "opp": "Virtus.pro",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 プレーオフ",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準決勝（BO3）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "2-1",
     "res": "W",
-    "detail": "見出し『CYBERHEROがVirtus.proを破り決勝進出』"
+    "units_won": 2,
+    "units_lost": 1
    },
    {
     "date": "2026-09-04",
     "opp": "ES1ZE Team",
-    "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 準々決勝",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準々決勝（BO3）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "2-0",
     "res": "W",
-    "detail": "見出し『CYBERHEROがES1ZE Teamを脱落させた』"
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "Mafiozy Esports",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major グランドファイナル",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Prison 13-4 Hanami 10-13 Breeze 13-10。優勝賞金300万ルーブル"
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "Alpha 7",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major アッパーファイナル",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-07-12",
+    "opp": "CYBERSHOKE",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major メインステージ（ロワーブラケット）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "CYBERSHOKE旧ロスターを敗退させた"
    }
   ],
   "lineup": [
-   "ロスターは未確認（下記unavailable参照）"
+   "scndoom（Konstantin Li、2026-08-07加入。元CYBERSHOKE SO2）",
+   "cxtleta（Pavel Sergakov、2025-12-29加入）",
+   "Nekr0（Egor Sharov、2025-12-29加入）",
+   "1tapp（Ranis Bikullov、2025-06-19加入）",
+   "fLACSYS（Denis Egorov、2024-10-29加入）"
+  ],
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループA 進出決定戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準決勝（BO3）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "ES1ZE Team",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準々決勝（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-08-01",
+    "opp": "Virtus.pro",
+    "comp": "WINLINE EPIC SO2 Jumble Rumble Major 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   }
   ]
  },
- "h2h": [],
- "common_opponents_notes": [
-  "候補となる共通相手：ES1ZE Team（CYBERHEROが9/4のSeason 5準々決勝で勝利。CYBERSHOKEとはSeason 7グループで同時期にプレーオフ進出しており対戦の可能性があるが未確認）",
-  "Virtus.pro・Rats eSports・Resolute&Capable・VozWooden・Berser SpiritがSeason 5/7の参加チームとして確認できるが、両者との個別対戦記録は取得不可"
+ "h2h": [
+  {
+   "date": "2026-07-12",
+   "event": "WINLINE EPIC SO2 Jumble Rumble Major メインステージ（ロワーブラケット）",
+   "score": "1-2",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 2,
+   "detail": "CYBERSHOKEはこの敗戦でMajor敗退、7/23に当時のロスターを解散（現ロスターとは別編成）"
+  },
+  {
+   "date": "2025-04-17",
+   "event": "WINLINE EPIC Standoff 2 Cosmo: Cancri E プレーオフ",
+   "score": "1-2",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 2,
+   "detail": "CYBERSHOKE側から Dune 13-7 W / Rust 12-13 L / Sandstone 9-13 L。両チームとも当時とロスターが異なる（CYBERHERO側は当時scndoomがCYBERSHOKE所属）"
+  }
  ],
- "venue": "オンラインとみられる（ロシア語圏のWINLINEスポンサー大会。開催形態の明示ソースは未取得）",
+ "common_opponents_notes": [
+  "60日窓（7/30〜9/28）の共通相手はES1ZE TeamとVirtus.pro",
+  "対ES1ZE：CYBERSHOKE 1勝0敗（9/27 準決勝2-1）、CYBERHERO 1勝1敗（9/4 2-0勝ち・9/20 1-2負け）",
+  "対Virtus.pro：CYBERSHOKE 1勝0敗（9/20 2-1）、CYBERHERO 3勝0敗（8/1 2-0・9/5 2-1・9/27 2-0）",
+  "kushvsporte.ruのCYBERSHOKE直近成績にあるK27戦0-2・Nemiga戦0-2（9月）はCS2部門の試合が混入した可能性が高く、Standoff 2チームページに存在しないため除外"
+ ],
+ "venue": "オンライン（Season 7は9/14〜9/28オンライン開催、賞金総額$23,737。決勝は9/28 17:00モスクワ時間＝23:00 JST）",
  "esports": {
-  "format": "未確認（本試合はSeason 7の決勝。BO3/BO5等の明示ソースなし）",
-  "lan_online": "未確認（オンラインとみられる）",
-  "map_pool": "未確認",
-  "veto": "未確認",
+  "format": "グランドファイナル。準々決勝〜準決勝はBO3。決勝の形式は明示ソースなし（Season 5決勝は3-2のBO5だったためBO5の可能性）",
+  "lan_online": "オンライン",
+  "map_pool": "Season 5〜7で使用が確認できたマップ：Rust・Dune・Breeze・Prison・Sandstone・Hanami（＋2025年にはZone/Provinceも競技使用例）",
+  "veto": "未確認（veto過程の公開ソースなし）",
   "patch": "未確認",
-  "map_h2h": "未取得"
+  "map_h2h": "現ロスター同士のマップ対戦なし。2025-04-17（旧編成）：Dune CYBERSHOKE 13-7、Rust CYBERHERO 13-12、Sandstone CYBERHERO 13-9",
+  "deep": {
+   "ranking": "Standoff 2に公式世界ランクなし。cybersport.ru通算勝率はCYBERSHOKE 61%・CYBERHERO 57%だが、CYBERHEROは直近3大会で2優勝＋1決勝進出と現在の格上",
+   "h2h": "通算2戦2勝でCYBERHERO（2025-04-17 2-1、2026-07-12 2-1）。ただしCYBERSHOKEは両方とも旧ロスター",
+   "recent_form": "CYBERSHOKE新ロスターはSeason 7で4連勝（マップ8-3）。CYBERHEROは直近10シリーズ9勝1敗、唯一の敗戦は9/20 ES1ZE戦",
+   "lineup": "CYBERSHOKE：RelayX・l1rkuzz・blaster・sLv・naoto（8月結成の新編成）。CYBERHERO：fLACSYS・1tapp・cxtleta・Nekr0・scndoom",
+   "roster": "CYBERSHOKEは7/23に旧SO2ロスターを解散し新規5人と再建。旧CYBERSHOKEのscndoomが8/7にCYBERHERO入りしており内部情報面でも因縁カード",
+   "map_pool": "両者ともRustを多用（CYBERSHOKEはRustで9月3連勝：13-9・17-15。CYBERHEROはRustで9/6敗・9/20勝・9/27勝と5分）",
+   "veto": {
+    "unavailable": true,
+    "reason": "WINLINE EPICシリーズはveto情報を公開しておらず、Liquipedia Standoff 2は下書き段階（Lab Wiki）でデータなし"
+   },
+   "patch": {
+    "unavailable": true,
+    "reason": "Standoff 2のパッチ/バージョンと大会使用ビルドの告知が確認できない"
+   },
+   "series_h2h": "CYBERHERO 2-0（シリーズ）。マップはCYBERHERO 4-2",
+   "map_h2h": "現ロスター編成での対戦実績なし（上記esports.map_h2h参照）",
+   "rating": "ブックメーカー（kushvsporte、9/28時点）はCYBERHERO 1.19 vs CYBERSHOKE 4.26と大差でCYBERHERO優位"
+  }
  },
  "risks": [
-  "指示の大会名『EPIC Jumble Rumble Season 5』はデータフィードの誤記の可能性が高い：Season 5は9/6にCYBERHERO優勝で終了済みで、9/28の本試合はcybersport.ruが9/27に報じた『WINLINE EPIC Standoff 2 Jumble Rumble Season 7 決勝』と一致する",
-  "CYBERHEROは前シーズン（Season 5）王者で2大会連続決勝。CYBERSHOKE側の詳細戦績が不明なため実力比較の材料が乏しい",
-  "Standoff 2はモバイルFPSで試合DBが未整備。スコア・ロスターの事後検証が難しい",
-  "Season 8が10/2-18に予定されており、日程的に本試合がSeason 7最終戦"
+  "データフィードの大会名『EPIC Jumble Rumble Season 5』は誤記とみられる：Season 5は9/6にCYBERHERO優勝で終了済みで、本試合はcybersport.ruが報じる『WINLINE EPIC Standoff 2 Jumble Rumble Season 7 グランドファイナル』（9/28 23:00 JST）と一致",
+  "CYBERSHOKEは8月に結成した新ロスターで大会決勝は今回が初。H2H 2敗は旧編成のもので現戦力の参考度は低い",
+  "CYBERHEROは夏以降2大会優勝の本命でオッズも1.19 vs 4.26と大差。ただし9/20にES1ZEへ敗れており無敵ではない",
+  "元CYBERSHOKEのscndoomがCYBERHERO側で出場見込み",
+  "kushvsporte掲載のCYBERSHOKE 9月の一部敗戦（K27・Nemiga）はCS2部門と混同の可能性があり本ファイルでは不採用"
  ],
  "missing": [
-  "両チームの直近10試合のマップスコア付き戦績",
-  "H2H",
-  "ロスター5人",
-  "決勝のBO形式・マッププール・開始時刻の一次ソース確認",
-  "data_as_ofは調査エージェントが将来時刻（18:00）を書いたため、ファイル保存時刻17:18に訂正"
+  "準々決勝（Berser Spirit・Resolute&Capable戦）と9/16 SaiNts戦・9/4 ES1ZE戦・9/5 VP戦・8/1の2試合のマップ別スコア",
+  "CYBERSHOKEグループBの決定戦以外の対戦（2試合分）の相手・スコア",
+  "決勝のBO形式の一次ソース確認",
+  "CYBERSHOKE新ロスターの署名発表日",
+  "2025年以前のH2H（Season 1〜4・Cosmoシリーズ他。Season 4は準決勝で別ブロックのため対戦なしを確認済み）"
  ],
  "unavailable": {
-  "left.form": "Standoff 2の試合結果DB（escorenews・ggscore・GosuGamers等）が本タイトル未対応。一次ソースのVK・公式Telegramはブロック、Liquipedia standoff2は429（レート制限）が継続、検索エンジン（DuckDuckGo/Bing/Mojeek/Brave/searx）もブロックまたはrobots拒否のため、cybersport.ruのニュース見出しで確認できた事実のみ記載",
-  "right.form": "同上。CYBERHEROのSeason 7準決勝以前（グループ免除か通過か）も未確認",
-  "h2h": "対戦記録を照会できるDBが存在せず未確認。両者が過去に対戦したか（Season 5〜7内を含め）は情報なし。『初対戦』とも断定できない",
-  "common": "60日以内の対戦相手一覧自体が両者とも不完全（上記の取得制約による）ため突き合わせ不能。判明分はcommon_opponents_notesに記載"
+  "left.form": "CYBERSHOKE新ロスター（8月結成）の公式戦はSeason 7の4シリーズのみで、それ以前は旧ロスターの試合（7/12まで）。escorenews・ggscore等のDBはStandoff 2未対応、VK・公式Telegramは当環境からブロック、Liquipedia Standoff 2はLab Wiki（未整備）のため、cybersport.ruの記事とチームページで確認できた分を記載",
+  "h2h": "cybersport.ruの試合アーカイブで確認できた直接対戦は2件（2025-04-17・2026-07-12）。それ以前（Season 1〜3等）の網羅的な対戦検索はDB未整備のため不能。Season 4（2026年5月）は両者別ブロックで対戦なし",
+  "common": "両者の60日対戦一覧はcybersport.ru記事ベースで、CYBERSHOKEのグループB未報道2試合分の相手が欠けるため、共通相手（ES1ZE・Virtus.pro）以外に未把握の共通相手が存在する可能性がある"
  },
  "source_urls": [
-  "https://www.cybersport.ru/tags/standoff-2",
-  "https://www.cybersport.ru/tags/standoff-2?page=2"
+  "https://www.cybersport.ru/tags/standoff-2/cybershoke-srazit-sya-s-cyberhero-v-finale-winline-epic-standoff-2-jumble-rumble",
+  "https://www.cybersport.ru/tournaments/standoff-2/winline-epic-standoff-2-jumble-rumble-season-7",
+  "https://www.cybersport.ru/tags/standoff-2/cybershoke-i-es1ze-team-vyshli-v-plei-off-winline-epic-standoff-2-jumble-rumble",
+  "https://www.cybersport.ru/tags/standoff-2/virtus-pro-srazit-sya-s-rats-esports-v-plei-off-winline-epic-standoff-2-jumble",
+  "https://www.cybersport.ru/tags/standoff-2/cyberhero-stala-chempionom-winline-epic-standoff-2-jumble-rumble-season-5",
+  "https://www.cybersport.ru/tags/standoff-2/cyberhero-stali-chempionami-winline-epic-standoff-2-jumble-rumble-major",
+  "https://www.cybersport.ru/tags/standoff-2/cybershoke-esports-raspustila-sostav-po-standoff-2",
+  "https://www.cybersport.ru/matches/standoff-2/10080994",
+  "https://www.cybersport.ru/teams/standoff-2/cybershoke-esports-2",
+  "https://www.cybersport.ru/teams/standoff-2/cyberhero",
+  "https://www.cybersport.ru/tags/standoff-2/cyberhero-i-cybershoke-proshli-v-polufinal-winline-epic-standoff-2-jumble-rumble",
+  "https://kushvsporte.ru/event/6916354-cybershoke-cyberhero"
  ],
  "calc": {
   "left": {
-   "games": 2,
-   "W": 2,
-   "L": 0,
+   "games": 5,
+   "W": 4,
+   "L": 1,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -128,14 +363,22 @@
     "L": 0,
     "D": 0
    },
-   "streak": "2連勝"
+   "streak": "4連勝",
+   "units_won": 9,
+   "units_lost": 5,
+   "points_for": 9,
+   "points_against": 5,
+   "points_games": 5,
+   "inner_for": 77,
+   "inner_against": 73,
+   "inner_games": 2
   },
   "right": {
-   "games": 4,
-   "W": 4,
-   "L": 0,
+   "games": 10,
+   "W": 9,
+   "L": 1,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 90.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -146,54 +389,105 @@
     "L": 0,
     "D": 0
    },
-   "streak": "4連勝"
+   "streak": "2連勝",
+   "units_won": 20,
+   "units_lost": 8,
+   "points_for": 20,
+   "points_against": 8,
+   "points_games": 10,
+   "inner_for": 149,
+   "inner_against": 134,
+   "inner_games": 4
   },
   "h2h": {
-   "games": 0,
+   "games": 2,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 2,
+   "draw": 0,
+   "units_left": 2,
+   "units_right": 4,
+   "points_left": 2,
+   "points_right": 4,
+   "points_games": 2,
+   "avg_left": 1.0,
+   "avg_right": 2.0,
+   "inner_left": 34,
+   "inner_right": 33,
+   "inner_games": 1
   },
   "common": [
    {
-    "opp": "不明（プレーオフ準決勝の相手）",
+    "opp": "ES1ZE Team",
     "left": [
      {
       "date": "2026-09-27",
       "iso": "2026-09-27",
-      "score": "勝利（スコア未確認）",
+      "score": "2-1",
       "res": "W",
-      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ"
-     },
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）"
+     }
+    ],
+    "right": [
      {
       "date": "2026-09-20",
       "iso": "2026-09-20",
-      "score": "突破（個別スコア未確認）",
+      "score": "1-2",
+      "res": "L",
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループA 進出決定戦"
+     },
+     {
+      "date": "2026-09-04",
+      "iso": "2026-09-04",
+      "score": "2-0",
       "res": "W",
-      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 グループステージ"
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準々決勝（BO3）"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝1敗"
+   },
+   {
+    "opp": "Virtus.pro",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "2-1",
+      "res": "W",
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 グループB 進出決定戦"
      }
     ],
     "right": [
      {
       "date": "2026-09-27",
       "iso": "2026-09-27",
-      "score": "勝利（スコア未確認）",
+      "score": "2-0",
       "res": "W",
-      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 7 プレーオフ"
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 7 準決勝（BO3）"
      },
      {
-      "date": "2026-09-06",
-      "iso": "2026-09-06",
-      "score": "優勝（スコア未確認）",
+      "date": "2026-09-05",
+      "iso": "2026-09-05",
+      "score": "2-1",
       "res": "W",
-      "comp": "WINLINE EPIC Standoff 2 Jumble Rumble Season 5 決勝"
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Season 5 準決勝（BO3）"
+     },
+     {
+      "date": "2026-08-01",
+      "iso": "2026-08-01",
+      "score": "2-0",
+      "res": "W",
+      "comp": "WINLINE EPIC SO2 Jumble Rumble Major 準決勝"
      }
     ],
-    "edge": "even",
-    "basis": null,
+    "edge": "right",
+    "basis": "得失差",
     "latest": "2026-09-27",
-    "left_rec": "2勝0敗",
-    "right_rec": "2勝0敗"
+    "left_rec": "1勝0敗",
+    "right_rec": "3勝0敗"
    }
   ],
   "common_window_days": 60,

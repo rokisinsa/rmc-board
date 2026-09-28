@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-59336c27",
- "data_as_of": "2026-09-28T16:45:00+09:00",
+ "data_as_of": "2026-09-28T21:59:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:30:00+09:00",
  "unit": "マップ",
  "left": {
@@ -79,6 +79,39 @@
     "units_won": 0,
     "units_lost": 1,
     "detail": "Dust2 8-13"
+   },
+   {
+    "date": "2019-09-22",
+    "opp": "Wolsung",
+    "comp": "Samsung GOEXANIMO CS:GO 5x5 #18",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "CS:GO時代・旧ロスターの参考記録（7年前）"
+   },
+   {
+    "date": "2019-09-22",
+    "opp": "coluant",
+    "comp": "Samsung GOEXANIMO CS:GO 5x5 #18",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "CS:GO時代・旧ロスターの参考記録（7年前）"
+   },
+   {
+    "date": "2018-06-17",
+    "opp": "MightyWolves",
+    "comp": "Zowie BenQ GOEXANIMO CS:GO 5x5 #11",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "CS:GO時代・旧ロスターの参考記録（8年前）"
    }
   ],
   "lineup": [
@@ -221,7 +254,8 @@
  "risks": [
   "BO1・1マップ勝負のため番狂わせが起きやすい（グループは同日夜に3連戦）",
   "AimhausはHLTVチームページにロスター未登録で個人成績・実力の情報が乏しい（試合ページ表示の5人で判断）",
-  "HYPERSPIRITは8/29を最後に約1か月公式戦がなく試合勘に不安"
+  "HYPERSPIRITは8/29を最後に約1か月公式戦がなく試合勘に不安",
+  "Aimhausのform 8〜10件目は2018〜2019年CS:GO時代・旧ロスターの参考記録（約7年のブランク）。現ロスターの実戦は2026年の7試合のみで、勝率等の集計値はこの3件分だけ古い記録を含む"
  ],
  "missing": [
   "H2H（初対戦のため存在せず）",
@@ -230,9 +264,9 @@
   "共通の対戦相手（60日窓に該当なし）"
  ],
  "unavailable": {
-  "h2h": "初対戦。HLTVの試合ページ（Urban Riga Open Season 7）のH2Hセクションが0-0表示で、Aimhaus（team id 9199）とHyperSpirit（team id 13012）双方の全結果ページを突き合わせても過去の直接対戦なし",
-  "left.form": "HLTVに残る2026年の公式記録は7試合のみ（それ以前は2019年9月のGOEXANIMO 5x5まで遡る）。バルト地域の大会に散発的に出場するローカルチームのため10試合に満たない",
-  "history": "共通相手なし。Aimhausは2026-07-26を最後に試合がなく、60日窓（2026-08-01〜09-29）内の対戦が0試合。HYPERSPIRITの窓内相手（UPGRADE・Color・Black Phoenix・ex-Zero Tenacity・MASONIC・BET-M・G2 Ares・Just Players・ex-RUBY・Drip Too Hard・Permitta・Bebop・The Last Resort）と突き合わせ不能"
+  "h2h": "初対戦。2026-09-28にHLTVで再確認：試合ページ（2398814）のH2Hセクションが0-0、かつAimhaus（team id 9199）の全時代の対戦記録は11試合のみ（2026年7件＋2018〜2019年4件）でHyperSpiritとの対戦は存在しない。HyperSpirit（team id 13012）の結果ページにもAimhaus戦なし",
+  "history": "共通相手なし。Aimhausは2026-07-26を最後に試合がなく、60日窓（2026-08-01〜09-29）内の対戦が0試合。HYPERSPIRITの窓内相手（UPGRADE・Color・Black Phoenix・ex-Zero Tenacity・MASONIC・BET-M・G2 Ares・Just Players・ex-RUBY・Drip Too Hard・Permitta・Bebop・The Last Resort）と突き合わせ不能",
+  "left.form": "Aimhausの2026年（CS2・現ロスター）の公式記録は7試合のみ。8〜10件目はHLTVに残る直近のそれ以前の試合＝CS:GO時代（2018〜2019年・旧ロスター）の参考記録で、約7年のブランクがあるため現在の実力指標としては扱えない"
  },
  "source_urls": [
   "https://www.hltv.org/events/9339/urban-riga-open-season-7",
@@ -246,13 +280,35 @@
   "https://www.hltv.org/team/10333/sangal",
   "https://www.hltv.org/matches/2398814/aimhaus-vs-hyperspirit-urban-riga-open-season-7"
  ],
+ "deep": {
+  "ranking": "Aimhaus＝HLTV・VRSとも圏外（ラトビア）。HyperSpirit＝HLTV139位・VRS155位（ルーマニア）",
+  "h2h": "初対戦（2026-09-28再確認：試合ページH2H 0-0、Aimhausの全対戦記録11試合にHyperSpirit戦なし）",
+  "recent_form": "Aimhausは7月末にkleverr Azeron Baltic Superfinalsを3連勝で制した後、約2か月公式戦なし。HyperSpiritは8月末に3連敗（直近10戦4勝6敗）した後、約1か月のブランク",
+  "lineup": "Aimhaus＝Ed1m・BRK・flairr・Yamero・silrak（HLTV試合ページ表示。チームページにロスター未登録）。HyperSpirit＝d1maje・Ciocardau・starplajerz・Q-Q・Scr0b",
+  "roster": "HyperSpiritは2026-07-21にデンマークのQ-QとScr0bが加入（6月にADRON・raggaが離脱）。Aimhausのロスター変更情報はなし",
+  "map_pool": "大会プールはCache・Dust2・Mirage・Inferno・Nuke・Ancient・Anubis（Cacheを含む独自プール、HLTVイベントページ）",
+  "veto": "BO1でマップはTBA。Aimhausの6月のUrban Riga S5のBO1は3試合ともDust2",
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用パッチの記載を確認できず"
+  },
+  "series_h2h": "0-0（初対戦）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "初対戦のためなし"
+  },
+  "rating": {
+   "unavailable": true,
+   "reason": "Aimhaus選手はHLTVに個人レーティングの記録がなく、HyperSpirit選手の直近レーティングも個別に未確認"
+  }
+ },
  "calc": {
   "left": {
-   "games": 7,
-   "W": 4,
-   "L": 3,
+   "games": 10,
+   "W": 5,
+   "L": 5,
    "D": 0,
-   "win_rate": 57.1,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -264,11 +320,11 @@
     "D": 0
    },
    "streak": "3連勝",
-   "units_won": 7,
-   "units_lost": 4,
-   "points_for": 7,
-   "points_against": 4,
-   "points_games": 7
+   "units_won": 10,
+   "units_lost": 8,
+   "points_for": 10,
+   "points_against": 8,
+   "points_games": 10
   },
   "right": {
    "games": 10,

@@ -4,7 +4,7 @@ import re
 SPORTS = {  # sport_id: (RMC表示名, 区分)  区分 real=実チーム/選手のeスポーツ, sim=シミュレーション・バーチャル系, br=バトルロイヤル
     109: ("CS2", "real"), 110: ("LoL", "real"), 111: ("Dota 2", "real"), 115: ("World of Tanks", "real"),
     123: ("CrossFire", "real"), 125: ("Rainbow Six", "real"), 230: ("Standoff 2", "real"), 134: ("King of Glory", "real"), 194: ("VALORANT", "real"),
-    201: ("Mobile Legends", "real"), 222: ("StarCraft: BW", "real"), 170: ("Fortnite", "br"),
+    201: ("Mobile Legends", "real"), 222: ("StarCraft: BW", "real"), 230: ("Standoff 2", "real"), 170: ("Fortnite", "br"),
     137: ("FC 26（eFootball）", "sim"), 153: ("NBA 2K26", "sim"), 238: ("Cricket 24", "sim"), 300: ("eサッカー", "sim"),
     302: ("eバスケットボール", "sim"), 303: ("eテニス", "sim"), 305: ("V-クリケット", "sim"), 309: ("eサッカー：ヴォルタ", "sim"),
     322: ("eクリケット", "sim"), 323: ("イバケジャダ（BET CHANNEL表記）", "sim"),

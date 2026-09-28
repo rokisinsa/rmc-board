@@ -1,10 +1,10 @@
 {
  "match_id": "m20260929-1be5b03d",
- "data_as_of": "2026-09-28T17:05:00+09:00",
+ "data_as_of": "2026-09-28T22:12:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "eStar（eStar電競）",
-  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分1勝4敗（9/13 AG戦の勝敗は未確認）",
+  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分1勝4敗（9/13 AG戦の勝敗は未確認）。S19はプレーオフ7/22にEPへ1-3で敗れる",
   "form": [
    {
     "date": "2026-09-25",
@@ -60,6 +60,17 @@
     "units_won": 0,
     "units_lost": 2,
     "detail": "新黒色城鎮・新異域小城で連敗"
+   },
+   {
+    "date": "2026-07-22",
+    "opp": "EP",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ 勝者組半決賽（報道表記）",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "BO5。eStar側から 10:8 / 8:10 / 4:10 / 6:10"
    }
   ],
   "lineup": [
@@ -110,7 +121,7 @@
  },
  "right": {
   "name": "EP（Evolution Power／EP.快手）",
-  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分3勝2敗（9/12 LGD戦の勝敗は未確認）。夏季賽常規賽では上位常連（6/16時点11勝3敗2位の記録）",
+  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分3勝2敗（9/12 LGD戦の勝敗は未確認）。S19はプレーオフ敗者組決賽でBSに2-3で敗れベスト3相当",
   "form": [
    {
     "date": "2026-09-26",
@@ -166,6 +177,28 @@
     "units_won": 2,
     "units_lost": 1,
     "detail": "10:7 / 8:10 / 10:4（新供電所・新異域小城・沙漠灰）"
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "BS",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ 敗者組決賽",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "BO5。マップ別スコア未確認。この敗戦でEPのS19は終了"
+   },
+   {
+    "date": "2026-07-22",
+    "opp": "eStar",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ 勝者組半決賽（報道表記）",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "BO5。EP側から 8:10 / 10:8 / 10:4 / 10:6"
    }
   ],
   "lineup": [
@@ -224,7 +257,17 @@
    }
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-07-22",
+   "event": "CFML 2026夏季賽（S19）プレーオフ 勝者組半決賽（報道表記）",
+   "score": "1-3",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 3,
+   "detail": "BO5。eStar側から 10:8 / 8:10 / 4:10 / 6:10"
+  }
+ ],
  "common_opponents_notes": [
   "60日以内（8/1以降）の共通対戦相手：XROCK・Q9・EDG・TLG・AG（eStarのAG戦9/13は勝敗未確認のためhistory未収録）",
   "共通相手比較の判明分：XROCK戦 eStar 0-2 L／EP 0-2 L、Q9戦 eStar 0-2 L／EP 0-2 L、EDG戦 eStar 2-0 W／EP 2-1 W、TLG戦 eStar 0-2 L／EP 2-0 W、AG戦 eStar 不明／EP 2-1 W"
@@ -236,22 +279,24 @@
   "map_pool": "秋季賽で使用確認済み：新黒色城鎮・離島・新衛星基地・新鷹眼・新異域小城・沙漠灰・新供電所",
   "veto": "不明（veto情報の公開ソースなし）",
   "patch": "不明",
-  "map_h2h": "今季直接対戦なしのためデータなし"
+  "map_h2h": "今季（S20）は9/29が初対戦。S19プレーオフ7/22（EP 3-1 eStar）はラウンドスコアのみ確認でマップ名は未確認"
  },
  "risks": [
   "eStarは判明分4連敗中でマップ取得も直近3試合ゼロ。EPも直近2連敗だが中身は上位2チーム（XROCK・Q9）相手。ブックメーカーはEP優位（5.88対1.12）",
   "kushvsporteのマップ別ラウンド表記は一部不整合があり、detailは整合が取れたもののみ記載",
-  "9/12・9/13の未確認試合の結果次第で両者の実際の成績は変わる"
+  "9/12・9/13の未確認試合の結果次第で両者の実際の成績は変わる",
+  "公式プレビュー（9/11）は秋季賽を『新賽季・新陣容』と表現しており、夏季賽からのロスター変動の可能性あり（具体的な移籍情報は未確認）"
  ],
  "missing": [
   "eStarの9/13 AG戦、EPの9/12 LGD戦の勝敗（腾讯新聞は動画クリップのみで比分文字情報なし、kushvsporteは9/15以降のみ収録）",
   "正式な積分榜（順位表）",
-  "eStarの出場5人・EPの残り2人のロスター"
+  "eStarの出場5人・EPの残り2人のロスター",
+  "S19プレーオフ7/22（EP 3-1 eStar）のマップ名、7/26敗者組決賽（BS 3-2 EP）のマップ別スコア"
  ],
  "unavailable": {
-  "h2h": "2026秋季賽では9/29が初対戦。夏季賽（S19）等の過去の直接対戦は、Liquipediaが429で全アクセス不可、新浪の日次賽果記事が断片的、kushvsporteにH2H欄がないため比分を確認できず。確認可能な直接対戦記録は0件",
-  "left.form": "秋季賽6試合のうち5試合のみ勝敗確認。9/13 AG戦は比分ソースなし。7月以前（夏季賽）は日次記事が断片的で網羅不能",
-  "right.form": "秋季賽6試合のうち5試合のみ勝敗確認。9/12 LGD戦は比分ソースなし。同上"
+  "h2h": "S19プレーオフ7/22（EP 3-1 eStar、新浪の穿越火線賽事フィードで各小局スコアまで確認）の1件のみ。それ以前の対戦はLiquipediaが9/28 22時時点も429で全アクセス不可、新浪の日次賽果記事は断片的、kushvsporteにH2H欄がないため確認不能",
+  "left.form": "直近10試合中6試合のみスコア確認。9/13 AG戦（全場回放で3マップ実施を確認）は勝者を記載したテキストソースがない。S19の7/22敗北後の敗者組の対戦有無・結果も未確認",
+  "right.form": "直近10試合中7試合のみスコア確認。9/12 LGD戦（全場回放で3マップ実施を確認）は勝者を記載したテキストソースがない。S19の7/22と7/26の間の対戦（勝者組決賽等）も結果未確認"
  },
  "source_urls": [
   "https://kushvsporte.ru/freeforcats/champ/50013-crossfire-mobile-cfml",
@@ -269,15 +314,43 @@
   "https://news.qq.com/rain/a/20260917V00KDF00",
   "https://news.qq.com/rain/a/20260917V007OX00",
   "https://news.qq.com/rain/a/20260920V07ZX800",
-  "https://www.sina.cn/news/detail/5310575500593378.html"
+  "https://www.sina.cn/news/detail/5310575500593378.html",
+  "https://www.sina.cn/media/6257633707",
+  "https://news.qq.com/rain/a/20260911A0FEPK00",
+  "https://www.sina.cn/news/detail/5325068441749218.html"
  ],
+ "deep": {
+  "ranking": "EPは判明分3勝2敗（S19ベスト3相当）に対しeStarは1勝4敗の下位で、順位・実績とも差がある",
+  "h2h": "直近の直接対戦はS19プレーオフ7/22でEPが3-1。S20では9/29が初対戦",
+  "recent_form": "eStarは判明分4連敗中で直近3試合マップ取得ゼロ。EPも直近2連敗だが相手は上位のQ9・XROCK",
+  "lineup": "eStarは出場選手の個人名も未確認（クリップなし）。EP＝墨白・浩劫・大夢・小陌（腾讯新聞クリップで確認できた範囲）",
+  "roster": {
+   "unavailable": true,
+   "reason": "正式5人ロスター・移籍情報の公開ソースなし。公式プレビュー（9/11）が秋季賽を『新賽季・新陣容』と表現しており変動の可能性のみ確認"
+  },
+  "map_pool": "S20使用確認マップは7種。eStarは9/18のEDG戦（新供電所を含む）以外で今季マップをほぼ取れていない",
+  "veto": {
+   "unavailable": true,
+   "reason": "CFMLはveto情報を公開していない（配信・記事にBAN/PICK記載なし）"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "使用クライアントのバージョン表記なし"
+  },
+  "series_h2h": "確認分でEP 1勝（7/22の3-1）対eStar 0勝",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "7/22のBO5はラウンドスコアのみでマップ名の記載がない"
+  },
+  "rating": "ブックメーカーはEP明確優位（kushvsporte掲載オッズ eStar 5.88 対 EP 1.12）"
+ },
  "calc": {
   "left": {
-   "games": 5,
+   "games": 6,
    "W": 1,
-   "L": 4,
+   "L": 5,
    "D": 0,
-   "win_rate": 20.0,
+   "win_rate": 16.7,
    "home": {
     "W": 0,
     "L": 0,
@@ -289,18 +362,18 @@
     "D": 0
    },
    "streak": "3連敗",
-   "units_won": 2,
-   "units_lost": 8,
-   "points_for": 2,
-   "points_against": 8,
-   "points_games": 5
+   "units_won": 3,
+   "units_lost": 11,
+   "points_for": 3,
+   "points_against": 11,
+   "points_games": 6
   },
   "right": {
-   "games": 5,
-   "W": 3,
-   "L": 2,
+   "games": 7,
+   "W": 4,
+   "L": 3,
    "D": 0,
-   "win_rate": 60.0,
+   "win_rate": 57.1,
    "home": {
     "W": 0,
     "L": 0,
@@ -312,17 +385,24 @@
     "D": 0
    },
    "streak": "2連敗",
-   "units_won": 6,
-   "units_lost": 6,
-   "points_for": 6,
-   "points_against": 6,
-   "points_games": 5
+   "units_won": 11,
+   "units_lost": 10,
+   "points_for": 11,
+   "points_against": 10,
+   "points_games": 7
   },
   "h2h": {
-   "games": 0,
+   "games": 1,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 1,
+   "draw": 0,
+   "units_left": 1,
+   "units_right": 3,
+   "points_left": 1,
+   "points_right": 3,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 3.0
   },
   "common": [
    {

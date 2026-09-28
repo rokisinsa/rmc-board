@@ -1,6 +1,6 @@
 {
  "match_id": "m20260929-9d234a66",
- "data_as_of": "2026-09-28T17:05:00+09:00",
+ "data_as_of": "2026-09-28T22:12:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "BS（白鯊／BaiSha Gaming）",
@@ -49,6 +49,28 @@
     "units_won": 2,
     "units_lost": 0,
     "detail": "マップ2枚先取（新鷹眼・新異域小城。ラウンド詳細はソース間で不整合のため省略）"
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "EP",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ 敗者組決賽",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "BO5。マップ別スコア未確認。MVP温予.白鯊。勝利で総決賽（対KZ）へ進出し優勝"
+   },
+   {
+    "date": "2026-07-23",
+    "opp": "TLG",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "BO5。マップ別スコア未確認。MVP温予.白鯊（段階名はソースにより不明確）"
    }
   ],
   "lineup": [
@@ -100,7 +122,7 @@
  },
  "right": {
   "name": "TLG（Tidal Legends Gaming）",
-  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分2勝3敗（9/12 XROCK戦の勝敗は未確認）",
+  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分2勝3敗（9/12 XROCK戦の勝敗は未確認）。S19はプレーオフ7/23にBSへ0-3で敗退",
   "form": [
    {
     "date": "2026-09-26",
@@ -156,6 +178,17 @@
     "units_won": 2,
     "units_lost": 0,
     "detail": "新黒色城鎮・新異域小城で2連取（ラウンド詳細は不整合のため省略）"
+   },
+   {
+    "date": "2026-07-23",
+    "opp": "BS",
+    "comp": "CFML 2026夏季賽（S19）プレーオフ",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "BO5。マップ別スコア未確認。MVP温予.白鯊"
    }
   ],
   "lineup": [
@@ -204,7 +237,17 @@
    }
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-07-23",
+   "event": "CFML 2026夏季賽（S19）プレーオフ",
+   "score": "3-0",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 0,
+   "detail": "BO5。マップ別スコア未確認。MVP温予.白鯊（段階名はソースにより不明確）"
+  }
+ ],
  "common_opponents_notes": [
   "60日以内（8/1以降）の共通対戦相手：eStar・AG・XROCK・LGD・KZ。BS対KZ（9/11）とTLG対XROCK（9/12）は勝敗未確認のためhistoryに未収録",
   "共通相手比較の判明分：eStar戦 BS 2-0 W／TLG 2-0 W、AG戦 BS 2-1 W／TLG 2-1 W、LGD戦 BS 2-0 W／TLG 0-2 L、XROCK戦 BS 2-0 W／TLG 不明、KZ戦 BS 不明／TLG 1-2 L"
@@ -216,23 +259,25 @@
   "map_pool": "秋季賽で使用確認済み：新黒色城鎮・離島・新衛星基地・新鷹眼・新異域小城・沙漠灰・新供電所",
   "veto": "不明（veto情報の公開ソースなし）",
   "patch": "不明",
-  "map_h2h": "今季直接対戦なしのためデータなし"
+  "map_h2h": "今季（S20）は9/29が初対戦。S19プレーオフ7/23（BS 3-0 TLG）のマップ別スコアは未確認"
  },
  "risks": [
   "BSは判明分4連勝＋失マップ1と好調、TLGは直近2勝4敗相当（未確認1試合を除く）でブックメーカーもBS優位（1.19対4.57）",
   "kushvsporteのマップ別ラウンド表記は一部不整合（OT表記の乱れ等）があり、detailは整合が取れたもののみ記載",
-  "9/11・9/12・9/13の未確認試合の結果次第で両者の実際の順位・連勝数は変わる"
+  "9/11・9/12・9/13の未確認試合の結果次第で両者の実際の順位・連勝数は変わる",
+  "公式プレビュー（9/11）は秋季賽を『新賽季・新陣容』と表現しており、夏季賽からのロスター変動の可能性あり（具体的な移籍情報は未確認）"
  ],
  "missing": [
   "BSの9/11 KZ戦・9/13 Q9戦の勝敗（腾讯新聞は全場回放クリップのみで比分文字情報なし、kushvsporteは9/15以降のみ収録）",
   "TLGの9/12 XROCK戦の勝敗（同上）",
   "正式な積分榜（順位表）。CFML公式微博の積分榜画像は本文テキスト化されておらず検索に出ない",
-  "両チームの正式5人ロスター・スタンドイン情報"
+  "両チームの正式5人ロスター・スタンドイン情報",
+  "S19プレーオフ7/23（BS 3-0 TLG）のマップ別スコア、BSの7/24勝者組決賽・総決賽のスコア"
  ],
  "unavailable": {
-  "h2h": "2026秋季賽では9/29が初対戦。過去シーズン（2026夏季賽S19等）で対戦した可能性が高いが、Liquipedia（CFML S19/S20ページ）が429で全アクセス不可、CFML公式微博ミラー（新浪）の日次賽果記事は断片的で該当カードの比分を確認できず、kushvsporteの試合ページにもH2H欄なし。よって確認可能な直接対戦記録は0件",
-  "left.form": "直近10試合中、秋季賽6試合のうち4試合のみ勝敗確認。9/11 KZ戦・9/13 Q9戦は比分ソースなし。7月下旬以前（夏季賽プレーオフ）は日次記事が断片的で網羅不能",
-  "right.form": "秋季賽6試合のうち5試合のみ勝敗確認。9/12 XROCK戦は比分ソースなし。それ以前は同上"
+  "h2h": "S19プレーオフ7/23（BS 3-0 TLG、新浪の穿越火線賽事フィードで確認）の1件のみスコア確認。S19常規賽等それ以前の対戦はLiquipedia（CFML S19/S20ページ）が9/28 22時時点も429で全アクセス不可、新浪の日次賽果記事は断片的、kushvsporteの試合ページにH2H欄なしのため確認不能",
+  "left.form": "直近10試合中6試合のみスコア確認。9/11 KZ戦（全場回放で3マップ実施を確認）・9/13 Q9戦（同3マップ）は勝者を記載したテキストソースがない。S19の7/24勝者組決賽（対KZ、敗北とみられる）と総決賽（KZに勝利し優勝）もスコア未確認のため未収録",
+  "right.form": "直近10試合中6試合のみスコア確認。9/12 XROCK戦（全場回放で2マップ実施を確認）は勝者を記載したテキストソースがない。S19プレーオフの7/23以前の対戦もスコア未確認"
  },
  "source_urls": [
   "https://kushvsporte.ru/freeforcats/champ/50013-crossfire-mobile-cfml",
@@ -252,12 +297,40 @@
   "https://news.qq.com/rain/a/20260917V00KDG00",
   "https://news.qq.com/rain/a/20260918V087I400",
   "https://news.qq.com/rain/a/20260920V07ZX700",
-  "https://www.sina.cn/media/6257633707"
+  "https://www.sina.cn/media/6257633707",
+  "https://www.sina.cn/media/6257633707",
+  "https://news.qq.com/rain/a/20260911A0FEPK00",
+  "https://www.sina.cn/news/detail/5325062010832322.html"
  ],
+ "deep": {
+  "ranking": "BSは判明分4勝0敗・失マップ1で首位級（S19王者）。TLGは2勝3敗の中位で降格圏ではないが上位とは差",
+  "h2h": "直近の直接対戦はS19プレーオフ7/23でBSが3-0完勝。S20では9/29が初対戦",
+  "recent_form": "BSは判明分4連勝（S19プレーオフから公式戦6連勝以上）。TLGは9/26にAGへ逆転勝ちしたが直近6戦2勝4敗相当",
+  "lineup": "BS＝温予・時涯・安憶・単点、TLG＝人机・小布丁・小宇子・風鈞（いずれも腾讯新聞クリップで確認できた範囲、5人フルは未確認）",
+  "roster": {
+   "unavailable": true,
+   "reason": "正式5人ロスター・移籍情報の公開ソースなし。公式プレビュー（9/11）が秋季賽を『新賽季・新陣容』と表現しており変動の可能性のみ確認"
+  },
+  "map_pool": "S20使用確認マップは7種。TLGは9/16に新黒色城鎮・新異域小城でeStarに連勝しており同系マップが持ちマップ候補",
+  "veto": {
+   "unavailable": true,
+   "reason": "CFMLはveto情報を公開していない（配信・記事にBAN/PICK記載なし）"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "使用クライアントのバージョン表記なし"
+  },
+  "series_h2h": "確認分でBS 1勝（S19プレーオフ3-0）対TLG 0勝",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "7/23のBO5のマップ別スコアを記載したソースなし"
+  },
+  "rating": "ブックメーカーはBS明確優位（kushvsporte掲載オッズ 1.19 対 4.57）"
+ },
  "calc": {
   "left": {
-   "games": 4,
-   "W": 4,
+   "games": 6,
+   "W": 6,
    "L": 0,
    "D": 0,
    "win_rate": 100.0,
@@ -271,19 +344,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": "4連勝",
-   "units_won": 8,
-   "units_lost": 1,
-   "points_for": 8,
-   "points_against": 1,
-   "points_games": 4
+   "streak": "6連勝",
+   "units_won": 14,
+   "units_lost": 3,
+   "points_for": 14,
+   "points_against": 3,
+   "points_games": 6
   },
   "right": {
-   "games": 5,
+   "games": 6,
    "W": 2,
-   "L": 3,
+   "L": 4,
    "D": 0,
-   "win_rate": 40.0,
+   "win_rate": 33.3,
    "home": {
     "W": 0,
     "L": 0,
@@ -296,16 +369,23 @@
    },
    "streak": null,
    "units_won": 5,
-   "units_lost": 7,
+   "units_lost": 10,
    "points_for": 5,
-   "points_against": 7,
-   "points_games": 5
+   "points_against": 10,
+   "points_games": 6
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
+   "games": 1,
+   "left": 1,
    "right": 0,
-   "draw": 0
+   "draw": 0,
+   "units_left": 3,
+   "units_right": 0,
+   "points_left": 3,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 3.0,
+   "avg_right": 0.0
   },
   "common": [
    {

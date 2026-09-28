@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-a85e1677",
- "data_as_of": "2026-09-28T17:05:00+09:00",
+ "data_as_of": "2026-09-28T22:13:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "XROCK（XROCK.快手）",
@@ -100,7 +100,7 @@
  },
  "right": {
   "name": "KZ（KINGZERO-eSports／KZ.斗魚）",
-  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分4勝1敗（9/11 BS戦の勝敗は未確認）",
+  "ranking": "CFML 2026秋季賽（S20）常規賽：判明分4勝1敗（9/11 BS戦の勝敗は未確認）。S19は総決賽でBSに敗れ準優勝（勝者組決賽7/24でBSに勝利とみられるが、いずれもスコア未確認）",
   "form": [
    {
     "date": "2026-09-27",
@@ -198,7 +198,8 @@
  "common_opponents_notes": [
   "60日以内（8/1以降）の共通対戦相手：Q9・EDG・TLG・BS（XROCKのTLG戦9/12とKZのBS戦9/11は勝敗未確認のためhistory未収録）",
   "共通相手比較の判明分：Q9戦 XROCK 0-2 L／KZ 1-2 L、EDG戦 XROCK 2-0 W／KZ 2-1 W、BS戦 XROCK 0-2 L／KZ 不明、TLG戦 XROCK 不明／KZ 2-1 W",
-  "KZ対LGD（9/15）はkushvsporteの試合ページで2:1（KZ勝ち）だが、同サイトのKZ-EDGページの直近成績欄には『9/24 LGDに0:2負け』という矛盾表記あり。試合ページの2:1を採用（KZ対LGDの対戦日は9/15が正で、リプレイ動画も9.15 KZ vs LGDと一致）"
+  "KZ対LGD（9/15）はkushvsporteの試合ページで2:1（KZ勝ち）だが、同サイトのKZ-EDGページの直近成績欄には『9/24 LGDに0:2負け』という矛盾表記あり。試合ページの2:1を採用（KZ対LGDの対戦日は9/15が正で、リプレイ動画も9.15 KZ vs LGDと一致）",
+  "KZはS19総決賽進出（準優勝）の実績。XROCKはS19夏季賽5/27にQ9へ1-2で敗北（60日窓外のためhistory対象外）"
  ],
  "venue": "中国国内開催（CFML 2026秋季賽会場、中立）。試合開始 9/30 20:30 JST（中国時間19:30）",
  "esports": {
@@ -213,17 +214,19 @@
   "KZは判明分4勝1敗の上位、XROCKは3勝2敗で直近2連勝（EP・eStarに2-0）と上げ潮。上位対決",
   "KZのKINGZEROはRainbow Six等の他部門も持ち、kushvsporteのチーム直近成績欄には他ゲームの試合が混入するため、本ファイルはCFML大会ページ（champ 50013）配下の試合のみ採用",
   "kushvsporteのマップ別ラウンド表記は一部不整合があり、detailは整合が取れたもののみ記載",
-  "9/11・9/12の未確認試合の結果で実際の成績・順位は変わる"
+  "9/11・9/12の未確認試合の結果で実際の成績・順位は変わる",
+  "公式プレビュー（9/11）は秋季賽を『新賽季・新陣容』と表現しており、夏季賽からのロスター変動の可能性あり（具体的な移籍情報は未確認）"
  ],
  "missing": [
   "XROCKの9/12 TLG戦、KZの9/11 BS戦の勝敗（腾讯新聞は動画クリップのみ、kushvsporteは9/15以降のみ収録）",
   "正式な積分榜（順位表）",
-  "XROCKの正式5人ロスター"
+  "XROCKの正式5人ロスター",
+  "KZのS19プレーオフ（7/24 対BS勝者組決賽・総決賽）のスコア"
  ],
  "unavailable": {
-  "h2h": "2026秋季賽では9/30が初対戦。夏季賽（S19）等の過去の直接対戦は、Liquipediaが429で全アクセス不可、新浪の日次賽果記事が断片的、kushvsporteにH2H欄がないため比分を確認できず。確認可能な直接対戦記録は0件",
-  "left.form": "秋季賽6試合のうち5試合のみ勝敗確認。9/12 TLG戦は比分ソースなし。7月以前（夏季賽）は日次記事が断片的で網羅不能",
-  "right.form": "秋季賽6試合のうち5試合のみ勝敗確認。9/11 BS戦は比分ソースなし。同上"
+  "h2h": "2026秋季賽（S20）では9/30が初対戦。S19夏季賽5/27の新浪記事でQ9 2-1 XROCKは確認できたがXROCK対KZの直接対戦の記録は確認できず。Liquipediaは9/28 22時時点も429で全アクセス不可、新浪の日次賽果記事は断片的、kushvsporteにH2H欄なし。確認可能な直接対戦記録は0件",
+  "left.form": "直近10試合中5試合のみスコア確認。9/12 TLG戦は全場回放で2マップ実施（沙漠灰・新供電所）まで確認できるが、勝者を記載したテキストソースがない。S19（5/27にQ9へ1-2敗北等）から9/11までの対戦は断片的にしか確認できないため未収録",
+  "right.form": "直近10試合中5試合のみスコア確認。9/11 BS戦は全場回放で3マップ実施まで確認できるが、勝者を記載したテキストソースがない。S19プレーオフ（7/24勝者組決賽でBSに勝利とみられる・総決賽でBSに敗北）はスコア未確認のため未収録"
  },
  "source_urls": [
   "https://kushvsporte.ru/freeforcats/champ/50013-crossfire-mobile-cfml",
@@ -241,8 +244,42 @@
   "https://news.qq.com/rain/a/20260911V0GEJ200",
   "https://news.qq.com/rain/a/20260913V075IU00",
   "https://news.qq.com/rain/a/20260916V0AU7A00",
-  "https://news.qq.com/rain/a/20260920V07Z4D00"
+  "https://news.qq.com/rain/a/20260920V07Z4D00",
+  "https://www.sina.cn/media/6257633707",
+  "https://news.qq.com/rain/a/20260911A0FEPK00",
+  "https://www.sina.cn/news/detail/5303309767284393.html",
+  "https://www.sina.cn/news/detail/5325062010832322.html",
+  "https://news.qq.com/rain/a/20260913V075IU00",
+  "https://news.qq.com/rain/a/20260913V075IV00"
  ],
+ "deep": {
+  "ranking": "KZは判明分4勝1敗の上位（S19準優勝）、XROCKは3勝2敗で直近2連勝と上げ潮の上位対決",
+  "h2h": "S20では9/30が初対戦。過去の直接対戦記録は確認できるソースがない（Liquipedia 429等）",
+  "recent_form": "XROCKはEP・eStarに連続2-0で2連勝中。KZは9/27にQ9へ1-2（第1マップは13:12 OTで先取）で今季初黒星の直後",
+  "lineup": "XROCK＝月亮のみクリップで確認。KZ＝五歳・天意・林准・熱恋・念語の5人をクリップで確認",
+  "roster": {
+   "unavailable": true,
+   "reason": "正式5人ロスター・移籍情報の公開ソースなし。公式プレビュー（9/11）が秋季賽を『新賽季・新陣容』と表現しており変動の可能性のみ確認"
+  },
+  "map_pool": "S20使用確認マップは7種。KZは新供電所・新異域小城で9/18にAGへ完勝。XROCKは新鷹眼で9/15にEDGを下した",
+  "veto": {
+   "unavailable": true,
+   "reason": "CFMLはveto情報を公開していない（配信・記事にBAN/PICK記載なし）"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "使用クライアントのバージョン表記なし"
+  },
+  "series_h2h": "0-0（確認可能な範囲で対戦記録なし）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "直接対戦の記録自体が確認できない"
+  },
+  "rating": {
+   "unavailable": true,
+   "reason": "本試合のブックメーカーオッズは未掲出（kushvsporteのオッズ確認は試合ページ公開後）"
+  }
+ },
  "calc": {
   "left": {
    "games": 5,

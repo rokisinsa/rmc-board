@@ -1,16 +1,16 @@
 {
  "match_id": "m20260929-4b0e1bed",
- "data_as_of": "2026-09-28T17:15:00+09:00",
+ "data_as_of": "2026-09-28T22:12:00+09:00",
  "start_jst_confirmed": "2026-09-29T19:00:00+09:00",
  "unit": "ゲーム",
  "left": {
-  "name": "Leta（신상문 / Shin Sang-moon, Terran）",
-  "ranking": "ASL21で4強（キャリア初のベスト4）→ASL22は16強シード。ASL22 16強グループB 1位",
+  "name": "Leta（신상문 / シン・サンムン, Terran）",
+  "ranking": "ASL21で予選（4番シード＝ティア4）から勝ち上がりキャリア初の4強→ASL22は16強シード。ASL22 16強グループB 1位。KeSPA時代（〜2013年）は通算609戦356勝（勝率58.5%）の名テラン",
   "form": [
    {
     "date": "2026-09-08",
     "opp": "Kim Myung-woon（김명운, Z）",
-    "comp": "ASL Season 22 16強 グループB 勝者戦",
+    "comp": "ASL Season 22 16強 グループB 勝者戦（BO3）",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -21,11 +21,11 @@
    {
     "date": "2026-09-08",
     "opp": "Kim Kyung-mo（김경모, Z）",
-    "comp": "ASL Season 22 16強 グループB 初戦",
+    "comp": "ASL Season 22 16強 グループB 初戦（BO3）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "勝利（セットスコア未確認）",
     "res": "W",
-    "detail": "メカニックとディフェンシブマトリックスで19分に2ハッチェリー破壊"
+    "detail": "メカニックとディフェンシブマトリックスで19分に2ハッチェリー破壊。報道見出しは『圧倒的優位で勝者戦進出』"
    },
    {
     "date": "2026-05-11",
@@ -46,32 +46,67 @@
     "res": "W",
     "units_won": 3,
     "units_lost": 0,
-    "detail": "Knockout・Match Point・Attitudeでシャットアウト。生涯初の4強進出"
+    "detail": "Knockout・Match Point・Attitudeでシャットアウト。生涯初の4強進出（5シーズンぶり本選復帰で）"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Kim Myung-woon（김명운, Z）",
+    "comp": "ASL Season 21 24強 グループF 最終戦（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "Polstarで勝利しF組2位で16強へ（『黄金の16強最後の入場者』）"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Lee Je-dong（이제동, Z）",
+    "comp": "ASL Season 21 24強 グループF 勝者戦（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "Jadeでバイオ攻勢を止められ敗戦（이제동がF組1位）"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Best（도재욱, P）",
+    "comp": "ASL Season 21 24強 グループF 初戦（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "Octagonでバルチャー/タンク運用により27分の長期戦を制す"
    }
   ],
   "lineup": [
-   "ソロ競技。種族 Terran。ASL21ベスト4によりASL22は16強シード（24強免除）"
-  ]
+   "ソロ競技。種族 Terran。ASL21ベスト4によりASL22は16強シード（24強免除）",
+   "ASL21 16強グループD（황병영・김지성・이재호と同組、4/21）を1位通過（個別スコアは下記unavailable参照）"
+  ],
+  "history": []
  },
  "right": {
-  "name": "Soulkey（김민철 / Kim Min-chul, Zerg）",
-  "ranking": "ASL S17・S19優勝、2024 SSL AUTUMN優勝。S20・S21は本選に届かず、3シーズンぶりの8強復帰。ASL22 16強グループC 2位",
+  "name": "Soulkey（김민철 / キム・ミンチョル, Zerg）",
+  "ranking": "ASL通算4回優勝（S17・S19等。直近はS19、2025年）＋KSL S2・2024 SSL AUTUMN優勝の現役最強級Zerg。ASL21は24強敗退、ASL22で3シーズンぶり8強復帰。ASL22 16強グループC 2位。Liquipedia集計の通算1132戦690勝442敗（勝率61%）",
   "form": [
    {
     "date": "2026-09-14",
     "opp": "Cho Il-jang（조일장, Z）",
-    "comp": "ASL Season 22 16強 グループC 最終戦",
+    "comp": "ASL Season 22 16強 グループC 最終戦（BO3）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
     "units_lost": 0,
-    "detail": "Colorless Fateでガス経済からミュータ制空、Knockoutで空中アーマー+2とスコージ活用。初戦のリベンジ"
+    "detail": "Colorless Fateでガス経済からミュータ制空、Knockoutで空中アーマー+2とスコージ活用。初戦のリベンジでC組2位通過"
    },
    {
     "date": "2026-09-14",
     "opp": "Jung Young-jae（정영재, T）",
-    "comp": "ASL Season 22 16強 グループC 敗者戦",
+    "comp": "ASL Season 22 16強 グループC 敗者戦（BO3）",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -82,92 +117,174 @@
    {
     "date": "2026-09-14",
     "opp": "Cho Il-jang（조일장, Z）",
-    "comp": "ASL Season 22 16強 グループC 初戦",
+    "comp": "ASL Season 22 16強 グループC 初戦（BO3）",
     "ha": "N",
-    "score": "敗戦（スコア未確認）",
+    "score": "敗戦（セットスコア未確認）",
     "res": "L",
     "detail": "『死のC組』初戦で敗れ敗者戦へ"
    },
    {
     "date": "2026-08-25",
     "opp": "Jung Young-jae（정영재, T）",
-    "comp": "ASL Season 22 24強 グループE 勝者戦",
+    "comp": "ASL Season 22 24強 グループE 勝者戦（BO1）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "1-0",
     "res": "W",
-    "detail": "ミュータリスク主体でE組1位通過（日付は報道日基準）"
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "ミュータリスク主体でE組1位通過"
    },
    {
     "date": "2026-08-25",
     "opp": "Lim Jin-mook（임진묵, T）",
-    "comp": "ASL Season 22 24強 グループE 初戦",
+    "comp": "ASL Season 22 24強 グループE 初戦（BO1）",
     "ha": "N",
-    "score": "勝利（スコア未確認）",
+    "score": "1-0",
     "res": "W",
-    "detail": "日付は報道日基準"
+    "units_won": 1,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-07-18",
+    "opp": "effOrt（김정우, Z）",
+    "comp": "ASL Season 22 シーズンオープン 1週目 決勝（BO3）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "第1セットBackroom、第2セットAttitude SE"
+   },
+   {
+    "date": "2026-07-18",
+    "opp": "Yoo Seung-gon（유승곤）",
+    "comp": "ASL Season 22 シーズンオープン 1週目",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-03-24",
+    "opp": "Kim Tae-young（김태영, T）",
+    "comp": "ASL Season 21 24強 グループB 最終戦（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "『歴代優勝者の墓場』となったB組で敗れ24強敗退（3位）"
+   },
+   {
+    "date": "2026-03-24",
+    "opp": "Choi Ho-sun（최호선, T）",
+    "comp": "ASL Season 21 24強 グループB 勝者戦（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "최호선がB組1位"
+   },
+   {
+    "date": "2026-03-24",
+    "opp": "Kim Tae-young（김태영, T）",
+    "comp": "ASL Season 21 24強 グループB 初戦（BO1）",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0
    }
   ],
   "lineup": [
-   "ソロ競技。種族 Zerg。愛称『鉄壁』。ASL Season 19王者（2025-05-25、4-3）で今大会は24強から勝ち上がり"
-  ]
+   "ソロ競技。種族 Zerg。愛称『鉄壁』。ASL22は24強グループE→16強グループCを勝ち上がり",
+   "2026年前半はASL21 24強敗退（3/24）後、7/18のASL22シーズンオープン1週目優勝で復調"
+  ],
+  "history": []
  },
  "h2h": [],
  "common_opponents_notes": [
-  "60日以内のLetaの対戦相手（김경모・김명운）とSoulkeyの対戦相手（임진묵・정영재・조일장）に共通相手なし",
-  "SoulkeyのLiquipedia『Notable Games』に2011年新韓銀行ウィナーズリーグ（マップBeltway）でのLeta戦の記録があるが、勝者はソース到達不能で未確認"
+  "60日窓（7/31〜9/29）：Letaの対戦相手は김경모・김명운、Soulkeyは조일장・정영재・임진묵で共通相手なし",
+  "窓外の共通相手：김명운（LetaがASL21 24強4/1と ASL22 16強9/8で計2勝。Soulkeyとの直接対戦は60日内になし）、이제동（Letaが4/1に敗戦。Soulkeyは対戦なし）",
+  "両者はASL21（Leta：24強F組→16強D組→4強／Soulkey：24強B組敗退）でもASL22（Leta：16強B組／Soulkey：24強E組・16強C組）でも同組にならず、ASL時代の対戦は今回の8強が初"
  ],
- "venue": "LAN・ソウル大峙洞 FreecUP Studio（決勝は10/17 蚕室アイスリンク）",
+ "venue": "LAN・ソウル大峙洞 FreecUP Studio（無観客）。決勝は10/17 蚕室アイスリンク",
  "esports": {
-  "format": "BO5（8強・シングルエリミネーション）。勝者は10/5-6の4強へ、8強勝者はASL Season 23シード",
+  "format": "BO5（8強・シングルエリミネーション、8強第4試合）。勝者は10/5-6の4強へ、8強勝者はASL Season 23シード",
   "lan_online": "LAN",
-  "map_pool": "大会マップ：Knockout、Attitude SE、Colorless Fate、Odyssey RE、Octagon SE、Aeolus、Backroom（8強のマップ割当は未確認）",
+  "map_pool": "8強マッププール（namu wiki）：Odyssey RE（오디세이 RE）・Colorless Fate（컬러리스 페이트）・Aeolus（아이올로스）・Backroom（백룸）・Knockout（녹아웃）・Attitude SE（애티튜드 SE）・Octagon SE（옥타곤 SE）の7種",
   "veto": "16強グループ1位（Leta）が第1セットのマップを選択、以降は前セット敗者が選択",
-  "patch": "該当なし（Brood War）",
-  "map_h2h": "未取得"
+  "patch": "該当なし（StarCraft: Remastered / Brood War）",
+  "map_h2h": "未取得（両者の直接対戦記録自体が2011年の1試合のみ確認）",
+  "deep": {
+   "ranking": "公式レーティングなし。SoulkeyはASL4回優勝の元王者格、Letaは前シーズン初4強の上り調子で、実績はSoulkey・直近勢いはLeta",
+   "h2h": "現行ASL時代の対戦なし（今回が初）。KeSPA時代の2011-04-23 新韓銀行ウィナーズリーグ（マップBeltway）での対戦をVODタイトルとLiquipedia『Notable Games』で確認したが勝敗の明記ソースに到達できず",
+   "recent_form": "Leta：2026年公式戦7勝2敗（対Zerg 6勝2敗）。Soulkey：ASL22で6連勝を含む直近10戦7勝3敗",
+   "lineup": "個人戦のためロスター要素なし。TvZ（Letaの2スタポート・メカニック vs Soulkeyの鉄壁ZvT）",
+   "roster": {
+    "unavailable": true,
+    "reason": "個人競技のため該当なし"
+   },
+   "map_pool": "8強は7マップ制。Letaは16強でKnockout敗戦→Backroom/Attitudeで勝利、SoulkeyはColorless Fate/Knockoutで勝利とマップ相性データは断片のみ",
+   "veto": "第1セットはグループ1位のLetaがマップ選択権を持つ",
+   "patch": {
+    "unavailable": true,
+    "reason": "Brood War（Remastered）はバランスパッチが存在しない"
+   },
+   "series_h2h": "公式シリーズでの対戦記録なし（確認できたのは2011年チームリーグの1ゲームのみ）",
+   "map_h2h": "2011-04-23 Beltway（勝敗未確認）以外なし",
+   "rating": {
+    "unavailable": true,
+    "reason": "eloboard（韓国BW ELOサイト）は動的ページで当環境から選手個別ページを取得できず、tl.net（TLPD）はプロキシ遮断"
+   }
+  }
  },
  "risks": [
-  "TvZ。SoulkeyはZvTの防衛力で『鉄壁』の異名を持つ元ASL王者だが3シーズンぶりの本選で試合数が少ない",
-  "Letaは9/8のZ戦2連勝（対김명운は逆転勝ち）と対Zergに好調。ただし5月のASL21 4強では敗退",
-  "8強1週目（9/21・9/22）は유영진・이재호が4強進出済み。勝者は10/5-6に4強",
-  "H2Hが未確認のため過去対戦に基づく評価は不可能"
+  "TvZ。SoulkeyはZvT防衛力で『鉄壁』の異名を持つASL4回優勝者だが、2026年はASL21 24強敗退→ASL22で復調と波がある",
+  "Letaは2026年に対Zerg 6勝2敗（敗戦は이제동と박상현のみ）で、9/8はZ相手に2連勝",
+  "8強1週目で유영진（3-2 이영한）・이재호（3-1 김정우）が4強進出済み。本試合は8強第4試合で、第3試合は박상현 vs 이제동",
+  "過去の直接対戦が15年前の1ゲームしか確認できず、H2Hに基づく評価は不可能",
+  "Soulkeyの16強初戦敗戦（조일장）はZvZで、本試合のTvZとは別マッチアップ"
  ],
  "missing": [
-  "Letaの16強初戦（対김경모）とSoulkeyの16強初戦（対조일장）・24強2試合のセットスコア",
-  "LetaのASL21 24強/16強の対戦相手・スコア",
-  "両者の2026年5月〜8月の非ASL大会（種族最強戦・イベント戦等）の記録",
-  "マップ別成績・8強のマップ割当"
+  "LetaのASL22 16強初戦（対김경모）とASL21 16強D組2試合の相手・セットスコア（D組1位通過のみ確認）",
+  "SoulkeyのASL22 16強初戦（対조일장）のセットスコア、24強E組のマップ名",
+  "2011-04-23 ウィナーズリーグLeta戦の勝敗",
+  "両者のKeSPA時代（2010-2012年プロリーグ）の全対戦リスト",
+  "8強の使用マップ順"
  ],
  "unavailable": {
-  "h2h": "Liquipedia ASL22ページと選手個別ページの対戦履歴が429（レート制限）で断続的に取得不可。Soulkey側ページで2011年ウィナーズリーグのLeta戦（Beltway）の存在のみ確認できたが勝敗は不明。韓国語ニュース（inven・xports・playforum・kmib・nate）にも両者の相対戦績の言及なし",
-  "left.form": "LetaのLiquipediaページの戦績一覧は2020年で途切れており、2026年のASL以外の試合とASL21の16強以前はニュース記事から確認できた分のみ",
-  "right.form": "SoulkeyはASL S20・S21で本選不出場のため2025年後半〜2026年前半の公式戦記録が薄い。24強・16強初戦のスコアは記事に記載なし",
-  "common": "60日窓（7/31〜9/29）の対戦相手を突き合わせた結果、共通相手なし（Leta：김경모・김명운／Soulkey：임진묵・정영재・조일장）"
+  "h2h": "KeSPA時代の対戦記録DB（tl.net/TLPD）はプロキシのCONNECT拒否で到達不能、Liquipedia両選手ページの試合一覧は2020年で途切れており、YouTube VODページはプロキシのレート制限で取得不可。確認できた過去対戦は2011-04-23 新韓銀行ウィナーズリーグ（Beltway、SPL公式戦）の1ゲームのみで、勝敗はどのソースにも明記なし（LiquipediaのSoulkey側Notable Gamesに『クイーンでメカを圧倒』と記載がありSoulkey勝利を示唆するが断定不可）。ASL21・ASL22内では両者は一度も同組になっておらず対戦なしを確認",
+  "left.form": "2026年公式戦9試合＋16強D組2試合（4/21、1位通過は確認したが対戦相手・スコアの報道が見つからず行として記載不能）。それ以前はASL21予選（2〜3月、記録非公開）で、LetaはASL16以来5シーズンぶりの本選復帰のため2025年以前の公式戦が僅少",
+  "right.form": "10試合を確保。ただし16強初戦と24強のセットスコアは報道に記載なし（BO1の24強は1-0/0-1と記載）。シーズンオープンの大会性質（ポイント戦かエキシビションか）は未確認",
+  "common": "60日窓の対戦相手を突き合わせた結果、共通相手なし（Leta：김경모・김명운／Soulkey：조일장・정영재・임진묵）"
  },
  "source_urls": [
-  "https://www.khgames.co.kr/news/articleView.html?idxno=308557",
-  "https://www.inven.co.kr/webzine/news/?news=321123",
-  "https://www.inven.co.kr/webzine/news/?news=321499",
-  "https://www.playforum.net/news/articleView.html?idxno=635354",
-  "https://www.playforum.net/news/articleView.html?idxno=635297",
-  "https://www.playforum.net/news/articleView.html?idxno=635298",
-  "https://www.kmib.co.kr/article/view.asp?arcid=9000011969",
-  "https://www.xportsnews.com/article/2195563",
-  "https://www.xportsnews.com/article/2195555",
+  "https://v.daum.net/v/20260401205524279",
+  "https://v.daum.net/v/VJROXiu5Ma",
+  "https://v.daum.net/v/Qdw9ylB3Sr",
+  "https://v.daum.net/v/20260324224057475",
+  "https://v.daum.net/v/6Fl07lQ9CX",
+  "https://www.inven.co.kr/webzine/news/?news=315671&site=sc",
+  "https://www.xportsnews.com/article/2193567",
   "https://www.xportsnews.com/article/2193580",
-  "https://sports.news.nate.com/view/20260825n34083",
-  "https://v.daum.net/v/6oSTKlB3CA",
-  "https://www.koreadaily.com/article/20260511054526624",
-  "https://liquipedia.net/starcraft/Soulkey",
+  "https://namu.wiki/w/Google%20Play%20ASL%20%EC%8B%9C%EC%A6%8C22",
+  "https://namu.wiki/w/Google%20Play%20ASL%20%EC%8B%9C%EC%A6%8C21",
   "https://liquipedia.net/starcraft/Leta",
-  "/home/claude/rmc-site/data/facts/m20260928-6a9a8d12.json（同大会の形式・会場・マッププール情報を流用）"
+  "https://liquipedia.net/starcraft/Soulkey",
+  "https://www.youtube.com/watch?v=yw2xosExMWM（SPL Leta vs Neo.G_Soulkey 2011-04-23 @ Beltway のVODタイトルで対戦存在を確認）",
+  "/home/claude/rmc-site/data/facts/m20260929-4b0e1bed.json（既存factsの16強詳細・会場情報を引き継ぎ）",
+  "/home/claude/rmc-site/data/facts/m20260928-6a9a8d12.json（同大会の形式・会場情報）"
  ],
  "calc": {
   "left": {
-   "games": 4,
-   "W": 3,
-   "L": 1,
+   "games": 7,
+   "W": 5,
+   "L": 2,
    "D": 0,
-   "win_rate": 75.0,
+   "win_rate": 71.4,
    "home": {
     "W": 0,
     "L": 0,
@@ -179,18 +296,18 @@
     "D": 0
    },
    "streak": "2連勝",
-   "units_won": 6,
-   "units_lost": 5,
-   "points_for": 6,
-   "points_against": 5,
-   "points_games": 3
+   "units_won": 8,
+   "units_lost": 6,
+   "points_for": 8,
+   "points_against": 6,
+   "points_games": 6
   },
   "right": {
-   "games": 5,
-   "W": 4,
-   "L": 1,
+   "games": 10,
+   "W": 7,
+   "L": 3,
    "D": 0,
-   "win_rate": 80.0,
+   "win_rate": 70.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -202,11 +319,11 @@
     "D": 0
    },
    "streak": "2連勝",
-   "units_won": 4,
-   "units_lost": 0,
-   "points_for": 4,
-   "points_against": 0,
-   "points_games": 2
+   "units_won": 11,
+   "units_lost": 2,
+   "points_for": 11,
+   "points_against": 2,
+   "points_games": 9
   },
   "h2h": {
    "games": 0,
