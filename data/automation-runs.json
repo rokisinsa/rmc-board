@@ -13236,7 +13236,7 @@
   "run_id": "run-20260929-0600",
   "slot": "06:00",
   "started_at": "2026-09-29T05:56:06+09:00",
-  "finished_at": "2026-09-29T07:12:36+09:00",
+  "finished_at": "2026-09-29T07:16:03+09:00",
   "start_sha": "ba0667d",
   "status": "partial",
   "previous_run_ok": false,
@@ -14936,13 +14936,13 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
-   "36": false,
-   "37": false,
-   "38": false,
-   "39": false,
-   "40": false,
+   "34": true,
+   "35": true,
+   "36": true,
+   "37": true,
+   "38": true,
+   "39": true,
+   "40": true,
    "41": false
   },
   "checklist_notes": {
@@ -14964,14 +14964,15 @@
    "19": "日付・JST時刻・大会・ラウンド・相手を identity_note に記録（オサリバンの相手「Jun」＝蒋俊を特定）",
    "21": "同じ match_id の全ロジック・経験値取引へ反映",
    "27": "①の敗戦3件（オサリバン・趙心童・Al Ittihad）を data/reviews/ に記録（1敗で係数は変えない）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
-   "40": "報告送信後に確定",
+   "34": "main へ push（7a1a074、競合なし）。テスト・validate は push 前に全通過",
+   "35": "Actions test-validate-deploy run 36491019205：test・deploy success",
+   "36": "読み替え表の方法：Actions run 36491019205 の verify-public ジョブ success（公開deploy.jsonのSHA一致・index.htmlと全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "37": "読み替え表の方法：Actions run 36491019205 の verify-public ジョブ success（公開deploy.jsonのSHA一致・index.htmlと全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "38": "読み替え表の方法：Actions run 36491019205 の verify-public ジョブ success（公開deploy.jsonのSHA一致・index.htmlと全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "39": "読み替え表の方法：Actions run 36491019205 の verify-public ジョブ success（公開deploy.jsonのSHA一致・index.htmlと全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "40": "SendUserMessage で報告",
    "41": "上記未完了があるため定時更新完了とはしない"
-  }
+  },
+  "end_sha": "7a1a074793835ffa652c6c60ae2dc608b53a0c1c"
  }
 ]
