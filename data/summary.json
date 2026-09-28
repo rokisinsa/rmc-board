@@ -1,7 +1,7 @@
 {
  "run_id": "run-20260928-1200",
  "run_status": "partial",
- "built_at": "2026-09-28T13:27:17+09:00",
+ "built_at": "2026-09-28T15:53:30+09:00",
  "logics": {
   "r1": {
    "formal": 39,
@@ -181,6 +181,136 @@
     "profit": 0.0,
     "bets": 0,
     "skipped": 0
+   }
+  }
+ },
+ "gap_bands": {
+  "r1": {
+   "70-80": {
+    "count": 21,
+    "win": 8,
+    "loss": 4,
+    "void": 0,
+    "pending": 9,
+    "invested": 1200.0,
+    "net": -187.3,
+    "roi": -15.61
+   },
+   "80-90": {
+    "count": 18,
+    "win": 6,
+    "loss": 2,
+    "void": 2,
+    "pending": 8,
+    "invested": 800.0,
+    "net": -131.9,
+    "roi": -16.49
+   },
+   "90+": {
+    "count": 0,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   }
+  },
+  "all": {
+   "70-80": {
+    "count": 22,
+    "win": 8,
+    "loss": 4,
+    "void": 0,
+    "pending": 10,
+    "invested": 1200.0,
+    "net": -187.3,
+    "roi": -15.61
+   },
+   "80-90": {
+    "count": 20,
+    "win": 6,
+    "loss": 2,
+    "void": 4,
+    "pending": 8,
+    "invested": 800.0,
+    "net": -131.9,
+    "roi": -16.49
+   },
+   "90+": {
+    "count": 0,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   }
+  },
+  "r2": {
+   "70-80": {
+    "count": 1,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 1,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   },
+   "80-90": {
+    "count": 1,
+    "win": 0,
+    "loss": 0,
+    "void": 1,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   },
+   "90+": {
+    "count": 0,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   }
+  },
+  "r4": {
+   "70-80": {
+    "count": 0,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   },
+   "80-90": {
+    "count": 1,
+    "win": 0,
+    "loss": 0,
+    "void": 1,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
+   },
+   "90+": {
+    "count": 0,
+    "win": 0,
+    "loss": 0,
+    "void": 0,
+    "pending": 0,
+    "invested": 0.0,
+    "net": 0.0,
+    "roi": null
    }
   }
  }

@@ -252,7 +252,9 @@ def run(base=None):
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}
-    if summ is None or summ.get("logics") != recomputed:
+    from .core import gap_bands
+    gb = gap_bands({lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}, load("odds_snapshots.json", []))
+    if summ is None or summ.get("logics") != recomputed or summ.get("gap_bands") != gb:
         rep.err("PROFIT_AUDIT", "summary.json が台帳からの再計算と一致しない（python -m rmc.build を実行）")
     return rep
 

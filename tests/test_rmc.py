@@ -65,6 +65,18 @@ class TestSettlement(Base):
         self.assertGreater(s["kelly_quarter"]["bankroll"], 100)
 
 
+class TestGapBands(unittest.TestCase):
+    def test_bands(self):
+        odds = [dict(match_id="m1", taken_at="2026-10-01T11:00:00+09:00", prices={"L": 1.2, "R": 4.5}),
+                dict(match_id="m1", taken_at="2026-10-01T13:00:00+09:00", prices={"L": 1.9, "R": 1.9})]  # ロック後は使わない
+        e = dict(E1, odds_taken=1.2, result=dict(outcome="win", payout=120.0, profit=20.0))
+        e2 = dict(E1, entry_id="x", result=None)
+        self.assertEqual(core.gap_at_lock(e, odds), 79)
+        b = core.gap_bands({"r1": [e, e2]}, odds)
+        self.assertEqual((b["all"]["70-80"]["count"], b["all"]["70-80"]["net"], b["all"]["70-80"]["pending"], b["r1"]["70-80"]["invested"]),
+                         (2, 20.0, 1, 100.0))
+
+
 class TestValidate(Base):
     def test_clean(self):
         self.assertEqual(self.codes(), set())

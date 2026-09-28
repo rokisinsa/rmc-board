@@ -137,3 +137,43 @@ def summarize(entries, matches):
         kb = kb + stake * (o - 1) if out == "win" else kb - stake
     s["kelly_quarter"] = dict(bankroll=round(kb, 2), profit=round(kb - 100, 2), bets=kbets, skipped=kskip)
     return s
+
+
+GAP_BANDS = (("70-80", 70, 80), ("80-90", 80, 90), ("90+", 90, 10**9))
+
+
+def gap_at_lock(entry, odds):
+    """ロック時点（locked_at 以前で最新）のオッズから格差スコア＝控除後の本命勝率×100。取れなければ None。"""
+    lk = parse(entry["locked_at"]) if entry.get("locked_at") else None
+    ss = [o for o in odds if o.get("match_id") == entry["match_id"] and o.get("prices") and (lk is None or parse(o["taken_at"]) <= lk)]
+    if not ss:
+        return None
+    o = max(ss, key=lambda o: parse(o["taken_at"]))
+    inv = [1 / v for v in o["prices"].values() if isinstance(v, (int, float)) and v > 1]
+    return round(max(inv) / sum(inv) * 100) if inv else None
+
+
+def gap_bands(ledgers, odds):
+    """格差スコア帯別の単利収支（毎回 STAKE 固定）。ledgers = {logic: entries}。全ロジック合計 all も出す。"""
+    by = {}
+    for lg, entries in ledgers.items():
+        for e in entries:
+            g = gap_at_lock(e, odds)
+            for name, lo, hi in GAP_BANDS:
+                if g is not None and lo <= g < hi:
+                    for k in (lg, "all"):
+                        b = by.setdefault(k, {n: dict(count=0, win=0, loss=0, void=0, pending=0, invested=0.0, net=0.0) for n, _, _ in GAP_BANDS})[name]
+                        b["count"] += 1
+                        r = e.get("result")
+                        if not r:
+                            b["pending"] += 1
+                        elif r.get("outcome") in ("win", "loss") and r.get("profit") is not None:
+                            b["win" if r["outcome"] == "win" else "loss"] += 1
+                            b["invested"] += e.get("stake", STAKE); b["net"] += r["profit"]
+                        else:
+                            b["void"] += 1
+    for k in by.values():
+        for b in k.values():
+            b["invested"] = round(b["invested"], 2); b["net"] = round(b["net"], 2)
+            b["roi"] = round(b["net"] / b["invested"] * 100, 2) if b["invested"] else None
+    return by

@@ -244,7 +244,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
     <h2>収支（正式採用のみ・$100固定）</h2>
     <div class="cards" id="cards"></div>
     <h3 class="subh">格差スコア帯別の収支</h3>
-    <p class="note" style="margin:0 0 6px">格差スコア＝採用時点のオッズから出した本命の控除後勝率×100。単利（毎回$100固定）で集計。</p>
+    <p class="note" style="margin:0 0 6px">格差スコア＝採用時点のオッズから出した本命の控除後勝率×100。単利（毎回$100固定）で集計。定時更新で結果が確定するたびに自動で更新。</p>
     <div class="ledger-tabs" id="btabs"></div>
     <div class="tbl"><table id="bands"></table></div>
   </section>
@@ -513,16 +513,14 @@ function renderLedger(){
   tb.querySelectorAll('.lrow').forEach(r=>{const l=r.dataset.l==='experience'?null:r.dataset.l;r.onclick=()=>openMatch(r.dataset.m,l);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,l);};});
 }
 let bt='all';
-const BANDS=[['格差 70〜80',70,80],['格差 80〜90',80,90],['格差 90以上',90,1e9]];
+const BANDS=[['格差 70〜80','70-80'],['格差 80〜90','80-90'],['格差 90以上','90+']];
 function renderBands(){
   const keys=['all'].concat(LG,'experience');const nm=k=>k==='all'?'全ロジック合計':T[k];
   document.getElementById('btabs').innerHTML=keys.map(k=>`<button aria-pressed="${k===bt}" data-b="${k}">${nm(k)}</button>`).join('');
   document.querySelectorAll('#btabs button').forEach(b=>b.onclick=()=>{bt=b.dataset.b;renderBands();});
-  const src=(bt==='all'?LG.concat('experience'):[bt]).flatMap(l=>D.led[l]);
-  const rows=BANDS.map(([lab,lo,hi])=>{const es=src.filter(e=>{const g=gapAt(e);return g!=null&&g>=lo&&g<hi;});
-    let w=0,l=0,v=0,inv=0,pr=0,pend=0;
-    es.forEach(e=>{const r=e.result;if(!r){pend++;return;}if(r.outcome==='win'){w++;inv+=e.stake;pr+=r.profit??0;}else if(r.outcome==='loss'){l++;inv+=e.stake;pr+=r.profit??0;}else v++;});
-    return `<tr><td style="text-align:left;white-space:nowrap"><b>${lab}</b></td><td class="mono ${pr>0?'pos':pr<0?'neg':''}"><b>${money(pr)}</b></td><td class="mono">${inv?(pr/inv*100).toFixed(1)+'%':'—'}</td><td class="mono">${w}勝${l}敗${v?v+'無効':''}</td><td class="mono">${w+l?Math.round(w/(w+l)*100)+'%':'—'}</td><td class="mono">${es.length}</td><td class="mono">$${inv.toFixed(2)}</td><td class="mono">${pend}</td></tr>`;});
+  const G=(D.summary.gap_bands||{})[bt]||{};
+  const rows=BANDS.map(([lab,key])=>{const x=G[key]||{count:0,win:0,loss:0,void:0,pending:0,invested:0,net:0,roi:null};const pr=x.net;
+    return `<tr><td style="text-align:left;white-space:nowrap"><b>${lab}</b></td><td class="mono ${pr>0?'pos':pr<0?'neg':''}"><b>${money(pr)}</b></td><td class="mono">${x.roi==null?'—':x.roi.toFixed(1)+'%'}</td><td class="mono">${x.win}勝${x.loss}敗${x.void?x.void+'無効':''}</td><td class="mono">${x.win+x.loss?Math.round(x.win/(x.win+x.loss)*100)+'%':'—'}</td><td class="mono">${x.count}</td><td class="mono">$${x.invested.toFixed(2)}</td><td class="mono">${x.pending}</td></tr>`;});
   document.getElementById('bands').innerHTML=`<thead><tr><th style="text-align:left">格差スコア</th><th>損益</th><th>ROI</th><th>戦績</th><th>勝率</th><th>件数</th><th>確定投入</th><th>未確定</th></tr></thead><tbody>${rows.join('')}</tbody>`;
 }
 renderBands();
