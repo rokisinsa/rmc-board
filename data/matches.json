@@ -1382,8 +1382,17 @@
   "left": "ダビドビッチ・フォキナ",
   "right": "バシラシビリ",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-1",
+   "detail": "4-6, 6-4, 6-3 (1h59m, Center Court)",
+   "source_rank": "official_team",
+   "source_url": "https://www.atptour.com/en/scores/current/chengdu/7581/results",
+   "identity_checked": true,
+   "identity_note": "ATP results page: Mon 28 Sep 2026 Chengdu SF, Davidovich Fokina (2) d. Basilashvili (Q) 4-6 6-4 6-3; confirmed by Tennis Majors",
+   "checked_at": "2026-09-28T22:44:40+09:00"
+  },
   "note": "H2Hはバシラシビリ1-0。Polymarketは1.47／開始時刻を09-28T18:00に訂正",
   "flags": [
    "価格が実力差と不整合の可能性",
@@ -2610,8 +2619,17 @@
   "left": "T1 Esports Academy",
   "right": "Cupid Esports",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "3-1",
+   "detail": "Bo5 quarterfinal 3; T1 Academy advance to SF vs Galions",
+   "source_rank": "results_db",
+   "source_url": "https://www.sofascore.com/esports/match/cupid-esports-t1-academy/BHqdsrlZj",
+   "identity_checked": true,
+   "identity_note": "Sofascore: T1 Academy 3-1 Cupid Esports, Finished, 28 Sep 2026 06:00 UTC (=15:00 JST); frag.se QF3 3-1 FT; Strafe event bracket QF T1A 3-1 CPD",
+   "checked_at": "2026-09-28T22:44:44+09:00 (checks through ~23:00 JST)"
+  },
   "note": "BO5／BET CHANNEL表記に統一（旧：T1.EA vs CPD）",
   "flags": [],
   "betchannel_event_id": "2715371054846586888",
@@ -3106,8 +3124,17 @@
   "left": "An Se-young",
   "right": "Chen Yufei",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "live",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-0",
+   "detail": "21-5, 21-12 (40 min)",
+   "source_rank": "livescore",
+   "source_url": "https://english.news.cn/20260928/0ce049ca9e1445a0a15f49bcd3171bab/c.html",
+   "identity_checked": true,
+   "identity_note": "2026-09-28 Aichi-Nagoya AG WS semifinal An Se-young vs Chen Yufei; score from Xinhua match report body, corroborated by Starnews (5-21,12-21 from Chen side) and Kyunghyang; BWF/official page not retrievable, so rank set to lowest tier (news agency report, not official)",
+   "checked_at": "2026-09-28T22:44:40+09:00"
+  },
   "note": "／開始時刻を09-28T10:25に訂正／09-28T13:18時点 live：最終結果を確認できず（BWF結果ページはJS描画で読めず、検索で最終スコア記事未発見）。第1ゲームのみ確認。要再確認",
   "flags": [],
   "feed_ids": [
@@ -3298,8 +3325,17 @@
   "left": "チャイニーズタイペイ",
   "right": "韓国",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "1-3",
+   "detail": "26-24, 10-25, 15-25, 23-25 (Chinese Taipei side first)",
+   "source_rank": "livescore",
+   "source_url": "https://www.koreaherald.com/article/10886749",
+   "identity_checked": true,
+   "identity_note": "2026-09-28 AG men's volleyball Pool D, Korea d. Chinese Taipei 3-1 (24-26,25-10,25-15,25-23 Korea-first) per Korea Herald and SBS match reports; Volleyball World/official/Wikipedia not yet updated, so lowest tier rank",
+   "checked_at": "2026-09-28T22:44:40+09:00"
+  },
   "note": "",
   "flags": [],
   "feed_ids": [
@@ -5484,8 +5520,17 @@
   "left": "ロバートソン",
   "right": "Liu Hongyu",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "5-2",
+   "detail": "Shenzhen Open 2026 last 64 (held over to main arena), Neil Robertson 5-2 Liu Hongyu",
+   "source_rank": "results_db",
+   "source_url": "https://www.snooker.org/res/index.asp?event=2761",
+   "identity_checked": true,
+   "identity_note": "snooker.org event 2761 R1 match 16: Neil Robertson [4] 5-2 Liu Hongyu [58], sched 2026-09-28 06:00Z (=15:00 JST); flashscore og:title 'Neil Robertson - Hongyu Liu 5-2' 28/09/2026 Shenzhen Open 1/32",
+   "checked_at": "2026-09-28T22:44:44+09:00 (checks through ~23:00 JST)"
+  },
   "note": "",
   "flags": [
    "短期戦フォーマット"
@@ -6760,8 +6805,17 @@
   "left": "GHOST SQUAD",
   "right": "PARADOX",
   "home_away": "中立（オンライン/大会会場）",
-  "status": "unknown",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "R",
+   "score": "2-4",
+   "detail": "GHOST SQUAD 2:4 PARADOX, КЧ 2026 (BetBoom Кубок Чемпионов 2026) Групповой этап, 27.09.26",
+   "source_rank": "results_db",
+   "source_url": "https://www.cybersport.ru/teams/mir-tankov/ghost-squad",
+   "identity_checked": true,
+   "identity_note": "cybersport.ru GHOST SQUAD team page: '27.09.26 в 19:20 GHOST SQUAD vs PARADOX 2:4 (КЧ 2026 Групповой этап)' - only GS vs PARADOX meeting on 27.09 (prior was 19.08 BЧ 4:0); listed time 19:20 vs expected 21:00 MSK likely display-timezone difference; matches prior note PARADOX 4-2",
+   "checked_at": "2026-09-28T22:44:44+09:00 (checks through ~23:00 JST)"
+  },
   "note": "BET CHANNEL event_id=2715872089012838436（23:59取得）／09-28T06:45時点 unknown：Liquipedia(WoT)が429でアクセス不可、他に結果DB見当たらず。GHOST SQUAD vs PARADOXの試合結果を確認できず／09-28T13:18時点 unknown：結果確認できず。Liquipedia（WoT）は429、cybersport.ruの大会ページは取得不可、ページ内ウィジェットは未実施表示（キャッシュの可能性）。推測せずunknown",
   "flags": [],
   "betchannel_event_id": "2715872089012838436"
@@ -11450,9 +11504,9 @@
   "left": "Dimitrov G.",
   "right": "Rincon D.",
   "home_away": "中立（大会会場）",
-  "status": "scheduled",
+  "status": "cancelled",
   "result": null,
-  "note": "tennisexplorer te:3334908（05:59取得）",
+  "note": "tennisexplorer te:3334908（05:59取得）／Eupago Porto Open Challenger R32 Dimitrov(9) vs Rincon scheduled 28 Sep 13:30 UTC (=22:30 JST, Sofascore/ATP draw); Tennishead/Yahoo report pre-match withdrawal same day. Replacement (lucky loser) not confirmed; ATP draw page not yet updated（https://tennishead.net/grigor-dimitrov-withdraws-from-challenger-event-just-hours-before-his-first-round-match/）",
   "flags": [],
   "feed_ids": [
    "te:3334908"
@@ -12932,8 +12986,17 @@
   "left": "Sharipov M.",
   "right": "Honda N.",
   "home_away": "中立（大会会場）",
-  "status": "live",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-0",
+   "detail": "7-6(11), 6-2 (1h34m)",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.es/partido/tenis/honda-naoya-pC2uDb19/sharipov-marat-GtQpXmDE/",
+   "identity_checked": true,
+   "identity_note": "Flashscore: 28/09/2026 Challenger Jingshan qualifying semi-final (Q R1 of 2) Sharipov-Honda 2-0; set scores from TennisTonic next-round preview (Sharipov vs Leong 29 Sep). tennisexplorer/ATP unreachable",
+   "checked_at": "2026-09-28T22:44:40+09:00"
+  },
   "note": "tennisexplorer te:3334196（05:59取得）／09-28T13:18時点 live：確認時点でライブ（TennisTemple：Sharipovが第1セット7-6、タイブレーク13-11と読める表示）。tennisexplorer（te:3334196）・Flashscoreはスコア部分取得不可。最終結果未確定",
   "flags": [],
   "feed_ids": [
@@ -13028,8 +13091,17 @@
   "left": "Walton A.",
   "right": "Shiraishi H.",
   "home_away": "中立（大会会場）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-0",
+   "detail": "6-2, 6-2 (1h11m)",
+   "source_rank": "results_db",
+   "source_url": "https://www.flashscore.co.za/match/tennis/shiraishi-hikaru-pO5LT6LB/walton-adam-jNRjAU1U/",
+   "identity_checked": true,
+   "identity_note": "Flashscore: 28/09/2026 Challenger Jingshan qualifying semi-final Walton-Shiraishi 2-0; set scores from TennisTonic Walton vs Binda (29 Sep) preview",
+   "checked_at": "2026-09-28T22:44:40+09:00"
+  },
   "note": "tennisexplorer te:3334192（05:59取得）",
   "flags": [],
   "feed_ids": [
@@ -17041,8 +17113,17 @@
   "left": "THUNDERdOWNUNDER",
   "right": "Ground Zero Gaming",
   "home_away": "中立（オンライン/大会会場）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-0",
+   "detail": "Inferno 13-8, Dust2 13-9; consolidation (lower) final, TDU advance to GF vs FlyQuest 9/29",
+   "source_rank": "results_db",
+   "source_url": "https://www.hltv.org/matches/2398642/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-2",
+   "identity_checked": true,
+   "identity_note": "HLTV match 2398642 ECL S52 Oceania Cup 2 consolidation final 28 Sep 2026 11:00 CEST (=18:00 JST), 'Match over'; score from HLTV mirror dust2.us/matches/2398642 (2-0); HLTV event matches list shows GF FlyQuest vs TDU 9/29, consistent. Not the 9/25 UB SF (also TDU 2-0)",
+   "checked_at": "2026-09-28T22:44:44+09:00 (checks through ~23:00 JST)"
+  },
   "note": "BET CHANNEL event_id=2716040319941611541（16:40取得）",
   "flags": [],
   "betchannel_event_id": "2716040319941611541"

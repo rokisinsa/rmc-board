@@ -131,6 +131,16 @@ class TestValidate(Base):
         core.save("ledger/r1.json", [E1])  # 未確定の正式採用・factsなし
         self.assertIn("FACTS_COVERAGE", self.codes())
 
+    def test_result_overdue(self):
+        m = copy.deepcopy(M); m["m1"]["status"] = "scheduled"; m["m1"]["result"] = None
+        m["m1"]["start_jst"] = "2020-01-01T20:00:00+09:00"
+        core.save("matches.json", m)
+        core.save("ledger/r1.json", [dict(E1, locked_at="2020-01-01T12:00:00+09:00")])
+        self.assertIn("RESULT_OVERDUE", self.codes())
+        m["m1"]["result_pending_reason"] = "延期（新日程未定）"
+        core.save("matches.json", m)
+        self.assertNotIn("RESULT_OVERDUE", self.codes())
+
     def test_coverage_screen_zero(self):
         runs = core.load("automation-runs.json")
         runs[-1]["coverage"] = {"CS2": dict(event_count=3, priced_upcoming_count=3, r1=dict(screened=0))}

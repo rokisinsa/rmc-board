@@ -166,6 +166,26 @@ def check_ledger(rep, lg, ledger, matches, base_ledger):
                     rep.err("LOCKED_MODIFIED", f"{lg}/{old['entry_id']}: locked 項目 {k} が書き換えられた")
 
 
+OVERDUE_HOURS = 4  # 開始からこの時間を過ぎた正式採用は、定時更新で結果を反映していないとエラー
+
+
+def check_results_overdue(rep, matches, now=None):
+    """開始から OVERDUE_HOURS 時間を過ぎても未精算の正式採用があれば止める（定時更新での結果反映漏れ防止）。
+    本当に結果が出ていない（延期・長時間試合・結果未公表）ときは matches の result_pending_reason に理由を書けば通る。"""
+    from .core import now_jst
+    now = parse(now or now_jst())
+    for lg in LOGICS + ("experience",):
+        for e in load(f"ledger/{lg}.json", []):
+            if e.get("result") or e.get("withdrawn"):
+                continue
+            m = matches.get(e.get("match_id")) or {}
+            if not m.get("start_jst") or m.get("result_pending_reason"):
+                continue
+            h = (now - parse(m["start_jst"])).total_seconds() / 3600
+            if h > OVERDUE_HOURS:
+                rep.err("RESULT_OVERDUE", f"{lg}/{e['entry_id']}: 開始から{h:.0f}時間経過しているのに結果未反映（結果を確認して精算するか、result_pending_reason に理由）")
+
+
 def check_facts_coverage(rep, matches):
     """未確定の正式採用カードは、事実（直近成績・H2H・60日以内の共通相手）を徹底取得済みであること。
     取れない場合は unavailable に理由が書いてあれば通る（数字を作らないため）。"""
@@ -285,6 +305,7 @@ def run(base=None):
     check_independence(rep, ana)
     check_facts(rep, matches)
     check_facts_coverage(rep, matches)
+    check_results_overdue(rep, matches)
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}
