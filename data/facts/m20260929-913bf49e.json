@@ -1,7 +1,11 @@
 {
+ "match_id": "m20260929-913bf49e",
+ "data_as_of": "2026-09-28T16:35:00+09:00",
+ "start_jst_confirmed": "2026-09-29T06:00:00+09:00",
+ "unit": "なし",
  "left": {
   "name": "キューバ",
-  "ranking": "FIFAランク164位（FotMob）／CONCACAFネーションズリーグB 3組首位（1勝、勝点3）",
+  "ranking": "FIFAランク164位前後（FotMob）／CONCACAFネーションズリーグB 3組首位（1勝、勝点3、得失+3）",
   "form": [
    {
     "date": "2026-09-25",
@@ -14,18 +18,37 @@
    {
     "date": "2026-03-29",
     "opp": "ドミニカ共和国",
-    "comp": "国際親善試合",
+    "comp": "CONCACAFシリーズ 2025-26",
     "ha": "A",
     "score": "1-1",
-    "res": "D"
+    "res": "D",
+    "detail": "既存調査は親善試合と記載、Wikipediaは2025–26 CONCACAF Series"
    },
    {
     "date": "2026-03-26",
     "opp": "マルティニーク",
-    "comp": "国際親善試合",
-    "ha": "N",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "A",
     "score": "2-2",
     "res": "D"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "マルティニーク",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W",
+    "detail": "ホーム扱い（開催地ドミニカ共和国）"
+   },
+   {
+    "date": "2025-11-12",
+    "opp": "セントルシア",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W",
+    "detail": "ホーム扱い（開催地ドミニカ共和国）"
    },
    {
     "date": "2025-10-11",
@@ -36,22 +59,49 @@
     "res": "L"
    },
    {
-    "date": "2025-10-09",
+    "date": "2025-10-08",
     "opp": "セントビンセント・グレナディーン",
     "comp": "国際親善試合",
     "ha": "A",
     "score": "0-1",
+    "res": "L",
+    "detail": "ESPNは10/8（現地）、既存調査は10/9表記（時差）"
+   },
+   {
+    "date": "2025-10-05",
+    "opp": "セントビンセント・グレナディーン",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "0-7",
     "res": "L"
+   },
+   {
+    "date": "2025-06-10",
+    "opp": "バミューダ",
+    "comp": "2026 W杯予選 CONCACAF",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L",
+    "detail": "サンティアゴ・デ・クーバ開催"
+   },
+   {
+    "date": "2025-06-06",
+    "opp": "アンティグア・バーブーダ",
+    "comp": "2026 W杯予選 CONCACAF",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
    }
   ],
   "lineup": [
    "監督：ペドロ・パブロ・ペレイラ（national-football-teams.com）",
    "個別の欠場情報は見つからず"
-  ]
+  ],
+  "history": []
  },
  "right": {
   "name": "ボネール",
-  "ranking": "FIFA非加盟（CONCACAF加盟）／ネーションズリーグB 3組 1敗",
+  "ranking": "FIFA非加盟（CONCACAF正式加盟・2019年FIFA加盟申請却下）／ネーションズリーグB 3組 1敗（勝点0）",
   "form": [
    {
     "date": "2026-09-25",
@@ -59,82 +109,163 @@
     "comp": "CONCACAFネーションズリーグB 3組",
     "ha": "A",
     "score": "1-2",
+    "res": "L",
+    "detail": "Sonnenscheinが7分に先制も逆転負け（ZIZ）"
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "英領ヴァージン諸島",
+    "comp": "国際親善試合",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "サン・マルタン",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "セントビンセント・グレナディーン",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "ガイアナ",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-11-12",
+    "opp": "バルバドス",
+    "comp": "CONCACAFシリーズ 2025-26",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2024-11-17",
+    "opp": "セントビンセント・グレナディーン",
+    "comp": "CONCACAFネーションズリーグB 2024-25",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2024-11-14",
+    "opp": "エルサルバドル",
+    "comp": "CONCACAFネーションズリーグB 2024-25",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2024-10-13",
+    "opp": "モントセラト",
+    "comp": "CONCACAFネーションズリーグB 2024-25",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2024-10-10",
+    "opp": "モントセラト",
+    "comp": "CONCACAFネーションズリーグB 2024-25",
+    "ha": "A",
+    "score": "0-1",
     "res": "L"
    }
   ],
   "lineup": [
-   "9/25はSonnenscheinが7分に先制も逆転負け（ZIZ）",
-   "個別の欠場情報は見つからず"
-  ]
+   "9/25はSonnenscheinが先制点（ZIZ）",
+   "個別の欠場・招集情報は見つからず"
+  ],
+  "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "SKNFAテクニカルセンター（セントクリストファー・ネービス、バセテール）／キューバのホーム扱いだが中立地",
+ "common_opponents_notes": [
+  "60日以内（7/31〜）の対戦相手：キューバ＝グレナダ（9/25）のみ／ボネール＝セントクリストファー・ネービス（9/25）のみ→共通なし",
+  "60日窓の外の共通相手：セントビンセント・グレナディーン（キューバ2025年10月に0-1・0-7の2連敗／ボネール2026-03-26に3-1勝、2024-11-17に1-3敗）",
+  "グレナダは同組でボネールと10/2に対戦予定（キューバは9/25に3-0勝）",
+  "ボネールの2025-11以前にニジェールとの親善試合（0-6敗）の記録があるが日付の年（2024/2025）がソース上曖昧なためform非計上"
+ ],
+ "venue": "SKNFAテクニカルセンター（セントクリストファー・ネービス、バセテール）。キューバのホーム扱いだが中立地開催（キューバ国内で開催不可）",
  "risks": [
-  "キューバは国内開催できず中立地（statszone）",
-  "ボネールは直近3連敗（statszone）だが試合数・データが少ない",
-  "キューバは代表の主力流出（亡命等）で年ごとに編成が変わりやすい（一般論、今回の具体情報なし）"
+  "キューバはホーム戦を国外中立地で開催しており実質ホーム利なし",
+  "ボネールは直近6試合で1勝、2023年以降の公式戦でも勝率が低い（格下）",
+  "キューバは主力の亡命・流出で編成が年ごとに変わりやすい（一般的傾向、今回の具体情報なし）",
+  "11月のCONCACAFシリーズ2試合を既存調査は親善試合と記載（Wikipediaは大会名あり）—大会区分に揺れ"
  ],
  "missing": [
-  "ボネールの過去試合（9/25以外）",
-  "H2H",
-  "両軍先発"
+  "両軍の先発・招集リスト",
+  "ボネールのFIFAランク（非加盟のためなし）"
  ],
  "unavailable": {
-  "h2h": "確認できる情報源なし",
-  "right.form": "ボネールの9/25以前の試合日付・スコアを取得できず（BeSoccer 403）"
+  "h2h": "初対戦。international-football.netのボネール全試合検索（2023-2026）とWikipediaのボネール戦績ページにキューバ戦の記録なし",
+  "history": "試合日から60日以内の共通対戦相手なし（キューバ＝グレナダのみ、ボネール＝セントクリストファー・ネービスのみを突き合わせ）"
  },
- "match_id": "m20260929-913bf49e",
- "data_as_of": "2026-09-28T06:27:00+09:00",
- "unit": "なし",
  "source_urls": [
-  "https://www.thestatszone.com/cuba-vs-bonaire-preview-prediction-2026-27-concacaf-nations-league-226413",
-  "https://www.fotmob.com/teams/5857/overview/cuba",
+  "https://en.wikipedia.org/wiki/Cuba_national_football_team_results_(2020%E2%80%93present)",
+  "https://www.international-football.net/search-matches?team=Bonaire",
+  "https://en.wikipedia.org/wiki/Bonaire_national_football_team",
+  "https://www.espn.com/soccer/match/_/gameId/759726/cuba-st-vincent-and-the-grenadines",
+  "https://www.national-football-teams.com/country/48/2025/Cuba.html",
   "https://www.national-football-teams.com/country/48/2026/Cuba.html",
-  "https://zizonline.com/sugar-boyz-open-nations-league-with-2-1-win-over-bonaire/"
+  "https://www.thestatszone.com/cuba-vs-bonaire-preview-prediction-2026-27-concacaf-nations-league-226413",
+  "https://zizonline.com/sugar-boyz-open-nations-league-with-2-1-win-over-bonaire/",
+  "https://www.fotmob.com/teams/5857/overview/cuba"
  ],
  "calc": {
   "left": {
-   "games": 5,
-   "W": 1,
-   "L": 2,
+   "games": 10,
+   "W": 4,
+   "L": 4,
    "D": 2,
-   "win_rate": 20.0,
+   "win_rate": 40.0,
    "home": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "away": {
-    "W": 1,
-    "L": 2,
-    "D": 1
-   },
-   "streak": null,
-   "points_for": 6,
-   "points_against": 6,
-   "points_games": 5
-  },
-  "right": {
-   "games": 1,
-   "W": 0,
-   "L": 1,
-   "D": 0,
-   "win_rate": 0.0,
-   "home": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "away": {
-    "W": 0,
+    "W": 2,
     "L": 1,
     "D": 0
    },
+   "away": {
+    "W": 2,
+    "L": 3,
+    "D": 2
+   },
    "streak": null,
-   "points_for": 1,
-   "points_against": 2,
-   "points_games": 1
+   "points_for": 13,
+   "points_against": 15,
+   "points_games": 10
+  },
+  "right": {
+   "games": 10,
+   "W": 2,
+   "L": 8,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 3,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 9,
+   "points_against": 18,
+   "points_games": 10
   },
   "h2h": {
    "games": 0,

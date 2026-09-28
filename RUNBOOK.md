@@ -29,7 +29,8 @@
    - 既存の略称行（LoL EMEA Masters の TLNP など）は `rmc/bcmap.py` の KNOWN で BET CHANNEL の event に対応づけ、重複登録しない。取り込み・判定の手順は `scripts/run_20260928_0030_esports.py` を雛形にする。
    - シミュレーション系は実力データがないため①の一次判定のみ（正式採用しない）。実チームの試合は24時間以内のものを深掘りし、独立勝率は外部モデルがなければ `rmc/model.py`（直近成績の log5）を使う。内製モデルと市場の差が15pt超なら正式採用しない。
 3. **①〜④の全件独立走査（項目7〜13, 28, 29）**：4ロジックそれぞれが inventory の全 match_id を1行ずつ判定する。他ロジックの推定・理由を流用しない。競技ごとに（全競技横並びの上位抽出は禁止）各ロジック最低1件、試合数が多い競技は上位3件程度を deep_dive。deep_dive しない場合は理由を `deep_dive_waiver` に書く。
-4. **deep_dive（項目14, 15）**：事実は `docs/FACTS_SPEC.md` の形で `data/facts/<match_id>.json` にも保存する（日本語・1試合1行）。`rmc/validate.py` の `DEEP_FIELDS_COMMON`（eスポーツは `DEEP_FIELDS_ESPORTS` も）をすべて埋める。取れない項目は `{"unavailable": true, "reason": "…"}`。`data_as_of` は走査開始時刻より前。
+4. **deep_dive（項目14, 15）— 事実は徹底取得**：正式採用・watch にする試合は、直近成績＝両者10試合（日付YYYY-MM-DD・スコア・units・detail必須）、H2H＝最大10件（年をまたいで全部。無ければ「初対戦」を確認した根拠）、共通の対戦相手＝60日以内の共通相手との全試合を left.history / right.history、まで埋める。1つのサイトで出なければ最低3系統（競技DB→Wikipedia→現地語ニュース。中国語・韓国語・ロシア語・スペイン語検索も使う）。取れないものだけ `unavailable` に理由。**未確定の正式採用カードがこの水準を満たさないと `rmc.validate` の FACTS_COVERAGE で止まる。** 前回までの未確定カードで facts が薄いもの（form5未満・h2h空・history空で理由なし）も毎回この水準まで追補する。
+   元の手順：事実は `docs/FACTS_SPEC.md` の形で `data/facts/<match_id>.json` にも保存する（日本語・1試合1行）。`rmc/validate.py` の `DEEP_FIELDS_COMMON`（eスポーツは `DEEP_FIELDS_ESPORTS` も）をすべて埋める。取れない項目は `{"unavailable": true, "reason": "…"}`。`data_as_of` は走査開始時刻より前。
 5. **正式採用（項目16, 20）**：条件を満たすものは件数上限なしで ledger に追記。exact odds・stake($100)・locked_at（試合開始前）必須。レンジしかなければ正式採用しない。
 6. **結果更新（項目17〜21）**：全ledgerの開始済み未確定カードを確認。公式→リーグ公式→結果DB→ライブスコアの順でソースを取り、`result.source_rank` と `identity_checked` を付けて matches を更新。同じ match_id の全ロジック・経験値取引へ精算を反映。
 7. **集計・post-match review（項目22〜27）**：`python -m rmc.build`（格差スコア帯別 70〜80／80〜90／90以上の単利収支 `summary.gap_bands` も自動再計算。単利＝毎回$100固定、複利＝元金$100全額・倍額$200到達で利益をストックし$100から再開・0になったら$100から再開、1/4ケリー）。敗戦カードは `reviews/<entry_id>.md` に事前仮説・結果・見落とし・variance/structural 判定を書く。

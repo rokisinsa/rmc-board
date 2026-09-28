@@ -1,8 +1,10 @@
 {
+ "match_id": "m20260928-eb06f1bf",
+ "data_as_of": "2026-09-28T15:58:00+09:00",
  "unit": "セット",
  "left": {
   "name": "チャイニーズタイペイ",
-  "ranking": "FIVBランキングの値は取れていない（韓国26位より下のシード）",
+  "ranking": "FIVBランキングの数値は未取得（大会シードは韓国26位より下位）。アジア選手権2026はベスト8（第7シードで8強入り）",
   "form": [
    {
     "date": "2026-09-27",
@@ -11,19 +13,106 @@
     "ha": "N",
     "score": "2-3",
     "res": "L",
-    "detail": "25-18, 26-28, 20-25, 25-21, 15-13（中国側から見たスコア）",
     "units_won": 2,
-    "units_lost": 3
+    "units_lost": 3,
+    "detail": "18-25 28-26 25-20 21-25 13-15（張育陞34得点）"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "イラン",
+    "comp": "アジア選手権2026 準々決勝",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "セット別スコア未取得"
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "タイ",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "23-25 25-22 25-23 22-25 10-15"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "カタール",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-19 25-22 28-26（張育陞20得点）"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "韓国",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "27-29 25-19 15-25 15-25"
+   },
+   {
+    "date": "2026-08-06",
+    "opp": "韓国",
+    "comp": "東アジア選手権2026 予選B組（ウランバートル）",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "23-25 25-22 22-25 25-21 22-24"
    }
   ],
   "lineup": [
-   "未確認"
+   "主力：黃宇晨、陳玠廷、張育陞（9/27中国戦34得点、亜錦カタール戦20得点）、温逸凱、李元",
+   "監督：黃宏裕"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "中国",
+    "comp": "アジア大会2026 男子 予選プールD",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "18-25 28-26 25-20 21-25 13-15"
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "タイ",
+    "comp": "アジア選手権2026 予選C組",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "23-25 25-22 25-23 22-25 10-15"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "カタール",
+    "comp": "アジア選手権2026 予選C組",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-19 25-22 28-26"
+   }
+  ]
  },
  "right": {
   "name": "韓国",
-  "ranking": "FIVB 26位（大会のシード表）",
+  "ranking": "FIVB世界23位（2026年9月・韓国報道）／大会シード表では26位表記。アジア選手権2026 3位（銅・2027W杯出場権獲得）、東アジア選手権2026 全勝優勝（2連覇）",
   "form": [
    {
     "date": "2026-09-27",
@@ -32,70 +121,254 @@
     "ha": "N",
     "score": "3-0",
     "res": "W",
-    "detail": "25-16, 27-25, 25-22",
     "units_won": 3,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "25-16 27-25 25-22（イム・ソンジン13得点）"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "オーストラリア",
+    "comp": "アジア選手権2026 3位決定戦",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "16-25 25-18 22-25 25-18 15-9（ホ・スボン28得点）"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "日本",
+    "comp": "アジア選手権2026 準決勝",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "13-25 11-25 14-25（59分の完敗）"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "中国",
+    "comp": "アジア選手権2026 準々決勝",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "17-25 25-21 25-22 29-27"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "カタール",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-20 25-19 25-15（イム・ジェヨン15得点）"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "タイ",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "フルセット負け（セット別スコア未取得、ホ・スボン25得点）"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "チャイニーズタイペイ",
+    "comp": "アジア選手権2026 予選C組",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "29-27 19-25 25-15 25-15"
+   },
+   {
+    "date": "2026-08-10",
+    "opp": "日本",
+    "comp": "東アジア選手権2026 決勝（ウランバートル）",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "第1セット40-38のデュース戦。他セット詳細未取得。5戦全勝で2連覇"
+   },
+   {
+    "date": "2026-08-06",
+    "opp": "チャイニーズタイペイ",
+    "comp": "東アジア選手権2026 予選B組",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "25-23 22-25 25-22 21-25 24-22"
+   },
+   {
+    "date": "2026-08-05",
+    "opp": "日本",
+    "comp": "東アジア選手権2026 予選B組",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "セット別スコア未取得"
    }
   ],
   "lineup": [
-   "監督ラミレス",
-   "OH イム・ソンジン 13得点、チョン・ハンヨン、イム・ドンヒョク 各11得点"
+   "監督ラミレス（フィリピン戦時点）",
+   "OH イム・ソンジン（フィリピン戦13得点）、チョン・ハンヨン、イム・ドンヒョク 各11得点",
+   "エースはホ・スボン（アジア選手権得点1位）、リベロ パク・キョンミン（同ベストリベロ）"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-10",
+    "opp": "中国",
+    "comp": "アジア選手権2026 準々決勝",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "17-25 25-21 25-22 29-27"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "カタール",
+    "comp": "アジア選手権2026 予選C組",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "25-20 25-19 25-15"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "タイ",
+    "comp": "アジア選手権2026 予選C組",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "セット別スコア未取得"
+   }
+  ]
  },
- "h2h": [],
- "venue": "愛知県（パークアリーナ小牧の可能性が高い、未確認）。中立地",
+ "h2h": [
+  {
+   "date": "2026-09-04",
+   "event": "アジア選手権2026 予選C組（福岡・北九州）",
+   "score": "1-3",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 3,
+   "detail": "27-29 25-19 15-25 15-25"
+  },
+  {
+   "date": "2026-08-06",
+   "event": "東アジア選手権2026 予選B組（ウランバートル）",
+   "score": "2-3",
+   "winner": "right",
+   "units_left": 2,
+   "units_right": 3,
+   "detail": "23-25 25-22 22-25 25-21 22-24"
+  },
+  {
+   "date": "2023-08-25",
+   "event": "アジア選手権2023 ファイナル12（ウルミア）",
+   "score": "1-3",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 3,
+   "detail": "25-18 23-25 14-25 19-25（韓国は最終5位・台湾6位）"
+  }
+ ],
+ "common_opponents_notes": [
+  "60日以内の共通相手は中国・タイ・カタール：中国＝台湾L2-3(9/27AG)/韓国W3-1(9/10亜錦QF)、タイ＝台湾L2-3(9/9)/韓国L2-3(9/7)、カタール＝台湾W3-0(9/6)/韓国W3-0(9/8)",
+  "直近2度の直接対戦（9/4、8/6）はいずれも韓国勝ちだが、8/6はフルセット・9/4も第1セットはデュースと台湾も競っている"
+ ],
+ "venue": "パークアリーナ小牧（愛知・小牧、9/28 19:00表記のソースあり〔現地18:00表記も〕）。中立地（2026愛知・名古屋アジア大会 男子予選プールD）",
  "risks": [
-  "チャイニーズタイペイは初戦で中国にフルセット負けと接戦だった"
+  "台湾は初戦で中国相手にフルセット（張育陞34得点）と接戦だったが敗れて0勝1敗。プールDは上位2チームが8強",
+  "韓国は9月に公式戦を大量にこなしており（アジア選手権7試合→AG）、対戦経験値・直近の直接対戦は韓国優位",
+  "韓国はアジア選手権準決勝で日本に完敗するなど格上には脆さ、格下相手の取りこぼしはタイ戦のみ"
  ],
  "missing": [
-  "FIVBポイント",
-  "チャイニーズタイペイのメンバー"
+  "チャイニーズタイペイの東アジア選手権2026の残り試合（日本戦・マカオ戦・順位決定戦）の結果",
+  "韓国の東アジア選手権マカオ戦（8/7）・準決勝（8/9頃）の相手とスコア（5戦全勝は確認済み）",
+  "台湾のイラン戦（亜錦QF）とタイ戦以外のセット別詳細の一部",
+  "両チームのFIVBランキングポイント、アジア大会登録12人の完全な名簿"
  ],
  "unavailable": {
-  "h2h": "直近の対戦結果を見つけられなかった",
-  "history": "共通の対戦相手（中国・フィリピン）との試合は韓国側がまだ1試合のみ"
+  "h2h": "2023年以前のさらに古い直接対戦（アジア大会・アジア選手権等）は時間内に個別スコアを確認できず。直近3件のみ記載",
+  "left.form": "東アジア選手権の台湾の他試合結果が見つからず、直近10試合に届かない（6試合）。台湾は8月以前の国際試合が少ない",
+  "right.form": "東アジア選手権のマカオ戦・準決勝のスコア未取得のため、formはスコア判明分のみ（時系列に2試合欠落あり）"
  },
+ "note": "9/28 19:00開始前の情報のみ。韓国のランキングは韓国報道の「世界23位」と大会シード表の「26位」で不一致のため両論併記",
  "source_urls": [
   "https://toshiki71.com/post-17488/",
+  "https://toshiki71.com/post-15758/",
   "https://www.koreatimes.co.kr/sports/20260927/s-korea-beats-philippines-to-start-mens-volleyball-tournament",
-  "https://en.wikipedia.org/wiki/Volleyball_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament"
+  "https://en.wikipedia.org/wiki/Volleyball_at_the_2026_Asian_Games_%E2%80%93_Men%27s_tournament",
+  "https://volleyballking.jp/article/91881/",
+  "https://volleyballking.jp/article/90493/",
+  "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/mens-volleyball-asia-championship-2026-schedule-broadcast/blt4160f4708502d8f1",
+  "https://www.threads.com/@volsports.co/post/Dc3i1cPj5cm/",
+  "https://udn.com/news/story/7005/9744652",
+  "https://udn.com/news/story/7005/9737923",
+  "https://www.sina.cn/news/detail/5341230200260632.html",
+  "https://tw.sports.yahoo.com/news/%E5%8F%B0%E7%81%A3%E7%94%B7%E6%8E%921-3%E4%B8%8D%E6%95%B5%E4%BC%8A%E6%9C%97%E5%90%9E%E6%95%97-%E4%BA%9E%E9%8C%A6%E8%B3%BD%E7%84%A1%E7%B7%A3%E6%99%89%E7%B4%9A8%E5%BC%B7%E6%AD%A2%E6%AD%A5-%E4%B8%8B%E7%AB%99%E7%9B%AE%E6%A8%99%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9E%E9%81%8B-001122029.html",
+  "https://www.newspim.com/news/view/20260908001025",
+  "https://www.newspim.com/news/view/20260806001218",
+  "https://supple.kr/news/cmtyc9iun000xxzqomvi9m595",
+  "https://www.tsnkoreanews.com/news/article.html?no=28339",
+  "https://v.daum.net/v/20260810065641130",
+  "https://en.wikipedia.org/wiki/2023_Asian_Men%27s_Volleyball_Championship",
+  "https://applealmond.com/posts/326825",
+  "https://sports.ltn.com.tw/news/breakingnews/5587933"
  ],
- "match_id": "m20260928-eb06f1bf",
- "data_as_of": "2026-09-28T12:47:00+09:00",
  "calc": {
   "left": {
-   "games": 1,
-   "W": 0,
-   "L": 1,
+   "games": 6,
+   "W": 1,
+   "L": 5,
    "D": 0,
-   "win_rate": 0.0,
+   "win_rate": 16.7,
    "home": {
     "W": 0,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 1,
+    "L": 3,
     "D": 0
    },
-   "streak": null,
-   "units_won": 2,
-   "units_lost": 3,
-   "points_for": 2,
-   "points_against": 3,
-   "points_games": 1,
-   "inner_for": 105,
-   "inner_against": 111,
-   "inner_games": 1
+   "streak": "3連敗",
+   "units_won": 11,
+   "units_lost": 15,
+   "points_for": 11,
+   "points_against": 15,
+   "points_games": 6,
+   "inner_for": 487,
+   "inner_against": 503,
+   "inner_games": 5
   },
   "right": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
+   "games": 10,
+   "W": 8,
+   "L": 2,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -103,26 +376,115 @@
    },
    "away": {
     "W": 0,
-    "L": 0,
+    "L": 1,
     "D": 0
    },
-   "streak": null,
-   "units_won": 3,
-   "units_lost": 0,
-   "points_for": 3,
-   "points_against": 0,
-   "points_games": 1,
-   "inner_for": 77,
-   "inner_against": 63,
-   "inner_games": 1
+   "streak": "2連勝",
+   "units_won": 26,
+   "units_lost": 14,
+   "points_for": 26,
+   "points_against": 14,
+   "points_games": 10,
+   "inner_for": 604,
+   "inner_against": 581,
+   "inner_games": 7
   },
   "h2h": {
-   "games": 0,
+   "games": 3,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 3,
+   "draw": 0,
+   "units_left": 4,
+   "units_right": 9,
+   "points_left": 4,
+   "points_right": 9,
+   "points_games": 3,
+   "avg_left": 1.3,
+   "avg_right": 3.0,
+   "inner_left": 280,
+   "inner_right": 308,
+   "inner_games": 3
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "中国",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "2-3",
+      "res": "L",
+      "comp": "アジア大会2026 男子 予選プールD"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-10",
+      "iso": "2026-09-10",
+      "score": "3-1",
+      "res": "W",
+      "comp": "アジア選手権2026 準々決勝"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "タイ",
+    "left": [
+     {
+      "date": "2026-09-09",
+      "iso": "2026-09-09",
+      "score": "2-3",
+      "res": "L",
+      "comp": "アジア選手権2026 予選C組"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "2-3",
+      "res": "L",
+      "comp": "アジア選手権2026 予選C組"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-09",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "カタール",
+    "left": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "3-0",
+      "res": "W",
+      "comp": "アジア選手権2026 予選C組"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "3-0",
+      "res": "W",
+      "comp": "アジア選手権2026 予選C組"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-08",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  }

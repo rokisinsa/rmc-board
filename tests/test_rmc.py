@@ -127,6 +127,10 @@ class TestValidate(Base):
         core.save("summary.json", s)
         self.assertIn("PROFIT_AUDIT", {e.split("]")[0][1:] for e in validate.run().errors})
 
+    def test_facts_coverage_gate(self):
+        core.save("ledger/r1.json", [E1])  # 未確定の正式採用・factsなし
+        self.assertIn("FACTS_COVERAGE", self.codes())
+
     def test_coverage_screen_zero(self):
         runs = core.load("automation-runs.json")
         runs[-1]["coverage"] = {"CS2": dict(event_count=3, priced_upcoming_count=3, r1=dict(screened=0))}

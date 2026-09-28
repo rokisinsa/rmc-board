@@ -1,20 +1,70 @@
 {
  "match_id": "m20260928-5a448cec",
- "data_as_of": "2026-09-28T06:27:00+09:00",
+ "data_as_of": "2026-09-28T16:26:00+09:00",
  "unit": "フレーム",
  "left": {
   "name": "趙心童",
-  "ranking": "世界ランク1位（2026年武漢OP後に就任）。深圳OP優勝オッズ本命（約11/4, SnookerHQ）",
+  "ranking": "世界ランク1位（2026年8月の武漢OP後に就任）。深圳OP優勝オッズ本命（11/4、SnookerHQ）。大会公式アンバサダー",
   "form": [
    {
-    "date": "2026-09-07〜08頃",
+    "date": "2026-09-07",
     "opp": "O.ラインズ",
-    "comp": "イングリッシュOP ベスト16",
-    "ha": "N",
+    "comp": "イングリッシュOP ベスト64",
+    "ha": "A",
     "score": "2-4",
     "res": "L",
     "units_won": 2,
     "units_lost": 4
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "J.トランプ",
+    "comp": "ブリティッシュOP 準々決勝",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 5
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "M.ジョイス",
+    "comp": "ブリティッシュOP ベスト16",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "M.ホルト",
+    "comp": "ブリティッシュOP ベスト32",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-02",
+    "opp": "D.ウェルズ",
+    "comp": "ブリティッシュOP ベスト64",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "O.ブラウン",
+    "comp": "ブリティッシュOP ベスト128",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 1
    },
    {
     "date": "2026-08-29",
@@ -29,7 +79,7 @@
    {
     "date": "2026-08-28",
     "opp": "肖国棟",
-    "comp": "武漢OP SF",
+    "comp": "武漢OP 準決勝",
     "ha": "N",
     "score": "6-2",
     "res": "W",
@@ -39,12 +89,14 @@
    {
     "date": "2026-08-27",
     "opp": "ロバートソン",
-    "comp": "武漢OP QF",
+    "opp_rank": "世界3位",
+    "comp": "武漢OP 準々決勝",
     "ha": "N",
     "score": "5-1",
     "res": "W",
     "units_won": 5,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "この勝利で世界ランク1位に"
    },
    {
     "date": "2026-08-26",
@@ -55,120 +107,243 @@
     "res": "W",
     "units_won": 5,
     "units_lost": 2
-   },
-   {
-    "date": "2026-08-24",
-    "opp": "高楊",
-    "comp": "武漢OP ベスト32",
-    "ha": "N",
-    "score": "5-0",
-    "res": "W",
-    "units_won": 5,
-    "units_lost": 0
    }
   ],
   "lineup": [
-   "中国出身＝地元の観客"
+   "中国出身＝深圳がホーム同然の地元開催。世界選手権2026覇者ではなく前年度（2025）覇者・現世界1位",
+   "9/7のイングリッシュOP以来3週間実戦なし（国際選手権は世界1位枠で予選持ち越し）"
   ],
   "history": []
  },
  "right": {
   "name": "ドナルドソン",
-  "ranking": "未取得",
-  "form": [],
-  "lineup": [],
+  "ranking": "世界ランク66位（自己最高22位）。1994年生・スコットランド出身",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "M.マン",
+    "comp": "スコティッシュOP 予選（ベスト96）",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "袁思俊",
+    "comp": "国際選手権 予選（ベスト128）",
+    "ha": "A",
+    "score": "4-6",
+    "res": "L",
+    "units_won": 4,
+    "units_lost": 6
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "L.クロウリー",
+    "comp": "北アイルランドOP 予選（ベスト96）",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "羅澤濤",
+    "comp": "イングリッシュOP 予選（ベスト96）",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-07-23",
+    "opp": "J.リソウスキー",
+    "comp": "ブリティッシュOP 予選（ベスト128）",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 4
+   },
+   {
+    "date": "2026-07-20",
+    "opp": "王欣博",
+    "comp": "深圳OP 予選3回戦（ベスト96）",
+    "ha": "A",
+    "score": "5-2",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 2,
+    "detail": "この勝利で本戦（趙心童戦）へ。予選はレスター開催"
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "N.サンカム",
+    "comp": "チャンピオンシップリーグ 第2ステージ グループD",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "周躍龍",
+    "comp": "チャンピオンシップリーグ 第2ステージ グループD",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "I.ボイコ",
+    "comp": "チャンピオンシップリーグ 第2ステージ グループD",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-06-25",
+    "opp": "袁思俊",
+    "comp": "チャンピオンシップリーグ グループ20",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "同日グループ20でS.ナイヤーに3-1勝、白雨露と2-2分"
+   }
+  ],
+  "lineup": [
+   "9月は3週連続で予選に出場（2勝1敗）と試合勘は維持",
+   "6月の武漢OP予選では王欣博に1-5で敗れており、7月の深圳OP予選で同じ王欣博に5-2で雪辱"
+  ],
   "history": []
  },
- "h2h": [],
- "common_opponents_notes": [
-  "ロバートソン: 趙心童は武漢OP QFで5-1勝利"
+ "h2h": [
+  {
+   "date": "2022-02-04",
+   "event": "チャンピオンシップリーグ（招待制）ウィナーズグループ",
+   "score": "2-3",
+   "winner": "right",
+   "units_left": 2,
+   "units_right": 3,
+   "detail": "ドナルドソンが3-2で勝利（趙は第1フレームに133のブレイク）"
+  },
+  {
+   "date": "2021-01-08",
+   "event": "チャンピオンシップリーグ グループ3",
+   "score": "3-2",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 2
+  },
+  {
+   "date": "2019-10-15",
+   "event": "イングリッシュOP ベスト128",
+   "score": "4-3",
+   "winner": "left",
+   "units_left": 4,
+   "units_right": 3,
+   "detail": "最終フレーム71-64の接戦"
+  }
  ],
- "venue": "宝安体育中心（中国・深圳）、深圳オープン ベスト64（予選から持ち越しのシード戦）、9フレーム制（5フレーム先取）。中国人選手は地元",
+ "common_opponents_notes": [
+  "60日以内の共通対戦相手なし。趙側の相手：ロバートソン（2回）、K.ウィルソン、張安達、高楊、J.ジョーンズ、ホーキンス、肖国棟、常冰玉、ブラウン、ウェルズ、ホルト、ジョイス、トランプ、ラインズ／ドナルドソン側の相手：クロウリー、袁思俊、マン",
+  "H2H通算は趙心童の2勝1敗（フレーム計9-8）。ただし直近対戦は2022年2月で4年半前",
+  "地元メディア（新浪）も「過去の対戦成績では趙心童に心理的優位」と報道"
+ ],
+ "venue": "宝安体育中心（中国・深圳）。深圳オープン2026（9/28-10/4、初開催のランキング戦）1回戦＝7月の予選から持ち越しのシード戦、9フレーム制（5フレーム先取）。趙心童は地元中国。開始20:30 JST（現地19:30）",
  "risks": [
   "9フレーム制の短期戦",
-  "戦績は大会記事の要約取得で部分的（cuetracker/Wikipedia取得不可）"
+  "趙心童は直近2連敗（ブリティッシュOP準々決勝・イングリッシュOP初戦）＋3週間の実戦間隔",
+  "H2Hは全て2022年以前で参考度低め（当時のドナルドソンはランク20位前後、現在66位）"
  ],
  "missing": [
-  "ドナルドソンの戦績",
-  "H2H"
+  "ドナルドソンの今季残り2試合（CueTracker集計7勝6敗1分14試合のうち12試合のみ確認。うち1試合は6月の武漢OP予選・王欣博戦1-5敗）"
  ],
  "unavailable": {
-  "h2h": "cuetracker が429、flashscoreは動的でH2H取得不可",
-  "left.form": "cuetracker 429。6試合のみ",
-  "right.form": "取得できた大会記事に出場記録なし"
+  "common": "上記の通り両者の60日以内の対戦相手一覧を突き合わせたが共通相手なし（ドナルドソンの60日以内の試合は9月の予選3試合のみ）"
  },
  "source_urls": [
-  "https://cuetracker.net/tournaments/championship-league/2026/7890",
-  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)",
+  "https://cuetracker.net/players/zhao-xintong",
+  "https://cuetracker.net/players/scott-donaldson",
+  "https://cuetracker.net/head-to-head/scott-donaldson/zhao-xintong",
+  "https://www.snooker.org/res/index.asp?player=894",
+  "https://www.snooker.org/res/index.asp?player=946",
+  "https://www.snooker.org/res/index.asp?event=2761",
   "https://en.wikipedia.org/wiki/2026_Wuhan_Open_(snooker)",
   "https://en.wikipedia.org/wiki/Zhao_Xintong",
-  "https://etusuora.com/en/snooker/wst/english-open",
-  "https://snookerhq.com/2026/04/11/world-snooker-championship-qualifiers-2026-draw-schedule-results/",
   "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
-  "https://www.snooker.org/res/index.asp?event=2214",
-  "https://www.snooker.org/res/index.asp?event=2311",
-  "https://www.snooker.org/res/index.asp?event=2334",
-  "https://www.snooker.org/res/index.asp?event=2546",
-  "https://www.snooker.org/res/index.asp?event=2547",
-  "https://www.snooker.org/res/index.asp?event=2758",
-  "https://www.snooker.org/res/index.asp?event=2759",
-  "https://www.snooker.org/res/index.asp?event=2761",
-  "https://www.snooker.org/res/index.asp?event=2764",
-  "https://www.snooker.org/res/index.asp?event=2767",
-  "https://www.snooker.org/res/index.asp?event=2768",
-  "https://www.snooker.org/res/index.asp?event=2769",
-  "https://www.snooker.org/res/index.asp?event=2770",
-  "https://www.snooker.org/res/index.asp?event=2771",
-  "https://www.tntsports.co.uk/snooker/china-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-judd-trump_sto23326287/story.shtml",
-  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml"
+  "https://k.sina.com.cn/article_7879995911_1d5af320706802mocw.html"
  ],
  "calc": {
   "left": {
-   "games": 6,
-   "W": 4,
-   "L": 2,
+   "games": 10,
+   "W": 7,
+   "L": 3,
    "D": 0,
-   "win_rate": 66.7,
+   "win_rate": 70.0,
    "home": {
     "W": 0,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 4,
+    "L": 2,
     "D": 0
    },
    "streak": "2連敗",
-   "units_won": 30,
-   "units_lost": 19,
-   "points_for": 30,
-   "points_against": 19,
-   "points_games": 6
+   "units_won": 42,
+   "units_lost": 29,
+   "points_for": 42,
+   "points_against": 29,
+   "points_games": 10
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 10,
+   "W": 6,
+   "L": 4,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 60.0,
    "home": {
     "W": 0,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 6,
+    "L": 4,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 29,
+   "units_lost": 26,
+   "points_for": 29,
+   "points_against": 26,
+   "points_games": 10
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 3,
+   "left": 2,
+   "right": 1,
+   "draw": 0,
+   "units_left": 9,
+   "units_right": 8,
+   "points_left": 9,
+   "points_right": 8,
+   "points_games": 3,
+   "avg_left": 3.0,
+   "avg_right": 2.7
   },
   "common": [],
   "common_window_days": 60,

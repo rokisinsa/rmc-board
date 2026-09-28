@@ -158,6 +158,33 @@ def check_ledger(rep, lg, ledger, matches, base_ledger):
                     rep.err("LOCKED_MODIFIED", f"{lg}/{old['entry_id']}: locked 項目 {k} が書き換えられた")
 
 
+def check_facts_coverage(rep, matches):
+    """未確定の正式採用カードは、事実（直近成績・H2H・60日以内の共通相手）を徹底取得済みであること。
+    取れない場合は unavailable に理由が書いてあれば通る（数字を作らないため）。"""
+    pend = set()
+    for lg in LOGICS + ("experience",):
+        for e in load(f"ledger/{lg}.json", []):
+            if e.get("result") is None:
+                pend.add(e["match_id"])
+    import os
+    from .core import path as _path
+    for mid in sorted(pend):
+        f = _path("facts", f"{mid}.json")
+        if not os.path.exists(f):
+            rep.err("FACTS_COVERAGE", f"{mid}: 正式採用（未確定）なのに facts がない")
+            continue
+        x = json.load(open(f, encoding="utf-8"))
+        un = " ".join(str(k) for k in (x.get("unavailable") or {}))
+        for side in ("left", "right"):
+            if len((x.get(side) or {}).get("form") or []) < 5 and "form" not in un and f"{side}" not in un:
+                rep.err("FACTS_COVERAGE", f"{mid}: {side}.form が5試合未満（理由の unavailable も無い）")
+        if not (x.get("h2h") or []) and "h2h" not in un:
+            rep.err("FACTS_COVERAGE", f"{mid}: h2h が空（初対戦の確認根拠も無い）")
+        nh = len((x.get("left") or {}).get("history") or []) + len((x.get("right") or {}).get("history") or [])
+        if nh == 0 and not any(w in un for w in ("history", "common")):
+            rep.err("FACTS_COVERAGE", f"{mid}: 共通相手用の60日 history が空（確認結果の unavailable も無い）")
+
+
 def check_runs(rep, runs, ana_by_logic):
     if not runs:
         rep.err("RUNS_EMPTY", "automation-runs.json に記録がない")
@@ -249,6 +276,7 @@ def run(base=None):
     check_runs(rep, runs, ana)
     check_independence(rep, ana)
     check_facts(rep, matches)
+    check_facts_coverage(rep, matches)
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}

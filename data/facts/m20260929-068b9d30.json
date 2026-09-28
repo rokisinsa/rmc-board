@@ -1,15 +1,15 @@
 {
  "match_id": "m20260929-068b9d30",
- "data_as_of": "2026-09-28T12:53:00+09:00",
+ "data_as_of": "2026-09-28T15:58:00+09:00",
  "unit": "なし",
  "left": {
   "name": "アル・リヤディ（ベイルート）",
-  "ranking": "WASL 2連覇中の王者。2025-26 WASL西アジアリーグ グループ1位（6-2）でFinal 8直行",
+  "ranking": "WASL 2連覇中の王者（2025年Final 8は13勝0敗の全勝優勝）。2025-26 WASL西アジアリーグ グループ1位（6勝2敗・得738失669）でFinal 8直行。Final 8 2026 グループA 1勝0敗",
   "form": [
    {
     "date": "2026-09-26",
     "opp": "インディアン・レイルウェイズ",
-    "comp": "FIBA WASL Final 8 グループA第1戦",
+    "comp": "FIBA WASL Final 8 2026 グループA 第1戦",
     "ha": "H",
     "score": "104-81",
     "res": "W",
@@ -17,63 +17,78 @@
    }
   ],
   "lineup": [
-   "Donovan Williams、Nick West、Zach Lofton、Ali Mansour（司令塔）ら",
+   "Donovan Williams、Nick West、Zach Lofton、Ali Mansour（司令塔）、Marcus Georges-Hunt（元クウェート・クラブ）ら",
    "HC Ahmad Farran。新チームでの初公式戦だった（監督談）"
   ],
   "history": []
  },
  "right": {
-  "name": "クウェート・クラブ",
-  "ranking": "2025-26 WASLガルフリーグ グループB2位（4-2）→準決勝でムハッラクに2-0",
+  "name": "クウェート・クラブ（アル・クウェートSC）",
+  "ranking": "WASLガルフリーグ2連覇（2025-26はグループB 2位〔4勝2敗〕→予選決定戦でムハラクに2-0）。2023年Final 8準優勝。Final 8 2026 グループA 1勝0敗",
   "form": [
    {
     "date": "2026-09-26",
-    "opp": "イッティハド・クラブ",
-    "comp": "FIBA WASL Final 8 グループA第1戦",
+    "opp": "アル・イテハド（ジッダ）",
+    "comp": "FIBA WASL Final 8 2026 グループA 第1戦",
     "ha": "N",
     "score": "105-97",
-    "res": "W"
+    "res": "W",
+    "detail": "Chinanu Onuaku 29点12R、Devone Grant 29点"
    }
   ],
   "lineup": [
-   "Chinanu Onuaku（開幕戦29点12R）、Devone Grant（29点）ら"
+   "Chinanu Onuaku（元NBA・開幕戦29点12R）、Devone Grant（29点）ら"
   ],
   "history": []
  },
  "h2h": [
   {
    "date": "2024-06-01",
-   "event": "FIBA WASL Final 8 グループ（ドーハ）",
+   "event": "FIBA WASL Final 8 2024 グループ（ドーハ）",
    "score": "100-78",
-   "winner": "left"
+   "winner": "left",
+   "detail": "リヤディはこの大会で初優勝"
   },
   {
    "date": "2023-06-16",
-   "event": "FIBA WASL Final 8 準決勝（ドバイ）",
+   "event": "FIBA WASL Final 8 2023 準決勝（ドバイ）",
    "score": "85-95",
-   "winner": "right"
+   "winner": "right",
+   "detail": "クウェートが決勝進出（決勝でマナマに敗れ準優勝）"
   }
  ],
- "venue": "ヌハド・ナウファル・スポーツコンプレックス（レバノン・ズーク・ミカエル）＝リヤディの実質ホーム。現地20:45",
+ "common_opponents_notes": [
+  "60日以内の共通相手は未発生（Final 8は9/26開幕、両チームとも第1戦しか消化していない。今後インディアン・レイルウェイズとアル・イテハドが共通相手になる）",
+  "2025年Final 8：リヤディは全勝優勝（準決勝サハラに97-85、決勝タビアトに104-77）。同大会でのクウェートとの対戦は確認できず",
+  "クウェートはガルフリーグ2025-26でアル・ウラに113-108勝ち、アル・アラビに78-83負け、シャルジャに115-81勝ち（日付不明）。予選決定戦ムハラクに107-101、78-69の2連勝"
+ ],
+ "venue": "ヌハド・ナウファル・スポーツコンプレックス（レバノン・ズーク・ミカエル）＝リヤディの実質ホーム（レバノン開催）。開始時刻は現地夕方〜夜（ソースにより17:45／20:45表記が混在）",
  "risks": [
-  "両チームともシーズン前後の再編成直後で直近データが1試合のみ",
-  "共通相手の対戦はグループ進行中で未発生"
+  "両チームともシーズン再編成直後で今季の直近データが1試合のみ",
+  "1勝0敗同士の対決で、勝者がグループA首位に立ち準決勝進出（各組上位2）へ大きく前進",
+  "リヤディはレバノン開催で実質ホーム。クウェートは2023年進準決勝でリヤディを破った実績があり相性は互角（H2H 1-1）",
+  "リヤディの初戦は格下相手の圧勝で強度は未知数。クウェートは初戦105点と攻撃好調（Onuaku・Grantで58点）"
  ],
  "missing": [
-  "両チームの直近10試合（国内リーグの日付付き結果を取得できず）",
-  "欠場情報"
+  "両チームの2025-26シーズン全試合（リヤディの西アジアリーグ8試合、クウェートのガルフリーグ6試合・国内リーグ）の日付付き結果",
+  "欠場・負傷情報",
+  "2025年以前のさらに古い直接対戦（WASL以前のアラブクラブ選手権等）の有無"
  ],
  "unavailable": {
-  "history": "60日以内の共通相手との対戦なし（Final 8は開幕したばかり）",
-  "form": "国内リーグ結果は時間内に取得できず"
+  "h2h": "2023・2024年のFinal 8での2試合のみ確認。2025年Final 8での対戦は確認できず（リヤディの2025年全勝優勝記事にクウェート戦の言及なし）。WASL以前の対戦記録は未発見",
+  "left.form": "西アジアリーグの試合別日付・スコアがWikipedia・FIBA記事から取得できず（順位・通算成績のみ）",
+  "right.form": "ガルフリーグの試合日付が取得元に無く、日付必須のformには初戦のみ記載。判明スコアはcommon_opponents_notesに記載",
+  "history": "60日以内の共通相手との対戦なし（Final 8は開幕したばかりで、両チームの60日以内の試合は9/26の初戦のみ）"
  },
  "source_urls": [
   "https://www.fiba.basketball/en/events/fiba-wasl-west-asia-league-final8-26",
-  "https://www.riyadi.com/al-riyadi-overcome-indian-railways-to-begin-three-peat-bid/",
   "https://www.fiba.basketball/en/events/fiba-wasl-west-asia-league-final8-26/news/everything-you-need-to-know-about-the-fiba-wasl-final-8-2026",
+  "https://www.riyadi.com/al-riyadi-overcome-indian-railways-to-begin-three-peat-bid/",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_FIBA_West_Asia_Super_League",
   "https://en.wikipedia.org/wiki/2023%E2%80%9324_FIBA_West_Asia_Super_League",
   "https://en.wikipedia.org/wiki/2022%E2%80%9323_FIBA_West_Asia_Super_League",
-  "https://www.fiba.basketball/en/news/wasl-22-23-final8-news-kuwait-club-beat-hard-fighting-al-riyadi-set-up-wasl-final-showdown-with-manama"
+  "https://www.fiba.basketball/en/news/wasl-22-23-final8-news-kuwait-club-beat-hard-fighting-al-riyadi-set-up-wasl-final-showdown-with-manama",
+  "https://www.fiba.basketball/en/events/fiba-west-asia-super-league-final-8-208957/news/history-made-as-al-riyadi-complete-fiba-wasl-back-to-back"
  ],
  "calc": {
   "left": {

@@ -1,8 +1,11 @@
 {
+ "match_id": "m20260929-476364b7",
+ "data_as_of": "2026-09-28T16:35:00+09:00",
+ "start_jst_confirmed": "2026-09-29T01:10:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ディナモ・ミンスク",
-  "ranking": "KHL西カンファレンス9位（8試合 2勝0OT勝4OT負2敗 得失23-25 8pt、eliteprospects）",
+  "ranking": "KHL西カンファレンス9位（8試合 2勝 OT/SO負4 規定負2 得失21-25 8pt前後、eliteprospects/順位表）",
   "form": [
    {
     "date": "2026-09-26",
@@ -44,6 +47,33 @@
     "ha": "A",
     "score": "2-4",
     "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "ディナモ・モスクワ",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "detail": "延長負（OT）"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "上海ドラゴンズ",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L",
+    "detail": "SO負（シュートアウト）"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "トルペド",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L",
+    "detail": "延長負（OT）"
    }
   ],
   "lineup": [
@@ -51,11 +81,21 @@
    "主将クリストファー・ティアニー",
    "先発GKは未発表"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-07",
+    "opp": "トルペド",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L",
+    "detail": "延長負（OT）"
+   }
+  ]
  },
  "right": {
   "name": "ラダ",
-  "ranking": "KHL西カンファレンス10位（9試合 1勝0OT勝3OT負5敗 得失15-37 5pt）",
+  "ranking": "KHL西カンファレンス10〜11位（9試合 1勝 OT負3 規定負5 得失15-37 5pt）",
   "form": [
    {
     "date": "2026-09-25",
@@ -81,6 +121,14 @@
     "score": "2-3",
     "res": "L",
     "detail": "延長負（OT）"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "バリス",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "H",
+    "score": "0-6",
+    "res": "L"
    },
    {
     "date": "2026-09-14",
@@ -130,7 +178,16 @@
    "新HC・大幅ロスター入替（KHL公式シーズンプレビュー）",
    "負傷情報は確認できず"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-11",
+    "opp": "トルペド",
+    "comp": "KHL 2026/27 レギュラーシーズン",
+    "ha": "H",
+    "score": "2-7",
+    "res": "L"
+   }
+  ]
  },
  "h2h": [
   {
@@ -138,71 +195,131 @@
    "event": "KHL 2026/27 レギュラーシーズン（トリヤッチ）",
    "score": "2-4",
    "winner": "right"
+  },
+  {
+   "date": "2026-02-05",
+   "event": "KHL 2025/26 レギュラーシーズン（トリヤッチ）",
+   "score": "8-3",
+   "winner": "left",
+   "detail": "championat.com『Лада — Динамо Мн 3:8』"
+  },
+  {
+   "date": "2025-12-21",
+   "event": "KHL 2025/26 レギュラーシーズン",
+   "score": "7-2",
+   "winner": "left"
+  },
+  {
+   "date": "2025-11-08",
+   "event": "KHL 2025/26 レギュラーシーズン",
+   "score": "0-1",
+   "winner": "right"
+  },
+  {
+   "date": "2025-10-22",
+   "event": "KHL 2025/26 レギュラーシーズン",
+   "score": "4-0",
+   "winner": "left"
+  },
+  {
+   "date": "2025-03-05",
+   "event": "KHL 2024/25 レギュラーシーズン",
+   "score": "4-2",
+   "winner": "left",
+   "detail": "規定時間内（ria.ru試合ページ）"
+  },
+  {
+   "date": "2025-01-14",
+   "event": "KHL 2024/25 レギュラーシーズン（トリヤッチ）",
+   "score": "4-6",
+   "winner": "right",
+   "detail": "クグリシェフが59:21に決勝点（ria.ru試合ページ）"
+  },
+  {
+   "date": "2023-11-20",
+   "event": "KHL 2023/24 レギュラーシーズン",
+   "score": "1-3",
+   "winner": "right"
+  },
+  {
+   "date": "2023-09-30",
+   "event": "KHL 2023/24 レギュラーシーズン",
+   "score": "1-2",
+   "winner": "right"
+  },
+  {
+   "date": "2017-12-23",
+   "event": "KHL 2017/18 レギュラーシーズン",
+   "score": "2-1",
+   "winner": "left"
   }
  ],
  "common_opponents_notes": [
-  "ラダはバリスにホームで0-6敗（日付は9/14〜9/21の間、特定できず）"
+  "60日以内の共通相手はトルペドのみ：ミンスクは9/7ホームで3-4 OT負、ラダは9/11ホームで2-7大敗",
+  "その他の相手は重複なし（ミンスク：上海・ディナモM・アフトモビリスト・シビル／ラダ：SKA・セヴェルスタリ・バリス・アク・バルス・ネフテヒミク・CSKA）",
+  "RIAのH2H通算：ミンスク13勝・ラダ7勝（20戦、2008年以降）"
  ],
- "venue": "ディナモ・ミンスクのホーム（ミンスク・アリーナ）",
- "unavailable": {
-  "h2h": "2025/26以前の対戦は取得できず",
-  "left.form": "開幕3試合（9/14以前）の相手・スコアが取得できず（順位表上OT負3が含まれる）",
-  "right.form": "バリス戦（0-6）の日付不明のため行から除外"
- },
- "match_id": "m20260929-476364b7",
- "data_as_of": "2026-09-28T06:39:00+09:00",
+ "venue": "ディナモ・ミンスクのホーム（ミンスク・アリーナ）。開始は現地9/28 19:10（JST 9/29 01:10）",
  "risks": [
-  "ミンスクは今季OT負4と接戦を落とし続け、直近2連敗",
-  "ラダは前回対戦でミンスクに勝利しており相性面の不確定要素",
-  "ML（延長込み2way）。レギュラー60分の引分けは多め（ミンスクOT負4）"
+  "ミンスクは今季OT/SO負4と接戦を落とし続け、直近2連敗",
+  "ラダは開幕9試合で1勝（得失15-37）と最悪期だが、その唯一の勝利が9/14の対ミンスク戦（4-2）",
+  "レギュラー60分引分け（OT突入）が多い両者（ミンスクOT/SO負4、ラダOT負3）",
+  "RIAのH2Hリストは2024/25の2試合（1/14・3/5）を欠いており網羅性に疑問→個別試合ページで補完済みだが、2023/24等に未把握の対戦が残る可能性あり"
  ],
  "missing": [
-  "ミンスク開幕3試合の詳細",
-  "ラダ対バリス戦の日付",
   "先発GK",
-  "2025/26以前のH2H"
+  "H2Hの2018〜2016年の中間対戦の一部（10件上限のため2017年以前は1件のみ収載）"
  ],
+ "unavailable": {
+  "left.form": "2026/27は9/7開幕でミンスクの公式戦は8試合のみ（10試合に満たない理由）。2025/26シーズン終盤の試合は季をまたぐため対象外とした",
+  "right.form": "同様に開幕からの9試合が全て（シーズン開始が9/5）",
+  "h2h": "RIA h2hページは2024/25の対戦（1/14・3/5）を欠くなど不完全。個別試合ページで2件補完。2023/24シーズンに追加の対戦があった可能性は排除できない"
+ },
  "source_urls": [
+  "https://www.sports.ru/hockey/club/dynamo-minsk/calendar/",
+  "https://www.sports.ru/hockey/club/lada/calendar/",
+  "https://scores24.live/en/ice-hockey/t-hc-dinamo-minsk",
+  "https://ria.ru/h2h/_KHK_Lada_vs_dynamo_minsk-424_133891.html",
+  "https://ria.ru/ep_event/4498755.html",
+  "https://ria.ru/ep_event/4498580.html",
+  "https://www.championat.com/hockey/news-6346206-lada-dinamo-mn-rezultat-matcha-5-fevralya-2026-goda-schyot-3-8-khl-2025-2026.html",
   "https://www.eliteprospects.com/league/khl/standings",
   "https://www.eliteprospects.com/team/1678/dinamo-minsk",
   "https://www.eliteprospects.com/team/189/lada-togliatti",
-  "https://scores24.live/en/ice-hockey/t-hc-dinamo-minsk",
-  "https://scores24.live/en/ice-hockey/t-hc-lada-togliatti-3",
-  "https://scores24.live/en/ice-hockey/l-russia-khl",
-  "https://www.freetips.com/ice-hockey/ak-bars-kazan-vs-lada-togliatti-khl-predictions-betting-tips-20260921-0007/",
+  "https://www.liveresult.ru/hockey/teams/Dynamo-Minsk",
   "https://www.xscores.com/hockey/match/dinamo-minsk-vs-lada-togliatti/28-09-2026/2804409"
  ],
  "calc": {
   "left": {
-   "games": 5,
+   "games": 8,
    "W": 2,
-   "L": 3,
+   "L": 6,
    "D": 0,
-   "win_rate": 40.0,
+   "win_rate": 25.0,
    "home": {
     "W": 2,
-    "L": 0,
+    "L": 2,
     "D": 0
    },
    "away": {
     "W": 0,
-    "L": 3,
+    "L": 4,
     "D": 0
    },
    "streak": "2連敗",
-   "points_for": 15,
-   "points_against": 14,
-   "points_games": 5
+   "points_for": 23,
+   "points_against": 25,
+   "points_games": 8
   },
   "right": {
-   "games": 8,
+   "games": 9,
    "W": 1,
-   "L": 7,
+   "L": 8,
    "D": 0,
-   "win_rate": 12.5,
+   "win_rate": 11.1,
    "home": {
     "W": 1,
-    "L": 2,
+    "L": 3,
     "D": 0
    },
    "away": {
@@ -210,23 +327,50 @@
     "L": 5,
     "D": 0
    },
-   "streak": "3連敗",
+   "streak": "4連敗",
    "points_for": 15,
-   "points_against": 31,
-   "points_games": 8
+   "points_against": 37,
+   "points_games": 9
   },
   "h2h": {
-   "games": 1,
-   "left": 0,
-   "right": 1,
+   "games": 10,
+   "left": 5,
+   "right": 5,
    "draw": 0,
-   "points_left": 2,
-   "points_right": 4,
-   "points_games": 1,
-   "avg_left": 2.0,
-   "avg_right": 4.0
+   "points_left": 33,
+   "points_right": 24,
+   "points_games": 10,
+   "avg_left": 3.3,
+   "avg_right": 2.4
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "トルペド",
+    "left": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "3-4",
+      "res": "L",
+      "comp": "KHL 2026/27 レギュラーシーズン"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-11",
+      "iso": "2026-09-11",
+      "score": "2-7",
+      "res": "L",
+      "comp": "KHL 2026/27 レギュラーシーズン"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-11",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-29"
  }

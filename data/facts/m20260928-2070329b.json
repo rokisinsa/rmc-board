@@ -1,53 +1,322 @@
 {
  "match_id": "m20260928-2070329b",
- "data_as_of": "2026-09-28T13:00:00+09:00",
+ "data_as_of": "2026-09-28T16:26:00+09:00",
  "unit": "セット",
  "left": {
   "name": "ディミトロフ",
-  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1743.4・ハード1722.6。ATPランキングは取得できず",
-  "form": [],
-  "lineup": [
-   "WC出場。プリズミッチの欠場で第9シードに繰り上がり、プリズミッチの枠へ移動（raquetc 2026-09-27）"
+  "ranking": "ATP127位（tennisexplorer選手ページ、自己最高3位。検索一覧では126位表記）。Tennis Abstract Elo（2026-09-21付）総合1743.4・ハード1722.6",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "ブトビラス",
+    "comp": "サントロペCH125 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(3) 3-6"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "ルーネ",
+    "opp_rank": "ATPトップ10級",
+    "comp": "デビスカップ（対デンマーク）",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-3 3-6 6-7(4)"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "モラー",
+    "comp": "デビスカップ（対デンマーク）",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "6-7(2) 6-3 6-4"
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "ポピリン",
+    "comp": "全米オープン 1回戦",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "6-3 3-6 2-6 4-6"
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "スカトフ",
+    "comp": "全米オープン 予選2回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(5) 6-4"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "ジュスティーノ",
+    "comp": "全米オープン 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-0 6-3"
+   },
+   {
+    "date": "2026-08-14",
+    "opp": "バエス",
+    "comp": "シンシナティ（マスターズ1000）1回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-1 3-6 4-6"
+   },
+   {
+    "date": "2026-07-15",
+    "opp": "ボルジェス",
+    "comp": "バスタッド（ATP250）2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 2-6"
+   },
+   {
+    "date": "2026-07-14",
+    "opp": "スブルチナ",
+    "comp": "バスタッド（ATP250）1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "7-6(5) 1-6 6-4"
+   },
+   {
+    "date": "2026-07-06",
+    "opp": "フェリー",
+    "comp": "ウィンブルドン 4回戦",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "5-7 6-3 6-4 4-6 6-7(7)"
+   }
   ],
-  "history": []
+  "lineup": [
+   "WC出場。プリズミッチの欠場で第9シードの枠へ移動し、相手が当初のグルニエからリンコンに変更（raquetc 2026-09-27）",
+   "全米オープン予選3回戦（8/28）はビルタネンの直前棄権による不戦勝で本戦入り（試合なしのためformには含めない）"
+  ],
+  "history": [
+   {
+    "date": "2026-08-25",
+    "opp": "ジュスティーノ",
+    "comp": "全米オープン 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-0 6-3"
+   }
+  ]
  },
  "right": {
   "name": "リンコン",
-  "ranking": "Tennis Abstract Elo（2026-09-21付）総合1565.5・ハード1536.0。ATPランキングは取得できず",
-  "form": [],
-  "lineup": [
-   "ATP260位（raquetc）。当初の相手はプリズミッチだったが、欠場によりディミトロフに変わった"
+  "ranking": "ATP260位（tennis.com 2026-09時点。matchstat表記は257位、raquetcは260位）。Tennis Abstract Elo（2026-09-21付）総合1565.5・ハード1536.0。2021年全米オープンジュニア優勝",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "プリズミッチ",
+    "comp": "サントロペCH125 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 3-6"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "ドロゲ",
+    "comp": "レンヌCH 2回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "7-5 4-6 3-6（室内ハード）"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "スチュワート",
+    "comp": "レンヌCH 1回戦",
+    "ha": "N",
+    "score": "0-1",
+    "res": "W",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "5-7 4-2で相手途中棄権（リンコンの勝ち上がり）"
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "ブランシェ",
+    "comp": "カシスCH 2回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "3-6 6-3 3-6"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "ダムネ",
+    "comp": "カシスCH 1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-3 6-4"
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "モンテス・デ・ラ・トーレ",
+    "opp_rank": "直前にプロブディフCH優勝、大会はその後決勝進出",
+    "comp": "マナコルCH 2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 4-6"
+   },
+   {
+    "date": "2026-09-02",
+    "opp": "グリンカ",
+    "comp": "マナコルCH 1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(3) 6-3"
+   },
+   {
+    "date": "2026-08-27",
+    "opp": "バリオス・ベラ",
+    "opp_rank": "予選第31シード",
+    "comp": "全米オープン 予選3回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 3-6"
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "リー",
+    "opp_rank": "ウィンブルドンジュニア覇者のWC（16歳）",
+    "comp": "全米オープン 予選2回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "4-6 6-3 6-3"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "ドロゲ",
+    "opp_rank": "予選第5シード（当時ATP84位）",
+    "comp": "全米オープン 予選1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "2-6 6-4 7-6(1)"
+   }
   ],
-  "history": []
+  "lineup": [
+   "本戦直接エントリー。当初の相手プリズミッチが欠場し、相手がディミトロフに変更（raquetc 2026-09-27）"
+  ],
+  "history": [
+   {
+    "date": "2026-08-09",
+    "opp": "ジュスティーノ",
+    "comp": "ブンデスリーガ（ドイツ団体リーグ・個人戦）",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6(6) 6-2"
+   }
+  ]
  },
  "h2h": [],
- "venue": "ATPチャレンジャー125 ポルト（Eupago Porto Open）R1、ポルトガル・ポルト（モンテ・アヴェンティーノ）、屋外ハード。センターコート第3試合、現地14:30以降",
+ "common_opponents_notes": [
+  "共通の相手（60日以内）はジュスティーノのみ：ディミトロフは8/25全米OP予選1回戦で6-0 6-3勝ち、リンコンは8/9ブンデスリーガで7-6(6) 6-2勝ち",
+  "リンコンは6/8リヨンCH1回戦でもジュスティーノに6-2 6-4で勝っている（60日圏外）"
+ ],
+ "venue": "ATPチャレンジャー125 ポルト（Eupago Porto Open）1回戦、ポルトガル・ポルト（モンテ・アヴェンティーノ）、屋外ハード。センターコート第3試合、現地14:30以降（日本時間9/28 22:30頃）",
  "risks": [
-  "直近の試合結果（form）とH2Hが取れていない",
-  "組み合わせが変わった直後の試合（当初の相手はグルニエ）。ディミトロフは元世界3位だが現在ATP127位（raquetc）"
+  "組み合わせが直前に変わった試合（ディミトロフの当初の相手はグルニエ、リンコンの当初の相手はプリズミッチ）",
+  "ディミトロフは元世界3位だが2026年はシングルス13勝21敗と不振で、直近4試合中3敗（サントロペではCH1回戦負け）",
+  "リンコンのレンヌ1回戦は相手棄権による勝ち上がり（完了セットは0-1）で、勝敗と取得セット数が一致しない",
+  "ディミトロフのデビスカップ2試合の開催地（ホーム/アウェイ）は未確認のためNとした"
  ],
  "missing": [
-  "両者の直近10試合（ATP・ESPNの選手ページがJSで描画され取れず、tennisexplorer・tennisabstractの選手ページは取得がブロックされた）",
-  "H2H",
-  "60日以内の共通の対戦相手"
+  "リンコンの試合はtennisexplorerの選手ページが8月下旬以降未更新のため、tennis.com・matchstat・現地報道を突き合わせて再構成した（日付が情報源間で最大1日ずれる：プリズミッチ戦は9/21表記の情報源もある）"
  ],
  "unavailable": {
-  "form": "選手の試合履歴ページが取れない（ATP・ESPNはJSで描画、tennisexplorer・tennisabstractは取得がブロックされた）",
-  "h2h": "同じ理由で取れない",
-  "history": "formが取れないため共通の対戦相手を特定できない"
+  "h2h": "初対戦。matchstatのH2Hページ（Dimitrov vs Rincon）で『まだ対戦なし（0-0）』を確認",
+  "left.ranking_details": "ATP公式サイトはJS描画で取得できず、ランキングはtennisexplorer表記"
  },
  "source_urls": [
-  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.tennisexplorer.com/player/dimitrov-779bc/?annual=2026",
+  "https://www.tennisexplorer.com/player/rincon-d1dab/?annual=2026",
+  "https://matchstat.com/tennis/h2h-odds-bets/Grigor%20Dimitrov/Daniel%20Rincon",
+  "https://matchstat.com/tennis/h2h-odds-bets/Ugo%20Blanchet/Daniel%20Rincon",
+  "https://www.tennis.com/players-rankings/daniel-rincon-sr-competitor-530317/",
+  "https://sports.yahoo.com/articles/us-open-2026-qualifying-day-103643555.html",
+  "https://www.elconquistadorconcepcion.cl/2026/08/27/tomas-barrios-hace-historia-y-clasifica-al-cuadro-principal-del-us-open/",
+  "https://www.lines.com/prediction-markets/sports/atp-rincon-jordanl-2026-08-26",
+  "https://en.tennistemple.com/actu/us-open-2026-dimitrov-gets-walkover-into-main-draw/CqVo",
+  "https://tennistonic.com/tennis-news/1049876/h2h-prediction-of-daniel-rincon-vs-inaki-montes-de-la-torre-in-manacor-challenger-with-odds-preview-pick-3rd-september-2026/",
+  "https://tennistonic.com/tennis-news/1055503/h2h-prediction-of-titouan-droguet-vs-daniel-rincon-in-rennes-challenger-with-odds-preview-pick-17th-september-2026/",
+  "https://tennistonic.com/tennis-news/1056342/h2h-prediction-of-dino-prizmic-vs-daniel-rincon-in-st-tropez-challenger-with-odds-preview-pick-22nd-september-2026/",
+  "https://www.tennisactu.net/news-cassis-ch-droguet-a-une-victoire-du-top-100-blanchet-et-bertrand-elimines-126947.html",
   "https://www.raquetc.com/2026/09/27/grigor-dimitrov-tem-novo-adversario-e-estreia-se-esta-segunda-feira-no-eupago-porto-open",
-  "https://www.atptour.com/en/scores/current-challenger/porto/9526/draws"
+  "https://www.atptour.com/en/scores/current-challenger/porto/9526/draws",
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://canaltenis.com/cuadro-atp-challenger-manacor-2026/"
  ],
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 10,
+   "W": 4,
+   "L": 6,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 40.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -58,14 +327,22 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "2連敗",
+   "units_won": 13,
+   "units_lost": 16,
+   "points_for": 13,
+   "points_against": 16,
+   "points_games": 10,
+   "inner_for": 142,
+   "inner_against": 145,
+   "inner_games": 10
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 10,
+   "W": 5,
+   "L": 5,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -76,7 +353,15 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "2連敗",
+   "units_won": 10,
+   "units_lost": 13,
+   "points_for": 11,
+   "points_against": 12,
+   "points_games": 10,
+   "inner_for": 102,
+   "inner_against": 112,
+   "inner_games": 9
   },
   "h2h": {
    "games": 0,
@@ -84,7 +369,34 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "ジュスティーノ",
+    "left": [
+     {
+      "date": "2026-08-25",
+      "iso": "2026-08-25",
+      "score": "2-0",
+      "res": "W",
+      "comp": "全米オープン 予選1回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-09",
+      "iso": "2026-08-09",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ブンデスリーガ（ドイツ団体リーグ・個人戦）"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-08-25",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-28"
  }
