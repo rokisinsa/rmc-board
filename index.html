@@ -222,6 +222,10 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
  .mrow{padding:8px 10px;gap:4px 8px}
  .b{font-size:12.5px}
 }
+.topmenu{display:flex;gap:8px;margin:14px 0 4px}
+.topmenu a{display:inline-flex;align-items:center;gap:4px;padding:10px 16px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:700;font-size:15px;text-decoration:none}
+.topmenu a span{font-weight:500;font-size:13px;opacity:.85}
+#ledger-sec{scroll-margin-top:12px}
 .grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
 </style>
 </head>
@@ -232,6 +236,8 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
     <div class="runinfo" id="runinfo">読み込み中…</div>
   </header>
   <div id="banner"></div>
+
+  <nav class="topmenu"><a href="#ledger-sec" id="todayBtn">今日の一覧<span id="todayCnt"></span></a></nav>
 
   <section>
     <h2>収支（正式採用のみ・$100固定）</h2>
@@ -254,7 +260,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
     <div id="sports" style="display:flex;flex-direction:column;gap:8px"></div>
   </section>
 
-  <section>
+  <section id="ledger-sec">
     <h2>正式採用の台帳</h2>
     <p style="font-size:12px;color:var(--muted);margin:0 0 8px">行を押すと、その採用の根拠になった分析を開きます。</p>
     <div class="ledger-tabs" id="ltabs"></div>
@@ -477,19 +483,31 @@ renderSports();
 
 // 台帳
 let lt='r1';
+const todayJ=(()=>{const j=new Date(Date.now()+9*3600e3);return j.toISOString().slice(0,10);})();
+const dayJ=iso=>iso?new Date(new Date(iso).getTime()+9*3600e3).toISOString().slice(0,10):'';
+const todayRows=()=>LG.concat('experience').flatMap(l=>D.led[l].map(e=>Object.assign({_l:l},e))).filter(e=>dayJ(D.matches[e.match_id]?.start_jst)===todayJ);
+function gapAt(e){  // ロック時点のオッズから格差スコア（控除後の本命勝率×100）
+  const ss=(D.oddsAll[e.match_id]||[]).filter(o=>o.prices&&(!e.locked_at||new Date(o.taken_at)<=new Date(e.locked_at))).sort((a,b)=>new Date(a.taken_at)-new Date(b.taken_at));
+  const o=ss[ss.length-1];
+  if(o){const inv=Object.values(o.prices).filter(v=>v>1).map(v=>1/v);const t=inv.reduce((a,b)=>a+b,0);if(t>0)return Math.round(Math.max(...inv)/t*100);}
+  const g=D.ana.r1[e.match_id]?.gap;return g??null;}
+const LSHORT={r1:'①',r2:'②',r3:'③',r4:'④',experience:'経験値'};
 function renderLedger(){
-  document.getElementById('ltabs').innerHTML=LG.concat('experience').map(l=>`<button aria-pressed="${l===lt}" data-l="${l}">${T[l]}（${D.led[l].length}）</button>`).join('');
+  const tr=todayRows();
+  document.getElementById('todayCnt').textContent=`（正式 ${tr.length}件）`;
+  document.getElementById('ltabs').innerHTML=`<button aria-pressed="${lt==='today'}" data-l="today">今日の一覧（${tr.length}）</button>`+LG.concat('experience').map(l=>`<button aria-pressed="${l===lt}" data-l="${l}">${T[l]}（${D.led[l].length}）</button>`).join('');
   document.querySelectorAll('#ltabs button').forEach(b=>b.onclick=()=>{lt=b.dataset.l;renderLedger();});
-  const rows=D.led[lt];const tb=document.getElementById('ledger');
-  if(!rows.length){tb.innerHTML=`<tbody><tr><td class="empty" style="text-align:center">${T[lt]}の正式採用はまだありません。</td></tr></tbody>`;return;}
-  tb.innerHTML=`<thead><tr><th>結果</th><th>開始</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th></tr></thead><tbody>`+
-   rows.slice().sort((a,b)=>(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
-    const mark=!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';
-    return `<tr class="lrow" data-m="${e.match_id}" tabindex="0" title="分析を開く"><td>${mark}</td><td class="mono">${t.d} ${t.t}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
+  const isT=lt==='today';const rows=isT?tr:D.led[lt].map(e=>Object.assign({_l:lt},e));const tb=document.getElementById('ledger');
+  if(!rows.length){tb.innerHTML=`<tbody><tr><td class="empty" style="text-align:center">${isT?'今日開始の試合の正式採用はまだありません。':T[lt]+'の正式採用はまだありません。'}</td></tr></tbody>`;return;}
+  tb.innerHTML=`<thead><tr><th>結果</th>${isT?'<th>ロジック</th>':''}<th>開始</th><th>種目</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th><th>格差</th></tr></thead><tbody>`+
+   rows.slice().sort((a,b)=>isT?(D.matches[a.match_id]?.start_jst||'').localeCompare(D.matches[b.match_id]?.start_jst||''):(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
+    const mark=!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';const g=gapAt(e);
+    return `<tr class="lrow" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="分析を開く"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
     <td class="mono">${e.odds_taken??esc(e.odds_range||'未確認')}</td><td class="mono">$${e.stake.toFixed(2)}</td><td class="mono">${r?(r.payout==null?'金額未計算':'$'+r.payout.toFixed(2)):'—'}</td>
-    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td></tr>`;}).join('')+'</tbody>';
-  tb.querySelectorAll('.lrow').forEach(r=>{r.onclick=()=>openMatch(r.dataset.m,lt==='experience'?null:lt);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,lt==='experience'?null:lt);};});
+    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td><td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td></tr>`;}).join('')+'</tbody>';
+  tb.querySelectorAll('.lrow').forEach(r=>{const l=r.dataset.l==='experience'?null:r.dataset.l;r.onclick=()=>openMatch(r.dataset.m,l);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,l);};});
 }
+document.getElementById('todayBtn').onclick=ev=>{ev.preventDefault();lt='today';renderLedger();document.getElementById('ledger-sec').scrollIntoView({behavior:'smooth',block:'start'});};
 renderLedger();
 })();
 </script>
