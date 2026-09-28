@@ -1,6 +1,6 @@
 """台帳から summary.json を再生成する（公開ページとprofit auditが読む唯一の集計値）。
 使い方: python -m rmc.build"""
-from .core import load, save, summarize, gap_bands, LOGICS, now_jst
+from .core import load, save, summarize, gap_bands, analytics, LOGICS, now_jst
 
 
 def build():
@@ -17,6 +17,7 @@ def build():
         "built_at": now_jst(),
         "logics": logics,
         "gap_bands": gap_bands(ledgers, load("odds_snapshots.json", [])),  # 格差スコア帯別の単利収支（結果確定で自動更新）
+        "analytics": analytics(ledgers, matches, load("odds_snapshots.json", []), load("odds_closing.json", [])),  # CLV・calibration・オッズ帯ROI
     }
     save("summary.json", out)
     return out

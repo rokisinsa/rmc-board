@@ -40,8 +40,9 @@ jobs:
           python -m rmc.build
           python - <<'EOF'
           import json
-          a=json.load(open('/tmp/summary.before.json'))['logics']; b=json.load(open('data/summary.json'))['logics']
-          assert a==b, 'summary.json mismatch'
+          A=json.load(open('/tmp/summary.before.json')); B=json.load(open('data/summary.json'))
+          for k in ('logics','gap_bands','analytics'):
+              assert A.get(k)==B.get(k), f'summary.json mismatch: {k}'
           print('profit audit ok')
           EOF
 
@@ -65,3 +66,16 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-public:
+    # チェックリスト36〜39：公開RMCを実際に取り直して、コミット一致・ファイル一致・収支再計算一致を無人で確認
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify public RMC (items 36-39)
+        run: python scripts/verify_public.py "${GITHUB_SHA}"

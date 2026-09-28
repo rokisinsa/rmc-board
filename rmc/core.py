@@ -205,3 +205,65 @@ def next_entry_id(ledger, lg, mid, side):
     while f"{base}-{n}" in ids:
         n += 1
     return f"{base}-{n}"
+
+
+# ---- 検証用の指標（③⑨・④⑩の CLV・calibration・オッズ帯/edge帯ROI）----
+ODDS_BANDS = (("1.00-1.20", 1.0, 1.2), ("1.20-1.50", 1.2, 1.5), ("1.50-2.00", 1.5, 2.0), ("2.00-3.00", 2.0, 3.0), ("3.00+", 3.0, 1e9))
+PROB_BANDS = (("50-60%", .5, .6), ("60-70%", .6, .7), ("70-80%", .7, .8), ("80-90%", .8, .9), ("90%+", .9, 1.01), ("50%未満", 0, .5))
+
+
+def _book(src):
+    return (src or "").split("（")[0].strip()
+
+
+def opening_closing(entry, match, odds):
+    """同じ試合・同じブックのスナップショットから、採用した側のオープニング（最初）と締切（開始前の最後）を返す。"""
+    side = entry["selection_key"]
+    st = parse(match["start_jst"])
+    book = _book(entry.get("odds_source"))
+    ss = [o for o in odds if o.get("match_id") == entry["match_id"] and side in (o.get("prices") or {})
+          and parse(o["taken_at"]) < st]
+    same = [o for o in ss if _book(o.get("source")) == book] or ss
+    if not same:
+        return None, None, None
+    same.sort(key=lambda o: parse(o["taken_at"]))
+    op, cl = same[0], same[-1]
+    return op["prices"][side], cl["prices"][side], cl["taken_at"]
+
+
+def analytics(ledgers, matches, odds, closing=()):
+    """ロジックごとに CLV（採用オッズ÷締切オッズ−1）、calibration（推定勝率帯ごとの実勝率）、オッズ帯ROIを出す。"""
+    out = {}
+    odds = list(odds) + list(closing)
+    items = list(ledgers.items()) + [("all", [e for es in ledgers.values() for e in es])]
+    for lg, entries in items:
+        clv, rows = [], []
+        ob = {n: dict(n=0, win=0, net=0.0) for n, _, _ in ODDS_BANDS}
+        pb = {n: dict(n=0, win=0, prob_sum=0.0) for n, _, _ in PROB_BANDS}
+        for e in entries:
+            if e.get("withdrawn") or not isinstance(e.get("odds_taken"), (int, float)):
+                continue
+            m = matches.get(e["match_id"]) or {}
+            op, cl, cl_at = opening_closing(e, m, odds) if m.get("start_jst") else (None, None, None)
+            if cl and parse(cl_at) > parse(e["locked_at"]):   # ロック後に記録された締切値があるものだけ CLV を計算
+                clv.append(e["odds_taken"] / cl - 1)
+            r = e.get("result") or {}
+            if r.get("outcome") in ("win", "loss") and r.get("profit") is not None:
+                w = r["outcome"] == "win"
+                for n, lo, hi in ODDS_BANDS:
+                    if lo <= e["odds_taken"] < hi:
+                        ob[n]["n"] += 1; ob[n]["win"] += w; ob[n]["net"] += r["profit"]
+                p = e.get("prior_prob")
+                if isinstance(p, (int, float)):
+                    for n, lo, hi in PROB_BANDS:
+                        if lo <= p < hi:
+                            pb[n]["n"] += 1; pb[n]["win"] += w; pb[n]["prob_sum"] += p
+        for b in ob.values():
+            b["net"] = round(b["net"], 2); b["roi"] = round(b["net"] / (b["n"] * STAKE) * 100, 2) if b["n"] else None
+        for b in pb.values():
+            ps = b.pop("prob_sum")
+            b["pred"] = round(ps / b["n"] * 100, 1) if b["n"] else None
+            b["actual"] = round(b["win"] / b["n"] * 100, 1) if b["n"] else None
+        out[lg] = dict(clv_n=len(clv), clv_avg=round(sum(clv) / len(clv) * 100, 2) if clv else None,
+                       clv_beat=sum(1 for c in clv if c > 0), odds_bands=ob, calibration=pb)
+    return out

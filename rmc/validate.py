@@ -311,7 +311,9 @@ def run(base=None):
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}
     from .core import gap_bands
     gb = gap_bands({lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}, load("odds_snapshots.json", []))
-    if summ is None or summ.get("logics") != recomputed or summ.get("gap_bands") != gb:
+    from .core import analytics as _an
+    an = _an({lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}, matches, load("odds_snapshots.json", []), load("odds_closing.json", []))
+    if summ is None or summ.get("logics") != recomputed or summ.get("gap_bands") != gb or summ.get("analytics") != an:
         rep.err("PROFIT_AUDIT", "summary.json が台帳からの再計算と一致しない（python -m rmc.build を実行）")
     return rep
 

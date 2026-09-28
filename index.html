@@ -248,6 +248,9 @@ tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-deco
     <p class="note" style="margin:0 0 6px">格差スコア＝採用時点のオッズから出した本命の控除後勝率×100。単利（毎回$100固定）で集計。定時更新で結果が確定するたびに自動で更新。</p>
     <div class="ledger-tabs" id="btabs"></div>
     <div class="tbl"><table id="bands"></table></div>
+    <h3 class="subh">検証指標（CLV・推定勝率の当たり具合・オッズ帯ROI）</h3>
+    <p class="note" style="margin:0 0 6px">CLV＝採用オッズ÷締切前オッズ−1（プラスなら市場より良い値で買えている）。締切前オッズは毎時自動記録。上のボタンで対象ロジックを切替。</p>
+    <div id="anl"></div>
   </section>
 
   <section>
@@ -525,6 +528,13 @@ function renderBands(){
   const G=(D.summary.gap_bands||{})[bt]||{};
   const rows=BANDS.map(([lab,key])=>{const x=G[key]||{count:0,win:0,loss:0,void:0,pending:0,invested:0,net:0,roi:null};const pr=x.net;
     return `<tr><td style="text-align:left;white-space:nowrap"><b>${lab}</b></td><td class="mono ${pr>0?'pos':pr<0?'neg':''}"><b>${money(pr)}</b></td><td class="mono">${x.roi==null?'—':x.roi.toFixed(1)+'%'}</td><td class="mono">${x.win}勝${x.loss}敗${x.void?x.void+'無効':''}</td><td class="mono">${x.win+x.loss?Math.round(x.win/(x.win+x.loss)*100)+'%':'—'}</td><td class="mono">${x.count}</td><td class="mono">$${x.invested.toFixed(2)}</td><td class="mono">${x.pending}</td></tr>`;});
+  const A=(D.summary.analytics||{})[bt];
+  if(A){const pc=v=>v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%';
+    const ob=Object.entries(A.odds_bands).map(([k,x])=>`<tr><td style="text-align:left">${k}</td><td class="mono">${x.n}</td><td class="mono">${x.n?Math.round(x.win/x.n*100)+'%':'—'}</td><td class="mono ${x.net>0?'pos':x.net<0?'neg':''}">${money(x.net)}</td><td class="mono">${x.roi==null?'—':x.roi.toFixed(1)+'%'}</td></tr>`).join('');
+    const cb=Object.entries(A.calibration).filter(([k,x])=>x.n).map(([k,x])=>`<tr><td style="text-align:left">${k}</td><td class="mono">${x.n}</td><td class="mono">${x.pred}%</td><td class="mono"><b>${x.actual}%</b></td><td class="mono ${x.actual>=x.pred?'pos':'neg'}">${(x.actual-x.pred>0?'+':'')+(x.actual-x.pred).toFixed(1)}pt</td></tr>`).join('')||'<tr><td colspan="5" class="empty">確定データなし</td></tr>';
+    document.getElementById('anl').innerHTML=`<p class="cmnsum"><b>CLV平均 ${pc(A.clv_avg)}</b><span>計測 ${A.clv_n}件・締切より良い値で買えた ${A.clv_beat}件</span></p>
+    <div class="tbl"><table><thead><tr><th style="text-align:left">オッズ帯</th><th>確定</th><th>的中率</th><th>損益</th><th>ROI</th></tr></thead><tbody>${ob}</tbody></table></div>
+    <div class="tbl" style="margin-top:8px"><table><thead><tr><th style="text-align:left">推定勝率帯</th><th>確定</th><th>推定</th><th>実際</th><th>差</th></tr></thead><tbody>${cb}</tbody></table></div>`;}
   document.getElementById('bands').innerHTML=`<thead><tr><th style="text-align:left">格差スコア</th><th>損益</th><th>ROI</th><th>戦績</th><th>勝率</th><th>件数</th><th>確定投入</th><th>未確定</th></tr></thead><tbody>${rows.join('')}</tbody>`;
 }
 renderBands();

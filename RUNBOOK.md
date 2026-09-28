@@ -35,7 +35,7 @@
 6. **結果更新（項目17〜21）— 毎回必須・最優先**：開始から4時間を過ぎた未精算の正式採用が1件でも残っていると `rmc.validate` の RESULT_OVERDUE で止まる（延期・結果未公表など本当に確定できないときだけ matches の `result_pending_reason` に理由）。深掘りより先にサブエージェントで全件の結果を確認して精算する。全ledgerの開始済み未確定カードを確認。公式→リーグ公式→結果DB→ライブスコアの順でソースを取り、`result.source_rank` と `identity_checked` を付けて matches を更新。同じ match_id の全ロジック・経験値取引へ精算を反映。
 7. **集計・post-match review（項目22〜27）**：`python -m rmc.build`（格差スコア帯別 70〜80／80〜90／90以上の単利収支 `summary.gap_bands` も自動再計算。単利＝毎回$100固定、複利＝元金$100全額・倍額$200到達で利益をストックし$100から再開・0になったら$100から再開、1/4ケリー）。敗戦カードは `reviews/<entry_id>.md` に事前仮説・結果・見落とし・variance/structural 判定を書く。
 8. **検証・反映（項目32〜35）**：`python -m unittest discover -s tests -t .` → `python -m rmc.validate --base HEAD` → commit → push（競合時は pull --rebase して 3〜7 のデータを再適用し、テストを最初から）→ end_sha を記録。GitHub Actions の結果を確認。
-9. **公開確認（項目36〜39）**：WebFetch は15分キャッシュでクエリを無視することがあるため、SHA の確認は `data/deploys/<push したSHA>.json`（デプロイごとに新しいURL）を取得して行う。Pages の `index.html` と `data/summary.json`・`data/deploy.json` を cache bust 付きで取得し、run_id と SHA が最新か、公開JSONから再計算した収支が一致するかを確認。
+9. **公開確認（項目36〜39）— 無人で完結**：push 後、`curl -s https://api.github.com/repos/rokisinsa/rmc-board/actions/runs?head_sha=<SHA>` で test-validate-deploy を探し、`/actions/runs/<id>/jobs` で **verify-public ジョブが success** なら 36〜39 を true（公開ファイル一致・公開JSONからの収支再計算一致・run_id一致をActionsが確認済み）。failure なら内容を blockers に書いて partial。以下は旧手順（参考）：WebFetch は15分キャッシュでクエリを無視することがあるため、SHA の確認は `data/deploys/<push したSHA>.json`（デプロイごとに新しいURL）を取得して行う。Pages の `index.html` と `data/summary.json`・`data/deploy.json` を cache bust 付きで取得し、run_id と SHA が最新か、公開JSONから再計算した収支が一致するかを確認。
 10. **報告（項目40, 41）**：全カテゴリ数・イベント数・市場数、競技別の走査→深掘り→正式/watch/除外、新規正式採用・watch全件、結果更新全件、①〜④と経験値取引の戦績・投入・損益・ROI・未計算・pending・複利・1/4ケリー、SHA・Actions・Pages結果を報告する。
 
 ## コマンド

@@ -531,3 +531,15 @@
     - 全競技取得 → ①〜④全件独立走査 → 競技別deep_dive → 採否 → 結果更新 → exact odds精算 → 全収支再計算 → GitHub → Actions → Pages → 公開RMCの実表示・実数値一致確認まで終わって初めて「定時更新完了」。
 これを定時更新の完全チェックリストとして扱えばいい
 ```
+
+## 運用上の読み替え（ユーザー指示・無人運用のための実装。原文の項目は削らない）
+
+| 項目 | 無人の定時更新での達成方法 | 根拠 |
+|---|---|---|
+| 2 | クラウドから BET CHANNEL に接続できないため、GitHub Actions odds-fetch（毎時40分）が保存する公開配信 `data/odds_feed/bovada.json`・`tennis.json` を基準インベントリとして全カテゴリ取得・件数・重複・取得失敗カテゴリを記録する。BET CHANNEL は PC 接続時の補助（取得できた回は `data/bc/` に控え）。 | 2026-09-28 ユーザー「オッズはベットチャンネルでなくてもいい、取れさえすれば」 |
+| 3 | カジ旅・遊雅堂・bet365直接は「確認不能：理由」を `sources` に記録した時点で達成（原文「確認不能なら確認不能と記録」）。bet365 の値は tennisexplorer 経由で取れた分をクロスチェックに使う。 | 原文3 |
+| 9・10（CLV・closing・opening・calibration・帯別ROI） | odds-fetch が毎時 `scripts/closing_capture.py` で未精算カードの締切前オッズを `data/odds_closing.json` に記録。`python -m rmc.build` が `summary.analytics`（CLV・オープニング/締切・推定勝率帯の実勝率・オッズ帯ROI）を自動計算し、validate の収支監査対象。 | 原文9・10 |
+| 17〜21 | 開始4時間超の未精算正式採用が残ると validate の RESULT_OVERDUE で止まる。 | 原文17 |
+| 14・15 | 未確定の正式採用の facts が水準未満だと validate の FACTS_COVERAGE で止まる。 | 2026-09-28 ユーザー指示 |
+| 16 | 正式採用は判定時刻から24時間以内に始まる試合だけ（FORMAL_HORIZON）。 | 2026-09-28 ユーザー指示 |
+| 36〜39 | push ごとに GitHub Actions の `verify-public` ジョブが公開URLを cache bust 付きで取り直し、①公開 deploy.json の sha 一致、②index.html と data 配下の全JSONがリポジトリとバイト一致、③公開JSONだけからの収支・格差帯・CLV再計算が公開 summary と一致、④公開 summary.run_id が最新 run と一致、を確認。定時更新は Actions API でこのジョブの success を確認して 36〜39 を true にする（WebFetch 不要）。 | 無人実行で WebFetch が承認待ちになるため |
