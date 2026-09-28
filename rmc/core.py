@@ -59,6 +59,8 @@ def settle_entry(entry, match):
     """match の確定結果から ledger エントリの精算値を返す（未確定なら None）。"""
     res = match.get("result") or {}
     st = match.get("status")
+    if entry.get("withdrawn"):   # 採用ルール変更による取消（試合前に取り消し・投入なし扱い）
+        return dict(outcome="void", payout=entry["stake"], profit=0.0)
     if st in ("cancelled", "postponed_void", "abandoned_void"):
         return dict(outcome="void", payout=entry["stake"], profit=0.0)
     if st != "final" or not res.get("winner"):
@@ -82,6 +84,8 @@ def summarize(entries, matches):
     s = dict(formal=0, settled=0, win=0, loss=0, void=0, pending=0, staked=0.0, returned=0.0,
              net=0.0, roi=None, amount_missing=0, hit_rate=None)
     seq = []
+    s["withdrawn"] = sum(1 for e in entries if e.get("withdrawn"))
+    entries = [e for e in entries if not e.get("withdrawn")]   # 取消分は集計に入れない
     for e in entries:
         s["formal"] += 1
         r = e.get("result")
@@ -158,6 +162,8 @@ def gap_bands(ledgers, odds):
     by = {}
     for lg, entries in ledgers.items():
         for e in entries:
+            if e.get("withdrawn"):
+                continue
             g = gap_at_lock(e, odds)
             for name, lo, hi in GAP_BANDS:
                 if g is not None and lo <= g < hi:
@@ -177,3 +183,25 @@ def gap_bands(ledgers, odds):
             b["invested"] = round(b["invested"], 2); b["net"] = round(b["net"], 2)
             b["roi"] = round(b["net"] / b["invested"] * 100, 2) if b["invested"] else None
     return by
+
+
+HORIZON_HOURS = 24  # 正式採用は判定（ロック）時刻から24時間以内に始まる試合だけ
+
+
+def within_horizon(locked_at, start_jst, hours=HORIZON_HOURS):
+    return (parse(start_jst) - parse(locked_at)).total_seconds() <= hours * 3600
+
+
+def next_entry_id(ledger, lg, mid, side):
+    """同じ試合・同じ選択の取消済みエントリがあれば枝番を付けて新しい entry_id を返す（重複させない）。"""
+    base = f"{lg}-{mid}-{side}"
+    ids = {e["entry_id"] for e in ledger}
+    if base not in ids:
+        return base
+    live = [e for e in ledger if e["entry_id"].startswith(base) and not e.get("withdrawn")]
+    if live:
+        return None  # 有効なエントリが既にある → 追加しない
+    n = 2
+    while f"{base}-{n}" in ids:
+        n += 1
+    return f"{base}-{n}"

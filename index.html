@@ -227,6 +227,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
 .topmenu a{display:inline-flex;align-items:center;gap:4px;padding:10px 16px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:700;font-size:15px;text-decoration:none}
 .topmenu a span{font-weight:500;font-size:13px;opacity:.85}
 #ledger-sec{scroll-margin-top:12px}
+tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-decoration:none}
 .grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
 </style>
 </head>
@@ -258,6 +259,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
     <h2>試合一覧と①〜④の判定</h2>
     <div class="controls">
       <label class="tog"><input type="checkbox" id="up" checked> これから始まる試合だけ</label>
+      <label class="tog"><input type="checkbox" id="h24" checked> 24時間以内に始まる試合だけ</label>
       <label class="tog"><input type="checkbox" id="hasPick"> どれかで採用・watchのある試合だけ</label>
       <input type="search" id="q" placeholder="チーム・選手・大会で絞り込み" aria-label="検索">
     </div>
@@ -322,7 +324,7 @@ document.getElementById('cov').innerHTML=`<thead><tr><th>競技</th><th>走査</
   Object.entries(cov).sort((a,b)=>grp(a[0])-grp(b[0])||b[1].event_count-a[1].event_count).map(([sp,c])=>`<tr><td>${esc(sp)}</td><td class="mono">${c.event_count}</td><td class="mono">${c.priced_upcoming_count}</td>${LG.map(l=>`<td class="mono">${lgCell(c,l)}</td>`).join('')}</tr>`).join('')+'</tbody>';
 
 // 試合一覧（競技別）
-const st={up:true,pick:false,q:''};
+const st={up:true,h24:true,pick:false,q:''};
 const LBL={title:'競技',competition:'大会',date:'開催日',start_jst:'開始（JST）',matchup:'対戦カード',ranking:'ランキング・順位・レーティング',h2h:'H2H（直接対戦）',
   recent_form:'直近成績',venue:'会場・ホーム/アウェイ',lineup:'メンバー・先発・欠場',odds:'取得オッズ',odds_exact:'単一ブックの実オッズ',required_prob:'必要勝率',
   prior_prob:'事前推定勝率',edge_or_ev:'EDGE／EV',external_market:'他市場との比較',rationale:'判定の根拠',risks:'リスク',missing:'不足している情報',
@@ -458,6 +460,7 @@ function renderSports(){
   const now=Date.now();const by={};
   for(const[mid,m]of Object.entries(D.matches)){
     if(st.up&&new Date(m.start_jst).getTime()<=now)continue;
+    if(st.h24&&new Date(m.start_jst).getTime()>now+24*3600e3)continue;
     if(st.q&&!(m.left+m.right+m.competition).toLowerCase().includes(st.q))continue;
     if(st.pick&&!LG.some(l=>{const s=D.ana[l][mid]?.status;return s===FORMAL[l]||s==='watch'||s==='conditional';}))continue;
     (by[m.sport]=by[m.sport]||[]).push([mid,m]);}
@@ -482,6 +485,7 @@ function renderSports(){
     r.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(r.dataset.m);}};});
 }
 document.getElementById('up').onchange=e=>{st.up=e.target.checked;renderSports();};
+document.getElementById('h24').onchange=e=>{st.h24=e.target.checked;renderSports();};
 document.getElementById('hasPick').onchange=e=>{st.pick=e.target.checked;renderSports();};
 document.getElementById('q').oninput=e=>{st.q=e.target.value.trim().toLowerCase();renderSports();};
 renderSports();
@@ -490,7 +494,7 @@ renderSports();
 let lt='r1';
 const todayJ=(()=>{const j=new Date(Date.now()+9*3600e3);return j.toISOString().slice(0,10);})();
 const dayJ=iso=>iso?new Date(new Date(iso).getTime()+9*3600e3).toISOString().slice(0,10):'';
-const todayRows=()=>LG.concat('experience').flatMap(l=>D.led[l].map(e=>Object.assign({_l:l},e))).filter(e=>dayJ(D.matches[e.match_id]?.start_jst)===todayJ);
+const todayRows=()=>LG.concat('experience').flatMap(l=>D.led[l].map(e=>Object.assign({_l:l},e))).filter(e=>!e.withdrawn&&dayJ(D.matches[e.match_id]?.start_jst)===todayJ);
 function gapAt(e){  // ロック時点のオッズから格差スコア（控除後の本命勝率×100）
   const ss=(D.oddsAll[e.match_id]||[]).filter(o=>o.prices&&(!e.locked_at||new Date(o.taken_at)<=new Date(e.locked_at))).sort((a,b)=>new Date(a.taken_at)-new Date(b.taken_at));
   const o=ss[ss.length-1];
@@ -506,10 +510,10 @@ function renderLedger(){
   if(!rows.length){tb.innerHTML=`<tbody><tr><td class="empty" style="text-align:center">${isT?'今日開始の試合の正式採用はまだありません。':T[lt]+'の正式採用はまだありません。'}</td></tr></tbody>`;return;}
   tb.innerHTML=`<thead><tr><th>結果</th>${isT?'<th>ロジック</th>':''}<th>開始</th><th>種目</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th><th>格差</th></tr></thead><tbody>`+
    rows.slice().sort((a,b)=>isT?(D.matches[a.match_id]?.start_jst||'').localeCompare(D.matches[b.match_id]?.start_jst||''):(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
-    const mark=!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';const g=gapAt(e);
-    return `<tr class="lrow" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="分析を開く"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
+    const mark=e.withdrawn?'取消':!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';const g=gapAt(e);
+    return `<tr class="lrow${e.withdrawn?' wd':''}" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="${e.withdrawn?esc(e.withdrawn.reason):'分析を開く'}"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
     <td class="mono">${e.odds_taken??esc(e.odds_range||'未確認')}</td><td class="mono">$${e.stake.toFixed(2)}</td><td class="mono">${r?(r.payout==null?'金額未計算':'$'+r.payout.toFixed(2)):'—'}</td>
-    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td><td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td></tr>`;}).join('')+'</tbody>';
+    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${e.withdrawn?'取消':r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td><td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td></tr>`;}).join('')+'</tbody>';
   tb.querySelectorAll('.lrow').forEach(r=>{const l=r.dataset.l==='experience'?null:r.dataset.l;r.onclick=()=>openMatch(r.dataset.m,l);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,l);};});
 }
 let bt='all';

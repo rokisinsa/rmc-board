@@ -131,7 +131,12 @@ def detail(mid, ev, ext):
 
 def entry(lg, mid, side, o, prior, why):
     m = matches[mid]; ev = bc_rows[mid]
-    return dict(entry_id=f"{lg}-{mid}-{side}", match_id=mid, market=ev["odds"]["market"],
+    if not core.within_horizon(LOCKED, m["start_jst"]):
+        return None   # 24時間ルール：ロックから24時間より先の試合は正式採用しない
+    eid = core.next_entry_id(ledgers[lg] + [e for e in new_entries[lg] if e], lg, mid, side)
+    if eid is None:
+        return None
+    return dict(entry_id=eid, match_id=mid, market=ev["odds"]["market"],
                 selection=m["left"] if side == "L" else m["right"], selection_key=side, stake=core.STAKE,
                 odds_taken=o, locked_at=LOCKED, odds_source=f"BET CHANNEL（{taken[11:16]}取得・event_id={ev['event_id']}）",
                 prior_prob=round(prior, 4), rationale=why, result=None)
@@ -289,7 +294,7 @@ for lg in core.LOGICS:
     core.save(f"analysis/{lg}.json", a)
     core.save(f"snapshots/{RUN_ID}/{lg}.json", a)
     have = {e["entry_id"] for e in ledgers[lg]}
-    new_entries[lg] = [e for e in new_entries[lg] if e["entry_id"] not in have]
+    new_entries[lg] = [e for e in new_entries[lg] if e and e["entry_id"] not in have]
     core.save(f"ledger/{lg}.json", ledgers[lg] + new_entries[lg])
 
 FORMAL = core.FORMAL

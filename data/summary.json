@@ -1,21 +1,22 @@
 {
  "run_id": "run-20260928-2320",
  "run_status": "partial",
- "built_at": "2026-09-28T22:20:05+09:00",
+ "built_at": "2026-09-28T22:34:29+09:00",
  "logics": {
   "r1": {
-   "formal": 56,
+   "formal": 43,
    "settled": 22,
    "win": 14,
    "loss": 6,
    "void": 2,
-   "pending": 34,
+   "pending": 21,
    "staked": 2000.0,
    "returned": 1680.8,
    "net": -319.2,
    "roi": -15.96,
    "amount_missing": 0,
    "hit_rate": 70.0,
+   "withdrawn": 13,
    "simple": {
     "stake": 100.0,
     "net": -319.2,
@@ -52,6 +53,7 @@
    "roi": null,
    "amount_missing": 0,
    "hit_rate": null,
+   "withdrawn": 0,
    "simple": {
     "stake": 100.0,
     "net": 0.0,
@@ -76,18 +78,19 @@
    }
   },
   "r3": {
-   "formal": 4,
+   "formal": 2,
    "settled": 1,
    "win": 1,
    "loss": 0,
    "void": 0,
-   "pending": 3,
+   "pending": 1,
    "staked": 100.0,
    "returned": 205.0,
    "net": 105.0,
    "roi": 105.0,
    "amount_missing": 0,
    "hit_rate": 100.0,
+   "withdrawn": 2,
    "simple": {
     "stake": 100.0,
     "net": 105.0,
@@ -112,18 +115,19 @@
    }
   },
   "r4": {
-   "formal": 2,
+   "formal": 1,
    "settled": 1,
    "win": 0,
    "loss": 0,
    "void": 1,
-   "pending": 1,
+   "pending": 0,
    "staked": 0.0,
    "returned": 0.0,
    "net": 0.0,
    "roi": null,
    "amount_missing": 0,
    "hit_rate": null,
+   "withdrawn": 1,
    "simple": {
     "stake": 100.0,
     "net": 0.0,
@@ -160,6 +164,7 @@
    "roi": null,
    "amount_missing": 0,
    "hit_rate": null,
+   "withdrawn": 0,
    "simple": {
     "stake": 100.0,
     "net": 0.0,
@@ -187,31 +192,31 @@
  "gap_bands": {
   "r1": {
    "70-80": {
-    "count": 28,
+    "count": 22,
     "win": 8,
     "loss": 4,
     "void": 0,
-    "pending": 16,
+    "pending": 10,
     "invested": 1200.0,
     "net": -187.3,
     "roi": -15.61
    },
    "80-90": {
-    "count": 27,
+    "count": 21,
     "win": 6,
     "loss": 2,
     "void": 2,
-    "pending": 17,
+    "pending": 11,
     "invested": 800.0,
     "net": -131.9,
     "roi": -16.49
    },
    "90+": {
-    "count": 1,
+    "count": 0,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 1,
+    "pending": 0,
     "invested": 0.0,
     "net": 0.0,
     "roi": null
@@ -219,31 +224,31 @@
   },
   "all": {
    "70-80": {
-    "count": 29,
+    "count": 23,
     "win": 8,
     "loss": 4,
     "void": 0,
-    "pending": 17,
+    "pending": 11,
     "invested": 1200.0,
     "net": -187.3,
     "roi": -15.61
    },
    "80-90": {
-    "count": 29,
+    "count": 23,
     "win": 6,
     "loss": 2,
     "void": 4,
-    "pending": 17,
+    "pending": 11,
     "invested": 800.0,
     "net": -131.9,
     "roi": -16.49
    },
    "90+": {
-    "count": 1,
+    "count": 0,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 1,
+    "pending": 0,
     "invested": 0.0,
     "net": 0.0,
     "roi": null

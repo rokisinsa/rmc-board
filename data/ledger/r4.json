@@ -31,6 +31,14 @@
   "odds_source": "BET CHANNEL（16:40取得・event_id=2716131865777020930）",
   "prior_prob": 0.3719,
   "rationale": "④：market 0.327（no-vig）＋base 0.417（直近成績log5）を等分、expert_adjustment 0 → final 0.372。",
-  "result": null
+  "result": {
+   "outcome": "void",
+   "payout": 100.0,
+   "profit": 0.0
+  },
+  "withdrawn": {
+   "at": "2026-09-28T22:33:46+09:00",
+   "reason": "ユーザー指示（2026-09-28 22:32）：正式採用は定時更新から24時間以内に始まる試合だけ。ロック時点で24時間より先だったため取消（試合前・投入なし扱い）"
+  }
  }
 ]

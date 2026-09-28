@@ -143,6 +143,14 @@ def check_ledger(rep, lg, ledger, matches, base_ledger):
             got = {k: e["result"].get(k) for k in ("outcome", "payout", "profit")}
             if exp and any(exp.get(k) != got.get(k) for k in ("outcome", "payout", "profit")):
                 rep.err("SETTLEMENT", f"{lg}/{eid}: 精算値が再計算と不一致 {got} != {exp}")
+    # 新規エントリは判定時刻から24時間以内に始まる試合だけ
+    from .core import within_horizon, HORIZON_HOURS
+    base_ids = {e["entry_id"] for e in (base_ledger or [])}
+    for e in ledger:
+        m = matches.get(e.get("match_id")) or {}
+        if base_ledger is not None and e["entry_id"] not in base_ids and e.get("locked_at") and m.get("start_jst") \
+                and not within_horizon(e["locked_at"], m["start_jst"]):
+            rep.err("FORMAL_HORIZON", f"{lg}/{e['entry_id']}: 開始がロックから{HORIZON_HOURS}時間より先の試合を正式採用している")
     # locked 保護（append-only）
     if base_ledger is not None:
         cur = {e["entry_id"]: e for e in ledger}
