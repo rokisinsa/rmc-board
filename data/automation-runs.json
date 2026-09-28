@@ -10402,7 +10402,7 @@
    "eスポーツはBovada掲載のCS2・LoL・R6のみ新規判定。VALORANT等は前回分の引継ぎ（項目5）",
    "サッカー（KickOff以外）・ホッケー・ダーツ・スヌーカー・バレー・クリケット・CPBL・卓球は独立モデルが取れず②③④は判定不能（項目8〜10・14）",
    "試合中・結果未判明の既存カード3件（An Se-young-Chen Yufei・Sharipov-Honda・GHOST SQUAD-PARADOX）は次回確認（項目17）",
-   "Actions・Pages・公開値の確認はpush後（項目34〜39）"
+   "公開ページ・公開JSONの取得確認ができない（WebFetch承認待ちタイムアウト）（項目36〜39）"
   ],
   "checklist": {
    "01": true,
@@ -10438,8 +10438,8 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
+   "34": true,
+   "35": true,
    "36": false,
    "37": false,
    "38": false,
@@ -10464,14 +10464,15 @@
    "19": "日付・JST時刻・大会・相手・H/Aを確認（identity_note 記録）。ポルトのテニス2カードは公式ドローで対戦不成立を確認、2カードは開始日を09-29に訂正",
    "21": "同じ match_id の全ロジック・経験値取引へ反映（プリズミッチ-リンコンは①②④すべて void）",
    "27": "①の敗戦2件（Feng/Huang・Galorys）を data/reviews/ に記録（1敗で係数は変えない）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
-   "40": "報告送信後に確定",
+   "34": "main へ push（f657e38）。競合なし",
+   "35": "test-validate-deploy run 36377177093 成功（Unit tests・Data validation・Profit audit・deploy-pages すべて success）",
+   "36": "GitHub API で github-pages デプロイ（f657e384, 04:19Z）成功を確認。公開URLの取得は WebFetch の承認待ちタイムアウト（無人実行）・シェルからgithub.ioへ接続不可で確認不能",
+   "37": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は CI の profit audit で再計算一致）",
+   "38": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は CI の profit audit で再計算一致）",
+   "39": "公開JSONの取得が WebFetch 承認待ちタイムアウトで確認不能（手元の summary.json は CI の profit audit で再計算一致）",
+   "40": "SendUserMessage で報告（run_id・競技別集計・新規正式・watch・結果更新・収支・SHA・Actions・Pages）",
    "41": "上記未完了があるため定時更新完了とはしない"
-  }
+  },
+  "end_sha": "f657e384546b4ceaa0f7f6130402fe3cb76cb52f"
  }
 ]
