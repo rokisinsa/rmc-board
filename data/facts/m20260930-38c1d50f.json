@@ -1,6 +1,5 @@
 {
- "match_id": "m20260930-38c1d50f",
- "data_as_of": "2026-09-28T16:55:00+09:00",
+ "data_as_of": "2026-09-29T07:05:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -411,18 +410,11 @@
   "cyberscoreはH2H通算をAurora 5勝0敗と表示（日付が確認できたのは上記3件のみ）。stavka.tvは「直近3回すべてAuroraがマップを落とさず勝利」と記載"
  ],
  "venue": "オンライン（BLAST Slam VIIIグループステージ、グループD第1戦）。プレーオフ（10/8-11）のみマルタ・Attard「BLAST Arena Studios」でLAN",
- "esports": {
-  "format": "BO3（GSL方式・4チームグループD。1位はシーディングマッチ経由でプレーオフ、2位はラストチャンス、下位2チーム敗退）",
-  "lan_online": "グループステージはオンライン（プレーオフのみマルタでLAN）",
-  "map_pool": "なし（Dota 2は単一マップ）",
-  "patch": "7.41f（2026年9月時点の最新ゲームプレイパッチ）",
-  "veto": "不明",
-  "map_h2h": "直近3シリーズ（6ゲーム）は全てAurora勝利"
- },
  "risks": [
   "AuroraはWallachia S9プレーオフ（対GL戦）でミッドにスタンドインを起用しており、本大会での正規ミッドの稼働は要確認",
   "GLの9/9-9/12の対戦（BLAST Slam IX予選・EPL Masters II）にはフォーフェイト絡みが2件あり、フォーム評価のノイズになる",
-  "escorenewsはAuroraの一部表記が「GamersLegion」等で揺れており、同一チーム（Dota部門GamerLegion）として突合した"
+  "escorenewsはAuroraの一部表記が「GamersLegion」等で揺れており、同一チーム（Dota部門GamerLegion）として突合した",
+  "BLAST Slam VIIIは9/29開幕（esports.gg/hawk.live確認）。グループ戦の結果はまだ無く、形成されたformは8-9月の前大会（TI・Wallachia等）まで"
  ],
  "missing": [
   "各シリーズのゲーム別詳細スコア",
@@ -439,8 +431,10 @@
   "https://www.cybersport.ru/tournaments/dota-2/blast-slam-viii",
   "https://esports.gg/news/dota-2/dota-2-blast-slam-8-teams-schedule-where-to-watch-results/",
   "https://www.talkesport.com/news/dota2/blast-slam-8-dota-2-teams-schedule-where-to-watch/",
-  "https://www.dota2.com/patches"
+  "https://www.dota2.com/patches",
+  "https://hawk.live/posts/blast-slam-viii-schedule-standings-results"
  ],
+ "match_id": "m20260930-38c1d50f",
  "calc": {
   "left": {
    "games": 10,

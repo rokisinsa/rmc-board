@@ -1,6 +1,5 @@
 {
- "match_id": "m20260929-f361db8c",
- "data_as_of": "2026-09-28T16:46:00+09:00",
+ "data_as_of": "2026-09-29T07:05:00+09:00",
  "unit": "ゲーム",
  "left": {
   "name": "LGD Gaming",
@@ -438,20 +437,13 @@
   "共通相手（60日以内）: Natus Vincere・Gamer Legion・Team Resilience・L1GA"
  ],
  "venue": "オンライン（BLAST Slam VIII グループA。プレーオフ10/8-11のみマルタのBLASTスタジオ開催）",
- "esports": {
-  "format": "BO3（グループA・GSL方式の勝者側1回戦）。グループはBO3、大会グランドファイナルのみBO5",
-  "lan_online": "グループステージはオンライン、プレーオフ（10/8-11）はマルタのBLASTスタジオでオフライン",
-  "map_pool": "なし（Dota 2は単一マップ）",
-  "veto": "なし（Dota 2のためマップveto無し）",
-  "patch": "7.41f（dota2protips）",
-  "map_h2h": "直近5日で2度対戦: 9/21 XGが2-0、9/25 LGDが2-0（Wallachia S9）"
- },
  "risks": [
   "両チームともWallachia S9（〜9/27）からの連戦で、直前の直接対戦2回（9/21・9/25）は1勝1敗と拮抗",
   "LGDはSumail・Sneykingの2枚スタンドイン体制（escorenews表記）で、正規ミッド・サポートの確定情報なし",
   "LGDの8月以前のform（TI・GOTF・Essence）は旧ロスター（Topsonら、8/26離脱）の成績で参考価値が低い",
   "XGも8/26前後にAme加入などロスター再編があり、TI 2026のformは旧体制の成績の可能性",
-  "XGの8/3 GOTFの対戦相手はescorenewsの要約で「Resilience」とされるが略称（TRE/RE）の判別に曖昧さが残る"
+  "XGの8/3 GOTFの対戦相手はescorenewsの要約で「Resilience」とされるが略称（TRE/RE）の判別に曖昧さが残る",
+  "BLAST Slam VIIIは9/29開幕（esports.gg/hawk.live確認）。グループ戦の結果はまだ無く、形成されたformは8-9月の前大会（TI・Wallachia等）まで"
  ],
  "missing": [
   "各シリーズのマップ別詳細スコア",
@@ -470,8 +462,11 @@
   "https://www.strafe.com/match/team-resilience-vs-xtreme-gaming-group-stage-the-international-2026-3092af/",
   "https://www.offstage.ru/dota2/matches/xtreme-gaming-vs-lgd-gaming-2026-07-31",
   "https://esports.gg/news/dota-2/dota-2-blast-slam-8-teams-schedule-where-to-watch-results/",
-  "https://www.dota2protips.com/tournaments/blast-slam-8"
+  "https://www.dota2protips.com/tournaments/blast-slam-8",
+  "https://hawk.live/posts/blast-slam-viii-schedule-standings-results",
+  "https://www.dota2.com/patches"
  ],
+ "match_id": "m20260929-f361db8c",
  "calc": {
   "left": {
    "games": 10,

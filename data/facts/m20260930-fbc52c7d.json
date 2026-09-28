@@ -1,0 +1,117 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ベルギーU21（Belgium U21）",
+  "ranking": "U21予選 1位（10pt）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "ウェールズU21（Wales U21）",
+  "ranking": "U21予選 4位（6pt）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025-10-10",
+   "event": "U21予選",
+   "score": "ベルギー 2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1
+  },
+  {
+   "date": "2020-10-09",
+   "event": "U21予選",
+   "score": "ベルギー 5-0",
+   "winner": "left",
+   "units_left": 5,
+   "units_right": 0
+  },
+  {
+   "date": "2019-09-06",
+   "event": "U21予選",
+   "score": "ベルギー 0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "取得できず",
+ "risks": [
+  "集計ページのフォーム表のスコアが非現実的（8-4, 7-9等）なため採用せず",
+  "H2H左右の表記も一部不整合"
+ ],
+ "missing": [
+  "フォーム行",
+  "会場"
+ ],
+ "unavailable": {
+  "left.form": "取得できた唯一のフォーム表（scores24）のスコア・勝敗が矛盾しており採用不可",
+  "right.form": "同左",
+  "history": "信頼できる試合リストなし"
+ },
+ "source_urls": [
+  "https://scores24.live/en/soccer/m-27-09-2026-belgium-u21-wales-u21-prediction"
+ ],
+ "match_id": "m20260930-fbc52c7d",
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 3,
+   "left": 2,
+   "right": 1,
+   "draw": 0,
+   "units_left": 7,
+   "units_right": 2,
+   "points_left": 7,
+   "points_right": 2,
+   "points_games": 3,
+   "avg_left": 2.3,
+   "avg_right": 0.7
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

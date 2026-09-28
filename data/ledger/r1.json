@@ -473,7 +473,13 @@
   "odds_source": "BET CHANNEL（23:43取得）",
   "prior_prob": 0.7579,
   "rationale": "①：オサリバン 1.23（BET CHANNEL）。控除後の適正勝率75.8%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260928-5a448cec-L",
@@ -487,7 +493,13 @@
   "odds_source": "BET CHANNEL（23:43取得）",
   "prior_prob": 0.8737,
   "rationale": "①：Zhao Xintong 1.07（BET CHANNEL）。控除後の適正勝率87.4%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260928-9ce7cd8e-R",
@@ -633,7 +645,13 @@
   "odds_source": "Bovada（Bovada・05:56取得・bov:31399765）",
   "prior_prob": 0.8381,
   "rationale": "①：Al Ittihad Jeddah 1.111（Bovada）。控除後の適正勝率83.8%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260929-476364b7-L",
@@ -647,7 +665,13 @@
   "odds_source": "Bovada（Bovada・05:56取得・bov:31399374）",
   "prior_prob": 0.75,
   "rationale": "①：Dinamo Minsk 1.25（Bovada）。控除後の適正勝率75.0%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 125.0,
+   "profit": 25.0,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260929-913bf49e-L",
@@ -711,7 +735,13 @@
   "odds_source": "Bovada（Bovada・11:56取得・bov:31399764）",
   "prior_prob": 0.7196,
   "rationale": "①：Al Riyadi 1.286（Bovada）。控除後の適正勝率72.0%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 128.6,
+   "profit": 28.6,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260928-8247cd9a-L",
@@ -743,7 +773,13 @@
   "odds_source": "BET CHANNEL（16:40取得・event_id=2716158643555938333）",
   "prior_prob": 0.771,
   "rationale": "①：JUMBO TEAM 1.2（BET CHANNEL）。控除後の適正勝率77.1%。重大なリスク要因なし",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 120.0,
+   "profit": 20.0,
+   "settled_at": "2026-09-29T07:12:04+09:00",
+   "run_id": "run-20260929-0600"
+  }
  },
  {
   "entry_id": "r1-m20260929-a6816dd5-L",
@@ -1058,5 +1094,89 @@
    "at": "2026-09-28T22:33:46+09:00",
    "reason": "ユーザー指示（2026-09-28 22:32）：正式採用は定時更新から24時間以内に始まる試合だけ。ロック時点で24時間より先だったため取消（試合前・投入なし扱い）"
   }
+ },
+ {
+  "entry_id": "r1-m20260929-2c0d101f-L",
+  "match_id": "m20260929-2c0d101f",
+  "market": "Moneyline",
+  "selection": "Parivision",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.05,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:31366990）",
+  "prior_prob": 0.905,
+  "rationale": "①：Parivision 1.05（Bovada）。控除後の適正勝率90.5%。重大なリスク要因なし",
+  "result": null
+ },
+ {
+  "entry_id": "r1-m20260930-53f009f5-L-2",
+  "match_id": "m20260930-53f009f5",
+  "market": "Moneyline",
+  "selection": "Team Liquid",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.143,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:31367367）",
+  "prior_prob": 0.8212,
+  "rationale": "①：Team Liquid 1.143（Bovada）。控除後の適正勝率82.1%。重大なリスク要因なし",
+  "result": null
+ },
+ {
+  "entry_id": "r1-m20260930-38c1d50f-L-2",
+  "match_id": "m20260930-38c1d50f",
+  "market": "Moneyline",
+  "selection": "Aurora Gaming",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.26,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:31367368）",
+  "prior_prob": 0.7434,
+  "rationale": "①：Aurora Gaming 1.26（Bovada）。控除後の適正勝率74.3%。重大なリスク要因なし",
+  "result": null
+ },
+ {
+  "entry_id": "r1-m20260930-4dfb32e8-L",
+  "match_id": "m20260930-4dfb32e8",
+  "market": "3-Way Moneyline",
+  "selection": "Norway U21",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.238,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:30346579）",
+  "prior_prob": 0.7308,
+  "rationale": "①：Norway U21 1.238（Bovada）。控除後の適正勝率73.1%。重大なリスク要因なし",
+  "result": null
+ },
+ {
+  "entry_id": "r1-m20260930-05d16bcd-R",
+  "match_id": "m20260930-05d16bcd",
+  "market": "Moneyline",
+  "selection": "Dynamo Pardubice",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 1.26,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:31451369）",
+  "prior_prob": 0.7434,
+  "rationale": "①：Dynamo Pardubice 1.26（Bovada）。控除後の適正勝率74.3%。重大なリスク要因なし",
+  "result": null
+ },
+ {
+  "entry_id": "r1-m20260930-aa5d9716-L",
+  "match_id": "m20260930-aa5d9716",
+  "market": "3-Way Moneyline",
+  "selection": "Rep. of Ireland U21",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.208,
+  "locked_at": "2026-09-29T07:12:04+09:00",
+  "odds_source": "Bovada（Bovada・05:47取得・bov:30345991）",
+  "prior_prob": 0.7465,
+  "rationale": "①：Rep. of Ireland U21 1.208（Bovada）。控除後の適正勝率74.6%。重大なリスク要因なし",
+  "result": null
  }
 ]

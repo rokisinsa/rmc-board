@@ -1,0 +1,146 @@
+{
+ "left": {
+  "name": "FCバルセロナ（FC Barcelona）",
+  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "アナドル・エフェス（Anadolu Efes）",
+    "comp": "ユーロリーグ第1節",
+    "score": "89-82",
+    "res": "W",
+    "detail": "",
+    "ha": "H"
+   }
+  ],
+  "lineup": [
+   "ジョシュ・ネボ（ふくらはぎ、2-3週間）、ヨアン・マコンドゥ（左膝）、トサン・エブオムウェン（肩）が欠場",
+   "リーガACBでコルーニャに119-101で勝利した後の移動"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ドバイ・バスケットボール（Dubai Basketball）",
+  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "レアル・マドリード（Real Madrid）",
+    "comp": "ユーロリーグ第1節",
+    "score": "83-80",
+    "res": "W",
+    "detail": "リバウンドで15以上上回る",
+    "ha": "H"
+   }
+  ],
+  "lineup": [
+   "マム・ジェイテ（アキレス腱）、アウドゥ・アバスが欠場",
+   "ジャナン・ムサ（膝）は出場微妙",
+   "新監督ハビ・パスクアル体制"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-01",
+   "event": "ユーロリーグ 2025-26",
+   "score": "91-89",
+   "winner": "left",
+   "units_left": 91,
+   "units_right": 89,
+   "detail": "バルセロナの勝利（日付未確認）"
+  },
+  {
+   "date": "2025-10",
+   "event": "ユーロリーグ 2025-26",
+   "score": "78-83",
+   "winner": "right",
+   "units_left": 78,
+   "units_right": 83,
+   "detail": "ドバイの勝利（日付未確認）"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ドバイ（ドバイ側ホーム）、18:00 CET開始",
+ "unavailable": {
+  "left.form": "公式戦は開幕1試合のみ（開幕直後）",
+  "right.form": "公式戦は開幕1試合のみ（開幕直後）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
+ },
+ "data_as_of": "2026-09-29T07:07:10+09:00",
+ "unit": "なし",
+ "risks": [
+  "バルセロナはコルーニャ戦後の移動でドバイは週末が休養のため日程差がある",
+  "ドバイ側欠場者が7名との報道がある"
+ ],
+ "missing": [
+  "日付が確認できたユーロリーグ以外の試合は日付未確認で掲載を省いた",
+  "h2hの日付は月までしか確認できず"
+ ],
+ "source_urls": [
+  "https://basketballsphere.com/en/bet-of-the-day-dubai-vs-barcelona-preview-prediction-sep-29-2026/",
+  "https://basketballsphere.com/en/injuries/euroleague/",
+  "https://www.eurohoops.net/en/euroleague/2012304/euroleague-roundup-valencia-defeats-besiktas-in-a-thriller/amp/"
+ ],
+ "match_id": "m20260930-971ee081",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 89,
+   "points_against": 82,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 83,
+   "points_against": 80,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0,
+   "units_left": 169,
+   "units_right": 172,
+   "points_left": 169,
+   "points_right": 172,
+   "points_games": 2,
+   "avg_left": 84.5,
+   "avg_right": 86.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

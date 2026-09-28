@@ -1,0 +1,117 @@
+{
+ "left": {
+  "name": "ノルシェーピング・ドルフィンズ（Norrköping Dolphins）",
+  "ranking": "バスケットリーガン 1勝0敗（得失点差+33、前季王者）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ウメオ（Umeå BSKT）",
+    "comp": "バスケットリーガン 第1節",
+    "score": "108-75",
+    "res": "W",
+    "detail": "",
+    "ha": "H"
+   }
+  ],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "KFUMニェッショー（KFUM Nässjö）",
+  "ranking": "バスケットリーガン 1勝0敗",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ボロース（Borås Basket）",
+    "comp": "バスケットリーガン 第1節",
+    "score": "79-75",
+    "res": "W",
+    "detail": "",
+    "ha": "A"
+   }
+  ],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ニェッショー（ニェッショー側ホーム）",
+ "unavailable": {
+  "left.form": "開幕1試合のみ",
+  "right.form": "開幕1試合のみ",
+  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
+ },
+ "data_as_of": "2026-09-29T07:09:15+09:00",
+ "unit": "なし",
+ "risks": [
+  "ノルシェーピングは昨季王者で価格でも本命（1.20）",
+  "負傷情報が未確認"
+ ],
+ "missing": [
+  "h2h",
+  "負傷情報"
+ ],
+ "source_urls": [
+  "https://tabellen.se/basket/basketligan-herrar",
+  "https://www.nsd.se/blogg/sport/basketbloggen/artikel/jamtland-mot-bc-lulea-omgangens-hetaste-match/r9mqg4zl"
+ ],
+ "match_id": "m20260930-cdb87f33",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 108,
+   "points_against": 75,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 79,
+   "points_against": 75,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

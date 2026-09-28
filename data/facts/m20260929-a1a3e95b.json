@@ -1,0 +1,180 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ブルンジ（Burundi）",
+  "ranking": "AFCON 2027予選 グループI",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "トーゴ",
+    "comp": "AFCON予選",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-05-26",
+    "opp": "モロッコ",
+    "comp": "親善試合",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "チャド",
+    "comp": "AFCON予選PR",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "チャド",
+    "comp": "AFCON予選PR",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "今季得点力不足（取得元の記述）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "アルジェリア（Algeria）",
+  "ranking": "AFCON 2027予選 グループI 首位（1勝）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ザンビア",
+    "comp": "AFCON予選",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-07-03",
+    "opp": "スイス",
+    "comp": "W杯決勝T",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-28",
+    "opp": "オーストリア",
+    "comp": "W杯GS",
+    "ha": "N",
+    "score": "3-3",
+    "res": "D",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-23",
+    "opp": "ヨルダン",
+    "comp": "W杯GS",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-17",
+    "opp": "アルゼンチン",
+    "comp": "W杯GS",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "Hadj-Moussa得点、Amoura2アシスト"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ブルンジ（会場名は取得できず）",
+ "risks": [
+  "取得元でH2H・日付の食い違いあり",
+  "sportsgamblerのH/A表記はW杯を'Away'とするなど不整合"
+ ],
+ "missing": [
+  "会場名",
+  "公式10試合リスト"
+ ],
+ "unavailable": {
+  "h2h": "取得元が「過去に2度対戦」と記す一方、sportsgamblerは「公式戦の対戦記録なし」。日付付きの記録を確認できず",
+  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得",
+  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得",
+  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+ },
+ "source_urls": [
+  "https://www.sportsgambler.com/betting-tips/football/burundi-vs-algeria-prediction-2026-09-29/",
+  "https://africasoccer.com/burundi-vs-algeria-algeria-look-to-build-on-strong-start-as-sides-meet-on-september-29/"
+ ],
+ "match_id": "m20260929-a1a3e95b",
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 8,
+   "points_against": 6,
+   "points_games": 4
+  },
+  "right": {
+   "games": 5,
+   "W": 2,
+   "L": 2,
+   "D": 1,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 8,
+   "points_against": 10,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

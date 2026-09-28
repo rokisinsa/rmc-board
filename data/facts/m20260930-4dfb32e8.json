@@ -1,0 +1,199 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ノルウェーU21（Norway U21）",
+  "ranking": "U21予選 5戦4勝1敗（集計ページ）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "オランダU21",
+    "comp": "U21予選",
+    "ha": "A",
+    "score": "不明",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-08",
+    "opp": "フィンランドU21",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "不明",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "スロベニアU21",
+    "comp": "U21予選",
+    "ha": "A",
+    "score": "不明",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "オランダU21",
+    "comp": "U21予選",
+    "ha": "H",
+    "score": "不明",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ボスニアU21",
+    "comp": "U21予選",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W",
+    "detail": ""
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "ボスニアU21（Bosnia & Herzegovina U21）",
+  "ranking": "U21予選 6戦1勝4分1敗",
+  "form": [
+   {
+    "date": "2026-03-31",
+    "opp": "イスラエルU21",
+    "comp": "U21予選",
+    "ha": "A",
+    "score": "不明",
+    "res": "D",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "スロベニアU21",
+    "comp": "U21予選",
+    "ha": "H",
+    "score": "不明",
+    "res": "D",
+    "detail": ""
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "ノルウェーU21",
+    "comp": "U21予選",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2025-10-14",
+    "opp": "スロベニアU21",
+    "comp": "U21予選",
+    "ha": "A",
+    "score": "不明",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2025-10-10",
+    "opp": "オランダU21",
+    "comp": "U21予選",
+    "ha": "H",
+    "score": "不明",
+    "res": "D",
+    "detail": ""
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025-11-18",
+   "event": "U21予選",
+   "score": "ノルウェー 3-0（ボスニア0-3）",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 0
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ノルウェーのホーム（会場名未取得）",
+ "risks": [
+  "スコア未取得の行が多い（scores24は勝敗のみ）"
+ ],
+ "missing": [
+  "スコア",
+  "会場",
+  "負傷情報"
+ ],
+ "unavailable": {
+  "left.form": "scores24が勝敗のみ掲載でスコア不明、直近5試合のみ",
+  "right.form": "同左",
+  "history": "共通相手（オランダU21/スロベニアU21）はあるが60日以内の日付でなく、または日付不明"
+ },
+ "source_urls": [
+  "https://scores24.live/en/soccer/m-28-09-2026-norway-u21-bosnia-herzegovina-u21-prediction"
+ ],
+ "match_id": "m20260930-4dfb32e8",
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 1,
+   "D": 3,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "streak": "2連分",
+   "points_for": 0,
+   "points_against": 3,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "units_left": 3,
+   "units_right": 0,
+   "points_left": 3,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 3.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

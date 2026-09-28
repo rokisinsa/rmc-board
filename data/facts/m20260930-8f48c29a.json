@@ -1,0 +1,222 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ダートフォード（Dartford）",
+  "ranking": "Isthmian Premier 上位（勝点で首位可能）",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "Maldon & Tiptree",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "2-1",
+    "res": "W",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Burgess Hill Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "1-2",
+    "res": "L",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Chatham Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "1-0",
+    "res": "W",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Carshalton Athletic",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "3-0",
+    "res": "W",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Enfield Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "2-0",
+    "res": "W",
+    "detail": "日付不明"
+   }
+  ],
+  "lineup": [
+   "ヒッグス：軽傷（出場可能性あり）",
+   "スウィフト、テネント：長期離脱"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ホワイトホーク（Whitehawk）",
+  "ranking": "Isthmian Premier 下位、21戦未勝利から直近連勝",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "Aveley",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "2-3",
+    "res": "L",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Chatham Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "0-3",
+    "res": "L",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Enfield Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "1-5",
+    "res": "L",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Burgess Hill Town",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "1-1",
+    "res": "D",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Maldon & Tiptree",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "2-3",
+    "res": "L",
+    "detail": "日付不明"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Three Bridges",
+    "comp": "Isthmian Premier",
+    "ha": "不明",
+    "score": "3-2",
+    "res": "W",
+    "detail": "日付不明"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025-26",
+   "event": "Isthmian Premier（昨季）",
+   "score": "ダートフォード 3-0",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 0
+  },
+  {
+   "date": "2025-26",
+   "event": "Isthmian Premier（昨季）",
+   "score": "ダートフォード 2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "detail": "どちらがホームかは未確認、正確な日付なし"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "Bericote Powerhouse Princes Park、ダートフォードのホーム",
+ "risks": [
+  "クラブ公式プレビューに内部的な矛盾（無敗8戦と1-2敗）",
+  "正確な日付が取得できず",
+  "下位リーグで価格の整合性に注意"
+ ],
+ "missing": [
+  "各試合の日付",
+  "10試合",
+  "リーグ順位表の正確値"
+ ],
+ "unavailable": {
+  "left.form": "クラブ公式プレビューの直近リーグ5〜6試合のみ、日付なし",
+  "right.form": "同左",
+  "history": "共通相手あり（Maldon & Tiptree, Chatham Town, Enfield Town, Burgess Hill Town）が日付なしのため60日以内か確認できず"
+ },
+ "source_urls": [
+  "https://dartfordfc.com/2026/09/match-preview-dartford-v-whitehawk-3/"
+ ],
+ "match_id": "m20260930-8f48c29a",
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 3,
+   "points_games": 5
+  },
+  "right": {
+   "games": 6,
+   "W": 1,
+   "L": 4,
+   "D": 1,
+   "win_rate": 16.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 9,
+   "points_against": 17,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 2,
+   "left": 2,
+   "right": 0,
+   "draw": 0,
+   "units_left": 5,
+   "units_right": 1,
+   "points_left": 5,
+   "points_right": 1,
+   "points_games": 2,
+   "avg_left": 2.5,
+   "avg_right": 0.5
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

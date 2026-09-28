@@ -1,0 +1,122 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "南スーダン（South Sudan）",
+  "ranking": "直近9戦未勝利",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "マラウイ",
+    "comp": "AFCON予選",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L",
+    "detail": "日付は推定（khelnowは日付明記なし）"
+   }
+  ],
+  "lineup": [
+   "全員招集可能"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "エジプト（Egypt）",
+  "ranking": "AFCON予選 未勝利（1分）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "アンゴラ",
+    "comp": "AFCON予選",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D",
+    "detail": "日付は推定（khelnowは日付明記なし）"
+   }
+  ],
+  "lineup": [
+   "サラー：個人的理由で不在"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "不明",
+   "event": "過去1試合",
+   "score": "エジプト勝利（スコア不明）",
+   "winner": "right",
+   "detail": "日付・スコア取得できず"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ジュバ・Juba National Stadium、南スーダンのホーム（審判：Ahmad Heeralall、VARあり）",
+ "risks": [
+  "フォーム行の日付・H/Aが推定を含む"
+ ],
+ "missing": [
+  "10試合リスト",
+  "h2hスコア"
+ ],
+ "unavailable": {
+  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（1戦のみ確認）",
+  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（1戦のみ確認）",
+  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+ },
+ "source_urls": [
+  "https://khelnow.com/football/south-sudan-vs-egypt-preview-afcon-qualifiers-202609"
+ ],
+ "match_id": "m20260929-f679f507",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 0,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 0,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "スロバキア（Slovakia）",
+  "ranking": "UNL League C 1位（1試合 3pt）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "モルドバ",
+    "comp": "UNL",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-05",
+    "opp": "モンテネグロ",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-01",
+    "opp": "マルタ",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-31",
+    "opp": "ルーマニア",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "コソボ",
+    "comp": "W杯予選PO",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "ベロ：疲労骨折で欠場",
+   "シュクルニアル：負傷離脱から復帰",
+   "ストレレツ・ボジェニークは実戦不足"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "カザフスタン（Kazakhstan）",
+  "ranking": "UNL League C 2位（1試合 1pt）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "フェロー諸島",
+    "comp": "UNL",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-09",
+    "opp": "ハンガリー",
+    "comp": "親善試合",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "アルメニア",
+    "comp": "親善試合",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "サトパエフ（太もも）、チェスノコフ（負傷+出場停止）、サモロドフ（負傷）、カシム：欠場"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2022-06-13",
+   "event": "UNL",
+   "score": "スロバキア 0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 1
+  },
+  {
+   "date": "2022-06-06",
+   "event": "UNL",
+   "score": "スロバキア 0-2",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 2,
+   "detail": "scores24は2022-06-06をスロバキア0-2カザフと記載"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "コシツェ・Košická futbalová aréna、スロバキアのホーム",
+ "risks": [
+  "集計サイトの試合日付・スコアに不整合あり（例：カザフ3/31に6-11コモロ等）で信頼性が低い行は除外",
+  "カザフの3/25・3/31 FIFAシリーズ行は不整合のため除外"
+ ],
+ "missing": [
+  "両チームとも10試合分の完全な公式リスト",
+  "公式の先発予想"
+ ],
+ "unavailable": {
+  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（5行のみ掲載）",
+  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（3行のみ採用、不整合行を除外）",
+  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+ },
+ "source_urls": [
+  "https://footballwhispers.com/blog/slovakia-vs-kazakhstan-prediction-preview-29-09-2026/",
+  "https://scores24.live/en/soccer/m-29-09-2026-slovakia-kazakhstan-prediction"
+ ],
+ "match_id": "m20260930-7d24134f",
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 3,
+   "L": 1,
+   "D": 1,
+   "win_rate": 60.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 3,
+   "points_games": 5
+  },
+  "right": {
+   "games": 3,
+   "W": 0,
+   "L": 1,
+   "D": 2,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 4,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 2,
+   "left": 0,
+   "right": 2,
+   "draw": 0,
+   "units_left": 0,
+   "units_right": 3,
+   "points_left": 0,
+   "points_right": 3,
+   "points_games": 2,
+   "avg_left": 0.0,
+   "avg_right": 1.5
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

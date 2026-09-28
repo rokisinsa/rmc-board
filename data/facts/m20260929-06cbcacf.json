@@ -1,0 +1,160 @@
+{
+ "data_as_of": "2026-09-29T06:55:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ウォロディミル・コロブコ（Volodymyr Korobko）",
+  "ranking": "Setka Cup",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Denys Maltsev",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "11-7 3-11 5-11 7-11"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Serhii Prus",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "2-11 9-11 7-11（出典で勝敗表記が矛盾、セットスコアから敗戦と判断）"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Dmytro Palii",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "5-11 5-11 10-12"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Mykola Slozka",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "11-8 8-11 5-11 8-11"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Oleksii Golubiev",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "3-11 6-11 10-12"
+   }
+  ],
+  "lineup": [
+   "同日複数試合"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ミハイロ・ポタポフ（Mykhailo Potapov）",
+  "ranking": "Setka Cup",
+  "form": [],
+  "lineup": [
+   "最新データなし"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Setka Cup（ウクライナ、オンライン配信の短時間大会）。会場・ホーム/アウェイの概念なし",
+ "risks": [
+  "ポタポフの最新フォーム不明",
+  "Prus戦の勝敗表記が出典で矛盾",
+  "低リーグでスコア整合性リスク",
+  "価格はポタポフ有利（1.345）"
+ ],
+ "missing": [
+  "ポタポフの直近全試合",
+  "H2H"
+ ],
+ "unavailable": {
+  "h2h": "H2H記録を取得できず（Sofascore/scores24に掲載なし）。初対戦かは不明",
+  "left.form": "5試合のみ取得",
+  "right.form": "scores24のデータが2023年7月のものでのみ、直近フォーム無し",
+  "history": "ポタポフの直近試合がなく共通相手なし"
+ },
+ "source_urls": [
+  "https://scores24.live/en/table-tennis/t-volodymyr-korobko-4",
+  "https://scores24.live/en/table-tennis/t-mykhailo-potapov",
+  "https://scores24.live/en/table-tennis/t-spartak-abalmaz",
+  "https://scores24.live/en/table-tennis/t-oleksandr-naida",
+  "https://www.sofascore.com/table-tennis/player/korobko-volodymyr/374339"
+ ],
+ "match_id": "m20260929-06cbcacf",
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 0,
+   "L": 5,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "5連敗",
+   "units_won": 2,
+   "units_lost": 15,
+   "points_for": 2,
+   "points_against": 15,
+   "points_games": 5,
+   "inner_for": 115,
+   "inner_against": 182,
+   "inner_games": 5
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

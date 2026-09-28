@@ -1,0 +1,131 @@
+{
+ "data_as_of": "2026-09-29T07:00:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "アルチュール・フィス（Arthur Fils）",
+  "ranking": "フィスはトップ10級（Last Word on Tennis）だが登録締切を逃し東京は予選第1シード扱い（詳細ランク未確認）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Martin Damm",
+    "comp": "Tokyo 予選1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "2-6 6-1 6-1（ATP公式結果ページ）"
+   }
+  ],
+  "lineup": [
+   "フィスは予選出場（本戦登録締切を逃したため）。故障情報は確認できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "カミル・マイフシャク（Kamil Majchrzak）",
+  "ranking": "予選第6シード（ATP公式）。世界ランク未確認",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Lorenzo Sonego",
+    "comp": "Tokyo 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "ATP公式は7-6 5-2、tennismajorsは7-5 6-2と表記が不一致"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Kinoshita Group Japan Open（東京）予選決勝、ハード（Tennis Majors）。中立",
+ "risks": [
+  "直近フォーム・H2H・Eloが取得できておらず、オッズ以外の裏付けがない",
+  "棄権・ウォークオーバーの有無は未確認",
+  "この試合は予選決勝（本戦ではない）。フィードのシード表記は予選シード",
+  "マイフシャク対ソネゴのスコアがソース間で不一致"
+ ],
+ "missing": [
+  "直近10試合（左右とも）",
+  "H2H",
+  "共通相手履歴",
+  "Tennis Abstract Elo"
+ ],
+ "unavailable": {
+  "h2h": "tennismajorsとLast Word on Tennisは通算フィス1-0と記載するが対戦日・スコアを確認できずh2h行は作成せず（初対戦ではない）",
+  "left.form": "直近10試合のうち9/28の1試合のみ確認。他は主要DB（tennisexplorer/TA）がアクセス不可",
+  "right.form": "同上（9/28の1試合のみ確認）",
+  "history": "両者の直近試合リストを取得できず共通相手を確認できない"
+ },
+ "source_urls": [
+  "https://www.atptour.com/en/scores/current/tokyo/329/results",
+  "https://www.tennismajors.com/matches/atp/kinoshita-group-japan-open-tennis-championships-men/arthur-fils-vs-kamil-majchrzak-2",
+  "https://lastwordonsports.com/tennis/2026/09/28/atp-tokyo-qualifying-predictions-including-arthur-fils-vs-kamil-majchrzak/"
+ ],
+ "match_id": "m20260929-871d413d",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 1,
+   "points_for": 2,
+   "points_against": 1,
+   "points_games": 1,
+   "inner_for": 14,
+   "inner_against": 8,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

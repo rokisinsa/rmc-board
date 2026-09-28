@@ -1,0 +1,135 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "スペイン（Spain）",
+  "ranking": "UNL League A 1位（3pt）",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "イングランド",
+    "comp": "UNL",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W",
+    "detail": "集計サイト記載の最新戦（日付未確認）"
+   }
+  ],
+  "lineup": [
+   "ポロ、ガビ、ボルハ・イグレシアス：負傷欠場",
+   "ロベルト・フェルナンデス（エスパニョール）ら未招集経験者2名を招集"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "クロアチア（Croatia）",
+  "ranking": "UNL League A 2位（3pt）",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "チェコ",
+    "comp": "UNL",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W",
+    "detail": "集計サイト記載の最新戦（日付未確認）"
+   }
+  ],
+  "lineup": [
+   "バトゥリナ、エルリッチ：負傷欠場",
+   "モドリッチ（41歳）代表204試合目の見込み"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "不明",
+   "event": "Euro 2028関連試合（sportsgamblerの記載）",
+   "score": "スペイン 3-0",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 0,
+   "detail": "日付は取得元に記載なし"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "セビリア Ramón Sánchez-Pizjuán、スペインのホーム",
+ "risks": [
+  "form行は集計ページの記述から1試合ずつしか取得できず（10試合中1）",
+  "h2hの日付が不明"
+ ],
+ "missing": [
+  "10試合分の詳細",
+  "h2h日付付き一覧"
+ ],
+ "unavailable": {
+  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（最新1戦のみ確認）",
+  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（最新1戦のみ確認）",
+  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+ },
+ "source_urls": [
+  "https://footballwhispers.com/blog/spain-vs-croatia-prediction-29-09-2026/",
+  "https://www.sportsgambler.com/betting-tips/football/spain-vs-croatia-prediction-lineups-odds-2026-09-29/"
+ ],
+ "match_id": "m20260930-6c03c890",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "units_left": 3,
+   "units_right": 0,
+   "points_left": 3,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 3.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

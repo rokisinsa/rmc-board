@@ -1,0 +1,93 @@
+{
+ "left": {
+  "name": "ハンファ・イーグルス（Hanwha Eagles）",
+  "ranking": "KBO 9位 55勝76敗4分（勝率.420）",
+  "form": [],
+  "lineup": [
+   "9/27ロッテに6-2で勝利（ha未確認のためformには未掲載）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "サムスン・ライオンズ（Samsung Lions）",
+  "ranking": "KBO 2位 78勝52敗3分（勝率.600、首位KTと3.0差）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "大邱（サムスン・ライオンズ・パーク）",
+ "unavailable": {
+  "h2h": "今季の対戦成績ページを取得できず（namu.wiki・Daum・Sofascoreはいずれも本文取得不可）",
+  "left.form": "日付・スコア付き試合一覧を取得できるページが開けず（Sofascore/Flashscore/namu.wikiは内容なし・許可なし）",
+  "right.form": "同上",
+  "history": "両者の試合リストを取得できなかったため60日内の共通相手を判定できず"
+ },
+ "data_as_of": "2026-09-29T06:55:14+09:00",
+ "unit": "なし",
+ "risks": [
+  "先発投手未確認",
+  "サムスンは首位KTと3ゲーム差で優勝争い中、全力起用の可能性が高い"
+ ],
+ "missing": [
+  "両チームの直近10試合の日付・スコア一覧",
+  "先発投手",
+  "今季の直接対決成績",
+  "独立確率モデル"
+ ],
+ "source_urls": [
+  "https://mykbostats.com/standings",
+  "https://www.idaegu.co.kr/news/articleView.html?idxno=560918",
+  "https://www.topstarnews.net/news/articleView.html?idxno=16221677",
+  "https://www.forebet.com/en/baseball/south-korea"
+ ],
+ "match_id": "m20260929-b0b0ee40",
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

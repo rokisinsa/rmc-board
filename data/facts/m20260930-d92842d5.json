@@ -1,0 +1,252 @@
+{
+ "data_as_of": "2026-09-29T07:10:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ティムロー（Timrå IK）",
+  "ranking": "SHL 2026/27 公式戦3試合（1勝2敗）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Djurgarden",
+    "comp": "SHL",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Orebro",
+    "comp": "SHL",
+    "ha": "H",
+    "score": "1-5",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Linkoping",
+    "comp": "SHL",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": [
+   {
+    "date": "2026-09-19",
+    "opp": "Linkoping",
+    "comp": "SHL",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Lulea",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W",
+    "detail": ""
+   }
+  ]
+ },
+ "right": {
+  "name": "ブリンネス（Brynäs IF）",
+  "ranking": "SHL 2026/27 公式戦3試合（2勝1敗）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Lulea",
+    "comp": "SHL",
+    "ha": "H",
+    "score": "4-2",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Linkoping",
+    "comp": "SHL",
+    "ha": "A",
+    "score": "9-2",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Skelleftea",
+    "comp": "SHL",
+    "ha": "A",
+    "score": "2-7",
+    "res": "L",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": [
+   {
+    "date": "2026-09-22",
+    "opp": "Linkoping",
+    "comp": "SHL",
+    "ha": "A",
+    "score": "9-2",
+    "res": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Lulea",
+    "comp": "親善試合",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L",
+    "detail": ""
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "共通相手: Linkoping（ティムロー敗、ブリンネス9-2勝ち）、Lulea（親善のみ）"
+ ],
+ "venue": "ティムロー（Timrå）のホーム",
+ "risks": [
+  "公式戦が3試合のみ",
+  "フラッシュスコアH2Hページがタイムアウト"
+ ],
+ "missing": [
+  "H2H",
+  "ラインナップ"
+ ],
+ "unavailable": {
+  "h2h": "取得不可（flashscore H2Hページ読込タイムアウト）",
+  "left.form": "開幕2026-09-19、公式戦3試合のみ（親善試合は除外）",
+  "right.form": "同上"
+ },
+ "source_urls": [
+  "https://scores24.live/en/ice-hockey/t-timraa-ik",
+  "https://scores24.live/en/ice-hockey/t-brynas-if"
+ ],
+ "match_id": "m20260930-d92842d5",
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 10,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 15,
+   "points_against": 11,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Lulea",
+    "left": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "4-3",
+      "res": "W",
+      "comp": "親善試合"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "4-2",
+      "res": "W",
+      "comp": "SHL"
+     },
+     {
+      "date": "2026-09-10",
+      "iso": "2026-09-10",
+      "score": "3-4",
+      "res": "L",
+      "comp": "親善試合"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝1敗"
+   },
+   {
+    "opp": "Linkoping",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-3",
+      "res": "L",
+      "comp": "SHL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "9-2",
+      "res": "W",
+      "comp": "SHL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-22",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

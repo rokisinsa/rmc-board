@@ -1,47 +1,79 @@
 {
- "match_id": "m20260929-9e27826b",
- "data_as_of": "2026-09-28T12:48:00+09:00",
+ "data_as_of": "2026-09-29T06:55:00+09:00",
  "unit": "フレーム",
  "left": {
-  "name": "ジョン・ヒギンズ",
-  "ranking": "世界ランク6位（snooker.org表記[6]）",
+  "name": "ジョン・ヒギンズ（John Higgins）",
+  "ranking": "世界ランク6位（snooker.org）／2025 International Championship準優勝",
   "form": [],
   "lineup": [
-   "出場確定（予選持ち越し）",
-   "イングリッシュ・オープン2026本戦の記録には名前なし（Wikipedia抽出）"
+   "出場確定（予選持ち越し・ラスト64）",
+   "snooker.orgのウーハンORound記録でLiu Hongyu戦に不戦扱い（詳細未確認）"
   ],
   "history": []
  },
  "right": {
-  "name": "デビッド・グレース",
-  "ranking": "世界ランク74位（snooker.org表記[74]）",
-  "form": [],
+  "name": "デビッド・グレース（David Grace）",
+  "ranking": "世界ランク74位（snooker.org）",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "Sean O'Sullivan",
+    "comp": "スコティッシュオープン予選 ラウンド128",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W",
+    "units_won": 4,
+    "units_lost": 1,
+    "detail": "予選（9/20-23 レスター）。日付は期間のみ"
+   },
+   {
+    "date": "2026-07",
+    "opp": "Martin O'Donnell",
+    "comp": "深センオープン予選 ラスト96",
+    "ha": "A",
+    "score": "5-2",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 2,
+    "detail": "予選（7月レスター）。日付は期間のみ"
+   }
+  ],
   "lineup": [
-   "出場確定",
-   "イングリッシュ・オープン2026予選でセンチュリー118・106・100"
+   "出場確定（予選勝ち上がり）",
+   "イングリッシュオープン予選でセンチュリー3本（既存ファイル）"
   ],
   "history": []
  },
  "h2h": [],
- "venue": "宝安体育中心（中国・深セン）、深センオープン ラスト64 ベスト・オブ9フレーム（シード選手の予選持ち越し試合）",
+ "common_opponents_notes": [],
+ "venue": "宝安体育中心（中国・深セン）、中立。深センオープン ラスト64 ベスト・オブ9フレーム",
  "risks": [
-  "ベスト・オブ9",
-  "ヒギンズの直近稼働状況未確認（イングリッシュ・オープン不出場の可能性）"
+  "ヒギンズの実戦感覚が不明（ウーハンO不戦表記、スコティッシュO予選にも名前なし）",
+  "BO9の短期戦"
  ],
  "missing": [
-  "通算H2H",
-  "直近10試合（両者）"
+  "ヒギンズの直近試合",
+  "H2H",
+  "グレース直近10試合の残り"
  ],
  "unavailable": {
-  "h2h": "CueTracker取得不可・snooker.orgのH2Hページが結果を返さず",
-  "form": "2026-27シーズンの試合一覧を時間内に取得できず（CueTrackerが旧シーズンのみ表示）",
-  "history": "共通対戦相手の突き合わせ未実施"
+  "h2h": "通算H2Hを確認できず（CueTracker接続不可）。初対戦の確認ではない",
+  "left.form": "2026-27シーズンの試合記録を取得できず（CueTracker/snooker.org選手ページ不可）",
+  "right.form": "10試合中2件のみ取得（予選の2試合）",
+  "history": "ヒギンズ側の試合が空のため共通相手なし"
  },
  "source_urls": [
   "https://www.snooker.org/res/index.asp?event=2768",
   "https://snookerhq.com/2026/09/26/2026-shenzhen-open-draw-preview-how-watch-prize-money/",
-  "https://en.wikipedia.org/wiki/2026_English_Open_(snooker)"
+  "https://snookerhq.com/2026/07/23/2026-shenzhen-open-qualifiers-results/",
+  "https://snookerhq.com/2026/09/24/2026-scottish-open-qualifiers-results/",
+  "https://www.snooker.org/res/index.asp?event=2757",
+  "https://www.tntsports.co.uk/snooker/wuhan-open/2026/scores-results-schedule-prize-money-ronnie-osullivan-xiao-guodong_sto23328909/story.shtml",
+  "https://en.wikipedia.org/wiki/Xiao_Guodong",
+  "https://www.sofascore.com/snooker/player/holt-michael/25055",
+  "https://en.wikipedia.org/wiki/2026_Shenzhen_Open"
  ],
+ "match_id": "m20260929-9e27826b",
  "calc": {
   "left": {
    "games": 0,
@@ -62,22 +94,27 @@
    "streak": null
   },
   "right": {
-   "games": 0,
-   "W": 0,
+   "games": 2,
+   "W": 2,
    "L": 0,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 100.0,
    "home": {
     "W": 0,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
+    "W": 2,
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "2連勝",
+   "units_won": 9,
+   "units_lost": 3,
+   "points_for": 9,
+   "points_against": 3,
+   "points_games": 2
   },
   "h2h": {
    "games": 0,

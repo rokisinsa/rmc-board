@@ -1,0 +1,355 @@
+{
+ "data_as_of": "2026-09-29T06:55:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "スパルタク・アバルマズ（Spartak Abalmaz）",
+  "ranking": "Setka Cup",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Dmytro Derevynskyi",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "3-2",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 2,
+    "detail": "11-7 11-7 5-11 8-11 11-6"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Vitalii Khamurda",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "11-8 11-6 11-8"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Roman Gnoevoy",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "11-8 11-8 10-12 11-9"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Serhii Skachenko",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 1,
+    "detail": "11-7 11-7 12-10 12-10"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Oleksandr Naida",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 3,
+    "detail": "11-8 9-11 11-8 9-11 10-12"
+   }
+  ],
+  "lineup": [
+   "同日複数試合の大会形式"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "オレクサンドル・ナイダ（Oleksandr Naida）",
+  "ranking": "Setka Cup",
+  "form": [
+   {
+    "date": "2026-09-15",
+    "opp": "Roman Gnoevoy",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "11-6 12-10 11-6"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Vitalii Khamurda",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "6-11 9-11 9-11"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Spartak Abalmaz",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "7-11 12-14 7-11"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Dmytro Derevynskyi",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "6-11 8-11 10-12"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Serhii Skachenko",
+    "comp": "Setka Cup",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 3,
+    "detail": "4-11 6-11 5-11"
+   }
+  ],
+  "lineup": [
+   "9/27にアバルマズへ3-2で勝利（相手側ページより）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "Setka Cup",
+   "score": "左側を先に 2-3",
+   "winner": "right",
+   "units_left": 2,
+   "units_right": 3,
+   "detail": "Abalmazページ記載"
+  },
+  {
+   "date": "2026-09-15",
+   "event": "Setka Cup",
+   "score": "左側を先に 3-0",
+   "winner": "left",
+   "units_left": 3,
+   "units_right": 0,
+   "detail": "Naidaページ記載"
+  }
+ ],
+ "common_opponents_notes": [
+  "共通相手: Derevynskyi, Khamurda, Gnoevoy, Skachenko（両者form内に記載済み）"
+ ],
+ "venue": "Setka Cup（ウクライナ、オンライン配信の短時間大会）。会場・ホーム/アウェイの概念なし",
+ "risks": [
+  "ページのキャッシュ日付が不整合でデータ信頼度低い",
+  "低リーグでスコア整合性リスク",
+  "Naidaの最新フォームはスナップショットが9/15止まり"
+ ],
+ "missing": [
+  "Naidaの9/16以降の試合",
+  "Abalmazの10試合目"
+ ],
+ "unavailable": {
+  "left.form": "scores24が5試合のみ表示",
+  "right.form": "scores24が5試合のみ表示（9/15までで新しい試合は未取得）",
+  "history": "共通相手（Derevynskyi/Khamurda/Gnoevoy/Skachenko）はあるが各試合が9/14〜28に分散し、60日以内の全試合表を得られず。一部はformに掲載"
+ },
+ "source_urls": [
+  "https://scores24.live/en/table-tennis/t-volodymyr-korobko-4",
+  "https://scores24.live/en/table-tennis/t-mykhailo-potapov",
+  "https://scores24.live/en/table-tennis/t-spartak-abalmaz",
+  "https://scores24.live/en/table-tennis/t-oleksandr-naida",
+  "https://www.sofascore.com/table-tennis/player/korobko-volodymyr/374339"
+ ],
+ "match_id": "m20260929-b04362c7",
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連勝",
+   "units_won": 14,
+   "units_lost": 7,
+   "points_for": 14,
+   "points_against": 7,
+   "points_games": 5,
+   "inner_for": 172,
+   "inner_against": 151,
+   "inner_games": 4
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 3,
+   "units_lost": 12,
+   "points_for": 3,
+   "points_against": 12,
+   "points_games": 5,
+   "inner_for": 123,
+   "inner_against": 158,
+   "inner_games": 5
+  },
+  "h2h": {
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0,
+   "units_left": 5,
+   "units_right": 3,
+   "points_left": 5,
+   "points_right": 3,
+   "points_games": 2,
+   "avg_left": 2.5,
+   "avg_right": 1.5
+  },
+  "common": [
+   {
+    "opp": "Dmytro Derevynskyi",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "3-2",
+      "res": "W",
+      "comp": "Setka Cup"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Setka Cup"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Vitalii Khamurda",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "3-0",
+      "res": "W",
+      "comp": "Setka Cup"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-15",
+      "iso": "2026-09-15",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Setka Cup"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Roman Gnoevoy",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "3-1",
+      "res": "W",
+      "comp": "Setka Cup"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-15",
+      "iso": "2026-09-15",
+      "score": "3-0",
+      "res": "W",
+      "comp": "Setka Cup"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Serhii Skachenko",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-1",
+      "res": "W",
+      "comp": "Setka Cup"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Setka Cup"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

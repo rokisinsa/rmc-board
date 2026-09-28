@@ -1,6 +1,5 @@
 {
- "match_id": "m20260930-53f009f5",
- "data_as_of": "2026-09-28T16:55:00+09:00",
+ "data_as_of": "2026-09-29T07:05:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -359,18 +358,11 @@
   "Liquidは8/22のTI2026敗退以降、公式戦なし（新加入Wisper・スタンドインMidOneの実戦は今大会が初）"
  ],
  "venue": "オンライン（BLAST Slam VIIIグループステージ、グループD第1戦）。プレーオフ（10/8-11）のみマルタ・Attard「BLAST Arena Studios」でLAN",
- "esports": {
-  "format": "BO3（GSL方式・4チームグループD。1位はシーディングマッチ経由でプレーオフ、2位はラストチャンス、下位2チーム敗退）",
-  "lan_online": "グループステージはオンライン（プレーオフのみマルタでLAN）",
-  "map_pool": "なし（Dota 2は単一マップ）",
-  "patch": "7.41f（2026年9月時点の最新ゲームプレイパッチ）",
-  "veto": "不明",
-  "map_h2h": "該当なし"
- },
  "risks": [
   "LiquidはNisha不在（休養、復帰・退団は未発表）でMidOneがスタンドイン、オフレーンも新加入Wisper。新布陣の初公式戦で連携が未知数",
   "Yakultのオフレーン表記がソース間で不一致（Beyond継続 vs 項羽加入）",
-  "stavka.tvはYakultのWallachia S9を「4戦1勝」と記述するが、試合単位のデータ（ensigame/ggscore/cyberscore）では2勝2敗。試合単位データを採用"
+  "stavka.tvはYakultのWallachia S9を「4戦1勝」と記述するが、試合単位のデータ（ensigame/ggscore/cyberscore）では2勝2敗。試合単位データを採用",
+  "BLAST Slam VIIIは9/29開幕（esports.gg/hawk.live確認）。グループ戦の結果はまだ無く、形成されたformは8-9月の前大会（TI・Wallachia等）まで"
  ],
  "missing": [
   "各シリーズのゲーム別詳細スコア（キル数・試合時間）",
@@ -396,8 +388,10 @@
   "https://www.talkesport.com/news/dota2/blast-slam-8-dota-2-teams-schedule-where-to-watch/",
   "https://escorenews.com/en/dota-2/blast-slam-8",
   "https://www.e-rankings.com/player/?id=39904",
-  "https://www.dota2.com/patches"
+  "https://www.dota2.com/patches",
+  "https://hawk.live/posts/blast-slam-viii-schedule-standings-results"
  ],
+ "match_id": "m20260930-53f009f5",
  "calc": {
   "left": {
    "games": 10,

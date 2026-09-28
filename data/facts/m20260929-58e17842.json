@@ -1,0 +1,176 @@
+{
+ "data_as_of": "2026-09-29T06:55:00+09:00",
+ "unit": "ゲーム",
+ "left": {
+  "name": "安洗塋（An Se Young）",
+  "ranking": "世界1位（韓国）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Chen Yufei",
+    "comp": "アジア大会 女子シングルス 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-5 21-12（40分）"
+   },
+   {
+    "date": "2026-09",
+    "opp": "Akane Yamaguchi",
+    "comp": "アジア大会 女子団体 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "安は勝利も韓国は日本に敗退。ゲームスコア・日付未取得"
+   }
+  ],
+  "lineup": [
+   "決勝進出",
+   "アジア大会女子シングルス連覇に王手"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "山口茜（Akane Yamaguchi）",
+  "ranking": "世界3位（日本）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Wang Zhiyi",
+    "comp": "アジア大会 女子シングルス 準決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "21-11 22-20"
+   },
+   {
+    "date": "2026-09",
+    "opp": "An Se Young",
+    "comp": "アジア大会 女子団体 準決勝",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "日本チームは韓国に勝利。ゲームスコア・日付未取得"
+   }
+  ],
+  "lineup": [
+   "決勝進出",
+   "中国と女子団体決勝で対戦（中国が3-0で優勝）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09",
+   "event": "アジア大会 女子団体準決勝",
+   "score": "左側を先に 2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0,
+   "detail": "日付・ゲームスコア未取得（韓国メディア）。全体H2Hは安22勝15敗"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "愛知県一宮市総合体育館（日本）、アジア大会、中立（ホーム扱いなし）。決勝",
+ "risks": [
+  "山口は日本開催で観客の後押し",
+  "H2Hは8連敗中"
+ ],
+ "missing": [
+  "個別H2H日付",
+  "早期ラウンド結果"
+ ],
+ "unavailable": {
+  "left.form": "個人戦は準決勝と団体準決勝の2試合のみ取得",
+  "right.form": "個人戦は準決勝と団体準決勝の2試合のみ取得",
+  "history": "早期ラウンドの結果を取得できず共通相手の判定不能"
+ },
+ "source_urls": [
+  "https://tirto.id/hasil-semifinal-badminton-asian-games-2026-wakil-indonesia-ke-final-hDjg",
+  "https://en.sedaily.com/sports/2026/09/28/koreas-women-chase-badminton-gold-in-singles-and-doubles",
+  "https://www.koreajoongangdaily.com/sports/an-seyoung-crushes-world-no-4-chen-moves-one-win-from-asian-games-history/12894482",
+  "https://news.sbs.co.kr/english/article.do?news_id=N1008772727",
+  "https://www.asiaone.com/sports/loh-kean-yew-asian-games-badminton-final",
+  "https://observerid.com/2026-asian-games-badminton-amri-nita-and-leo-daniel-advance-to-final/",
+  "https://en.wikipedia.org/wiki/Badminton_at_the_2026_Asian_Games"
+ ],
+ "match_id": "m20260929-58e17842",
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "units_won": 4,
+   "units_lost": 0,
+   "points_for": 4,
+   "points_against": 0,
+   "points_games": 2,
+   "inner_for": 42,
+   "inner_against": 17,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 2,
+   "points_for": 2,
+   "points_against": 2,
+   "points_games": 2,
+   "inner_for": 43,
+   "inner_against": 31,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "units_left": 2,
+   "units_right": 0,
+   "points_left": 2,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

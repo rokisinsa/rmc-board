@@ -1,0 +1,116 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "SDウエスカ女子（SD Huesca (W)）",
+  "ranking": "下位カテゴリ",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "CAオサスナ女子（CA Osasuna (W)）",
+  "ranking": "1部相当",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "バルサB",
+    "comp": "リーグ",
+    "ha": "不明",
+    "score": "不明",
+    "res": "W",
+    "detail": "スコア未取得"
+   }
+  ],
+  "lineup": [
+   "22人招集（9/28）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-08-21",
+   "event": "プレシーズン親善",
+   "score": "ウエスカ 1-2（左側先）",
+   "winner": "right",
+   "units_left": 1,
+   "units_right": 2,
+   "detail": "ウエスカ：ダニ24分、オサスナ：フラビア32分・55分"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "Base Aragonesa de Fútbol、ウエスカのホーム",
+ "risks": [
+  "試合日が9/29〜10/1のいずれかとされ、開始時刻が未確定",
+  "カテゴリ差あり、価格整合性に注意"
+ ],
+ "missing": [
+  "開始時刻",
+  "ウエスカの直近成績",
+  "10試合"
+ ],
+ "unavailable": {
+  "left.form": "ウエスカの公式試合リストを取得できず",
+  "right.form": "バルサB戦のスコア・他の試合を未取得",
+  "history": "共通相手の試合リストを取得できず"
+ },
+ "source_urls": [
+  "https://www.osasuna.es/noticia207",
+  "https://www.osasuna.es/osasuna-femenino-vence-al-huesca-1-2"
+ ],
+ "match_id": "m20260930-a2d863b1",
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "units_left": 1,
+   "units_right": 2,
+   "points_left": 1,
+   "points_right": 2,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 2.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

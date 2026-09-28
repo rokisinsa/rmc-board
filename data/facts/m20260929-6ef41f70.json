@@ -1,0 +1,101 @@
+{
+ "data_as_of": "2026-09-29T07:12:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ロアッソ熊本（Roasso Kumamoto）",
+  "ranking": "下位カテゴリ（未確認）直近5試合負けなし",
+  "form": [
+   {
+    "date": "2026-09",
+    "opp": "大分",
+    "comp": "ルヴァンカップ1回戦",
+    "ha": "不明",
+    "score": "2-0",
+    "res": "W",
+    "detail": ""
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "川崎フロンターレ（Kawasaki Frontale）",
+  "ranking": "J1 リーグ3戦負けなし",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "熊本のホーム（会場名は取得できず）",
+ "risks": [
+  "ターンオーバー有無は先発発表まで不明",
+  "J2/J3対J1のカップ戦、J1側がリーグ優先で主力を温存する可能性"
+ ],
+ "missing": [
+  "直近10試合の公式リスト",
+  "対戦成績（H2H）",
+  "先発予想・負傷者"
+ ],
+ "unavailable": {
+  "h2h": "J-League公式・Goal.comのプレビューには対戦成績の記載なし。初対戦とは確認できず",
+  "left.form": "Jリーグ公式プレビューの記述（1回戦の結果・調子）のみ取得。10試合リストは未取得",
+  "right.form": "同左",
+  "history": "60日以内の共通相手の試合リストを取得できず"
+ },
+ "source_urls": [
+  "https://www.jleague.jp/news/article/34996/",
+  "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/levain-cup-2nd-round-schedule-2026-27/blt3727ca473a5cb77e"
+ ],
+ "match_id": "m20260929-6ef41f70",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

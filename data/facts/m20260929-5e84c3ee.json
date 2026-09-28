@@ -1,0 +1,191 @@
+{
+ "left": {
+  "name": "EACジェネラルズ（EAC Generals）",
+  "ranking": "NCAAフィリピン シーズン102 グループB 0勝3敗（9/24時点）",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "レトラン（Letran）",
+    "comp": "NCAA Season 102 男子",
+    "score": "80-91",
+    "res": "L",
+    "detail": "MJ・レイムンド15点、ジェイコブ・シャノダ15点"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "アレジャノ（Arellano）",
+    "comp": "NCAA Season 102 男子",
+    "score": "87-91",
+    "res": "L",
+    "detail": "サンフアン・アリーナ。ジュード・バガイ16点8リバウンド、残り12秒の決勝弾"
+   }
+  ],
+  "lineup": [
+   "MJ・レイムンド、ジェイコブ・シャノダ、ジュード・バガイが主な得点源",
+   "負傷情報の記載なし"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "サンセバスチャン・ゴールデンスタッグス（San Sebastian Golden Stags）",
+  "ranking": "NCAAフィリピン シーズン102 グループB 0勝2敗以上（9/18時点、以降の試合あり）",
+  "form": [
+   {
+    "date": "2026-09-18",
+    "opp": "レトラン（Letran）",
+    "comp": "NCAA Season 102 男子",
+    "score": "62-99",
+    "res": "L",
+    "detail": "ヒット・バロガ15点"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "アレジャノ（Arellano）",
+    "comp": "NCAA Season 102 男子",
+    "score": "72-98",
+    "res": "L",
+    "detail": ""
+   }
+  ],
+  "lineup": [
+   "ヒット・バロガが主な得点源",
+   "ペルペチュアルに敗れたと報じられている（スコア未確認）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "フィリピンNCAA（開催アリーナ未確認）",
+ "unavailable": {
+  "left.form": "開幕戦（EACの1試合目）の結果を確認できず。取得できた2試合のみ",
+  "right.form": "取得できた2試合のみ（ペルペチュアル戦のスコア確認できず）",
+  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
+ },
+ "data_as_of": "2026-09-29T07:09:59+09:00",
+ "unit": "なし",
+ "risks": [
+  "両校とも未勝利で価格差が実力差と一致しているかは不明",
+  "EACの開幕戦（9/14前後）の結果を確認できていない",
+  "SSC-Rのペルペチュアル戦のスコア未確認"
+ ],
+ "missing": [
+  "EACの開幕戦の結果",
+  "SSC-Rのペルペチュアル戦のスコア",
+  "開催会場",
+  "h2h"
+ ],
+ "source_urls": [
+  "https://www.spin.ph/basketball/ncaa-men/letran-beats-eac-for-3-0-start-to-ncaa-season-102-a8144-20260924",
+  "https://www.manilatimes.net/2026/09/22/sports/ongotan-leads-charge-as-arellano-nips-eac/2430316",
+  "https://sports.inquirer.net/695935/ncaa-letran-improves-to-2-0-with-rout-of-san-sebastian",
+  "https://tribune.net.ph/2026/09/14/chiefs-clobber-stags-by-26"
+ ],
+ "match_id": "m20260929-5e84c3ee",
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 167,
+   "points_against": 182,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 134,
+   "points_against": 197,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "レトラン（Letran）",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "80-91",
+      "res": "L",
+      "comp": "NCAA Season 102 男子"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "62-99",
+      "res": "L",
+      "comp": "NCAA Season 102 男子"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-24",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "アレジャノ（Arellano）",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "87-91",
+      "res": "L",
+      "comp": "NCAA Season 102 男子"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "72-98",
+      "res": "L",
+      "comp": "NCAA Season 102 男子"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-22",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

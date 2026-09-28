@@ -1,43 +1,43 @@
 {
- "run_id": "run-20260928-2320",
+ "run_id": "run-20260929-0600",
  "run_status": "partial",
- "built_at": "2026-09-28T23:01:23+09:00",
+ "built_at": "2026-09-29T07:12:36+09:00",
  "logics": {
   "r1": {
-   "formal": 43,
-   "settled": 32,
-   "win": 23,
-   "loss": 6,
+   "formal": 49,
+   "settled": 38,
+   "win": 26,
+   "loss": 9,
    "void": 3,
    "pending": 11,
-   "staked": 2900.0,
-   "returned": 2734.2,
-   "net": -165.8,
-   "roi": -5.72,
+   "staked": 3500.0,
+   "returned": 3107.8,
+   "net": -392.2,
+   "roi": -11.21,
    "amount_missing": 0,
-   "hit_rate": 79.3,
+   "hit_rate": 74.3,
    "withdrawn": 13,
    "simple": {
     "stake": 100.0,
-    "net": -165.8,
-    "roi": -5.72,
-    "staked": 2900.0
+    "net": -392.2,
+    "roi": -11.21,
+    "staked": 3500.0
    },
    "compound": {
-    "bankroll": 124.4,
+    "bankroll": 192.9,
     "stock": 216.74,
     "secured": 2,
-    "busted": 6,
-    "principal": 700.0,
-    "net": -358.86,
+    "busted": 9,
+    "principal": 1000.0,
+    "net": -590.36,
     "rule": "元金$100全額→倍額($200)到達で利益をストックし$100から再開、0になったら$100から再開"
    },
-   "compound_ref": 341.14,
+   "compound_ref": 409.64,
    "kelly_quarter": {
     "bankroll": 100.0,
     "profit": 0.0,
     "bets": 0,
-    "skipped": 29
+    "skipped": 35
    }
   },
   "r2": {
@@ -192,31 +192,31 @@
  "gap_bands": {
   "r1": {
    "70-80": {
-    "count": 22,
-    "win": 12,
-    "loss": 4,
+    "count": 26,
+    "win": 15,
+    "loss": 5,
     "void": 1,
     "pending": 5,
-    "invested": 1600.0,
-    "net": -74.9,
-    "roi": -4.68
+    "invested": 2000.0,
+    "net": -101.3,
+    "roi": -5.07
    },
    "80-90": {
-    "count": 21,
+    "count": 22,
     "win": 11,
-    "loss": 2,
+    "loss": 4,
     "void": 2,
-    "pending": 6,
-    "invested": 1300.0,
-    "net": -90.9,
-    "roi": -6.99
+    "pending": 5,
+    "invested": 1500.0,
+    "net": -290.9,
+    "roi": -19.39
    },
    "90+": {
-    "count": 0,
+    "count": 1,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 0,
+    "pending": 1,
     "invested": 0.0,
     "net": 0.0,
     "roi": null
@@ -224,31 +224,31 @@
   },
   "all": {
    "70-80": {
-    "count": 23,
-    "win": 13,
-    "loss": 4,
+    "count": 27,
+    "win": 16,
+    "loss": 5,
     "void": 1,
     "pending": 5,
-    "invested": 1700.0,
-    "net": -43.9,
-    "roi": -2.58
+    "invested": 2100.0,
+    "net": -70.3,
+    "roi": -3.35
    },
    "80-90": {
-    "count": 23,
+    "count": 24,
     "win": 11,
-    "loss": 2,
+    "loss": 4,
     "void": 4,
-    "pending": 6,
-    "invested": 1300.0,
-    "net": -90.9,
-    "roi": -6.99
+    "pending": 5,
+    "invested": 1500.0,
+    "net": -290.9,
+    "roi": -19.39
    },
    "90+": {
-    "count": 0,
+    "count": 1,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 0,
+    "pending": 1,
     "invested": 0.0,
     "net": 0.0,
     "roi": null
@@ -326,16 +326,16 @@
    "clv_beat": 1,
    "odds_bands": {
     "1.00-1.20": {
-     "n": 14,
+     "n": 16,
      "win": 12,
-     "net": -72.9,
-     "roi": -5.21
+     "net": -272.9,
+     "roi": -17.06
     },
     "1.20-1.50": {
-     "n": 15,
-     "win": 11,
-     "net": -92.9,
-     "roi": -6.19
+     "n": 19,
+     "win": 14,
+     "net": -119.3,
+     "roi": -6.28
     },
     "1.50-2.00": {
      "n": 0,
@@ -370,16 +370,16 @@
      "actual": null
     },
     "70-80%": {
-     "n": 16,
-     "win": 12,
-     "pred": 73.9,
+     "n": 20,
+     "win": 15,
+     "pred": 74.1,
      "actual": 75.0
     },
     "80-90%": {
-     "n": 13,
+     "n": 15,
      "win": 11,
-     "pred": 84.4,
-     "actual": 84.6
+     "pred": 84.6,
+     "actual": 73.3
     },
     "90%+": {
      "n": 0,
@@ -701,16 +701,16 @@
    "clv_beat": 1,
    "odds_bands": {
     "1.00-1.20": {
-     "n": 14,
-     "win": 12,
-     "net": -72.9,
-     "roi": -5.21
-    },
-    "1.20-1.50": {
      "n": 16,
      "win": 12,
-     "net": -61.9,
-     "roi": -3.87
+     "net": -272.9,
+     "roi": -17.06
+    },
+    "1.20-1.50": {
+     "n": 20,
+     "win": 15,
+     "net": -88.3,
+     "roi": -4.42
     },
     "1.50-2.00": {
      "n": 0,
@@ -745,16 +745,16 @@
      "actual": null
     },
     "70-80%": {
-     "n": 16,
-     "win": 12,
-     "pred": 73.9,
+     "n": 20,
+     "win": 15,
+     "pred": 74.1,
      "actual": 75.0
     },
     "80-90%": {
-     "n": 14,
+     "n": 16,
      "win": 12,
-     "pred": 84.5,
-     "actual": 85.7
+     "pred": 84.6,
+     "actual": 75.0
     },
     "90%+": {
      "n": 0,

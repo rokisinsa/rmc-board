@@ -1,0 +1,121 @@
+{
+ "left": {
+  "name": "ヴィルトゥス・ボローニャ（Virtus Bologna）",
+  "ranking": "ユーロリーグ 開幕0勝1敗",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "フェネルバフチェ（Fenerbahce）",
+    "comp": "ユーロリーグ第1節",
+    "score": "68-78",
+    "res": "L",
+    "detail": "",
+    "ha": "A"
+   }
+  ],
+  "lineup": [
+   "ケビン・コキラ（右大腿二頭筋、軽症）が欠場",
+   "さらに2名がローテーション上ベンチ外"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "オリンピア・ミラノ（Olimpia Milano）",
+  "ranking": "ユーロリーグ 開幕0勝1敗",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "パルチザン（Partizan）",
+    "comp": "ユーロリーグ第1節",
+    "score": "76-92",
+    "res": "L",
+    "detail": "",
+    "ha": "A"
+   }
+  ],
+  "lineup": [
+   "ギャリソン・マシューズは物理的な不調で出場未定（パルチザン戦・トリエステ戦を欠場）",
+   "2〜3名がローテーション上ベンチ外",
+   "ロレンゾ・ブラウンは不在（第1節報道）",
+   "リーグ戦の開幕でトリエステに勝利"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ミラノ・ウニポール・フォーラム（ミラノ側ホーム）、20:30 CEST開始",
+ "unavailable": {
+  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）",
+  "left.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず",
+  "right.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず"
+ },
+ "data_as_of": "2026-09-29T07:07:10+09:00",
+ "unit": "なし",
+ "risks": [
+  "ミラノはリーグ戦（トリエステ戦）後の連戦で、国内リーグとの掛け持ちによるローテーションの影響がある",
+  "ミラノの登録12名が試合前まで未確定"
+ ],
+ "missing": [
+  "h2h"
+ ],
+ "source_urls": [
+  "https://realolimpiamilano.com/2026/09/28/olimpia-milano-virtus-29-settembre-2026-ultime-notizie/",
+  "https://www.eurohoops.net/en/euroleague/2012101/injury-report-round-1-larkin-bingham-gtds-mathews-kokila-out/",
+  "https://www.eurohoops.net/en/euroleague/2012304/euroleague-roundup-valencia-defeats-besiktas-in-a-thriller/amp/"
+ ],
+ "match_id": "m20260930-d9330eae",
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 68,
+   "points_against": 78,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 76,
+   "points_against": 92,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}
