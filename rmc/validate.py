@@ -258,7 +258,11 @@ def check_discovery(rep, matches, ana_by_logic):
         if r.get("status") == "一次候補":
             rep.err("DISCOVERY", f"{r['match_id']}: 一次候補のまま（完全深掘り・反対材料確認・確定をしていない）")
         if r.get("status") == "深掘り未完":
-            rep.err("DISCOVERY", f"{r['match_id']}: ⑤候補の深掘り未完（{r.get('reason')}）。取れない項目は facts.unavailable に理由")
+            runs = load("automation-runs.json", []) or [{}]
+            last = runs[-1]
+            gate = rep.err if last.get("status") == "complete" or "⑤" not in json.dumps(last.get("blockers") or [], ensure_ascii=False) else rep.warn
+            gate("DISCOVERY", f"{r['match_id']}: ⑤候補の深掘り未完（{r.get('reason')}）。取れない項目は facts.unavailable に理由。"
+                              "取り切れない場合は run を partial にして blockers に「⑤深掘り未完 N件と理由」を書き、次回に引き継ぐ")
         if r.get("status") == "格差候補確定" and (not r.get("support") or r.get("grade") not in ("A", "B")):
             rep.err("DISCOVERY", f"{r['match_id']}: 確定候補に支持材料・⑤-A/B の区分がない")
     conf = {m for m, r in rows.items() if r.get("status") == "格差候補確定" and r["start_jst"] > decided}

@@ -294,6 +294,9 @@ def load_ratings():
 
 def _lookup2(ratings, sport, a, b, fld):
     """同じRatingソースに両者がいて、その項目が両方ある最初のソース。"""
+    youth = re.compile(r"\bU-?\d{2}\b|women|\(w\)|\bw$|reserves?|\bii\b|\bb$|academy|youth", re.I)
+    if youth.search(str(a or "")) or youth.search(str(b or "")):
+        return None, None, None      # 年代別・女子・リザーブにA代表/トップのRatingを当てない
     ka, kb = _norm(a), _norm(b)
     for sysname, r in sorted(ratings.items()):
         if sport in r["sports"] and ka in r["teams"] and kb in r["teams"]:
