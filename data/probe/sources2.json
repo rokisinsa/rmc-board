@@ -1,0 +1,113 @@
+{
+ "at": "2026-09-29T13:19:03Z",
+ "results": {
+  "livescore_soccer": {
+   "code": 200,
+   "bytes": 67713,
+   "head": "{\"Ts\":1790687880,\"Stages\":[{\"Sid\":\"24566\",\"Snm\":\"League A: Group 1\",\"Scd\":\"league-a-group-1\",\"Cnm\":\"UEFA Nations League\",\"CnmT\":\"uefa-nations-league\",\"Csnm\":\"UEFA Nations League\",\"Ccd\":\"uefa-nations-league\",\"CompId\":\"523\",\"CompCnmt\":\"international\",\"CompN\":\"UEFA Nations League\",\"CompUrlName\":\"uefa-n"
+  },
+  "livescore_tennis": {
+   "code": 200,
+   "bytes": 56110,
+   "head": "{\"Ts\":1790687881,\"Stages\":[{\"Sid\":\"26517\",\"Snm\":\"China Open, Qualification\",\"Scd\":\"china-open-qualification\",\"Cnm\":\"ATP 500\",\"CnmT\":\"atp-500\",\"Csnm\":\"ATP 500\",\"Ccd\":\"atp-500\",\"Scu\":1,\"Events\":[{\"Eid\":\"1899840\",\"Pids\":{\"112\":\"SBTE_2_1029296748\",\"8\":\"1899840\"},\"Media\":{\"112\":[{\"eventId\":\"av:stream:331"
+  },
+  "livescore_hockey": {
+   "code": 200,
+   "bytes": 6740,
+   "head": "{\"Ts\":1790687882,\"Stages\":[{\"Sid\":\"26255\",\"Snm\":\"Extraleague\",\"Scd\":\"extraleague\",\"Cnm\":\"Belarus\",\"CnmT\":\"belarus\",\"Csnm\":\"Belarus\",\"Ccd\":\"belarus\",\"Scu\":0,\"Events\":[{\"Eid\":\"1881893\",\"Pids\":{\"8\":\"1881893\"},\"Tr1\":\"4\",\"Tr2\":\"3\",\"Tr1OR\":\"4\",\"Tr2OR\":\"3\",\"Tr1Pe1\":\"1\",\"Tr2Pe1\":\"0\",\"Tr1Pe2\":\"0\",\"Tr2Pe2\":\"2"
+  },
+  "livescore_basketball": {
+   "code": 200,
+   "bytes": 2426,
+   "head": "{\"Ts\":1790687883,\"Stages\":[{\"Sid\":\"26242\",\"Snm\":\"Regular season\",\"Scd\":\"regular-season\",\"Cnm\":\"Latvian-Estonian League\",\"CnmT\":\"latvian-estonian-league\",\"Csnm\":\"Latvian-Estonian League\",\"Ccd\":\"baltic\",\"Scu\":0,\"Events\":[{\"Eid\":\"1895113\",\"Pids\":{\"112\":\"SBTE_2_1029062492\",\"8\":\"1895113\"},\"Tr1\":\"92\",\"Tr2"
+  },
+  "livescore_cricket": {
+   "code": 200,
+   "bytes": 4981,
+   "head": "{\"Ts\":1790687884,\"Stages\":[{\"Sid\":\"25266\",\"Snm\":\"India A v Austraila A Four-Day Series\",\"Scd\":\"india-a-v-australia-a-four-day-series\",\"Cnm\":\"International Tours\",\"CnmT\":\"international-tours\",\"Csnm\":\"International Tours\",\"Ccd\":\"international-tours\",\"Scu\":1,\"Events\":[{\"Eid\":\"1775481\",\"Pids\":{\"8\":\"1775"
+  },
+  "clubelo": {
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  "clubelo_https": {
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "tennisabstract_wta_elo": {
+   "code": 200,
+   "bytes": 276344,
+   "head": "<html><head>\r\n<title>Tennis Abstract: WTA Elo Ratings</title>\r\n<link rel=\"stylesheet\" href=\"https://www.tennisabstract.com/blue/style.css\" type=\"text/css\">\r\n<script type=\"text/javascript\" src=\"https://www.tennisabstract.com/jquery-1.7.1-min.js\"></script>\r\n<script type=\"text/javascript\" src=\"https://"
+  },
+  "soccerway": {
+   "code": 200,
+   "bytes": 633598,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Live Soccer Scores, Fixtures, Results &amp; Tables | Soccerway</title>\n        <script defer src=\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\"\n            type=\"text/javascript\"\n            charset=\""
+  },
+  "worldfootball": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "vlr": {
+   "code": 200,
+   "bytes": 67885,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\" data-theme=\"light\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>\n\t\t\tValorant esports Match Schedule | VLR.gg\t\t</title>\n\n\t\t\t\t\t<meta name=\"description\" content=\"Schedule for upcoming Valorant esports matches\">\n\t\t\n\t\t\n\t\t<meta property=\"og:title\" content=\"Valorant esports Ma"
+  },
+  "vlr_rank": {
+   "code": 200,
+   "bytes": 120687,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\" data-theme=\"light\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>\n\t\t\tValorant Competitive Team Rankings: World | VLR.gg\t\t</title>\n\n\t\t\t\t\t<meta name=\"description\" content=\"Top Valorant esports teams rankings list and tiers\">\n\t\t\n\t\t\n\t\t<meta property=\"og:title\" content=\"Valor"
+  },
+  "golgg": {
+   "code": 200,
+   "bytes": 969420,
+   "head": "<!DOCTYPE html>\r\n   <html lang=\"en\">\r\n<head>\r\n                                  <title>Team list from S16 - win rate, KDA, match history and more</title>\r\n<base href=\"https://gol.gg/teams/\" >\r\n  <meta name=\"description\" content=\"In-depth stats on teams playing in S16: win rate, KDA, match history an"
+  },
+  "hltv_rank": {
+   "code": 200,
+   "bytes": 1095688,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\" data-client-country-iso=\"US-VA\" data-impression-tracking-endpoint=\"https://ncuxt.hltv.org\" data-ad-tag-allowed-cookies=\"mobile-bottom-ad,desktop-bottom-ad\" data-bc-content-allowed=\"true\"><!--\n        --Worker debug info-- \n        Ads API URL from origin: https://www."
+  },
+  "pdc_oom": {
+   "code": 200,
+   "bytes": 1225372,
+   "head": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preconnect\" href=\"https://images.gc.pdcservices.co.uk\">\n<script src></script>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),even"
+  },
+  "snooker_org": {
+   "error": "HTTPError: HTTP Error 401: Unauthorized"
+  },
+  "espn_scoreboard_nhl": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "cricbuzz": {
+   "code": 200,
+   "bytes": 347121,
+   "head": "<!DOCTYPE html><html lang=\"en\" class=\"inter-app\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\"/><link rel=\"dns-prefetch\" href=\"https://static.cricbuzz.com/\"/><link rel=\"preconne"
+  },
+  "icc_rank": {
+   "code": 200,
+   "bytes": 443220,
+   "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"https://ib.adnxs.com/pixie?pi=038ba63f-0f9a-466b-abce-8e0949836185&amp;e=LandingPage&amp;script=0&quot;\"/><link rel=\"stylesheet\" href="
+  },
+  "bwf": {
+   "code": 200,
+   "bytes": 184675,
+   "head": "<!DOCTYPE html>\n<html lang=\"en-US\" class=\"bwf-main\">\n<head>\n\n    <script>\n        window.dataLayer=window.dataLayer||[];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('consent','default',{\n            ad_storage:'denied',\n            ad_user_data:'denied',\n            ad_personali"
+  },
+  "world_rugby": {
+   "code": 200,
+   "bytes": 27807,
+   "head": "{\"label\":\"Mens Rugby Union\",\"entries\":[{\"team\":{\"id\":\"39\",\"altId\":\"a49729a5-a9e7-4a53-b18b-13b81d4752f4\",\"name\":\"South Africa\",\"abbreviation\":\"RSA\",\"countryCode\":\"ZAF\",\"annotations\":null,\"metadata\":{}},\"pts\":93.09175036626566,\"pos\":1,\"previousPts\":95.09175036626566,\"previousPos\":1},{\"team\":{\"id\":\"37"
+  },
+  "mlb_statsapi": {
+   "code": 200,
+   "bytes": 6186,
+   "head": "{\"copyright\":\"Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt\",\"totalItems\":4,\"totalEvents\":0,\"totalGames\":4,\"totalGamesInProgress\":0,\"dates\":[{\"date\":\"2026-09-29\",\"totalItems\":4,\"tot"
+  },
+  "nhl_api": {
+   "code": 200,
+   "bytes": 51555,
+   "head": "{\"wildCardIndicator\":true,\"standingsDateTimeUtc\":\"2026-09-29T13:19:00Z\",\"standings\":[{\"conferenceAbbrev\":\"W\",\"conferenceHomeSequence\":1,\"conferenceL10Sequence\":1,\"conferenceName\":\"Western\",\"conferenceRoadSequence\":1,\"conferenceSequence\":1,\"date\":\"2026-09-29\",\"divisionAbbrev\":\"P\",\"divisionHomeSequenc"
+  },
+  "fbref": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+ }
+}
