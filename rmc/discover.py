@@ -911,8 +911,8 @@ def run_screen(locked, matches=None):
         out["rows"].append(row)
     # ---- 日程母集団を複数経路で照合・補完（オッズ配信に無い試合も⑤に通す）----
     byid = {r["match_id"]: r for r in out["rows"]}
-    for r in out["rows"]:
-        r["fixture_sources"] = ["オッズ配信（Bovada/tennisexplorer/BC）"]
+    for r in out["rows"]:   # ⑤が日程ソースから登録した試合（ls-/ex-）はオッズ配信由来ではない
+        r["fixture_sources"] = [] if r["match_id"].startswith(("ls-", "ex-")) else ["オッズ配信（Bovada/tennisexplorer/BC）"]
     ext, ext_status, ext_taken = extra_fixtures()
     ls = _ls()
     pool = [dict(f, source="LiveScore") for f in ls["fixtures"]] + list(ext)

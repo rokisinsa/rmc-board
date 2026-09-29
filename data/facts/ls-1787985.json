@@ -122,7 +122,8 @@
   "last5": "Vimmerby：1勝4敗／MoDo：4勝1敗",
   "last10": "Vimmerby：1勝4敗（5試合）／MoDo：4勝1敗（5試合）",
   "streak": "Vimmerby：1連勝／MoDo：1連勝",
-  "avg_points": "Vimmerby：1試合平均得失差 -1.20（5試合）／MoDo：1試合平均得失差 +0.00（5試合）"
+  "avg_points": "Vimmerby：1試合平均得失差 -1.20（5試合）／MoDo：1試合平均得失差 +0.00（5試合）",
+  "current_competition": "Vimmerby {'rank': 12, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 14, 'ga': 20, 'pts': 4, 'group': None}／MoDo {'rank': 5, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 15, 'ga': 15, 'pts': 10, 'group': None}（LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -229,5 +230,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 12,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 14,
+   "ga": 20,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 5,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 15,
+   "ga": 15,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得）"
  }
 }

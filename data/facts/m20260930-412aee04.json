@@ -159,7 +159,8 @@
   "last5": "Lida：3勝2敗／Lokomotiv Orsha：0勝5敗",
   "last10": "Lida：4勝3敗（7試合）／Lokomotiv Orsha：2勝5敗（7試合）",
   "streak": "Lida：3連勝／Lokomotiv Orsha：5連敗",
-  "avg_points": "Lida：1試合平均得失差 +0.29（7試合）／Lokomotiv Orsha：1試合平均得失差 -2.14（7試合）"
+  "avg_points": "Lida：1試合平均得失差 +0.29（7試合）／Lokomotiv Orsha：1試合平均得失差 -2.14（7試合）",
+  "current_competition": "Lida {'rank': 8, 'played': 7, 'W': 4, 'D': 0, 'L': 3, 'gf': 22, 'ga': 20, 'pts': 8, 'group': None}／Lokomotiv Orsha {'rank': 11, 'played': 7, 'W': 2, 'D': 0, 'L': 5, 'gf': 15, 'ga': 30, 'pts': 4, 'group': None}（LiveScore順位表 Belarus / Extraleague（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -218,5 +219,30 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 8,
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 22,
+   "ga": 20,
+   "pts": 8,
+   "group": null
+  },
+  "right": {
+   "rank": 11,
+   "played": 7,
+   "W": 2,
+   "D": 0,
+   "L": 5,
+   "gf": 15,
+   "ga": 30,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 Belarus / Extraleague（2026-09-29T23:30:48+09:00取得）"
  }
 }

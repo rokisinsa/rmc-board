@@ -116,7 +116,8 @@
   "last5": "Trinec：5勝0敗／HC Kladno：3勝2敗",
   "last10": "Trinec：5勝0敗（5試合）／HC Kladno：3勝2敗（5試合）",
   "streak": "Trinec：5連勝／HC Kladno：2連敗",
-  "avg_points": "Trinec：1試合平均得失差 +2.40（5試合）／HC Kladno：1試合平均得失差 +0.00（5試合）"
+  "avg_points": "Trinec：1試合平均得失差 +2.40（5試合）／HC Kladno：1試合平均得失差 +0.00（5試合）",
+  "current_competition": "Trinec {'rank': 1, 'played': 5, 'W': 5, 'D': 0, 'L': 0, 'gf': 22, 'ga': 10, 'pts': 15, 'group': None}／HC Kladno {'rank': 5, 'played': 5, 'W': 3, 'D': 0, 'L': 2, 'gf': 14, 'ga': 14, 'pts': 9, 'group': None}（LiveScore順位表 Czech Republic / Extraliga（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -249,5 +250,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 1,
+   "played": 5,
+   "W": 5,
+   "D": 0,
+   "L": 0,
+   "gf": 22,
+   "ga": 10,
+   "pts": 15,
+   "group": null
+  },
+  "right": {
+   "rank": 5,
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 14,
+   "ga": 14,
+   "pts": 9,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / Extraliga（2026-09-29T23:30:48+09:00取得）"
  }
 }

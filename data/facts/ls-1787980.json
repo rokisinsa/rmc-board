@@ -122,7 +122,8 @@
   "last5": "AIK：4勝1敗／Visby Roma：1勝4敗",
   "last10": "AIK：4勝1敗（5試合）／Visby Roma：1勝4敗（5試合）",
   "streak": "AIK：4連勝／Visby Roma：1連敗",
-  "avg_points": "AIK：1試合平均得失差 +1.00（5試合）／Visby Roma：1試合平均得失差 -2.00（5試合）"
+  "avg_points": "AIK：1試合平均得失差 +1.00（5試合）／Visby Roma：1試合平均得失差 -2.00（5試合）",
+  "current_competition": "AIK {'rank': 2, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 15, 'ga': 10, 'pts': 12, 'group': None}／Visby Roma {'rank': 13, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 14, 'ga': 24, 'pts': 4, 'group': None}（LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -255,5 +256,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 15,
+   "ga": 10,
+   "pts": 12,
+   "group": null
+  },
+  "right": {
+   "rank": 13,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 14,
+   "ga": 24,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得）"
  }
 }

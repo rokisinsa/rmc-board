@@ -122,7 +122,8 @@
   "last5": "Grenoble：4勝1敗／Cergy Pontoise：1勝4敗",
   "last10": "Grenoble：4勝1敗（5試合）／Cergy Pontoise：1勝4敗（5試合）",
   "streak": "Grenoble：3連勝／Cergy Pontoise：2連敗",
-  "avg_points": "Grenoble：1試合平均得失差 +1.80（5試合）／Cergy Pontoise：1試合平均得失差 -1.60（5試合）"
+  "avg_points": "Grenoble：1試合平均得失差 +1.80（5試合）／Cergy Pontoise：1試合平均得失差 -1.60（5試合）",
+  "current_competition": "Grenoble {'rank': 1, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 19, 'ga': 10, 'pts': 12, 'group': None}／Cergy Pontoise {'rank': 10, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 15, 'ga': 23, 'pts': 2, 'group': None}（LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -203,5 +204,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 1,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 19,
+   "ga": 10,
+   "pts": 12,
+   "group": null
+  },
+  "right": {
+   "rank": 10,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 15,
+   "ga": 23,
+   "pts": 2,
+   "group": null
+  },
+  "source": "LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得）"
  }
 }

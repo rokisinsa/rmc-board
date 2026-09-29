@@ -122,7 +122,8 @@
   "last5": "Oestersunds IK：2勝3敗／Kalmar：4勝1敗",
   "last10": "Oestersunds IK：2勝3敗（5試合）／Kalmar：4勝1敗（5試合）",
   "streak": "Oestersunds IK：1連勝／Kalmar：3連勝",
-  "avg_points": "Oestersunds IK：1試合平均得失差 -0.60（5試合）／Kalmar：1試合平均得失差 +1.40（5試合）"
+  "avg_points": "Oestersunds IK：1試合平均得失差 -0.60（5試合）／Kalmar：1試合平均得失差 +1.40（5試合）",
+  "current_competition": "Oestersunds IK {'rank': 9, 'played': 5, 'W': 2, 'D': 0, 'L': 3, 'gf': 14, 'ga': 17, 'pts': 6, 'group': None}／Kalmar {'rank': 4, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 18, 'ga': 11, 'pts': 11, 'group': None}（LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -229,5 +230,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 5,
+   "W": 2,
+   "D": 0,
+   "L": 3,
+   "gf": 14,
+   "ga": 17,
+   "pts": 6,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 18,
+   "ga": 11,
+   "pts": 11,
+   "group": null
+  },
+  "source": "LiveScore順位表 Sweden / Hockeyallsvenskan（2026-09-29T23:30:48+09:00取得）"
  }
 }

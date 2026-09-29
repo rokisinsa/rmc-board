@@ -122,7 +122,8 @@
   "last5": "RWD Molenbeek：5勝0敗／Union Rochefortoise：3勝1分1敗",
   "last10": "RWD Molenbeek：5勝0敗（5試合）／Union Rochefortoise：3勝1分1敗（5試合）",
   "streak": "RWD Molenbeek：5連勝／Union Rochefortoise：1連分",
-  "avg_points": "RWD Molenbeek：1試合平均得失差 +1.40（5試合）／Union Rochefortoise：1試合平均得失差 +1.20（5試合）"
+  "avg_points": "RWD Molenbeek：1試合平均得失差 +1.40（5試合）／Union Rochefortoise：1試合平均得失差 +1.20（5試合）",
+  "current_competition": "RWD Molenbeek {'rank': 2, 'played': 5, 'W': 5, 'D': 0, 'L': 0, 'gf': 8, 'ga': 1, 'pts': 15, 'group': None}／Union Rochefortoise {'rank': 4, 'played': 5, 'W': 3, 'D': 1, 'L': 1, 'gf': 12, 'ga': 6, 'pts': 10, 'group': None}（LiveScore順位表 Belgium / National Division 1 ACFF（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -255,5 +256,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 5,
+   "W": 5,
+   "D": 0,
+   "L": 0,
+   "gf": 8,
+   "ga": 1,
+   "pts": 15,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 5,
+   "W": 3,
+   "D": 1,
+   "L": 1,
+   "gf": 12,
+   "ga": 6,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Belgium / National Division 1 ACFF（2026-09-29T23:30:48+09:00取得）"
  }
 }

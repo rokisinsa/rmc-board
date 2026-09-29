@@ -146,7 +146,8 @@
   "last5": "Slough Town：1勝4敗／Ebbsfleet United：2勝2分0敗",
   "last10": "Slough Town：1勝8敗（9試合）／Ebbsfleet United：2勝2分0敗（4試合）",
   "streak": "Slough Town：1連敗／Ebbsfleet United：1連勝",
-  "avg_points": "Slough Town：1試合平均得失差 -1.56（9試合）／Ebbsfleet United：1試合平均得失差 +0.75（4試合）"
+  "avg_points": "Slough Town：1試合平均得失差 -1.56（9試合）／Ebbsfleet United：1試合平均得失差 +0.75（4試合）",
+  "current_competition": "Slough Town {'rank': 23, 'played': 9, 'W': 1, 'D': 0, 'L': 8, 'gf': 9, 'ga': 23, 'pts': 3, 'group': None}／Ebbsfleet United {'rank': 21, 'played': 4, 'W': 2, 'D': 2, 'L': 0, 'gf': 5, 'ga': 2, 'pts': 8, 'group': None}（LiveScore順位表 England / National League: South（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -253,5 +254,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 23,
+   "played": 9,
+   "W": 1,
+   "D": 0,
+   "L": 8,
+   "gf": 9,
+   "ga": 23,
+   "pts": 3,
+   "group": null
+  },
+  "right": {
+   "rank": 21,
+   "played": 4,
+   "W": 2,
+   "D": 2,
+   "L": 0,
+   "gf": 5,
+   "ga": 2,
+   "pts": 8,
+   "group": null
+  },
+  "source": "LiveScore順位表 England / National League: South（2026-09-29T23:30:48+09:00取得）"
  }
 }

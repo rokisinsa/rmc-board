@@ -213,7 +213,8 @@
   "last5": "Atletico Barinas：2勝1分2敗／Academia Rey：3勝1分1敗",
   "last10": "Atletico Barinas：2勝2分6敗（10試合）／Academia Rey：5勝3分2敗（10試合）",
   "streak": "Atletico Barinas：1連敗／Academia Rey：2連勝",
-  "avg_points": "Atletico Barinas：1試合平均得失差 -0.80（10試合）／Academia Rey：1試合平均得失差 +1.00（10試合）"
+  "avg_points": "Atletico Barinas：1試合平均得失差 -0.80（10試合）／Academia Rey：1試合平均得失差 +1.00（10試合）",
+  "current_competition": "Atletico Barinas {'rank': 8, 'played': 28, 'W': 9, 'D': 4, 'L': 15, 'gf': 49, 'ga': 59, 'pts': 31, 'group': None}／Academia Rey {'rank': 2, 'played': 27, 'W': 14, 'D': 8, 'L': 5, 'gf': 48, 'ga': 27, 'pts': 50, 'group': None}（LiveScore順位表 Venezuela / Segunda División: Occidental（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -476,5 +477,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 8,
+   "played": 28,
+   "W": 9,
+   "D": 4,
+   "L": 15,
+   "gf": 49,
+   "ga": 59,
+   "pts": 31,
+   "group": null
+  },
+  "right": {
+   "rank": 2,
+   "played": 27,
+   "W": 14,
+   "D": 8,
+   "L": 5,
+   "gf": 48,
+   "ga": 27,
+   "pts": 50,
+   "group": null
+  },
+  "source": "LiveScore順位表 Venezuela / Segunda División: Occidental（2026-09-29T23:30:48+09:00取得）"
  }
 }

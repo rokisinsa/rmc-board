@@ -122,7 +122,8 @@
   "last5": "Dukla Michalovce：1勝4敗／HC 21 Presov：0勝5敗",
   "last10": "Dukla Michalovce：1勝4敗（5試合）／HC 21 Presov：0勝5敗（5試合）",
   "streak": "Dukla Michalovce：2連敗／HC 21 Presov：5連敗",
-  "avg_points": "Dukla Michalovce：1試合平均得失差 -1.60（5試合）／HC 21 Presov：1試合平均得失差 -2.60（5試合）"
+  "avg_points": "Dukla Michalovce：1試合平均得失差 -1.60（5試合）／HC 21 Presov：1試合平均得失差 -2.60（5試合）",
+  "current_competition": "Dukla Michalovce {'rank': 11, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 8, 'ga': 16, 'pts': 4, 'group': None}／HC 21 Presov {'rank': 12, 'played': 5, 'W': 0, 'D': 0, 'L': 5, 'gf': 9, 'ga': 22, 'pts': 0, 'group': None}（LiveScore順位表 Slovakia / Extraliga（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -203,5 +204,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 11,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 8,
+   "ga": 16,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 12,
+   "played": 5,
+   "W": 0,
+   "D": 0,
+   "L": 5,
+   "gf": 9,
+   "ga": 22,
+   "pts": 0,
+   "group": null
+  },
+  "source": "LiveScore順位表 Slovakia / Extraliga（2026-09-29T23:30:48+09:00取得）"
  }
 }

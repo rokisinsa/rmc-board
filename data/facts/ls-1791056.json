@@ -130,7 +130,8 @@
   "last5": "ZSC Lions：5勝0敗／Biel：2勝3敗",
   "last10": "ZSC Lions：6勝0敗（6試合）／Biel：2勝3敗（5試合）",
   "streak": "ZSC Lions：6連勝／Biel：1連敗",
-  "avg_points": "ZSC Lions：1試合平均得失差 +2.00（6試合）／Biel：1試合平均得失差 +0.80（5試合）"
+  "avg_points": "ZSC Lions：1試合平均得失差 +2.00（6試合）／Biel：1試合平均得失差 +0.80（5試合）",
+  "current_competition": "ZSC Lions {'rank': 1, 'played': 6, 'W': 6, 'D': 0, 'L': 0, 'gf': 25, 'ga': 13, 'pts': 18, 'group': None}／Biel {'rank': 9, 'played': 5, 'W': 2, 'D': 0, 'L': 3, 'gf': 16, 'ga': 12, 'pts': 7, 'group': None}（LiveScore順位表 Switzerland / National League（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -289,5 +290,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 1,
+   "played": 6,
+   "W": 6,
+   "D": 0,
+   "L": 0,
+   "gf": 25,
+   "ga": 13,
+   "pts": 18,
+   "group": null
+  },
+  "right": {
+   "rank": 9,
+   "played": 5,
+   "W": 2,
+   "D": 0,
+   "L": 3,
+   "gf": 16,
+   "ga": 12,
+   "pts": 7,
+   "group": null
+  },
+  "source": "LiveScore順位表 Switzerland / National League（2026-09-29T23:30:48+09:00取得）"
  }
 }

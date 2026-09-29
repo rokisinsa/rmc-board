@@ -116,7 +116,8 @@
   "last5": "Nitra：1勝4敗／Liptovsky Mikulas：3勝2敗",
   "last10": "Nitra：1勝4敗（5試合）／Liptovsky Mikulas：3勝2敗（5試合）",
   "streak": "Nitra：1連敗／Liptovsky Mikulas：2連勝",
-  "avg_points": "Nitra：1試合平均得失差 -1.20（5試合）／Liptovsky Mikulas：1試合平均得失差 +0.40（5試合）"
+  "avg_points": "Nitra：1試合平均得失差 -1.20（5試合）／Liptovsky Mikulas：1試合平均得失差 +0.40（5試合）",
+  "current_competition": "Nitra {'rank': 10, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 10, 'ga': 16, 'pts': 4, 'group': None}／Liptovsky Mikulas {'rank': 4, 'played': 5, 'W': 3, 'D': 0, 'L': 2, 'gf': 18, 'ga': 16, 'pts': 10, 'group': None}（LiveScore順位表 Slovakia / Extraliga（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -170,5 +171,30 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 10,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 10,
+   "ga": 16,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 18,
+   "ga": 16,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Slovakia / Extraliga（2026-09-29T23:30:48+09:00取得）"
  }
 }

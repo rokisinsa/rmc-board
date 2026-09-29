@@ -213,7 +213,8 @@
   "last5": "Yaracuyanos FC：2勝3敗／Academia Puerto Cabello B：0勝2分3敗",
   "last10": "Yaracuyanos FC：4勝3分3敗（10試合）／Academia Puerto Cabello B：2勝4分4敗（10試合）",
   "streak": "Yaracuyanos FC：1連勝／Academia Puerto Cabello B：1連分",
-  "avg_points": "Yaracuyanos FC：1試合平均得失差 +0.40（10試合）／Academia Puerto Cabello B：1試合平均得失差 -0.30（10試合）"
+  "avg_points": "Yaracuyanos FC：1試合平均得失差 +0.40（10試合）／Academia Puerto Cabello B：1試合平均得失差 -0.30（10試合）",
+  "current_competition": "Yaracuyanos FC {'rank': 4, 'played': 27, 'W': 11, 'D': 7, 'L': 9, 'gf': 34, 'ga': 27, 'pts': 40, 'group': None}／Academia Puerto Cabello B {'rank': 7, 'played': 28, 'W': 8, 'D': 7, 'L': 13, 'gf': 36, 'ga': 40, 'pts': 31, 'group': None}（LiveScore順位表 Venezuela / Segunda División: Occidental（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -483,5 +484,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 4,
+   "played": 27,
+   "W": 11,
+   "D": 7,
+   "L": 9,
+   "gf": 34,
+   "ga": 27,
+   "pts": 40,
+   "group": null
+  },
+  "right": {
+   "rank": 7,
+   "played": 28,
+   "W": 8,
+   "D": 7,
+   "L": 13,
+   "gf": 36,
+   "ga": 40,
+   "pts": 31,
+   "group": null
+  },
+  "source": "LiveScore順位表 Venezuela / Segunda División: Occidental（2026-09-29T23:30:48+09:00取得）"
  }
 }

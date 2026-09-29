@@ -162,7 +162,8 @@
   "last5": "HC Zubr Prerov：3勝2敗／Vsetin：5勝0敗",
   "last10": "HC Zubr Prerov：4勝4敗（8試合）／Vsetin：7勝0敗（7試合）",
   "streak": "HC Zubr Prerov：2連敗／Vsetin：7連勝",
-  "avg_points": "HC Zubr Prerov：1試合平均得失差 -0.38（8試合）／Vsetin：1試合平均得失差 +3.00（7試合）"
+  "avg_points": "HC Zubr Prerov：1試合平均得失差 -0.38（8試合）／Vsetin：1試合平均得失差 +3.00（7試合）",
+  "current_competition": "HC Zubr Prerov {'rank': 7, 'played': 8, 'W': 4, 'D': 0, 'L': 4, 'gf': 19, 'ga': 22, 'pts': 12, 'group': None}／Vsetin {'rank': 2, 'played': 7, 'W': 7, 'D': 0, 'L': 0, 'gf': 29, 'ga': 8, 'pts': 19, 'group': None}（LiveScore順位表 Czech Republic / 1st League（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -347,5 +348,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 7,
+   "played": 8,
+   "W": 4,
+   "D": 0,
+   "L": 4,
+   "gf": 19,
+   "ga": 22,
+   "pts": 12,
+   "group": null
+  },
+  "right": {
+   "rank": 2,
+   "played": 7,
+   "W": 7,
+   "D": 0,
+   "L": 0,
+   "gf": 29,
+   "ga": 8,
+   "pts": 19,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / 1st League（2026-09-29T23:30:48+09:00取得）"
  }
 }

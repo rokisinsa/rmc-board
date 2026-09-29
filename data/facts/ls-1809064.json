@@ -170,7 +170,8 @@
   "last5": "Pirati Chomutov：2勝3敗／Kolin：2勝3敗",
   "last10": "Pirati Chomutov：2勝6敗（8試合）／Kolin：5勝3敗（8試合）",
   "streak": "Pirati Chomutov：1連敗／Kolin：1連勝",
-  "avg_points": "Pirati Chomutov：1試合平均得失差 -1.00（8試合）／Kolin：1試合平均得失差 +0.12（8試合）"
+  "avg_points": "Pirati Chomutov：1試合平均得失差 -1.00（8試合）／Kolin：1試合平均得失差 +0.12（8試合）",
+  "current_competition": "Pirati Chomutov {'rank': 13, 'played': 8, 'W': 2, 'D': 0, 'L': 6, 'gf': 19, 'ga': 27, 'pts': 6, 'group': None}／Kolin {'rank': 5, 'played': 8, 'W': 5, 'D': 0, 'L': 3, 'gf': 23, 'ga': 22, 'pts': 14, 'group': None}（LiveScore順位表 Czech Republic / 1st League（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -329,5 +330,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 13,
+   "played": 8,
+   "W": 2,
+   "D": 0,
+   "L": 6,
+   "gf": 19,
+   "ga": 27,
+   "pts": 6,
+   "group": null
+  },
+  "right": {
+   "rank": 5,
+   "played": 8,
+   "W": 5,
+   "D": 0,
+   "L": 3,
+   "gf": 23,
+   "ga": 22,
+   "pts": 14,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / 1st League（2026-09-29T23:30:48+09:00取得）"
  }
 }

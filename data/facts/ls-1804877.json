@@ -122,7 +122,8 @@
   "last5": "Gap：2勝3敗／Anglet：0勝5敗",
   "last10": "Gap：2勝3敗（5試合）／Anglet：0勝5敗（5試合）",
   "streak": "Gap：1連勝／Anglet：5連敗",
-  "avg_points": "Gap：1試合平均得失差 -1.80（5試合）／Anglet：1試合平均得失差 -2.40（5試合）"
+  "avg_points": "Gap：1試合平均得失差 -1.80（5試合）／Anglet：1試合平均得失差 -2.40（5試合）",
+  "current_competition": "Gap {'rank': 9, 'played': 5, 'W': 2, 'D': 0, 'L': 3, 'gf': 10, 'ga': 19, 'pts': 6, 'group': None}／Anglet {'rank': 12, 'played': 5, 'W': 0, 'D': 0, 'L': 5, 'gf': 7, 'ga': 19, 'pts': 0, 'group': None}（LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -255,5 +256,30 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 5,
+   "W": 2,
+   "D": 0,
+   "L": 3,
+   "gf": 10,
+   "ga": 19,
+   "pts": 6,
+   "group": null
+  },
+  "right": {
+   "rank": 12,
+   "played": 5,
+   "W": 0,
+   "D": 0,
+   "L": 5,
+   "gf": 7,
+   "ga": 19,
+   "pts": 0,
+   "group": null
+  },
+  "source": "LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得）"
  }
 }

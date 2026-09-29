@@ -122,7 +122,8 @@
   "last5": "Angers：4勝1敗／Briancon：2勝1分2敗",
   "last10": "Angers：4勝1敗（5試合）／Briancon：2勝1分2敗（5試合）",
   "streak": "Angers：4連勝／Briancon：2連敗",
-  "avg_points": "Angers：1試合平均得失差 +1.80（5試合）／Briancon：1試合平均得失差 -0.40（5試合）"
+  "avg_points": "Angers：1試合平均得失差 +1.80（5試合）／Briancon：1試合平均得失差 -0.40（5試合）",
+  "current_competition": "Angers {'rank': 2, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 21, 'ga': 12, 'pts': 12, 'group': None}／Briancon {'rank': 8, 'played': 5, 'W': 2, 'D': 0, 'L': 3, 'gf': 8, 'ga': 11, 'pts': 7, 'group': None}（LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得））"
  },
  "calc": {
   "left": {
@@ -176,5 +177,30 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 21,
+   "ga": 12,
+   "pts": 12,
+   "group": null
+  },
+  "right": {
+   "rank": 8,
+   "played": 5,
+   "W": 2,
+   "D": 0,
+   "L": 3,
+   "gf": 8,
+   "ga": 11,
+   "pts": 7,
+   "group": null
+  },
+  "source": "LiveScore順位表 France / Ligue Magnus（2026-09-29T23:30:48+09:00取得）"
  }
 }
