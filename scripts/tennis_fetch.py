@@ -159,22 +159,30 @@ def main():
     todo = [m for m in matches if m["start_jst"] > nowj and m.get("p2")][:MAX_DETAIL]
     basic = {}
     fails = 0
-    for m in todo:
-        try:
-            page = get(f"{SITE}/match-detail/?id={m['id']}")
+
+    def one(m):
+        page = get(f"{SITE}/match-detail/?id={m['id']}")
+        time.sleep(0.3)
+        return m, page
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=4) as ex:      # 4並列（1本あたり0.3秒休止）で所要時間を短くする
+        futs = [ex.submit(one, m) for m in todo]
+        for fu in futs:
+            try:
+                m, page = fu.result()
+            except Exception:
+                fails += 1; continue
             names, books = parse_detail(page)
             try:
                 basic[m["id"]] = dict(parse_basic(page), p1=m["p1"], p2=m["p2"], start_jst=m["start_jst"], tournament_list=m["tournament"])
             except Exception as e:
                 basic[m["id"]] = dict(error=f"{type(e).__name__}: {e}"[:200], p1=m["p1"], p2=m["p2"], start_jst=m["start_jst"])
-        except Exception:
-            fails += 1; continue
-        m["names_full"] = names
-        m["books"] = books
-        pick = next((b for b in PREFER if b in books), next(iter(books), None))
-        if pick:
-            m["pick"] = dict(book=pick, L=books[pick][0], R=books[pick][1])
-        time.sleep(1.0)
+            m["names_full"] = names
+            m["books"] = books
+            pick = next((b for b in PREFER if b in books), next(iter(books), None))
+            if pick:
+                m["pick"] = dict(book=pick, L=books[pick][0], R=books[pick][1])
     bdir = os.path.join(os.path.dirname(OUT), "basic")
     os.makedirs(bdir, exist_ok=True)
     json.dump(dict(taken_at=status["taken_at"], source="tennisexplorer 試合詳細（ランキング・H2H・直近・サーフェス別勝敗。オッズは含まない）",
