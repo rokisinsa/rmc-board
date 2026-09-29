@@ -1,5 +1,5 @@
 {
- "taken_at": "2026-09-29T23:10:20+09:00",
+ "taken_at": "2026-09-29T23:30:31+09:00",
  "sources": {
   "eloratings": {
    "ok": true,
@@ -27,9 +27,9 @@
    "error": null
   },
   "vlr": {
-   "ok": true,
-   "n": 128,
-   "error": null
+   "ok": false,
+   "error": "解析結果が0件（ページ構造の変化の可能性）",
+   "kept_previous": true
   },
   "world_rugby": {
    "ok": true,
