@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -113,7 +113,8 @@
    "Wisper（オフレーン。TI後にAceに代わり加入、Liquid初の南米出身選手）",
    "Boxi（ポジション4）",
    "tOfu（ポジション5）",
-   "コーチ: Blitz"
+   "コーチ: Blitz",
+   "GosuGamersプレビューでもMidOneがNisha休養のスタンドイン、WisperがAceの後任と確認"
   ],
   "history": [
    {
@@ -389,9 +390,32 @@
   "https://escorenews.com/en/dota-2/blast-slam-8",
   "https://www.e-rankings.com/player/?id=39904",
   "https://www.dota2.com/patches",
-  "https://hawk.live/posts/blast-slam-viii-schedule-standings-results"
+  "https://hawk.live/posts/blast-slam-viii-schedule-standings-results",
+  "https://cyberscore.live/en/news/blast-slam-VIII-group-stage-format-update/",
+  "https://www.gosugamers.net/dota2/news/79264-blast-slam-viii-preview-teams-and-key-storylines-to-watch"
  ],
  "match_id": "m20260930-53f009f5",
+ "esports": {
+  "format": "BO3（GSL形式4組×4チーム、全BO3＝cyberscore）",
+  "lan_online": "オンライン（BLAST Slam VIIIグループステージ。プレーオフ10/8-11のみマルタでLAN）",
+  "roster": "Liquid: m1CKe・MidOne（Nisha休養のスタンドイン）・Wisper（Aceに代わり加入）・Boxi・tOfu（GosuGamersプレビューで確認）。Yakult Brothers: Lou・Emo・オフレーン（項羽 or Beyond、ソース不一致）・kaka・Tianming",
+  "map_pool": "Dotaはマップ選択なし（1マップ＝1ゲーム）",
+  "veto": {
+   "unavailable": true,
+   "reason": "Dotaはveto制ではなくドラフト（ピック/バン）。試合前でドラフト情報なし"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用パッチの明記を確認できず（公式サイトで7.41fの告知は確認したが公開日不明で現行かは未確認）"
+  },
+  "series_h2h": "既存H2H 10件（facts.h2h参照）",
+  "map_h2h": "Dotaはゲーム単位＝facts.h2hのunits参照",
+  "rating": "GosuGamers世界ランク：Liquid 4位・Yakult 20位",
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "Dotaはマップ選択なし"
+  }
+ },
  "calc": {
   "left": {
    "games": 10,

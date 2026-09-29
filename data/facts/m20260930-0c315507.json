@@ -1,0 +1,116 @@
+{
+ "match_id": "m20260930-0c315507",
+ "data_as_of": "2026-09-29T13:00:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ビソンズ・ロイマー",
+  "ranking": "2026-27シーズン開幕戦（0勝0敗）。前季順位は未取得",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Salon Vilpas",
+    "comp": "Suomen Cup",
+    "ha": "H",
+    "score": "74-101",
+    "res": "L",
+    "detail": "Loimaan liikuntahalli"
+   }
+  ],
+  "lineup": [
+   "ロスター・負傷情報は未取得（Loimaan Lehtiの記事はrobotsで閲覧不可）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "KTPバスケット・コトカ",
+  "ranking": "2026-27シーズン開幕戦（0勝0敗）。前季順位は未取得",
+  "form": [],
+  "lineup": [
+   "HC Greg Gibson、アソシエイトHC Mike Girling（新任）",
+   "新加入 Ian Uwamungu（地元有望株）",
+   "主な選手: Joona Tuomala、Mason Gillis、Joel Mäntynen、Daniel Dolenc、Jesper Granlund、Tuomas Hirvonen",
+   "Suomen Cup R1 @Kauhajoki 95-88勝（Tuomala 32点）、R2 Kipinä戦勝利（スコア未取得）、練習試合 Helsinki Seagulls 82-80勝・LaBa 101-87勝（いずれも日付未取得）",
+   "2026年はクラブ創立100周年"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "共通相手候補: Salon Vilpas（Bisonsはカップで74-101敗、KTPとは未対戦）→60日以内の共通相手は確認できず"
+ ],
+ "venue": "Steveco Areena（フィンランド・コトカ）、KTPのホーム・Bisonsアウェイ",
+ "risks": [
+  "公式日程ではKTPホーム（Steveco Areena）で、配信の left=Bisons はアウェイ側（ホーム表記が逆）",
+  "シーズン開幕戦で公式戦データが極少"
+ ],
+ "missing": [
+  "前季順位・前季H2H",
+  "両チームの日付付き公式戦結果（カップ戦日付）",
+  "Bisonsのロスター"
+ ],
+ "unavailable": {
+  "h2h": "Sofascore試合ページにH2H表示なし、betexplorerのH2Hページは404。Web検索予算上限で他ソース検索不可",
+  "left.form": "日付付き公式戦はカップ1試合のみ取得",
+  "right.form": "カップ戦勝利は確認したが日付不明のためform未掲載",
+  "history": "60日以内の共通相手は確認できず"
+ },
+ "source_urls": [
+  "https://www.basket.fi/wp-content/uploads/2026/07/2026-2027-Sarjaohjelma-Korisliiga-VAHVISTETTU-260708.pdf",
+  "https://www.flashscore.fi/koripallo/suomi/korisliiga/",
+  "https://ktpbasket.fi/",
+  "https://www.sofascore.com/basketball/team/bisons-loimaa/57319",
+  "https://www.sofascore.com/basketball/match/bisons-loimaa-ktp-basket-kotka/lFcsuWx",
+  "https://vilpaskoripallo.fi/",
+  "https://vilpaskoripallo.fi/mestaruusviiri-nousee-tiistaina-salohallin-vieraaksi-honka/"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 74,
+   "points_against": 101,
+   "points_games": 1
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "start_jst_confirmed": "2026-09-30T00:00:00+09:00",
  "unit": "マップ",
  "left": {
@@ -133,41 +133,14 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "ロシア・サンクトペテルブルクのLAN会場（中立）",
- "deep": {
-  "ranking": "OMEGA＝HLTV107位・VRS70位。krytiepacani＝両ランキング圏外（データ不足）",
-  "h2h": "初対戦。krytiepacaniはHLTV上で過去の試合が1つもなく（チームページに「has not played any matches yet」）、試合ページのH2Hも0-0",
-  "recent_form": "OMEGAは直近10戦6勝4敗（9/25 ex-RUSTECに1-2で敗北、8月はBRO Summer Cup 4連勝）。krytiepacaniは公式戦0試合で形なし",
-  "lineup": "OMEGAはカザフ人5人の固定ロスター。krytiepacaniはchopper/deko/Perfecto/TRAVIS/ct0mのスター混成（メディアチーム）で本大会がデビュー",
-  "roster": "krytiepacaniは2026年9月にdekoとct0mが登録した新設チーム（offstage.ru）。OMEGA側の直近のロスター変更情報は確認できず",
-  "map_pool": {
-   "unavailable": true,
-   "reason": "大会の使用マッププール規定を確認できず。OMEGAの統計上の得意マップはDust2・Anubis"
-  },
-  "veto": {
-   "unavailable": true,
-   "reason": "krytiepacaniに試合実績がなくveto傾向のデータが存在しない"
-  },
-  "patch": {
-   "unavailable": true,
-   "reason": "大会使用パッチの記載を確認できず"
-  },
-  "series_h2h": "0-0（初対戦）",
-  "map_h2h": {
-   "unavailable": true,
-   "reason": "初対戦のためなし"
-  },
-  "rating": {
-   "unavailable": true,
-   "reason": "krytiepacaniは公式戦0試合で選手レーティングなし。OMEGA選手の直近レーティングは個別に未確認"
-  }
- },
  "risks": [
   "krytiepacaniは公式戦0試合の完全な未知数。ただしchopper（元Team Spirit Major優勝IGL）・Perfecto（元NAVI Major優勝）・deko（WW Team AWPer）ら実績あるティア1級の名前が並ぶ",
   "chopper本人が『ガチのチームではなくお楽しみ』と公言しており、本気度・練習量が不明（cybersport.ru）",
   "OMEGAはティア2の実戦を継続的にこなしており（VRS70位）、試合勘では優位だがネームバリューでは大きく劣る",
   "BO3のLANで、krytiepacani側は即席チームゆえの連携不足が出やすい一方、個の地力は上",
   "HLTV: 17:00 CEST・kushvsporte: 18:00 MSK表記＝JST 9/30 00:00で一致（開始時刻確認済）",
-  "HLTVのコミュニティ予想はkrytiepacani 95.9%（参考・モデル値ではない）"
+  "HLTVのコミュニティ予想はkrytiepacani 95.9%（参考・モデル値ではない）",
+  "krytiepacaniはchopper自身が『お楽しみのチーム』と発言したメディアチーム（本気度不明、ショーマッチ的性格）"
  ],
  "missing": [
   "krytiepacaniのform（公式戦0試合）",
@@ -187,9 +160,34 @@
   "https://www.offstage.ru/cs2/news/prevyu-winline-cis-lan-8-format-sostavy-prizovoj-fond-i-raspisanie-pervogo-dnya",
   "https://www.offstage.ru/cs2/news/deko-i-ct0m-zaregistrirovali-novyj-sostav-na-winline-cis-lan-8",
   "https://www.cybersport.ru/tags/cs2/stali-izvestny-soperniki-komandy-chopper-i-deko-na-winline-mpkbk-cis-lan-season",
-  "https://kushvsporte.ru/event/6917060-omega-krytiepacani"
+  "https://kushvsporte.ru/event/6917060-omega-krytiepacani",
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
  ],
  "match_id": "m20260930-9e856da5",
+ "esports": {
+  "format": "BO3（HLTV試合ページ）",
+  "lan_online": "LAN（ロシア・サンクトペテルブルク、WINLINE MPKBK CIS LAN Season 8 グループD初戦）",
+  "roster": "OMEGAはカザフ人5人の固定ロスター。krytiepacaniはchopper/deko/Perfecto/TRAVIS/ct0mのスター混成（メディアチーム）で本大会がデビュー。krytiepacaniは2026年9月にdekoとct0mが登録した新設チーム（offstage.ru）。OMEGA側の直近のロスター変更情報は確認できず",
+  "map_pool": "CS2 Active Duty（2026-07-06〜）: Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache（HLTV）",
+  "veto": {
+   "unavailable": true,
+   "reason": "krytiepacaniに試合実績がなくveto傾向のデータが存在しない"
+  },
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "試合前でTBA（HLTV）"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用パッチの記載を確認できず"
+  },
+  "series_h2h": "0-0（初対戦）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "初対戦のためなし"
+  },
+  "rating": "HLTV世界：OMEGA 107位（VRS70位）・krytiepacani ランク外。krytiepacaniは公式戦0試合で選手レーティングなし。OMEGA選手の直近レーティングは個別に未確認"
+ },
  "calc": {
   "left": {
    "games": 10,

@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "unit": "ゲーム",
  "left": {
   "name": "1win",
@@ -499,9 +499,35 @@
   "https://esports.gg/news/dota-2/dota-2-blast-slam-8-teams-schedule-where-to-watch-results/",
   "https://www.dota2protips.com/tournaments/blast-slam-8",
   "https://hawk.live/posts/blast-slam-viii-schedule-standings-results",
-  "https://www.dota2.com/patches"
+  "https://www.dota2.com/patches",
+  "https://cyberscore.live/en/news/blast-slam-VIII-group-stage-format-update/",
+  "https://www.gosugamers.net/dota2/news/79264-blast-slam-viii-preview-teams-and-key-storylines-to-watch"
  ],
  "match_id": "m20260929-0419bfe7",
+ "esports": {
+  "format": "BO3（GSL形式4組×4チーム、全BO3＝cyberscore）",
+  "lan_online": "オンライン（BLAST Slam VIIIグループステージ。プレーオフ10/8-11のみマルタでLAN）",
+  "roster": "1win: Pure・bzm・33・Whitemon・Ari（GosuGamers：ロスター変更なし）。NAVI: gotthejuice・Niku・pma・Riddys・daze",
+  "map_pool": "Dotaはマップ選択なし（1マップ＝1ゲーム）",
+  "veto": {
+   "unavailable": true,
+   "reason": "Dotaはveto制ではなくドラフト（ピック/バン）。試合前でドラフト情報なし"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用パッチの明記を確認できず（公式サイトで7.41fの告知は確認したが公開日不明で現行かは未確認）"
+  },
+  "series_h2h": "facts.h2h 9件（直近9/22はNAVI 2-1）",
+  "map_h2h": "Dotaはゲーム単位＝facts.h2h参照",
+  "rating": {
+   "unavailable": true,
+   "reason": "統一的な世界ランク数値を取得できず"
+  },
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "Dotaはマップ選択なし"
+  }
+ },
  "calc": {
   "left": {
    "games": 10,

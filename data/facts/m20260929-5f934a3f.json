@@ -1,0 +1,144 @@
+{
+ "match_id": "m20260929-5f934a3f",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "オーストラリア（Australia）",
+  "ranking": "国際親善試合（ブラジルと2連戦）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ブラジル",
+    "comp": "国際親善試合",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D",
+    "detail": "ESPN/Yahoo見出し『Socceroos denied famous win as Rayan rescues Selecao』、タウンズビル開催"
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ブラジル（Brazil）",
+  "ranking": "国際親善試合（W杯2026後の最初の代表ウィーク）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "オーストラリア",
+    "comp": "国際親善試合",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D",
+    "detail": "Rayanが同点弾（Yahoo見出し）"
+   }
+  ],
+  "lineup": [
+   "監督アンチェロッティ、ラフィーニャは休ませない方針（beIN 9/27見出し）",
+   "初戦はラフィーニャ・ヴィニシウス・エンドリック先発（見出し）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09-25",
+   "event": "国際親善試合",
+   "score": "1-1",
+   "winner": "draw",
+   "units_left": 1,
+   "units_right": 1,
+   "detail": "タウンズビル"
+  }
+ ],
+ "common_opponents_notes": [
+  "共通相手：なし（直近は互いのみ）"
+ ],
+ "venue": "オーストラリアのホーム（ブリスベン・サンコープ・スタジアムとの記載、要確認）",
+ "risks": [
+  "親善試合で両軍ローテーションの可能性",
+  "2017年以前のH2Hは既知記録で本セッション未開封",
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+ ],
+ "missing": [
+  "W杯2026本大会等それ以前のform",
+  "会場の公式確認",
+  "オーストラリア側メンバー"
+ ],
+ "unavailable": {
+  "left.form": "9/25の1試合のみ確認",
+  "right.form": "同左",
+  "history": "60日以内の共通相手なし",
+  "h2h": "過去の直接対戦は今回開いたページで確認できず（検索結果の見出しのみ・記憶由来の行は数字を作らない方針により削除）"
+ },
+ "source_urls": [
+  "https://www.espn.com/soccer/match/_/gameId/401881899/brazil-australia",
+  "https://sports.yahoo.com/articles/australia-vs-brazil-live-score-080001697.html",
+  "https://socceroos.com.au/match/australia-v-brazil-friendlies-29-09-2026/22278826",
+  "https://www.austadiums.com/sport/event/34754",
+  "https://www.beinsports.com/en-us/soccer/friendlies/articles/ancelotti-won-t-rest-raphinha-against-australia-2026-09-27",
+  "https://sports.yahoo.com/articles/ancelotti-names-brazil-line-friendly-105600965.html",
+  "https://sports.yahoo.com/articles/brazil-australia-meet-tenth-time-142800166.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 0,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 0,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 0,
+   "draw": 1,
+   "units_left": 1,
+   "units_right": 1,
+   "points_left": 1,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

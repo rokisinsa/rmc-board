@@ -1,0 +1,97 @@
+{
+ "match_id": "m20260929-bb7d0792",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "キックスタートFC（Kickstart）",
+  "ranking": "BDFAスーパーディビジョン（順位未確認）",
+  "form": [],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "レベルズFC（Rebels FC）",
+  "ranking": "BDFAスーパーディビジョン（順位未確認）",
+  "form": [],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "確認不能"
+ ],
+ "venue": "バンガロール（会場未確認）",
+ "risks": [
+  "地域リーグで情報極少・整合性リスク",
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+ ],
+ "missing": [
+  "form",
+  "H2H",
+  "会場",
+  "メンバー",
+  "開始時刻確認"
+ ],
+ "unavailable": {
+  "left.form": "試合別結果ソースなし",
+  "right.form": "同左",
+  "h2h": "未確認",
+  "history": "確認不能"
+ },
+ "source_urls": [
+  "https://en.wikipedia.org/wiki/Kickstart_FC",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_BDFA_Super_Division",
+  "https://footballin.in/event/bangalore-city-fc-vs-rebels-fc/"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

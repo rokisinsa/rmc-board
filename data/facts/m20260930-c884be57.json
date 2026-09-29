@@ -1,0 +1,224 @@
+{
+ "match_id": "m20260930-c884be57",
+ "data_as_of": "2026-09-29T12:47:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Jokers de Cergy-Pontoise",
+  "ranking": "Ligue Magnus 10位 2pt（5戦 延長/SO勝1・4敗）得失15-23",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Angers",
+    "comp": "Ligue Magnus 2026/27 J5",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Chamonix",
+    "comp": "Ligue Magnus 2026/27 J4",
+    "ha": "A",
+    "score": "4-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Bordeaux",
+    "comp": "Ligue Magnus 2026/27 J2",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Marseille",
+    "comp": "Ligue Magnus 2026/27 J1",
+    "ha": "H",
+    "score": "1-3",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "負傷情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-27",
+    "opp": "Angers",
+    "comp": "Ligue Magnus 2026/27 J5",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Grenoble Brûleurs de loups",
+  "ranking": "Ligue Magnus 1位 12pt（5戦4勝1敗）得失19-10",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Anglet",
+    "comp": "Ligue Magnus 2026/27 J5",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Amiens",
+    "comp": "Ligue Magnus 2026/27 J4",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Gap",
+    "comp": "Ligue Magnus 2026/27 J3",
+    "ha": "",
+    "score": "7-1",
+    "res": "W",
+    "detail": "grenoblemag記事の『2日前にGap戦7-1勝』。日付・会場はソース上で明示されず"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Rouen",
+    "comp": "Ligue Magnus 2026/27 J2",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Angers",
+    "comp": "Ligue Magnus 2026/27 J1",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "負傷情報は確認できず"
+  ],
+  "history": [
+   {
+    "date": "2026-09-15",
+    "opp": "Angers",
+    "comp": "Ligue Magnus 2026/27 J1",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "共通相手（60日以内・J3除く）: Angers"
+ ],
+ "venue": "Grenoble（Patinoire Polesud）— Grenobleのホーム（flashscore.fr 9/29『Grenoble vs Cergy-Pontoise』）。配信left=Cergyはアウェー",
+ "risks": [
+  "配信の left(Cergy) はアウェー側。実開催はGrenobleホーム",
+  "J3の結果が欠落（form 4試合）"
+ ],
+ "missing": [
+  "J3結果",
+  "過去シーズンH2H",
+  "独立モデル勝率"
+ ],
+ "unavailable": {
+  "h2h": "2026/27は今季初対戦（J1〜J5対戦表で確認）。前季以前の対戦は時間内に取得できず",
+  "left.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
+  "right.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
+  "history": "J1,J2,J4,J5の相手で共通相手を照合"
+ },
+ "source_urls": [
+  "https://www.passionhockey.com/2026/09/16/ligue-magnus-rentree-reussie-pour-grenoble-et-bordeaux/",
+  "https://www.passionhockey.com/2026/09/19/ligue-magnus-rouen-et-angers-se-reprennent/",
+  "https://www.passionhockey.com/2026/09/26/ligue-magnus-marseille-stoppe-bordeaux-cinq-equipes-a-9-points/",
+  "https://planetehockey.com/ligue-magnus-grenoble-mene-un-quatuor-de-tete/",
+  "https://www.flashscore.fr/hockey/france/ligue-magnus/",
+  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/"
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 0,
+   "L": 4,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "4連敗",
+   "points_for": 9,
+   "points_against": 18,
+   "points_games": 4
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 19,
+   "points_against": 10,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Angers",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-6",
+      "res": "L",
+      "comp": "Ligue Magnus 2026/27 J5"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-15",
+      "iso": "2026-09-15",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Ligue Magnus 2026/27 J1"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

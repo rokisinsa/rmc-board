@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "PARIVISION",
@@ -270,9 +270,37 @@
   "https://hawk.live/posts/blast-slam-viii-schedule-standings-results",
   "https://www.gosugamers.net/dota2/news/79264-blast-slam-viii-preview-teams-and-key-storylines-to-watch",
   "https://win.gg/blast-slam-viii-preview-predictions-and-more/",
-  "https://www.dota2.com/patches"
+  "https://www.dota2.com/patches",
+  "https://cyberscore.live/en/news/blast-slam-VIII-group-stage-format-update/"
  ],
  "match_id": "m20260929-2c0d101f",
+ "esports": {
+  "format": "BO3（GSL形式4組×4チーム、全BO3＝cyberscore）",
+  "lan_online": "オンライン（BLAST Slam VIIIグループステージ。プレーオフ10/8-11のみマルタでLAN）",
+  "roster": "PARIVISION: Satanic・No[o]ne・Noticed・Dukalis・9Class／コーチPuppey（変更報道なし）。Level UP: WoE・Ainkrad・bb3px・queezy・Htrd／コーチSbdush（Two Move選手で再編）",
+  "map_pool": "Dotaはマップ選択なし（1マップ＝1ゲーム）",
+  "veto": {
+   "unavailable": true,
+   "reason": "Dotaはveto制ではなくドラフト（ピック/バン）。試合前でドラフト情報なし"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用パッチの明記を確認できず（公式サイトで7.41fの告知は確認したが公開日不明で現行かは未確認）"
+  },
+  "series_h2h": {
+   "unavailable": true,
+   "reason": "直接対戦の記録を確認できず"
+  },
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "直接対戦の記録なし"
+  },
+  "rating": "PARIVISION: 世界1位との報道（stavka.tv）／Level UP: ggscore世界26位",
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "Dotaはマップ選択なし"
+  }
+ },
  "calc": {
   "left": {
    "games": 10,

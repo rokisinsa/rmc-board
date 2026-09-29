@@ -1,0 +1,87 @@
+{
+ "match_id": "m20260929-50d10b37",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Salaiova V.",
+  "ranking": "取得不可（予選第8シード＝配信表記）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Worring La Torre A.",
+  "ranking": "取得不可（予選第13シード＝配信表記）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ITF W15 Sharm El Sheikh（エジプト、屋外ハード）予選とみられる。中立",
+ "risks": [
+  "ITF W15予選（整合性リスク）",
+  "両者の情報がほぼ皆無"
+ ],
+ "missing": [
+  "両者のランキング・直近成績・H2H",
+  "公式OOP",
+  "model_prob"
+ ],
+ "unavailable": {
+  "h2h": "両者の選手ページを取得できず確認不可",
+  "left.form": "tennisliveのSalaiova関連試合ページが空で取得失敗、検索上限に到達し他ソース（ITF公式等）を当たれず",
+  "right.form": "tennisliveにWorring La Torreの選手ページが検索で見つからず、検索上限到達",
+  "history": "form未取得のため確認不可"
+ },
+ "source_urls": [
+  "https://www.tennislive.net/wta/match/vanesa-salaiova-VS-jana-denisenko/w35-sharm-elsheikh-2026/"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

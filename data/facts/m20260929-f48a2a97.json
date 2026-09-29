@@ -1,0 +1,127 @@
+{
+ "match_id": "m20260929-f48a2a97",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "レソト（Lesotho）",
+  "ranking": "AFCON2027予選グループA（1節0勝1敗）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ニジェール",
+    "comp": "AFCON2027予選 グループA 第1節",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L",
+    "detail": "CAF/VAVEL見出し『Niger 2-1 Lesotho』、終盤PKで1点差"
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "モロッコ（Morocco）",
+  "ranking": "AFCON2027予選グループA（1節1勝、首位）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ガボン",
+    "comp": "AFCON2027予選 グループA 第1節",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "detail": "africasoccer/Dailysports見出し『Morocco beat Gabon 2-0』。日付は第1節（9/25前後）でH/A未確認"
+   }
+  ],
+  "lineup": [
+   "DFナイフ・アゲルドは欠場（africasoccer見出し）",
+   "代表は南アフリカ入り済み"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "60日以内の共通相手：なし（レソト=ニジェール、モロッコ=ガボン）"
+ ],
+ "venue": "レソトのホーム扱い、南アフリカで開催（会場名未確認）",
+ "risks": [
+  "モロッコ第1節の日付・H/Aは未確認",
+  "H2Hは既知記録（AFCON2025予選）で本セッション個別未開封",
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+ ],
+ "missing": [
+  "会場名",
+  "レソト側メンバー",
+  "それ以前のform"
+ ],
+ "unavailable": {
+  "left.form": "9/25の1試合のみ",
+  "right.form": "第1節のみ、日付・H/A未確認",
+  "history": "60日以内の共通相手なし",
+  "h2h": "過去の直接対戦は今回開いたページで確認できず（検索結果の見出しのみ・記憶由来の行は数字を作らない方針により削除）"
+ },
+ "source_urls": [
+  "https://www.cafonline.com/afcon2025/news/niger-hold-off-lesotho-fightback-to-make-winning-start-to-afcon-2027-qualifiers/",
+  "https://www.vavel.com/en-us/soccer/2026/09/25/1272733-niger-vs-lesotho-live-score-africa-cup-qualifiers.html",
+  "https://africasoccer.com/afcon-2027-qualifiers-morocco-beat-gabon-group-a/",
+  "https://www.moroccoworldnews.com/2026/09/339962/moroccos-atlas-lions-arrive-in-south-africa-ahead-of-lesotho-afcon-qualifier/",
+  "https://africasoccer.com/morocco-prepare-for-lesotho-challenge-with-nayef-aguerd-ruled-out/",
+  "https://africasoccer.com/morocco-target-another-clean-sheet-win-against-lesotho-in-afcon-qualifier/",
+  "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_qualification_Group_B"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "match_id": "m20260930-d9f7c01d",
+ "data_as_of": "2026-09-29T12:47:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Diables Rouges de Briançon",
+  "ranking": "Ligue Magnus 8位 7pt（5戦2勝1延長敗2敗）得失8-11",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Chamonix",
+    "comp": "Ligue Magnus 2026/27 J5",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Nice",
+    "comp": "Ligue Magnus 2026/27 J4",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Marseille",
+    "comp": "Ligue Magnus 2026/27 J2",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Rouen",
+    "comp": "Ligue Magnus 2026/27 J1",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "負傷情報は確認できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "Ducs d'Angers",
+  "ranking": "Ligue Magnus 4位 12pt（5戦4勝1敗）得失21-12",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Cergy-Pontoise",
+    "comp": "Ligue Magnus 2026/27 J5",
+    "ha": "A",
+    "score": "6-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Anglet",
+    "comp": "Ligue Magnus 2026/27 J4",
+    "ha": "H",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Gap",
+    "comp": "Ligue Magnus 2026/27 J2",
+    "ha": "H",
+    "score": "5-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Grenoble",
+    "comp": "Ligue Magnus 2026/27 J1",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "J4時点でGKアレックス・デュボーが出場停止（passionhockey 9/26）→本戦の出場可否は未確認"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "共通相手（60日以内・J3除く）: なし"
+ ],
+ "venue": "Angers（Angers IceParc）— Angersのホーム（flashscore.fr 9/29『Angers vs Briancon』）。配信left=Briançonはアウェー",
+ "risks": [
+  "配信の left(Briançon) はアウェー側。実開催はAngersホーム",
+  "J3の結果が欠落（form 4試合）"
+ ],
+ "missing": [
+  "J3結果",
+  "過去シーズンH2H",
+  "独立モデル勝率"
+ ],
+ "unavailable": {
+  "h2h": "2026/27は今季初対戦（J1〜J5対戦表で確認）。前季以前の対戦は時間内に取得できず",
+  "left.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
+  "right.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
+  "history": "J1,J2,J4,J5の相手で共通相手を照合→該当なし"
+ },
+ "source_urls": [
+  "https://www.passionhockey.com/2026/09/16/ligue-magnus-rentree-reussie-pour-grenoble-et-bordeaux/",
+  "https://www.passionhockey.com/2026/09/19/ligue-magnus-rouen-et-angers-se-reprennent/",
+  "https://www.passionhockey.com/2026/09/26/ligue-magnus-marseille-stoppe-bordeaux-cinq-equipes-a-9-points/",
+  "https://planetehockey.com/ligue-magnus-grenoble-mene-un-quatuor-de-tete/",
+  "https://www.flashscore.fr/hockey/france/ligue-magnus/",
+  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/"
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 7,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 18,
+   "points_against": 10,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

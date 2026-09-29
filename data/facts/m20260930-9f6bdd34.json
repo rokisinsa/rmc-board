@@ -1,0 +1,126 @@
+{
+ "match_id": "m20260930-9f6bdd34",
+ "data_as_of": "2026-09-29T12:54:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Gary Anderson",
+  "ranking": "World Grand Prix 第10シード（PDC上位16）",
+  "form": [],
+  "lineup": [
+   "直近の判明試合：Czech Darts Open（European Tour）でCameron Menziesに3-6敗（日付未確認）",
+   "過去12か月 平均98.29、チェックアウト率40.86%、180s 312本（dartsorakel）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "Damon Heta",
+  "ranking": "PDC世界ランク23位（2026-09-06時点、Wikipedia）、Pro Tour枠のノーシード",
+  "form": [],
+  "lineup": [
+   "直近の判明試合：Players ChampionshipでKarel Sedláčekに1-6敗（日付未確認）",
+   "2026年7月 Players Championship 25 準優勝（Henry Coatesに4-8敗）",
+   "World Grand Prix 2021-2025はいずれもL32（初戦）敗退と記載"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2018",
+   "event": "Brisbane Darts Masters 1回戦",
+   "score": "6-5",
+   "winner": "left",
+   "units_left": 6,
+   "units_right": 5
+  },
+  {
+   "date": "2018",
+   "event": "Melbourne Darts Masters QF",
+   "score": "10-7",
+   "winner": "left",
+   "units_left": 10,
+   "units_right": 7
+  }
+ ],
+ "common_opponents_notes": [
+  "直近試合の日付付きリストが取れず共通相手の突き合わせ不可"
+ ],
+ "venue": "Mattioli Arena（英国・レスター）、中立。World Grand Prix 2026（9/28-10/4）",
+ "risks": [
+  "1回戦はBest of 3セット（各セットBest of 5レッグ）のダブルイン・ダブルアウト。短期戦で番狂わせが起きやすい",
+  "開始時刻がソース間で不一致（Sofascore表示 9/28 18:15 UTC、dartsnewsはセッション開始 9/29 18:00、配信は 9/30 04:15 JST=9/29 20:15 BST）"
+ ],
+ "missing": [
+  "両者の直近10試合の日付付き結果（Sofascore/dartsorakel/the-sports.orgが動的表示で取得不可）",
+  "直近のH2H（2018年以降）",
+  "最新PDCランキング（Andersonの公式値）"
+ ],
+ "unavailable": {
+  "left.form": "Sofascore/dartsorakelの試合一覧が動的読み込みで取得できず、mastercallerのデータは古く不整合のため不採用",
+  "right.form": "同上（the-sports.orgも2026年詳細なし）",
+  "history": "form未取得のため確認不可",
+  "h2h": "Wikipediaに記載の2018年2戦のみ（単位はレッグ）。最新対戦はflashscore試合ページで表示されず。H2Hのunits_left/rightはレッグ数"
+ },
+ "source_urls": [
+  "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
+  "https://dartsnews.com/pdc/world-grand-prix-2026-results-draw-schedule-preview-format-history-and-predictions",
+  "https://www.flashscore.com/match/darts/anderson-gary-MyKZZS6r/heta-damon-GYfQQCI6/",
+  "https://www.sofascore.com/darts/player/heta-damon/172078",
+  "https://www.sofascore.com/darts/player/anderson-gary/26272",
+  "https://en.wikipedia.org/wiki/Damon_Heta",
+  "https://dartsorakel.com/player/stats/10"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 2,
+   "left": 2,
+   "right": 0,
+   "draw": 0,
+   "units_left": 16,
+   "units_right": 12,
+   "points_left": 16,
+   "points_right": 12,
+   "points_games": 2,
+   "avg_left": 8.0,
+   "avg_right": 6.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

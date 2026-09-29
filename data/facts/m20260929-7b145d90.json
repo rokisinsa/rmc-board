@@ -1,0 +1,87 @@
+{
+ "match_id": "m20260929-7b145d90",
+ "data_as_of": "2026-09-29T12:54:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Dmytro Zeniuk",
+  "ranking": "未取得",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Nazar Danyliuk",
+  "ranking": "未取得",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Ukraine / Setka Cup（リーグ専用ホール、中立・無観客想定、詳細未確認）",
+ "risks": [
+  "下位リーグ（Ukraine / Setka Cup）：同日に多数試合をこなす形式で、試合の整合性（八百長）リスクが指摘される種類の大会",
+  "Best of 5セットの短期戦",
+  "同日に同選手の別試合あり：Bohdan Kohut v Nazar Danyliuk 14:25JST"
+ ],
+ "missing": [
+  "両者の直近成績",
+  "H2H",
+  "リーグ内順位・レーティング",
+  "開始時刻の公式確認"
+ ],
+ "unavailable": {
+  "h2h": "Web検索の上限（セッション共有、200回）に達し、flashscore/sofascore/tt-league等への新規アクセスがプロキシの出典要件でブロックされたため取得不可",
+  "left.form": "Web検索の上限（セッション共有、200回）に達し、flashscore/sofascore/tt-league等への新規アクセスがプロキシの出典要件でブロックされたため取得不可",
+  "right.form": "Web検索の上限（セッション共有、200回）に達し、flashscore/sofascore/tt-league等への新規アクセスがプロキシの出典要件でブロックされたため取得不可",
+  "history": "Web検索の上限（セッション共有、200回）に達し、flashscore/sofascore/tt-league等への新規アクセスがプロキシの出典要件でブロックされたため取得不可"
+ },
+ "source_urls": [],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

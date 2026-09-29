@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Grêmio Esports",
@@ -158,11 +158,11 @@
   {
    "date": "2026-08-09",
    "event": "BetBoom Storm Season 4 スイス",
-   "score": "Grêmio 2-1",
+   "score": "2-1",
    "winner": "left",
    "units_left": 2,
    "units_right": 1,
-   "detail": "Grêmioが Inferno・Dust2、ProcyonがNuke 13-5（vprognoze）"
+   "detail": "Grêmioが Inferno・Dust2、ProcyonがNuke 13-5（vprognoze） 元表記: Grêmio 2-1"
   }
  ],
  "common_opponents_notes": [],
@@ -185,9 +185,34 @@
   "https://www.hltv.org/team/10997/procyon",
   "https://www.hltv.org/events/9425/cct-2026-south-america-series-6",
   "https://vprognoze.ru/topforecast/8162050-gremio-procyon-gaming-2026-09-29.html",
-  "https://www.sofascore.com/esports/match/gremio-esports-procyon-gaming/KEZcsRDZj"
+  "https://www.sofascore.com/esports/match/gremio-esports-procyon-gaming/KEZcsRDZj",
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
  ],
  "match_id": "m20260930-5e70b79e",
+ "esports": {
+  "format": "BO3（HLTVイベント：スイス全BO3）",
+  "lan_online": "オンライン（CCT 2026 South America Series 6、スイス）",
+  "roster": "Grêmio: MITHPUTTINI・souz4h・yeda・balencyy・s1lent／コーチluq（7/13にALZONから移籍）。Procyon: lenci・pavv・MaxOff・next・laser／コーチesp1rit_o",
+  "map_pool": "CS2 Active Duty（2026-07-06〜）: Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache（HLTV）",
+  "veto": {
+   "unavailable": true,
+   "reason": "試合前でveto未発表"
+  },
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "試合前"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用ビルド記載なし"
+  },
+  "series_h2h": "Grêmio 1勝0敗（8/9 2-1）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "マップ別スコア未取得"
+  },
+  "rating": "HLTV世界：Grêmio 207位・Procyon 173位"
+ },
  "calc": {
   "left": {
    "games": 6,

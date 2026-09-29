@@ -1,0 +1,163 @@
+{
+ "match_id": "m20260930-97578e00",
+ "left": {
+  "name": "邵羽杉",
+  "ranking": "WTAランキング記載なし（未取得）。17歳（2008年以降生まれ）のジュニア。中網のWC8枚（全員中国人）の1人",
+  "form": [],
+  "lineup": [
+   "WTA公式ドロー（9/28発行）：位置19、ワイルドカード",
+   "新浪（2026-09-22）：中網ITF J300（ジュニア）での好成績を評価されてWC獲得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ザハロワ",
+  "ranking": "ランキング未取得。本大会無印",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "オスタペンコ",
+    "comp": "韓国オープン",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "opp_rank": "第1シード",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 1-6"
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "大坂なおみ",
+    "comp": "全米オープン 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "opp_rank": "第13シード",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7 6-7"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "コリンズ",
+    "comp": "フィラデルフィア（WTA125）R16",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 3-6"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "ブリンコワ",
+    "comp": "フィラデルフィア（WTA125）初戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6 6-0"
+   },
+   {
+    "date": "2026-08-11",
+    "opp": "ステファニーニ",
+    "comp": "シンシナティ 予選1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 2-6"
+   }
+  ],
+  "lineup": [
+   "WTA公式ドロー：位置20、無印"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "邵玉珊側のformが取れず共通相手の確認不可"
+ ],
+ "venue": "China Open（WTA1000）北京、屋外ハード。邵玉珊は地元中国",
+ "unavailable": {
+  "h2h": "Tennis Majorsで0-0（2022年以降対戦なし）と表記。それ以前は未確認",
+  "left.form": "新浪記事でJ300（ジュニア）好成績の記述のみ。プロ大会の試合結果はtennisexplorer/sofascore遮断で取得不可",
+  "history": "左側form未取得のため確認不可"
+ },
+ "data_as_of": "2026-09-29T12:49:00+09:00",
+ "unit": "セット",
+ "risks": [
+  "邵羽杉（Shao Yushan）は17歳のジュニアでツアー実績が乏しい（WC）。直近のプロ成績は取得できず",
+  "ザハロワは直近5試合1勝4敗",
+  "Tennis Majorsは試合日を10/1と表記（Flashscore・フィードは9/30）"
+ ],
+ "missing": [
+  "邵玉珊の直近成績・ランキング",
+  "ザハロワのランキング",
+  "公式開始時刻"
+ ],
+ "source_urls": [
+  "https://www.tennismajors.com/matches/wta/china-open/yushan-shao-vs-anastasia-zakharova",
+  "https://www.flashscore.com/match/tennis/shao-yushan-bDkypVFa/zakharova-anastasia-pQGynuhR/",
+  "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+  "https://k.sina.com.cn/article_7879995911_1d5af320706802khhk.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "units_won": 2,
+   "units_lost": 8,
+   "points_for": 2,
+   "points_against": 8,
+   "points_games": 5,
+   "inner_for": 43,
+   "inner_against": 56,
+   "inner_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

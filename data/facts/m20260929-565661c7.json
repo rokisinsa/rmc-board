@@ -1,0 +1,126 @@
+{
+ "match_id": "m20260929-565661c7",
+ "data_as_of": "2026-09-29T13:00:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Kiwoom Heroes",
+  "ranking": "KBO 10位（最下位）47勝86敗4分（9/27時点）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "Doosan Bears",
+    "comp": "KBO 2026 レギュラー",
+    "ha": "H",
+    "score": "3-5",
+    "res": "L",
+    "detail": "Doosan側記録から"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Doosan Bears",
+    "comp": "KBO 2026 レギュラー",
+    "ha": "A",
+    "score": "6-6",
+    "res": "D",
+    "detail": "Doosan側記録から"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Doosan Bears",
+    "comp": "KBO 2026 レギュラー",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L",
+    "detail": "Doosan側記録から"
+   }
+  ],
+  "lineup": [
+   "先発予定: チョン・ジュンピョ（전준표）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "Lotte Giants",
+  "ranking": "KBO 7位 59勝72敗2分（9/27時点）",
+  "form": [],
+  "lineup": [
+   "先発予定: パク・セウン（박세웅）",
+   "9/25 Doosan戦は雨天中止"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "社稷野球場（釜山）— Lotteホーム。18:30 KST（=JST）",
+ "risks": [
+  "配信の left(Kiwoom) はアウェー側",
+  "両軍とも5位（67-63-5）と大差でPO争いほぼ圏外→消化試合色",
+  "両チームのformがほぼ未取得"
+ ],
+ "missing": [
+  "両チーム直近10試合",
+  "H2H",
+  "独立モデル勝率"
+ ],
+ "unavailable": {
+  "left.form": "Kiwoom側ソースに到達できず（検索枠上限・KBO公式robots）。Doosan側記録の3試合のみ",
+  "right.form": "Lotteの試合結果ソースに到達できず",
+  "h2h": "取得不可（ソース到達できず）",
+  "history": "照合不可"
+ },
+ "source_urls": [
+  "https://www.topstarnews.net/news/articleView.html?idxno=16226250",
+  "https://en.wikipedia.org/wiki/2026_KBO_League_season",
+  "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/2026%EB%85%84/9~10%EC%9B%94"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 0,
+   "L": 2,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 16,
+   "points_games": 3
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

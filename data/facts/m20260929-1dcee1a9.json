@@ -1,0 +1,218 @@
+{
+ "match_id": "m20260929-1dcee1a9",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Negishi Y.",
+  "ranking": "WTAランクなし / 17歳・日本",
+  "form": [
+   {
+    "date": "2026-09-21",
+    "opp": "Yihan Li",
+    "opp_rank": "",
+    "comp": "W15 Maanshan（前週）予選2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(5) 1-6"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Sera Nishimoto",
+    "opp_rank": "",
+    "comp": "W35 Kyoto 予選1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 6-7(3)"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Himari Sato",
+    "opp_rank": "",
+    "comp": "W15 Yeongwol 予選2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 5-7"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Suzuna Oigawa",
+    "opp_rank": "",
+    "comp": "W15 Yeongwol 予選1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "5-7 6-2 [10-4]"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Yujin Ahn",
+    "opp_rank": "",
+    "comp": "W15 Yeongwol 予選2回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "5-7 2-6"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Kahyeon Han",
+    "opp_rank": "",
+    "comp": "W15 Yeongwol 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-2 6-2"
+   },
+   {
+    "date": "2026-08-26",
+    "opp": "Aunchisa Chanta",
+    "opp_rank": "408",
+    "comp": "W15 Tianjin R1",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 3-6"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "Junlu Sun",
+    "opp_rank": "",
+    "comp": "W15 Tianjin 予選",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-4 7-6(5)"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "Shuyang Xu",
+    "opp_rank": "",
+    "comp": "W15 Tianjin 予選2回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-3"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "Ru Xi Wu",
+    "opp_rank": "832",
+    "comp": "W15 Tianjin 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-3"
+   }
+  ],
+  "lineup": [
+   "今週の本戦入り経緯（予選通過か）は未確認"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "Chen M.",
+  "ranking": "取得不可（tennisliveのChen Meng Yiページが空）/ 中国",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ITF W15 Maanshan（中国・馬鞍山、屋外ハード）。Chenは地元中国勢",
+ "risks": [
+  "ITF W15（整合性リスク）",
+  "右側の情報ほぼ未取得"
+ ],
+ "missing": [
+  "Chen Meng Yiのランキング・直近成績",
+  "公式OOP",
+  "model_prob"
+ ],
+ "unavailable": {
+  "h2h": "Negishiページに対Chenの記録なし（Chen側未確認）",
+  "right.form": "tennisliveのMeng Yi Chenページが2回とも空で取得失敗、検索上限到達で他ソース当たれず",
+  "history": "右側form未取得のため共通相手確認不可"
+ },
+ "source_urls": [
+  "https://www.tennislive.net/wta/yuzuha-negishi/",
+  "https://www.tennislive.net/wta/meng-yi-chen/"
+ ],
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 5,
+   "L": 5,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "units_won": 10,
+   "units_lost": 11,
+   "points_for": 10,
+   "points_against": 11,
+   "points_games": 10,
+   "inner_for": 106,
+   "inner_against": 99,
+   "inner_games": 10
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

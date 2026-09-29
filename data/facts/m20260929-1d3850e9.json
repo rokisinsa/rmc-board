@@ -1,0 +1,96 @@
+{
+ "match_id": "m20260929-1d3850e9",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "スポルティーボ・サン・ロレンソ（リザーブ）",
+  "ranking": "パラグアイ1部リザーブリーグ（順位未確認）",
+  "form": [],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "デポルティーボ・レコレタ（リザーブ）",
+  "ranking": "パラグアイ1部リザーブリーグ（順位未確認）",
+  "form": [],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "確認不能"
+ ],
+ "venue": "サン・ロレンソ側ホーム（未確認）",
+ "risks": [
+  "リザーブリーグで情報極少・整合性リスク",
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+ ],
+ "missing": [
+  "form",
+  "H2H",
+  "会場",
+  "メンバー"
+ ],
+ "unavailable": {
+  "left.form": "リザーブの結果を掲載するページを開けず",
+  "right.form": "同左",
+  "h2h": "リザーブ同士の記録未確認（トップ同士の2026-02-06 0-3は別チームのため不採用）",
+  "history": "確認不能"
+ },
+ "source_urls": [
+  "https://www.sofascore.com/football/match/deportivo-recoleta-reserve-sportivo-san-lorenzo-reserve/NiycsaaEi",
+  "https://www.espn.com/soccer/match/_/gameId/401848182/deportivo-recoleta-sportivo-san-lorenzo",
+  "https://www.aiscore.com/head-to-head/soccer-deportivo-recoleta-reserves-vs-sportivo-san-lorenzo-reserve"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

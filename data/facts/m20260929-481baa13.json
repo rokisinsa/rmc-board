@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Spirit Academy",
@@ -141,11 +141,11 @@
   {
    "date": "2026-09-24",
    "event": "CCT 2026 Europe Series 10 Closed Qualifier グループC",
-   "score": "Spirit Academy 2-0",
+   "score": "2-0",
    "winner": "left",
    "units_left": 2,
    "units_right": 0,
-   "detail": "Ancient 13-8 / Nuke 13-5（HLTV）"
+   "detail": "Ancient 13-8 / Nuke 13-5（HLTV） 元表記: Spirit Academy 2-0"
   }
  ],
  "common_opponents_notes": [],
@@ -176,9 +176,34 @@
   "https://www.hltv.org/team/13281/bushido-wildcats",
   "https://www.hltv.org/events/9433/cct-2026-challengers-europe-series-7",
   "https://maisesports.com.br/partidas/spirit-academy-vs-phantom-academy-2026-09-29",
-  "https://cito.gg/teams/cs2-team-13766/phantom-academy"
+  "https://cito.gg/teams/cs2-team-13766/phantom-academy",
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
  ],
  "match_id": "m20260929-481baa13",
+ "esports": {
+  "format": "BO3（CCT Challengers Europe S7、ダブルエリミ全BO3）",
+  "lan_online": "オンライン（CCT 2026 Challengers Europe Series 7）",
+  "roster": "Spirit Academy: VILBy・Kiryasoo・s1nside・k0gaSs・Netrix／コーチFlash_1。Phantom Academy: Ayteel・Brain47・kalyambys・Kunai（9/24はDr3nquu・stiefens出場）／コーチBoll",
+  "map_pool": "CS2 Active Duty（2026-07-06〜）: Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache（HLTV）",
+  "veto": {
+   "unavailable": true,
+   "reason": "試合前でveto未発表"
+  },
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "試合前"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用ビルド記載なし"
+  },
+  "series_h2h": "Spirit Academy 1勝0敗（9/24 2-0）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "9/24戦のマップ別未取得"
+  },
+  "rating": "HLTV世界：Spirit Academy 122位・Phantom Academy 173位"
+ },
  "calc": {
   "left": {
    "games": 6,
@@ -243,10 +268,7 @@
    "points_right": 0,
    "points_games": 1,
    "avg_left": 2.0,
-   "avg_right": 0.0,
-   "inner_left": 26,
-   "inner_right": 13,
-   "inner_games": 1
+   "avg_right": 0.0
   },
   "common": [],
   "common_window_days": 60,

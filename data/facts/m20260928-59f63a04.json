@@ -1,10 +1,10 @@
 {
  "match_id": "m20260928-59f63a04",
- "data_as_of": "2026-09-28T16:26:00+09:00",
+ "data_as_of": "2026-09-29T12:49:00+09:00",
  "unit": "セット",
  "left": {
   "name": "ラヤル",
-  "ranking": "ATP143位（tennisexplorer、自己最高140位）、本大会第1シード。Tennis Abstract Elo #149（1644.5、ハード1618.8）。2026年シングルス39勝24敗",
+  "ranking": "ATP143位（tennisexplorer 9/28時点）／147位（Tennis Tonic 9/29プレビュー）、自己最高140位、本大会第1シード。Tennis Abstract Elo #149（1644.5、ハード1618.8）。2026年38勝24敗（Tennis Tonic、ハード29勝13敗・室内ハード4勝4敗）",
   "form": [
    {
     "date": "2026-09-25",
@@ -120,7 +120,8 @@
   ],
   "lineup": [
    "ATPドロー: M.ラヤル(1) vs L.プーラン(WC)。tennisexplorerの試合予定でも9/29 10:00（現地）1回戦で確認",
-   "9/25サントロペ準々決勝でラケットをスタンドに投げ入れる場面があったが失格は回避（tennistemple報道）"
+   "9/25サントロペ準々決勝でラケットをスタンドに投げ入れる場面があったが失格は回避（tennistemple報道）",
+   "ATP公式Order of Play（9/29）：Court Central 第4試合（11:00開始のコートの4試合目＝時刻未確定）。Tennis TonicはCourt 1・18:30表記で不一致"
   ],
   "history": [
    {
@@ -138,7 +139,7 @@
  },
  "right": {
   "name": "プーラン",
-  "ranking": "ATP334位（tennisexplorer、自己最高244位）。WC出場（フランス）。2026年シングルス36勝23敗（ハード16勝9敗）",
+  "ranking": "ATP334位（自己最高244位）。WC出場（フランス）。2026年36勝23敗（ハード16勝9敗、室内ハード15勝9敗：Tennis Tonic）",
   "form": [
    {
     "date": "2026-09-23",
@@ -277,7 +278,7 @@
    "winner": "left",
    "units_left": 2,
    "units_right": 1,
-   "detail": "セット別スコアは確認できず（matchstatの『通算セット4-1』とaiscoreの『2-1』から2-1と判断）"
+   "detail": "7-6(3) 3-6 6-4（Tennis Tonic 2026-09-29プレビューで確認）"
   },
   {
    "date": "2024-02-14",
@@ -297,15 +298,15 @@
  "risks": [
   "ラヤルは3週連続の決勝・準決勝級の勝ち上がりで連戦疲労の可能性（直近3週で15試合）",
   "プーランは直近2連敗中で、9/23はITF M25で格下相手に敗戦。9/28にダブルス出場予定",
-  "オルレアン2024のH2Hのセット別スコアは未確認（勝者と2-1のみ複数ソースで確認）",
-  "2026-09-28 16:26以降の新規結果は取得できず（tennisexplorer遮断）。データは既存ファイル時点"
+  "開始時刻：ATP公式ではCourt Central第4試合（コート開始11:00 CEST＝18:00 JST）。前の試合次第でずれる",
+  "9/29 12:50 JSTの再調査でも両者に9/26以降の新規シングルス結果は見つからず（Tennis Tonicの直近結果は既存ファイルと一致）"
  ],
  "missing": [
-  "オルレアンCH予選（2024-09-23）のセット別スコア"
+  "第4試合のため正確な開始時刻（フィードは22:30 JST＝現地15:30）"
  ],
  "unavailable": {
   "common": "60日以内（2026-07-31〜）の共通の対戦相手はなし。ラヤル側の相手（ドロゲ、フォーレル、ゴフィン、マズア、ベルトラン、ゲイマール・ワイエンブルク、クチュリエ、バルショー、サンチェス・キレス、ウルフ、ライス、シック、J.セルンドロ、ブドコフ・シャール、イワノフ）とプーラン側の相手（モライス、シデク、ホルダ・サンチス、ターベット、マクステッド、ヘールツ、ドゥラソビッチ、ベイシング、シマキン、ブラウワー、ミヨシ、ビンダ、アデッド）を突き合わせて確認",
-  "refresh": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets"
+  "refresh": "tennisexplorer/tennisabstractはプロキシ遮断のまま。ATP公式Daily ScheduleとTennis Tonicで追補"
  },
  "source_urls": [
   "https://www.tennisexplorer.com/player/lajal/?annual=2026",
@@ -320,7 +321,9 @@
   "https://en.tennistemple.com/actu/video-mark-lajal-throws-racket-into-stands-at/XhwH",
   "https://en.wikipedia.org/wiki/2024_Open_de_Vend%C3%A9e",
   "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/draws",
-  "https://tennisabstract.com/reports/atp_elo_ratings.html"
+  "https://tennisabstract.com/reports/atp_elo_ratings.html",
+  "https://www.atptour.com/en/scores/current-challenger/mouilleron-le-captif/6857/daily-schedule",
+  "https://tennistonic.com/tennis-news/1058831/h2h-prediction-of-mark-lajal-vs-lucas-poullain-in-captif-challenger-with-odds-preview-pick-29th-september-2026/"
  ],
  "calc": {
   "left": {

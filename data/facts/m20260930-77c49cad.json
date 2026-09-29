@@ -1,0 +1,124 @@
+{
+ "match_id": "m20260930-77c49cad",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "チェコ（Czechia）",
+  "ranking": "UEFAネーションズリーグ2026-27リーグA（1節終了時0勝1敗）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "クロアチア",
+    "comp": "UEFAネーションズリーグA 第1節",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L",
+    "detail": "VAVEL見出し『Czechia 1-2 Croatia』"
+   }
+  ],
+  "lineup": [
+   "未取得（Opta Analyst/Sports Mole等プレビュー記事はあるが未開封）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "イングランド（England）",
+  "ranking": "UEFAネーションズリーグ2026-27リーグA（1節終了時0勝1敗）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "スペイン",
+    "comp": "UEFAネーションズリーグA 第1節",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L",
+    "detail": "England Football公式マッチセンター/ESPN見出し"
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "60日以内の共通相手：なし（チェコ=クロアチア、イングランド=スペイン）"
+ ],
+ "venue": "チェコのホーム（会場名未確認）",
+ "risks": [
+  "両者とも直近は1試合のみ確認（W杯2026本大会等の結果は未取得）",
+  "H2H行は既知の記録で本セッションでは個別ソース未開封",
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+ ],
+ "missing": [
+  "直近5試合以上のform",
+  "会場",
+  "欠場情報",
+  "Opta予測の数値"
+ ],
+ "unavailable": {
+  "left.form": "9/26の1試合のみ確認、W杯2026等それ以前は未取得",
+  "right.form": "同左",
+  "history": "60日以内に双方が対戦した共通相手なし",
+  "h2h": "過去の直接対戦は今回開いたページで確認できず（検索結果の見出しのみ・記憶由来の行は数字を作らない方針により削除）"
+ },
+ "source_urls": [
+  "https://www.vavel.com/en-us/soccer/2026/09/26/1272646-czech-republic-vs-croatia-live-score-uefa-nations-league.html",
+  "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/Nations-League/england-spain-uefa-nations-league-saturday-26-september-2026-match-centre",
+  "https://www.espn.com/soccer/match/_/gameId/401861092/england-czechia",
+  "https://theanalyst.com/articles/czechia-vs-england-prediction-uefa-nations-league-preview-09-2026"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 3,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "match_id": "m20260930-3b56fa8c",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "エストニアU21（Estonia U21）",
+  "ranking": "U21欧州選手権2027予選グループC（順位未確認）",
+  "form": [],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "フランスU21（France U21）",
+  "ranking": "U21欧州選手権2027予選グループC（順位未確認）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "アイスランドU21",
+    "comp": "U21欧州選手権予選 グループC",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D",
+    "detail": "Foot Mercato見出し『Islande U21 - France U21 (1-1)』"
+   }
+  ],
+  "lineup": [
+   "未取得"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "エストニアは9/25フェローU21と対戦（結果未確認）、フランスはアイスランドU21。60日以内の共通相手は確認できず"
+ ],
+ "venue": "エストニアのホーム（会場未確認）",
+ "risks": [
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能",
+  "エストニアの結果が取得できず"
+ ],
+ "missing": [
+  "エストニアのform",
+  "H2H",
+  "メンバー"
+ ],
+ "unavailable": {
+  "left.form": "9/25フェロー戦の存在のみ確認、スコア・勝敗取得できず",
+  "right.form": "9/25の1試合のみ",
+  "h2h": "未確認",
+  "history": "共通相手確認できず"
+ },
+ "source_urls": [
+  "https://www.footmercato.net/live/2089685615808993226-islande-u-21-vs-france-u21",
+  "https://www.footballstreams.com/matches/estonia-u21-vs-france-u21-20260928/",
+  "https://www.xscores.com/soccer/match/estonia-u21-vs-faroe-islands-u21/25-09-2026/2905533",
+  "https://scores24.live/en/soccer/m-28-09-2026-estonia-u21-france-u21-prediction"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 0,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

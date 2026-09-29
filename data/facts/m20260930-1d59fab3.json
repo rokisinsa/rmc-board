@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:05:00+09:00",
+ "data_as_of": "2026-09-29T12:50:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "BORRACHEIROS",
@@ -150,19 +150,20 @@
   {
    "date": "2026-09-24",
    "event": "CCT South America（vprognoze/kushvsporteの2サイトが記載）",
-   "score": "BORRACHEIROS 2-0",
+   "score": "2-0",
    "winner": "left",
    "units_left": 2,
-   "units_right": 0
+   "units_right": 0,
+   "detail": "元表記: BORRACHEIROS 2-0"
   },
   {
    "date": "2026-07-19",
    "event": "CCT South America 2026 Series 4 ラウンド3（BO1）",
-   "score": "BORRACHEIROS 1-0（不戦勝）",
+   "score": "1-0",
    "winner": "left",
    "units_left": 1,
    "units_right": 0,
-   "detail": "W:FF（gosugamers）"
+   "detail": "W:FF（gosugamers） 元表記: BORRACHEIROS 1-0（不戦勝）"
   }
  ],
  "common_opponents_notes": [],
@@ -188,9 +189,34 @@
   "https://www.hltv.org/matches/2398571/metanoia-wolves-vs-mibr-fe-cct-2026-south-america-series-6",
   "https://vprognoze.ru/topforecast/8162263-borracheiros-metanoia-wolves-2026-09-29.html",
   "https://kushvsporte.ru/event/6916235-borracheiros-metanoia-wolves",
-  "https://www.gosugamers.net/counterstrike/tournaments/63052-cct-south-america-2026-series-4/matches/656320-borracheiros-vs-metanoia-wolves"
+  "https://www.gosugamers.net/counterstrike/tournaments/63052-cct-south-america-2026-series-4/matches/656320-borracheiros-vs-metanoia-wolves",
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
  ],
  "match_id": "m20260930-1d59fab3",
+ "esports": {
+  "format": "BO3（HLTVイベント：スイス全BO3）",
+  "lan_online": "オンライン（CCT 2026 South America Series 6、スイス）",
+  "roster": "BORRACHEIROS: fl4sh・zock9・neozix・trindade・Lacerda／コーチFlasky。METANOIA: spinnie・Tineu・ALENNNCAR・vzn・khowy／コーチtato（8月に2名入替）",
+  "map_pool": "CS2 Active Duty（2026-07-06〜）: Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache（HLTV）",
+  "veto": {
+   "unavailable": true,
+   "reason": "試合前でveto未発表"
+  },
+  "confirmed_maps": {
+   "unavailable": true,
+   "reason": "試合前"
+  },
+  "patch": {
+   "unavailable": true,
+   "reason": "大会使用ビルド記載なし"
+  },
+  "series_h2h": "BORRACHEIROS 2勝（9/24 2-0・7/19不戦勝）",
+  "map_h2h": {
+   "unavailable": true,
+   "reason": "マップ別スコア未取得"
+  },
+  "rating": "HLTV世界：BORRACHEIROS 172位・METANOIA 201位"
+ },
  "calc": {
   "left": {
    "games": 6,

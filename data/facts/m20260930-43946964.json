@@ -1,0 +1,134 @@
+{
+ "match_id": "m20260930-43946964",
+ "data_as_of": "2026-09-29T13:00:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "タピオラン・ホンカ",
+  "ranking": "2026-27開幕戦（0勝0敗）。前季順位未取得",
+  "form": [],
+  "lineup": [
+   "プレシーズン: Pyrintöに93-83勝・80-86敗（日付不明）",
+   "Suomen Cup: Korihaitに70-93敗、Kouvotに84-96敗で敗退（日付不明、Vilpas公式記事より）",
+   "ロスター・負傷情報は未取得"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "サロン・ヴィルパス",
+  "ranking": "前季（2025-26）コリスリーガ王者。2026-27開幕戦（0勝0敗）。BCL本戦進出",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Bisons Loimaa",
+    "comp": "Suomen Cup",
+    "ha": "A",
+    "score": "101-74",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "CSU Oradea",
+    "comp": "BCL予選 決勝（ブルガリア・サモコフ）",
+    "ha": "N",
+    "score": "98-96",
+    "res": "W",
+    "detail": "Leland Walker 残り0.8秒のFTで勝利、BCL本戦進出"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Bakken Bears",
+    "comp": "BCL予選 準決勝（サモコフ）",
+    "ha": "N",
+    "score": "90-72",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "主将 Mikko Koivisto 欠場継続",
+   "Xavier DuSell 退団（手の負傷）",
+   "新加入 Jarred Godfrey（G, 195/196cm）は在留許可手続き待ちで出場未定",
+   "エース G Leland Walker（国内PS 30/22/27点、ブルガリア29/33/42点）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "プレシーズン共通相手: Pyrintö（Vilpas 90-73勝、Honka 93-83勝/80-86敗）、Korihait（Vilpas 94-88勝PS、Honka カップ70-93敗）※いずれも日付不明のためhistory未掲載"
+ ],
+ "venue": "Salohalli（フィンランド・サロ）、Vilpasのホーム・Honkaアウェイ",
+ "risks": [
+  "公式日程ではVilpasホーム（Salohalli）で、配信の left=Honka はアウェイ側（ホーム表記が逆）",
+  "Vilpasはブルガリア遠征（BCL予選）直後で日程過密・疲労の可能性",
+  "Vilpasのブルガリアでの成績がソース間で矛盾（ある記事要約は3敗、公式サイトニュースは決勝勝利・本戦進出）→公式ニュースを採用",
+  "開幕戦でチャンピオン記念セレモニーあり"
+ ],
+ "missing": [
+  "前季H2H・順位",
+  "Honkaの日付付き公式戦結果・ロスター",
+  "Patriot Levice戦（90-87）の日付と勝敗"
+ ],
+ "unavailable": {
+  "h2h": "Web検索予算上限・Sofascore等の該当ページ取得不可で未取得",
+  "left.form": "Honkaのカップ戦2敗は日付不明のためform未掲載",
+  "right.form": "日付確定3試合のみ（プレシーズンは日付不明）",
+  "history": "共通相手Pyrintö・Korihaitはあるが日付不明のため未掲載"
+ },
+ "source_urls": [
+  "https://www.basket.fi/wp-content/uploads/2026/07/2026-2027-Sarjaohjelma-Korisliiga-VAHVISTETTU-260708.pdf",
+  "https://www.flashscore.fi/koripallo/suomi/korisliiga/",
+  "https://vilpaskoripallo.fi/",
+  "https://vilpaskoripallo.fi/mestaruusviiri-nousee-tiistaina-salohallin-vieraaksi-honka/",
+  "https://vilpaskoripallo.fi/ottelut-liput/",
+  "https://www.sofascore.com/basketball/team/bisons-loimaa/57319"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 289,
+   "points_against": 242,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}
