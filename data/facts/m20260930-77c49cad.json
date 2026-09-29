@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-77c49cad",
- "data_as_of": "2026-09-29T18:40:00+09:00",
+ "data_as_of": "2026-09-29T23:27:34+09:00",
  "unit": "なし",
  "left": {
   "name": "チェコ（Czechia）",
@@ -95,7 +95,8 @@
  "risks": [
   "イングランドは主力（ライス・パーマー他）不在",
   "チェコも7人離脱",
-  "H2H 2019年の日付はOpta記述の月から、日付要確認"
+  "H2H 2019年の日付はOpta記述の月から、日付要確認",
+  "格差の根拠はElo差441のみ。イングランドは主力欠場多数かつ2連敗で守備不安（6試合13失点）"
  ],
  "missing": [
   "チェコの10試合",
@@ -105,7 +106,11 @@
   "left.form": "9/26以前の日付付き結果を取得できず（ESPN等は取得許可なし）",
   "right.form": "W杯R32〜準々決勝のスコアを取得できず（Wikipedia R32ページが未更新）",
   "history": "60日以内に双方が対戦した共通相手なし",
-  "h2h": "通算9試合（イングランド6勝2分1敗）の個別日付・スコアは2019年10月の1件のみ確認"
+  "h2h": "通算9試合（イングランド6勝2分1敗）の個別日付・スコアは2019年10月の1件のみ確認",
+  "deep5.h2h_points": "2019年以外の個別スコアに到達できず（Web検索上限・取得制限）",
+  "deep5.first_rate": "先制データの出典に到達できず",
+  "deep5.roster_changes": "出典に到達できず",
+  "deep5.common_60d": "60日以内の共通相手なし"
  },
  "source_urls": [
   "https://www.vavel.com/en-us/soccer/2026/09/26/1272646-czech-republic-vs-croatia-live-score-uefa-nations-league.html",
@@ -114,7 +119,9 @@
   "https://theanalyst.com/articles/czechia-vs-england-prediction-uefa-nations-league-preview-09-2026",
   "https://www.si.com/soccer/czechia-vs-england-nations-league-preview-predictions-lineups-9-29-26",
   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-  "https://www.aljazeera.com/sports/2026/7/15/argentina-stun-england-in-2-1-comeback-win-to-reach-2026-world-cup-final"
+  "https://www.aljazeera.com/sports/2026/7/15/argentina-stun-england-in-2-1-comeback-win-to-reach-2026-world-cup-final",
+  "https://www.eloratings.net/（data/ratings/eloratings.json 2026-09-29T23:10:20+09:00取得）",
+  "LiveScore UEFA Nations League / League A: Group 3（2026-09-29T23:10:38+09:00取得）"
  ],
  "calc": {
   "left": {
@@ -175,14 +182,100 @@
   "common_ref_date": "2026-09-30"
  },
  "metrics": {
-  "left": {},
-  "right": {},
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "left": {
+   "elo": 1666,
+   "rank": 51
+  },
+  "right": {
+   "elo": 2107,
+   "rank": 3
+  },
+  "source": "eloratings.net 代表チームElo（data/ratings/eloratings.json 2026-09-29T23:10:20+09:00取得）"
  },
  "deep5": {
   "last5": "Czechia：0勝1敗／England：2勝1分2敗",
   "last10": "Czechia：0勝1敗（1試合）／England：2勝1分2敗（5試合）",
   "streak": "Czechia：1連敗／England：2連敗",
-  "avg_points": "Czechia：1試合平均得失差 -1.00（1試合）／England：1試合平均得失差 +0.40（5試合）"
+  "avg_points": "Czechia：1試合平均得失差 -1.00（1試合）／England：1試合平均得失差 +0.40（5試合）",
+  "ranking": "Elo：チェコ1666（51位）／イングランド2107（3位）、差441（eloratings.net）。イングランドはW杯2026ベスト4",
+  "current_competition": "UNLリーグA第3組 第1節終了：チェコ 0勝1敗（1-2 クロアチア）／イングランド 0勝1敗（2-3 スペイン）（LiveScore）",
+  "h2h_all": "確認できた個別記録は2019-10 EURO予選 チェコ2-1イングランド（プラハ）の1件のみ。通算は直近9試合でイングランド6勝2分1敗（Opta/SI）",
+  "h2h_points": "個別スコアは2019年の2-1（チェコ勝ち）のみ確認。通算得失点は取得できず",
+  "h2h_home_away": "確認できた唯一の個別記録（2019-10）はチェコのホームでチェコ勝ち。本試合もプラハ（Fortuna Arena）でチェコのホーム",
+  "common_60d": "60日以内の共通相手なし（クロアチア：チェコ1-2敗は9/26だが、イングランドの4-2勝は2026-06-17で60日外）",
+  "first_rate": "先制率は取得できず",
+  "absences": "イングランド：ライス、パーマー離脱、リヴラメント・B.ホワイト・R.ジェームズ欠場、コンサ・N.オライリーは出場微妙。チェコ：Zima, Jurásek, Ryneš, Vlček, Provod, Višinský, Chorý の7人離脱（SI）",
+  "roster_changes": "W杯2026後の最初の代表ウィンドウ。監督交代・招集方針の確認はできず"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 1,
+   "ga": 2
+  },
+  "right": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 2,
+   "ga": 3
+  },
+  "source": "LiveScore UNLリーグA第3組順位表（2026-09-29T23:10:38+09:00取得）：スペイン3・クロアチア3・イングランド0・チェコ0"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "イングランドはライス・パーマー他計5人欠場＋2人微妙（SI）。ただしケイン、ベリンガム等は予想先発。チェコも7人離脱で相殺的",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "UNL第2節、9/26から中2日。大幅ローテーションの報道は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "W杯2026直後の新サイクル初期。イングランドの大幅な世代交代は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "最後の直接対戦（確認分）は2019年でほぼ7年前、しかもチェコ勝ち。通算ではイングランド6勝2分1敗",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "チェコのホーム。Optaはチェコのホーム無敗が19試合続いていた（9/26クロアチア戦で途絶）と記載",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "逆に格差側イングランドが下降：2連敗（W杯準決勝1-2、スペインに2-3）、直近6試合で13失点（Opta）。チェコも直近4試合3敗（SI）で急改善はなし",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "サッカー（該当なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "W杯後の招集入れ替えは確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "UNL第2節で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

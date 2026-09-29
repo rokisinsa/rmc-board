@@ -1,0 +1,182 @@
+{
+ "match_id": "ex-3xmmdo8ph6wju9at87eagys4",
+ "unit": "なし",
+ "left": {
+  "name": "Maldives",
+  "ranking": "Elo 798（eloratings 210位）",
+  "form": [],
+  "lineup": [
+   "招集メンバー・欠場情報は取得できず"
+  ]
+ },
+ "right": {
+  "name": "Lebanon",
+  "ranking": "Elo 1288（eloratings 138位）",
+  "form": [],
+  "lineup": [
+   "招集メンバー・欠場情報は取得できず"
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "会場・ホーム/アウェー不明（matches.jsonでも『不明』）。表記上はMaldivesが左",
+ "risks": [
+  "開始時刻がFIFA公式（10/1 09:00 JST）とLiveScore（eid=1894383、10/1 21:00 JST）で食い違う。同一試合とみられ、LiveScore側はfacts ls-1894383に別ファイルあり",
+  "親善試合（国際Aマッチデー）で、両国とも主力招集の程度が不明",
+  "直近の試合結果は手元のデータに2024年の親善試合しかなく、直近フォームを確認できていない"
+ ],
+ "missing": [
+  "直近フォーム（2025-26）",
+  "H2H",
+  "欠場・招集",
+  "会場"
+ ],
+ "unavailable": {
+  "left.form": "手元のLiveScoreデータは2024年の親善試合2件のみで直近の公式戦を含まない。追加取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "right.form": "同上（2024年の親善試合7件のみ）",
+  "h2h": "取得元に記録なし。追加取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "h2h_all": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "h2h_points": "H2H未取得のため",
+  "h2h_home_away": "H2H未取得のため",
+  "current_competition": "親善試合のため該当大会なし",
+  "last5": "直近フォーム取得不可",
+  "last10": "直近フォーム取得不可",
+  "streak": "直近フォーム取得不可",
+  "avg_points": "直近フォーム取得不可",
+  "common_60d": "両者の60日以内の試合を取得できず",
+  "first_rate": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "absences": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "roster_changes": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）"
+ },
+ "source_urls": [
+  "eloratings.net（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）",
+  "FIFA公式日程（data/basic/fixtures_extra.json ext_id fifa:73xmmdo8ph6wju9at87eagys4）",
+  "LiveScore International Friendlies eid=1894383"
+ ],
+ "metrics": {
+  "left": {
+   "elo": 798,
+   "rank": 210
+  },
+  "right": {
+   "elo": 1288,
+   "rank": 138
+  },
+  "source": "eloratings.net（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+ },
+ "deep5": {
+  "ranking": "eloratings：Lebanon 1288（138位）／Maldives 798（210位）。Elo差490でLebanon上位。FIFAランクは取得できず",
+  "current_competition": "親善試合のため該当なし",
+  "h2h_all": "確認できず",
+  "h2h_points": "確認できず",
+  "h2h_home_away": "確認できず",
+  "last5": "確認できず（手元データは2024年の親善試合のみ）",
+  "last10": "確認できず",
+  "streak": "確認できず",
+  "avg_points": "確認できず",
+  "common_60d": "確認できず",
+  "first_rate": "確認できず",
+  "absences": "確認できず",
+  "roster_changes": "確認できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "招集メンバーを確認できず。親善試合でLebanon（格差側）が主力を呼んでいるか不明",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "親善試合のため選手の入れ替え・交代枠拡大が起こりやすい",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "該当情報を確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hを取得できず根拠に使っていない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "会場不明。Maldivesホーム（マレ）の場合は長距離移動＋人工芝ではない等の条件差があり得るが未確認",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "両者の直近成績を取得できず確認不能",
+   "impact": "minor",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー1試合制のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツでないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "親善試合で勝敗の重みが小さい。格差側が本気度を下げる可能性",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "data_as_of": "2026-09-29T23:27:00+09:00",
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

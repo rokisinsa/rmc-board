@@ -1,0 +1,174 @@
+{
+ "match_id": "ls-1894360",
+ "data_as_of": "2026-09-29T23:26:31+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Cook Islands",
+  "ranking": "Elo 620（世界231位）",
+  "form": []
+ },
+ "right": {
+  "name": "Tahiti",
+  "ranking": "Elo 1179（世界162位）",
+  "form": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "LiveScore・FIFA公式日程でCook Islandsが先（t1）＝Cook Islandsホームとみられるが会場未確認",
+ "risks": [
+  "直近成績・H2Hが全く取れず、格差の根拠はElo差（559）のみ",
+  "親善試合"
+ ],
+ "missing": [
+  "直近成績",
+  "H2H",
+  "招集メンバー",
+  "会場"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1894360）に直接対戦の記録なし。他の資料で要確認",
+  "h2h_all": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "h2h_points": "H2H未取得のため",
+  "h2h_home_away": "H2H未取得のため",
+  "last5": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "last10": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "avg_points": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "streak": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "common_60d": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "first_rate": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "absences": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "roster_changes": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "fifa_rank": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "current_competition": "親善試合のため該当なし"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1894360",
+  "https://www.eloratings.net/World.tsv（data/ratings/eloratings.json 2026-09-29取得）",
+  "FIFA公式日程 fifa:dfcv4a69655b4nnxgb8u9q6tw（data/basic/fixtures_extra.json）"
+ ],
+ "metrics": {
+  "left": {
+   "elo": 620,
+   "rank": 231
+  },
+  "right": {
+   "elo": 1179,
+   "rank": 162
+  },
+  "source": "eloratings.net 代表チームElo（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+ },
+ "deep5": {
+  "ranking": "Elo：Cook Islands 620（231位）／Tahiti 1179（162位）、差559（Tahiti側）。eloratings.net 9/29取得。FIFAランキングは未確認",
+  "current_competition": "国際親善試合のため該当大会成績なし",
+  "h2h_all": "未確認（手元データに直接対戦なし。Web調査不可）",
+  "h2h_points": "未確認（H2H未取得）",
+  "h2h_home_away": "未確認（H2H未取得）",
+  "last5": "未取得（手元のLiveScore親善試合データは2024年分で両チームの試合なし）",
+  "last10": "未取得（同上）",
+  "avg_points": "未取得（直近成績なし）",
+  "streak": "未取得（直近成績なし）",
+  "common_60d": "未取得（直近成績なし）",
+  "first_rate": "未取得",
+  "absences": "未確認（Web調査不可）",
+  "roster_changes": "未確認（Web調査不可）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "国際親善試合で、両者が控え・若手を試す可能性がある（具体的な招集情報は未確認）",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "未確認（手元に情報なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得。発火はElo差のみ",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Cook Islandsがホームとみられる（日程表記順）。Elo上のホーム補正約100点を引いても差は約460点残る",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "直近成績が取れず確認できない（未確認）",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカーの1試合制でBO1の概念は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "親善試合で勝敗の重みは公式戦より低い。Eloの試合数も少ない小国同士で、Elo自体の精度に注意",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

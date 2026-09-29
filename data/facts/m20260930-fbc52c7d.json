@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T18:29:00+09:00",
+ "data_as_of": "2026-09-29T23:25:12+09:00",
  "unit": "なし",
  "left": {
   "name": "ベルギーU21（Belgium U21）",
@@ -80,16 +80,21 @@
  "risks": [
   "2025-10-10対戦のスコアがソース間で矛盾（7-0 vs 2-1）",
   "365scores表示18:00（タイムゾーン不明）",
-  "U21は招集・A代表昇格で編成変動"
+  "U21は招集・A代表昇格で編成変動",
+  "試合開始（2026-09-30 03:00 JST）後の記入。試合前の情報のみ使用"
  ],
  "missing": [
   "日付付き10試合",
-  "両軍メンバー"
+  "両軍メンバー",
+  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
  ],
  "unavailable": {
   "left.form": "365scoresの直近5戦は日付が2件のみ、sofascore/fotmobは未取得",
   "right.form": "同左",
-  "history": "60日以内の日付付き試合が各1件で共通相手を確定できず（同組の他チームと複数試合あり、日付不明分はcommon_opponents_notesへ）"
+  "history": "60日以内の日付付き試合が各1件で共通相手を確定できず（同組の他チームと複数試合あり、日付不明分はcommon_opponents_notesへ）",
+  "deep5.first_rate": "先制率: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.absences": "欠場: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.roster_changes": "ロスター変更: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）（招集メンバー未取得）"
  },
  "source_urls": [
   "https://scores24.live/en/soccer/m-27-09-2026-belgium-u21-wales-u21-prediction",
@@ -202,6 +207,66 @@
   "last10": "Belgium U21：2勝0敗（2試合）／Wales U21：0勝2敗（2試合）",
   "streak": "Belgium U21：2連勝／Wales U21：2連敗",
   "avg_points": "Belgium U21：1試合平均得失差 +4.00（2試合）／Wales U21：1試合平均得失差 -5.50（2試合）",
-  "current_competition": "Belgium U21 {'rank': 2, 'played': 3, 'W': 1, 'D': 1, 'L': 1, 'gf': 8, 'ga': 2, 'pts': 4, 'group': None}／Wales U21 {'rank': 4, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 2, 'ga': 7, 'pts': 3, 'group': None}（LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-09-29T22:27:25+09:00取得））"
+  "current_competition": "Belgium U21 {'rank': 2, 'played': 3, 'W': 1, 'D': 1, 'L': 1, 'gf': 8, 'ga': 2, 'pts': 4, 'group': None}／Wales U21 {'rank': 4, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 2, 'ga': 7, 'pts': 3, 'group': None}（LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-09-29T22:27:25+09:00取得））",
+  "ranking": "U21は公式ランキング・Eloなし。U21予選グループI：既存記載（365scores系）ではベルギー1位（6試合4勝1分1敗 12:2）・ウェールズ4位（6試合2勝4敗 6:20）、LiveScore表ではベルギー2位（3試合1勝1分1敗 8:2）・ウェールズ4位（3試合1勝2敗 2:7）と試合数が食い違う",
+  "h2h_all": "確認できたH2H 3件：2025-10-10 U21予選 ベルギー7-0（scores24は2-1と記載し矛盾）、2020-10-09 U21予選 ベルギー5-0、2019-09-06 U21予選 ウェールズ1-0。ベルギー2勝1敗",
+  "h2h_points": "3試合合計 ベルギー12－ウェールズ1（平均+3.67、ベルギー側）。ただし2025-10-10を2-1とすると合計7-2（平均+1.67）で一次条件の閾値1.5をかろうじて超える程度",
+  "h2h_home_away": "2019-09-06はウェールズのホームでウェールズ1-0勝。他2件のH/Aは未確認。今回はベルギーのホーム（Het Kuipje、ウェステルロー）",
+  "common_60d": "60日以内（2026-08-01以降）の日付付き試合は各1件（ベルギー：ベラルーシ1-0勝 09-24、ウェールズ：デンマーク0-4敗 09-26）で共通相手なし。日付なし参考：ベラルーシ戦 ベルギー1-0勝／ウェールズ2-0勝・0-3敗",
+  "first_rate": "先制率のデータは未取得",
+  "absences": "両軍の欠場・負傷情報は未取得",
+  "roster_changes": "U21は年齢区分で毎サイクル編成が変わり、A代表昇格もあるが、具体的な招集メンバーは未取得"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場情報は未取得（Web調査不可）。確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "9/24（ベラルーシ）→9/29の中4日、ウェールズは9/26（デンマーク）→中2日。ローテーションの有無は未確認",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "U21は年齢制限で2019・2020年のH2H時とは選手が全く別。年齢区分の特性上、世代が入れ替わっている",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2H 3件中2件（2019・2020）は6年以上前で、別世代の対戦。今サイクルの2025-10-10はスコアが7-0と2-1で資料間矛盾。H2H平均+3.67の発火根拠の大半が古い試合と矛盾スコアに依存",
+   "impact": "major",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回ベルギーのホーム。ウェールズ唯一のH2H勝利はウェールズのホーム（2019）。ホームのベルギーに不利な材料ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "ウェールズは直近デンマークに0-4敗と改善の材料なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー/バスケの単発試合でBO形式は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "招集メンバー未取得。U21はA代表昇格で主力が抜けることがあるが確認できず",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "予選グループ中盤（LiveScoreでは3試合消化、別資料では6試合）。順位争い中で消化試合ではないと見られるが、試合数の資料間食い違いあり",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

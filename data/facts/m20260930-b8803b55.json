@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-b8803b55",
- "data_as_of": "2026-09-29T22:27:25+09:00",
+ "data_as_of": "2026-09-29T23:26:02+09:00",
  "unit": "なし",
  "left": {
   "name": "Somalia",
-  "ranking": "",
+  "ranking": "World Football Elo 976（190位）／AFCON予選C組 1試合0勝1敗",
   "form": [
    {
     "date": "2026-09-26",
@@ -18,7 +18,7 @@
  },
  "right": {
   "name": "Ivory Coast",
-  "ranking": "",
+  "ranking": "World Football Elo 1739（35位）／AFCON予選C組 1試合1勝0敗",
   "form": [
    {
     "date": "2026-09-25",
@@ -32,27 +32,57 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "",
- "risks": [],
+ "venue": "LiveScore・配信ともSomaliaを先に表記（Somaliaのホーム扱い）。開催地・スタジアムは未確認",
+ "risks": [
+  "両チームの今季データは1試合ずつで、格差根拠はElo（763差）のみ",
+  "開催地未確認"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "直近10（代表戦）",
+  "H2H",
+  "招集・欠場",
+  "開催地"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934）に直接対戦の記録なし。他の資料で要確認"
+  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934）に直接対戦の記録なし。他の資料で要確認",
+  "deep5.h2h_all": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "left.form": "LiveScoreでは予選1試合のみ。Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "right.form": "LiveScoreでは予選1試合のみ。Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "ranking(FIFA)": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
  },
  "source_urls": [
-  "LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934"
+  "LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934",
+  "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）",
+  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
  ],
  "metrics": {
-  "left": {},
-  "right": {},
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "left": {
+   "elo": 976,
+   "rank": 190
+  },
+  "right": {
+   "elo": 1739,
+   "rank": 35
+  },
+  "source": "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）。Elo差763"
  },
  "deep5": {
-  "last5": "Somalia：0勝1敗／Ivory Coast：1勝0敗",
-  "last10": "Somalia：0勝1敗（1試合）／Ivory Coast：1勝0敗（1試合）",
-  "streak": "Somalia：1連敗／Ivory Coast：1連勝",
-  "avg_points": "Somalia：1試合平均得失差 -1.00（1試合）／Ivory Coast：1試合平均得失差 +2.00（1試合）"
+  "last5": "確認できたのは各1試合のみ：Somalia 0勝1敗、Ivory Coast 1勝0敗",
+  "last10": "同上（1試合のみ）。それ以前の代表戦は取得できず",
+  "streak": "Somalia 1連敗／Ivory Coast 1連勝（確認範囲）",
+  "avg_points": "Somalia 得点1・失点2（1試合）／Ivory Coast 得点2・失点0（1試合）",
+  "ranking": "World Football Elo：Ivory Coast 1739（35位）、Somalia 976（190位）、差763（eloratings.net）。FIFAランキングは取得できず",
+  "current_competition": "AFCON予選C組（Gambia・Ghana・Ivory Coast・Somalia）第1節：Ivory Coast 2-0 Ghana（H）、Somalia 1-2 Gambia（A）",
+  "h2h_all": "確認できたH2Hなし（LiveScoreに記録なし、他は取得できず）",
+  "h2h_points": "取得できず",
+  "h2h_home_away": "取得できず",
+  "common_60d": "共通相手なし（両者の確認済み試合は1試合ずつで相手が異なる）",
+  "first_rate": "取得できず",
+  "absences": "取得できず",
+  "roster_changes": "招集メンバーは取得できず"
  },
  "calc": {
   "left": {
@@ -106,5 +136,76 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 1,
+   "ga": 2
+  },
+  "right": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "source": "AFCON予選C組：LiveScore結果一覧（Gambia 2-1 Somalia、Ivory Coast 2-0 Ghana）。LiveScore順位表はIvory Coastの試合数0と不整合のため結果一覧で集計"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "Ivory Coastの招集・欠場情報を確認できず（Web調査不可）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "9/25のGhana戦から中4日。起用方針は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "確認できる情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得で格差根拠に使っていない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Somaliaのホーム扱いだが開催地は未確認。Elo差763はホーム補正（約100）を大きく上回る",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Somaliaは初戦でGambiaに1-2の僅差負け。改善を示す材料は1試合のみで判断できない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "予選第2節で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

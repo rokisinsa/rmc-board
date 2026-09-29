@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-3c71c02b",
- "data_as_of": "2026-09-29T12:50:00+09:00",
+ "data_as_of": "2026-09-29T23:25:04+09:00",
  "unit": "なし",
  "left": {
   "name": "サンマリノ（San Marino）",
-  "ranking": "UEFAネーションズリーグ2026-27（1節0勝1敗、得失点-7）",
+  "ranking": "Elo 822（世界206位）／UEFAネーションズリーグ2026-27 リーグC第1組 4位（1節0勝1敗、0-7）",
   "form": [
    {
     "date": "2026-09-26",
@@ -23,7 +23,7 @@
  },
  "right": {
   "name": "アルバニア（Albania）",
-  "ranking": "UEFAネーションズリーグ2026-27（1節1勝）",
+  "ranking": "Elo 1631（世界55位）／UEFAネーションズリーグ2026-27 リーグC第1組 2位（1節1勝、2-0）",
   "form": [
    {
     "date": "2026-09-26",
@@ -46,7 +46,9 @@
  ],
  "venue": "サンマリノのホーム（会場未確認）",
  "risks": [
-  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能",
+  "直近成績が両者1試合のみで、格差の根拠はElo差（809）が中心",
+  "Albaniaはアウェー"
  ],
  "missing": [
   "H2H",
@@ -57,13 +59,23 @@
   "left.form": "9/26の1試合のみ",
   "right.form": "同左",
   "h2h": "対戦履歴ページを開けず未確認",
-  "history": "60日以内の共通相手なし"
+  "history": "60日以内の共通相手なし",
+  "h2h_all": "手元データにH2Hなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "h2h_points": "H2H未取得のため",
+  "h2h_home_away": "H2H未取得のため",
+  "first_rate": "先制率の出典データなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "absences": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "roster_changes": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "last10": "手元の今季データはUNL1試合ずつのみ（LiveScore親善試合データは2024年分で古い）",
+  "fifa_rank": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可"
  },
  "source_urls": [
   "https://www.espn.com/soccer/team-stats/_/gameId/401861059",
   "https://www.vavel.com/en-us/soccer/2026/09/26/1272891-albania-vs-belarus-live-score-updates-in-uefa-nations-league-match.html",
   "https://www.foxsports.com/soccer/nations-league-san-marino-vs-albania-sep-29-2026-game-boxscore-688986",
-  "https://fbref.com/en/stathead/matchup/teams/b44b9eb7/2d5635e8/Albania-vs-San-Marino-History"
+  "https://fbref.com/en/stathead/matchup/teams/b44b9eb7/2d5635e8/Albania-vs-San-Marino-History",
+  "https://www.eloratings.net/World.tsv（data/ratings/eloratings.json 2026-09-29取得）",
+  "LiveScore UEFA Nations League / League C: Group 1 eid=1738310"
  ],
  "calc": {
   "left": {
@@ -119,14 +131,106 @@
   "common_ref_date": "2026-09-30"
  },
  "metrics": {
-  "left": {},
-  "right": {},
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "left": {
+   "elo": 822,
+   "rank": 206,
+   "season_wr": 0.0,
+   "pts_rate": 0.0,
+   "gd_pg": -7.0
+  },
+  "right": {
+   "elo": 1631,
+   "rank": 55,
+   "season_wr": 100.0,
+   "pts_rate": 1.0,
+   "gd_pg": 2.0
+  },
+  "source": "eloratings.net 代表チームElo（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）／今大会成績はLiveScore UEFA Nations League / League C: Group 1（data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）"
  },
  "deep5": {
   "last5": "San Marino：0勝1敗／Albania：1勝0敗",
   "last10": "San Marino：0勝1敗（1試合）／Albania：1勝0敗（1試合）",
   "streak": "San Marino：1連敗／Albania：1連勝",
-  "avg_points": "San Marino：1試合平均得失差 -7.00（1試合）／Albania：1試合平均得失差 +2.00（1試合）"
+  "avg_points": "San Marino：1試合平均得失差 -7.00（1試合）／Albania：1試合平均得失差 +2.00（1試合）",
+  "ranking": "Elo：San Marino 822（206位）／Albania 1631（55位）、差809（Albania側）。eloratings.net 9/29取得。FIFAランキングは未確認",
+  "current_competition": "UNL2026-27 リーグC第1組：San Marino 0勝1敗（H Finland 0-7、4位）／Albania 1勝（H Belarus 2-0、2位）。LiveScore",
+  "h2h_all": "未確認（手元データに直接対戦なし。fbrefの対戦履歴ページはWeb調査不可で開けず）",
+  "h2h_points": "未確認（H2H未取得）",
+  "h2h_home_away": "未確認（H2H未取得）",
+  "common_60d": "60日以内の共通対戦相手なし（San Marino=Finland、Albania=Belarus）",
+  "first_rate": "未取得（先制率のデータなし）",
+  "absences": "未確認（Web調査不可）",
+  "roster_changes": "未確認（Web調査不可）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 0,
+   "ga": 7
+  },
+  "right": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "source": "LiveScore UEFA Nations League / League C: Group 1（data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）（順位表と結果一覧が一致）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "UNL公式戦（第2節）。ローテーション示唆の情報は手元になし（未確認）",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "未確認（手元に情報なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得。発火はElo差のみでH2Hに依存しない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "San Marinoがホーム。Elo上のホーム補正（約100点）を引いても差は約700点残る。San Marinoは第1節ホームでFinlandに0-7",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "San Marinoは直近ホームで0-7大敗。改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカーの1試合制でBO1の概念は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "UNLグループ第2節。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

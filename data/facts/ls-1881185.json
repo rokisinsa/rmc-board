@@ -1,0 +1,231 @@
+{
+ "match_id": "ls-1881185",
+ "data_as_of": "2026-09-29T23:10:38+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Enyimba",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Kano Pillars",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Sporting Lagos",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Inter Lagos",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Doma United",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Niger Tornadoes",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Shooting Stars",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Warri Wolves FC",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Katsina United",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Plateau United",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Inter Lagos",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Nigeria / NPFL eid=1881185）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore Nigeria / NPFL eid=1881185"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 0.0,
+   "gd_pg": -1.0,
+   "pd_pg": -1.0,
+   "rd_pg": -1.0,
+   "pts_rate": 0.067
+  },
+  "right": {
+   "season_wr": 50.0,
+   "gd_pg": 0.0,
+   "pd_pg": 0.0,
+   "rd_pg": 0.0,
+   "pts_rate": 0.5
+  },
+  "source": "LiveScore順位表（2026-09-29T23:10:38+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 20,
+   "played": 5,
+   "W": 0,
+   "D": 1,
+   "L": 4,
+   "gf": 3,
+   "ga": 8,
+   "pts": 1,
+   "group": null
+  },
+  "right": {
+   "rank": 16,
+   "played": 4,
+   "W": 2,
+   "D": 0,
+   "L": 2,
+   "gf": 5,
+   "ga": 5,
+   "pts": 6,
+   "group": null
+  },
+  "source": "LiveScore順位表 Nigeria / NPFL（2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Enyimba：0勝1分4敗／Shooting Stars：2勝2敗",
+  "last10": "Enyimba：0勝1分4敗（5試合）／Shooting Stars：2勝2敗（4試合）",
+  "streak": "Enyimba：1連分／Shooting Stars：1連敗",
+  "avg_points": "Enyimba：1試合平均得失差 -1.00（5試合）／Shooting Stars：1試合平均得失差 +0.00（4試合）",
+  "current_competition": "Enyimba {'rank': 20, 'played': 5, 'W': 0, 'D': 1, 'L': 4, 'gf': 3, 'ga': 8, 'pts': 1, 'group': None}／Shooting Stars {'rank': 16, 'played': 4, 'W': 2, 'D': 0, 'L': 2, 'gf': 5, 'ga': 5, 'pts': 6, 'group': None}（LiveScore順位表 Nigeria / NPFL（2026-09-29T23:10:38+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 0,
+   "L": 4,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 8,
+   "points_games": 5
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 5,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Inter Lagos",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-21",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

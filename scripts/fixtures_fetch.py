@@ -115,7 +115,7 @@ def liquipedia(today):
             ts = re.search(r'data-timestamp="(\d+)"', blk)
             names = re.findall(r'<span class="name"[^>]*>(?:<a[^>]*title="([^"]+)"[^>]*>)?([^<]*)', blk)
             teams = [html.unescape(a or b).strip() for a, b in names if (a or b).strip()]
-            teams = [t for t in teams if t.upper() != "TBD"]
+            teams = [re.sub(r"\s*\(page does not exist\)$", "", t) for t in teams if t.upper() != "TBD"]
             comp = re.search(r'class="match-info-tournament-name"[^>]*>.*?<a[^>]*title="([^"]+)"', blk, flags=re.S)
             if not ts or len(teams) < 2 or int(ts[1]) > end:
                 continue

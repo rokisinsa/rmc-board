@@ -71,6 +71,8 @@ def main():
         table = {}
         for lt in ((st.get("LeagueTable") or {}).get("L") or []):
             for tb in lt.get("Tables") or []:
+                if tb.get("LTT") not in (None, 1):   # 1＝総合。2・3はホーム／アウェー別（混ぜるとアウェー成績で上書きされる）
+                    continue
                 for t in tb.get("team") or []:
                     table[t.get("Tnm")] = dict(rank=t.get("rnk"), played=t.get("pld"), W=t.get("win"), D=t.get("drw"),
                                                L=t.get("lst"), gf=t.get("gf"), ga=t.get("ga"), pts=t.get("pts"), group=tb.get("name"))

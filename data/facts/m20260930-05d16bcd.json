@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-05d16bcd",
- "data_as_of": "2026-09-29T12:45:00+09:00",
+ "data_as_of": "2026-09-29T23:24:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Ceske Budejovice",
-  "ranking": "エクストラリーガ5試合 2勝1延長敗2敗 得失11-16（公式hcmotor.cz集計。isport.cz表の3位・13:14とは不一致）",
+  "ranking": "エクストラリーガ5試合 3勝1延長敗1敗 得失13-14 勝点10（isport.cz表3位・13:14、LiveScore結果と整合）",
   "form": [
    {
     "date": "2026-09-27",
@@ -35,8 +35,9 @@
     "opp": "Hradec Kralove",
     "comp": "Extraliga 2026/27 2節",
     "ha": "A",
-    "score": "0-2",
-    "res": "L"
+    "score": "2-0",
+    "res": "W",
+    "detail": "補正：旧記載0-2敗→2-0勝（LiveScore結果 Mountfield HK 0-2 Motor、Mountfield側facts、isport.cz表のCB得失13:14がいずれも2-0勝と整合）"
    },
    {
     "date": "2026-09-16",
@@ -74,8 +75,9 @@
     "opp": "Hradec Kralove",
     "comp": "Extraliga 2026/27 2節",
     "ha": "A",
-    "score": "0-2",
-    "res": "L"
+    "score": "2-0",
+    "res": "W",
+    "detail": "補正：旧記載0-2敗→2-0勝（LiveScore結果 Mountfield HK 0-2 Motor、Mountfield側facts、isport.cz表のCB得失13:14がいずれも2-0勝と整合）"
    },
    {
     "date": "2026-09-16",
@@ -90,7 +92,7 @@
  },
  "right": {
   "name": "Dynamo Pardubice",
-  "ranking": "エクストラリーガ6試合 4勝2敗 得失24-17（isport.cz表で2位・12pt）",
+  "ranking": "エクストラリーガ6試合 4勝2敗（全て規定時間）得失24-17 勝点12（isport.cz表2位）",
   "form": [
    {
     "date": "2026-09-27",
@@ -182,49 +184,65 @@
  },
  "h2h": [],
  "common_opponents_notes": [
-  "共通相手（60日以内）: Litvinov（CB 5-4勝 / Pa 3-1勝）、Karlovy Vary（CB 1-5敗 / Pa 5-2勝）、Mlada Boleslav（CB 2-3延長敗 / Pa 4-1勝）、Hradec Kralove（CB 0-2敗 / Pa 3-5敗）"
+  "共通相手（60日以内）: Litvinov（CB 5-4勝 / Pa 3-1勝）、Karlovy Vary（CB 1-5敗 / Pa 5-2勝）、Mlada Boleslav（CB 2-3延長敗 / Pa 4-1勝）、Hradec Kralove（CB 2-0勝 / Pa 3-5敗）。同一相手への得失差合計 CB -2（4試合）/ Pa +6（4試合）→1試合あたり差+2.0でPardubice優位（Hradec戦補正前は+3.0）"
  ],
  "venue": "Enteria Arena, Pardubice — Pardubiceのホーム。9/29 18:00現地（=9/30 01:00 JST）。CBはアウェー",
  "risks": [
   "配信の left(Ceske Budejovice) はアウェー側。実開催はPardubiceホーム（hcdynamo.cz/hcmotor.cz/Sofascoreで確認）",
-  "isport.czの順位表のCB成績が公式と不一致"
+  "補正：CBの9/18 Hradec戦は2-0勝（旧0-2敗）。これでCBは3勝1延長敗1敗・勝点10、Pardubiceは勝点12で順位は2位と3位の隣接",
+  "勝点率は両者0.667で同じ（CB 10/15、Pa 12/18）。格差の根拠は共通相手4試合（各1試合）の得失差のみ",
+  "Pardubiceはホームで1勝2敗（Hradec 3-5、Liberec 4-5で敗戦）、アウェー3戦全勝",
+  "LiveScore順位表はExtraligaを3試合分しか集計していない（Pa 3戦全勝表示）。metricsは結果一覧から再計算して補正"
  ],
  "missing": [
   "H2H（2025/26以前）",
   "負傷者情報",
-  "独立モデル勝率"
+  "先発GK・Save%・GSAA・PP%・PK%"
  ],
  "unavailable": {
   "h2h": "hcmotor.cz対戦成績ページは2012年以前のみ表示、Sofascore試合ページにもH2H本文なし。2025/26の対戦結果は時間内に確認できず（初対戦ではない）",
-  "history": "共通相手4チーム（上記）を確認"
+  "history": "共通相手4チーム（上記）を確認",
+  "h2h_all": "今季未対戦。過去シーズンのH2Hは取得元なし（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "h2h_points": "H2H未取得のため",
+  "h2h_home_away": "H2H未取得のため",
+  "first_rate": "先制率の公開データを取得できず（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "absences": "欠場・負傷の公開情報を確認できず（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "roster_changes": "移籍情報を確認できず（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "goalie": "先発GK未発表・取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "save_pct": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "gsaa": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "pp_pct": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）",
+  "pk_pct": "取得不可（本セッションはWeb検索上限（200回）到達・外部サイトへの接続がプロキシで拒否（403）・WebFetchも新規URL不可のため追加取得できず）"
  },
  "source_urls": [
   "https://hcmotor.cz/zapasy.asp",
   "https://hcdynamo.cz/matches/MUZ",
   "https://isport.blesk.cz/tipsport-extraliga",
   "https://www.sofascore.com/ice-hockey/match/hc-motor-ceske-budejovice-dynamo-pardubice/ACbsXbW",
-  "https://hcmotor.cz/zapasy.asp?filtrTym=PCE"
+  "https://hcmotor.cz/zapasy.asp?filtrTym=PCE",
+  "LiveScore公開API（data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）",
+  "LiveScore Czech Republic / Extraliga eid=1790472（Mountfield HK 0-2 Motor Ceske Budejovice 9/19 JST）"
  ],
  "calc": {
   "left": {
    "games": 5,
-   "W": 2,
-   "L": 3,
+   "W": 3,
+   "L": 2,
    "D": 0,
-   "win_rate": 40.0,
+   "win_rate": 60.0,
    "home": {
     "W": 2,
     "L": 1,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 2,
+    "W": 1,
+    "L": 1,
     "D": 0
    },
    "streak": null,
-   "points_for": 11,
-   "points_against": 16,
+   "points_for": 13,
+   "points_against": 14,
    "points_games": 5
   },
   "right": {
@@ -339,8 +357,8 @@
      {
       "date": "2026-09-18",
       "iso": "2026-09-18",
-      "score": "0-2",
-      "res": "L",
+      "score": "2-0",
+      "res": "W",
       "comp": "Extraliga 2026/27 2節"
      }
     ],
@@ -353,10 +371,10 @@
       "comp": "Extraliga 2026/27 1節"
      }
     ],
-    "edge": "even",
-    "basis": null,
+    "edge": "left",
+    "basis": "勝率",
     "latest": "2026-09-18",
-    "left_rec": "0勝1敗",
+    "left_rec": "1勝0敗",
     "right_rec": "0勝1敗"
    }
   ],
@@ -364,20 +382,105 @@
   "common_ref_date": "2026-09-30"
  },
  "metrics": {
-  "left": {},
-  "right": {
-   "season_wr": 100.0,
-   "gd_pg": 2.33,
-   "pd_pg": 2.33,
-   "rd_pg": 2.33,
-   "pts_rate": 1.0
+  "left": {
+   "rank": 3,
+   "season_wr": 60.0,
+   "gd_pg": -0.2,
+   "pd_pg": -0.2,
+   "rd_pg": -0.2,
+   "pts_rate": 0.667
   },
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "right": {
+   "rank": 2,
+   "season_wr": 66.7,
+   "gd_pg": 1.17,
+   "pd_pg": 1.17,
+   "rd_pg": 1.17,
+   "pts_rate": 0.667
+  },
+  "source": "LiveScore結果一覧（5〜6試合）とisport.cz順位表から再計算。勝点率は3-2-1-0方式（CB 10/15、Pa 12/18）。旧値はLiveScore表の3試合分集計で不完全"
  },
  "deep5": {
-  "last5": "Ceske Budejovice：2勝3敗／Dynamo Pardubice：4勝1敗",
-  "last10": "Ceske Budejovice：2勝3敗（5試合）／Dynamo Pardubice：4勝2敗（6試合）",
+  "last5": "Ceske Budejovice：3勝2敗（うち1延長敗）／Dynamo Pardubice：4勝1敗",
+  "last10": "Ceske Budejovice：3勝2敗（5試合）／Dynamo Pardubice：4勝2敗（6試合）",
   "streak": "Ceske Budejovice：1連勝／Dynamo Pardubice：2連勝",
-  "avg_points": "Ceske Budejovice：1試合平均得失差 -1.00（5試合）／Dynamo Pardubice：1試合平均得失差 +1.17（6試合）"
+  "avg_points": "CB 1試合平均 2.6得点-2.8失点（差-0.20）／Pardubice 4.0得点-2.83失点（差+1.17）",
+  "ranking": "isport.cz表：Pardubice 2位12pt（6試合）、CB 3位（5試合・13:14）。勝点率はともに0.667。Eloや公式レーティングは取得できず",
+  "current_competition": "CB 5試合3勝1延長敗1敗 13-14／Pardubice 6試合4勝2敗 24-17（LiveScore結果・isport.cz）",
+  "common_60d": "共通相手4（各1試合）：Litvinov CB+1/Pa+2、Karlovy Vary CB-4/Pa+3、Mlada Boleslav CB-1/Pa+3、Hradec Kralove CB+2/Pa-2。合計 CB-2/Pa+6、1試合あたり+2.0でPardubice優位（4相手中3相手でPa上）",
+  "h2h_all": "確認できず（hcmotor.cz対戦ページは2012年以前のみ、今季未対戦）",
+  "absences": "両チームとも公開ソースで欠場情報を確認できず",
+  "roster_changes": "確認できず"
+ },
+ "current_competition": {
+  "left": {
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 13,
+   "ga": 14
+  },
+  "right": {
+   "played": 6,
+   "W": 4,
+   "D": 0,
+   "L": 2,
+   "gf": 24,
+   "ga": 17
+  },
+  "source": "Extraliga 2026/27（LiveScore結果一覧・isport.cz表。CBのLに延長負け1含む）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームの欠場・負傷情報は公開ソースで確認できず（未確認）",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "PardubiceはCHL参戦中で日程過密の可能性（8-9月にCHL6試合）。本戦前日9/28にKometa戦をこなしており連戦。GK起用は不明",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "該当情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H自体を取得できず、H2Hは根拠に使っていない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Pardubiceはホームで1勝2敗（Hradec 3-5、Liberec 4-5）、アウェー3勝。CBはアウェー1勝1敗。ホームの格差側が今季ホームで負け越し",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "CBは直近3試合2勝（Litvinov 5-4、Olomouc 3-2）。Hradec戦を補正するとCBは3勝2敗で勝点率0.667、Pardubiceと同じ",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "アイスホッケーの1試合制のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツでないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "今季の移籍情報は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "開幕6試合目前後で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

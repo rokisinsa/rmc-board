@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-97c987ea",
- "data_as_of": "2026-09-29T22:27:25+09:00",
+ "data_as_of": "2026-09-29T23:24:50+09:00",
  "unit": "なし",
  "left": {
   "name": "Guinea-Bissau",
-  "ranking": "",
+  "ranking": "Elo 1291（世界137位、eloratings.net 9/29取得）",
   "form": [
    {
     "date": "2026-09-25",
@@ -18,7 +18,7 @@
  },
  "right": {
   "name": "Nigeria",
-  "ranking": "",
+  "ranking": "Elo 1769（世界29位、eloratings.net 9/29取得）",
   "form": [
    {
     "date": "2026-09-26",
@@ -32,27 +32,57 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "",
- "risks": [],
+ "venue": "Guinea-Bissauのホーム（配信表記 左＝ホーム、LiveScoreでもGuinea-Bissauがt1）。会場名は未確認",
+ "risks": [
+  "直近成績が両者1試合のみで、格差の根拠はElo差（478）に依存",
+  "LiveScore順位表（Nigeria 0試合）と結果一覧（Nigeria 1勝）が食い違う"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "H2H",
+  "欠場・招集メンバー",
+  "FIFAランキング",
+  "2025年以前の直近成績"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group L eid=1873049）に直接対戦の記録なし。他の資料で要確認"
+  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group L eid=1873049）に直接対戦の記録なし。他の資料で要確認",
+  "h2h_all": "手元データにH2Hなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "h2h_points": "H2H未取得のため",
+  "h2h_home_away": "H2H未取得のため",
+  "first_rate": "先制率の出典データなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "absences": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "roster_changes": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "last10": "手元の今季データは予選1試合ずつのみ（2025年以前の代表戦はLiveScore取得範囲外）",
+  "fifa_rank": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可"
  },
  "source_urls": [
-  "LiveScore Africa Cup of Nations Qualification / Qualification: Group L eid=1873049"
+  "LiveScore Africa Cup of Nations Qualification / Qualification: Group L eid=1873049",
+  "https://www.eloratings.net/World.tsv（data/ratings/eloratings.json 2026-09-29取得）"
  ],
  "metrics": {
-  "left": {},
-  "right": {},
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "left": {
+   "elo": 1291,
+   "rank": 137
+  },
+  "right": {
+   "elo": 1769,
+   "rank": 29
+  },
+  "source": "eloratings.net 代表チームElo（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
  },
  "deep5": {
   "last5": "Guinea-Bissau：1勝0敗／Nigeria：1勝0敗",
   "last10": "Guinea-Bissau：1勝0敗（1試合）／Nigeria：1勝0敗（1試合）",
   "streak": "Guinea-Bissau：1連勝／Nigeria：1連勝",
-  "avg_points": "Guinea-Bissau：1試合平均得失差 +2.00（1試合）／Nigeria：1試合平均得失差 +1.00（1試合）"
+  "avg_points": "Guinea-Bissau：1試合平均得失差 +2.00（1試合）／Nigeria：1試合平均得失差 +1.00（1試合）",
+  "ranking": "Elo：Guinea-Bissau 1291（137位）／Nigeria 1769（29位）、差478（Nigeria側）。FIFAランキングは未確認（eloratings.net 9/29取得）",
+  "current_competition": "AFCON2027予選L組：Guinea-Bissau 1勝（9/25 Tanzania戦 A 2-0）／Nigeria 1勝（9/26 Madagascar戦 H 2-1）。LiveScore結果一覧より",
+  "h2h_all": "未確認（手元のLiveScore取得分に直接対戦なし。Web調査不可）",
+  "h2h_points": "未確認（H2H未取得）",
+  "h2h_home_away": "未確認（H2H未取得）",
+  "common_60d": "60日以内の共通対戦相手なし（Guinea-Bissau=Tanzania、Nigeria=Madagascar）",
+  "first_rate": "未取得（先制率のデータなし）",
+  "absences": "未確認（Web調査不可）",
+  "roster_changes": "未確認（Web調査不可）"
  },
  "calc": {
   "left": {
@@ -106,5 +136,76 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "right": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 1
+  },
+  "source": "LiveScore Africa Cup of Nations Qualification / Qualification: Group L（data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）の結果一覧から集計（同順位表はNigeria 0試合・Tanzania 1分と結果一覧と食い違うため結果一覧を採用）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可。Nigeriaの欧州組招集状況が不明",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "予選グループ第2節の公式戦で、ローテーション示唆の情報は手元になし（未確認）",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "未確認（手元に情報なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H自体が未取得のため、古いH2Hに依存した格差判定ではない（発火はElo差のみ）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Guinea-Bissauがホーム。Elo上のホーム補正（約100点）を引いても差は約380点残る。ただしNigeriaはアウェー",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Guinea-Bissauは9/25にTanzania（Elo1270）にアウェー2-0勝ち。Elo上ほぼ同格相手への1勝で、急改善とまでは言えない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカーの1試合制でBO1の概念は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "予選グループ第2節で両者1勝同士。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

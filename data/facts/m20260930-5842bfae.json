@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "data_as_of": "2026-09-29T23:25:10+09:00",
  "unit": "なし",
  "left": {
   "name": "ユクリット（Jukurit）",
@@ -170,6 +170,15 @@
     "detail": ""
    },
    {
+    "date": "2026-09-05",
+    "opp": "Ässät",
+    "comp": "Liiga",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。現地日付は前日の可能性）"
+   },
+   {
     "date": "2026-09-01",
     "opp": "Lukko",
     "comp": "Liiga",
@@ -216,25 +225,38 @@
  "common_opponents_notes": [
   "共通相手: HPK, KalPa, KooKoo（イルヴェス3戦全勝、ユクリット1勝2敗）"
  ],
- "venue": "ユクリットのホーム（ミッケリ）想定",
+ "venue": "LiveScoreはIlvesを先に表記（Ilvesホーム＝タンペレの可能性）。配信表記はJukurit側がホームで食い違い、会場は未確認",
  "risks": [
   "開始時刻未確認",
-  "ユクリットは首位だが価格はイルヴェス有利で乖離"
+  "ホーム表記が配信（Jukurit）とLiveScore（Ilves）で食い違い",
+  "LiveScore順位表の試合数（Jukurit4・Ilves5）は結果一覧（9・7）と不一致。順位表の数値は使わず結果一覧で補正",
+  "一次条件の2項目が左右に割れている（連勝＝Jukurit、共通相手＝Ilves）"
  ],
  "missing": [
-  "H2H",
-  "ラインナップ",
-  "イルヴェスの1試合分"
+  "H2H（過去シーズン）",
+  "欠場・ロスター",
+  "GK・特殊チーム指標",
+  "先制率"
  ],
  "unavailable": {
   "h2h": "今季対戦なし、過去H2Hは取得できず（flashscore H2Hページがタイムアウト）",
-  "right.form": "suomikiekko上で6試合のみ確認（7試合消化のうち1試合欠落）",
-  "left.form": "今季9試合のみ（開幕9/1、10試合に満たない）"
+  "right.form": "LiveScore結果一覧でÄssät戦（1-5敗）を補完し7試合（今季消化7試合＝suomikiekko 7試合17ptと一致）。10試合に満たない",
+  "left.form": "今季9試合のみ（開幕9/1、10試合に満たない）",
+  "deep5.h2h_all": "過去シーズンのH2H：Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.goalie": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.save_pct": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.gsaa": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.pp_pct": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.pk_pct": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
  },
  "source_urls": [
   "https://www.suomikiekko.com/liiga/",
   "https://scores24.live/en/ice-hockey/t-jukurit-mikkeli",
-  "https://scores24.live/en/ice-hockey/t-ilves-tampere"
+  "https://scores24.live/en/ice-hockey/t-ilves-tampere",
+  "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）"
  ],
  "match_id": "m20260930-5842bfae",
  "calc": {
@@ -260,11 +282,11 @@
    "points_games": 9
   },
   "right": {
-   "games": 6,
+   "games": 7,
    "W": 6,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 85.7,
    "home": {
     "W": 2,
     "L": 0,
@@ -272,13 +294,13 @@
    },
    "away": {
     "W": 4,
-    "L": 0,
+    "L": 1,
     "D": 0
    },
-   "streak": "6連勝",
-   "points_for": 21,
-   "points_against": 6,
-   "points_games": 6
+   "streak": "5連勝",
+   "points_for": 22,
+   "points_against": 11,
+   "points_games": 7
   },
   "h2h": {
    "games": 0,
@@ -397,51 +419,116 @@
  },
  "metrics": {
   "left": {
-   "season_wr": 75.0,
-   "gd_pg": 1.0,
-   "pd_pg": 1.0,
-   "rd_pg": 1.0,
-   "pts_rate": 0.75
+   "rank": 1,
+   "season_wr": 77.8,
+   "gd_pg": 1.11,
+   "pd_pg": 1.11,
+   "rd_pg": 1.11,
+   "pts_rate": 0.741
   },
   "right": {
-   "season_wr": 80.0,
-   "gd_pg": 0.8,
-   "pd_pg": 0.8,
-   "rd_pg": 0.8,
-   "pts_rate": 0.733
+   "rank": 3,
+   "season_wr": 85.7,
+   "gd_pg": 1.57,
+   "pd_pg": 1.57,
+   "rd_pg": 1.57,
+   "pts_rate": 0.81
   },
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "source": "LiveScore結果一覧（Jukurit 9試合 7勝2敗 29-19・20pt／Ilves 7試合 6勝1敗 22-11・17pt）から集計。順位はsuomikiekko（9/29朝時点 Jukurit首位・Ilves3位）"
  },
  "current_competition": {
   "left": {
-   "rank": 4,
-   "played": 4,
-   "W": 3,
+   "rank": 1,
+   "played": 9,
+   "W": 7,
    "D": 0,
-   "L": 1,
-   "gf": 16,
-   "ga": 12,
-   "pts": 9,
-   "group": null
+   "L": 2,
+   "gf": 29,
+   "ga": 19,
+   "pts": 20
   },
   "right": {
-   "rank": 2,
-   "played": 5,
-   "W": 4,
+   "rank": 3,
+   "played": 7,
+   "W": 6,
    "D": 0,
    "L": 1,
-   "gf": 13,
-   "ga": 9,
-   "pts": 11,
-   "group": null
+   "gf": 22,
+   "ga": 11,
+   "pts": 17
   },
-  "source": "LiveScore順位表 Finland / Liiga（2026-09-29T22:27:25+09:00取得）"
+  "source": "Liiga 2026-27：LiveScore結果一覧から集計（Jukurit OT勝1含む、Ilves OT勝1含む）。勝点・試合数はsuomikiekko表記と一致。LiveScore順位表の値は試合数不足のため置換"
  },
  "deep5": {
-  "last5": "Jukurit：5勝0敗／Ilves：5勝0敗",
-  "last10": "Jukurit：7勝2敗（9試合）／Ilves：6勝0敗（6試合）",
-  "streak": "Jukurit：7連勝／Ilves：6連勝",
-  "avg_points": "Jukurit：1試合平均得失差 +1.11（9試合）／Ilves：1試合平均得失差 +2.50（6試合）",
-  "current_competition": "Jukurit {'rank': 4, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 16, 'ga': 12, 'pts': 9, 'group': None}／Ilves {'rank': 2, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 13, 'ga': 9, 'pts': 11, 'group': None}（LiveScore順位表 Finland / Liiga（2026-09-29T22:27:25+09:00取得））"
+  "last5": "Jukurit 5勝0敗（Pelicans 3-1、HIFK 7-4、TPS 4-1、K-Espoo 2-1OT、KooKoo 5-3）／Ilves 5勝0敗（HPK 4-0、Kärpät 4-3OT、KalPa 2-1、KooKoo 6-0、TPS 3-2）",
+  "last10": "Jukurit 7勝2敗（全9試合）／Ilves 6勝1敗（全7試合、唯一の敗戦は9/5頃 Ässät戦1-5）",
+  "streak": "Jukurit 7連勝（開幕2連敗の後）／Ilves 6連勝",
+  "avg_points": "Jukurit 得点3.22・失点2.11（+1.11/試合）／Ilves 得点3.14・失点1.57（+1.57/試合）",
+  "current_competition": "Liiga 2026-27：Jukurit 9試合7勝2敗 29-19（+10）、Ilves 7試合6勝1敗 22-11（+11）。出典 LiveScore結果一覧",
+  "ranking": "Liiga順位（suomikiekko 9/29朝）：Jukurit 首位（9試合20pt）、Ilves 3位（7試合17pt）。勝点率 Jukurit .741／Ilves .810（1試合あたりではIlves上）",
+  "h2h_all": "今季の対戦は本試合が初（LiveScore結果一覧に対戦なし）。過去シーズンのH2Hは取得できず",
+  "h2h_points": "取得できず（今季対戦なし、過去分は未確認）",
+  "h2h_home_away": "取得できず",
+  "common_60d": "共通相手4チーム：KooKoo（J 5-3、I 6-0）、KalPa（J 0-4、I 2-1）、HPK（J 1-4、I 4-0）、TPS（J 4-1、I 3-2）。得失差合計 Jukurit −2（4試合、−0.5/試合）／Ilves +12（4試合、+3.0/試合）でIlves優位。ただしJukuritの2敗は開幕直後",
+  "first_rate": "先制率・第1ピリオド成績は取得できず",
+  "absences": "欠場・負傷情報は取得できず",
+  "roster_changes": "ロスター変更は取得できず",
+  "goalie": "先発GKは取得できず",
+  "save_pct": "取得できず",
+  "gsaa": "取得できず",
+  "pp_pct": "取得できず",
+  "pk_pct": "取得できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場・負傷情報を確認できず（Web調査不可）。該当有無は不明",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "GKローテ等の情報は確認できず。9/25〜9/27に両チームとも連戦あり（Ilvesは9/26・9/27の連戦）",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "確認できる情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得のため判断材料なし（格差根拠にH2Hは使っていない）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "配信はJukuritホーム、LiveScoreはIlves先表記（Ilvesホームの可能性）で食い違い。Jukuritはホーム5試合4勝1敗、アウェー4試合3勝1敗、Ilvesはアウェー5勝1敗・ホーム2勝0敗で、会場による差は小さい",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Jukuritは開幕2連敗（HPK 1-4、KalPa 0-4）から7連勝と急上昇。共通相手比較でIlves優位なのはこの開幕2敗の影響が大きい",
+   "impact": "major",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "eスポーツではない（1試合決着）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "確認できず（Web調査不可）",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "シーズン序盤（10試合未満）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

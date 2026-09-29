@@ -97,17 +97,136 @@
    "FW Cooper が直近6試合で6得点（footballwebpages得点者欄）",
    "欠場情報は取得できず"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-08",
+    "opp": "チェイスタウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W",
+    "detail": "Martin 72', Rhead 83'（lichfieldliveで勝利確認、記事日付は9/9）"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "コングルトン・タウン",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W",
+    "detail": "Jenkins, Cooper"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "ウィットン・アルビオン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
  },
  "right": {
   "name": "リッチフィールド・シティ（Lichfield City）",
   "ranking": "NPLディヴィジョン1ウェスト 21位/22（11試合 3pt、9/23時点10試合1勝9敗 9-40：thenpl/Wikipedia）",
-  "form": [],
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "モズリー",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "1-4",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "プレスコット・ケーブルズ",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "コングルトン・タウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "ニューカッスル・タウン",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "1-5",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "チェイスタウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "ウィットン・アルビオン",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "1-6",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-08-08",
+    "opp": "ローワー・ブレック",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   }
+  ],
   "lineup": [
    "直近5試合 L-L-W-L-L（thenpl）",
    "欠場情報は取得できず"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-19",
+    "opp": "コングルトン・タウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "チェイスタウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "ウィットン・アルビオン",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "1-6",
+    "res": "L",
+    "detail": "LiveScore結果一覧（日付はLiveScore表記。平日夜は現地前日の可能性）"
+   }
+  ]
  },
  "h2h": [],
  "common_opponents_notes": [
@@ -117,16 +236,24 @@
  "venue": "キッズグローヴのホーム 19:45 BST（会場名は未確認）",
  "risks": [
   "8部相当の下位リーグ",
-  "リッチフィールドは大量失点（10試合40失点）"
+  "リッチフィールドは大量失点（10試合40失点）",
+  "Kidsgroveも9試合4勝5敗 得失−1と平凡で、格差はLichfield側の弱さに依存",
+  "大会名は配信表記（Northern League Division One）ではなくNPL Division One West（LiveScore）"
  ],
  "missing": [
-  "リッチフィールドの日付付き試合結果",
-  "H2H"
+  "H2H",
+  "Lichfieldの未取得4試合",
+  "欠場・ロスター",
+  "先制率"
  ],
  "unavailable": {
-  "right.form": "thenpl・Wikipediaは順位/成績集計のみ、footballwebpagesの同クラブページは取得許可なし、sofascoreは未取得",
+  "right.form": "LiveScore結果一覧で7試合のみ確認（リーグ11試合消化のうち4試合とカップ戦は未取得）。footballwebpagesは取得許可なし",
   "h2h": "footballwebpages（キッズグローヴ2026-27）に過去対戦記載なし、他シーズン未確認",
-  "history": "リッチフィールドの試合リストが無く共通相手照合不可"
+  "history": "共通相手はLiveScoreで確認できた試合の範囲で照合（Lichfieldの未取得4試合は含まない）",
+  "deep5.h2h_all": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
  },
  "source_urls": [
   "https://www.footballwebpages.co.uk/kidsgrove-athletic/fixtures-results",
@@ -134,9 +261,10 @@
   "https://www.thenpl.co.uk/clubs/lichfield-city",
   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Northern_Premier_League",
   "https://lichfieldlive.co.uk/chasetown-let-lead-slip-as-keeper-injury-proves-costly-against-kidsgrove-athletic/",
-  "https://www.kidsgroveathleticfc.co.uk/teams/24699/fixtures-results"
+  "https://www.kidsgroveathleticfc.co.uk/teams/24699/fixtures-results",
+  "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）"
  ],
- "data_as_of": "2026-09-29T18:47:00+09:00",
+ "data_as_of": "2026-09-29T23:25:44+09:00",
  "calc": {
   "left": {
    "games": 10,
@@ -160,22 +288,25 @@
    "points_games": 10
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 7,
+   "W": 1,
+   "L": 6,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 14.3,
    "home": {
     "W": 0,
-    "L": 0,
+    "L": 3,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 1,
+    "L": 3,
     "D": 0
    },
-   "streak": null
+   "streak": "2連敗",
+   "points_for": 7,
+   "points_against": 27,
+   "points_games": 7
   },
   "h2h": {
    "games": 0,
@@ -183,7 +314,86 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "コングルトン・タウン",
+    "left": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "2-1",
+      "res": "W",
+      "comp": "NPL1部West"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "1-0",
+      "res": "W",
+      "comp": "NPL1部West"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-19",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "チェイスタウン",
+    "left": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "2-1",
+      "res": "W",
+      "comp": "NPL1部West"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "2-3",
+      "res": "L",
+      "comp": "NPL1部West"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-08",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ウィットン・アルビオン",
+    "left": [
+     {
+      "date": "2026-08-25",
+      "iso": "2026-08-25",
+      "score": "0-2",
+      "res": "L",
+      "comp": "NPL1部West"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-15",
+      "iso": "2026-08-15",
+      "score": "1-6",
+      "res": "L",
+      "comp": "NPL1部West"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-08-25",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
  },
@@ -202,7 +412,7 @@
    "rd_pg": -3.09,
    "pts_rate": 0.091
   },
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "source": "LiveScore順位表 England / Northern Premier League: West Division（2026-09-29T22:27:25+09:00取得）。Lichfieldの値はthenpl（11試合3pt）と整合"
  },
  "current_competition": {
   "left": {
@@ -230,6 +440,70 @@
   "source": "LiveScore順位表 England / Northern Premier League: West Division（2026-09-29T22:27:25+09:00取得）"
  },
  "deep5": {
-  "current_competition": "Kidsgrove Athletic {'rank': 12, 'played': 9, 'W': 4, 'D': 0, 'L': 5, 'gf': 11, 'ga': 12, 'pts': 12, 'group': None}／Lichfield City {'rank': 21, 'played': 11, 'W': 1, 'D': 0, 'L': 10, 'gf': 10, 'ga': 44, 'pts': 3, 'group': None}（LiveScore順位表 England / Northern Premier League: West Division（2026-09-29T22:27:25+09:00取得））"
+  "current_competition": "リーグ：Kidsgrove 9試合4勝0分5敗 11-12（−1）、Lichfield 11試合1勝0分10敗 10-44（−34）。得失差の差33（LiveScore順位表）",
+  "ranking": "NPL Division One West（イングランド8部相当）：Kidsgrove 12位（9試合12pt）、Lichfield 21位/22（11試合3pt）（LiveScore順位表・thenpl）",
+  "h2h_all": "確認できたH2Hなし（今季未対戦、過去分は取得できず）",
+  "h2h_points": "取得できず",
+  "h2h_home_away": "取得できず",
+  "last5": "Kidsgrove 2勝3敗（公式戦：Vauxhall 4-2勝、Hanley 1-2敗、Padiham 1-0勝、Stafford 1-2敗、FAトロフィー Stafford 0-3敗）／Lichfield 1勝4敗（Mossley 1-4、Prescot 0-5、Congleton 1-0勝、Newcastle 1-5、Chasetown 2-3）",
+  "last10": "Kidsgrove 5勝5敗 14-15（FAトロフィー2試合含む）／Lichfield 1勝6敗 7-27（LiveScoreで確認できた7試合のみ）",
+  "avg_points": "Kidsgrove 得点1.4・失点1.5（直近10）／Lichfield 得点1.0・失点3.9（確認7試合）、リーグ全体では11試合で0.91得点・4.0失点",
+  "streak": "Kidsgrove 1連勝（9/26 Vauxhall 4-2）／Lichfield 2連敗",
+  "common_60d": "共通相手3チーム：Witton Albion（K 0-2敗、L 1-6敗）、Chasetown（K 2-1勝、L 2-3敗）、Congleton Town（K 2-1勝、L 1-0勝）。Kidsgrove 2勝1敗 得失0（0.0/試合）／Lichfield 1勝2敗 −5（−1.67/試合）でKidsgrove優位（差+1.67/試合）",
+  "first_rate": "先制率は取得できず",
+  "absences": "欠場情報は取得できず（KidsgroveはFW Cooperが直近6試合6得点）",
+  "roster_changes": "取得できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道を確認できず（Web調査不可）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "下位リーグで週2試合ペース。ローテ情報は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "確認できる情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得で格差根拠に使っていない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Kidsgroveホーム。直近10のホーム3試合は2勝1敗（Congleton 2-1、Padiham 1-0、FAT Stafford 0-3）で、ホームでも僅差勝ち中心。Lichfieldのアウェーは確認4試合1勝3敗",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Lichfieldは9/19 Congleton戦で今季唯一の勝利、その後2連敗（0-5、1-4）で改善傾向なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "確認できず（下位リーグは選手の入れ替わりが多いが情報なし）",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン序盤で該当なし",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

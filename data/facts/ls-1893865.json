@@ -1,0 +1,250 @@
+{
+ "match_id": "ls-1893865",
+ "data_as_of": "2026-09-29T23:27:14+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Argentina",
+  "ranking": "World Football Elo 2173（2位）",
+  "form": [
+   {
+    "date": "2024-06-15",
+    "opp": "Guatemala",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2024-06-10",
+    "opp": "Ecuador",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2024-03-27",
+    "opp": "Costa Rica",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2024-03-23",
+    "opp": "El Salvador",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Bolivia",
+  "ranking": "World Football Elo 1614（61位）",
+  "form": [
+   {
+    "date": "2024-06-16",
+    "opp": "Colombia",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2024-06-13",
+    "opp": "Ecuador",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2024-06-01",
+    "opp": "Mexico",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2024-03-26",
+    "opp": "Andorra",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2024-03-23",
+    "opp": "Algeria",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "LiveScoreはArgentinaを先に表記（Argentinaホーム扱い）。開催地は未確認。国際親善試合",
+ "risks": [
+  "formは2024年の親善試合のみで現状を反映しない",
+  "格差根拠はElo差559のみ",
+  "親善試合のため起用が読めない"
+ ],
+ "missing": [
+  "直近の代表戦（2025〜2026）",
+  "H2H",
+  "招集・欠場",
+  "開催地"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1893865）に直接対戦の記録なし。他の資料で要確認",
+  "deep5.h2h_all": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "left.form": "LiveScore親善試合ステージの2024年分のみ。2025〜2026年の代表戦：Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "right.form": "同上",
+  "deep5.common_60d": "60日以内の試合データなし：Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "ranking(FIFA)": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1893865",
+  "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）",
+  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+ ],
+ "metrics": {
+  "left": {
+   "elo": 2173,
+   "rank": 2
+  },
+  "right": {
+   "elo": 1614,
+   "rank": 61
+  },
+  "source": "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）。Elo差559"
+ },
+ "deep5": {
+  "last5": "注意：取得できたのは2024年3〜6月の親善試合のみ（Argentina 4勝0敗、Bolivia 1勝4敗）。2年以上前で現状を表さず、2025〜2026年の代表戦（W杯本大会・予選等）は取得できず",
+  "last10": "同上（2024年の親善試合のみ：Argentina 4試合、Bolivia 5試合）",
+  "streak": "2024年時点の記録のみで現在の連勝・連敗は不明",
+  "avg_points": "2024年親善試合のみ：Argentina +2.25/試合、Bolivia −1.20/試合（現状指標としては不適）",
+  "ranking": "World Football Elo：Argentina 2173（2位）、Bolivia 1614（61位）、差559（eloratings.net）。FIFAランキングは取得できず",
+  "current_competition": "国際親善試合のため該当大会成績なし",
+  "h2h_all": "確認できたH2Hなし（LiveScore親善試合ステージに記録なし、W杯予選等は取得できず）",
+  "h2h_points": "取得できず",
+  "h2h_home_away": "取得できず",
+  "common_60d": "60日以内の試合データなし（取得できたのは2024年分のみ）。2024年分ではEcuadorが共通相手（Argentina 1-0勝、Bolivia 1-3敗）だが60日外",
+  "first_rate": "取得できず",
+  "absences": "招集・欠場は取得できず",
+  "roster_changes": "取得できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "招集メンバー・欠場情報を確認できず（Web調査不可）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "国際親善試合で、主力起用・交代枠の扱いは未確認。親善試合は試行的起用になりうる",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "2026年W杯後の最初期の代表活動期にあたる可能性があるが、両国の招集方針は未確認",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2Hは未取得。取得済みformが2024年の親善試合のみで古い（格差根拠はEloのみ）",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "Argentinaホーム扱い（LiveScore）。開催地は未確認。高地開催ならBolivia有利要因だが、Bolivia開催を示す資料はない",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "最近の試合データがなく判断できず",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "国際親善試合で勝敗が順位に影響しない（公式戦より動機が低い可能性）",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 4,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連勝",
+   "points_for": 11,
+   "points_against": 2,
+   "points_games": 4
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 4,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 4,
+   "points_against": 10,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

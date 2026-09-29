@@ -233,7 +233,8 @@ DEEP_EXTRA = {"アイスホッケー": ("goalie", "save_pct", "gsaa", "pp_pct", 
 ESPORTS_ONLY = ("bo_format", "lan_online")
 COUNTER_KEYS = ("主力欠場", "ローテーション", "世代交代", "古いH2H", "ホーム/アウェー差", "最近の急改善", "BO1",
                 "LAN/Online差", "ロスター変更", "消化試合")
-IMPACTS = ("none", "minor", "major")        # major＝格差の根拠を崩す（→ 反対材料で保留）
+IMPACTS = ("none", "minor", "major")
+UNCHECKED = re.compile(r"未確認|Web調査不可|確認できず|確認できなかった|取得できず|調査できず|unverified|not (?:checked|verified)", re.I)        # major＝格差の根拠を崩す（→ 反対材料で保留）
 UNCERTAIN_KEYS = {"主力欠場", "ロスター変更", "ホーム/アウェー差", "BO1"}   # これが minor でも残る＝⑤-B（重要な不確実性）。他の minor は注記のみ
 MARKET_C_NV = 0.80                          # ⑤-C：市場の控除後本命勝率がこれ以上なのに独立データで確認できていない
 GRADE_LABEL = {"A": "⑤-A 強い格差確認", "B": "⑤-B 格差候補・要注意", "C": "⑤-C 市場だけ格差"}
@@ -584,8 +585,8 @@ def counter_status(fx):
     miss, major, minor = [], [], []
     for k in COUNTER_KEYS:
         v = ce.get(k)
-        if not isinstance(v, dict) or v.get("impact") not in IMPACTS or not v.get("finding"):
-            miss.append(k); continue
+        if not isinstance(v, dict) or v.get("impact") not in IMPACTS or not v.get("finding") or UNCHECKED.search(str(v.get("finding"))):
+            miss.append(k); continue          # 未確認のまま none にしたものは「確認済み」と数えない
         if v["impact"] == "major":
             major.append(f"{k}：{v['finding']}")
         elif v["impact"] == "minor" or (k == "BO1" and v.get("applies")):
@@ -927,6 +928,12 @@ def run_screen(locked, matches=None):
             for r in out["rows"]:
                 if r["match_id"].startswith(("ls-", "ex-")) and _fx_match(f, dict(sport=r["sport"], start_jst=r["start_jst"], left=r["left"], right=r["right"])) is not None:
                     hit = r; break
+        if hit is None:   # 同じ対戦が別ソースで開始時刻だけ食い違う（例：FIFA 09:00 と LiveScore 21:00）→ 同一試合として時刻の食い違いを記録
+            for r in out["rows"]:
+                if _fx_match(f, dict(sport=r["sport"], start_jst=r["start_jst"], left=r["left"], right=r["right"]), tol=14 * 3600) is not None:
+                    hit = r
+                    r.setdefault("time_conflict", []).append(f"{f['source']}：{f['start_jst']}")
+                    break
         if hit is not None:
             if f["source"] not in hit["fixture_sources"]:
                 hit["fixture_sources"].append(f["source"])

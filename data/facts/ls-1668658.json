@@ -1,0 +1,344 @@
+{
+ "match_id": "ls-1668658",
+ "data_as_of": "2026-09-29T23:28:19+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Poland U21",
+  "ranking": "U21欧州選手権2027予選E組 1位 8戦全勝 23-2 勝点24（結果から集計）",
+  "form": [
+   {
+    "date": "2026-03-31",
+    "opp": "Montenegro U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "Armenia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-19",
+    "opp": "North Macedonia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "Italy U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-15",
+    "opp": "Sweden U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "6-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-11",
+    "opp": "Montenegro U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-09-09",
+    "opp": "Armenia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-09-06",
+    "opp": "North Macedonia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Sweden U21",
+  "ranking": "U21欧州選手権2027予選E組 4位 8試合3勝1分4敗 10-19 勝点10（結果から集計、3位モンテネグロと同勝点）",
+  "form": [
+   {
+    "date": "2026-04-01",
+    "opp": "Italy U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "Montenegro U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "Armenia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-14",
+    "opp": "North Macedonia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-15",
+    "opp": "Poland U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "0-6",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-11",
+    "opp": "Italy U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-10",
+    "opp": "Montenegro U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-09-06",
+    "opp": "Armenia U21",
+    "comp": "Euro U21 2027 / Qualification: Group E",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2025-10-15",
+   "event": "Euro U21 2027 / Qualification: Group E",
+   "winner": "left",
+   "score": "6-0"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ポーランドのホーム（LiveScore・UEFA公式 uefa:2044638 ともにPoland U21が先）",
+ "risks": [
+  "LiveScore順位表（4試合時点）が古く、current_competition/metricsを全結果集計（8試合）で補正",
+  "両者とも前回公式戦から約6か月の間隔。当時のメンバーと同じとは限らない"
+ ],
+ "missing": [
+  "招集メンバー・欠場・先制率"
+ ],
+ "unavailable": {
+  "deep5.h2h_all": "今予選以前のU21対戦はWeb検索上限・取得制限で確認できず",
+  "deep5.first_rate": "得点時間データなし",
+  "deep5.absences": "招集リストの出典に到達できず",
+  "deep5.roster_changes": "出典に到達できず",
+  "deep5.common_60d": "60日以内に両者とも試合なし",
+  "metrics.elo": "U21のレーティング出典なし"
+ },
+ "source_urls": [
+  "LiveScore Euro U21 2027 / Qualification: Group E eid=1668658",
+  "LiveScore Euro U21 2027予選E組 全結果24試合から集計（data/basic/livescore.json 2026-09-29T23:10:38+09:00取得）",
+  "UEFA公式 fixture uefa:2044638（data/basic/fixtures_extra.json）"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 100.0,
+   "gd_pg": 2.62,
+   "pd_pg": 2.62,
+   "rd_pg": 2.62,
+   "pts_rate": 1.0,
+   "rank": 1
+  },
+  "right": {
+   "season_wr": 37.5,
+   "gd_pg": -1.12,
+   "pd_pg": -1.12,
+   "rd_pg": -1.12,
+   "pts_rate": 0.417,
+   "rank": 4
+  },
+  "source": "LiveScore Euro U21 2027予選E組 全結果24試合から集計（data/basic/livescore.json 2026-09-29T23:10:38+09:00取得）。LiveScore順位表は4試合時点で止まっており不採用"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 1,
+   "played": 8,
+   "W": 8,
+   "D": 0,
+   "L": 0,
+   "gf": 23,
+   "ga": 2,
+   "pts": 24,
+   "group": "E"
+  },
+  "right": {
+   "rank": 4,
+   "played": 8,
+   "W": 3,
+   "D": 1,
+   "L": 4,
+   "gf": 10,
+   "ga": 19,
+   "pts": 10,
+   "group": "E"
+  },
+  "source": "LiveScore Euro U21 2027予選E組 全結果24試合から集計（data/basic/livescore.json 2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Poland U21：5勝0敗／Sweden U21：2勝1分2敗",
+  "last10": "ポーランド 8勝0敗（予選8試合＝確認できた全公式戦）／スウェーデン 3勝1分4敗（8試合）",
+  "streak": "Poland U21：8連勝／Sweden U21：1連敗",
+  "avg_points": "Poland U21：1試合平均得失差 +2.62（8試合）／Sweden U21：1試合平均得失差 -1.12（8試合）",
+  "current_competition": "予選E組：ポーランド 8勝0分0敗 23得点2失点（ホーム4勝 11-2）／スウェーデン 3勝1分4敗 10得点19失点（アウェー2勝2敗 5-7、ホーム1勝1分2敗 5-12）",
+  "ranking": "E組順位：ポーランド1位（24pt）、イタリア2位（21pt）、モンテネグロ3位（10pt）、スウェーデン4位（10pt）。U21のElo等は取得できず",
+  "h2h_all": "今予選の1件のみ確認：2025-10-15 スウェーデン 0-6 ポーランド（ポーランドのアウェー勝ち）。それ以前は取得できず",
+  "h2h_points": "H2H 1試合 ポーランド6得点・0失点",
+  "h2h_home_away": "ポーランドのアウェーで6-0。本試合はポーランドのホーム",
+  "common_60d": "60日以内の試合なし（両者の最後の公式戦は2026年3〜4月）。今予選の共通相手（参考）：イタリア（P 2-1勝 / S 0-4・0-4敗）、モンテネグロ（P 2-0・1-0 / S 0-2・2-2）、アルメニア（P 4-0・4-1 / S 3-0・1-0）、北マケドニア（P 3-0・1-0 / S 4-1）",
+  "first_rate": "先制率は取得できず",
+  "absences": "招集メンバー・欠場情報は取得できず",
+  "roster_changes": "U21はA代表昇格・年齢での入れ替えがあるが、今回の招集リストは確認できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "招集・欠場情報は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "10月ウィンドウ2試合のうち1戦目。情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "同一予選サイクル内（出場資格は同じ）だが、前回試合から約6か月空いており主力のA代表昇格等による入れ替えの可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2Hは2025-10の今予選1件のみで古くはない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "ポーランドのホーム（今予選ホーム4戦全勝11-2）。スウェーデンはアウェー2勝2敗",
+   "impact": "none",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "スウェーデンは直近2試合 2-2、0-4で改善なし。ただし試合間隔が約6か月",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー（該当なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "約6か月ぶりの試合で招集メンバー変動の可能性あるが未確認",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "スウェーデンは残り2試合で最大16ptのため2位イタリア（21pt）に届かず、上位2位以内の可能性が消滅（結果集計からの計算）。ポーランドは首位確定を争う側で動機十分。格差側に不利な材料ではない",
+   "impact": "none",
+   "applies": true
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 8,
+   "W": 8,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 4,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 4,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "8連勝",
+   "points_for": 23,
+   "points_against": 2,
+   "points_games": 8
+  },
+  "right": {
+   "games": 8,
+   "W": 3,
+   "L": 4,
+   "D": 1,
+   "win_rate": 37.5,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 10,
+   "points_against": 19,
+   "points_games": 8
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 6,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 6.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

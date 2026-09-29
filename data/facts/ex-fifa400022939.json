@@ -1,0 +1,175 @@
+{
+ "match_id": "ex-fifa400022939",
+ "data_as_of": "2026-09-29T23:25:43+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Indonesia",
+  "ranking": "eloratings 1326（127位）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Bangladesh",
+  "ranking": "eloratings 924（196位）",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "不明（FIFA ASEAN Cup）",
+ "risks": [
+  "FIFA公式日程のみから発見された試合で、カテゴリ（A代表/年代別/女子/フットサル等）が未確認。eloratingsはA代表男子の値で、カテゴリが異なればElo差の根拠は成り立たない",
+  "バングラデシュはASEAN加盟国ではなく、大会の参加枠・位置付けも未確認"
+ ],
+ "missing": [
+  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+ ],
+ "unavailable": {
+  "left.form": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "right.form": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "h2h": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.current_competition": "deep5.current_competition: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.h2h_all": "deep5.h2h_all: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.h2h_points": "deep5.h2h_points: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.h2h_home_away": "deep5.h2h_home_away: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.last5": "deep5.last5: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.last10": "deep5.last10: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.avg_points": "deep5.avg_points: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.streak": "deep5.streak: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.common_60d": "deep5.common_60d: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.first_rate": "deep5.first_rate: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.absences": "deep5.absences: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.roster_changes": "deep5.roster_changes: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+ },
+ "source_urls": [
+  "FIFA公式の日程（discovery fixture_sources）",
+  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
+ ],
+ "metrics": {
+  "left": {
+   "elo": 1326,
+   "rank": 127
+  },
+  "right": {
+   "elo": 924,
+   "rank": 196
+  },
+  "source": "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
+ },
+ "deep5": {
+  "ranking": "eloratings（A代表男子）：インドネシア1326（127位）、バングラデシュ924（196位）、差402（インドネシア側）",
+  "current_competition": "FIFA ASEAN Cup。成績未取得",
+  "h2h_all": "未取得",
+  "h2h_points": "未取得",
+  "h2h_home_away": "未取得",
+  "last5": "未取得",
+  "last10": "未取得",
+  "avg_points": "未取得",
+  "streak": "未取得",
+  "common_60d": "直近成績未取得のため比較不可",
+  "first_rate": "未取得",
+  "absences": "未取得",
+  "roster_changes": "未取得（大会のカテゴリ自体が未確認）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "未確認。大会の日程・連戦状況も未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "大会のカテゴリ（A代表か年代別か）未確認。年代別・女子等ならA代表男子のEloは当てはまらない",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2H未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "会場未確認",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "直近成績未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー/バスケの単発試合でBO形式は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "出場メンバー未確認（大会のカテゴリ・招集状況とも不明）",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "順位状況未取得",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

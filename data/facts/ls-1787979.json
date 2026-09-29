@@ -1,0 +1,233 @@
+{
+ "match_id": "ls-1787979",
+ "data_as_of": "2026-09-29T23:10:38+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Oestersunds IK",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Visby Roma",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Oskarshamn",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Almtuna",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Nybro",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Mora",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "H",
+    "score": "5-4",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Kalmar",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-29",
+    "opp": "Vaesteraas",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Nybro",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "H",
+    "score": "5-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Visby Roma",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "6-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "AIK",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "BIK Karlskoga",
+    "comp": "Sweden / Hockeyallsvenskan",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Sweden / Hockeyallsvenskan eid=1787979）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore Sweden / Hockeyallsvenskan eid=1787979"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {
+   "season_wr": 75.0,
+   "gd_pg": 0.75,
+   "pd_pg": 0.75,
+   "rd_pg": 0.75,
+   "pts_rate": 0.667
+  },
+  "source": "LiveScore順位表（2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Oestersunds IK：2勝3敗／Kalmar：4勝1敗",
+  "last10": "Oestersunds IK：2勝3敗（5試合）／Kalmar：4勝1敗（5試合）",
+  "streak": "Oestersunds IK：1連勝／Kalmar：3連勝",
+  "avg_points": "Oestersunds IK：1試合平均得失差 -0.60（5試合）／Kalmar：1試合平均得失差 +1.40（5試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 14,
+   "points_against": 17,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 18,
+   "points_against": 11,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Visby Roma",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "4-3",
+      "res": "W",
+      "comp": "Sweden / Hockeyallsvenskan"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "6-2",
+      "res": "W",
+      "comp": "Sweden / Hockeyallsvenskan"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Nybro",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "2-3",
+      "res": "L",
+      "comp": "Sweden / Hockeyallsvenskan"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "5-1",
+      "res": "W",
+      "comp": "Sweden / Hockeyallsvenskan"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

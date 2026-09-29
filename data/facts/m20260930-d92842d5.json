@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-d92842d5",
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-29T23:27:16+09:00",
  "unit": "なし",
  "left": {
   "name": "ティムロー（Timrå IK）",
@@ -122,7 +122,9 @@
  "risks": [
   "公式戦3試合のみのサンプル",
   "会場はブリンネスのホーム（Monitor ERP Arena, イェヴレ）でリスト左のティムローはアウェイ",
-  "既存ファクトの会場記載（ティムローのホーム）は誤りで修正"
+  "既存ファクトの会場記載（ティムローのホーム）は誤りで修正",
+  "一次条件の共通相手格差は公式戦1件（Linköping 9-2）と親善試合に依拠しておりサンプルが極小",
+  "LiveScore（eid=1778670）はBrynaes-Timraa表記で、ブリンネスのホームを裏付け（matches.jsonの『左＝ホーム』とは不一致）"
  ],
  "missing": [
   "H2H",
@@ -131,13 +133,23 @@
  "unavailable": {
   "h2h": "sofascore試合ページにH2H表示なし・flashscore H2Hタイムアウトで取得できず",
   "left.form": "開幕2026-09-19、公式戦3試合のみ（親善試合は除外）",
-  "right.form": "同上"
+  "right.form": "同上",
+  "deep5.h2h_all": "sofascoreにH2H表示なし、今回はWeb検索上限・取得制限で追加取得できず",
+  "deep5.first_rate": "ピリオド別スコアの出典に到達できず",
+  "deep5.absences": "負傷・欠場情報の出典に到達できず",
+  "deep5.roster_changes": "出典に到達できず",
+  "deep5.goalie": "先発GK情報の出典に到達できず",
+  "deep5.save_pct": "GK個人成績の出典に到達できず",
+  "deep5.gsaa": "出典に到達できず",
+  "deep5.pp_pct": "特殊チーム成績の出典に到達できず",
+  "deep5.pk_pct": "特殊チーム成績の出典に到達できず"
  },
  "source_urls": [
   "https://scores24.live/en/ice-hockey/t-timraa-ik",
   "https://scores24.live/en/ice-hockey/t-brynas-if",
   "https://www.sofascore.com/ice-hockey/match/timra-ik-brynas-if/CzbsGzb#id:16230714",
-  "https://hockeyresultat.se/shl-tabell/"
+  "https://hockeyresultat.se/shl-tabell/",
+  "LiveScore SHL順位表・結果（data/basic/livescore.json 2026-09-29T23:10:38+09:00取得、eid=1778670）"
  ],
  "calc": {
   "left": {
@@ -251,5 +263,111 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 14,
+   "season_wr": 33.3,
+   "gd_pg": -1.33,
+   "pts_rate": 0.222
+  },
+  "right": {
+   "rank": 4,
+   "season_wr": 66.7,
+   "gd_pg": 1.33,
+   "pts_rate": 0.667
+  },
+  "source": "hockeyresultat.se順位表（既存記載）＋SHL公式戦3試合の結果から算出（pts_rate=勝点/(試合×3)）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 3,
+   "W": 1,
+   "D": 0,
+   "L": 2,
+   "gf": 6,
+   "ga": 10
+  },
+  "right": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 15,
+   "ga": 11
+  },
+  "source": "SHL 2026/27 公式戦3試合（hockeyresultat.se／LiveScore結果）。ティムローの1勝は延長勝ち（OTW）"
+ },
+ "deep5": {
+  "ranking": "SHL 2026/27：ティムロー14位（3試合2pt、OTW1・L2）／ブリンネス4位（3試合6pt、W2・L1）（hockeyresultat.se）。リーグ横断のEloは取得できず",
+  "current_competition": "ティムロー 1勝2敗（うち1勝は延長）6得点10失点／ブリンネス 2勝1敗 15得点11失点（SHL公式戦3試合）",
+  "h2h_all": "直接対戦の記録は取得できず（sofascoreにH2H表示なし、Web検索不能のため追加確認できず）",
+  "h2h_points": "H2H未取得のため不明",
+  "h2h_home_away": "H2H未取得のため不明。本試合はブリンネスのホーム（LiveScoreはBrynaes-Timraa表記、sofascore/hockeyresultatも同様）",
+  "last5": "ティムロー 1勝2敗（3試合のみ）／ブリンネス 2勝1敗（3試合のみ）",
+  "last10": "公式戦は両者3試合のみ（開幕2026-09-19）",
+  "avg_points": "ティムロー 平均2.00得点・3.33失点／ブリンネス 平均5.00得点・3.67失点（3試合）",
+  "streak": "ティムロー 1連勝（延長勝ち）／ブリンネス 2連勝",
+  "common_60d": "公式戦ではLinköpingのみ：ティムロー 2-3敗（A）／ブリンネス 9-2勝（A）＝得失差 -1 対 +7。Luleåはティムロー親善4-3勝、ブリンネスSHL 4-2勝・親善3-4敗。共通相手は実質1件（公式戦）でサンプル小",
+  "first_rate": "先制率・第1ピリオド成績は取得できず",
+  "absences": "欠場・負傷情報は取得できず",
+  "roster_changes": "ロスター変更情報は取得できず",
+  "goalie": "先発GKは取得できず",
+  "save_pct": "取得できず",
+  "gsaa": "取得できず",
+  "pp_pct": "取得できず",
+  "pk_pct": "取得できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場・負傷情報を確認できず（情報なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "開幕2週目のリーグ戦。ローテーション情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H自体を取得できず、H2Hに依拠した格差ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "本試合はブリンネスのホーム（格差側がホーム）。ブリンネスはホーム1-0、アウェー1-1（9-2勝・2-7敗）。配信表記（左=ティムロー＝ホーム）とは逆なので注意",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "ティムローは直近試合でDjurgårdenに延長3-2勝ち（初勝利）だが、1-5・2-3の敗戦後で急改善とは言えない。ブリンネスも2-7敗を含み3試合のみでばらつき大",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "アイスホッケーの単一試合（BO形式なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "ロスター変更情報を取得できず",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "開幕直後（第4節相当）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

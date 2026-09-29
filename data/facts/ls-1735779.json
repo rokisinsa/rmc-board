@@ -1,0 +1,573 @@
+{
+ "match_id": "ls-1735779",
+ "data_as_of": "2026-09-29T23:25:38+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Atletico Ottawa",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "HFX Wanderers FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Supra du Quebec",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Forge FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Pacific FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Inter Toronto",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "Cavalry FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-20",
+    "opp": "Vancouver FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-17",
+    "opp": "Supra du Quebec",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-09",
+    "opp": "HFX Wanderers FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "Vancouver FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Cavalry FC",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Supra du Quebec",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "6-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Forge FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Pacific FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "HFX Wanderers FC",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Vancouver FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "Atletico Ottawa",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-16",
+    "opp": "Forge FC",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-09",
+    "opp": "Supra du Quebec",
+    "comp": "Canada / Premier League",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "Inter Toronto",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-29",
+    "opp": "Supra du Quebec",
+    "comp": "Canada / Premier League",
+    "ha": "H",
+    "score": "6-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-04-13",
+   "event": "Canada / Premier League",
+   "winner": "right",
+   "score": "1-3"
+  },
+  {
+   "date": "2026-07-05",
+   "event": "Canada / Premier League",
+   "winner": "right",
+   "score": "0-3"
+  },
+  {
+   "date": "2026-08-23",
+   "event": "Canada / Premier League",
+   "winner": "right",
+   "score": "1-3"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "LiveScore表の消化数（11・12試合）はformの試合数（7月末以降だけで10試合）と合わず、表の区分（前後半・別ステージ）不明",
+  "CavalryのSupra du Quebec戦 6-0（H）が07-29と09-26に2回あり、データ重複の可能性"
+ ],
+ "missing": [
+  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+ ],
+ "unavailable": {
+  "deep5.first_rate": "先制率: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.absences": "欠場: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.roster_changes": "ロスター変更: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+ },
+ "source_urls": [
+  "LiveScore Canada / Premier League eid=1735779"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": -0.83,
+   "pd_pg": -0.83,
+   "rd_pg": -0.83,
+   "pts_rate": 0.361
+  },
+  "right": {
+   "season_wr": 63.6,
+   "gd_pg": 1.09,
+   "pd_pg": 1.09,
+   "rd_pg": 1.09,
+   "pts_rate": 0.697
+  },
+  "source": "LiveScore順位表（2026-09-29T23:10:38+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 4,
+   "played": 12,
+   "W": 4,
+   "D": 1,
+   "L": 7,
+   "gf": 14,
+   "ga": 24,
+   "pts": 13,
+   "group": null
+  },
+  "right": {
+   "rank": 1,
+   "played": 11,
+   "W": 7,
+   "D": 2,
+   "L": 2,
+   "gf": 18,
+   "ga": 6,
+   "pts": 23,
+   "group": null
+  },
+  "source": "LiveScore順位表 Canada / Premier League（2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Atletico Ottawa：2勝1分2敗／Cavalry FC：4勝1分0敗",
+  "last10": "Atletico Ottawa：5勝1分4敗（10試合）／Cavalry FC：8勝2分0敗（10試合）",
+  "streak": "Atletico Ottawa：1連勝／Cavalry FC：1連勝",
+  "avg_points": "Atletico Ottawa：1試合平均得失差 -0.10（10試合）／Cavalry FC：1試合平均得失差 +2.40（10試合）",
+  "current_competition": "Atletico Ottawa {'rank': 4, 'played': 12, 'W': 4, 'D': 1, 'L': 7, 'gf': 14, 'ga': 24, 'pts': 13, 'group': None}／Cavalry FC {'rank': 1, 'played': 11, 'W': 7, 'D': 2, 'L': 2, 'gf': 18, 'ga': 6, 'pts': 23, 'group': None}（LiveScore順位表 Canada / Premier League（2026-09-29T23:10:38+09:00取得））",
+  "ranking": "公式ランキング・Eloなし。LiveScore表：Cavalry 1位（11試合7勝2分2敗 18:6 23pt）、Ottawa 4位（12試合4勝1分7敗 14:24 13pt）",
+  "h2h_all": "確認できたH2H 3件（LiveScore、2026年）すべてCavalry勝ち：04-13 1-3、07-05 0-3、08-23 1-3（Ottawa側を先に表記）",
+  "h2h_points": "3試合合計 Ottawa 2－Cavalry 9（平均 -2.33、Cavalry側+2.33）",
+  "h2h_home_away": "08-23はCavalryホームで3-1。04-13・07-05のH/Aは未確認。今回の会場は配信で不明（左＝Ottawa）",
+  "common_60d": "60日以内（2026-08-02以降）の共通相手6チーム：HFX（Ott +1,+1／Cav +2）、Supra du Quebec（Ott -2,+1／Cav +6,0）、Forge（Ott -3／Cav 0,+1）、Pacific（Ott 0／Cav +1）、Inter Toronto（Ott +1／Cav +5）、Vancouver（Ott +4,-2／Cav +1）。合計得失差 Ottawa +1（9試合）／Cavalry +16（8試合）。6相手すべてでCavalryの得失差が同等以上",
+  "first_rate": "先制率のデータは未取得",
+  "absences": "未取得",
+  "roster_changes": "未取得"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場情報は未取得（Web調査不可）。確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "Cavalryは09-26に試合（中4日）、Ottawaは09-27（中3日）。ローテーション情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当する材料なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 3件はすべて2026年（直近は08-23）で新しい",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回の会場は配信で不明（左＝Ottawaなら Ottawaホーム）。Ottawaのホーム成績は直近10でH 3勝1分1敗・A 2勝3敗とホームで良い。H2Hで確認できたH/Aは08-23（Cavalryホーム）のみ",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Ottawaは直近5で2勝1分2敗（09-27 HFXに1-0勝）で急改善とまでは言えない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー/バスケの単発試合でBO形式は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "レギュラーシーズン終盤。Cavalryは首位で順位の確定状況は未確認のため、終盤の温存可能性は残る",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 5,
+   "L": 4,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 3,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 3,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 13,
+   "points_against": 14,
+   "points_games": 10
+  },
+  "right": {
+   "games": 10,
+   "W": 8,
+   "L": 0,
+   "D": 2,
+   "win_rate": 80.0,
+   "home": {
+    "W": 6,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 29,
+   "points_against": 5,
+   "points_games": 10
+  },
+  "h2h": {
+   "games": 3,
+   "left": 0,
+   "right": 3,
+   "draw": 0,
+   "points_left": 2,
+   "points_right": 9,
+   "points_games": 3,
+   "avg_left": 0.7,
+   "avg_right": 3.0
+  },
+  "common": [
+   {
+    "opp": "HFX Wanderers FC",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     },
+     {
+      "date": "2026-08-09",
+      "iso": "2026-08-09",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "3-1",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "2勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Supra du Quebec",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Canada / Premier League"
+     },
+     {
+      "date": "2026-08-17",
+      "iso": "2026-08-17",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "6-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     },
+     {
+      "date": "2026-08-09",
+      "iso": "2026-08-09",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝1敗",
+    "right_rec": "1勝1敗"
+   },
+   {
+    "opp": "Forge FC",
+    "left": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Canada / Premier League"
+     },
+     {
+      "date": "2026-08-16",
+      "iso": "2026-08-16",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝1敗"
+   },
+   {
+    "opp": "Pacific FC",
+    "left": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-14",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Vancouver FC",
+    "left": [
+     {
+      "date": "2026-08-20",
+      "iso": "2026-08-20",
+      "score": "4-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     },
+     {
+      "date": "2026-08-02",
+      "iso": "2026-08-02",
+      "score": "1-3",
+      "res": "L",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-08-30",
+    "left_rec": "1勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Inter Toronto",
+    "left": [
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-02",
+      "iso": "2026-08-02",
+      "score": "5-0",
+      "res": "W",
+      "comp": "Canada / Premier League"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-08-29",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

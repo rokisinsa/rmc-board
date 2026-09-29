@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-73992774",
- "data_as_of": "2026-09-29T22:27:25+09:00",
+ "data_as_of": "2026-09-29T23:25:12+09:00",
  "unit": "なし",
  "left": {
   "name": "Congo",
@@ -33,26 +33,50 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "試合開始（2026-09-30 04:00 JST）後の記入。試合前の情報のみ使用",
+  "Elo値はdiscoveryの自動照合値で、コンゴ共和国と民主共和国の取り違えがないか未再確認"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060）に直接対戦の記録なし。他の資料で要確認"
+  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060）に直接対戦の記録なし。他の資料で要確認",
+  "deep5.h2h_all": "H2H全件: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.first_rate": "先制率: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.absences": "欠場: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "deep5.roster_changes": "ロスター変更: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
+  "current_competition": "現在大会成績（順位表）: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
  },
  "source_urls": [
-  "LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060"
+  "LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060",
+  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
  ],
  "metrics": {
-  "left": {},
-  "right": {},
-  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+  "left": {
+   "elo": 1192,
+   "rank": 158
+  },
+  "right": {
+   "elo": 1621,
+   "rank": 59
+  },
+  "source": "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）／LiveScore"
  },
  "deep5": {
   "last5": "Congo：0勝1敗／Cameroon：1勝0敗",
   "last10": "Congo：0勝1敗（1試合）／Cameroon：1勝0敗（1試合）",
   "streak": "Congo：1連敗／Cameroon：1連勝",
-  "avg_points": "Congo：1試合平均得失差 -1.00（1試合）／Cameroon：1試合平均得失差 +2.00（1試合）"
+  "avg_points": "Congo：1試合平均得失差 -1.00（1試合）／Cameroon：1試合平均得失差 +2.00（1試合）",
+  "ranking": "eloratings：コンゴ1192（158位）、カメルーン1621（59位）、差429（カメルーン側）",
+  "current_competition": "AFCON予選グループG：コンゴは09-24ナミビアに0-1敗（A）、カメルーンは09-25コモロに3-1勝（H）。順位表の数値は未取得",
+  "h2h_all": "LiveScoreの当該大会データに直接対戦の記録なし。他資料は未確認",
+  "h2h_points": "H2H未取得のため算出不可",
+  "h2h_home_away": "H2H未取得のため不明。今回はコンゴのホーム（配信表記）",
+  "common_60d": "60日以内の日付付き試合は各1件（コンゴ：ナミビア、カメルーン：コモロ）で共通相手なし",
+  "first_rate": "未取得",
+  "absences": "未取得",
+  "roster_changes": "未取得"
  },
  "calc": {
   "left": {
@@ -106,5 +130,57 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場情報は未取得（Web調査不可）。確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "予選の連戦（9/24・9/25→9/29〜30）。ローテーションの有無は未確認",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "未確認",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H自体が取得できておらず、格差根拠はElo差のみ",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回コンゴのホーム。Elo差429はホーム補正（通常100程度）を考えても残る差",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "コンゴは直近ナミビアに0-1敗で改善材料なし。ただし直近成績は各1件しか取得できていない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー/バスケの単発試合でBO形式は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未取得",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "AFCON予選グループ序盤（各1試合消化の記録のみ）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

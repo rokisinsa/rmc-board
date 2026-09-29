@@ -1,0 +1,180 @@
+{
+ "match_id": "ls-1856632",
+ "data_as_of": "2026-09-29T23:10:38+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Klagenfurter AC",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Graz 99ers",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "6-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "HK Olimpija",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "7-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "EC VSV",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Val Pusteria",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Salzburg",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "7-1",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Milano",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Vienna Capitals",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "6-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Ferencvaros",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Vorarlberg",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "5-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "EHC Black Wings Linz",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Innsbruck",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Austria / ICE Hockey League eid=1856632）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore Austria / ICE Hockey League eid=1856632"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {
+   "season_wr": 80.0,
+   "gd_pg": 1.6,
+   "pd_pg": 1.6,
+   "rd_pg": 1.6,
+   "pts_rate": 0.8
+  },
+  "source": "LiveScore順位表（2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Klagenfurter AC：5勝0敗／Milano：4勝1敗",
+  "last10": "Klagenfurter AC：5勝0敗（5試合）／Milano：4勝1敗（5試合）",
+  "streak": "Klagenfurter AC：5連勝／Milano：1連勝",
+  "avg_points": "Klagenfurter AC：1試合平均得失差 +4.00（5試合）／Milano：1試合平均得失差 +1.60（5試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 5,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "5連勝",
+   "points_for": 29,
+   "points_against": 9,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 4,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 18,
+   "points_against": 10,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}

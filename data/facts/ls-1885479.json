@@ -1,0 +1,158 @@
+{
+ "match_id": "ls-1885479",
+ "data_as_of": "2026-09-29T23:10:38+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Lithuania",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-06-12",
+    "opp": "Estonia",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2024-06-08",
+    "opp": "Latvia",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Andorra",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-10-14",
+    "opp": "San Marino",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2024-09-05",
+    "opp": "Gibraltar",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2024-06-12",
+    "opp": "Northern Ireland",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2024-06-06",
+    "opp": "Spain",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2024-03-26",
+    "opp": "Bolivia",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2024-03-22",
+    "opp": "South Africa",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1885479）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1885479"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T23:10:38+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Lithuania：1勝1分0敗／Andorra：1勝4敗",
+  "last10": "Lithuania：1勝1分0敗（2試合）／Andorra：1勝1分4敗（6試合）",
+  "streak": "Lithuania：1連分／Andorra：1連勝",
+  "avg_points": "Lithuania：1試合平均得失差 +1.00（2試合）／Andorra：1試合平均得失差 -1.17（6試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 0,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 1,
+   "points_games": 2
+  },
+  "right": {
+   "games": 6,
+   "W": 1,
+   "L": 4,
+   "D": 1,
+   "win_rate": 16.7,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 4,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 10,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
+ }
+}
