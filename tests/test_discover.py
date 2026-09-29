@@ -70,5 +70,22 @@ class TestDiscover(unittest.TestCase):
         self.assertEqual(d.group_of({"sport": "卓球", "competition": "WTT Champions"}), "卓球（国際/WTT）")
 
 
+class TestDiscoveryGate(unittest.TestCase):
+    def test_gate_errors(self):
+        from rmc import validate, core
+        import unittest.mock as um
+        rep = validate.Report()
+        ana = {"r1": {"decided_at": "2026-09-30T06:00:00+09:00", "rows": []}}
+        scr = {"stage": "finalized", "locked_at": "2026-09-30T06:00:00+09:00", "screened_at": "2026-09-30T06:01:00+09:00",
+               "odds_attached_at": "2026-09-30T06:30:00+09:00", "odds_used_in_screening": False,
+               "rows": [dict(match_id="m1", start_jst="2026-09-30T09:00:00+09:00", status="一次候補")]}
+        matches = {"m1": {"start_jst": "2026-09-30T09:00:00+09:00"}, "m2": {"start_jst": "2026-09-30T10:00:00+09:00"}}
+        with um.patch.object(validate, "load", lambda rel, default=None: scr if rel == "discovery/latest.json" else default):
+            validate.check_discovery(rep, matches, ana)
+        txt = " ".join(rep.errors)
+        self.assertIn("m2: 24時間以内の試合が⑤に通されていない", txt)
+        self.assertIn("一次候補のまま", txt)
+
+
 if __name__ == "__main__":
     unittest.main()

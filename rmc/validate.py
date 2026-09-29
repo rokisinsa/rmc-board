@@ -228,6 +228,48 @@ def check_sport_floor(rep, matches):
             rep.err("SPORT_FLOOR", f"{lg}/{sp}: 対象試合があるのに正式採用が1件もない（rmc.select.apply_floor で競技枠を出す）")
 
 
+D5_START = "2026-09-30T05:00:00+09:00"   # ⑤ 格差候補発見エンジンの必須化（この時刻以降の定時更新から）
+
+
+def check_discovery(rep, matches, ana_by_logic):
+    """⑤：毎回、①〜④より前に全試合を⑤に通し、候補は完全深掘り・反対材料確認ののち確定し、最後にオッズを付けていること。"""
+    from . import discover as d5
+    decided = max(((a or {}).get("decided_at") or "") for a in ana_by_logic.values()) if ana_by_logic else ""
+    if not decided or decided < D5_START:
+        return
+    scr = load("discovery/latest.json")
+    if not scr:
+        rep.err("DISCOVERY", "⑤の結果（data/discovery/latest.json）がない"); return
+    if scr.get("stage") != "finalized":
+        rep.err("DISCOVERY", "⑤が確定（finalize）まで進んでいない")
+    if abs((parse(scr["locked_at"]) - parse(decided)).total_seconds()) > 6 * 3600:
+        rep.err("DISCOVERY", f"⑤の判定時刻 {scr.get('locked_at')} が今回の①〜④ {decided} と別の回")
+    if scr.get("odds_used_in_screening") is not False:
+        rep.err("DISCOVERY", "⑤の候補発見でオッズを使っていない証跡（odds_used_in_screening=false）がない")
+    if not scr.get("odds_attached_at") or scr["odds_attached_at"] < scr.get("screened_at", ""):
+        rep.err("DISCOVERY", "オッズは⑤の候補確定のあとに付ける（odds_attached_at が screened_at より前か無い）")
+    rows = {r["match_id"]: r for r in scr.get("rows", [])}
+    for mid in d5.inventory(matches, scr["locked_at"]):
+        if mid not in rows:
+            rep.err("DISCOVERY", f"{mid}: 24時間以内の試合が⑤に通されていない")
+    for r in rows.values():
+        if any(k in json.dumps(r.get("indicators") or {}) for k in ('"prices"', '"odds', '"nv_')):
+            rep.err("DISCOVERY", f"{r['match_id']}: ⑤の指標にオッズ由来の値が入っている")
+        if r.get("status") == "一次候補":
+            rep.err("DISCOVERY", f"{r['match_id']}: 一次候補のまま（完全深掘り・反対材料確認・確定をしていない）")
+        if r.get("status") == "深掘り未完":
+            rep.err("DISCOVERY", f"{r['match_id']}: ⑤候補の深掘り未完（{r.get('reason')}）。取れない項目は facts.unavailable に理由")
+        if r.get("status") == "格差候補確定" and (not r.get("support") or r.get("grade") not in ("A", "B")):
+            rep.err("DISCOVERY", f"{r['match_id']}: 確定候補に支持材料・⑤-A/B の区分がない")
+    conf = {m for m, r in rows.items() if r.get("status") == "格差候補確定" and r["start_jst"] > decided}
+    for lg, a in ana_by_logic.items():
+        seen = {x["match_id"]: x for x in (a or {}).get("rows", [])}
+        for mid in conf:
+            x = seen.get(mid)
+            if not x or not x.get("d5") or not x.get("deep_dive"):
+                rep.err("DISCOVERY", f"{lg}/{mid}: ⑤の確定候補が①〜④に深掘り付きで渡されていない（rmc.discover.tag_rows）")
+
+
 def check_runs(rep, runs, ana_by_logic):
     if not runs:
         rep.err("RUNS_EMPTY", "automation-runs.json に記録がない")
@@ -322,6 +364,7 @@ def run(base=None):
     check_facts_coverage(rep, matches)
     check_results_overdue(rep, matches)
     check_sport_floor(rep, matches)
+    check_discovery(rep, matches, ana)
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}
