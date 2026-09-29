@@ -1592,8 +1592,18 @@
   "left": "ホルダ・サンチス",
   "right": "デ・ヨング",
   "home_away": "left=home（NFL/MLBはleft=away）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "6-4, 3-5 ret.",
+   "source_rank": "results_db",
+   "source_url": "https://en.tennistemple.com/match/jorda-sanchis-de-jong-porto-2026/9483188/comments",
+   "identity_checked": true,
+   "identity_note": "ATPチャレンジャー Porto（Monte Aventino, 9/28-10/4）1回戦、2026-09-29 現地10:00=19:00 JST。ATP公式ドローで対戦カード『D. Jorda Sanchis vs J. de Jong (3)』を確認",
+   "note": "デ・ヨングが第2セット5-3リード時に途中棄権し、ホルダ・サンチスが6-4, 3-5 ret.で勝利（AiScore・TennisTemple一致。勝者の2回戦進出も確認）。試合成立のため通常精算",
+   "checked_at": "2026-09-30T00:22:03+09:00",
+   "run_id": "manual-20260930-0030"
+  },
   "note": "コート順により開始は後ろにずれる／開始日時を09-28T18:00→09-29T18:00に訂正（ATP公式ドローにあり。09-28のオーダーになく、tennisexplorer（id 3333638）は09-29 18:00 JST。火曜の公式オーダー未発表のため要再確認）／開始時刻を配信te:3333638（05:50取得）の09-29T19:00に更新（旧09-29T18:00）",
   "flags": [
    "開始時刻要確認"
@@ -18053,8 +18063,18 @@
   "left": "Parivision",
   "right": "LVLUP",
   "home_away": "左＝ホーム（配信表記）",
-  "status": "scheduled",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "2-0",
+   "source_rank": "results_db",
+   "source_url": "https://www.offstage.ru/dota2/news/parivision-i-team-spirit-vyigrali-pervye-matchi-na-blast-slam-viii",
+   "identity_checked": true,
+   "identity_note": "BLAST Slam VIII グループA初戦、2026-09-29 12:00 CEST=19:00 JST、PARIVISION vs LVLUP",
+   "note": "PARIVISIONが2-0で勝利（マップ1 30-20、マップ2 20-3。offstage.ru・Sofascore・cybersport.ru）",
+   "checked_at": "2026-09-30T00:22:03+09:00",
+   "run_id": "manual-20260930-0030"
+  },
   "note": "Bovada bov:31366990（05:47取得）",
   "flags": [],
   "feed_ids": [
@@ -26366,8 +26386,18 @@
   "left": "Galfi D.",
   "right": "Micic E.",
   "home_away": "中立（大会会場）",
-  "status": "unknown",
-  "result": null,
+  "status": "final",
+  "result": {
+   "winner": "L",
+   "score": "7-5, 6-0",
+   "source_rank": "results_db",
+   "source_url": "https://en.tennistemple.com/player/dalma-galfi",
+   "identity_checked": true,
+   "identity_note": "WTA125 Adana 1回戦（R32）、2026-09-29 09:00 UTC=18:00 JST。相手は当初Grabherの予定からLLのMicic E.に差し替え（採用時の相手と一致）",
+   "note": "ガルフィが7-5, 6-0で勝利（TennisTemple両選手ページで同スコア確認）",
+   "checked_at": "2026-09-30T00:22:03+09:00",
+   "run_id": "manual-20260930-0030"
+  },
   "note": "tennisexplorer te:3335868（05:50取得）／09-29T19:07時点 unknown：~19:06 JST時点 WTA公式ドローページは当該試合にスコア無し(進行中または未反映)。tennismajorsは『Coming soon』、wtatennis scoresページは動的読込みで取得不可、tennisexplorerはリダイレクトエラー。結果未確認",
   "flags": [],
   "feed_ids": [
