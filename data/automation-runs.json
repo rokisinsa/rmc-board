@@ -16746,12 +16746,12 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
-   "36": false,
-   "37": false,
-   "38": false,
-   "39": false,
+   "34": true,
+   "35": true,
+   "36": true,
+   "37": true,
+   "38": true,
+   "39": true,
    "40": false,
    "41": false
   },
@@ -16774,14 +16774,22 @@
    "19": "日付・JST時刻・大会・ラウンド・相手を identity_note に記録（Bestia-QUINTESSENCIA は表示時刻の1時間差を同日唯一の対戦として照合）",
    "21": "同じ match_id の全ロジック・経験値取引へ反映",
    "27": "今回の確定は3勝0敗で敗戦なし（post-match review の新規対象なし）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
-   "40": "報告送信後に確定",
+   "34": "main へ push（a5c2648）。競合なし、テスト22件・validate エラー0",
+   "35": "読み替え表の方法：Actions test-validate-deploy run 36520480735 の test・deploy とも success",
+   "36": "読み替え表の方法：同 run の verify-public が success（公開 deploy.json の sha 一致・index.html と全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "37": "読み替え表の方法：同 run の verify-public が success（公開 deploy.json の sha 一致・index.html と全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "38": "読み替え表の方法：同 run の verify-public が success（公開 deploy.json の sha 一致・index.html と全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "39": "読み替え表の方法：同 run の verify-public が success（公開 deploy.json の sha 一致・index.html と全JSONのバイト一致・公開JSONからの収支/格差帯/CLV再計算一致・run_id一致）",
+   "40": "報告送信（SendUserMessage）",
    "41": "上記未完了があるため定時更新完了とはしない"
+  },
+  "end_sha": "a5c2648367f34c3319a8fe0b6f18ca9ce180d256",
+  "actions": {
+   "run_id": 36520480735,
+   "test": "success",
+   "deploy": "success",
+   "verify_public": "success",
+   "sha": "a5c2648367f34c3319a8fe0b6f18ca9ce180d256"
   }
  }
 ]
