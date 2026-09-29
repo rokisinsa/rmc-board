@@ -198,6 +198,27 @@ EXTREME = {"elo_diff": 400, "surface_elo_diff": 300, "rating_diff": 100, "net_ra
 TIER_LABEL = {1: "Tier 1（独立4系統以上 or 極端値）", 2: "Tier 2（独立3系統）", 3: "Tier 3（1〜2系統）"}
 
 
+def priority_of(row, locked):
+    """深掘りの処理順（大きいほど先）。候補を削除するためではなく、順番を決めるためだけに使う。
+    極端値の大きさ＋独立した発火系統数＋データ信頼度＋試合開始までの残り時間。"""
+    ext = 0.0
+    for h in row.get("hits") or []:
+        th = EXTREME.get(h.get("ind") or h["key"])
+        if th:
+            ext = max(ext, h["value"] / th)
+    rel = min(len(row.get("indicators_available") or []) / 8, 1.0)   # 取れている指標の多さ＝データ信頼度
+    if "下位" in str(row.get("group") or "") or "下位リーグ" in str(row.get("competition") or ""):
+        rel -= 0.5
+    try:
+        hrs = max((core.parse(row["start_jst"]) - core.parse(locked)).total_seconds() / 3600, 0)
+    except Exception:
+        hrs = DISCOVER_HOURS
+    row["priority"] = round(2 * ext + len(row.get("families") or []) + rel - hrs / 24, 2)
+    row["priority_detail"] = dict(extreme_ratio=round(ext, 2), families=len(row.get("families") or []),
+                                  reliability=round(rel, 2), hours_to_start=round(hrs, 1))
+    return row["priority"]
+
+
 def tier_of(match, hits, ind):
     fams = {FAMILY.get(h["key"], h["key"]) for h in hits}
     ext = []
@@ -689,13 +710,18 @@ def _ls():
     return _BASIC["ls"]
 
 
-_AGE = re.compile(r"\bU-?(\d{2})\b|women|\(w\)", re.I)
+def _cat(n):
+    """チームのカテゴリ署名（年代・女子・リザーブ/アカデミー/B/II/ユース）。署名が違うチームは絶対に同一視しない。"""
+    t = str(n or "")
+    age = re.search(r"\bU-?(\d{2})\b", t, re.I)
+    return (age[1] if age else "",
+            bool(re.search(r"women|\(w\)|\bw$", t, re.I)),
+            bool(re.search(r"reserves?\b|\bacademy\b|\byouth\b|\bii\b|\bb$", t, re.I)))
 
 
 def _same(a, b):
-    ya = sorted(x.lower() for x in _AGE.findall(str(a or "")) if x); yb = sorted(x.lower() for x in _AGE.findall(str(b or "")) if x)
-    if ya != yb:
-        return False          # U21 と A代表、女子と男子を同じ試合とみなさない
+    if _cat(a) != _cat(b):
+        return False          # U21とA代表、女子と男子、リザーブ/アカデミー/Bとトップを同じチームとみなさない
     a, b = _norm(a), _norm(b)
     return bool(a) and bool(b) and (a == b or (min(len(a), len(b)) >= 5 and (a in b or b in a)))
 
@@ -976,9 +1002,43 @@ def run_screen(locked, matches=None):
                                 only_in_one_source=only,
                                 note="オッズ配信・LiveScore・UEFA公式・FIFA公式・Liquipedia・VLR.gg の日程を照合し、どれか1つにしか無い試合も母集団に入れた")
     out["basic_sources"] = {k: (_BASIC.get(k) or {}).get("taken_at") for k in ("tennis", "ls")}
-    out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", r.get("tier") or 9, -len(r.get("families") or []), -(r.get("hit_count") or 0), r["start_jst"]))
+    _dedupe_rows(out)
+    for r in out["rows"]:
+        if r.get("status") == "一次候補":
+            priority_of(r, locked)
+    out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", r.get("tier") or 9, -(r.get("priority") or -99), r["start_jst"]))
     _summ(out)
     return out
+
+
+def _dedupe_rows(out):
+    """同一fixtureの行を統合（表記ゆれ・登録経路違い）。m- のIDを優先して残し、fixture_sources を合算する。"""
+    keep, dropped = [], []
+    for r in sorted(out["rows"], key=lambda r: (r["match_id"].startswith(("ls-", "ex-")), r["match_id"])):
+        dup = next((k for k in keep if k["sport"] == r["sport"] and _fx_match(
+            dict(sport=r["sport"], start_jst=r["start_jst"], t1=r["left"], t2=r["right"]),
+            dict(sport=k["sport"], start_jst=k["start_jst"], left=k["left"], right=k["right"])) is not None), None)
+        if dup is None:
+            keep.append(r)
+        else:
+            for src in r.get("fixture_sources") or []:
+                if src not in dup["fixture_sources"]:
+                    dup["fixture_sources"].append(src)
+            dropped.append(dict(dropped=r["match_id"], kept=dup["match_id"], name=f"{r['left']} vs {r['right']}"))
+    out["rows"] = keep
+    out["dedup_dropped"] = dropped
+    return out
+
+
+def _dup_check(rows):
+    seen, dup = {}, []
+    for r in rows:
+        k = (r["sport"], _cat(r["left"]), _cat(r["right"]), _norm(r["left"]), _norm(r["right"]), r["start_jst"][:13])
+        if k in seen:
+            dup.append((seen[k], r["match_id"]))
+        else:
+            seen[k] = r["match_id"]
+    return dup
 
 
 def register_candidates(scr, matches=None):
@@ -1129,17 +1189,28 @@ def _summ(scr):
     scr["by_sport"] = by
     rows = scr["rows"]
     cand = [r for r in rows if r.get("status") in CAND]
+    hits_by = _count(rows, lambda r: r.get("fixture_sources") or (["LiveScore日程"] if r["match_id"].startswith("ls-") else ["オッズ配信（Bovada/tennisexplorer/BC）"]))
+    started = [r for r in cand if r.get("status") in ("深掘り未完", "反対材料で保留", "格差候補確定")]
+    done = [r for r in cand if r.get("status") in ("格差候補確定", "反対材料で保留")]
+    na = sum(1 for r in rows if r.get("grade") == "A"); nb = sum(1 for r in rows if r.get("grade") == "B")
+    nh = sum(1 for r in rows if r.get("status") == "反対材料で保留"); nc = sum(1 for r in rows if r.get("market_only"))
     scr["run_log"] = {
-        "A_母集団の試合数": len(rows),
-        "A_内訳_日程ソース別": _count(rows, lambda r: r.get("fixture_sources") or (["LiveScore日程"] if r["match_id"].startswith("ls-") else ["オッズ配信（Bovada/tennisexplorer/BC）"])),
+        "A_source_hits_延べ": dict(hits_by, 合計=sum(hits_by.values())),
+        "A_unique_fixtures_重複排除後": len(rows),
+        "A_重複統合数": len(scr.get("dedup_dropped") or []),
+        "B_一次スクリーニング済み": sum(1 for r in rows if r.get("status") not in ("対象外", "条件未定義")),
         "B_一次候補数": len(cand),
         "C_Tier別": {f"Tier{t}": sum(1 for r in cand if r.get("tier") == t) for t in (1, 2, 3)},
-        "D_深掘り完了数": sum(1 for r in cand if r.get("status") in ("格差候補確定", "反対材料で保留")),
-        "E_⑤-A": sum(1 for r in rows if r.get("grade") == "A"), "E_⑤-B": sum(1 for r in rows if r.get("grade") == "B"),
-        "E_⑤-C": sum(1 for r in rows if r.get("market_only")), "E_反対材料で保留": sum(1 for r in rows if r.get("status") == "反対材料で保留"),
-        "F_未完了数": sum(1 for r in cand if r.get("status") in ("一次候補", "深掘り未完")),
+        "D_深掘り開始": len(started),
+        "D_深掘り完了": len(done),
+        "D_定義": "深掘り完了＝⑤-A・⑤-B・保留のどれかに確定した候補（完了＝A+B+保留）。⑤-Cは候補外の試合（市場だけ極端）で、深掘りの内訳に含めない",
+        "E_⑤-A": na, "E_⑤-B": nb, "E_反対材料で保留": nh, "E_⑤-C_候補外": nc,
+        "F_未完了数": len(cand) - len(done),
         "F_未完了_Tier別": {f"Tier{t}": sum(1 for r in cand if r.get("status") in ("一次候補", "深掘り未完") and r.get("tier") == t) for t in (1, 2, 3)},
-        "F_未完了の理由": scr.get("incomplete_reason") or ("深掘り未実施（優先度順に処理中）" if any(r.get("status") in ("一次候補", "深掘り未完") for r in cand) else None),
+        "F_未完了の理由": scr.get("incomplete_reason") or ("深掘り未実施（優先度順に処理中）" if len(done) < len(cand) else None),
+        "整合性": dict(深掘り完了_eq_A_B_保留=(len(done) == na + nb + nh),
+                     Tier合計_eq_一次候補=(sum(1 for r in cand if r.get("tier") in (1, 2, 3)) == len(cand)),
+                     重複行=len(_dup_check(rows))),
         "日程ソース照合": scr.get("fixture_check"),
     }
 

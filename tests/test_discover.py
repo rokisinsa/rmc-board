@@ -84,7 +84,7 @@ class TestDiscoveryGate(unittest.TestCase):
             validate.check_discovery(rep, matches, ana)
         txt = " ".join(rep.errors)
         self.assertIn("m2: 24時間以内の試合が⑤に通されていない", txt)
-        self.assertIn("一次候補のまま", txt)
+        self.assertIn("⑤候補が未完了", txt)
 
 
 if __name__ == "__main__":

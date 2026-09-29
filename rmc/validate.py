@@ -258,19 +258,34 @@ def check_discovery(rep, matches, ana_by_logic):
     for mid in d5.inventory(matches, scr["locked_at"]):
         if mid not in rows:
             rep.err("DISCOVERY", f"{mid}: 24時間以内の試合が⑤に通されていない")
+    claims_complete = last_run.get("status") == "complete"
+    has_blocker_note = "⑤" in json.dumps(last_run.get("blockers") or [], ensure_ascii=False)
     for r in rows.values():
         if any(k in json.dumps(r.get("indicators") or {}) for k in ('"prices"', '"odds', '"nv_')):
             rep.err("DISCOVERY", f"{r['match_id']}: ⑤の指標にオッズ由来の値が入っている")
-        if r.get("status") == "一次候補":
-            rep.err("DISCOVERY", f"{r['match_id']}: 一次候補のまま（完全深掘り・反対材料確認・確定をしていない）")
-        if r.get("status") == "深掘り未完":
-            runs = load("automation-runs.json", []) or [{}]
-            last = runs[-1]
-            gate = rep.err if last.get("status") == "complete" or "⑤" not in json.dumps(last.get("blockers") or [], ensure_ascii=False) else rep.warn
-            gate("DISCOVERY", f"{r['match_id']}: ⑤候補の深掘り未完（{r.get('reason')}）。取れない項目は facts.unavailable に理由。"
-                              "取り切れない場合は run を partial にして blockers に「⑤深掘り未完 N件と理由」を書き、次回に引き継ぐ")
+        if r.get("status") in ("一次候補", "深掘り未完"):
+            # complete と主張する run では未完了候補は1件も許されない（Tier に関係なく）。partial なら blockers 記録が条件
+            gate = rep.err if claims_complete or not has_blocker_note else rep.warn
+            gate("DISCOVERY", f"{r['match_id']}: ⑤候補が未完了（Tier{r.get('tier')}・{r.get('status')}：{str(r.get('reason'))[:60]}）。"
+                              "complete にするには Tier1〜3 の全候補が確定していること。取り切れない場合は run を partial にして blockers に「⑤深掘り未完 N件と理由」")
         if r.get("status") == "格差候補確定" and (not r.get("support") or r.get("grade") not in ("A", "B")):
             rep.err("DISCOVERY", f"{r['match_id']}: 確定候補に支持材料・⑤-A/B の区分がない")
+    # complete の追加条件：ログの件数整合・重複行なし・JST形式
+    rl = scr.get("run_log") or {}
+    cons = rl.get("整合性") or {}
+    if claims_complete:
+        if not rl:
+            rep.err("DISCOVERY", "complete なのに⑤の run_log（A〜F）がない")
+        if cons.get("深掘り完了_eq_A_B_保留") is not True:
+            rep.err("DISCOVERY", "complete なのに 深掘り完了 ≠ ⑤-A＋⑤-B＋保留（件数の整合が取れていない）")
+        if cons.get("Tier合計_eq_一次候補") is not True:
+            rep.err("DISCOVERY", "complete なのに Tier1+2+3 ≠ 一次候補数")
+        if cons.get("重複行", 0) != 0:
+            rep.err("DISCOVERY", f"complete なのに母集団に同一試合の重複行が{cons.get('重複行')}組ある")
+    for k in ("locked_at", "screened_at", "odds_attached_at"):
+        v = scr.get(k)
+        if v and not JST_RE.match(v):
+            rep.err("DISCOVERY", f"⑤の {k} がJST ISO形式でない（{v}）")
     conf = {m for m, r in rows.items() if r.get("status") == "格差候補確定" and r["start_jst"] > decided}
     for lg, a in ana_by_logic.items():
         seen = {x["match_id"]: x for x in (a or {}).get("rows", [])}
