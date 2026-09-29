@@ -1,0 +1,273 @@
+{
+ "day_code": 200,
+ "n_stages": 58,
+ "n_events": 141,
+ "stage_keys": [
+  "Sid",
+  "Snm",
+  "Scd",
+  "Cnm",
+  "CnmT",
+  "Csnm",
+  "Ccd",
+  "CompId",
+  "CompCnmt",
+  "CompN",
+  "CompUrlName",
+  "CompD",
+  "Scu",
+  "badgeUrl",
+  "Feed",
+  "Events",
+  "Games"
+ ],
+ "event_keys": [
+  "Eid",
+  "Pids",
+  "Media",
+  "T1",
+  "T2",
+  "Eps",
+  "Esid",
+  "Epr",
+  "Ecov",
+  "ErnInf",
+  "Et",
+  "Esd",
+  "EO",
+  "EOX",
+  "Spid",
+  "Pid"
+ ],
+ "sample_stage": {
+  "Sid": "24563",
+  "Snm": "League A: Group 3",
+  "Scd": "league-a-group-3",
+  "Cnm": "UEFA Nations League",
+  "CnmT": "uefa-nations-league",
+  "Csnm": "UEFA Nations League",
+  "Ccd": "uefa-nations-league",
+  "CompId": "523",
+  "CompCnmt": "international",
+  "CompN": "UEFA Nations League",
+  "CompUrlName": "uefa-nations-league",
+  "CompD": "UEFA",
+  "Scu": 0,
+  "badgeUrl": "uefa-nations-league-2024.png",
+  "Feed": {
+   "Id": "cp:523",
+   "Items": [
+    "cp:523-a:4045348",
+    "cp:523-a:4045347",
+    "cp:523-a:4045349",
+    "cp:523-a:4042777",
+    "cp:523-a:4042690"
+   ]
+  },
+  "Games": {
+   "p6": [
+    {
+     "id": "681334bd5a041059deb5b7ae",
+     "status": "ACTIVE",
+     "closeTime": 1791043200000,
+     "allowedCountries": [
+      "NG"
+     ]
+    }
+   ],
+   "ls6": [
+    {
+     "id": "679a5dc64c58a24929681a30",
+     "status": "ACTIVE",
+     "closeTime": 1791043200000,
+     "allowedCountries": [
+      "GB",
+      "IE"
+     ]
+    }
+   ]
+  }
+ },
+ "sample_event": {
+  "Eid": "1738297",
+  "Pids": {
+   "112": "SBTE_2_1026632421",
+   "8": "1738297",
+   "29": "1738297"
+  },
+  "Media": {
+   "112": [
+    {
+     "eventId": "ITV 1",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "itv.png",
+     "allowedCountries": [
+      "GB"
+     ]
+    },
+    {
+     "eventId": "STV",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "stv.png",
+     "allowedCountries": [
+      "GB"
+     ]
+    },
+    {
+     "eventId": "UTV",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "utv.png",
+     "allowedCountries": [
+      "IE",
+      "GB"
+     ]
+    },
+    {
+     "eventId": "Virgin Media Two",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "virgin-media.png",
+     "allowedCountries": [
+      "IE"
+     ]
+    },
+    {
+     "eventId": "FuboTV",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "fubo.png",
+     "allowedCountries": [
+      "CA",
+      "US"
+     ]
+    },
+    {
+     "eventId": "DAZN",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "dazn.png",
+     "allowedCountries": [
+      "CA"
+     ]
+    },
+    {
+     "eventId": "Sky Sports",
+     "provider": "ABELSON",
+     "type": "TV_CHANNEL",
+     "thumbnail": "skysports.png",
+     "allowedCountries": [
+      "MX"
+     ]
+    }
+   ],
+   "29": [
+    {
+     "streamhls": "https://livesportradio.com/global/reeng16/playlist.m3u8",
+     "deniedCountries": [],
+     "ageRestricted": "false",
+     "beforeStartTime": 5,
+     "afterEndTime": 15
+    }
+   ]
+  },
+  "T1": [
+   {
+    "ID": "9266",
+    "Nm": "Czechia",
+    "Img": "enet/8496.png",
+    "NewsTag": "/team/czech-republic-2022062716001253418-2348/",
+    "Abr": "CZE",
+    "Fc": "ed1b2c",
+    "Sc": "0060af"
+   }
+  ],
+  "T2": [
+   {
+    "ID": "9267",
+    "Nm": "England",
+    "Img": "enet/8491.png",
+    "NewsTag": "/team/england-2021020913320920836-2389/",
+    "Abr": "ENG",
+    "Fc": "FDFDFD",
+    "Sc": "2B57AC"
+   }
+  ],
+  "Eps": "NS",
+  "Esid": 1,
+  "Epr": 0,
+  "Ecov": 0,
+  "ErnInf": "2",
+  "Et": 1,
+  "Esd": 20260930034500,
+  "EO": 337428519,
+  "EOX": 337428519,
+  "Spid": 1,
+  "Pid": 8
+ },
+ "tries": {
+  "scoreboard": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/scoreboard/soccer/1738297?locale=en",
+   "code": 200,
+   "bytes": 3129,
+   "head": "{\"Eid\":\"1738297\",\"Pids\":{\"1\":\"5181851\",\"112\":\"SBTE_2_1026632421\",\"29\":\"1738297\",\"33\":\"71w8t9zroiv2n21vvbzjpme50\",\"36\":\"71w8t9zroiv2n21vvbzjpme50\",\"8\":\"1738297\"},\"Sids\":{\"1\":\"920743\",\"112\":\"SBTC3_110988\",\"33\":\"d4ekcqfksd2gogsicatstd1jo\",\"8\":\"24563\"},\"Media\":{\"112\":[{\"eventId\":\"ITV 1\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"itv.png\",\"allowedCountries\":[\"GB\"]},{\"eventId\":\"STV\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"stv.png\",\"allowedCountries\":[\"GB\"]},{\"eventId\":\"UTV\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"utv.png\",\"allowedCountries\":[\"IE\",\"GB\"]},{\"eventId\":\"Virgin Media Two\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"virgin-media.png\",\"allowedCountries\":[\"IE\"]},{\"eventId\":\"FuboTV\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"fubo.png\",\"allowedCountries\":[\"CA\",\"US\"]},{\"eventId\":\"DAZN\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"dazn.png\",\"allowedCountries\":[\"CA\"]},{\"eventId\":\"Sky Sports\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"skysports.png\",\"allowedCountries\":[\"MX\"]}],\"29\":[{\"streamhls\":\"https://livesportradio.com/global/reeng16/playlist.m3u8\",\"deniedCountries\":[],\"ageRestricted\":\"false\",\"beforeStartTime\":5,\"afterEndTime\":15}]},\"T1\":[{\"Nm\":\"Czechia\",\"ID\":\"9266\",\"Img\":\"enet/8496.png\",\"NewsTag\":\"/team/czech-republic-2022062716001253418-2348/\",\"Abr\":\"CZE\",\"tbd\":0,\"Gd\":1,\"Pids\":{\"33\":[\"70tnqyqn871jwlk26gtjw7knm\"],\"1\":[\"8496\"],\"12\":[\"SBTP_1_31284\"],\"112\":[\"SBTP_2_1000000067\"],\"36\":[\"70tnqyqn871jwl"
+  },
+  "h2h": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/h2h/soccer/1738297?locale=en",
+   "code": "HTTP Error 404: Not Found",
+   "bytes": 0,
+   "head": ""
+  },
+  "h2h2": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/h2h/soccer/1738297?locale=en&MD=1",
+   "code": "HTTP Error 404: Not Found",
+   "bytes": 0,
+   "head": ""
+  },
+  "form": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/form/soccer/1738297?locale=en",
+   "code": "HTTP Error 404: Not Found",
+   "bytes": 0,
+   "head": ""
+  },
+  "table": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/table/soccer/1738297?locale=en",
+   "code": "HTTP Error 404: Not Found",
+   "bytes": 0,
+   "head": ""
+  },
+  "stage": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/stage/soccer/uefa-nations-league/league-a-group-3/9?locale=en&MD=1",
+   "code": 200,
+   "bytes": 16006,
+   "head": "{\"Stages\":[{\"Sid\":\"24563\",\"Snm\":\"League A: Group 3\",\"Scd\":\"league-a-group-3\",\"badgeUrl\":\"uefa-nations-league-2024.png\",\"Cid\":\"463\",\"Cnm\":\"UEFA Nations League\",\"CnmT\":\"uefa-nations-league\",\"Csnm\":\"UEFA Nations League\",\"Ccd\":\"uefa-nations-league\",\"CompId\":\"523\",\"CompN\":\"UEFA Nations League\",\"CompD\":\"UEFA\",\"CompUrlName\":\"uefa-nations-league\",\"Scu\":0,\"Sds\":\"League A: Group 3\",\"Chi\":0,\"Shi\":0,\"Feed\":{\"Id\":\"cp:523\",\"Items\":[\"cp:523-a:4045348\",\"cp:523-a:4045347\",\"cp:523-a:4045349\",\"cp:523-a:4042777\",\"cp:523-a:4042690\"]},\"hasDraw\":false,\"CompCnmt\":\"international\",\"Events\":[{\"Eid\":\"1738304\",\"Pids\":{\"112\":\"SBTE_2_1026632412\",\"8\":\"1738304\"},\"Sids\":{\"112\":\"SBTC3_110988\"},\"Media\":{\"112\":[{\"eventId\":\"FuboTV\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"fubo.png\",\"allowedCountries\":[\"US\",\"CA\"]},{\"eventId\":\"DAZN\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"dazn.png\",\"allowedCountries\":[\"CA\"]},{\"eventId\":\"Amazon Prime PPV\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"allowedCountries\":[\"IE\",\"GB\"]},{\"eventId\":\"Sky Sports\",\"provider\":\"ABELSON\",\"type\":\"TV_CHANNEL\",\"thumbnail\":\"skysports.png\",\"allowedCountries\":[\"MX\"]}],\"8\":[{\"type\":\"YoutubeHighlights\",\"allowedCountries\":[\"TH\",\"CH\",\"LI\",\"NL\"]}]},\"Tr1\":\"1\",\"Tr2\":\"2\",\"T1\":[{\"Nm\":\"Czechia\",\"ID\":\"9266\",\"Img\":\"enet/8496.png\",\"NewsTag\":\"/team/czech-republic-2022062716001253418-2348/\",\"Abr\":\"CZE\",\"tbd\":0,\"Gd\":1,\"Pids\":{\"6\":[\"4714\",\"22732\"],\"8\":[\"9266\"]},\"CoNm\":\"Czech Republic\",\"CoId\":\"CZE\",\"HasVideo\":true}],\"T2\":[{\"Nm\":\"Croatia\",\"ID\":\"91"
+  },
+  "team": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/team/9266/0/details?locale=en",
+   "code": "HTTP Error 404: Not Found",
+   "bytes": 0,
+   "head": ""
+  },
+  "incidents": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/incidents/soccer/1738297?locale=en",
+   "code": 200,
+   "bytes": 2,
+   "head": "{}"
+  },
+  "lineups": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/lineups/soccer/1738297?locale=en",
+   "code": 200,
+   "bytes": 328,
+   "head": "{\"Eid\":\"1738297\",\"Lu\":[{\"Tnb\":1,\"Ps\":[{\"Aid\":\"9400\",\"Pid\":\"9400\",\"Fn\":\"Santiago\",\"Ln\":\"Denia Sanchez\",\"Pnt\":\"santiago-denia-sanchez\",\"Pos\":10,\"Pon\":\"COACH\",\"PosA\":10,\"Cn\":\"Spain\"}]},{\"Tnb\":2,\"Ps\":[{\"Aid\":\"29916\",\"Pid\":\"29916\",\"Fn\":\"Thomas\",\"Ln\":\"Tuchel\",\"Pnt\":\"thomas-tuchel\",\"Pos\":10,\"Pon\":\"COACH\",\"PosA\":10,\"Cn\":\"Germany\"}]}]}"
+  },
+  "statistics": {
+   "url": "https://prod-public-api.livescore.com/v1/api/app/statistics/soccer/1738297?locale=en",
+   "code": 200,
+   "bytes": 2,
+   "head": "{}"
+  }
+ },
+ "gibraltar": []
+}
