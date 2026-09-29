@@ -154,8 +154,11 @@ def check_ledger(rep, lg, ledger, matches, base_ledger):
     # locked 保護（append-only）
     if base_ledger is not None:
         cur = {e["entry_id"]: e for e in ledger}
+        archived = {e["entry_id"] for e in load(f"ledger_archive/{lg}.json", [])}  # ユーザー指示で台帳から外した分（保管済み）
         for old in base_ledger:
             new = cur.get(old["entry_id"])
+            if new is None and old["entry_id"] in archived:
+                continue
             if new is None:
                 rep.err("LOCKED_DELETED", f"{lg}/{old['entry_id']}: 既存の正式採用が削除された")
                 continue
