@@ -74,6 +74,7 @@ RULES = {
         _r("surface_elo_diff", "サーフェスElo差125以上", 125),
         _r("tennis_rank", "ATP/WTAランク：上位側100位以内で差80位以上、または順位比4倍以上（Eloが取れない場合）", 1, "tennis_rank", "rating_first:elo_diff"),
         _r("wr52_diff", "直近52週勝率差25pt以上", 25),
+        _r("season_wr_diff", "今季勝率差25pt以上（両者10試合以上）", 25),
         _r("surface_wr_diff", "同サーフェス勝率差25pt以上", 25),
         _r("last10_unit_diff", "直近10セット率差25pt以上", 25),
         _r("h2h_unit_rate", "H2Hセット率80%以上（2試合以上）", 80, "h2h_unit_rate", "min_n:2"),
@@ -608,6 +609,109 @@ def _facts(mid):
     return json.load(open(f, encoding="utf-8")) if os.path.exists(f) else None
 
 
+# ---------------- 自動取得の基本指標（data/basic/*.json。オッズは含まない）----------------
+_BASIC = {}
+
+
+def _pname(n):
+    n = re.sub(r"\s*\(\d+\)\s*$", "", str(n or "")).strip()
+    parts = n.replace(".", "").split()
+    return (parts[0].lower() if parts else "", parts[1][:1].lower() if len(parts) > 1 else "")
+
+
+def load_basic():
+    if "tennis" not in _BASIC:
+        x = core.load("basic/tennis.json") or {}
+        idx = {}
+        for tid, b in (x.get("matches") or {}).items():
+            if b.get("error"):
+                continue
+            idx.setdefault(b.get("start_jst"), []).append(dict(b, id=tid))
+        _BASIC["tennis"] = dict(taken_at=x.get("taken_at"), by_start=idx)
+    return _BASIC
+
+
+def _wl(v):
+    m = re.match(r"^(\d+)/(\d+)$", str(v or ""))
+    return (int(m[1]), int(m[2])) if m else (0, 0)
+
+
+def basic_facts(match):
+    """自動取得した基本指標を facts と同じ形にする（facts が無い試合の一次スクリーニング用）。"""
+    if match.get("sport") != "テニス":
+        return None
+    bb = load_basic()["tennis"]
+    L, R = _pname(match.get("left")), _pname(match.get("right"))
+    for b in bb["by_start"].get(match.get("start_jst"), []):
+        p1, p2 = _pname(b.get("p1")), _pname(b.get("p2"))
+        if (p1, p2) == (L, R):
+            flip = False
+        elif (p1, p2) == (R, L):
+            flip = True
+        else:
+            continue
+        lat = b.get("latest") or [[], []]
+        lat = lat + [[]] * (2 - len(lat))
+        rk = b.get("rank") or [None, None]
+        sw = b.get("surface_wl_2026") or {}
+        def season(i):
+            w = l = 0
+            for v in sw.values():
+                a, c = _wl(v[i]); w += a; l += c
+            return w, l
+        surf = (b.get("surface") or "").strip().capitalize()
+        def side(i):
+            rows = [dict(g, score=f"{g['units_won']}-{g['units_lost']}") for g in lat[i]]
+            w, l = season(i)
+            met = dict(rank=rk[i])
+            if w + l >= 10:
+                met["season_wr"] = round(w / (w + l) * 100, 1)
+            sa, sl_ = _wl((sw.get(surf) or ["-", "-"])[i])
+            if sa + sl_ >= 5:
+                met["surface_wr"] = round(sa / (sa + sl_) * 100, 1)
+            return rows, met
+        (fl, ml), (fr, mr) = side(0), side(1)
+        h2h = []
+        for g in b.get("h2h") or []:
+            first_is_p1 = _pname(g.get("first"))[0] == p1[0]
+            w_p1 = (g["sets"][0] > g["sets"][1]) == first_is_p1
+            u1, u2 = (g["sets"][0], g["sets"][1]) if first_is_p1 else (g["sets"][1], g["sets"][0])
+            h2h.append(dict(date=g.get("year"), event=g.get("event"), winner="left" if w_p1 else "right",
+                            units_left=u1, units_right=u2, score=f"{max(u1, u2)}-{min(u1, u2)}"))
+        fx = dict(left=dict(name=match.get("left"), form=fl), right=dict(name=match.get("right"), form=fr), h2h=h2h,
+                  metrics=dict(left=ml, right=mr, source=f"tennisexplorer（{bb['taken_at']}取得）"),
+                  _basic_source=f"tennisexplorer 試合詳細 id={b['id']}")
+        if flip:
+            fx["left"], fx["right"] = dict(fx["right"], name=match.get("left")), dict(fx["left"], name=match.get("right"))
+            fx["metrics"]["left"], fx["metrics"]["right"] = mr, ml
+            for g in h2h:
+                g["winner"] = {"left": "right", "right": "left"}.get(g["winner"], g["winner"])
+                g["units_left"], g["units_right"] = g["units_right"], g["units_left"]
+        return fx
+    return None
+
+
+def merged_facts(mid, match):
+    """深掘り facts を優先し、足りない部分を自動取得の基本指標で補う。"""
+    fx = _facts(mid)
+    bf = basic_facts(match)
+    if not bf:
+        return fx
+    if not fx:
+        return bf
+    out = dict(fx)
+    for side in ("left", "right"):
+        if len((fx.get(side) or {}).get("form") or []) < 5 and bf[side]["form"]:
+            out[side] = dict(fx.get(side) or {}, form=bf[side]["form"])
+    if not fx.get("h2h") and bf["h2h"]:
+        out["h2h"] = bf["h2h"]
+    mt = dict(bf["metrics"])
+    for side in ("left", "right"):
+        mt[side] = dict(bf["metrics"][side], **((fx.get("metrics") or {}).get(side) or {}))
+    out["metrics"] = mt
+    return out
+
+
 def inventory(matches, locked):
     """判定時刻より後・24時間以内に始まる全試合（全競技・全大会）。"""
     return sorted(mid for mid, m in matches.items()
@@ -630,9 +734,11 @@ def run_screen(locked, matches=None):
         if set(m.get("flags", [])) & SIM_FLAGS:
             row.update(status="対象外", reason="シミュレーション/バトルロイヤル（実力の指標がない）")
         else:
-            fx = _facts(mid)
+            fx = merged_facts(mid, m)
             ind = indicators(m, fx, ratings)
             row["indicators"] = ind
+            if fx and fx.get("_basic_source"):
+                row["basic_source"] = fx["_basic_source"]
             row["indicators_available"] = sorted(k for k, v in ind.items() if "unavailable" not in v)
             hits, n = screen(m, ind)
             if hits is None:
@@ -660,7 +766,7 @@ def run_finalize(locked, screened=None, matches=None, odds=None):
         if row.get("status") not in CAND:
             continue
         m = matches[row["match_id"]]
-        fx = _facts(row["match_id"])
+        fx = merged_facts(row["match_id"], m)
         ind = indicators(m, fx, ratings)          # 深掘りで増えた指標で再計算（まだオッズなし）
         hits, n = screen(m, ind)
         hits = hits or row.get("hits") or []

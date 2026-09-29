@@ -10,7 +10,7 @@ SITE = "https://www.tennisexplorer.com"
 CET = ZoneInfo("Europe/Prague")
 JST = dt.timezone(dt.timedelta(hours=9))
 PREFER = ("bet365", "Pinnacle", "1xBet", "Betsson", "bwin", "Unibet", "William Hill", "BetVictor")
-MAX_DETAIL = 400
+MAX_DETAIL = 900
 
 
 def get(url, tries=3):
@@ -74,6 +74,72 @@ def parse_detail(page):
     return names, books
 
 
+def _cells(tr):
+    return [txt(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, flags=re.S)]
+
+
+def parse_basic(page):
+    """⑤ 格差候補発見用の基本指標（オッズ以外）：両者のランキング・今季サーフェス別勝敗・H2H・直近の試合。
+    オッズの表（oddsMenu）は読まない。"""
+    out = {}
+    hd = re.search(r'<span class="upper">([\d.]+)</span>,\s*([\d:]+),\s*<a[^>]*>(.*?)</a>,\s*([^,<]*),\s*([^,<]*)<', page)
+    if hd:
+        out.update(date=hd[1], tournament=txt(hd[3]), surface=txt(hd[4]) or None)
+    rk = re.search(r'<td class="tr">([^<]*)</td>\s*<th>Singles ranking</th>\s*<td class="tl">([^<]*)</td>', page)
+    if rk:
+        num = lambda v: int(re.sub(r"\D", "", v)) if re.search(r"\d", v) else None
+        out["rank"] = [num(rk[1]), num(rk[2])]
+    i = page.find('id="balMenu-1-data"')
+    if i > 0:
+        wl = {}
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", page[i:page.find("</table>", i)], flags=re.S):
+            c = _cells(tr)
+            if len(c) == 3 and c[0] not in ("Surface",):
+                wl[c[0]] = [c[1], c[2]]
+        out["surface_wl_2026"] = wl
+    i = page.find("Head-to-head:")
+    if i > 0:
+        tb = page[i:page.find("</table>", i)]
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", tb, flags=re.S)[1:]
+        h2h = []
+        for a, b in zip(rows[0::2], rows[1::2]):
+            ca, cb = _cells(a), _cells(b)
+            try:
+                year = ca[0]; ta, sa = ca[2], int(ca[3]); tb_, sb = cb[0], int(cb[1])
+            except (IndexError, ValueError):
+                continue
+            games = [(x, y) for x, y in zip(ca[5:10], cb[2:7]) if x.strip().isdigit() and y.strip().isdigit()]
+            h2h.append(dict(year=year, event=ca[1], first=ta, second=tb_, sets=[sa, sb], games=[f"{x}-{y}" for x, y in games]))
+        out["h2h"] = h2h
+    i = page.find("Latest matches")
+    lat = []
+    if i > 0:
+        for m in re.finditer(r'<table class="result mutual"', page[i:]):
+            seg = page[i + m.start(): page.find("</table>", i + m.start())]
+            rows, comp, date = [], None, None
+            for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", seg, flags=re.S):
+                if "icon-result" not in tr:
+                    hh = re.search(r'<a[^>]*>(.*?)</a>.*?(\d{2}\.\d{2}\.\d{4})', tr, flags=re.S)
+                    if hh:
+                        comp, date = txt(hh[1]), hh[2]
+                    continue
+                res = "W" if "icon-result win" in tr else "L" if "icon-result lose" in tr else None
+                names = re.findall(r'<a href="/player/[^"]+/"[^>]*>(.*?)</a>', tr)
+                me = re.search(r"<strong>(.*?)</strong>", tr)
+                sc = re.search(r'title="([^"]*)">(\d+):(\d+)<', tr)
+                if not (res and sc and len(names) == 2 and me):
+                    continue
+                opp = [txt(n) for n in names if "<strong>" not in n]
+                a, b = int(sc[2]), int(sc[3])
+                rows.append(dict(date=date, comp=comp, opp=opp[0] if opp else None, res=res,
+                                 units_won=a if res == "W" else b, units_lost=b if res == "W" else a, detail=sc[1]))
+            lat.append(rows)
+            if len(lat) == 2:
+                break
+    out["latest"] = lat
+    return out
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     now = dt.datetime.now(CET)
@@ -89,11 +155,18 @@ def main():
         json.dump(status, open(os.path.join(OUT, "tennis_status.json"), "w"), ensure_ascii=False, indent=1)
         print(status); return 1
     nowj = dt.datetime.now(JST).isoformat()
-    todo = [m for m in matches if m["list_odds"] and m["start_jst"] > nowj][:MAX_DETAIL]
+    # オッズの有無に関係なく全試合の詳細を取る（⑤ 格差候補発見はオッズのない試合も対象）
+    todo = [m for m in matches if m["start_jst"] > nowj and m.get("p2")][:MAX_DETAIL]
+    basic = {}
     fails = 0
     for m in todo:
         try:
-            names, books = parse_detail(get(f"{SITE}/match-detail/?id={m['id']}"))
+            page = get(f"{SITE}/match-detail/?id={m['id']}")
+            names, books = parse_detail(page)
+            try:
+                basic[m["id"]] = dict(parse_basic(page), p1=m["p1"], p2=m["p2"], start_jst=m["start_jst"], tournament_list=m["tournament"])
+            except Exception as e:
+                basic[m["id"]] = dict(error=f"{type(e).__name__}: {e}"[:200], p1=m["p1"], p2=m["p2"], start_jst=m["start_jst"])
         except Exception:
             fails += 1; continue
         m["names_full"] = names
@@ -102,6 +175,10 @@ def main():
         if pick:
             m["pick"] = dict(book=pick, L=books[pick][0], R=books[pick][1])
         time.sleep(1.0)
+    bdir = os.path.join(os.path.dirname(OUT), "basic")
+    os.makedirs(bdir, exist_ok=True)
+    json.dump(dict(taken_at=status["taken_at"], source="tennisexplorer 試合詳細（ランキング・H2H・直近・サーフェス別勝敗。オッズは含まない）",
+                   matches=basic), open(os.path.join(bdir, "tennis.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(dict(taken_at=status["taken_at"], source=status["source"], matches=matches),
               open(os.path.join(OUT, "tennis.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     status.update(ok=True, matches=len(matches), with_list_odds=sum(1 for m in matches if m["list_odds"]),
