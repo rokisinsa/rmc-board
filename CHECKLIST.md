@@ -543,3 +543,4 @@
 | 14・15 | 未確定の正式採用の facts が水準未満だと validate の FACTS_COVERAGE で止まる。 | 2026-09-28 ユーザー指示 |
 | 16 | 正式採用は判定時刻から24時間以内に始まる試合だけ（FORMAL_HORIZON）。 | 2026-09-28 ユーザー指示 |
 | 36〜39 | push ごとに GitHub Actions の `verify-public` ジョブが公開URLを cache bust 付きで取り直し、①公開 deploy.json の sha 一致、②index.html と data 配下の全JSONがリポジトリとバイト一致、③公開JSONだけからの収支・格差帯・CLV再計算が公開 summary と一致、④公開 summary.run_id が最新 run と一致、を確認。定時更新は Actions API でこのジョブの success を確認して 36〜39 を true にする（WebFetch 不要）。 | 無人実行で WebFetch が承認待ちになるため |
+| 4〜16（⑤ 格差候補発見エンジン） | ①〜④の前段で毎回 `python -m rmc.discover screen`→一次候補の完全深掘り・反対材料10項目→`finalize`（⑤-A/B確定→最後にオッズ付与・⑤-C）。候補発見ではオッズを使わない。⑤では競技ごとの必須1件ルールを使わない。9/30 06:00の回から validate の DISCOVERY が強制（全試合を⑤に通したか・一次候補の残り・深掘り未完・オッズ付与の順序・①〜④への受け渡し）。 | 2026-09-29 ユーザー指示（GPTレビュー反映） |
