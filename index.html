@@ -300,17 +300,20 @@ const fmt=t=>t?t.slice(5,16).replace('T',' '):'—';
 const rows=X.rows||[], cand=rows.filter(r=>['一次候補','深掘り未完','反対材料で保留','格差候補確定'].includes(r.status));
 const A=rows.filter(r=>r.grade==='A'), B=rows.filter(r=>r.grade==='B'), C=rows.filter(r=>r.market_only);
 document.getElementById('d5Cnt').textContent=` ${A.length+B.length}`;
-document.getElementById('d5head').innerHTML=`判定時刻 ${fmt(X.locked_at)}／段階：${X.stage==='finalized'?'確定済み':'一次スクリーニングのみ（深掘り待ち）'}／走査 ${rows.length}試合／一次候補 ${cand.length}／<b>⑤-A ${A.length}</b>・⑤-B ${B.length}・⑤-C ${C.length}／候補発見でのオッズ使用：${X.odds_used_in_screening===false?'なし':'要確認'}${X.odds_attached_at?`／オッズ付与 ${fmt(X.odds_attached_at)}`:''}`;
+const L=X.run_log||{};const fc=(X.fixture_check||{});
+const logTxt=L['A_母集団の試合数']!=null?`<div style="margin:4px 0">A 母集団 ${L['A_母集団の試合数']}試合（${Object.entries(L['A_内訳_日程ソース別']||{}).map(([k,v])=>esc(k)+' '+v).join('・')}）／B 一次候補 ${L['B_一次候補数']}／C Tier1 ${L['C_Tier別'].Tier1}・Tier2 ${L['C_Tier別'].Tier2}・Tier3 ${L['C_Tier別'].Tier3}／D 深掘り完了 ${L['D_深掘り完了数']}／E ⑤-A ${L['E_⑤-A']}・⑤-B ${L['E_⑤-B']}・⑤-C ${L['E_⑤-C']}・保留 ${L['E_反対材料で保留']}／F 未完了 ${L['F_未完了数']}（Tier1 ${L['F_未完了_Tier別'].Tier1}・Tier2 ${L['F_未完了_Tier別'].Tier2}・Tier3 ${L['F_未完了_Tier別'].Tier3}）${L['F_未完了の理由']?'：'+esc(L['F_未完了の理由']):''}</div><div>日程ソース照合：${fc.all_ok?'<b>正常</b>':'<b>未完了</b>'}（${Object.entries(fc.sources||{}).map(([k,v])=>esc(k)+(v.ok?' ○':' ×')+' '+v.n).join('・')}）</div>`:'';
+document.getElementById('d5head').innerHTML=`判定時刻 ${fmt(X.locked_at)}／段階：${X.stage==='finalized'?'確定済み':'一次スクリーニングのみ（深掘り待ち）'}／走査 ${rows.length}試合／一次候補 ${cand.length}／<b>⑤-A ${A.length}</b>・⑤-B ${B.length}・⑤-C ${C.length}／候補発見でのオッズ使用：${X.odds_used_in_screening===false?'なし':'要確認'}${X.odds_attached_at?`／オッズ付与 ${fmt(X.odds_attached_at)}`:''}`+logTxt;
 const sp=Object.entries(X.by_sport||{}).sort((a,b)=>b[1].scanned-a[1].scanned);
 document.getElementById('d5sp').innerHTML='<thead><tr><th>競技</th><th>走査</th><th>指標あり</th><th>一次候補</th><th>⑤-A</th><th>⑤-B</th><th>保留</th><th>深掘り未完</th><th>⑤-C</th><th>判定</th></tr></thead><tbody>'+
  sp.map(([g,s])=>`<tr><td>${esc(g)}</td><td>${s.scanned}</td><td>${s.with_indicators}</td><td>${s.candidates}</td><td>${s.grade_a}</td><td>${s.grade_b}</td><td>${s.held}</td><td>${s.incomplete}</td><td>${s.market_only}</td><td>${esc(s.message||'')}</td></tr>`).join('')+'</tbody>';
-const ord={'A':0,'B':1};
-const list=cand.slice().sort((a,b)=>((ord[a.grade]??(a.status==='反対材料で保留'?2:3))-(ord[b.grade]??(b.status==='反対材料で保留'?2:3)))||((b.hit_count||0)-(a.hit_count||0)));
+const ord={'A':0,'B':1};const TL=r=>r.tier?`［Tier ${r.tier}］`:'';
+const list=cand.slice().sort((a,b)=>((ord[a.grade]??(a.status==='反対材料で保留'?2:3))-(ord[b.grade]??(b.status==='反対材料で保留'?2:3)))||((a.tier||9)-(b.tier||9))||((b.hit_count||0)-(a.hit_count||0)));
 const ul=(t,a)=>a&&a.length?`<div style="margin-top:4px"><b>${t}</b><ul class="blist">${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';
 const card=r=>{const mk=r.market;const g=r.grade?(r.grade==='A'?'⑤-A 強い格差確認':'⑤-B 格差候補・要注意'):r.status;
- return `<details class="d5c"><summary><b>${esc(g)}</b>｜${esc(r.group||r.sport)}｜${fmt(r.start_jst)}｜${esc(r.left)} vs ${esc(r.right)}${r.pick?`｜格差側：<b>${esc(r.pick)}</b>`:''}｜${esc(r.hit_summary||'')}</summary>
+ return `<details class="d5c"><summary><b>${esc(g)}</b>${TL(r)}｜${esc(r.group||r.sport)}｜${fmt(r.start_jst)}｜${esc(r.left)} vs ${esc(r.right)}${r.pick?`｜格差側：<b>${esc(r.pick)}</b>`:''}｜${esc(r.hit_summary||'')}</summary>
  <div style="font-size:13px;padding:6px 2px">${esc(r.competition||'')}${r.source?`（${esc(r.source)}）`:''}${r.type_label?`／型：${esc(r.type_label)}`:''}
- ${ul('発火した一次条件（オッズ不使用）',r.log||(r.hits||[]).map(h=>h.label))}${ul('支持材料',r.support)}${ul('反対材料',r.counter)}${ul('不確実性',r.uncertainty)}
+ <div class="note">日程ソース：${esc((r.fixture_sources||[]).join('・'))}${r.time_conflict?`（開始時刻の食い違い：${esc(r.time_conflict.join('／'))}）`:''}</div>
+ ${ul('発火した一次条件（オッズ不使用）',r.log||(r.hits||[]).map(h=>h.label))}${ul('Tier 1 に上げた極端値',r.extremes)}${ul('支持材料',r.support)}${ul('反対材料',r.counter)}${ul('不確実性',r.uncertainty)}
  ${r.reason?`<div style="margin-top:4px"><b>状態</b>：${esc(r.reason)}</div>`:''}
  ${mk?`<div style="margin-top:4px"><b>市場（候補確定後に取得）</b>：${esc(mk.source)} ${esc(JSON.stringify(mk.prices))}／${esc(mk.note||'')}</div>`:''}
  ${r.basic_source?`<div class="note">基本指標の出典：${esc(r.basic_source)}</div>`:''}</div></details>`;};
