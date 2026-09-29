@@ -177,6 +177,44 @@ GROUPS = {"elo_diff": "rating", "surface_elo_diff": "rating", "rank_diff": "rati
           "last10_2w": "form", "last10_unit_diff": "form", "last10_unit_avg_diff": "form", "same_map_wr_diff": "form",
           "common_diff": "common", "fip_diff": "pitcher", "era_diff": "pitcher", "kbb_diff": "pitcher", "rd_starter_same": "pitcher",
           "record_gap": "form"}
+# 深掘り優先度（Tier）用：互いに独立とみなす指標の系統（同じ系統の条件は何個発火しても1つと数える）
+FAMILY = {"elo_diff": "rating", "surface_elo_diff": "rating", "rank_diff": "rating", "fifa_rank_diff": "rating", "tennis_rank": "rating",
+          "rating_diff": "rating", "net_rating_diff": "rating", "oom_rank": "rating", "boxrec_gap": "rating",
+          "cur_wr_diff": "cur_result", "season_wr_diff": "cur_result", "pts_rate_diff": "cur_result", "league_wr_diff": "cur_result",
+          "wr52_diff": "cur_result", "surface_wr_diff": "cur_result",
+          "cur_gd_diff": "cur_margin", "gd_pg_diff": "cur_margin", "pd_pg_diff": "cur_margin", "rd_pg_diff": "cur_margin",
+          "avg3_diff": "cur_margin", "checkout_diff": "cur_margin",
+          "h2h_wr": "h2h_result", "h2h_3_0": "h2h_result",
+          "h2h_avg_gd": "h2h_margin", "h2h_map_wr": "h2h_margin", "h2h_map_diff": "h2h_margin", "h2h_unit_rate": "h2h_margin",
+          "last10_wr_diff": "form_result", "last10_8w": "form_result", "last10_2w": "form_result", "record_gap": "form_result",
+          "last10_gd_diff": "form_margin", "last10_unit_diff": "form_margin", "last10_unit_avg_diff": "form_margin", "same_map_wr_diff": "form_margin",
+          "streak_w5": "streak", "streak_l5": "streak", "common_diff": "common",
+          "fip_diff": "pitcher", "era_diff": "pitcher", "kbb_diff": "pitcher", "rd_starter_same": "pitcher"}
+# 単独でも Tier 1 に上げる「通常範囲から大きく外れた」値（しきい値のおおむね2倍）
+EXTREME = {"elo_diff": 400, "surface_elo_diff": 300, "rating_diff": 100, "net_rating_diff": 20, "fifa_rank_diff": 120, "rank_diff": 150,
+           "cur_wr_diff": 70, "cur_gd_diff": 25, "gd_pg_diff": 3.0, "pd_pg_diff": 20, "rd_pg_diff": 2.5, "pts_rate_diff": 0.6,
+           "season_wr_diff": 50, "h2h_avg_gd": 3.0, "h2h_map_diff": 8, "last10_wr_diff": 80, "last10_gd_diff": 30,
+           "last10_unit_diff": 60, "common_diff": 3.0, "fip_diff": 2.5, "era_diff": 3.0}
+TIER_LABEL = {1: "Tier 1（独立4系統以上 or 極端値）", 2: "Tier 2（独立3系統）", 3: "Tier 3（1〜2系統）"}
+
+
+def tier_of(match, hits, ind):
+    fams = {FAMILY.get(h["key"], h["key"]) for h in hits}
+    ext = []
+    for h in hits:
+        th = EXTREME.get(h.get("ind") or h["key"]) or EXTREME.get(h["key"])
+        if th is not None and h["value"] >= th:
+            ext.append(f"{h['label']}：値{h['value']}（極端値の目安{th}以上）")
+    # H2H の総得点差が極端（同じ側に2試合以上で平均+3以上）も単独で昇格
+    if len(fams) >= 4 or ext:
+        t = 1
+    elif len(fams) == 3:
+        t = 2
+    else:
+        t = 3
+    return t, sorted(fams), ext
+
+
 GROUP_LABEL = {"rating": "Rating/ランキング", "current": "現在大会・今季成績", "h2h": "H2H", "form": "直近成績",
                "common": "共通相手比較", "pitcher": "先発投手"}
 
@@ -196,7 +234,7 @@ ESPORTS_ONLY = ("bo_format", "lan_online")
 COUNTER_KEYS = ("主力欠場", "ローテーション", "世代交代", "古いH2H", "ホーム/アウェー差", "最近の急改善", "BO1",
                 "LAN/Online差", "ロスター変更", "消化試合")
 IMPACTS = ("none", "minor", "major")        # major＝格差の根拠を崩す（→ 反対材料で保留）
-UNCERTAIN_KEYS = {"主力欠場", "ロスター変更", "ホーム/アウェー差", "古いH2H", "最近の急改善", "BO1", "LAN/Online差"}
+UNCERTAIN_KEYS = {"主力欠場", "ロスター変更", "ホーム/アウェー差", "BO1"}   # これが minor でも残る＝⑤-B（重要な不確実性）。他の minor は注記のみ
 MARKET_C_NV = 0.80                          # ⑤-C：市場の控除後本命勝率がこれ以上なのに独立データで確認できていない
 GRADE_LABEL = {"A": "⑤-A 強い格差確認", "B": "⑤-B 格差候補・要注意", "C": "⑤-C 市場だけ格差"}
 TYPE_LABEL = {"multi": "複合格差型", "h2h": "H2H再現型", "current": "現在大会型", "power": "現在戦力型"}
@@ -593,7 +631,7 @@ def decide(match, ind, hits, fx):
     if major:
         return dict(base, status="反対材料で保留", reason="格差を崩す反対材料：" + "／".join(major))
     uncertain = []
-    if h2h_n < 2:
+    if h2h_n < 2 and len(groups) < 3:
         uncertain.append("H2H不足")
     uncertain += [k for k, _ in minor if k in UNCERTAIN_KEYS]
     if opposite:
@@ -825,8 +863,10 @@ def run_screen(locked, matches=None):
             if hits is None:
                 row.update(status="条件未定義", reason="この競技の一次条件が未定義")
             elif hits:
-                row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n,
-                           hit_summary=f"一次条件{n}項目中{len(hits)}項目該当", log=[f"発火：{h['label']}（値{h['value']}・{'左' if h['side'] == 'L' else '右'}側）" for h in hits])
+                t, fams, ext = tier_of(m, hits, ind)
+                row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, tier=t, tier_label=TIER_LABEL[t],
+                           families=fams, extremes=ext,
+                           hit_summary=f"一次条件{n}項目中{len(hits)}項目該当（独立{len(fams)}系統）", log=[f"発火：{h['label']}（値{h['value']}・{'左' if h['side'] == 'L' else '右'}側）" for h in hits])
             else:
                 row.update(status="該当なし", rule_count=n,
                            reason=(f"取得できた指標{len(row['indicators_available'])}件でいずれも基準未満" if row["indicators_available"]
@@ -853,14 +893,16 @@ def run_screen(locked, matches=None):
                    left=f["t1"], right=f["t2"], source="LiveScore日程（オッズ配信に無い試合）", basic_source=fx["_basic_source"],
                    indicators=ind, indicators_available=sorted(k for k, v in ind.items() if "unavailable" not in v))
         if hits:
-            row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, hit_summary=f"一次条件{n}項目中{len(hits)}項目該当",
+            t, fams, ext = tier_of(pm, hits, ind)
+            row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, tier=t, tier_label=TIER_LABEL[t], families=fams, extremes=ext,
+                       hit_summary=f"一次条件{n}項目中{len(hits)}項目該当（独立{len(fams)}系統）",
                        log=[f"発火：{h['label']}（値{h['value']}・{'左' if h['side'] == 'L' else '右'}側）" for h in hits])
         else:
             row.update(status="該当なし", rule_count=n, reason=(f"取得できた指標{len(row['indicators_available'])}件でいずれも基準未満"
                                                                if row["indicators_available"] else "取得できた指標なし"))
         out["rows"].append(row)
     out["basic_sources"] = {k: (_BASIC.get(k) or {}).get("taken_at") for k in ("tennis", "ls")}
-    out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", -(r.get("hit_count") or 0), r["start_jst"]))
+    out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", r.get("tier") or 9, -len(r.get("families") or []), -(r.get("hit_count") or 0), r["start_jst"]))
     _summ(out)
     return out
 
@@ -945,8 +987,10 @@ def run_finalize(locked, screened=None, matches=None, odds=None):
         ind = indicators(m, fx, ratings)          # 深掘りで増えた指標で再計算（まだオッズなし）
         hits, n = screen(m, ind)
         hits = hits or row.get("hits") or []
-        row.update(indicators=ind, hits=hits, hit_count=len(hits), rule_count=n or row.get("rule_count"),
-                   hit_summary=f"一次条件{n or row.get('rule_count')}項目中{len(hits)}項目該当")
+        t, fams, ext = tier_of(m, hits, ind)
+        row.update(indicators=ind, hits=hits, hit_count=len(hits), rule_count=n or row.get("rule_count"), tier=row.get("tier") or t,
+                   tier_label=TIER_LABEL[row.get("tier") or t], families=fams, extremes=ext,
+                   hit_summary=f"一次条件{n or row.get('rule_count')}項目中{len(hits)}項目該当（独立{len(fams)}系統）")
         miss = deep_status(fx, m) if fx else ["facts なし"]
         cmiss = counter_status(fx)[0]
         if miss or cmiss:
@@ -1009,6 +1053,29 @@ def _summ(scr):
             s["message"] = "本日はこの競技に明確な格差候補なし" if scr.get("stage") == "finalized" else (
                 "一次候補なし（本日はこの競技に明確な格差候補なし）" if s["candidates"] == 0 else "一次候補あり・深掘り待ち")
     scr["by_sport"] = by
+    rows = scr["rows"]
+    cand = [r for r in rows if r.get("status") in CAND]
+    scr["run_log"] = {
+        "A_母集団の試合数": len(rows),
+        "A_内訳_日程ソース別": _count(rows, lambda r: r.get("fixture_sources") or (["LiveScore日程"] if r["match_id"].startswith("ls-") else ["オッズ配信（Bovada/tennisexplorer/BC）"])),
+        "B_一次候補数": len(cand),
+        "C_Tier別": {f"Tier{t}": sum(1 for r in cand if r.get("tier") == t) for t in (1, 2, 3)},
+        "D_深掘り完了数": sum(1 for r in cand if r.get("status") in ("格差候補確定", "反対材料で保留")),
+        "E_⑤-A": sum(1 for r in rows if r.get("grade") == "A"), "E_⑤-B": sum(1 for r in rows if r.get("grade") == "B"),
+        "E_⑤-C": sum(1 for r in rows if r.get("market_only")), "E_反対材料で保留": sum(1 for r in rows if r.get("status") == "反対材料で保留"),
+        "F_未完了数": sum(1 for r in cand if r.get("status") in ("一次候補", "深掘り未完")),
+        "F_未完了_Tier別": {f"Tier{t}": sum(1 for r in cand if r.get("status") in ("一次候補", "深掘り未完") and r.get("tier") == t) for t in (1, 2, 3)},
+        "F_未完了の理由": scr.get("incomplete_reason") or ("深掘り未実施（優先度順に処理中）" if any(r.get("status") in ("一次候補", "深掘り未完") for r in cand) else None),
+        "日程ソース照合": scr.get("fixture_check"),
+    }
+
+
+def _count(rows, fn):
+    c = {}
+    for r in rows:
+        for k in fn(r):
+            c[k] = c.get(k, 0) + 1
+    return c
 
 
 def tag_rows(rows, scr):

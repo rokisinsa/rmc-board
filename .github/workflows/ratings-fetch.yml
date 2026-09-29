@@ -6,7 +6,7 @@ on:
     - cron: "10 20,2,8,13 * * *"   # JST 05:10／11:10／17:10／22:10
   push:
     branches: [main]
-    paths: [".github/workflows/ratings-fetch.yml", "scripts/ratings_fetch.py", "scripts/livescore_fetch.py"]
+    paths: [".github/workflows/ratings-fetch.yml", "scripts/ratings_fetch.py", "scripts/livescore_fetch.py", "scripts/fixtures_fetch.py"]
 permissions:
   contents: write
 concurrency: { group: ratings-fetch, cancel-in-progress: false }
@@ -19,10 +19,11 @@ jobs:
         with: { python-version: "3.12" }
       - run: python scripts/ratings_fetch.py
       - run: python scripts/livescore_fetch.py || true
+      - run: python scripts/fixtures_fetch.py || true
       - name: commit
         run: |
           git config user.name "rmc-ratings-fetch"; git config user.email "actions@users.noreply.github.com"
-          git add data/ratings data/basic
+          git add data/ratings data/basic data/probe
           git diff --cached --quiet && exit 0
           git commit -m "⑤用のRating・基本指標を取得（GitHub Actions・オッズ不使用）"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

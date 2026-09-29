@@ -1,5 +1,5 @@
 """⑤ 格差候補発見エンジン用：オッズを使わない日程と基本指標を LiveScore 公開API から取得して data/basic/livescore.json に保存。
-- 日程：今日・明日（JST）のサッカー・アイスホッケー・バスケットボール・クリケットの全試合（オッズ配信に無い試合も含む）
+- 日程：今日・明日・明後日（JST）のサッカー・アイスホッケー・バスケットボール・クリケットの全試合（オッズ配信に無い試合も含む）
 - 基本指標：各大会ステージの順位表（試合数・勝分敗・得失点・勝点）と、そのステージの消化済み試合の結果
 GitHub Actions から実行（PCオフで動く）。オッズは取得しない。"""
 import datetime as dt, gzip, json, os, sys, time, urllib.request
@@ -45,7 +45,7 @@ def main():
     now = dt.datetime.now(JST)
     fixtures, stages, errors = [], {}, []
     for sp, jp in SPORTS.items():
-        for add in (0, 1):
+        for add in (0, 1, 2):   # 今日・明日・明後日（⑤の走査窓48時間を覆う）
             d = (now + dt.timedelta(days=add)).strftime("%Y%m%d")
             try:
                 day = get(f"{B}/date/{sp}/{d}/9?countryCode=JP&locale=en&MD=1")
