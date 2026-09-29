@@ -39,7 +39,7 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-
 .banner{border-radius:10px;padding:10px 14px;font-size:13px;background:var(--warn-bg);color:var(--warn)}
 .banner.ok{background:var(--ok-bg);color:var(--ok)}
 .banner ul{margin:4px 0 0;padding-left:18px}
-.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:6px}
 .card .t{font-family:var(--display);font-weight:700}
 .card .big{font-family:var(--mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
@@ -193,7 +193,7 @@ table.cmn th{background:var(--sunk);color:var(--muted);font-weight:500;position:
 .cres{display:flex;gap:6px;align-items:center;white-space:nowrap}.cres b{font-family:var(--mono);font-weight:600}.cres small{color:var(--muted);font-family:var(--mono);font-size:10.5px}
 .cres+.cres{margin-top:3px}
 td.cedge{font-weight:600;white-space:nowrap}td.cedge small{display:block;font-weight:400;color:var(--muted);font-size:10.5px}td.cedge.left,td.cedge.right{color:var(--ok)}td.cedge.even{color:var(--muted)}
-#cards .kv dd{white-space:nowrap}#cards .kv dt{white-space:nowrap}
+#cards .kv{grid-template-columns:auto minmax(0,1fr)}#cards .kv dt{white-space:nowrap}#cards .kv dd{white-space:nowrap;min-width:0;overflow:hidden;text-overflow:ellipsis}
 
 details.sport>summary .cnt{font-size:13px;color:var(--muted)}
 .sumchips{display:flex;flex-wrap:wrap;gap:6px}
@@ -311,7 +311,7 @@ document.getElementById('banner').innerHTML = run.status==='complete'
 document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const s=D.summary.logics[l];const c=s.compound||{};
   return `<div class="card"><span class="t">${T[l]}</span><span class="big ${s.net>0?'pos':s.net<0?'neg':''}">${money(s.net)}</span>
   <dl class="kv"><dt>戦績</dt><dd>${s.win}勝${s.loss}敗${s.void?s.void+'無効':''}</dd><dt>勝率</dt><dd>${s.hit_rate??'—'}${s.hit_rate!=null?'%':''}</dd>
-  <dt>単利</dt><dd>${money(s.net)}（ROI ${s.roi??'—'}${s.roi!=null?'%':''}）</dd>
+  <dt>単利</dt><dd>${money(s.net)}</dd><dt>ROI</dt><dd>${s.roi!=null?s.roi.toFixed(1)+'%':'—'}</dd>
   <dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd><dt>金額未計算</dt><dd>${s.amount_missing}</dd>
   <dt>複利</dt><dd>${money(c.net??0)}</dd><dt>　資金/ストック</dt><dd>$${(c.bankroll??100).toFixed(0)}/$${(c.stock??0).toFixed(0)}</dd><dt>　確保/失敗</dt><dd>${c.secured??0}/${c.busted??0}回</dd>
   <dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}</dd></dl></div>`;}).join('')+
