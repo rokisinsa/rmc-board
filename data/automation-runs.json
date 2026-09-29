@@ -18595,12 +18595,12 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
-   "36": false,
-   "37": false,
-   "38": false,
-   "39": false,
+   "34": true,
+   "35": true,
+   "36": true,
+   "37": true,
+   "38": true,
+   "39": true,
    "40": false,
    "41": false
   },
@@ -18623,14 +18623,22 @@
    "19": "日付・JST時刻・大会・ラウンド・相手を identity_note に記録（Virtus.pro-BOGATYRI はグループ内唯一の対戦として照合、チームページの表示時刻差を注記）",
    "21": "同じ match_id の全ロジック・経験値取引へ反映",
    "27": "今回の確定は1勝0敗で敗戦なし（post-match review の新規対象なし）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
+   "34": "main へ push（競合なし）、SHA 6634623",
+   "35": "test-validate-deploy run 36553668276：test success",
+   "36": "読み替え表の方法：deploy success・verify-public success（公開 deploy.json の sha 一致）",
+   "37": "読み替え表の方法：verify-public が公開 index.html と data 配下の全JSONをバイト一致確認",
+   "38": "読み替え表の方法：verify-public が公開JSONから収支・格差帯・CLVを再計算し一致",
+   "39": "読み替え表の方法：verify-public が cache bust 付きで取得・run_id 一致",
    "40": "報告送信後に確定",
    "41": "上記未完了があるため定時更新完了とはしない"
+  },
+  "end_sha": "6634623",
+  "actions": {
+   "sha": "6634623",
+   "run_id": 36553668276,
+   "test": "success",
+   "deploy": "success",
+   "verify_public": "success"
   }
  }
 ]
