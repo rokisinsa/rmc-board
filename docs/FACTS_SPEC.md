@@ -33,3 +33,24 @@
 名前の書き方：相手チーム名・選手名は、共通相手の突き合わせができるように両チームで同じ表記にそろえる。
 
 集計（直近の勝敗・勝率・ホーム/アウェイ別・連勝連敗・セット等の取得/喪失・得点-失点・H2H通算と得点合計・セット等合計・セット内の得点（ゲーム数・ラウンド数）合計・共通の対戦相手＝試合日から60日以内の全試合（form＋history）で比較・新しい対戦ほど上・勝率が同じなら得失差で比較）は手で書かない。`python -m rmc.build` が行データから `calc` を計算して書き込み、`python -m rmc.validate` が一致を検査する。
+
+
+## ⑤ 格差候補発見エンジンの候補に追加で書く項目（rmc/discover.py）
+```
+"metrics": {"left": {"elo":…, "rank":…, "rating":…, "surface_elo":…, "season_wr":…, "wr_52w":…, "surface_wr":…, "pts_rate":…,
+                     "gd_pg":…, "pd_pg":…, "rd_pg":…, "net_rating":…, "league_wr":…, "avg3":…, "checkout_pct":…,
+                     "starter_confirmed": true, "starter_fip":…, "starter_era":…, "starter_kbb_pct":…},
+            "right": {…}, "source": "出典"},          // 取れるものだけ。数字を作らない
+"current_competition": {"left": {"played":…, "W":…, "D":…, "L":…, "gf":…, "ga":…}, "right": {…}, "source": "…"},
+"deep5": {"ranking":"…", "current_competition":"…", "h2h_all":"…", "h2h_points":"…", "h2h_home_away":"…", "last5":"…", "last10":"…",
+          "avg_points":"…", "streak":"…", "common_60d":"…", "first_rate":"先制率/第1セット/Map1", "absences":"…", "roster_changes":"…",
+          "bo_format":"BO3", "lan_online":"LAN",
+          "goalie":"…", "save_pct":"…", "gsaa":"…", "pp_pct":"…", "pk_pct":"…",   // アイスホッケー
+          "first_set_rate":"…",                                                     // バレーボール
+          "starters":"…"},                                                          // 野球
+"counter_evidence": {"主力欠場": {"finding":"…", "impact":"none|minor|major", "applies": false}, … 全10項目 …},
+"esports": {"map_winrates": {"left": {"Mirage": {"w":3,"l":1}}, "right": {…}}},
+"boxing": {"rating":"…", "opp_level":"…", "weight_class":"…", "recent_fights":"…", "age":"…", "layoff":"…",
+           "rating_gap": true, "rating_side": "L", "record_gap": true, "record_side": "L"}
+```
+取れない項目は unavailable に「項目名（deep5 のキーか日本語名）: 理由」。クリケットは form・h2h の comp／event に形式（ODI・T20I 等）を必ず書く。

@@ -230,6 +230,9 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
 #ledger-sec{scroll-margin-top:12px}
 tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-decoration:none}
 .grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
+.d5c{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface)}
+.d5c summary{cursor:pointer;font-size:13px;line-height:1.5}
+
 </style>
 </head>
 <body>
@@ -240,7 +243,7 @@ tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-deco
   </header>
   <div id="banner"></div>
 
-  <nav class="topmenu"><a href="#ledger-sec" id="todayBtn">今日の一覧<span id="todayCnt"></span></a></nav>
+  <nav class="topmenu"><a href="#ledger-sec" id="todayBtn">今日の一覧<span id="todayCnt"></span></a><a href="#d5-sec" id="d5Btn">⑤ 格差候補<span id="d5Cnt"></span></a></nav>
 
   <section>
     <h2>収支（正式採用のみ・$100固定・9/29開始の試合から集計）</h2>
@@ -252,6 +255,14 @@ tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-deco
     <h3 class="subh">検証指標（CLV・推定勝率の当たり具合・オッズ帯ROI）</h3>
     <p class="note" style="margin:0 0 6px">CLV＝採用オッズ÷締切前オッズ−1（プラスなら市場より良い値で買えている）。締切前オッズは毎時自動記録。上のボタンで対象ロジックを切替。</p>
     <div id="anl"></div>
+  </section>
+
+  <section id="d5-sec">
+    <h2>⑤ 格差候補発見エンジン</h2>
+    <p class="note" style="margin:0 0 6px">①〜④とは独立した前段工程。オッズを使わずに全競技・全大会の全試合から戦力差が極端な試合を探し、候補だけ完全深掘り→反対材料確認→確定（⑤-A 強い格差確認／⑤-B 格差候補・要注意）してから、最後にオッズを付けて①〜④へ渡す。⑤-C は市場（オッズ）だけが極端で、独立データでは確認できていない試合。一次条件の該当数は深掘りの優先順位で、採用スコアではない。</p>
+    <div id="d5head" class="note"></div>
+    <div class="tbl"><table id="d5sp"></table></div>
+    <div id="d5list" style="display:flex;flex-direction:column;gap:8px;margin-top:10px"></div>
   </section>
 
   <section>
@@ -281,6 +292,32 @@ tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-deco
 <div id="scrim" hidden></div>
 <aside id="panel" hidden role="dialog" aria-modal="true" aria-label="試合の分析"></aside>
 <script>
+(async function(){  // ⑤ 格差候補発見エンジン（ほかの表示と独立して読み込む）
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let X;try{const r=await fetch('data/discovery/latest.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;X=await r.json();}
+catch(e){document.getElementById('d5head').textContent='⑤の結果はまだありません（次の定時更新から実行）。';return;}
+const fmt=t=>t?t.slice(5,16).replace('T',' '):'—';
+const rows=X.rows||[], cand=rows.filter(r=>['一次候補','深掘り未完','反対材料で保留','格差候補確定'].includes(r.status));
+const A=rows.filter(r=>r.grade==='A'), B=rows.filter(r=>r.grade==='B'), C=rows.filter(r=>r.market_only);
+document.getElementById('d5Cnt').textContent=` ${A.length+B.length}`;
+document.getElementById('d5head').innerHTML=`判定時刻 ${fmt(X.locked_at)}／段階：${X.stage==='finalized'?'確定済み':'一次スクリーニングのみ（深掘り待ち）'}／走査 ${rows.length}試合／一次候補 ${cand.length}／<b>⑤-A ${A.length}</b>・⑤-B ${B.length}・⑤-C ${C.length}／候補発見でのオッズ使用：${X.odds_used_in_screening===false?'なし':'要確認'}${X.odds_attached_at?`／オッズ付与 ${fmt(X.odds_attached_at)}`:''}`;
+const sp=Object.entries(X.by_sport||{}).sort((a,b)=>b[1].scanned-a[1].scanned);
+document.getElementById('d5sp').innerHTML='<thead><tr><th>競技</th><th>走査</th><th>指標あり</th><th>一次候補</th><th>⑤-A</th><th>⑤-B</th><th>保留</th><th>深掘り未完</th><th>⑤-C</th><th>判定</th></tr></thead><tbody>'+
+ sp.map(([g,s])=>`<tr><td>${esc(g)}</td><td>${s.scanned}</td><td>${s.with_indicators}</td><td>${s.candidates}</td><td>${s.grade_a}</td><td>${s.grade_b}</td><td>${s.held}</td><td>${s.incomplete}</td><td>${s.market_only}</td><td>${esc(s.message||'')}</td></tr>`).join('')+'</tbody>';
+const ord={'A':0,'B':1};
+const list=cand.slice().sort((a,b)=>((ord[a.grade]??(a.status==='反対材料で保留'?2:3))-(ord[b.grade]??(b.status==='反対材料で保留'?2:3)))||((b.hit_count||0)-(a.hit_count||0)));
+const ul=(t,a)=>a&&a.length?`<div style="margin-top:4px"><b>${t}</b><ul class="blist">${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';
+const card=r=>{const mk=r.market;const g=r.grade?(r.grade==='A'?'⑤-A 強い格差確認':'⑤-B 格差候補・要注意'):r.status;
+ return `<details class="d5c"><summary><b>${esc(g)}</b>｜${esc(r.group||r.sport)}｜${fmt(r.start_jst)}｜${esc(r.left)} vs ${esc(r.right)}${r.pick?`｜格差側：<b>${esc(r.pick)}</b>`:''}｜${esc(r.hit_summary||'')}</summary>
+ <div style="font-size:13px;padding:6px 2px">${esc(r.competition||'')}${r.source?`（${esc(r.source)}）`:''}${r.type_label?`／型：${esc(r.type_label)}`:''}
+ ${ul('発火した一次条件（オッズ不使用）',r.log||(r.hits||[]).map(h=>h.label))}${ul('支持材料',r.support)}${ul('反対材料',r.counter)}${ul('不確実性',r.uncertainty)}
+ ${r.reason?`<div style="margin-top:4px"><b>状態</b>：${esc(r.reason)}</div>`:''}
+ ${mk?`<div style="margin-top:4px"><b>市場（候補確定後に取得）</b>：${esc(mk.source)} ${esc(JSON.stringify(mk.prices))}／${esc(mk.note||'')}</div>`:''}
+ ${r.basic_source?`<div class="note">基本指標の出典：${esc(r.basic_source)}</div>`:''}</div></details>`;};
+let h=list.map(card).join('');
+if(C.length)h+=`<h3 class="subh">⑤-C 市場だけ格差（実力差は未確認・⑤-Aと混ぜない）</h3>`+C.map(r=>`<div class="note">${esc(r.group||r.sport)}｜${fmt(r.start_jst)}｜${esc(r.left)} vs ${esc(r.right)}｜${esc(r.market_only.note)}</div>`).join('');
+document.getElementById('d5list').innerHTML=h||'<p class="note">本日は明確な格差候補なし。</p>';
+})();
 (async function(){
 const LG=['r1','r2','r3','r4'], T={r1:'① 推奨取引',r2:'② VALUE①',r3:'③ VALUE②',r4:'④ PRO EDGE',experience:'経験値取引'};
 const FORMAL={r1:'accepted',r2:'formal',r3:'adopted',r4:'accepted'};

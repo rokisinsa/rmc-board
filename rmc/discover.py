@@ -637,8 +637,82 @@ def _wl(v):
     return (int(m[1]), int(m[2])) if m else (0, 0)
 
 
+def _ls():
+    if "ls" not in _BASIC:
+        x = core.load("basic/livescore.json") or {}
+        by = {}
+        for f in x.get("fixtures") or []:
+            by.setdefault(f["sport"], []).append(f)
+        _BASIC["ls"] = dict(taken_at=x.get("taken_at"), fixtures=x.get("fixtures") or [], by_sport=by, stages=x.get("stages") or {})
+    return _BASIC["ls"]
+
+
+def _same(a, b):
+    a, b = _norm(a), _norm(b)
+    return bool(a) and bool(b) and (a == b or (min(len(a), len(b)) >= 5 and (a in b or b in a)))
+
+
+def ls_fixture(match):
+    """matches.json の試合に対応する LiveScore の試合（競技・開始±30分・両チーム名）。向き（flip）も返す。"""
+    ls = _ls()
+    try:
+        st = core.parse(match["start_jst"])
+    except Exception:
+        return None, None
+    for f in ls["by_sport"].get(match.get("sport"), []):
+        if abs((core.parse(f["start_jst"]) - st).total_seconds()) > 1800:
+            continue
+        if _same(f["t1"], match.get("left")) and _same(f["t2"], match.get("right")):
+            return f, False
+        if _same(f["t1"], match.get("right")) and _same(f["t2"], match.get("left")):
+            return f, True
+    return None, None
+
+
+def ls_facts(match, f, flip):
+    ls = _ls()
+    stg = ls["stages"].get(f["stage"]) or {}
+    tl, tr = (f["t2"], f["t1"]) if flip else (f["t1"], f["t2"])
+    def rows(name):
+        out = []
+        for r in sorted(stg.get("results") or [], key=lambda r: r["date"], reverse=True):
+            if r["t1"] == name:
+                a, b, opp, ha = r["s1"], r["s2"], r["t2"], "H"
+            elif r["t2"] == name:
+                a, b, opp, ha = r["s2"], r["s1"], r["t1"], "A"
+            else:
+                continue
+            out.append(dict(date=r["date"], opp=opp, comp=stg.get("name"), ha=ha, score=f"{a}-{b}", res="W" if a > b else "L" if a < b else "D"))
+        return out[:10]
+    h2h = []
+    for r in stg.get("results") or []:
+        if {r["t1"], r["t2"]} == {tl, tr}:
+            a, b = (r["s1"], r["s2"]) if r["t1"] == tl else (r["s2"], r["s1"])
+            h2h.append(dict(date=r["date"], event=stg.get("name"), winner="left" if a > b else "right" if b > a else "draw", score=f"{a}-{b}"))
+    tb = stg.get("table") or {}
+    cc = {}
+    if tl in tb and tr in tb and (tb[tl].get("played") or 0) >= 3 and (tb[tr].get("played") or 0) >= 3:
+        cc = dict(left=tb[tl], right=tb[tr], source=f"LiveScore順位表 {stg.get('name')}（{ls['taken_at']}取得）")
+    met = {"left": {}, "right": {}}
+    for side, nm in (("left", tl), ("right", tr)):
+        t = tb.get(nm) or {}
+        if (t.get("played") or 0) >= 3:
+            met[side]["season_wr"] = round((t.get("W") or 0) / t["played"] * 100, 1)
+            if t.get("gf") is not None and t.get("ga") is not None:
+                met[side]["gd_pg"] = met[side]["pd_pg"] = met[side]["rd_pg"] = round((t["gf"] - t["ga"]) / t["played"], 2)
+            if t.get("pts") is not None:
+                mx = 3 if match.get("sport") in ("サッカー", "アイスホッケー") else 2
+                met[side]["pts_rate"] = round(t["pts"] / (t["played"] * mx), 3)
+    met["source"] = f"LiveScore順位表（{ls['taken_at']}取得）"
+    return dict(left=dict(name=match.get("left"), form=rows(tl)), right=dict(name=match.get("right"), form=rows(tr)), h2h=h2h,
+                current_competition=cc, metrics=met, _basic_source=f"LiveScore {f['competition']} eid={f['eid']}")
+
+
 def basic_facts(match):
     """自動取得した基本指標を facts と同じ形にする（facts が無い試合の一次スクリーニング用）。"""
+    if match.get("sport") in ("サッカー", "アイスホッケー", "バスケットボール", "クリケット"):
+        f, flip = ls_fixture(match)
+        return ls_facts(match, f, flip) if f else None
     if match.get("sport") != "テニス":
         return None
     bb = load_basic()["tennis"]
@@ -706,6 +780,8 @@ def merged_facts(mid, match):
             out[side] = dict(fx.get(side) or {}, form=bf[side]["form"])
     if not fx.get("h2h") and bf["h2h"]:
         out["h2h"] = bf["h2h"]
+    if not fx.get("current_competition") and bf.get("current_competition"):
+        out["current_competition"] = bf["current_competition"]
     out.setdefault("surface", bf.get("surface"))
     mt = dict(bf["metrics"])
     for side in ("left", "right"):
@@ -755,9 +831,50 @@ def run_screen(locked, matches=None):
             if m.get("sport") in ESPORTS:
                 row["rating_source"] = ESPORTS_RATING_SOURCE.get(m.get("sport"), "利用可能なRating＋大会成績")
         out["rows"].append(row)
+    # オッズ配信に無い試合（LiveScore の日程だけにある試合）も⑤に通す
+    matched = set()
+    for mid in inventory(matches, locked):
+        f0, _ = ls_fixture(matches[mid])
+        if f0:
+            matched.add(f0["eid"])
+    for f in _ls()["fixtures"]:
+        if not (f["start_jst"] > locked and core.within_horizon(locked, f["start_jst"])) or f["eid"] in matched:
+            continue
+        if any(r["match_id"] == f"ls-{f['eid']}" for r in out["rows"]):
+            continue
+        pm = dict(sport=f["sport"], competition=f["competition"], start_jst=f["start_jst"], left=f["t1"], right=f["t2"], flags=[])
+        fx = ls_facts(pm, f, False)
+        ind = indicators(pm, fx, ratings)
+        hits, n = screen(pm, ind)
+        row = dict(match_id=f"ls-{f['eid']}", sport=f["sport"], group=group_of(pm), competition=f["competition"], start_jst=f["start_jst"],
+                   left=f["t1"], right=f["t2"], source="LiveScore日程（オッズ配信に無い試合）", basic_source=fx["_basic_source"],
+                   indicators=ind, indicators_available=sorted(k for k, v in ind.items() if "unavailable" not in v))
+        if hits:
+            row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, hit_summary=f"一次条件{n}項目中{len(hits)}項目該当",
+                       log=[f"発火：{h['label']}（値{h['value']}・{'左' if h['side'] == 'L' else '右'}側）" for h in hits])
+        else:
+            row.update(status="該当なし", rule_count=n, reason=(f"取得できた指標{len(row['indicators_available'])}件でいずれも基準未満"
+                                                               if row["indicators_available"] else "取得できた指標なし"))
+        out["rows"].append(row)
+    out["basic_sources"] = {k: (_BASIC.get(k) or {}).get("taken_at") for k in ("tennis", "ls")}
     out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", -(r.get("hit_count") or 0), r["start_jst"]))
     _summ(out)
     return out
+
+
+def register_candidates(scr, matches=None):
+    """オッズ配信に無い（LiveScore日程だけの）一次候補を matches.json に登録し、深掘り facts を書けるようにする。"""
+    matches = matches if matches is not None else core.load("matches.json", {})
+    n = 0
+    for r in scr["rows"]:
+        if r["match_id"].startswith("ls-") and r.get("status") == "一次候補" and r["match_id"] not in matches:
+            matches[r["match_id"]] = dict(sport=r["sport"], competition=r["competition"], round=None, start_jst=r["start_jst"],
+                                          left=r["left"], right=r["right"], home_away="不明", status="scheduled", result=None,
+                                          note="⑤ 格差候補発見エンジンがLiveScore日程から発見（オッズ配信に無い試合）", flags=[])
+            n += 1
+    if n:
+        core.save("matches.json", matches)
+    return n
 
 
 def run_finalize(locked, screened=None, matches=None, odds=None):
@@ -863,6 +980,8 @@ def save(scr):
 if __name__ == "__main__":
     cmd, locked = sys.argv[1], sys.argv[2]
     scr = run_screen(locked) if cmd == "screen" else run_finalize(locked)
+    if cmd == "screen":
+        print("LiveScore日程から登録した一次候補:", register_candidates(scr))
     save(scr)
     for g, s in sorted(scr["by_sport"].items(), key=lambda kv: -kv[1]["scanned"]):
         print(g, s)
