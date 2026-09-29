@@ -2,7 +2,7 @@
  "logic": "r3",
  "run_id": "run-20260929-1800",
  "run_started_at": "2026-09-29T17:55:43+09:00",
- "decided_at": "2026-09-29T19:07:20+09:00",
+ "decided_at": "2026-09-29T21:27:27+09:00",
  "rows": [
   {
    "match_id": "m20260929-3d1821fc",
@@ -7581,13 +7581,68 @@
   },
   {
    "match_id": "m20260930-0a5357d3",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
-   "status": "excluded",
-   "pick": "Farzam M.",
+   "status": "adopted",
+   "pick": "Bernard A.",
    "odds": 1.84,
    "need": 54.3,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン50.0%）"
+   "reason": "競技枠（テニスの中で最上位・全競技から必ず出す）：市場50.0%に対し独立勝率58.3%（差+8.3pt）が競技内で最上位。通常基準での判定は excluded：市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン50.0%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "テニス",
+    "competition": "Futures 2026",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T00:35:00+09:00",
+    "matchup": "Farzam M. vs Bernard A.",
+    "ranking": "マティス・ファルザム：ATP 1405位（米国、19歳） ／ アレクサンダー・バーナード：ATP 1620位（米国、自己最高586位）",
+    "h2h": {
+     "unavailable": true,
+     "reason": "TennisExplorerの対戦ページ（mutual/farzam/bernard-56743）で「No head-to-head record」＝初対戦"
+    },
+    "recent_form": "マティス・ファルザム：直近10試合／アレクサンダー・バーナード：直近10試合（事実欄）",
+    "venue": "ITFフューチャーズ（大会名は取得元で「Futures 2026」表記のみ、米国内と推定されるが未確認）予選2回戦＝中立",
+    "lineup": {
+     "unavailable": true,
+     "reason": "メンバー情報なし"
+    },
+    "odds": {
+     "book": "Unibet",
+     "via": "Unibet（tennisexplorer経由（ブック別オッズ）・17:58取得・te:3336252）",
+     "fid": "te:3336252",
+     "taken_at": "2026-09-29T17:58:53+09:00",
+     "market": "Match Winner（2way）",
+     "exact": true,
+     "L": 1.84,
+     "R": 1.84
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "両者とも予選から出場の下位ランク選手／右の直近10試合中3試合はUTR大会（ATP公式外）",
+    "missing": "大会開催地",
+    "source_urls": [
+     "https://www.tennisexplorer.com/player/farzam/?annual=2026",
+     "https://www.tennisexplorer.com/player/bernard-56743/?annual=2026",
+     "https://www.tennisexplorer.com/mutual/farzam/bernard-56743/"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-69bbd999",
@@ -9502,13 +9557,69 @@
   },
   {
    "match_id": "m20260930-b0890eda",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
    "status": "excluded",
    "pick": "Real Madrid BC",
    "odds": 1.952,
    "need": 51.2,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン48.9%）"
+   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン48.9%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "バスケットボール",
+    "competition": "Euroleague",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T02:00:00+09:00",
+    "matchup": "Real Madrid BC vs Anadolu Efes",
+    "ranking": "レアル・マドリード：EuroLeague 2026-27 0勝1敗、SuperCup優勝 ／ アナドル・エフェス：EuroLeague 2026-27 0勝1敗",
+    "h2h": "直接対戦1件（事実欄）",
+    "recent_form": "レアル・マドリード：直近4試合／アナドル・エフェス：直近4試合（事実欄）",
+    "venue": "イスタンブール（エフェスのホーム）— EuroLeague 第2節、19:00 CEST",
+    "lineup": "欠場情報は公式プレビューに記載なし／アウェー3連戦の2戦目（realmadrid.com）／新加入：マイク・ジェームズ、ダリオ・シャリッチ、ストラゼル、マルコム、ユスタ、ブルーノ・フェルナンド（realmadrid.com）",
+    "odds": {
+     "book": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:31357988）",
+     "fid": "bov:31357988",
+     "taken_at": "2026-09-29T17:56:24+09:00",
+     "market": "Moneyline",
+     "exact": true,
+     "L": 1.952,
+     "R": 1.87
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "両者とも開幕戦黒星／エフェスは大型補強（元RMのユスタ、ブルーノ・フェルナンド）",
+    "missing": "直近10試合（両者とも4試合のみ）／H2H 10件",
+    "source_urls": [
+     "https://www.realmadrid.com/en-US/news/basket/first-team/fixtures/anadolu-efes-real-madrid-29-09-2026",
+     "https://www.realmadrid.com/en-US/news/basket/first-team/reports/cronica-dubai-real-madrid-24-09-2026",
+     "https://www.realmadrid.com/en-US/news/basket/first-team/reports/cronica-dubai-basketball-rm-semifinal-supercopa-euroliga-18-09-2026",
+     "https://www.thenationalnews.com/sport/2026/09/20/real-madrid-avenge-euroleague-final-loss-to-olympiacos-with-supercup-triumph-in-abu-dhabi/",
+     "https://www.blogdebasket.com/2026/09/27/real-madrid-salva-milagro-debut-unicaja-malaga",
+     "https://www.fotomac.com.tr/basketbol/2026/09/28/anadolu-efes-fark-atti-95-81",
+     "https://www.eurohoops.net/en/euroleague/2006924/dubai-basketball-defeats-anadolu-efes-in-gloria-cup-thriller/",
+     "https://basketdergisi.com/anadolu-efes-antalya-etabini-farkli-bitirdi.html",
+     "https://www.futbolmedya.com/gloria-cup-basketball-2026-summer-gameste-sampiyon-finalde-anadolu-efesi-yenen-turk-telekom-oldu/",
+     "https://en.wikipedia.org/wiki/2026–27_Anadolu_Efes_S.K._season",
+     "https://www.realmadrid.com/en-US/news/basket/first-team/fixtures/real-madrid-anadolu-efes-26-03-2026"
+    ],
+    "data_as_of": "2026-09-29T21:26:00+09:00"
+   }
   },
   {
    "match_id": "m20260930-880619fe",
@@ -10406,13 +10517,67 @@
   },
   {
    "match_id": "m20260929-e9ba60f1",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
    "status": "excluded",
    "pick": "Justo G.",
    "odds": 1.83,
    "need": 54.6,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン50.0%）"
+   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン50.0%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "テニス",
+    "competition": "Curitiba challenger",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T02:30:00+09:00",
+    "matchup": "Justo G. vs Roncadelli F.",
+    "ranking": "グイド・イバン・フスト：ATP 239位（自己最高223位） ／ フランコ・ロンカデッリ：ATP 259位（自己最高225位）",
+    "h2h": "直接対戦2件（事実欄）",
+    "recent_form": "グイド・イバン・フスト：直近10試合／フランコ・ロンカデッリ：直近10試合（事実欄）",
+    "venue": "クリチバ・チャレンジャー（ブラジル、クレー想定）1回戦＝中立",
+    "lineup": {
+     "unavailable": true,
+     "reason": "メンバー情報なし"
+    },
+    "odds": {
+     "book": "bet365",
+     "via": "bet365（tennisexplorer経由（ブック別オッズ）・17:58取得・te:3333952）",
+     "fid": "te:3333952",
+     "taken_at": "2026-09-29T17:58:53+09:00",
+     "market": "Match Winner（2way）",
+     "exact": true,
+     "L": 1.83,
+     "R": 1.83
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "両者とも9月下旬のブエノスアイレスで2回戦敗退／H2H 1-1（2026年のみ）",
+    "missing": {
+     "unavailable": true,
+     "reason": "不足なし"
+    },
+    "source_urls": [
+     "https://www.tennisexplorer.com/player/justo/?annual=2026",
+     "https://www.tennisexplorer.com/player/roncadelli/?annual=2026",
+     "https://www.tennisexplorer.com/mutual/justo/roncadelli/"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   }
   },
   {
    "match_id": "m20260930-6ac490a2",
@@ -13487,13 +13652,74 @@
   },
   {
    "match_id": "m20260930-a890c6c7",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
    "status": "excluded",
    "pick": "Racing Club Warwick",
    "odds": 2.5,
    "need": 40.0,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン35.9%）"
+   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン35.9%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "サッカー",
+    "competition": "Europe / England / Southern Premier League Center",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T03:45:00+09:00",
+    "matchup": "Racing Club Warwick vs Worcester City",
+    "ranking": "レーシング・クラブ・ウォリック：サザンリーグ・プレミア・セントラル 2026/27（リーグ戦8試合 1勝3分4敗） ／ ウースター・シティ：サザンリーグ・プレミア・セントラル 2026/27（リーグ戦8試合 1勝3分4敗）",
+    "h2h": {
+     "unavailable": true,
+     "reason": "aiscoreのH2Hページは『データなし』、footystatsは403。ウォリックは2024年昇格、ウースターは近年の同リーグ昇格で、公式戦での過去対戦を確認できず（初対戦の可能性が高いが確証なし）"
+    },
+    "recent_form": "レーシング・クラブ・ウォリック：直近10試合／ウースター・シティ：直近10試合（事実欄）",
+    "venue": "タウンゼンド・メドウ（ウォリック）。2026-09-29 19:45 BST",
+    "lineup": {
+     "unavailable": true,
+     "reason": "メンバー情報なし"
+    },
+    "odds": {
+     "book": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:30346587）",
+     "fid": "bov:30346587",
+     "taken_at": "2026-09-29T17:56:24+09:00",
+     "market": "3-Way Moneyline",
+     "exact": true,
+     "L": 2.5,
+     "R": 2.49,
+     "D": 3.2
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "ウースターの9/26 FAトロフィー予選3回戦（対リーク・タウン、マルヴァーン開催）の結果未確認",
+    "missing": "ウースターの2026-09-26 対リーク・タウン戦の結果／H2H",
+    "source_urls": [
+     "https://www.footballwebpages.co.uk/racing-club-warwick/fixtures-results",
+     "https://www.footballwebpages.co.uk/worcester-city/fixtures-results",
+     "https://www.southern-football-league.co.uk/match/6a5a1aacce9ef452b61f42bd",
+     "https://www.southern-football-league.co.uk/match/6a5a1aacce9ef452b61f42c7",
+     "https://worcestercityfc.org/matches/2026-27/1284/worcester-city-vs-banbury-united/",
+     "https://leamingtonobserver.co.uk/sport/football-racing-club-warwick-knocked-out-of-fa-trophy-after-late-defeat-against-bromsgrove-sporting/",
+     "https://worcesterobserver.co.uk/sport/football-worcester-city-confirm-venue-change-for-fa-trophy-tie-against-leek-town/",
+     "https://www.skysports.com/football/redditch-united-vs-racing-club-warwick/572450",
+     "https://www.aiscore.com/head-to-head/soccer-racing-club-warwick-vs-worcester-city"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   }
   },
   {
    "match_id": "m20260930-2f81eace",
@@ -13571,13 +13797,66 @@
   },
   {
    "match_id": "m20260930-42cb1121",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
    "status": "excluded",
    "pick": "Aveley",
    "odds": 2.43,
    "need": 41.2,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン37.0%）"
+   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン37.0%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "サッカー",
+    "competition": "Europe / England / Isthmian League, Premier Division",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T03:45:00+09:00",
+    "matchup": "Dulwich Hamlet vs Aveley",
+    "ranking": "ダリッジ・ハムレット：イスミアンリーグ・プレミア 2026/27（リーグ戦7試合 4勝1分2敗） ／ エイヴリー：イスミアンリーグ・プレミア 2026/27（リーグ戦8試合 3勝1分4敗）",
+    "h2h": "直接対戦3件（事実欄）",
+    "recent_form": "ダリッジ・ハムレット：直近10試合／エイヴリー：直近10試合（事実欄）",
+    "venue": "チャンピオン・ヒル（ダリッジのホーム）。2026-09-29 19:45 BST",
+    "lineup": {
+     "unavailable": true,
+     "reason": "メンバー情報なし"
+    },
+    "odds": {
+     "book": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:31267576）",
+     "fid": "bov:31267576",
+     "taken_at": "2026-09-29T17:56:24+09:00",
+     "market": "3-Way Moneyline",
+     "exact": true,
+     "L": 2.41,
+     "R": 2.43,
+     "D": 3.5
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "ダリッジは9/26にFAトロフィー敗退",
+    "missing": "2025/26以前のイスミアン公式戦H2H（aiscoreは3件のみ）",
+    "source_urls": [
+     "https://www.footballwebpages.co.uk/dulwich-hamlet/fixtures-results",
+     "https://www.footballwebpages.co.uk/aveley/fixtures-results",
+     "https://www.aiscore.com/head-to-head/soccer-aveley-vs-dulwich-hamlet",
+     "https://www.yourthurrock.com/2026/02/08/aveley-continue-impressive-form-against-dulwich-hamlet/"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   }
   },
   {
    "match_id": "m20260930-5fb0bcce",
@@ -13908,13 +14187,68 @@
   },
   {
    "match_id": "m20260930-173a8d75",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
-   "status": "excluded",
+   "status": "adopted",
    "pick": "Matlock Town",
    "odds": 2.35,
    "need": 42.6,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン37.6%）"
+   "reason": "競技枠（サッカーの中で最上位・全競技から必ず出す）：市場37.6%に対し独立勝率45.2%（差+7.5pt）が競技内で最上位。通常基準での判定は excluded：市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン37.6%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "サッカー",
+    "competition": "Europe / England / England Northern League Division One",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T03:45:00+09:00",
+    "matchup": "Matlock Town vs Bradford Park Avenue",
+    "ranking": "マトロック・タウン：NPL ディビジョン1イースト 2026/27（リーグ戦8試合 4勝2分2敗） ／ ブラッドフォード・パーク・アヴェニュー：NPL ディビジョン1イースト 2026/27（リーグ戦8試合 5勝3分0敗）",
+    "h2h": "直接対戦10件（事実欄）",
+    "recent_form": "マトロック・タウン：直近10試合／ブラッドフォード・パーク・アヴェニュー：直近10試合（事実欄）",
+    "venue": "ギグ・フィールド（マトロックのホーム）。2026-09-29 19:45 BST",
+    "lineup": {
+     "unavailable": true,
+     "reason": "メンバー情報なし"
+    },
+    "odds": {
+     "book": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:31549568）",
+     "fid": "bov:31549568",
+     "taken_at": "2026-09-29T17:56:24+09:00",
+     "market": "3-Way Moneyline",
+     "exact": true,
+     "L": 2.35,
+     "R": 2.3,
+     "D": 3.7
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "マトロックの9/26アシントン戦は延期（P-P）、同日FAトロフィー予選3回戦ケタリング戦の結果は未確認／大会表記はデータ元で『Northern League Division One』だが実際はNPL ディビジョン1イースト",
+    "missing": "マトロックの2026-09-26 対ケタリング・タウン（FAトロフィー）結果",
+    "source_urls": [
+     "https://www.footballwebpages.co.uk/matlock-town/fixtures-results",
+     "https://www.footballwebpages.co.uk/bradford-park-avenue/fixtures-results",
+     "https://www.aiscore.com/head-to-head/soccer-bradford-park-avenue-vs-matlock-town",
+     "https://www.isthmian.co.uk/match/69eda2e7ae868772823cc05f",
+     "https://www.thenpl.co.uk/match/6896abc11c6f4c56212c73dd"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-1fee0f1e",
@@ -15405,13 +15739,62 @@
   },
   {
    "match_id": "m20260930-a62bab68",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
-   "status": "excluded",
+   "status": "adopted",
    "pick": "Las Vegas Aces",
    "odds": 1.952,
    "need": 51.2,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン48.9%）"
+   "reason": "競技枠（バスケットボールの中で最上位・全競技から必ず出す）：市場48.9%に対し独立勝率75.0%（差+26.1pt）が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は excluded：市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン48.9%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "バスケットボール",
+    "competition": "WNBA",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T07:30:00+09:00",
+    "matchup": "Las Vegas Aces vs Indiana Fever",
+    "ranking": "ラスベガス・エーシズ：プレーオフ1回戦 1勝0敗 ／ インディアナ・フィーバー：プレーオフ1回戦 0勝1敗",
+    "h2h": "直接対戦4件（事実欄）",
+    "recent_form": "ラスベガス・エーシズ：直近10試合／インディアナ・フィーバー：直近10試合（事実欄）",
+    "venue": "インディアナポリス（フィーバーのホーム）— プレーオフ1回戦 第2戦、第3戦は10/1ラスベガス",
+    "lineup": "欠場情報未取得／欠場情報未取得",
+    "odds": {
+     "book": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:31417987）",
+     "fid": "bov:31417987",
+     "taken_at": "2026-09-29T17:56:24+09:00",
+     "market": "Moneyline",
+     "exact": true,
+     "L": 1.952,
+     "R": 1.87
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "3戦2勝制でエーシズ1勝リード／エーシズはRS終盤から6連勝",
+    "missing": "2025年以前のH2H／ロスター・欠場",
+    "source_urls": [
+     "https://www.basketball-reference.com/wnba/teams/LVA/2026_games.html",
+     "https://www.basketball-reference.com/wnba/teams/IND/2026_games.html",
+     "https://www.basketball-reference.com/wnba/playoffs/2026_games.html"
+    ],
+    "data_as_of": "2026-09-29T21:26:00+09:00"
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-c0da7a1a",
@@ -17426,13 +17809,62 @@
   },
   {
    "match_id": "m20260930-4cb8d4a6",
-   "deep_dive": false,
+   "deep_dive": true,
    "priced": true,
    "status": "excluded",
    "pick": "Zhu L.",
    "odds": 1.92,
    "need": 52.1,
-   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン49.3%）"
+   "reason": "市場差を測る独立推定なし：深掘り未実施（競技内の深掘り枠外）（市場ベースライン49.3%）／21:25に深掘りを追加",
+   "deep_dive_detail": {
+    "title": "テニス",
+    "competition": "Beijing",
+    "date": "2026-09-30",
+    "start_jst": "2026-09-30T12:00:00+09:00",
+    "matchup": "Parks A. vs Zhu L.",
+    "ranking": "アリシア・パークス：WTA 70位（自己最高40位） ／ 朱琳：WTA 199位（自己最高31位）",
+    "h2h": "直接対戦2件（事実欄）",
+    "recent_form": "アリシア・パークス：直近10試合／朱琳：直近10試合（事実欄）",
+    "venue": "チャイナ・オープン（北京、WTA1000、ハード）＝中立",
+    "lineup": "2025年10月〜2026年5月に棄権・途中棄権が複数（TennisExplorer記載）",
+    "odds": {
+     "book": "1xBet",
+     "via": "1xBet（tennisexplorer経由（ブック別オッズ）・17:58取得・te:3335268）",
+     "fid": "te:3335268",
+     "taken_at": "2026-09-29T17:58:53+09:00",
+     "market": "Match Winner（2way）",
+     "exact": true,
+     "L": 1.87,
+     "R": 1.92
+    },
+    "odds_exact": true,
+    "required_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "prior_prob": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "edge_or_ev": {
+     "unavailable": true,
+     "reason": "競技枠判定で算出"
+    },
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "パークスの9/25北京1回戦敗退（カータル戦）の記載と、今回の北京での朱戦が矛盾。予選・ラッキールーザー・取得元誤記の可能性、要確認／朱は2026年4月以降の試合記録が見当たらず長期離脱明けの可能性",
+    "missing": "朱の2026年4月以降の試合／H2Hの正確な日付",
+    "source_urls": [
+     "https://www.tennisexplorer.com/player/parks-bcd85/?annual=2026",
+     "https://www.tennisexplorer.com/player/zhu-a98e2/?annual=2026",
+     "https://www.tennisexplorer.com/player/zhu-a98e2/",
+     "https://www.tennisexplorer.com/mutual/parks-bcd85/zhu-a98e2/"
+    ],
+    "data_as_of": "2026-09-29T21:25:00+09:00"
+   }
   },
   {
    "match_id": "m20260930-2ffa7b1f",
@@ -19370,7 +19802,7 @@
    "status": "excluded",
    "pick": "India",
    "odds": 1.091,
-   "reason": "対象価格帯（1.50〜3.00）の選択肢なし（本命1.091）",
+   "reason": "対象価格帯（1.50〜3.00）の選択肢なし（本命1.091）／21:25に深掘りを追加",
    "rationale": "③：価格帯外（1.50〜3.00の選択肢なし）",
    "deep_dive_detail": {
     "title": "クリケット",
@@ -19378,14 +19810,14 @@
     "date": "2026-09-30",
     "start_jst": "2026-09-30T17:30:00+09:00",
     "matchup": "India vs West Indies",
-    "ranking": "取得できず",
-    "h2h": "今シリーズ：インド1勝（8ウィケット差）",
-    "recent_form": "インドが第1戦快勝",
-    "venue": "グワーハーティー・インドのホーム",
-    "lineup": "インドはブムラー・ハルディク不在、コーリ/ロヒット/ジャデジャ復帰",
+    "ranking": "インド（India）：ODI 世界ランク取得できず（主将シュブマン・ギル） ／ 西インド諸島（West Indies）：ODI 世界ランク取得できず（主将シャイ・ホープ）",
+    "h2h": "直接対戦1件（事実欄）",
+    "recent_form": "インド（India）：直近5試合／西インド諸島（West Indies）：直近2試合（事実欄）",
+    "venue": "グワーハーティー（インド）— インドのホーム（第2戦 9/30、Yahoo）。開始時刻は未確認",
+    "lineup": "ブムラー、ハルディク不在（cricinfoプレビュー見出し）／コーリ、ロヒット・シャルマ、ジャデジャがODI復帰（Yahoo）／取得できず",
     "odds": {
      "book": "Bovada",
-     "via": "Bovada",
+     "via": "Bovada（Bovada 公開coupon JSON・17:56取得・bov:31500774）",
      "fid": "bov:31500774",
      "taken_at": "2026-09-29T17:56:24+09:00",
      "market": "Moneyline",
@@ -19394,29 +19826,39 @@
      "R": 7.5
     },
     "odds_exact": true,
-    "external_market": {
+    "required_prob": {
      "unavailable": true,
-     "reason": "Bovada以外のブックの比較値なし（公開配信は1社のみ）"
+     "reason": "競技枠判定で算出"
     },
-    "risks": "3試合シリーズ第2戦（インド1勝0敗）／インドはブムラー・ハルディク不在／第1戦スコア詳細（ラン・オーバー数）は未取得",
-    "missing": "直近10試合／過去H2H／第2戦メンバー",
-    "source_urls": [
-     "https://sports.yahoo.com/articles/ind-vs-wi-1st-odi-060602918.html",
-     "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-odi-1529227/match-report",
-     "https://www.espn.com/cricket/series/24289/scorecard/1529227/india-vs-west-indies-1st-odi-24289"
-    ],
-    "data_as_of": "2026-09-29T18:49:00+09:00",
-    "start_confirmed": null,
-    "required_prob": 0.9166,
     "prior_prob": {
      "unavailable": true,
-     "reason": "価格帯外"
+     "reason": "競技枠判定で算出"
     },
     "edge_or_ev": {
      "unavailable": true,
-     "reason": "価格帯外"
+     "reason": "競技枠判定で算出"
     },
-    "rationale": "③：価格帯外（1.50〜3.00の選択肢なし）"
+    "external_market": {
+     "unavailable": true,
+     "reason": "単一ブックのみ"
+    },
+    "rationale": "21:25追加深掘り（全競技から必ず出すため）",
+    "risks": "3試合シリーズ第2戦（インド1勝0敗）／インドはブムラー・ハルディク不在／2022-2023のH2H9件はWikipedia既知記録（2022/2023遠征頁）による。今回セッションで個別頁の再取得は未実施→要照合",
+    "missing": "直近10試合（インド5、西インド2）／第2戦メンバー",
+    "source_urls": [
+     "https://sports.yahoo.com/articles/ind-vs-wi-1st-odi-060602918.html",
+     "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-odi-1529227/match-report",
+     "https://www.espn.com/cricket/series/24289/scorecard/1529227/india-vs-west-indies-1st-odi-24289",
+     "https://www.espncricinfo.com/series/india-in-england-2026-1496488/england-vs-india-3rd-odi-1496581/match-report",
+     "https://sports.yahoo.com/articles/india-vs-england-3rd-odi-033406411.html",
+     "https://en.wikipedia.org/wiki/Afghan_cricket_team_in_India_in_2026",
+     "https://sports.yahoo.com/articles/many-more-odis-india-play-090448583.html",
+     "https://en.wikipedia.org/wiki/Sri_Lankan_cricket_team_in_West_Indies_in_2026",
+     "https://en.wikipedia.org/wiki/Pakistani_cricket_team_in_West_Indies_in_2026",
+     "https://en.wikipedia.org/wiki/Indian_cricket_team_in_the_West_Indies_and_the_United_States_in_2023",
+     "https://en.wikipedia.org/wiki/Indian_cricket_team_in_the_West_Indies_and_the_United_States_in_2022"
+    ],
+    "data_as_of": "2026-09-29T21:26:00+09:00"
    }
   },
   {
@@ -20382,8 +20824,8 @@
    "est": "68.2%",
    "diff": "+11.3pt",
    "upset": "高",
-   "status": "watch",
-   "reason": "市場差+11.3pt・EV+8.4%・リスク高（前回の深掘り判定を引継ぎ）",
+   "status": "adopted",
+   "reason": "競技枠（Rainbow Sixの中で最上位・全競技から必ず出す）：市場56.9%に対し独立勝率68.2%（差+11.3pt）が競技内で最上位。通常基準での判定は watch：市場差+11.3pt・EV+8.4%・リスク高（前回の深掘り判定を引継ぎ）",
    "rationale": "③：市場ベースライン56.9%に対し直近成績log5は68.2%。Upset Risk 高。",
    "deep_dive_detail": {
     "title": "Rainbow Six",
@@ -20440,7 +20882,8 @@
     "prior_prob": 0.6818,
     "edge_or_ev": "市場差+11.3pt／EV+8.4%",
     "rationale": "③：市場ベースライン56.9%に対し直近成績log5は68.2%。Upset Risk 高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20261001-9a09ab89",
@@ -21762,5 +22205,5 @@
    "reason": "対象価格帯（1.50〜3.00）の選択肢なし（今回の公開配信に掲載なし・前回判定を引継ぎ）"
   }
  ],
- "floor_applied_at": "2026-09-29T20:33:40+09:00"
+ "floor_applied_at": "2026-09-29T21:27:27+09:00"
 }

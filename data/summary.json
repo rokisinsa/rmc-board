@@ -1,15 +1,15 @@
 {
  "run_id": "run-20260929-1800",
  "run_status": "partial",
- "built_at": "2026-09-29T20:34:32+09:00",
+ "built_at": "2026-09-29T21:27:28+09:00",
  "logics": {
   "r1": {
-   "formal": 43,
+   "formal": 44,
    "settled": 6,
    "win": 6,
    "loss": 0,
    "void": 0,
-   "pending": 37,
+   "pending": 38,
    "staked": 600.0,
    "returned": 714.4,
    "net": 114.4,
@@ -78,12 +78,12 @@
    }
   },
   "r3": {
-   "formal": 9,
+   "formal": 13,
    "settled": 1,
    "win": 1,
    "loss": 0,
    "void": 0,
-   "pending": 8,
+   "pending": 12,
    "staked": 100.0,
    "returned": 153.0,
    "net": 53.0,
@@ -229,12 +229,12 @@
     }
    },
    "sport_floor": {
-    "formal": 8,
+    "formal": 9,
     "settled": 0,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 8,
+    "pending": 9,
     "staked": 0.0,
     "returned": 0.0,
     "net": 0.0,
@@ -381,12 +381,12 @@
     }
    },
    "sport_floor": {
-    "formal": 8,
+    "formal": 12,
     "settled": 0,
     "win": 0,
     "loss": 0,
     "void": 0,
-    "pending": 8,
+    "pending": 12,
     "staked": 0.0,
     "returned": 0.0,
     "net": 0.0,
@@ -574,11 +574,11 @@
  "gap_bands": {
   "r1": {
    "70-80": {
-    "count": 19,
+    "count": 20,
     "win": 3,
     "loss": 0,
     "void": 0,
-    "pending": 16,
+    "pending": 17,
     "invested": 300.0,
     "net": 73.6,
     "roi": 24.53
@@ -606,11 +606,11 @@
   },
   "all": {
    "70-80": {
-    "count": 29,
+    "count": 30,
     "win": 3,
     "loss": 0,
     "void": 0,
-    "pending": 26,
+    "pending": 27,
     "invested": 300.0,
     "net": 73.6,
     "roi": 24.53
