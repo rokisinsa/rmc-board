@@ -880,6 +880,59 @@ def register_candidates(scr, matches=None):
     return n
 
 
+def seed_facts(scr, matches=None):
+    """一次候補のうち facts が無い試合に、自動取得の基本指標（直近・H2H・現在大会・Rating）から facts の下地を作り、
+    データから機械的に出せる deep5 項目（直近5・直近10・連勝/連敗・平均得失点・現在大会成績）を埋める。
+    欠場・ロスター・先制率・反対材料などは深掘り（Web調査）で追記する。数字は作らない。"""
+    matches = matches if matches is not None else core.load("matches.json", {})
+    n = 0
+    for r in scr["rows"]:
+        if r.get("status") != "一次候補" or r["match_id"] not in matches:
+            continue
+        m = matches[r["match_id"]]
+        f = core.path("facts", f"{r['match_id']}.json")
+        fx = _facts(r["match_id"])
+        bf = basic_facts(m)
+        if not bf:
+            continue
+        taken = (_BASIC.get("ls") if m.get("sport") != "テニス" else _BASIC.get("tennis")) or {}
+        if not fx:
+            fx = dict(match_id=r["match_id"], data_as_of=taken.get("taken_at") or core.now_jst(), unit="セット" if m.get("sport") == "テニス" else "なし",
+                      left=dict(name=m.get("left"), ranking="", form=bf["left"]["form"]), right=dict(name=m.get("right"), ranking="", form=bf["right"]["form"]),
+                      h2h=bf["h2h"], common_opponents_notes=[], venue="", risks=[], missing=["⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"],
+                      unavailable={}, source_urls=[bf["_basic_source"]])
+            if not bf["h2h"]:
+                fx["unavailable"]["h2h"] = f"自動取得元（{bf['_basic_source']}）に直接対戦の記録なし。他の資料で要確認"
+        for k in ("metrics", "current_competition", "surface"):
+            if bf.get(k) and not fx.get(k):
+                fx[k] = bf[k]
+        dd = fx.setdefault("deep5", {})
+        def rec(rows):
+            w = sum(1 for g in rows if g["res"] == "W"); l = sum(1 for g in rows if g["res"] == "L"); d_ = len(rows) - w - l
+            return f"{w}勝{d_}分{l}敗" if d_ else f"{w}勝{l}敗"
+        auto = {"last5": [], "last10": [], "streak": [], "avg_points": []}
+        for side, lab in (("left", m.get("left")), ("right", m.get("right"))):
+            rows = [g for g in (fx.get(side) or {}).get("form") or [] if g.get("res") in ("W", "L", "D")]
+            if rows:
+                auto["last5"].append(f"{lab}：{rec(rows[:5])}")
+                auto["last10"].append(f"{lab}：{rec(rows[:10])}（{len(rows[:10])}試合）")
+                r0, k0 = _streak(rows)
+                auto["streak"].append(f"{lab}：{k0}連{'勝' if r0 == 'W' else '敗' if r0 == 'L' else '分'}")
+                gd, gn = _gd(rows[:10])
+                if gn:
+                    auto["avg_points"].append(f"{lab}：1試合平均得失差 {gd / gn:+.2f}（{gn}試合）")
+        for k, v in auto.items():
+            if len(v) == 2:
+                dd[k] = "／".join(v)
+        cc = fx.get("current_competition") or {}
+        if cc.get("left") and not dd.get("current_competition"):
+            dd["current_competition"] = f"{m.get('left')} {cc['left']}／{m.get('right')} {cc['right']}（{cc.get('source')}）"
+        with open(f, "w", encoding="utf-8") as fh:
+            json.dump(fx, fh, ensure_ascii=False, indent=1); fh.write("\n")
+        n += 1
+    return n
+
+
 def run_finalize(locked, screened=None, matches=None, odds=None):
     matches = matches or core.load("matches.json", {})
     scr = screened or core.load("discovery/latest.json")
@@ -985,6 +1038,7 @@ if __name__ == "__main__":
     scr = run_screen(locked) if cmd == "screen" else run_finalize(locked)
     if cmd == "screen":
         print("LiveScore日程から登録した一次候補:", register_candidates(scr))
+        print("基本指標から facts の下地を作った一次候補:", seed_facts(scr))
     save(scr)
     for g, s in sorted(scr["by_sport"].items(), key=lambda kv: -kv[1]["scanned"]):
         print(g, s)
