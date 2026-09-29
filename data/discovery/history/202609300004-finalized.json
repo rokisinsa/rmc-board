@@ -195787,6 +195787,20 @@
     "Liquipedia": 55
    },
    "note": "オッズ配信・LiveScore・UEFA公式・FIFA公式・Liquipedia・VLR.gg の日程を照合し、どれか1つにしか無い試合も母集団に入れた"
+  },
+  "complete段階": {
+   "①探索complete": true,
+   "②重要候補complete": false,
+   "③全候補complete": false,
+   "引き継ぎ": null,
+   "判定根拠": {
+    "日程6ソース照合": true,
+    "全unique一次スクリーニング": true,
+    "件数整合と重複検査": true,
+    "JST形式": true,
+    "finalize済み": true,
+    "Tier1未完了": 32
+   }
   }
  },
  "finalized_at": "2026-09-30T00:08:19+09:00",

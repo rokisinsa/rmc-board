@@ -259,17 +259,31 @@ def check_discovery(rep, matches, ana_by_logic):
         if mid not in rows:
             rep.err("DISCOVERY", f"{mid}: 24時間以内の試合が⑤に通されていない")
     claims_complete = last_run.get("status") == "complete"
-    has_blocker_note = "⑤" in json.dumps(last_run.get("blockers") or [], ensure_ascii=False)
+    run_txt = json.dumps(dict(blockers=last_run.get("blockers"), notes=last_run.get("checklist_notes"),
+                              carried=last_run.get("carried_blockers")), ensure_ascii=False)
+    has_blocker_note = ("⑤" in run_txt) or ("Tier2残" in run_txt) or ("Tier3残" in run_txt)
     for r in rows.values():
         if any(k in json.dumps(r.get("indicators") or {}) for k in ('"prices"', '"odds', '"nv_')):
             rep.err("DISCOVERY", f"{r['match_id']}: ⑤の指標にオッズ由来の値が入っている")
         if r.get("status") in ("一次候補", "深掘り未完"):
-            # complete と主張する run では未完了候補は1件も許されない（Tier に関係なく）。partial なら blockers 記録が条件
-            gate = rep.err if claims_complete or not has_blocker_note else rep.warn
-            gate("DISCOVERY", f"{r['match_id']}: ⑤候補が未完了（Tier{r.get('tier')}・{r.get('status')}：{str(r.get('reason'))[:60]}）。"
-                              "complete にするには Tier1〜3 の全候補が確定していること。取り切れない場合は run を partial にして blockers に「⑤深掘り未完 N件と理由」")
+            # complete（＝②重要候補complete以上）の run で Tier1 の未完了は1件も許されない。
+            # Tier2/3 の残りは更新を止めないが、blockers か notes に「Tier2残N件／Tier3残N件」等の明示が必要
+            if r.get("tier") == 1:
+                gate = rep.err if claims_complete or not has_blocker_note else rep.warn
+                gate("DISCOVERY", f"{r['match_id']}: Tier1候補が未完了（{r.get('status')}：{str(r.get('reason'))[:60]}）。"
+                                  "Tier1が1件でも未完了なら ②重要候補complete＝run status complete は禁止")
+            else:
+                gate = rep.err if not has_blocker_note else rep.warn
+                gate("DISCOVERY", f"{r['match_id']}: Tier{r.get('tier')}候補が未完了（{r.get('status')}）。"
+                                  "残す場合は blockers か notes に「Tier2残N件／Tier3残N件」を明示して次回へ引き継ぐ")
         if r.get("status") == "格差候補確定" and (not r.get("support") or r.get("grade") not in ("A", "B")):
             rep.err("DISCOVERY", f"{r['match_id']}: 確定候補に支持材料・⑤-A/B の区分がない")
+    # 3段階complete（①探索／②重要候補／③全候補）の宣言と実態の一致
+    stages = (scr.get("run_log") or {}).get("complete段階") or {}
+    if claims_complete and stages.get("②重要候補complete") is not True:
+        rep.err("DISCOVERY", f"run status=complete だが ②重要候補complete の条件を満たしていない（{stages.get('判定根拠')}）")
+    if "全候補complete" in run_txt and stages.get("③全候補complete") is not True:
+        rep.err("DISCOVERY", "③全候補complete と表示しているが、Tier2/3を含む一次候補全件の深掘りが完了していない（③の表示は禁止）")
     # complete の追加条件：ログの件数整合・重複行なし・JST形式
     rl = scr.get("run_log") or {}
     cons = rl.get("整合性") or {}

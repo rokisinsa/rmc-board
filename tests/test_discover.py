@@ -84,7 +84,25 @@ class TestDiscoveryGate(unittest.TestCase):
             validate.check_discovery(rep, matches, ana)
         txt = " ".join(rep.errors)
         self.assertIn("m2: 24時間以内の試合が⑤に通されていない", txt)
-        self.assertIn("⑤候補が未完了", txt)
+        self.assertIn("候補が未完了", txt)
+
+    def test_complete_stages(self):
+        from rmc import discover as d
+        scr = dict(stage="finalized", locked_at="2026-09-30T06:00:00+09:00", screened_at="2026-09-30T06:01:00+09:00",
+                   odds_attached_at="2026-09-30T06:30:00+09:00", fixture_check={"all_ok": True}, rows=[],
+                   run_log={"A_unique_fixtures_重複排除後": 10, "B_一次スクリーニング済み": 10,
+                            "F_未完了数": 3, "F_未完了_Tier別": {"Tier1": 0, "Tier2": 1, "Tier3": 2},
+                            "整合性": {"深掘り完了_eq_A_B_保留": True, "Tier合計_eq_一次候補": True, "重複行": 0}})
+        st = d.complete_stages(scr)
+        self.assertTrue(st["①探索complete"]); self.assertTrue(st["②重要候補complete"]); self.assertFalse(st["③全候補complete"])
+        self.assertEqual(st["引き継ぎ"], "Tier2残1件／Tier3残2件")
+        scr["run_log"]["F_未完了_Tier別"]["Tier1"] = 1
+        st = d.complete_stages(scr)
+        self.assertFalse(st["②重要候補complete"])          # Tier1が1件でも未完了なら②禁止
+        scr["run_log"]["F_未完了_Tier別"]["Tier1"] = 0
+        scr["run_log"]["F_未完了数"] = 0
+        st = d.complete_stages(scr)
+        self.assertTrue(st["③全候補complete"])
 
 
 if __name__ == "__main__":

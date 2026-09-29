@@ -1041,6 +1041,34 @@ def _dedupe_rows(out):
     return out
 
 
+def complete_stages(scr):
+    """completeの3段階判定（ユーザー指示 2026-09-30）。
+    ①探索complete：全日程ソース正常・unique fixtures確定・全uniqueの一次スクリーニング完了・件数整合・JST・重複検査正常
+    ②重要候補complete：①＋Tier1全件の完全深掘り完了（全件が⑤-A/⑤-B/保留のいずれかに確定）。Tier1が1件でも未完了なら②は禁止
+    ③全候補complete：①②＋Tier2・Tier3を含む一次候補全件の深掘り完了。1件でも残っていれば③と表示してはならない
+    Tier2/3が残っていてもRMCの更新は止めず、「Tier2残N件／Tier3残N件」を明示して次回へ引き継ぐ。"""
+    L = scr.get("run_log") or {}
+    rows = scr.get("rows") or []
+    cons = L.get("整合性") or {}
+    jst_ok = all(not scr.get(k) or JST_TS.match(scr[k]) for k in ("locked_at", "screened_at", "odds_attached_at"))
+    fx_ok = bool((scr.get("fixture_check") or {}).get("all_ok"))
+    screened_all = L.get("B_一次スクリーニング済み") == L.get("A_unique_fixtures_重複排除後")
+    consistent = cons.get("深掘り完了_eq_A_B_保留") is True and cons.get("Tier合計_eq_一次候補") is True and cons.get("重複行", 1) == 0
+    s1 = fx_ok and screened_all and consistent and jst_ok and scr.get("stage") == "finalized"
+    t1_left = (L.get("F_未完了_Tier別") or {}).get("Tier1", 999)
+    unchecked = sum(1 for r in rows if r.get("status") == "深掘り未完" and r.get("tier") == 1)
+    s2 = s1 and t1_left == 0 and unchecked == 0
+    s3 = s2 and L.get("F_未完了数", 999) == 0
+    t2 = (L.get("F_未完了_Tier別") or {}).get("Tier2", 0); t3 = (L.get("F_未完了_Tier別") or {}).get("Tier3", 0)
+    return {"①探索complete": s1, "②重要候補complete": s2, "③全候補complete": s3,
+            "引き継ぎ": (f"Tier2残{t2}件／Tier3残{t3}件" if (t2 or t3) and s2 else None),
+            "判定根拠": dict(日程6ソース照合=fx_ok, 全unique一次スクリーニング=screened_all, 件数整合と重複検査=consistent,
+                          JST形式=jst_ok, finalize済み=scr.get("stage") == "finalized", Tier1未完了=t1_left)}
+
+
+JST_TS = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+09:00$")
+
+
 def _dup_check(rows):
     seen, dup = {}, []
     for r in rows:
@@ -1224,6 +1252,7 @@ def _summ(scr):
                      重複行=len(_dup_check(rows))),
         "日程ソース照合": scr.get("fixture_check"),
     }
+    scr["run_log"]["complete段階"] = complete_stages(scr)
 
 
 def _count(rows, fn):
