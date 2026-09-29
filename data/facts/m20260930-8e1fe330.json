@@ -141,6 +141,17 @@
   "ranking": "LFL所属。WSCI 2026 グループ突破→準々決勝でKT Rolster Challengersに勝利（スコア未取得）",
   "form": [
    {
+    "date": "2026-09-28",
+    "opp": "KT Rolster Challengers",
+    "comp": "WSCI 2026 準々決勝（BO5）",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "units_won": 3,
+    "units_lost": 0,
+    "detail": "team-aaa（9/28）・optistream（9/29）"
+   },
+   {
     "date": "2026-09-25",
     "opp": "ZSK",
     "comp": "WSCI 2026 グループ（BO1）",
@@ -181,6 +192,17 @@
     "units_lost": 0
    },
    {
+    "date": "2026-09-21",
+    "opp": "Solary",
+    "comp": "WSCI 2026 グループ（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1,
+    "detail": "Solary側の既存調査（9/21 Galions 1-0）と一致"
+   },
+   {
     "date": "2026-09-02",
     "opp": "TLN Pirates",
     "comp": "LFL Summer 2026",
@@ -219,26 +241,6 @@
     "res": "W",
     "units_won": 2,
     "units_lost": 0
-   },
-   {
-    "date": "2026-08-06",
-    "opp": "Solary",
-    "comp": "LFL Summer 2026（BO1）",
-    "ha": "N",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 1
-   },
-   {
-    "date": "2026-08-05",
-    "opp": "TLN Pirates",
-    "comp": "LFL Summer 2026（BO1）",
-    "ha": "N",
-    "score": "0-1",
-    "res": "L",
-    "units_won": 0,
-    "units_lost": 1
    }
   ],
   "lineup": [
@@ -257,21 +259,22 @@
  "venue": "韓国のLAN会場（WSCI 2026 準決勝、中立）",
  "unavailable": {
   "h2h": "Strafe・既存facts（T1A/Galions双方）で対戦記録なし。rdy.ggの記載は他の試合と矛盾し不採用",
-  "right.form": "Galions準々決勝のスコア未取得のためformは準々決勝前まで",
-  "right.history": "KT戦のスコア未取得"
+  "right.history": "KT戦はスコア3-0を確認（team-aaa・optistream）。ゲーム別詳細は未取得"
  },
  "match_id": "m20260930-8e1fe330",
- "data_as_of": "2026-09-29T18:48:00+09:00",
+ "data_as_of": "2026-09-30T07:52:00+09:00",
  "risks": [
   "準決勝BO5・韓国LAN。T1 AcademyはLCK CL王者で開催地韓国",
   "Galionsの準々決勝（対KT Rolster Challengers、9/28）は勝利のみ確認、スコア未取得",
   "rdy.ggは『T1A 3-1 Galions（9/28）』と誤記とみられる記載（Strafeでは9/28のT1A準々決勝相手はCupid）→H2Hに不採用",
-  "T1Aの準々決勝日付は9/28と推定（Strafe/既存facts：9/27-28開催）"
+  "T1Aの準々決勝日付は9/28と推定（Strafe/既存facts：9/27-28開催）",
+  "GalionsのWSCIグループ9/25 ZSK戦は既存formとggscoreでL表記だが、team-aaa（9/26）は『Galions 4-2、2敗ともSolary』と記載し矛盾。未補正のまま（要確認）。Saigon Warriorsは第6戦を国内リーグ日程との重複で棄権（team-aaa）"
  ],
  "missing": [
   "Galions準々決勝スコア",
   "WSCI使用パッチ",
-  "両チームのWSCI出場メンバー確定"
+  "両チームのWSCI出場メンバー確定",
+  "GalionsのWSCIグループ対ZSK 2試合目の日付（team-aaaは4-2で2敗ともSolaryと記載）"
  ],
  "source_urls": [
   "https://www.strafe.com/event/world-star-challengers-invitational-2026-76e942/",
@@ -287,7 +290,12 @@
   "https://www.sheepesports.com/en/articles/t1-esports-academy-wins-2026-lck-challengers-league-title/en",
   "https://egamersworld.com/lol/team/kt-rolster-challengers-4J4Lsgqg5",
   "https://egamersworld.com/lol/team/galions-xzzvu9FmSH",
-  "https://x.com/RFTGGlol/status/2103448370283209141"
+  "https://x.com/RFTGGlol/status/2103448370283209141",
+  "https://www.team-aaa.com/fr/actualite/wsci-2026-la-lfl-place-solary-et-galions-dans-le-dernier-carre-face-a-la-lck_137196",
+  "https://optistream.fr/solary-galions-demi-finales-wsci-2026/",
+  "https://www.team-aaa.com/fr/actualite/world-star-challengers-invitational-2026-la-lfl-repond-present-solary-et-galions-filent-en-quarts-de-finale_137185",
+  "https://ggscore.com/en/lol/team/galions",
+  "https://ggscore.com/en/lol/team/t1-esports-academy"
  ],
  "esports": {
   "format": "BO5（Strafe：準々決勝・準決勝・決勝はBO5。グループはBO1二回総当たり）",
@@ -323,10 +331,10 @@
   },
   "right": {
    "games": 10,
-   "W": 5,
-   "L": 5,
+   "W": 6,
+   "L": 4,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 60.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -337,11 +345,11 @@
     "L": 0,
     "D": 0
    },
-   "streak": "2連敗",
-   "units_won": 9,
-   "units_lost": 8,
-   "points_for": 9,
-   "points_against": 8,
+   "streak": null,
+   "units_won": 12,
+   "units_lost": 7,
+   "points_for": 12,
+   "points_against": 7,
    "points_games": 10
   },
   "h2h": {
@@ -350,8 +358,141 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "KT Rolster Challengers",
+    "left": [
+     {
+      "date": "2026-09-15",
+      "iso": "2026-09-15",
+      "score": "3-0",
+      "res": "W",
+      "comp": "LCK CL 2026 プレーオフ決勝（BO5）"
+     },
+     {
+      "date": "2026-09-08",
+      "iso": "2026-09-08",
+      "score": "3-1",
+      "res": "W",
+      "comp": "LCK CL 2026 プレーオフ（BO5）"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "3-0",
+      "res": "W",
+      "comp": "WSCI 2026 準々決勝（BO5）"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "2勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 23,
+   "season_wr": 77
+  },
+  "right": {
+   "rank": 27,
+   "season_wr": 71
+  },
+  "source": "ggscore.com（世界ランク307チーム中：T1.EA 23位・直近84試合勝率77%／Galions 27位・76試合勝率71%、最高18位は2026年7月）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 6,
+   "D": 0,
+   "L": 1,
+   "gf": 8,
+   "ga": 2
+  },
+  "right": {
+   "played": 7,
+   "W": 5,
+   "D": 0,
+   "L": 2,
+   "gf": 7,
+   "ga": 2
+  },
+  "source": "WSCI 2026（グループBO1×6＋準々決勝BO5、gf/gaはゲーム数）。T1A：グループA 5-1＋QF Cupid 3-1。Galions：グループD 4勝2敗（2敗ともSolary＝team-aaa 9/26）＋QF KT.C 3-0（team-aaa 9/28・optistream 9/29）"
+ },
+ "deep5": {
+  "ranking": "ggscore世界ランク：T1 Esports Academy 23位／Galions 27位（ほぼ同格）。実績：T1AはLCK CL 2026優勝・Asia Masters 2026準優勝、GalionsはEMEA Masters Spring 2026・LFL Summer 2026優勝",
+  "current_competition": "WSCI 2026：T1A 6勝1敗（グループA 5-1で1位、QF Cupid 3-1、ゲーム8-2）／Galions 5勝2敗（グループD 4-2で2位・2敗ともSolary、QF KT Rolster Challengers 3-0、ゲーム7-2）",
+  "h2h_all": "初対戦（既存調査・Strafeで対戦記録なし）",
+  "h2h_points": "H2Hなし",
+  "h2h_home_away": "H2Hなし（本試合は韓国LAN）",
+  "last5": "T1A：5勝0敗／Galions：3勝2敗（9/28 KT.C 3-0、9/21 Solary 0-1を追加）",
+  "last10": "T1A：9勝1敗（10試合）／Galions：6勝4敗（10試合）",
+  "avg_points": "直近10のゲーム得失：T1A 16-5（+1.10/試合）／Galions 12-7（+0.50/試合）",
+  "streak": "T1A：6連勝（9/20 DNS.C戦以降）／Galions：1連勝（QF KT.C 3-0）",
+  "common_60d": "共通相手：KT Rolster Challengers（T1A 9/15 3-0・9/08 3-1＝ゲーム6-1／Galions 9/28 3-0＝3-0）で同相手への成績はほぼ互角（ゲーム差 T1A +5/2試合、Galions +3/1試合）。1件のみで比較力は弱い",
+  "first_rate": "第1ゲーム（BO1含む）勝率：WSCIグループBO1でT1A 5/6勝、Galions 4/6勝（team-aaa準拠）。KT.C戦はGalions 3-0でGame1勝利。T1AのQF（3-1）Game1は未確認",
+  "absences": "欠場報道なし（team-aaa・optistream・insider-gamingのいずれも言及なし）",
+  "roster_changes": "T1A：Haetae/Painter/Guti/Eclipse（Cypher併記）/Cloud。Galions：Carlsen/Thayger/OMON/Harpoon/Zoelys（ggscoreは「ロスター完全安定」と記載）。大会中の変更報道なし",
+  "bo_format": "BO5（準決勝）",
+  "lan_online": "LAN（韓国）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "準決勝で主力起用前提。T1AのADCにEclipse/Cypherの2人登録があるが起用変更の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hなし（格差根拠は直近10・連勝のみ）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "韓国開催でT1Aは地元。Galions側に有利な要素はなく反対材料にはならない",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "GalionsはQFでKT.C（T1AがLCK CL決勝で3-0した相手）を3-0で完封し、ggscore世界ランクも27位でT1A（23位）とほぼ同格。欧州2冠（EMEA Masters Spring・LFL Summer）で直近10の6勝4敗が示すより実力差は小さい可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "本試合はBO5。ただしT1Aの6連勝のうち5件、Galionsの直近4敗のうち3件はBO1で、直近10の差はBO1の結果に強く依存",
+   "impact": "minor",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者とも同じ韓国LANで大会中。差なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "両チームとも変更報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "準決勝で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-f202b0ec",
- "data_as_of": "2026-09-28T22:17:00+09:00",
+ "data_as_of": "2026-09-30T07:50:00+09:00",
  "start_jst_confirmed": "2026-09-30T06:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -293,7 +293,8 @@
  "unavailable": {
   "h2h": "初対戦。escorenewsの9z全試合一覧（2026年3月のLoL復帰初戦まで遡及）とEstral全試合一覧（2026年CD Split 1/2全試合）、gol.ggのEstral 2024年LLA全試合（対INF・R7・ISG・LEV・6K・AK等）を照合し対戦記録なし。9zはLLA非在籍（2020年Liga Master Flow→2022年復帰→2026年LRS）でEstral（LLA 2023-24→2026年ブラジルCD）とリーグが一度も重ならない。LeaguepediaとLiquipediaはそれぞれ402/429で照合不可のまま",
   "common": "60日以内の両者の対戦相手を突き合わせたが共通相手なし（Estral：CD勢／9z：LRS勢＋Fuego）。left.history/right.historyが空なのはこのため",
-  "right.form": "9zの直近10シリーズはLRS Split 2＋WSCIで確保。それ以前はLRS Split 1（3-6月、3位）に遡る"
+  "right.form": "9zの直近10シリーズはLRS Split 2＋WSCIで確保。それ以前はLRS Split 1（3-6月、3位）に遡る",
+  "current_competition.right": "current_competition: 9zのLRS Split 2レギュラーシーズン全成績（順位表）を取得できず（escorenewsは順位表非掲載、Liquipedia/Leaguepediaはアクセス不可）"
  },
  "source_urls": [
   "https://escorenews.com/en/lol/team/estral-esports",
@@ -311,7 +312,11 @@
   "https://www.millenium.gg/noticias/44674.html",
   "https://www.gosugamers.net/lol/tournaments/63065-circuito-desafiante-cd-2026-split-2",
   "https://x.com/CBLOLInsider_/status/2097413061024022978",
-  "/home/claude/rmc-site/data/facts/m20260930-f202b0ec.json（既存factsのプレーオフ4試合・9z form・lineup等を引き継ぎ）"
+  "/home/claude/rmc-site/data/facts/m20260930-f202b0ec.json（既存factsのプレーオフ4試合・9z form・lineup等を引き継ぎ）",
+  "https://www.sheepesports.com/pt/articles/cblol-2027-promotion-tournament-five-team-introduction/pt",
+  "https://ggscore.com/en/lol/team/9z-globant",
+  "https://ggscore.com/en/lol/team/estral",
+  "https://escorenews.com/en/lol/liga-regional-sur-2026-split-2"
  ],
  "calc": {
   "left": {
@@ -369,5 +374,96 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 37,
+   "season_wr": 77
+  },
+  "right": {
+   "rank": 34,
+   "season_wr": 67
+  },
+  "source": "ggscore.com チームページ（世界ランク：307チーム中。Estral 37位・今季勝率77%／9z 34位（最高位9/23）・2026年21戦14勝67%）。閲覧は試合開始後だがEstralの連勝13・9zの最高位日付9/23から本試合結果は未反映と判断"
+ },
+ "current_competition": {
+  "left": {
+   "played": 13,
+   "W": 13,
+   "D": 0,
+   "L": 0,
+   "gf": 19,
+   "ga": 0
+  },
+  "source": "昇格トーナメントは本試合が両者の初戦。left＝Circuito Desafiante 2026 Split 2（レギュラーBO1×9＋プレーオフ4シリーズ、gf/gaはゲーム数、既存facts.ranking）。9zのLRS Split 2レギュラー全成績は未取得"
+ },
+ "deep5": {
+  "ranking": "ggscore世界ランク（307チーム中）：Estral 37位／9z 34位（6月87位→9/23に最高34位）。ランク上はほぼ同格〜9zがわずかに上",
+  "current_competition": "昇格トーナメントは両者初戦。直前シーズン：Estral CD Split 2無敗優勝（13シリーズ全勝・19-0）／9z LRS Split 2優勝（プレーオフ3シリーズ9-1、レギュラーは判明分5勝1敗）",
+  "h2h_all": "初対戦（既存調査で両チーム全試合一覧を照合、所属リーグの重複なし）",
+  "h2h_points": "H2Hなし",
+  "h2h_home_away": "H2Hなし（本試合もオンラインの中立）",
+  "last5": "Estral：5勝0敗／9z：4勝1敗",
+  "last10": "Estral：10勝0敗（10試合）／9z：8勝2敗（10試合）",
+  "avg_points": "直近10のゲーム得失：Estral 16-0（+1.60/試合）／9z 20-8（+1.20/試合）",
+  "streak": "Estral：10連勝（form範囲。ggscoreは13連勝）／9z：1連敗（WSCI 9/16 Fuegoに0-3）",
+  "common_60d": "60日以内の共通対戦相手なし（Estral＝ブラジルCD勢、9z＝LRS勢＋Fuego）",
+  "first_rate": "第1ゲーム勝率：EstralはCD Split 2で1ゲームも落としておらず直近10シリーズのGame1は10/10勝。9zは直近10のうち判明分でGame1 5勝1敗（3-0×2・2-0×3で勝、Fuego戦0-3で敗、他4件は不明）",
+  "absences": "欠場報道なし（sheepesportsの5チーム紹介記事で両チームとも変更・欠場の言及なし）",
+  "roster_changes": "Estral：Bwipo/Oddie/Envy/Brance/Telas（コーチSnok）で変更報道なし。9z：Nate/Warsor/Aloned/FIX/Ux（コーチzl ven）。ggscoreはジャングルにApokalipseも併記しておりジャングル起用に揺れの可能性",
+  "bo_format": "BO5（ダブルエリミネーション上位ブラケット。敗者は下位へ）",
+  "lan_online": "オンライン（完全リモート開催）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "昇格を懸けた大会で主力起用が前提。控え起用の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hが存在しないため、H2H由来の根拠はない（格差根拠は連勝・直近10のみ）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立開催。Estralはブラジル拠点でCD参戦中、9zはアルゼンチン拠点でサーバー/接続差は小さいと見られるが未確認",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "9zはggscore世界ランクを6月87位→9/23に34位まで上げ、Estral（37位）を上回る。LRSプレーオフも9-1で優勝しており、Estralの無敗記録はCD（ブラジル2部）内のもので相手の強さが異なる。格差は連勝数ほど大きくない可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "本試合はBO5。ただしEstralの直近10のうち6件はBO1（CDレギュラー）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "本試合オンライン。Estral・9zの直近リーグ戦もオンライン中心。9zの直近敗戦（Fuego 0-3）は韓国WSCI（LAN・国外）",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "大きな変更報道なし。9zのジャングルに2人登録（Warsor/Apokalipse）で起用未確定",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "上位ブラケット初戦で昇格に直結。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

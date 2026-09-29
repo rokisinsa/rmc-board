@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-a0ae94fe",
- "data_as_of": "2026-09-29T18:42:14+09:00",
+ "data_as_of": "2026-09-30T07:51:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ロストック・シーウルブズ（Rostock Seawolves）",
-  "ranking": "BBL 2026-27 1勝2敗（12位、9/27時点）／EuroCup グループA開幕戦",
+  "ranking": "BBL 2026-27 1勝2敗、BBLポカールはハンブルクに敗れ敗退／EuroCup初出場の開幕戦（監督自ら『アンダードッグ』と発言）",
   "form": [
    {
     "date": "2026-09-27",
@@ -34,11 +34,11 @@
    {
     "date": "2026-09-11",
     "opp": "Hamburg Towers",
-    "comp": "大会未確認（プレシーズンの可能性）",
+    "comp": "BBLポカール（ドイツカップ）",
     "ha": "N",
     "score": "81-90",
     "res": "L",
-    "detail": "H/A・大会未確認"
+    "detail": "この敗戦でカップ敗退（Nordkurier 9/28）。H/A未確認"
    },
    {
     "date": "2026-05-14",
@@ -51,22 +51,23 @@
    }
   ],
   "lineup": [
-   "負傷・ロスター情報は取得できず"
+   "主将Robin Amaize（アキレス腱のけがから復帰途上）はハポエル戦で起用見送り、代わりに若手Matthes Tilsenが登録（Nordkurier 9/28）",
+   "直近得点源：TJ Crockett Jr.（BBL第3節18点）、Konontsuk（16点）"
   ],
   "history": []
  },
  "right": {
   "name": "ハポエル・エルサレム（Hapoel Jerusalem）",
-  "ranking": "EuroCup グループA開幕戦（直近10試合7勝3敗：scores24）",
+  "ranking": "前季EuroCup準々決勝進出（Nordkurier）。9/25 Winner Cup 88-68勝ち／EuroCup開幕戦",
   "form": [
    {
     "date": "2026-09-25",
     "opp": "Bnei Herzliya",
-    "comp": "国内戦（大会名未確認）",
+    "comp": "Winner Cup（イスラエル・リーグカップ、段階未確認）",
     "ha": "N",
     "score": "88-68",
     "res": "W",
-    "detail": "H/A未確認"
+    "detail": "会場ハデラ（basket.co.il）。Lofton Jr. 17点"
    },
    {
     "date": "2026-09-18",
@@ -104,35 +105,45 @@
    }
   ],
   "lineup": [
-   "負傷・ロスター情報は取得できず"
+   "新加入：Kenneth Lofton Jr.、Shake Milton、Devontae Cacok、Jaleen Smith、David Roddy、Lorenzo Brown、Jared Harper（Yahoo/JPost 9/28）",
+   "Jared Harper：右手親指のけがで数か月離脱（2027年初め復帰見込み）",
+   "9/25 Winner Cup戦は11人全員出場、他の主力欠場の記載なし（basket.co.il）"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "エルサレム・Pais Arena（ハポエル側ホーム）、17:00 UTC開始。配信表記ではロストック左だがアウェイ",
+ "venue": "ベオグラード（セルビア）・Ranko Žeravica Hall、治安上の理由で無観客（Nordkurier 9/28）。形式上ハポエルのホームだが実質中立地。旧記載のエルサレム開催は誤り",
  "risks": [
-  "ロストックはBBLで2連敗中、9/27試合後の長距離遠征",
-  "ハポエルのホーム",
-  "両チームの戦績の大会区分が一部未確認"
+  "Rostockは主将Amaize欠場・国内3敗（カップ含む）で遠征",
+  "Hapoelは新戦力中心で連係は開幕直後（Harperも長期離脱）",
+  "会場はベオグラード無観客でHapoelのホーム利なし",
+  "Rostockのformは5試合のみ・大会区分一部未確認"
  ],
  "missing": [
-  "負傷情報",
-  "ハポエルの試合の大会名・H/A"
+  "ハポエルの試合の大会名・H/A",
+  "Rostockのオフのロスター変更詳細"
  ],
  "unavailable": {
   "h2h": "scores24『Previously, these teams have not faced each other』→初対戦",
   "left.form": "scores24の直近5試合＋sport1で取得。大会・H/Aが一部未確認",
   "right.form": "scores24の直近5試合のみ。大会名・H/A未確認",
-  "history": "60日以内の共通相手なし"
+  "history": "60日以内の共通相手なし",
+  "first_rate": "先制率/第1Q勝率：両チームのクオーター別集計が見つからない",
+  "h2h_points": "H2H得失点：初対戦のため無し",
+  "h2h_home_away": "ホーム/アウェーH2H：初対戦のため無し"
  },
  "source_urls": [
   "https://scores24.live/en/basketball/m-29-09-2026-hapoel-jerusalem-rostock-seawolves-prediction",
   "https://ran.joyn.de/sports/ticker/ma12321853-hapoel-jerusalem-rostock-seawolves",
-  "https://scores24.live/en/basketball/m-29-09-2026-hapoel-jerusalem-rostock-seawolves-prediction",
   "https://www.sofascore.com/de/basketball/match/rostock-seawolves-hapoel-jerusalem-bc/HIcsyYqc",
   "https://www.sport1.de/daten/basketball/bbl/ergebnisse",
-  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100.html"
+  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100.html",
+  "https://www.nordkurier.de/regional/mecklenburg-vorpommern/seawolves-premiere-vor-leeren-raengen-4897839",
+  "https://www.nordkurier.de/sport/seawolves-taumeln-dritte-pleite-im-vierten-spiel-und-jetzt-wartet-der-eurocup-stress-4896851",
+  "https://basket.co.il/game-zone.asp?GameId=26838&lang=en",
+  "https://sports.yahoo.com/articles/jerusalem-basketball-roster-impresses-lofton-092339337.html",
+  "https://hapoel.co.il/game-zone?GameId=9944&gt=1012&lang=en"
  ],
  "calc": {
   "left": {
@@ -186,5 +197,77 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Rostock Seawolves：1勝4敗／Hapoel Jerusalem：4勝1敗",
+  "last10": "Rostock Seawolves：1勝4敗（5試合）／Hapoel Jerusalem：4勝1敗（5試合）",
+  "streak": "Rostock Seawolves：2連敗／Hapoel Jerusalem：2連勝",
+  "avg_points": "Rostock Seawolves：1試合平均得失差 -2.00（5試合）／Hapoel Jerusalem：1試合平均得失差 +13.00（5試合）",
+  "ranking": "公式ランキング・Eloなし。Rostock：BBL 1勝2敗（9/27時点）、EuroCup初参戦。Hapoel Jerusalem：前季EuroCup 8強、今季は元NBA選手を複数補強（Nordkurier・Yahoo）",
+  "current_competition": "EuroCup 2026-27の開幕戦（両者0試合）。国内：Rostock BBL 1勝2敗（Hagen 102-92勝、Ludwigsburg 78-81敗、Braunschweig 82-83敗）＋ポカール敗退／Hapoel Winner Cupで9/25 Bnei Herzliyaに88-68勝ち",
+  "h2h_all": "直接対戦なし（scores24：初対戦）",
+  "h2h_points": "H2Hなしのため該当なし",
+  "h2h_home_away": "H2Hなし。今回はベオグラードでの無観客開催で実質中立",
+  "common_60d": "60日以内の共通対戦相手なし（Rostock：Hagen・Ludwigsburg・Braunschweig・Hamburg／Hapoel：Herzliya・Beer Sheva・Lietuvos Rytas・Bourg・Ashdod）",
+  "first_rate": "先制率・第1Q勝率の統計は見つからず。参考：Rostockは9/27 Braunschweig戦で第1Q 13-30（Nordkurier）",
+  "absences": "Rostock：主将Robin Amaize（アキレス腱）を起用見送り（Nordkurier 9/28）。Hapoel：Jared Harper（右手親指、数か月離脱）",
+  "roster_changes": "Hapoelは大幅入れ替え（Lofton Jr.、Milton、Cacok、J. Smith、Roddy、L. Brown、Harper加入）。Rostockの今夏の入退団は詳細未確認"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "格差側Hapoelの欠場はJared Harper（右手親指、長期）1人。他は9/25に11人全員出場。劣勢側RostockもAmaize欠場",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "両者とも今季初の欧州戦で主力温存の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当する報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hなし（初対戦）。格差はH2H由来ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "形式上Hapoelホームだがベオグラード・無観客開催のためホーム利なし。Hapoelの直近戦績の会場区分も一部未確認",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Rostockは直近BBL 2連敗・カップ敗退で改善傾向なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "バスケットボールの単発試合でBO形式は該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Hapoelは主力の大半が新加入。直近10勝率差の元になったHapoelの5試合（プレシーズン・Winner Cup含む）は新ロスターでの結果なので格差の根拠とは整合するが、公式戦は少なく連係は未完成",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "EuroCupレギュラーシーズン開幕戦で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

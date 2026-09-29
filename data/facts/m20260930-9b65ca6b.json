@@ -27,7 +27,7 @@
     "detail": "6-4 6-4"
    },
    {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "opp": "クヌトソン",
     "comp": "カルダス・ダ・ライーニャ（WTA125）1回戦",
     "ha": "N",
@@ -35,10 +35,10 @@
     "res": "L",
     "units_won": 0,
     "units_lost": 2,
-    "detail": "6-7(4) 2-6（日付・ラウンドはmatchstat、Tennis Majorsは9/15・3回戦表記）"
+    "detail": "6-7(4) 2-6（日付はtennisexplorer 15.09に補正。ラウンドはmatchstat 1回戦／Tennis Majors 3回戦で不一致）"
    },
    {
-    "date": "2026-09-07",
+    "date": "2026-09-12",
     "opp": "ガサノワ",
     "comp": "W50エヴォラ 準決勝",
     "ha": "N",
@@ -46,10 +46,10 @@
     "res": "L",
     "units_won": 0,
     "units_lost": 2,
-    "detail": "4-6 3-6"
+    "detail": "4-6 3-6（日付はtennisexplorer 12.09に補正）"
    },
    {
-    "date": "2026-09-05以前（日付不明）",
+    "date": "2026-09-11",
     "opp": "ボロシュチュク",
     "comp": "W50エヴォラ 準々決勝",
     "ha": "N",
@@ -57,7 +57,29 @@
     "res": "W",
     "units_won": 2,
     "units_lost": 0,
-    "detail": "6-4 6-1"
+    "detail": "6-4 6-1（日付はtennisexplorer）"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "ブラントマイヤー",
+    "comp": "W50エヴォラ 2回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "6-3 1-6 6-2（tennisexplorer）"
+   },
+   {
+    "date": "2026-09-09",
+    "opp": "L・フルフビルトバ",
+    "comp": "W50エヴォラ 1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "6-1 3-6 6-1（tennisexplorer）"
    },
    {
     "date": "2026-08-31",
@@ -80,10 +102,22 @@
     "units_won": 0,
     "units_lost": 2,
     "detail": "3-6 4-6"
+   },
+   {
+    "date": "2026-08-12",
+    "opp": "シエラ",
+    "comp": "シンシナティ 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-1（tennisexplorer）"
    }
   ],
   "lineup": [
-   "WTA公式ドロー（9/28発行）：位置11、無印"
+   "WTA公式ドロー（9/28発行）：位置11、無印",
+   "tennisexplorer：シングルス現在361位／自己最高82位。2026年 ハード13-16、クレー1-2、室内1-1、芝1-5"
   ],
   "history": []
  },
@@ -114,7 +148,7 @@
     "detail": "7-5 2-6 6-1"
    },
    {
-    "date": "2026-09-26（Tennis Majors表記）",
+    "date": "2026-09-26",
     "opp": "ボリネッツ",
     "comp": "韓国オープン 準々決勝",
     "ha": "N",
@@ -145,11 +179,68 @@
     "units_won": 2,
     "units_lost": 0,
     "detail": "7-6 6-4"
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "アレクサンドロワ",
+    "comp": "全米オープン 2回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "1-6 6-2 3-6（tennisexplorer）"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "マルチンコ",
+    "comp": "全米オープン 1回戦",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "3-6 7-6(4) 6-3（tennisexplorer）"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "ヴィドマノバ",
+    "comp": "モンテレイ 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(2) 3-6（tennisexplorer）"
+   },
+   {
+    "date": "2026-08-13",
+    "opp": "ラヒモワ",
+    "comp": "シンシナティ 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 2-6（tennisexplorer）"
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "ゴルビッチ",
+    "comp": "トロント 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "6-7(7) 4-6（tennisexplorer）"
    }
   ],
   "lineup": [
    "韓国オープン第2シードで優勝（5連勝）",
-   "WTA公式ドロー：位置12、無印"
+   "WTA公式ドロー：位置12、無印",
+   "tennisexplorer：シングルス60位／自己最高56位（matchstatは41位と表示・更新時期差）。2026年 ハード20-14、芝5-5、クレー1-4",
+   "9/27に韓国オープン決勝を戦い、中2日で北京初戦（韓国オープンで5試合）"
   ],
   "history": []
  },
@@ -179,10 +270,10 @@
  "venue": "China Open（WTA1000）北京・国家テニスセンター、屋外ハード、中立（伊藤・バーレルとも国外）",
  "unavailable": {
   "history": "共通相手なし（上記突き合わせ）",
-  "left.form": "直近7試合のみ取得（tennisexplorer遮断）",
-  "right.form": "直近5試合（韓国オープン）のみ取得"
+  "伊藤の本戦入りの経緯": "エントリー経路（予選/PR等）を示す出典に到達できず",
+  "deep5.absences（伊藤の順位下落理由）": "出典が見つからない"
  },
- "data_as_of": "2026-09-29T12:49:00+09:00",
+ "data_as_of": "2026-09-30T08:06:00+09:00",
  "unit": "セット",
  "risks": [
   "バーレルは韓国オープン優勝直後（5連勝）で連戦疲労の可能性。決勝日付がmatchstat（9/21）とTennis Majors（9/27）で不一致",
@@ -191,21 +282,23 @@
  ],
  "missing": [
   "伊藤の本戦入りの経緯",
-  "両者のform 6試合目以降",
   "公式開始時刻（Order of Play）"
  ],
  "source_urls": [
   "https://matchstat.com/tennis/h2h-odds-bets/Aoi%20Ito/Kimberly%20Birrell/",
   "https://www.tennismajors.com/matches/wta/china-open/aoi-ito-vs-kimberly-birrell-2",
-  "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf"
+  "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
+  "https://www.tennisexplorer.com/player/ito-dabf4/?annual=2026",
+  "https://www.tennisexplorer.com/player/birrell-dca33/?annual=2026",
+  "https://www.tennisexplorer.com/match-detail/?id=3335254"
  ],
  "calc": {
   "left": {
-   "games": 7,
-   "W": 2,
+   "games": 10,
+   "W": 5,
    "L": 5,
    "D": 0,
-   "win_rate": 28.6,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -217,21 +310,21 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 5,
-   "units_lost": 10,
-   "points_for": 5,
-   "points_against": 10,
-   "points_games": 7,
-   "inner_for": 66,
-   "inner_against": 77,
-   "inner_games": 7
+   "units_won": 11,
+   "units_lost": 12,
+   "points_for": 11,
+   "points_against": 12,
+   "points_games": 10,
+   "inner_for": 106,
+   "inner_against": 98,
+   "inner_games": 10
   },
   "right": {
-   "games": 5,
-   "W": 5,
-   "L": 0,
+   "games": 10,
+   "W": 6,
+   "L": 4,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 60.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -243,14 +336,14 @@
     "D": 0
    },
    "streak": "5連勝",
-   "units_won": 10,
-   "units_lost": 2,
-   "points_for": 10,
-   "points_against": 2,
-   "points_games": 5,
-   "inner_for": 68,
-   "inner_against": 49,
-   "inner_games": 5
+   "units_won": 13,
+   "units_lost": 11,
+   "points_for": 13,
+   "points_against": 11,
+   "points_games": 10,
+   "inner_for": 117,
+   "inner_against": 116,
+   "inner_games": 10
   },
   "h2h": {
    "games": 2,
@@ -271,5 +364,98 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 361,
+   "season_wr": 40.0,
+   "surface_wr": 44.8
+  },
+  "right": {
+   "rank": 60,
+   "season_wr": 52.0,
+   "surface_wr": 58.8
+  },
+  "source": "tennisexplorer 2026年別成績（伊藤16-24・ハード13-16、バーレル26-24・ハード20-14。集計に韓国オープン準決勝・決勝が含まれるかは未確認）。バーレルの順位はmatchstatでは41位"
+ },
+ "current_competition": {
+  "left": {
+   "played": 40,
+   "W": 16,
+   "L": 24
+  },
+  "right": {
+   "played": 50,
+   "W": 26,
+   "L": 24
+  },
+  "source": "今季（2026）シングルス通算・tennisexplorer（今大会は1回戦が初戦）"
+ },
+ "deep5": {
+  "ranking": "伊藤WTA361位（自己最高82）、バーレルWTA60位（tennisexplorer、自己最高56）／matchstatでは41位（韓国オープン優勝反映の可能性）。",
+  "current_competition": "北京（WTA1000）1回戦が今大会初戦。今季：伊藤16-24（ハード13-16）、バーレル26-24（ハード20-14）＋直前の韓国オープン優勝。",
+  "h2h_all": "2戦2勝0敗でバーレル：2024-10-20 ジャパン女子オープン準決勝 6-4 6-3、2024-05-10 W75福岡準々決勝 7-6 7-5。",
+  "h2h_points": "セット0-4、ゲーム18-26（伊藤側）。",
+  "h2h_home_away": "2試合とも日本開催（伊藤の地元国）でバーレル勝利。今回は北京で中立。",
+  "last5": "伊藤2勝3敗（シンガポール予選決勝で日比野にフルセット負け、カルダス1回戦負け、エヴォラ準決勝負け）。バーレル5勝0敗（韓国オープン優勝）。",
+  "last10": "伊藤5勝5敗（セット11-12、勝ちはITF W50と予選中心）。バーレル6勝4敗（セット15-11、8月はツアー1回戦で3連敗後、US Open1勝→韓国オープン5連勝）。",
+  "avg_points": "直近10の平均セット：伊藤取得1.1/喪失1.2、バーレル取得1.5/喪失1.1。",
+  "streak": "伊藤1連敗、バーレル5連勝（韓国オープン優勝）。",
+  "common_60d": "60日以内（8/1以降）の共通対戦相手なし（馬燁欣とは両者対戦歴あるが伊藤の対戦は7/26で60日外）。",
+  "first_rate": "直近10の第1セット取得：伊藤5/10、バーレル4/10。",
+  "absences": "両者とも負傷報道は見つからず。伊藤は自己最高82位から361位に下落しているが理由（負傷等）は未確認。",
+  "roster_changes": "該当なし（個人競技）。"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "個人競技。両者とも負傷報道なし。バーレルは韓国オープン決勝（9/27）から中2日で連戦疲労の可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "個人競技のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは2024年の2試合（約2年前）。当時の伊藤はランキングがより上位で、現在361位との差は当時より広がる方向",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "北京で中立。H2H2試合はいずれも伊藤の地元日本でバーレル勝利",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "伊藤はエヴォラW50準決勝・シンガポール予選決勝（フルセット）まで進んだが急改善とは言えない。バーレルは8月にツアー1回戦3連敗しておりタイトルは直近の急上昇",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "3セットマッチ（BO3）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "個人競技のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "WTA1000本戦1回戦で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

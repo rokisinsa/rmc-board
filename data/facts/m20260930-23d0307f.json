@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-23d0307f",
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T07:50:00+09:00",
  "start_jst_confirmed": "2026-09-30T15:00:00+09:00",
  "unit": "ゲーム",
  "note_prematch": "World Star Challengers Invitational（WSCI）2026 準決勝（BO5）。勝者は10/2の決勝でT1 Esports Academy vs Galionsの勝者と対戦",
@@ -285,7 +285,8 @@
   "Solaryの8/20 Skillcamp戦はggscore要約がL表記（Skillcamp側の既存調査のW 2-1を採用）、8/13 Vitality Bee戦はスコア未確認",
   "DNS.Cの9/7の相手（KRX.C）の正式チーム名は未確認。8/16 T1A戦はT1A側調査で8/15付＝1日ずれ",
   "escorenews・ggscoreのスコア欄は表記が乱れており（例：DNS.Cの9/20 Fuego戦「0:1 Win」）、W/Lラベルと既存調査の突き合わせで確定した",
-  "グループ最終週から中1日→QF→中2日の連戦で、両チームともコンディション情報はなし"
+  "グループ最終週から中1日→QF→中2日の連戦で、両チームともコンディション情報はなし",
+  "insider-gaming（9/28）は『SolaryはWSCI 9試合で1敗』『DNS.CがAsia Masters 2026優勝（T1Aに3-1）』と記載し、既存調査（Solary 7-0、Asia Masters王者＝DKC）と食い違う。rdy.gg・strafe等の一致を優先し不採用"
  ],
  "missing": [
   "WSCI使用パッチ・ドラフト方式",
@@ -312,7 +313,9 @@
   "/home/claude/rmc-site/data/facts/m20260928-d31fc9c8.json（KT vs Galions：Solaryのグループ戦・KT戦の既存調査）",
   "/home/claude/rmc-site/data/facts/m20260929-7594eed8.json（TLN側から見たSolary戦の既存調査）",
   "/home/claude/rmc-site/data/facts/m20260929-0f62cc40.json（Skillcamp側から見たSolary戦の既存調査）",
-  "/home/claude/rmc-site/data/facts/m20260928-d7c3ad48.json（KCB側から見たSolary戦の既存調査）"
+  "/home/claude/rmc-site/data/facts/m20260928-d7c3ad48.json（KCB側から見たSolary戦の既存調査）",
+  "https://insider-gaming.com/first-ever-lol-wsci-finals-will-crown-a-french-or-korean-champion/",
+  "https://www.gosugamers.net/lol/tournaments/63194-world-star-challengers-invitational-wsci-2026/matches/662595-solary-vs-dn-soopers-challengers"
  ],
  "start_note": "指示でJST 2026-09-30 15:00（=KST 15:00）。maisesportsは9/30 03:00（ブラジル時間BRT=UTC-3とすれば06:00 UTC=15:00 JSTと一致）。escorenews・ggscoreも9/30のBo5準決勝として掲載",
  "reused_note": "WSCIの大会形式・QF結果（Solary 3-1 MKF、DNS.C 3-2 DKC）・グループ戦の一部（Solary vs Galions、T1A vs DNS.C×2）とLCK CLのKT戦・T1A戦は既存facts（m20260928-2ccc60e6/d31fc9c8、m20260929-7594eed8/0f62cc40、m20260928-d7c3ad48）から引き継ぎ、escorenews/ggscore/rdy.ggで補完",
@@ -372,5 +375,103 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 30
+  },
+  "right": {
+   "rank": 198,
+   "rating": 978
+  },
+  "source": "ggscore世界ランク（Solary 30位／DNS.C 198位）。DNS.Cのratingはgosugamers ELO 978（gosugamers世界96位）。既存facts.deep.rankingより"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 7,
+   "D": 0,
+   "L": 0,
+   "gf": 9,
+   "ga": 1
+  },
+  "right": {
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 6,
+   "ga": 5
+  },
+  "source": "WSCI 2026（グループBO1×6＋準々決勝BO5）。シリーズ成績、gf/gaはゲーム数。facts.form・rdy.gg（DNS.C 4勝3敗・マップ6-5と一致）"
+ },
+ "deep5": {
+  "ranking": "ggscore世界ランク：Solary 30位／DNS.C 198位（gosugamers世界96位・ELO 978）。Solaryが大きく上",
+  "current_competition": "WSCI 2026：Solary 7勝0敗（グループ6-0で1位、QFでMovistar KOI Fénixに3-1、ゲーム9-1）／DNS.C 4勝3敗（グループA 3-3、QFでDplus KIA Challengersに3-2、ゲーム6-5）",
+  "h2h_all": "初対戦（欧州LFLと韓国LCK CLで公式戦の接点なし、maisesports・ggscore・escorenewsで確認）",
+  "h2h_points": "H2Hなし",
+  "h2h_home_away": "H2Hなし（本試合は韓国LANの中立扱い）",
+  "last5": "Solary：5勝0敗／DNS.C：3勝2敗",
+  "last10": "Solary：8勝2敗（10試合、8/20 Skillcamp戦はW採用・ggscoreはL表記で両論）／DNS.C：6勝4敗（10試合）",
+  "avg_points": "直近10のゲーム得失：Solary 11-4（+0.78/試合、スコア判明9試合）／DNS.C 13-10（+0.30/試合、10試合）",
+  "streak": "Solary：7連勝（WSCI全勝。Skillcamp戦をWとすれば8連勝）／DNS.C：2連勝（EDG.Y 1-0、DKC 3-2）",
+  "common_60d": "60日以内の共通対戦相手なし（WSCIのグループが別、QF相手も異なる）",
+  "first_rate": "第1ゲーム（BO1含む）勝率：WSCIグループBO1でSolary 6/6勝、DNS.C 3/6勝。QF（BO5）のGame1勝敗は両者とも未確認",
+  "absences": "欠場報道なし（insider-gaming 9/28記事・既存調査で両チームとも言及なし）",
+  "roster_changes": "Solary：Kryze/Zicssi/Jool/Aetinoth/Piero（変更報道なし、WSCI公式名簿は未確認）。DNS.C：Lancer/DDoiV/Flip/Enosh/Quantum（2025年初からの在籍者中心で安定、ADC控えにrevenge）",
+  "bo_format": "BO5（準決勝）",
+  "lan_online": "LAN（韓国）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "準決勝で主力起用が前提。控え起用の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hなし（格差根拠は連勝と直近10のみ）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "開催地は韓国でDNS.Cは地元（LCK CL所属・全員韓国籍）。Solaryは欧州からの遠征だが9/20から現地で大会中。地元の利はDNS.C側",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "DNS.CはグループA 3-3からQFでDKCに3-2勝利と上向き。逆にSolaryはLFL Summer PO早期敗退（TLN 0-2）後のWSCIでの急上昇で、国内成績と乖離",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "本試合はBO5。ただしSolaryの連勝7のうち6件はグループのBO1で、BO5の勝ちはQFの1件のみ",
+   "impact": "minor",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者とも同一の韓国LANで大会を戦っており差はなし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "両チームとも変更報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "準決勝（勝者は10/2決勝へ）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

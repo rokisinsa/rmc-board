@@ -1,0 +1,293 @@
+{
+ "match_id": "ls-1791056",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ZSC Lions",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "EHC Kloten",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Ambri-Piotta",
+    "comp": "Switzerland / National League",
+    "ha": "A",
+    "score": "6-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Ajoie",
+    "comp": "Switzerland / National League",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Geneve-Servette",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "SCL Tigers",
+    "comp": "Switzerland / National League",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Bern",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "5-3",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Biel",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Geneve-Servette",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "EHC Kloten",
+    "comp": "Switzerland / National League",
+    "ha": "A",
+    "score": "6-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Ambri-Piotta",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "SCL Tigers",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Fribourg-Gotteron",
+    "comp": "Switzerland / National League",
+    "ha": "H",
+    "score": "4-2",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Switzerland / National League eid=1791056）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore Switzerland / National League eid=1791056"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 100.0,
+   "gd_pg": 2.0,
+   "pd_pg": 2.0,
+   "rd_pg": 2.0,
+   "pts_rate": 1.0
+  },
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "ZSC Lions：5勝0敗／Biel：2勝3敗",
+  "last10": "ZSC Lions：6勝0敗（6試合）／Biel：2勝3敗（5試合）",
+  "streak": "ZSC Lions：6連勝／Biel：1連敗",
+  "avg_points": "ZSC Lions：1試合平均得失差 +2.00（6試合）／Biel：1試合平均得失差 +0.80（5試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 6,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "6連勝",
+   "points_for": 25,
+   "points_against": 13,
+   "points_games": 6
+  },
+  "right": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 3,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 16,
+   "points_against": 12,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "EHC Kloten",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-2",
+      "res": "W",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "6-0",
+      "res": "W",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Geneve-Servette",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "3-0",
+      "res": "W",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Ambri-Piotta",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "6-3",
+      "res": "W",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "3-4",
+      "res": "L",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "SCL Tigers",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "4-3",
+      "res": "W",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "3-4",
+      "res": "L",
+      "comp": "Switzerland / National League"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-20",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

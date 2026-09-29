@@ -1,0 +1,362 @@
+{
+ "match_id": "ls-1881919",
+ "data_as_of": "2026-09-30T07:54:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Khimik Novopolotsk",
+  "ranking": "LiveResult 14位 7試合0勝（1OT敗）1pt 10-33",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Gomel",
+    "comp": "Belarus / Extraleague",
+    "ha": "H",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Lida",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Lida",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Vitebsk",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "2-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "Vitebsk",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Shakhtyor Soligorsk",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "3-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Shakhtyor Soligorsk",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "2-5",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Gomel",
+  "ranking": "LiveResult 4位 7試合10pt 24-15",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Khimik Novopolotsk",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Brest",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Brest",
+    "comp": "Belarus / Extraleague",
+    "ha": "H",
+    "score": "7-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Dinamo Molodechno",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Dinamo Molodechno",
+    "comp": "Belarus / Extraleague",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Neman Grodno",
+    "comp": "Belarus / Extraleague",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "Neman Grodno",
+    "comp": "Belarus / Extraleague",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "Belarus / Extraleague",
+   "winner": "right",
+   "score": "0-5",
+   "detail": "Novopolotsk開催（metaratings）"
+  },
+  {
+   "date": "2026-08-23",
+   "event": "Cup of Belarus",
+   "score": "2-3",
+   "winner": "right",
+   "detail": "LiveResult"
+  },
+  {
+   "date": "2026-01-06",
+   "event": "Belarus / Extraleague 2025/26",
+   "score": "2-1",
+   "winner": "left",
+   "detail": "LiveResult"
+  },
+  {
+   "date": "2026-01-04",
+   "event": "Belarus / Extraleague 2025/26",
+   "score": "1-2",
+   "winner": "right",
+   "detail": "LiveResult"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "Novopolotsk（Khimikホームと推定：LiveResultの表記順がKhimik先。9/27からの同カード連戦2戦目）",
+ "risks": [
+  "⑤深掘りは試合開始後（9/30 07:5x JST）の実施だが、記載は試合開始前の情報のみ",
+  "LiveScoreとLiveResultで今季得失・試合数に差（Khimik得点12 vs 10）。順位表はLiveResultを採用"
+ ],
+ "missing": [
+  "GK・PP/PK統計",
+  "負傷者情報",
+  "独立モデル勝率"
+ ],
+ "unavailable": {
+  "deep5.goalie": "両チームのGK名・個人成績を示す公開ソースなし（hockey.by統計は2024-25のみ表示）",
+  "deep5.save_pct": "同上",
+  "deep5.gsaa": "同上",
+  "deep5.pp_pct": "チーム特殊チーム統計の公開ソースなし",
+  "deep5.pk_pct": "同上",
+  "deep5.absences": "負傷者リストの公表なし",
+  "deep5.common_60d": "今季リーグ戦で共通相手なし"
+ },
+ "source_urls": [
+  "LiveScore Belarus / Extraleague eid=1881919",
+  "https://www.liveresult.ru/hockey/Belarus/Extraleague/standings",
+  "https://www.liveresult.ru/hockey/teams/Novopolotsk",
+  "https://metaratings.by/news/khokkeisty-gomelya-razgromili-novopolockii-khimik-v-matche-chempionata-belarusi-657397/",
+  "https://hchimik.hockey.by/news/",
+  "https://www.novaya.by/tag/xk-ximik/",
+  "https://extra.hockey.by/statistic/tables/?division=350"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 0.0,
+   "gd_pg": -3.29,
+   "pd_pg": -3.0,
+   "rd_pg": -3.0,
+   "pts_rate": 0.071,
+   "rank": 14
+  },
+  "right": {
+   "season_wr": 57.1,
+   "gd_pg": 1.29,
+   "pd_pg": 1.67,
+   "rd_pg": 1.67,
+   "pts_rate": 0.714,
+   "rank": 4
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得） ／ LiveResult Belarus Extraleague 2026-2027順位表（7試合時点・勝ち2pt/OT勝2pt/OT負け1pt換算で最大14pt）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 14,
+   "played": 7,
+   "W": 0,
+   "D": 0,
+   "L": 7,
+   "gf": 10,
+   "ga": 33,
+   "pts": 1,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 24,
+   "ga": 15,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Belarus / Extraleague（2026-09-29T22:27:25+09:00取得） ／ LiveResult Belarus Extraleague 2026-2027順位表（W/LはOT・SO含む）"
+ },
+ "deep5": {
+  "last5": "Khimik：0勝5敗（0-5 Gomel、0-4・1-5 @Lida、2-4・2-3 @Vitebsk）／Gomel：3勝1分（SO/OT決着）1敗（5-0、1-2@Brest、7-4 Brest、4-3・1-1 @Molodechno）",
+  "last10": "Khimik：リーグ7試合 0勝7敗／Gomel：リーグ7試合 4勝1分2敗（LiveScore表記。1-1は延長/SO決着）",
+  "streak": "Khimik：開幕7連敗／Gomel：1連勝",
+  "avg_points": "今季7試合：Khimik 平均得点1.43・失点4.71（差-3.29）／Gomel 平均得点3.43・失点2.14（差+1.29）（LiveResult得失）",
+  "current_competition": "Extraliga 2026/27 7試合：Khimik 0勝7敗（うち延長/SO負け1）得失10-33・1pt／Gomel 4勝（OT勝1含む）3敗（OT/SO負け2含む）得失24-15・10pt（LiveResult）。※LiveScore順位表（Khimik 6試合0-6・10-28、Gomel 3試合）は試合数が合わずLiveResultを優先",
+  "ranking": "LiveResult 2026/27順位表（9/27終了時点・各7試合）：Gomel 4位 10pt（3勝1OT勝2OT敗1敗・24-15）／Khimik Novopolotsk 14位（最下位）1pt（0勝1OT敗6敗・10-33）。前季参考：2024/25第1ステージはGomel 4位・Khimik 9位（hockey.by）",
+  "h2h_all": "確認できたH2H 4戦：2026-09-27 リーグ Khimik 0-5 Gomel（Novopolotsk開催）、2026-08-23 ベラルーシ杯 Khimik 2-3 Gomel、2026-01-06 リーグ Khimik 2-1 Gomel、2026-01-04 リーグ Khimik 1-2 Gomel（LiveResult）→ Gomel 3勝・Khimik 1勝",
+  "h2h_points": "H2H 4戦の得点 Khimik 5－Gomel 11（平均1.25－2.75）。直近の9/27以外は1点差",
+  "h2h_home_away": "9/27はKhimikホーム（Novopolotsk）でGomel 5-0。2026年1月の2戦・8月の杯戦の開催地は一覧に明記なし（表記順はKhimikが先）。今回もKhimikホームの連戦2戦目",
+  "common_60d": "60日以内の共通相手は今季リーグ戦では確認できず（Khimik：Shakhtyor・Vitebsk・Lida・Gomel／Gomel：Neman・Molodechno・Brest・Khimik）。Khimikの対戦相手は上位3チーム中2（Shakhtyor 1位・Vitebsk 3位）と日程の偏りあり",
+  "first_rate": "9/27 H2HはGomelが11分に先制（metaratings）。シーズン通算の先制率は確認できず",
+  "absences": "両クラブとも公式サイト・報道で負傷者リストの公表は確認できず（hchimik.hockey.by ニュース一覧 9月分）",
+  "roster_changes": "Khimik：7月に複数の契約締結・延長、7月に新GM（Valery Punko）就任。監督 Alexei Bondikov。Gomel：大きな変更報道は確認できず",
+  "goalie": "両チームの先発GK・個人成績は公開ソースで確認できず（9/27 Gomel完封勝ちのGK名も記事に記載なし）",
+  "save_pct": "確認できず。チーム失点：Khimik 33（7試合・平均4.71）／Gomel 15（平均2.14）",
+  "gsaa": "確認できず",
+  "pp_pct": "確認できず",
+  "pk_pct": "確認できず"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも負傷・欠場の公表を確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "連戦2戦目（9/27→9/29同カード）。GKの入れ替え情報は確認できず",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "Khimikは経営陣交代・複数契約あり、若返りの明確な報道はなし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 4戦はすべて2026年（1月・8月・9月）で新しい。ただし1月の2戦は1勝1敗の1点差",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "Khimikホームだが、同会場の9/27でGomelが5-0完勝。Khimikは今季ホーム1戦のみ（残りアウェー6戦）で、ホームでの力量はサンプル不足",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Khimikは直近も0-4、0-5と無得点が続き改善兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Khimikは7月に契約・GM交代。Gomelは大きな変更確認できず",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン序盤（8試合目）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 0,
+   "L": 7,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 6,
+    "D": 0
+   },
+   "streak": "7連敗",
+   "points_for": 10,
+   "points_against": 33,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 4,
+   "L": 2,
+   "D": 1,
+   "win_rate": 57.1,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 24,
+   "points_against": 14,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 4,
+   "left": 1,
+   "right": 3,
+   "draw": 0,
+   "points_left": 5,
+   "points_right": 11,
+   "points_games": 4,
+   "avg_left": 1.2,
+   "avg_right": 2.8
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

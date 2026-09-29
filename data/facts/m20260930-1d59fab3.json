@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T07:50:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "BORRACHEIROS",
@@ -35,7 +35,8 @@
     "score": "2-0",
     "res": "W",
     "units_won": 2,
-    "units_lost": 0
+    "units_lost": 0,
+    "detail": "vprognoze/kushvsporteのみ掲載。HLTVチームページ・CCT Series 6イベントページ（BORRACHEIROSのスイス3戦=DAMAJUANA・ALKA・Sementes do Mal）には無く未確認"
    },
    {
     "date": "2026-09-22",
@@ -45,12 +46,13 @@
     "score": "2-1",
     "res": "W",
     "units_won": 2,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "Map1 Mirageは技術トラブルでBORRACHEIROS没収 0-1、Nuke 13-2、Anubis 13-4（HLTV）。この試合はtrindadeに代わりStraaferが出場"
    },
    {
     "date": "2026-09-01",
     "opp": "ALKA",
-    "comp": "CCT South America（HLTV）",
+    "comp": "CCT 2026 South America Series 5",
     "ha": "N",
     "score": "0-2",
     "res": "L",
@@ -60,12 +62,43 @@
    {
     "date": "2026-08-30",
     "opp": "Peladona",
-    "comp": "CCT South America（HLTV）",
+    "comp": "CCT 2026 South America Series 5",
     "ha": "N",
     "score": "1-2",
     "res": "L",
     "units_won": 1,
     "units_lost": 2
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "BESTIA Academy",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "DAMAJUANA",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "Galorys",
+    "comp": "ESL Challenger League S52 South America Cup 1 UB R16",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "Anubis 7-13 / Ancient 19-15 / Nuke 2-13（HLTV）"
    }
   ],
   "lineup": [
@@ -74,7 +107,8 @@
    "neozix",
    "trindade",
    "Lacerda",
-   "コーチ: Flasky"
+   "コーチ: Flasky",
+   "9/22 DAMAJUANA戦はtrindadeに代わりStraaferが出場（HLTV）"
   ],
   "history": []
  },
@@ -96,13 +130,13 @@
    {
     "date": "2026-09-27",
     "opp": "Yawara Esports",
-    "comp": "CCT South America 関連（大会名未確認）",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "1-2",
     "res": "L",
     "units_won": 1,
     "units_lost": 2,
-    "detail": "日付・大会はkushvsporte表記のみ"
+    "detail": "HLTV表記は9/26"
    },
    {
     "date": "2026-09-26",
@@ -112,7 +146,8 @@
     "score": "0-2",
     "res": "L",
     "units_won": 0,
-    "units_lost": 2
+    "units_lost": 2,
+    "detail": "HLTV表記は9/25"
    },
    {
     "date": "2026-09-24",
@@ -122,18 +157,70 @@
     "score": "0-2",
     "res": "L",
     "units_won": 0,
-    "units_lost": 2
+    "units_lost": 2,
+    "detail": "vprognoze/kushvsporteのみ。HLTVチームページ・イベントページに無く未確認（METANOIAのスイス3戦=Procyon・paiN Academy(不戦)・MIBR fe）"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "paiN Academy",
+    "comp": "CCT 2026 South America Series 6 スイス2回戦",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "不戦勝（HLTVイベントページ）"
    },
    {
     "date": "2026-09-23",
     "opp": "Keyd Stars",
-    "comp": "CCT 2026 South America Series 6 スイス1回戦",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "2-1",
     "res": "W",
     "units_won": 2,
     "units_lost": 1,
-    "detail": "vprognoze表記"
+    "detail": "HLTVチームページで大会名補正（旧表記はvprognoze）"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Procyon",
+    "comp": "CCT 2026 South America Series 6 スイス1回戦",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Isurus",
+    "comp": "ESL Challenger League S52 South America Cup 2",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Back to Back",
+    "comp": "PGL Masters Bucharest 2026 SA 予選2",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "ODDIK",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
    }
   ],
   "lineup": [
@@ -154,7 +241,7 @@
    "winner": "left",
    "units_left": 2,
    "units_right": 0,
-   "detail": "元表記: BORRACHEIROS 2-0"
+   "detail": "元表記: BORRACHEIROS 2-0。HLTVのチーム/イベントページに記載なし→未確認"
   },
   {
    "date": "2026-07-19",
@@ -180,7 +267,10 @@
   "BORRACHEIROSのforms 9/24戦の大会名"
  ],
  "unavailable": {
-  "history": "60日以内の共通相手はHLTV上の直近5〜6戦では確認できず（BORRACHEIROS: Sementes do Mal・ALKA・DAMAJUANA・Peladona／METANOIA: MIBR fe・Yawara・Galorys・Keyd Stars）。直近5戦外は未確認"
+  "history": "60日以内の共通相手はHLTV上の直近5〜6戦では確認できず（BORRACHEIROS: Sementes do Mal・ALKA・DAMAJUANA・Peladona／METANOIA: MIBR fe・Yawara・Galorys・Keyd Stars）。直近5戦外は未確認",
+  "deep5.first_rate": "全試合のマップ順スコアが取れず、Map1勝率を算出できない",
+  "deep5.h2h_points": "H2Hのラウンド数不明（不戦・未確認試合のみ）",
+  "metrics.elo": "Elo値そのものは公開ソースで取得できず（HLTV/VRS順位のみ）"
  },
  "source_urls": [
   "https://www.hltv.org/team/13902/borracheiros",
@@ -190,7 +280,12 @@
   "https://vprognoze.ru/topforecast/8162263-borracheiros-metanoia-wolves-2026-09-29.html",
   "https://kushvsporte.ru/event/6916235-borracheiros-metanoia-wolves",
   "https://www.gosugamers.net/counterstrike/tournaments/63052-cct-south-america-2026-series-4/matches/656320-borracheiros-vs-metanoia-wolves",
-  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool",
+  "https://www.hltv.org/matches/2398551/borracheiros-vs-damajuana-cct-2026-south-america-series-6",
+  "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
+  "https://www.gosugamers.net/counterstrike/tournaments/63129-cct-south-america-2026-series-5/matches/659857-galorys-vs-borracheiros",
+  "https://www.hltv.org/events/9340/cct-2026-south-america-series-5",
+  "https://kushvsporte.ru/event/6919569-borracheiros-metanoia-wolves"
  ],
  "match_id": "m20260930-1d59fab3",
  "esports": {
@@ -219,11 +314,11 @@
  },
  "calc": {
   "left": {
-   "games": 6,
-   "W": 3,
-   "L": 3,
+   "games": 9,
+   "W": 5,
+   "L": 4,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 55.6,
    "home": {
     "W": 0,
     "L": 0,
@@ -235,19 +330,19 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 7,
-   "units_lost": 7,
-   "points_for": 7,
-   "points_against": 7,
-   "points_games": 6,
-   "inner_for": 48,
-   "inner_against": 49,
-   "inner_games": 2
+   "units_won": 12,
+   "units_lost": 11,
+   "points_for": 12,
+   "points_against": 11,
+   "points_games": 9,
+   "inner_for": 102,
+   "inner_against": 97,
+   "inner_games": 4
   },
   "right": {
-   "games": 5,
-   "W": 2,
-   "L": 3,
+   "games": 10,
+   "W": 4,
+   "L": 6,
    "D": 0,
    "win_rate": 40.0,
    "home": {
@@ -261,11 +356,11 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 5,
-   "units_lost": 7,
-   "points_for": 5,
-   "points_against": 7,
-   "points_games": 5,
+   "units_won": 9,
+   "units_lost": 14,
+   "points_for": 9,
+   "points_against": 14,
+   "points_games": 10,
    "inner_for": 26,
    "inner_against": 21,
    "inner_games": 1
@@ -283,8 +378,134 @@
    "avg_left": 1.5,
    "avg_right": 0.0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "Galorys",
+    "left": [
+     {
+      "date": "2026-08-25",
+      "iso": "2026-08-25",
+      "score": "1-2",
+      "res": "L",
+      "comp": "ESL Challenger League S52 South America Cup 1 UB R16"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "0-2",
+      "res": "L",
+      "comp": "ESL Challenger League S52 South America"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 172,
+   "vrs_rank": 204
+  },
+  "right": {
+   "rank": 201,
+   "vrs_rank": 226
+  },
+  "source": "HLTVチームページ（世界ランク/Valveランク）。直近の試合ページでは METANOIA HLTV226位・VRS227位表記あり"
+ },
+ "current_competition": {
+  "left": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 4,
+   "ga": 3
+  },
+  "right": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 4,
+   "ga": 2
+  },
+  "source": "HLTV CCT 2026 South America Series 6（gf/ga=マップ。不戦勝は1-0換算。ラウンド: BORRACHEIROS 74-56、METANOIA 60-57）"
+ },
+ "deep5": {
+  "ranking": "HLTV世界 BORRACHEIROS 172位 vs METANOIA 201位、Valve(VRS) 204位 vs 226位（HLTVチームページ）。差は約30位で同じティア3帯",
+  "current_competition": "CCT SA Series 6スイス：両者2勝1敗。BORR=DAMAJUANA 2-1○・ALKA 0-2●・Sementes do Mal 2-0○（ラウンド74-56）。MET=Procyon 1-2●・paiN Academy 不戦○・MIBR fe 2-0○（ラウンド60-57）",
+  "h2h_all": "2件：7/19 CCT SA Series 4 R3（BO1）BORRが不戦勝（GosuGamers）、9/24 BORR 2-0（露サイト2つのみ、HLTV未掲載で未確認）。実際にプレーして確認できた対戦は0件",
+  "h2h_points": "マップ合計3-0（うち1は不戦、2は未確認の試合）。ラウンド数は取得不可",
+  "h2h_home_away": "全てオンライン中立。ホーム/アウェー区別なし",
+  "last5": "BORR（HLTV確認分）：9/27 Sementes 2-0○、9/25 ALKA 0-2●、9/22 DAMAJUANA 2-1○、9/1 ALKA 0-2●、8/30 Peladona 1-2●＝2勝3敗。MET：9/27 MIBR fe 2-0○、9/26 Yawara 1-2●、9/25 Galorys 0-2●、9/24 paiN Academy 不戦○、9/23 Procyon 1-2●＝2勝3敗（不戦含む）",
+  "last10": "BORR：上記＋8/29 BESTIA Academy 2-1○、8/25 DAMAJUANA 2-1○、8/25 Galorys 1-2●（ESL CL）で5勝4敗前後（9/24 MET戦は未確認、9/3 Series5プレーオフはGosuGamersでGalorysの不戦勝）。MET：上記＋9/23 Keyd 2-1○、9/22 Isurus 2-1○、9/7 Back to Back 0-2●、9/4 ODDIK 0-2●＝4勝5敗",
+  "avg_points": "今大会マップ：BORR 4-3、MET 4-2（不戦1-0換算）。ラウンド平均はBORR 74-56/3試合、MET 60-57/3試合（HLTVスイス表）",
+  "streak": "BORR 直近1勝（9/27）。MET 直近1勝（9/27）。どちらも2連勝以上なし（HLTV確認分）",
+  "common_60d": "共通相手はGalorysのみ：BORR 8/25 1-2●（Ancientを19-15で取得）、MET 9/25-26 0-2●。マップ差でBORRがわずかに上。2件以上なし",
+  "first_rate": "Map1勝率は網羅的に取得不可。確認分：BORR 9/22 Map1 没収負け、8/25 Galorys Map1 Anubis 7-13負け。MET 9/27 MIBR fe Map1 Anubis 13-11勝ち",
+  "absences": "BORR 9/22はtrindade不在でStraafer出場（HLTV）。以降のスタメンは公式発表なし。METは欠場報道なし",
+  "roster_changes": "BORR：6/22に大幅刷新、7/27 trindade加入、7/29 nolkz→RUSH、8/21 fl4sh加入・maaxg1退団。MET：7/8 コーチtato加入・protado→RUSH、7/22 ntx退団、8/3 khowy・Tineu加入（HLTV）。両者とも7/19時点と別編成",
+  "bo_format": "BO3（CCT SA Series 6スイス、勝者プレーオフ進出）",
+  "lan_online": "オンライン"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "BORRは9/22にtrindade欠場（Straafer代役）。今回の欠場報道はなし",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "両者2-1で勝者プレーオフ行きの一戦。控え起用の情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "両者とも6〜8月に大幅なメンバー入替済み（下記ロスター変更）",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2H2件のうち7/19は相手不戦のBO1（両者とも以後メンバー変更）、9/24 2-0はHLTV未掲載で実在未確認。実際にプレーした確認済みH2Hは0件で、H2H100%の根拠は成り立たない",
+   "impact": "major",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "METは9/27 MIBR fe 2-0で持ち直したが、直前はESL CLで2連敗。BORRも2勝3敗と明確な上昇なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "今回はBO3。唯一のH2H（7/19）はBO1不戦",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者オンライン中心の南米ティア3で差なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "BORR 8/21 fl4sh加入、MET 8/3 khowy・Tineu加入。Elo/ランクは旧メンバー時代の結果を含む",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "両者2-1で勝者プレーオフ行き。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

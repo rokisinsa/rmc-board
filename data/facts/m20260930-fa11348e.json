@@ -2,12 +2,12 @@
  "unit": "マップ",
  "left": {
   "name": "Procyon",
-  "ranking": "HLTV世界173位／VRS170位（アルゼンチン）。直近5連勝中",
+  "ranking": "HLTV世界127位／VRS156位（アルゼンチン、HLTVチームページ）。現在1連勝（9/27 BESTIA Academyに1-2負け）",
   "form": [
    {
     "date": "2026-09-27",
     "opp": "Galorys",
-    "comp": "CCT / ESL Challenger South America",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -17,12 +17,13 @@
    {
     "date": "2026-09-27",
     "opp": "BESTIA Academy",
-    "comp": "CCT / ESL Challenger South America",
+    "comp": "CCT 2026 South America Series 6 スイス3回戦",
     "ha": "N",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "補正：HLTVチームページ・イベントページとも Procyon 1-2 負け（旧記載の2-1勝ちは誤り）"
    },
    {
     "date": "2026-09-25",
@@ -38,7 +39,7 @@
    {
     "date": "2026-09-25",
     "opp": "QUINTESSÊNCIA",
-    "comp": "CCT South America",
+    "comp": "CCT 2026 South America Series 6 スイス2回戦",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -56,15 +57,57 @@
     "units_lost": 0
    },
    {
-    "date": "2026-08-09",
-    "opp": "Grêmio Esports",
-    "comp": "BetBoom Storm Season 4 スイス",
+    "date": "2026-09-23",
+    "opp": "METANOIA Wolves",
+    "comp": "CCT 2026 South America Series 6 スイス1回戦",
     "ha": "N",
-    "score": "1-2",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "ALKA",
+    "comp": "ESL Challenger League S52 South America Cup 2",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "MEIA NOITE",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Zetta",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "Peladona",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "0-2",
     "res": "L",
-    "units_won": 1,
+    "units_won": 0,
     "units_lost": 2,
-    "detail": "Nuke 13-5で1マップ奪取"
+    "detail": "HLTVイベントページ"
    }
   ],
   "lineup": [
@@ -137,7 +180,7 @@
    {
     "date": "2026-09-24",
     "opp": "Keyd Stars",
-    "comp": "（HLTV チームページ）",
+    "comp": "FERJEE In House Season 2",
     "ha": "N",
     "score": "1-2",
     "res": "L",
@@ -147,12 +190,54 @@
    {
     "date": "2026-09-23",
     "opp": "Bounty Hunters",
-    "comp": "（HLTV チームページ）",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "2-1",
     "res": "W",
     "units_won": 2,
     "units_lost": 1
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "paiN",
+    "comp": "FERJEE In House Season 2",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "HLTV結果ページ表記日"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "MEIA NOITE",
+    "comp": "ESL Challenger League S52 South America Cup 2",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "HLTV結果ページ表記日（MEIA NOITE側は9/22表記）"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "ShindeN",
+    "comp": "Circuit X Curitiba Season 3",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "ALKA",
+    "comp": "Circuit X Curitiba Season 3",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
    }
   ],
   "lineup": [
@@ -160,7 +245,8 @@
    "ksloks",
    "Tuurtle",
    "naitte",
-   "matios"
+   "matios",
+   "HLTVチームページの登録はWOOD7・Tuurtle・naitteの3人（いずれも8月中旬〜下旬加入）。ksloks・matiosは実戦出場（大会ページ）"
   ],
   "history": [
    {
@@ -191,11 +277,13 @@
  ],
  "venue": "オンライン（ESL Challenger League S52 South America Cup 2 決勝、中立）",
  "unavailable": {
-  "left.form": "既存facts・HLTVから6件のみ",
-  "right.form": "HLTVチームページに直近6件のみ"
+  "left.form": "HLTV確認分で10件に補充済み。Series 5の9/1以降のプレーオフ結果は未確認",
+  "right.form": "HLTVチームページに直近6件のみ",
+  "deep5.first_rate": "全試合のマップ順スコアが取れずMap1勝率を算出できない",
+  "current_competition.pre": "同日04:00のProcyon vs Grêmio（CCT）の結果は非オッズ系の出典で確認できず"
  },
  "match_id": "m20260930-fa11348e",
- "data_as_of": "2026-09-29T18:41:00+09:00",
+ "data_as_of": "2026-09-30T07:59:00+09:00",
  "risks": [
   "Procyonは同日04:00 JSTにCCT SA S6でGrêmio戦（BO3）→06:00に本戦。連戦・開始遅延・疲労リスク",
   "決勝の形式（BO3/BO5）要確認：HLTVは『プレーオフBO3』とのみ記載",
@@ -211,7 +299,9 @@
   "https://www.hltv.org/team/9686/turma-do-pagode",
   "https://www.hltv.org/matches/2398518/turma-do-pagode-vs-galorys-esl-challenger-league-season-52-south-america-cup-2",
   "https://www.strafe.com/match/procyon-vs-turma-do-pagode-ub-semifinal-2026-esl-challenger-league-season-52-south-america-cup-2-b05381/",
-  "https://www.hltv.org/team/10997/procyon"
+  "https://www.hltv.org/team/10997/procyon",
+  "https://www.hltv.org/results?team=9686",
+  "https://www.hltv.org/events/9425/cct-2026-south-america-series-6"
  ],
  "esports": {
   "format": "BO3（HLTV：ダブルエリミ、プレーオフBO3。グランドファイナルとみられる）",
@@ -223,11 +313,11 @@
  },
  "calc": {
   "left": {
-   "games": 6,
-   "W": 5,
-   "L": 1,
+   "games": 10,
+   "W": 8,
+   "L": 2,
    "D": 0,
-   "win_rate": 83.3,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -238,22 +328,22 @@
     "L": 0,
     "D": 0
    },
-   "streak": "5連勝",
-   "units_won": 11,
-   "units_lost": 5,
-   "points_for": 11,
-   "points_against": 5,
-   "points_games": 6,
+   "streak": null,
+   "units_won": 17,
+   "units_lost": 8,
+   "points_for": 17,
+   "points_against": 8,
+   "points_games": 10,
    "inner_for": 26,
    "inner_against": 16,
    "inner_games": 1
   },
   "right": {
-   "games": 6,
-   "W": 4,
-   "L": 2,
+   "games": 10,
+   "W": 6,
+   "L": 4,
    "D": 0,
-   "win_rate": 66.7,
+   "win_rate": 60.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -265,11 +355,11 @@
     "D": 0
    },
    "streak": "3連勝",
-   "units_won": 9,
-   "units_lost": 6,
-   "points_for": 9,
-   "points_against": 6,
-   "points_games": 6,
+   "units_won": 14,
+   "units_lost": 10,
+   "points_for": 14,
+   "points_against": 10,
+   "points_games": 10,
    "inner_for": 42,
    "inner_against": 43,
    "inner_games": 2
@@ -299,7 +389,7 @@
       "iso": "2026-09-27",
       "score": "2-1",
       "res": "W",
-      "comp": "CCT / ESL Challenger South America"
+      "comp": "ESL Challenger League S52 South America Cup 2"
      }
     ],
     "right": [
@@ -316,9 +406,169 @@
     "latest": "2026-09-28",
     "left_rec": "1勝0敗",
     "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "ALKA",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "2-1",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-1",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2"
+     },
+     {
+      "date": "2026-09-17",
+      "iso": "2026-09-17",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Circuit X Curitiba Season 3"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "2勝0敗"
+   },
+   {
+    "opp": "MEIA NOITE",
+    "left": [
+     {
+      "date": "2026-09-01",
+      "iso": "2026-09-01",
+      "score": "2-0",
+      "res": "W",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-23",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
    }
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 127,
+   "vrs_rank": 156,
+   "wr_3m": 54.2
+  },
+  "right": {
+   "rank": 106,
+   "vrs_rank": 114,
+   "wr_3m": 55.0
+  },
+  "source": "HLTVチームページ（Procyon 127位/VRS156位/3か月勝率54.2%、Turma do Pagode 106位/VRS114位/3か月勝率55%）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 4,
+   "W": 4,
+   "D": 0,
+   "L": 0,
+   "gf": 8,
+   "ga": 2
+  },
+  "right": {
+   "played": 6,
+   "W": 5,
+   "D": 0,
+   "L": 1,
+   "gf": 10,
+   "ga": 4
+  },
+  "source": "HLTV ESL Challenger League S52 South America Cup 2（Procyon：ALKA 2-1・ex-ODDIK 2-0・TdP 2-0・Galorys 2-1。TdP：MEIA NOITE 2-0・Bounty Hunters 2-1・Procyon 0-2・ALKA 2-1・Yawara 2-0・Galorys 2-0）。gf/ga=マップ"
+ },
+ "deep5": {
+  "ranking": "Turma do Pagode HLTV106位・VRS114位 vs Procyon HLTV127位・VRS156位。ランクは格差側とされるProcyonの方が下",
+  "current_competition": "ESL CL S52 SA Cup 2（ダブルエリミBO3、優勝でS52 SA Finals出場）：Procyonは勝者側4戦全勝（マップ8-2）で決勝へ。TdPはUB準決勝でProcyonに0-2負け後、敗者側からALKA・Yawara・Galorysを破り5勝1敗（マップ10-4）",
+  "h2h_all": "確認できたのは1件：9/25 同大会UB準決勝 Procyon 2-0（HLTV/Strafe）。それ以前の対戦は未確認",
+  "h2h_points": "マップ Procyon 2-0、ラウンド26-16（Anubis 13-10、Dust2 13-6）",
+  "h2h_home_away": "オンライン中立の1件のみ",
+  "last5": "Procyon：9/27 Galorys 2-1○、9/27 BESTIA Academy 1-2●、9/25 TdP 2-0○、9/25 QUINTESSÊNCIA 2-1○、9/23 ex-ODDIK 2-0○＝4勝1敗。Turma do Pagode（HLTV）：9/28 Galorys 2-0○、9/27 Yawara 2-0○、9/26 ALKA 2-1○、9/25 Procyon 0-2●、9/24 Keyd Stars 1-2●（FERJEE）＝3勝2敗",
+  "last10": "Procyon（HLTV）：9/27 Galorys 2-1○、9/27 BESTIA Academy 1-2●、9/25 Turma do Pagode 2-0○、9/25 QUINTESSÊNCIA 2-1○、9/23 ex-ODDIK 2-0○、9/23 METANOIA 2-1○、9/22 ALKA 2-1○、9/1 MEIA NOITE 2-0○、8/29 Zetta 2-0○、8/28 Peladona 0-2●＝8勝2敗。TdP：上記＋9/23 Bounty Hunters 2-1○、9/23 paiN 0-2●、9/23 MEIA NOITE 2-0○、9/19 ShindeN 1-2●、9/17 ALKA 2-0○＝6勝4敗（HLTV結果ページ、日付は表示どおり）",
+  "avg_points": "今大会マップ平均：Procyon 2.0-0.5、TdP 1.67-0.67",
+  "streak": "Procyon：HLTVチームページで現在1連勝。9/27にCCTでBESTIA Academyに1-2で負けており、『5連勝』は誤り（既存formのBESTIA戦2-1勝ちは誤記）。TdPは3連勝中（ALKA・Yawara・Galorys）",
+  "common_60d": "共通相手：Galorys（Procyon 2-1○、TdP 2-0○）、ALKA（Procyon 9/22 2-1○、TdP 9/26 2-1○・9/17 2-0○）、MEIA NOITE（Procyon 9/1 2-0○、TdP 9/23 2-0○）。全員に両者勝利で、マップ差はTdPが同等〜わずかに上",
+  "first_rate": "H2HのMap1 AnubisはProcyon 13-10。TdPのMap1：9/28 Galorys戦Anubis 13-10勝ち。網羅的なMap1勝率は取得不可",
+  "absences": "欠場報道なし。Procyonは同日04:00 JSTにCCT S6 Grêmio戦（BO3）を戦った直後の連戦",
+  "roster_changes": "Procyon：lenci・pavv・MaxOff・next・laser、コーチesp1rit_o。8/9時点から同じ5人で、変更情報なし（HLTV）。TdP：HLTV登録3人（WOOD7・Tuurtle・naitte）は8月中旬〜下旬加入で約1か月の新編成",
+  "bo_format": "BO3（HLTV：プレーオフ全BO3のダブルエリミ、決勝もBO3と記載。上位側アドバンテージの有無は未確認）",
+  "lan_online": "オンライン"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "Procyonは同日2時間前にCCT S6 Grêmio戦BO3があり連戦。控え起用情報なし",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは4日前の1件（Procyon 2-0）で新しい",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "一次条件の『Procyon 5連勝』は誤り：9/27 CCTでBESTIA Academyに1-2負け、現在1連勝（HLTV）。加えてTdPは敗者側から3連勝中で、世界ランクもTdP 106位＞Procyon 127位",
+   "impact": "major",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "BO3",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者オンライン",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "TdPは8月に3人加入の新編成（約1か月）。Procyonは変更なし",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "大会決勝（優勝でS52 SA Finals出場権）。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

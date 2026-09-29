@@ -195,5 +195,54 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 60.0,
+   "gd_pg": -0.4,
+   "pd_pg": -0.4,
+   "rd_pg": -0.4,
+   "pts_rate": 0.6
+  },
+  "right": {
+   "season_wr": 0.0,
+   "gd_pg": -1.33,
+   "pd_pg": -1.33,
+   "rd_pg": -1.33,
+   "pts_rate": 0.0
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 5,
+   "ga": 7,
+   "pts": 9,
+   "group": null
+  },
+  "right": {
+   "rank": 5,
+   "played": 3,
+   "W": 0,
+   "D": 0,
+   "L": 3,
+   "gf": 3,
+   "ga": 7,
+   "pts": 0,
+   "group": null
+  },
+  "source": "LiveScore順位表 Euro U21 2027 / Qualification: Group D（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Rep. of Ireland U21：4勝1敗／Kazakhstan U21：1勝4敗",
+  "last10": "Rep. of Ireland U21：4勝1敗（5試合）／Kazakhstan U21：1勝4敗（5試合）",
+  "streak": "Rep. of Ireland U21：1連敗／Kazakhstan U21：4連敗",
+  "avg_points": "Rep. of Ireland U21：1試合平均得失差 +0.80（5試合）／Kazakhstan U21：1試合平均得失差 -1.80（5試合）",
+  "current_competition": "Rep. of Ireland U21 {'rank': 2, 'played': 5, 'W': 3, 'D': 0, 'L': 2, 'gf': 5, 'ga': 7, 'pts': 9, 'group': None}／Kazakhstan U21 {'rank': 5, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 3, 'ga': 7, 'pts': 0, 'group': None}（LiveScore順位表 Euro U21 2027 / Qualification: Group D（2026-09-29T22:27:25+09:00取得））"
  }
 }

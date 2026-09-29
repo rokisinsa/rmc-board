@@ -1,12 +1,12 @@
 {
  "match_id": "m20260930-2c3e8038",
- "data_as_of": "2026-09-29T18:49:00+09:00",
+ "data_as_of": "2026-09-30T07:52:00+09:00",
  "unit": "なし",
  "left": {
   "name": "シカゴ・カブス（Chicago Cubs）",
   "ranking": "89勝73敗 ナ・リーグ中地区2位（14.0差）・NL第5シード",
   "lineup": [
-   "G1先発：今永昇太（Yahoo）"
+   "G1先発：マシュー・ボイド（左腕）— 10勝5敗 防御率3.91 WHIP1.21 126.2回96K39BB（AP/SI）。今永昇太はレギュラーシーズン最終戦先発のためG1ではない（Yahoo/Sun-Times で補正）"
   ],
   "form": [
    {
@@ -123,7 +123,7 @@
   "name": "サンディエゴ・パドレス（San Diego Padres）",
   "ranking": "91勝71敗 ナ・リーグ西地区2位（9.0差）・NL第4シード。7/24以降41勝18敗でMLB最高（Yahoo）",
   "lineup": [
-   "G1先発：マイケル・キング（Yahoo）"
+   "G1先発：マイケル・キング（右腕）— 12勝10敗 防御率3.21 WHIP1.18 185回159K（AP/SI）"
   ],
   "form": [
    {
@@ -286,14 +286,27 @@
   "60日共通相手の全照合"
  ],
  "unavailable": {
-  "history": "60日共通相手は直近取得範囲（MIA）のみ照合"
+  "history": "60日共通相手は直近取得範囲（MIA）のみ照合",
+  "first_rate": "deep5 first_rate: 両チームの先制率・1回得点率の2026年値を確認できる出典が取得できず（B-R・MLB StatsAPIが接続不可）",
+  "starter_fip": "starter_fip/starter_kbb_pct: FanGraphsの取得結果が予測値や矛盾値で信頼できず未記入",
+  "common_60d": "common_60d: CHCの9/1-9/15試合記録が未取得のためBrewers等の一部共通相手は除外",
+  "h2h_2025": "h2h_all: 2025年WCシリーズの試合別結果は未確認（シーズン別集計に含めず）"
  },
  "source_urls": [
   "https://www.baseball-reference.com/teams/CHC/2026-schedule-scores.shtml",
   "https://www.baseball-reference.com/teams/SDP/2026-schedule-scores.shtml",
   "https://www.baseball-reference.com/leagues/MLB-standings.shtml",
   "https://www.dimers.com/mlb/predictions",
-  "https://sports.yahoo.com/mlb/article/mlb-wild-card-preview-series-predictions-x-factors-and-more-for-red-sox-yankees-cubs-padres-phillies-braves-and-white-sox-astros-001627858.html"
+  "https://sports.yahoo.com/mlb/article/mlb-wild-card-preview-series-predictions-x-factors-and-more-for-red-sox-yankees-cubs-padres-phillies-braves-and-white-sox-astros-001627858.html",
+  "https://mymotherlode.com/sports/baseball-general-news/11178474/padres-and-cubs-meet-to-start-the-nl-wild-card-series.html",
+  "https://www.si.com/mlb/padres/onsi/padres-cubs-announce-starting-pitchers-wild-card-game-1",
+  "https://chicago.suntimes.com/cubs/2026/09/28/cubs-matthew-boyd-game-1-starter-playoffs-padres-wild-card-series-mlb-postseason-craig-counsell-kevin-gausman-shoulder-injury-shota-imanaga-alex-bregman-face",
+  "https://www.mlb.com/news/cubs-vs-padres-wild-card-series-lineups-and-pitching-matchup",
+  "https://sports.yahoo.com/articles/wild-card-preview-padres-meet-211000350.html",
+  "https://ats.io/mlb/chicago-cubs-vs-san-diego-padres-nl-wild-card-series-game-1-prediction-preview-9-29-2026/",
+  "https://en.wikipedia.org/wiki/2026_San_Diego_Padres_season",
+  "https://en.wikipedia.org/wiki/2026_Chicago_Cubs_season",
+  "https://www.mlb.com/gameday/cubs-vs-padres/2026/04/27/823311/final/video"
  ],
  "calc": {
   "left": {
@@ -407,5 +420,106 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 54.9,
+   "gd_pg": 0.91,
+   "starter_confirmed": true,
+   "starter_era": 3.91
+  },
+  "right": {
+   "season_wr": 56.2,
+   "gd_pg": 0.25,
+   "starter_confirmed": true,
+   "starter_era": 3.21
+  },
+  "source": "成績：AP(myMotherLode)89-73/91-71。得失点：ats.io（CHC 850得点・+147、SD 722得点・+41）→162試合で割算。先発：AP/SI（Boyd, King）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 162,
+   "W": 89,
+   "D": 0,
+   "L": 73,
+   "gf": 850,
+   "ga": 703
+  },
+  "right": {
+   "played": 162,
+   "W": 91,
+   "D": 0,
+   "L": 71,
+   "gf": 722,
+   "ga": 681
+  },
+  "source": "MLB 2026 レギュラーシーズン。勝敗 AP、得点・得失点差 ats.io（失点は得点−得失点差で算出）"
+ },
+ "deep5": {
+  "ranking": "カブス89勝73敗（NL第5シード・中地区2位、得失点差+147）／パドレス91勝71敗（NL第4シード・西地区2位、得失点差+41）。勝率は近いが得失点差はカブスが大幅上（AP・ats.io）",
+  "current_competition": "今大会はNLワイルドカードシリーズ（3戦2勝制）第1戦で両者初戦。レギュラーシーズン：CHC 850得点703失点、SD 722得点681失点",
+  "h2h_all": "2026年レギュラーシーズン6試合でカブス5勝1敗（4/27 SD勝ち9-7の後カブス5連勝、7/1は23-3）。2025年WCシリーズでも対戦（報道：通算対戦で拮抗の記述あり、詳細未確認）",
+  "h2h_points": "2026年6試合の総得点 カブス55-28パドレス（平均9.2-4.7）。23-3の1試合を除くと32-25",
+  "h2h_home_away": "サンディエゴ（4/27-29）：カブス2勝1敗・20-16。シカゴ（6/29-7/1）：カブス3勝0敗・35-12。今回の会場ペトコ・パークではカブス優位は小さい（Wikipedia 2026 Padres season, MLB Gameday）",
+  "last5": "カブス2勝3敗（13得点12失点）／パドレス4勝1敗（32得点25失点）",
+  "last10": "カブス5勝5敗（41-33、チーム防御率3.00）／パドレス8勝2敗（63-45、打率.289）（AP）",
+  "avg_points": "直近10試合平均：カブス4.1得点3.3失点、パドレス6.3得点4.5失点。シーズン：カブス5.25得点4.34失点、パドレス4.46得点4.20失点",
+  "streak": "カブス1連勝（9/27 BOS 6-2）、パドレス2連勝。パドレスは9月18勝6敗・7/24以降41勝18敗、カブスは最後24試合11勝13敗（Yahoo）",
+  "common_60d": "8/1以降の共通相手6球団（Wikipedia試合記録の要約より）：NYY CHC1-1(+2)/SD2-1(-2)、LAD CHC3-0(+10)/SD2-1(-1)、WSH CHC2-1(+1)/SD3-0(+9)、ARI CHC1-2(+4)/SD4-3(0)、CIN CHC3-3(+17)/SD1-2(0)、MIA CHC1-2(-6)/SD3-0(+11)。合計 CHC11勝9敗・+28、SD15勝7敗・+17。勝敗はSD、得失差はCHC優位で割れる",
+  "absences": "カブス：IL11人（Steele, Maton ほか）、ゴーズマン左肩痛で日々判断（シリーズ中に登板予定）、ブレグマンは顔面多発骨折から復帰（G1はDH起用の可能性）。パドレス：IL8人（マスグローブ、マイズ、ジオリト、ローリアーノ、アンドゥハー、レンヒフォ、エストラーダ、ホーイング）（AP・Sun-Times・MLB.com）",
+  "roster_changes": "トレード期限後の大きなロスター変更は確認できず。スワンソンが9/18に腹斜筋から復帰（MLB.com）",
+  "starters": "G1：ボイド（CHC、10-5・防御率3.91・WHIP1.21・96K/39BB、最終6先発3.28。今季SD戦2先発で4/27 4回5失点・6/30 5回3失点）vs キング（SD、12-10・防御率3.21・WHIP1.18・185回159K、後半戦2.93）。防御率はパドレス先発が優位。FIP・K-BB%は信頼できる出典で未確認"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両軍ともIL多数（CHC11人・SD8人）。CHCはゴーズマン肩痛・ブレグマン顔面骨折明けだが出場見込み。SDは先発3人（マスグローブ、マイズ、ジオリト）離脱も1戦目はキング確定。どちらの格差根拠も崩すほどではない",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "CHCはエース格今永が最終戦登板でG1はボイド（防御率3.91）。G1先発の防御率はSDキング3.21が上",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "同一シーズン内の比較で該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H6試合はすべて2026年だが4月と6/29-7/1で3か月前。当時SDは7/24以前50勝53敗、その後41勝18敗と別チーム級に上昇",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "全試合ペトコ・パーク（SD本拠）。SDホーム51勝30敗、CHCロード43勝38敗。H2HでもSD開催はCHC2勝1敗・20-16と差が小さく、シカゴ開催3勝0敗・35-12が格差の大半",
+   "impact": "major",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "SDは9月18勝6敗・7/24以降41勝18敗でMLB最高、直近10試合8勝2敗。CHCは最後24試合11勝13敗。H2H（左側）根拠はSDの急改善前の対戦",
+   "impact": "major",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "eスポーツのBO1ではない。3戦2勝制シリーズの第1戦（単試合としての変動は大きい）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "野球のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "期限後の大きな変更は確認できず。CHCスワンソン9/18復帰・ブレグマン復帰で戦力はむしろ戻る",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "ポストシーズン（負ければ敗退の可能性があるWCシリーズ）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

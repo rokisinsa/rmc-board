@@ -1,11 +1,11 @@
 {
  "match_id": "m20260930-2c49eb96",
- "data_as_of": "2026-09-28T21:59:00+09:00",
+ "data_as_of": "2026-09-30T07:55:00+09:00",
  "start_jst_confirmed": "2026-09-30T03:30:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "ENCE",
-  "ranking": "HLTV世界ランク114位／Valve(VRS)124位（フィンランド）",
+  "ranking": "HLTV世界132位／Valve(VRS)123位（フィンランド、2026-09-29時点のHLTVチームページ。9/28取得時は114位/124位）",
   "form": [
    {
     "date": "2026-09-26",
@@ -266,7 +266,10 @@
  "unavailable": {
   "h2h": "初対戦。2026-09-28にHLTVで再確認：試合ページ（2398819）のH2Hセクションが0-0、かつAimhaus（team id 9199）の全時代の対戦記録は11試合のみ（2026年7件＋2018〜2019年4件）でENCEとの対戦は存在しない。ENCE（team id 4869）の結果ページにもAimhaus戦なし",
   "history": "共通相手なし。Aimhausは2026-07-26を最後に試合がなく、60日窓（2026-08-01〜09-29）内の対戦が0試合。ENCEの窓内相手（ex-RUSTEC・Walczaki・Just Players・Lavked・Illyrians・KAMUI・Honvéd・Black Phoenix・Falcons Force・Drama・UNiTY・Entropy・Fortress・Eternal Fire・STATE・Noir Verse・Mai Tai・BERG・WBT・MOUZ NXT・Enjoy・BC.Game・HAVU）と突き合わせ不能",
-  "right.form": "Aimhausの2026年（CS2・現ロスター）の公式記録は7試合のみ。8〜10件目はHLTVに残る直近のそれ以前の試合＝CS:GO時代（2018〜2019年・旧ロスター）の参考記録で、約7年のブランクがあるため現在の実力指標としては扱えない"
+  "right.form": "Aimhausの2026年（CS2・現ロスター）の公式記録は7試合のみ。8〜10件目はHLTVに残る直近のそれ以前の試合＝CS:GO時代（2018〜2019年・旧ロスター）の参考記録で、約7年のブランクがあるため現在の実力指標としては扱えない",
+  "current_competition": "同日先行のグループ2試合（両者各2試合）の結果を、オッズサイト以外の出典で確認できず",
+  "deep5.first_rate": "ENCEのマップ順スコアを取得できず",
+  "metrics.right": "Aimhausはランク・Rating・統計ともHLTVに記録なし"
  },
  "source_urls": [
   "https://www.hltv.org/events/9339/urban-riga-open-season-7",
@@ -358,5 +361,85 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 132,
+   "vrs_rank": 123
+  },
+  "right": {
+   "rank": null,
+   "vrs_rank": null
+  },
+  "source": "HLTVチームページ（ENCE）。Aimhausはランク圏外"
+ },
+ "deep5": {
+  "ranking": "ENCE HLTV132位・VRS123位（大会ページ表示は123位）。Aimhausは圏外",
+  "current_competition": "Urban Riga S7グループB最終節（20:30 CEST）。事前にENCEはSangal・HyperSpirit、AimhausはHyperSpirit・Sangalと対戦予定だったが、その結果は未確認",
+  "h2h_all": "0件（初対戦。HLTV試合ページH2H 0-0）",
+  "h2h_points": "なし（初対戦）",
+  "h2h_home_away": "なし。今回はリガのLANでAimhausは実質地元",
+  "last5": "ENCE：9/26 ex-RUSTEC 0-2●、9/25 Walczaki 不戦○、9/22 Just Players 2-0○、9/20 Lavked 2-1○、9/19 Illyrians 0-2●＝3勝2敗（不戦1含む）。Aimhaus：7/26 Jumprava 2-0○、7/25 FERAX 2-0○、7/25 Fraternity 2-0○、6/29 BERG 0-2●、6/28 Coalesce 0-1●＝3勝2敗（最後の試合から約2か月空き）",
+  "last10": "ENCE：上記＋9/17 KAMUI 1-2●、9/17 Honvéd 2-1○、9/16 Honvéd 2-0○、9/16 Black Phoenix 0-2●、9/14 Falcons Force 2-1○＝6勝4敗。さらに前は9/13 Drama 0-2●、9/12 UNiTY 0-2●、9/8 Fortress 2-1○、9/7 Entropy 1-2●、8/30 Eternal Fire 0-2●、8/27 STATE 1-2●（HLTV）。Aimhaus：2026年の現ロスター記録は7試合のみ：7/26 Jumprava 2-0○、7/25 FERAX 2-0○、7/25 Fraternity 2-0○（kleverr Azeron Baltic Superfinals）、6/29 BERG 0-2●、6/28 Coalesce 0-1●、GAMEHARMONY 1-0○、Leo 0-1●（Urban Riga S5）＝4勝3敗。それ以前は2019年（CS:GO・旧ロスター）で参考外",
+  "avg_points": "マップ平均：ENCE直近10試合13-12（1.3-1.2）。Aimhaus 2026年7試合で10-6",
+  "streak": "ENCE 直近1敗（9/26 ex-RUSTEC）。Aimhaus 3連勝（7月、以後試合なし）",
+  "common_60d": "共通相手なし（Aimhausは60日窓内の試合0件）",
+  "first_rate": "BO1のためMap1＝試合勝敗。ENCEのMap1勝率は未取得。AimhausのBO1は6月に1勝2敗",
+  "absences": "欠場報道なし（大会ページのENCEラインアップはHENU・millert・teme・Schwarz・joeski）",
+  "roster_changes": "ENCE：4/1にアカデミーから現主力5人昇格（旧ENCE本隊は別物）、6/9コーチallu、7/14 podi→FOKUS、8/13 joeski加入・Cliqqベンチ、9/3 Cliqq退団（HLTV）。Aimhaus：HLTVチームページに現行ロスター未登録。Urban Riga S7試合ページ表示はEd1m・BRK（ルーマニア）、flairr・Yamero・silrak（ラトビア）。変更情報なし",
+  "bo_format": "BO1（グループ総当たり）",
+  "lan_online": "LAN（ラトビア・リガ）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "控え起用の情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "ENCEは2026年4月にアカデミー組へ総入れ替え。ブランドの実績は現メンバーと無関係で、現チームは世界132位のティア2〜3",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "初対戦でH2Hなし",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "リガのLANでAimhausは実質地元",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Aimhausは7月に地域大会3連勝だが相手はバルトの無名チーム。ENCEは9月に6勝4敗で波がある",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "BO1（1マップ勝負）",
+   "impact": "minor",
+   "applies": true
+  },
+  "LAN/Online差": {
+   "finding": "ENCEの直近はCCT・Exort等オンライン中心。LAN成績の比較データなし",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "ENCE 8/13 joeski加入、9/3 Cliqq退団で5人は8月以降固定",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "グループ最終戦で、前の2戦の結果によっては順位が決まっている可能性。前2戦の結果は確認できず",
+   "impact": "minor",
+   "applies": true
+  }
  }
 }

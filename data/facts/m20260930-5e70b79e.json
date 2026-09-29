@@ -1,19 +1,41 @@
 {
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T07:59:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Grêmio Esports",
   "ranking": "HLTV世界207位／VRS329位（ブラジル）。CCT SA Series 6スイス 2勝1敗",
   "form": [
    {
+    "date": "2026-09-26",
+    "opp": "Peladona",
+    "comp": "CCT 2026 South America Series 6 スイス3回戦",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "不戦勝（HLTVイベントページ）"
+   },
+   {
     "date": "2026-09-24",
     "opp": "Your End",
-    "comp": "CCT 2026 South America Series 6",
+    "comp": "CCT 2026 South America Series 6 スイス2回戦",
     "ha": "N",
     "score": "2-0",
     "res": "W",
     "units_won": 2,
     "units_lost": 0
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "ex-ODDIK",
+    "comp": "ESL Challenger League S52 South America Cup 2 LB2回戦",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "ex-ODDIK棄権（HLTV）"
    },
    {
     "date": "2026-09-23",
@@ -34,22 +56,24 @@
     "score": "2-1",
     "res": "W",
     "units_won": 2,
-    "units_lost": 1
+    "units_lost": 1,
+    "detail": "HLTV未確認（HLTVでは9/2 CCT Series 5でGrêmio 1-2 paiN Academy負けのみ。日付・結果の誤記の可能性）"
    },
    {
     "date": "2026-09-23",
     "opp": "ALKA",
-    "comp": "CCT South America",
+    "comp": "CCT 2026 South America Series 6 スイス1回戦",
     "ha": "N",
     "score": "1-2",
     "res": "L",
     "units_won": 1,
-    "units_lost": 2
+    "units_lost": 2,
+    "detail": "Nuke 13-11○ / Ancient 10-13 / Mirage 6-13（HLTV）"
    },
    {
     "date": "2026-09-22",
     "opp": "Keyd Stars",
-    "comp": "CCT South America",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "0-2",
     "res": "L",
@@ -57,15 +81,34 @@
     "units_lost": 2
    },
    {
-    "date": "2026-08-09",
-    "opp": "Procyon Gaming",
-    "comp": "BetBoom Storm Season 4 スイス",
+    "date": "2026-09-02",
+    "opp": "MEIA NOITE",
+    "comp": "CCT 2026 South America Series 5",
     "ha": "N",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1,
-    "detail": "Inferno・Dust2を取り、NukeはProcyonが13-5"
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-02",
+    "opp": "paiN Academy",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "ODDIK",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
    }
   ],
   "lineup": [
@@ -80,12 +123,12 @@
  },
  "right": {
   "name": "Procyon Gaming",
-  "ranking": "HLTV世界173位／VRS170位（アルゼンチン）。直近5連勝中",
+  "ranking": "HLTV世界127位／VRS156位（アルゼンチン、HLTVチームページ）。CCT SA S6スイス2勝1敗、現在1連勝",
   "form": [
    {
     "date": "2026-09-27",
     "opp": "Galorys",
-    "comp": "CCT / ESL Challenger South America",
+    "comp": "ESL Challenger League S52 South America Cup 2",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -95,17 +138,18 @@
    {
     "date": "2026-09-27",
     "opp": "BESTIA Academy",
-    "comp": "CCT / ESL Challenger South America",
+    "comp": "CCT 2026 South America Series 6 スイス3回戦",
     "ha": "N",
-    "score": "2-1",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 1
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "補正：HLTVチームページ・イベントページとも Procyon 1-2 負け（旧記載の2-1勝ちは誤り）"
    },
    {
     "date": "2026-09-25",
     "opp": "Turma do Pagode",
-    "comp": "CCT South America",
+    "comp": "ESL Challenger League S52 South America Cup 2 UB準決勝",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -115,7 +159,7 @@
    {
     "date": "2026-09-25",
     "opp": "QUINTESSÊNCIA",
-    "comp": "CCT South America",
+    "comp": "CCT 2026 South America Series 6 スイス2回戦",
     "ha": "N",
     "score": "2-1",
     "res": "W",
@@ -133,15 +177,57 @@
     "units_lost": 0
    },
    {
-    "date": "2026-08-09",
-    "opp": "Grêmio Esports",
-    "comp": "BetBoom Storm Season 4 スイス",
+    "date": "2026-09-23",
+    "opp": "METANOIA Wolves",
+    "comp": "CCT 2026 South America Series 6 スイス1回戦",
     "ha": "N",
-    "score": "1-2",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "ALKA",
+    "comp": "ESL Challenger League S52 South America Cup 2",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "MEIA NOITE",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Zetta",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "Peladona",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "0-2",
     "res": "L",
-    "units_won": 1,
+    "units_won": 0,
     "units_lost": 2,
-    "detail": "Nuke 13-5で1マップ奪取"
+    "detail": "HLTVイベントページ"
    }
   ],
   "lineup": [
@@ -162,7 +248,7 @@
    "winner": "left",
    "units_left": 2,
    "units_right": 1,
-   "detail": "Grêmioが Inferno・Dust2、ProcyonがNuke 13-5（vprognoze） 元表記: Grêmio 2-1"
+   "detail": "Nuke 5-13 / Dust2 13-10 / Inferno 13-2（HLTV・BetBoom Storm S4スイス4回戦、両者とも現行と同じ5人）"
   }
  ],
  "common_opponents_notes": [],
@@ -179,7 +265,8 @@
   "form大会名の一部（vprognoze・HLTVで不一致）"
  ],
  "unavailable": {
-  "history": "60日以内の共通相手は、確認できた各6戦では重複なし（Grêmio: Your End・Isurus・paiN Academy・ALKA・Keyd Stars／Procyon: Galorys・BESTIA Academy・Turma do Pagode・QUINTESSÊNCIA・ex-ODDIK）。HLTVのGrêmioの敗戦にex-ODDIK戦の記載があるが日付不明で60日窓内か未確認"
+  "deep5.first_rate": "全試合のマップ順スコアが取れずMap1勝率を算出できない",
+  "left.form.paiN Academy 9/23": "HLTVで確認できず（9/2の1-2負けのみ確認）"
  },
  "source_urls": [
   "https://www.hltv.org/team/13912/grmio",
@@ -187,7 +274,11 @@
   "https://www.hltv.org/events/9425/cct-2026-south-america-series-6",
   "https://vprognoze.ru/topforecast/8162050-gremio-procyon-gaming-2026-09-29.html",
   "https://www.sofascore.com/esports/match/gremio-esports-procyon-gaming/KEZcsRDZj",
-  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool",
+  "https://www.hltv.org/matches/2396355/grmio-vs-procyon-betboom-storm-season-4",
+  "https://www.hltv.org/matches/2398554/alka-vs-grmio-cct-2026-south-america-series-6",
+  "https://www.hltv.org/matches/2398507/ex-oddik-vs-grmio-esl-challenger-league-season-52-south-america-cup-2",
+  "https://www.hltv.org/events/9340/cct-2026-south-america-series-5"
  ],
  "match_id": "m20260930-5e70b79e",
  "esports": {
@@ -216,11 +307,37 @@
  },
  "calc": {
   "left": {
-   "games": 6,
-   "W": 3,
-   "L": 3,
+   "games": 10,
+   "W": 4,
+   "L": 6,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 10,
+   "units_lost": 13,
+   "points_for": 10,
+   "points_against": 13,
+   "points_games": 10,
+   "inner_for": 29,
+   "inner_against": 37,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 10,
+   "W": 8,
+   "L": 2,
+   "D": 0,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -232,34 +349,11 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 8,
+   "units_won": 17,
    "units_lost": 8,
-   "points_for": 8,
+   "points_for": 17,
    "points_against": 8,
-   "points_games": 6
-  },
-  "right": {
-   "games": 6,
-   "W": 5,
-   "L": 1,
-   "D": 0,
-   "win_rate": 83.3,
-   "home": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "away": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "streak": "5連勝",
-   "units_won": 11,
-   "units_lost": 5,
-   "points_for": 11,
-   "points_against": 5,
-   "points_games": 6
+   "points_games": 10
   },
   "h2h": {
    "games": 1,
@@ -272,10 +366,219 @@
    "points_right": 1,
    "points_games": 1,
    "avg_left": 2.0,
-   "avg_right": 1.0
+   "avg_right": 1.0,
+   "inner_left": 31,
+   "inner_right": 25,
+   "inner_games": 1
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "Peladona",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "1-0",
+      "res": "W",
+      "comp": "CCT 2026 South America Series 6 スイス3回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-28",
+      "iso": "2026-08-28",
+      "score": "0-2",
+      "res": "L",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ex-ODDIK",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "1-0",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2 LB2回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "2-0",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-24",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "ALKA",
+    "left": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "1-2",
+      "res": "L",
+      "comp": "CCT 2026 South America Series 6 スイス1回戦"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "2-1",
+      "res": "W",
+      "comp": "ESL Challenger League S52 South America Cup 2"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-23",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "MEIA NOITE",
+    "left": [
+     {
+      "date": "2026-09-02",
+      "iso": "2026-09-02",
+      "score": "1-2",
+      "res": "L",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-01",
+      "iso": "2026-09-01",
+      "score": "2-0",
+      "res": "W",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-02",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 207,
+   "vrs_rank": 329,
+   "wr_3m": 28.6
+  },
+  "right": {
+   "rank": 127,
+   "vrs_rank": 156,
+   "wr_3m": 54.2
+  },
+  "source": "HLTVチームページ（Grêmioは9/21時点の世界207位・VRS329位・3か月勝率28.6%、Procyonは世界127位・VRS156位・3か月勝率54.2%）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 4,
+   "ga": 2
+  },
+  "right": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 5,
+   "ga": 4
+  },
+  "source": "HLTV CCT 2026 South America Series 6スイス（gf/ga=マップ、不戦勝1-0換算。ラウンド：Grêmio 56-45、Procyon 94-84）"
+ },
+ "deep5": {
+  "ranking": "Procyon HLTV127位・VRS156位 vs Grêmio HLTV207位・VRS329位（HLTV）。約80位差でProcyon上位",
+  "current_competition": "CCT SA S6スイス：両者2勝1敗。Grêmio=ALKA 1-2●・your end 2-0○・Peladona不戦○（ラウンド56-45）。Procyon=METANOIA 2-1○・QUINTESSÊNCIA 2-1○・BESTIA Academy 1-2●（94-84）",
+  "h2h_all": "1件：8/9 BetBoom Storm S4スイス4回戦 Grêmio 2-1（HLTV）。両者とも今と同じ5人",
+  "h2h_points": "マップ Grêmio 2-1、ラウンド合計 Grêmio 31-25（Nuke 5-13、Dust2 13-10、Inferno 13-2）",
+  "h2h_home_away": "オンライン中立の1件のみ",
+  "last5": "Grêmio（HLTV確認分）：9/26 Peladona不戦○、9/24 your end 2-0○、9/24 ex-ODDIK不戦○、9/23 ALKA 1-2●、9/22 Keyd Stars 0-2●＝3勝2敗（うち2勝は不戦）。Procyon：9/27 Galorys 2-1○、9/27 BESTIA Academy 1-2●、9/25 TdP 2-0○、9/25 QUINTESSÊNCIA 2-1○、9/23 ex-ODDIK 2-0○＝4勝1敗",
+  "last10": "Grêmio：上記＋9/2 MEIA NOITE 1-2●、9/2 paiN Academy 1-2●、8/31 ODDIK 0-2●、8/28 Blitzkrieg 不戦○、8/27 Sementes do Mal 2-0○＝5勝5敗（不戦3）。HLTV 3か月勝率28.6%。Procyon（HLTV）：9/27 Galorys 2-1○、9/27 BESTIA Academy 1-2●、9/25 Turma do Pagode 2-0○、9/25 QUINTESSÊNCIA 2-1○、9/23 ex-ODDIK 2-0○、9/23 METANOIA 2-1○、9/22 ALKA 2-1○、9/1 MEIA NOITE 2-0○、8/29 Zetta 2-0○、8/28 Peladona 0-2●＝8勝2敗",
+  "avg_points": "今大会マップ：Grêmio 4-2、Procyon 5-4。直近10試合のマップ平均はProcyon約1.7-0.9、Grêmioは実プレー試合で負け越し",
+  "streak": "Grêmio 3連勝（うち2つ不戦勝）。Procyon：HLTVチームページで現在1連勝。9/27にCCTでBESTIA Academyに1-2で負けており、『5連勝』は誤り（既存formのBESTIA戦2-1勝ちは誤記）",
+  "common_60d": "共通相手3：ALKA（Grêmio 1-2●、Procyon 2-1○）、ex-ODDIK（Grêmio 不戦○、Procyon 2-0○）、MEIA NOITE（Grêmio 9/2 1-2●、Procyon 9/1 2-0○）。3件ともProcyonが上",
+  "first_rate": "確認分のMap1：Grêmio 9/23 ALKA戦Nuke 13-11勝ち、8/9 Procyon戦Nuke 5-13負け。Procyonは8/9 Map1勝ち。網羅的なMap1勝率は取得不可",
+  "absences": "欠場報道なし。Procyonは同日06:00 JSTにESL CL S52 SA Cup 2決勝（対Turma do Pagode）もあり連戦",
+  "roster_changes": "Grêmio：7/13にALZONから選手5人・コーチluqを丸ごと獲得、以後変更なし。Procyon：lenci・pavv・MaxOff・next・laser、コーチesp1rit_o。8/9時点から同じ5人で、変更情報なし（HLTV）",
+  "bo_format": "BO3（CCT SA S6スイス4回戦、勝者プレーオフ進出）",
+  "lan_online": "オンライン"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "Procyonは2時間後にESL CL Cup 2決勝（VRS対象大会・Finals出場権）を控え、こちらの一戦で主力温存・準備配分の可能性。控え起用の公式情報はなし",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは8/9の1件のみ（Grêmio 2-1）で古くはないが、格差側Procyonの負け",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Grêmioの直近3連勝のうち2つは不戦勝で、実力上昇の根拠は薄い。Procyonは9月に8勝2敗で好調。なお一次条件の「Procyon 5連勝」は誤り：9/27 CCTでBESTIA Academyに1-2負け、現在1連勝（HLTV）",
+   "impact": "major",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "BO3",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者オンライン",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "両者とも8/9のH2H時点と同じ5人",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "両者2-1で勝者プレーオフ。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

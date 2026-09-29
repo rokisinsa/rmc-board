@@ -1,9 +1,9 @@
 {
- "data_as_of": "2026-09-29T18:41:00+09:00",
+ "data_as_of": "2026-09-30T07:58:00+09:00",
  "unit": "なし",
  "left": {
   "name": "スロバキア（Slovakia）",
-  "ranking": "UNLリーグC 首位 3pt（形 W-W-D-W-L-L：sportsmole）",
+  "ranking": "FIFAランク45位（2026-07-20、Wikipedia）。UNLリーグC組3 首位 勝点3（1試合）。UNL総合ランキングでは38位（Pot 2）",
   "form": [
    {
     "date": "2026-09-26",
@@ -58,7 +58,7 @@
  },
  "right": {
   "name": "カザフスタン（Kazakhstan）",
-  "ranking": "UNLリーグC 2位 1pt（形 D-L-W-W-L-D：sportsmole）",
+  "ranking": "FIFAランク111位（2026-07-20、Wikipedia）。UNLリーグC組3 2位 勝点1（1試合）。UNL総合ランキングでは36位（Pot 1）",
   "form": [
    {
     "date": "2026-09-26",
@@ -96,24 +96,29 @@
  "h2h": [
   {
    "date": "2022-06-13",
-   "event": "UNL",
-   "score": "0-1",
+   "event": "UNL 2022-23 リーグC組3",
+   "score": "1-2",
    "winner": "right",
-   "detail": "scores24。sportsmole：カザフスタンが過去2戦2勝"
+   "units_left": 1,
+   "units_right": 2,
+   "detail": "原表記: Kazakhstan 2-1 Slovakia。カザフスタンのホーム（アスタナ）。ESPN・fotmob。旧記載の『0-2』を補正"
   },
   {
    "date": "2022-06-06",
-   "event": "UNL",
-   "score": "0-2",
+   "event": "UNL 2022-23 リーグC組3",
+   "score": "0-1",
    "winner": "right",
-   "detail": "scores24は2022-06-06をスロバキア0-2カザフと記載"
+   "units_left": 0,
+   "units_right": 1,
+   "detail": "原表記: Slovakia 0-1 Kazakhstan。スロバキアのホーム（WhoScored）"
   }
  ],
  "common_opponents_notes": [],
  "venue": "コシツェ Košická futbalová aréna、スロバキアのホーム（19:45 BST）",
  "risks": [
   "集計サイトの試合日付・スコアに不整合あり（例：カザフ3/31に6-11コモロ等）で信頼性が低い行は除外",
-  "カザフの3/25・3/31 FIFAシリーズ行は不整合のため除外"
+  "カザフの3/25・3/31 FIFAシリーズ行は不整合のため除外",
+  "一次条件のH2H得失点差は誤スコア（0-2）に基づく。正しくは Kazakhstan 2-1 Slovakia"
  ],
  "missing": [
   "両チームとも10試合分の完全な公式リスト",
@@ -123,12 +128,20 @@
   "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（5行のみ掲載）",
   "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（3行のみ採用、不整合行を除外）",
   "history": "60日以内は各1試合（モルドバ／フェロー諸島）で共通相手なし",
-  "h2h": "過去2試合（2022年UNL）のみ、sportsmoleもカザフ2勝と記載"
+  "h2h": "過去2試合（2022年UNL）のみ、sportsmoleもカザフ2勝と記載",
+  "elo": "eloratings.net の取得が許可されず、Elo値を確認できず",
+  "last10": "両国とも直近10試合の信頼できる一覧を取得できず（Wikipediaの抽出結果は大会名・スコアに不整合）",
+  "first_rate": "先制率のデータを確認できず"
  },
  "source_urls": [
   "https://footballwhispers.com/blog/slovakia-vs-kazakhstan-prediction-preview-29-09-2026/",
   "https://scores24.live/en/soccer/m-29-09-2026-slovakia-kazakhstan-prediction",
-  "https://www.sportsmole.co.uk/football/slovakia/uefa-nations-league/preview/slovakia-vs-kazakhstan-prediction-team-news-lineups_605874.html"
+  "https://www.sportsmole.co.uk/football/slovakia/uefa-nations-league/preview/slovakia-vs-kazakhstan-prediction-team-news-lineups_605874.html",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League_C",
+  "https://en.wikipedia.org/wiki/Slovakia_national_football_team",
+  "https://en.wikipedia.org/wiki/Kazakhstan_national_football_team",
+  "https://www.whoscored.com/matches/1631910/matchreport/international-uefa-nations-league-c-2022-2023-slovakia-kazakhstan",
+  "https://www.espn.com/soccer/match/_/gameId/624084/slovakia-kazakhstan"
  ],
  "match_id": "m20260930-7d24134f",
  "calc": {
@@ -179,14 +192,112 @@
    "left": 0,
    "right": 2,
    "draw": 0,
-   "points_left": 0,
+   "units_left": 1,
+   "units_right": 3,
+   "points_left": 1,
    "points_right": 3,
    "points_games": 2,
-   "avg_left": 0.0,
+   "avg_left": 0.5,
    "avg_right": 1.5
   },
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 45
+  },
+  "right": {
+   "rank": 111
+  },
+  "source": "FIFAランキング 2026-07-20（Wikipedia各代表ページ）。Eloは未取得"
+ },
+ "deep5": {
+  "last5": "Slovakia：3勝1分1敗（9/26 Moldova 2-0、6月Montenegro 0-0・Malta 2-0、3月Romania 1-0、3月Kosovo 1-3）／Kazakhstan：確認できた3試合 0勝2分1敗（sportsmole：3戦未勝利）",
+  "last10": "Slovakia：sportsmoleによると直近10試合7勝1分2敗（個別の10試合リストは未取得）／Kazakhstan：10試合分は信頼できる一覧を取得できず",
+  "streak": "Slovakia：1連勝（直近4試合3勝）／Kazakhstan：3戦未勝利、アウェー7戦未勝利（0勝3分4敗、sportsmole）",
+  "avg_points": "Slovakia 直近5：得点1.2・失点0.6（+0.6）／Kazakhstan 直近3：得点0.33・失点1.33（-1.0）",
+  "ranking": "FIFA：Slovakia 45位／Kazakhstan 111位（2026-07-20）。ただしUNL総合ランキング（組分け用）ではKazakhstan 36位・Slovakia 38位で、Kazakhstanの方が上のPotだった",
+  "current_competition": "UNL C組3：Slovakia 1試合1勝 2-0（勝点3、首位）／Kazakhstan 1試合1分 1-1（勝点1、2位）",
+  "h2h_all": "全2戦（ともに2022年6月のUNL）でKazakhstanが2勝。Slovakiaは対Kazakhstan未勝利",
+  "h2h_points": "合計 Slovakia 1-3 Kazakhstan（Kazakhstan側平均 +1.0）。※一次条件の『H2H平均得失点差+1.5』は旧データ（0-2）に基づくもので、正しいスコアでは+1.0",
+  "h2h_home_away": "Slovakiaホーム：0-1敗（2022-06-06）／Kazakhstanホーム：1-2敗（2022-06-13）",
+  "common_60d": "60日以内は各1試合（Moldova／Faroe Islands）で共通相手なし",
+  "first_rate": "未確認",
+  "absences": "Slovakia：Bero（疲労骨折）欠場、Škriniarは負傷明け。Kazakhstan：Satpayev（太もも）、Chesnokov（負傷＋出場停止）、Samorodov（負傷）、Kasymが欠場（sportsmole、既存記載）",
+  "roster_changes": "Slovakiaは2026-05-12にVladimír Weiss sr.が監督就任（Wikipedia）。KazakhstanはJohn van 't Schip監督",
+  "home_away_note": "Slovakiaはホーム直近14戦10勝・1敗、ホーム直近10戦で7無失点（sportsmole）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "right": {
+   "played": 1,
+   "W": 0,
+   "D": 1,
+   "L": 0,
+   "gf": 1,
+   "ga": 1
+  },
+  "source": "UNL 2026-27 リーグC組3 第1節（9/26 Slovakia 2-0 Moldova、Faroe Islands 1-1 Kazakhstan：sportsmole）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "格差側（Elo上位）のSlovakiaはBero欠場・Škriniar負傷明け。一方KazakhstanはSatpayevら攻撃陣4人が欠場で、むしろ格差を広げる方向",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "Slovakiaは第1節と同じ最終ラインの予想（sportsmole）。ローテーションの兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "特段の世代交代情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは2022年6月の2戦のみ（4年以上前、両国とも監督が交代）。さらに一次条件の計算に使われた2戦目のスコアは誤り（0-2ではなく Kazakhstan 2-1 Slovakia）で、正しいH2H平均得失差は+1.0。右側（Kazakhstan）を示すH2H発火は根拠が弱い",
+   "impact": "major",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "Slovakiaホーム開催。Slovakiaはホーム14戦10勝1敗、Kazakhstanはアウェー7戦未勝利。Elo側（左）を支える材料で、H2H側（右）には逆風",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Kazakhstanに急改善の兆候なし（3戦未勝利）",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "サッカー1試合制で該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Slovakiaは2026年5月に監督交代（Weiss sr.）。就任後は2勝1分（Malta・Montenegro・Moldova）",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "UNLグループ第2節で該当なし",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

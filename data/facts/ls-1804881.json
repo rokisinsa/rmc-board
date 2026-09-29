@@ -1,0 +1,180 @@
+{
+ "match_id": "ls-1804881",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Angers",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Cergy Pontoise",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "6-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Anglet",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Amiens",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Gap",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "5-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Grenoble",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Briancon",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Chamonix Mont-Blanc",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Nice",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Bordeaux",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Marseille",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Rouen",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore France / Ligue Magnus eid=1804881）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore France / Ligue Magnus eid=1804881"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 66.7,
+   "gd_pg": 0.33,
+   "pd_pg": 0.33,
+   "rd_pg": 0.33,
+   "pts_rate": 0.667
+  },
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Angers：4勝1敗／Briancon：2勝1分2敗",
+  "last10": "Angers：4勝1敗（5試合）／Briancon：2勝1分2敗（5試合）",
+  "streak": "Angers：4連勝／Briancon：2連敗",
+  "avg_points": "Angers：1試合平均得失差 +1.80（5試合）／Briancon：1試合平均得失差 -0.40（5試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "4連勝",
+   "points_for": 21,
+   "points_against": 12,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 2,
+   "L": 2,
+   "D": 1,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 8,
+   "points_against": 10,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

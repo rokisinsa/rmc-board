@@ -394,5 +394,54 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 75.0,
+   "gd_pg": 1.0,
+   "pd_pg": 1.0,
+   "rd_pg": 1.0,
+   "pts_rate": 0.75
+  },
+  "right": {
+   "season_wr": 80.0,
+   "gd_pg": 0.8,
+   "pd_pg": 0.8,
+   "rd_pg": 0.8,
+   "pts_rate": 0.733
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 4,
+   "played": 4,
+   "W": 3,
+   "D": 0,
+   "L": 1,
+   "gf": 16,
+   "ga": 12,
+   "pts": 9,
+   "group": null
+  },
+  "right": {
+   "rank": 2,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 13,
+   "ga": 9,
+   "pts": 11,
+   "group": null
+  },
+  "source": "LiveScore順位表 Finland / Liiga（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Jukurit：5勝0敗／Ilves：5勝0敗",
+  "last10": "Jukurit：7勝2敗（9試合）／Ilves：6勝0敗（6試合）",
+  "streak": "Jukurit：7連勝／Ilves：6連勝",
+  "avg_points": "Jukurit：1試合平均得失差 +1.11（9試合）／Ilves：1試合平均得失差 +2.50（6試合）",
+  "current_competition": "Jukurit {'rank': 4, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 16, 'ga': 12, 'pts': 9, 'group': None}／Ilves {'rank': 2, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 13, 'ga': 9, 'pts': 11, 'group': None}（LiveScore順位表 Finland / Liiga（2026-09-29T22:27:25+09:00取得））"
  }
 }

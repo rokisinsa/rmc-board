@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-53588cfa",
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T07:59:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Weibo Gaming",
@@ -367,7 +367,8 @@
    "score": "1-0",
    "winner": "left",
    "units_left": 1,
-   "units_right": 0
+   "units_right": 0,
+   "detail": "ラウンド7-2（SiegeGG・AnalisesR6）"
   },
   {
    "date": "2026-06-24",
@@ -425,13 +426,17 @@
  ],
  "missing": [
   "2025年7〜9月のWG対FURY 3戦の個別スコア",
-  "2026年シーズンの正式マッププール・パッチ・veto傾向",
-  "APL 2026 S2リーグ戦各試合のマップ名"
+  "S2各BO1のマップ名",
+  "公式世界ランキング（SiegeGG停止中）"
  ],
  "unavailable": {
   "h2h": "Strafe集計（2025-09-24時点で通算5戦・WG3勝FURY2勝）から2025年7〜9月に3戦（FURY2勝を含む）が存在するはずだが、escorenews・siege.ggの一覧では個別の日付・スコアを確認できず。確認できた5戦のみ記載",
   "left.history_maps": "APL S2リーグ戦（BO1）のマップ名は各ソースに記載なし",
-  "right.form_older": "FURYの2026-06-24以前はAPL S1リーグ戦・Kickoff・SI 2026（2025年12月）まで遡れるが、直近10戦としては上記で充足"
+  "right.form_older": "FURYの2026-06-24以前はAPL S1リーグ戦・Kickoff・SI 2026（2025年12月）まで遡れるが、直近10戦としては上記で充足",
+  "deep5.ranking": "SiegeGGランキングは更新停止中の表示",
+  "deep5.first_rate": "Map1勝率の通算統計を出すソースなし",
+  "deep5.absences": "公式の欠場発表なし",
+  "esports.map_names_2026": "S2のマップ名はAnalisesR6に記載なし"
  },
  "source_urls": [
   "https://escorenews.com/en/r6/team/weibo-gaming/matches?page=1",
@@ -443,7 +448,11 @@
   "https://www.strafe.com/event/asia-pacific-league-asia-stage-2-ae7b7b/",
   "https://www.strafe.com/match/weibo-gaming-vs-fury-upper-bracket-semifinals-stage-2-7dc86e/",
   "https://www.strafe.com/match/fury-vs-weibo-gaming-week-4-stage-1-bce71f/",
-  "https://escorenews.com/en/r6/team/fury"
+  "https://escorenews.com/en/r6/team/fury",
+  "https://www.analisesr6.com/en/league/APL-Asia-2026",
+  "https://www.gezzly.gg/team/r6-fury",
+  "https://siege.gg/ranking",
+  "https://escorenews.com/en/r6/asia-pacific-league-2026-stage-2"
  ],
  "calc": {
   "left": {
@@ -668,5 +677,108 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "deep5": {
+  "ranking": "SiegeGGの公式ランキングは『更新停止中』で取得不可。既存記載：Weibo Gaming 世界6位・FURY 世界52位（escorenews）。APL Asia Stage 2 リーグ戦：WG 1位（6勝1OT勝0敗・20pt）、FURY 4位（4勝3敗・12pt）（AnalisesR6）",
+  "current_competition": "APL 2026 Asia Stage 2 リーグ戦（BO1×7）：WG 7勝0敗 ラウンド50-21（+29）／FURY 4勝3敗 ラウンド34-36（-2）。FURYの3敗はSharper 2-7、WG 2-7、Elevate 2-7と上位3チームにすべて大差負け（AnalisesR6・SiegeGG）",
+  "h2h_all": "確認できた5戦すべてWG勝ち：2026-09-10 S2リーグ 7-2（BO1）、2026-06-24 S1リーグ 1-0（BO1）、2026-03-28 Kickoff 2-0（BO3）、2025-09-24 2025 S2 PO 2-1（BO3）、2025-06-25 2025 S1 1-0（Chalet 7-2）。ただしStrafeは2025-09-24時点で通算WG3勝・FURY2勝としており、FURY勝利を含む2025年7〜9月の3戦は個別スコア未確認",
+  "h2h_points": "確認5戦のマップ 7-1（WG）。スコア判明マップのラウンド：2026-09-10 7-2、2025-09-24 Lair 7-8/Nighthaven 7-1/Clubhouse 7-3、2025-06-25 Chalet 7-2 → WG 35-16",
+  "h2h_home_away": "全試合オンライン・中立（APACリーグ）でホーム/アウェー区分なし",
+  "last5": "WG：5勝0敗（Daystar 7-1、Elevate 8-6 OT、Sharper 7-5、F5 7-5、FURY 7-2）／FURY：3勝2敗（Sharper 2-7敗、999 7-5、F5 7-4、Daystar 7-3、WG 2-7敗）",
+  "last10": "WG：9勝1敗（S2リーグ7戦全勝＋EWC 2026 2勝1敗）／FURY：4勝6敗（S2リーグ4-3＋S1リーグ終盤3連敗）",
+  "avg_points": "S2リーグ7戦の平均ラウンド：WG 取得7.14・失3.00（差+4.14）／FURY 取得4.86・失5.14（差-0.29）",
+  "streak": "WG：公式戦7連勝／FURY：1連敗",
+  "common_60d": "S2リーグの共通相手6チーム：WG 6戦全勝（ラウンド43-19・+24）／FURY 4勝2敗（32-29・+3）。同一相手のラウンド差：Sharper（WG 7-5／FURY 2-7）、Elevate（WG 8-6／FURY 2-7）、999（WG 7-1／FURY 7-5）、F5（WG 7-5／FURY 7-4）、Daystar（WG 7-1／FURY 7-3）、Dolphins（WG 7-1／FURY 7-3）→ 6相手すべてでWGのラウンド差が同等以上",
+  "first_rate": "Map1勝率：直近H2H 5戦ではWGが2025-09-24（Lair 7-8）以外の全Map1を取得。今季S2のBO1勝率 WG 100%・FURY 57.1%。通算の第1マップ勝率統計は確認できず",
+  "absences": "欠場・スタンドイン情報は確認できず（WGの直近S2全試合は同一5人：Reeps96・Terdsta・HOVENHERST・Gotti・SpeakEasy、SiegeGG）",
+  "roster_changes": "WG：2025年2月結成以来ロスター変更なし。FURY：2026年9月に Markelele 加入、2年在籍の Farlord が退団（gezzly）。gezzlyは Kaneki（Rating 1.15でチーム最高）を登録、既存記載の Piomin と表記差あり",
+  "bo_format": "BO3（アッパーブラケット準決勝、4チームのダブルエリミネーション。リーグ戦はBO1）",
+  "lan_online": "オンライン（Strafe：9/4〜10/17 online）"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 100.0,
+   "rd_pg": 4.14,
+   "pts_rate": 0.952,
+   "rating": "選手Rating上位 Reeps96 1.24・Terdsta 1.24"
+  },
+  "right": {
+   "season_wr": 57.1,
+   "rd_pg": -0.29,
+   "pts_rate": 0.571,
+   "rating": "選手Rating上位 Kaneki 1.15（gezzly）"
+  },
+  "source": "AnalisesR6 APL Asia 2026（S2リーグ28試合のスコア・勝点：勝3/OT勝2/OT負1で最大21pt）、SiegeGG選手Rating"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 7,
+   "D": 0,
+   "L": 0,
+   "gf": 50,
+   "ga": 21
+  },
+  "right": {
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 34,
+   "ga": 36
+  },
+  "source": "AnalisesR6 APL Asia 2026 Stage 2 リーグ戦（gf/gaはラウンド）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "WGは不変の5人で出場継続。欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "PO初戦で主力温存の理由なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "確認H2H 5戦のうち3戦は2026年（直近9/10）で新しい。一方Strafe集計では2025年にFURYが2勝しており、確認できていない対戦がある（H2H 100%は過大の可能性）",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "FURYはS1 1勝6敗→S2 4勝3敗と改善。ただし勝ちは下位4チーム相手のみで上位3チームには2-7で3敗",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "本戦はBO3。一次条件の直近フォーム・連勝の大半はBO1（1マップ）で得たもの。BO3ではマップ選択の影響あり",
+   "impact": "minor",
+   "applies": true
+  },
+  "LAN/Online差": {
+   "finding": "本戦も直近もオンラインで条件同一",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "FURYは9月にMarkelele加入・Farlord退団。WGは変更なし。FURY新体制でもS2でWGに2-7で敗戦済み",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "Major出場権・SIポイントが懸かるプレーオフで消化試合ではない。敗者も下位側へ回るダブルエリミ",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

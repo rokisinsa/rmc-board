@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-59336c27",
- "data_as_of": "2026-09-28T21:59:00+09:00",
+ "data_as_of": "2026-09-30T07:55:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:30:00+09:00",
  "unit": "マップ",
  "left": {
@@ -126,7 +126,7 @@
  },
  "right": {
   "name": "HyperSpirit",
-  "ranking": "HLTV世界ランク139位／Valve(VRS)155位（ルーマニア）",
+  "ranking": "HLTV世界146位／Valve(VRS)153位（ルーマニア、2026-09-29時点のHLTVチームページ。9/28取得時は139位/155位）",
   "form": [
    {
     "date": "2026-08-29",
@@ -266,7 +266,10 @@
  "unavailable": {
   "h2h": "初対戦。2026-09-28にHLTVで再確認：試合ページ（2398814）のH2Hセクションが0-0、かつAimhaus（team id 9199）の全時代の対戦記録は11試合のみ（2026年7件＋2018〜2019年4件）でHyperSpiritとの対戦は存在しない。HyperSpirit（team id 13012）の結果ページにもAimhaus戦なし",
   "history": "共通相手なし。Aimhausは2026-07-26を最後に試合がなく、60日窓（2026-08-01〜09-29）内の対戦が0試合。HYPERSPIRITの窓内相手（UPGRADE・Color・Black Phoenix・ex-Zero Tenacity・MASONIC・BET-M・G2 Ares・Just Players・ex-RUBY・Drip Too Hard・Permitta・Bebop・The Last Resort）と突き合わせ不能",
-  "left.form": "Aimhausの2026年（CS2・現ロスター）の公式記録は7試合のみ。8〜10件目はHLTVに残る直近のそれ以前の試合＝CS:GO時代（2018〜2019年・旧ロスター）の参考記録で、約7年のブランクがあるため現在の実力指標としては扱えない"
+  "left.form": "Aimhausの2026年（CS2・現ロスター）の公式記録は7試合のみ。8〜10件目はHLTVに残る直近のそれ以前の試合＝CS:GO時代（2018〜2019年・旧ロスター）の参考記録で、約7年のブランクがあるため現在の実力指標としては扱えない",
+  "deep5.first_rate": "HyperSpiritのマップ順スコアを取得できず",
+  "metrics.left": "Aimhausはランク・Rating・統計ともHLTVに記録なし",
+  "deep5.absences": "当日の出場メンバー公式発表なし（大会ページ表示のみ）"
  },
  "source_urls": [
   "https://www.hltv.org/events/9339/urban-riga-open-season-7",
@@ -278,7 +281,8 @@
   "https://www.hltv.org/team/13012/hyperspirit",
   "https://www.hltv.org/team/4869/ence",
   "https://www.hltv.org/team/10333/sangal",
-  "https://www.hltv.org/matches/2398814/aimhaus-vs-hyperspirit-urban-riga-open-season-7"
+  "https://www.hltv.org/matches/2398814/aimhaus-vs-hyperspirit-urban-riga-open-season-7",
+  "https://www.hltv.org/stats/teams/13012/hyperspirit"
  ],
  "deep": {
   "ranking": "Aimhaus＝HLTV・VRSとも圏外（ラトビア）。HyperSpirit＝HLTV139位・VRS155位（ルーマニア）",
@@ -358,5 +362,108 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": null,
+   "vrs_rank": null
+  },
+  "right": {
+   "rank": 146,
+   "vrs_rank": 153,
+   "wr_3m": 53.8,
+   "maps_all_time_w": 93,
+   "maps_all_time_l": 137,
+   "kd": 0.93
+  },
+  "source": "HLTVチームページ（HyperSpirit：世界146位・VRS153位・直近3か月勝率53.8%）、HLTVチーム統計（通算230マップ93勝137敗、K/D 0.93）。Aimhausはランク圏外"
+ },
+ "current_competition": {
+  "left": {
+   "played": 0,
+   "W": 0,
+   "D": 0,
+   "L": 0,
+   "gf": 0,
+   "ga": 0
+  },
+  "right": {
+   "played": 0,
+   "W": 0,
+   "D": 0,
+   "L": 0,
+   "gf": 0,
+   "ga": 0
+  },
+  "source": "HLTV Urban Riga Open Season 7：本試合がグループB初戦（9/29 18:30 CEST、同時刻にENCE vs Sangal）"
+ },
+ "deep5": {
+  "ranking": "HyperSpirit HLTV146位・VRS153位。Aimhausは HLTV/VRSとも圏外（HLTVチームページ）",
+  "current_competition": "Urban Riga Open S7グループB（4チームBO1総当たり：Aimhaus・HyperSpirit・ENCE・Sangal）の初戦。両者とも大会内0試合",
+  "h2h_all": "0件（初対戦。HLTV試合ページH2H 0-0、Aimhausの全記録11試合に対戦なし）",
+  "h2h_points": "なし（初対戦）",
+  "h2h_home_away": "なし（初対戦）。今回はリガのLANでAimhaus（ラトビア）は実質地元",
+  "last5": "Aimhaus：7/26 Jumprava 2-0○、7/25 FERAX 2-0○、7/25 Fraternity 2-0○、6/29 BERG 0-2●、6/28 Coalesce 0-1●＝3勝2敗（最後の試合から約2か月空き）。HyperSpirit：8/29 UPGRADE 0-2●、8/28 Color 0-2●、8/26 Black Phoenix 1-2●、8/26 ex-Zero Tenacity 2-1○、8/24 MASONIC 2-0○＝2勝3敗",
+  "last10": "Aimhaus：2026年の現ロスター記録は7試合のみ：7/26 Jumprava 2-0○、7/25 FERAX 2-0○、7/25 Fraternity 2-0○（kleverr Azeron Baltic Superfinals）、6/29 BERG 0-2●、6/28 Coalesce 0-1●、GAMEHARMONY 1-0○、Leo 0-1●（Urban Riga S5）＝4勝3敗。それ以前は2019年（CS:GO・旧ロスター）で参考外。HyperSpirit：上記＋8/24 BET-M 0-2●、8/23 G2 Ares 1-2●、8/21 Just Players 1-2●、8/21 ex-RUBY 1-0○、8/19 Drip Too Hard 2-0○＝4勝6敗",
+  "avg_points": "マップ平均：Aimhaus 2026年7試合で10-6（1.43-0.86）。HyperSpirit直近10試合12-15（1.2-1.5）。HyperSpirit通算マップ93勝137敗（HLTV統計）",
+  "streak": "Aimhaus 3連勝中（7/25-26、以後試合なし）。HyperSpirit 3連敗中（8/26-29、以後約1か月試合なし）",
+  "common_60d": "共通相手なし（Aimhausは60日窓内の試合0件）",
+  "first_rate": "Map1勝率：BO1のためMap1＝試合勝敗。AimhausのBO1は6月に1勝2敗（全てDust2）。HyperSpiritはマップ順データ未取得",
+  "absences": "欠場報道なし（両チーム）",
+  "roster_changes": "HyperSpirit：6/17 ragga・ADRON離脱、7/21 Q-Q・Scr0b（デンマーク）加入、コーチRickertje。Aimhaus：HLTVチームページに現行ロスター未登録。Urban Riga S7試合ページ表示はEd1m・BRK（ルーマニア）、flairr・Yamero・silrak（ラトビア）。変更情報なし",
+  "bo_format": "BO1（グループ総当たり）。上位はBO3シングルエリミへ",
+  "lan_online": "LAN（ラトビア・リガ）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし。HLTV大会ページのラインアップは通常の5人",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "グループ初戦で控え起用の情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "初対戦でH2Hなし（格差根拠はRating差のみ）",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "リガのLANでAimhausはラトビアのチーム（実質地元）",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Aimhausは7月末に3連勝で地域大会優勝。ただし相手はバルト地域の無名チーム。HyperSpiritは3連敗",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "グループはBO1（1マップ勝負）",
+   "impact": "minor",
+   "applies": true
+  },
+  "LAN/Online差": {
+   "finding": "HyperSpiritの直近はCCT/NODWIN等オンライン中心、AimhausはUrban Riga・Baltic SuperfinalsとLAN実績あり。LAN成績の比較データなし",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "HyperSpiritは7/21に2名入替後、8月は4勝6敗。Aimhausの情報は不足",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "グループ初戦で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

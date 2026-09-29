@@ -154,5 +154,54 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": 2.0,
+   "pd_pg": 2.0,
+   "rd_pg": 2.0,
+   "pts_rate": 0.444
+  },
+  "right": {
+   "season_wr": 33.3,
+   "gd_pg": -1.67,
+   "pd_pg": -1.67,
+   "rd_pg": -1.67,
+   "pts_rate": 0.333
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 3,
+   "W": 1,
+   "D": 1,
+   "L": 1,
+   "gf": 8,
+   "ga": 2,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 3,
+   "W": 1,
+   "D": 0,
+   "L": 2,
+   "gf": 2,
+   "ga": 7,
+   "pts": 3,
+   "group": null
+  },
+  "source": "LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Belgium U21：2勝0敗／Wales U21：0勝2敗",
+  "last10": "Belgium U21：2勝0敗（2試合）／Wales U21：0勝2敗（2試合）",
+  "streak": "Belgium U21：2連勝／Wales U21：2連敗",
+  "avg_points": "Belgium U21：1試合平均得失差 +4.00（2試合）／Wales U21：1試合平均得失差 -5.50（2試合）",
+  "current_competition": "Belgium U21 {'rank': 2, 'played': 3, 'W': 1, 'D': 1, 'L': 1, 'gf': 8, 'ga': 2, 'pts': 4, 'group': None}／Wales U21 {'rank': 4, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 2, 'ga': 7, 'pts': 3, 'group': None}（LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-09-29T22:27:25+09:00取得））"
  }
 }

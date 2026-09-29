@@ -222,5 +222,54 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 20.0,
+   "gd_pg": -0.4,
+   "pd_pg": -0.4,
+   "rd_pg": -0.4,
+   "pts_rate": 0.311
+  },
+  "right": {
+   "season_wr": 7.1,
+   "gd_pg": -2.29,
+   "pd_pg": -2.29,
+   "rd_pg": -2.29,
+   "pts_rate": 0.071
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 15,
+   "played": 15,
+   "W": 3,
+   "D": 5,
+   "L": 7,
+   "gf": 9,
+   "ga": 15,
+   "pts": 14,
+   "group": null
+  },
+  "right": {
+   "rank": 20,
+   "played": 14,
+   "W": 1,
+   "D": 0,
+   "L": 13,
+   "gf": 7,
+   "ga": 39,
+   "pts": 3,
+   "group": null
+  },
+  "source": "LiveScore順位表 Brazil / Serie B（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Botafogo SP：0勝1分4敗／Ponte Preta SP：1勝4敗",
+  "last10": "Botafogo SP：0勝1分5敗（6試合）／Ponte Preta SP：1勝5敗（6試合）",
+  "streak": "Botafogo SP：1連分／Ponte Preta SP：1連勝",
+  "avg_points": "Botafogo SP：1試合平均得失差 -1.50（6試合）／Ponte Preta SP：1試合平均得失差 -2.17（6試合）",
+  "current_competition": "Botafogo SP {'rank': 15, 'played': 15, 'W': 3, 'D': 5, 'L': 7, 'gf': 9, 'ga': 15, 'pts': 14, 'group': None}／Ponte Preta SP {'rank': 20, 'played': 14, 'W': 1, 'D': 0, 'L': 13, 'gf': 7, 'ga': 39, 'pts': 3, 'group': None}（LiveScore順位表 Brazil / Serie B（2026-09-29T22:27:25+09:00取得））"
  }
 }

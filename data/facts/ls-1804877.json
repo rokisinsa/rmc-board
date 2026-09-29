@@ -1,0 +1,259 @@
+{
+ "match_id": "ls-1804877",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Gap",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Amiens",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "5-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Rouen",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Grenoble",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "1-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Angers",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "2-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Chamonix Mont-Blanc",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Anglet",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Grenoble",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Angers",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "1-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Chamonix Mont-Blanc",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "2-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Nice",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Bordeaux",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore France / Ligue Magnus eid=1804877）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore France / Ligue Magnus eid=1804877"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": -1.33,
+   "pd_pg": -1.33,
+   "rd_pg": -1.33,
+   "pts_rate": 0.333
+  },
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Gap：2勝3敗／Anglet：0勝5敗",
+  "last10": "Gap：2勝3敗（5試合）／Anglet：0勝5敗（5試合）",
+  "streak": "Gap：1連勝／Anglet：5連敗",
+  "avg_points": "Gap：1試合平均得失差 -1.80（5試合）／Anglet：1試合平均得失差 -2.40（5試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 10,
+   "points_against": 19,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 0,
+   "L": 5,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 3,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "5連敗",
+   "points_for": 7,
+   "points_against": 19,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Grenoble",
+    "left": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "1-7",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "2-3",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Angers",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-5",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "1-6",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Chamonix Mont-Blanc",
+    "left": [
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "2-1",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "2-4",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-23",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

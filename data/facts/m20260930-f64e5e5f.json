@@ -1,0 +1,182 @@
+{
+ "match_id": "m20260930-f64e5e5f",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Mexico",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Colombia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-05-31",
+    "opp": "Australia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-23",
+    "opp": "Ghana",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Belgium",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-02-26",
+    "opp": "Iceland",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-26",
+    "opp": "Bolivia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-23",
+    "opp": "Panama",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Peru",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "USA",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-06",
+    "opp": "Haiti",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Honduras",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "Senegal",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1894368）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1894368"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Mexico：3勝2分0敗／Peru：1勝1分2敗",
+  "last10": "Mexico：5勝2分0敗（7試合）／Peru：1勝1分2敗（4試合）",
+  "streak": "Mexico：1連分／Peru：1連敗",
+  "avg_points": "Mexico：1試合平均得失差 +1.29（7試合）／Peru：1試合平均得失差 -1.00（4試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 5,
+   "L": 0,
+   "D": 2,
+   "win_rate": 71.4,
+   "home": {
+    "W": 5,
+    "L": 0,
+    "D": 2
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 11,
+   "points_against": 2,
+   "points_games": 7
+  },
+  "right": {
+   "games": 4,
+   "W": 1,
+   "L": 2,
+   "D": 1,
+   "win_rate": 25.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

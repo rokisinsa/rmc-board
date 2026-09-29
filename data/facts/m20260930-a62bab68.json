@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-a62bab68",
- "data_as_of": "2026-09-29T21:26:00+09:00",
+ "data_as_of": "2026-09-30T07:53:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ラスベガス・エーシズ",
-  "ranking": "プレーオフ1回戦 1勝0敗",
+  "ranking": "RS 31勝13敗（第3シード）、プレーオフ1回戦1勝0敗",
   "form": [
    {
     "date": "2026-09-27",
@@ -88,7 +88,8 @@
    }
   ],
   "lineup": [
-   "欠場情報未取得"
+   "欠場：Dana Evans（背中、第1戦欠場）、NaLyssa Smith（左脚、今季絶望）（Yahoo 9/27）",
+   "A'ja Wilsonの欠場報道なし"
   ],
   "history": [
    {
@@ -159,7 +160,7 @@
  },
  "right": {
   "name": "インディアナ・フィーバー",
-  "ranking": "プレーオフ1回戦 0勝1敗",
+  "ranking": "RS 28勝16敗、プレーオフ1回戦0勝1敗（敗退の危機）",
   "form": [
    {
     "date": "2026-09-27",
@@ -243,7 +244,8 @@
    }
   ],
   "lineup": [
-   "欠場情報未取得"
+   "欠場：Tyasha Harris（左下腿）、Damiris Dantas（左膝手術）とも今季絶望",
+   "Caitlin Clark（背中）・Aliyah Boston（右下腿）は第2戦probable（Heavy 9/28・SI 9/29）"
   ],
   "history": [
    {
@@ -323,12 +325,51 @@
    "date": "2026-07-12",
    "event": "WNBA RS（ラスベガス）",
    "score": "75-109",
-   "winner": "right"
+   "winner": "right",
+   "detail": "エーシズは4日で3試合目（Aces公式）。Wilson出場"
   },
   {
    "date": "2026-07-05",
    "event": "WNBA RS（ラスベガス）",
    "score": "68-84",
+   "winner": "right",
+   "detail": "エーシズはA'ja Wilson（右足首）欠場、フィーバーもクラーク（背中）欠場（Yahoo 7/5）"
+  },
+  {
+   "date": "2025-09-30",
+   "event": "2025プレーオフ準決勝 第5戦（ラスベガス）",
+   "score": "107-98",
+   "winner": "left",
+   "detail": "延長"
+  },
+  {
+   "date": "2025-09-28",
+   "event": "2025プレーオフ準決勝 第4戦（インディアナ）",
+   "score": "83-90",
+   "winner": "right"
+  },
+  {
+   "date": "2025-09-26",
+   "event": "2025プレーオフ準決勝 第3戦（インディアナ）",
+   "score": "84-72",
+   "winner": "left"
+  },
+  {
+   "date": "2025-09-23",
+   "event": "2025プレーオフ準決勝 第2戦（ラスベガス）",
+   "score": "90-68",
+   "winner": "left"
+  },
+  {
+   "date": "2025-09-21",
+   "event": "2025プレーオフ準決勝 第1戦（ラスベガス）",
+   "score": "73-89",
+   "winner": "right"
+  },
+  {
+   "date": "2025-07-24",
+   "event": "2025 WNBA RS（インディアナ）",
+   "score": "70-80",
    "winner": "right"
   }
  ],
@@ -336,21 +377,32 @@
  "venue": "インディアナポリス（フィーバーのホーム）— プレーオフ1回戦 第2戦、第3戦は10/1ラスベガス",
  "risks": [
   "3戦2勝制でエーシズ1勝リード",
-  "エーシズはRS終盤から6連勝"
+  "エーシズはRS終盤から6連勝",
+  "H2H直近10件は5勝5敗で互角",
+  "フィーバーは負ければ敗退の試合でホーム開催",
+  "エーシズの8連勝はシアトル・LA・フェニックスなどRS終盤の相手を含む"
  ],
  "missing": [
-  "2025年以前のH2H",
-  "ロスター・欠場"
+  "ネットレーティング等のチーム指標",
+  "第1Q勝率"
  ],
  "unavailable": {
-  "h2h": "basketball-reference 2026分4件のみ取得。2025年以前は時間内に未取得",
+  "h2h": "basketball-referenceで2025〜2026の10件を確認（2025-06-22・07-03の2件は11件目以降のため省略）",
   "history": "8/1〜8/7の試合一覧（両チーム）は未取得のため共通相手戦が一部欠ける可能性",
-  "model_prob": "公開の独立勝率モデル値を時間内に確認できず"
+  "model_prob": "公開の独立勝率モデル値を時間内に確認できず",
+  "first_rate": "先制率/第1Q勝率：WNBAの第1Q別チーム勝率を公開している資料が見つからない"
  },
  "source_urls": [
   "https://www.basketball-reference.com/wnba/teams/LVA/2026_games.html",
   "https://www.basketball-reference.com/wnba/teams/IND/2026_games.html",
-  "https://www.basketball-reference.com/wnba/playoffs/2026_games.html"
+  "https://www.basketball-reference.com/wnba/playoffs/2026_games.html",
+  "https://www.basketball-reference.com/wnba/teams/LVA/2025_games.html",
+  "https://heavy.com/sports/wnba/indiana-fever/caitlin-clark-injury-status-aces-game/",
+  "https://www.si.com/betting/caitlin-clark-injury-update-betting-impact-for-aces-vs-fever-game-2",
+  "https://sports.yahoo.com/articles/final-injury-report-fever-aces-160000242.html",
+  "https://sports.yahoo.com/articles/ja-wilson-playing-tonight-fever-175335696.html",
+  "https://www.espn.com/wnba/story/_/id/49273389/aces-wilson-miss-third-straight-game-sunday-vs-fever",
+  "https://aces.wnba.com/news/game-recap-aces-fall-to-fever-109-75-in-third-game-over-four-days"
  ],
  "model_prob": "unavailable",
  "calc": {
@@ -397,15 +449,15 @@
    "points_games": 10
   },
   "h2h": {
-   "games": 4,
-   "left": 2,
-   "right": 2,
+   "games": 10,
+   "left": 5,
+   "right": 5,
    "draw": 0,
-   "points_left": 331,
-   "points_right": 362,
-   "points_games": 4,
-   "avg_left": 82.8,
-   "avg_right": 90.5
+   "points_left": 838,
+   "points_right": 859,
+   "points_games": 10,
+   "avg_left": 83.8,
+   "avg_right": 85.9
   },
   "common": [
    {
@@ -576,5 +628,101 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 70.5,
+   "seed": 3
+  },
+  "right": {
+   "season_wr": 63.6
+  },
+  "source": "basketball-reference 2026チーム日程（RS 31-13／28-16）、Yahoo 9/27（第3シード）"
+ },
+ "deep5": {
+  "last5": "Las Vegas Aces：5勝0敗／Indiana Fever：2勝3敗",
+  "last10": "Las Vegas Aces：8勝2敗（10試合）／Indiana Fever：5勝5敗（10試合）",
+  "streak": "Las Vegas Aces：8連勝／Indiana Fever：2連敗",
+  "avg_points": "Las Vegas Aces：1試合平均得失差 +13.60（10試合）／Indiana Fever：1試合平均得失差 +2.00（10試合）",
+  "ranking": "RS：エーシズ31勝13敗（勝率70.5%、第3シード）／フィーバー28勝16敗（63.6%）（basketball-reference・Yahoo）",
+  "current_competition": "プレーオフ1回戦（3戦2勝制）：エーシズ1勝0敗（第1戦 102-85）／フィーバー0勝1敗。第2戦はインディアナ、第3戦は10/1ラスベガス",
+  "h2h_all": "確認できた直近10件（2025-07〜2026-09）で5勝5敗。2026年は2勝2敗（7月の2敗はWilson欠場の7/5と過密日程の7/12）、2025年準決勝はエーシズ3勝2敗で突破",
+  "h2h_points": "10試合合計 エーシズ838－フィーバー859（平均 -2.1）。2026年4試合は331-362",
+  "h2h_home_away": "エーシズのホーム6試合 3勝3敗／アウェー（インディアナ）4試合 2勝2敗（8/6 86-84延長勝ち、2025準決勝第3戦勝ち・第4戦負け、2025-07-24負け）。今回はインディアナ開催",
+  "common_60d": "60日以内の共通相手5チーム：トロント（エーシズ2勝 +30／フィーバー2勝 +24）、コネチカット（+23／+20）、ミネソタ（エーシズ0勝2敗 -16／フィーバー1勝1敗 -1）、ワシントン（2勝 +17／0勝1敗 -16）、アトランタ（0勝1敗 -15／1勝 +4）。勝敗・得失差とも大差なし",
+  "first_rate": "第1Q勝率・先制率の信頼できる集計は見つからず",
+  "absences": "エーシズ：Dana Evans（背中）、NaLyssa Smith（今季絶望）。フィーバー：Tyasha Harris・Damiris Dantas（今季絶望）、Clark（背中）とBoston（右下腿）はprobable",
+  "roster_changes": "プレーオフ期間中のロスター変更の報道なし"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 102,
+   "ga": 85
+  },
+  "right": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 85,
+   "ga": 102
+  },
+  "source": "basketball-reference 2026プレーオフ（1回戦3戦2勝制）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "格差側エーシズはDana Evans・NaLyssa Smith（控え）欠場、Wilsonは出場見込み。フィーバーはClark・Bostonともprobableで主力が揃う",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "プレーオフで主力温存の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは2025-07〜2026-09で新しい。ただし互角（5勝5敗、得失点はフィーバー+21）で、連勝ベースの格差をH2Hは支えていない",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "第2戦はフィーバーのホーム（インディアナ）。エーシズのform 8勝2敗のうち7試合がホームだが、H2Hアウェーは2勝2敗",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "フィーバーは直近5試合2勝3敗で急改善なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "バスケットボール単発試合（シリーズは3戦2勝制）でBO1には該当しない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではないため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "プレーオフ中の移籍・契約変更の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "フィーバーは負ければ敗退の試合で消化試合ではない（むしろ劣勢側の動機が高い）",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

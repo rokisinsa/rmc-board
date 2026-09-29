@@ -1,0 +1,110 @@
+{
+ "match_id": "m20260930-b8803b55",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Somalia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Gambia",
+    "comp": "Africa Cup of Nations Qualification / Qualification: Group C",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Ivory Coast",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "Ghana",
+    "comp": "Africa Cup of Nations Qualification / Qualification: Group C",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Somalia：0勝1敗／Ivory Coast：1勝0敗",
+  "last10": "Somalia：0勝1敗（1試合）／Ivory Coast：1勝0敗（1試合）",
+  "streak": "Somalia：1連敗／Ivory Coast：1連勝",
+  "avg_points": "Somalia：1試合平均得失差 -1.00（1試合）／Ivory Coast：1試合平均得失差 +2.00（1試合）"
+ },
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

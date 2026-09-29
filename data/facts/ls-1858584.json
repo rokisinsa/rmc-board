@@ -1,0 +1,215 @@
+{
+ "match_id": "ls-1858584",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Newcastle Town",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-17",
+    "opp": "Lichfield City",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "A",
+    "score": "5-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Hanley Town",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-19",
+    "opp": "Wythenshawe",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "A",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Bootle",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "A",
+    "score": "2-4",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Stafford Rangers",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Wythenshawe",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Kidsgrove Athletic",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Vauxhall Motors",
+    "comp": "England / Northern Premier League: West Division",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore England / Northern Premier League: West Division eid=1858584）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore England / Northern Premier League: West Division eid=1858584"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 42.9,
+   "gd_pg": 0.86,
+   "pd_pg": 0.86,
+   "rd_pg": 0.86,
+   "pts_rate": 0.476
+  },
+  "right": {
+   "season_wr": 85.7,
+   "gd_pg": 1.43,
+   "pd_pg": 1.43,
+   "rd_pg": 1.43,
+   "pts_rate": 0.857
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 14,
+   "played": 7,
+   "W": 3,
+   "D": 1,
+   "L": 3,
+   "gf": 19,
+   "ga": 13,
+   "pts": 10,
+   "group": null
+  },
+  "right": {
+   "rank": 3,
+   "played": 7,
+   "W": 6,
+   "D": 0,
+   "L": 1,
+   "gf": 17,
+   "ga": 7,
+   "pts": 18,
+   "group": null
+  },
+  "source": "LiveScore順位表 England / Northern Premier League: West Division（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Newcastle Town：1勝3敗／Stafford Rangers：3勝0敗",
+  "last10": "Newcastle Town：1勝3敗（4試合）／Stafford Rangers：3勝0敗（3試合）",
+  "streak": "Newcastle Town：1連勝／Stafford Rangers：3連勝",
+  "avg_points": "Newcastle Town：1試合平均得失差 +0.00（4試合）／Stafford Rangers：1試合平均得失差 +1.67（3試合）",
+  "current_competition": "Newcastle Town {'rank': 14, 'played': 7, 'W': 3, 'D': 1, 'L': 3, 'gf': 19, 'ga': 13, 'pts': 10, 'group': None}／Stafford Rangers {'rank': 3, 'played': 7, 'W': 6, 'D': 0, 'L': 1, 'gf': 17, 'ga': 7, 'pts': 18, 'group': None}（LiveScore順位表 England / Northern Premier League: West Division（2026-09-29T22:27:25+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 3,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 12,
+   "points_against": 12,
+   "points_games": 4
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 7,
+   "points_against": 2,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Wythenshawe",
+    "left": [
+     {
+      "date": "2026-08-19",
+      "iso": "2026-08-19",
+      "score": "3-4",
+      "res": "L",
+      "comp": "England / Northern Premier League: West Division"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "3-1",
+      "res": "W",
+      "comp": "England / Northern Premier League: West Division"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-23",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

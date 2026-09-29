@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-ce0a9f69",
- "data_as_of": "2026-09-29T18:35:00+09:00",
+ "data_as_of": "2026-09-30T07:56:00+09:00",
  "unit": "なし",
  "left": {
   "name": "HC Amiens Somme",
@@ -137,24 +137,47 @@
    }
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-03-23",
+   "event": "Ligue Magnus 2025/26 PO準々決勝 第6戦（Amiensホーム）",
+   "score": "1-2",
+   "winner": "right",
+   "detail": "延長（Lavoie）。Rouenがシリーズ4-2で突破（gazettesports）"
+  },
+  {
+   "date": "2026-03-18",
+   "event": "Ligue Magnus 2025/26 PO準々決勝 第4戦（Amiensホーム）",
+   "score": "4-2",
+   "winner": "left",
+   "detail": "rouen.fr『水曜・ピカルディで4-2』から日付推定"
+  }
+ ],
  "common_opponents_notes": [
   "共通相手（60日以内, J1〜J5）: Gap, Grenoble"
  ],
  "venue": "Rouen（Île Lacroix）— Rouenのホーム（flashscore.frの9/29対戦表『Rouen vs Amiens』）。配信left=Amiensはアウェー。『Derby des Plaines』（ligue公式J6見出し）",
  "risks": [
   "配信の left(Amiens) はアウェー側。実開催はRouenホーム",
-  "今季5試合のみのサンプル"
+  "今季5試合のみのサンプル",
+  "⑤深掘りは試合開始後（9/30 08時台 JST）の実施だが、記載は試合開始前の情報のみ"
  ],
  "missing": [
-  "過去シーズンH2H",
+  "過去H2Hの一部スコア",
+  "GK個人成績・PP/PK",
   "独立モデル勝率"
  ],
  "unavailable": {
-  "h2h": "2026/27は今季初対戦（J1〜J5対戦表で確認）。前季以前の対戦は時間内に取得できず",
+  "h2h": "今季初対戦。2025/26 PO準々決勝（Rouen 4-2）のうち第4・6戦のみスコア確認。他の試合と2/25レギュラー戦はスコア取得不可",
   "left.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
   "right.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
-  "history": "J1〜J5の相手で共通相手を照合"
+  "history": "J1〜J5の相手で共通相手を照合",
+  "deep5.h2h_points": "2025/26 PO準々決勝第1〜3・5戦、2/25のレギュラーシーズン戦のスコアは本文取得不可（passionhockeyタイムアウト）",
+  "deep5.first_rate": "公開ソースなし",
+  "deep5.save_pct": "個人GK統計の公開ソース未取得",
+  "deep5.gsaa": "同上",
+  "deep5.pp_pct": "ligue公式が403で取得不可",
+  "deep5.pk_pct": "同上"
  },
  "source_urls": [
   "https://www.passionhockey.com/2026/09/16/ligue-magnus-rentree-reussie-pour-grenoble-et-bordeaux/",
@@ -163,7 +186,13 @@
   "https://planetehockey.com/ligue-magnus-grenoble-mene-un-quatuor-de-tete/",
   "https://www.flashscore.fr/hockey/france/ligue-magnus/",
   "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/",
-  "https://www.passionhockey.com/2026/09/23/ligue-magnus-bordeaux-dernier-resistant/"
+  "https://www.passionhockey.com/2026/09/23/ligue-magnus-bordeaux-dernier-resistant/",
+  "https://www.plandematch.fr/29/09/2026/ligue-magnus-quatre-equipes-en-tete-et-un-choc-entre-chamonix-et-marseille/",
+  "https://liguemagnus.com/2026/09/28/j6-un-premier-derby-des-plaines-riche-en-enjeux/",
+  "https://gazettesports.fr/2026/03/23/hockey-sur-glace-ligue-magnus-amiens-elimines-apres-prolongation-dans-un-derby-brulant/",
+  "https://rouen.fr/evenement/2026/03/hockey-rouen-laisse-serie-quarts-finale-trainer",
+  "https://www.passionhockey.com/2026/03/15/ligue-magnus-amiens-egalise-face-a-rouen/",
+  "https://www.passionhockey.com/2026/02/25/ligue-magnus-rouen-humilie-amiens/"
  ],
  "calc": {
   "left": {
@@ -209,10 +238,15 @@
    "points_games": 5
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0,
+   "points_left": 5,
+   "points_right": 4,
+   "points_games": 2,
+   "avg_left": 2.5,
+   "avg_right": 2.0
   },
   "common": [
    {
@@ -270,5 +304,113 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": 11,
+   "pts_rate": 0.067,
+   "season_wr": 0.0,
+   "gd_pg": -1.8
+  },
+  "right": {
+   "season_wr": 60.0,
+   "gd_pg": 0.6,
+   "pd_pg": -1.67,
+   "rd_pg": -1.67,
+   "pts_rate": 0.6,
+   "rank": 6
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得） ／ passionhockey/plandematch 9/29時点のLigue Magnus順位（勝点3制・最大15pt）。LiveScore由来のRouen値（勝率33.3・gd -1.67）は試合数不一致のため補正"
+ },
+ "deep5": {
+  "last5": "Amiens：0勝5敗（2-5 Gap、1-4 @Grenoble、2-3 Angers、5-6 @Chamonix、3-4延長 Nice）／Rouen：3勝2敗（2-1 @Bordeaux、4-0 Gap、1-5 @Marseille、5-1 Grenoble、1-3 @Briançon）",
+  "last10": "今季公式戦は各5試合のみ：Amiens 0勝5敗／Rouen 3勝2敗",
+  "streak": "Amiens：開幕5連敗／Rouen：2連勝（直近2戦で失点1）",
+  "avg_points": "Amiens 平均得点2.6・失点4.4（差-1.8）／Rouen 平均得点2.6・失点2.0（差+0.6）",
+  "ranking": "Ligue Magnus 2026/27（J5終了）：Rouen 6位 9pt（3勝2敗・13-10、首位グループと同勝点圏）／Amiens 11位 1pt（0勝1延長敗4敗・13-22）（passionhockey・plandematch 9/29）",
+  "current_competition": "今季5試合：Amiens 0勝5敗（延長負け1）得失13-22／Rouen 3勝2敗 得失13-10（ホーム2戦2勝：Grenoble 5-1、Gap 4-0）",
+  "h2h_all": "今季初対戦。前季2025/26：レギュラーシーズン2026-02-25『Rouen humilie Amiens』（Rouen大勝、スコア本文取得不可）。プレーオフ準々決勝はRouenが4勝2敗で突破：確認できた試合は第4戦（Amiensホーム）Amiens 4-2勝、第6戦 2026-03-23（Amiens Coliseum）Rouen 2-1延長勝（Lavoie OT決勝点）。第2戦はAmiensが勝ってタイ（passionhockey見出し『Amiens égalise』）。第5戦はRouenホームでRouen大勝",
+  "h2h_points": "スコアまで確認できたのは2試合のみ（第4戦 Amiens 4-2、第6戦 Rouen 2-1 OT）。シリーズ全体の得失は確認できず",
+  "h2h_home_away": "2025/26 PO準々決勝：Rouen（Île Lacroix）で行った試合はRouen優勢（第5戦大勝）、Amiensでは1勝1敗以上（第4戦Amiens勝、第6戦Rouen延長勝）。今回はRouenホーム",
+  "common_60d": "共通相手2：Gap（Amiens 2-5敗／Rouen 4-0勝）、Grenoble（Amiens 1-4敗／Rouen 5-1勝）。同じ相手への得失差：Amiens -6（2試合・平均-3.0）／Rouen +8（2試合・平均+4.0）→ Rouen側に1試合平均7.0点の差",
+  "first_rate": "先制率は公開ソースで確認できず",
+  "absences": "Amiens：正GK Alexis Gravel負傷、代役として Dominik Horváth を獲得（passionhockey 9/16）。Rouen：Florian Chakiachvili（練習再開段階）、Lucas Mugnier が欠場中（plandematch 9/29）",
+  "roster_changes": "Amiens：GK Horváth を緊急補強。Rouen：大きな変更報道は確認できず",
+  "goalie": "Rouen：Mac Carruth（9/27 Bordeaux戦 2-1勝で好守、直近2戦で失点1）。Amiens：Gravel負傷でHorváthが起用される見込み（先発は未発表）",
+  "save_pct": "個人SV%は確認できず。チーム失点：Amiens 22（5試合・平均4.4）／Rouen 10（平均2.0）",
+  "gsaa": "確認できず",
+  "pp_pct": "確認できず",
+  "pk_pct": "確認できず"
+ },
+ "current_competition": {
+  "left": {
+   "played": 5,
+   "W": 0,
+   "D": 0,
+   "L": 5,
+   "gf": 13,
+   "ga": 22
+  },
+  "right": {
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 13,
+   "ga": 10
+  },
+  "source": "Ligue Magnus 2026/27 J1〜J5（passionhockey・flashscore.fr）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "格差側Rouenは Chakiachvili（前季PO第6戦で得点）・Mugnier 欠場。ただし不在でも直近2戦で失点1。AmiensもGK Gravel負傷",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "GK起用のローテーション報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは前季（2026年2〜3月）で新しい。ただし今季の直接対戦はなく、スコア確認は2試合のみ",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "Rouenホーム（今季2戦2勝・得失9-1）。Rouenはアウェーで1勝2敗と弱く、ホーム有利の方向で格差を支持",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Amiensは5連敗、うち3試合が1点差（延長負け含む）で内容は大差負けばかりではない",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "AmiensはGK緊急補強（Horváth）。前季PO準々決勝ではAmiensが2勝を挙げており、ダービーで拮抗した実績あり",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "開幕6節目のダービーで消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-bb5ff659",
- "data_as_of": "2026-09-28T21:59:00+09:00",
+ "data_as_of": "2026-09-30T08:00:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "Sharper Esports",
@@ -367,7 +367,7 @@
    "winner": "left",
    "units_left": 1,
    "units_right": 0,
-   "detail": "日付は両チームのescorenews対戦記録で再確認済み"
+   "detail": "日付は両チームのescorenews対戦記録で再確認済み。ラウンド7-4（AnalisesR6）"
   },
   {
    "date": "2021-12-16",
@@ -395,16 +395,21 @@
   "SharperはAPL Asia Stage 2から本リーグに参戦（escorenews上は2022年1月以降2026年9月まで公式戦記録が空白）で、BO3・プレーオフ形式での近年のサンプルがない",
   "Elevateは直近28試合の勝率36%と長期では低調だが、リーグ戦では上位通過。9/4の直接対決はSharperが勝利",
   "リーグ戦BO1からプレーオフBO3への形式変更。勝者は上位側決勝（10/16）でWeibo Gaming vs FURYの勝者と対戦",
-  "大会はBLAST R6 Major Osaka 2026出場権とSIポイントが懸かる（賞金総額$54,000）"
+  "大会はBLAST R6 Major Osaka 2026出場権とSIポイントが懸かる（賞金総額$54,000）",
+  "SiegeGGの https://siege.gg/teams/102-fury はSharper Esportsのページ（Rating・S2ラウンドスコアの出典）"
  ],
  "missing": [
-  "各BO1のマップ名・ラウンドスコア",
-  "SharperのAPL Challenger Series等、Stage 2以前の2026年下部記録",
-  "2026年シーズンの正式マッププール・パッチ"
+  "S2各BO1のマップ名",
+  "SharperのBO3実績（2022年以降）",
+  "公式世界ランキング（SiegeGG停止中）"
  ],
  "unavailable": {
   "left.form": "escorenews上のSharperの2026年の公式戦記録はAPL 2026 Asia Stage 2の7試合のみで、その前は2022年1月（APAC League 2021）まで約4年半の空白。10試合に揃えるため8〜10件目は2021-22年の試合（APAC League 2021・GS S4）を記載。昇格経路（Challenger Series等）の試合はescorenews・siege.ggで確認できず（Liquipediaは429で参照不可）",
-  "h2h": "2022〜2025年の直接対戦は両者の対戦記録一覧（escorenews）に存在せず。2021-12-20/21のELV.AS・ELV.Ac戦はElevateのアカデミーチームのため除外"
+  "h2h": "2022〜2025年の直接対戦は両者の対戦記録一覧（escorenews）に存在せず。2021-12-20/21のELV.AS・ELV.Ac戦はElevateのアカデミーチームのため除外",
+  "deep5.first_rate": "Map1勝率の通算統計ソースなし",
+  "deep5.ranking": "SiegeGGランキング更新停止中",
+  "deep5.absences": "公式発表なし",
+  "esports.map_names_2026": "S2のマップ名はAnalisesR6に記載なし"
  },
  "source_urls": [
   "https://escorenews.com/en/r6/team/sharper/matches",
@@ -413,7 +418,11 @@
   "https://escorenews.com/en/r6/team/elevate",
   "https://siege.gg/matches/7123-apacl-apac-sharper-esports-vs-elevate",
   "https://www.strafe.com/event/asia-pacific-league-asia-stage-2-ae7b7b/",
-  "https://escorenews.com/en/r6/team/weibo-gaming/matches?page=1"
+  "https://escorenews.com/en/r6/team/weibo-gaming/matches?page=1",
+  "https://www.analisesr6.com/en/league/APL-Asia-2026",
+  "https://siege.gg/teams/102-fury",
+  "https://www.gezzly.gg/team/r6-elevate",
+  "https://siege.gg/news/elevate-part-ways-with-brazilian-roster-team-to-compete-in-year-11-with-asian-lineup"
  ],
  "calc": {
   "left": {
@@ -635,5 +644,108 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "deep5": {
+  "ranking": "SiegeGGランキングは更新停止中。既存記載：Elevate 世界28位・Sharper 世界34位（escorenews）で世界ランクはElevateが上。APL Asia Stage 2 リーグ戦：Sharper 2位（6勝1敗・18pt）、Elevate 3位（4勝1敗2OT負・14pt）（AnalisesR6）",
+  "current_competition": "APL 2026 Asia Stage 2 リーグ戦（BO1×7）：Sharper 6勝1敗 ラウンド47-20（+27）／Elevate 4勝3敗（うち2敗は延長 WG 6-8・999 7-8）ラウンド45-29（+16）",
+  "h2h_all": "確認できた2戦：2026-09-04 S2リーグ Sharper 7-4 Elevate（BO1）、2021-12-16 GS S4 1-1（BO2、当時のElevateは現メンバーと別）。2022〜2025年の対戦なし",
+  "h2h_points": "2026-09-04：ラウンド Sharper 7－Elevate 4。2021年戦はマップ1-1",
+  "h2h_home_away": "オンライン中立のみ（区分なし）",
+  "last5": "Sharper：4勝1敗（FURY 7-2、F5 7-2、WG 5-7敗、Dolphins 7-2、999 7-3）／Elevate：3勝2敗（F5 7-2、WG 6-8敗、Dolphins 7-1、999 7-8敗、Daystar 7-1）",
+  "last10": "Sharper：8勝2敗だが2026年の公式戦は7試合（6勝1敗）のみで、8〜10件目は2021-22年の試合（2勝1敗）／Elevate：6勝4敗（S2リーグ4-3＋S1リーグ2-1）",
+  "avg_points": "S2リーグ7戦の平均ラウンド：Sharper 取得6.71・失2.86（差+3.86）／Elevate 取得6.43・失4.14（差+2.29）",
+  "streak": "Sharper：2連勝／Elevate：1連勝",
+  "common_60d": "S2リーグ共通相手6チーム：Sharper ラウンド40-16（+24）／Elevate 41-22（+19）。相手別ラウンド差：FURY S+5/E+5、F5 S+5/E+5、WG S-2/E-2、999 S+4/E-1、Daystar S+7/E+6、Dolphins S+5/E+6 → 999戦以外ほぼ同等で差は小さい",
+  "first_rate": "Map1勝率の通算統計は確認できず。S2 BO1勝率 Sharper 85.7%・Elevate 57.1%（延長2敗含む）",
+  "absences": "欠場・スタンドインの報道は確認できず",
+  "roster_changes": "Elevate：2026-09-02に BarcodeOP・Shibe・HysteriX が抜け Ape・Scatman・MrPuncH が加入（gezzly）、コーチ Kooli は2026年6月就任。2026年3月にはブラジル人ロスターからアジア人ロスターへ総入れ替え（SiegeGG 3/13）。Sharper：SiegeGG登録は KritJ・Peeps・BGMan・Nay.PEW・Lycolis（既存記載のi9と表記差あり）。大きな移籍報道なし",
+  "bo_format": "BO3（アッパーブラケット準決勝。リーグ戦はBO1）",
+  "lan_online": "オンライン（Strafe：9/4〜10/17 online）"
+ },
+ "metrics": {
+  "left": {
+   "season_wr": 85.7,
+   "rd_pg": 3.86,
+   "pts_rate": 0.857,
+   "rating": "選手Rating KritJ 1.18・Peeps 1.15（SiegeGG）"
+  },
+  "right": {
+   "season_wr": 57.1,
+   "rd_pg": 2.29,
+   "pts_rate": 0.667,
+   "rating": "選手Rating nhaiqal 1.57・MrPuncH 1.27・Scatman 1.26（gezzly）"
+  },
+  "source": "AnalisesR6 APL Asia 2026 S2（勝3/OT勝2/OT負1で最大21pt）、SiegeGG・gezzly選手Rating"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 6,
+   "D": 0,
+   "L": 1,
+   "gf": 47,
+   "ga": 20
+  },
+  "right": {
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 45,
+   "ga": 29
+  },
+  "source": "AnalisesR6 APL Asia 2026 Stage 2 リーグ戦（gf/gaはラウンド）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "発火条件『直近10で8勝』はSharperの2026年公式戦が7試合しかなく、8〜10件目に2021-22年の試合（2勝）を含めた値。2026年分だけなら6勝1敗。H2Hも2026年は1戦のみ（7-4）。共通相手へのラウンド差は Sharper +24／Elevate +19とほぼ互角で、格差の根拠が弱い",
+   "impact": "major",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Elevateは9/2に3人入れ替え後、S2で4勝（2敗は延長の1点差）と新体制で機能している",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "本戦はBO3。両チームの今季成績はBO1のみでBO3のサンプルがない（Sharperは2022年以降BO3実績がescorenewsで確認できず）",
+   "impact": "minor",
+   "applies": true
+  },
+  "LAN/Online差": {
+   "finding": "本戦・直近ともオンライン",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Elevateは9/2に3人入れ替え（9/4の直接対決は新体制2日目で4-7敗）。Sharperは登録名に表記差（i9/Nay.PEW）",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "Major出場権が懸かるプレーオフ",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-66a70c2e",
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T08:00:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "MEIA NOITE",
@@ -9,7 +9,7 @@
    {
     "date": "2026-09-26",
     "opp": "QUINTESSÊNCIA",
-    "comp": "CCT 2026 South America Series 6 スイス",
+    "comp": "CCT 2026 South America Series 6 スイス3回戦",
     "ha": "N",
     "score": "2-0",
     "res": "W",
@@ -46,7 +46,7 @@
     "res": "W",
     "units_won": 1,
     "units_lost": 0,
-    "detail": "HLTV表記1:0（不戦勝またはBO1の可能性）"
+    "detail": "HLTVスイス表で1-0（不戦勝扱い）"
    },
    {
     "date": "2026-09-22",
@@ -57,6 +57,59 @@
     "res": "L",
     "units_won": 1,
     "units_lost": 2
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Turma do Pagode",
+    "comp": "ESL Challenger League S52 SA Cup 2",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "QUINTESSÊNCIA",
+    "comp": "CCT 2026 Challengers South America Series 3",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-02",
+    "opp": "Grêmio",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-09-01",
+    "opp": "Procyon",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "HLTVイベントページ"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Blitzkrieg",
+    "comp": "CCT 2026 South America Series 5",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "units_won": 1,
+    "units_lost": 0,
+    "detail": "不戦勝（HLTVイベントページ）"
    }
   ],
   "lineup": [
@@ -220,7 +273,8 @@
    "score": "0-2",
    "winner": "right",
    "units_left": 0,
-   "units_right": 2
+   "units_right": 2,
+   "detail": "CCT SA Challengers #2（予選段階）8/11 MEIA NOITE 0-2 ALKA（Mais Esports）。マップ別は未公表"
   }
  ],
  "common_opponents_notes": [
@@ -240,7 +294,10 @@
   "veto傾向"
  ],
  "unavailable": {
-  "left.form": "HLTVチームページの直近5戦のみ取得（それ以前はescorenewsのチームページURL不明・gosugamersは本文取得不可）"
+  "left.form": "HLTVチームページの直近5戦のみ取得（それ以前はescorenewsのチームページURL不明・gosugamersは本文取得不可）",
+  "deep5.first_rate": "全試合のマップ順スコアが取れずMap1勝率を算出できない",
+  "deep5.h2h_points(8/11)": "8/11のマップ・ラウンドは未公表（Mais Esports）",
+  "metrics.left.rank": "MEIA NOITEはHLTV・VRSランク外"
  },
  "source_urls": [
   "https://www.hltv.org/team/13938/meia-noite",
@@ -250,7 +307,10 @@
   "https://www.gosugamers.net/counterstrike/tournaments/62851-cct-south-america-2026-challengers/matches/658583-meia-noite-vs-alka-gaming",
   "https://www.gosugamers.net/counterstrike/teams/59067-meia-noite",
   "https://www.hltv.org/events/9425/cct-2026-south-america-series-6",
-  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool"
+  "https://www.hltv.org/news/44984/cache-replaces-overpass-in-active-duty-pool",
+  "https://maisesports.com.br/partidas/meia-noite-vs-alka-gaming-2026-08-12",
+  "https://www.hltv.org/events/9340/cct-2026-south-america-series-5",
+  "https://www.hltv.org/results?team=9686"
  ],
  "esports": {
   "format": "BO3（HLTVイベント・escorenews）",
@@ -275,11 +335,11 @@
  },
  "calc": {
   "left": {
-   "games": 5,
-   "W": 3,
-   "L": 2,
+   "games": 10,
+   "W": 5,
+   "L": 5,
    "D": 0,
-   "win_rate": 60.0,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -291,11 +351,11 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 7,
-   "units_lost": 5,
-   "points_for": 7,
-   "points_against": 5,
-   "points_games": 5,
+   "units_won": 10,
+   "units_lost": 12,
+   "points_for": 10,
+   "points_against": 12,
+   "points_games": 10,
    "inner_for": 36,
    "inner_against": 39,
    "inner_games": 1
@@ -368,9 +428,194 @@
     "latest": "2026-09-27",
     "left_rec": "0勝1敗",
     "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Turma do Pagode",
+    "left": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "0-2",
+      "res": "L",
+      "comp": "ESL Challenger League S52 SA Cup 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "1-2",
+      "res": "L",
+      "comp": "ESL Challenger League S52 SA"
+     },
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "0-2",
+      "res": "L",
+      "comp": "CXC Fall 2026"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝2敗"
+   },
+   {
+    "opp": "Grêmio",
+    "left": [
+     {
+      "date": "2026-09-02",
+      "iso": "2026-09-02",
+      "score": "2-1",
+      "res": "W",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "2-1",
+      "res": "W",
+      "comp": "CCT 2026 South America Series 6 スイス"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-23",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Procyon",
+    "left": [
+     {
+      "date": "2026-09-01",
+      "iso": "2026-09-01",
+      "score": "0-2",
+      "res": "L",
+      "comp": "CCT 2026 South America Series 5"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-22",
+      "iso": "2026-09-22",
+      "score": "1-2",
+      "res": "L",
+      "comp": "ESL Challenger League S52 SA"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-22",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
    }
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "rank": null,
+   "wr_3m": 40.9
+  },
+  "right": {
+   "rank": 114,
+   "vrs_rank": 161,
+   "wr_3m": 55.3
+  },
+  "source": "HLTVチームページ（ALKA 世界114位・VRS161位・3か月勝率55.3%、MEIA NOITE ランク外・3か月勝率40.9%）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 4,
+   "ga": 2
+  },
+  "right": {
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 4,
+   "ga": 3
+  },
+  "source": "HLTV CCT 2026 South America Series 6スイス（gf/ga=マップ、不戦1-0換算。ラウンド MEIA NOITE 61-56、ALKA 75-71）"
+ },
+ "deep5": {
+  "ranking": "ALKA HLTV114位・VRS161位（9/23試合ページでは122位）。MEIA NOITEはHLTV・VRSともランク外（最高210位）",
+  "current_competition": "CCT SA S6スイス：両者2勝1敗（勝者プレーオフ）。MEIA NOITE=Mira 1-2●・Zetta 不戦○・QUINTESSÊNCIA 2-0○（ラウンド61-56）。ALKA=Grêmio 2-1○・BORRACHEIROS 2-0○・Mira 0-2●（75-71）",
+  "h2h_all": "2件ともALKA勝ち：9/25 ESL CL S52 SA Cup 2 LB3回戦 ALKA 2-1、8/11 CCT SA Challengers #2 ALKA 2-0",
+  "h2h_points": "マップ ALKA 4-1。9/25のラウンドはMEIA NOITE 36-39（Nuke 13-10、Dust2 12-16、Ancient 11-13）で接戦。8/11のラウンドは未公表",
+  "h2h_home_away": "2件ともオンライン中立",
+  "last5": "MEIA NOITE（HLTV）：9/26 QUINTESSÊNCIA 2-0○、9/25 ALKA 1-2●、9/24 Low Cortisol BR 2-1○、9/24 Zetta 不戦○、9/22 Mira 1-2●＝3勝2敗。ALKA：9/28 Mira 0-2●、9/26 TdP 1-2●、9/25 MEIA NOITE 2-1○、9/25 BORRACHEIROS 2-0○、9/24 Keyd Stars 2-0○＝3勝2敗",
+  "last10": "MEIA NOITE：上記＋9/22 TdP 0-2●、9/20 QUINTESSÊNCIA 0-2●、9/2 Grêmio 2-1○、9/1 Procyon 0-2●、8/29 Blitzkrieg 不戦○＝6勝4敗（不戦2）。ALKA：上記＋9/23 Sementes do Mal 1-2●、9/23 Grêmio 2-1○、9/22 Procyon 1-2●、9/16 TdP 0-2●（CXC）＝5勝4敗（確認9件）",
+  "avg_points": "今大会マップ：MEIA NOITE 4-2、ALKA 4-3。ラウンド平均はMEIA NOITE 61-56、ALKA 75-71（各3試合）",
+  "streak": "MEIA NOITE 1連勝（9/26）。ALKA 2連敗（9/26 TdP、9/28 Mira）",
+  "common_60d": "共通相手多数：Mira（MN 1-2●／ALKA 0-2●→MN上）、TdP（MN 0-2●／ALKA 1-2●・0-2●・0-2●）、Grêmio（MN 2-1○／ALKA 2-1○）、Procyon（MN 0-2●／ALKA 1-2●→ALKA上）、Sementes do Mal（MN 8/27 2-0○／ALKA 1-2●→MN上）、ODDIK（MN 8/26 0-2●／ALKA 8/28 0-2●）。概ね互角",
+  "first_rate": "H2H 9/25のMap1 NukeはMEIA NOITE 13-10勝ち。他の試合のMap1は網羅的に取得できず",
+  "absences": "欠場報道なし。MEIA NOITEはHLTVにロスター登録なし（9/25出場はbsd・nyezin・CutzMeretz・abr・Jerr1）",
+  "roster_changes": "ALKA：3/1に現体制発足、5/14 bnc加入・badran退団で以後固定（HLTV）。MEIA NOITE：HLTV未登録で変更履歴不明、8/11のH2H時の顔ぶれも未確認",
+  "bo_format": "BO3（CCT SA S6スイス4回戦）",
+  "lan_online": "オンライン"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "両者2-1で勝者プレーオフ。控え起用情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは8月・9月の2件で新しい。ただし直近9/25はMap1をMEIA NOITEが取り、全体ラウンド36-39の接戦",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "ALKAは直近2連敗、MEIA NOITEは9/26にQUINTESSÊNCIAを2-0。60日共通相手の比較は概ね互角",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "BO3",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両者オンライン",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "MEIA NOITEはHLTVにロスター登録がなく、8/11時点との同一性を確認できない。ALKAは5月以降固定",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "両者2-1で勝者プレーオフ。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

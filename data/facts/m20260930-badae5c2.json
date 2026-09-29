@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-badae5c2",
- "data_as_of": "2026-09-28T16:47:00+09:00",
+ "data_as_of": "2026-09-30T08:01:00+09:00",
  "unit": "マップ",
  "left": {
   "name": "100 Thieves",
@@ -307,12 +307,15 @@
  ],
  "missing": [
   "公式なマップveto統計・エージェント構成",
-  "form中の対戦相手の当時ランキング（opp_rank）",
-  "H2H旧対戦（2022-2024）のマップ別スコア"
+  "H2H旧対戦のマップ別スコア",
+  "2026年中の移籍詳細"
  ],
  "unavailable": {
   "left.history": "共通の対戦相手なし。試合日から60日以内の100 Thievesの相手（Cloud9・LOUD・LEVIATÁN・NRG・T1）とFUT Esportsの相手（Team Vitality・GIANTX・Eternal Fire・Team Liquid・BBL Esports・Karmine Corp・JD Gaming）に重なりがない（米州とEMEAで地域が異なるため）",
-  "right.history": "同上（共通の対戦相手なし）"
+  "right.history": "同上（共通の対戦相手なし）",
+  "deep5.roster_changes": "2026年中の移籍詳細は検索上限のため未確認",
+  "deep5.common_60d": "60日以内の共通相手なし",
+  "deep5.h2h_points": "旧H2Hのマップ別ラウンドは未取得"
  },
  "source_urls": [
   "https://www.vlr.gg/team/matches/120/100-thieves/",
@@ -323,7 +326,10 @@
   "https://www.vlr.gg/event/matches/2766/valorant-champions-2026/?series_id=all",
   "https://www.vlr.gg/753446/100-thieves-vs-fut-esports-valorant-champions-2026-winners-a",
   "https://www.vlr.gg/753444/100-thieves-vs-t1-valorant-champions-2026-opening-a",
-  "https://www.vlr.gg/167372/fut-esports-vs-100-thieves-champions-tour-2023-lock-in-s-o-paulo-omega-qf"
+  "https://www.vlr.gg/167372/fut-esports-vs-100-thieves-champions-tour-2023-lock-in-s-o-paulo-omega-qf",
+  "https://www.vlr.gg/761365/100-thieves-dismantle-t1-advance-in-group-a",
+  "https://esports.gg/news/valorant/valorant-champions-shanghai/",
+  "https://dotesports.com/valorant/guides/valorant-champions-2026-teams-groups"
  ],
  "calc": {
   "left": {
@@ -394,5 +400,108 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "deep5": {
+  "ranking": "VLR：100 Thieves 北米1位（2130）／FUT 欧州5位（1881）（既存記載）。esports.gg（9/7）のグローバルパワーランキングで100 Thievesは3位（1,449pt・通算17勝8敗）",
+  "current_competition": "Champions 2026 グループA：100 Thieves 1勝0敗（T1に2-0、ラウンド26-17）／FUT 1勝0敗（JD Gamingに2-0、ラウンド26-11）。本戦はグループ勝者戦（BO3）",
+  "h2h_all": "確認できたH2H 4戦で2勝2敗：2024-05-30 Masters Shanghai 100T 2-0、2023-11-03 Red Bull Home Ground #4 FUT 1-0（BO1）、2023-02-26 LOCK//IN São Paulo FUT 2-1、2022-12-09 Red Bull Home Ground #3 100T 2-0（VLR）",
+  "h2h_points": "マップ合計 100 Thieves 5－FUT 4。マップ別ラウンドは確認できず",
+  "h2h_home_away": "全試合LAN中立（ホーム/アウェー区分なし）",
+  "last5": "100 Thieves：5勝0敗（T1 2-0、LOUD 3-2、NRG 2-0、LEVIATÁN 2-0、LOUD 2-0）／FUT：3勝2敗（JDG 2-0、Liquid 0-3、KC 0-2、BBL 2-1、Liquid 2-0）",
+  "last10": "100 Thieves：9勝1敗（マップ20-7）／FUT：7勝3敗（マップ15-10）",
+  "avg_points": "直近10シリーズの1マップ平均ラウンド：100 Thieves 12.0－9.19（差+2.81、27マップ）／FUT 10.96－10.16（差+0.80、25マップ）",
+  "streak": "100 Thieves：5連勝（シリーズ）／FUT：1連勝（その前に0-2・0-3の2連敗）",
+  "common_60d": "60日以内の共通相手なし（米州とEMEAで別地域）。60日枠外ではBBL Esports：100T 2-1勝（EWC 7/4）、FUT 2-1で2勝",
+  "first_rate": "直近10シリーズのMap1勝率：100 Thieves 7/10（70%）／FUT 5/10（50%）（既存formのマップ詳細から集計）",
+  "absences": "欠場・スタンドインなし：VLR試合ページの登録は100T（Asuna・bang・Cryocells・vora・Timotino）、FUT（sociablEE・yetujey・xeus・KROSTALY・s0pp）でいずれも直近試合と同一5人",
+  "roster_changes": "試合直前の変更なし。2026年中の加入・放出の詳細は確認できず（検索上限到達）。100 ThievesはStage 1で4位・Masters不出場から、EWC優勝・Stage 2優勝へ上昇（esports.gg 9/7）",
+  "bo_format": "BO3（グループA勝者戦。勝者はプレーオフ進出、敗者は最終決定戦へ）",
+  "lan_online": "LAN（上海 Jing'an Sports Center／Mercedes-Benz Arena、9/24〜10/18）"
+ },
+ "metrics": {
+  "left": {
+   "rank": "VLR北米1位",
+   "rating": 2130,
+   "season_wr": 90.0,
+   "rd_pg": 2.81
+  },
+  "right": {
+   "rank": "VLR欧州5位",
+   "rating": 1881,
+   "season_wr": 70.0,
+   "rd_pg": 0.8
+  },
+  "source": "VLR.gg（レーティング）・既存form直近10シリーズのマップ詳細から集計（season_wrは直近10シリーズ勝率、rd_pgは1マップ平均ラウンド差）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "right": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "source": "VLR.gg Valorant Champions 2026 グループA（gf/gaはマップ）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも通常の5人が登録（VLR試合ページ）。欠場なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 4戦（2勝2敗）はすべて2022〜2024年で現ロスター・現マッププールと条件が異なる。一次条件はH2Hを使っていない",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "上海LANの中立開催",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "改善したのは格差側の100T（Stage 1 4位→EWC・Stage 2優勝）。FUTは8月末に0-2・0-3の連敗後、Champions初戦でJDGに2-0（Ascent 13-1）と持ち直しの兆し",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "BO3のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "両チームとも直近の主要試合はLAN（VCT・EWC）で差なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "両チームとも直近試合と同一5人",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "プレーオフ進出が懸かるグループ勝者戦",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

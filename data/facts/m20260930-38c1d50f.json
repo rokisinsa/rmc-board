@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T18:32:00+09:00",
+ "data_as_of": "2026-09-30T07:48:00+09:00",
  "start_jst_confirmed": "2026-09-30T01:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -196,6 +196,16 @@
   "ranking": "PGL Wallachia S9プレーオフ進出（UB1回戦でAuroraに0-2、LBで1winに2-1）。Dota部門（CS2部門とは別）",
   "form": [
    {
+    "date": "2026-09-26",
+    "opp": "Xtreme Gaming",
+    "comp": "PGL Wallachia S9 プレーオフ（LB2回戦）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
     "date": "2026-09-25",
     "opp": "1win",
     "comp": "PGL Wallachia S9 プレーオフ",
@@ -283,16 +293,6 @@
     "score": "W-FF",
     "res": "W",
     "detail": "不戦勝（相手フォーフェイト）"
-   },
-   {
-    "date": "2026-09-09",
-    "opp": "Synapse",
-    "comp": "BLAST Slam IX 欧州予選",
-    "ha": "N",
-    "score": "2-0",
-    "res": "W",
-    "units_won": 2,
-    "units_lost": 0
    }
   ],
   "lineup": [
@@ -414,13 +414,16 @@
   "AuroraはWallachia S9プレーオフ（対GL戦）でミッドにスタンドインを起用しており、本大会での正規ミッドの稼働は要確認",
   "GLの9/9-9/12の対戦（BLAST Slam IX予選・EPL Masters II）にはフォーフェイト絡みが2件あり、フォーム評価のノイズになる",
   "escorenewsはAuroraの一部表記が「GamersLegion」等で揺れており、同一チーム（Dota部門GamerLegion）として突合した",
-  "BLAST Slam VIIIは9/29開幕（esports.gg/hawk.live確認）。グループ戦の結果はまだ無く、形成されたformは8-9月の前大会（TI・Wallachia等）まで"
+  "BLAST Slam VIIIは9/29開幕（esports.gg/hawk.live確認）。グループ戦の結果はまだ無く、形成されたformは8-9月の前大会（TI・Wallachia等）まで",
+  "Mikotoの復帰はプレビュー記事（metaratings・scooptw）の記述で、公式の出場確定は未確認"
  ],
  "missing": [
   "各シリーズのゲーム別詳細スコア",
   "両チームのGosuGamers世界ランク数値"
  ],
- "unavailable": {},
+ "unavailable": {
+  "first_rate": "first_rate: 各シリーズのゲーム別（Map1）勝敗を取得できず（blast.tv等は試合単位スコアのみ、Liquipediaはアクセス不可）"
+ },
  "source_urls": [
   "https://escorenews.com/en/dota-2/team/aurora",
   "https://escorenews.com/en/dota-2/team/gamerlegion",
@@ -434,7 +437,12 @@
   "https://www.dota2.com/patches",
   "https://hawk.live/posts/blast-slam-viii-schedule-standings-results",
   "https://cyberscore.live/en/news/blast-slam-VIII-group-stage-format-update/",
-  "https://www.gosugamers.net/dota2/news/79264-blast-slam-viii-preview-teams-and-key-storylines-to-watch"
+  "https://www.gosugamers.net/dota2/news/79264-blast-slam-viii-preview-teams-and-key-storylines-to-watch",
+  "https://www.dota2protips.com/rankings",
+  "https://blog.e-rankings.com/dota-2-team-world-ranking-team-yandex-is-the-new-1/",
+  "https://blast.tv/dota/tournaments/pgl-wallachia-season-9-2026/series/a40529b5/xtreme-gamerlegion",
+  "https://cybersport.metaratings.ru/prognozy/dota-2/prognoz-na-match-aurora-gaming-gamerlegion-revansh-s-vernuvshimsya-mikoto/",
+  "https://www.scooptw.com/sunmedia/532955/"
  ],
  "match_id": "m20260930-38c1d50f",
  "esports": {
@@ -487,10 +495,10 @@
   },
   "right": {
    "games": 10,
-   "W": 6,
-   "L": 4,
+   "W": 5,
+   "L": 5,
    "D": 0,
-   "win_rate": 60.0,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -502,10 +510,10 @@
     "D": 0
    },
    "streak": null,
-   "units_won": 10,
-   "units_lost": 11,
-   "points_for": 10,
-   "points_against": 11,
+   "units_won": 8,
+   "units_lost": 13,
+   "points_for": 8,
+   "points_against": 13,
    "points_games": 9
   },
   "h2h": {
@@ -709,5 +717,103 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "elo": 1583,
+   "rank": 8
+  },
+  "right": {
+   "elo": 1373,
+   "rank": 19
+  },
+  "source": "dota2protips.com/rankings（Division 1 ELO、シリーズ毎更新・更新日不明）。参考：e-rankings 2026/8/1版世界ランクでAurora 7位・GamerLegion 35位（4,290pt）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 9,
+   "ga": 9
+  },
+  "right": {
+   "played": 7,
+   "W": 4,
+   "D": 0,
+   "L": 3,
+   "gf": 8,
+   "ga": 9
+  },
+  "source": "直前大会PGL Wallachia S9（ブカレストLAN）のシリーズ成績、gf/gaはゲーム数。BLAST Slam VIIIは本試合が両者の初戦（0試合）。facts.form＋blast.tv"
+ },
+ "deep5": {
+  "ranking": "Dota2ProTips ELO：Aurora 8位（1583）／GamerLegion 19位（1373）。e-rankings（2026/8/1）：Aurora 7位／GL 35位（4,290pt）。いずれもAurora上位",
+  "current_competition": "BLAST Slam VIIIは本試合が両者の初戦。直前のPGL Wallachia S9：Aurora 4勝3敗（ゲーム9-9、5-6位）／GL 4勝3敗（ゲーム8-9、LB2回戦でXtremeに0-2で5-6位）",
+  "h2h_all": "日付確認3件すべてAurora勝利（2026/9/24 Wallachia S9 PO 2-0、8/13 TI2026グループ 2-0、5/15 DreamLeague S29 2-0）。cyberscoreは通算Aurora 5勝0敗と表示（残り2件は日付未確認）",
+  "h2h_points": "確認3件のゲーム合計 Aurora 6-0 GL（1シリーズ平均 +2.0）。Auroraは2026年の対GLで1ゲームも落としていない（metaratings/scooptw）",
+  "h2h_home_away": "eスポーツで全件中立。会場別：DreamLeague S29グループ（オンライン）、TI2026・Wallachia S9（LAN）のいずれもAurora 2-0",
+  "last5": "Aurora：3勝2敗／GamerLegion：3勝2敗（9/26 Xtreme 0-2を追加）",
+  "last10": "Aurora：5勝5敗（10試合）／GamerLegion：5勝5敗（10試合、うち1勝は不戦勝）",
+  "avg_points": "直近10のゲーム得失：Aurora 12-11（+0.10/試合、10試合）／GL 8-13（-0.56/試合、不戦勝除く9試合）",
+  "streak": "Aurora：2連敗（Yandex 1-2、NAVI 0-2）／GamerLegion：1連敗（Xtreme 0-2）",
+  "common_60d": "60日以内の共通相手：NAVI（Aurora 0-2,0-2／GL 不戦敗）、LGD（Aurora 2-0／GL 0-2）、Cobra（両者2-0）、Pipsqueak（Aurora 2-1／GL 2-1,0-2,2-0）、BetBoom（Aurora 2-0,0-2／GL 0-2）、Liquid（Aurora 1-2／GL 0-2）。同一相手のゲーム差はAuroraがLGD・BetBoom・Liquidで上回り、差はAurora側",
+  "absences": "Aurora：ミッドMikotoはWallachia S9をビザ問題で欠場（Stojkovがスタンドイン）→BLAST Slam VIIIで復帰と報道（metaratings・scooptw）。GL：欠場報道なし",
+  "roster_changes": "Aurora：TI2026後にskiterがNightfallに代わりキャリー加入。GL：scooptwがGhostの離脱に言及（時期不明、現ロスターTimado/RCY/Fayde/Bignum/Speeed）。GosuGamersのTI後シャッフルトラッカーにGLの変更記載なし",
+  "bo_format": "BO3（グループD初戦、GSL形式）",
+  "lan_online": "オンライン（グループステージ。プレーオフのみマルタLAN）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "Aurora正ミッドMikotoがビザ問題から復帰と報道（本試合出場予定）。GLも欠場報道なし。格差側の欠場なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "グループ初戦で両者フルメンバー想定。控え起用の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし（両チームとも若手主体への入替等の報道なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "確認3件は全て2026年（5/15・8/13・9/24）で新しい。ただし5/15・8/13はAuroraのキャリーがNightfall、9/24はミッドがスタンドインで、同一5人での対戦は無い",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンラインの中立開催。H2Hもホーム/アウェーの区別なし",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "GLはWallachia S9で4勝3敗だが直後にXtremeに0-2、直近10も5勝5敗で急改善とは言えない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "BO3のため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "本試合はオンライン。H2HはLAN2件（TI・Wallachia）＋オンライン1件（DreamLeagueグループ）でいずれもAurora 2-0。オンラインでも勝っているが通信環境差の余地は残る",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "Aurora：TI後skiter加入・Mikoto復帰で9/24とも構成が異なる。GL：Ghost離脱の言及あり（時期不明）。格差を覆すほどではないが同構成のH2Hは無い",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "グループ初戦で両者とも勝敗の意味は大きい。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

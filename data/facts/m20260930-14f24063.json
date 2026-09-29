@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-14f24063",
- "data_as_of": "2026-09-29T12:45:00+09:00",
+ "data_as_of": "2026-09-30T07:52:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Rytiri Kladno",
@@ -298,21 +298,36 @@
  "venue": "Werk Arena, Třinec — Trinecのホーム。9/29 17:00現地（=9/30 00:00 JST）",
  "risks": [
   "配信の left(Kladno) はアウェー側。実開催はTrinecホーム（両クラブ公式で確認）",
-  "Kladno公式ページの2025/26対戦表記とTrinec側で日付・会場が一部不一致（Trinec側を採用）"
+  "Kladno公式ページの2025/26対戦表記とTrinec側で日付・会場が一部不一致（Trinec側を採用）",
+  "⑤深掘りは試合開始後（9/30 07:47 JST）の実施だが、記載は試合開始前（9/29以前）の情報のみ"
  ],
  "missing": [
-  "負傷者情報",
-  "独立モデル勝率"
+  "独立モデル勝率",
+  "チームPP%/PK%",
+  "GSAA",
+  "Trinecの2人目の負傷者名"
  ],
  "unavailable": {
-  "history": "共通相手4チームを確認（上記）"
+  "history": "共通相手4チームを確認（上記）",
+  "deep5.gsaa": "公開ソースに記載なし",
+  "deep5.pp_pct": "hokej.czは取得不可（プロキシ拒否）、他ソースにチームPP%なし",
+  "deep5.pk_pct": "同上",
+  "deep5.first_rate": "シーズン通算の先制率を集計した公開ソースなし（直近1試合のみ確認）"
  },
  "source_urls": [
   "https://rytirikladno.cz/zapasy.asp?kategorie=A-t%EF%BF%BDm",
   "https://hc-kladno.cz/zapasy.asp?sezona=2026&kategorie=MUZ&kde=vse&cast=2",
   "https://www.hcocelari.cz/matches/MUZ",
   "https://hcocelari.esports.cz/zapasy.asp?sezona=2026",
-  "https://isport.blesk.cz/tipsport-extraliga"
+  "https://isport.blesk.cz/tipsport-extraliga",
+  "https://www.ceskenoviny.cz/zpravy/trinec-bude-proti-kladnu-hajit-extraligovou-neporazitelnost/2880377",
+  "https://isport.blesk.cz/clanek/hokej-tipsport-extraliga/480339/vic-boreni-prineslo-olomouci-tri-body-z-kladna-udelali-jsme-si-to-sami-vedel-plekanec.html",
+  "https://www.irozhlas.cz/sport/hokej/hokej-extraliga-ceske-budejovice-litvinov-kladno-olomouc-liberec-trinec-plzen_2609271530_lbk",
+  "https://www.ceskenoviny.cz/zpravy/trinec-vyhral-v-liberci-a-zustava-stoprocentne-uspesny/2880064",
+  "https://isport.blesk.cz/clanek/hokej-tipsport-extraliga/479668/trinec-prozradil-rozpocet-oproti-pardubicim-je-na-polovine-opora-start-nestihne.html",
+  "https://www.hokej.cz/rana-pro-ocelare-prisli-o-dalsiho-klicoveho-hrace-chybet-ma-tydny/5098149",
+  "https://www.hokejzpravy.cz/rubriky/extraliga/bodovani-hokej-extraliga-statistiky-strelci-brankari_1310.html",
+  "https://hc-kladno.cz/statistiky.asp"
  ],
  "calc": {
   "left": {
@@ -490,5 +505,113 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "deep5": {
+  "ranking": "isport.cz順位表（5節終了）：Trinec 首位 5戦全勝15pt・得失22-10／Kladno 4位 9pt（2勝1SO勝1延長敗1敗・14-14）。ČTK 9/29記事でもTrinecは唯一の無敗チームで首位",
+  "current_competition": "Extraliga 2026/27（5節まで）：Kladno 5試合 3勝（うちSO1）2敗（延長1）得失14-14・9pt／Trinec 5戦全勝 得失22-10・15pt（Brno 6-5、Plzen 3-2、Vitkovice 8-2 はホーム）",
+  "h2h_all": "確認できたH2H 4戦（すべて2025/26レギュラーシーズン）：Trinec 3勝・Kladno 1勝。2025-09-28 Tr 3-2延長、10-24 Tr 2-1、11-14 Kl 5-3、12-28 Tr 3-1（hcocelari.esports.cz）",
+  "h2h_points": "H2H 4戦の得点 Kladno 9－Trinec 11（平均 2.25－2.75）。3試合が1点差",
+  "h2h_home_away": "Trinecホーム（Werk Arena）3戦：Trinec 3勝（3-2延長、2-1、3-1）／Kladnoホーム1戦：Kladno 5-3勝。今回はTrinecホーム",
+  "last5": "Kladno：3勝2敗（W4-3@Vitkovice、W3-2SO Sparta、W3-1@Liberec、L3-4延長 Plzen、L1-4 Olomouc）／Trinec：5連勝（リーグ戦5戦）",
+  "last10": "Kladno：9試合で5勝4敗（準備試合含む）／Trinec：10試合 9勝1敗（準備試合含む。唯一の負けは準備試合 @Olomouc 1-3）",
+  "avg_points": "今季リーグ5試合：Kladno 平均得点2.8・失点2.8（差0.0）／Trinec 平均得点4.4・失点2.0（差+2.4）",
+  "streak": "Kladno：2連敗（うち延長負け1）／Trinec：6連勝（準備試合含む。リーグは開幕5連勝）",
+  "common_60d": "共通相手4（60日以内）：Liberec（Kl 3-1勝・準備1-0勝／Tr 3-1勝）、Plzen（Kl 3-4延長敗／Tr 3-2勝）、Vitkovice（Kl 4-3勝／Tr 8-2勝・準備6-3勝）、Olomouc（Kl 1-4敗／Tr 準備1-3敗）。同じ4相手への得失差合計：Kladno 0（5試合・1試合平均0.0）／Trinec +10（5試合・平均+2.0）→ Trinec優位（準備試合含む）",
+  "first_rate": "直近の先制：Kladno は 9/27 Olomouc戦で7分に先制され敗戦、Trinec は 9/27 @Liberec で8分に先制して勝利（irozhlas）。シーズン通算の先制率は公開ソースで確認できず",
+  "absences": "Kladno：9/27 Olomouc戦で Westerlund・Hlava・Vigneault・Kubík が欠場、チーム最多得点の Jakub Konečný が同試合中に手を負傷し途中退場（isport 9/27、Plekanecコーチ『負傷者の増加が気がかり』）。Trinec：主力C Michal Kovařčík が準備試合（Brno戦）で脳震盪、開幕に間に合わず（isport 9/9）。hokej.czに『Trinecがさらに主力1人を数週間失う』見出しあり（本文取得不可・選手名未確認）。それでもTrinecは5戦全勝",
+  "roster_changes": "Trinec：ベテラン Petr Vrána・Vladimír Dravecký が引退、若手3人が負傷者の穴埋めで起用（isport 9/9）。Kladno：大きな移籍情報は確認できず",
+  "goalie": "Trinec：Ondřej Kacetl（4勝・SV% 94.51・GAA 1.44、9/27 Liberec戦も先発）、Marek Mazanec（完封1）。Kladno：Adam Brízgala 3試合 SV% 87.84・GAA 2.92／Dominik Pavlát 2試合 SV% 91.38・GAA 2.48（Kladno公式統計、hokejzpravy 5節終了時）",
+  "save_pct": "Kacetl 94.51%（Trinec）／Kladno 2人合算 118/132＝89.4%（Brízgala 87.84%・Pavlát 91.38%）",
+  "gsaa": "公開ソースで確認できず",
+  "pp_pct": "チームPP%は確認できず（Trinecは9/27 LiberecでPP得点1）",
+  "pk_pct": "チームPK%は確認できず"
+ },
+ "metrics": {
+  "left": {
+   "rank": 4,
+   "pts_rate": 0.6,
+   "season_wr": 60.0,
+   "gd_pg": 0.0,
+   "save_pct": 89.4
+  },
+  "right": {
+   "rank": 1,
+   "pts_rate": 1.0,
+   "season_wr": 100.0,
+   "gd_pg": 2.4,
+   "save_pct": 94.51
+  },
+  "source": "isport.cz順位表（5節終了）・Kladno公式統計・hokejzpravy.cz 5節終了時の選手統計"
+ },
+ "current_competition": {
+  "left": {
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 14,
+   "ga": 14
+  },
+  "right": {
+   "played": 5,
+   "W": 5,
+   "D": 0,
+   "L": 0,
+   "gf": 22,
+   "ga": 10
+  },
+  "source": "isport.cz Tipsport Extraliga 2026/27順位表（W/Lは延長・SO含む）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "格差側Trinecは主力C M.Kovařčík（脳震盪）欠場中、さらに主力1人が数週間離脱との報道あり。ただし不在のまま5戦全勝。Kladnoは4人欠場＋Konečný負傷で格差を広げる方向",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "Trinec GKは Kacetl が4勝・Mazanecが1試合（完封）。どちらが先発しても成績良好。フィールドの意図的な温存報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "Trinecはベテラン2人引退・若手3人起用だが結果に表れていない",
+   "impact": "minor",
+   "applies": true
+  },
+  "古いH2H": {
+   "finding": "H2H 4戦はすべて2025/26（1年以内）。古い対戦ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回はTrinecホーム。Trinecはホーム今季3戦全勝・H2Hホーム3戦全勝。Kladnoは今季アウェー2戦2勝（Vitkovice、Liberec）でアウェー弱者ではない",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "Kladnoは直近2連敗で改善傾向なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーのため該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Trinecは引退2人・負傷で若手起用。Kladnoは大型補強・放出の報道確認できず",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン序盤6節で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

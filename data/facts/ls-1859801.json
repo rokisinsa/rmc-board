@@ -1,0 +1,180 @@
+{
+ "match_id": "ls-1859801",
+ "data_as_of": "2026-09-29T22:27:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Marlow",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Barton Rovers",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Haringey Borough",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Thame United",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "H",
+    "score": "1-3",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Hadley",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Aylesbury United",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "H",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Potters Bar Town",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Winslow United",
+    "comp": "England / Southern League: Central Divison",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore England / Southern League: Central Divison eid=1859801）に直接対戦の記録なし。他の資料で要確認"
+ },
+ "source_urls": [
+  "LiveScore England / Southern League: Central Divison eid=1859801"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 80.0,
+   "gd_pg": 0.6,
+   "pd_pg": 0.6,
+   "rd_pg": 0.6,
+   "pts_rate": 0.8
+  },
+  "right": {
+   "season_wr": 12.5,
+   "gd_pg": -0.88,
+   "pd_pg": -0.88,
+   "rd_pg": -0.88,
+   "pts_rate": 0.167
+  },
+  "source": "LiveScore順位表（2026-09-29T22:27:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 5,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 11,
+   "ga": 8,
+   "pts": 12,
+   "group": null
+  },
+  "right": {
+   "rank": 20,
+   "played": 8,
+   "W": 1,
+   "D": 1,
+   "L": 6,
+   "gf": 8,
+   "ga": 15,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 England / Southern League: Central Divison（2026-09-29T22:27:25+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Marlow：2勝1敗／Hadley：0勝3敗",
+  "last10": "Marlow：2勝1敗（3試合）／Hadley：0勝3敗（3試合）",
+  "streak": "Marlow：2連勝／Hadley：3連敗",
+  "avg_points": "Marlow：1試合平均得失差 +0.33（3試合）／Hadley：1試合平均得失差 -1.33（3試合）",
+  "current_competition": "Marlow {'rank': 5, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 11, 'ga': 8, 'pts': 12, 'group': None}／Hadley {'rank': 20, 'played': 8, 'W': 1, 'D': 1, 'L': 6, 'gf': 8, 'ga': 15, 'pts': 4, 'group': None}（LiveScore順位表 England / Southern League: Central Divison（2026-09-29T22:27:25+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 5,
+   "points_against": 4,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 0,
+   "L": 3,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 3,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 3,
+   "points_against": 7,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

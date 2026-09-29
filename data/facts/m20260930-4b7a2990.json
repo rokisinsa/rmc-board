@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-4b7a2990",
- "data_as_of": "2026-09-28T16:55:00+09:00",
+ "data_as_of": "2026-09-30T07:54:00+09:00",
  "start_jst_confirmed": "2026-09-30T19:00:00+09:00",
  "unit": "ゲーム",
  "left": {
@@ -413,7 +413,9 @@
   "各シリーズのゲーム別詳細スコア",
   "両チームのGosuGamers世界ランク数値"
  ],
- "unavailable": {},
+ "unavailable": {
+  "first_rate": "first_rate: 各シリーズのゲーム別（Map1）勝敗を取得できず（escorenews/cyberscoreはシリーズスコアのみ、Liquipediaはアクセス不可）"
+ },
  "source_urls": [
   "https://escorenews.com/en/dota-2/team/team-yandex",
   "https://escorenews.com/en/dota-2/team/mouz",
@@ -428,7 +430,10 @@
   "https://esports.gg/news/dota-2/dota-2-blast-slam-8-teams-schedule-where-to-watch-results/",
   "https://www.talkesport.com/news/dota2/blast-slam-8-dota-2-teams-schedule-where-to-watch/",
   "https://escorenews.com/en/dota-2/blast-slam-8",
-  "https://www.dota2.com/patches"
+  "https://www.dota2.com/patches",
+  "https://www.dota2protips.com/rankings",
+  "https://blog.e-rankings.com/dota-2-team-world-ranking-team-yandex-is-the-new-1/",
+  "https://win.gg/blast-slam-viii-preview-predictions-and-more/"
  ],
  "calc": {
   "left": {
@@ -586,5 +591,103 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
+ },
+ "metrics": {
+  "left": {
+   "elo": 1716,
+   "rank": 2
+  },
+  "right": {
+   "elo": 1349,
+   "rank": 20
+  },
+  "source": "dota2protips.com/rankings（Division 1 ELO、シリーズ毎更新・更新日不明）。参考：e-rankings 2026/8/1版世界ランクでYandex 1位（44,133pt）・MOUZ 9位"
+ },
+ "current_competition": {
+  "left": {
+   "played": 7,
+   "W": 7,
+   "D": 0,
+   "L": 0,
+   "gf": 15,
+   "ga": 2
+  },
+  "right": {
+   "played": 5,
+   "W": 2,
+   "D": 0,
+   "L": 3,
+   "gf": 5,
+   "ga": 8
+  },
+  "source": "直前大会PGL Wallachia S9（ブカレストLAN）のシリーズ成績、gf/gaはゲーム数（facts.form）。BLAST Slam VIIIは本試合が両者の初戦"
+ },
+ "deep5": {
+  "ranking": "Dota2ProTips ELO：Yandex 2位（1716）／MOUZ 20位（1349）。e-rankings（2026/8/1）：Yandex 1位／MOUZ 9位。Yandexが明確に上",
+  "current_competition": "BLAST Slam VIIIは両者初戦。直前のPGL Wallachia S9：Yandex 7戦全勝で優勝（ゲーム15-2、決勝NAVI 3-0）／MOUZ 2勝3敗でグループ敗退（ゲーム5-8）",
+  "h2h_all": "確認10件でYandex 7勝3敗（2025/10〜2026/9）。2026年は4勝1敗（直近9/19 Wallachia S9 2-1、3/25 ESL One Birmingham 2-0、3/8 Wallachia S7 2-1※勝者ソース不一致、2/5 BLAST Slam VI BO1 0-1、1/31 FISSURE 2-0）",
+  "h2h_points": "確認10件のゲーム合計 Yandex 13-8 MOUZ（1試合平均 1.3対0.8）。BO3以上に限るとYandex 5勝2敗",
+  "h2h_home_away": "eスポーツで全件中立。会場別ではMOUZの3勝（BLAST Slam VI BO1、RES Unchained、FISSURE Universe 2025/10）はいずれもオンライン/BO1系の大会、YandexはLAN（Wallachia・ESL One Birmingham）でも勝利",
+  "last5": "Yandex：5勝0敗／MOUZ：2勝3敗",
+  "last10": "Yandex：8勝2敗（10試合）／MOUZ：4勝6敗（10試合）",
+  "avg_points": "直近10のゲーム得失：Yandex 18-7（+1.10/試合）／MOUZ 11-14（-0.30/試合）",
+  "streak": "Yandex：7連勝（Wallachia S9全勝）／MOUZ：1連敗（9/23 LGD 0-2）",
+  "common_60d": "共通相手3件：NAVI（Yandex 2-0・3-0／MOUZ 0-2）、LGD（Yandex 2-0／MOUZ 0-2）、Nemesis（Yandex 2-0／MOUZ 0-2）。同一相手へのゲーム差はYandexが全て上回る（Yandex計+11、MOUZ計-6）",
+  "absences": "欠場報道なし（win.gg 9/28プレビューで両チームとも変更・欠場の言及なし）",
+  "roster_changes": "Yandex：TI2026後にATFがDMに代わりオフレーン加入（この5人でWallachia S9優勝）。MOUZ：Darklord^/Supream^/BOOM/xsvampire/MoOzで変更報道なし（GosuGamersシャッフルトラッカー）",
+  "bo_format": "BO3（グループC初戦、GSL方式）",
+  "lan_online": "オンライン（グループステージ。プレーオフのみマルタLAN）"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "両チームとも欠場報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "控え起用の報道なし。Yandexは9/27のWallachia決勝から中2日の連戦で疲労要素はあるが、編成変更ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H10件は全て過去1年以内だが、2026/9/19以外はYandexのオフレーンがDM（ATF加入前）。3/8の勝者はソース間で不一致。直近同構成の対戦は9/19の1件（2-1）",
+   "impact": "minor",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "オンライン中立開催",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "MOUZは9月に2勝5敗（不戦除く）と下降。急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "BO3のため該当なし（MOUZのH2H勝利のうち1件はBO1）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "本試合はオンライン。MOUZのH2H 3勝はいずれもオンライン大会（BLAST Slam VIグループ、RES Unchained、FISSURE Universe）で、Yandexの直近の強さ（Wallachia優勝）はLAN。オンラインでは差が縮む可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "YandexはATF加入後の新体制でWallachia S9を7戦全勝しており、変更は格差を弱める材料にならない。MOUZは変更なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "グループ初戦で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }
