@@ -292,11 +292,14 @@ def load_ratings():
     return out
 
 
-def _lookup(ratings, sport, name):
-    k = _norm(name)
-    for sysname, r in ratings.items():
-        if sport in r["sports"] and k in r["teams"]:
-            return sysname, r["teams"][k], r["taken_at"]
+def _lookup2(ratings, sport, a, b, fld):
+    """同じRatingソースに両者がいて、その項目が両方ある最初のソース。"""
+    ka, kb = _norm(a), _norm(b)
+    for sysname, r in sorted(ratings.items()):
+        if sport in r["sports"] and ka in r["teams"] and kb in r["teams"]:
+            va, vb = _num(r["teams"][ka].get(fld)), _num(r["teams"][kb].get(fld))
+            if va is not None and vb is not None:
+                return va, vb, f"{sysname}（{r['taken_at']}取得）"
     return None, None, None
 
 
@@ -306,11 +309,7 @@ def _metric(fx, match, ratings, fld):
     a, b = _num((mt.get("left") or {}).get(fld)), _num((mt.get("right") or {}).get(fld))
     if a is not None and b is not None:
         return a, b, mt.get("source") or "facts.metrics"
-    sa, ra, ta = _lookup(ratings, match.get("sport"), match.get("left"))
-    sb, rb, tb = _lookup(ratings, match.get("sport"), match.get("right"))
-    if ra and rb and sa == sb and _num(ra.get(fld)) is not None and _num(rb.get(fld)) is not None:
-        return ra[fld], rb[fld], f"{sa}（{ta}取得）"
-    return None, None, None
+    return _lookup2(ratings, match.get("sport"), match.get("left"), match.get("right"), fld)
 
 
 # ---------------- 基本指標（オッズを使わない）----------------
@@ -334,7 +333,9 @@ def indicators(match, facts, ratings):
         ind[key] = dict(value=round(abs(d) * scale, 3), side=_side(d), left=a, right=b, source=src)
 
     diff("elo_diff", "elo")
-    diff("surface_elo_diff", "surface_elo")
+    surf = str(fx.get("surface") or "").lower()
+    sfld = "elo_clay" if "clay" in surf else "elo_grass" if "grass" in surf else "elo_hard" if ("hard" in surf or "indoor" in surf) else "surface_elo"
+    diff("surface_elo_diff", sfld)
     diff("rank_diff", "rank", higher_better=False)
     diff("fifa_rank_diff", "fifa_rank", higher_better=False)
     diff("rating_diff", "rating")
@@ -680,7 +681,7 @@ def basic_facts(match):
                             units_left=u1, units_right=u2, score=f"{max(u1, u2)}-{min(u1, u2)}"))
         fx = dict(left=dict(name=match.get("left"), form=fl), right=dict(name=match.get("right"), form=fr), h2h=h2h,
                   metrics=dict(left=ml, right=mr, source=f"tennisexplorer（{bb['taken_at']}取得）"),
-                  _basic_source=f"tennisexplorer 試合詳細 id={b['id']}")
+                  surface=surf or None, _basic_source=f"tennisexplorer 試合詳細 id={b['id']}")
         if flip:
             fx["left"], fx["right"] = dict(fx["right"], name=match.get("left")), dict(fx["left"], name=match.get("right"))
             fx["metrics"]["left"], fx["metrics"]["right"] = mr, ml
@@ -705,6 +706,7 @@ def merged_facts(mid, match):
             out[side] = dict(fx.get(side) or {}, form=bf[side]["form"])
     if not fx.get("h2h") and bf["h2h"]:
         out["h2h"] = bf["h2h"]
+    out.setdefault("surface", bf.get("surface"))
     mt = dict(bf["metrics"])
     for side in ("left", "right"):
         mt[side] = dict(bf["metrics"][side], **((fx.get("metrics") or {}).get(side) or {}))
