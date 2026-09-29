@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1668660",
- "data_as_of": "2026-09-29T23:26:16+09:00",
+ "data_as_of": "2026-09-30T00:06:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Portugal U21",
@@ -158,18 +158,20 @@
   "Gibraltarは約6か月ぶりの試合（4/1以来）"
  ],
  "missing": [
-  "招集メンバー・欠場",
   "先制率"
  ],
  "unavailable": {
   "ranking": "U21代表のElo/公式ランキングは存在しない（A代表Eloは参考値のみ）",
-  "first_rate": "先制のデータなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "absences": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "roster_changes": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "h2h_all": "手元のLiveScore予選データ以外（過去サイクル）は本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可"
+  "first_rate": "先制のデータなし（前セッションでWeb調査不可、本セッションは検索枠を欠場・ローテーション・ロスター確認に充当）",
+  "h2h_all": "過去サイクルのH2H（例：2019-09-05 Portugal U21 vs Gibraltar U21）は詳細未取得。手元のLiveScore予選データの1件のみ確認"
  },
  "source_urls": [
-  "LiveScore Euro U21 2027 / Qualification: Group B eid=1668660"
+  "LiveScore Euro U21 2027 / Qualification: Group B eid=1668660",
+  "https://bolanarede.pt/especial-bola-na-rede/atualidade/eis-os-convocados-de-luis-freire-para-os-ultimos-jogos-de-portugal-no-apuramento-para-o-euro-sub-21/",
+  "https://www.abola.pt/noticias/sub-21-martim-fernandes-sai-entra-lateral-do-gil-vicente-2026092123241874533",
+  "https://bolanarede.pt/especial-bola-na-rede/atualidade/luis-freire-e-mateus-fernandes-projetam-duelo-dos-sub-21-e-um-jogo-chave-para-a-qualificacao/",
+  "https://www.chronicle.gi/181109-2/",
+  "https://www.record.pt/futebol/selecoes/sub21/detalhe/mezian-soares-flavio-goncalves-e-mais-duas-estreias-nos-sub-21-de-luis-freire"
  ],
  "metrics": {
   "left": {
@@ -244,19 +246,19 @@
   "h2h_home_away": "Gibraltarホームで Portugal 11-0 の1件のみ。Portugalホームでの対戦は手元データになし",
   "common_60d": "60日以内（8/2以降）の共通相手なし（Portugal=Bulgaria 9/26、Gibraltarは4/1以降試合なし）。参考（予選全体）：Bulgaria（Portugal 3-0・1-2／Gibraltar 0-3・0-1）、Scotland（Portugal 2-0・3-0／Gibraltar 0-12・0-2）、Czechia（Portugal 0-0／Gibraltar 1-2・0-5）、Azerbaijan（Portugal 5-0・4-0／Gibraltar 0-1）。4相手すべてPortugalが上",
   "first_rate": "未取得（先制のデータなし）",
-  "absences": "未確認（Web調査不可）",
-  "roster_changes": "未確認（Web調査不可）。U21は年齢制限で毎サイクル入れ替わる"
+  "absences": "Portugal U21：9/18発表の23名（3連戦向け）から右SB Martim Fernandes（Porto）が負傷離脱、José Silva（Gil Vicente）を追加（A Bola 9/21）。A代表引き抜きの報道なし。Gibraltar U21：27名招集（9/17）、個別の欠場情報なし",
+  "roster_changes": "Portugal U21はMezian Soares・Flávio Gonçalvesら4名が初招集（Record）。Gibraltar U21は最終2試合向けに27名発表、大きな変更の報道なし（Gibraltar Chronicle 9/17）。U21は年齢制限で毎サイクル入れ替わる"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可。A代表招集でPortugal U21の主力が引き上げられる可能性はあるが未確認",
-   "impact": "none",
-   "applies": false
+   "finding": "Portugal U21はLuís Freireが9/18に23名を発表（Bulgaria 9/25・Gibraltar 9/30・Czechia 10/6の3連戦向け、bolanarede 9/18）。9/21に右SB Martim Fernandes（FC Porto）が負傷離脱し、代わりにJosé Silva（Gil Vicente）を追加招集（A Bola 9/21）。報道にA代表への引き抜きや主力の大量欠場の言及はなし。離脱は1名（右SB）のみ",
+   "impact": "minor",
+   "applies": true
   },
   "ローテーション": {
-   "finding": "予選公式戦。ローテーション情報は手元になし（未確認）",
-   "impact": "none",
-   "applies": false
+   "finding": "PortugalはBulgaria 9/25（1-2で敗戦）→Gibraltar 9/30→首位攻防のCzechia 10/6と11日で3連戦。中4〜5日でCzechia戦が控えるためGibraltar戦で主力温存の可能性はあるが、ローテーションを明言する報道は未確認（9/25のBulgaria戦前会見bolanaredeにも温存・入れ替えの言及なし）。Mezian Soares・Flávio Gonçalves含む4名が初招集（Record）で先発入れ替えの余地はある",
+   "impact": "minor",
+   "applies": true
   },
   "世代交代": {
    "finding": "U21は年齢制限で毎サイクル入れ替わるが、比較データは同一予選サイクル内のため影響小",
@@ -289,7 +291,7 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "finding": "Gibraltar U21は9/17に予選最終2試合（Azerbaijan戦・Portugal戦）向けに27名を発表（Gibraltar Chronicle 9/17）。大型補強や大幅な入れ替えの報道はなし。むしろ今季序盤で多くの選手の出場時間不足が懸念と報じられ、格差を縮める材料は見当たらない",
    "impact": "none",
    "applies": false
   },

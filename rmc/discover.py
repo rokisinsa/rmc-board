@@ -265,7 +265,8 @@ ESPORTS_ONLY = ("bo_format", "lan_online")
 COUNTER_KEYS = ("主力欠場", "ローテーション", "世代交代", "古いH2H", "ホーム/アウェー差", "最近の急改善", "BO1",
                 "LAN/Online差", "ロスター変更", "消化試合")
 IMPACTS = ("none", "minor", "major")
-UNCHECKED = re.compile(r"未確認|Web調査不可|確認できず|確認できなかった|取得できず|調査できず|unverified|not (?:checked|verified)", re.I)        # major＝格差の根拠を崩す（→ 反対材料で保留）
+# 「確認していない」印。finding の冒頭が「未確認」か、調査自体ができなかった旨のとき（本文中の部分的な「〜は未確認」は、確認済みの結論があれば可）
+UNCHECKED = re.compile(r"^\s*未確認|Web調査不可|Web調査ができ|調査できず|調査不可|unverified|not (?:checked|verified)", re.I)        # major＝格差の根拠を崩す（→ 反対材料で保留）
 UNCERTAIN_KEYS = {"主力欠場", "ロスター変更", "ホーム/アウェー差", "BO1"}   # これが minor でも残る＝⑤-B（重要な不確実性）。他の minor は注記のみ
 MARKET_C_NV = 0.80                          # ⑤-C：市場の控除後本命勝率がこれ以上なのに独立データで確認できていない
 GRADE_LABEL = {"A": "⑤-A 強い格差確認", "B": "⑤-B 格差候補・要注意", "C": "⑤-C 市場だけ格差"}
