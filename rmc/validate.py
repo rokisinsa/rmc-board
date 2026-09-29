@@ -248,6 +248,12 @@ def check_discovery(rep, matches, ana_by_logic):
         rep.err("DISCOVERY", "⑤の候補発見でオッズを使っていない証跡（odds_used_in_screening=false）がない")
     if not scr.get("odds_attached_at") or scr["odds_attached_at"] < scr.get("screened_at", ""):
         rep.err("DISCOVERY", "オッズは⑤の候補確定のあとに付ける（odds_attached_at が screened_at より前か無い）")
+    fc = scr.get("fixture_check") or {}
+    last_run = (load("automation-runs.json", []) or [{}])[-1]
+    if not fc.get("all_ok"):
+        bad = [k for k, v in (fc.get("sources") or {}).items() if not v.get("ok")]
+        (rep.err if last_run.get("status") == "complete" else rep.warn)(
+            "DISCOVERY", f"⑤の日程母集団の複数ソース照合が正常終了していない（{bad or '照合結果なし'}）→ 完全走査済み（complete）にできない")
     rows = {r["match_id"]: r for r in scr.get("rows", [])}
     for mid in d5.inventory(matches, scr["locked_at"]):
         if mid not in rows:

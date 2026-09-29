@@ -688,7 +688,13 @@ def _ls():
     return _BASIC["ls"]
 
 
+_AGE = re.compile(r"\bU-?(\d{2})\b|women|\(w\)", re.I)
+
+
 def _same(a, b):
+    ya = sorted(x.lower() for x in _AGE.findall(str(a or "")) if x); yb = sorted(x.lower() for x in _AGE.findall(str(b or "")) if x)
+    if ya != yb:
+        return False          # U21 と A代表、女子と男子を同じ試合とみなさない
     a, b = _norm(a), _norm(b)
     return bool(a) and bool(b) and (a == b or (min(len(a), len(b)) >= 5 and (a in b or b in a)))
 
@@ -831,10 +837,38 @@ def merged_facts(mid, match):
     return out
 
 
-def inventory(matches, locked):
-    """判定時刻より後・24時間以内に始まる全試合（全競技・全大会）。"""
+DISCOVER_HOURS = 48   # ⑤の走査窓：今日・翌日の全試合（①〜④の正式採用は従来どおり24時間以内）
+
+
+def inventory(matches, locked, hours=DISCOVER_HOURS):
+    """判定時刻より後・48時間以内に始まる全試合（全競技・全大会）。"""
     return sorted(mid for mid, m in matches.items()
-                  if m.get("start_jst") and m["start_jst"] > locked and core.within_horizon(locked, m["start_jst"]))
+                  if m.get("start_jst") and m["start_jst"] > locked and core.within_horizon(locked, m["start_jst"], hours))
+
+
+def extra_fixtures():
+    """LiveScore 以外の日程ソース（UEFA公式・FIFA公式・Liquipedia・VLR.gg）。"""
+    x = core.load("basic/fixtures_extra.json") or {}
+    return x.get("fixtures") or [], x.get("sources") or {}, x.get("taken_at")
+
+
+def _fx_match(f, m, tol=1800):
+    if f["sport"] != m.get("sport"):
+        return None
+    try:
+        if abs((core.parse(f["start_jst"]) - core.parse(m["start_jst"])).total_seconds()) > tol:
+            return None
+    except Exception:
+        return None
+    if _same(f["t1"], m.get("left")) and _same(f["t2"], m.get("right")):
+        return False
+    if _same(f["t1"], m.get("right")) and _same(f["t2"], m.get("left")):
+        return True
+    return None
+
+
+REQUIRED_FIXTURE_SOURCES = ("LiveScore", "UEFA公式", "FIFA公式", "Liquipedia", "VLR.gg")
+FIXTURE_MAX_AGE_H = 8
 
 
 CAND = ("一次候補", "深掘り未完", "反対材料で保留", "格差候補確定")
@@ -874,33 +908,66 @@ def run_screen(locked, matches=None):
             if m.get("sport") in ESPORTS:
                 row["rating_source"] = ESPORTS_RATING_SOURCE.get(m.get("sport"), "利用可能なRating＋大会成績")
         out["rows"].append(row)
-    # オッズ配信に無い試合（LiveScore の日程だけにある試合）も⑤に通す
-    matched = set()
-    for mid in inventory(matches, locked):
-        f0, _ = ls_fixture(matches[mid])
-        if f0:
-            matched.add(f0["eid"])
-    for f in _ls()["fixtures"]:
-        if not (f["start_jst"] > locked and core.within_horizon(locked, f["start_jst"])) or f["eid"] in matched:
+    # ---- 日程母集団を複数経路で照合・補完（オッズ配信に無い試合も⑤に通す）----
+    byid = {r["match_id"]: r for r in out["rows"]}
+    for r in out["rows"]:
+        r["fixture_sources"] = ["オッズ配信（Bovada/tennisexplorer/BC）"]
+    ext, ext_status, ext_taken = extra_fixtures()
+    ls = _ls()
+    pool = [dict(f, source="LiveScore") for f in ls["fixtures"]] + list(ext)
+    only = {}
+    for f in pool:
+        if not (f["start_jst"] > locked and core.within_horizon(locked, f["start_jst"], DISCOVER_HOURS)):
             continue
-        if any(r["match_id"] == f"ls-{f['eid']}" for r in out["rows"]):
+        hit = None
+        for mid in inventory(matches, locked):
+            if _fx_match(f, matches[mid]) is not None:
+                hit = byid.get(mid); break
+        if hit is None:
+            for r in out["rows"]:
+                if r["match_id"].startswith(("ls-", "ex-")) and _fx_match(f, dict(sport=r["sport"], start_jst=r["start_jst"], left=r["left"], right=r["right"])) is not None:
+                    hit = r; break
+        if hit is not None:
+            if f["source"] not in hit["fixture_sources"]:
+                hit["fixture_sources"].append(f["source"])
             continue
-        pm = dict(sport=f["sport"], competition=f["competition"], start_jst=f["start_jst"], left=f["t1"], right=f["t2"], flags=[])
-        fx = ls_facts(pm, f, False)
+        # どの既存母集団にも無い試合 → 新しい行として⑤に通す
+        mid = f"ls-{f['eid']}" if f["source"] == "LiveScore" else "ex-" + re.sub(r"[^0-9a-z]", "", (f.get("ext_id") or f"{f['start_jst']}{f['t1']}{f['t2']}").lower())[-24:]
+        pm = dict(sport=f["sport"], competition=f.get("competition") or "", start_jst=f["start_jst"], left=f["t1"], right=f["t2"], flags=[])
+        lf, flip = ls_fixture(pm) if f["source"] != "LiveScore" else (f, False)
+        fx = ls_facts(pm, lf, flip) if lf else (merged_facts(mid, pm) if pm["sport"] == "テニス" else None)
         ind = indicators(pm, fx, ratings)
         hits, n = screen(pm, ind)
-        row = dict(match_id=f"ls-{f['eid']}", sport=f["sport"], group=group_of(pm), competition=f["competition"], start_jst=f["start_jst"],
-                   left=f["t1"], right=f["t2"], source="LiveScore日程（オッズ配信に無い試合）", basic_source=fx["_basic_source"],
-                   indicators=ind, indicators_available=sorted(k for k, v in ind.items() if "unavailable" not in v))
+        row = dict(match_id=mid, sport=f["sport"], group=group_of(pm), competition=pm["competition"], start_jst=f["start_jst"],
+                   left=f["t1"], right=f["t2"], fixture_sources=[f["source"]], source=f"{f['source']}の日程（オッズ配信に無い試合）",
+                   basic_source=(fx or {}).get("_basic_source"), indicators=ind,
+                   indicators_available=sorted(k for k, v in ind.items() if "unavailable" not in v))
         if hits:
-            t, fams, ext = tier_of(pm, hits, ind)
-            row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, tier=t, tier_label=TIER_LABEL[t], families=fams, extremes=ext,
+            t, fams, ext_ = tier_of(pm, hits, ind)
+            row.update(status="一次候補", hits=hits, hit_count=len(hits), rule_count=n, tier=t, tier_label=TIER_LABEL[t], families=fams, extremes=ext_,
                        hit_summary=f"一次条件{n}項目中{len(hits)}項目該当（独立{len(fams)}系統）",
                        log=[f"発火：{h['label']}（値{h['value']}・{'左' if h['side'] == 'L' else '右'}側）" for h in hits])
+        elif hits is None:
+            row.update(status="条件未定義", reason="この競技の一次条件が未定義")
         else:
             row.update(status="該当なし", rule_count=n, reason=(f"取得できた指標{len(row['indicators_available'])}件でいずれも基準未満"
                                                                if row["indicators_available"] else "取得できた指標なし"))
         out["rows"].append(row)
+        byid[mid] = row
+    for r in out["rows"]:
+        if len(r.get("fixture_sources") or []) == 1:
+            only[r["fixture_sources"][0]] = only.get(r["fixture_sources"][0], 0) + 1
+    # 照合結果：各日程ソースの取得状況（06:00以降、全部正常でなければ「完全走査済み」にしない）
+    now = core.parse(locked)
+    def fresh(t):
+        return bool(t) and (now - core.parse(t)).total_seconds() <= FIXTURE_MAX_AGE_H * 3600
+    chk = {"LiveScore": dict(ok=bool(ls["fixtures"]) and fresh(ls["taken_at"]), n=len(ls["fixtures"]), taken_at=ls["taken_at"])}
+    for k in REQUIRED_FIXTURE_SOURCES[1:]:
+        st = ext_status.get(k) or {}
+        chk[k] = dict(ok=bool(st.get("ok")) and fresh(ext_taken), n=st.get("n", 0), taken_at=ext_taken, error=st.get("error") or st.get("errors"))
+    out["fixture_check"] = dict(sources=chk, all_ok=all(v["ok"] for v in chk.values()),
+                                only_in_one_source=only,
+                                note="オッズ配信・LiveScore・UEFA公式・FIFA公式・Liquipedia・VLR.gg の日程を照合し、どれか1つにしか無い試合も母集団に入れた")
     out["basic_sources"] = {k: (_BASIC.get(k) or {}).get("taken_at") for k in ("tennis", "ls")}
     out["rows"].sort(key=lambda r: (r.get("status") != "一次候補", r.get("tier") or 9, -len(r.get("families") or []), -(r.get("hit_count") or 0), r["start_jst"]))
     _summ(out)
@@ -912,10 +979,10 @@ def register_candidates(scr, matches=None):
     matches = matches if matches is not None else core.load("matches.json", {})
     n = 0
     for r in scr["rows"]:
-        if r["match_id"].startswith("ls-") and r.get("status") == "一次候補" and r["match_id"] not in matches:
+        if r["match_id"].startswith(("ls-", "ex-")) and r.get("status") == "一次候補" and r["match_id"] not in matches:
             matches[r["match_id"]] = dict(sport=r["sport"], competition=r["competition"], round=None, start_jst=r["start_jst"],
                                           left=r["left"], right=r["right"], home_away="不明", status="scheduled", result=None,
-                                          note="⑤ 格差候補発見エンジンがLiveScore日程から発見（オッズ配信に無い試合）", flags=[])
+                                          note=f"⑤ 格差候補発見エンジンが{'・'.join(r.get('fixture_sources') or [])}の日程から発見（オッズ配信に無い試合）", flags=[])
             n += 1
     if n:
         core.save("matches.json", matches)
