@@ -123,5 +123,58 @@
   "streak": "Cairns Taipans：1連敗／New Zealand Breakers：2連敗",
   "avg_points": "Cairns Taipans：1試合平均得失差 -9.67（3試合）／New Zealand Breakers：1試合平均得失差 +2.33（3試合）",
   "current_competition": "Cairns Taipans {'rank': 7, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 252, 'ga': 281, 'pts': 4, 'group': None}／New Zealand Breakers {'rank': 5, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 273, 'ga': 266, 'pts': 4, 'group': None}（LiveScore順位表 Australia / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 252,
+   "points_against": 281,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 273,
+   "points_against": 266,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
  }
 }

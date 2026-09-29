@@ -190,7 +190,8 @@ FAMILY = {"elo_diff": "rating", "surface_elo_diff": "rating", "rank_diff": "rati
           "last10_gd_diff": "form_margin", "last10_unit_diff": "form_margin", "last10_unit_avg_diff": "form_margin", "same_map_wr_diff": "form_margin",
           "streak_w5": "streak", "streak_l5": "streak", "common_diff": "common",
           "fip_diff": "pitcher", "era_diff": "pitcher", "kbb_diff": "pitcher", "rd_starter_same": "pitcher"}
-# 単独でも Tier 1 に上げる「通常範囲から大きく外れた」値（しきい値のおおむね2倍）
+# 単独でも Tier 1 に上げる「通常範囲から大きく外れた」値。実際の判定は max(この値, 一次条件しきい値×2)
+# （同じ指標でも競技によりしきい値が違うため。例：H2H平均点差はサッカー1.5、バスケ12）
 EXTREME = {"elo_diff": 400, "surface_elo_diff": 300, "rating_diff": 100, "net_rating_diff": 20, "fifa_rank_diff": 120, "rank_diff": 150,
            "cur_wr_diff": 70, "cur_gd_diff": 25, "gd_pg_diff": 3.0, "pd_pg_diff": 20, "rd_pg_diff": 2.5, "pts_rate_diff": 0.6,
            "season_wr_diff": 50, "h2h_avg_gd": 3.0, "h2h_map_diff": 8, "last10_wr_diff": 80, "last10_gd_diff": 30,
@@ -203,7 +204,7 @@ def priority_of(row, locked):
     極端値の大きさ＋独立した発火系統数＋データ信頼度＋試合開始までの残り時間。"""
     ext = 0.0
     for h in row.get("hits") or []:
-        th = EXTREME.get(h.get("ind") or h["key"])
+        th = _ext_th(h)
         if th:
             ext = max(ext, h["value"] / th)
     rel = min(len(row.get("indicators_available") or []) / 8, 1.0)   # 取れている指標の多さ＝データ信頼度
@@ -219,11 +220,20 @@ def priority_of(row, locked):
     return row["priority"]
 
 
+def _ext_th(h):
+    """このhitの「極端値」しきい値：max(EXTREMEの目安, 一次条件しきい値×2)。EXTREMEに無い指標は昇格させない。"""
+    base = EXTREME.get(h.get("ind") or h["key"]) or EXTREME.get(h["key"])
+    if base is None:
+        return None
+    th = h.get("th")
+    return max(base, th * 2) if isinstance(th, (int, float)) else base
+
+
 def tier_of(match, hits, ind):
     fams = {FAMILY.get(h["key"], h["key"]) for h in hits}
     ext = []
     for h in hits:
-        th = EXTREME.get(h.get("ind") or h["key"]) or EXTREME.get(h["key"])
+        th = _ext_th(h)
         if th is not None and h["value"] >= th:
             ext.append(f"{h['label']}：値{h['value']}（極端値の目安{th}以上）")
     # H2H の総得点差が極端（同じ側に2試合以上で平均+3以上）も単独で昇格
@@ -575,7 +585,7 @@ def screen(match, ind):
         if pre and pre.startswith("min_n:") and (v.get("n") or 0) < int(pre.split(":")[1]):
             continue
         if v["value"] >= th:
-            hits.append(dict(key=key, ind=ik, label=label, value=v["value"], side=v["side"], group=GROUPS.get(key, "form")))
+            hits.append(dict(key=key, ind=ik, label=label, value=v["value"], side=v["side"], th=th, group=GROUPS.get(key, "form")))
     return hits, len(rules)
 
 

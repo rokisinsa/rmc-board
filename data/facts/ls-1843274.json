@@ -139,5 +139,85 @@
   "streak": "KVV Zelzate：3連敗／Royal Knokke FC：1連勝",
   "avg_points": "KVV Zelzate：1試合平均得失差 -1.75（4試合）／Royal Knokke FC：1試合平均得失差 +0.25（4試合）",
   "current_competition": "KVV Zelzate {'rank': 15, 'played': 4, 'W': 0, 'D': 1, 'L': 3, 'gf': 4, 'ga': 11, 'pts': 1, 'group': None}／Royal Knokke FC {'rank': 8, 'played': 4, 'W': 2, 'D': 0, 'L': 2, 'gf': 7, 'ga': 6, 'pts': 6, 'group': None}（LiveScore順位表 Belgium / National Division 1 VV（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 0,
+   "L": 3,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": "3連敗",
+   "points_for": 4,
+   "points_against": 11,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 6,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Cercle Brugge 2",
+    "left": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Belgium / National Division 1 VV"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "1-2",
+      "res": "L",
+      "comp": "Belgium / National Division 1 VV"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-13",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

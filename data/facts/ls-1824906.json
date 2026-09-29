@@ -121,5 +121,58 @@
   "streak": "Decin：1連敗／MMCITE Brno：3連敗",
   "avg_points": "Decin：1試合平均得失差 +13.33（3試合）／MMCITE Brno：1試合平均得失差 -9.00（3試合）",
   "current_competition": "Decin {'rank': 5, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 259, 'ga': 219, 'pts': None, 'group': None}／MMCITE Brno {'rank': 10, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 251, 'ga': 278, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 259,
+   "points_against": 219,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 0,
+   "L": 3,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 251,
+   "points_against": 278,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

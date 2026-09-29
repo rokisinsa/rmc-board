@@ -131,5 +131,85 @@
   "streak": "Sierre-Anniviers：3連勝／Ticino Rockets：1連勝",
   "avg_points": "Sierre-Anniviers：1試合平均得失差 +3.67（3試合）／Ticino Rockets：1試合平均得失差 +0.25（4試合）",
   "current_competition": "Sierre-Anniviers {'rank': 2, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 19, 'ga': 8, 'pts': 8, 'group': None}／Ticino Rockets {'rank': 3, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 13, 'ga': 12, 'pts': 8, 'group': None}（LiveScore順位表 Switzerland / Swiss League（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 19,
+   "points_against": 8,
+   "points_games": 3
+  },
+  "right": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 13,
+   "points_against": 12,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Arosa",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "8-2",
+      "res": "W",
+      "comp": "Switzerland / Swiss League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "4-2",
+      "res": "W",
+      "comp": "Switzerland / Swiss League"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
  }
 }

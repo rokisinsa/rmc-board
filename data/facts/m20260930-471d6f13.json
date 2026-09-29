@@ -131,5 +131,85 @@
   "streak": "GCK Lions：1連勝／EHC Olten：2連敗",
   "avg_points": "GCK Lions：1試合平均得失差 -1.75（4試合）／EHC Olten：1試合平均得失差 +0.67（3試合）",
   "current_competition": "GCK Lions {'rank': 10, 'played': 4, 'W': 1, 'D': 0, 'L': 3, 'gf': 10, 'ga': 17, 'pts': 3, 'group': None}／EHC Olten {'rank': 6, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 13, 'ga': 11, 'pts': 3, 'group': None}（LiveScore順位表 Switzerland / Swiss League（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 10,
+   "points_against": 17,
+   "points_games": 4
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 13,
+   "points_against": 11,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Chur",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "3-6",
+      "res": "L",
+      "comp": "Switzerland / Swiss League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "9-4",
+      "res": "W",
+      "comp": "Switzerland / Swiss League"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
  }
 }

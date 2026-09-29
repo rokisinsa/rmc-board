@@ -121,5 +121,85 @@
   "streak": "Ostrava：1連敗／Kralovsti Sokoli：2連敗",
   "avg_points": "Ostrava：1試合平均得失差 +6.67（3試合）／Kralovsti Sokoli：1試合平均得失差 -7.33（3試合）",
   "current_competition": "Ostrava {'rank': 6, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 250, 'ga': 230, 'pts': None, 'group': None}／Kralovsti Sokoli {'rank': 7, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 258, 'ga': 280, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 250,
+   "points_against": 230,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 258,
+   "points_against": 280,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "BK Olomoucko",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "76-77",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "93-81",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

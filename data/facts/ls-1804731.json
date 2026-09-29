@@ -128,5 +128,63 @@
   "streak": "Kongsvinger：1連分／Gjoevik：1連分",
   "avg_points": "Kongsvinger：1試合平均得失差 -1.33（3試合）／Gjoevik：1試合平均得失差 +0.00（3試合）",
   "current_competition": "Kongsvinger {'rank': 7, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 5, 'ga': 10, 'pts': 2, 'group': None}／Gjoevik {'rank': 4, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 10, 'ga': 9, 'pts': 5, 'group': None}（LiveScore順位表 Norway / 1st Division（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 0,
+   "L": 2,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 9,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 1,
+   "D": 1,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 9,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 0,
+   "draw": 1,
+   "points_left": 1,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

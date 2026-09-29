@@ -123,5 +123,85 @@
   "streak": "Skellefteaa：2連敗／Luleaa：2連敗",
   "avg_points": "Skellefteaa：1試合平均得失差 +0.33（3試合）／Luleaa：1試合平均得失差 -1.33（3試合）",
   "current_competition": "Skellefteaa {'rank': 8, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 10, 'ga': 9, 'pts': 4, 'group': None}／Luleaa {'rank': 12, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 9, 'ga': 13, 'pts': 3, 'group': None}（LiveScore順位表 Sweden / SHL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 10,
+   "points_against": 9,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 9,
+   "points_against": 13,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Brynaes",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "7-2",
+      "res": "W",
+      "comp": "Sweden / SHL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-4",
+      "res": "L",
+      "comp": "Sweden / SHL"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
  }
 }

@@ -136,5 +136,63 @@
   "streak": "Ski Elite：2連敗／Comet：3連勝",
   "avg_points": "Ski Elite：1試合平均得失差 -0.25（4試合）／Comet：1試合平均得失差 +2.00（3試合）",
   "current_competition": "Ski Elite {'rank': 6, 'played': 4, 'W': 1, 'D': 0, 'L': 3, 'gf': 8, 'ga': 13, 'pts': 3, 'group': None}／Comet {'rank': 3, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 12, 'ga': 6, 'pts': 8, 'group': None}（LiveScore順位表 Norway / 1st Division（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 2,
+   "D": 1,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 8,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 12,
+   "points_against": 6,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "points_left": 2,
+   "points_right": 4,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 4.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

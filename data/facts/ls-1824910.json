@@ -121,5 +121,111 @@
   "streak": "Lokomotive Plzen：3連敗／USK Prague：3連敗",
   "avg_points": "Lokomotive Plzen：1試合平均得失差 -26.00（3試合）／USK Prague：1試合平均得失差 -11.33（3試合）",
   "current_competition": "Lokomotive Plzen {'rank': 12, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 234, 'ga': 312, 'pts': None, 'group': None}／USK Prague {'rank': 11, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 217, 'ga': 251, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 0,
+   "L": 3,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 234,
+   "points_against": 312,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 0,
+   "L": 3,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 217,
+   "points_against": 251,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Usti nad Labem",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "74-115",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "80-89",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Decin",
+    "left": [
+     {
+      "date": "2026-09-18",
+      "iso": "2026-09-18",
+      "score": "79-109",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "57-74",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-24",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

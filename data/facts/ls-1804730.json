@@ -128,5 +128,63 @@
   "streak": "Manglerud/Star：3連敗／Loerenskog：3連勝",
   "avg_points": "Manglerud/Star：1試合平均得失差 -2.33（3試合）／Loerenskog：1試合平均得失差 +2.33（3試合）",
   "current_competition": "Manglerud/Star {'rank': 8, 'played': 3, 'W': 0, 'D': 0, 'L': 3, 'gf': 5, 'ga': 12, 'pts': 1, 'group': None}／Loerenskog {'rank': 2, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 12, 'ga': 5, 'pts': 8, 'group': None}（LiveScore順位表 Norway / 1st Division（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 0,
+   "L": 3,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "3連敗",
+   "points_for": 5,
+   "points_against": 12,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 12,
+   "points_against": 5,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "points_left": 1,
+   "points_right": 4,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 4.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

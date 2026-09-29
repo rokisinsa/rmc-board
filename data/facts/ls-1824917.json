@@ -121,5 +121,58 @@
   "streak": "Usti nad Labem：2連勝／BK Opava：1連勝",
   "avg_points": "Usti nad Labem：1試合平均得失差 +16.00（3試合）／BK Opava：1試合平均得失差 -12.67（3試合）",
   "current_competition": "Usti nad Labem {'rank': 4, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 282, 'ga': 234, 'pts': None, 'group': None}／BK Opava {'rank': 8, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 241, 'ga': 279, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 282,
+   "points_against": 234,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 241,
+   "points_against": 279,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

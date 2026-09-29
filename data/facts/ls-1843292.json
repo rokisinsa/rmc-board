@@ -139,5 +139,58 @@
   "streak": "Houtvenne：4連勝／KFC Mandel United：1連勝",
   "avg_points": "Houtvenne：1試合平均得失差 +2.75（4試合）／KFC Mandel United：1試合平均得失差 +0.75（4試合）",
   "current_competition": "Houtvenne {'rank': 1, 'played': 4, 'W': 4, 'D': 0, 'L': 0, 'gf': 15, 'ga': 4, 'pts': 12, 'group': None}／KFC Mandel United {'rank': 6, 'played': 4, 'W': 2, 'D': 1, 'L': 1, 'gf': 6, 'ga': 3, 'pts': 7, 'group': None}（LiveScore順位表 Belgium / National Division 1 VV（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 4,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連勝",
+   "points_for": 15,
+   "points_against": 4,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 1,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 3,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }

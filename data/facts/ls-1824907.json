@@ -121,5 +121,58 @@
   "streak": "Nymburk：3連勝／BK Olomoucko：1連勝",
   "avg_points": "Nymburk：1試合平均得失差 +17.67（3試合）／BK Olomoucko：1試合平均得失差 -19.00（3試合）",
   "current_competition": "Nymburk {'rank': 2, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 310, 'ga': 257, 'pts': None, 'group': None}／BK Olomoucko {'rank': 9, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 212, 'ga': 269, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 310,
+   "points_against": 257,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 212,
+   "points_against": 269,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-01"
  }
 }
