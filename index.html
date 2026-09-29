@@ -222,6 +222,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
  .mrow{padding:8px 10px;gap:4px 8px}
  .b{font-size:12.5px}
 }
+.ftag{display:inline-block;font-size:10.5px;padding:0 5px;border-radius:4px;background:var(--sunk);color:var(--muted);border:1px solid var(--line);margin-left:4px}
 .subh{font-size:15px;margin:18px 0 4px}
 .topmenu{display:flex;gap:8px;margin:14px 0 4px}
 .topmenu a{display:inline-flex;align-items:center;gap:4px;padding:10px 16px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:700;font-size:15px;text-decoration:none}
@@ -314,7 +315,7 @@ document.getElementById('cards').innerHTML=LG.concat('experience').map(l=>{const
   <dt>単利</dt><dd>${money(s.net)}</dd><dt>ROI</dt><dd>${s.roi!=null?s.roi.toFixed(1)+'%':'—'}</dd>
   <dt>確定投入</dt><dd>$${s.staked.toFixed(2)}</dd><dt>正式件数</dt><dd>${s.formal}</dd><dt>未確定</dt><dd>${s.pending}</dd><dt>金額未計算</dt><dd>${s.amount_missing}</dd>
   <dt>複利</dt><dd>${money(c.net??0)}</dd><dt>　資金/ストック</dt><dd>$${(c.bankroll??100).toFixed(0)}/$${(c.stock??0).toFixed(0)}</dd><dt>　確保/失敗</dt><dd>${c.secured??0}/${c.busted??0}回</dd>
-  <dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}</dd></dl></div>`;}).join('')+
+  <dt>1/4ケリー</dt><dd>${money(s.kelly_quarter.profit)}</dd>${(()=>{const b=(D.summary.by_type||{})[l]||{};const c=b.criteria||{},f=b.sport_floor||{};return `<dt>通常基準</dt><dd>${c.formal||0}件 ${money(c.net||0)}</dd><dt>競技枠</dt><dd>${f.formal||0}件 ${money(f.net||0)}</dd>`;})()}</dl></div>`;}).join('')+
   `<p class="note">大きい数字と「単利」は毎回$100固定の純損益。複利は元金$100を全額投入し、$200（倍額）到達で利益をストックして$100から再開、0になったら$100から再開（純損益＝資金＋ストック−投入元金）。</p>`;
 
 const ES_REAL=new Set(['CS2','LoL','Dota 2','VALORANT','Rainbow Six','World of Tanks','CrossFire','King of Glory','Mobile Legends','StarCraft: BW','Fortnite']);
@@ -514,7 +515,7 @@ function renderLedger(){
   tb.innerHTML=`<thead><tr><th>結果</th>${isT?'<th>ロジック</th>':''}<th>開始</th><th>種目</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th><th>格差</th></tr></thead><tbody>`+
    rows.slice().sort((a,b)=>isT?(D.matches[a.match_id]?.start_jst||'').localeCompare(D.matches[b.match_id]?.start_jst||''):(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
     const mark=e.withdrawn?'取消':!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';const g=gapAt(e);
-    return `<tr class="lrow${e.withdrawn?' wd':''}" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="${e.withdrawn?esc(e.withdrawn.reason):'分析を開く'}"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}</td>
+    return `<tr class="lrow${e.withdrawn?' wd':''}" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="${e.withdrawn?esc(e.withdrawn.reason):'分析を開く'}"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}${e.pick_type==='sport_floor'?' <span class="ftag">競技枠</span>':''}</td>
     <td class="mono">${e.odds_taken??esc(e.odds_range||'未確認')}</td><td class="mono">$${e.stake.toFixed(2)}</td><td class="mono">${r?(r.payout==null?'金額未計算':'$'+r.payout.toFixed(2)):'—'}</td>
     <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${e.withdrawn?'取消':r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td><td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td></tr>`;}).join('')+'</tbody>';
   tb.querySelectorAll('.lrow').forEach(r=>{const l=r.dataset.l==='experience'?null:r.dataset.l;r.onclick=()=>openMatch(r.dataset.m,l);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,l);};});

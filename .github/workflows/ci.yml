@@ -41,7 +41,7 @@ jobs:
           python - <<'EOF'
           import json
           A=json.load(open('/tmp/summary.before.json')); B=json.load(open('data/summary.json'))
-          for k in ('logics','gap_bands','analytics'):
+          for k in ('logics','gap_bands','analytics','by_type'):
               assert A.get(k)==B.get(k), f'summary.json mismatch: {k}'
           print('profit audit ok')
           EOF

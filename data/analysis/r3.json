@@ -4293,8 +4293,8 @@
    "est": "73.7%",
    "diff": "+23.7pt",
    "upset": "中〜高",
-   "status": "watch",
-   "reason": "市場差+23.7pt（15pt超はモデル歪みの可能性があり正式採用しない）",
+   "status": "adopted",
+   "reason": "競技枠（Dota 2の中で最上位・全競技から必ず出す）：市場50.0%に対し独立勝率73.7%（差+23.7pt）が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は watch：市場差+23.7pt（15pt超はモデル歪みの可能性があり正式採用しない）",
    "rationale": "③：市場ベースライン50.0%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は73.7%。Upset Risk 中〜高。",
    "deep_dive_detail": {
     "title": "Dota 2",
@@ -4356,7 +4356,8 @@
     "prior_prob": 0.7368,
     "edge_or_ev": "市場差+23.7pt／EV+37.8%",
     "rationale": "③：市場ベースライン50.0%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は73.7%。Upset Risk 中〜高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-a1a3e95b",
@@ -6511,11 +6512,11 @@
    "match_id": "m20260930-14f24063",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
+   "status": "adopted",
    "pick": "Rytiri Kladno",
    "odds": 3.0,
    "need": 33.3,
-   "reason": "独立推定なし：チェコ・エクストラリーガの試合別独立モデル勝率を探したが公開なし（前回の深掘り判定を引継ぎ）",
+   "reason": "競技枠（アイスホッケーの中で最上位・全競技から必ず出す）：市場31.3%に対し独立勝率19.4%（差-11.9pt）が競技内で最上位。通常基準での判定は excluded：独立推定なし：チェコ・エクストラリーガの試合別独立モデル勝率を探したが公開なし（前回の深掘り判定を引継ぎ）",
    "rationale": "③：市場ベースライン31.3%との差を測る独立推定なし（チェコ・エクストラリーガの試合別独立モデル勝率を探したが公開なし）",
    "deep_dive_detail": {
     "title": "アイスホッケー",
@@ -6564,7 +6565,8 @@
      "reason": "チェコ・エクストラリーガの試合別独立モデル勝率を探したが公開なし"
     },
     "rationale": "③：市場ベースライン31.3%との差を測る独立推定なし（チェコ・エクストラリーガの試合別独立モデル勝率を探したが公開なし）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-343ff6f8",
@@ -10332,8 +10334,8 @@
    "est": "66.2%",
    "diff": "+10.9pt",
    "upset": "高",
-   "status": "watch",
-   "reason": "市場差+10.9pt・EV+11.2%・リスク高（前回の深掘り判定を引継ぎ）",
+   "status": "adopted",
+   "reason": "競技枠（CS2の中で最上位・全競技から必ず出す）：市場55.3%に対し独立勝率66.2%（差+10.9pt）が競技内で最上位。通常基準での判定は watch：市場差+10.9pt・EV+11.2%・リスク高（前回の深掘り判定を引継ぎ）",
    "rationale": "③：市場ベースライン55.3%に対し直近成績log5は66.2%。Upset Risk 高。",
    "deep_dive_detail": {
     "title": "CS2",
@@ -10399,7 +10401,8 @@
     "prior_prob": 0.6622,
     "edge_or_ev": "市場差+10.9pt／EV+11.2%",
     "rationale": "③：市場ベースライン55.3%に対し直近成績log5は66.2%。Upset Risk 高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-e9ba60f1",
@@ -14585,11 +14588,11 @@
    "match_id": "m20260930-3d018c3c",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
-   "pick": "Gian van Veen",
-   "odds": 1.541,
+   "status": "adopted",
+   "pick": "Dirk van Duijvenbode",
+   "odds": 2.4,
    "need": 64.9,
-   "reason": "独立推定なし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず",
+   "reason": "競技枠（ダーツの中で最上位・全競技から必ず出す）：市場39.1%に対し独立勝率55.6%（差+16.5pt）が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は excluded：独立推定なし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず",
    "rationale": "③：市場ベースライン60.9%との差を測る独立推定なし（外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず）",
    "deep_dive_detail": {
     "title": "ダーツ",
@@ -14639,7 +14642,8 @@
      "reason": "外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず"
     },
     "rationale": "③：市場ベースライン60.9%との差を測る独立推定なし（外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-df701c89",
@@ -15126,8 +15130,8 @@
    "est": "57.7%",
    "diff": "+4.2pt",
    "upset": "高",
-   "status": "watch",
-   "reason": "市場差+4.2pt・EV+3.5%・リスク高",
+   "status": "adopted",
+   "reason": "競技枠（野球の中で最上位・全競技から必ず出す）：市場53.5%に対し独立勝率57.7%（差+4.2pt）が競技内で最上位。通常基準での判定は watch：市場差+4.2pt・EV+3.5%・リスク高",
    "rationale": "③：市場ベースライン53.5%に対しDimers（試合シミュレーションモデル）は57.7%。Upset Risk 高。",
    "deep_dive_detail": {
     "title": "野球",
@@ -15170,7 +15174,8 @@
     "prior_prob": 0.577,
     "edge_or_ev": "市場差+4.2pt／EV+3.5%",
     "rationale": "③：市場ベースライン53.5%に対しDimers（試合シミュレーションモデル）は57.7%。Upset Risk 高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-e25a3f42",
@@ -17887,8 +17892,8 @@
    "est": "31.8%",
    "diff": "-0.5pt",
    "upset": "高",
-   "status": "excluded",
-   "reason": "市場差-0.5pt",
+   "status": "adopted",
+   "reason": "競技枠（LoLの中で最上位・全競技から必ず出す）：市場32.3%に対し独立勝率31.8%（差-0.5pt）が競技内で最上位。通常基準での判定は excluded：市場差-0.5pt",
    "rationale": "③：市場ベースライン32.3%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は31.8%。Upset Risk 高。",
    "deep_dive_detail": {
     "title": "LoL",
@@ -17947,7 +17952,8 @@
     "prior_prob": 0.3182,
     "edge_or_ev": "市場差-0.5pt／EV-7.7%",
     "rationale": "③：市場ベースライン32.3%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は31.8%。Upset Risk 高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-874616b7",
@@ -19775,8 +19781,8 @@
    "est": "58.8%",
    "diff": "+3.4pt",
    "upset": "中",
-   "status": "watch",
-   "reason": "市場差+3.4pt・EV-0.6%・リスク中",
+   "status": "adopted",
+   "reason": "競技枠（VALORANTの中で最上位・全競技から必ず出す）：市場55.4%に対し独立勝率58.8%（差+3.4pt）が競技内で最上位。通常基準での判定は watch：市場差+3.4pt・EV-0.6%・リスク中",
    "rationale": "③：市場ベースライン55.4%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は58.8%。Upset Risk 中。",
    "deep_dive_detail": {
     "title": "VALORANT",
@@ -19831,7 +19837,8 @@
     "prior_prob": 0.5882,
     "edge_or_ev": "市場差+3.4pt／EV-0.6%",
     "rationale": "③：市場ベースライン55.4%に対しRMC log5（直近シリーズ勝率・ラプラス補正、data/は58.8%。Upset Risk 中。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-8e1fe330",
@@ -20209,8 +20216,8 @@
    "est": "34.8%",
    "diff": "+4.3pt",
    "upset": "高",
-   "status": "watch",
-   "reason": "市場差+4.3pt・EV+2.9%・リスク高（前回の深掘り判定を引継ぎ）",
+   "status": "adopted",
+   "reason": "競技枠（CrossFireの中で最上位・全競技から必ず出す）：市場30.5%に対し独立勝率34.8%（差+4.3pt）が競技内で最上位。通常基準での判定は watch：市場差+4.3pt・EV+2.9%・リスク高（前回の深掘り判定を引継ぎ）",
    "rationale": "③：市場ベースライン30.5%に対し直近成績log5は34.8%。Upset Risk 高。",
    "deep_dive_detail": {
     "title": "CrossFire",
@@ -20288,7 +20295,8 @@
     "prior_prob": 0.3478,
     "edge_or_ev": "市場差+4.3pt／EV+2.9%",
     "rationale": "③：市場ベースライン30.5%に対し直近成績log5は34.8%。Upset Risk 高。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-badae5c2",
@@ -21753,5 +21761,6 @@
    "odds": 1.16,
    "reason": "対象価格帯（1.50〜3.00）の選択肢なし（今回の公開配信に掲載なし・前回判定を引継ぎ）"
   }
- ]
+ ],
+ "floor_applied_at": "2026-09-29T20:33:40+09:00"
 }

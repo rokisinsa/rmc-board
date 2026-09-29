@@ -8867,12 +8867,12 @@
    "match_id": "m20260930-05d16bcd",
    "deep_dive": true,
    "priced": true,
-   "status": "rejected",
-   "pick": "Dynamo Pardubice",
-   "odds": 1.26,
+   "status": "accepted",
+   "pick": "Ceske Budejovice",
+   "odds": 3.65,
    "fair": 74.3,
    "reliability": "low",
-   "reason": "独立ベース確率なし：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
+   "reason": "競技枠（アイスホッケーの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 28.3%でEV+3.5%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
    "rationale": "④：base_probability なし（チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし）",
    "deep_dive_detail": {
     "title": "アイスホッケー",
@@ -8921,7 +8921,8 @@
      "reason": "チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし"
     },
     "rationale": "④：base_probability なし（チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-c44ee0e9",
@@ -9974,12 +9975,12 @@
    "match_id": "m20260930-a0ae94fe",
    "deep_dive": true,
    "priced": true,
-   "status": "rejected",
+   "status": "accepted",
    "pick": "Hapoel Jerusalem",
    "odds": 1.111,
    "fair": 85.9,
    "reliability": "low",
-   "reason": "独立ベース確率なし：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし（市場確率の流用は禁止）",
+   "reason": "競技枠（バスケットボールの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 86.0%でEV-4.4%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし（市場確率の流用は禁止）",
    "rationale": "④：base_probability なし（Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし）",
    "deep_dive_detail": {
     "title": "バスケットボール",
@@ -10029,7 +10030,8 @@
      "reason": "Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし"
     },
     "rationale": "④：base_probability なし（Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-d2d97076",
@@ -13067,8 +13069,8 @@
    "reliability": "low",
    "base_prob": 0.4167,
    "market_prob": 0.2873,
-   "status": "watch",
-   "reason": "EDGE+6.5pt・EV+14.4%（基準未達）（前回の深掘り判定を引継ぎ）",
+   "status": "accepted",
+   "reason": "競技枠（CS2の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 35.2%でEV+14.4%が競技内で最上位。通常基準での判定は watch：EDGE+6.5pt・EV+14.4%（基準未達）（前回の深掘り判定を引継ぎ）",
    "rationale": "④：market 0.287（no-vig）＋base 0.417（直近成績log5）を等分、expert_adjustment 0 → final 0.352。",
    "deep_dive_detail": {
     "title": "CS2",
@@ -13136,7 +13138,8 @@
     "prior_prob": 0.352,
     "edge_or_ev": "EDGE+6.5pt／EV+14.4%",
     "rationale": "④：market 0.287（no-vig）＋base 0.417（直近成績log5）を等分、expert_adjustment 0 → final 0.352。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-16939ccb",
@@ -13698,8 +13701,8 @@
    "match_id": "m20260930-77c49cad",
    "deep_dive": true,
    "priced": true,
-   "pick": "Czechia",
-   "odds": 9.0,
+   "pick": "England",
+   "odds": 1.312,
    "fair": 10.4,
    "final": 13.1,
    "edge": "+2.6pt",
@@ -13708,8 +13711,8 @@
    "reliability": "low",
    "base_prob": 0.157,
    "market_prob": 0.1044,
-   "status": "watch",
-   "reason": "EDGE+2.6pt・EV+17.7%（基準未達）",
+   "status": "accepted",
+   "reason": "競技枠（サッカーの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 78.0%でEV+2.3%が競技内で最上位。通常基準での判定は watch：EDGE+2.6pt・EV+17.7%（基準未達）",
    "rationale": "④：market 0.104（no-vig）＋base 0.157（Opta Analyst supercompute）を等分、expert_adjustment 0 → final 0.131。",
    "deep_dive_detail": {
     "title": "サッカー",
@@ -13755,7 +13758,8 @@
     "prior_prob": 0.1307,
     "edge_or_ev": "EDGE+2.6pt／EV+17.7%",
     "rationale": "④：market 0.104（no-vig）＋base 0.157（Opta Analyst supercompute）を等分、expert_adjustment 0 → final 0.131。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-5d52083d",
@@ -15400,12 +15404,12 @@
    "match_id": "m20260930-3d018c3c",
    "deep_dive": true,
    "priced": true,
-   "status": "rejected",
-   "pick": "Gian van Veen",
-   "odds": 1.541,
+   "status": "accepted",
+   "pick": "Dirk van Duijvenbode",
+   "odds": 2.4,
    "fair": 60.9,
    "reliability": "low",
-   "reason": "独立ベース確率なし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず（市場確率の流用は禁止）",
+   "reason": "競技枠（ダーツの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 47.3%でEV+13.6%が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は rejected：独立ベース確率なし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず（市場確率の流用は禁止）",
    "rationale": "④：base_probability なし（外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず）",
    "deep_dive_detail": {
     "title": "ダーツ",
@@ -15455,7 +15459,8 @@
      "reason": "外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず"
     },
     "rationale": "④：base_probability なし（外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-df701c89",
@@ -15972,8 +15977,8 @@
    "reliability": "low",
    "base_prob": 0.577,
    "market_prob": 0.5345,
-   "status": "watch",
-   "reason": "EDGE+2.1pt・EV-0.3%（基準未達）",
+   "status": "accepted",
+   "reason": "競技枠（野球の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 55.6%でEV-0.3%が競技内で最上位。通常基準での判定は watch：EDGE+2.1pt・EV-0.3%（基準未達）",
    "rationale": "④：market 0.535（no-vig）＋base 0.577（Dimers（試合シミュレーションモデル））を等分、expert_adjustment 0 → final 0.556。",
    "deep_dive_detail": {
     "title": "野球",
@@ -16016,7 +16021,8 @@
     "prior_prob": 0.5558,
     "edge_or_ev": "EDGE+2.1pt／EV-0.3%",
     "rationale": "④：market 0.535（no-vig）＋base 0.577（Dimers（試合シミュレーションモデル））を等分、expert_adjustment 0 → final 0.556。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-e25a3f42",
@@ -18492,12 +18498,12 @@
    "match_id": "m20260930-766b036f",
    "deep_dive": true,
    "priced": true,
-   "status": "rejected",
-   "pick": "Joint M.",
-   "odds": 1.3,
+   "status": "accepted",
+   "pick": "Kraus S.",
+   "odds": 3.5,
    "fair": 72.9,
    "reliability": "low",
-   "reason": "独立ベース確率なし：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
+   "reason": "競技枠（テニスの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 30.9%でEV+8.3%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
    "rationale": "④：base_probability なし（Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず）",
    "deep_dive_detail": {
     "title": "テニス",
@@ -18541,7 +18547,8 @@
      "reason": "Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず"
     },
     "rationale": "④：base_probability なし（Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-27922a8b",
@@ -18895,8 +18902,8 @@
    "reliability": "medium",
    "base_prob": 0.6818,
    "market_prob": 0.6768,
-   "status": "rejected",
-   "reason": "EDGE+0.3pt・EV-5.9%",
+   "status": "accepted",
+   "reason": "競技枠（LoLの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 67.9%でEV-5.9%が競技内で最上位。通常基準での判定は rejected：EDGE+0.3pt・EV-5.9%",
    "rationale": "④：market 0.677（no-vig）＋base 0.682（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.679。",
    "deep_dive_detail": {
     "title": "LoL",
@@ -18955,7 +18962,8 @@
     "prior_prob": 0.6793,
     "edge_or_ev": "EDGE+0.3pt／EV-5.9%",
     "rationale": "④：market 0.677（no-vig）＋base 0.682（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.679。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-874616b7",
@@ -20778,8 +20786,8 @@
    "reliability": "low",
    "base_prob": 0.875,
    "market_prob": 0.8553,
-   "status": "rejected",
-   "reason": "EDGE+1.0pt・EV-4.8%",
+   "status": "accepted",
+   "reason": "競技枠（Rainbow Sixの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 86.5%でEV-4.8%が競技内で最上位。通常基準での判定は rejected：EDGE+1.0pt・EV-4.8%",
    "rationale": "④：market 0.855（no-vig）＋base 0.875（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.865。",
    "deep_dive_detail": {
     "title": "Rainbow Six",
@@ -20836,7 +20844,8 @@
     "prior_prob": 0.8651,
     "edge_or_ev": "EDGE+1.0pt／EV-4.8%",
     "rationale": "④：market 0.855（no-vig）＋base 0.875（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.865。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-90bb624c",
@@ -20852,8 +20861,8 @@
    "reliability": "medium",
    "base_prob": 0.5882,
    "market_prob": 0.5541,
-   "status": "rejected",
-   "reason": "EDGE+1.7pt・EV-3.5%",
+   "status": "accepted",
+   "reason": "競技枠（VALORANTの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 57.1%でEV-3.5%が競技内で最上位。通常基準での判定は rejected：EDGE+1.7pt・EV-3.5%",
    "rationale": "④：market 0.554（no-vig）＋base 0.588（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.571。",
    "deep_dive_detail": {
     "title": "VALORANT",
@@ -20908,7 +20917,8 @@
     "prior_prob": 0.5711,
     "edge_or_ev": "EDGE+1.7pt／EV-3.5%",
     "rationale": "④：market 0.554（no-vig）＋base 0.588（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.571。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-8e1fe330",
@@ -21225,8 +21235,8 @@
    "reliability": "medium",
    "base_prob": 0.375,
    "market_prob": 0.2375,
-   "status": "watch",
-   "reason": "base（内製log5）と市場の乖離が過大（14pt・EV+21.0%）：正式採用しない（前回の深掘り判定を引継ぎ）",
+   "status": "accepted",
+   "reason": "競技枠（Dota 2の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 30.6%でEV+21.0%が競技内で最上位。通常基準での判定は watch：base（内製log5）と市場の乖離が過大（14pt・EV+21.0%）：正式採用しない（前回の深掘り判定を引継ぎ）",
    "rationale": "④：market 0.237（no-vig）＋base 0.375（直近成績log5）を等分、expert_adjustment 0 → final 0.306。",
    "deep_dive_detail": {
     "title": "Dota 2",
@@ -21286,7 +21296,8 @@
     "prior_prob": 0.3062,
     "edge_or_ev": "EDGE+6.9pt／EV+21.0%",
     "rationale": "④：market 0.237（no-vig）＋base 0.375（直近成績log5）を等分、expert_adjustment 0 → final 0.306。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-a85e1677",
@@ -21302,8 +21313,8 @@
    "reliability": "medium",
    "base_prob": 0.3478,
    "market_prob": 0.3052,
-   "status": "rejected",
-   "reason": "EDGE+2.1pt・EV-3.4%（前回の深掘り判定を引継ぎ）",
+   "status": "accepted",
+   "reason": "競技枠（CrossFireの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 32.6%でEV-3.4%が競技内で最上位。通常基準での判定は rejected：EDGE+2.1pt・EV-3.4%（前回の深掘り判定を引継ぎ）",
    "rationale": "④：market 0.305（no-vig）＋base 0.348（直近成績log5）を等分、expert_adjustment 0 → final 0.326。",
    "deep_dive_detail": {
     "title": "CrossFire",
@@ -21381,7 +21392,8 @@
     "prior_prob": 0.3265,
     "edge_or_ev": "EDGE+2.1pt／EV-3.4%",
     "rationale": "④：market 0.305（no-vig）＋base 0.348（直近成績log5）を等分、expert_adjustment 0 → final 0.326。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-badae5c2",
@@ -22980,5 +22992,6 @@
    "reliability": "low",
    "reason": "独立ベース確率なし：深掘り未実施（開始まで72時間超のため直前の定時更新で徹底取得）（市場確率の流用は禁止）（今回の公開配信に掲載なし・前回判定を引継ぎ）"
   }
- ]
+ ],
+ "floor_applied_at": "2026-09-29T20:33:40+09:00"
 }

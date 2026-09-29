@@ -62,7 +62,8 @@ def main():
         led = {lg: core.load(f"ledger/{lg}.json", []) for lg in core.LOGICS + ("experience",)}
         pub = core.load("summary.json", {})
         logics = {lg: core.summarize(led[lg], matches) for lg in led}
-        ok38 = pub.get("logics") == logics and pub.get("gap_bands") == core.gap_bands(led, odds) and pub.get("analytics") == core.analytics(led, matches, odds, core.load("odds_closing.json", []))
+        bt = {lg: {t: core.summarize([e for e in led[lg] if (e.get("pick_type") or "criteria") == t], matches) for t in ("criteria", "sport_floor")} for lg in led}
+        ok38 = pub.get("by_type") == bt and pub.get("logics") == logics and pub.get("gap_bands") == core.gap_bands(led, odds) and pub.get("analytics") == core.analytics(led, matches, odds, core.load("odds_closing.json", []))
         runs = core.load("automation-runs.json", [])
         ok37 = bool(runs) and pub.get("run_id") == runs[-1].get("run_id")
     except Exception as e:

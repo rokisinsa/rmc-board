@@ -2892,8 +2892,8 @@
    "nv": 57.2,
    "gap": 57,
    "overround": 6.2,
-   "status": "rejected",
-   "reason": "格差不足（本命1.645）",
+   "status": "accepted",
+   "reason": "競技枠（VALORANTの中で最上位・全競技から必ず出す）：控除後勝率57.2%（格差57）が競技内で最上位。通常基準での判定は rejected：格差不足（本命1.645）",
    "rationale": "①：NRG Esports 1.645（Bovada）。控除後の適正勝率57.2%。重大なリスク要因なし",
    "deep_dive_detail": {
     "title": "VALORANT",
@@ -2948,7 +2948,8 @@
     "prior_prob": 0.5722,
     "edge_or_ev": "格差57",
     "rationale": "①：NRG Esports 1.645（Bovada）。控除後の適正勝率57.2%。重大なリスク要因なし"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-096c2e08",
@@ -10584,8 +10585,8 @@
    "nv": 82.8,
    "gap": 83,
    "overround": 7.8,
-   "status": "watch",
-   "reason": "徹底取得済み・リスク要因：BO1（前回の深掘り判定を引継ぎ）",
+   "status": "accepted",
+   "reason": "競技枠（CS2の中で最上位・全競技から必ず出す）：控除後勝率82.8%（格差83）が競技内で最上位。通常基準での判定は watch：徹底取得済み・リスク要因：BO1（前回の深掘り判定を引継ぎ）",
    "rationale": "①：Sangal Esports 1.12（BET CHANNEL）。控除後の適正勝率82.8%。リスク：BO1",
    "deep_dive_detail": {
     "title": "CS2",
@@ -10653,7 +10654,8 @@
     "prior_prob": 0.8282,
     "edge_or_ev": "格差83",
     "rationale": "①：Sangal Esports 1.12（BET CHANNEL）。控除後の適正勝率82.8%。リスク：BO1"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-9e355dfe",
@@ -12013,8 +12015,8 @@
    "nv": 67.7,
    "gap": 68,
    "overround": 6.7,
-   "status": "watch",
-   "reason": "深掘り済み・リスク要因：事実不足（Forsakenの直近成績1試合）・事実不足（The Secret Clubの直近成績2試合）",
+   "status": "accepted",
+   "reason": "競技枠（LoLの中で最上位・全競技から必ず出す）：控除後勝率67.7%（格差68）が競技内で最上位。通常基準での判定は watch：深掘り済み・リスク要因：事実不足（Forsakenの直近成績1試合）・事実不足（The Secret Clubの直近成績2試合）",
    "rationale": "①：Forsaken 1.385（Bovada）。控除後の適正勝率67.7%。リスク：事実不足（Forsakenの直近成績1試合）・事実不足（The Secret Clubの直近成績2試合）",
    "deep_dive_detail": {
     "title": "LoL",
@@ -12068,7 +12070,8 @@
     "prior_prob": 0.6768,
     "edge_or_ev": "格差68",
     "rationale": "①：Forsaken 1.385（Bovada）。控除後の適正勝率67.7%。リスク：事実不足（Forsakenの直近成績1試合）・事実不足（The Secret Clubの直近成績2試合）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-9eca3afb",
@@ -12489,8 +12492,8 @@
    "nv": 63.0,
    "gap": 63,
    "overround": 4.6,
-   "status": "rejected",
-   "reason": "格差不足（本命1.518）",
+   "status": "accepted",
+   "reason": "競技枠（野球の中で最上位・全競技から必ず出す）：控除後勝率63.0%（格差63）が競技内で最上位。通常基準での判定は rejected：格差不足（本命1.518）",
    "rationale": "①：Atlanta Braves 1.518（Bovada）。控除後の適正勝率63.0%。リスク：短期戦フォーマット",
    "deep_dive_detail": {
     "title": "野球",
@@ -12534,7 +12537,8 @@
     "prior_prob": 0.6296,
     "edge_or_ev": "格差63",
     "rationale": "①：Atlanta Braves 1.518（Bovada）。控除後の適正勝率63.0%。リスク：短期戦フォーマット"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-d77b9c3d",
@@ -15327,8 +15331,8 @@
    "nv": 61.6,
    "gap": 62,
    "overround": 6.3,
-   "status": "rejected",
-   "reason": "格差不足（本命1.526）",
+   "status": "accepted",
+   "reason": "競技枠（ダーツの中で最上位・全競技から必ず出す）：控除後勝率61.6%（格差62）が競技内で最上位。通常基準での判定は rejected：格差不足（本命1.526）",
    "rationale": "①：Stephen Bunting 1.526（Bovada）。控除後の適正勝率61.6%。リスク：短期戦フォーマット・事実不足（Stephen Buntingの直近成績2試合）・事実不足（Andrew Gildingの直近成績3試合）",
    "deep_dive_detail": {
     "title": "ダーツ",
@@ -15371,7 +15375,8 @@
     "prior_prob": 0.6162,
     "edge_or_ev": "格差62",
     "rationale": "①：Stephen Bunting 1.526（Bovada）。控除後の適正勝率61.6%。リスク：短期戦フォーマット・事実不足（Stephen Buntingの直近成績2試合）・事実不足（Andrew Gildingの直近成績3試合）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-f202b0ec",
@@ -19959,8 +19964,8 @@
    "nv": 87.3,
    "gap": 87,
    "overround": 5.0,
-   "status": "watch",
-   "reason": "深掘り済み・リスク要因：事実不足（Indiaの直近成績1試合）・事実不足（West Indiesの直近成績1試合）",
+   "status": "accepted",
+   "reason": "競技枠（クリケットの中で最上位・全競技から必ず出す）：控除後勝率87.3%（格差87）が競技内で最上位。通常基準での判定は watch：深掘り済み・リスク要因：事実不足（Indiaの直近成績1試合）・事実不足（West Indiesの直近成績1試合）",
    "rationale": "①：India 1.091（Bovada）。控除後の適正勝率87.3%。リスク：事実不足（Indiaの直近成績1試合）・事実不足（West Indiesの直近成績1試合）",
    "deep_dive_detail": {
     "title": "クリケット",
@@ -20001,7 +20006,8 @@
     "prior_prob": 0.873,
     "edge_or_ev": "格差87",
     "rationale": "①：India 1.091（Bovada）。控除後の適正勝率87.3%。リスク：事実不足（Indiaの直近成績1試合）・事実不足（West Indiesの直近成績1試合）"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-a3887417",
@@ -20286,8 +20292,8 @@
    "nv": 85.5,
    "gap": 86,
    "overround": 6.3,
-   "status": "watch",
-   "reason": "深掘り済み・リスク要因：BO1",
+   "status": "accepted",
+   "reason": "競技枠（Rainbow Sixの中で最上位・全競技から必ず出す）：控除後勝率85.5%（格差86）が競技内で最上位。通常基準での判定は watch：深掘り済み・リスク要因：BO1",
    "rationale": "①：Weibo Gaming 1.1（Bovada）。控除後の適正勝率85.5%。リスク：BO1",
    "deep_dive_detail": {
     "title": "Rainbow Six",
@@ -20344,7 +20350,8 @@
     "prior_prob": 0.8553,
     "edge_or_ev": "格差86",
     "rationale": "①：Weibo Gaming 1.1（Bovada）。控除後の適正勝率85.5%。リスク：BO1"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-90bb624c",
@@ -20780,8 +20787,8 @@
    "nv": 69.5,
    "gap": 69,
    "overround": 10.7,
-   "status": "watch",
-   "reason": "格差69（基準70未満）（前回の深掘り判定を引継ぎ）",
+   "status": "accepted",
+   "reason": "競技枠（CrossFireの中で最上位・全競技から必ず出す）：控除後勝率69.5%（格差69）が競技内で最上位。通常基準での判定は watch：格差69（基準70未満）（前回の深掘り判定を引継ぎ）",
    "rationale": "①：KINGZERO-eSports 1.3（BET CHANNEL）。控除後の適正勝率69.5%。重大なリスク要因なし",
    "deep_dive_detail": {
     "title": "CrossFire",
@@ -20859,7 +20866,8 @@
     "prior_prob": 0.6948,
     "edge_or_ev": "格差69",
     "rationale": "①：KINGZERO-eSports 1.3（BET CHANNEL）。控除後の適正勝率69.5%。重大なリスク要因なし"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-badae5c2",
@@ -22477,5 +22485,6 @@
    "status": "watch",
    "reason": "一次通過（格差78）・深掘り未実施（開始まで72時間超のため直前の定時更新で徹底取得）（今回の公開配信に掲載なし・前回判定を引継ぎ）"
   }
- ]
+ ],
+ "floor_applied_at": "2026-09-29T20:33:40+09:00"
 }

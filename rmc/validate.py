@@ -216,6 +216,18 @@ def check_facts_coverage(rep, matches):
             rep.err("FACTS_COVERAGE", f"{mid}: 共通相手用の60日 history が空（確認結果の unavailable も無い）")
 
 
+def check_sport_floor(rep, matches):
+    """全競技（リアル・eスポーツ）から①〜④それぞれ必ず正式採用が出ているか（ユーザー指示 2026-09-29）。"""
+    from . import select
+    for lg in LOGICS:
+        a = load(f"analysis/{lg}.json") or {}
+        locked = max(a.get("decided_at") or "", a.get("floor_applied_at") or "")
+        if not locked:
+            continue
+        for sp in select.missing_floor(lg, a.get("rows", []), matches, locked):
+            rep.err("SPORT_FLOOR", f"{lg}/{sp}: 対象試合があるのに正式採用が1件もない（rmc.select.apply_floor で競技枠を出す）")
+
+
 def check_runs(rep, runs, ana_by_logic):
     if not runs:
         rep.err("RUNS_EMPTY", "automation-runs.json に記録がない")
@@ -309,6 +321,7 @@ def run(base=None):
     check_facts(rep, matches)
     check_facts_coverage(rep, matches)
     check_results_overdue(rep, matches)
+    check_sport_floor(rep, matches)
     # profit audit
     summ = load("summary.json")
     recomputed = {lg: summarize(load(f"ledger/{lg}.json", []), matches) for lg in LOGICS + ("experience",)}
@@ -316,7 +329,10 @@ def run(base=None):
     gb = gap_bands({lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}, load("odds_snapshots.json", []))
     from .core import analytics as _an
     an = _an({lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}, matches, load("odds_snapshots.json", []), load("odds_closing.json", []))
-    if summ is None or summ.get("logics") != recomputed or summ.get("gap_bands") != gb or summ.get("analytics") != an:
+    led_all = {lg: load(f"ledger/{lg}.json", []) for lg in LOGICS + ("experience",)}
+    bt = {lg: {t: summarize([e for e in led_all[lg] if (e.get("pick_type") or "criteria") == t], matches)
+               for t in ("criteria", "sport_floor")} for lg in led_all}
+    if summ is None or summ.get("logics") != recomputed or summ.get("gap_bands") != gb or summ.get("analytics") != an or summ.get("by_type") != bt:
         rep.err("PROFIT_AUDIT", "summary.json が台帳からの再計算と一致しない（python -m rmc.build を実行）")
     return rep
 

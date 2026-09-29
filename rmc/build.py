@@ -16,6 +16,8 @@ def build():
         "run_status": last.get("status"),
         "built_at": now_jst(),
         "logics": logics,
+        "by_type": {lg: {t: summarize([e for e in ledgers[lg] if (e.get("pick_type") or "criteria") == t], matches)
+                         for t in ("criteria", "sport_floor")} for lg in ledgers},  # 通常基準／競技枠の内訳
         "gap_bands": gap_bands(ledgers, load("odds_snapshots.json", [])),  # 格差スコア帯別の単利収支（結果確定で自動更新）
         "analytics": analytics(ledgers, matches, load("odds_snapshots.json", []), load("odds_closing.json", [])),  # CLV・calibration・オッズ帯ROI
     }

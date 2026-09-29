@@ -65,6 +65,27 @@ class TestSettlement(Base):
         self.assertGreater(s["kelly_quarter"]["bankroll"], 100)
 
 
+class TestSportFloor(unittest.TestCase):
+    def test_floor_picks_best_in_sport(self):
+        import tempfile, shutil
+        from rmc import select
+        tmp = tempfile.mkdtemp(); old = core.DATA; core.DATA = tmp
+        try:
+            f = lambda n: {"name": n, "form": [{"date": "2026-09-20", "opp": "X", "res": "W"}] * 6}
+            for mid in ("a", "b"):
+                core.save(f"facts/{mid}.json", {"match_id": mid, "left": f("L"), "right": f("R"), "h2h": []})
+            m = {mid: dict(sport="サッカー", start_jst="2026-10-01T20:00:00+09:00", left="L" + mid, right="R" + mid, flags=[]) for mid in ("a", "b")}
+            det = lambda L, R: {"odds": {"book": "X", "L": L, "R": R, "exact": True, "taken_at": "2026-10-01T10:00:00+09:00"}}
+            rows = [dict(match_id="a", status="rejected", reason="格差不足", deep_dive=True, deep_dive_detail=det(1.6, 2.4)),
+                    dict(match_id="b", status="rejected", reason="格差不足", deep_dive=True, deep_dive_detail=det(1.3, 3.8))]
+            new = select.apply_floor("r1", rows, m, [], "2026-10-01T12:00:00+09:00")
+            self.assertEqual([(e["match_id"], e["selection_key"], e["pick_type"]) for e in new], [("b", "L", "sport_floor")])
+            self.assertEqual(rows[1]["status"], "accepted")
+            self.assertEqual(select.missing_floor("r1", rows, m, "2026-10-01T12:00:00+09:00"), [])
+        finally:
+            core.DATA = old; shutil.rmtree(tmp)
+
+
 class TestGapBands(unittest.TestCase):
     def test_bands(self):
         odds = [dict(match_id="m1", taken_at="2026-10-01T11:00:00+09:00", prices={"L": 1.2, "R": 4.5}),

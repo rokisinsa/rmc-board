@@ -8472,11 +8472,11 @@
    "match_id": "m20260930-05d16bcd",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
-   "pick": "Dynamo Pardubice",
-   "odds": 1.26,
+   "status": "formal",
+   "pick": "Ceske Budejovice",
+   "odds": 3.65,
    "need": 79.4,
-   "reason": "独立モデルなし：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし（前回の深掘り判定を引継ぎ）",
+   "reason": "競技枠（アイスホッケーの中で最上位・全競技から必ず出す）：独立勝率31.0%（RMC log5（直近シリーズ勝率・ラプラス補正、data/）×3.65 の中央EV+13.3%が競技内で最上位。通常基準での判定は excluded：独立モデルなし：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし（前回の深掘り判定を引継ぎ）",
    "rationale": "②：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし",
    "deep_dive_detail": {
     "title": "アイスホッケー",
@@ -8525,7 +8525,8 @@
      "reason": "チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし"
     },
     "rationale": "②：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-c44ee0e9",
@@ -9538,11 +9539,11 @@
    "match_id": "m20260930-a0ae94fe",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
+   "status": "formal",
    "pick": "Hapoel Jerusalem",
    "odds": 1.111,
    "need": 90.0,
-   "reason": "独立モデルなし：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし",
+   "reason": "競技枠（バスケットボールの中で最上位・全競技から必ず出す）：独立勝率86.2%（RMC log5（直近シリーズ勝率・ラプラス補正、data/）×1.111 の中央EV-4.2%が競技内で最上位。通常基準での判定は excluded：独立モデルなし：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし",
    "rationale": "②：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし",
    "deep_dive_detail": {
     "title": "バスケットボール",
@@ -9592,7 +9593,8 @@
      "reason": "Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし"
     },
     "rationale": "②：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-d2d97076",
@@ -12508,8 +12510,8 @@
    "need": 30.8,
    "est": "33.7〜49.7%",
    "ev_range": "+9.4〜+61.4%",
-   "status": "watch",
-   "reason": "内製モデルと市場の乖離が過大（13pt・モデル42%対市場29%・中央EV+35.4%）：相手の強さ未補正log5の歪みの可能性があり正式採用しない（前回の深掘り判定を引継ぎ）",
+   "status": "formal",
+   "reason": "競技枠（CS2の中で最上位・全競技から必ず出す）：独立勝率41.7%（判定時の独立モデル）×3.25 の中央EV+35.4%が競技内で最上位。通常基準での判定は watch：内製モデルと市場の乖離が過大（13pt・モデル42%対市場29%・中央EV+35.4%）：相手の強さ未補正log5の歪みの可能性があり正式採用しない（前回の深掘り判定を引継ぎ）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 5勝/10試合→0.500、右 4勝/10試合→0.417。HyperSpirit勝率0.417を±0.08の幅で評価、必要勝率0.308。",
    "deep_dive_detail": {
     "title": "CS2",
@@ -12577,7 +12579,8 @@
     "prior_prob": 0.4167,
     "edge_or_ev": "EV+35.4%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 5勝/10試合→0.500、右 4勝/10試合→0.417。HyperSpirit勝率0.417を±0.08の幅で評価、必要勝率0.308。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-16939ccb",
@@ -13125,13 +13128,13 @@
    "match_id": "m20260930-77c49cad",
    "deep_dive": true,
    "priced": true,
-   "pick": "Czechia",
-   "odds": 9.0,
+   "pick": "England",
+   "odds": 1.312,
    "need": 11.1,
    "est": "11.7〜19.7%",
    "ev_range": "+5.3〜+77.3%",
-   "status": "conditional",
-   "reason": "EV条件は満たすがリスク要因：事実不足（Czechiaの直近成績1試合）",
+   "status": "formal",
+   "reason": "競技枠（サッカーの中で最上位・全競技から必ず出す）：独立勝率84.3%（判定時の独立モデル）×1.312 の中央EV+10.6%が競技内で最上位。通常基準での判定は conditional：EV条件は満たすがリスク要因：事実不足（Czechiaの直近成績1試合）",
    "rationale": "②：Opta Analyst supercomputer。as_of 2026-09-28（https://theanalyst.com/articles/czechia-vs-england-prediction-u。Czechia勝率0.157を±0.04で評価、必要勝率0.111。",
    "deep_dive_detail": {
     "title": "サッカー",
@@ -13177,7 +13180,8 @@
     "prior_prob": 0.157,
     "edge_or_ev": "EV+41.3%",
     "rationale": "②：Opta Analyst supercomputer。as_of 2026-09-28（https://theanalyst.com/articles/czechia-vs-england-prediction-u。Czechia勝率0.157を±0.04で評価、必要勝率0.111。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-5d52083d",
@@ -14733,11 +14737,11 @@
    "match_id": "m20260930-3d018c3c",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
-   "pick": "Gian van Veen",
-   "odds": 1.541,
+   "status": "formal",
+   "pick": "Dirk van Duijvenbode",
+   "odds": 2.4,
    "need": 64.9,
-   "reason": "独立モデルなし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず",
+   "reason": "競技枠（ダーツの中で最上位・全競技から必ず出す）：独立勝率55.6%（RMC log5（直近シリーズ勝率・ラプラス補正、data/）×2.4 の中央EV+33.3%が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は excluded：独立モデルなし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず",
    "rationale": "②：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず",
    "deep_dive_detail": {
     "title": "ダーツ",
@@ -14787,7 +14791,8 @@
      "reason": "外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず"
     },
     "rationale": "②：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-df701c89",
@@ -15272,8 +15277,8 @@
    "need": 55.7,
    "est": "53.7〜61.7%",
    "ev_range": "-3.7〜+10.7%",
-   "status": "watch",
-   "reason": "レンジ上側のみプラス（中央EV+3.5%）",
+   "status": "formal",
+   "reason": "競技枠（野球の中で最上位・全競技から必ず出す）：独立勝率57.7%（判定時の独立モデル）×1.794 の中央EV+3.5%が競技内で最上位。通常基準での判定は watch：レンジ上側のみプラス（中央EV+3.5%）",
    "rationale": "②：Dimers（試合シミュレーションモデル）。as_of 2026-09-29（https://www.dimers.com/mlb/predictions）。Houston Astros勝率0.577を±0.04で評価、必要勝率0.557。",
    "deep_dive_detail": {
     "title": "野球",
@@ -15316,7 +15321,8 @@
     "prior_prob": 0.577,
     "edge_or_ev": "EV+3.5%",
     "rationale": "②：Dimers（試合シミュレーションモデル）。as_of 2026-09-29（https://www.dimers.com/mlb/predictions）。Houston Astros勝率0.577を±0.04で評価、必要勝率0.557。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260929-e25a3f42",
@@ -17664,11 +17670,11 @@
    "match_id": "m20260930-766b036f",
    "deep_dive": true,
    "priced": true,
-   "status": "excluded",
-   "pick": "Joint M.",
-   "odds": 1.3,
+   "status": "formal",
+   "pick": "Kraus S.",
+   "odds": 3.5,
    "need": 76.9,
-   "reason": "独立モデルなし：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず（前回の深掘り判定を引継ぎ）",
+   "reason": "競技枠（テニスの中で最上位・全競技から必ず出す）：独立勝率34.8%（RMC log5（直近シリーズ勝率・ラプラス補正、data/）×3.5 の中央EV+21.7%が競技内で最上位。通常基準での判定は excluded：独立モデルなし：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず（前回の深掘り判定を引継ぎ）",
    "rationale": "②：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず",
    "deep_dive_detail": {
     "title": "テニス",
@@ -17712,7 +17718,8 @@
      "reason": "Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず"
     },
     "rationale": "②：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-27922a8b",
@@ -18051,8 +18058,8 @@
    "need": 72.2,
    "est": "60.2〜76.2%",
    "ev_range": "-16.7〜+5.5%",
-   "status": "watch",
-   "reason": "レンジ上側のみプラス（中央EV-5.6%）",
+   "status": "formal",
+   "reason": "競技枠（LoLの中で最上位・全競技から必ず出す）：独立勝率68.2%（判定時の独立モデル）×1.385 の中央EV-5.6%が競技内で最上位。通常基準での判定は watch：レンジ上側のみプラス（中央EV-5.6%）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 8勝/10試合→0.750、右 6勝/10試合→0.583。Solary勝率0.682を±0.08で評価、必要勝率0.722。",
    "deep_dive_detail": {
     "title": "LoL",
@@ -18111,7 +18118,8 @@
     "prior_prob": 0.6818,
     "edge_or_ev": "EV-5.6%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 8勝/10試合→0.750、右 6勝/10試合→0.583。Solary勝率0.682を±0.08で評価、必要勝率0.722。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-874616b7",
@@ -19887,8 +19895,8 @@
    "need": 90.9,
    "est": "79.5〜95.5%",
    "ev_range": "-12.5〜+5.0%",
-   "status": "watch",
-   "reason": "レンジ上側のみプラス（中央EV-3.7%）",
+   "status": "formal",
+   "reason": "競技枠（Rainbow Sixの中で最上位・全競技から必ず出す）：独立勝率87.5%（判定時の独立モデル）×1.1 の中央EV-3.7%が競技内で最上位。通常基準での判定は watch：レンジ上側のみプラス（中央EV-3.7%）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 9勝/10試合→0.833、右 4勝/10試合→0.417。Weibo Gaming勝率0.875を±0.08で評価、必要勝率0.909。",
    "deep_dive_detail": {
     "title": "Rainbow Six",
@@ -19945,7 +19953,8 @@
     "prior_prob": 0.875,
     "edge_or_ev": "EV-3.7%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 9勝/10試合→0.833、右 4勝/10試合→0.417。Weibo Gaming勝率0.875を±0.08で評価、必要勝率0.909。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-90bb624c",
@@ -19956,8 +19965,8 @@
    "need": 59.2,
    "est": "50.8〜66.8%",
    "ev_range": "-14.1〜+12.9%",
-   "status": "watch",
-   "reason": "レンジ上側のみプラス（中央EV-0.6%）",
+   "status": "formal",
+   "reason": "競技枠（VALORANTの中で最上位・全競技から必ず出す）：独立勝率58.8%（判定時の独立モデル）×1.69 の中央EV-0.6%が競技内で最上位。通常基準での判定は watch：レンジ上側のみプラス（中央EV-0.6%）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 6勝/10試合→0.583、右 7勝/10試合→0.667。LOUD勝率0.588を±0.08で評価、必要勝率0.592。",
    "deep_dive_detail": {
     "title": "VALORANT",
@@ -20012,7 +20021,8 @@
     "prior_prob": 0.5882,
     "edge_or_ev": "EV-0.6%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 6勝/10試合→0.583、右 7勝/10試合→0.667。LOUD勝率0.588を±0.08で評価、必要勝率0.592。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-8e1fe330",
@@ -20309,8 +20319,8 @@
    "need": 25.3,
    "est": "29.5〜45.5%",
    "ev_range": "+16.5〜+79.7%",
-   "status": "watch",
-   "reason": "内製モデルと市場の乖離が過大（14pt・モデル38%対市場24%・中央EV+48.1%）：相手の強さ未補正log5の歪みの可能性があり正式採用しない（前回の深掘り判定を引継ぎ）",
+   "status": "formal",
+   "reason": "競技枠（Dota 2の中で最上位・全競技から必ず出す）：独立勝率37.5%（判定時の独立モデル）×3.95 の中央EV+48.1%が競技内で最上位。通常基準での判定は watch：内製モデルと市場の乖離が過大（14pt・モデル38%対市場24%・中央EV+48.1%）：相手の強さ未補正log5の歪みの可能性があり正式採用しない（前回の深掘り判定を引継ぎ）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 5勝/10試合→0.500、右 3.5勝/10試合→0.375。Team OG勝率0.375を±0.08の幅で評価、必要勝率0.253。",
    "deep_dive_detail": {
     "title": "Dota 2",
@@ -20370,7 +20380,8 @@
     "prior_prob": 0.375,
     "edge_or_ev": "EV+48.1%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 5勝/10試合→0.500、右 3.5勝/10試合→0.375。Team OG勝率0.375を±0.08の幅で評価、必要勝率0.253。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-a85e1677",
@@ -20381,8 +20392,8 @@
    "need": 33.8,
    "est": "26.8〜42.8%",
    "ev_range": "-20.7〜+26.6%",
-   "status": "watch",
-   "reason": "レンジ上側のみプラス（中央EV+2.9%）（前回の深掘り判定を引継ぎ）",
+   "status": "formal",
+   "reason": "競技枠（CrossFireの中で最上位・全競技から必ず出す）：独立勝率34.8%（判定時の独立モデル）×2.96 の中央EV+2.9%が競技内で最上位。通常基準での判定は watch：レンジ上側のみプラス（中央EV+2.9%）（前回の深掘り判定を引継ぎ）",
    "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 3勝/5試合→0.571、右 4勝/5試合→0.714。XROCK勝率0.348を±0.08の幅で評価、必要勝率0.338。",
    "deep_dive_detail": {
     "title": "CrossFire",
@@ -20460,7 +20471,8 @@
     "prior_prob": 0.3478,
     "edge_or_ev": "EV+2.9%",
     "rationale": "②：RMC log5（直近シリーズ勝率・ラプラス補正、data/facts の行データから計算）。左 3勝/5試合→0.571、右 4勝/5試合→0.714。XROCK勝率0.348を±0.08の幅で評価、必要勝率0.338。"
-   }
+   },
+   "pick_type": "sport_floor"
   },
   {
    "match_id": "m20260930-badae5c2",
@@ -21940,5 +21952,6 @@
    "need": 86.2,
    "reason": "独立勝率なし：深掘り未実施（開始まで72時間超のため直前の定時更新で徹底取得）（今回の公開配信に掲載なし・前回判定を引継ぎ）"
   }
- ]
+ ],
+ "floor_applied_at": "2026-09-29T20:33:40+09:00"
 }

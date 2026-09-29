@@ -289,8 +289,11 @@ for mid in inventory:
 core.save("matches.json", matches)
 core.save("odds_snapshots.json", odds)
 os.makedirs(core.path("snapshots", RUN_ID), exist_ok=True)
+from rmc import select   # 競技枠：全競技から①〜④それぞれ必ず正式採用を出す（ユーザー指示 2026-09-29）
 for lg in core.LOGICS:
-    a = dict(logic=lg, run_id=RUN_ID, run_started_at=STARTED, decided_at=LOCKED, rows=rows[lg])
+    new_entries[lg] = [e for e in new_entries[lg] if e] + select.apply_floor(lg, rows[lg], matches, ledgers[lg] + [e for e in new_entries[lg] if e], LOCKED)
+for lg in core.LOGICS:
+    a = dict(logic=lg, run_id=RUN_ID, run_started_at=STARTED, decided_at=LOCKED, floor_applied_at=LOCKED, rows=rows[lg])
     core.save(f"analysis/{lg}.json", a)
     core.save(f"snapshots/{RUN_ID}/{lg}.json", a)
     have = {e["entry_id"] for e in ledgers[lg]}
