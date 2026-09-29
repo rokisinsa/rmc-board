@@ -1,0 +1,66 @@
+{
+ "at": "2026-09-29T13:14:09Z",
+ "results": {
+  "sofascore_football": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "sofascore_www": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "espn_soccer_all": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "espn_u21q": {
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "clubelo": {
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  "eloratings_world": {
+   "code": 200,
+   "bytes": 30631,
+   "head": "1\t1\tES\t2277\t1\t2277\t7\t1947\t19\t1806\t+1\t+133\t0\t+103\t0\t+98\t0\t+120\t+7\t+268\t+5\t+321\t791\t341\t303\t147\t470\t138\t183\t1612\t702\n2\t2\tAR\t2173\t1\t2200\t5\t1988\t26\t1751\t−1\t+25\t0\t+60\t0\t+64\t0\t+23\t+1\t+94\t−1\t+73\t1119\t381\t419\t319\t619\t229\t271\t2136\t1144\n3\t3\tEN\t2107\t1\t2213\t4\t1983\t17\t1810\t+1\t+69\t+1\t+71\t+2\t+88\t+3\t+112\t+3\t+62"
+  },
+  "eloratings_teams": {
+   "code": 200,
+   "bytes": 7277,
+   "head": "DN\tAden\nAF\tAfghanistan\nAL\tAlbania\nDZ\tAlgeria\nAD\tAndorra\nAO\tAngola\nAI\tAnguilla\nAG\tAntigua and Barbuda\tAntigua & Barbuda\tAntigua/Barbuda\tAntigua/Barb\nAR\tArgentina\nAM\tArmenia\nAW\tAruba\nAU\tAustralia\nAT\tAustria\nAH\tAustria-Hungary\nAZ\tAzerbaijan\nBS\tBahamas\nBS_loc\tin the Bahamas\tin Bahamas\nBH\tBahrain\nBD\tBang"
+  },
+  "vrs_repo": {
+   "code": 200,
+   "bytes": 2796,
+   "head": "[\n  {\n    \"name\": \"2024\",\n    \"path\": \"live/2024\",\n    \"sha\": \"e851f4a575de610a12ffdd1e5b1ee6a0575a6bb1\",\n    \"size\": 0,\n    \"url\": \"https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/contents/live/2024?ref=main\",\n    \"html_url\": \"https://github.com/ValveSoftware/counter-st"
+  },
+  "tennisexplorer_rank": {
+   "code": 200,
+   "bytes": 133511,
+   "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://developers.facebook.com/schema/\">\n<head>\n    <"
+  },
+  "tennisabstract_elo": {
+   "code": 200,
+   "bytes": 287490,
+   "head": "<html><head>\r\n<title>Tennis Abstract: ATP Elo Ratings</title>\r\n<link rel=\"stylesheet\" href=\"https://www.tennisabstract.com/blue/style.css\" type=\"text/css\">\r\n<script type=\"text/javascript\" src=\"https://www.tennisabstract.com/jquery-1.7.1-min.js\"></script>\r\n<script type=\"text/javascript\" src=\"https://"
+  },
+  "thesportsdb": {
+   "code": 200,
+   "bytes": 4379,
+   "head": "{\"events\":[{\"idEvent\":\"2269533\",\"idAPIfootball\":\"1350169\",\"strTimestamp\":\"2026-09-29T18:00:00\",\"strEvent\":\"Belgium U21 vs Wales U21\",\"strEventAlternate\":\"Wales U21 @ Belgium U21\",\"strFilename\":\"UEFA European Under-21 Championship 2026-09-29 Belgium U21 vs Wales U21\",\"strSport\":\"Soccer\",\"idLeague\":\"4"
+  },
+  "liquipedia_cs": {
+   "error": "HTTPError: HTTP Error 406: Gzip encoding is required for API requests. See liquipedia.net/api-terms-of-use"
+  },
+  "fivb": {
+   "code": 200,
+   "bytes": 66023,
+   "head": "<!DOCTYPE html><html lang=en><head><meta charset=utf-8 /><meta name=viewport content=\"width=device-width, initial-scale=1.0\"/><link rel=\"shortcut icon\" href=https://images.volleyballworld.com/image/upload/f_auto/assets/favicons/favicon.ico /><link rel=icon href=https://images.volleyballworld.com/ima"
+  },
+  "fifa": {
+   "code": 200,
+   "bytes": 217671,
+   "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><title>FIFA/Coca-Cola Men&#x27;s World Ranking</title><meta id=\"elastic-search\" content=\"{&quot;id&quot;:&quot;x2mWBtpdYTxq6KKGP6mI1&quot;,&quot;title&quot;:&quot;FIFA/Coca-Cola Men&#x27;s World Ranking&quot;,&quot;contentDate&quot;:&quot;2"
+  },
+  "fotmob": {
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ }
+}
