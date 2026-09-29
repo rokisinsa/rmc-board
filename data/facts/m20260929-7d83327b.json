@@ -1,48 +1,73 @@
 {
- "data_as_of": "2026-09-29T07:00:00+09:00",
- "unit": "セット",
+ "match_id": "m20260929-7d83327b",
  "left": {
-  "name": "Virtanen Otto",
-  "ranking": "Virtanen O. (7)",
-  "form": [],
+  "name": "オット・ビルタネン (Otto Virtanen)",
+  "ranking": "ATP 106位（最高91位）、第7シード。2026年 32-22（ハード 8-6）",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "バシュロ (V. Vacherot)",
+    "comp": "デビスカップ 第4試合（フィンランド対モナコ）",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-7(3) 6-4 4-6（Tennis Tonic表記 7-6(3) 4-6 6-4 を勝者側表記と解釈）"
+   }
+  ],
   "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Pereira Tiago",
-  "ranking": "Pereira T.",
-  "form": [],
-  "lineup": [],
+  "name": "チアゴ・ペレイラ (Tiago Pereira)",
+  "ranking": "ATP 339位（最高260位）。2026年 38-32（ハード 20-12）",
+  "form": [
+   {
+    "date": "2026-09-20",
+    "opp": "P.チチパス",
+    "comp": "Plovdiv 4 Challenger 予選",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "Tennis Tonic表記 6-7(3) 7-5 7-6(6)（勝者側表記と解釈するとペレイラ側 7-6 5-7 6-7）"
+   }
+  ],
+  "lineup": [
+   "地元ポルトガル選手"
+  ],
   "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "Porto challenger",
+ "venue": "Porto Challenger（ポルトガル）1回戦、ハード、Court 2 15:30現地予定。ペレイラはホーム",
  "risks": [
-  "直近フォーム・H2H・Eloが取得できておらず、オッズ以外の裏付けがない",
-  "棄権・ウォークオーバーの有無は未確認"
+  "form各1件のみ",
+  "開始時刻：Tennis Tonic 15:30現地（=23:30 JST）とリスト22:30 JSTが不一致",
+  "ビルタネンはデ杯明けで移動直後"
  ],
  "missing": [
-  "直近10試合（左右とも）",
-  "H2H",
-  "共通相手履歴",
-  "Tennis Abstract Elo"
+  "両者の直近10試合"
  ],
  "unavailable": {
-  "h2h": "H2Hを取得できず（tennisexplorer/matchstat等にアクセス不可）。初対戦とは確認していない",
-  "left.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "right.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "history": "両者の直近試合リストを取得できず共通相手を確認できない"
+  "h2h": "初対戦（Tennis Tonic）",
+  "left.form": "個別の試合一覧（tennisexplorer/ATP/sofascore）は本文取得不可。Tennis Tonicのプレビューに記載の直近1試合のみ",
+  "right.form": "個別の試合一覧（tennisexplorer/ATP/sofascore）は本文取得不可。Tennis Tonicのプレビューに記載の直近1試合のみ",
+  "history": "form不足で共通相手確認不可"
  },
- "source_urls": [],
- "match_id": "m20260929-7d83327b",
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058903/h2h-prediction-of-otto-virtanen-vs-tiago-pereira-in-porto-challenger-with-odds-preview-pick-29th-september-2026/"
+ ],
+ "unit": "セット",
+ "data_as_of": "2026-09-29T18:42:00+09:00",
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -53,14 +78,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
   },
   "right": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -71,7 +101,12 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1
   },
   "h2h": {
    "games": 0,

@@ -1,9 +1,10 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260930-d92842d5",
+ "data_as_of": "2026-09-29T18:32:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ティムロー（Timrå IK）",
-  "ranking": "SHL 2026/27 公式戦3試合（1勝2敗）",
+  "ranking": "SHL 2026/27 14位（3試合 0勝1延長勝2敗 2pt・hockeyresultat.se）",
   "form": [
    {
     "date": "2026-09-26",
@@ -12,7 +13,7 @@
     "ha": "H",
     "score": "3-2",
     "res": "W",
-    "detail": ""
+    "detail": "延長/SO勝ち（順位表OTW=1、唯一の勝利）"
    },
    {
     "date": "2026-09-22",
@@ -34,7 +35,7 @@
    }
   ],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": [
    {
@@ -59,7 +60,7 @@
  },
  "right": {
   "name": "ブリンネス（Brynäs IF）",
-  "ranking": "SHL 2026/27 公式戦3試合（2勝1敗）",
+  "ranking": "SHL 2026/27 4位（3試合 2勝1敗 6pt・hockeyresultat.se）",
   "form": [
    {
     "date": "2026-09-26",
@@ -90,7 +91,7 @@
    }
   ],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": [
    {
@@ -117,25 +118,27 @@
  "common_opponents_notes": [
   "共通相手: Linkoping（ティムロー敗、ブリンネス9-2勝ち）、Lulea（親善のみ）"
  ],
- "venue": "ティムロー（Timrå）のホーム",
+ "venue": "Monitor ERP Arena（イェヴレ）— ブリンネスのホーム、ティムローはアウェイ（sofascore/hockeyresultat）",
  "risks": [
-  "公式戦が3試合のみ",
-  "フラッシュスコアH2Hページがタイムアウト"
+  "公式戦3試合のみのサンプル",
+  "会場はブリンネスのホーム（Monitor ERP Arena, イェヴレ）でリスト左のティムローはアウェイ",
+  "既存ファクトの会場記載（ティムローのホーム）は誤りで修正"
  ],
  "missing": [
   "H2H",
   "ラインナップ"
  ],
  "unavailable": {
-  "h2h": "取得不可（flashscore H2Hページ読込タイムアウト）",
+  "h2h": "sofascore試合ページにH2H表示なし・flashscore H2Hタイムアウトで取得できず",
   "left.form": "開幕2026-09-19、公式戦3試合のみ（親善試合は除外）",
   "right.form": "同上"
  },
  "source_urls": [
   "https://scores24.live/en/ice-hockey/t-timraa-ik",
-  "https://scores24.live/en/ice-hockey/t-brynas-if"
+  "https://scores24.live/en/ice-hockey/t-brynas-if",
+  "https://www.sofascore.com/ice-hockey/match/timra-ik-brynas-if/CzbsGzb#id:16230714",
+  "https://hockeyresultat.se/shl-tabell/"
  ],
- "match_id": "m20260930-d92842d5",
  "calc": {
   "left": {
    "games": 3,

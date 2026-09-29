@@ -1,0 +1,161 @@
+{
+ "match_id": "m20260929-bb005ec6",
+ "data_as_of": "2026-09-29T18:32:03+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "マテウス・プシネリ・デアルメイダ（Matheus Pucinelli de Almeida, BRA）",
+  "ranking": "ATP 270（自己最高190）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "Dellien M.",
+    "comp": "Buenos Aires CH R32",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "7-5 4-6 4-6"
+   }
+  ],
+  "lineup": [
+   "2026年 32勝18敗（クレー29勝13敗）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "パウロ・サライヴァ・ドスサントス（Paulo Saraiva dos Santos, BRA）予選勝者",
+  "ranking": "ATP 435（自己最高）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Scheidt",
+    "comp": "Curitiba CH Q2",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-2 6-4"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Schenekenberg",
+    "comp": "Curitiba CH Q1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-5 6-4"
+   }
+  ],
+  "lineup": [
+   "2026年 36勝23敗（クレー26勝20敗）",
+   "予選2試合を消化"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-06",
+   "event": "Piracicaba CH R16",
+   "score": "2-1",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "detail": "6-3 4-6 6-2"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ATP Challenger 75 Curitiba（ブラジル）1回戦・クレー・両者ブラジル人",
+ "risks": [
+  "サライヴァは予選2連勝で勢い・連戦",
+  "予選の日付は推定（Q1/Q2順）"
+ ],
+ "missing": [
+  "両者の直近10試合"
+ ],
+ "unavailable": {
+  "left.form": "Tennis Tonicは直近1試合のみ記載",
+  "right.form": "Tennis Tonicは予選2試合のみ",
+  "history": "判定不可（form不足）"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1059003/h2h-prediction-of-matheus-pucinelli-de-almeida-vs-paulo-saraiva-dos-santos-in-curitiba-challenger-with-odds-preview-pick-29th-september-2026/",
+  "https://www.tenisnews.com.br/programacao-terca-curitiba/"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 15,
+   "inner_against": 17,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "units_won": 4,
+   "units_lost": 0,
+   "points_for": 4,
+   "points_against": 0,
+   "points_games": 2,
+   "inner_for": 25,
+   "inner_against": 15,
+   "inner_games": 2
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "units_left": 2,
+   "units_right": 1,
+   "points_left": 2,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 1.0,
+   "inner_left": 16,
+   "inner_right": 11,
+   "inner_games": 1
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

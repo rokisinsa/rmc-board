@@ -1,0 +1,149 @@
+{
+ "unit": "マップ",
+ "left": {
+  "name": "eSuba",
+  "ranking": "EMEA Masters Summer スイス（0勝同士の敗退決定戦とみられる（BO3））",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "LODIS",
+    "comp": "EMEA Masters 2026 Summer スイス（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Bushido Wildcats",
+    "comp": "EMEA Masters 2026 Summer スイス（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
+  ],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "White Dragons",
+  "ranking": "EMEA Masters Summer スイス（0勝同士の敗退決定戦とみられる（BO3））",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "HMBLE",
+    "comp": "EMEA Masters 2026 Summer スイス（BO1）",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 1
+   }
+  ],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "オンライン（EMEA Masters 2026 Summer スイス4回戦、中立）",
+ "unavailable": {
+  "h2h": "初対戦かは未確認：sheepesports/escorenewsの今大会記録に対戦なし、過去戦績DB（gol.gg/Leaguepedia/Liquipedia）は402/429/許可待ちで開けず",
+  "left.form": "今大会スイスの確認できた試合のみ（ERL国内リーグ分は時間制約で未取得）",
+  "right.form": "同左",
+  "history": "共通相手は今大会内のみ判定"
+ },
+ "match_id": "m20260930-6e29ac4d",
+ "data_as_of": "2026-09-29T18:40:00+09:00",
+ "risks": [
+  "Swiss 4回戦のBO3（0勝同士の敗退決定戦とみられる（BO3））。BO1の3戦とは形式が異なる",
+  "9/28の3回戦の一部結果を取得できず、両者のスイス成績は推定を含む",
+  "オンライン開催（ERL下部の地域チーム、整合性リスク）"
+ ],
+ "missing": [
+  "両チームのロスター（Leaguepedia/Liquipedia 開けず）",
+  "9/28 3回戦の全結果",
+  "パッチ番号",
+  "各チームのERL（国内リーグ）直近成績"
+ ],
+ "source_urls": [
+  "https://www.sheepesports.com/en/lol/events/emea-masters-2026-summer/matches",
+  "https://escorenews.com/en/lol/emea-masters-2026-summer",
+  "https://egamersworld.com/lol/event/emea-masters-2026-summer-z27dDLdCP",
+  "https://www.strafe.com/event/emea-masters-summer-2026-3c6a6a/",
+  "https://mystreamagenda.com/esport/tournaments/league-of-legends-emea-masters-summer-2026",
+  "https://rft.gg/event/emea-masters-2026-summer",
+  "https://gol.gg/tournament/tournament-stats/EMEA%20Masters%202026%20Summer%20Main%20Event/"
+ ],
+ "esports": {
+  "format": "BO3（sheepesports：Round 4 18:00 UTC BO3。Strafe：突破・敗退決定戦はBO3、他はBO1）",
+  "lan_online": "Online（Strafe：完全オンライン）",
+  "map_pool": "該当なし（LoL）",
+  "veto": "該当なし（LoL：各ゲーム敗者側がサイド選択等、大会ルール未確認）",
+  "patch": "取得できず：gol.ggの大会ページにパッチ表示なし",
+  "map_h2h": "取得できず：ゲーム別H2H未取得"
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 2
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 1,
+   "points_for": 0,
+   "points_against": 1,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

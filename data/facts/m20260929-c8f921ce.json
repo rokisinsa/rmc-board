@@ -1,45 +1,99 @@
 {
- "data_as_of": "2026-09-29T06:32:28+09:00",
+ "match_id": "m20260929-c8f921ce",
+ "data_as_of": "2026-09-29T18:31:02+09:00",
  "unit": "セット",
  "left": {
-  "name": "Reis Da Silva J. (7)",
-  "ranking": "未取得",
-  "form": [],
-  "lineup": [],
+  "name": "ジョアン・ルーカス・レイス・ダシルバ（João Lucas Reis da Silva, BRA）第7シード",
+  "ranking": "ATP 231（自己最高187）",
+  "form": [
+   {
+    "date": "2026-09-13",
+    "opp": "Brunold M.",
+    "comp": "Tulln (NÖ Open) CH F",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 3-6"
+   }
+  ],
+  "lineup": [
+   "2026年 20勝24敗（クレー20勝21敗）",
+   "直近10戦の並び（新しい順と推定）L-W-W-W-W-L-L-L-L-L（Tennis Tonic）",
+   "4月 Tallahassee CH準優勝（Tabur戦 4-6 0-1棄権）、9月 Tulln CH準優勝"
+  ],
   "history": []
  },
  "right": {
-  "name": "Dellien M.",
-  "ranking": "未取得",
-  "form": [],
-  "lineup": [],
+  "name": "ムルケル・デリエン（Murkel Dellien, BOL）",
+  "ranking": "ATP 403（自己最高168）",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Varillas J.P.",
+    "comp": "Buenos Aires CH R16",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-4 5-7 4-6"
+   }
+  ],
+  "lineup": [
+   "2026年 19勝20敗（クレー19勝20敗）",
+   "直近10戦 L-W-L-L-L-L-L-W-W-L（Tennis Tonic）"
+  ],
   "history": []
  },
- "h2h": [],
- "venue": "Curitiba challenger",
+ "h2h": [
+  {
+   "date": "2025",
+   "event": "Porto Alegre CH R16",
+   "score": "2-0",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0,
+   "detail": "6-2 6-1"
+  },
+  {
+   "date": "不明",
+   "event": "不明（2試合、いずれもデリエン勝利・クレー）",
+   "score": "デリエン2勝",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 0,
+   "detail": "Tennis Tonic: 通算デリエン2-1リード、詳細日付・スコア不明"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ATP Challenger 75 Curitiba（ブラジル）1回戦・センターコート10:00現地（第1試合）・クレー・レイス・ダシルバにとって地元国",
  "risks": [
-  "データ未取得の薄いファイル"
+  "H2Hはデリエン2-1リード（うち2勝の詳細不明）",
+  "レイス・ダシルバは地元ブラジル開催"
  ],
  "missing": [
-  "form",
-  "h2h",
-  "Elo"
+  "両者の直近10試合の個別スコア"
  ],
  "unavailable": {
-  "h2h": "取得不可: egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "left.form": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "right.form": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "history": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets"
+  "left.form": "Tennis Tonicは勝敗並びのみ、tennisexplorer大会ページはリダイレクト過多で取得不可",
+  "right.form": "同上",
+  "history": "個別相手が取れず判定不可"
  },
- "source_urls": [],
- "match_id": "m20260929-c8f921ce",
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058943/h2h-prediction-of-joao-lucas-reis-da-silva-vs-murkel-dellien-in-curitiba-challenger-with-odds-preview-pick-29th-september-2026/",
+  "https://www.tenisnews.com.br/programacao-terca-curitiba/",
+  "https://en.wikipedia.org/wiki/Jo%C3%A3o_Lucas_Reis_da_Silva",
+  "https://en.wikipedia.org/wiki/Murkel_Dellien"
+ ],
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -50,14 +104,22 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 7,
+   "inner_against": 12,
+   "inner_games": 1
   },
   "right": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -68,13 +130,31 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 1,
+   "units_lost": 2,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 15,
+   "inner_against": 17,
+   "inner_games": 1
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0,
+   "units_left": 2,
+   "units_right": 0,
+   "points_left": 2,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 0.0,
+   "inner_left": 12,
+   "inner_right": 3,
+   "inner_games": 1
   },
   "common": [],
   "common_window_days": 60,

@@ -1,8 +1,20 @@
 {
+ "match_id": "m20260930-971ee081",
+ "data_as_of": "2026-09-29T18:30:30+09:00",
+ "unit": "なし",
  "left": {
   "name": "FCバルセロナ（FC Barcelona）",
-  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "ranking": "ユーロリーグ 1勝0敗（前季2025-26 レギュラーシーズン9位 21勝17敗）",
   "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Leyma Coruña",
+    "comp": "Liga Endesa 第1節",
+    "ha": "H",
+    "score": "119-101",
+    "res": "W",
+    "detail": "Liga Endesa第1節（記事日付2026-09-27、試合日は9/26-27のいずれか）。Balcerowski 21点（FG9/9）。gigantesは119-104と表記、acb.com公式の119-101を採用"
+   },
    {
     "date": "2026-09-24",
     "opp": "アナドル・エフェス（Anadolu Efes）",
@@ -14,14 +26,13 @@
    }
   ],
   "lineup": [
-   "ジョシュ・ネボ（ふくらはぎ、2-3週間）、ヨアン・マコンドゥ（左膝）、トサン・エブオムウェン（肩）が欠場",
-   "リーガACBでコルーニャに119-101で勝利した後の移動"
+   "欠場：Josh Nebo（右ふくらはぎ、第1-5節）、Yoan Makoundou（左膝、第1-6節）、Tosan Evbuomwan（左肩、無期限）（Basketnews・Eurohoops 9/29）"
   ],
   "history": []
  },
  "right": {
   "name": "ドバイ・バスケットボール（Dubai Basketball）",
-  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "ranking": "ユーロリーグ 1勝0敗（前季2025-26 レギュラーシーズン11位 19勝19敗）",
   "form": [
    {
     "date": "2026-09-24",
@@ -34,8 +45,8 @@
    }
   ],
   "lineup": [
-   "マム・ジェイテ（アキレス腱）、アウドゥ・アバスが欠場",
-   "ジャナン・ムサ（膝）は出場微妙",
+   "欠場：Awudu Abass（EL登録外）、Mouhammadou Jaiteh（アキレス腱リハビリ）",
+   "Dzanan Musa（膝）は第2節出場微妙、スーパーカップ・第1節とも不出場",
    "新監督ハビ・パスクアル体制"
   ],
   "history": []
@@ -61,37 +72,40 @@
   }
  ],
  "common_opponents_notes": [],
- "venue": "ドバイ（ドバイ側ホーム）、18:00 CET開始",
- "unavailable": {
-  "left.form": "公式戦は開幕1試合のみ（開幕直後）",
-  "right.form": "公式戦は開幕1試合のみ（開幕直後）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:07:10+09:00",
- "unit": "なし",
+ "venue": "ドバイ（ドバイ側ホーム）、18:00 CEST開始。配信表記ではバルセロナが左だがアウェイ",
  "risks": [
-  "バルセロナはコルーニャ戦後の移動でドバイは週末が休養のため日程差がある",
-  "ドバイ側欠場者が7名との報道がある"
+  "バルセロナは主力ビッグマン3名（Nebo・Makoundou・Evbuomwan）欠場でインサイドが手薄",
+  "ドバイはホーム（中東遠征）",
+  "h2hは日付が月単位のみ"
  ],
  "missing": [
   "日付が確認できたユーロリーグ以外の試合は日付未確認で掲載を省いた",
   "h2hの日付は月までしか確認できず"
  ],
+ "unavailable": {
+  "left.form": "今季公式戦2試合のみ（ACB第1節・EL第1節）",
+  "right.form": "今季公式戦はEL第1節のみ確認。国内リーグ（ABAリーグ）の結果は未取得",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
+ },
  "source_urls": [
   "https://basketballsphere.com/en/bet-of-the-day-dubai-vs-barcelona-preview-prediction-sep-29-2026/",
   "https://basketballsphere.com/en/injuries/euroleague/",
-  "https://www.eurohoops.net/en/euroleague/2012304/euroleague-roundup-valencia-defeats-besiktas-in-a-thriller/amp/"
+  "https://www.eurohoops.net/en/euroleague/2012304/euroleague-roundup-valencia-defeats-besiktas-in-a-thriller/amp/",
+  "https://basketnews.com/leagues/25-euroleague/injured.html",
+  "https://www.eurohoops.net/en/euroleague/2013646/injury-report-round-2-milutinov-does-not-travel-to-kaunas/",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_EuroLeague",
+  "https://acb.com/es/liga",
+  "https://www.gigantes.com/liga-endesa/que-ha-pasado-hoy-liga-endesa-jornada1/"
  ],
- "match_id": "m20260930-971ee081",
  "calc": {
   "left": {
-   "games": 1,
-   "W": 1,
+   "games": 2,
+   "W": 2,
    "L": 0,
    "D": 0,
    "win_rate": 100.0,
    "home": {
-    "W": 1,
+    "W": 2,
     "L": 0,
     "D": 0
    },
@@ -100,10 +114,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "points_for": 89,
-   "points_against": 82,
-   "points_games": 1
+   "streak": "2連勝",
+   "points_for": 208,
+   "points_against": 183,
+   "points_games": 2
   },
   "right": {
    "games": 1,

@@ -1,58 +1,164 @@
 {
  "match_id": "m20260929-1d3850e9",
- "data_as_of": "2026-09-29T12:50:00+09:00",
+ "data_as_of": "2026-09-29T18:53:00+09:00",
  "unit": "なし",
  "left": {
   "name": "スポルティーボ・サン・ロレンソ（リザーブ）",
-  "ranking": "パラグアイ1部リザーブリーグ（順位未確認）",
-  "form": [],
+  "ranking": "パラグアイ1部リザーブリーグ（順位未確認、直近5戦1勝4敗：aiscore）",
+  "form": [
+   {
+    "date": "2026-09-21",
+    "opp": "オリンピア",
+    "comp": "リザーブリーグ",
+    "score": "2-4",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "スポルティーボ・アメリアーノ",
+    "comp": "リザーブリーグ",
+    "score": "2-5",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）、表記『Lost 5-2』"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "2デ・マジョ",
+    "comp": "リザーブリーグ",
+    "score": "2-3",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）"
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "ルビオ・ニュ",
+    "comp": "リザーブリーグ",
+    "score": "4-1",
+    "res": "W",
+    "detail": "H/A未確認（aiscore）"
+   }
+  ],
   "lineup": [
    "未取得"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-21",
+    "opp": "オリンピア",
+    "comp": "リザーブリーグ",
+    "score": "2-4",
+    "res": "L"
+   }
+  ]
  },
  "right": {
   "name": "デポルティーボ・レコレタ（リザーブ）",
-  "ranking": "パラグアイ1部リザーブリーグ（順位未確認）",
-  "form": [],
+  "ranking": "パラグアイ1部リザーブリーグ（順位未確認、直近5戦0勝1分4敗：aiscore）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "スポルティーボ・ルケーニョ",
+    "comp": "リザーブリーグ",
+    "score": "0-2",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）、表記『Lost 2-0』"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "スポルティーボ・トリニデンセ",
+    "comp": "リザーブリーグ",
+    "score": "0-0",
+    "res": "D",
+    "detail": "H/A未確認（aiscore）"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "グアラニ",
+    "comp": "リザーブリーグ",
+    "score": "0-2",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）、表記『Lost 2-0』"
+   },
+   {
+    "date": "2026-09-04",
+    "opp": "セロ・ポルテーニョ",
+    "comp": "リザーブリーグ",
+    "score": "0-1",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "オリンピア",
+    "comp": "リザーブリーグ",
+    "score": "0-2",
+    "res": "L",
+    "detail": "H/A未確認（aiscore）"
+   }
+  ],
   "lineup": [
    "未取得"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-08-29",
+    "opp": "オリンピア",
+    "comp": "リザーブリーグ",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
  },
- "h2h": [],
- "common_opponents_notes": [
-  "確認不能"
+ "h2h": [
+  {
+   "date": "2026-07-25",
+   "event": "リザーブリーグ（レコレタのホーム）",
+   "score": "1-4",
+   "winner": "right"
+  },
+  {
+   "date": "2026-04-06",
+   "event": "リザーブリーグ（レコレタのホーム）",
+   "score": "1-3",
+   "winner": "right"
+  },
+  {
+   "date": "2026-02-07",
+   "event": "リザーブリーグ（サン・ロレンソのホーム）",
+   "score": "2-1",
+   "winner": "left"
+  }
  ],
- "venue": "サン・ロレンソ側ホーム（未確認）",
+ "common_opponents_notes": [
+  "aiscoreはサン・ロレンソの8/29ナシオナル戦を『Won 1-2』と表記（集計は1勝4敗）で向き不明のため不採用"
+ ],
+ "venue": "サン・ロレンソ（リザーブ）のホーム（aiscore）",
  "risks": [
   "リザーブリーグで情報極少・整合性リスク",
-  "本セッションではWebFetch/curlが権限・プロキシで遮断され、検索結果の見出しのみ確認可能"
+  "オッズはレコレタ大本命（1.208）だがレコレタ・リザーブは直近5戦未勝利、H2Hはレコレタ2連勝",
+  "aiscoreのスコア表記の向きが一部不明"
  ],
  "missing": [
-  "form",
-  "H2H",
   "会場",
-  "メンバー"
+  "メンバー",
+  "H/A"
  ],
  "unavailable": {
-  "left.form": "リザーブの結果を掲載するページを開けず",
-  "right.form": "同左",
-  "h2h": "リザーブ同士の記録未確認（トップ同士の2026-02-06 0-3は別チームのため不採用）",
-  "history": "確認不能"
+  "left.form": "aiscoreの直近5戦のみ（うち1試合は勝敗表記矛盾で除外）",
+  "right.form": "aiscoreの直近5戦のみ",
+  "history": "共通相手オリンピアのみ確認"
  },
  "source_urls": [
-  "https://www.sofascore.com/football/match/deportivo-recoleta-reserve-sportivo-san-lorenzo-reserve/NiycsaaEi",
-  "https://www.espn.com/soccer/match/_/gameId/401848182/deportivo-recoleta-sportivo-san-lorenzo",
   "https://www.aiscore.com/head-to-head/soccer-deportivo-recoleta-reserves-vs-sportivo-san-lorenzo-reserve"
  ],
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 4,
+   "W": 1,
+   "L": 3,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 25.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -63,14 +169,17 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "3連敗",
+   "points_for": 10,
+   "points_against": 13,
+   "points_games": 4
   },
   "right": {
-   "games": 0,
+   "games": 5,
    "W": 0,
-   "L": 0,
-   "D": 0,
-   "win_rate": null,
+   "L": 4,
+   "D": 1,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -81,16 +190,51 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 0,
+   "points_against": 7,
+   "points_games": 5
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 3,
+   "left": 1,
+   "right": 2,
+   "draw": 0,
+   "points_left": 4,
+   "points_right": 8,
+   "points_games": 3,
+   "avg_left": 1.3,
+   "avg_right": 2.7
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "オリンピア",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "2-4",
+      "res": "L",
+      "comp": "リザーブリーグ"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "0-2",
+      "res": "L",
+      "comp": "リザーブリーグ"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-21",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
   "common_window_days": 60,
-  "common_ref_date": "2026-09-29"
+  "common_ref_date": "2026-09-30"
  }
 }

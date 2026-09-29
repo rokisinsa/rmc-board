@@ -1,40 +1,51 @@
 {
- "data_as_of": "2026-09-29T06:55:00+09:00",
+ "match_id": "m20260930-b681a14a",
+ "data_as_of": "2026-09-29T18:29:38+09:00",
  "unit": "セット",
  "left": {
-  "name": "Chidekh C. (7)",
-  "ranking": "取得不可",
+  "name": "クレモン・シデク（Clément Chidekh, FRA）第7シード",
+  "ranking": "tennisexplorer表示 ATP 252（自己最高176／Wikipedia: 2026-06-22時点205）",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "2026年1月 Nottingham・Glasgow CH優勝、7月 Nottingham II CH準優勝（決勝 Searle 4-6 4-6）",
+   "US Open予選2回戦敗退"
+  ],
   "history": []
  },
  "right": {
-  "name": "Goffin D.",
-  "ranking": "取得不可",
+  "name": "ダビド・ゴファン（David Goffin, BEL）",
+  "ranking": "tennisexplorer表示 ATP 117（Wikipedia: 2026-06-22時点240）、自己最高7",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "2026年3月27日に今季限りでの引退を表明"
+  ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "取得不可（Mouilleron-Le-Captif challenger）",
+ "venue": "ATP Challenger Mouilleron-le-Captif（フランス）1回戦・室内ハード・シデクにとって地元国",
  "risks": [
-  "データ未取得のため判断材料なし"
+  "ゴファンは引退シーズンでモチベーション・体調の変動",
+  "シデクはフランス国内開催",
+  "両者のランキング値がソースで食い違う（更新時期差）"
  ],
  "missing": [
-  "form",
-  "h2h",
-  "ranking",
-  "Elo"
+  "両者の直近10試合"
  ],
  "unavailable": {
-  "h2h": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "left.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "right.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "history": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない"
+  "h2h": "tennisexplorer両選手ページ・Wikipedia両ページに対戦記録なし（初対戦とみられる）",
+  "left.form": "tennisexplorer選手ページは取得内容が古く（2026年1月まで）、ATP公式はJS描画で空、Wikipediaは大会単位のみ",
+  "right.form": "tennisexplorer・tennisabstract・Wikipediaいずれも2026年後半の個別結果を取得できず",
+  "history": "form未取得のため判定不可"
  },
- "source_urls": [],
- "match_id": "m20260930-b681a14a",
+ "source_urls": [
+  "https://www.tennisexplorer.com/player/chidekh/",
+  "https://www.tennisexplorer.com/player/goffin/",
+  "https://en.wikipedia.org/wiki/David_Goffin",
+  "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Chidekh",
+  "https://www.atptour.com/en/players/clement-chidekh/c0bh/player-activity",
+  "https://www.tennisabstract.com/cgi-bin/player.cgi?p=DavidGoffin"
+ ],
  "calc": {
   "left": {
    "games": 0,

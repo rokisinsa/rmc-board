@@ -1,43 +1,49 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260929-2dbe33d0",
+ "data_as_of": "2026-09-29T18:26:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ウォリアーズ（Warriors）",
-  "ranking": "CSA T20 Challenge 2026-27",
+  "ranking": "CSA T20 Challenge 2026-27（順位表取得できず）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "リンポポ・インパラズ（Limpopo Impalas）",
-  "ranking": "CSA T20 Challenge 2026-27",
+  "ranking": "CSA T20 Challenge 2026-27（順位表取得できず）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "未取得",
+ "venue": "St George's Park（グケバーハ）— ウォリアーズのホーム（CSA公式日程 2026-09-29）",
  "risks": [
-  "ESPN/cricketwebsが取得不可"
+  "espncricinfo/cricinfo・cricketworldが403、ESPN系列ページ空で直近成績が取得できない",
+  "CSA公式日程では会場はSt George's Park（ウォリアーズのホーム）"
  ],
  "missing": [
-  "全項目"
+  "直近成績",
+  "H2H",
+  "ラインナップ",
+  "開始時刻"
  ],
  "unavailable": {
-  "h2h": "取得不可",
-  "left.form": "ESPN空ページ",
-  "right.form": "取得できず",
-  "history": "取得不可"
+  "h2h": "cricinfo 403・CSA公式は日程のみのため確認できず",
+  "left.form": "cricinfo 403（9/25 対North West戦 Centurionの存在のみ検索結果で確認、結果不明）",
+  "right.form": "cricinfo 403・crex 404・betsapi試合一覧なし",
+  "history": "両者の結果が取得できず"
  },
  "source_urls": [
-  "https://www.cricinfo.com/series/csa-t20-challenge-2026-27-1551607/warriors-vs-north-west-pool-a-1551833/live-cricket-score"
+  "https://cricsa.co.za/csa-t20-challenge-2026/",
+  "https://www.espn.com/cricket/scores/series/8656/season/2026/csa-t20-challenge",
+  "https://betsapi.com/t/585593/Limpopo-Impalas"
  ],
- "match_id": "m20260929-2dbe33d0",
  "calc": {
   "left": {
    "games": 0,

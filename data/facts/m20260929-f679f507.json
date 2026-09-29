@@ -1,99 +1,173 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:22:00+09:00",
  "unit": "なし",
  "left": {
   "name": "南スーダン（South Sudan）",
-  "ranking": "直近9戦未勝利",
+  "ranking": "AFCON2027予選 0pt（1戦1敗）",
   "form": [
    {
     "date": "2026-09-25",
     "opp": "マラウイ",
-    "comp": "AFCON予選",
+    "comp": "AFCON2027予選 MD1",
     "ha": "A",
     "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "ジブチ",
+    "comp": "AFCON2027予選PR 第2戦",
+    "ha": "H",
+    "score": "0-1",
     "res": "L",
-    "detail": "日付は推定（khelnowは日付明記なし）"
+    "detail": "合計4-1で突破"
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "ジブチ",
+    "comp": "AFCON2027予選PR 第1戦",
+    "ha": "A",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-25",
+    "opp": "シリア",
+    "comp": "アラブ杯",
+    "score": "0-2",
+    "res": "L",
+    "detail": "H/A未確認"
+   },
+   {
+    "date": "2025-10-13",
+    "opp": "トーゴ",
+    "comp": "W杯予選CAF",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D",
+    "detail": "mightytips表記で南スーダン先"
    }
   ],
   "lineup": [
-   "全員招集可能"
+   "新監督 Christian Nsengi-Biembe（sportsmole）",
+   "DF Rashid Toha 欠場（mightytips）",
+   "予想：Mawith; Atendele, Angier, Laku, Bakosoro; Dhata, Chan, Jawa, Gama; Iluya, Albano（sportsmole）"
   ],
   "history": []
  },
  "right": {
   "name": "エジプト（Egypt）",
-  "ranking": "AFCON予選 未勝利（1分）",
+  "ranking": "AFCON2027予選 1pt（1分）／W杯2026ベスト16",
   "form": [
    {
     "date": "2026-09-25",
     "opp": "アンゴラ",
-    "comp": "AFCON予選",
+    "comp": "AFCON2027予選 MD1",
     "ha": "H",
     "score": "0-0",
-    "res": "D",
-    "detail": "日付は推定（khelnowは日付明記なし）"
+    "res": "D"
+   },
+   {
+    "date": "2026-07-07",
+    "opp": "アルゼンチン",
+    "comp": "W杯 ラウンド16",
+    "ha": "N",
+    "score": "2-3",
+    "res": "L",
+    "detail": "2-0リードから逆転負け（statszone）"
+   },
+   {
+    "date": "2026-07-03",
+    "opp": "オーストラリア",
+    "comp": "W杯 ラウンド32",
+    "ha": "N",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-06-27",
+    "opp": "イラン",
+    "comp": "W杯GS",
+    "ha": "N",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-22",
+    "opp": "ニュージーランド",
+    "comp": "W杯GS",
+    "ha": "N",
+    "score": "3-1",
+    "res": "W"
    }
   ],
   "lineup": [
-   "サラー：個人的理由で不在"
+   "サラー：人工芝への懸念で遠征メンバー外（sportsmole/mightytips）",
+   "Mohamed Abdelmonem 負傷欠場（sportsmole）",
+   "Marwan Attia 出場停止明け（sportsmole）",
+   "予想：Shobeir; Hany, Abdelmaguid, Rabia, Aboul-Fetouh; Attia, Lasheen; Zizo, Ashour, Haissem Hassan; Marmoush（sportsmole）"
   ],
   "history": []
  },
  "h2h": [
   {
-   "date": "不明",
-   "event": "過去1試合",
-   "score": "エジプト勝利（スコア不明）",
+   "date": "2023-06-18",
+   "event": "国際親善試合",
+   "score": "0-3",
    "winner": "right",
-   "detail": "日付・スコア取得できず"
+   "detail": "唯一のA代表対戦（sportsmole/mightytips）"
   }
  ],
  "common_opponents_notes": [],
- "venue": "ジュバ・Juba National Stadium、南スーダンのホーム（審判：Ahmad Heeralall、VARあり）",
+ "venue": "ジュバ・Juba Stadium（人工芝）、南スーダンのホーム",
  "risks": [
-  "フォーム行の日付・H/Aが推定を含む"
+  "人工芝ピッチ",
+  "エジプトはサラー不在",
+  "南スーダン監督交代直後"
  ],
  "missing": [
-  "10試合リスト",
-  "h2hスコア"
+  "各チーム10試合分（5試合のみ取得）"
  ],
  "unavailable": {
-  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（1戦のみ確認）",
-  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（1戦のみ確認）",
-  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+  "left.form": "mightytips掲載の直近5試合のみ取得",
+  "right.form": "mightytips掲載の直近5試合のみ取得（W杯GS初戦欠落）",
+  "history": "60日以内は各1試合（マラウイ／アンゴラ）で共通相手なし"
  },
  "source_urls": [
-  "https://khelnow.com/football/south-sudan-vs-egypt-preview-afcon-qualifiers-202609"
+  "https://khelnow.com/football/south-sudan-vs-egypt-preview-afcon-qualifiers-202609",
+  "https://www.sportsmole.co.uk/football/egypt/preview/south-sudan-vs-egypt-prediction-team-news-lineups_605886.html",
+  "https://www.mightytips.com/football-predictions/south-sudan-vs-egypt-prediction-29-09-2026/",
+  "https://www.thestatszone.com/south-sudan-vs-egypt-preview-prediction-2027-africa-cup-of-nations-qualifying-226693"
  ],
  "match_id": "m20260929-f679f507",
  "calc": {
   "left": {
-   "games": 1,
-   "W": 0,
-   "L": 1,
-   "D": 0,
-   "win_rate": 0.0,
+   "games": 5,
+   "W": 1,
+   "L": 3,
+   "D": 1,
+   "win_rate": 20.0,
    "home": {
     "W": 0,
-    "L": 0,
-    "D": 0
+    "L": 1,
+    "D": 1
    },
    "away": {
-    "W": 0,
+    "W": 1,
     "L": 1,
     "D": 0
    },
-   "streak": null,
-   "points_for": 1,
-   "points_against": 2,
-   "points_games": 1
+   "streak": "2連敗",
+   "points_for": 5,
+   "points_against": 5,
+   "points_games": 5
   },
   "right": {
-   "games": 1,
-   "W": 0,
-   "L": 0,
-   "D": 1,
-   "win_rate": 0.0,
+   "games": 5,
+   "W": 2,
+   "L": 1,
+   "D": 2,
+   "win_rate": 40.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -105,15 +179,20 @@
     "D": 0
    },
    "streak": null,
-   "points_for": 0,
-   "points_against": 0,
-   "points_games": 1
+   "points_for": 10,
+   "points_against": 7,
+   "points_games": 5
   },
   "h2h": {
    "games": 1,
    "left": 0,
    "right": 1,
-   "draw": 0
+   "draw": 0,
+   "points_left": 0,
+   "points_right": 3,
+   "points_games": 1,
+   "avg_left": 0.0,
+   "avg_right": 3.0
   },
   "common": [],
   "common_window_days": 60,

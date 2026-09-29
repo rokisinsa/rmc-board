@@ -1,29 +1,30 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:28:00+09:00",
  "unit": "なし",
  "left": {
   "name": "SDウエスカ女子（SD Huesca (W)）",
-  "ranking": "下位カテゴリ",
+  "ranking": "下位カテゴリ（第2ラウンドは1部連盟5チーム・Segunda RFEF 11チームで構成：aragondigital）",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "コパ1回戦でサラゴサCFFと2-2、PK戦で突破（aragondigital、日付未記載）"
+  ],
   "history": []
  },
  "right": {
   "name": "CAオサスナ女子（CA Osasuna (W)）",
-  "ranking": "1部相当",
+  "ranking": "Primera Federación相当（上位カテゴリ）",
   "form": [
    {
     "date": "2026-09-26",
-    "opp": "バルサB",
-    "comp": "リーグ",
-    "ha": "不明",
-    "score": "不明",
+    "opp": "バルセロナB",
+    "comp": "リーグ戦",
     "res": "W",
-    "detail": "スコア未取得"
+    "detail": "スコア・H/A未取得（osasuna.es『勝ち点3獲得』）"
    }
   ],
   "lineup": [
-   "22人招集（9/28）"
+   "招集22人：GK N.Rodríguez, Mon／DF Ainhoa S., Saioa L., Malen, Eunate, Constanza, L.Teruel／MF Ane Ansa, Adri Parada, Mait, Marina, I.Igoa, Sarriegi, Kortina, Julia／FW Claudia G, Urzainqui, Churruca, NDT, Iraia, Zaira（osasuna.es）",
+   "欠場者の記載なし"
   ],
   "history": []
  },
@@ -31,32 +32,33 @@
   {
    "date": "2026-08-21",
    "event": "プレシーズン親善",
-   "score": "ウエスカ 1-2（左側先）",
+   "score": "1-2",
    "winner": "right",
-   "units_left": 1,
-   "units_right": 2,
-   "detail": "ウエスカ：ダニ24分、オサスナ：フラビア32分・55分"
+   "detail": "ウエスカ：ダニ24分、オサスナ：フラビア32分・55分（osasuna.es）"
   }
  ],
  "common_opponents_notes": [],
- "venue": "Base Aragonesa de Fútbol、ウエスカのホーム",
+ "venue": "Base Aragonesa de Fútbol（ウエスカのホーム）、9/29 19:00 CEST",
  "risks": [
-  "試合日が9/29〜10/1のいずれかとされ、開始時刻が未確定",
-  "カテゴリ差あり、価格整合性に注意"
+  "一発勝負のカップ戦（延長・PKの可能性）",
+  "カテゴリ差あり",
+  "ウエスカの直近成績不明"
  ],
  "missing": [
-  "開始時刻",
   "ウエスカの直近成績",
-  "10試合"
+  "オサスナのリーグ戦スコア"
  ],
  "unavailable": {
-  "left.form": "ウエスカの公式試合リストを取得できず",
-  "right.form": "バルサB戦のスコア・他の試合を未取得",
-  "history": "共通相手の試合リストを取得できず"
+  "left.form": "aragondigital・osasuna.esでは1回戦（サラゴサCFF 2-2 PK勝ち）以外の日付付き結果なし",
+  "right.form": "osasuna.esの招集記事はバルサB戦勝利のみ（スコアなし）",
+  "history": "試合リスト不足で共通相手確認不可",
+  "h2h": "公式戦の対戦記録は見つからず（親善1件のみ）"
  },
  "source_urls": [
   "https://www.osasuna.es/noticia207",
-  "https://www.osasuna.es/osasuna-femenino-vence-al-huesca-1-2"
+  "https://www.osasuna.es/osasuna-femenino-vence-al-huesca-1-2",
+  "https://www.osasuna.es/osasuna-cita-a-22-futbolistas-para-afrontar-la-segunda-eliminatoria-de-copa-de-la-reina",
+  "https://www.aragondigital.es/articulo/sd-huesca/s-d-huesca-medira-osasuna-segunda-ronda-copa-reina/202609111225321007430.html"
  ],
  "match_id": "m20260930-a2d863b1",
  "calc": {
@@ -101,8 +103,6 @@
    "left": 0,
    "right": 1,
    "draw": 0,
-   "units_left": 1,
-   "units_right": 2,
    "points_left": 1,
    "points_right": 2,
    "points_games": 1,

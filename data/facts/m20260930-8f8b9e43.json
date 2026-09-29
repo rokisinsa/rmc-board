@@ -1,0 +1,123 @@
+{
+ "match_id": "m20260930-8f8b9e43",
+ "data_as_of": "2026-09-29T18:49:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "インド（India）",
+  "ranking": "ODI 世界ランク取得できず（主将シュブマン・ギル）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "West Indies",
+    "comp": "ODI 西インド諸島インド遠征 第1戦",
+    "ha": "H",
+    "score": "勝ち（8ウィケット差）",
+    "res": "W",
+    "detail": "コーリとギルがともに100点、クルディープが西インド諸島打線を抑える（Yahoo見出し・cricinfo見出し）"
+   }
+  ],
+  "lineup": [
+   "ブムラー、ハルディク不在（cricinfoプレビュー見出し）",
+   "コーリ、ロヒット・シャルマ、ジャデジャがODI復帰（Yahoo）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "西インド諸島（West Indies）",
+  "ranking": "ODI 世界ランク取得できず（主将シャイ・ホープ）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "India",
+    "comp": "ODI インド遠征 第1戦",
+    "ha": "A",
+    "score": "負け（8ウィケット差）",
+    "res": "L",
+    "detail": "Thiruvananthapuram"
+   }
+  ],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "ODI 3連戦 第1戦（Thiruvananthapuram, Greenfield International Stadium）",
+   "score": "インド8ウィケット差勝ち",
+   "winner": "left",
+   "detail": "コーリ・ギル100点（Yahoo/cricinfo見出し）。スコア詳細はcricinfo 403で未取得"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "グワーハーティー（インド）— インドのホーム（第2戦 9/30、Yahoo）。開始時刻は未確認",
+ "risks": [
+  "3試合シリーズ第2戦（インド1勝0敗）",
+  "インドはブムラー・ハルディク不在",
+  "第1戦スコア詳細（ラン・オーバー数）は未取得"
+ ],
+ "missing": [
+  "直近10試合",
+  "過去H2H",
+  "第2戦メンバー"
+ ],
+ "unavailable": {
+  "h2h": "過去シリーズのH2Hは時間内に未取得（今シリーズ第1戦のみ）",
+  "left.form": "cricinfo/ESPN系が403・空ページのため今シリーズ第1戦以外取得できず",
+  "right.form": "同上",
+  "history": "取得できず"
+ },
+ "source_urls": [
+  "https://sports.yahoo.com/articles/ind-vs-wi-1st-odi-060602918.html",
+  "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-odi-1529227/match-report",
+  "https://www.espn.com/cricket/series/24289/scorecard/1529227/india-vs-west-indies-1st-odi-24289"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

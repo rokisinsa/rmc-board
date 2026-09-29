@@ -1,59 +1,84 @@
 {
+ "match_id": "m20260929-c51f81db",
+ "data_as_of": "2026-09-29T18:22:08+09:00",
+ "unit": "なし",
  "left": {
-  "name": "シャフルダーリ・ゴルガーン（Shahrdari Gorgan）",
-  "ranking": "WASLファイナル8 グループB（予選段階は3連勝後4連敗）",
-  "form": [],
+  "name": "シャフルダリ・ゴルガーン（Shahrdari Gorgan）",
+  "ranking": "FIBA WASL Final 8 グループB 0勝1敗（イラン・スーパーリーグ所属、West Asia League代表）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Sagesse SC",
+    "comp": "FIBA WASL Final 8 グループB",
+    "ha": "N",
+    "score": "97-103",
+    "res": "L",
+    "detail": "26-28/54-60/74-84/97-103（累計）"
+   }
+  ],
   "lineup": [
-   "ヘッドコーチ：メフラン・ハタミ",
-   "主力：サッジャド・パズロフテ、ラスール・モザファリ、ナビド・レザイファール、ジョーダン・スティーブンス、ディアンジェロ・ハリソン、ステファン・ヤンコビッチ"
+   "HC：メフラン・ハタミ（元イラン代表監督）が復帰",
+   "新加入：Jordan Stevens、D'Angelo Harrison、Stefan Jankovic",
+   "継続：Sajjad Pazrofteh、Rasoul Mozafari、Navid Rezaeifar",
+   "2025-26 WASL West Asia League グループ：開幕3連勝（Sagesse・Astana・Al Wahda不戦勝）後に4連敗（Al Riyadi・Astana・Al Wahda 92-101 等、日付不明のため form 不掲載）"
   ],
   "history": []
  },
  "right": {
-  "name": "アル・アラビ（Al-Arabi）",
-  "ranking": "WASLファイナル8 グループB（湾岸リーグ予選は2勝4敗で3位）",
-  "form": [],
+  "name": "アル・アラビ（Al-Arabi、カタール）",
+  "ranking": "FIBA WASL Final 8 グループB 0勝1敗（Gulf League グループB 3位、準決勝でShabab Al Ahliに勝利し出場）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "AlUla",
+    "comp": "FIBA WASL Final 8 グループB",
+    "ha": "N",
+    "score": "72-96",
+    "res": "L",
+    "detail": "第1Q 10-30"
+   }
+  ],
   "lineup": [
-   "主力：モスティ・ラシード、エルメディン・キカノビッチ、シンドゥ・ディアロ",
-   "新加入：ピーター・ジョク"
+   "主力：Mosti Rashed、Elmedin Kikanovic、Sindou Diallo、Abdulrahman Saad、Khaled Abdelbaset",
+   "新加入：Peter Jok（南スーダン）",
+   "負傷・欠場情報は記事内に言及なし"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "レバノン・ズーク・ミカエル（ヌハド・ナウファル・スポーツコンプレックス）、中立地",
- "unavailable": {
-  "h2h": "今季はゴルガーン（西アジアリーグ）とアル・アラビ（湾岸リーグ）が別サブゾーンで、対戦記録を確認できず（過去の対戦は未確認）",
-  "left.form": "日付付きの試合結果一覧を取得できるページを開けなかった",
-  "right.form": "同上",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:09:15+09:00",
- "unit": "なし",
+ "venue": "レバノン・ズーク・ミカエル、Nouhad Nawfal Sports Complex（中立地、名目上Al Arabiホーム）、14:45 UTC開始",
  "risks": [
-  "短期戦（グループリーグ4チーム総当たり、上位2チームが準決勝進出）",
-  "予選の再開が延期されたため各チームの直近試合が空いている",
-  "Al Ulaの主力が離脱するなどロースター変動がある"
+  "両チームとも初戦黒星で準決勝進出（各組上位2）に向け負けられない一戦",
+  "ゴルガーンはWASLグループ終盤4連敗",
+  "新加入外国籍選手の連携未知数"
  ],
  "missing": [
-  "ファイナル8のこれまでの結果",
-  "直近試合の日付付き一覧",
-  "h2h"
+  "両チームの本大会前の国内リーグ直近10試合（シーズン開幕前のため公式戦ほぼなし）",
+  "負傷情報"
  ],
+ "unavailable": {
+  "h2h": "Wikipedia 2025-26 WASL・Sofascore・FIBA記事で対戦記録見当たらず（別サブリーグ所属、初対戦とみられるが確証なし）",
+  "left.form": "国内リーグ未開幕・WASLグループ戦は日付不明で1試合のみ掲載",
+  "right.form": "同上、Gulf League戦の日付・スコア取得できず",
+  "history": "60日以内の共通相手なし（Final 8で異なる相手と対戦）"
+ },
  "source_urls": [
   "https://www.fiba.basketball/en/events/fiba-wasl-west-asia-league-final8-26/news/everything-you-need-to-know-about-the-fiba-wasl-final-8-2026",
   "https://www.fiba.basketball/en/events/fiba-wasl-west-asia-league-final8-26/news/meet-the-fiba-wasl-final-8-2026-teams-shahrdari-gorgan",
   "https://www.fiba.basketball/en/events/fiba-wasl-west-asia-league-final8-26/news/meet-the-fiba-wasl-final-8-2026-teams-al-arabi-sc",
-  "https://www.flashscore.com/match/basketball/al-arabi-YcXGkeE0/shahrdari-gorgan-b508Jwq2/summary/lineups/"
+  "https://www.arabnews.pk/sport/alula-kick-off-fiba-wasl-final-8-with-dominant-win-over-al-arabi-3002580",
+  "https://www.sofascore.com/basketball/team/shahrdari-gorgan/236349",
+  "https://www.sofascore.com/basketball/match/sagesse-sc-shahrdari-gorgan/ZBUbsaJUb",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_FIBA_West_Asia_Super_League"
  ],
- "match_id": "m20260929-c51f81db",
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -64,14 +89,17 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 97,
+   "points_against": 103,
+   "points_games": 1
   },
   "right": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -82,7 +110,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 72,
+   "points_against": 96,
+   "points_games": 1
   },
   "h2h": {
    "games": 0,

@@ -1,43 +1,43 @@
 {
- "run_id": "run-20260929-1200",
+ "run_id": "run-20260929-1800",
  "run_status": "partial",
- "built_at": "2026-09-29T18:01:35+09:00",
+ "built_at": "2026-09-29T19:08:01+09:00",
  "logics": {
   "r1": {
-   "formal": 27,
-   "settled": 5,
-   "win": 5,
+   "formal": 35,
+   "settled": 6,
+   "win": 6,
    "loss": 0,
    "void": 0,
-   "pending": 22,
-   "staked": 500.0,
-   "returned": 599.4,
-   "net": 99.4,
-   "roi": 19.88,
+   "pending": 29,
+   "staked": 600.0,
+   "returned": 714.4,
+   "net": 114.4,
+   "roi": 19.07,
    "amount_missing": 0,
    "hit_rate": 100.0,
    "withdrawn": 13,
    "simple": {
     "stake": 100.0,
-    "net": 99.4,
-    "roi": 19.88,
-    "staked": 500.0
+    "net": 114.4,
+    "roi": 19.07,
+    "staked": 600.0
    },
    "compound": {
-    "bankroll": 114.0,
-    "stock": 115.66,
+    "bankroll": 127.45,
+    "stock": 121.83,
     "secured": 1,
     "busted": 0,
     "principal": 100.0,
-    "net": 129.66,
+    "net": 149.28,
     "rule": "元金$100全額→倍額($200)到達で利益をストックし$100から再開、0になったら$100から再開"
    },
-   "compound_ref": 229.66,
+   "compound_ref": 249.28,
    "kelly_quarter": {
     "bankroll": 100.0,
     "profit": 0.0,
     "bets": 0,
-    "skipped": 5
+    "skipped": 6
    }
   },
   "r2": {
@@ -192,24 +192,24 @@
  "gap_bands": {
   "r1": {
    "70-80": {
+    "count": 19,
+    "win": 3,
+    "loss": 0,
+    "void": 0,
+    "pending": 16,
+    "invested": 300.0,
+    "net": 73.6,
+    "roi": 24.53
+   },
+   "80-90": {
     "count": 15,
     "win": 3,
     "loss": 0,
     "void": 0,
     "pending": 12,
     "invested": 300.0,
-    "net": 73.6,
-    "roi": 24.53
-   },
-   "80-90": {
-    "count": 11,
-    "win": 2,
-    "loss": 0,
-    "void": 0,
-    "pending": 9,
-    "invested": 200.0,
-    "net": 25.8,
-    "roi": 12.9
+    "net": 40.8,
+    "roi": 13.6
    },
    "90+": {
     "count": 1,
@@ -224,24 +224,24 @@
   },
   "all": {
    "70-80": {
+    "count": 19,
+    "win": 3,
+    "loss": 0,
+    "void": 0,
+    "pending": 16,
+    "invested": 300.0,
+    "net": 73.6,
+    "roi": 24.53
+   },
+   "80-90": {
     "count": 15,
     "win": 3,
     "loss": 0,
     "void": 0,
     "pending": 12,
     "invested": 300.0,
-    "net": 73.6,
-    "roi": 24.53
-   },
-   "80-90": {
-    "count": 11,
-    "win": 2,
-    "loss": 0,
-    "void": 0,
-    "pending": 9,
-    "invested": 200.0,
-    "net": 25.8,
-    "roi": 12.9
+    "net": 40.8,
+    "roi": 13.6
    },
    "90+": {
     "count": 1,
@@ -258,14 +258,14 @@
  "analytics": {
   "r1": {
    "clv_n": 22,
-   "clv_avg": -0.14,
-   "clv_beat": 4,
+   "clv_avg": -0.48,
+   "clv_beat": 2,
    "odds_bands": {
     "1.00-1.20": {
-     "n": 2,
-     "win": 2,
-     "net": 25.8,
-     "roi": 12.9
+     "n": 3,
+     "win": 3,
+     "net": 40.8,
+     "roi": 13.6
     },
     "1.20-1.50": {
      "n": 3,
@@ -312,9 +312,9 @@
      "actual": 100.0
     },
     "80-90%": {
-     "n": 2,
-     "win": 2,
-     "pred": 81.9,
+     "n": 3,
+     "win": 3,
+     "pred": 81.4,
      "actual": 100.0
     },
     "90%+": {
@@ -633,14 +633,14 @@
   },
   "all": {
    "clv_n": 23,
-   "clv_avg": -0.25,
-   "clv_beat": 4,
+   "clv_avg": -0.57,
+   "clv_beat": 2,
    "odds_bands": {
     "1.00-1.20": {
-     "n": 2,
-     "win": 2,
-     "net": 25.8,
-     "roi": 12.9
+     "n": 3,
+     "win": 3,
+     "net": 40.8,
+     "roi": 13.6
     },
     "1.20-1.50": {
      "n": 3,
@@ -687,9 +687,9 @@
      "actual": 100.0
     },
     "80-90%": {
-     "n": 2,
-     "win": 2,
-     "pred": 81.9,
+     "n": 3,
+     "win": 3,
+     "pred": 81.4,
      "actual": 100.0
     },
     "90%+": {

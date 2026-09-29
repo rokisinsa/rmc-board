@@ -1,76 +1,109 @@
 {
+ "match_id": "m20260930-16939ccb",
+ "data_as_of": "2026-09-29T18:48:42+09:00",
+ "unit": "なし",
  "left": {
   "name": "スカイライナーズ・フランクフルト（Skyliners Frankfurt）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦（グループB）",
-  "form": [],
+  "ranking": "BBL 2026-27 1勝1敗（10位、9/27時点）／EuroCup グループB開幕戦（2019年以来の欧州カップ戦復帰）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "RASTA Vechta",
+    "comp": "BBL 第3節",
+    "ha": "H",
+    "score": "93-81",
+    "res": "W",
+    "detail": "Swope 21点、Thompson 18点10リバウンド、Pape 15点"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Alba Berlin",
+    "comp": "BBL 第2節",
+    "ha": "A",
+    "score": "83-94",
+    "res": "L"
+   }
+  ],
   "lineup": [
-   "レース・トンプソン（18得点10リバウンド）、アイザイア・スウォープ（21得点）が好調",
-   "負傷情報は取得できず"
+   "HC Klaus Perwas、主将 Till Pape",
+   "負傷情報の言及なし（クラブ公式プレビュー）"
   ],
   "history": []
  },
  "right": {
-  "name": "レイヤー・ベネチア（Reyer Venezia）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦（グループB）",
-  "form": [],
+  "name": "ウマナ・レイエル・ヴェネツィア（Reyer Venezia）",
+  "ranking": "LBA 2026-27 1勝0敗／EuroCup グループB開幕戦",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Acqua San Bernardo Cantù",
+    "comp": "LBA 第1節",
+    "ha": "H",
+    "score": "85-73",
+    "res": "W",
+    "detail": "土曜の前倒し開催。Wiltjer 16点、Candi 14点5アシスト、5人が2桁得点"
+   }
+  ],
   "lineup": [
-   "カイル・ウィルチャー（開幕戦16得点）、ルカ・カンディ（14得点）、アメデオ・テッシトーリが主力",
    "負傷情報は取得できず"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "ベネチア・パラスポルト・タリエルコ（ベネチア側ホーム）、現地20:30開始",
- "unavailable": {
-  "left.form": "日付付きの結果一覧ページを開けず（フランクフルトはVechta戦93-81のみ確認）",
-  "right.form": "日付付きの結果一覧ページを開けず（ベネチアはCantù戦85-73のみ確認）",
-  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:08:03+09:00",
- "unit": "なし",
+ "venue": "ヴェネツィア・Palasport Taliercio（ヴェネツィア側ホーム）、20:30 CEST開始。配信表記ではフランクフルト左だがアウェイ",
  "risks": [
-  "ベネチアはホーム開催で価格でも大きく優勢",
-  "両チームの負傷情報が未確認"
+  "ヴェネツィアのホーム",
+  "フランクフルトは欧州カップ戦経験が少ないロスター"
  ],
  "missing": [
-  "両チームの試合日付付きの結果",
-  "負傷情報",
+  "両チームの負傷情報",
   "h2h"
  ],
+ "unavailable": {
+  "h2h": "対戦履歴ページを取得できず（フランクフルトは2019年以来の欧州カップ戦で近年の対戦なしとみられるが未確認）",
+  "left.form": "今季公式戦2試合のみ取得（BBL第1節は未実施/未確認）",
+  "right.form": "今季公式戦1試合のみ",
+  "history": "60日以内の共通相手なし（リーグが異なる）"
+ },
  "source_urls": [
   "https://www.frankfurt-skyliners.de/news-service/details/were-back-skyliners-starten-in-venedig-in-den-bkt-eurocup",
-  "https://www.reyer.it/news/maschile/2026-09-23/umana-reyer-frankfurt-biglietti/"
+  "https://www.reyer.it/news/maschile/2026-09-23/umana-reyer-frankfurt-biglietti/",
+  "https://www.frankfurt-skyliners.de/news-service/details/were-back-skyliners-starten-in-venedig-in-den-bkt-eurocup",
+  "https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/erster-sieg---skyliners-frankfurt-belohnen-sich-fuer-couragierten-auftritt-gegen-vechta-v1,skyliners-vechta-132.html",
+  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100.html",
+  "https://www.eurosport.it/basket/serie-a/2026-2027/1a-giornata-risultati-tabellini-e-classifica.-treviso-venezia-e-trento-vincono-negli-anticipi-del-sabato_sto23340552/story.shtml"
  ],
- "match_id": "m20260930-16939ccb",
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 2,
+   "W": 1,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 50.0,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
    "away": {
     "W": 0,
-    "L": 0,
+    "L": 1,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 176,
+   "points_against": 175,
+   "points_games": 2
   },
   "right": {
-   "games": 0,
-   "W": 0,
+   "games": 1,
+   "W": 1,
    "L": 0,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 100.0,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
@@ -79,7 +112,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 85,
+   "points_against": 73,
+   "points_games": 1
   },
   "h2h": {
    "games": 0,

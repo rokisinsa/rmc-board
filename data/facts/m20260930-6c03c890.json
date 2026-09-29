@@ -1,75 +1,137 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:41:00+09:00",
  "unit": "なし",
  "left": {
   "name": "スペイン（Spain）",
-  "ranking": "UNL League A 1位（3pt）",
+  "ranking": "UNLリーグA 3pt／W杯2026優勝（hardtackle）",
   "form": [
    {
-    "date": "2026-09",
+    "date": "2026-09-26",
     "opp": "イングランド",
-    "comp": "UNL",
+    "comp": "UNLリーグA 第1節",
     "ha": "A",
     "score": "3-2",
     "res": "W",
-    "detail": "集計サイト記載の最新戦（日付未確認）"
+    "detail": "ウェンブリー。ヤマルが開始2分以内に得点（hardtackle）"
    }
   ],
   "lineup": [
-   "ポロ、ガビ、ボルハ・イグレシアス：負傷欠場",
-   "ロベルト・フェルナンデス（エスパニョール）ら未招集経験者2名を招集"
+   "Joan García, ペドロ・ポロ, エリック・ガルシア負傷欠場、ル・ノルマン追加招集（hardtackle）",
+   "既報：ガビ、ボルハ・イグレシアス負傷（前回取得）",
+   "予想：Simón; Pubill, Cubarsí, Laporte, Cucurella; Rodri, Pedri; Yamal, Olmo, Baena; Oyarzabal（hardtackle）"
   ],
   "history": []
  },
  "right": {
   "name": "クロアチア（Croatia）",
-  "ranking": "UNL League A 2位（3pt）",
+  "ranking": "UNLリーグA 3pt／W杯2026 グループL2位→R32でポルトガルと対戦（結果スコア未確定）",
   "form": [
    {
-    "date": "2026-09",
+    "date": "2026-09-26",
     "opp": "チェコ",
-    "comp": "UNL",
+    "comp": "UNLリーグA 第1節",
     "ha": "A",
     "score": "2-1",
     "res": "W",
-    "detail": "集計サイト記載の最新戦（日付未確認）"
+    "detail": "モドリッチ得点（hardtackle）"
+   },
+   {
+    "date": "2026-06-27",
+    "opp": "ガーナ",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "detail": "Wikipedia Group L"
+   },
+   {
+    "date": "2026-06-23",
+    "opp": "パナマ",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "detail": "Wikipedia Group L（パナマ0-1クロアチア）"
+   },
+   {
+    "date": "2026-06-17",
+    "opp": "イングランド",
+    "comp": "W杯2026 GS",
+    "ha": "N",
+    "score": "2-4",
+    "res": "L",
+    "detail": "Wikipedia Group L"
    }
   ],
   "lineup": [
-   "バトゥリナ、エルリッチ：負傷欠場",
-   "モドリッチ（41歳）代表204試合目の見込み"
+   "ユラノヴィッチ、エルリッチ負傷離脱、マイェル・ポングラチッチ・ヤキッチ追加（hardtackle）",
+   "既報：バトゥリナ欠場",
+   "予想：Livaković; Stanišić, Vuković, Gvardiol, Perišić; Modrić, Kovačić; L.Sučić, P.Sučić, Pašalić; Budimir（hardtackle）"
   ],
   "history": []
  },
  "h2h": [
   {
-   "date": "不明",
-   "event": "Euro 2028関連試合（sportsgamblerの記載）",
-   "score": "スペイン 3-0",
+   "date": "2024-06-15",
+   "event": "EURO2024 GS",
+   "score": "3-0",
+   "winner": "left"
+  },
+  {
+   "date": "2023-06-18",
+   "event": "UNL決勝",
+   "score": "0-0",
+   "winner": "draw",
+   "detail": "90分ドロー（scores24）。タイトルはPK戦の結果"
+  },
+  {
+   "date": "2021-06-28",
+   "event": "EURO2020 R16",
+   "score": "スペイン勝ち（スコア要確認）",
    "winner": "left",
-   "units_left": 3,
-   "units_right": 0,
-   "detail": "日付は取得元に記載なし"
+   "detail": "scores24表記『Croatia 1-8 Spain』は不正確とみられる"
+  },
+  {
+   "date": "2018-11-15",
+   "event": "UNL",
+   "score": "2-3",
+   "winner": "right",
+   "detail": "クロアチアのホーム"
+  },
+  {
+   "date": "2018-09-11",
+   "event": "UNL",
+   "score": "6-0",
+   "winner": "left",
+   "detail": "スペインのホーム"
   }
  ],
- "common_opponents_notes": [],
+ "common_opponents_notes": [
+  "公式戦通算 スペイン7勝3敗（hardtackle）、スペイン直近3連勝",
+  "スペインはW杯2026で優勝（scores24/hardtackle、決勝トーナメントのスコアはscores24表記が不正確のため不採用）",
+  "60日以内の共通相手なし（スペイン=イングランド、クロアチア=チェコ）"
+ ],
  "venue": "セビリア Ramón Sánchez-Pizjuán、スペインのホーム",
  "risks": [
-  "form行は集計ページの記述から1試合ずつしか取得できず（10試合中1）",
-  "h2hの日付が不明"
+  "scores24のスコア表記が明らかに不正確（Portugal 9-5 Croatia等）なためform・H2Hの数値はWikipedia/hardtackleで確認できた分のみ採用",
+  "スペインは『2024年3月以降90分で無敗』（hardtackle）"
  ],
  "missing": [
-  "10試合分の詳細",
-  "h2h日付付き一覧"
+  "スペインW杯決勝Tの日付付きスコア",
+  "10試合分"
  ],
  "unavailable": {
-  "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（最新1戦のみ確認）",
-  "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（最新1戦のみ確認）",
-  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+  "left.form": "W杯試合のスコアがscores24で不正確、他ソース未取得のため9/26の1試合のみ",
+  "right.form": "W杯GS3試合＋9/26の4試合、R32（対ポルトガル）スコア未取得",
+  "history": "60日以内の共通相手なし",
+  "h2h": "2021年のスコアはソース不正確のため数値なし"
  },
  "source_urls": [
   "https://footballwhispers.com/blog/spain-vs-croatia-prediction-29-09-2026/",
-  "https://www.sportsgambler.com/betting-tips/football/spain-vs-croatia-prediction-lineups-odds-2026-09-29/"
+  "https://www.sportsgambler.com/betting-tips/football/spain-vs-croatia-prediction-lineups-odds-2026-09-29/",
+  "https://thehardtackle.com/round-up/2026/09/29/spain-vs-croatia-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+  "https://scores24.live/en/soccer/m-29-09-2026-spain-croatia-prediction",
+  "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
  ],
  "match_id": "m20260930-6c03c890",
  "calc": {
@@ -95,11 +157,11 @@
    "points_games": 1
   },
   "right": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
+   "games": 4,
+   "W": 3,
+   "L": 1,
    "D": 0,
-   "win_rate": 100.0,
+   "win_rate": 75.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -110,23 +172,21 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "points_for": 2,
-   "points_against": 1,
-   "points_games": 1
+   "streak": "3連勝",
+   "points_for": 6,
+   "points_against": 5,
+   "points_games": 4
   },
   "h2h": {
-   "games": 1,
-   "left": 1,
-   "right": 0,
-   "draw": 0,
-   "units_left": 3,
-   "units_right": 0,
-   "points_left": 3,
-   "points_right": 0,
-   "points_games": 1,
-   "avg_left": 3.0,
-   "avg_right": 0.0
+   "games": 5,
+   "left": 3,
+   "right": 1,
+   "draw": 1,
+   "points_left": 11,
+   "points_right": 3,
+   "points_games": 4,
+   "avg_left": 2.8,
+   "avg_right": 0.8
   },
   "common": [],
   "common_window_days": 60,

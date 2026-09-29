@@ -1,0 +1,111 @@
+{
+ "match_id": "m20260929-43a9b491",
+ "data_as_of": "2026-09-29T19:05:00+09:00",
+ "unit": "フレーム",
+ "left": {
+  "name": "ベン・メルテンス（Ben Mertens）",
+  "ranking": "snooker.org表示ランク62位",
+  "form": [],
+  "lineup": [
+   "出場（2回戦=ベスト32）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ジミー・ロバートソン（Jimmy Robertson）",
+  "ranking": "snooker.org表示ランク33位",
+  "form": [
+   {
+    "date": "2026-07-19",
+    "opp": "Zhou Yuelong",
+    "opp_rank": "",
+    "comp": "Shenzhen Open 予選（Leicester, 7/19-22の期間内、正確な日付未確認）",
+    "ha": "N",
+    "score": "5-2",
+    "res": "W",
+    "units_won": 5,
+    "units_lost": 2,
+    "detail": "フレーム数。snooker.orgページ要約から（2回確認）"
+   }
+  ],
+  "lineup": [
+   "出場（2回戦=ベスト32）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Bao'an Sports Centre（中国・深圳）、中立。Shenzhen Open 2回戦（ベスト32）Best of 9フレーム",
+ "risks": [
+  "Best of 9の短期戦",
+  "snooker.orgの内容はWebFetch要約経由で取得、一部要約に矛盾があり信頼度低",
+  "直近成績がほぼ取得できていない"
+ ],
+ "missing": [
+  "両者の直近10試合",
+  "H2H詳細",
+  "1回戦（持ち越し試合）のスコア"
+ ],
+ "unavailable": {
+  "left.form": "cuetracker/WST/Wikipedia/snooker.org選手ページは権限なしまたは要約が不正確で取得できず",
+  "right.form": "同上",
+  "h2h": "snooker.orgのH2Hページは取得できず（イベントページにリダイレクト）。snooker.orgイベントページに『Head to head (3)』表記あり＝過去3戦あるが内訳未取得",
+  "history": "両者のform未取得のため判定不可"
+ },
+ "source_urls": [
+  "https://www.snooker.org/res/index.asp?event=2761",
+  "https://www.snooker.org/res/index.asp?template=24"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 5,
+   "units_lost": 2,
+   "points_for": 5,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

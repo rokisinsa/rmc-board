@@ -1,74 +1,116 @@
 {
+ "match_id": "m20260930-1c139f67",
+ "data_as_of": "2026-09-29T18:36:43+09:00",
+ "unit": "なし",
  "left": {
   "name": "ニナーズ・ケムニッツ（Niners Chemnitz）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦（グループC）",
-  "form": [],
+  "ranking": "BBL 2026-27 1勝2敗（15位、9/27時点）／EuroCup開幕戦",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Phoenix Hagen",
+    "comp": "BBL 第3節",
+    "ha": "H",
+    "score": "94-93",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Hamburg Towers",
+    "comp": "BBL 第2節",
+    "ha": "A",
+    "score": "90-94",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Alba Berlin",
+    "comp": "BBL 第1節",
+    "ha": "A",
+    "score": "82-89",
+    "res": "L"
+   }
+  ],
   "lineup": [
-   "取得できず"
+   "負傷・ロスター情報は取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "トファシュ・ブルサ（Tofas）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦（グループC）／トルコ・スーパーリグ開幕1勝",
-  "form": [],
+  "ranking": "BSL 2026-27 1勝0敗／EuroCup開幕戦",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "Pizzabulls Bordo Bandırma",
+    "comp": "BSL 第1節",
+    "ha": "H",
+    "score": "90-89",
+    "res": "W",
+    "detail": "残り1.1秒でYiğitcan Saybirが自陣からのブザービーター。Saybir 18点、Nutall 15点"
+   }
+  ],
   "lineup": [
-   "取得できず"
+   "負傷者の言及なし（Basket Dergisi）"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "ブルサ・ニルファー・トファシュ・スポーツホール（トファシュ側ホーム）、現地20:00開始",
- "unavailable": {
-  "left.form": "ケムニッツの結果ページ（公式・chemnitz99.de・basketnews）から試合結果を取得できず",
-  "right.form": "トファシュは開幕戦1試合のみ取得（日付が確認できないため掲載せず）",
-  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:08:03+09:00",
- "unit": "なし",
+ "venue": "ブルサ・ニルファー・トファシュ・スポーツホール（トファシュ側ホーム）、現地20:00開始。配信表記ではケムニッツ左だがアウェイ",
  "risks": [
   "両チームともユーロカップ開幕戦でロースター・負傷情報が確認できていない",
-  "トファシュはホーム開催"
+  "トファシュはホーム開催",
+  "ケムニッツは9/25・9/27と連戦後のトルコ遠征"
  ],
  "missing": [
-  "ケムニッツの直近結果",
   "両チームの負傷情報",
-  "h2h"
+  "h2h",
+  "model_prob"
  ],
+ "unavailable": {
+  "h2h": "対戦履歴ページを取得できず（初対戦とは未確認）",
+  "left.form": "今季公式戦3試合のみ（BBL）",
+  "right.form": "今季公式戦1試合のみ（BSL第1節）",
+  "history": "60日以内の共通相手なし（リーグが異なる）"
+ },
  "source_urls": [
   "https://ulusehir.com/haber/tofas-avrupada-da-sezona-galibiyetle-baslamayi-hedefliyor-213183",
-  "https://www.euroleaguebasketball.net/eurocup/game-center/2026-27/tofas-bursa-niners-chemnitz/U2026/11/"
+  "https://www.euroleaguebasketball.net/eurocup/game-center/2026-27/tofas-bursa-niners-chemnitz/U2026/11/",
+  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100~team_id-1473.html",
+  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100.html",
+  "https://basketdergisi.com/tofas-bsl-sezonuna-mucizevi-galibiyetle-basladi.html"
  ],
- "match_id": "m20260930-1c139f67",
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 3,
+   "W": 1,
+   "L": 2,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 33.3,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
    "away": {
     "W": 0,
-    "L": 0,
+    "L": 2,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 266,
+   "points_against": 276,
+   "points_games": 3
   },
   "right": {
-   "games": 0,
-   "W": 0,
+   "games": 1,
+   "W": 1,
    "L": 0,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 100.0,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
@@ -77,7 +119,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 90,
+   "points_against": 89,
+   "points_games": 1
   },
   "h2h": {
    "games": 0,

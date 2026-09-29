@@ -1,0 +1,91 @@
+{
+ "match_id": "m20260930-ae4b7105",
+ "data_as_of": "2026-09-29T18:49:49+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "グリンダヴィーク（Grindavík、女子）",
+  "ranking": "Bónus deild kvenna 開幕前予想 2位（218pt）",
+  "form": [],
+  "lineup": [
+   "ロスター・負傷情報は取得できず（karfan.isに移籍まとめ記事あり、内容未取得）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "アールマン（Ármann、女子）",
+  "ranking": "Bónus deild kvenna 開幕前予想 9位（52pt）",
+  "form": [],
+  "lineup": [
+   "ロスター・負傷情報は取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "未確認（配信表記ではグリンダヴィークがホーム）。アイスランド女子1部 開幕節",
+ "risks": [
+  "開幕戦で今季データなし",
+  "ホーム/アウェイ未確認"
+ ],
+ "missing": [
+  "前季成績・h2h",
+  "負傷情報"
+ ],
+ "unavailable": {
+  "h2h": "karfan.is・kki.isで前季対戦結果を取得できず（検索上限のため追加調査せず）",
+  "left.form": "9/29が開幕戦（karfan.is『今夜開幕、3試合』）で今季公式戦なし。前季結果は取得できず",
+  "right.form": "同上",
+  "history": "開幕戦のため今季の共通相手なし"
+ },
+ "source_urls": [
+  "https://www.karfan.is/njardvik-spad-deildarmeistaratitlinum-i-bonus-deild-kvenna/",
+  "https://www.karfan.is/"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

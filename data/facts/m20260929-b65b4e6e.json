@@ -1,0 +1,109 @@
+{
+ "match_id": "m20260929-b65b4e6e",
+ "left": {
+  "name": "M.エハブ / G.エル・フェキ (Ehab M. / El Feky G.)",
+  "ranking": "取得できず",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "J.トライナウスカス / P.ヴァイティエクナス (Trainauskas / Vaitiekunas)",
+  "ranking": "取得できず（ペアランクなし）",
+  "form": [
+   {
+    "date": "2026-08-20",
+    "opp": "クラーセン / ファン・ヘルク",
+    "comp": "ITF M15 Lambermont ダブルス R16",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 4-6（クレー）"
+   }
+  ],
+  "lineup": [
+   "2人はリトアニア代表としてデビスカップ（対セルビア、ニシュ、9/20）のダブルスに起用予定だった（Srpske Novine）。セルビアが4-0で勝利、ダブルスの結果は未確認"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "venue": "ITF M15 Sharm El Sheikh 11（エジプト）男子ダブルス、ハード。左ペアはエジプト人ペアとみられホーム寄り",
+ "risks": [
+  "右ペアのform 1件のみ",
+  "Sofascoreの開始時刻は14:00 UTC（=23:00 JST）でリストの20:00 JSTと不一致"
+ ],
+ "missing": [
+  "左ペアの成績・ランキング",
+  "H2H"
+ ],
+ "unavailable": {
+  "h2h": "Sofascoreチームページに記載なし（未確認）",
+  "left.form": "検索結果に左ペアのページが出ず",
+  "right.form": "Sofascoreチームページは直近1試合のみ表示（fixtures動的読み込み）",
+  "history": "form不足で確認不可"
+ },
+ "source_urls": [
+  "https://www.sofascore.com/tennis/team/trainauskas-j-vaitiekunas-p/1177799",
+  "https://www.sofascore.com/tennis/match/klaassen-van-herck-trainauskas-vaitiekunas/ZfwjsVWck",
+  "https://srpske.rs/en/news/sport/2026/09/20/kecmanovic-latinovic-face-lithuania-in-davis-cup-doubles"
+ ],
+ "unit": "セット",
+ "data_as_of": "2026-09-29T18:31:00+09:00",
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 8,
+   "inner_against": 12,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

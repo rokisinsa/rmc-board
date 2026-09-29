@@ -1,7 +1,10 @@
 {
+ "match_id": "m20260930-34df4785",
+ "data_as_of": "2026-09-29T18:43:13+09:00",
+ "unit": "なし",
  "left": {
   "name": "ボロース・バスケット（Borås Basket）",
-  "ranking": "バスケットリーガン 0勝1敗（昨季ファイナリスト）",
+  "ranking": "バスケットリーガン 0勝1敗／前季2025-26ファイナルはBorås対Norrköping（basketplus.seはBorås優勝と記載、既存資料はNorrköping王者と記載でソース間矛盾）",
   "form": [
    {
     "date": "2026-09-25",
@@ -29,29 +32,29 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "ヨグスボ（ヨグスボ側ホーム）",
+ "venue": "ヨグスボ（ヨグスボ側ホーム）。配信表記ではボロース左だがアウェイ",
+ "risks": [
+  "ヨグスボは昇格チームで実力が読みにくい",
+  "ボロースは開幕戦でニェッショーにホーム敗戦",
+  "ヨグスボは昇格チームで実力が読みにくい",
+  "前季2025-26ファイナルはBorås対Norrköping（basketplus.seはBorås優勝と記載、既存資料はNorrköping王者と記載でソース間矛盾）"
+ ],
+ "missing": [
+  "ヨグスボの今季結果",
+  "h2h",
+  "負傷情報"
+ ],
  "unavailable": {
   "left.form": "開幕1試合のみ",
   "right.form": "ヨグスボの今季試合結果を確認できず（tabellen.seの一覧に載っていない）",
   "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
   "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
  },
- "data_as_of": "2026-09-29T07:09:15+09:00",
- "unit": "なし",
- "risks": [
-  "ヨグスボは昇格チームで実力が読みにくい",
-  "ボロースは昨季ファイナリストで価格上は大きな本命（1.09）"
- ],
- "missing": [
-  "ヨグスボの結果",
-  "負傷情報",
-  "h2h"
- ],
  "source_urls": [
   "https://tabellen.se/basket/basketligan-herrar",
-  "https://www.nsd.se/blogg/sport/basketbloggen/artikel/jamtland-mot-bc-lulea-omgangens-hetaste-match/r9mqg4zl"
+  "https://www.nsd.se/blogg/sport/basketbloggen/artikel/jamtland-mot-bc-lulea-omgangens-hetaste-match/r9mqg4zl",
+  "https://www.basketplus.se/basketligan-herrar/"
  ],
- "match_id": "m20260930-34df4785",
  "calc": {
   "left": {
    "games": 1,

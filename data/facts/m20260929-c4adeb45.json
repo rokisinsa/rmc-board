@@ -1,40 +1,41 @@
 {
- "data_as_of": "2026-09-29T06:55:00+09:00",
+ "match_id": "m20260929-c4adeb45",
+ "data_as_of": "2026-09-29T18:39:42+09:00",
  "unit": "セット",
  "left": {
   "name": "Jakupovic / Salden L. (3)",
-  "ranking": "取得不可",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "right": {
   "name": "Noha Akug / Wagner A.",
-  "ranking": "取得不可",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "取得不可（Adana）",
+ "venue": "Adana・中立（詳細未確認）",
  "risks": [
-  "データ未取得のため判断材料なし"
+  "直近成績・H2Hの裏付けがなくオッズ以外の判断材料が乏しい",
+  "棄権・順延の有無は未確認",
+  "ダブルスはペア固定でない場合が多く、ペアとしての実績が不明"
  ],
  "missing": [
-  "form",
-  "h2h",
-  "ranking",
-  "Elo"
+  "両者の直近10試合",
+  "H2H",
+  "ランキング"
  ],
  "unavailable": {
-  "h2h": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "left.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "right.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "history": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない"
+  "h2h": "未確認：WebSearch担当上限（30回）到達／優先度の高い試合に配分したため、この選手の結果一覧ページURLを取得できず（WebFetchは検索結果に出たURLのみ許可、tennisexplorer・sofascore・ITFはcurlで403）",
+  "left.form": "WebSearch担当上限（30回）到達／優先度の高い試合に配分したため、この選手の結果一覧ページURLを取得できず（WebFetchは検索結果に出たURLのみ許可、tennisexplorer・sofascore・ITFはcurlで403）",
+  "right.form": "WebSearch担当上限（30回）到達／優先度の高い試合に配分したため、この選手の結果一覧ページURLを取得できず（WebFetchは検索結果に出たURLのみ許可、tennisexplorer・sofascore・ITFはcurlで403）",
+  "history": "両者のform未取得のため判定不可"
  },
  "source_urls": [],
- "match_id": "m20260929-c4adeb45",
  "calc": {
   "left": {
    "games": 0,

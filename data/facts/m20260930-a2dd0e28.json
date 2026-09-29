@@ -1,41 +1,41 @@
 {
- "data_as_of": "2026-09-29T07:00:00+09:00",
+ "match_id": "m20260930-a2dd0e28",
+ "data_as_of": "2026-09-29T18:26:40+09:00",
  "unit": "セット",
  "left": {
-  "name": "Durasovic Viktor",
-  "ranking": "Durasovic V.",
+  "name": "Durasovic V.",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Blanchet Ugo",
-  "ranking": "Blanchet U.",
+  "name": "Blanchet U.",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "Mouilleron-Le-Captif challenger",
+ "venue": "ATP Challenger 75 ムイユロン＝ル＝カプティフ（フランス）・室内ハード・中立",
  "risks": [
-  "直近フォーム・H2H・Eloが取得できておらず、オッズ以外の裏付けがない",
-  "棄権・ウォークオーバーの有無は未確認"
+  "事実データ（直近成績・H2H）を一切取得できていない。オッズ以外の判断材料なし"
  ],
  "missing": [
-  "直近10試合（左右とも）",
-  "H2H",
-  "共通相手履歴",
-  "Tennis Abstract Elo"
+  "left.form",
+  "right.form",
+  "h2h",
+  "history",
+  "ranking"
  ],
  "unavailable": {
-  "h2h": "H2Hを取得できず（tennisexplorer/matchstat等にアクセス不可）。初対戦とは確認していない",
-  "left.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "right.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "history": "両者の直近試合リストを取得できず共通相手を確認できない"
+  "h2h": "未確認：WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "left.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "right.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "history": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず"
  },
  "source_urls": [],
- "match_id": "m20260930-a2dd0e28",
  "calc": {
   "left": {
    "games": 0,

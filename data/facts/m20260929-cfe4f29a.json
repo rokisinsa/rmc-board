@@ -1,48 +1,73 @@
 {
- "data_as_of": "2026-09-29T07:00:00+09:00",
- "unit": "セット",
+ "match_id": "m20260929-cfe4f29a",
  "left": {
-  "name": "Cretu Cezar (2001)",
-  "ranking": "Cretu C.",
-  "form": [],
+  "name": "チェザル・クレツ (Cezar Cretu)",
+  "ranking": "ATP 272位（最高230位）。2026年ハード 0-1",
+  "form": [
+   {
+    "date": "2026-09-07",
+    "opp": "マヨ (H. Mayot)",
+    "comp": "Istanbul Challenger 1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "2-6 4-6"
+   }
+  ],
   "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Rocha Henrique",
-  "ranking": "Rocha H. (8)",
-  "form": [],
-  "lineup": [],
+  "name": "エンリケ・ロシャ (Henrique Rocha)",
+  "ranking": "ATP 127位（最高116位）、第8シード。2026年ハード 4-6",
+  "form": [
+   {
+    "date": "2026-09-11",
+    "opp": "ラヨビッチ (D. Lajovic)",
+    "comp": "Sevilla Challenger 準々決勝",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "4-6 4-6"
+   }
+  ],
+  "lineup": [
+   "地元ポルトガル選手"
+  ],
   "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "Porto challenger",
+ "venue": "Porto Challenger（ポルトガル）1回戦、ハード、Court 2 13:00現地。ロシャはホーム",
  "risks": [
-  "直近フォーム・H2H・Eloが取得できておらず、オッズ以外の裏付けがない",
-  "棄権・ウォークオーバーの有無は未確認"
+  "form各1件のみ",
+  "ロシャはハード今季4-6と負け越し（クレー主体）",
+  "クレツはハード今季1試合のみ"
  ],
  "missing": [
-  "直近10試合（左右とも）",
-  "H2H",
-  "共通相手履歴",
-  "Tennis Abstract Elo"
+  "両者の直近10試合"
  ],
  "unavailable": {
-  "h2h": "H2Hを取得できず（tennisexplorer/matchstat等にアクセス不可）。初対戦とは確認していない",
-  "left.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "right.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "history": "両者の直近試合リストを取得できず共通相手を確認できない"
+  "h2h": "初対戦（Tennis Tonic）",
+  "left.form": "個別の試合一覧（tennisexplorer/ATP/sofascore）は本文取得不可。Tennis Tonicのプレビューに記載の直近1試合のみ",
+  "right.form": "個別の試合一覧（tennisexplorer/ATP/sofascore）は本文取得不可。Tennis Tonicのプレビューに記載の直近1試合のみ",
+  "history": "form不足で共通相手確認不可"
  },
- "source_urls": [],
- "match_id": "m20260929-cfe4f29a",
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058891/h2h-prediction-of-henrique-rocha-vs-cezar-cretu-in-porto-challenger-with-odds-preview-pick-29th-september-2026/"
+ ],
+ "unit": "セット",
+ "data_as_of": "2026-09-29T18:42:00+09:00",
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -53,14 +78,22 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 6,
+   "inner_against": 12,
+   "inner_games": 1
   },
   "right": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -71,7 +104,15 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 8,
+   "inner_against": 12,
+   "inner_games": 1
   },
   "h2h": {
    "games": 0,

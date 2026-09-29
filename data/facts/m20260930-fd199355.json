@@ -1,0 +1,133 @@
+{
+ "match_id": "m20260930-fd199355",
+ "data_as_of": "2026-09-29T18:32:03+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ヴィクトル・ウゴ・レモンジ・パゴット（Victor Hugo Remondy Pagotto, BRA）予選勝者",
+  "ranking": "ATP 854（自己最高851）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Fernandez",
+    "comp": "Curitiba CH 予選",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "7-6(1) 4-6 6-3"
+   }
+  ],
+  "lineup": [
+   "直近10戦 WWLWLWWWWW（Tennis Tonic）",
+   "2026年 18勝17敗（クレー13勝16敗）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "ペドロ・ボスカルジン・ジアス（Pedro Boscardin Dias, BRA）",
+  "ranking": "ATP 262（自己最高222）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Mena F.",
+    "comp": "Buenos Aires CH SF",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "5-7 0-6"
+   }
+  ],
+  "lineup": [
+   "直近10戦 LWWWLLLLLL（Tennis Tonic）",
+   "2026年 21勝24敗（クレー21勝23敗）",
+   "2025年Curitiba準優勝"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ATP Challenger 75 Curitiba（ブラジル）1回戦・コート2 15:00現地予定（Tennis Tonic）・クレー・両者ブラジル人",
+ "risks": [
+  "ボスカルジンは前週ブエノスアイレスSFまで進出し移動直後",
+  "Tennis Tonicの開始時刻（現地15時＝JST 3:00）と配信時刻（JST 1:00）が不一致"
+ ],
+ "missing": [
+  "両者の直近10試合の個別スコア"
+ ],
+ "unavailable": {
+  "h2h": "初対戦：Tennis Tonic（H2H 0-0）",
+  "left.form": "Tennis Tonicは勝敗並びと予選1試合のみ",
+  "right.form": "同上",
+  "history": "判定不可"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058991/h2h-prediction-of-pedro-boscardin-dias-vs-victor-hugo-remondy-pagotto-in-curitiba-challenger-with-odds-preview-pick-29th-september-2026/",
+  "https://www.tenisnews.com.br/programacao-terca-curitiba/"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 1,
+   "points_for": 2,
+   "points_against": 1,
+   "points_games": 1,
+   "inner_for": 17,
+   "inner_against": 15,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 5,
+   "inner_against": 13,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,43 +1,49 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260930-ff3d813f",
+ "data_as_of": "2026-09-29T18:34:00+09:00",
  "unit": "なし",
  "left": {
-  "name": "ベッリンツォーナ・ロケッツ（Bellinzona Rockets）",
-  "ranking": "Swiss League 2026/27",
+  "name": "ベッリンツォーナ・ロケッツ（Bellinzona Rockets／Snakes）",
+  "ranking": "Swiss League 2026/27 3位（4試合8pt・得失+1、Blick 9/23時点 'Bellinzona Snakes'表記）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "HCシエール（HC Sierre-Anniviers）",
-  "ranking": "Swiss League 2026/27（直近でアローザに8-2勝ち、日付不明）",
+  "ranking": "Swiss League 2026/27 2位（3試合8pt・得失+11、Blick 9/23時点）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "ベッリンツォーナ（Bellinzona）ホーム想定",
+ "venue": "ベッリンツォーナのホーム想定（未確認）",
  "risks": [
-  "データほぼ皆無"
+  "2部リーグでデータ乏しい",
+  "順位表は9/23時点",
+  "チーム名表記揺れ（Rockets/Snakes）"
  ],
  "missing": [
-  "ほぼ全項目"
+  "直近成績",
+  "H2H",
+  "ラインナップ",
+  "会場"
  ],
  "unavailable": {
-  "h2h": "取得不可（過去のnau.ch試合速報は日付・年度が特定できず）",
+  "h2h": "取得不可（過去のnau.ch速報は年度特定できず、sport.de 402）",
   "left.form": "日付付き結果を取得できず",
-  "right.form": "同上",
+  "right.form": "同上（アローザに8-2勝ちのみ、日付不明）",
   "history": "取得不可"
  },
  "source_urls": [
-  "https://www.sofascore.com/ice-hockey/team/ehc-arosa/320850"
+  "https://www.sofascore.com/ice-hockey/team/ehc-arosa/320850",
+  "https://www.blick.ch/sport/eishockey/nlb/die-aktuelle-tabelle-der-swiss-league-id21171897.html"
  ],
- "match_id": "m20260930-ff3d813f",
  "calc": {
   "left": {
    "games": 0,

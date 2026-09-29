@@ -1,0 +1,170 @@
+{
+ "unit": "マップ",
+ "left": {
+  "name": "Nemesis",
+  "ranking": "HLTV世界43位／Valve 35位（ロシア）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "fnatic",
+    "comp": "Stake Ranked Episode 5 Closed Qualifier",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Sashi",
+    "comp": "Stake Ranked Episode 5 Closed Qualifier",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Rune Eaters",
+    "comp": "Stake Ranked Episode 5 Closed Qualifier",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Nemiga",
+    "comp": "WINLINE MPKBK CIS LAN Season 7 決勝（BO5・LAN モスクワ）",
+    "ha": "N",
+    "score": "1-3",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 3,
+    "detail": "Mirage 6-13 / Ancient 8-13 / Cache 19-17 / Dust2 17-19"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "UPGRADE",
+    "comp": "WINLINE MPKBK CIS LAN Season 7 準決勝（LAN）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "Cache 13-5 / Inferno 13-8"
+   }
+  ],
+  "lineup": [
+   "SELLTER",
+   "r3salt",
+   "mag1k3Y",
+   "tex1y",
+   "Sdaim",
+   "コーチ NMV（ベンチ扱い）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "DARKWALL",
+  "ranking": "HLTVランク外（オープン予選通過枠）",
+  "form": [],
+  "lineup": [
+   "HLTVで選手未掲載"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ロシア・サンクトペテルブルクのLAN会場（中立）、CIS LAN S8 GSLグループ初戦",
+ "unavailable": {
+  "h2h": "初対戦：HLTV Nemesisページ・イベントページで記録なし",
+  "right.form": "HLTVにDARKWALLのチームページ・戦績なし（Open Registration）、Web検索でも見つからず",
+  "left.form": "HLTVチームページが途中で切れ5件のみ取得",
+  "history": "DARKWALLの戦績不明のため共通相手判定不可"
+ },
+ "match_id": "m20260930-b52d3694",
+ "data_as_of": "2026-09-29T18:33:00+09:00",
+ "risks": [
+  "DARKWALLはHLTVで『Open Registration』枠、ロスター未掲載・戦績不明（情報ゼロ）",
+  "Nemesisはコーチ NMV がベンチ（HLTV表記）",
+  "CIS LANはティア2-3の地域LAN（整合性リスク）"
+ ],
+ "missing": [
+  "DARKWALLのロスター・戦績・ランク全て",
+  "NemesisのCIS LAN S7 グループ段階の結果（BET-M戦等）"
+ ],
+ "source_urls": [
+  "https://www.hltv.org/team/13355/nemesis",
+  "https://www.hltv.org/events/9361/winline-mpkbk-cis-lan-season-8",
+  "https://www.hltv.org/events/9345/winline-mpkbk-cis-lan-season-7",
+  "https://www.hltv.org/news/45533/nemiga-win-mpkbk-cis-lan-s7",
+  "https://www.hltv.org/matches/2398140/nemesis-vs-upgrade-winline-mpkbk-cis-lan-season-7",
+  "https://robinhood.com/us/en/prediction-markets/esports/events/darkwall-vs-team-nemesis-sep-29-2026/"
+ ],
+ "esports": {
+  "format": "BO3（GSLグループ全BO3、プレーオフBO3・決勝BO5）",
+  "lan_online": "LAN（ロシア・サンクトペテルブルク、WINLINE MPKBK CIS LAN Season 8、9/29-10/2、賞金$40,000）",
+  "map_pool": "Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache",
+  "veto": "取得できず：DARKWALLの過去vetoなし。NemesisはCIS LAN S7でCache/Inferno（対UPGRADE）を取得",
+  "patch": "取得できず：大会ビルド記載なし",
+  "map_h2h": "取得できず：初対戦"
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "units_won": 9,
+   "units_lost": 5,
+   "points_for": 9,
+   "points_against": 5,
+   "points_games": 5,
+   "inner_for": 76,
+   "inner_against": 75,
+   "inner_games": 2
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

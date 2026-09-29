@@ -1,0 +1,85 @@
+{
+ "match_id": "m20260929-4909299e",
+ "data_as_of": "2026-09-29T19:05:00+09:00",
+ "unit": "ゲーム",
+ "left": {
+  "name": "Myhailo Levytskii",
+  "ranking": "Setka Cup（ウクライナ）出場選手。順位取得できず",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Roman Horokh",
+  "ranking": "Setka Cup（ウクライナ）出場選手。順位取得できず",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Setka Cup（ウクライナ・キーウ近郊のスタジオ型リーグ）、中立",
+ "risks": [
+  "下位の大量開催リーグ（Setka Cup）で八百長・整合性リスクが指摘される種類の大会",
+  "データ提供元がほぼ無く検証不可"
+ ],
+ "missing": [
+  "直近成績",
+  "H2H",
+  "レーティング"
+ ],
+ "unavailable": {
+  "left.form": "setkacup.com/sofascore/flashscoreは本環境で取得権限なし・接続拒否",
+  "right.form": "同上",
+  "h2h": "同上のため未確認",
+  "history": "同上"
+ },
+ "source_urls": [],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-29"
+ }
+}

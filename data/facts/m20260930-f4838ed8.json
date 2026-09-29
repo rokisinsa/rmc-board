@@ -1,8 +1,20 @@
 {
+ "match_id": "m20260930-f4838ed8",
+ "data_as_of": "2026-09-29T18:30:30+09:00",
+ "unit": "なし",
  "left": {
   "name": "バスコニア（Saski Baskonia）",
-  "ranking": "ユーロリーグ 開幕0勝1敗",
+  "ranking": "ユーロリーグ 0勝1敗（前季2025-26 レギュラーシーズン18位 13勝25敗）",
   "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "San Pablo Burgos",
+    "comp": "Liga Endesa 第1節",
+    "ha": "A",
+    "score": "98-97",
+    "res": "W",
+    "detail": "Liga Endesa第1節（記事日付2026-09-27、試合日は9/26-27のいずれか）。Damion Baughの決勝2+1"
+   },
    {
     "date": "2026-09-24",
     "opp": "オリンピアコス（Olympiacos）",
@@ -14,14 +26,24 @@
    }
   ],
   "lineup": [
-   "負傷者の報告なし（basketballsphere）"
+   "Alex Lenが退団",
+   "Pedro Souzaは監督判断で出場未定（Basketnews）"
   ],
   "history": []
  },
  "right": {
   "name": "バレンシア（Valencia Basket）",
-  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "ranking": "ユーロリーグ 1勝0敗（前季2025-26 レギュラーシーズン2位 25勝13敗、ファイナルフォー進出）",
   "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "iLERNA Lleida",
+    "comp": "Liga Endesa 第1節",
+    "ha": "H",
+    "score": "100-105",
+    "res": "L",
+    "detail": "Liga Endesa第1節（記事日付2026-09-27、試合日は9/26-27のいずれか）。Lleida Batemon 23点"
+   },
    {
     "date": "2026-09-25",
     "opp": "ベシクタシュ（Besiktas）",
@@ -33,66 +55,48 @@
    }
   ],
   "lineup": [
-   "ニコラ・ミロティッチ、ジャシエル・リベロ、ニール・サコは第1節に出場可",
-   "ヤンクバ・シマ、ゴンサロ・コルバランは遠征に不参加（第1節）"
+   "Yankuba Sima・Lucas Mariは第2節出場微妙（第1節は遠征不参加）",
+   "Gonzalo Corbalanは第2節出場可（Basketnews）"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "バレンシア・ロイグ・アリーナ（バレンシア側ホーム）、18:30 UTC開始",
- "unavailable": {
-  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）",
-  "left.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず",
-  "right.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず"
- },
- "data_as_of": "2026-09-29T07:07:10+09:00",
- "unit": "なし",
+ "venue": "バレンシア・ロイグ・アリーナ（バレンシア側ホーム）、20:30 CEST開始。配信表記ではバスコニア左だがアウェイ",
  "risks": [
-  "バレンシアは第1節に遠征で不参加だった選手がいる"
+  "バレンシアは第1節に遠征で不参加だった選手がいる",
+  "バレンシアはACB開幕でリェイダにホーム敗戦"
  ],
  "missing": [
   "h2h"
  ],
+ "unavailable": {
+  "h2h": "前季の対戦結果ページを取得できず（Wikipedia結果表なし、euroleaguebasketball.net 403）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）",
+  "left.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず",
+  "right.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず"
+ },
  "source_urls": [
   "https://www.sofascore.com/basketball/match/kosner-baskonia-valencia-basket/Vvbsdwb",
   "https://basketball.realgm.com/international/boxscore/2026-09-24/Olympiacos-at-Baskonia/526654",
   "https://www.eurohoops.net/en/euroleague/2012304/euroleague-roundup-valencia-defeats-besiktas-in-a-thriller/amp/",
-  "https://basketballsphere.com/en/injuries/euroleague/"
+  "https://basketballsphere.com/en/injuries/euroleague/",
+  "https://basketnews.com/leagues/25-euroleague/injured.html",
+  "https://www.eurohoops.net/en/euroleague/2013646/injury-report-round-2-milutinov-does-not-travel-to-kaunas/",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_EuroLeague",
+  "https://acb.com/es/liga",
+  "https://www.gigantes.com/liga-endesa/que-ha-pasado-hoy-liga-endesa-jornada1/"
  ],
- "match_id": "m20260930-f4838ed8",
  "calc": {
   "left": {
-   "games": 1,
-   "W": 0,
+   "games": 2,
+   "W": 1,
    "L": 1,
    "D": 0,
-   "win_rate": 0.0,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 1,
-    "D": 0
-   },
-   "away": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "streak": null,
-   "points_for": 89,
-   "points_against": 106,
-   "points_games": 1
-  },
-  "right": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
-   "D": 0,
-   "win_rate": 100.0,
-   "home": {
-    "W": 0,
-    "L": 0,
     "D": 0
    },
    "away": {
@@ -101,9 +105,30 @@
     "D": 0
    },
    "streak": null,
-   "points_for": 96,
-   "points_against": 94,
-   "points_games": 1
+   "points_for": 187,
+   "points_against": 203,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 196,
+   "points_against": 199,
+   "points_games": 2
   },
   "h2h": {
    "games": 0,

@@ -1,41 +1,176 @@
 {
  "match_id": "m20260930-8777ba29",
- "data_as_of": "2026-09-29T13:00:00+09:00",
+ "data_as_of": "2026-09-29T18:50:23+09:00",
  "unit": "なし",
  "left": {
-  "name": "ITDサンタテクラ",
-  "ranking": "未取得",
+  "name": "ITDサンタ・テクラ（Santa Tecla BC）",
+  "ranking": "Liga Mayor（順位未取得）",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "ロスター・負傷情報は取得できず"
+  ],
   "history": []
  },
  "right": {
-  "name": "イシドロ・メタパン",
-  "ranking": "未取得",
-  "form": [],
-  "lineup": [],
+  "name": "イシドロ・メタパン（Isidro Metapán）",
+  "ranking": "Liga Mayor（エルサルバドル）直近10試合9勝1敗、直近6連勝",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "Brujos Izalco",
+    "comp": "Liga Mayor",
+    "ha": "H",
+    "score": "120-90",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Cojutepeque",
+    "comp": "Liga Mayor",
+    "ha": "A",
+    "score": "67-60",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Ahuachapán",
+    "comp": "Liga Mayor",
+    "ha": "A",
+    "score": "108-76",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Aguilar",
+    "comp": "Liga Mayor",
+    "ha": "A",
+    "score": "94-81",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-10",
+    "opp": "Salvadoreños",
+    "comp": "Liga Mayor",
+    "ha": "H",
+    "score": "83-77",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Santa Ana BC",
+    "comp": "Liga Mayor",
+    "ha": "A",
+    "score": "89-90",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Chalchuapa Unido",
+    "comp": "Liga Mayor",
+    "ha": "H",
+    "score": "80-57",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-09",
+    "opp": "Chalchuapa Unido",
+    "comp": "Liga Mayor",
+    "ha": "H",
+    "score": "85-60",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-07",
+    "opp": "Chalchuapa Unido",
+    "comp": "Liga Mayor",
+    "ha": "A",
+    "score": "55-76",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-05",
+    "opp": "Chalchuapa Unido",
+    "comp": "Liga Mayor",
+    "ha": "H",
+    "score": "73-65",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "ロスター・負傷情報は取得できず"
+  ],
   "history": []
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-06-22",
+   "event": "Liga Mayor",
+   "score": "74-82",
+   "winner": "right",
+   "detail": "サンタ・テクラのホーム"
+  },
+  {
+   "date": "2026-06-20",
+   "event": "Liga Mayor",
+   "score": "85-105",
+   "winner": "right",
+   "detail": "メタパンのホーム"
+  },
+  {
+   "date": "2025-11-16",
+   "event": "Liga Mayor",
+   "score": "65-91",
+   "winner": "right",
+   "detail": "メタパンのホーム"
+  },
+  {
+   "date": "2025-11-14",
+   "event": "Liga Mayor",
+   "score": "62-105",
+   "winner": "right",
+   "detail": "サンタ・テクラのホーム"
+  },
+  {
+   "date": "2025-11-12",
+   "event": "Liga Mayor",
+   "score": "59-73",
+   "winner": "right",
+   "detail": "メタパンのホーム"
+  },
+  {
+   "date": "2025-11-07",
+   "event": "Liga Mayor",
+   "score": "60-91",
+   "winner": "right",
+   "detail": "メタパンのホーム"
+  },
+  {
+   "date": "2025-09-30",
+   "event": "Liga Mayor",
+   "score": "76-90",
+   "winner": "right",
+   "detail": "サンタ・テクラのホーム"
+  }
+ ],
  "common_opponents_notes": [],
- "venue": "未確認（配信表記ではSanta Teclaがホーム）",
+ "venue": "メタパン（メタパン側ホーム）、LMB クラウスーラ第1節、01:15 UTC開始。配信表記ではサンタ・テクラ左だがアウェイ",
  "risks": [
-  "事実データ未取得のため判断材料なし"
+  "メタパンはH2H7連勝（いずれも8点差以上）",
+  "サンタ・テクラの直近成績不明",
+  "aiscoreの日付は表示タイムゾーン依存で1日ずれの可能性"
  ],
  "missing": [
-  "順位",
-  "直近成績",
-  "H2H",
-  "会場",
-  "メンバー"
+  "サンタ・テクラの直近成績",
+  "負傷情報"
  ],
  "unavailable": {
-  "h2h": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "left.form": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "right.form": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "history": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった"
+  "left.form": "サンタ・テクラのチーム結果ページを取得できず（検索上限）",
+  "history": "サンタ・テクラの結果不明のため共通相手を確認できず"
  },
- "source_urls": [],
+ "source_urls": [
+  "https://m.aiscore.com/es/basketball/team-isidro-metapan/ndkzysz8omue73z/matches",
+  "https://www.sofascore.com/basketball/match/metapan-bc-santa-tecla-bc/bKwcsHjod"
+ ],
  "calc": {
   "left": {
    "games": 0,
@@ -56,28 +191,36 @@
    "streak": null
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 10,
+   "W": 8,
+   "L": 2,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 80.0,
    "home": {
-    "W": 0,
+    "W": 5,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 3,
+    "L": 2,
     "D": 0
    },
-   "streak": null
+   "streak": "5連勝",
+   "points_for": 854,
+   "points_against": 732,
+   "points_games": 10
   },
   "h2h": {
-   "games": 0,
+   "games": 7,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 7,
+   "draw": 0,
+   "points_left": 481,
+   "points_right": 637,
+   "points_games": 7,
+   "avg_left": 68.7,
+   "avg_right": 91.0
   },
   "common": [],
   "common_window_days": 60,

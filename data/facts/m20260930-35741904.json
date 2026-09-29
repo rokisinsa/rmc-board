@@ -1,131 +1,49 @@
 {
  "match_id": "m20260930-35741904",
+ "data_as_of": "2026-09-29T18:26:40+09:00",
+ "unit": "セット",
  "left": {
-  "name": "デミノー",
-  "ranking": "ATP10位（tennistonic／tennisratio、自己最高5位）、本大会第5シード。2026年36勝18敗（ハード15勝9敗）",
-  "form": [
-   {
-    "date": "2026-09-03",
-    "opp": "ファンデザントシュルプ",
-    "comp": "全米オープン 2回戦",
-    "ha": "N",
-    "score": "不明",
-    "res": "L",
-    "detail": "スコア未取得（tennistonic）"
-   },
-   {
-    "date": "2026-09-02",
-    "opp": "ゲリエリ（A. Guerrieri表記）",
-    "comp": "全米オープン 1回戦",
-    "ha": "N",
-    "score": "不明",
-    "res": "W",
-    "detail": "スコア未取得（tennistonic）"
-   },
-   {
-    "date": "2026-08-07",
-    "opp": "ノリー",
-    "comp": "モントリオール",
-    "ha": "N",
-    "score": "1-2",
-    "res": "L",
-    "units_won": 1,
-    "units_lost": 2,
-    "detail": "7-5 6-7 1-6（matchstat・aiscoreのノリー側記録から）"
-   }
-  ],
-  "lineup": [
-   "9月にデビスカップ・レーバーカップ出場（aiscore、詳細未取得）"
-  ],
+  "name": "Alex de Minaur",
+  "ranking": "取得できず",
+  "form": [],
+  "lineup": [],
   "history": []
  },
  "right": {
-  "name": "ナボーネ",
-  "ranking": "ATP45位（自己最高29位）。2026年28勝22敗（ハード11勝9敗）",
-  "form": [
-   {
-    "date": "2026-09-04",
-    "opp": "エチェベリ",
-    "comp": "全米オープン 3回戦",
-    "ha": "N",
-    "score": "不明",
-    "res": "L",
-    "detail": "スコア未取得"
-   },
-   {
-    "date": "2026-09-02",
-    "opp": "ベレッティーニ",
-    "comp": "全米オープン 2回戦",
-    "ha": "N",
-    "score": "不明",
-    "res": "W",
-    "detail": "スコア未取得"
-   },
-   {
-    "date": "2026-08-31",
-    "opp": "ジョコビッチ",
-    "comp": "全米オープン 1回戦",
-    "ha": "N",
-    "score": "3-2",
-    "res": "W",
-    "units_won": 3,
-    "units_lost": 2,
-    "detail": "7-6 5-7 4-6 6-2 6-1（CBS。tennistonicは8/30表記）"
-   }
-  ],
-  "lineup": [
-   "全米前にウィンストンセーラムで敗戦（aiscore、詳細未取得）"
-  ],
+  "name": "Mariano Navone",
+  "ranking": "取得できず",
+  "form": [],
+  "lineup": [],
   "history": []
  },
- "h2h": [
-  {
-   "date": "2024-10-29",
-   "event": "パリ・マスターズ 1回戦・室内ハード",
-   "score": "2-0",
-   "winner": "left",
-   "units_left": 2,
-   "units_right": 0,
-   "detail": "7-5 6-1"
-  }
- ],
- "common_opponents_notes": [
-  "取得範囲（60日以内）で共通相手なし"
- ],
- "venue": "China Open（ATP500）北京、屋外ハード、中立",
- "unavailable": {
-  "history": "取得範囲で共通相手なし",
-  "left.form": "3試合のみ（tennisexplorer・sofascore遮断、ソース間矛盾）",
-  "right.form": "3試合のみ"
- },
- "data_as_of": "2026-09-29T12:49:00+09:00",
- "unit": "セット",
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ATP 500 北京（チャイナオープン）1回戦・ハード・中立",
  "risks": [
-  "デミノーの8月モントリオールの敗戦相手がソースで矛盾（tennistonic：フィス8/6、matchstat/aiscore：ノリー8/7）",
-  "レーバーカップのデミノー対ズベレフの勝敗もソース矛盾",
-  "H2Hはtennistonic・tennisratioが1-0（デミノー）、aiscoreは1-1表記",
-  "ナボーネはハードの過去1年勝率37.5%（tennisratio）でクレー型"
+  "事実データ（直近成績・H2H）を一切取得できていない。オッズ以外の判断材料なし",
+  "検索で存在確認のみ（本文未取得）: https://www.tennis.com/tournaments/china-open-atp/matches/a-de-minaur-vs-m-navone-2026-09-30 , https://www.dimers.com/tennis/news/alex-de-minaur-vs-mariano-navone-tennis-prediction-atp-china-open-2026-ac"
  ],
  "missing": [
-  "デミノーの全米2試合・デビスカップ・レーバーカップのスコア",
-  "ナボーネの全米2・3回戦スコア",
-  "公式開始時刻"
+  "left.form",
+  "right.form",
+  "h2h",
+  "history",
+  "ranking"
  ],
- "source_urls": [
-  "https://www.atptour.com/en/news/beijing-draw-2026-preview",
-  "https://tennistonic.com/head-to-head-compare/Mariano-Navone-Vs-Alex-De-Minaur/",
-  "https://www.tennisratio.com/h2h-compare/alex-de-minaur-vs-mariano-navone.html",
-  "https://m.aiscore.com/head-to-head/tennis/alex-de-minaur-vs-mariano-navone",
-  "https://www.cbssports.com/tennis/news/2026-us-open-results-novak-djokovic-mariano-navone-upset-record/",
-  "https://www.dimers.com/tennis/news/alex-de-minaur-vs-mariano-navone-tennis-prediction-atp-china-open-2026-ac"
- ],
+ "unavailable": {
+  "h2h": "未確認：WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "left.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "right.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "history": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず"
+ },
+ "source_urls": [],
  "calc": {
   "left": {
-   "games": 3,
-   "W": 1,
-   "L": 2,
+   "games": 0,
+   "W": 0,
+   "L": 0,
    "D": 0,
-   "win_rate": 33.3,
+   "win_rate": null,
    "home": {
     "W": 0,
     "L": 0,
@@ -136,22 +54,14 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "units_won": 1,
-   "units_lost": 2,
-   "points_for": 1,
-   "points_against": 2,
-   "points_games": 1,
-   "inner_for": 14,
-   "inner_against": 18,
-   "inner_games": 1
+   "streak": null
   },
   "right": {
-   "games": 3,
-   "W": 2,
-   "L": 1,
+   "games": 0,
+   "W": 0,
+   "L": 0,
    "D": 0,
-   "win_rate": 66.7,
+   "win_rate": null,
    "home": {
     "W": 0,
     "L": 0,
@@ -162,31 +72,13 @@
     "L": 0,
     "D": 0
    },
-   "streak": null,
-   "units_won": 3,
-   "units_lost": 2,
-   "points_for": 3,
-   "points_against": 2,
-   "points_games": 1,
-   "inner_for": 28,
-   "inner_against": 22,
-   "inner_games": 1
+   "streak": null
   },
   "h2h": {
-   "games": 1,
-   "left": 1,
+   "games": 0,
+   "left": 0,
    "right": 0,
-   "draw": 0,
-   "units_left": 2,
-   "units_right": 0,
-   "points_left": 2,
-   "points_right": 0,
-   "points_games": 1,
-   "avg_left": 2.0,
-   "avg_right": 0.0,
-   "inner_left": 13,
-   "inner_right": 6,
-   "inner_games": 1
+   "draw": 0
   },
   "common": [],
   "common_window_days": 60,

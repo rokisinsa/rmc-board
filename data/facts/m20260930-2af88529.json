@@ -1,0 +1,108 @@
+{
+ "match_id": "m20260930-2af88529",
+ "data_as_of": "2026-09-29T18:33:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ザグウェンビェ・ソスノヴィエツ（KH Zagłębie Sosnowiec）",
+  "ranking": "ポルスカ・ホケイ・リーガ 2026/27 第2節時点（順位取得できず）",
+  "form": [],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "STSサノク（STS/KH Sanok）",
+  "ranking": "PHL 2026/27 第2節時点（順位取得できず）。2025/26は1月時点で最下位（nowiny24）",
+  "form": [],
+  "lineup": [
+   "取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-01-04",
+   "event": "PHL 2025/26 レギュラーシーズン（サノクで開催）",
+   "score": "4-0",
+   "winner": "left",
+   "detail": "ピリオド 1-0,1-0,2-0／シュート59-17（nowiny24）"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "サノク（Arena Sanok）— サノクのホーム、ザグウェンビェはアウェイ（sofascore: 2026-09-29 16:00 UTC, 第2節）",
+ "risks": [
+  "会場はサノク（ホーム）でリスト左のザグウェンビェはアウェイ（sofascore/flashscore とも Sanok がホーム表記）",
+  "開幕第2節でサンプル極小",
+  "サノクは前季最下位クラス"
+ ],
+ "missing": [
+  "直近成績",
+  "ラインナップ",
+  "順位"
+ ],
+ "unavailable": {
+  "h2h": "nowiny24で2026-01-04の1試合のみ確認、flashscore H2Hは動的読込で取得不可",
+  "left.form": "flashscore結果ページが動的読込で空、hokej.net接続不可",
+  "right.form": "同上",
+  "history": "両者の成績取得できず"
+ },
+ "source_urls": [
+  "https://www.sofascore.com/pl/ice-hockey/match/kh-sanok-zaglebie-sosnowiec/hEbscmc",
+  "https://www.flashscore.pl/mecz/hokej/ciarko-pbs-bank-zRvAjvUu/zaglebie-sosnowiec-nFgwnGrB/",
+  "https://www.flashscore.pl/druzyna/zaglebie-sosnowiec/nFgwnGrB/wyniki/",
+  "https://nowiny24.pl/sts-sanok-bez-przelamania-w-pojedynku-z-zaglebiem-sosnowiec/ar/c2p2-28317889"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 4,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 4.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

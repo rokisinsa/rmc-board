@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-0c315507",
- "data_as_of": "2026-09-29T13:00:00+09:00",
+ "data_as_of": "2026-09-29T18:28:15+09:00",
  "unit": "なし",
  "left": {
-  "name": "ビソンズ・ロイマー",
-  "ranking": "2026-27シーズン開幕戦（0勝0敗）。前季順位は未取得",
+  "name": "ビソンズ・ロイマー（Bisons Loimaa）",
+  "ranking": "2026-27コリスリーガ開幕戦（0勝0敗）。前季2025-26は14勝18敗（Proballers）",
   "form": [
    {
     "date": "2026-09-23",
@@ -14,15 +14,40 @@
     "score": "74-101",
     "res": "L",
     "detail": "Loimaan liikuntahalli"
+   },
+   {
+    "date": "2026-03-18",
+    "opp": "Lahti Basketball",
+    "comp": "Korisliiga 2025-26",
+    "ha": "A",
+    "score": "92-89",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-14",
+    "opp": "Kataja Basket",
+    "comp": "Korisliiga 2025-26",
+    "ha": "H",
+    "score": "89-92",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-10",
+    "opp": "Kobrat",
+    "comp": "Korisliiga 2025-26",
+    "ha": "H",
+    "score": "106-80",
+    "res": "W"
    }
   ],
   "lineup": [
-   "ロスター・負傷情報は未取得（Loimaan Lehtiの記事はrobotsで閲覧不可）"
+   "前季主力得点源：Tevaun Kokko 19.8点、Dean Keeler 17.7点、Marco Anthony 14.5点（2025-26、今季残留は未確認）",
+   "2026-27ロスター・負傷情報は未取得"
   ],
   "history": []
  },
  "right": {
-  "name": "KTPバスケット・コトカ",
+  "name": "KTPバスケット・コトカ（KTP Basket Kotka）",
   "ranking": "2026-27シーズン開幕戦（0勝0敗）。前季順位は未取得",
   "form": [],
   "lineup": [
@@ -41,7 +66,8 @@
  "venue": "Steveco Areena（フィンランド・コトカ）、KTPのホーム・Bisonsアウェイ",
  "risks": [
   "公式日程ではKTPホーム（Steveco Areena）で、配信の left=Bisons はアウェイ側（ホーム表記が逆）",
-  "シーズン開幕戦で公式戦データが極少"
+  "シーズン開幕戦で公式戦データが極少",
+  "ロイマーのform中の2026-03の試合は前季のもので現有戦力との関連は弱い"
  ],
  "missing": [
   "前季順位・前季H2H",
@@ -49,8 +75,8 @@
   "Bisonsのロスター"
  ],
  "unavailable": {
-  "h2h": "Sofascore試合ページにH2H表示なし、betexplorerのH2Hページは404。Web検索予算上限で他ソース検索不可",
-  "left.form": "日付付き公式戦はカップ1試合のみ取得",
+  "h2h": "Sofascore試合ページ・flashscore試合ページ（動的読み込みでH2H表示なし）・betexplorer（404）で取得できず。2025-12-19にKTPホームで対戦あり（flashscore検索結果タイトル）もスコア未取得",
+  "left.form": "今季公式戦はカップ1試合のみ。前季終盤3試合（Proballers）を追加、それ以外は取得できず",
   "right.form": "カップ戦勝利は確認したが日付不明のためform未掲載",
   "history": "60日以内の共通相手は確認できず"
  },
@@ -61,29 +87,31 @@
   "https://www.sofascore.com/basketball/team/bisons-loimaa/57319",
   "https://www.sofascore.com/basketball/match/bisons-loimaa-ktp-basket-kotka/lFcsuWx",
   "https://vilpaskoripallo.fi/",
-  "https://vilpaskoripallo.fi/mestaruusviiri-nousee-tiistaina-salohallin-vieraaksi-honka/"
+  "https://vilpaskoripallo.fi/mestaruusviiri-nousee-tiistaina-salohallin-vieraaksi-honka/",
+  "https://www.proballers.com/basketball/team/2246/bisons-loimaa",
+  "https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/ktp-kotka-basket-pba258cO/"
  ],
  "calc": {
   "left": {
-   "games": 1,
-   "W": 0,
-   "L": 1,
+   "games": 4,
+   "W": 2,
+   "L": 2,
    "D": 0,
-   "win_rate": 0.0,
+   "win_rate": 50.0,
    "home": {
-    "W": 0,
-    "L": 1,
+    "W": 1,
+    "L": 2,
     "D": 0
    },
    "away": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
    "streak": null,
-   "points_for": 74,
-   "points_against": 101,
-   "points_games": 1
+   "points_for": 361,
+   "points_against": 362,
+   "points_games": 4
   },
   "right": {
    "games": 0,

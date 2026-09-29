@@ -1,0 +1,86 @@
+{
+ "match_id": "m20260930-e5d35a6b",
+ "data_as_of": "2026-09-29T18:26:40+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Filin N.",
+  "ranking": "取得できず",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "right": {
+  "name": "Mayo A.",
+  "ranking": "取得できず",
+  "form": [],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ATP Challenger コロンバス3（米国）・室内ハード",
+ "risks": [
+  "事実データ（直近成績・H2H）を一切取得できていない。オッズ以外の判断材料なし"
+ ],
+ "missing": [
+  "left.form",
+  "right.form",
+  "h2h",
+  "history",
+  "ranking"
+ ],
+ "unavailable": {
+  "h2h": "未確認：WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "left.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "right.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "history": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず"
+ },
+ "source_urls": [],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

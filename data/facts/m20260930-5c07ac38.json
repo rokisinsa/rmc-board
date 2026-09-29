@@ -1,0 +1,267 @@
+{
+ "unit": "マップ",
+ "left": {
+  "name": "Leo",
+  "ranking": "HLTV世界108位／Valve 110位",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Bushido Wildcats",
+    "comp": "（maisesports記載、大会名未確認）",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Misa Esports",
+    "comp": "（maisesports記載）",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Saint Sinners",
+    "comp": "European Pro League Series 9 R16",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Mirage 10-13 / Nuke 13-8 / Ancient 13-3"
+   }
+  ],
+  "lineup": [
+   "drac",
+   "leen",
+   "next1me",
+   "Tarkky",
+   "aimy",
+   "コーチ rjy"
+  ],
+  "history": [
+   {
+    "date": "2026-09-23",
+    "opp": "Saint Sinners",
+    "comp": "European Pro League Series 9 R16",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   }
+  ]
+ },
+ "right": {
+  "name": "mellren",
+  "ranking": "HLTV世界123位／VRS 131位（ベラルーシ）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Nexus",
+    "comp": "European Pro League Series 9 準決勝",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "PCIFIC",
+    "comp": "European Pro League Series 9 準々決勝",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "Dust2 13-10 / Mirage 13-11"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Privateer",
+    "comp": "CCT 2026 Challengers Europe Series 7 UB1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Drama",
+    "comp": "European Pro League Series 9",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Nuke 8-13 / Inferno 13-7 / Mirage 13-7"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Saint Sinners",
+    "comp": "European Pro League Series 9 グループA",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1,
+    "detail": "Inferno 13-10 / Nuke 20-22 / Mirage 13-8"
+   }
+  ],
+  "lineup": [
+   "lollipop21k",
+   "menddel",
+   "mdl",
+   "shootic",
+   "Maksilvl"
+  ],
+  "history": [
+   {
+    "date": "2026-09-12",
+    "opp": "Saint Sinners",
+    "comp": "European Pro League Series 9 グループA",
+    "ha": "N",
+    "score": "2-1",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 1
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "Saint Sinners：Leo 2-1（9/23）、mellren 2-1（9/12）"
+ ],
+ "venue": "オンライン（European Pro League Series 9、中立）",
+ "unavailable": {
+  "h2h": "HLTV（Nexus戦ページはmellren側）・maisesportsで対戦記録なし",
+  "left.form": "HLTVチームページの結果欄が表示されず、maisesports・試合ページから3件のみ"
+ },
+ "match_id": "m20260930-5c07ac38",
+ "data_as_of": "2026-09-29T18:48:00+09:00",
+ "risks": [
+  "BO数がソース間で不確定：maisesportsは『MD5』表記、EPL S9の他試合はBO3（HLTV）",
+  "mellrenは準決勝でNexusに敗退（9/28）。本戦は準決勝敗者同士の順位決定戦とみられる（未確認）",
+  "ティア3（整合性リスク）",
+  "HLTVのLeoチームページが古い表示（9/28予定のまま）で結果一覧を取得できず"
+ ],
+ "missing": [
+  "Leoの直近10試合（3件のみ）",
+  "mellrenのHLTV過去3ヶ月行の正確な日付（Drama試合ページで相対日付のみ）",
+  "大会ステージ名の確定"
+ ],
+ "source_urls": [
+  "https://www.hltv.org/team/11446/leo",
+  "https://www.hltv.org/matches/2398041/leo-vs-saint-sinners-european-pro-league-series-9",
+  "https://www.hltv.org/matches/2398049/pcific-vs-mellren-european-pro-league-series-9",
+  "https://www.hltv.org/matches/2398053/nexus-vs-mellren-european-pro-league-series-9",
+  "https://www.hltv.org/matches/2398020/drama-vs-mellren-european-pro-league-series-9",
+  "https://www.hltv.org/matches/2398019/saint-sinners-vs-mellren-european-pro-league-series-9",
+  "https://maisesports.com.br/partidas/leo-team-2026-09-30"
+ ],
+ "esports": {
+  "format": "取得できず（BO3かBO5か不確定）：maisesportsはMD5、EPL S9他試合はBO3（HLTV）",
+  "lan_online": "Online（European Pro League Series 9）",
+  "map_pool": "Dust2・Mirage・Inferno・Nuke・Ancient・Anubis・Cache",
+  "veto": "取得できず：vetoログ未取得。mellrenはMirage 3勝0敗（直近確認分）",
+  "patch": "取得できず：記載なし",
+  "map_h2h": "取得できず"
+ },
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 4,
+   "units_lost": 3,
+   "points_for": 4,
+   "points_against": 3,
+   "points_games": 3,
+   "inner_for": 36,
+   "inner_against": 24,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 9,
+   "units_lost": 4,
+   "points_for": 9,
+   "points_against": 4,
+   "points_games": 5,
+   "inner_for": 106,
+   "inner_against": 88,
+   "inner_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Saint Sinners",
+    "left": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "2-1",
+      "res": "W",
+      "comp": "European Pro League Series 9 R16"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "2-1",
+      "res": "W",
+      "comp": "European Pro League Series 9 グループA"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-23",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

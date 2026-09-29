@@ -1,9 +1,10 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260930-79a4e877",
+ "data_as_of": "2026-09-29T18:33:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ヘルレウ・イーグルス（Herlev Eagles）",
-  "ranking": "Superisligaen 2026/27（直近10試合2勝8敗）",
+  "ranking": "Metal Ligaen 2026/27（取得分5試合 1勝4敗）",
   "form": [
    {
     "date": "2026-09-23",
@@ -52,7 +53,7 @@
    }
   ],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
@@ -61,15 +62,17 @@
   "ranking": "Superisligaen 2026/27",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "会場不明（flashscoreは Herning v Herlev 表記で、ヘアニング本拠地の可能性）",
+ "venue": "ヘアニング（KVIK Hockey Arena）— ヘアニングのホーム、ヘルレウはアウェイ（sofascore/FanDuel 表記 Herning v Herlev）",
  "risks": [
-  "組み合わせはflashscore上でHerning v Herlev=ヘアニングがホームの可能性。フィードのleft/rightは維持"
+  "会場はヘアニングのホーム（sofascore: Herning Blue Fox ホーム、2026-09-29 17:00 UTC）でリスト左のヘルレウはアウェイ",
+  "ヘルレウは直近3連敗・取得分1勝4敗",
+  "ヘアニングの成績取得できず"
  ],
  "missing": [
   "ヘアニングのフォーム",
@@ -77,15 +80,17 @@
   "ラインナップ"
  ],
  "unavailable": {
-  "h2h": "取得不可",
-  "right.form": "flashscore/sofascoreのページから結果を抽出できず",
+  "h2h": "sofascore試合ページにH2Hスコア表示なし・flashscore抽出不可",
+  "left.form": "scores24で5試合のみ取得",
+  "right.form": "flashscore/sofascoreから結果抽出できず",
   "history": "ヘアニングのデータなし"
  },
  "source_urls": [
   "https://scores24.live/en/ice-hockey/t-herlev-eagles",
-  "https://www.flashscore.com/team/herning-blue-fox/SCGvnHrU/"
+  "https://www.flashscore.com/team/herning-blue-fox/SCGvnHrU/",
+  "https://www.sofascore.com/ice-hockey/match/herlev-eagles-herning-blue-fox/GCbsMCb",
+  "https://sportsbook.fanduel.com/hockey/denmark---metal-ligaen/herning-blue-fox-v-herlev-eagles-36126986"
  ],
- "match_id": "m20260930-79a4e877",
  "calc": {
   "left": {
    "games": 5,

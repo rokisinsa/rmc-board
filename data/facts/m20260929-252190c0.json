@@ -1,38 +1,47 @@
 {
- "data_as_of": "2026-09-29T06:32:28+09:00",
- "unit": "セット",
+ "match_id": "m20260929-252190c0",
  "left": {
-  "name": "Lee Y. / Ye Q.",
-  "ranking": "未取得",
+  "name": "李亜欣 / 葉秋語 (Lee Ya-hsin / Ye Qiuyu)",
+  "ranking": "葉秋語 ダブルス最高95位（2017）、Wikipedia記載の最新値は2025年7月時点336位（現行ランク未取得）",
+  "lineup": [
+   "Lee Ya-hsinは葉秋語の2026年の定番パートナー（Wikipedia）。2026年5月 ITF W25 Jiangxi（ハード）優勝（決勝 Dang Yiming/You Xiaodi に 2-6 6-2 [11-9]）、2026年5月 久留米W75（カーペット）優勝（決勝 Da Silva-Fick/McGiffin に 6-3 6-2）。日付が月単位のみのためformには入れず"
+  ],
   "form": [],
-  "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Guo M. / Yang Y.",
-  "ranking": "未取得",
+  "name": "郭美琪 / 楊（Guo Meiqi / Yang Y.）",
+  "ranking": "郭美琪 ダブルス最高271位（2025/2）。現行値未取得。Yang Y.は特定できず",
+  "lineup": [
+   "郭美琪は2026年5月 ITF W35 昌原（Back Da-yeonと）、6月 ITF W15 馬鞍山（Zhu Chentingと）でダブルス優勝（Wikipedia）。Yangとの組は記載なし＝即席ペアの可能性"
+  ],
   "form": [],
-  "lineup": [],
   "history": []
  },
  "h2h": [],
- "venue": "Jingshan",
+ "venue": "Jingshan Tennis Open（WTA125、中国・京山、屋外ハード）ダブルス。両ペアとも中華圏選手でほぼ中立",
  "risks": [
-  "データ未取得の薄いファイル"
+  "左ペアは今季2勝以上の固定ペア、右ペアは即席の可能性（未確定）",
+  "直近の日付付き試合結果は取得できず"
  ],
  "missing": [
-  "form",
-  "h2h",
-  "Elo"
+  "両ペアの直近10試合",
+  "現行ダブルスランク",
+  "H2H",
+  "Yang Y.の特定"
  ],
  "unavailable": {
-  "h2h": "取得不可: egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "left.form": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "right.form": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets",
-  "history": "egress policy blocked tennisexplorer.com / tennisabstract.com (proxy CONNECT 403) and WebFetch approval unavailable; WebSearch only returns snippets"
+  "h2h": "ペア間の対戦記録は見つからず（Wikipediaの決勝記録のみ確認、初対戦とは断定しない）",
+  "left.form": "日付付きの試合一覧を提供するDB（tennisexplorer/sofascore/ITF）は本文取得不可。Wikipediaは決勝のみ",
+  "right.form": "同上",
+  "history": "form未取得のため確認不可"
  },
- "source_urls": [],
- "match_id": "m20260929-252190c0",
+ "source_urls": [
+  "https://en.wikipedia.org/wiki/Ye_Qiuyu",
+  "https://en.wikipedia.org/wiki/Guo_Meiqi"
+ ],
+ "unit": "セット",
+ "data_as_of": "2026-09-29T18:35:00+09:00",
  "calc": {
   "left": {
    "games": 0,

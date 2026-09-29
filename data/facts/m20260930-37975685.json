@@ -1,0 +1,106 @@
+{
+ "match_id": "m20260930-37975685",
+ "data_as_of": "2026-09-29T18:49:24+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "BC CIU（ジョージア、Caucasus International University）",
+  "ranking": "NEBL 2026-27（順位未取得）",
+  "form": [],
+  "lineup": [
+   "情報なし"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "フルニル・ドゥブラヴァ（KK Dubrava Furnir、クロアチア）",
+  "ranking": "クロアチア・リーガ 2026-27 0勝1敗／NEBL",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Adria Oil Škrljevo",
+    "comp": "クロアチア・リーガ 第1節",
+    "ha": "H",
+    "score": "72-81",
+    "res": "L",
+    "detail": "Uljarević 18点4アシスト、Dixon Jr 9リバウンド"
+   }
+  ],
+  "lineup": [
+   "主力：Karlo Uljarević、Leonard Emil Dixon Jr（Proballers）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "未確認（配信表記ではCIUがホーム）",
+ "risks": [
+  "CIUの情報がほぼない",
+  "ホーム/アウェイ未確認",
+  "eurobasket 403で詳細取得不可"
+ ],
+ "missing": [
+  "CIUの戦績・ロスター",
+  "h2h",
+  "負傷情報"
+ ],
+ "unavailable": {
+  "h2h": "eurobasket（403）・Proballersで取得できず",
+  "left.form": "CIUの結果ページを見つけられず（検索上限のため追加調査せず）",
+  "right.form": "今季公式戦1試合のみ（Proballers）",
+  "history": "取得できず"
+ },
+ "source_urls": [
+  "https://www.proballers.com/basketball/team/726/dubrava-furnir",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_European_North_Basketball_League"
+ ],
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 72,
+   "points_against": 81,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,9 +1,10 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260930-df8e4fff",
+ "data_as_of": "2026-09-29T18:34:00+09:00",
  "unit": "なし",
  "left": {
   "name": "EHCビール（EHC Biel）",
-  "ranking": "ナショナルリーグ 2026/27 序盤",
+  "ranking": "ナショナルリーグ 2026/27（上位5位圏外・Blick 9/26時点。取得分5試合2勝3敗）。2025/26は10位",
   "form": [
    {
     "date": "2026-09-27",
@@ -52,41 +53,76 @@
    }
   ],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
-  "history": []
+  "history": [
+   {
+    "date": "2026-09-24",
+    "opp": "Kloten",
+    "comp": "NL",
+    "ha": "A",
+    "score": "6-0",
+    "res": "W",
+    "detail": ""
+   }
+  ]
  },
  "right": {
   "name": "ZSCライオンズ（ZSC Lions）",
-  "ranking": "ナショナルリーグ 2026/27",
-  "form": [],
-  "lineup": [
-   "未取得"
+  "ranking": "ナショナルリーグ 2026/27 首位（6試合18pt・6連勝、Blick 9/26時点）。2025/26は4位",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Kloten",
+    "comp": "NL",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W",
+    "detail": "ZSC 6連勝（全勝）目・Blick表記 ZSC–Kloten"
+   }
   ],
-  "history": []
+  "lineup": [
+   "取得できず（9/26はGK Hrubec出場）"
+  ],
+  "history": [
+   {
+    "date": "2026-09-26",
+    "opp": "Kloten",
+    "comp": "NL",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W",
+    "detail": "ZSC 6連勝（全勝）目・Blick表記 ZSC–Kloten"
+   }
+  ]
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "ビール（Tissot Arena）想定",
+ "common_opponents_notes": [
+  "共通相手クロテン：ビール 6-0 勝ち(A, 9/24)、ZSC 3-2 勝ち(9/26)"
+ ],
+ "venue": "ビール Tissot Arena（ビールのホーム）想定",
  "risks": [
-  "ZSCの直近成績が取得できずフォーム比較不可"
+  "ZSCは開幕6戦全勝（9/26時点）",
+  "ZSCの9/27以降の試合は未確認",
+  "ビールの取得分は5試合のみ"
  ],
  "missing": [
-  "ZSCフォーム",
   "H2H",
+  "ZSCの詳細フォーム",
   "ラインナップ"
  ],
  "unavailable": {
-  "h2h": "取得不可（aiscore/sofascore未取得）",
-  "right.form": "sofascore/scores24でZSCの日付付き結果を取得できず",
+  "h2h": "2025/26 Wikipediaに個別試合なし・sofascore/aiscore未取得",
+  "right.form": "日付付きはBlickの9/26 1試合のみ（6戦全勝の事実は記載）",
   "left.form": "5試合のみ取得（scores24上限）",
-  "history": "ZSCデータなし"
+  "history": "共通相手クロテンのみ確認"
  },
  "source_urls": [
   "https://scores24.live/en/ice-hockey/t-ehc-biel",
-  "https://www.sofascore.com/ice-hockey/team/zsc-lions/3899"
+  "https://www.sofascore.com/ice-hockey/team/zsc-lions/3899",
+  "https://www.blick.ch/sport/eishockey/nl/national-league-zsc-lions-ehc-kloten-26-09-2026-id22280497.html",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_National_League_(ice_hockey)_season"
  ],
- "match_id": "m20260930-df8e4fff",
  "calc": {
   "left": {
    "games": 5,
@@ -110,13 +146,13 @@
    "points_games": 5
   },
   "right": {
-   "games": 0,
-   "W": 0,
+   "games": 1,
+   "W": 1,
    "L": 0,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 100.0,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
@@ -125,7 +161,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 3,
+   "points_against": 2,
+   "points_games": 1
   },
   "h2h": {
    "games": 0,
@@ -133,7 +172,34 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "Kloten",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "6-0",
+      "res": "W",
+      "comp": "NL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "3-2",
+      "res": "W",
+      "comp": "NL"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-09-30"
  }

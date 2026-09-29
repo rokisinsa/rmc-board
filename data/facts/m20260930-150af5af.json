@@ -1,42 +1,102 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:28:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ヘルタ03ツェーレンドルフ（Hertha 03 Zehlendorf）",
-  "ranking": "Oberliga",
+  "ranking": "Oberliga Nordost（4部）、ヘルタBSCのパートナークラブ",
   "form": [],
   "lineup": [],
   "history": []
  },
  "right": {
   "name": "ヘルタBSC（Hertha BSC）",
-  "ranking": "2.Bundesliga（好スタートとの報道）",
-  "form": [],
+  "ranking": "2.ブンデスリーガ首位（ms-aktuell：6戦全勝18pt、2位ニュルンベルク16pt）",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "ディナモ・ドレスデン",
+    "comp": "2.ブンデスリーガ 第6節",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "VfLオスナブリュック",
+    "comp": "2.ブンデスリーガ 第5節",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "1.FCマクデブルク",
+    "comp": "2.ブンデスリーガ 第4節",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "アイントラハト・ブラウンシュヴァイク",
+    "comp": "2.ブンデスリーガ 第3節",
+    "ha": "A",
+    "score": "5-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "1.FCハイデンハイム",
+    "comp": "2.ブンデスリーガ 第2節",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-07",
+    "opp": "VfLボーフム",
+    "comp": "2.ブンデスリーガ 第1節",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L",
+    "detail": "公式fixturesページの読み取り。ms-aktuellは『6戦6勝18pt・17:7』と記載し矛盾"
+   }
+  ],
   "lineup": [
-   "代表ウィーク中の親善テスト、出場選手は未発表"
+   "代表ウィーク中のテスト：出場機会の少ない選手（Nilsson 67分、Alfa-Ruprecht 37分、M.ダールダイ 19分など）に長い出場時間が与えられる見込み（ms-aktuell）",
+   "10/2にアウクスブルクと非公開テスト、10/11リーグ再開",
+   "HerthaTVのYouTubeで中継"
   ],
   "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "Ernst-Reuter-Sportfeld（ツェーレンドルフ）",
+ "common_opponents_notes": [
+  "ヘルタBSC DFBポカール1回戦 2026-08-22 ザールブリュッケン戦 PK勝ち（公式表記 5-3 a.p.s.）"
+ ],
+ "venue": "Ernst-Reuter-Sportfeld（ツェーレンドルフのホーム）、18:00 CEST",
  "risks": [
-  "親善試合のためヘルタ側が控え・若手中心の可能性",
-  "得点差・出場時間は不確定"
+  "親善試合（ヘルタは控え・出場機会の少ない選手中心）",
+  "4部 vs 2部首位のカテゴリ差",
+  "得点差・出場時間は不確定",
+  "ヘルタ第1節の結果がソース間で矛盾"
  ],
  "missing": [
-  "両チームの直近試合",
-  "先発",
-  "H2Hスコア"
+  "ツェーレンドルフの直近成績",
+  "H2Hスコア",
+  "先発"
  ],
  "unavailable": {
-  "h2h": "過去3年恒例のテストマッチと報じられるが、スコア記録は確認できず",
-  "left.form": "Oberliga下部クラブで直近試合リストを未取得",
-  "right.form": "公式発表記事に直近結果の記載なし、2.Bundesliga試合リストは未取得",
-  "history": "共通相手の試合リストを取得できず"
+  "h2h": "過去3年恒例のテストマッチ（公式記事）だがスコア記録は取得できず",
+  "left.form": "weltfussball（robots拒否）・liveticker（結果欠落）・de.wikipedia（取得不可）で取得できず",
+  "right.form": "公式fixturesページから6試合取得、ms-aktuellの全勝報道と第1節結果が矛盾",
+  "history": "左の試合リストが無く共通相手確認不可"
  },
  "source_urls": [
-  "https://www.herthabsc.com/de/nachrichten/2026/09/ankundigung-test-h03bsc-2627"
+  "https://www.herthabsc.com/de/nachrichten/2026/09/ankundigung-test-h03bsc-2627",
+  "https://www.herthabsc.com/en/teams/fixtures/fixtures",
+  "https://ms-aktuell.de/welt/hertha-bsc-konkurrenzkampf-28-09-2026/",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+  "https://www.liveticker.com/team/hertha-zehlendorf/Y3IMDrxq/"
  ],
  "match_id": "m20260930-150af5af",
  "calc": {
@@ -59,22 +119,25 @@
    "streak": null
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 6,
+   "W": 5,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 83.3,
    "home": {
-    "W": 0,
+    "W": 2,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
-    "L": 0,
+    "W": 3,
+    "L": 1,
     "D": 0
    },
-   "streak": null
+   "streak": "5連勝",
+   "points_for": 16,
+   "points_against": 8,
+   "points_games": 6
   },
   "h2h": {
    "games": 0,

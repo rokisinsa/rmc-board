@@ -1,0 +1,164 @@
+{
+ "match_id": "m20260930-4323ec15",
+ "unit": "なし",
+ "left": {
+  "name": "韓国U23（South Korea U23）",
+  "ranking": "アジア大会D組1位（2戦2勝）、4連覇を狙う",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "ベトナムU23",
+    "comp": "アジア大会 準々決勝",
+    "ha": "N",
+    "score": "4-0",
+    "res": "W",
+    "detail": "Parco Mizuho Rugby Stadium。イ・ヨンジュン2得点（freetips）"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "サウジアラビアU23",
+    "comp": "アジア大会 GS",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "detail": "シン・ミンハ67'、キム・ミョンジュン69'（Best Eleven）"
+   }
+  ],
+  "lineup": [
+   "欧州組多数：オム・ジソン（スウォンジー）・キム・ミョンジュン（ヘンク）が各3得点（SBS）",
+   "イ・ヨンジュン（グラスホッパー）は9/21合流（SBS）",
+   "負傷・出場停止情報は取得できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "中国U23（China U23）",
+  "ranking": "アジア大会GS 1勝2分で突破、28年ぶり準決勝（Global Times）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "タイU23",
+    "comp": "アジア大会 準々決勝",
+    "ha": "N",
+    "score": "3-0",
+    "res": "W",
+    "detail": "OG・後半開始直後・張玉寧58'（Global Times）"
+   }
+  ],
+  "lineup": [
+   "監督 Antonio Puche Vicente、2026 AFC U23アジア杯準優勝メンバー中心（Global Times）",
+   "OA枠：張玉寧（2得点）・呉曦・朱辰傑",
+   "王钰栋はタイ戦で累積警告により出場停止だった（準決勝では復帰可能とみられるが未確認）"
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2025-11",
+   "event": "パンダカップ（中国）",
+   "score": "0-2",
+   "winner": "right",
+   "detail": "日は未記載（SBS）"
+  },
+  {
+   "date": "2025-03",
+   "event": "国際親善（中国U22）",
+   "score": "0-1",
+   "winner": "right",
+   "detail": "日は未記載（SBS）"
+  },
+  {
+   "date": "2024-04",
+   "event": "AFC U23アジア杯 GS",
+   "score": "2-0",
+   "winner": "left",
+   "detail": "月はAFC U23アジア杯2024開催時期、日は未記載（freetips）"
+  }
+ ],
+ "common_opponents_notes": [
+  "GS日付未取得分：韓国 カタールU23 4-1（初戦）、中国 北朝鮮2-1・イラン0-0・UAE0-0（SBS/freetips）",
+  "freetipsは『韓国が対中国直近6試合で5勝』と記載するがSBSは『韓国が2連敗中』と記載し矛盾（年代別チームの違いの可能性）",
+  "60日以内の共通相手なし（GS組・QF相手が異なる）"
+ ],
+ "venue": "大阪 ヤンマースタジアム長居（中立）、9/30 15:00 JST",
+ "risks": [
+  "一発勝負の準決勝（延長・PKあり）",
+  "H2H対象チームの年代区分がソースで異なる"
+ ],
+ "missing": [
+  "GS各試合の日付",
+  "H2Hの正確な日付"
+ ],
+ "unavailable": {
+  "left.form": "U23代表の大会前の試合は未取得、GSカタール戦の日付未取得",
+  "right.form": "GS3試合の日付未取得（Wikipedia・olympics.com取得不可）",
+  "history": "60日以内の共通相手なし",
+  "h2h": "日付は月単位のみ判明"
+ },
+ "source_urls": [
+  "https://news.sbs.co.kr/english/article.do?news_id=N1008772577",
+  "https://www.globaltimes.cn/page/202609/1371367.shtml",
+  "https://www.freetips.com/football/south-korea-u23-vs-china-u23-preview-20260929-0005/",
+  "https://www.besteleven.com/news/articleView.html?idxno=312485",
+  "https://www.soccerway.com/match/china-KvDnIMwk/south-korea-2XDKedgb/"
+ ],
+ "data_as_of": "2026-09-29T18:55:00+09:00",
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 6,
+   "points_against": 0,
+   "points_games": 2
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 3,
+   "left": 1,
+   "right": 2,
+   "draw": 0,
+   "points_left": 2,
+   "points_right": 3,
+   "points_games": 3,
+   "avg_left": 0.7,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,43 +1,51 @@
 {
- "data_as_of": "2026-09-29T07:10:00+09:00",
+ "match_id": "m20260930-8945b95c",
+ "data_as_of": "2026-09-29T18:34:00+09:00",
  "unit": "なし",
  "left": {
   "name": "EHCアローザ（EHC Arosa）",
-  "ranking": "Swiss League 2026/27",
+  "ranking": "Swiss League 2026/27 6位（3試合3pt・得失-5、Blick 9/23時点）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "EHCフィスプ（EHC Visp）",
-  "ranking": "Swiss League 2026/27",
+  "ranking": "Swiss League 2026/27 4位（3試合6pt・得失+3、Blick 9/23時点）",
   "form": [],
   "lineup": [
-   "未取得"
+   "取得できず"
   ],
   "history": []
  },
  "h2h": [],
- "common_opponents_notes": [],
- "venue": "アローザ Eissporthalle Obersee（ホーム）。sofascoreの開始17:30UTC=02:30 JST",
+ "common_opponents_notes": [
+  "シエール：アローザ戦 8-2 勝ち（日付不明、sofascore）"
+ ],
+ "venue": "アローザ Eissporthalle Obersee（アローザのホーム）。sofascore開始17:30UTC=02:30 JST",
  "risks": [
-  "下位リーグでデータ乏しい"
+  "2部リーグでデータ乏しい",
+  "順位表は9/23時点で、その後の試合が反映されていない",
+  "アローザはシエールに2-8大敗（sofascore、日付不明）"
  ],
  "missing": [
-  "ほぼ全項目"
+  "直近成績",
+  "H2H",
+  "ラインナップ"
  ],
  "unavailable": {
-  "h2h": "取得不可",
-  "left.form": "sofascoreは直近1戦（2-8 vs Sierre）のみ、日付なし",
+  "h2h": "取得不可（sport.de 402・fm1today接続不可）",
+  "left.form": "sofascoreは直近1戦（2-8 vs Sierre）のみ・日付なし",
   "right.form": "取得できず",
-  "history": "共通相手の日付付きデータなし"
+  "history": "日付付きデータなし"
  },
  "source_urls": [
-  "https://www.sofascore.com/ice-hockey/team/ehc-arosa/320850"
+  "https://www.sofascore.com/ice-hockey/team/ehc-arosa/320850",
+  "https://www.blick.ch/sport/eishockey/nlb/die-aktuelle-tabelle-der-swiss-league-id21171897.html",
+  "https://www.sport.de/eishockey/schweiz-swiss-league/ergebnisse-und-tabelle/"
  ],
- "match_id": "m20260930-8945b95c",
  "calc": {
   "left": {
    "games": 0,

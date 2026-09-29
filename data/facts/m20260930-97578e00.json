@@ -12,7 +12,7 @@
  },
  "right": {
   "name": "ザハロワ",
-  "ranking": "ランキング未取得。本大会無印",
+  "ranking": "WTA 102位（2026-07-27時点、Wikipedia）、自己最高65位（2026-04-06）。本大会無印",
   "form": [
    {
     "date": "2026-09-22",
@@ -73,7 +73,8 @@
    }
   ],
   "lineup": [
-   "WTA公式ドロー：位置20、無印"
+   "WTA公式ドロー：位置20、無印",
+   "2026年：Miami 3回戦（Kalinskaya撃破）、Memphis QF、全仏・ウィンブルドン1回戦敗退（Wikipedia）"
   ],
   "history": []
  },
@@ -85,9 +86,10 @@
  "unavailable": {
   "h2h": "Tennis Majorsで0-0（2022年以降対戦なし）と表記。それ以前は未確認",
   "left.form": "新浪記事でJ300（ジュニア）好成績の記述のみ。プロ大会の試合結果はtennisexplorer/sofascore遮断で取得不可",
-  "history": "左側form未取得のため確認不可"
+  "history": "左側form未取得のため確認不可",
+  "right.form": "直近5試合のみ（既存ファイル分）。それ以前はtennisexplorer等本文取得不可"
  },
- "data_as_of": "2026-09-29T12:49:00+09:00",
+ "data_as_of": "2026-09-29T18:58:00+09:00",
  "unit": "セット",
  "risks": [
   "邵羽杉（Shao Yushan）は17歳のジュニアでツアー実績が乏しい（WC）。直近のプロ成績は取得できず",
@@ -96,14 +98,15 @@
  ],
  "missing": [
   "邵玉珊の直近成績・ランキング",
-  "ザハロワのランキング",
   "公式開始時刻"
  ],
  "source_urls": [
   "https://www.tennismajors.com/matches/wta/china-open/yushan-shao-vs-anastasia-zakharova",
   "https://www.flashscore.com/match/tennis/shao-yushan-bDkypVFa/zakharova-anastasia-pQGynuhR/",
   "https://wtafiles.wtatennis.com/pdf/draws/2026/1020/MDS.pdf",
-  "https://k.sina.com.cn/article_7879995911_1d5af320706802khhk.html"
+  "https://k.sina.com.cn/article_7879995911_1d5af320706802khhk.html",
+  "https://en.wikipedia.org/wiki/Anastasia_Zakharova",
+  "https://www.dimers.com/tennis/predictions"
  ],
  "calc": {
   "left": {

@@ -1,41 +1,46 @@
 {
  "match_id": "m20260930-cde39e2a",
- "data_as_of": "2026-09-29T13:00:00+09:00",
+ "data_as_of": "2026-09-29T18:49:49+09:00",
  "unit": "なし",
  "left": {
-  "name": "スチャルナン（女子）",
-  "ranking": "未取得",
+  "name": "スチャルナン（Stjarnan、女子）",
+  "ranking": "Bónus deild kvenna 開幕前予想 8位（80pt）",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "ロスター・負傷情報は取得できず（karfan.isに移籍まとめ記事あり、内容未取得）"
+  ],
   "history": []
  },
  "right": {
-  "name": "KRレイキャビク（女子）",
-  "ranking": "未取得",
+  "name": "KRレイキャビク（KR、女子）",
+  "ranking": "Bónus deild kvenna 開幕前予想 3位（202pt）",
   "form": [],
-  "lineup": [],
+  "lineup": [
+   "ロスター・負傷情報は取得できず"
+  ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "未確認（配信表記ではStjarnanがホーム）",
+ "venue": "未確認（配信表記ではスチャルナンがホーム）。アイスランド女子1部 開幕節",
  "risks": [
-  "事実データ未取得のため判断材料なし"
+  "開幕戦で今季データなし",
+  "ホーム/アウェイ未確認"
  ],
  "missing": [
-  "順位",
-  "直近成績",
-  "H2H",
-  "会場",
-  "メンバー"
+  "前季成績・h2h",
+  "負傷情報"
  ],
  "unavailable": {
-  "h2h": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "left.form": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "right.form": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった",
-  "history": "本セッションのWeb検索予算（200件）が上限に達し、kki.is/basket.no/flashscore各国ページ等の直接取得も許可されず（PROVENANCE_REQUIRED）、情報源に到達できなかった"
+  "h2h": "karfan.is・kki.isで前季対戦結果を取得できず（検索上限のため追加調査せず）",
+  "left.form": "9/29が開幕戦（karfan.is『今夜開幕、3試合』）で今季公式戦なし。前季結果は取得できず",
+  "right.form": "同上",
+  "history": "開幕戦のため今季の共通相手なし"
  },
- "source_urls": [],
+ "source_urls": [
+  "https://www.karfan.is/njardvik-spad-deildarmeistaratitlinum-i-bonus-deild-kvenna/",
+  "https://www.karfan.is/"
+ ],
  "calc": {
   "left": {
    "games": 0,

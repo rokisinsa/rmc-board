@@ -1,4 +1,7 @@
 {
+ "match_id": "m20260930-73e16a88",
+ "data_as_of": "2026-09-29T18:43:13+09:00",
+ "unit": "なし",
  "left": {
   "name": "セーデルテリエBBK（Södertälje BBK）",
   "ranking": "バスケットリーガン 1勝0敗（得失点差+22）",
@@ -13,7 +16,7 @@
    }
   ],
   "lineup": [
-   "取得できず"
+   "Kamari Landsと契約解除、Andrew Rohde加入（basketplus.se）"
   ],
   "history": []
  },
@@ -38,15 +41,7 @@
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "ウメオ（ウメオ側ホーム）",
- "unavailable": {
-  "left.form": "開幕1試合のみ",
-  "right.form": "開幕1試合のみ",
-  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:09:15+09:00",
- "unit": "なし",
+ "venue": "ウメオ（ウメオ側ホーム）。配信表記ではセーデルテリエ左だがアウェイ",
  "risks": [
   "ウメオは開幕で33点差の敗戦",
   "負傷情報が未確認"
@@ -55,11 +50,17 @@
   "h2h",
   "負傷情報"
  ],
+ "unavailable": {
+  "left.form": "開幕1試合のみ",
+  "right.form": "開幕1試合のみ",
+  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
+ },
  "source_urls": [
   "https://tabellen.se/basket/basketligan-herrar",
-  "https://www.nsd.se/blogg/sport/basketbloggen/artikel/jamtland-mot-bc-lulea-omgangens-hetaste-match/r9mqg4zl"
+  "https://www.nsd.se/blogg/sport/basketbloggen/artikel/jamtland-mot-bc-lulea-omgangens-hetaste-match/r9mqg4zl",
+  "https://www.basketplus.se/basketligan-herrar/"
  ],
- "match_id": "m20260930-73e16a88",
  "calc": {
   "left": {
    "games": 1,

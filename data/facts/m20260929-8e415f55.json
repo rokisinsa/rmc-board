@@ -1,40 +1,43 @@
 {
- "data_as_of": "2026-09-29T06:55:00+09:00",
+ "match_id": "m20260929-8e415f55",
+ "data_as_of": "2026-09-29T18:26:40+09:00",
  "unit": "セット",
  "left": {
-  "name": "Monnet C.",
-  "ranking": "取得不可",
+  "name": "Carole Monnet",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Buyukakcay C.",
-  "ranking": "取得不可",
+  "name": "Cagla Buyukakcay",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "取得不可（Adana）",
+ "venue": "WTA 125 アダナ（トルコ）・Buyukakcayは地元トルコ選手",
  "risks": [
-  "データ未取得のため判断材料なし"
+  "事実データ（直近成績・H2H）を一切取得できていない。オッズ以外の判断材料なし",
+  "右（Buyukakcay）はトルコ開催で地元の観客支援",
+  "検索で存在確認のみ（本文未取得）: https://ja.tennistemple.com/match/monnet-buyukakcay-%E3%82%A2%E3%83%80%E3%83%8A-2026/9483344/ , https://www.wtatennis.com/tournaments/1179/adana-125/2026/draws"
  ],
  "missing": [
-  "form",
+  "left.form",
+  "right.form",
   "h2h",
-  "ranking",
-  "Elo"
+  "history",
+  "ranking"
  ],
  "unavailable": {
-  "h2h": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "left.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "right.form": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない",
-  "history": "取得不可：tennisexplorer.com / tennisabstract.com へのアクセスがorganization policyのegress proxyで拒否(curl)、WebFetchも承認されず未取得。WebSearchはタイトル/URLのみで数値が得られない"
+  "h2h": "未確認：WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "left.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "right.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "history": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず"
  },
  "source_urls": [],
- "match_id": "m20260929-8e415f55",
  "calc": {
   "left": {
    "games": 0,

@@ -1,0 +1,136 @@
+{
+ "match_id": "m20260930-6ccdde73",
+ "data_as_of": "2026-09-29T18:38:24+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "エリアス・イマー（Elias Ymer, SWE）",
+  "ranking": "不明（ドロー上の表記は予選勝者Qの可能性、TennisTemple要約が曖昧）",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "Galarneau A.",
+    "comp": "Chengdu ATP250 予選1回戦",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "5-7 6-7(5)"
+   }
+  ],
+  "lineup": [
+   "9/1 Zhangjiagang CH 1回戦でHsu Yu Hsiouと対戦（結果未確認）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "テランス・アトマヌ（Térence Atmane, FRA）予選勝者",
+  "ranking": "ATP 99（自己最高41）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Palan D.",
+    "comp": "Jingshan CH 予選1回戦",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-4"
+   }
+  ],
+  "lineup": [
+   "2026年 18勝25敗（ハード13勝13敗）",
+   "直近10戦 WLLLWWLWWL（Tennis Tonic, 9/29時点）",
+   "9/29 予選決勝 Aguiard戦（結果未確認だが本戦入り）",
+   "9/24頃 ATP500杭州でFaria戦（結果未確認）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "ATP Challenger 100 Jingshan（中国）1回戦・ハード・中立",
+ "risks": [
+  "アトマヌは予選2試合を消化して本戦へ（連戦）",
+  "イマーの直近成績・ランクが不明"
+ ],
+ "missing": [
+  "両者の直近10試合",
+  "イマーのランキング"
+ ],
+ "unavailable": {
+  "h2h": "未確認（Tennis Tonic/TennisTempleで該当H2Hページに到達できず）",
+  "left.form": "イマーの選手ページ・試合ページを検索上限内で取得できず",
+  "right.form": "Tennis Tonicは勝敗並びと予選1試合のみ",
+  "history": "判定不可"
+ },
+ "source_urls": [
+  "https://tennistonic.com/tennis-news/1058647/h2h-prediction-of-terence-atmane-vs-enzo-aguiard-in-jingshan-challenger-with-odds-preview-pick-29th-september-2026/",
+  "https://ja.tennistemple.com/competitions/jingshan-2026/61402/draw",
+  "https://tennistonic.com/tennis-news/1056841/h2h-prediction-of-lloyd-harris-vs-alexis-galarneau-in-chengdu-with-odds-preview-pick-23rd-september-2026/",
+  "https://www.tennisactu.net/news-jingshan-ch-luka-pavlovic-en-huitiemes-terence-atmane-passe-les-qualifs-127260.html"
+ ],
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 0,
+   "units_lost": 2,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1,
+   "inner_for": 11,
+   "inner_against": 14,
+   "inner_games": 1
+  },
+  "right": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 0,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1,
+   "inner_for": 12,
+   "inner_against": 5,
+   "inner_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

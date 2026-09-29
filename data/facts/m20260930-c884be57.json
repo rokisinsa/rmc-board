@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-c884be57",
- "data_as_of": "2026-09-29T12:47:00+09:00",
+ "data_as_of": "2026-09-29T18:35:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Jokers de Cergy-Pontoise",
@@ -21,6 +21,15 @@
     "ha": "A",
     "score": "4-6",
     "res": "L"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Nice",
+    "comp": "Ligue Magnus 2026/27 J3",
+    "ha": "H",
+    "score": "6-5",
+    "res": "W",
+    "detail": "延長勝ち"
    },
    {
     "date": "2026-09-18",
@@ -74,13 +83,12 @@
     "res": "W"
    },
    {
-    "date": "2026-09-23",
+    "date": "2026-09-22",
     "opp": "Gap",
     "comp": "Ligue Magnus 2026/27 J3",
-    "ha": "",
+    "ha": "A",
     "score": "7-1",
-    "res": "W",
-    "detail": "grenoblemag記事の『2日前にGap戦7-1勝』。日付・会場はソース上で明示されず"
+    "res": "W"
    },
    {
     "date": "2026-09-18",
@@ -115,23 +123,22 @@
  },
  "h2h": [],
  "common_opponents_notes": [
-  "共通相手（60日以内・J3除く）: Angers"
+  "共通相手（60日以内, J1〜J5）: Angers"
  ],
  "venue": "Grenoble（Patinoire Polesud）— Grenobleのホーム（flashscore.fr 9/29『Grenoble vs Cergy-Pontoise』）。配信left=Cergyはアウェー",
  "risks": [
   "配信の left(Cergy) はアウェー側。実開催はGrenobleホーム",
-  "J3の結果が欠落（form 4試合）"
+  "今季5試合のみのサンプル"
  ],
  "missing": [
-  "J3結果",
   "過去シーズンH2H",
   "独立モデル勝率"
  ],
  "unavailable": {
   "h2h": "2026/27は今季初対戦（J1〜J5対戦表で確認）。前季以前の対戦は時間内に取得できず",
-  "left.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
-  "right.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
-  "history": "J1,J2,J4,J5の相手で共通相手を照合"
+  "left.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
+  "right.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
+  "history": "J1〜J5の相手で共通相手を照合"
  },
  "source_urls": [
   "https://www.passionhockey.com/2026/09/16/ligue-magnus-rentree-reussie-pour-grenoble-et-bordeaux/",
@@ -139,17 +146,18 @@
   "https://www.passionhockey.com/2026/09/26/ligue-magnus-marseille-stoppe-bordeaux-cinq-equipes-a-9-points/",
   "https://planetehockey.com/ligue-magnus-grenoble-mene-un-quatuor-de-tete/",
   "https://www.flashscore.fr/hockey/france/ligue-magnus/",
-  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/"
+  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/",
+  "https://www.passionhockey.com/2026/09/23/ligue-magnus-bordeaux-dernier-resistant/"
  ],
  "calc": {
   "left": {
-   "games": 4,
-   "W": 0,
+   "games": 5,
+   "W": 1,
    "L": 4,
    "D": 0,
-   "win_rate": 0.0,
+   "win_rate": 20.0,
    "home": {
-    "W": 0,
+    "W": 1,
     "L": 2,
     "D": 0
    },
@@ -158,10 +166,10 @@
     "L": 2,
     "D": 0
    },
-   "streak": "4連敗",
-   "points_for": 9,
-   "points_against": 18,
-   "points_games": 4
+   "streak": "2連敗",
+   "points_for": 15,
+   "points_against": 23,
+   "points_games": 5
   },
   "right": {
    "games": 5,
@@ -175,7 +183,7 @@
     "D": 0
    },
    "away": {
-    "W": 1,
+    "W": 2,
     "L": 1,
     "D": 0
    },

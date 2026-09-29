@@ -1,0 +1,234 @@
+{
+ "match_id": "m20260930-1f101175",
+ "data_as_of": "2026-09-29T18:30:28+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "ヴィクトリア・フルンチャコヴァ（Viktoria Hruncakova, SVK）",
+  "ranking": "不明（予選決勝敗退→ラッキールーザーとみられる）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Gasanova A.",
+    "comp": "Adana WTA125 R32",
+    "ha": "N",
+    "score": "0-0",
+    "res": "W",
+    "units_won": 0,
+    "units_lost": 0,
+    "detail": "4-2（途中終了、相手棄権とみられる）"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Tikhonova E.",
+    "comp": "Adana WTA125 Q2",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "1-6 2-6"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Daniel",
+    "comp": "Adana WTA125 Q1",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-4 6-3"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Iatcenko",
+    "comp": "Ankara R32",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "6-4 3-6 3-6"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Bandecchi S.",
+    "comp": "Caldas da Rainha R16",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "units_won": 0,
+    "units_lost": 2,
+    "detail": "3-6 2-6"
+   }
+  ],
+  "lineup": [
+   "同大会でダブルスも出場（Siskovaと第2シード）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "アンナ・ブリンコワ（Anna Blinkova）第2シード",
+  "ranking": "第2シード（WTAランク値は取得できず）",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Arango E.",
+    "comp": "Adana WTA125 R32",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "7-6 6-2"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Quevedo K.",
+    "comp": "Sao Paulo WTA125 SF",
+    "ha": "N",
+    "score": "1-2",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 2,
+    "detail": "4-6 6-2 4-6"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Charaeva A.",
+    "comp": "Sao Paulo WTA125 QF",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-4 7-5"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "Valdmannova",
+    "comp": "Sao Paulo WTA125 R16",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-3 6-0"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Lee Young Suh",
+    "comp": "Sao Paulo WTA125 R32",
+    "ha": "N",
+    "score": "2-0",
+    "res": "W",
+    "units_won": 2,
+    "units_lost": 0,
+    "detail": "6-1 6-3"
+   }
+  ],
+  "lineup": [],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "不明（2022年以降）",
+   "event": "不明",
+   "score": "0-1",
+   "winner": "right",
+   "units_left": 0,
+   "units_right": 0,
+   "detail": "Tennis Majors表示のH2H 0-1（日付・スコア不明）"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "WTA125 Adana（トルコ）R16・ハード・中立",
+ "risks": [
+  "フルンチャコヴァはダブルス併用で連戦負担",
+  "前戦が途中終了で実質的な試合量が少ない"
+ ],
+ "missing": [
+  "両者のランキング",
+  "直近10試合の残り",
+  "過去対戦の詳細"
+ ],
+ "unavailable": {
+  "left.form": "Tennis Majorsで5試合のみ、tennisexplorer大会ページはリダイレクト過多で取得不可",
+  "right.form": "同上（5試合）",
+  "history": "60日以内共通相手なし（照合済）"
+ },
+ "source_urls": [
+  "https://www.tennismajors.com/matches/wta/adana-open/viktoria-hruncakova-vs-anna-blinkova-2",
+  "https://www.tennisexplorer.com/adana/2026/wta-women/"
+ ],
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 3,
+   "D": 0,
+   "win_rate": 40.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 3,
+   "units_lost": 6,
+   "points_for": 3,
+   "points_against": 6,
+   "points_games": 5,
+   "inner_for": 32,
+   "inner_against": 47,
+   "inner_games": 4
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 9,
+   "units_lost": 2,
+   "points_for": 9,
+   "points_against": 2,
+   "points_games": 5,
+   "inner_for": 64,
+   "inner_against": 38,
+   "inner_games": 5
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "units_left": 0,
+   "units_right": 0,
+   "points_left": 0,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 0.0,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

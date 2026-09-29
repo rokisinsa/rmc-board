@@ -1,21 +1,79 @@
 {
  "match_id": "m20260930-9f6bdd34",
- "data_as_of": "2026-09-29T12:54:00+09:00",
- "unit": "セット",
+ "data_as_of": "2026-09-29T19:05:00+09:00",
+ "unit": "レッグ",
  "left": {
-  "name": "Gary Anderson",
-  "ranking": "World Grand Prix 第10シード（PDC上位16）",
-  "form": [],
+  "name": "ゲイリー・アンダーソン（Gary Anderson）",
+  "ranking": "World Grand Prix 第10シード（既存facts）",
+  "form": [
+   {
+    "date": "2026-08-30",
+    "opp": "Ross Smith",
+    "comp": "Hungarian Darts Trophy 決勝",
+    "ha": "N",
+    "score": "2-8",
+    "res": "L",
+    "units_won": 2,
+    "units_lost": 8,
+    "detail": "レッグ数"
+   }
+  ],
   "lineup": [
    "直近の判明試合：Czech Darts Open（European Tour）でCameron Menziesに3-6敗（日付未確認）",
-   "過去12か月 平均98.29、チェックアウト率40.86%、180s 312本（dartsorakel）"
+   "過去12か月 平均98.29、チェックアウト率40.86%、180s 312本（dartsorakel）",
+   "Hungarian Darts Trophy 準優勝（決勝でRoss Smithに2-8、8/30）"
   ],
   "history": []
  },
  "right": {
-  "name": "Damon Heta",
-  "ranking": "PDC世界ランク23位（2026-09-06時点、Wikipedia）、Pro Tour枠のノーシード",
-  "form": [],
+  "name": "デイモン・ヘタ（Damon Heta）",
+  "ranking": "PDC世界23位（2026-09-06、Wikipedia、既存facts）",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Karel Sedlacek",
+    "comp": "Players Championship 30 ベスト32",
+    "ha": "N",
+    "score": "1-6",
+    "res": "L",
+    "units_won": 1,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "James Wade",
+    "comp": "WSoD Finals 1回戦",
+    "ha": "N",
+    "score": "5-6",
+    "res": "L",
+    "units_won": 5,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "James Hurrell",
+    "comp": "Hungarian Darts Trophy 1回戦",
+    "ha": "N",
+    "score": "5-6",
+    "res": "L",
+    "units_won": 5,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-07-28",
+    "opp": "Henry Coates",
+    "comp": "Players Championship 25 決勝",
+    "ha": "N",
+    "score": "4-8",
+    "res": "L",
+    "units_won": 4,
+    "units_lost": 8,
+    "detail": "レッグ数"
+   }
+  ],
   "lineup": [
    "直近の判明試合：Players ChampionshipでKarel Sedláčekに1-6敗（日付未確認）",
    "2026年7月 Players Championship 25 準優勝（Henry Coatesに4-8敗）",
@@ -41,41 +99,44 @@
    "units_right": 7
   }
  ],
- "common_opponents_notes": [
-  "直近試合の日付付きリストが取れず共通相手の突き合わせ不可"
- ],
- "venue": "Mattioli Arena（英国・レスター）、中立。World Grand Prix 2026（9/28-10/4）",
+ "common_opponents_notes": [],
+ "venue": "Mattioli Arena（英国レスター）、中立。World Grand Prix 1回戦（9/29 現地18:00開始セッション、Sky Sportsの順番表に掲載）",
  "risks": [
-  "1回戦はBest of 3セット（各セットBest of 5レッグ）のダブルイン・ダブルアウト。短期戦で番狂わせが起きやすい",
-  "開始時刻がソース間で不一致（Sofascore表示 9/28 18:15 UTC、dartsnewsはセッション開始 9/29 18:00、配信は 9/30 04:15 JST=9/29 20:15 BST）"
+  "1回戦はBest of 3セット（各セットBO5レッグ）のダブルイン・ダブルアウト。短期戦で番狂わせ余地大",
+  "formのunitsはレッグ数（本戦はセット制）",
+  "Hungarian Darts Trophyの結果はWikipediaページの要約取得で、ラウンド表記に誤りの可能性あり"
  ],
  "missing": [
-  "両者の直近10試合の日付付き結果（Sofascore/dartsorakel/the-sports.orgが動的表示で取得不可）",
-  "直近のH2H（2018年以降）",
-  "最新PDCランキング（Andersonの公式値）"
+  "両者の直近10試合の完全な一覧（PC27/28/29・European Tour各戦の全試合）",
+  "外部モデル確率"
  ],
  "unavailable": {
-  "left.form": "Sofascore/dartsorakelの試合一覧が動的読み込みで取得できず、mastercallerのデータは古く不整合のため不採用",
-  "right.form": "同上（the-sports.orgも2026年詳細なし）",
-  "history": "form未取得のため確認不可",
-  "h2h": "Wikipediaに記載の2018年2戦のみ（単位はレッグ）。最新対戦はflashscore試合ページで表示されず。H2Hのunits_left/rightはレッグ数"
+  "left.form": "取得できた公式戦は1件のみ。Sofascore/dartsdatabase/dartsorakel等は取得不可（権限・動的表示）、Mastercallerは2025年末までで古い",
+  "right.form": "取得できた公式戦は4件のみ（理由同上）",
+  "history": "共通相手は取得できた試合（8/1以降）の範囲内のみで判定",
+  "h2h": "取得範囲（WSoD Finals/PC30/Hungarian DT/Pro Tour決勝）に直接対戦なし。通算H2HはSofascore/Flashscore等が取得不可のため初対戦かは未確認"
  },
  "source_urls": [
-  "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
   "https://dartsnews.com/pdc/world-grand-prix-2026-results-draw-schedule-preview-format-history-and-predictions",
-  "https://www.flashscore.com/match/darts/anderson-gary-MyKZZS6r/heta-damon-GYfQQCI6/",
-  "https://www.sofascore.com/darts/player/heta-damon/172078",
-  "https://www.sofascore.com/darts/player/anderson-gary/26272",
+  "https://dartsorakel.com/player/stats/10",
+  "https://en.wikipedia.org/wiki/2026_Hungarian_Darts_Trophy",
+  "https://en.wikipedia.org/wiki/2026_PDC_Pro_Tour",
+  "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
   "https://en.wikipedia.org/wiki/Damon_Heta",
-  "https://dartsorakel.com/player/stats/10"
+  "https://www.flashscore.com/match/darts/anderson-gary-MyKZZS6r/heta-damon-GYfQQCI6/",
+  "https://www.live-darts.com/pdc-darts-news/pdc-players-championship/players-championship-2026-event-30-latest/",
+  "https://www.skysports.com/darts/news/13583670/world-series-of-darts-finals-2026-schedule-and-results-with-luke-littler-luke-humphries-michael-van-gerwen-gian-van-veen-in-action",
+  "https://www.skysports.com/darts/news/13585772/world-grand-prix-darts-2026-schedule-format-prize-money-venue-dates-as-luke-littler-luke-humphries-seek-title",
+  "https://www.sofascore.com/darts/player/anderson-gary/26272",
+  "https://www.sofascore.com/darts/player/heta-damon/172078"
  ],
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -86,14 +147,19 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "units_won": 2,
+   "units_lost": 8,
+   "points_for": 2,
+   "points_against": 8,
+   "points_games": 1
   },
   "right": {
-   "games": 0,
+   "games": 4,
    "W": 0,
-   "L": 0,
+   "L": 4,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -104,7 +170,12 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "4連敗",
+   "units_won": 15,
+   "units_lost": 26,
+   "points_for": 15,
+   "points_against": 26,
+   "points_games": 4
   },
   "h2h": {
    "games": 2,

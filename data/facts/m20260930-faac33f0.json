@@ -1,7 +1,10 @@
 {
+ "match_id": "m20260930-faac33f0",
+ "data_as_of": "2026-09-29T18:30:30+09:00",
+ "unit": "なし",
  "left": {
   "name": "バイエルン・ミュンヘン（Bayern Munich）",
-  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "ranking": "ユーロリーグ 1勝0敗（前季2025-26 レギュラーシーズン13位 17勝21敗）",
   "form": [
    {
     "date": "2026-09-24",
@@ -10,18 +13,37 @@
     "score": "86-84",
     "res": "W",
     "detail": "フォイクトマンが残り10秒に決勝3P"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Bamberg Baskets",
+    "comp": "BBL 第1節",
+    "ha": "H",
+    "score": "108-72",
+    "res": "W",
+    "detail": "新HCアントン・ガヴェルの初陣"
    }
   ],
   "lineup": [
-   "カマー・ボールドウィン、ニールス・ギフィー、デュアン・ワシントンが第2節に向け復帰可",
-   "国内でアルバ・ベルリンに95-61、バンベルクに108-72で勝利"
+   "第1節はGiffey・Baldwin・Washingtonがロスター外（Eurohoops）、Basketnewsは重大な負傷者なしと記載",
+   "新HCアントン・ガヴェル",
+   "アルバ・ベルリンに95-61勝（日付未確認のためform未掲載）"
   ],
   "history": []
  },
  "right": {
   "name": "フェネルバフチェ（Fenerbahce）",
-  "ranking": "ユーロリーグ 開幕1勝0敗",
+  "ranking": "ユーロリーグ 1勝0敗（前季2025-26 レギュラーシーズン4位 24勝14敗、プレーオフでジャルギリスに3-1勝）",
   "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Bahçeşehir Koleji",
+    "comp": "BSL 第1節",
+    "ha": "A",
+    "score": "83-98",
+    "res": "L",
+    "detail": "16-28/43-51/65-74/83-98（累計）、Sinan Erdem"
+   },
    {
     "date": "2026-09-25",
     "opp": "ヴィルトゥス・ボローニャ（Virtus Bologna）",
@@ -33,61 +55,44 @@
    }
   ],
   "lineup": [
-   "シェーン・ラーキンとマーカス・ビンガム・Jr.は負傷（第1節はGTD）",
-   "国内リーグでバフチェシェヒルに83-98で敗戦、スーパーカップはベシクタシュに72-59で勝利"
+   "シェーン・ラーキン、マーカス・ビンガムJr.は第2節も出場判断が試合直前（Eurohoops/Basketnews 9/29）",
+   "HCシャルーナス・ヤシケビチュス",
+   "スーパーカップでベシクタシュに72-59勝（日付未確認のためform未掲載）"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "イスタンブール（フェネルバフチェ側ホーム）、17:45（現地表記、GMT）開始",
- "unavailable": {
-  "h2h": "対戦履歴を取得できるページを開けなかった（初対戦とは確認できていない）",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）",
-  "left.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず",
-  "right.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず"
- },
- "data_as_of": "2026-09-29T07:07:10+09:00",
- "unit": "なし",
+ "venue": "イスタンブール（フェネルバフチェ側ホーム）、19:45 CEST開始。配信表記ではバイエルン左だがアウェイ",
  "risks": [
-  "フェネルバフチェの主力ラーキン、ビンガムの出否が試合直前まで不明",
-  "ホームのフェネルバフチェが強く優勢と見られる"
+  "フェネルバフチェは9/28にBSL開幕戦（敗戦）→翌日EL戦の連戦",
+  "ラーキン・ビンガムの出否未定",
+  "フェネルバフチェのホーム"
  ],
  "missing": [
   "h2h",
   "国内試合の日付"
  ],
+ "unavailable": {
+  "h2h": "前季の対戦結果ページ（Wikipedia 2025-26 EuroLeague は結果表なし、euroleaguebasketball.net 403）を取得できず",
+  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）",
+  "left.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず",
+  "right.form": "公式戦が今季開幕1〜2試合のみで、10試合分の結果ページを取得できず"
+ },
  "source_urls": [
   "https://www.freetips.com/basketball/fenerbahce-vs-bayern-munich-live-stream-20260927-0015/",
   "https://www.eurohoops.net/en/euroleague/2012101/injury-report-round-1-larkin-bingham-gtds-mathews-kokila-out/",
-  "https://basketballsphere.com/en/injuries/euroleague/"
+  "https://basketballsphere.com/en/injuries/euroleague/",
+  "https://basketnews.com/leagues/25-euroleague/injured.html",
+  "https://www.eurohoops.net/en/euroleague/2013646/injury-report-round-2-milutinov-does-not-travel-to-kaunas/",
+  "https://en.wikipedia.org/wiki/2025%E2%80%9326_EuroLeague",
+  "https://www.haberturk.com/spor/bahcesehir-koleji-98-fenerbahce-83-mac-sonucu-3915483",
+  "https://www.sportschau.de/regional/br/br-sieg-gegen-den-ex-neuer-bayern-coach-gavel-demuetigt-bamberg-102.html"
  ],
- "match_id": "m20260930-faac33f0",
  "calc": {
   "left": {
-   "games": 1,
-   "W": 1,
-   "L": 0,
-   "D": 0,
-   "win_rate": 100.0,
-   "home": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "away": {
-    "W": 0,
-    "L": 0,
-    "D": 0
-   },
-   "streak": null,
-   "points_for": 86,
-   "points_against": 84,
-   "points_games": 1
-  },
-  "right": {
-   "games": 1,
-   "W": 1,
+   "games": 2,
+   "W": 2,
    "L": 0,
    "D": 0,
    "win_rate": 100.0,
@@ -101,10 +106,31 @@
     "L": 0,
     "D": 0
    },
+   "streak": "2連勝",
+   "points_for": 194,
+   "points_against": 156,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
    "streak": null,
-   "points_for": 78,
-   "points_against": 68,
-   "points_games": 1
+   "points_for": 161,
+   "points_against": 166,
+   "points_games": 2
   },
   "h2h": {
    "games": 0,

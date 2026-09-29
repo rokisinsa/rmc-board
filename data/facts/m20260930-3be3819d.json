@@ -1,41 +1,42 @@
 {
- "data_as_of": "2026-09-29T07:00:00+09:00",
+ "match_id": "m20260930-3be3819d",
+ "data_as_of": "2026-09-29T18:26:40+09:00",
  "unit": "セット",
  "left": {
-  "name": "Blanch Darwin",
-  "ranking": "Blanch D. (1)",
+  "name": "Darwin Blanch",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "right": {
-  "name": "Maloney Patrick (2000)",
-  "ranking": "Maloney P.",
+  "name": "Patrick Maloney",
+  "ranking": "取得できず",
   "form": [],
   "lineup": [],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "Columbus 3 challenger",
+ "venue": "ATP Challenger コロンバス3（米国）・室内ハード・Maloneyは米国選手",
  "risks": [
-  "直近フォーム・H2H・Eloが取得できておらず、オッズ以外の裏付けがない",
-  "棄権・ウォークオーバーの有無は未確認"
+  "事実データ（直近成績・H2H）を一切取得できていない。オッズ以外の判断材料なし",
+  "検索で存在確認のみ（本文未取得）: https://tennistonic.com/tennis-news/1058909/h2h-prediction-of-darwin-blanch-vs-patrick-maloney-in-columbus-challenger-with-odds-preview-pick-29th-september-2026/ , https://www.atptour.com/en/scores/current-challenger/columbus/8281/draws"
  ],
  "missing": [
-  "直近10試合（左右とも）",
-  "H2H",
-  "共通相手履歴",
-  "Tennis Abstract Elo"
+  "left.form",
+  "right.form",
+  "h2h",
+  "history",
+  "ranking"
  ],
  "unavailable": {
-  "h2h": "H2Hを取得できず（tennisexplorer/matchstat等にアクセス不可）。初対戦とは確認していない",
-  "left.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "right.form": "tennisexplorer.com・tennisabstract.comは組織ポリシー（プロキシ403）でアクセス不可。他の一次DB（ATP/WTA/ITF選手ページ）も選手IDが特定できず取得できなかった",
-  "history": "両者の直近試合リストを取得できず共通相手を確認できない"
+  "h2h": "未確認：WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "left.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "right.form": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず",
+  "history": "WebFetchは許可応答なし（PROVENANCE_REQUIRED）、curl直接は全ソース接続不可（tennisexplorer/sofascore/flashscore/atptour/itftennis/wikipedia/tennisabstract/dimers）。WebSearchはタイトルとURLのみでスコア本文が得られず"
  },
  "source_urls": [],
- "match_id": "m20260930-3be3819d",
  "calc": {
   "left": {
    "games": 0,

@@ -1,53 +1,146 @@
 {
+ "match_id": "m20260930-a0ae94fe",
+ "data_as_of": "2026-09-29T18:42:14+09:00",
+ "unit": "なし",
  "left": {
   "name": "ロストック・シーウルブズ（Rostock Seawolves）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦",
-  "form": [],
+  "ranking": "BBL 2026-27 1勝2敗（12位、9/27時点）／EuroCup グループA開幕戦",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Basketball Löwen Braunschweig",
+    "comp": "BBL",
+    "ha": "A",
+    "score": "82-83",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "MHP Riesen Ludwigsburg",
+    "comp": "BBL 第2節",
+    "ha": "A",
+    "score": "78-81",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Phoenix Hagen",
+    "comp": "BBL",
+    "ha": "N",
+    "score": "102-92",
+    "res": "W",
+    "detail": "H/A未確認"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "Hamburg Towers",
+    "comp": "大会未確認（プレシーズンの可能性）",
+    "ha": "N",
+    "score": "81-90",
+    "res": "L",
+    "detail": "H/A・大会未確認"
+   },
+   {
+    "date": "2026-05-14",
+    "opp": "Gladiators Trier",
+    "comp": "BBL 2025-26",
+    "ha": "N",
+    "score": "69-76",
+    "res": "L",
+    "detail": "前季、H/A未確認"
+   }
+  ],
   "lineup": [
-   "取得できず"
+   "負傷・ロスター情報は取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "ハポエル・エルサレム（Hapoel Jerusalem）",
-  "ranking": "BKT EuroCup 2026-27 開幕戦",
-  "form": [],
+  "ranking": "EuroCup グループA開幕戦（直近10試合7勝3敗：scores24）",
+  "form": [
+   {
+    "date": "2026-09-25",
+    "opp": "Bnei Herzliya",
+    "comp": "国内戦（大会名未確認）",
+    "ha": "N",
+    "score": "88-68",
+    "res": "W",
+    "detail": "H/A未確認"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Hapoel Beer Sheva",
+    "comp": "国内戦（大会名未確認）",
+    "ha": "N",
+    "score": "83-69",
+    "res": "W",
+    "detail": "H/A未確認"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Lietuvos Rytas",
+    "comp": "プレシーズン（推定、大会名未確認）",
+    "ha": "N",
+    "score": "95-104",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "JL Bourg",
+    "comp": "プレシーズン（推定、大会名未確認）",
+    "ha": "N",
+    "score": "87-80",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Maccabi Ashdod",
+    "comp": "大会名未確認",
+    "ha": "N",
+    "score": "110-77",
+    "res": "W",
+    "detail": "H/A未確認"
+   }
+  ],
   "lineup": [
-   "取得できず"
+   "負傷・ロスター情報は取得できず"
   ],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "エルサレム（ハポエル側ホーム）、現地20:00開始",
- "unavailable": {
-  "h2h": "初対戦（Scores24のH2Hで対戦履歴なしと表示、公式データでの裏付けは未確認）",
-  "left.form": "Scores24は直近10試合の勝敗集計のみで試合別の日付・スコアが取得できず",
-  "right.form": "同上",
-  "history": "60日以内の共通相手の試合リストを取得できず（シーズン開幕直後で公式戦が少ない）"
- },
- "data_as_of": "2026-09-29T07:08:03+09:00",
- "unit": "なし",
+ "venue": "エルサレム・Pais Arena（ハポエル側ホーム）、17:00 UTC開始。配信表記ではロストック左だがアウェイ",
  "risks": [
-  "負傷・ロースター情報が確認できていない",
-  "ハポエルは本拠地開催で価格差が大きい（1.10）"
+  "ロストックはBBLで2連敗中、9/27試合後の長距離遠征",
+  "ハポエルのホーム",
+  "両チームの戦績の大会区分が一部未確認"
  ],
  "missing": [
-  "両チームの試合別結果",
-  "負傷情報"
+  "負傷情報",
+  "ハポエルの試合の大会名・H/A"
  ],
+ "unavailable": {
+  "h2h": "scores24『Previously, these teams have not faced each other』→初対戦",
+  "left.form": "scores24の直近5試合＋sport1で取得。大会・H/Aが一部未確認",
+  "right.form": "scores24の直近5試合のみ。大会名・H/A未確認",
+  "history": "60日以内の共通相手なし"
+ },
  "source_urls": [
   "https://scores24.live/en/basketball/m-29-09-2026-hapoel-jerusalem-rostock-seawolves-prediction",
-  "https://ran.joyn.de/sports/ticker/ma12321853-hapoel-jerusalem-rostock-seawolves"
+  "https://ran.joyn.de/sports/ticker/ma12321853-hapoel-jerusalem-rostock-seawolves",
+  "https://scores24.live/en/basketball/m-29-09-2026-hapoel-jerusalem-rostock-seawolves-prediction",
+  "https://www.sofascore.com/de/basketball/match/rostock-seawolves-hapoel-jerusalem-bc/HIcsyYqc",
+  "https://www.sport1.de/daten/basketball/bbl/ergebnisse",
+  "https://www.hessenschau.de/sport/ergebnisse-tabellen/basketball-1bl100.html"
  ],
- "match_id": "m20260930-a0ae94fe",
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 5,
+   "W": 1,
+   "L": 4,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 20.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -55,17 +148,20 @@
    },
    "away": {
     "W": 0,
-    "L": 0,
+    "L": 2,
     "D": 0
    },
-   "streak": null
+   "streak": "2連敗",
+   "points_for": 412,
+   "points_against": 422,
+   "points_games": 5
   },
   "right": {
-   "games": 0,
-   "W": 0,
-   "L": 0,
+   "games": 5,
+   "W": 4,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 80.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -76,7 +172,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "2連勝",
+   "points_for": 463,
+   "points_against": 398,
+   "points_games": 5
   },
   "h2h": {
    "games": 0,

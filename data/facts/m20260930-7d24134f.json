@@ -1,9 +1,9 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:41:00+09:00",
  "unit": "なし",
  "left": {
   "name": "スロバキア（Slovakia）",
-  "ranking": "UNL League C 1位（1試合 3pt）",
+  "ranking": "UNLリーグC 首位 3pt（形 W-W-D-W-L-L：sportsmole）",
   "form": [
    {
     "date": "2026-09-26",
@@ -12,7 +12,7 @@
     "ha": "H",
     "score": "2-0",
     "res": "W",
-    "detail": ""
+    "detail": "sportsmoleは9/27と記載（日付要確認）"
    },
    {
     "date": "2026-06-05",
@@ -20,8 +20,7 @@
     "comp": "親善試合",
     "ha": "H",
     "score": "0-0",
-    "res": "D",
-    "detail": ""
+    "res": "D"
    },
    {
     "date": "2026-06-01",
@@ -29,8 +28,7 @@
     "comp": "親善試合",
     "ha": "H",
     "score": "2-0",
-    "res": "W",
-    "detail": ""
+    "res": "W"
    },
    {
     "date": "2026-03-31",
@@ -38,8 +36,7 @@
     "comp": "親善試合",
     "ha": "H",
     "score": "1-0",
-    "res": "W",
-    "detail": ""
+    "res": "W"
    },
    {
     "date": "2026-03-26",
@@ -47,20 +44,21 @@
     "comp": "W杯予選PO",
     "ha": "A",
     "score": "1-3",
-    "res": "L",
-    "detail": ""
+    "res": "L"
    }
   ],
   "lineup": [
    "ベロ：疲労骨折で欠場",
    "シュクルニアル：負傷離脱から復帰",
-   "ストレレツ・ボジェニークは実戦不足"
+   "ストレレツ・ボジェニークは実戦不足",
+   "予想：Greif; Schranz, Škriniar, Obert, Hancko; Suslov, Lobotka, Duda; Kapralik, Strelec, Haraslin（sportsmole）",
+   "ホーム直近14戦10勝1敗（sportsmole）"
   ],
   "history": []
  },
  "right": {
   "name": "カザフスタン（Kazakhstan）",
-  "ranking": "UNL League C 2位（1試合 1pt）",
+  "ranking": "UNLリーグC 2位 1pt（形 D-L-W-W-L-D：sportsmole）",
   "form": [
    {
     "date": "2026-09-26",
@@ -69,7 +67,7 @@
     "ha": "A",
     "score": "1-1",
     "res": "D",
-    "detail": ""
+    "detail": "sportsmoleは9/27と記載（日付要確認）"
    },
    {
     "date": "2026-06-09",
@@ -77,8 +75,7 @@
     "comp": "親善試合",
     "ha": "A",
     "score": "0-3",
-    "res": "L",
-    "detail": ""
+    "res": "L"
    },
    {
     "date": "2026-06-06",
@@ -86,12 +83,13 @@
     "comp": "親善試合",
     "ha": "A",
     "score": "0-0",
-    "res": "D",
-    "detail": ""
+    "res": "D"
    }
   ],
   "lineup": [
-   "サトパエフ（太もも）、チェスノコフ（負傷+出場停止）、サモロドフ（負傷）、カシム：欠場"
+   "サトパエフ（太もも）、チェスノコフ（負傷+出場停止）、サモロドフ（負傷）、カシム：欠場",
+   "予想：Pokatilov; Mrynskiy, Yerlanov, Alip, Vorogovskiy; Kuat, Karaman, Islamkhan; Amir, Shushenachev, Kenzhebek（sportsmole）",
+   "3戦未勝利・アウェイ直近7戦未勝利（sportsmole）"
   ],
   "history": []
  },
@@ -99,23 +97,20 @@
   {
    "date": "2022-06-13",
    "event": "UNL",
-   "score": "スロバキア 0-1",
+   "score": "0-1",
    "winner": "right",
-   "units_left": 0,
-   "units_right": 1
+   "detail": "scores24。sportsmole：カザフスタンが過去2戦2勝"
   },
   {
    "date": "2022-06-06",
    "event": "UNL",
-   "score": "スロバキア 0-2",
+   "score": "0-2",
    "winner": "right",
-   "units_left": 0,
-   "units_right": 2,
    "detail": "scores24は2022-06-06をスロバキア0-2カザフと記載"
   }
  ],
  "common_opponents_notes": [],
- "venue": "コシツェ・Košická futbalová aréna、スロバキアのホーム",
+ "venue": "コシツェ Košická futbalová aréna、スロバキアのホーム（19:45 BST）",
  "risks": [
   "集計サイトの試合日付・スコアに不整合あり（例：カザフ3/31に6-11コモロ等）で信頼性が低い行は除外",
   "カザフの3/25・3/31 FIFAシリーズ行は不整合のため除外"
@@ -127,11 +122,13 @@
  "unavailable": {
   "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（5行のみ掲載）",
   "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得（3行のみ採用、不整合行を除外）",
-  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+  "history": "60日以内は各1試合（モルドバ／フェロー諸島）で共通相手なし",
+  "h2h": "過去2試合（2022年UNL）のみ、sportsmoleもカザフ2勝と記載"
  },
  "source_urls": [
   "https://footballwhispers.com/blog/slovakia-vs-kazakhstan-prediction-preview-29-09-2026/",
-  "https://scores24.live/en/soccer/m-29-09-2026-slovakia-kazakhstan-prediction"
+  "https://scores24.live/en/soccer/m-29-09-2026-slovakia-kazakhstan-prediction",
+  "https://www.sportsmole.co.uk/football/slovakia/uefa-nations-league/preview/slovakia-vs-kazakhstan-prediction-team-news-lineups_605874.html"
  ],
  "match_id": "m20260930-7d24134f",
  "calc": {
@@ -182,8 +179,6 @@
    "left": 0,
    "right": 2,
    "draw": 0,
-   "units_left": 0,
-   "units_right": 3,
    "points_left": 0,
    "points_right": 3,
    "points_games": 2,

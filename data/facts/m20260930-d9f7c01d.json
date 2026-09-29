@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-d9f7c01d",
- "data_as_of": "2026-09-29T12:47:00+09:00",
+ "data_as_of": "2026-09-29T18:35:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Diables Rouges de Briançon",
@@ -21,6 +21,15 @@
     "ha": "A",
     "score": "0-5",
     "res": "L"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "Bordeaux",
+    "comp": "Ligue Magnus 2026/27 J3",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L",
+    "detail": "SO負け"
    },
    {
     "date": "2026-09-18",
@@ -65,6 +74,14 @@
     "res": "W"
    },
    {
+    "date": "2026-09-22",
+    "opp": "Amiens",
+    "comp": "Ligue Magnus 2026/27 J3",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
     "date": "2026-09-18",
     "opp": "Gap",
     "comp": "Ligue Magnus 2026/27 J2",
@@ -88,23 +105,22 @@
  },
  "h2h": [],
  "common_opponents_notes": [
-  "共通相手（60日以内・J3除く）: なし"
+  "共通相手（60日以内, J1〜J5）: なし"
  ],
  "venue": "Angers（Angers IceParc）— Angersのホーム（flashscore.fr 9/29『Angers vs Briancon』）。配信left=Briançonはアウェー",
  "risks": [
   "配信の left(Briançon) はアウェー側。実開催はAngersホーム",
-  "J3の結果が欠落（form 4試合）"
+  "今季5試合のみのサンプル"
  ],
  "missing": [
-  "J3結果",
   "過去シーズンH2H",
   "独立モデル勝率"
  ],
  "unavailable": {
   "h2h": "2026/27は今季初対戦（J1〜J5対戦表で確認）。前季以前の対戦は時間内に取得できず",
-  "left.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
-  "right.form": "J3（9/23頃）は対戦相手・スコアをソースで特定できず（順位表の得失からの逆算はしない）",
-  "history": "J1,J2,J4,J5の相手で共通相手を照合→該当なし"
+  "left.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
+  "right.form": "今季公式戦5試合のみ（2026/27 開幕9/15）",
+  "history": "J1〜J5の相手で共通相手を照合"
  },
  "source_urls": [
   "https://www.passionhockey.com/2026/09/16/ligue-magnus-rentree-reussie-pour-grenoble-et-bordeaux/",
@@ -112,18 +128,19 @@
   "https://www.passionhockey.com/2026/09/26/ligue-magnus-marseille-stoppe-bordeaux-cinq-equipes-a-9-points/",
   "https://planetehockey.com/ligue-magnus-grenoble-mene-un-quatuor-de-tete/",
   "https://www.flashscore.fr/hockey/france/ligue-magnus/",
-  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/"
+  "https://www.passionhockey.com/hockey-sur-glace/ligue-magnus/",
+  "https://www.passionhockey.com/2026/09/23/ligue-magnus-bordeaux-dernier-resistant/"
  ],
  "calc": {
   "left": {
-   "games": 4,
+   "games": 5,
    "W": 2,
-   "L": 2,
+   "L": 3,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 40.0,
    "home": {
     "W": 1,
-    "L": 1,
+    "L": 2,
     "D": 0
    },
    "away": {
@@ -131,31 +148,31 @@
     "L": 1,
     "D": 0
    },
-   "streak": "2連敗",
-   "points_for": 7,
-   "points_against": 9,
-   "points_games": 4
+   "streak": "3連敗",
+   "points_for": 8,
+   "points_against": 11,
+   "points_games": 5
   },
   "right": {
-   "games": 4,
-   "W": 3,
+   "games": 5,
+   "W": 4,
    "L": 1,
    "D": 0,
-   "win_rate": 75.0,
+   "win_rate": 80.0,
    "home": {
     "W": 2,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 1,
+    "W": 2,
     "L": 1,
     "D": 0
    },
-   "streak": "3連勝",
-   "points_for": 18,
-   "points_against": 10,
-   "points_games": 4
+   "streak": "4連勝",
+   "points_for": 21,
+   "points_against": 12,
+   "points_games": 5
   },
   "h2h": {
    "games": 0,

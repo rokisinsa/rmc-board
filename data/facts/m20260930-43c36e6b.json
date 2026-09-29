@@ -1,0 +1,162 @@
+{
+ "match_id": "m20260930-43c36e6b",
+ "data_as_of": "2026-09-29T19:05:00+09:00",
+ "unit": "レッグ",
+ "left": {
+  "name": "スティーブン・バンティング（Stephen Bunting）",
+  "ranking": "World Grand Prix出場（順位は取得できず）",
+  "form": [
+   {
+    "date": "2026-09-17",
+    "opp": "Josh Rock",
+    "comp": "WSoD Finals 1回戦",
+    "ha": "N",
+    "score": "5-6",
+    "res": "L",
+    "units_won": 5,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Jonas Masalin",
+    "comp": "Hungarian Darts Trophy 2回戦",
+    "ha": "N",
+    "score": "6-1",
+    "res": "W",
+    "units_won": 6,
+    "units_lost": 1,
+    "detail": "レッグ数"
+   }
+  ],
+  "lineup": [
+   "出場（World Grand Prix 1回戦）"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "アンドリュー・ギルディング（Andrew Gilding）",
+  "ranking": "World Grand Prix出場（順位は取得できず）",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Maximilian Czerwinski",
+    "comp": "Players Championship 30 1回戦",
+    "ha": "N",
+    "score": "4-6",
+    "res": "L",
+    "units_won": 4,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Jermaine Wattimena",
+    "comp": "Hungarian Darts Trophy 2回戦",
+    "ha": "N",
+    "score": "4-6",
+    "res": "L",
+    "units_won": 4,
+    "units_lost": 6,
+    "detail": "レッグ数"
+   },
+   {
+    "date": "2026-08-28",
+    "opp": "Milan Biro",
+    "comp": "Hungarian Darts Trophy 1回戦",
+    "ha": "N",
+    "score": "6-0",
+    "res": "W",
+    "units_won": 6,
+    "units_lost": 0,
+    "detail": "レッグ数"
+   }
+  ],
+  "lineup": [
+   "出場（World Grand Prix 1回戦）"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "Mattioli Arena（英国レスター）、中立。World Grand Prix 1回戦（9/29 現地18:00開始セッション、Sky Sportsの順番表に掲載）",
+ "risks": [
+  "1回戦はBest of 3セット（各セットBO5レッグ）のダブルイン・ダブルアウト。短期戦で番狂わせ余地大",
+  "formのunitsはレッグ数（本戦はセット制）",
+  "Hungarian Darts Trophyの結果はWikipediaページの要約取得で、ラウンド表記に誤りの可能性あり"
+ ],
+ "missing": [
+  "両者の直近10試合の完全な一覧（PC27/28/29・European Tour各戦の全試合）",
+  "外部モデル確率"
+ ],
+ "unavailable": {
+  "left.form": "取得できた公式戦は2件のみ。Sofascore/dartsdatabase/dartsorakel等は取得不可（権限・動的表示）、Mastercallerは2025年末までで古い",
+  "right.form": "取得できた公式戦は3件のみ（理由同上）",
+  "history": "共通相手は取得できた試合（8/1以降）の範囲内のみで判定",
+  "h2h": "取得範囲（WSoD Finals/PC30/Hungarian DT/Pro Tour決勝）に直接対戦なし。通算H2HはSofascore/Flashscore等が取得不可のため初対戦かは未確認"
+ },
+ "source_urls": [
+  "https://en.wikipedia.org/wiki/2026_Hungarian_Darts_Trophy",
+  "https://en.wikipedia.org/wiki/2026_World_Grand_Prix_(darts)",
+  "https://www.live-darts.com/pdc-darts-news/pdc-players-championship/players-championship-2026-event-30-latest/",
+  "https://www.skysports.com/darts/news/13583670/world-series-of-darts-finals-2026-schedule-and-results-with-luke-littler-luke-humphries-michael-van-gerwen-gian-van-veen-in-action",
+  "https://www.skysports.com/darts/news/13585772/world-grand-prix-darts-2026-schedule-format-prize-money-venue-dates-as-luke-littler-luke-humphries-seek-title"
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "units_won": 11,
+   "units_lost": 7,
+   "points_for": 11,
+   "points_against": 7,
+   "points_games": 2
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "units_won": 14,
+   "units_lost": 12,
+   "points_for": 14,
+   "points_against": 12,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

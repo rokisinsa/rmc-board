@@ -1,0 +1,190 @@
+{
+ "match_id": "m20260930-9da5081b",
+ "unit": "なし",
+ "left": {
+  "name": "キッズグローヴ・アスレティック（Kidsgrove Athletic）",
+  "ranking": "NPLディヴィジョン1ウェスト 12位（9試合4勝5敗 12pt：thenpl）",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "ヴォクソール・モーターズ",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W",
+    "detail": "Cooper2, Malbon, Harrison"
+   },
+   {
+    "date": "2026-09-22",
+    "opp": "ハンリー・タウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L",
+    "detail": "Cooper"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "パディハム",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W",
+    "detail": "Cooper"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "スタッフォード・レンジャーズ",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L",
+    "detail": "Cooper"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "スタッフォード・レンジャーズ",
+    "comp": "FAトロフィー2次予選",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "チェイスタウン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W",
+    "detail": "Martin 72', Rhead 83'（lichfieldliveで勝利確認、記事日付は9/9）"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "ブートル",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "コングルトン・タウン",
+    "comp": "NPL1部West",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W",
+    "detail": "Jenkins, Cooper"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "コヴェントリー・ユナイテッド",
+    "comp": "FAトロフィー1次予選",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W",
+    "detail": "次ラウンド進出から勝利と判断"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "ウィットン・アルビオン",
+    "comp": "NPL1部West",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "FW Cooper が直近6試合で6得点（footballwebpages得点者欄）",
+   "欠場情報は取得できず"
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "リッチフィールド・シティ（Lichfield City）",
+  "ranking": "NPLディヴィジョン1ウェスト 21位/22（11試合 3pt、9/23時点10試合1勝9敗 9-40：thenpl/Wikipedia）",
+  "form": [],
+  "lineup": [
+   "直近5試合 L-L-W-L-L（thenpl）",
+   "欠場情報は取得できず"
+  ],
+  "history": []
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "キッズグローヴの8/18 シフナル・タウン戦 0-1敗（H）はform外",
+  "8/8 FAカップEP アビー・ハルトン・ユナイテッド 0-0"
+ ],
+ "venue": "キッズグローヴのホーム 19:45 BST（会場名は未確認）",
+ "risks": [
+  "8部相当の下位リーグ",
+  "リッチフィールドは大量失点（10試合40失点）"
+ ],
+ "missing": [
+  "リッチフィールドの日付付き試合結果",
+  "H2H"
+ ],
+ "unavailable": {
+  "right.form": "thenpl・Wikipediaは順位/成績集計のみ、footballwebpagesの同クラブページは取得許可なし、sofascoreは未取得",
+  "h2h": "footballwebpages（キッズグローヴ2026-27）に過去対戦記載なし、他シーズン未確認",
+  "history": "リッチフィールドの試合リストが無く共通相手照合不可"
+ },
+ "source_urls": [
+  "https://www.footballwebpages.co.uk/kidsgrove-athletic/fixtures-results",
+  "https://www.thenpl.co.uk/clubs/kidsgrove-athletic",
+  "https://www.thenpl.co.uk/clubs/lichfield-city",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_Northern_Premier_League",
+  "https://lichfieldlive.co.uk/chasetown-let-lead-slip-as-keeper-injury-proves-costly-against-kidsgrove-athletic/",
+  "https://www.kidsgroveathleticfc.co.uk/teams/24699/fixtures-results"
+ ],
+ "data_as_of": "2026-09-29T18:47:00+09:00",
+ "calc": {
+  "left": {
+   "games": 10,
+   "W": 5,
+   "L": 5,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 4,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 14,
+   "points_against": 15,
+   "points_games": 10
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "match_id": "m20260930-26a1403a",
+ "data_as_of": "2026-09-29T18:50:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ジンバブエ女子（Zimbabwe Women）",
+  "ranking": "ICC女子ランク取得できず",
+  "lineup": [
+   "取得できず（第2戦はグワンズラが投打で活躍）"
+  ],
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "West Indies Women",
+    "comp": "女子ODI 第2戦（ハラレ）",
+    "ha": "H",
+    "score": "勝ち（差は未取得）",
+    "res": "W",
+    "detail": "Gwanzuraの投打活躍で西インド諸島に番狂わせ（cricinfo見出し）"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "West Indies Women",
+    "comp": "女子ODI 第1戦（ハラレ）",
+    "ha": "H",
+    "score": "負け（99ラン差）",
+    "res": "L",
+    "detail": "マシューズ182点（cricinfo見出し）"
+   },
+   {
+    "date": "2026-09-11",
+    "opp": "South Africa Women",
+    "comp": "女子T20I 第1戦",
+    "ha": "H",
+    "score": "116（19.3回）-117/4（13.1回）",
+    "res": "L",
+    "detail": "6ウィケット差負け（Wikipedia）"
+   }
+  ],
+  "history": []
+ },
+ "right": {
+  "name": "西インド諸島女子（West Indies Women）",
+  "ranking": "ICC女子ランク取得できず",
+  "lineup": [
+   "ヘイリー・マシューズ出場（第1戦182点）"
+  ],
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Zimbabwe Women",
+    "comp": "女子ODI 第2戦（ハラレ）",
+    "ha": "A",
+    "score": "負け（差は未取得）",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Zimbabwe Women",
+    "comp": "女子ODI 第1戦（ハラレ）",
+    "ha": "A",
+    "score": "勝ち（99ラン差）",
+    "res": "W",
+    "detail": "マシューズ182点"
+   }
+  ],
+  "history": []
+ },
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "女子ODI 第2戦（ハラレ）",
+   "score": "ジンバブエ勝ち（差は未取得）",
+   "winner": "left",
+   "detail": "Gwanzura投打活躍"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "女子ODI 第1戦（ハラレ）",
+   "score": "西インド諸島99ラン差勝ち",
+   "winner": "right",
+   "detail": "マシューズ182"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "ハラレ（ジンバブエ）想定 — ジンバブエのホーム（第1・2戦はハラレ）",
+ "risks": [
+  "シリーズ1勝1敗で第3戦（決定戦）の可能性",
+  "スコア詳細はcricinfo/cricketworld 403で未取得（検索結果の見出しのみ）",
+  "ジンバブエ女子は前戦で番狂わせ"
+ ],
+ "missing": [
+  "詳細スコア",
+  "直近10試合",
+  "ラインナップ"
+ ],
+ "unavailable": {
+  "left.form": "cricinfo 403で直近3試合のみ（見出し・Wikipedia）",
+  "right.form": "cricinfo 403で本シリーズ2試合のみ",
+  "h2h": "過去の対戦は時間内に未取得（本シリーズ2試合のみ）",
+  "history": "共通相手なし（確認範囲）"
+ },
+ "source_urls": [
+  "https://www.cricinfo.com/series/west-indies-women-in-zimbabwe-2026-1554972/zimbabwe-women-vs-west-indies-women-2nd-odi-1554976/match-report",
+  "https://www.cricinfo.com/series/west-indies-women-in-zimbabwe-2026-1554972/zimbabwe-women-vs-west-indies-women-1st-odi-1554975/match-report",
+  "https://www.cricketworld.com/cricket/zimbabwe-women-vs-west-indies-women/match/scorecard/99811",
+  "https://en.wikipedia.org/wiki/South_Africa_women%27s_cricket_team_in_Zimbabwe_in_2026"
+ ],
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-09-30"
+ }
+}

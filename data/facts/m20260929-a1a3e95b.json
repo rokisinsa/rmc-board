@@ -1,9 +1,9 @@
 {
- "data_as_of": "2026-09-29T07:12:04+09:00",
+ "data_as_of": "2026-09-29T18:21:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ブルンジ（Burundi）",
-  "ranking": "AFCON 2027予選 グループI",
+  "ranking": "FIFAランク142位（scores24）／AFCON2027予選グループI 0pt（1戦1敗）",
   "form": [
    {
     "date": "2026-09-25",
@@ -40,16 +40,25 @@
     "score": "4-0",
     "res": "W",
     "detail": ""
+   },
+   {
+    "date": "2025-10-14",
+    "opp": "ガボン",
+    "comp": "W杯予選CAF",
+    "score": "0-1",
+    "res": "L",
+    "detail": "H/A未確認（scores24）"
    }
   ],
   "lineup": [
-   "今季得点力不足（取得元の記述）"
+   "注目FW Bonfils-Caleb Bimenyimana（tips.gg）",
+   "負傷・出場停止情報は取得できず"
   ],
   "history": []
  },
  "right": {
   "name": "アルジェリア（Algeria）",
-  "ranking": "AFCON 2027予選 グループI 首位（1勝）",
+  "ranking": "AFCON2027予選グループI 3pt（トーゴと並び首位）",
   "form": [
    {
     "date": "2026-09-25",
@@ -98,39 +107,62 @@
    }
   ],
   "lineup": [
-   "Hadj-Moussa得点、Amoura2アシスト"
+   "Hadj-Moussa得点、Amoura2アシスト",
+   "Ibrahim Maza（ザンビア戦1G1A）・Mohamed Amouraが中心（africasoccer/tips.gg）",
+   "負傷・出場停止情報は取得できず"
   ],
   "history": []
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2024-01-09",
+   "event": "国際親善試合",
+   "score": "0-4",
+   "winner": "right",
+   "detail": "scores24記載"
+  },
+  {
+   "date": "2019-06-11",
+   "event": "国際親善試合",
+   "score": "1-1",
+   "winner": "draw",
+   "detail": "scores24記載"
+  }
+ ],
  "common_opponents_notes": [],
  "venue": "ブルンジ（会場名は取得できず）",
  "risks": [
   "取得元でH2H・日付の食い違いあり",
-  "sportsgamblerのH/A表記はW杯を'Away'とするなど不整合"
+  "sportsgamblerのH/A表記はW杯を'Away'とするなど不整合",
+  "キックオフ：tips.gg 15:00 CEST（=22:00 JST）、scores24は現地13:00と記載し食い違い",
+  "tips.ggは『ブルンジは直近5試合無得点』と記すがチャド戦4-0×2と矛盾、ソース品質に難",
+  "scores24のアルジェリアW杯スコア表記（ヨルダン10-1等）は明らかに誤りのため不採用"
  ],
  "missing": [
   "会場名",
   "公式10試合リスト"
  ],
  "unavailable": {
-  "h2h": "取得元が「過去に2度対戦」と記す一方、sportsgamblerは「公式戦の対戦記録なし」。日付付きの記録を確認できず",
+  "h2h": "scores24は21世紀に3試合と記載し2件のみ日付・スコア判明（残り1件不明）。tips.ggは『最近の公式戦での対戦なし』",
   "left.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得",
   "right.form": "集計サイトは直近5試合までしか掲載せず、公式10試合リストへのアクセス（Wikipedia/fbref等）は取得許可が下りず未取得",
-  "history": "60日以内の共通相手を確認できる網羅的な試合リストを取得できず（取得できた集計ページは直近5試合のみ・データ品質にばらつき）"
+  "history": "60日以内の両者の試合は各1試合（ブルンジ：トーゴ、アルジェリア：ザンビア）で共通相手なし"
  },
  "source_urls": [
   "https://www.sportsgambler.com/betting-tips/football/burundi-vs-algeria-prediction-2026-09-29/",
-  "https://africasoccer.com/burundi-vs-algeria-algeria-look-to-build-on-strong-start-as-sides-meet-on-september-29/"
+  "https://africasoccer.com/burundi-vs-algeria-algeria-look-to-build-on-strong-start-as-sides-meet-on-september-29/",
+  "https://scores24.live/en/soccer/m-29-09-2026-burundi-algeria-prediction",
+  "https://tips.gg/article/burundi-vs-algeria-29-09-2026/",
+  "https://africasoccer.com/afcon-2027-qualifiers-burundi-vs-algeria-desert-foxes-aim-to-maintain-winning-start-preview/"
  ],
  "match_id": "m20260929-a1a3e95b",
  "calc": {
   "left": {
-   "games": 4,
+   "games": 5,
    "W": 2,
-   "L": 2,
+   "L": 3,
    "D": 0,
-   "win_rate": 50.0,
+   "win_rate": 40.0,
    "home": {
     "W": 1,
     "L": 0,
@@ -143,8 +175,8 @@
    },
    "streak": "2連敗",
    "points_for": 8,
-   "points_against": 6,
-   "points_games": 4
+   "points_against": 7,
+   "points_games": 5
   },
   "right": {
    "games": 5,
@@ -168,10 +200,15 @@
    "points_games": 5
   },
   "h2h": {
-   "games": 0,
+   "games": 2,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 1,
+   "draw": 1,
+   "points_left": 1,
+   "points_right": 5,
+   "points_games": 2,
+   "avg_left": 0.5,
+   "avg_right": 2.5
   },
   "common": [],
   "common_window_days": 60,
