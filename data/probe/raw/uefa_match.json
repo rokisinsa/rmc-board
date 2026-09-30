@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 20,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "6001",
    "id": "2014406",
@@ -259,7 +288,7 @@
    "dateTime": "2026-09-30T09:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-09-30T06:00:00+0000",
@@ -377,6 +406,87 @@
       "RU": "Рефери",
       "ZH": "Árbitro",
       "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250226599.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250226599",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Livio",
+       "FR": "Livio",
+       "DE": "Livio",
+       "ES": "Livio",
+       "PT": "Livio",
+       "IT": "Livio",
+       "RU": "Livio",
+       "ZH": "Livio",
+       "AR": "Livio"
+      },
+      "lastName": {
+       "EN": "Aschwanden",
+       "FR": "Aschwanden",
+       "DE": "Aschwanden",
+       "ES": "Aschwanden",
+       "PT": "Aschwanden",
+       "IT": "Aschwanden",
+       "RU": "Aschwanden",
+       "ZH": "Aschwanden",
+       "AR": "Aschwanden"
+      },
+      "name": {
+       "EN": "Livio Aschwanden",
+       "FR": "Livio Aschwanden",
+       "DE": "Livio Aschwanden",
+       "ES": "Livio Aschwanden",
+       "PT": "Livio Aschwanden",
+       "IT": "Livio Aschwanden",
+       "RU": "Livio Aschwanden",
+       "ZH": "Livio Aschwanden",
+       "AR": "Livio Aschwanden"
+      },
+      "shortName": {
+       "EN": "Aschwanden",
+       "FR": "Aschwanden",
+       "DE": "Aschwanden",
+       "ES": "Aschwanden",
+       "PT": "Aschwanden",
+       "IT": "Aschwanden",
+       "RU": "Aschwanden",
+       "ZH": "Aschwanden",
+       "AR": "Aschwanden"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -539,87 +649,6 @@
       "RU": "Ассистенты рефери",
       "ZH": "Árbitros assistentes",
       "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250226599.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250226599",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Livio",
-       "FR": "Livio",
-       "DE": "Livio",
-       "ES": "Livio",
-       "PT": "Livio",
-       "IT": "Livio",
-       "RU": "Livio",
-       "ZH": "Livio",
-       "AR": "Livio"
-      },
-      "lastName": {
-       "EN": "Aschwanden",
-       "FR": "Aschwanden",
-       "DE": "Aschwanden",
-       "ES": "Aschwanden",
-       "PT": "Aschwanden",
-       "IT": "Aschwanden",
-       "RU": "Aschwanden",
-       "ZH": "Aschwanden",
-       "AR": "Aschwanden"
-      },
-      "name": {
-       "EN": "Livio Aschwanden",
-       "FR": "Livio Aschwanden",
-       "DE": "Livio Aschwanden",
-       "ES": "Livio Aschwanden",
-       "PT": "Livio Aschwanden",
-       "IT": "Livio Aschwanden",
-       "RU": "Livio Aschwanden",
-       "ZH": "Livio Aschwanden",
-       "AR": "Livio Aschwanden"
-      },
-      "shortName": {
-       "EN": "Aschwanden",
-       "FR": "Aschwanden",
-       "DE": "Aschwanden",
-       "ES": "Aschwanden",
-       "PT": "Aschwanden",
-       "IT": "Aschwanden",
-       "RU": "Aschwanden",
-       "ZH": "Aschwanden",
-       "AR": "Aschwanden"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -933,6 +962,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 17,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "6001",
    "id": "2014406",
@@ -1053,7 +1111,7 @@
    "dateTime": "2026-09-30T09:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-09-30T06:00:00+0000",
@@ -1093,168 +1151,6 @@
    "type": "MATCHDAY"
   },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250116651.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "FEMALE",
-     "id": "250116651",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Laetitia",
-       "FR": "Laetitia",
-       "DE": "Laetitia",
-       "ES": "Laetitia",
-       "PT": "Laetitia",
-       "IT": "Laetitia",
-       "RU": "Laetitia",
-       "ZH": "Laetitia",
-       "AR": "Laetitia"
-      },
-      "lastName": {
-       "EN": "Nuara",
-       "FR": "Nuara",
-       "DE": "Nuara",
-       "ES": "Nuara",
-       "PT": "Nuara",
-       "IT": "Nuara",
-       "RU": "Nuara",
-       "ZH": "Nuara",
-       "AR": "Nuara"
-      },
-      "name": {
-       "EN": "Laetitia Nuara",
-       "FR": "Laetitia Nuara",
-       "DE": "Laetitia Nuara",
-       "ES": "Laetitia Nuara",
-       "PT": "Laetitia Nuara",
-       "IT": "Laetitia Nuara",
-       "RU": "Летитья Нуара",
-       "ZH": "Laetitia Nuara",
-       "AR": "Laetitia Nuara"
-      },
-      "shortName": {
-       "EN": "Nuara",
-       "FR": "Nuara",
-       "DE": "Nuara",
-       "ES": "Nuara",
-       "PT": "Nuara",
-       "IT": "Nuara",
-       "RU": "Нуара",
-       "ZH": "Nuara",
-       "AR": "Nuara"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250226602.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250226602",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Gentian",
-       "FR": "Gentian",
-       "DE": "Gentian",
-       "ES": "Gentian",
-       "PT": "Gentian",
-       "IT": "Gentian",
-       "RU": "Gentian",
-       "ZH": "Gentian",
-       "AR": "Gentian"
-      },
-      "lastName": {
-       "EN": "Asani",
-       "FR": "Asani",
-       "DE": "Asani",
-       "ES": "Asani",
-       "PT": "Asani",
-       "IT": "Asani",
-       "RU": "Asani",
-       "ZH": "Asani",
-       "AR": "Asani"
-      },
-      "name": {
-       "EN": "Gentian Asani",
-       "FR": "Gentian Asani",
-       "DE": "Gentian Asani",
-       "ES": "Gentian Asani",
-       "PT": "Gentian Asani",
-       "IT": "Gentian Asani",
-       "RU": "Gentian Asani",
-       "ZH": "Gentian Asani",
-       "AR": "Gentian Asani"
-      },
-      "shortName": {
-       "EN": "Asani",
-       "FR": "Asani",
-       "DE": "Asani",
-       "ES": "Asani",
-       "PT": "Asani",
-       "IT": "Asani",
-       "RU": "Asani",
-       "ZH": "Asani",
-       "AR": "Asani"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203704.jpg"
@@ -1414,6 +1310,168 @@
       "RU": "Ассистент рефери 2",
       "ZH": "Árbitro-assistente 2",
       "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250116651.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "FEMALE",
+     "id": "250116651",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Laetitia",
+       "FR": "Laetitia",
+       "DE": "Laetitia",
+       "ES": "Laetitia",
+       "PT": "Laetitia",
+       "IT": "Laetitia",
+       "RU": "Laetitia",
+       "ZH": "Laetitia",
+       "AR": "Laetitia"
+      },
+      "lastName": {
+       "EN": "Nuara",
+       "FR": "Nuara",
+       "DE": "Nuara",
+       "ES": "Nuara",
+       "PT": "Nuara",
+       "IT": "Nuara",
+       "RU": "Nuara",
+       "ZH": "Nuara",
+       "AR": "Nuara"
+      },
+      "name": {
+       "EN": "Laetitia Nuara",
+       "FR": "Laetitia Nuara",
+       "DE": "Laetitia Nuara",
+       "ES": "Laetitia Nuara",
+       "PT": "Laetitia Nuara",
+       "IT": "Laetitia Nuara",
+       "RU": "Летитья Нуара",
+       "ZH": "Laetitia Nuara",
+       "AR": "Laetitia Nuara"
+      },
+      "shortName": {
+       "EN": "Nuara",
+       "FR": "Nuara",
+       "DE": "Nuara",
+       "ES": "Nuara",
+       "PT": "Nuara",
+       "IT": "Nuara",
+       "RU": "Нуара",
+       "ZH": "Nuara",
+       "AR": "Nuara"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250226602.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250226602",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Gentian",
+       "FR": "Gentian",
+       "DE": "Gentian",
+       "ES": "Gentian",
+       "PT": "Gentian",
+       "IT": "Gentian",
+       "RU": "Gentian",
+       "ZH": "Gentian",
+       "AR": "Gentian"
+      },
+      "lastName": {
+       "EN": "Asani",
+       "FR": "Asani",
+       "DE": "Asani",
+       "ES": "Asani",
+       "PT": "Asani",
+       "IT": "Asani",
+       "RU": "Asani",
+       "ZH": "Asani",
+       "AR": "Asani"
+      },
+      "name": {
+       "EN": "Gentian Asani",
+       "FR": "Gentian Asani",
+       "DE": "Gentian Asani",
+       "ES": "Gentian Asani",
+       "PT": "Gentian Asani",
+       "IT": "Gentian Asani",
+       "RU": "Gentian Asani",
+       "ZH": "Gentian Asani",
+       "AR": "Gentian Asani"
+      },
+      "shortName": {
+       "EN": "Asani",
+       "FR": "Asani",
+       "DE": "Asani",
+       "ES": "Asani",
+       "PT": "Asani",
+       "IT": "Asani",
+       "RU": "Asani",
+       "ZH": "Asani",
+       "AR": "Asani"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
      }
     }
    }
