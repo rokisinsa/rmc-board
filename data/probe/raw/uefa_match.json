@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 25,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "101",
    "id": "2012447",
@@ -299,7 +328,7 @@
    "dateTime": "2026-10-01T10:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-10T06:00:00+0000",
