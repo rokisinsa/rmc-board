@@ -1,106 +1,141 @@
 {
  "match_id": "ex-fifa400022939",
- "data_as_of": "2026-09-29T23:25:43+09:00",
+ "data_as_of": "2026-09-30T01:40:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Indonesia",
   "ranking": "eloratings 1326（127位）",
-  "form": [],
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Malaysia",
+    "comp": "FIFA ASEAN Cup 2026 Div1 グループA",
+    "ha": "N(開催国)",
+    "score": "0-0",
+    "res": "D",
+    "detail": "37分にThom Hayeが一発退場、以降10人（aseanfootball.org）"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Singapore",
+    "comp": "FIFA ASEAN Cup 2026 Div1 グループA",
+    "ha": "N(開催国)",
+    "score": "2-0",
+    "res": "W",
+    "detail": "Oratmangoen 15分、Romeny 74分（aseanfootball.org）"
+   }
+  ],
   "lineup": [],
   "history": []
  },
  "right": {
   "name": "Bangladesh",
   "ranking": "eloratings 924（196位）",
-  "form": [],
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Singapore",
+    "comp": "FIFA ASEAN Cup 2026 Div1 グループA",
+    "ha": "N",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Malaysia",
+    "comp": "FIFA ASEAN Cup 2026 Div1 グループA",
+    "ha": "N",
+    "score": "0-3",
+    "res": "L"
+   }
+  ],
   "lineup": [],
   "history": []
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "不明（FIFA ASEAN Cup）",
+ "venue": "Gelora Bung Karno Stadium（ジャカルタ）が同組の主会場。インドネシアが開催国（Division 1ホスト）＝実質ホーム",
  "risks": [
-  "FIFA公式日程のみから発見された試合で、カテゴリ（A代表/年代別/女子/フットサル等）が未確認。eloratingsはA代表男子の値で、カテゴリが異なればElo差の根拠は成り立たない",
-  "バングラデシュはASEAN加盟国ではなく、大会の参加枠・位置付けも未確認"
+  "インドネシアの主力MF Thom Hayeが9/28に退場処分→本試合出場停止の可能性大（処分の正式確認は未取得）",
+  "開催国インドネシアは勝ち抜けへ勝利必須の最終節で、ローテーションの動機は低いとみられる"
  ],
  "missing": [
-  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+  "大会前の直近成績",
+  "バングラデシュの欠場情報",
+  "先制率"
  ],
  "unavailable": {
-  "left.form": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "right.form": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "h2h": "Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.current_competition": "deep5.current_competition: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.h2h_all": "deep5.h2h_all: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.h2h_points": "deep5.h2h_points: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.h2h_home_away": "deep5.h2h_home_away: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.last5": "deep5.last5: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.last10": "deep5.last10: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.avg_points": "deep5.avg_points: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.streak": "deep5.streak: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.common_60d": "deep5.common_60d: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.first_rate": "deep5.first_rate: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.absences": "deep5.absences: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.roster_changes": "deep5.roster_changes: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+  "deep5.h2h_all": "インドネシア対バングラデシュの過去のA代表対戦は検索で確認できず（初対戦の可能性）",
+  "deep5.last10": "大会前の両チームの試合リストは未取得（検索5回上限内で優先度低）",
+  "deep5.first_rate": "先制率データなし",
+  "deep5.absences(バングラデシュ)": "バングラデシュ側の負傷・欠場情報は未取得",
+  "Haye出場停止の正式確認": "退場（9/28）は確認済みだが、出場停止の正式発表は未取得"
  },
  "source_urls": [
   "FIFA公式の日程（discovery fixture_sources）",
-  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
+  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）",
+  "https://en.wikipedia.org/wiki/2026_FIFA_ASEAN_Cup",
+  "https://www.aseanfootball.org/v3/indonesia-see-off-singapore-malaysia-coast-past-bangladesh-at-fifa-asean-cup/",
+  "https://www.aseanfootball.org/v3/singapore-put-fifa-asean-cup-campaign-back-on-track-malaysia-hold-indonesia/"
  ],
  "metrics": {
   "left": {
    "elo": 1326,
-   "rank": 127
+   "rank": 127,
+   "pts_rate": 0.667,
+   "gd_pg": 1.0
   },
   "right": {
    "elo": 924,
-   "rank": 196
+   "rank": 196,
+   "pts_rate": 0.0,
+   "gd_pg": -2.0
   },
-  "source": "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
+  "source": "elo: eloratings（9/29取得）／pts_rate・gd_pg: aseanfootball.org レポートから今大会2試合を集計"
  },
  "deep5": {
-  "ranking": "eloratings（A代表男子）：インドネシア1326（127位）、バングラデシュ924（196位）、差402（インドネシア側）",
-  "current_competition": "FIFA ASEAN Cup。成績未取得",
-  "h2h_all": "未取得",
+  "ranking": "eloratings（A代表男子）：インドネシア1326（127位）、バングラデシュ924（196位）、差402（インドネシア側）。大会はA代表男子の新設大会（FIFA公認）で、Eloの適用は妥当",
+  "current_competition": "FIFA ASEAN Cup 2026 Division 1 グループA（開催国インドネシア）：インドネシア2戦1勝1分（2-0、勝点4）／バングラデシュ2戦0勝2敗（0-4、勝点0）。バングラデシュはインド撤退の代替参加",
+  "h2h_all": "未取得（今大会での直接対戦はこれが初。過去のA代表対戦は検索で確認できず）",
   "h2h_points": "未取得",
   "h2h_home_away": "未取得",
-  "last5": "未取得",
-  "last10": "未取得",
-  "avg_points": "未取得",
-  "streak": "未取得",
-  "common_60d": "直近成績未取得のため比較不可",
+  "last5": "今大会分のみ確認：インドネシア1勝1分（2-0 Singapore、0-0 Malaysia）／バングラデシュ0勝2敗（0-3 Malaysia、0-1 Singapore）",
+  "last10": "大会前の試合リストは未取得",
+  "avg_points": "今大会：インドネシア+1.0/試合（2得点0失点/2試合）／バングラデシュ-2.0/試合（0得点4失点/2試合）",
+  "streak": "インドネシア：2戦無敗（1勝1分・無失点）／バングラデシュ：2連敗（無得点）",
+  "common_60d": "今大会の共通相手2つ：Malaysia（インドネシア0-0／バングラデシュ0-3）、Singapore（インドネシア2-0／バングラデシュ0-1）。得失差はインドネシアが+2〜+3上回る",
   "first_rate": "未取得",
-  "absences": "未取得",
-  "roster_changes": "未取得（大会のカテゴリ自体が未確認）"
+  "absences": "インドネシア：Thom Haye（主力MF）が9/28マレーシア戦で37分に一発退場→最終節の本試合は出場停止の見込み（正式な処分発表は未確認）。バングラデシュの欠場情報は未取得",
+  "roster_changes": "バングラデシュはインド（ブラジルとの親善を選択し撤退）の代替として参加。大会はA代表のフル代表戦（FIFA国際マッチウィンドウ）"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "未取得",
-   "impact": "none",
-   "applies": false
-  },
-  "ローテーション": {
-   "finding": "未確認。大会の日程・連戦状況も未取得",
-   "impact": "none",
-   "applies": false
-  },
-  "世代交代": {
-   "finding": "大会のカテゴリ（A代表か年代別か）未確認。年代別・女子等ならA代表男子のEloは当てはまらない",
+   "finding": "インドネシア（格差側）の主力MF Thom Hayeが9/28に退場→本試合出場停止見込み。1人の欠場で、帰化組主力（Oratmangoen・Romeny等）は健在",
    "impact": "minor",
    "applies": true
   },
+  "ローテーション": {
+   "finding": "グループ最終節でインドネシアは首位通過へ勝利必須（現在Malaysiaと勝点4で並ぶ、得失差争い）。最弱バングラデシュ相手に大量得点を狙う動機があり、主力温存の可能性は低い。中2日の3連戦の3戦目で疲労はある",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "A代表男子のフル代表大会と確認（FIFA公認の新設大会、Wikipedia）。年代別懸念は解消。Eloの適用は妥当",
+   "impact": "none",
+   "applies": false
+  },
   "古いH2H": {
-   "finding": "H2H未取得",
+   "finding": "H2Hなし（初対戦とみられる）。古いH2H問題は該当しない",
    "impact": "none",
    "applies": false
   },
   "ホーム/アウェー差": {
-   "finding": "会場未確認",
+   "finding": "インドネシアが開催国でジャカルタ開催＝格差側にホーム利。反対材料ではない",
    "impact": "none",
    "applies": false
   },
   "最近の急改善": {
-   "finding": "直近成績未取得",
+   "finding": "バングラデシュは2連敗・無得点で改善の兆候なし",
    "impact": "none",
    "applies": false
   },
@@ -115,23 +150,23 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "出場メンバー未確認（大会のカテゴリ・招集状況とも不明）",
+   "finding": "バングラデシュは代替参加だが編成は通常のA代表。インドネシアはHaye退場による強制的な変更が1枚",
    "impact": "minor",
    "applies": true
   },
   "消化試合": {
-   "finding": "順位状況未取得",
-   "impact": "none",
-   "applies": false
+   "finding": "最終節。インドネシアは首位通過が懸かり消化試合ではない。バングラデシュは2敗で敗退がほぼ決まっており動機低下の可能性",
+   "impact": "minor",
+   "applies": true
   }
  },
  "calc": {
   "left": {
-   "games": 0,
-   "W": 0,
+   "games": 2,
+   "W": 1,
    "L": 0,
-   "D": 0,
-   "win_rate": null,
+   "D": 1,
+   "win_rate": 50.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -142,14 +177,17 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 2
   },
   "right": {
-   "games": 0,
+   "games": 2,
    "W": 0,
-   "L": 0,
+   "L": 2,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
     "L": 0,
@@ -160,7 +198,10 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": "2連敗",
+   "points_for": 0,
+   "points_against": 4,
+   "points_games": 2
   },
   "h2h": {
    "games": 0,
@@ -168,8 +209,80 @@
    "right": 0,
    "draw": 0
   },
-  "common": [],
+  "common": [
+   {
+    "opp": "Malaysia",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "0-0",
+      "res": "D",
+      "comp": "FIFA ASEAN Cup 2026 Div1 グループA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "0-3",
+      "res": "L",
+      "comp": "FIFA ASEAN Cup 2026 Div1 グループA"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Singapore",
+    "left": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "2-0",
+      "res": "W",
+      "comp": "FIFA ASEAN Cup 2026 Div1 グループA"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "0-1",
+      "res": "L",
+      "comp": "FIFA ASEAN Cup 2026 Div1 グループA"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": {
+   "played": 2,
+   "W": 1,
+   "D": 1,
+   "L": 0,
+   "gf": 2,
+   "ga": 0
+  },
+  "right": {
+   "played": 2,
+   "W": 0,
+   "D": 0,
+   "L": 2,
+   "gf": 0,
+   "ga": 4
+  },
+  "source": "aseanfootball.org 試合レポート2件（9/25・9/28）から集計"
  }
 }

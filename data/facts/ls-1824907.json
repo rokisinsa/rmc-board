@@ -1,10 +1,10 @@
 {
  "match_id": "ls-1824907",
- "data_as_of": "2026-09-29T23:30:48+09:00",
+ "data_as_of": "2026-09-30T01:25:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Nymburk",
-  "ranking": "",
+  "ranking": "NBL 2位（3勝0敗）。2025-26王者・リーグ22回優勝（3連覇中）",
   "form": [
    {
     "date": "2026-09-27",
@@ -34,7 +34,7 @@
  },
  "right": {
   "name": "BK Olomoucko",
-  "ranking": "",
+  "ranking": "NBL 9位（1勝2敗）",
   "form": [
    {
     "date": "2026-09-28",
@@ -62,31 +62,101 @@
    }
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2025-10-31",
+   "event": "Czech Republic / NBL",
+   "winner": "left",
+   "score": "87-65"
+  },
+  {
+   "date": "2025-05-12",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "89-76"
+  },
+  {
+   "date": "2025-05-10",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "106-63"
+  },
+  {
+   "date": "2025-05-09",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "right",
+   "score": "82-91"
+  },
+  {
+   "date": "2025-05-06",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "77-63"
+  },
+  {
+   "date": "2025-05-04",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "83-80"
+  },
+  {
+   "date": "2025-02-28",
+   "event": "Czech Republic / NBL",
+   "winner": "right",
+   "score": "74-75"
+  },
+  {
+   "date": "2025-02-21",
+   "event": "Czech Republic / NBL",
+   "winner": "left",
+   "score": "89-83"
+  },
+  {
+   "date": "2024-11-16",
+   "event": "Czech Republic / NBL",
+   "winner": "left",
+   "score": "91-69"
+  },
+  {
+   "date": "2024-09-26",
+   "event": "Czech Republic / NBL",
+   "winner": "left",
+   "score": "107-73"
+  }
+ ],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "aiscoreのH2H表は勝敗ラベルに乱れがあり、スコア・日付・H/Aから勝敗を判定した"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "欠場・ロスター変更・先制率（出典なし）"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Czech Republic / NBL eid=1824907）に直接対戦の記録なし。他の資料で要確認"
+  "deep5.first_rate": "クォーター別スコア・先制データの出典なし",
+  "deep5.absences": "欠場・負傷の報道を確認できず（Web検索で該当記事なし）",
+  "deep5.roster_changes": "移籍情報の報道を確認できず",
+  "metrics.rating": "クラブレーティング（Elo等）の出典なし"
  },
  "source_urls": [
-  "LiveScore Czech Republic / NBL eid=1824907"
+  "LiveScore Czech Republic / NBL eid=1824907",
+  "https://www.aiscore.com/head-to-head/basketball/bk-olomoucko-vs-cez-nymburk",
+  "https://en.wikipedia.org/wiki/National_Basketball_League_(Czech_Republic)"
  ],
  "metrics": {
   "left": {
    "season_wr": 100.0,
    "gd_pg": 17.67,
    "pd_pg": 17.67,
-   "rd_pg": 17.67
+   "rd_pg": 17.67,
+   "rank": 2
   },
   "right": {
    "season_wr": 33.3,
    "gd_pg": -19.0,
    "pd_pg": -19.0,
-   "rd_pg": -19.0
+   "rd_pg": -19.0,
+   "rank": 9
   },
   "source": "LiveScore順位表（2026-09-29T23:30:48+09:00取得）"
  },
@@ -120,7 +190,15 @@
   "last10": "Nymburk：3勝0敗（3試合）／BK Olomoucko：1勝2敗（3試合）",
   "streak": "Nymburk：3連勝／BK Olomoucko：1連勝",
   "avg_points": "Nymburk：1試合平均得失差 +17.67（3試合）／BK Olomoucko：1試合平均得失差 -19.00（3試合）",
-  "current_competition": "Nymburk {'rank': 2, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 310, 'ga': 257, 'pts': None, 'group': None}／BK Olomoucko {'rank': 9, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 212, 'ga': 269, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+  "current_competition": "Nymburk {'rank': 2, 'played': 3, 'W': 3, 'D': 0, 'L': 0, 'gf': 310, 'ga': 257, 'pts': None, 'group': None}／BK Olomoucko {'rank': 9, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 212, 'ga': 269, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））",
+  "ranking": "NBL順位：Nymburk 2位（3勝0敗・得失差+17.7）、Olomoucko 9位（1勝2敗・-19.0）。Nymburkは2025-26王者でNBL通算22回優勝・3連覇中（Wikipedia）。クラブレーティングの出典なし",
+  "h2h_all": "aiscore集計で2023年以降16戦 Nymburk14勝2敗。直近は2025-10-31 Olomouckoホームで87-65 Nymburk勝ち。Olomouckoの2勝はいずれもホームで2025-05-09 91-82・2025-02-28 75-74。2024-25準決勝シリーズはNymburk4勝1敗",
+  "h2h_points": "16戦合計 Nymburk1469-1090 Olomoucko（平均91.8-68.1、Nymburk+23.7/試合）",
+  "h2h_home_away": "NymburkホームではNymburk8勝0敗。OlomouckoホームでもNymburk6勝2敗。今回はNymburkホームで、Olomouckoは敵地で未勝利（0勝8敗）",
+  "common_60d": "今季の共通対戦相手なし（両者3試合ずつで相手が重複しない）。60日以内の他大会の対戦記録も確認できず",
+  "first_rate": "クォーター別・先制データは取得できず",
+  "absences": "未確認：チェコNBLの欠場・負傷報道を確認できず",
+  "roster_changes": "未確認：両クラブのオフシーズン移籍情報を確認できず"
  },
  "calc": {
   "left": {
@@ -166,13 +244,70 @@
    "points_games": 3
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 10,
+   "left": 8,
+   "right": 2,
+   "draw": 0,
+   "points_left": 885,
+   "points_right": 738,
+   "points_games": 10,
+   "avg_left": 88.5,
+   "avg_right": 73.8
   },
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：チェコNBLの欠場・負傷情報の報道を確認できず",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "情報なし。両者とも前試合は9/27-28で日程条件はほぼ同じ",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "Nymburkは3連覇中（2023-24〜2025-26）で強さが継続しており該当なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは2025-10-31まで継続的にあり新しい。直近も87-65でNymburk大勝",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回はNymburkホーム。OlomouckoはNymburkの敵地で0勝8敗、2勝はすべて自ホームで、H/A面はむしろ格差を補強",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Olomouckoは9/28にOstravaへ77-76で今季初勝利したが1点差で、その前は54-100大敗。急改善とは言えない",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "eスポーツではない（バスケ単発戦）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：両クラブの移籍・ロスター変更情報を確認できず",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "リーグ開幕直後（3試合消化）で該当なし",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

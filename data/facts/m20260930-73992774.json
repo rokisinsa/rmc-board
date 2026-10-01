@@ -1,10 +1,10 @@
 {
  "match_id": "m20260930-73992774",
- "data_as_of": "2026-09-29T23:25:12+09:00",
+ "data_as_of": "2026-09-30T01:37:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Congo",
-  "ranking": "",
+  "ranking": "World Football Elo 1192（158位）／AFCON2027予選G組 3位（1試合0勝1敗、0-1、勝点0）",
   "form": [
    {
     "date": "2026-09-24",
@@ -14,11 +14,16 @@
     "score": "0-1",
     "res": "L"
    }
+  ],
+  "lineup": [
+   "招集メンバーは全員出場可能（khelnow：両チームとも欠場者なし）",
+   "予想先発（4-5-1）：Ndinga；Mbemba, Makosso, Passi, Poaty；Makouta, Massanga, Dembi, Massoumou, Bantsiele；Ibayi",
+   "監督：Claude Le Roy。19歳Geltany Bantsieleが前節ナミビア戦でドリブル5回・シュート4本と存在感"
   ]
  },
  "right": {
   "name": "Cameroon",
-  "ranking": "",
+  "ranking": "World Football Elo 1621（59位）／AFCON2027予選G組 1位（1試合1勝、3-1、勝点3）",
   "form": [
    {
     "date": "2026-09-25",
@@ -28,55 +33,70 @@
     "score": "3-1",
     "res": "W"
    }
+  ],
+  "lineup": [
+   "招集メンバーは全員出場可能（khelnow：欠場者なし）",
+   "予想先発（3-4-2-1）：Noukeu；Keller, Kotto, Tchamba；Alioum, Avom, Nyengue, Nagida；Mbeumo, Namaso；Kofane",
+   "監督：David Pagou。Danny Namaso（AJ Auxerre）が前節コモロ戦で1得点1アシスト"
   ]
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "",
+ "venue": "Stade Alphonse Massamba Débat（ブラザヴィル、コンゴ共和国のホーム）",
  "risks": [
-  "試合開始（2026-09-30 04:00 JST）後の記入。試合前の情報のみ使用",
-  "Elo値はdiscoveryの自動照合値で、コンゴ共和国と民主共和国の取り違えがないか未再確認"
+  "直近成績の個別一覧は各1試合しか取得できておらず、格差根拠はElo差（429）が中心",
+  "H2H通算はコンゴ共和国が3勝1分2敗と勝ち越し（khelnow。ただし各試合の時期・スコアは未取得）",
+  "カメルーンの直近5戦はW-L-L-W-Wで2敗を含む"
  ],
  "missing": [
-  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+  "H2H各試合の日付・スコア"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060）に直接対戦の記録なし。他の資料で要確認",
-  "deep5.h2h_all": "H2H全件: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.first_rate": "先制率: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.absences": "欠場: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.roster_changes": "ロスター変更: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "current_competition": "現在大会成績（順位表）: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+  "h2h": "khelnowに通算成績（6戦：コンゴ3勝、カメルーン2勝、1分）のみ記載。各試合の日付・スコアが未取得で行データにできず",
+  "deep5.first_rate": "先制率: 出典データなし",
+  "deep5.h2h_points": "H2H各試合のスコアが未取得のため合計算出不可",
+  "deep5.h2h_home_away": "H2H各試合の開催地が未取得",
+  "left.form": "前節以前の個別結果は未取得（khelnowのフォーム表記：L-D-L-L-L）",
+  "right.form": "前節以前の個別結果は未取得（khelnowのフォーム表記：W-L-L-W-W）",
+  "ranking(FIFA)": "FIFAランキングは未取得"
  },
  "source_urls": [
   "LiveScore Africa Cup of Nations Qualification / Qualification: Group G eid=1873060",
-  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）"
+  "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）",
+  "https://khelnow.com/football/congo-vs-cameroon-preview-afcon-qualifiers-202609",
+  "https://en.wikipedia.org/wiki/2027_Africa_Cup_of_Nations_qualification"
  ],
  "metrics": {
   "left": {
    "elo": 1192,
-   "rank": 158
+   "rank": 158,
+   "season_wr": 0.0,
+   "pts_rate": 0.0,
+   "gd_pg": -1.0
   },
   "right": {
    "elo": 1621,
-   "rank": 59
+   "rank": 59,
+   "season_wr": 100.0,
+   "pts_rate": 1.0,
+   "gd_pg": 2.0
   },
-  "source": "eloratings（2026-09-29T23:10:20+09:00取得、data/discovery/latest.json の indicators）／LiveScore"
+  "source": "Elo・順位：eloratings（2026-09-29取得）。今大会成績：Wikipedia 2027 AFCON qualification G組順位表（Cameroon 1勝 3-1 勝点3で1位、Congo 0勝1敗 0-1 勝点0で3位）"
  },
  "deep5": {
-  "last5": "Congo：0勝1敗／Cameroon：1勝0敗",
-  "last10": "Congo：0勝1敗（1試合）／Cameroon：1勝0敗（1試合）",
-  "streak": "Congo：1連敗／Cameroon：1連勝",
+  "last5": "Congo：直近5戦0勝1分4敗（L-D-L-L-L、直近はナミビアに0-1敗）／Cameroon：直近5戦3勝2敗（W-L-L-W-W、直近はコモロに3-1勝）。khelnowのフォーム表記",
+  "last10": "個別10試合の一覧は未取得（フォーム表記は上記5戦分のみ）",
+  "streak": "Congo：直近3連敗（L-L-L）／Cameroon：2連勝中",
   "avg_points": "Congo：1試合平均得失差 -1.00（1試合）／Cameroon：1試合平均得失差 +2.00（1試合）",
-  "ranking": "eloratings：コンゴ1192（158位）、カメルーン1621（59位）、差429（カメルーン側）",
-  "current_competition": "AFCON予選グループG：コンゴは09-24ナミビアに0-1敗（A）、カメルーンは09-25コモロに3-1勝（H）。順位表の数値は未取得",
-  "h2h_all": "LiveScoreの当該大会データに直接対戦の記録なし。他資料は未確認",
-  "h2h_points": "H2H未取得のため算出不可",
-  "h2h_home_away": "H2H未取得のため不明。今回はコンゴのホーム（配信表記）",
+  "ranking": "eloratings：コンゴ共和国1192（158位）、カメルーン1621（59位）、差429（カメルーン側）。※コンゴ民主共和国（Elo 1718）とは別で、本試合はブラザヴィル開催・Le Roy監督のコンゴ共和国と確認済み",
+  "current_competition": "AFCON2027予選G組第1節：カメルーンはコモロに3-1勝（H）で1位（勝点3）、コンゴはナミビアに0-1敗（A）で3位（勝点0）。Wikipedia順位表とLiveScoreで一致",
+  "h2h_all": "通算6戦でコンゴ共和国3勝・カメルーン2勝・1分（khelnow）。劣位側コンゴが歴史的には勝ち越しだが、各試合の時期は未取得",
+  "h2h_points": "未取得（H2H各試合のスコアなし）",
+  "h2h_home_away": "未取得（H2H各試合の開催地なし）。今回はコンゴのホーム（ブラザヴィル、Stade Alphonse Massamba Débat）",
   "common_60d": "60日以内の日付付き試合は各1件（コンゴ：ナミビア、カメルーン：コモロ）で共通相手なし",
   "first_rate": "未取得",
-  "absences": "未取得",
-  "roster_changes": "未取得"
+  "absences": "両チームとも招集メンバー全員が出場可能で欠場者なし（khelnow）",
+  "roster_changes": "監督はコンゴ＝Claude Le Roy、カメルーン＝David Pagou。直近の監督交代・大規模編成変更の報告なし（khelnow）"
  },
  "calc": {
   "left": {
@@ -133,32 +153,32 @@
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "欠場情報は未取得（Web調査不可）。確認できず",
+   "finding": "両チームとも招集メンバー全員出場可能で欠場者なし（khelnowプレビュー）。格差側カメルーンはMbeumo・Namaso等が先発見込み",
    "impact": "none",
    "applies": false
   },
   "ローテーション": {
-   "finding": "予選の連戦（9/24・9/25→9/29〜30）。ローテーションの有無は未確認",
+   "finding": "9/25コモロ戦から中4日。khelnowの予想先発は主力中心でローテーション示唆なし",
    "impact": "none",
    "applies": false
   },
   "世代交代": {
-   "finding": "未確認",
+   "finding": "カメルーンの予想先発はNoukeu・Kofane等比較的新しい顔ぶれを含むが、世代交代で弱体化しているとの報告はなし（前節3-1勝）。コンゴも19歳Bantsiele起用等若返り中",
    "impact": "none",
    "applies": false
   },
   "古いH2H": {
-   "finding": "H2H自体が取得できておらず、格差根拠はElo差のみ",
-   "impact": "none",
-   "applies": false
+   "finding": "H2H通算はコンゴ3勝1分2敗と劣位側が勝ち越し（khelnow）。ただし各試合の時期が未取得で直近性は不明。発火はElo差のみでH2H非依存だが、歴史的対戦成績は格差と逆方向",
+   "impact": "minor",
+   "applies": true
   },
   "ホーム/アウェー差": {
-   "finding": "今回コンゴのホーム。Elo差429はホーム補正（通常100程度）を考えても残る差",
+   "finding": "格差側カメルーンがアウェー（ブラザヴィルのStade Alphonse Massamba Débatでコンゴのホーム開催）。Elo差429はホーム補正（約100）を上回るが差は縮む",
    "impact": "minor",
    "applies": true
   },
   "最近の急改善": {
-   "finding": "コンゴは直近ナミビアに0-1敗で改善材料なし。ただし直近成績は各1件しか取得できていない",
+   "finding": "劣位側コンゴは直近5戦0勝1分4敗・3連敗中で急改善なし。前節も11本シュートを放ちながら無得点",
    "impact": "none",
    "applies": false
   },
@@ -173,14 +193,33 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "未取得",
+   "finding": "両チームとも監督交代・大規模編成変更の報告なし（khelnow）",
    "impact": "none",
    "applies": false
   },
   "消化試合": {
-   "finding": "AFCON予選グループ序盤（各1試合消化の記録のみ）で消化試合ではない",
+   "finding": "予選第2節（グループ首位攻防を含む段階）で消化試合ではない",
    "impact": "none",
    "applies": false
   }
+ },
+ "current_competition": {
+  "left": {
+   "played": 1,
+   "W": 0,
+   "D": 0,
+   "L": 1,
+   "gf": 0,
+   "ga": 1
+  },
+  "right": {
+   "played": 1,
+   "W": 1,
+   "D": 0,
+   "L": 0,
+   "gf": 3,
+   "ga": 1
+  },
+  "source": "Wikipedia 2027 Africa Cup of Nations qualification G組（順位：1位Cameroon 勝点3、2位Namibia 勝点3、3位Congo 勝点0、4位Comoros 勝点0。結果：Cameroon 3-1 Comoros、Namibia 1-0 Congo）。LiveScore結果一覧と一致"
  }
 }

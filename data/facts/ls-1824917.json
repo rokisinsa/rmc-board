@@ -1,10 +1,10 @@
 {
  "match_id": "ls-1824917",
- "data_as_of": "2026-09-29T23:30:48+09:00",
+ "data_as_of": "2026-09-30T01:25:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Usti nad Labem",
-  "ranking": "",
+  "ranking": "NBL 4位（2勝1敗）",
   "form": [
    {
     "date": "2026-09-27",
@@ -34,7 +34,7 @@
  },
  "right": {
   "name": "BK Opava",
-  "ranking": "",
+  "ranking": "NBL 8位（1勝2敗）。2022-23王者",
   "form": [
    {
     "date": "2026-09-27",
@@ -62,31 +62,79 @@
    }
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-05-09",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "right",
+   "score": "79-103"
+  },
+  {
+   "date": "2026-05-07",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "87-72"
+  },
+  {
+   "date": "2026-05-04",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "right",
+   "score": "89-108"
+  },
+  {
+   "date": "2026-05-03",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "right",
+   "score": "69-85"
+  },
+  {
+   "date": "2026-04-30",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "left",
+   "score": "93-86"
+  },
+  {
+   "date": "2026-04-29",
+   "event": "Czech Republic / NBL playoffs",
+   "winner": "right",
+   "score": "85-98"
+  }
+ ],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "一次条件（平均得失点差の差28.67）は開幕3試合のみのサンプル",
+  "直近2026年5月のプレーオフではOpavaがUstiにシリーズ4勝2敗と、一次条件と逆の直接対戦結果"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "欠場・ロスター変更・先制率（出典なし）"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Czech Republic / NBL eid=1824917）に直接対戦の記録なし。他の資料で要確認"
+  "deep5.first_rate": "クォーター別スコア・先制データの出典なし",
+  "deep5.absences": "欠場・負傷の報道を確認できず（Web検索で該当記事なし）",
+  "deep5.roster_changes": "移籍情報の報道を確認できず",
+  "metrics.rating": "クラブレーティング（Elo等）の出典なし",
+  "h2h(2026-04-06)": "aiscoreの勝敗表記とスコア表記が矛盾するため件数に含めず"
  },
  "source_urls": [
-  "LiveScore Czech Republic / NBL eid=1824917"
+  "LiveScore Czech Republic / NBL eid=1824917",
+  "https://www.aiscore.com/head-to-head/basketball/bk-opava-vs-sluneta-usti-nad-labem",
+  "https://en.wikipedia.org/wiki/National_Basketball_League_(Czech_Republic)"
  ],
  "metrics": {
   "left": {
    "season_wr": 66.7,
    "gd_pg": 16.0,
    "pd_pg": 16.0,
-   "rd_pg": 16.0
+   "rd_pg": 16.0,
+   "rank": 4
   },
   "right": {
    "season_wr": 33.3,
    "gd_pg": -12.67,
    "pd_pg": -12.67,
-   "rd_pg": -12.67
+   "rd_pg": -12.67,
+   "rank": 8
   },
   "source": "LiveScore順位表（2026-09-29T23:30:48+09:00取得）"
  },
@@ -120,7 +168,15 @@
   "last10": "Usti nad Labem：2勝1敗（3試合）／BK Opava：1勝2敗（3試合）",
   "streak": "Usti nad Labem：2連勝／BK Opava：1連勝",
   "avg_points": "Usti nad Labem：1試合平均得失差 +16.00（3試合）／BK Opava：1試合平均得失差 -12.67（3試合）",
-  "current_competition": "Usti nad Labem {'rank': 4, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 282, 'ga': 234, 'pts': None, 'group': None}／BK Opava {'rank': 8, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 241, 'ga': 279, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））"
+  "current_competition": "Usti nad Labem {'rank': 4, 'played': 3, 'W': 2, 'D': 0, 'L': 1, 'gf': 282, 'ga': 234, 'pts': None, 'group': None}／BK Opava {'rank': 8, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 241, 'ga': 279, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-09-29T23:30:48+09:00取得））",
+  "ranking": "NBL順位：Usti 4位（2勝1敗・+16.0）、Opava 8位（1勝2敗・-12.67）。Opavaは2022-23のNBL王者（Wikipedia）。クラブレーティングの出典なし",
+  "h2h_all": "aiscore通算（2011年以降）65戦でOpava38勝27敗。直近は2026年4-5月のプレーオフシリーズでOpavaが4勝2敗でUstiを撃破（4/29 98-85、5/3 85-69、5/4 108-89、5/9 103-79で勝利。Ustiは4/30 93-86・5/7 87-72）",
+  "h2h_points": "直近6戦（2026年4-5月）合計 Usti502-552 Opava（平均83.7-92.0、Opava+8.3/試合）",
+  "h2h_home_away": "直近6戦：OpavaホームはOpava3勝0敗、UstiホームはUsti2勝1敗。今回はUstiホーム。2026-04-06のUstiホーム戦（98-95表記）は出典の勝敗表記が矛盾し判定不能",
+  "common_60d": "今季の共通対戦相手なし（両者3試合ずつで相手が重複しない）",
+  "first_rate": "クォーター別・先制データは取得できず",
+  "absences": "未確認：チェコNBLの欠場・負傷報道を確認できず",
+  "roster_changes": "未確認：両クラブのオフシーズン移籍情報を確認できず"
  },
  "calc": {
   "left": {
@@ -166,13 +222,70 @@
    "points_games": 3
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 6,
+   "left": 2,
+   "right": 4,
+   "draw": 0,
+   "points_left": 502,
+   "points_right": 552,
+   "points_games": 6,
+   "avg_left": 83.7,
+   "avg_right": 92.0
   },
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：チェコNBLの欠場・負傷情報の報道を確認できず",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "情報なし。両者とも前試合は9/27で日程条件は同じ",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当情報なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2Hは古くないが内容が一次条件と逆向き：わずか4カ月前（2026年4-5月）のプレーオフでOpavaがUstiを4勝2敗で破り、通算もOpava38勝27敗。今季3試合の得失差だけを根拠とするUsti優位を直接崩す",
+   "impact": "major",
+   "applies": true
+  },
+  "ホーム/アウェー差": {
+   "finding": "今回はUstiホームで、直近H2HのUstiホーム3戦はUsti2勝1敗と持ちこたえている。H/A自体は格差を崩す方向ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Opavaは開幕2連敗後の9/27にDecinへ83-76で勝利。Opavaの-12.67には王者Nymburkへの33点差敗戦が含まれ、開幕3試合サンプルでの弱さの断定は危うい",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "eスポーツではない（バスケ単発戦）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：両クラブの移籍・ロスター変更情報を確認できず（夏の入れ替わりの可能性は残る）",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "リーグ開幕直後（3試合消化）で該当なし",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

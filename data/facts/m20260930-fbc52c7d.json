@@ -1,5 +1,5 @@
 {
- "data_as_of": "2026-09-29T23:25:12+09:00",
+ "data_as_of": "2026-09-30T01:50:00+09:00",
  "unit": "なし",
  "left": {
   "name": "ベルギーU21（Belgium U21）",
@@ -19,7 +19,7 @@
     "comp": "U21欧州選手権予選",
     "score": "7-0",
     "res": "W",
-    "detail": "365scores。scores24は2-1と記載し矛盾"
+    "detail": "ESPN UKで7-0（ウェールズのホームでベルギーが0-7勝ち）と確認。scores24の2-1は誤り"
    }
   ],
   "lineup": [],
@@ -43,7 +43,7 @@
     "comp": "U21欧州選手権予選",
     "score": "0-7",
     "res": "L",
-    "detail": "365scores。scores24は1-2と記載し矛盾"
+    "detail": "ESPN UKで0-7と確認（ウェールズホーム）"
    }
   ],
   "lineup": [],
@@ -55,7 +55,7 @@
    "event": "U21予選",
    "score": "7-0",
    "winner": "left",
-   "detail": "365scores（scores24は2-1）"
+   "detail": "ESPN UK最終スコアで「Wales 0-7 Belgium」と確認（ウェールズのホーム）。scores24の2-1表記は誤りと判断"
   },
   {
    "date": "2020-10-09",
@@ -78,28 +78,29 @@
  ],
  "venue": "Het Kuipje（ウェステルロー）、ベルギーのホーム",
  "risks": [
-  "2025-10-10対戦のスコアがソース間で矛盾（7-0 vs 2-1）",
+  "2025-10-10対戦は当初資料間で矛盾（7-0 vs 2-1）だったが、ESPN UKの最終スコアで7-0（ウェールズホームでベルギー勝ち）と解決",
   "365scores表示18:00（タイムゾーン不明）",
   "U21は招集・A代表昇格で編成変動",
-  "試合開始（2026-09-30 03:00 JST）後の記入。試合前の情報のみ使用"
+  "キックオフは2026-09-30 03:00 JST（Westerlo 19:00現地9/29）。本記入は試合前（01:50 JST）の情報のみ"
  ],
  "missing": [
-  "日付付き10試合",
-  "両軍メンバー",
-  "⑤深掘りのWeb調査（欠場・ロスター・先制率等）はWeb調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）"
+  "ベルギーU21の招集・欠場",
+  "先制率",
+  "日付付き10試合"
  ],
  "unavailable": {
   "left.form": "365scoresの直近5戦は日付が2件のみ、sofascore/fotmobは未取得",
   "right.form": "同左",
   "history": "60日以内の日付付き試合が各1件で共通相手を確定できず（同組の他チームと複数試合あり、日付不明分はcommon_opponents_notesへ）",
-  "deep5.first_rate": "先制率: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.absences": "欠場: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）",
-  "deep5.roster_changes": "ロスター変更: Web調査不可（本セッションのWebSearch上限200回に到達、WebFetch・curlはプロキシ/出典制限で拒否）（招集メンバー未取得）"
+  "deep5.first_rate": "先制率のデータは未取得（プレビュー記事にも記載なし）",
+  "ベルギーU21招集": "ベルギーU21の招集リスト・欠場情報は検索で取得できず"
  },
  "source_urls": [
   "https://scores24.live/en/soccer/m-27-09-2026-belgium-u21-wales-u21-prediction",
   "https://www.365scores.com/football/match/euro-u21-qualification-322/belgium-u21-wales-u21-5131-5138-322",
-  "https://www.soccerpunter.com/news/belgium-u21-vs-wales-u21-young-lions-ready-to-roar-against-the-red-flames/"
+  "https://www.soccerpunter.com/news/belgium-u21-vs-wales-u21-young-lions-ready-to-roar-against-the-red-flames/",
+  "https://www.espn.co.uk/football/match/_/gameId/732463/belgium-u21-wales-u21",
+  "https://clwbpeldroed.org/2026/09/17/wales-cardiff-qpr-man-united/"
  ],
  "match_id": "m20260930-fbc52c7d",
  "calc": {
@@ -209,22 +210,22 @@
   "avg_points": "Belgium U21：1試合平均得失差 +4.00（2試合）／Wales U21：1試合平均得失差 -5.50（2試合）",
   "current_competition": "Belgium U21 {'rank': 2, 'played': 3, 'W': 1, 'D': 1, 'L': 1, 'gf': 8, 'ga': 2, 'pts': 4, 'group': None}／Wales U21 {'rank': 4, 'played': 3, 'W': 1, 'D': 0, 'L': 2, 'gf': 2, 'ga': 7, 'pts': 3, 'group': None}（LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-09-29T22:27:25+09:00取得））",
   "ranking": "U21は公式ランキング・Eloなし。U21予選グループI：既存記載（365scores系）ではベルギー1位（6試合4勝1分1敗 12:2）・ウェールズ4位（6試合2勝4敗 6:20）、LiveScore表ではベルギー2位（3試合1勝1分1敗 8:2）・ウェールズ4位（3試合1勝2敗 2:7）と試合数が食い違う",
-  "h2h_all": "確認できたH2H 3件：2025-10-10 U21予選 ベルギー7-0（scores24は2-1と記載し矛盾）、2020-10-09 U21予選 ベルギー5-0、2019-09-06 U21予選 ウェールズ1-0。ベルギー2勝1敗",
-  "h2h_points": "3試合合計 ベルギー12－ウェールズ1（平均+3.67、ベルギー側）。ただし2025-10-10を2-1とすると合計7-2（平均+1.67）で一次条件の閾値1.5をかろうじて超える程度",
-  "h2h_home_away": "2019-09-06はウェールズのホームでウェールズ1-0勝。他2件のH/Aは未確認。今回はベルギーのホーム（Het Kuipje、ウェステルロー）",
+  "h2h_all": "確認できたH2H 3件：2025-10-10 U21予選 ベルギー7-0（ウェールズホーム・ESPN UKで確定）、2020-10-09 U21予選 ベルギー5-0、2019-09-06 U21予選 ウェールズ1-0（ウェールズホーム）。ベルギー2勝1敗",
+  "h2h_points": "3試合合計 ベルギー12－ウェールズ1（平均+3.67、ベルギー側）。7-0はESPN UKで確定し、scores24の2-1説は棄却",
+  "h2h_home_away": "2025-10-10（7-0ベルギー勝ち）と2019-09-06（1-0ウェールズ勝ち）はともにウェールズのホーム。ベルギーはアウェーでも直近7-0。今回はベルギーのホーム（Het Kuipje、ウェステルロー）で条件はさらにベルギー寄り",
   "common_60d": "60日以内（2026-08-01以降）の日付付き試合は各1件（ベルギー：ベラルーシ1-0勝 09-24、ウェールズ：デンマーク0-4敗 09-26）で共通相手なし。日付なし参考：ベラルーシ戦 ベルギー1-0勝／ウェールズ2-0勝・0-3敗",
   "first_rate": "先制率のデータは未取得",
-  "absences": "両軍の欠場・負傷情報は未取得",
-  "roster_changes": "U21は年齢区分で毎サイクル編成が変わり、A代表昇格もあるが、具体的な招集メンバーは未取得"
+  "absences": "ウェールズU21：負傷離脱の報道なし。シニア代表への引き抜きはなく、シニアキャップ持ちのCrew・Andrews・KpakioはU21に帯同。ベルギーU21：欠場情報は未取得",
+  "roster_changes": "ウェールズU21はJones監督が初招集3人（Scarlett 17歳・Munro・Stevens）に加えAnyadike（15歳）ら初選出多数の若い編成。ベルギー側の招集変更は未取得（clwbpeldroed 9/17）"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "欠場情報は未取得（Web調査不可）。確認できず",
+   "finding": "ウェールズU21に負傷・引き抜きの報道なし（シニアキャップ組3人は帯同）。ベルギーU21（格差側）の欠場情報は未確認：招集リストの報道を取得できず",
    "impact": "none",
    "applies": false
   },
   "ローテーション": {
-   "finding": "9/24（ベラルーシ）→9/29の中4日、ウェールズは9/26（デンマーク）→中2日。ローテーションの有無は未確認",
+   "finding": "ウェールズは9/26デンマーク戦(0-4)から中2日、ベルギーは9/24ベラルーシ戦から中4日。日程上ベルギーが有利。ローテーションの具体的情報は未確認",
    "impact": "minor",
    "applies": true
   },
@@ -234,8 +235,8 @@
    "applies": true
   },
   "古いH2H": {
-   "finding": "H2H 3件中2件（2019・2020）は6年以上前で、別世代の対戦。今サイクルの2025-10-10はスコアが7-0と2-1で資料間矛盾。H2H平均+3.67の発火根拠の大半が古い試合と矛盾スコアに依存",
-   "impact": "major",
+   "finding": "H2H 3件中2件（2019・2020）は6年以上前で別世代。ただし当初矛盾のあった2025-10-10はESPN UKで7-0（ベルギー、ウェールズホームで）と確定し、直近H2H（約11か月前・同サイクル）が圧勝と確認されたため、H2H発火（平均+3.67）の根拠は実質有効。古い2件への依存は残るがminorに格下げ",
+   "impact": "minor",
    "applies": true
   },
   "ホーム/アウェー差": {
@@ -259,7 +260,7 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "招集メンバー未取得。U21はA代表昇格で主力が抜けることがあるが確認できず",
+   "finding": "ウェールズU21は初招集・初選出が多い若い編成（17歳Scarlett、15歳Anyadikeら）で経験不足＝格差を支持する方向。ベルギー側の招集は未確認",
    "impact": "minor",
    "applies": true
   },

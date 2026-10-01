@@ -1,10 +1,10 @@
 {
  "match_id": "ls-1859944",
- "data_as_of": "2026-09-29T23:10:38+09:00",
+ "data_as_of": "2026-09-30T01:25:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Nomad Nur-Sultan",
-  "ranking": "",
+  "ranking": "カザフスタン選手権 LiveScore順位表4位（4試合4勝0敗 16-8）※結果一覧ベースでは直近10試合9勝1敗",
   "form": [
    {
     "date": "2026-09-28",
@@ -86,11 +86,14 @@
     "score": "3-4",
     "res": "L"
    }
+  ],
+  "lineup": [
+   "欠場・ロスター情報は確認できず（露語ニュース検索でも報道なし）"
   ]
  },
  "right": {
   "name": "Kulager Petropavl",
-  "ranking": "",
+  "ranking": "カザフスタン選手権 LiveScore順位表5位（6試合2勝4敗 18-22）※結果一覧ベースでは直近10試合6勝4敗",
   "form": [
    {
     "date": "2026-09-28",
@@ -172,20 +175,75 @@
     "score": "4-3",
     "res": "W"
    }
+  ],
+  "lineup": [
+   "欠場・ロスター情報は確認できず（露語ニュース検索でも報道なし）"
   ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-03-26",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "2-1",
+   "winner": "left",
+   "detail": "Nomadホーム（AiScore）"
+  },
+  {
+   "date": "2026-03-23",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "1-2",
+   "winner": "right",
+   "detail": "Kulagerホーム（AiScore）"
+  },
+  {
+   "date": "2026-03-21",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "5-2",
+   "winner": "left",
+   "detail": "Kulagerホーム（AiScore）"
+  },
+  {
+   "date": "2026-03-18",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "2-1",
+   "winner": "left",
+   "detail": "Nomadホーム（AiScore）"
+  },
+  {
+   "date": "2026-03-16",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "5-3",
+   "winner": "left",
+   "detail": "Nomadホーム（AiScore）"
+  },
+  {
+   "date": "2026-01-18",
+   "event": "Kazakhstan / Championship 2025-26",
+   "score": "5-4",
+   "winner": "left",
+   "detail": "Nomadホーム（AiScore）"
+  }
+ ],
  "common_opponents_notes": [],
- "venue": "",
- "risks": [],
+ "venue": "LiveScoreはNomadを先に表記（Nomadホーム＝アスタナ）。会場名は未確認",
+ "risks": [
+  "LiveScore順位表の試合数（Nomad4試合・Kulager6試合）が結果一覧（各10試合超）と不一致",
+  "NomadはバリスAstana（KHL）傘下クラブでKHL側との選手移動があり得る（今節の具体移動は未確認）"
+ ],
  "missing": [
-  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+  "先発GK・Save%・GSAA・PP%・PK%",
+  "先制率",
+  "欠場情報"
  ],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Kazakhstan / Championship eid=1859944）に直接対戦の記録なし。他の資料で要確認"
+  "deep5.first_rate": "先制点データの静的な出典が見つからず（検索上限内で取得可能なサイトなし）",
+  "deep5.goalie": "カザフスタン選手権のGK個人成績（Save%・GSAA）の公開出典が見つからず",
+  "deep5.pp_pct": "カザフスタン選手権の特殊チーム（PP%・PK%）統計の公開出典が見つからず"
  },
  "source_urls": [
-  "LiveScore Kazakhstan / Championship eid=1859944"
+  "LiveScore Kazakhstan / Championship eid=1859944",
+  "https://m.aiscore.com/head-to-head/ice-hockey/hc-kulager-petropavlsk-vs-nomad-astana",
+  "https://ru.hcbarys.kz/nomad/main/（Nomadがバリス傘下である根拠）"
  ],
  "metrics": {
   "left": {
@@ -234,7 +292,20 @@
   "last10": "Nomad Nur-Sultan：9勝1敗（10試合）／Kulager Petropavl：6勝4敗（10試合）",
   "streak": "Nomad Nur-Sultan：9連勝／Kulager Petropavl：1連勝",
   "avg_points": "Nomad Nur-Sultan：1試合平均得失差 +2.30（10試合）／Kulager Petropavl：1試合平均得失差 +1.40（10試合）",
-  "current_competition": "Nomad Nur-Sultan {'rank': 4, 'played': 4, 'W': 4, 'D': 0, 'L': 0, 'gf': 16, 'ga': 8, 'pts': 8, 'group': None}／Kulager Petropavl {'rank': 5, 'played': 6, 'W': 2, 'D': 0, 'L': 4, 'gf': 18, 'ga': 22, 'pts': 7, 'group': None}（LiveScore順位表 Kazakhstan / Championship（2026-09-29T23:10:38+09:00取得））"
+  "current_competition": "Nomad Nur-Sultan {'rank': 4, 'played': 4, 'W': 4, 'D': 0, 'L': 0, 'gf': 16, 'ga': 8, 'pts': 8, 'group': None}／Kulager Petropavl {'rank': 5, 'played': 6, 'W': 2, 'D': 0, 'L': 4, 'gf': 18, 'ga': 22, 'pts': 7, 'group': None}（LiveScore順位表 Kazakhstan / Championship（2026-09-29T23:10:38+09:00取得））",
+  "ranking": "LiveScore順位表：Nomad4位（4試合8pt）・Kulager5位（6試合7pt）。結果一覧ベース直近10試合はNomad9勝1敗・Kulager6勝4敗",
+  "h2h_all": "通算31戦でNomad21勝・Kulager10勝（勝率67.7%対32.3%、AiScore）。直近6戦（2026年1〜3月、3月はプレーオフとみられる5連戦含む）はNomad5勝1敗",
+  "h2h_points": "直近6戦（2026年1〜3月）の得点はNomad20-13Kulager（AiScore掲載スコアから集計）",
+  "h2h_home_away": "通算ホーム勝率：Nomadホームで76.5%、Kulagerホームで42.9%（AiScore）。今回はNomadホーム",
+  "common_60d": "共通相手3チーム（60日以内）：Almaty（N2勝0敗12-3／K1勝1敗3-3）、Beibarys（N2勝0敗5-2／K2勝0敗6-4）、Gornyak（N1勝1敗7-6／K1勝1敗10-10）。合計N5勝1敗+13（+2.17/試合）／K4勝2敗+2（+0.33/試合）、差+1.83/試合でNomad優位",
+  "first_rate": "取得できず",
+  "absences": "両チームとも欠場・負傷の報道を確認できず（露語ニュース検索。当リーグは負傷情報の公表が乏しい）",
+  "roster_changes": "未確認。NomadはバリスAstana（KHL）傘下（公式サイトがhcbarys.kz配下）でKHLとの選手移動があり得るが、今節の具体的な入替は確認できず",
+  "goalie": "取得できず",
+  "save_pct": "取得できず",
+  "gsaa": "取得できず",
+  "pp_pct": "取得できず",
+  "pk_pct": "取得できず"
  },
  "calc": {
   "left": {
@@ -280,10 +351,15 @@
    "points_games": 10
   },
   "h2h": {
-   "games": 0,
-   "left": 0,
-   "right": 0,
-   "draw": 0
+   "games": 6,
+   "left": 5,
+   "right": 1,
+   "draw": 0,
+   "points_left": 20,
+   "points_right": 13,
+   "points_games": 6,
+   "avg_left": 3.3,
+   "avg_right": 2.2
   },
   "common": [
    {
@@ -409,5 +485,57 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "未確認：露語ニュース検索（championat・sports.ru・shaiba.kz等の団体ページ）で両チームの欠場・負傷報道は見当たらず。当リーグは負傷公表が乏しく確認しきれない",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "未確認：同一カード2連戦方式（10/1・10/2に同カード予定、AiScore）で第1戦・第2戦の起用が変わる可能性はあるが具体情報なし。NomadはKHLバリス傘下で選手供出があり得る",
+   "impact": "minor",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "該当なし：両チームとも若返り・世代交代の報道は確認できず。直近成績は編成変化を示唆しない",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "該当なし：H2Hは2026年1〜3月（半年前）と新しく、直近6戦でNomad5勝1敗と現在の力関係と整合",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "該当なし：Nomadホーム開催で、通算H2HでもNomadホーム勝率76.5%。Kulagerの今季アウェーは2勝4敗で格差を崩す材料なし",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "該当なし：Kulagerは直近Almaty戦1勝1敗と持ち直したが、その前にTorpedoに2連敗しており急改善とは言えない。Nomadは9連勝中",
+   "impact": "none",
+   "applies": false
+  },
+  "BO1": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "eスポーツではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：両チームの移籍・入替の報道は確認できず。NomadはKHL傘下ゆえ編成変動の可能性が常にある",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "該当なし：シーズン序盤（開幕1か月）で消化試合は存在しない",
+   "impact": "none",
+   "applies": false
+  }
  }
 }

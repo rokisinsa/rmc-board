@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1668657",
- "data_as_of": "2026-09-29T23:25:58+09:00",
+ "data_as_of": "2026-09-30T01:45:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Malta U21",
@@ -157,18 +157,19 @@
   "U21は招集メンバー次第で変動（未確認）"
  ],
  "missing": [
-  "招集メンバー・欠場",
-  "先制率"
+  "先制率",
+  "過去サイクルのH2H"
  ],
  "unavailable": {
   "ranking": "U21代表のElo/公式ランキングは存在しない（A代表Eloは参考値のみ）",
-  "first_rate": "先制のデータなし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "absences": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "roster_changes": "本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "h2h_all": "手元のLiveScore予選データ以外（過去サイクル）は本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可"
+  "first_rate": "先制のデータなし（プレビュー記事にも記載なし）",
+  "h2h_all": "手元のLiveScore予選データ以外（過去サイクル）は本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "h2h_all(過去サイクル)": "過去サイクルのH2Hは未取得（U21は世代が入れ替わるため優先度低と判断）"
  },
  "source_urls": [
-  "LiveScore Euro U21 2027 / Qualification: Group F eid=1668657"
+  "LiveScore Euro U21 2027 / Qualification: Group F eid=1668657",
+  "https://sports.yahoo.com/articles/malta-u21-vs-germany-u21-160800181.html",
+  "https://www.dfb.de/news/di-salvo-names-seven-debutants-in-germany-u21-squad-for-final-u21-euro-qualifiers"
  ],
  "metrics": {
   "left": {
@@ -242,20 +243,20 @@
   "h2h_points": "H2H 1試合：Germany 6-0（得失差+6、Germany側）",
   "h2h_home_away": "Germanyホームで6-0の1件のみ。Maltaホームでの対戦は手元データになし",
   "common_60d": "60日以内（8/2以降）の共通相手なし（Malta=Northern Ireland、Germany=Latvia）。参考（予選全体）：Greece（Malta 0-5・0-5／Germany 2-3・2-0）、Georgia（Malta 0-5・1-4／Germany 2-0）、Northern Ireland（Malta 0-2・0-4／Germany 2-1・3-0）、Latvia（Malta 0-1／Germany 5-0・4-0）。4相手すべてGermanyが上",
-  "first_rate": "未取得（先制のデータなし）",
-  "absences": "未確認（Web調査不可）",
-  "roster_changes": "未確認（Web調査不可）。U21は年齢制限で毎サイクル入れ替わる"
+  "first_rate": "未取得（先制データなし）",
+  "absences": "Germany U21（格差側）：主将Tom Bischof（前回対戦でハットトリック）とLennart KarlがA代表（Klopp監督）に引き抜かれ不在。Muhammed Damarはクラブ（Wolfsburg）残留。Malta U21：欠場報告なし（bulinews/yahooプレビュー）",
+  "roster_changes": "Germany U21：Di Salvo監督が今回の招集で初招集7人（Banks、Onyeka等）を含む大幅入れ替え。9/27 Latvia戦でBrunnerがデビュー2得点、Darvich・Onyekaが初出場でアシスト。得点王はTresoldi（予選7得点）。Malta U21：Ellul（予選唯一の得点者）ら継続"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可。同時期のA代表招集でGermany U21の主力が引き上げられる可能性はあるが未確認",
-   "impact": "none",
-   "applies": false
+   "finding": "Germany U21の主将Bischof（前回Malta戦ハット）とKarlがA代表昇格で不在、Damarも招集外。ただし残る陣容もBrunner・Tresoldi（予選7得点）・Gechter主将ら層が厚く、9/27もLatviaに4-0。格差の根拠（8戦7勝・得失+22）は残る",
+   "impact": "minor",
+   "applies": true
   },
   "ローテーション": {
-   "finding": "予選公式戦。ローテーション情報は手元になし（未確認）",
-   "impact": "none",
-   "applies": false
+   "finding": "Germany U21は初招集7人を含む編成で試験的起用の余地あり。ただし予選公式戦（首位通過争い中）で、9/27のLatvia戦も4-0と結果は維持",
+   "impact": "minor",
+   "applies": true
   },
   "世代交代": {
    "finding": "U21は年齢制限で選手が毎サイクル入れ替わるが、今回の比較データは同一予選サイクル（2025/9〜2026/9）内のため影響小",
@@ -288,9 +289,9 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-   "impact": "none",
-   "applies": false
+   "finding": "Germany U21は初招集7人と大幅な入れ替え（A代表引き抜き2人の影響含む）。Maltaは概ね継続。編成変動は格差側に集中するが、直近試合で機能を確認済み",
+   "impact": "minor",
+   "applies": true
   },
   "消化試合": {
    "finding": "Germanyは首位争い中（Greeceと競る）。Maltaは敗退濃厚だが相手側の動機は十分。消化試合ではない",

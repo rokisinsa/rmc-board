@@ -1,107 +1,132 @@
 {
  "match_id": "ls-1894360",
- "data_as_of": "2026-09-29T23:26:31+09:00",
+ "data_as_of": "2026-09-30T01:35:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Cook Islands",
-  "ranking": "Elo 620（世界231位）",
-  "form": []
+  "ranking": "Elo 620（世界231位）／FIFAランキング186位（2026-07-20付、Wikipedia）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Tahiti",
+    "comp": "International Friendly（2連戦の第1戦）",
+    "ha": "H",
+    "score": "1-3",
+    "res": "L",
+    "detail": "ESPN最終スコア1-3。Wikipedia抜粋では3-3と読める記述があり要注意（ESPNを採用）"
+   }
+  ]
  },
  "right": {
   "name": "Tahiti",
-  "ranking": "Elo 1179（世界162位）",
-  "form": []
+  "ranking": "Elo 1179（世界162位）／FIFAランキング157位（2026-07-20付、Wikipedia）",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Cook Islands",
+    "comp": "International Friendly（2連戦の第1戦）",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W",
+    "detail": "ESPN最終スコア（Cook Islands 1-3 Tahiti）"
+   }
+  ]
  },
- "h2h": [],
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "International Friendly（第1戦）",
+   "winner": "right",
+   "score": "1-3",
+   "detail": "ESPN。ソース間で3-3表記もあり（Wikipedia抜粋）だがESPN最終スコアを採用"
+  }
+ ],
  "common_opponents_notes": [],
- "venue": "LiveScore・FIFA公式日程でCook Islandsが先（t1）＝Cook Islandsホームとみられるが会場未確認",
+ "venue": "クック諸島開催（ホーム）。約20年ぶりのクック諸島での本格的国際試合の2連戦の第2戦（クック諸島サッカー協会発表・Wikipedia）",
  "risks": [
-  "直近成績・H2Hが全く取れず、格差の根拠はElo差（559）のみ",
-  "親善試合"
+  "9/27第1戦のスコアがESPN(1-3)とWikipedia抜粋(3-3)で食い違い（ESPN採用）",
+  "親善試合",
+  "小国同士でEloの精度に注意"
  ],
  "missing": [
-  "直近成績",
-  "H2H",
+  "9/27以前の直近成績",
   "招集メンバー",
-  "会場"
+  "第1戦の得点経過"
  ],
  "unavailable": {
   "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1894360）に直接対戦の記録なし。他の資料で要確認",
-  "h2h_all": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "h2h_points": "H2H未取得のため",
-  "h2h_home_away": "H2H未取得のため",
-  "last5": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "last10": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "avg_points": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "streak": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "common_60d": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "first_rate": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "absences": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+  "last10": "9/27の1試合以外の直近試合リストは未取得（OFC小国で結果データベースが乏しい）",
+  "first_rate": "9/27第1戦の先制チーム・得点経過は未取得",
+  "absences": "両チームの招集・負傷情報は検索でも見つからず",
   "roster_changes": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-  "fifa_rank": "手元データになし。本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
   "current_competition": "親善試合のため該当なし"
  },
  "source_urls": [
   "LiveScore International Friendlies / Friendlies eid=1894360",
   "https://www.eloratings.net/World.tsv（data/ratings/eloratings.json 2026-09-29取得）",
-  "FIFA公式日程 fifa:dfcv4a69655b4nnxgb8u9q6tw（data/basic/fixtures_extra.json）"
+  "FIFA公式日程 fifa:dfcv4a69655b4nnxgb8u9q6tw（data/basic/fixtures_extra.json）",
+  "https://en.wikipedia.org/wiki/Cook_Islands_national_football_team",
+  "https://en.wikipedia.org/wiki/Tahiti_national_football_team",
+  "https://www.espn.com/soccer/match/_/gameId/401924630/tahiti-cook-islands"
  ],
  "metrics": {
   "left": {
    "elo": 620,
-   "rank": 231
+   "rank": 231,
+   "fifa_rank": 186
   },
   "right": {
    "elo": 1179,
-   "rank": 162
+   "rank": 162,
+   "fifa_rank": 157
   },
-  "source": "eloratings.net 代表チームElo（data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+  "source": "eloratings.net（data/ratings/eloratings.json 9/29取得）＋FIFAランキング2026-07-20付（Wikipedia）"
  },
  "deep5": {
-  "ranking": "Elo：Cook Islands 620（231位）／Tahiti 1179（162位）、差559（Tahiti側）。eloratings.net 9/29取得。FIFAランキングは未確認",
+  "ranking": "Elo：Cook Islands 620（231位）／Tahiti 1179（162位）、差559（Tahiti側）。FIFAランキング：Cook Islands 186位／Tahiti 157位（2026-07-20付）",
   "current_competition": "国際親善試合のため該当大会成績なし",
-  "h2h_all": "未確認（手元データに直接対戦なし。Web調査不可）",
-  "h2h_points": "未確認（H2H未取得）",
-  "h2h_home_away": "未確認（H2H未取得）",
-  "last5": "未取得（手元のLiveScore親善試合データは2024年分で両チームの試合なし）",
-  "last10": "未取得（同上）",
-  "avg_points": "未取得（直近成績なし）",
-  "streak": "未取得（直近成績なし）",
-  "common_60d": "未取得（直近成績なし）",
-  "first_rate": "未取得",
-  "absences": "未確認（Web調査不可）",
-  "roster_changes": "未確認（Web調査不可）"
+  "h2h_all": "歴史的H2H：Cook IslandsはTahitiに0勝0分10敗・得点1失点76（Wikipedia、今回の連戦前まで）。加えて2026-09-27の第1戦はTahitiが3-1で勝利（ESPN）＝通算11敗目",
+  "h2h_points": "過去10戦で得点1・失点76（1試合平均-7.5）。直近の第1戦（9/27）は1-3で失点差が大きく縮小",
+  "h2h_home_away": "過去のH2Hはほぼタヒチ側・中立開催とみられる（クック諸島は約20年ホーム開催なし）。9/27の第1戦はクック諸島ホームで1-3",
+  "last5": "Cook Islands：9/27 Tahitiに1-3敗（それ以前の試合リストは未取得）／Tahiti：9/27 Cook Islandsに3-1勝（それ以前は未取得）",
+  "last10": "未取得（両者とも9/27の1試合のみ確認）",
+  "avg_points": "直近確認分（1試合）：Cook Islands -2／Tahiti +2",
+  "streak": "Cook Islands：1連敗（確認分）／Tahiti：1連勝（確認分）",
+  "common_60d": "60日以内の共通相手は直接対戦（9/27 Tahiti 3-1 Cook Islands）のみ",
+  "first_rate": "未取得（9/27の先制情報なし）",
+  "absences": "未取得（両チームの招集・負傷情報は検索で見つからず）",
+  "roster_changes": "Tahitiは2026年に監督交代（Samuel Garcia→Joël Fréchet）。選手の出入りは未取得。Tahitiの絶対的主将Teaonui Tehau（49キャップ31得点）の招集有無は未確認"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
+   "finding": "未確認：両チームの招集リスト・負傷情報は検索でも見つからず（小規模協会で報道が乏しい）",
    "impact": "none",
    "applies": false
   },
   "ローテーション": {
-   "finding": "国際親善試合で、両者が控え・若手を試す可能性がある（具体的な招集情報は未確認）",
+   "finding": "中3日の2連戦の第2戦。第1戦（9/27）を3-1で勝ったTahitiが第2戦でメンバーを入れ替える可能性はあるが、具体的情報は未確認",
    "impact": "minor",
    "applies": true
   },
   "世代交代": {
-   "finding": "未確認（手元に情報なし）",
-   "impact": "none",
-   "applies": false
+   "finding": "Tahitiは2026年に新監督Fréchetへ交代した移行期。ただし第1戦は3-1で勝利しており機能している",
+   "impact": "minor",
+   "applies": true
   },
   "古いH2H": {
-   "finding": "H2H未取得。発火はElo差のみ",
+   "finding": "歴史的H2H（0勝10敗・得失-75）は古い試合を含むが、4日前の直接対戦（Tahiti 3-1勝）が最新のH2Hとしてあり、古さの問題は解消",
    "impact": "none",
    "applies": false
   },
   "ホーム/アウェー差": {
-   "finding": "Cook Islandsがホームとみられる（日程表記順）。Elo上のホーム補正約100点を引いても差は約460点残る",
+   "finding": "クック諸島ホーム（約20年ぶりの本格ホーム開催）。ただし同会場・同条件の第1戦でもTahitiが3-1で勝っており、ホーム分を考慮しても格差は実証済み",
    "impact": "minor",
    "applies": true
   },
   "最近の急改善": {
-   "finding": "直近成績が取れず確認できない（未確認）",
-   "impact": "none",
-   "applies": false
+   "finding": "Cook Islandsは歴史的大敗続き（得失-75/10戦）に比べ、9/27は1-3と善戦しており相対的な改善はある。ただし敗戦は敗戦で格差自体は残る",
+   "impact": "minor",
+   "applies": true
   },
   "BO1": {
    "finding": "サッカーの1試合制でBO1の概念は該当しない",
@@ -114,26 +139,26 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "未確認：本セッションはWebSearch上限（200件）到達・WebFetchはURL出所制限・curlはプロキシ403でWeb調査不可",
-   "impact": "none",
-   "applies": false
+   "finding": "Tahitiの監督交代（2026年、Fréchet新任）を確認。選手ロスターの変更は未確認",
+   "impact": "minor",
+   "applies": true
   },
   "消化試合": {
-   "finding": "親善試合で勝敗の重みは公式戦より低い。Eloの試合数も少ない小国同士で、Elo自体の精度に注意",
+   "finding": "親善2連戦の第2戦。第1戦をTahitiが取っており、シリーズ的な緊張感は低下しうる。Eloの試合数が少ない小国同士でElo精度にも注意",
    "impact": "minor",
    "applies": true
   }
  },
  "calc": {
   "left": {
-   "games": 0,
+   "games": 1,
    "W": 0,
-   "L": 0,
+   "L": 1,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 0.0,
    "home": {
     "W": 0,
-    "L": 0,
+    "L": 1,
     "D": 0
    },
    "away": {
@@ -141,31 +166,42 @@
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 1,
+   "points_against": 3,
+   "points_games": 1
   },
   "right": {
-   "games": 0,
-   "W": 0,
+   "games": 1,
+   "W": 1,
    "L": 0,
    "D": 0,
-   "win_rate": null,
+   "win_rate": 100.0,
    "home": {
     "W": 0,
     "L": 0,
     "D": 0
    },
    "away": {
-    "W": 0,
+    "W": 1,
     "L": 0,
     "D": 0
    },
-   "streak": null
+   "streak": null,
+   "points_for": 3,
+   "points_against": 1,
+   "points_games": 1
   },
   "h2h": {
-   "games": 0,
+   "games": 1,
    "left": 0,
-   "right": 0,
-   "draw": 0
+   "right": 1,
+   "draw": 0,
+   "points_left": 1,
+   "points_right": 3,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 3.0
   },
   "common": [],
   "common_window_days": 60,

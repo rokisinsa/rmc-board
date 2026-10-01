@@ -1,6 +1,6 @@
 {
  "match_id": "m20260930-b8803b55",
- "data_as_of": "2026-09-29T23:26:02+09:00",
+ "data_as_of": "2026-09-30T01:36:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Somalia",
@@ -14,6 +14,11 @@
     "score": "1-2",
     "res": "L"
    }
+  ],
+  "lineup": [
+   "Abdi Sharif：前節終盤に負傷交代し出場が微妙（Sportsmole）",
+   "予想先発：Hussein；Othman, Omar, Gigli；Mohamed, Osman, Abdullahi, Abdulle；Hassan, Njie, Abatari",
+   "FW Bilal Njie：クラブ・代表通算で直近8試合5得点と好調（Sportsmole）"
   ]
  },
  "right": {
@@ -28,35 +33,35 @@
     "score": "2-0",
     "res": "W"
    }
+  ],
+  "lineup": [
+   "負傷・出場停止の報告なし。Kessie・Pepe・Ndicka・Sangare等の主力が招集・先発見込み（Sportsmole）",
+   "予想先発：Fofana；Zogbe, Diomande, Ndicka, Konan；Sangare, Kessie；Diomande, Yalcouye, Pepe；Bonny",
+   "監督：Herve Renard（前任者の契約満了を受けて最近就任。AFCON2回優勝の実績）",
+   "Malik Yalcouye（Brighton）が前節Ghana戦のデビュー戦で得点"
   ]
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "LiveScore・配信ともSomaliaを先に表記（Somaliaのホーム扱い）。開催地・スタジアムは未確認",
+ "venue": "Stade de l'Amitié（中立地開催。ソマリアは治安問題とCAF認証スタジアム不在のため国内開催不可。都市は未確認）",
  "risks": [
-  "両チームの今季データは1試合ずつで、格差根拠はElo（763差）のみ",
-  "開催地未確認"
+  "両チームの今季データは1試合ずつで、格差根拠はElo（763差）が中心",
+  "Ivory CoastはRenard新監督体制の初期（前節Ghana戦2-0勝が事実上の初陣期）",
+  "Ivory Coastは2026年AFCON本大会で準々決勝敗退（Sportsmole）"
  ],
- "missing": [
-  "直近10（代表戦）",
-  "H2H",
-  "招集・欠場",
-  "開催地"
- ],
+ "missing": [],
  "unavailable": {
-  "h2h": "自動取得元（LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934）に直接対戦の記録なし。他の資料で要確認",
-  "deep5.h2h_all": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "left.form": "LiveScoreでは予選1試合のみ。Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "right.form": "LiveScoreでは予選1試合のみ。Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "ranking(FIFA)": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
+  "deep5.first_rate": "先制率の出典データなし",
+  "left.form": "9/26以前の個別結果（日付・スコア）は未取得。Sportsmole要約では「直近は敗戦と引き分けが混在」",
+  "right.form": "前節以前の個別結果（日付・スコア）は未取得。Sportsmole要約では複数勝利の好調、2026年AFCON本大会は準々決勝敗退",
+  "ranking(FIFA)": "FIFAランキングは未取得"
  },
  "source_urls": [
   "LiveScore Africa Cup of Nations Qualification / Qualification: Group C eid=1872934",
   "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）",
-  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）",
+  "https://www.sportsmole.co.uk/football/africa-cup-of-nations/preview/somalia-vs-ivory-coast-prediction-team-news-lineups_605900.html",
+  "https://en.wikipedia.org/wiki/2027_Africa_Cup_of_Nations_qualification"
  ],
  "metrics": {
   "left": {
@@ -75,14 +80,14 @@
   "streak": "Somalia：1連敗／Ivory Coast：1連勝",
   "avg_points": "Somalia：1試合平均得失差 -1.00（1試合）／Ivory Coast：1試合平均得失差 +2.00（1試合）",
   "ranking": "World Football Elo：Ivory Coast 1739（35位）、Somalia 976（190位）、差763（eloratings.net）。FIFAランキングは取得できず",
-  "current_competition": "AFCON予選C組（Gambia・Ghana・Ivory Coast・Somalia）第1節：Ivory Coast 2-0 Ghana（H）、Somalia 1-2 Gambia（A）",
-  "h2h_all": "確認できたH2Hなし（LiveScoreに記録なし、他は取得できず）",
-  "h2h_points": "取得できず",
-  "h2h_home_away": "取得できず",
+  "current_competition": "AFCON2027予選C組第1節：Ivory Coast 2-0 Ghana（H）で1位（勝点3）、Somaliaは A 1-2 Gambiaで3位（勝点0）。Wikipedia順位表：1位Ivory Coast、2位Gambia、3位Somalia、4位Ghana",
+  "h2h_all": "両国は史上初対戦（Sportsmoleプレビュー）。過去のH2Hなし",
+  "h2h_points": "初対戦のため該当なし",
+  "h2h_home_away": "初対戦のため該当なし",
   "common_60d": "共通相手なし（両者の確認済み試合は1試合ずつで相手が異なる）",
-  "first_rate": "取得できず",
-  "absences": "取得できず",
-  "roster_changes": "招集メンバーは取得できず"
+  "first_rate": "未取得（先制率のデータなし）",
+  "absences": "Somalia：Abdi Sharifが前節終盤に負傷交代し出場微妙／Ivory Coast：欠場報告なし、Kessie（代表16得点）・Pepe・Ndicka等の主力が先発見込み（Sportsmole）",
+  "roster_changes": "Ivory Coastは前監督の契約満了に伴いHerve Renardが最近就任（監督交代）。選手の大規模入れ替えの報告なし"
  },
  "calc": {
   "left": {
@@ -154,31 +159,31 @@
    "gf": 2,
    "ga": 0
   },
-  "source": "AFCON予選C組：LiveScore結果一覧（Gambia 2-1 Somalia、Ivory Coast 2-0 Ghana）。LiveScore順位表はIvory Coastの試合数0と不整合のため結果一覧で集計"
+  "source": "AFCON2027予選C組：LiveScore結果一覧＋Wikipedia 2027 Africa Cup of Nations qualification（順位表：Ivory Coast 1勝 2-0 勝点3で1位、Somalia 0勝1敗 1-2 勝点0で3位。両者一致）"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "Ivory Coastの招集・欠場情報を確認できず（Web調査不可）",
+   "finding": "格差側Ivory Coastに欠場報告なし（Kessie・Pepe・Ndicka等が先発見込み）。劣位側SomaliaのAbdi Sharifが負傷で出場微妙（Sportsmole 9/28-29プレビュー）",
    "impact": "none",
    "applies": false
   },
   "ローテーション": {
-   "finding": "9/25のGhana戦から中4日。起用方針は確認できず",
+   "finding": "9/25 Ghana戦から中4日。Sportsmoleの予想先発は主力中心でローテーション示唆なし",
    "impact": "none",
    "applies": false
   },
   "世代交代": {
-   "finding": "確認できる情報なし",
+   "finding": "Ivory CoastはRenard新体制でYalcouye等の若手デビューを進めるが、Kessie・Pepe等の主力は継続。格差を崩す規模の世代交代の報告なし",
    "impact": "none",
    "applies": false
   },
   "古いH2H": {
-   "finding": "H2H未取得で格差根拠に使っていない",
+   "finding": "両国は史上初対戦でH2H自体が存在しない（発火はElo差＋今大会成績でH2H非依存）",
    "impact": "none",
    "applies": false
   },
   "ホーム/アウェー差": {
-   "finding": "Somaliaのホーム扱いだが開催地は未確認。Elo差763はホーム補正（約100）を大きく上回る",
+   "finding": "名目上Somaliaホームだが中立地Stade de l'Amitiéでの開催（ソマリア国内開催不可）のため、実質的なホーム利は小さい。Elo差763はホーム補正を大きく上回る",
    "impact": "minor",
    "applies": true
   },
@@ -198,9 +203,9 @@
    "applies": false
   },
   "ロスター変更": {
-   "finding": "確認できず",
-   "impact": "none",
-   "applies": false
+   "finding": "Ivory Coastは監督交代直後（Renard就任）。ただし前節2-0勝で移行は順調、選手の大規模変更なし",
+   "impact": "minor",
+   "applies": true
   },
   "消化試合": {
    "finding": "予選第2節で消化試合ではない",

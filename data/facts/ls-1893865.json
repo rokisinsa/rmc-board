@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1893865",
- "data_as_of": "2026-09-29T23:27:14+09:00",
+ "data_as_of": "2026-09-30T01:30:00+09:00",
  "unit": "なし",
  "left": {
   "name": "Argentina",
@@ -38,7 +38,8 @@
     "score": "3-0",
     "res": "W"
    }
-  ]
+  ],
+  "form_note": "2026年W杯決勝でスペインに敗れ準優勝（beIN 9/29）。直近形はW-W-W-W-L（新しい順に読み替えるとW杯決勝敗戦後、本試合がW杯後初戦。Khel Now）"
  },
  "right": {
   "name": "Bolivia",
@@ -84,37 +85,37 @@
     "score": "2-3",
     "res": "L"
    }
-  ]
+  ],
+  "form_note": "4連敗中（直近は9/27頃 Paraguayに0-2）。2026年W杯大陸間プレーオフでIraqに敗れ本大会出場逃す。直近3試合で失点10（beIN・Khel Now）"
  },
  "h2h": [],
  "common_opponents_notes": [],
- "venue": "LiveScoreはArgentinaを先に表記（Argentinaホーム扱い）。開催地は未確認。国際親善試合",
+ "venue": "Estadio Mario Alberto Kempes（コルドバ、アルゼンチン）。Argentinaホーム（beIN SPORTS / Khel Now）",
  "risks": [
-  "formは2024年の親善試合のみで現状を反映しない",
   "格差根拠はElo差559のみ",
-  "親善試合のため起用が読めない"
+  "親善試合のため起用が読めない",
+  "formの日付付きリストは2024年分のみ（2025-26はテキスト情報で補完）",
+  "親善試合でArgentinaは新戦力テストの意向（起用が読めない）"
  ],
  "missing": [
-  "直近の代表戦（2025〜2026）",
-  "H2H",
-  "招集・欠場",
-  "開催地"
+  "2025-26の日付付き試合リスト",
+  "H2H個別試合の日付・スコア",
+  "先制率"
  ],
  "unavailable": {
   "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1893865）に直接対戦の記録なし。他の資料で要確認",
-  "deep5.h2h_all": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.first_rate": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.absences": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "deep5.roster_changes": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "left.form": "LiveScore親善試合ステージの2024年分のみ。2025〜2026年の代表戦：Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "right.form": "同上",
-  "deep5.common_60d": "60日以内の試合データなし：Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
-  "ranking(FIFA)": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず"
+  "deep5.first_rate": "先制率のデータは検索結果に見当たらず未取得",
+  "ranking(FIFA)": "Web調査不可（本セッションのWebSearch上限到達・WebFetchは出典未登録URLを拒否・直接通信はプロキシで拒否）のため、ローカル取得済みデータ（LiveScore/eloratings）以外で確認できず",
+  "deep5.h2h_points": "H2Hの得失点内訳・個別試合リストは未取得（確認済みは通算勝敗のみ）",
+  "deep5.common_60d": "60日以内の共通対戦相手：両者の日付付き全試合リストが未取得のため特定できず（Boliviaの直近相手はParaguay等）",
+  "form(日付付き2025-26)": "2025〜26年の日付付き試合リストは未取得（テキスト形のみ：Argentina W-W-W-W-L、Bolivia 4連敗）"
  },
  "source_urls": [
   "LiveScore International Friendlies / Friendlies eid=1893865",
   "LiveScore公開API（rmc-site data/basic/livescore.json、2026-09-29T23:10:38+09:00取得）",
-  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）"
+  "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）",
+  "https://www.beinsports.com/en-us/soccer/friendlies/articles/argentina-hosts-bolivia-without-messi-in-their-first-match-after-the-world-cup-final-2026-09-29",
+  "https://khelnow.com/football/argentina-vs-bolivia-preview-international-friendly-202609"
  ],
  "metrics": {
   "left": {
@@ -128,48 +129,48 @@
   "source": "eloratings.net（rmc-site data/ratings/eloratings.json、2026-09-29T23:10:20+09:00取得）。Elo差559"
  },
  "deep5": {
-  "last5": "Argentina：4勝0敗／Bolivia：1勝4敗",
+  "last5": "Argentina：直近形W-W-W-W-L（Lは2026年W杯決勝スペイン戦、Khel Now）／Bolivia：4連敗中（直近0-2 Paraguay）、直近形L-W-L-L-L（Khel Now）",
   "last10": "Argentina：4勝0敗（4試合）／Bolivia：1勝4敗（5試合）",
-  "streak": "Argentina：4連勝／Bolivia：3連敗",
+  "streak": "Argentina：W杯決勝敗戦（1敗）以外は勝利続き／Bolivia：4連敗中（beIN 9/29）",
   "avg_points": "Argentina：1試合平均得失差 +2.25（4試合）／Bolivia：1試合平均得失差 -1.20（5試合）",
   "ranking": "World Football Elo：Argentina 2173（2位）、Bolivia 1614（61位）、差559（eloratings.net）。FIFAランキングは取得できず",
-  "current_competition": "国際親善試合のため該当大会成績なし",
-  "h2h_all": "確認できたH2Hなし（LiveScore親善試合ステージに記録なし、W杯予選等は取得できず）",
-  "h2h_points": "取得できず",
-  "h2h_home_away": "取得できず",
+  "current_competition": "国際親善試合のため該当大会成績なし。文脈：Argentinaは2026年W杯準優勝、BoliviaはW杯プレーオフ敗退（Iraq戦）",
+  "h2h_all": "通算42戦：Argentina 30勝5分、Bolivia 7勝。Argentinaは直近5回の対戦で無敗（Khel Now）",
+  "h2h_points": "通算得失点の内訳は未取得（勝敗のみ確認：42戦でArgentina 30勝5分7敗）",
+  "h2h_home_away": "ホーム/アウェー別のH2H内訳は未取得。今回はArgentinaホーム（コルドバ）。過去、ラパス（高地）ではBoliviaが勝った例が知られるが今回は該当せず",
   "common_60d": "60日以内の試合データなし（取得できたのは2024年分のみ）。2024年分ではEcuadorが共通相手（Argentina 1-0勝、Bolivia 1-3敗）だが60日外",
   "first_rate": "取得できず",
-  "absences": "招集・欠場は取得できず",
-  "roster_changes": "取得できず"
+  "absences": "Argentina：Messiは8/31に代表引退を発表し本試合は不出場（お別れ試合は10/6 Benin戦）。Foyth・Tagliaficoはコンディション不良で出場微妙。Bolivia：負傷者報告なし全員available（beIN 9/29・Khel Now）",
+  "roster_changes": "Argentina：ScaloniがW杯メンバーから複数入れ替え。初招集・初出場候補にGiay（Palmeiras）、Nicolás Paz（Como）、Barco（Chelsea）。Romeroが新キャプテン（beIN・Khel Now）"
  },
  "counter_evidence": {
   "主力欠場": {
-   "finding": "招集メンバー・欠場情報を確認できず（Web調査不可）",
-   "impact": "none",
-   "applies": false
+   "finding": "Argentina（格差側）：Messiが代表引退で不在（W杯後初戦）。Foyth・Tagliaficoも出場微妙。ただしE.Martínez、J.Álvarez、L.Martínez、E.Fernándezら主力の多くは招集済みで先発見込み。Boliviaは欠場者なし",
+   "impact": "minor",
+   "applies": true
   },
   "ローテーション": {
-   "finding": "国際親善試合で、主力起用・交代枠の扱いは未確認。親善試合は試行的起用になりうる",
+   "finding": "親善試合でScaloniがW杯組から編成を入れ替え、Giay・Paz・Barcoら新戦力をテスト予定（beIN 9/29）。主力FW陣は先発予想に残るが試験的起用リスクあり",
    "impact": "minor",
    "applies": true
   },
   "世代交代": {
-   "finding": "2026年W杯後の最初期の代表活動期にあたる可能性があるが、両国の招集方針は未確認",
+   "finding": "W杯後の新サイクル初戦。Messi引退・新顔招集で世代交代が始まっているが、中核（Álvarez・Martínez兄弟・Fernández）は継続",
    "impact": "minor",
    "applies": true
   },
   "古いH2H": {
-   "finding": "H2Hは未取得。取得済みformが2024年の親善試合のみで古い（格差根拠はEloのみ）",
-   "impact": "minor",
-   "applies": true
+   "finding": "H2Hは通算42戦（Argentina 30勝5分7敗、直近5戦無敗）を確認。個別試合の日付は未取得だが直近対戦は2024〜25年W杯予選とみられ、極端に古くはない",
+   "impact": "none",
+   "applies": false
   },
   "ホーム/アウェー差": {
-   "finding": "Argentinaホーム扱い（LiveScore）。開催地は未確認。高地開催ならBolivia有利要因だが、Bolivia開催を示す資料はない",
+   "finding": "コルドバ開催のArgentinaホーム。高地（ラパス）開催ではないためBolivia有利要因なし",
    "impact": "none",
    "applies": false
   },
   "最近の急改善": {
-   "finding": "最近の試合データがなく判断できず",
+   "finding": "Boliviaは4連敗中で直近3試合失点10。急改善の兆候なし（beIN・Khel Now）",
    "impact": "none",
    "applies": false
   },
@@ -246,5 +247,10 @@
   "common": [],
   "common_window_days": 60,
   "common_ref_date": "2026-10-01"
+ },
+ "current_competition": {
+  "left": null,
+  "right": null,
+  "source": "国際親善試合のため該当なし"
  }
 }
