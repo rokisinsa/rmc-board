@@ -1,0 +1,139 @@
+{
+ "match_id": "m20261002-95095207",
+ "data_as_of": "2026-10-02T05:34:42+09:00",
+ "unit": "セット",
+ "left": {
+  "name": "Stevenson / Willis M.",
+  "ranking": "",
+  "form": []
+ },
+ "right": {
+  "name": "Nys H. / Roger-Vas",
+  "ranking": "",
+  "form": []
+ },
+ "h2h": [
+  {
+   "date": "2026",
+   "event": "Queen's Club",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 0,
+   "score": "2-0"
+  },
+  {
+   "date": "2025",
+   "event": "Queen's Club",
+   "winner": "left",
+   "units_left": 2,
+   "units_right": 1,
+   "score": "2-1"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "tennisexplorer 試合詳細 id=3337326"
+ ],
+ "metrics": {
+  "left": {
+   "rank": null,
+   "season_wr": 55.0
+  },
+  "right": {
+   "rank": null,
+   "season_wr": 57.4
+  },
+  "source": "tennisexplorer（2026-10-02T05:34:42+09:00取得）"
+ },
+ "surface": "Round of 16",
+ "deep5": {
+  "h2h_all": "2件：2026 Queen's Club 2-0（左）／2025 Queen's Club 2-1（左）（出典：tennisexplorer 試合詳細 id=3337326。自動取得元の収録範囲内）",
+  "h2h_points": "H2H合計 Stevenson / Willis M. 4-1 Nys H. / Roger-Vas（2件・セット）",
+  "h2h_home_away": "中立会場の競技（ホーム/アウェーの区別なし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "テニスの3セットマッチ（BO1形式ではない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "テニスは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 2件（最古2025・最新2026）。格差判定はH2Hの古さに依存しない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "中立会場の競技（大会会場）でホーム/アウェー差なし",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "right": {
+   "games": 0,
+   "W": 0,
+   "L": 0,
+   "D": 0,
+   "win_rate": null,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null
+  },
+  "h2h": {
+   "games": 2,
+   "left": 2,
+   "right": 0,
+   "draw": 0,
+   "units_left": 4,
+   "units_right": 1,
+   "points_left": 4,
+   "points_right": 1,
+   "points_games": 2,
+   "avg_left": 2.0,
+   "avg_right": 0.5
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

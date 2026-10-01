@@ -1,0 +1,190 @@
+{
+ "match_id": "m20261002-46373797",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "South East Melbourne Phoenix",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "Melbourne United",
+    "comp": "Australia / NBL",
+    "ha": "H",
+    "score": "61-86",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Tasmania JackJumpers",
+    "comp": "Australia / NBL",
+    "ha": "A",
+    "score": "91-96",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Perth Wildcats",
+    "comp": "Australia / NBL",
+    "ha": "A",
+    "score": "100-79",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Perth Wildcats",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "New Zealand Breakers",
+    "comp": "Australia / NBL",
+    "ha": "H",
+    "score": "97-93",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Adelaide 36ers",
+    "comp": "Australia / NBL",
+    "ha": "H",
+    "score": "98-97",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "South East Melbourne Phoenix",
+    "comp": "Australia / NBL",
+    "ha": "H",
+    "score": "79-100",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-19",
+   "event": "Australia / NBL",
+   "winner": "left",
+   "score": "100-79"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "left.form": "自動取得元の収録が3試合のみ",
+  "right.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Australia / NBL eid=1787748"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": -3.0,
+   "pd_pg": -3.0,
+   "rd_pg": -3.0,
+   "pts_rate": 0.667
+  },
+  "right": {
+   "season_wr": 66.7,
+   "gd_pg": -5.33,
+   "pd_pg": -5.33,
+   "rd_pg": -5.33,
+   "pts_rate": 0.833
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 3,
+   "W": 1,
+   "D": 0,
+   "L": 2,
+   "gf": 252,
+   "ga": 261,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 6,
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 274,
+   "ga": 290,
+   "pts": 5,
+   "group": null
+  },
+  "source": "LiveScore順位表 Australia / NBL（2026-10-02T03:49:36+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 252,
+   "points_against": 261,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 274,
+   "points_against": 290,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 100,
+   "points_right": 79,
+   "points_games": 1,
+   "avg_left": 100.0,
+   "avg_right": 79.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

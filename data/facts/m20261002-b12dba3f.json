@@ -1,0 +1,153 @@
+{
+ "match_id": "m20261002-b12dba3f",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "DR Congo",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-01-10",
+    "opp": "Burkina Faso",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2024-01-06",
+    "opp": "Angola",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Uganda",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-03-27",
+    "opp": "Ghana",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2024-03-23",
+    "opp": "Comoros",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1897381）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1897381"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "DR Congo：0勝1分1敗／Uganda：0勝1分1敗",
+  "last10": "DR Congo：0勝1分1敗（2試合）／Uganda：0勝1分1敗（2試合）",
+  "streak": "DR Congo：1連敗／Uganda：1連分",
+  "avg_points": "DR Congo：1試合平均得失差 -0.50（2試合）／Uganda：1試合平均得失差 -2.00（2試合）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（DR Congo）はホーム。直近のホーム成績 0勝1分1敗（2試合）",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 6,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

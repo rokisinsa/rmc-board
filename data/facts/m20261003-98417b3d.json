@@ -1,0 +1,236 @@
+{
+ "match_id": "m20261003-98417b3d",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Austria U21",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-04-01",
+    "opp": "Belarus U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "Belgium U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2025-11-15",
+    "opp": "Belgium U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-15",
+    "opp": "Wales U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-11",
+    "opp": "Denmark U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2025-09-09",
+    "opp": "Belarus U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Denmark U21",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-29",
+    "opp": "Belarus U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Wales U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-11-18",
+    "opp": "Belarus U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2025-10-15",
+    "opp": "Belgium U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2025-10-11",
+    "opp": "Austria U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2025-09-09",
+    "opp": "Wales U21",
+    "comp": "Euro U21 2027 / Qualification: Group I",
+    "ha": "A",
+    "score": "6-2",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2025-10-11",
+   "event": "Euro U21 2027 / Qualification: Group I",
+   "winner": "draw",
+   "score": "1-1"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得"
+ },
+ "source_urls": [
+  "LiveScore Euro U21 2027 / Qualification: Group I eid=1669895"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 50.0,
+   "gd_pg": 0.0,
+   "pd_pg": 0.0,
+   "rd_pg": 0.0,
+   "pts_rate": 0.556
+  },
+  "right": {
+   "season_wr": 66.7,
+   "gd_pg": 1.5,
+   "pd_pg": 1.5,
+   "rd_pg": 1.5,
+   "pts_rate": 0.722
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 3,
+   "played": 6,
+   "W": 3,
+   "D": 1,
+   "L": 2,
+   "gf": 7,
+   "ga": 7,
+   "pts": 10,
+   "group": null
+  },
+  "right": {
+   "rank": 2,
+   "played": 6,
+   "W": 4,
+   "D": 1,
+   "L": 1,
+   "gf": 14,
+   "ga": 5,
+   "pts": 13,
+   "group": null
+  },
+  "source": "LiveScore順位表 Euro U21 2027 / Qualification: Group I（2026-10-02T03:49:36+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 3,
+   "L": 2,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 7,
+   "points_games": 6
+  },
+  "right": {
+   "games": 6,
+   "W": 4,
+   "L": 1,
+   "D": 1,
+   "win_rate": 66.7,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 14,
+   "points_against": 5,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 0,
+   "draw": 1,
+   "points_left": 1,
+   "points_right": 1,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 1.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

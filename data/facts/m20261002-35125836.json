@@ -1,0 +1,180 @@
+{
+ "match_id": "m20261002-35125836",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Kazakhstan",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Slovakia",
+    "comp": "UEFA Nations League / League C: Group 3",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Faroe Islands",
+    "comp": "UEFA Nations League / League C: Group 3",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Moldova",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Faroe Islands",
+    "comp": "UEFA Nations League / League C: Group 3",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Slovakia",
+    "comp": "UEFA Nations League / League C: Group 3",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore UEFA Nations League / League C: Group 3 eid=1738395）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が2試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore UEFA Nations League / League C: Group 3 eid=1738395"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 3,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 3,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Slovakia",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "1-2",
+      "res": "L",
+      "comp": "UEFA Nations League / League C: Group 3"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "0-2",
+      "res": "L",
+      "comp": "UEFA Nations League / League C: Group 3"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-30",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Faroe Islands",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "1-1",
+      "res": "D",
+      "comp": "UEFA Nations League / League C: Group 3"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "1-1",
+      "res": "D",
+      "comp": "UEFA Nations League / League C: Group 3"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-30",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

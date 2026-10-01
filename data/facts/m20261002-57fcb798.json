@@ -1,0 +1,213 @@
+{
+ "match_id": "m20261002-57fcb798",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "IK Start",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-07-04",
+    "opp": "Bodoe/Glimt",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "Tromsoe",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-09",
+    "opp": "Sandefjord",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-02-28",
+    "opp": "Bryne",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-02-25",
+    "opp": "Rosenborg",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-02-18",
+    "opp": "Donn",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-02-14",
+    "opp": "Lyn",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-02-06",
+    "opp": "Viking",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-02-04",
+    "opp": "Vindbjart",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "SK Brann",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-07-03",
+    "opp": "Kristiansund BK",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-26",
+    "opp": "Aarhus Fremad",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-02-21",
+    "opp": "Sotra Sportsklubb",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-02-14",
+    "opp": "Odds Ballklubb",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-17",
+    "opp": "Slavia Prague",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-01-11",
+    "opp": "FC Copenhagen",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Club Friendlies / Club Friendlies 2026 eid=1902181）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Club Friendlies / Club Friendlies 2026 eid=1902181"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 9,
+   "W": 3,
+   "L": 5,
+   "D": 1,
+   "win_rate": 33.3,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 5,
+    "D": 1
+   },
+   "streak": "3連敗",
+   "points_for": 11,
+   "points_against": 16,
+   "points_games": 9
+  },
+  "right": {
+   "games": 6,
+   "W": 2,
+   "L": 2,
+   "D": 2,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 2
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 13,
+   "points_against": 9,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

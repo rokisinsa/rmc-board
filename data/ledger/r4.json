@@ -34,7 +34,13 @@
   "prior_prob": 0.3093,
   "rationale": "競技枠（テニスの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 30.9%でEV+8.3%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：Tennis Abstract の当該大会Forecastページ（tennisabstract.com/current/...）は取得できたがElo予測表がJS描画で本文に無く、Dimers等の試合別モデル勝率も検索で見つからず（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 350.0,
+   "profit": 250.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-77c49cad-R",
@@ -49,7 +55,13 @@
   "prior_prob": 0.7797,
   "rationale": "競技枠（サッカーの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 78.0%でEV+2.3%が競技内で最上位。通常基準での判定は watch：EDGE+2.6pt・EV+17.7%（基準未達）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 131.2,
+   "profit": 31.2,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-15fe2bbe-R",
@@ -64,7 +76,13 @@
   "prior_prob": 0.352,
   "rationale": "競技枠（CS2の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 35.2%でEV+14.4%が競技内で最上位。通常基準での判定は watch：EDGE+6.5pt・EV+14.4%（基準未達）（前回の深掘り判定を引継ぎ）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-a85e1677-L",
@@ -94,7 +112,13 @@
   "prior_prob": 0.5711,
   "rationale": "競技枠（VALORANTの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 57.1%でEV-3.5%が競技内で最上位。通常基準での判定は rejected：EDGE+1.7pt・EV-3.5%",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-8120a114-R",
@@ -109,7 +133,13 @@
   "prior_prob": 0.3062,
   "rationale": "競技枠（Dota 2の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 30.6%でEV+21.0%が競技内で最上位。通常基準での判定は watch：base（内製log5）と市場の乖離が過大（14pt・EV+21.0%）：正式採用しない（前回の深掘り判定を引継ぎ）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-05d16bcd-L",
@@ -124,7 +154,13 @@
   "prior_prob": 0.2835,
   "rationale": "競技枠（アイスホッケーの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 28.3%でEV+3.5%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：チェコ・エクストラリーガの試合別独立モデル勝率（Elo予測等）を探したが公開なし（市場確率の流用は禁止）（前回の深掘り判定を引継ぎ）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-a0ae94fe-R",
@@ -139,7 +175,13 @@
   "prior_prob": 0.8604,
   "rationale": "競技枠（バスケットボールの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 86.0%でEV-4.4%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：Dimers/numberFire/ESPN BPI等の外部独立モデルは当該リーグ非対応。検索結果にも独立モデル確率なし（市場確率の流用は禁止）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 111.1,
+   "profit": 11.1,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-23d0307f-L",
@@ -154,7 +196,13 @@
   "prior_prob": 0.6793,
   "rationale": "競技枠（LoLの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 67.9%でEV-5.9%が競技内で最上位。通常基準での判定は rejected：EDGE+0.3pt・EV-5.9%",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "win",
+   "payout": 138.5,
+   "profit": 38.5,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-3d018c3c-R",
@@ -169,7 +217,13 @@
   "prior_prob": 0.4733,
   "rationale": "競技枠（ダーツの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 47.3%でEV+13.6%が競技内で最上位（市場との差が大きい候補しかなく、差が最小のものを選択）。通常基準での判定は rejected：独立ベース確率なし：外部独立モデル（Dimers等）は競技対象外、他の予測サイトは取得権限がなく確認できず（市場確率の流用は禁止）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-a82b99b9-R",
@@ -184,7 +238,13 @@
   "prior_prob": 0.5558,
   "rationale": "競技枠（野球の中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 55.6%でEV-0.3%が競技内で最上位。通常基準での判定は watch：EDGE+2.1pt・EV-0.3%（基準未達）",
   "pick_type": "sport_floor",
-  "result": null
+  "result": {
+   "outcome": "loss",
+   "payout": 0.0,
+   "profit": -100.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
  },
  {
   "entry_id": "r4-m20260930-53588cfa-L",
@@ -198,6 +258,322 @@
   "odds_source": "Bovada（Bovada・17:56取得・bov:31420369）",
   "prior_prob": 0.8651,
   "rationale": "競技枠（Rainbow Sixの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 86.5%でEV-4.8%が競技内で最上位。通常基準での判定は rejected：EDGE+1.0pt・EV-4.8%",
+  "pick_type": "sport_floor",
+  "result": {
+   "outcome": "win",
+   "payout": 110.0,
+   "profit": 10.0,
+   "settled_at": "2026-10-02T06:46:40+09:00",
+   "run_id": "run-20261002-0600"
+  }
+ },
+ {
+  "entry_id": "r4-m20261002-d3ba3a98-R",
+  "match_id": "m20261002-d3ba3a98",
+  "market": "Match Winner（2way）",
+  "selection": "Faria J.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.38,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338039）",
+  "prior_prob": 0.4721,
+  "rationale": "④：market 0.397（no-vig）＋base 0.547（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.472。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-a46e4794-L",
+  "match_id": "m20261002-a46e4794",
+  "market": "Match Winner（2way）",
+  "selection": "Ymer E.",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 3.25,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337276）",
+  "prior_prob": 0.3414,
+  "rationale": "④：market 0.290（no-vig）＋base 0.392（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.341。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-f91d005b-R",
+  "match_id": "m20261002-f91d005b",
+  "market": "Match Winner（2way）",
+  "selection": "Sorribes Tormo S.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 1.66,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Pinnacle（tennisexplorer・06:44取得・te:3338193）",
+  "prior_prob": 0.6451,
+  "rationale": "④：market 0.574（no-vig）＋base 0.716（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.645。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-faa6239f-L",
+  "match_id": "m20261002-faa6239f",
+  "market": "Match Winner（2way）",
+  "selection": "Alexandrova E.",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.67,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337476）",
+  "prior_prob": 0.632,
+  "rationale": "④：market 0.568（no-vig）＋base 0.696（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.632。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-308456be-R",
+  "match_id": "m20261002-308456be",
+  "market": "Match Winner（2way）",
+  "selection": "Parry D.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 1.67,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337547）",
+  "prior_prob": 0.6348,
+  "rationale": "④：market 0.568（no-vig）＋base 0.701（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.635。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-b664699a-L",
+  "match_id": "m20261002-b664699a",
+  "market": "Match Winner（2way）",
+  "selection": "Molcan A.",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 4.2,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "1xBet（tennisexplorer・06:44取得・te:3338045）",
+  "prior_prob": 0.2903,
+  "rationale": "④：market 0.229（no-vig）＋base 0.351（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.290。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-20578fea-R",
+  "match_id": "m20261002-20578fea",
+  "market": "Match Winner（2way）",
+  "selection": "Wei S.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 4.0,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337563）",
+  "prior_prob": 0.2974,
+  "rationale": "④：market 0.234（no-vig）＋base 0.361（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.297。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-8a1bd8cb-R",
+  "match_id": "m20261002-8a1bd8cb",
+  "market": "Match Winner（2way）",
+  "selection": "Darderi L.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 1.67,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338041）",
+  "prior_prob": 0.6187,
+  "rationale": "④：market 0.568（no-vig）＋base 0.669（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.619。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-622c5bf6-R",
+  "match_id": "m20261002-622c5bf6",
+  "market": "Match Winner（2way）",
+  "selection": "Boulter K.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 6.5,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337569）",
+  "prior_prob": 0.2075,
+  "rationale": "④：market 0.146（no-vig）＋base 0.269（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.208。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-b15b30d3-R",
+  "match_id": "m20261002-b15b30d3",
+  "market": "Match Winner（2way）",
+  "selection": "Lock B.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.0,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338171）",
+  "prior_prob": 0.5312,
+  "rationale": "④：market 0.462（no-vig）＋base 0.600（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.531。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-1dab99f5-R",
+  "match_id": "m20261002-1dab99f5",
+  "market": "Match Winner（2way）",
+  "selection": "Hesse A.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.62,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338161）",
+  "prior_prob": 0.4263,
+  "rationale": "④：market 0.355（no-vig）＋base 0.498（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.426。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-8621e808-R",
+  "match_id": "m20261002-8621e808",
+  "market": "Match Winner（2way）",
+  "selection": "Tiafoe F.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 3.2,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338089）",
+  "prior_prob": 0.3443,
+  "rationale": "④：market 0.298（no-vig）＋base 0.390（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.344。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-62361713-R",
+  "match_id": "m20261002-62361713",
+  "market": "Match Winner（2way）",
+  "selection": "Hercog P.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 3.4,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338355）",
+  "prior_prob": 0.322,
+  "rationale": "④：market 0.277（no-vig）＋base 0.367（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.322。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-4df934e0-R",
+  "match_id": "m20261002-4df934e0",
+  "market": "Match Winner（2way）",
+  "selection": "Djokovic N.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 1.29,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3337719）",
+  "prior_prob": 0.8092,
+  "rationale": "④：market 0.744（no-vig）＋base 0.874（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.809。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-e3223cbd-R",
+  "match_id": "m20261002-e3223cbd",
+  "market": "Match Winner（2way）",
+  "selection": "Midon L.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.85,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Betsson（tennisexplorer・06:44取得・te:3337831）",
+  "prior_prob": 0.3724,
+  "rationale": "④：market 0.325（no-vig）＋base 0.420（Tennis Abstract Elo（総合））を等分、expert_adjustment 0 → final 0.372。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-74ee9ccc-L",
+  "match_id": "m20261003-74ee9ccc",
+  "market": "Moneyline",
+  "selection": "Energie Karlovy Vary",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 1.833,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31547580）",
+  "prior_prob": 0.5751,
+  "rationale": "④：market 0.510（no-vig）＋base 0.640（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.575。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-f7316ba1-L",
+  "match_id": "m20261003-f7316ba1",
+  "market": "Moneyline",
+  "selection": "Mlada Boleslav",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 2.7,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31547579）",
+  "prior_prob": 0.3964,
+  "rationale": "④：market 0.348（no-vig）＋base 0.444（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.396。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-ea3ebba4-R",
+  "match_id": "m20261003-ea3ebba4",
+  "market": "Match Winner（2way）",
+  "selection": "Vives Marcos P.",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.62,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "bet365（tennisexplorer・06:44取得・te:3338225）",
+  "prior_prob": 0.4273,
+  "rationale": "④：market 0.355（no-vig）＋base 0.500（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.427。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-4e740a08-L",
+  "match_id": "m20261003-4e740a08",
+  "market": "Moneyline",
+  "selection": "SC Rapperswil-Jona Lakers",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 2.3,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31390582）",
+  "prior_prob": 0.4623,
+  "rationale": "④：market 0.408（no-vig）＋base 0.516（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.462。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-590231aa-R",
+  "match_id": "m20261003-590231aa",
+  "market": "Moneyline",
+  "selection": "Spartiates de Marseille",
+  "selection_key": "R",
+  "stake": 100.0,
+  "odds_taken": 2.1,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31607391）",
+  "prior_prob": 0.5114,
+  "rationale": "④：market 0.446（no-vig）＋base 0.577（RMC log5（直近シリーズ勝率・ラプラス補正、）を等分、expert_adjustment 0 → final 0.511。",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261003-b11d5ca4-L",
+  "match_id": "m20261003-b11d5ca4",
+  "market": "3-Way Moneyline",
+  "selection": "Qviding FIF",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 3.4,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31501778）",
+  "prior_prob": 0.3186,
+  "rationale": "競技枠（サッカーの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 31.9%でEV+8.3%が競技内で最上位。通常基準での判定は rejected：独立ベース確率なし：サッカー1X2は引分けを含む3択の独立モデルが必要（log5は2択のため使わない）（市場確率の流用は禁止）",
+  "pick_type": "sport_floor",
+  "result": null
+ },
+ {
+  "entry_id": "r4-m20261002-a67b98ea-L",
+  "match_id": "m20261002-a67b98ea",
+  "market": "Moneyline",
+  "selection": "Dorados de Chihuahua",
+  "selection_key": "L",
+  "stake": 100.0,
+  "odds_taken": 2.95,
+  "locked_at": "2026-10-02T06:46:40+09:00",
+  "odds_source": "Bovada（Bovada・06:42取得・bov:31522967）",
+  "prior_prob": 0.3232,
+  "rationale": "競技枠（バスケットボールの中で最上位・全競技から必ず出す）：市場と独立勝率を等分したfinal 32.3%でEV-4.6%が競技内で最上位。通常基準での判定は rejected：EDGE+1.0pt・EV-4.6%",
   "pick_type": "sport_floor",
   "result": null
  }

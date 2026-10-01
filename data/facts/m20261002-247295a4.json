@@ -1,0 +1,192 @@
+{
+ "match_id": "m20261002-247295a4",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Anguilla",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Aruba",
+    "comp": "CONCACAF Nations League / League C: Group 2",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Antigua and Barbuda",
+    "comp": "CONCACAF Nations League / League C: Group 2",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Antigua and Barbuda",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Anguilla",
+    "comp": "CONCACAF Nations League / League C: Group 2",
+    "ha": "H",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Aruba",
+    "comp": "CONCACAF Nations League / League C: Group 2",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-27",
+   "event": "CONCACAF Nations League / League C: Group 2",
+   "winner": "right",
+   "score": "0-5"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore CONCACAF Nations League / League C: Group 2 eid=1856577"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Anguilla：0勝2敗／Antigua and Barbuda：1勝1敗",
+  "last10": "Anguilla：0勝2敗（2試合）／Antigua and Barbuda：1勝1敗（2試合）",
+  "streak": "Anguilla：2連敗／Antigua and Barbuda：1連勝",
+  "avg_points": "Anguilla：1試合平均得失差 -3.50（2試合）／Antigua and Barbuda：1試合平均得失差 +2.00（2試合）",
+  "ranking": "Anguilla 3位（2試合 勝点0・0勝0分2敗 得失0-7）／Antigua and Barbuda 2位（2試合 勝点3・1勝0分1敗 得失5-1）（LiveScore順位表 CONCACAF Nations League / League C: Group 2・2026-10-02T03:49:36+09:00取得）",
+  "h2h_all": "1件：2026-09-27 CONCACAF Nations League / League C: Group 2 0-5（右）（出典：LiveScore CONCACAF Nations League / League C: Group 2 eid=1856577。自動取得元の収録範囲内）",
+  "h2h_points": "H2H合計 Anguilla 0-5 Antigua and Barbuda（1件・得点）",
+  "h2h_home_away": "2026-09-27 Antigua and Barbuda（ホーム）5-0 Anguilla",
+  "common_60d": "60日以内の共通相手1：左 Aruba 0-2L（2026-09-30） ／ 右 Aruba 0-1L（2026-09-24）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 1件（最古2026・最新2026）。格差判定はH2Hの古さに依存しない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Antigua and Barbuda）はアウェー。直近のアウェー成績 0勝0分1敗（1試合）",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 0,
+   "points_against": 7,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 1,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 1,
+   "draw": 0,
+   "points_left": 0,
+   "points_right": 5,
+   "points_games": 1,
+   "avg_left": 0.0,
+   "avg_right": 5.0
+  },
+  "common": [
+   {
+    "opp": "Aruba",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "CONCACAF Nations League / League C: Group 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "0-1",
+      "res": "L",
+      "comp": "CONCACAF Nations League / League C: Group 2"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-30",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

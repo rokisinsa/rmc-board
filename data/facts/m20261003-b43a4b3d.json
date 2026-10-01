@@ -1,0 +1,262 @@
+{
+ "match_id": "m20261003-b43a4b3d",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Bayer Leverkusen (W)",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-20",
+    "opp": "SC Freiburg W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-15",
+    "opp": "Bayern Munich W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Hoffenheim W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Wolfsburg W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "RB Leipzig W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Werder Bremen (W)",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-22",
+    "opp": "VfB Stuttgart",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Hamburger SV",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Wolfsburg W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "RB Leipzig W",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "Mainz 05",
+    "comp": "Germany / Frauen-Bundesliga",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Germany / Frauen-Bundesliga eid=1834755）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Germany / Frauen-Bundesliga eid=1834755"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 60.0,
+   "gd_pg": 0.4,
+   "pd_pg": 0.4,
+   "rd_pg": 0.4,
+   "pts_rate": 0.6
+  },
+  "right": {
+   "season_wr": 60.0,
+   "gd_pg": 0.6,
+   "pd_pg": 0.6,
+   "rd_pg": 0.6,
+   "pts_rate": 0.667
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 6,
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 9,
+   "ga": 7,
+   "pts": 9,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 5,
+   "W": 3,
+   "D": 1,
+   "L": 1,
+   "gf": 8,
+   "ga": 5,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Germany / Frauen-Bundesliga（2026-10-02T03:49:36+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 7,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 3,
+   "L": 1,
+   "D": 1,
+   "win_rate": 60.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 8,
+   "points_against": 5,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Wolfsburg W",
+    "left": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "1-2",
+      "res": "L",
+      "comp": "Germany / Frauen-Bundesliga"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "2-3",
+      "res": "L",
+      "comp": "Germany / Frauen-Bundesliga"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-06",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "RB Leipzig W",
+    "left": [
+     {
+      "date": "2026-08-23",
+      "iso": "2026-08-23",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Germany / Frauen-Bundesliga"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Germany / Frauen-Bundesliga"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-08-31",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

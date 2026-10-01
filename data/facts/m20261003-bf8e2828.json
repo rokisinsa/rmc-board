@@ -1,0 +1,217 @@
+{
+ "match_id": "m20261003-bf8e2828",
+ "data_as_of": "2026-10-02T06:34:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "India",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-11-18",
+    "opp": "Malaysia",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2024-10-12",
+    "opp": "Vietnam",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ],
+  "lineup": []
+ },
+ "right": {
+  "name": "Brazil",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2024-06-13",
+    "opp": "USA",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2024-06-09",
+    "opp": "Mexico",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2024-03-27",
+    "opp": "Spain",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "3-3",
+    "res": "D"
+   },
+   {
+    "date": "2024-03-24",
+    "opp": "England",
+    "comp": "International Friendlies / Friendlies 2024",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "facts の Brazil 直近成績（USA・Mexico・Spain・England）に、報道上の 9/25・9/29 オーストラリア戦2試合が含まれていない＝facts の form が古い可能性",
+  "長距離移動・高温多湿の会場",
+  "親善試合の後半は大量交代が通例"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1851440）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1851440",
+  "https://www.footballcounter.com/2026/india-vs-brazil-squads-announced-for-historic-kolkata-clash/",
+  "https://www.outlookindia.com/sports/football/india-vs-brazil-internatonal-friendly-2026-carlo-ancelotti-reaction"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "India：0勝2分0敗／Brazil：2勝2分0敗",
+  "last10": "India：0勝2分0敗（2試合）／Brazil：2勝2分0敗（4試合）",
+  "streak": "India：2連分／Brazil：1連分",
+  "avg_points": "India：1試合平均得失差 +0.00（2試合）／Brazil：1試合平均得失差 +0.50（4試合）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし",
+  "absences": "Football Counter（2026-09-15）：Brazil（監督 Ancelotti）は Vinicius Jr、Raphinha、Marquinhos、Bruno Guimarães らを含む26人。Neymar、Casemiro、Danilo、Fabinho、Alex Sandro は非招集（ベテラン外し・若手重視）。India（監督 Khalid Jamil）は Gurpreet Singh Sandhu、Anwar Ali、Sahal Abdul Samad らの26人。負傷離脱の報道は検索範囲で見当たらず",
+  "roster_changes": "Brazil はW杯後の新サイクルで若手登用を強調（Football Counter）。India は Khalid Jamil 体制",
+  "ranking": "FIFAランク Brazil 5位／India 138位（Outlook India、2026-09-23公開・09-30更新）",
+  "current_competition": "国際親善試合（コルカタ VYBK、2026-10-03 19:30 IST）。大会成績・順位はなし。Brazil は9/25・9/29にオーストラリアと親善試合2試合の後の遠征（Football Counter）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Brazil）はアウェー。直近のアウェー成績 2勝2分0敗（4試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "Brazil は Vinicius Jr・Raphinha・Marquinhos ら主力を招集。非招集はベテラン（Neymar・Casemiro等）で、格差を崩すほどではない（Football Counter）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "親善試合のため交代枠が多く、遠征連戦（豪州2戦→インド）で出場時間分配の可能性。ただし Ancelotti は『我々に親善試合はない』とフルメンバーで臨むと発言（Outlook India）",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "Brazil はW杯後の新フェーズで若手重視と報道。それでも主力級は招集済み",
+   "impact": "minor",
+   "applies": true
+  },
+  "最近の急改善": {
+   "finding": "India の直近は Malaysia 1-1、Vietnam 1-1（facts）で急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Brazil は大会後の世代交代期だが主力は残る。India 側の大幅変更報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "親善試合で勝敗の利害は小さい（Brazil 側の動機は相対的に低い）が、監督は本気度を強調",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261002-0600",
+   "searches": 2,
+   "heaviest_step": "招集・ランキング情報の検索（olympics.com がrobotsで取得不可、別記事で補完）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 0,
+   "L": 0,
+   "D": 2,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "streak": "2連分",
+   "points_for": 2,
+   "points_against": 2,
+   "points_games": 2
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 0,
+   "D": 2,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 8,
+   "points_against": 6,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "match_id": "m20261002-48e78654",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Erie Otters",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Kitchener Rangers",
+    "comp": "Canada / OHL",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Kitchener Rangers",
+    "comp": "Canada / OHL",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Guelph Storm",
+    "comp": "Canada / OHL",
+    "ha": "A",
+    "score": "5-1",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Peterborough Petes",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Ottawa 67's",
+    "comp": "Canada / OHL",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Brantford Bulldogs",
+    "comp": "Canada / OHL",
+    "ha": "A",
+    "score": "2-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Sarnia Sting",
+    "comp": "Canada / OHL",
+    "ha": "H",
+    "score": "7-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Sudbury Wolves",
+    "comp": "Canada / OHL",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Kingston Frontenacs",
+    "comp": "Canada / OHL",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Canada / OHL eid=1796707）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Canada / OHL eid=1796707"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 12,
+   "points_against": 8,
+   "points_games": 3
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 16,
+   "points_against": 23,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

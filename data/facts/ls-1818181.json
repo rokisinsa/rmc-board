@@ -1,0 +1,331 @@
+{
+ "match_id": "ls-1818181",
+ "data_as_of": "2026-10-02T06:38:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "1. EV Weiden",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "ETC Crimmitschau",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Bietigheim Steelers",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "3-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "EC Bad Nauheim",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "ECDC Memmingen",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "Weiden：Reisnecker（負傷）、Gläser（移籍希望）不在、DF6人",
+   "Regensburg：Ward 出場時間限定（外国人枠）"
+  ]
+ },
+ "right": {
+  "name": "Eisbaeren Regensburg",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "EVL Landshut",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "7-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "EC Bad Nauheim",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "EV Ravensburg",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Bietigheim Steelers",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "4試合のみの小サンプル",
+  "オーバープファルツ・ダービー（同地域対決）",
+  "Weidenはホーム・前節で今季初勝利"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Germany / DEL2 eid=1818181）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "goalie": "先発GK: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+ },
+ "source_urls": [
+  "LiveScore Germany / DEL2 eid=1818181",
+  "https://www.bluedevilsweiden.de/blue-devils-weiden-empfangen-regensburg-zum-oberpfalz-derby-anschliessend-auswaerts-gegen-duesseldorfer-eg/",
+  "https://www.oberpfalzecho.de/sport/eishockey/feiern-die-blue-devils-im-oberpfalzderby-gegen-regensburg-den-naechsten-sieg"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 25.0,
+   "gd_pg": -1.25,
+   "pd_pg": -1.25,
+   "rd_pg": -1.25,
+   "pts_rate": 0.417
+  },
+  "right": {
+   "season_wr": 75.0,
+   "gd_pg": 1.75,
+   "pd_pg": 1.75,
+   "rd_pg": 1.75,
+   "pts_rate": 0.833
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 4,
+   "W": 1,
+   "D": 0,
+   "L": 3,
+   "gf": 12,
+   "ga": 17,
+   "pts": 5,
+   "group": null
+  },
+  "right": {
+   "rank": 3,
+   "played": 4,
+   "W": 3,
+   "D": 0,
+   "L": 1,
+   "gf": 16,
+   "ga": 9,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Germany / DEL2（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "1. EV Weiden：1勝3敗／Eisbaeren Regensburg：3勝1敗",
+  "last10": "1. EV Weiden：1勝3敗（4試合）／Eisbaeren Regensburg：3勝1敗（4試合）",
+  "streak": "1. EV Weiden：1連勝／Eisbaeren Regensburg：2連勝",
+  "avg_points": "1. EV Weiden：1試合平均得失差 -1.25（4試合）／Eisbaeren Regensburg：1試合平均得失差 +1.75（4試合）",
+  "current_competition": "1. EV Weiden {'rank': 9, 'played': 4, 'W': 1, 'D': 0, 'L': 3, 'gf': 12, 'ga': 17, 'pts': 5, 'group': None}／Eisbaeren Regensburg {'rank': 3, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 16, 'ga': 9, 'pts': 10, 'group': None}（LiveScore順位表 Germany / DEL2（2026-10-02T03:49:36+09:00取得））",
+  "ranking": "1. EV Weiden 9位（4試合 勝点5・1勝0分3敗 得失12-17）／Eisbaeren Regensburg 3位（4試合 勝点10・3勝0分1敗 得失16-9）（LiveScore順位表 Germany / DEL2・2026-10-02T03:49:36+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手2：左 Bietigheim Steelers 3-7L（2026-09-26） ／ 右 Bietigheim Steelers 4-1W（2026-09-19）／左 EC Bad Nauheim 3-4L（2026-09-21） ／ 右 EC Bad Nauheim 2-1W（2026-09-26）",
+  "absences": "Weiden：Filip Reisnecker（負傷）、Luca Gläser（移籍希望で不在）。Philipp Faulhaber が他チームへのライセンス派遣でDFは6人のみ（oberpfalzecho.de 2026-10-01）。Regensburg：欠場の記載なし",
+  "roster_changes": "Regensburg：元Weidenのエース Tyler Ward が加入も、Corey Trivino の出場資格問題が未解決で外国人枠の都合により出場機会は限定的（同記事）。Weiden：監督Mikhail Nemirovsky、変更の報道なし"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "アイスホッケーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Eisbaeren Regensburg）はアウェー。直近のアウェー成績 1勝0分1敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（1. EV Weiden）の直近3試合 2026-09-28 3-2W・2026-09-26 3-7L・2026-09-21 3-4L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "Regensburg（上位側）の欠場記載なし。Weiden（下位側）はReisnecker負傷・Gläser不在でDF6人と手薄（oberpfalzecho.de）",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "ローテーションの報道なし。Weidenは同じ布陣を継続予定",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "世代交代の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "Regensburgは外国人選手（Trivino）の出場資格が未確定で、Wardの起用も制限されている。編成に流動性あり",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン序盤（4試合消化）で消化試合ではない",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261002-0600",
+   "searches": 2,
+   "heaviest_step": "Weiden公式記事に欠場記載がなく地元紙で再確認"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 12,
+   "points_against": 17,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 16,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Bietigheim Steelers",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "3-7",
+      "res": "L",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "EC Bad Nauheim",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "3-4",
+      "res": "L",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

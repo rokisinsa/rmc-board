@@ -163,6 +163,12 @@ RULES = {
     ],
 }
 RULES["ラグビーリーグ"] = RULES["ラグビー"]
+# 2026-10-02：配信に MMA・オージーボールが載り「条件未定義」で一次スクリーニング漏れ（①探索complete 不成立）になったため追加
+RULES["MMA"] = list(C_COMMON)      # 総合格闘技：直近戦績・連勝/連敗（Rating・対戦相手レベルは深掘りで確認）
+RULES["オージーボール"] = C_COMMON + [
+    _r("pts_rate_diff", "リーグ内の勝点率差.350以上", 0.350),
+    _r("gd_pg_diff", "1試合平均の得失点差の差20以上", 20),
+]
 BOXING_REQUIRED = ("rating", "opp_level", "weight_class", "recent_fights", "age", "layoff")
 BOXING_LABEL = {"rating": "BoxRec等のRating", "opp_level": "対戦相手レベル", "weight_class": "階級", "recent_fights": "直近試合",
                 "age": "年齢", "layoff": "長期ブランク"}

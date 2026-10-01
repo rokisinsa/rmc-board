@@ -1,0 +1,285 @@
+{
+ "match_id": "ls-1881632",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Correcaminos de la UAT II",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Heroes de Zaci",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Guerreros de Autlan",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "ACF Zapotlanejo",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Atletico Saltillo Soccer",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Mineros de Fresnillo",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "La Tribu de Ciudad Juarez",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Real Apodaca FC",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Vaqueros Reynosa",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Guerreros de Autlan",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "ACF Zapotlanejo",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Atletico Saltillo Soccer",
+    "comp": "Mexico / Liga Premier: Serie A Clausura",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Mexico / Liga Premier: Serie A Clausura eid=1881632）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore Mexico / Liga Premier: Serie A Clausura eid=1881632"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Correcaminos de la UAT II：1勝2分2敗／La Tribu de Ciudad Juarez：4勝1敗",
+  "last10": "Correcaminos de la UAT II：1勝2分2敗（5試合）／La Tribu de Ciudad Juarez：4勝1敗（5試合）",
+  "streak": "Correcaminos de la UAT II：1連勝／La Tribu de Ciudad Juarez：2連勝",
+  "avg_points": "Correcaminos de la UAT II：1試合平均得失差 -0.40（5試合）／La Tribu de Ciudad Juarez：1試合平均得失差 +1.80（5試合）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手3：左 Guerreros de Autlan 0-3L（2026-09-28） ／ 右 Guerreros de Autlan 1-2L（2026-09-14）／左 ACF Zapotlanejo 1-1D（2026-09-20） ／ 右 ACF Zapotlanejo 4-0W（2026-09-06）／左 Atletico Saltillo Soccer 0-2L（2026-09-13） ／ 右 Atletico Saltillo Soccer 4-1W（2026-08-30）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（La Tribu de Ciudad Juarez）はアウェー。直近のアウェー成績 1勝0分1敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（Correcaminos de la UAT II）の直近3試合 2026-10-01 3-0W・2026-09-28 0-3L・2026-09-20 1-1D：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 1,
+   "L": 2,
+   "D": 2,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 2
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 4,
+   "points_against": 6,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 14,
+   "points_against": 5,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Guerreros de Autlan",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "1-2",
+      "res": "L",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "ACF Zapotlanejo",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "4-0",
+      "res": "W",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Atletico Saltillo Soccer",
+    "left": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Mexico / Liga Premier: Serie A Clausura"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-13",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

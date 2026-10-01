@@ -1,0 +1,207 @@
+{
+ "match_id": "m20261004-2aef4687",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Switzerland",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Scotland",
+    "comp": "UEFA Nations League / League B: Group 1",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "North Macedonia",
+    "comp": "UEFA Nations League / League B: Group 1",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Slovenia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "North Macedonia",
+    "comp": "UEFA Nations League / League B: Group 1",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Scotland",
+    "comp": "UEFA Nations League / League B: Group 1",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore UEFA Nations League / League B: Group 1 eid=1738261）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore UEFA Nations League / League B: Group 1 eid=1738261"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Switzerland：2勝0敗／Slovenia：1勝1分0敗",
+  "last10": "Switzerland：2勝0敗（2試合）／Slovenia：1勝1分0敗（2試合）",
+  "streak": "Switzerland：2連勝／Slovenia：1連勝",
+  "avg_points": "Switzerland：1試合平均得失差 +3.00（2試合）／Slovenia：1試合平均得失差 +1.00（2試合）",
+  "ranking": "Switzerland 1位（2試合 勝点6・2勝0分0敗 得失6-0）／Slovenia 2位（2試合 勝点4・1勝1分0敗 得失2-0）（LiveScore順位表 UEFA Nations League / League B: Group 1・2026-10-02T03:49:36+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手2：左 Scotland 3-0W（2026-09-30） ／ 右 Scotland 0-0D（2026-09-26）／左 North Macedonia 3-0W（2026-09-27） ／ 右 North Macedonia 2-0W（2026-09-30）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Switzerland）はホーム。直近のホーム成績 0勝0分0敗（0試合）",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 6,
+   "points_against": 0,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 0,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Scotland",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "3-0",
+      "res": "W",
+      "comp": "UEFA Nations League / League B: Group 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "0-0",
+      "res": "D",
+      "comp": "UEFA Nations League / League B: Group 1"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-30",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "North Macedonia",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-0",
+      "res": "W",
+      "comp": "UEFA Nations League / League B: Group 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "2-0",
+      "res": "W",
+      "comp": "UEFA Nations League / League B: Group 1"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-30",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

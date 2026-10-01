@@ -1,0 +1,330 @@
+{
+ "match_id": "m20261003-394080ea",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Chamonix Mont-Blanc Pionieers",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Marseille",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Briancon",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Cergy Pontoise",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "6-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Anglet",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Amiens",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "6-5",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Gap",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Boxers de Bordeaux",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Nice",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "1-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Rouen",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Marseille",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "2-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-23",
+    "opp": "Briancon",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Cergy Pontoise",
+    "comp": "France / Ligue Magnus",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Anglet",
+    "comp": "France / Ligue Magnus",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore France / Ligue Magnus eid=1804893）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore France / Ligue Magnus eid=1804893"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 66.7,
+   "gd_pg": 1.0,
+   "pd_pg": 1.0,
+   "rd_pg": 1.0,
+   "pts_rate": 0.722
+  },
+  "right": {
+   "season_wr": 50.0,
+   "gd_pg": -0.33,
+   "pd_pg": -0.33,
+   "rd_pg": -0.33,
+   "pts_rate": 0.444
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 4,
+   "played": 6,
+   "W": 4,
+   "D": 0,
+   "L": 2,
+   "gf": 22,
+   "ga": 16,
+   "pts": 13,
+   "group": null
+  },
+  "right": {
+   "rank": 8,
+   "played": 6,
+   "W": 3,
+   "D": 0,
+   "L": 3,
+   "gf": 12,
+   "ga": 14,
+   "pts": 8,
+   "group": null
+  },
+  "source": "LiveScore順位表 France / Ligue Magnus（2026-10-02T03:49:36+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 4,
+   "L": 2,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 22,
+   "points_against": 16,
+   "points_games": 6
+  },
+  "right": {
+   "games": 6,
+   "W": 2,
+   "L": 3,
+   "D": 1,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "streak": "3連敗",
+   "points_for": 11,
+   "points_against": 14,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Marseille",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "2-3",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-5",
+      "res": "L",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-30",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Briancon",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-0",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "1-1",
+      "res": "D",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Cergy Pontoise",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "6-4",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "3-1",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Anglet",
+    "left": [
+     {
+      "date": "2026-09-23",
+      "iso": "2026-09-23",
+      "score": "4-2",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "3-0",
+      "res": "W",
+      "comp": "France / Ligue Magnus"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-23",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "match_id": "m20261004-a3fee78d",
+ "data_as_of": "2026-10-02T06:21:42+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Spain",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Croatia",
+    "comp": "UEFA Nations League / League A: Group 3",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "England",
+    "comp": "UEFA Nations League / League A: Group 3",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   }
+  ],
+  "lineup": []
+ },
+ "right": {
+  "name": "Czechia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "England",
+    "comp": "UEFA Nations League / League A: Group 3",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Croatia",
+    "comp": "UEFA Nations League / League A: Group 3",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "Spainの1窓3連戦目での入替"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore UEFA Nations League / League A: Group 3 eid=1738303）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore UEFA Nations League / League A: Group 3 eid=1738303",
+  "https://www.goal.com/en/news/spain-czechia-uefa-nations-league-preview/blt1a30ce7ed5c64fff"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Spain：2勝0敗／Czechia：0勝2敗",
+  "last10": "Spain：2勝0敗（2試合）／Czechia：0勝2敗（2試合）",
+  "streak": "Spain：2連勝／Czechia：2連敗",
+  "avg_points": "Spain：1試合平均得失差 +2.00（2試合）／Czechia：1試合平均得失差 -1.50（2試合）",
+  "ranking": "Spain 1位（2試合 勝点6・2勝0分0敗 得失7-3）／Czechia 4位（2試合 勝点0・0勝0分2敗 得失1-4）（LiveScore順位表 UEFA Nations League / League A: Group 3・2026-10-02T03:49:36+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手2：左 Croatia 4-1W（2026-09-30） ／ 右 Croatia 1-2L（2026-09-27）／左 England 3-2W（2026-09-27） ／ 右 England 0-2L（2026-09-30）",
+  "absences": "Goal（2026-09-30）：Spainは負傷・出場停止の報告なし。ただし検索結果見出しで今回招集からNico Williams（大腿負傷）とPedro Porro（2026-09-19記事）の辞退を確認（本文未確認）。CzechiaはPavel Sulcがイングランド戦退場で出場停止",
+  "roster_changes": "監督はSpain：Luis de la Fuente、Czechia：Santi Denia。交代報道なし。Spainは今回招集に新顔4人（Yahoo見出し）",
+  "current_competition": "UEFA Nations League A組グループ3：Spain 1位（2勝・4-1 Croatia、3-2 England）／Czechia 4位（0点・1-2 Croatia、0-2 England）。Spainは9連勝・40戦無敗（Goal）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Spain）はホーム。直近のホーム成績 1勝0分0敗（1試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "Spain側でNico Williams・Pedro Porroが招集辞退（見出しで確認）。層が厚くSpainは直近も4-1勝利で影響は限定的",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "9/27・9/30・10/3と1窓3試合目で、首位Spainは一部入替の可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "新顔4人招集の見出しあり。ただし主力中心の構成で格差を崩すほどではない",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "監督交代なし。辞退者の補充のみ",
+   "impact": "none",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "6試合中3試合目で両者とも順位（決勝T・降格回避）に関与。消化試合ではない",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "Czechiaは今大会2連敗・主力Sulc出場停止で改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261002-0600",
+   "searches": 2,
+   "heaviest_step": "プレビュー記事の検索と本文確認"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 7,
+   "points_against": 3,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 1,
+   "points_against": 4,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Croatia",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "4-1",
+      "res": "W",
+      "comp": "UEFA Nations League / League A: Group 3"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "1-2",
+      "res": "L",
+      "comp": "UEFA Nations League / League A: Group 3"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-30",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "England",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-2",
+      "res": "W",
+      "comp": "UEFA Nations League / League A: Group 3"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "UEFA Nations League / League A: Group 3"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-30",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,294 @@
+{
+ "match_id": "m20261002-ee49c97d",
+ "data_as_of": "2026-10-02T06:23:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "ベトナム",
+  "ranking": "FIFA ASEAN Cup 2026 グループB 2試合1勝1敗（勝点3）。グループ首位通過の可能性消滅（vietnam.vn）",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "タイ",
+    "comp": "FIFA ASEAN Cup 2026 グループB",
+    "ha": "N",
+    "score": "0-2",
+    "res": "L",
+    "detail": "日付はvietnam.vn記載（同節の比-パ戦はDawnで9/29）"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "フィリピン",
+    "comp": "FIFA ASEAN Cup 2026 グループB",
+    "ha": "N",
+    "score": "1-0",
+    "res": "W",
+    "detail": "バンドン開催（ground.news）"
+   }
+  ],
+  "lineup": [
+   "FW グエン・スアン・ソン（Xuan Son）ハムストリング負傷で大会離脱",
+   "監督キム・サンシク、攻撃的オプションを試す意向（vietnam.vn）"
+  ]
+ },
+ "right": {
+  "name": "パキスタン",
+  "ranking": "FIFAランク198位（Dawn）。グループB 2試合0勝1分1敗（勝点1）",
+  "form": [
+   {
+    "date": "2026-09-29",
+    "opp": "フィリピン",
+    "comp": "FIFA ASEAN Cup 2026 グループB",
+    "ha": "N",
+    "score": "2-2",
+    "res": "D",
+    "detail": "Si Jalak Harupat Stadium（バンドン）。FIFA大会史上初の勝点（Dawn）"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "タイ",
+    "comp": "FIFA ASEAN Cup 2026 グループB",
+    "ha": "N",
+    "score": "0-4",
+    "res": "L",
+    "detail": "日付はDawn記載（ground.newsは9/26土曜と記載）"
+   }
+  ],
+  "lineup": [
+   "監督ノルベルト・ソラーノ（ビザ遅延で合流遅れ）",
+   "海外組（Abdul Samad Arshad等）は現地直行合流（Dawn）"
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [
+  "共通相手：タイ（ベトナム0-2、パキスタン0-4）、フィリピン（ベトナム1-0、パキスタン2-2）"
+ ],
+ "venue": "インドネシア・バンドンでの集中開催（中立地）。本試合の会場名は未確認",
+ "risks": [
+  "ベトナムはグループ首位の可能性が消えた最終節（消化試合色）",
+  "スアン・ソン離脱で得点力低下、ベトナムはタイ戦0得点",
+  "パキスタンは前節2点ビハインドから追いつき士気向上"
+ ],
+ "missing": [
+  "h2h",
+  "大会前の直近成績"
+ ],
+ "unavailable": {
+  "h2h": "検索枠の制約でベトナム対パキスタンの過去対戦を確認できず",
+  "left.form": "大会前（2026 ASEAN選手権等）の試合は日付・スコアを確認できず2試合のみ",
+  "right.form": "大会前の試合未確認のため2試合のみ",
+  "metrics": "Elo値は発見エンジン側の値（差507）のみ、出典未取得",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "https://www.vietnam.vn/en/lich-thi-dau-bong-da-hom-nay-1-10-tranh-ve-chung-ket-fifa-asean-cup",
+  "https://www.dawn.com/news/2033746",
+  "https://ground.news/article/thailand-vietnam-secure-opening-wins-in-2026-fifa-asean-cup-group-b"
+ ],
+ "metrics": {
+  "left": {
+   "rank": null
+  },
+  "right": {
+   "rank": 198
+  },
+  "source": "Dawn（パキスタンFIFAランク198位）"
+ },
+ "current_competition": {
+  "left": {
+   "played": 2,
+   "W": 1,
+   "D": 0,
+   "L": 1,
+   "gf": 1,
+   "ga": 2
+  },
+  "right": {
+   "played": 2,
+   "W": 0,
+   "D": 1,
+   "L": 1,
+   "gf": 2,
+   "ga": 6
+  },
+  "source": "vietnam.vn・Dawn・ground.news"
+ },
+ "counter_evidence": {
+  "主力欠場": {
+   "finding": "ベトナムのエースFWグエン・スアン・ソンがハムストリング負傷で大会離脱（ground.news・vietnam.vn）。タイ戦は0得点",
+   "impact": "minor",
+   "applies": true
+  },
+  "ローテーション": {
+   "finding": "キム・サンシク監督が攻撃的オプションを試す意向（vietnam.vn）＝首位通過消滅後のテスト起用の可能性",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "確認範囲で世代交代の報道なし",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H未取得（検索枠制約）。格差判定はEloのみでH2Hに依存しない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "インドネシア・バンドンの集中開催で両者中立地",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "パキスタンは初戦タイに0-4、2戦目フィリピンに0-2から2-2（Dawn）。改善の兆しはあるが勝点1・得失2-6",
+   "impact": "minor",
+   "applies": true
+  },
+  "BO1": {
+   "finding": "サッカーは1試合決着（BO形式該当なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカー（該当なし）",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "パキスタンはソラーノ監督がビザ遅延で合流遅れ・海外組が現地直行（Dawn）。ベトナムはスアン・ソン離脱",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "グループBはタイが2連勝で首位通過確定、ベトナムは首位の可能性消滅（vietnam.vn：『決勝進出の可能性なし、好印象で終えるための試合』）。上位側ベトナムに順位上の利害はほぼ無いが、FIFA主催大会でランキングポイント・面子はあり完全な無意味試合ではない",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "deep5": {
+  "ranking": "パキスタンFIFA198位（Dawn）。ベトナムのFIFAランク未取得",
+  "current_competition": "ベトナム 1勝1敗 得失1-2／パキスタン 0勝1分1敗 得失2-6（FIFA ASEAN Cup 2026 グループB）",
+  "h2h_all": "未取得",
+  "last5": "ベトナム 1勝1敗（2試合）／パキスタン 0勝1分1敗（2試合）",
+  "common_60d": "タイ：ベトナム0-2・パキスタン0-4／フィリピン：ベトナム1-0・パキスタン2-2",
+  "absences": "ベトナム：FW グエン・スアン・ソン（ハムストリング、大会離脱）。パキスタン：欠場報道は確認範囲でなし",
+  "roster_changes": "パキスタン：ソラーノ監督の合流遅れ、海外組の現地直行合流（Dawn）",
+  "last10": "Vietnam：1勝1敗（2試合）／Pakistan：0勝1分1敗（2試合）",
+  "streak": "Vietnam：1連敗／Pakistan：1連分",
+  "avg_points": "Vietnam：1試合平均得失差 -0.50（2試合）／Pakistan：1試合平均得失差 -2.00（2試合）",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）"
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261002-0600",
+   "searches": 2,
+   "heaviest_step": "facts なしのため大会形式・両国の大会成績・日付を複数記事で突き合わせ（日付が媒体間で1日ずれ）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 2,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 6,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "タイ",
+    "left": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "FIFA ASEAN Cup 2026 グループB"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-25",
+      "iso": "2026-09-25",
+      "score": "0-4",
+      "res": "L",
+      "comp": "FIFA ASEAN Cup 2026 グループB"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-30",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "フィリピン",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "1-0",
+      "res": "W",
+      "comp": "FIFA ASEAN Cup 2026 グループB"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-29",
+      "iso": "2026-09-29",
+      "score": "2-2",
+      "res": "D",
+      "comp": "FIFA ASEAN Cup 2026 グループB"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-29",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

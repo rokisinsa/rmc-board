@@ -1,0 +1,144 @@
+{
+ "match_id": "m20261002-16138ee4",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Indiana Fever",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Las Vegas Aces",
+    "comp": "WNBA / WNBA: Play-off",
+    "ha": "H",
+    "score": "99-89",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Las Vegas Aces",
+    "comp": "WNBA / WNBA: Play-off",
+    "ha": "A",
+    "score": "85-102",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Las Vegas Aces",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Indiana Fever",
+    "comp": "WNBA / WNBA: Play-off",
+    "ha": "A",
+    "score": "89-99",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Indiana Fever",
+    "comp": "WNBA / WNBA: Play-off",
+    "ha": "H",
+    "score": "102-85",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-28",
+   "event": "WNBA / WNBA: Play-off",
+   "winner": "right",
+   "score": "85-102"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "WNBA / WNBA: Play-off",
+   "winner": "left",
+   "score": "99-89"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "left.form": "自動取得元の収録が2試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore WNBA / WNBA: Play-off eid=1901213"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 184,
+   "points_against": 191,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 191,
+   "points_against": 184,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 2,
+   "left": 1,
+   "right": 1,
+   "draw": 0,
+   "points_left": 184,
+   "points_right": 191,
+   "points_games": 2,
+   "avg_left": 92.0,
+   "avg_right": 95.5
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

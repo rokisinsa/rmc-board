@@ -1,0 +1,227 @@
+{
+ "match_id": "m20261002-9db44603",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Rimouski Oceanic",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Quebec Remparts",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "4-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Shawinigan Cataractes",
+    "comp": "Canada / QMJHL",
+    "ha": "H",
+    "score": "13-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Baie-Comeau",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "5-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Baie-Comeau",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Sherbrooke Phoenix",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Blainville-Boisbriand Armada",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Victoriaville Tigres",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "7-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Drummondville Voltigeurs",
+    "comp": "Canada / QMJHL",
+    "ha": "H",
+    "score": "5-4",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Quebec Remparts",
+    "comp": "Canada / QMJHL",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Drummondville Voltigeurs",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Shawinigan Cataractes",
+    "comp": "Canada / QMJHL",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Canada / QMJHL eid=1797311）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Canada / QMJHL eid=1797311"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 26,
+   "points_against": 11,
+   "points_games": 4
+  },
+  "right": {
+   "games": 6,
+   "W": 3,
+   "L": 3,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 3,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 20,
+   "points_against": 14,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Quebec Remparts",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "4-5",
+      "res": "L",
+      "comp": "Canada / QMJHL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Canada / QMJHL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Shawinigan Cataractes",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "13-2",
+      "res": "W",
+      "comp": "Canada / QMJHL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-29",
+      "iso": "2026-08-29",
+      "score": "2-3",
+      "res": "L",
+      "comp": "Canada / QMJHL"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

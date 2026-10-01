@@ -1,0 +1,285 @@
+{
+ "match_id": "m20261003-f1842ff4",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Graz 99ers",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Val Pusteria",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Klagenfurter AC",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "2-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Vienna Capitals",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Bolzano",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Vorarlberg",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Val Pusteria",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "2-4",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Black Wings Linz",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Ferencvaros",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "5-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Val Pusteria",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "4-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Vorarlberg",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "5-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "HK Olimpija",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Milano",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "H",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Fehervar AV19",
+    "comp": "Austria / ICE Hockey League",
+    "ha": "A",
+    "score": "3-4",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Austria / ICE Hockey League eid=1856671）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Austria / ICE Hockey League eid=1856671"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 50.0,
+   "gd_pg": -0.83,
+   "pd_pg": -0.83,
+   "rd_pg": -0.83,
+   "pts_rate": 0.389
+  },
+  "right": {
+   "season_wr": 50.0,
+   "gd_pg": -0.17,
+   "pd_pg": -0.17,
+   "rd_pg": -0.17,
+   "pts_rate": 0.556
+  },
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 6,
+   "W": 3,
+   "D": 0,
+   "L": 3,
+   "gf": 15,
+   "ga": 20,
+   "pts": 7,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 6,
+   "W": 3,
+   "D": 0,
+   "L": 3,
+   "gf": 21,
+   "ga": 22,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Austria / ICE Hockey League（2026-10-02T03:49:36+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 3,
+   "L": 3,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 15,
+   "points_against": 20,
+   "points_games": 6
+  },
+  "right": {
+   "games": 6,
+   "W": 3,
+   "L": 3,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 21,
+   "points_against": 22,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Val Pusteria",
+    "left": [
+     {
+      "date": "2026-10-01",
+      "iso": "2026-10-01",
+      "score": "1-4",
+      "res": "L",
+      "comp": "Austria / ICE Hockey League"
+     },
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-4",
+      "res": "L",
+      "comp": "Austria / ICE Hockey League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "4-5",
+      "res": "L",
+      "comp": "Austria / ICE Hockey League"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-10-01",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Vorarlberg",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "3-1",
+      "res": "W",
+      "comp": "Austria / ICE Hockey League"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "5-3",
+      "res": "W",
+      "comp": "Austria / ICE Hockey League"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

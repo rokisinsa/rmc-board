@@ -1,0 +1,141 @@
+{
+ "match_id": "m20261003-fd5d8fe0",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Huracanes Izcalli",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "Heroes de Zaci II",
+    "comp": "Mexico / Liga Premier: Serie B",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Racing de Veracruz II",
+    "comp": "Mexico / Liga Premier: Serie B",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "CD Ayense",
+    "comp": "Mexico / Liga Premier: Serie B",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Atletico Hidalgo",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-21",
+    "opp": "Internacional Laguna",
+    "comp": "Mexico / Liga Premier: Serie B",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Irapuato II",
+    "comp": "Mexico / Liga Premier: Serie B",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Mexico / Liga Premier: Serie B eid=1881497）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Mexico / Liga Premier: Serie B eid=1881497"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": -0.67,
+   "pd_pg": -0.67,
+   "rd_pg": -0.67,
+   "pts_rate": 0.333
+  },
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 4,
+   "points_games": 3
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 2,
+   "points_against": 5,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

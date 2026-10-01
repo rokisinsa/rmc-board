@@ -1,0 +1,127 @@
+{
+ "match_id": "m20261002-9b0481b2",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Curacao",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Nicaragua",
+    "comp": "CONCACAF Nations League / League A: Group 1",
+    "ha": "H",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Costa Rica",
+    "comp": "CONCACAF Nations League / League A: Group 1",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Trinidad and Tobago",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Dominican Republic",
+    "comp": "CONCACAF Nations League / League A: Group 1",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Haiti",
+    "comp": "CONCACAF Nations League / League A: Group 1",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore CONCACAF Nations League / League A: Group 1 eid=1856558）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が2試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore CONCACAF Nations League / League A: Group 1 eid=1856558"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 2,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連勝",
+   "points_for": 10,
+   "points_against": 4,
+   "points_games": 2
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 3,
+   "points_against": 5,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

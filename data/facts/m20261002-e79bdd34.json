@@ -1,0 +1,174 @@
+{
+ "match_id": "m20261002-e79bdd34",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Eintracht Frankfurt",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-08-15",
+    "opp": "Brentford",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-13",
+    "opp": "FSV Frankfurt",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "5-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-08",
+    "opp": "Hull City",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-02",
+    "opp": "Waldhof Mannheim",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-26",
+    "opp": "Trabzonspor",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-19",
+    "opp": "FC Giessen",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "7-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-21",
+    "opp": "Sandhausen",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "3-3",
+    "res": "D"
+   },
+   {
+    "date": "2026-05-20",
+    "opp": "RW Frankfurt",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "7-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Eintracht Braunschweig",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-08-01",
+    "opp": "Raal La Louviere",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-07-25",
+    "opp": "Southampton",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Club Friendlies / Club Friendlies 2026 eid=1897355）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Club Friendlies / Club Friendlies 2026 eid=1897355"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 8,
+   "W": 6,
+   "L": 1,
+   "D": 1,
+   "win_rate": 75.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 28,
+   "points_against": 12,
+   "points_games": 8
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 0,
+   "points_against": 1,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}

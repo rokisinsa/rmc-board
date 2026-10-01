@@ -1,0 +1,182 @@
+{
+ "match_id": "m20261002-e1c75955",
+ "data_as_of": "2026-10-02T03:49:36+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Aarau",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-24",
+    "opp": "Grasshopper",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-18",
+    "opp": "Union Berlin",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "Austria Lustenau",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Young Boys",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-07-18",
+    "opp": "Etoile Carouge",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-10",
+    "opp": "Viktoria Plzen",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "5-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-05",
+    "opp": "FC Kharkiv",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-01",
+    "opp": "Austria Lustenau",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-27",
+    "opp": "Breitenrain",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-27",
+    "opp": "Thun",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-01-10",
+    "opp": "LASK",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-01-07",
+    "opp": "Dinamo Bucuresti",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Club Friendlies / Club Friendlies 2026 eid=1902180）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Club Friendlies / Club Friendlies 2026 eid=1902180"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-02T03:49:36+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 6,
+   "points_games": 3
+  },
+  "right": {
+   "games": 8,
+   "W": 3,
+   "L": 3,
+   "D": 2,
+   "win_rate": 37.5,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 2
+   },
+   "streak": "3連勝",
+   "points_for": 13,
+   "points_against": 11,
+   "points_games": 8
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-02"
+ }
+}
