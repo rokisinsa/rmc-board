@@ -173,10 +173,18 @@ OVERDUE_HOURS = 4  # 開始からこの時間を過ぎた正式採用は、定�
 
 
 def check_results_overdue(rep, matches, now=None):
-    """開始から OVERDUE_HOURS 時間を過ぎても未精算の正式採用があれば止める（定時更新での結果反映漏れ防止）。
+    """直近の run の開始時点で、開始から OVERDUE_HOURS 時間を過ぎていた未精算の正式採用があれば止める
+    （＝各実行で「その時点で終わっている試合」を全部精算する。手動運用では実行間隔が空くため、
+    基準は現在時刻ではなく最新 run の開始時刻。ユーザー指示 2026-10-02）。
     本当に結果が出ていない（延期・長時間試合・結果未公表）ときは matches の result_pending_reason に理由を書けば通る。"""
     from .core import now_jst
-    now = parse(now or now_jst())
+    if now is None:
+        runs = load("automation-runs.json", [])
+        now = (runs[-1].get("started_at") if runs else None) or now_jst()
+    try:
+        now = parse(now)
+    except ValueError:
+        now = parse(now_jst())   # run記録の時刻が不正なときは現在時刻で判定
     for lg in LOGICS + ("experience",):
         for e in load(f"ledger/{lg}.json", []):
             if e.get("result") or e.get("withdrawn"):
