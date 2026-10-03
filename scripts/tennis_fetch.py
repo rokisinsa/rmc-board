@@ -197,4 +197,10 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    rc = main()
+    try:   # 直近数日の結果一覧（未精算カードの結果確認用・2026-10-03 追加）
+        import tennis_results
+        tennis_results.main()
+    except Exception as e:
+        print("tennis_results failed", type(e).__name__, e)
+    sys.exit(rc)
