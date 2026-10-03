@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 17,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "homeTeam": {
    "associationId": "200074",
    "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/KOR.svg",
@@ -220,7 +249,7 @@
    "dateTime": "2026-10-03T09:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-10-03T06:00:00+0000",
@@ -343,87 +372,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203704.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250203704",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Hüseyin",
-       "FR": "Hüseyin",
-       "DE": "Hüseyin",
-       "ES": "Hüseyin",
-       "PT": "Hüseyin",
-       "IT": "Hüseyin",
-       "RU": "Хюсейин",
-       "ZH": "Hüseyin",
-       "AR": "Hüseyin"
-      },
-      "lastName": {
-       "EN": "Sanli",
-       "FR": "Sanli",
-       "DE": "Sanli",
-       "ES": "Sanli",
-       "PT": "Sanli",
-       "IT": "Sanli",
-       "RU": "Шанлы",
-       "ZH": "Sanli",
-       "AR": "Sanli"
-      },
-      "name": {
-       "EN": "Hüseyin Sanli",
-       "FR": "Hüseyin Sanli",
-       "DE": "Hüseyin Sanli",
-       "ES": "Hüseyin Sanli",
-       "PT": "Hüseyin Sanli",
-       "IT": "Hüseyin Sanli",
-       "RU": "Хюсейин Шанлы",
-       "ZH": "Hüseyin Sanli",
-       "AR": "Hüseyin Sanli"
-      },
-      "shortName": {
-       "EN": "Sanli",
-       "FR": "Sanli",
-       "DE": "Sanli",
-       "ES": "Sanli",
-       "PT": "Sanli",
-       "IT": "Sanli",
-       "RU": "Шанлы",
-       "ZH": "Sanli",
-       "AR": "Sanli"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250133031.jpg"
     },
     "person": {
@@ -500,6 +448,87 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203704.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250203704",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Hüseyin",
+       "FR": "Hüseyin",
+       "DE": "Hüseyin",
+       "ES": "Hüseyin",
+       "PT": "Hüseyin",
+       "IT": "Hüseyin",
+       "RU": "Хюсейин",
+       "ZH": "Hüseyin",
+       "AR": "Hüseyin"
+      },
+      "lastName": {
+       "EN": "Sanli",
+       "FR": "Sanli",
+       "DE": "Sanli",
+       "ES": "Sanli",
+       "PT": "Sanli",
+       "IT": "Sanli",
+       "RU": "Шанлы",
+       "ZH": "Sanli",
+       "AR": "Sanli"
+      },
+      "name": {
+       "EN": "Hüseyin Sanli",
+       "FR": "Hüseyin Sanli",
+       "DE": "Hüseyin Sanli",
+       "ES": "Hüseyin Sanli",
+       "PT": "Hüseyin Sanli",
+       "IT": "Hüseyin Sanli",
+       "RU": "Хюсейин Шанлы",
+       "ZH": "Hüseyin Sanli",
+       "AR": "Hüseyin Sanli"
+      },
+      "shortName": {
+       "EN": "Sanli",
+       "FR": "Sanli",
+       "DE": "Sanli",
+       "ES": "Sanli",
+       "PT": "Sanli",
+       "IT": "Sanli",
+       "RU": "Шанлы",
+       "ZH": "Sanli",
+       "AR": "Sanli"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
      }
     }
    },
@@ -607,7 +636,7 @@
    "phase": "TOURNAMENT",
    "seasonYear": "2026",
    "stadiumNameType": "OFFICIAL_NAME",
-   "status": "UPCOMING",
+   "status": "CURRENT",
    "substitutionCount": 9,
    "teamCount": 2,
    "teams": [],
@@ -885,6 +914,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 16,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "homeTeam": {
    "associationId": "200029",
    "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/COL.svg",
@@ -966,7 +1024,7 @@
    "dateTime": "2026-10-03T09:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-10-03T06:00:00+0000",
@@ -1008,12 +1066,12 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096793.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214544.jpg"
     },
     "person": {
      "countryCode": "SUI",
      "gender": "MALE",
-     "id": "250096793",
+     "id": "250214544",
      "translations": {
       "countryName": {
        "EN": "Switzerland",
@@ -1027,144 +1085,63 @@
        "AR": "سويسرا"
       },
       "firstName": {
-       "EN": "Matthias",
-       "FR": "Matthias",
-       "DE": "Matthias",
-       "ES": "Matthias",
-       "PT": "Matthias",
-       "IT": "Matthias",
-       "RU": "Matthias",
-       "ZH": "Matthias",
-       "AR": "ماتياس "
+       "EN": "Noël",
+       "FR": "Noël",
+       "DE": "Noël",
+       "ES": "Noël",
+       "PT": "Noël",
+       "IT": "Noël",
+       "RU": "Noël",
+       "ZH": "Noël",
+       "AR": "Noël"
       },
       "lastName": {
-       "EN": "Sbrissa",
-       "FR": "Sbrissa",
-       "DE": "Sbrissa",
-       "ES": "Sbrissa",
-       "PT": "Sbrissa",
-       "IT": "Sbrissa",
-       "RU": "Sbrissa",
-       "ZH": "Sbrissa",
-       "AR": "سبريسا"
+       "EN": "Loetscher",
+       "FR": "Loetscher",
+       "DE": "Loetscher",
+       "ES": "Loetscher",
+       "PT": "Loetscher",
+       "IT": "Loetscher",
+       "RU": "Loetscher",
+       "ZH": "Loetscher",
+       "AR": "Loetscher"
       },
       "name": {
-       "EN": "Matthias Sbrissa",
-       "FR": "Matthias Sbrissa",
-       "DE": "Matthias Sbrissa",
-       "ES": "Matthias Sbrissa",
-       "PT": "Matthias Sbrissa",
-       "IT": "Matthias Sbrissa",
-       "RU": "Маттиас Сбрисса",
-       "ZH": "Matthias Sbrissa",
-       "AR": "ماتياس سبريسا"
+       "EN": "Noël Loetscher",
+       "FR": "Noël Loetscher",
+       "DE": "Noël Loetscher",
+       "ES": "Noël Loetscher",
+       "PT": "Noël Loetscher",
+       "IT": "Noël Loetscher",
+       "RU": "Noël Loetscher",
+       "ZH": "Noël Loetscher",
+       "AR": "Noël Loetscher"
       },
       "shortName": {
-       "EN": "Sbrissa",
-       "FR": "Sbrissa",
-       "DE": "Sbrissa",
-       "ES": "Sbrissa",
-       "PT": "Sbrissa",
-       "IT": "Sbrissa",
-       "RU": "Сбрисса",
-       "ZH": "Sbrissa",
-       "AR": "سبريسا"
+       "EN": "Loetscher",
+       "FR": "Loetscher",
+       "DE": "Loetscher",
+       "ES": "Loetscher",
+       "PT": "Loetscher",
+       "IT": "Loetscher",
+       "RU": "Loetscher",
+       "ZH": "Loetscher",
+       "AR": "Loetscher"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167611.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250167611",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Johannes",
-       "FR": "Johannes",
-       "DE": "Johannes",
-       "ES": "Johannes",
-       "PT": "Johannes",
-       "IT": "Johannes",
-       "RU": "Йоханнес",
-       "ZH": "Johannes",
-       "AR": "يوهانس "
-      },
-      "lastName": {
-       "EN": "von Mandach",
-       "FR": "von Mandach",
-       "DE": "von Mandach",
-       "ES": "von Mandach",
-       "PT": "von Mandach",
-       "IT": "von Mandach",
-       "RU": "фон Мандах",
-       "ZH": "von Mandach",
-       "AR": "فون مانداخ"
-      },
-      "name": {
-       "EN": "Johannes von Mandach",
-       "FR": "Johannes von Mandach",
-       "DE": "Johannes von Mandach",
-       "ES": "Johannes von Mandach",
-       "PT": "Johannes von Mandach",
-       "IT": "Johannes von Mandach",
-       "RU": "Йоханнес фон Мандах",
-       "ZH": "Johannes von Mandach",
-       "AR": "يوهانس فون مانداخ"
-      },
-      "shortName": {
-       "EN": "von Mandach",
-       "FR": "von Mandach",
-       "DE": "von Mandach",
-       "ES": "von Mandach",
-       "PT": "von Mandach",
-       "IT": "von Mandach",
-       "RU": "фон Мандах",
-       "ZH": "von Mandach",
-       "AR": "فون مانداخ"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -1251,12 +1228,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214544.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167611.jpg"
     },
     "person": {
      "countryCode": "SUI",
      "gender": "MALE",
-     "id": "250214544",
+     "id": "250167611",
      "translations": {
       "countryName": {
        "EN": "Switzerland",
@@ -1270,63 +1247,144 @@
        "AR": "سويسرا"
       },
       "firstName": {
-       "EN": "Noël",
-       "FR": "Noël",
-       "DE": "Noël",
-       "ES": "Noël",
-       "PT": "Noël",
-       "IT": "Noël",
-       "RU": "Noël",
-       "ZH": "Noël",
-       "AR": "Noël"
+       "EN": "Johannes",
+       "FR": "Johannes",
+       "DE": "Johannes",
+       "ES": "Johannes",
+       "PT": "Johannes",
+       "IT": "Johannes",
+       "RU": "Йоханнес",
+       "ZH": "Johannes",
+       "AR": "يوهانس "
       },
       "lastName": {
-       "EN": "Loetscher",
-       "FR": "Loetscher",
-       "DE": "Loetscher",
-       "ES": "Loetscher",
-       "PT": "Loetscher",
-       "IT": "Loetscher",
-       "RU": "Loetscher",
-       "ZH": "Loetscher",
-       "AR": "Loetscher"
+       "EN": "von Mandach",
+       "FR": "von Mandach",
+       "DE": "von Mandach",
+       "ES": "von Mandach",
+       "PT": "von Mandach",
+       "IT": "von Mandach",
+       "RU": "фон Мандах",
+       "ZH": "von Mandach",
+       "AR": "فون مانداخ"
       },
       "name": {
-       "EN": "Noël Loetscher",
-       "FR": "Noël Loetscher",
-       "DE": "Noël Loetscher",
-       "ES": "Noël Loetscher",
-       "PT": "Noël Loetscher",
-       "IT": "Noël Loetscher",
-       "RU": "Noël Loetscher",
-       "ZH": "Noël Loetscher",
-       "AR": "Noël Loetscher"
+       "EN": "Johannes von Mandach",
+       "FR": "Johannes von Mandach",
+       "DE": "Johannes von Mandach",
+       "ES": "Johannes von Mandach",
+       "PT": "Johannes von Mandach",
+       "IT": "Johannes von Mandach",
+       "RU": "Йоханнес фон Мандах",
+       "ZH": "Johannes von Mandach",
+       "AR": "يوهانس فون مانداخ"
       },
       "shortName": {
-       "EN": "Loetscher",
-       "FR": "Loetscher",
-       "DE": "Loetscher",
-       "ES": "Loetscher",
-       "PT": "Loetscher",
-       "IT": "Loetscher",
-       "RU": "Loetscher",
-       "ZH": "Loetscher",
-       "AR": "Loetscher"
+       "EN": "von Mandach",
+       "FR": "von Mandach",
+       "DE": "von Mandach",
+       "ES": "von Mandach",
+       "PT": "von Mandach",
+       "IT": "von Mandach",
+       "RU": "фон Мандах",
+       "ZH": "von Mandach",
+       "AR": "فون مانداخ"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "REFEREE",
     "translations": {
      "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096793.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250096793",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Matthias",
+       "FR": "Matthias",
+       "DE": "Matthias",
+       "ES": "Matthias",
+       "PT": "Matthias",
+       "IT": "Matthias",
+       "RU": "Matthias",
+       "ZH": "Matthias",
+       "AR": "ماتياس "
+      },
+      "lastName": {
+       "EN": "Sbrissa",
+       "FR": "Sbrissa",
+       "DE": "Sbrissa",
+       "ES": "Sbrissa",
+       "PT": "Sbrissa",
+       "IT": "Sbrissa",
+       "RU": "Sbrissa",
+       "ZH": "Sbrissa",
+       "AR": "سبريسا"
+      },
+      "name": {
+       "EN": "Matthias Sbrissa",
+       "FR": "Matthias Sbrissa",
+       "DE": "Matthias Sbrissa",
+       "ES": "Matthias Sbrissa",
+       "PT": "Matthias Sbrissa",
+       "IT": "Matthias Sbrissa",
+       "RU": "Маттиас Сбрисса",
+       "ZH": "Matthias Sbrissa",
+       "AR": "ماتياس سبريسا"
+      },
+      "shortName": {
+       "EN": "Sbrissa",
+       "FR": "Sbrissa",
+       "DE": "Sbrissa",
+       "ES": "Sbrissa",
+       "PT": "Sbrissa",
+       "IT": "Sbrissa",
+       "RU": "Сбрисса",
+       "ZH": "Sbrissa",
+       "AR": "سبريسا"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
      }
     }
    }
@@ -1353,10 +1411,13 @@
    "phase": "TOURNAMENT",
    "seasonYear": "2026",
    "stadiumNameType": "OFFICIAL_NAME",
-   "status": "UPCOMING",
+   "status": "CURRENT",
    "substitutionCount": 9,
    "teamCount": 2,
-   "teams": [],
+   "teams": [
+    "2615033",
+    "2615036"
+   ],
    "translations": {
     "abbreviation": {
      "EN": "3rdPO",
