@@ -228,6 +228,7 @@ details.banner .tap{font-size:12px;opacity:.8}details.banner[open] .tap{display:
 .topmenu a{display:inline-flex;align-items:center;gap:4px;padding:10px 16px;border-radius:10px;background:var(--ink);color:var(--bg);font-weight:700;font-size:15px;text-decoration:none}
 .topmenu a span{font-weight:500;font-size:13px;opacity:.85}
 #ledger-sec{scroll-margin-top:12px}
+#ledger td.lwrap{text-align:left;white-space:normal;min-width:7em;overflow-wrap:anywhere}
 tr.wd td{opacity:.45;text-decoration:line-through}tr.wd td:first-child{text-decoration:none}
 .grp{margin:14px 0 2px;font-size:14px;color:var(--muted,#666);border-bottom:1px solid var(--line,#ddd);padding-bottom:4px}
 .d5c{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface)}
@@ -552,12 +553,12 @@ function renderLedger(){
   document.querySelectorAll('#ltabs button').forEach(b=>b.onclick=()=>{lt=b.dataset.l;renderLedger();});
   const isT=lt==='today';const rows=isT?tr:D.led[lt].map(e=>Object.assign({_l:lt},e));const tb=document.getElementById('ledger');
   if(!rows.length){tb.innerHTML=`<tbody><tr><td class="empty" style="text-align:center">${isT?'今日開始の試合の正式採用はまだありません。':T[lt]+'の正式採用はまだありません。'}</td></tr></tbody>`;return;}
-  tb.innerHTML=`<thead><tr><th>結果</th>${isT?'<th>ロジック</th>':''}<th>開始</th><th>種目</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th><th>格差</th></tr></thead><tbody>`+
+  tb.innerHTML=`<thead><tr><th>結果</th>${isT?'<th>ロジック</th>':''}<th>格差</th><th>開始</th><th>種目</th><th>試合</th><th>選択</th><th>オッズ</th><th>投入</th><th>払戻</th><th>損益</th><th>ロック</th></tr></thead><tbody>`+
    rows.slice().sort((a,b)=>isT?(D.matches[a.match_id]?.start_jst||'').localeCompare(D.matches[b.match_id]?.start_jst||''):(D.matches[b.match_id]?.start_jst||'').localeCompare(D.matches[a.match_id]?.start_jst||'')).map(e=>{const m=D.matches[e.match_id]||{};const r=e.result;const t=jst(m.start_jst||e.locked_at);
     const mark=e.withdrawn?'取消':!r?'△':r.outcome==='win'?'○':r.outcome==='loss'?'×':'無';const g=gapAt(e);
-    return `<tr class="lrow${e.withdrawn?' wd':''}" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="${e.withdrawn?esc(e.withdrawn.reason):'分析を開く'}"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td style="text-align:left">${esc(m.left)} vs ${esc(m.right)}</td><td style="text-align:left">${esc(e.selection)}${e.pick_type==='sport_floor'?' <span class="ftag">競技枠</span>':''}</td>
+    return `<tr class="lrow${e.withdrawn?' wd':''}" data-m="${e.match_id}" data-l="${e._l}" tabindex="0" title="${e.withdrawn?esc(e.withdrawn.reason):'分析を開く'}"><td>${mark}</td>${isT?`<td>${LSHORT[e._l]}</td>`:''}<td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td><td class="mono">${t.d} ${t.t}</td><td style="text-align:left;white-space:nowrap">${esc(m.sport||'')}</td><td class="lwrap">${esc(m.left)} vs ${esc(m.right)}</td><td class="lwrap">${esc(e.selection)}${e.pick_type==='sport_floor'?' <span class="ftag">競技枠</span>':''}</td>
     <td class="mono">${e.odds_taken??esc(e.odds_range||'未確認')}</td><td class="mono">$${e.stake.toFixed(2)}</td><td class="mono">${r?(r.payout==null?'金額未計算':'$'+r.payout.toFixed(2)):'—'}</td>
-    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${e.withdrawn?'取消':r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td><td class="mono">${g==null?'—':`<span class="gapc ${g>=70?'hi':g>=63?'mid':''}">${g}</span>`}</td></tr>`;}).join('')+'</tbody>';
+    <td class="mono ${r&&r.profit>0?'pos':r&&r.profit<0?'neg':''}">${e.withdrawn?'取消':r?(r.profit==null?'金額未計算':money(r.profit)):'未確定'}</td><td class="mono">${esc((e.locked_at||'').slice(5,16).replace('T',' '))}</td></tr>`;}).join('')+'</tbody>';
   tb.querySelectorAll('.lrow').forEach(r=>{const l=r.dataset.l==='experience'?null:r.dataset.l;r.onclick=()=>openMatch(r.dataset.m,l);r.onkeydown=e=>{if(e.key==='Enter')openMatch(r.dataset.m,l);};});
 }
 let bt='all';
