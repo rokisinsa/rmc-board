@@ -168,6 +168,7 @@
    },
    "weatherCondition": "PARTLY_CLOUDY"
   },
+  "fullTimeAt": "2026-10-03T10:54:58.315Z",
   "homeTeam": {
    "associationId": "200074",
    "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/KOR.svg",
@@ -250,6 +251,7 @@
    "utcOffsetInHours": 2
   },
   "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 51,
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-10-03T06:00:00+0000",
@@ -288,169 +290,644 @@
    },
    "type": "FINAL"
   },
+  "playerEvents": {
+   "penaltiesMissed": [
+    {
+     "id": "e6d252ff-442d-464e-baee-8e6c9832d776",
+     "penaltyType": "MISSED",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "17",
+      "birthDate": "2009-04-15",
+      "clubShirtName": "Choi",
+      "countryCode": "KOR",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250226341",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226341.jpg",
+      "internationalName": "Min-jun Choi",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "18",
+      "nationalShirtName": "Choi",
+      "nationalTeamId": "2615035",
+      "translations": {
+       "countryName": {
+        "EN": "Korea Republic",
+        "FR": "République de Corée",
+        "DE": "Südkorea",
+        "ES": "República de Corea",
+        "PT": "Coreia do Sul",
+        "IT": "Corea del Sud",
+        "RU": "Южная Корея",
+        "ZH": "Korea Rep.",
+        "AR": "جمهورية كوريا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Min-jun",
+        "FR": "Min-jun",
+        "DE": "Min-jun",
+        "ES": "Min-jun",
+        "PT": "Min-jun",
+        "IT": "Min-jun",
+        "RU": "Min-jun",
+        "ZH": "Min-jun",
+        "AR": "Min-jun"
+       },
+       "lastName": {
+        "EN": "Choi",
+        "FR": "Choi",
+        "DE": "Choi",
+        "ES": "Choi",
+        "PT": "Choi",
+        "IT": "Choi",
+        "RU": "Choi",
+        "ZH": "Choi",
+        "AR": "Choi"
+       },
+       "name": {
+        "EN": "Min-jun Choi",
+        "FR": "Min-jun Choi",
+        "DE": "Min-jun Choi",
+        "ES": "Min-jun Choi",
+        "PT": "Min-jun Choi",
+        "IT": "Min-jun Choi",
+        "RU": "Min-jun Choi",
+        "ZH": "Min-jun Choi",
+        "AR": "Min-jun Choi"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "M. Choi",
+        "FR": "M. Choi",
+        "DE": "M. Choi",
+        "ES": "M. Choi",
+        "PT": "M. Choi",
+        "IT": "M. Choi",
+        "RU": "Choi",
+        "ZH": "Choi",
+        "AR": "Choi"
+       }
+      }
+     },
+     "teamId": "2615035",
+     "teamIdProvider": "FAME",
+     "time": {
+      "injuryMinute": 3,
+      "minute": 90,
+      "second": 45
+     }
+    }
+   ],
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "38844fc9-69d1-4f02-8673-af97746937f3",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "17",
+      "birthDate": "2009-09-09",
+      "clubShirtName": "Cissé",
+      "countryCode": "CIV",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226299",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226299.jpg",
+      "internationalName": "Yan Ismael Cissé",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Cissé",
+      "nationalTeamId": "2615038",
+      "translations": {
+       "countryName": {
+        "EN": "Ivory Coast",
+        "FR": "Côte d'Ivoire",
+        "DE": "Elfenbeinküste",
+        "ES": "Costa de Marfil",
+        "PT": "Costa do Marfim",
+        "IT": "Costa d'Avorio",
+        "RU": "Кот-д'Ивуар",
+        "ZH": "科特迪瓦",
+        "AR": "كوت ديفوار"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Yan Ismael",
+        "FR": "Yan Ismael",
+        "DE": "Yan Ismael",
+        "ES": "Yan Ismael",
+        "PT": "Yan Ismael",
+        "IT": "Yan Ismael",
+        "RU": "Yan Ismael",
+        "ZH": "Yan Ismael",
+        "AR": "Yan Ismael"
+       },
+       "lastName": {
+        "EN": "Cissé",
+        "FR": "Cissé",
+        "DE": "Cissé",
+        "ES": "Cissé",
+        "PT": "Cissé",
+        "IT": "Cissé",
+        "RU": "Cissé",
+        "ZH": "Cissé",
+        "AR": "Cissé"
+       },
+       "name": {
+        "EN": "Yan Ismael Cissé",
+        "FR": "Yan Ismael Cissé",
+        "DE": "Yan Ismael Cissé",
+        "ES": "Yan Ismael Cissé",
+        "PT": "Yan Ismael Cissé",
+        "IT": "Yan Ismael Cissé",
+        "RU": "Yan Ismael Cissé",
+        "ZH": "Yan Ismael Cissé",
+        "AR": "Yan Ismael Cissé"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Y. Cissé",
+        "FR": "Y. Cissé",
+        "DE": "Y. Cissé",
+        "ES": "Y. Cissé",
+        "PT": "Y. Cissé",
+        "IT": "Y. Cissé",
+        "RU": "Cissé",
+        "ZH": "Cissé",
+        "AR": "Cissé"
+       }
+      }
+     },
+     "teamId": "2615038",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 12,
+      "second": 36
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "455625c0-1282-4463-8667-b85118ebe5e6",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2009-10-26",
+      "clubShirtName": "Boli",
+      "countryCode": "CIV",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226305",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226305.jpg",
+      "internationalName": "Wesley Boli",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "19",
+      "nationalShirtName": "Boli",
+      "nationalTeamId": "2615038",
+      "translations": {
+       "countryName": {
+        "EN": "Ivory Coast",
+        "FR": "Côte d'Ivoire",
+        "DE": "Elfenbeinküste",
+        "ES": "Costa de Marfil",
+        "PT": "Costa do Marfim",
+        "IT": "Costa d'Avorio",
+        "RU": "Кот-д'Ивуар",
+        "ZH": "科特迪瓦",
+        "AR": "كوت ديفوار"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Wesley",
+        "FR": "Wesley",
+        "DE": "Wesley",
+        "ES": "Wesley",
+        "PT": "Wesley",
+        "IT": "Wesley",
+        "RU": "Wesley",
+        "ZH": "Wesley",
+        "AR": "Wesley"
+       },
+       "lastName": {
+        "EN": "Boli",
+        "FR": "Boli",
+        "DE": "Boli",
+        "ES": "Boli",
+        "PT": "Boli",
+        "IT": "Boli",
+        "RU": "Boli",
+        "ZH": "Boli",
+        "AR": "Boli"
+       },
+       "name": {
+        "EN": "Wesley Boli",
+        "FR": "Wesley Boli",
+        "DE": "Wesley Boli",
+        "ES": "Wesley Boli",
+        "PT": "Wesley Boli",
+        "IT": "Wesley Boli",
+        "RU": "Wesley Boli",
+        "ZH": "Wesley Boli",
+        "AR": "Wesley Boli"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Boli",
+        "FR": "Boli",
+        "DE": "Boli",
+        "ES": "Boli",
+        "PT": "Boli",
+        "IT": "Boli",
+        "RU": "Boli",
+        "ZH": "Boli",
+        "AR": "Boli"
+       }
+      }
+     },
+     "teamId": "2615038",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 55,
+      "second": 42
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "0abd1137-2419-4cee-9d9b-2171c9d54410",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-02-09",
+      "clubShirtName": "Lim",
+      "countryCode": "KOR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226351",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226351.jpg",
+      "internationalName": "Ji-seong Lim",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Lim",
+      "nationalTeamId": "2615035",
+      "translations": {
+       "countryName": {
+        "EN": "Korea Republic",
+        "FR": "République de Corée",
+        "DE": "Südkorea",
+        "ES": "República de Corea",
+        "PT": "Coreia do Sul",
+        "IT": "Corea del Sud",
+        "RU": "Южная Корея",
+        "ZH": "Korea Rep.",
+        "AR": "جمهورية كوريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Ji-seong",
+        "FR": "Ji-seong",
+        "DE": "Ji-seong",
+        "ES": "Ji-seong",
+        "PT": "Ji-seong",
+        "IT": "Ji-seong",
+        "RU": "Ji-seong",
+        "ZH": "Ji-seong",
+        "AR": "Ji-seong"
+       },
+       "lastName": {
+        "EN": "Lim",
+        "FR": "Lim",
+        "DE": "Lim",
+        "ES": "Lim",
+        "PT": "Lim",
+        "IT": "Lim",
+        "RU": "Lim",
+        "ZH": "Lim",
+        "AR": "Lim"
+       },
+       "name": {
+        "EN": "Ji-seong Lim",
+        "FR": "Ji-seong Lim",
+        "DE": "Ji-seong Lim",
+        "ES": "Ji-seong Lim",
+        "PT": "Ji-seong Lim",
+        "IT": "Ji-seong Lim",
+        "RU": "Ji-seong Lim",
+        "ZH": "Ji-seong Lim",
+        "AR": "Ji-seong Lim"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Lim",
+        "FR": "Lim",
+        "DE": "Lim",
+        "ES": "Lim",
+        "PT": "Lim",
+        "IT": "Lim",
+        "RU": "Lim",
+        "ZH": "Lim",
+        "AR": "Lim"
+       }
+      }
+     },
+     "teamId": "2615035",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 62,
+      "second": 27
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "b010523d-4848-4c8b-9511-01f9a0fc1683",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2009-12-19",
+      "clubShirtName": "Glao",
+      "countryCode": "CIV",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226300",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226300.jpg",
+      "internationalName": "Songui Glao",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "7",
+      "nationalShirtName": "Glao",
+      "nationalTeamId": "2615038",
+      "translations": {
+       "countryName": {
+        "EN": "Ivory Coast",
+        "FR": "Côte d'Ivoire",
+        "DE": "Elfenbeinküste",
+        "ES": "Costa de Marfil",
+        "PT": "Costa do Marfim",
+        "IT": "Costa d'Avorio",
+        "RU": "Кот-д'Ивуар",
+        "ZH": "科特迪瓦",
+        "AR": "كوت ديفوار"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Songui",
+        "FR": "Songui",
+        "DE": "Songui",
+        "ES": "Songui",
+        "PT": "Songui",
+        "IT": "Songui",
+        "RU": "Songui",
+        "ZH": "Songui",
+        "AR": "Songui"
+       },
+       "lastName": {
+        "EN": "Glao",
+        "FR": "Glao",
+        "DE": "Glao",
+        "ES": "Glao",
+        "PT": "Glao",
+        "IT": "Glao",
+        "RU": "Glao",
+        "ZH": "Glao",
+        "AR": "Glao"
+       },
+       "name": {
+        "EN": "Songui Glao",
+        "FR": "Songui Glao",
+        "DE": "Songui Glao",
+        "ES": "Songui Glao",
+        "PT": "Songui Glao",
+        "IT": "Songui Glao",
+        "RU": "Songui Glao",
+        "ZH": "Songui Glao",
+        "AR": "Songui Glao"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Glao",
+        "FR": "Glao",
+        "DE": "Glao",
+        "ES": "Glao",
+        "PT": "Glao",
+        "IT": "Glao",
+        "RU": "Glao",
+        "ZH": "Glao",
+        "AR": "Glao"
+       }
+      }
+     },
+     "teamId": "2615038",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 68,
+      "second": 38
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "0980c366-63c8-4206-962b-12d5340bbc03",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-18",
+      "clubShirtName": "Niaoré",
+      "countryCode": "CIV",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250226301",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226301.jpg",
+      "internationalName": "Junior Niaoré",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "21",
+      "nationalShirtName": "Niaoré",
+      "nationalTeamId": "2615038",
+      "translations": {
+       "countryName": {
+        "EN": "Ivory Coast",
+        "FR": "Côte d'Ivoire",
+        "DE": "Elfenbeinküste",
+        "ES": "Costa de Marfil",
+        "PT": "Costa do Marfim",
+        "IT": "Costa d'Avorio",
+        "RU": "Кот-д'Ивуар",
+        "ZH": "科特迪瓦",
+        "AR": "كوت ديفوار"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Junior",
+        "FR": "Junior",
+        "DE": "Junior",
+        "ES": "Junior",
+        "PT": "Junior",
+        "IT": "Junior",
+        "RU": "Junior",
+        "ZH": "Junior",
+        "AR": "Junior"
+       },
+       "lastName": {
+        "EN": "Niaoré",
+        "FR": "Niaoré",
+        "DE": "Niaoré",
+        "ES": "Niaoré",
+        "PT": "Niaoré",
+        "IT": "Niaoré",
+        "RU": "Niaoré",
+        "ZH": "Niaoré",
+        "AR": "Niaoré"
+       },
+       "name": {
+        "EN": "Junior Niaoré",
+        "FR": "Junior Niaoré",
+        "DE": "Junior Niaoré",
+        "ES": "Junior Niaoré",
+        "PT": "Junior Niaoré",
+        "IT": "Junior Niaoré",
+        "RU": "Junior Niaoré",
+        "ZH": "Junior Niaoré",
+        "AR": "Junior Niaoré"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Niaoré",
+        "FR": "Niaoré",
+        "DE": "Niaoré",
+        "ES": "Niaoré",
+        "PT": "Niaoré",
+        "IT": "Niaoré",
+        "RU": "Niaoré",
+        "ZH": "Niaoré",
+        "AR": "Niaoré"
+       }
+      }
+     },
+     "teamId": "2615038",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 87,
+      "second": 12
+     }
+    }
+   ]
+  },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203121.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250203121",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Christophe",
-       "FR": "Christophe",
-       "DE": "Christophe",
-       "ES": "Christophe",
-       "PT": "Christophe",
-       "IT": "Christophe",
-       "RU": "Christophe Emmanuel",
-       "ZH": "Christophe Emmanuel",
-       "AR": "Christophe"
-      },
-      "lastName": {
-       "EN": "Loureiro",
-       "FR": "Loureiro",
-       "DE": "Loureiro",
-       "ES": "Loureiro",
-       "PT": "Loureiro",
-       "IT": "Loureiro",
-       "RU": "Da Mariana Loureiro",
-       "ZH": "Da Mariana Loureiro",
-       "AR": "Loureiro"
-      },
-      "name": {
-       "EN": "Christophe Loureiro",
-       "FR": "Christophe Loureiro",
-       "DE": "Christophe Loureiro",
-       "ES": "Christophe Loureiro",
-       "PT": "Christophe Loureiro",
-       "IT": "Christophe Loureiro",
-       "RU": "Christophe Emmanuel Da Mariana Loureiro",
-       "ZH": "Christophe Emmanuel Da Mariana Loureiro",
-       "AR": "Christophe Loureiro"
-      },
-      "shortName": {
-       "EN": "Loureiro",
-       "FR": "Loureiro",
-       "DE": "Loureiro",
-       "ES": "Loureiro",
-       "PT": "Loureiro",
-       "IT": "Loureiro",
-       "RU": "Da Mariana Loureiro",
-       "ZH": "Da Mariana Loureiro",
-       "AR": "Loureiro"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250133031.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "FEMALE",
-     "id": "250133031",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Laura",
-       "FR": "Laura",
-       "DE": "Laura",
-       "ES": "Laura",
-       "PT": "Laura",
-       "IT": "Laura",
-       "RU": "Laura",
-       "ZH": "Laura",
-       "AR": "Laura"
-      },
-      "lastName": {
-       "EN": "Mauricio",
-       "FR": "Mauricio",
-       "DE": "Mauricio",
-       "ES": "Mauricio",
-       "PT": "Mauricio",
-       "IT": "Mauricio",
-       "RU": "Mauricio",
-       "ZH": "Mauricio",
-       "AR": "Mauricio"
-      },
-      "name": {
-       "EN": "Laura Mauricio",
-       "FR": "Laura Mauricio",
-       "DE": "Laura Mauricio",
-       "ES": "Laura Mauricio",
-       "PT": "Laura Mauricio",
-       "IT": "Laura Mauricio",
-       "RU": "Лаура Маурисио",
-       "ZH": "Laura Mauricio",
-       "AR": "Laura Mauricio"
-      },
-      "shortName": {
-       "EN": "Mauricio",
-       "FR": "Mauricio",
-       "DE": "Mauricio",
-       "ES": "Mauricio",
-       "PT": "Mauricio",
-       "IT": "Mauricio",
-       "RU": "Маурисио",
-       "ZH": "Mauricio",
-       "AR": "Mauricio"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203704.jpg"
@@ -612,6 +1089,168 @@
       "AR": "مساعد الحكم الثاني"
      }
     }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250133031.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "FEMALE",
+     "id": "250133031",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Laura",
+       "FR": "Laura",
+       "DE": "Laura",
+       "ES": "Laura",
+       "PT": "Laura",
+       "IT": "Laura",
+       "RU": "Laura",
+       "ZH": "Laura",
+       "AR": "Laura"
+      },
+      "lastName": {
+       "EN": "Mauricio",
+       "FR": "Mauricio",
+       "DE": "Mauricio",
+       "ES": "Mauricio",
+       "PT": "Mauricio",
+       "IT": "Mauricio",
+       "RU": "Mauricio",
+       "ZH": "Mauricio",
+       "AR": "Mauricio"
+      },
+      "name": {
+       "EN": "Laura Mauricio",
+       "FR": "Laura Mauricio",
+       "DE": "Laura Mauricio",
+       "ES": "Laura Mauricio",
+       "PT": "Laura Mauricio",
+       "IT": "Laura Mauricio",
+       "RU": "Лаура Маурисио",
+       "ZH": "Laura Mauricio",
+       "AR": "Laura Mauricio"
+      },
+      "shortName": {
+       "EN": "Mauricio",
+       "FR": "Mauricio",
+       "DE": "Mauricio",
+       "ES": "Mauricio",
+       "PT": "Mauricio",
+       "IT": "Mauricio",
+       "RU": "Маурисио",
+       "ZH": "Mauricio",
+       "AR": "Mauricio"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203121.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250203121",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Christophe",
+       "FR": "Christophe",
+       "DE": "Christophe",
+       "ES": "Christophe",
+       "PT": "Christophe",
+       "IT": "Christophe",
+       "RU": "Christophe Emmanuel",
+       "ZH": "Christophe Emmanuel",
+       "AR": "Christophe"
+      },
+      "lastName": {
+       "EN": "Loureiro",
+       "FR": "Loureiro",
+       "DE": "Loureiro",
+       "ES": "Loureiro",
+       "PT": "Loureiro",
+       "IT": "Loureiro",
+       "RU": "Da Mariana Loureiro",
+       "ZH": "Da Mariana Loureiro",
+       "AR": "Loureiro"
+      },
+      "name": {
+       "EN": "Christophe Loureiro",
+       "FR": "Christophe Loureiro",
+       "DE": "Christophe Loureiro",
+       "ES": "Christophe Loureiro",
+       "PT": "Christophe Loureiro",
+       "IT": "Christophe Loureiro",
+       "RU": "Christophe Emmanuel Da Mariana Loureiro",
+       "ZH": "Christophe Emmanuel Da Mariana Loureiro",
+       "AR": "Christophe Loureiro"
+      },
+      "shortName": {
+       "EN": "Loureiro",
+       "FR": "Loureiro",
+       "DE": "Loureiro",
+       "ES": "Loureiro",
+       "PT": "Loureiro",
+       "IT": "Loureiro",
+       "RU": "Da Mariana Loureiro",
+       "ZH": "Da Mariana Loureiro",
+       "AR": "Loureiro"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
    }
   ],
   "round": {
@@ -674,6 +1313,16 @@
      "ZH": "7thPO",
      "AR": "7thPO"
     }
+   }
+  },
+  "score": {
+   "regular": {
+    "away": 4,
+    "home": 1
+   },
+   "total": {
+    "away": 4,
+    "home": 1
    }
   },
   "seasonYear": "2026",
@@ -771,8 +1420,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "SINGLE"
+  "status": "FINISHED",
+  "type": "SINGLE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200067",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/CIV.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/CIV.png",
+     "confederationType": "CAF",
+     "countryCode": "CIV",
+     "id": "2615038",
+     "idProvider": "FAME",
+     "internationalName": "Côte d'Ivoire",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/CIV.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/CIV.png",
+     "organizationId": "200067",
+     "teamCode": "CIV",
+     "teamTypeDetail": "NATIONAL_MEN_U18",
+     "translations": {
+      "countryName": {
+       "EN": "Ivory Coast",
+       "FR": "Côte d'Ivoire",
+       "DE": "Elfenbeinküste",
+       "ES": "Costa de Marfil",
+       "PT": "Costa do Marfim",
+       "IT": "Costa d'Avorio",
+       "RU": "Кот-д'Ивуар",
+       "ZH": "科特迪瓦",
+       "AR": "كوت ديفوار"
+      },
+      "displayName": {
+       "EN": "Côte d'Ivoire",
+       "FR": "Ivory Coast",
+       "DE": "Ivory Coast",
+       "ES": "Ivory Coast",
+       "PT": "Ivory Coast",
+       "IT": "Ivory Coast",
+       "RU": "Кот-д'Ивуар",
+       "ZH": "Ivory Coast",
+       "AR": "Ivory Coast"
+      },
+      "displayOfficialName": {
+       "EN": "Côte d'Ivoire",
+       "FR": "Ivory Coast",
+       "DE": "Ivory Coast",
+       "ES": "Ivory Coast",
+       "PT": "Ivory Coast",
+       "IT": "Ivory Coast",
+       "RU": "Кот-д'Ивуар",
+       "ZH": "Ivory Coast",
+       "AR": "Ivory Coast"
+      },
+      "displayTeamCode": {
+       "EN": "CIV",
+       "FR": "CIV",
+       "DE": "CIV",
+       "ES": "CIV",
+       "PT": "CIV",
+       "IT": "CIV",
+       "RU": "CIV",
+       "ZH": "CIV",
+       "AR": "CIV"
+      },
+      "shortName": {
+       "EN": "CIV",
+       "FR": "CIV",
+       "DE": "CIV",
+       "ES": "CIV",
+       "PT": "CIV",
+       "IT": "CIV",
+       "RU": "CIV",
+       "ZH": "CIV",
+       "AR": "CIV"
+      }
+     },
+     "typeIsNational": true,
+     "typeTeam": "NATIONAL"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -943,6 +1672,7 @@
    },
    "weatherCondition": "CLOUDY"
   },
+  "fullTimeAt": "2026-10-03T10:53:53.583Z",
   "homeTeam": {
    "associationId": "200029",
    "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/COL.svg",
@@ -1025,6 +1755,7 @@
    "utcOffsetInHours": 2
   },
   "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 190,
   "matchday": {
    "competitionId": "6001",
    "dateFrom": "2026-10-03T06:00:00+0000",
@@ -1063,15 +1794,217 @@
    },
    "type": "FINAL"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "f46c8164-0a9b-49e1-8c40-d84065fa8ecd",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2009-12-07",
+      "clubShirtName": "Silva",
+      "countryCode": "BRA",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226366",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226366.jpg",
+      "internationalName": "Eduardo Conceição",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "EDUARDO CONCEIÇÃO",
+      "nationalTeamId": "2615036",
+      "translations": {
+       "countryName": {
+        "EN": "Brazil",
+        "FR": "Brésil",
+        "DE": "Brasilien",
+        "ES": "Brasil",
+        "PT": "Brasil",
+        "IT": "Brasile",
+        "RU": "Бразилия",
+        "ZH": "巴西",
+        "AR": "البرازيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "RU": "Eduardo Conceição",
+        "ZH": "Eduardo Conceição",
+        "AR": "Eduardo Conceição"
+       },
+       "lastName": {
+        "EN": "Eduardo Conceição",
+        "FR": "Eduardo Conceição",
+        "DE": "Eduardo Conceição",
+        "ES": "Eduardo Conceição",
+        "PT": "Eduardo Conceição",
+        "IT": "Eduardo Conceição",
+        "RU": "Silva",
+        "ZH": "Silva",
+        "AR": "Silva"
+       },
+       "name": {
+        "EN": "Eduardo Conceição",
+        "FR": "Eduardo Conceição",
+        "DE": "Eduardo Conceição",
+        "ES": "Eduardo Conceição",
+        "PT": "Eduardo Conceição",
+        "IT": "Eduardo Conceição",
+        "RU": "Eduardo Conceição Silva",
+        "ZH": "Eduardo Conceição Silva",
+        "AR": "Eduardo Conceição Silva"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Eduardo Conceição",
+        "FR": "Eduardo Conceição",
+        "DE": "Eduardo Conceição",
+        "ES": "Eduardo Conceição",
+        "PT": "Eduardo Conceição",
+        "IT": "Eduardo Conceição",
+        "RU": "Silva",
+        "ZH": "Silva",
+        "AR": "Silva"
+       }
+      }
+     },
+     "teamId": "2615036",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 3,
+      "second": 14
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "57928236-a61d-4a76-82f8-29da24591ec7",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "17",
+      "birthDate": "2009-03-02",
+      "clubShirtName": "Couto Lauredo",
+      "countryCode": "BRA",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226370",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/6001/2026/324x324/250226370.jpg",
+      "internationalName": "João Couto",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "21",
+      "nationalShirtName": "JOÃO COUTO",
+      "nationalTeamId": "2615036",
+      "translations": {
+       "countryName": {
+        "EN": "Brazil",
+        "FR": "Brésil",
+        "DE": "Brasilien",
+        "ES": "Brasil",
+        "PT": "Brasil",
+        "IT": "Brasile",
+        "RU": "Бразилия",
+        "ZH": "巴西",
+        "AR": "البرازيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "RU": "João Vitor Andrade",
+        "ZH": "João Vitor Andrade",
+        "AR": "João Vitor Andrade"
+       },
+       "lastName": {
+        "EN": "João Couto",
+        "FR": "João Couto",
+        "DE": "João Couto",
+        "ES": "João Couto",
+        "PT": "João Couto",
+        "IT": "João Couto",
+        "RU": "Couto Lauredo",
+        "ZH": "Couto Lauredo",
+        "AR": "Couto Lauredo"
+       },
+       "name": {
+        "EN": "João Couto",
+        "FR": "João Couto",
+        "DE": "João Couto",
+        "ES": "João Couto",
+        "PT": "João Couto",
+        "IT": "João Couto",
+        "RU": "João Vitor Andrade Couto Lauredo",
+        "ZH": "João Vitor Andrade Couto Lauredo",
+        "AR": "João Vitor Andrade Couto Lauredo"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "João Couto",
+        "FR": "João Couto",
+        "DE": "João Couto",
+        "ES": "João Couto",
+        "PT": "João Couto",
+        "IT": "João Couto",
+        "RU": "Couto Lauredo",
+        "ZH": "Couto Lauredo",
+        "AR": "Couto Lauredo"
+       }
+      }
+     },
+     "teamId": "2615036",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 68,
+      "second": 41
+     }
+    }
+   ]
+  },
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214544.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096793.jpg"
     },
     "person": {
      "countryCode": "SUI",
      "gender": "MALE",
-     "id": "250214544",
+     "id": "250096793",
      "translations": {
       "countryName": {
        "EN": "Switzerland",
@@ -1085,63 +2018,63 @@
        "AR": "سويسرا"
       },
       "firstName": {
-       "EN": "Noël",
-       "FR": "Noël",
-       "DE": "Noël",
-       "ES": "Noël",
-       "PT": "Noël",
-       "IT": "Noël",
-       "RU": "Noël",
-       "ZH": "Noël",
-       "AR": "Noël"
+       "EN": "Matthias",
+       "FR": "Matthias",
+       "DE": "Matthias",
+       "ES": "Matthias",
+       "PT": "Matthias",
+       "IT": "Matthias",
+       "RU": "Matthias",
+       "ZH": "Matthias",
+       "AR": "ماتياس "
       },
       "lastName": {
-       "EN": "Loetscher",
-       "FR": "Loetscher",
-       "DE": "Loetscher",
-       "ES": "Loetscher",
-       "PT": "Loetscher",
-       "IT": "Loetscher",
-       "RU": "Loetscher",
-       "ZH": "Loetscher",
-       "AR": "Loetscher"
+       "EN": "Sbrissa",
+       "FR": "Sbrissa",
+       "DE": "Sbrissa",
+       "ES": "Sbrissa",
+       "PT": "Sbrissa",
+       "IT": "Sbrissa",
+       "RU": "Sbrissa",
+       "ZH": "Sbrissa",
+       "AR": "سبريسا"
       },
       "name": {
-       "EN": "Noël Loetscher",
-       "FR": "Noël Loetscher",
-       "DE": "Noël Loetscher",
-       "ES": "Noël Loetscher",
-       "PT": "Noël Loetscher",
-       "IT": "Noël Loetscher",
-       "RU": "Noël Loetscher",
-       "ZH": "Noël Loetscher",
-       "AR": "Noël Loetscher"
+       "EN": "Matthias Sbrissa",
+       "FR": "Matthias Sbrissa",
+       "DE": "Matthias Sbrissa",
+       "ES": "Matthias Sbrissa",
+       "PT": "Matthias Sbrissa",
+       "IT": "Matthias Sbrissa",
+       "RU": "Маттиас Сбрисса",
+       "ZH": "Matthias Sbrissa",
+       "AR": "ماتياس سبريسا"
       },
       "shortName": {
-       "EN": "Loetscher",
-       "FR": "Loetscher",
-       "DE": "Loetscher",
-       "ES": "Loetscher",
-       "PT": "Loetscher",
-       "IT": "Loetscher",
-       "RU": "Loetscher",
-       "ZH": "Loetscher",
-       "AR": "Loetscher"
+       "EN": "Sbrissa",
+       "FR": "Sbrissa",
+       "DE": "Sbrissa",
+       "ES": "Sbrissa",
+       "PT": "Sbrissa",
+       "IT": "Sbrissa",
+       "RU": "Сбрисса",
+       "ZH": "Sbrissa",
+       "AR": "سبريسا"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -1228,6 +2161,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214544.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250214544",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Noël",
+       "FR": "Noël",
+       "DE": "Noël",
+       "ES": "Noël",
+       "PT": "Noël",
+       "IT": "Noël",
+       "RU": "Noël",
+       "ZH": "Noël",
+       "AR": "Noël"
+      },
+      "lastName": {
+       "EN": "Loetscher",
+       "FR": "Loetscher",
+       "DE": "Loetscher",
+       "ES": "Loetscher",
+       "PT": "Loetscher",
+       "IT": "Loetscher",
+       "RU": "Loetscher",
+       "ZH": "Loetscher",
+       "AR": "Loetscher"
+      },
+      "name": {
+       "EN": "Noël Loetscher",
+       "FR": "Noël Loetscher",
+       "DE": "Noël Loetscher",
+       "ES": "Noël Loetscher",
+       "PT": "Noël Loetscher",
+       "IT": "Noël Loetscher",
+       "RU": "Noël Loetscher",
+       "ZH": "Noël Loetscher",
+       "AR": "Noël Loetscher"
+      },
+      "shortName": {
+       "EN": "Loetscher",
+       "FR": "Loetscher",
+       "DE": "Loetscher",
+       "ES": "Loetscher",
+       "PT": "Loetscher",
+       "IT": "Loetscher",
+       "RU": "Loetscher",
+       "ZH": "Loetscher",
+       "AR": "Loetscher"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167611.jpg"
     },
     "person": {
@@ -1306,87 +2320,6 @@
       "AR": "الحكم"
      }
     }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096793.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250096793",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Matthias",
-       "FR": "Matthias",
-       "DE": "Matthias",
-       "ES": "Matthias",
-       "PT": "Matthias",
-       "IT": "Matthias",
-       "RU": "Matthias",
-       "ZH": "Matthias",
-       "AR": "ماتياس "
-      },
-      "lastName": {
-       "EN": "Sbrissa",
-       "FR": "Sbrissa",
-       "DE": "Sbrissa",
-       "ES": "Sbrissa",
-       "PT": "Sbrissa",
-       "IT": "Sbrissa",
-       "RU": "Sbrissa",
-       "ZH": "Sbrissa",
-       "AR": "سبريسا"
-      },
-      "name": {
-       "EN": "Matthias Sbrissa",
-       "FR": "Matthias Sbrissa",
-       "DE": "Matthias Sbrissa",
-       "ES": "Matthias Sbrissa",
-       "PT": "Matthias Sbrissa",
-       "IT": "Matthias Sbrissa",
-       "RU": "Маттиас Сбрисса",
-       "ZH": "Matthias Sbrissa",
-       "AR": "ماتياس سبريسا"
-      },
-      "shortName": {
-       "EN": "Sbrissa",
-       "FR": "Sbrissa",
-       "DE": "Sbrissa",
-       "ES": "Sbrissa",
-       "PT": "Sbrissa",
-       "IT": "Sbrissa",
-       "RU": "Сбрисса",
-       "ZH": "Sbrissa",
-       "AR": "سبريسا"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
    }
   ],
   "round": {
@@ -1452,6 +2385,16 @@
      "ZH": "附加赛第三",
      "AR": "المركز الثالث"
     }
+   }
+  },
+  "score": {
+   "regular": {
+    "away": 2,
+    "home": 0
+   },
+   "total": {
+    "away": 2,
+    "home": 0
    }
   },
   "seasonYear": "2026",
@@ -1549,7 +2492,87 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "SINGLE"
+  "status": "FINISHED",
+  "type": "SINGLE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200018",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/BRA.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/BRA.png",
+     "confederationType": "CONMEBOL",
+     "countryCode": "BRA",
+     "id": "2615036",
+     "idProvider": "FAME",
+     "internationalName": "Brazil",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/BRA.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/BRA.png",
+     "organizationId": "200018",
+     "teamCode": "BRA",
+     "teamTypeDetail": "NATIONAL_MEN_U18",
+     "translations": {
+      "countryName": {
+       "EN": "Brazil",
+       "FR": "Brésil",
+       "DE": "Brasilien",
+       "ES": "Brasil",
+       "PT": "Brasil",
+       "IT": "Brasile",
+       "RU": "Бразилия",
+       "ZH": "巴西",
+       "AR": "البرازيل"
+      },
+      "displayName": {
+       "EN": "Brazil",
+       "FR": "Brazil",
+       "DE": "Brazil",
+       "ES": "Brazil",
+       "PT": "Brazil",
+       "IT": "Brazil",
+       "RU": "Бразилия",
+       "ZH": "Brazil",
+       "AR": "Brazil"
+      },
+      "displayOfficialName": {
+       "EN": "Brazil",
+       "FR": "Brazil",
+       "DE": "Brazil",
+       "ES": "Brazil",
+       "PT": "Brazil",
+       "IT": "Brazil",
+       "RU": "Бразилия",
+       "ZH": "Brazil",
+       "AR": "Brazil"
+      },
+      "displayTeamCode": {
+       "EN": "BRA",
+       "FR": "BRA",
+       "DE": "BRA",
+       "ES": "BRA",
+       "PT": "BRA",
+       "IT": "BRA",
+       "RU": "BRA",
+       "ZH": "BRA",
+       "AR": "BRA"
+      },
+      "shortName": {
+       "EN": "BRA",
+       "FR": "BRA",
+       "DE": "BRA",
+       "ES": "BRA",
+       "PT": "BRA",
+       "IT": "BRA",
+       "RU": "BRA",
+       "ZH": "BRA",
+       "AR": "BRA"
+      }
+     },
+     "typeIsNational": true,
+     "typeTeam": "NATIONAL"
+    }
+   }
+  }
  }
 ]
