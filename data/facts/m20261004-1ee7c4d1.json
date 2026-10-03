@@ -1,0 +1,348 @@
+{
+ "match_id": "m20261004-1ee7c4d1",
+ "data_as_of": "2026-10-03T21:17:04+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Straubing Tigers",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-03",
+    "opp": "Bremerhaven",
+    "comp": "Germany / DEL",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Nuernberg Ice Tigers",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "ERC Ingolstadt",
+    "comp": "Germany / DEL",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Krefeld Pinguine",
+    "comp": "Germany / DEL",
+    "ha": "H",
+    "score": "3-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Eisbaeren Berlin",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "2-4",
+    "res": "L"
+   }
+  ],
+  "lineup": [
+   "会場：Schwenningen本拠（右＝ホーム、DEL第6節）"
+  ]
+ },
+ "right": {
+  "name": "Schwenninger Wild Wings",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-03",
+    "opp": "Nuernberg Ice Tigers",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Krefeld Pinguine",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "2-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Grizzlys Wolfsburg",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "4-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Augsburger Panther",
+    "comp": "Germany / DEL",
+    "ha": "A",
+    "score": "3-7",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Loewen Frankfurt",
+    "comp": "Germany / DEL",
+    "ha": "H",
+    "score": "0-5",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "サンプルが5試合のみで、格差は得失点差（Schwenningen 9-25）に強く依存",
+  "上位側Straubingはアウェー",
+  "両チームの欠場情報が未確認"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Germany / DEL eid=1807685）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "goalie": "先発GK: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "欠場": "独語検索で直近の報道なし、sportschau試合ページの本文取得不可",
+  "ロスター変更（Straubing側）": "今季の移籍情報が検索でヒットせず"
+ },
+ "source_urls": [
+  "LiveScore Germany / DEL eid=1807685",
+  "https://www.sportschau.de/live-und-ergebnisse/eishockey/deutschland-del/ma12189454/schwenninger-wild-wings_straubing-tigers/spiel-kader",
+  "https://www.schwaebische.de/regional/tuttlingen/wild-wings-basteln-am-kader-erste-abgaenge-und-heisse-geruechte-4482922"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 60.0,
+   "gd_pg": 0.0,
+   "pd_pg": 0.0,
+   "rd_pg": 0.0,
+   "pts_rate": 0.533
+  },
+  "right": {
+   "season_wr": 20.0,
+   "gd_pg": -3.2,
+   "pd_pg": -3.2,
+   "rd_pg": -3.2,
+   "pts_rate": 0.133
+  },
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 8,
+   "played": 5,
+   "W": 3,
+   "D": 0,
+   "L": 2,
+   "gf": 16,
+   "ga": 16,
+   "pts": 8,
+   "group": null
+  },
+  "right": {
+   "rank": 13,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 9,
+   "ga": 25,
+   "pts": 2,
+   "group": null
+  },
+  "source": "LiveScore順位表 Germany / DEL（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Straubing Tigers：3勝2敗／Schwenninger Wild Wings：1勝4敗",
+  "last10": "Straubing Tigers：3勝2敗（5試合）／Schwenninger Wild Wings：1勝4敗（5試合）",
+  "streak": "Straubing Tigers：3連勝／Schwenninger Wild Wings：2連敗",
+  "avg_points": "Straubing Tigers：1試合平均得失差 +0.00（5試合）／Schwenninger Wild Wings：1試合平均得失差 -3.20（5試合）",
+  "current_competition": "Straubing Tigers {'rank': 8, 'played': 5, 'W': 3, 'D': 0, 'L': 2, 'gf': 16, 'ga': 16, 'pts': 8, 'group': None}／Schwenninger Wild Wings {'rank': 13, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 9, 'ga': 25, 'pts': 2, 'group': None}（LiveScore順位表 Germany / DEL（2026-10-03T20:33:53+09:00取得））",
+  "ranking": "Straubing Tigers 8位（5試合 勝点8・3勝0分2敗 得失16-16）／Schwenninger Wild Wings 13位（5試合 勝点2・1勝0分4敗 得失9-25）（LiveScore順位表 Germany / DEL・2026-10-03T20:33:53+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手2：左 Nuernberg Ice Tigers 3-2W（2026-09-27） ／ 右 Nuernberg Ice Tigers 0-5L（2026-10-03）／左 Krefeld Pinguine 3-6L（2026-09-20） ／ 右 Krefeld Pinguine 2-5L（2026-09-27）",
+  "absences": "左（Straubing）：未確認（独語検索で直近の負傷報道ヒットせず、sportschauの試合メンバーページは本文取得できず）／右（Schwenningen）：未確認（同上）",
+  "roster_changes": "左（Straubing）：未確認（今季の補強・放出報道は見つからず）／右（Schwenningen）：オフに大幅入替（Schwäbische 2026/4/6）。主将トーマス・ラーキン（伊へ）、GKビッツァー、GKギブソン、FWゲッティンガー、FWシュヴァルツ、DFマーシャルら退団見込み。GKヨアキム・エリクソン残留、GKジモン・ヴォルフ（ミュンヘン）、DFボーデ・ヴィルト（カッセル）、FWエリック・コーネル（イザーローン）ら加入（シーズン開幕時点の最終確定は未確認）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "アイスホッケーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Straubing Tigers）はアウェー。直近のアウェー成績 1勝0分1敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（Schwenninger Wild Wings）の直近3試合 2026-10-03 0-5L・2026-09-27 2-5L・2026-09-26 4-3W：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：独語で両チームの負傷・欠場を検索したが今季10月の報道は見つからず、試合メンバーページも本文を取得できなかった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "DEL第6節のレギュラーシーズン序盤。DELは週2〜3試合（金・日）が通常で、特別な過密日程やカップ戦併催の情報はない。GK併用の可能性はあるが未確認。",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "シーズン序盤のリーグ戦で、若手主体への方針転換の報道はなし。Schwenningenはオフに主将・GK陣が入れ替わったが世代交代とは異なる。",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "下位側Schwenningenはオフに主将・GK2名を含む多数が入れ替わり、新戦力が噛み合っていない可能性（格差方向と一致）。上位側Straubingのロスター変化は未確認。",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "5試合消化の開幕直後で、消化試合には該当しない。",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 6,
+   "heaviest_step": "両チームの欠場情報探索（独語検索3回が古い記事中心で空振り、試合メンバーページの本文取得不可）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 3,
+   "L": 2,
+   "D": 0,
+   "win_rate": 60.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 16,
+   "points_against": 16,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 3,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 9,
+   "points_against": 25,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Nuernberg Ice Tigers",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "3-2",
+      "res": "W",
+      "comp": "Germany / DEL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-10-03",
+      "iso": "2026-10-03",
+      "score": "0-5",
+      "res": "L",
+      "comp": "Germany / DEL"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-10-03",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Krefeld Pinguine",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "3-6",
+      "res": "L",
+      "comp": "Germany / DEL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "2-5",
+      "res": "L",
+      "comp": "Germany / DEL"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,271 @@
+{
+ "match_id": "ls-1824928",
+ "data_as_of": "2026-10-03T21:12:43+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Usti nad Labem",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "BK Opava",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "86-76",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "USK Prague",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "89-80",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Lokomotive Plzen",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "115-74",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Srsni Pisek",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "78-80",
+    "res": "L"
+   }
+  ],
+  "lineup": []
+ },
+ "right": {
+  "name": "MMCITE Brno",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Decin",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "78-86",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Nymburk",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "96-108",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Ostrava",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "76-85",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Pardubice",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "79-85",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "格差の根拠は開幕4試合のみでサンプルが非常に小さい",
+  "Brnoは近年NBL上位（2024/25準優勝）のクラブで、0-4からの反発（平均への回帰）の可能性",
+  "ホーム/アウェーが不明",
+  "両チームの欠場・補強情報が未確認"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Czech Republic / NBL eid=1824928）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "欠場": "検索ヒットなし、nbl.cz の WebFetch が承認待ちで遮断（再試行せず）",
+  "ロスター変更": "2026年夏の移籍・監督情報が検索でヒットせず（過去シーズンの記事のみ）"
+ },
+ "source_urls": [
+  "LiveScore Czech Republic / NBL eid=1824928",
+  "https://en.wikipedia.org/wiki/Basket_Brno",
+  "https://brnodaily.com/2025/05/27/brno/basket-brno-takes-silver-against-dominant-nymburk/"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 75.0,
+   "gd_pg": 14.5,
+   "pd_pg": 14.5,
+   "rd_pg": 14.5
+  },
+  "right": {
+   "season_wr": 0.0,
+   "gd_pg": -8.75,
+   "pd_pg": -8.75,
+   "rd_pg": -8.75
+  },
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 3,
+   "played": 4,
+   "W": 3,
+   "D": 0,
+   "L": 1,
+   "gf": 368,
+   "ga": 310,
+   "pts": null,
+   "group": null
+  },
+  "right": {
+   "rank": 11,
+   "played": 4,
+   "W": 0,
+   "D": 0,
+   "L": 4,
+   "gf": 329,
+   "ga": 364,
+   "pts": null,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / NBL（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Usti nad Labem：3勝1敗／MMCITE Brno：0勝4敗",
+  "last10": "Usti nad Labem：3勝1敗（4試合）／MMCITE Brno：0勝4敗（4試合）",
+  "streak": "Usti nad Labem：3連勝／MMCITE Brno：4連敗",
+  "avg_points": "Usti nad Labem：1試合平均得失差 +14.50（4試合）／MMCITE Brno：1試合平均得失差 -8.75（4試合）",
+  "current_competition": "Usti nad Labem {'rank': 3, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 368, 'ga': 310, 'pts': None, 'group': None}／MMCITE Brno {'rank': 11, 'played': 4, 'W': 0, 'D': 0, 'L': 4, 'gf': 329, 'ga': 364, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-10-03T20:33:53+09:00取得））",
+  "ranking": "Usti nad Labem 3位（4試合 勝点None・3勝0分1敗 得失368-310）／MMCITE Brno 11位（4試合 勝点None・0勝0分4敗 得失329-364）（LiveScore順位表 Czech Republic / NBL・2026-10-03T20:33:53+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし",
+  "absences": "未確認：左（Usti nad Labem）／右（MMCITE Brno）とも、チェコ語・英語検索で2026/27シーズンの負傷・欠場報道がヒットせず、リーグ公式（nbl.cz）は承認待ちで取得不可",
+  "roster_changes": "未確認：左／右とも2026年夏の補強・監督交代の記事が見つからず。参考：Brnoは2024/25シーズンにNBL準優勝（決勝でNymburkに0-4、監督Martin Vaněk、brnodaily 2025/5/27）だが、現ロスター・監督の継続性は未確認"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "バスケットボールは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "バスケットボールは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Usti nad Labem）はホーム。直近のホーム成績 2勝0分1敗（3試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（MMCITE Brno）の直近3試合 2026-10-01 78-86L・2026-09-27 96-108L・2026-09-24 76-85L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：両チームの今季の負傷・欠場報道を検索で見つけられず、公式サイトも取得できなかった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "未確認：欧州カップ戦出場の有無など日程の過密度を確認できず。開幕4試合消化の序盤で、ローテーションを強いる明確な要因は既存データからは見当たらない。",
+   "impact": "minor",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "未確認：オフの主力入替の報道を確認できず。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "下位側Brnoは2024/25シーズンにNBL準優勝のクラブで、今季0勝4敗は例年水準より大きく低い。夏のロスター変更の内容は未確認のため、0-4が実力の低下か序盤の不振（下振れ）かは判断できない。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "LiveScore順位表（既存データ）では各チーム4試合消化のレギュラーシーズン序盤で、消化試合ではない。",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 3,
+   "heaviest_step": "チェコ語・英語での両クラブの補強・欠場ニュース検索（今季の記事がヒットせず）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 368,
+   "points_against": 310,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 0,
+   "L": 4,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 3,
+    "D": 0
+   },
+   "streak": "4連敗",
+   "points_for": 329,
+   "points_against": 364,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-05"
+ }
+}

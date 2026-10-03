@@ -1,0 +1,320 @@
+{
+ "match_id": "m20261003-a81e4de3",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Gubbio",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Ravenna",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Ostia Mare",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "Pescara Calcio",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Latina",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Campobasso",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "AC Reggiana",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-23",
+    "opp": "Guidonia Montecelio",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Perugia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "AC Reggiana",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Grosseto",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "Spezia",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Ravenna",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "ASD Pineto",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Vis Pesaro",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "Ostia Mare",
+    "comp": "Italy / Serie C: Group B",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Italy / Serie C: Group B eid=1855677）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Italy / Serie C: Group B eid=1855677"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 28.6,
+   "gd_pg": -0.57,
+   "pd_pg": -0.57,
+   "rd_pg": -0.57,
+   "pts_rate": 0.333
+  },
+  "right": {
+   "season_wr": 42.9,
+   "gd_pg": -0.71,
+   "pd_pg": -0.71,
+   "rd_pg": -0.71,
+   "pts_rate": 0.476
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 14,
+   "played": 7,
+   "W": 2,
+   "D": 1,
+   "L": 4,
+   "gf": 9,
+   "ga": 13,
+   "pts": 7,
+   "group": null
+  },
+  "right": {
+   "rank": 9,
+   "played": 7,
+   "W": 3,
+   "D": 1,
+   "L": 3,
+   "gf": 6,
+   "ga": 11,
+   "pts": 10,
+   "group": null
+  },
+  "source": "LiveScore順位表 Italy / Serie C: Group B（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 2,
+   "L": 4,
+   "D": 1,
+   "win_rate": 28.6,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "streak": "2連敗",
+   "points_for": 9,
+   "points_against": 13,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 3,
+   "L": 3,
+   "D": 1,
+   "win_rate": 42.9,
+   "home": {
+    "W": 3,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 11,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "AC Reggiana",
+    "left": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "1-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Ravenna",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Ostia Mare",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-24",
+      "iso": "2026-08-24",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Italy / Serie C: Group B"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-21",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

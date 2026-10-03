@@ -1,0 +1,320 @@
+{
+ "match_id": "m20261003-02493f62",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "RKAV Volendam",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "GVVV Veenendaal",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Barendrecht",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Kloetinge",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Hoek",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "IJsselmeervogels",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "Spakenburg",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Quick Boys",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "0-5",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Almere City (R)",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Barendrecht",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Hoek",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Spakenburg",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Katwijk",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Koninklijke HFC",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "HHC Hardenberg",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-16",
+    "opp": "Rijnsburgse Boys",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Netherlands / Tweede Divisie eid=1841234）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Netherlands / Tweede Divisie eid=1841234"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 28.6,
+   "gd_pg": -0.57,
+   "pd_pg": -0.57,
+   "rd_pg": -0.57,
+   "pts_rate": 0.429
+  },
+  "right": {
+   "season_wr": 14.3,
+   "gd_pg": -0.71,
+   "pd_pg": -0.71,
+   "rd_pg": -0.71,
+   "pts_rate": 0.19
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 11,
+   "played": 7,
+   "W": 2,
+   "D": 3,
+   "L": 2,
+   "gf": 9,
+   "ga": 13,
+   "pts": 9,
+   "group": null
+  },
+  "right": {
+   "rank": 17,
+   "played": 7,
+   "W": 1,
+   "D": 1,
+   "L": 5,
+   "gf": 11,
+   "ga": 16,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 Netherlands / Tweede Divisie（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 2,
+   "L": 2,
+   "D": 3,
+   "win_rate": 28.6,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 13,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 1,
+   "L": 5,
+   "D": 1,
+   "win_rate": 14.3,
+   "home": {
+    "W": 1,
+    "L": 3,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 11,
+   "points_against": 16,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Barendrecht",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "1-4",
+      "res": "L",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-26",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Hoek",
+    "left": [
+     {
+      "date": "2026-09-05",
+      "iso": "2026-09-05",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-19",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Spakenburg",
+    "left": [
+     {
+      "date": "2026-08-22",
+      "iso": "2026-08-22",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Netherlands / Tweede Divisie"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-12",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

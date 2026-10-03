@@ -1,0 +1,348 @@
+{
+ "match_id": "ls-1818194",
+ "data_as_of": "2026-10-03T21:12:46+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Eisbaeren Regensburg",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-03",
+    "opp": "1. EV Weiden",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "5-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "EVL Landshut",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "7-3",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "EC Bad Nauheim",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "EV Ravensburg",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "3-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Bietigheim Steelers",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   }
+  ],
+  "lineup": [
+   "Regensburg：F Jeremy Bracco（契約延長）、F Sebastian Zwickl（Augsburgからローン）",
+   "Freiburg：新加入D Moritz Wirth、D Colin Schlenker"
+  ]
+ },
+ "right": {
+  "name": "EHC Freiburg",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-03",
+    "opp": "EVL Landshut",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Kassel Huskies",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "ECDC Memmingen",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "ETC Crimmitschau",
+    "comp": "Germany / DEL2",
+    "ha": "A",
+    "score": "1-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "EC Bad Nauheim",
+    "comp": "Germany / DEL2",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "EliteProspectsではRegensburgが3勝0敗1延長負けで3位、Freiburgが1勝2敗1延長負けとされ、LiveScoreの順位・試合数とずれている（最新試合の反映差の可能性）",
+  "Freiburgの1勝4敗には延長負けが含まれ、得失8-15と大差ではない",
+  "ホーム・アウェーは不明",
+  "地元紙（Mittelbayerische、Badische Zeitung）は確認していない"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Germany / DEL2 eid=1818194）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "goalie": "先発GK: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+ },
+ "source_urls": [
+  "LiveScore Germany / DEL2 eid=1818194",
+  "https://www.eliteprospects.com/team/976/eisbaren-regensburg",
+  "https://www.eliteprospects.com/team/9328/ehc-freiburg"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 80.0,
+   "gd_pg": 2.0,
+   "pd_pg": 2.0,
+   "rd_pg": 2.0,
+   "pts_rate": 0.867
+  },
+  "right": {
+   "season_wr": 20.0,
+   "gd_pg": -1.4,
+   "pd_pg": -1.4,
+   "rd_pg": -1.4,
+   "pts_rate": 0.267
+  },
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 2,
+   "played": 5,
+   "W": 4,
+   "D": 0,
+   "L": 1,
+   "gf": 21,
+   "ga": 11,
+   "pts": 13,
+   "group": null
+  },
+  "right": {
+   "rank": 11,
+   "played": 5,
+   "W": 1,
+   "D": 0,
+   "L": 4,
+   "gf": 8,
+   "ga": 15,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 Germany / DEL2（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Eisbaeren Regensburg：4勝1敗／EHC Freiburg：1勝4敗",
+  "last10": "Eisbaeren Regensburg：4勝1敗（5試合）／EHC Freiburg：1勝4敗（5試合）",
+  "streak": "Eisbaeren Regensburg：3連勝／EHC Freiburg：4連敗",
+  "avg_points": "Eisbaeren Regensburg：1試合平均得失差 +2.00（5試合）／EHC Freiburg：1試合平均得失差 -1.40（5試合）",
+  "current_competition": "Eisbaeren Regensburg {'rank': 2, 'played': 5, 'W': 4, 'D': 0, 'L': 1, 'gf': 21, 'ga': 11, 'pts': 13, 'group': None}／EHC Freiburg {'rank': 11, 'played': 5, 'W': 1, 'D': 0, 'L': 4, 'gf': 8, 'ga': 15, 'pts': 4, 'group': None}（LiveScore順位表 Germany / DEL2（2026-10-03T20:33:53+09:00取得））",
+  "ranking": "Eisbaeren Regensburg 2位（5試合 勝点13・4勝0分1敗 得失21-11）／EHC Freiburg 11位（5試合 勝点4・1勝0分4敗 得失8-15）（LiveScore順位表 Germany / DEL2・2026-10-03T20:33:53+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "60日以内の共通相手2：左 EVL Landshut 7-3W（2026-09-28） ／ 右 EVL Landshut 2-3L（2026-10-03）／左 EC Bad Nauheim 2-1W（2026-09-26） ／ 右 EC Bad Nauheim 4-3W（2026-09-19）",
+  "absences": "左（Eisbären Regensburg）：EliteProspects 2026-27に負傷者の記載なし。報道ベースの欠場情報は検索でヒットせず／右（EHC Freiburg）：EliteProspectsのページに負傷者の記載なし。地元報道での欠場情報は検索でヒットせず",
+  "roster_changes": "左：監督Peter Flache（カナダ）、平均年齢25.0歳。D Cody Haiskanen（Nürnbergから、7/24）、F Pepino Langmeier（7/18）、F Sebastian Zwickl（Augsburgからローン、9/4）が加入し、F Jeremy Braccoと8/1に契約延長。F Alex Berardinelli（Angersへ、7/23）、F Bryce Kindopp（Rungstedへ、7/30）が退団（EliteProspects）／右：監督Johannes Nygård（フィンランド）、平均年齢25.0歳。9月に守備陣を入れ替え、D Moritz Wirth（Augsburgから、9/20）とD Colin Schlenker（Mannheimから、9/24）が加入、D Spencer Berry（9/15）とGK Marco Wölfl（9/24）が退団。Khaidarov・Hessは9/13に契約延長（EliteProspects）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "アイスホッケーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "アイスホッケーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Eisbaeren Regensburg）はホーム。直近のホーム成績 2勝0分0敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（EHC Freiburg）の直近3試合 2026-10-03 2-3L・2026-09-27 1-2L・2026-09-26 0-3L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "EliteProspectsの負傷者欄は両チームとも記載なし。検索でも負傷・欠場の報道はヒットせず、上位側Regensburgの主力欠場を示す情報はない（10/3時点、地元紙の確認は未了）。",
+   "impact": "none",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "DEL2序盤のレギュラーシーズン戦で、週2試合の通常日程の範囲内。控え中心の起用を示す情報はない。",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "両チームとも平均年齢約25歳で、若返り方針の報道は確認できなかった。",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "下位側Freiburgは開幕後の9月下旬にDEL所属クラブからD2名（Wirth、Schlenker）を補強し、守備を立て直そうとしている。GKも1名入れ替えた。効果は未知数。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "DEL2 2026-27の序盤戦（5試合消化）で消化試合ではない。",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 3,
+   "heaviest_step": "両チームの欠場報道の検索（ヒットせず、EliteProspectsの負傷者欄で代用）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 4,
+   "L": 1,
+   "D": 0,
+   "win_rate": 80.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 21,
+   "points_against": 11,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 4,
+   "D": 0,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": "4連敗",
+   "points_for": 8,
+   "points_against": 15,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "EVL Landshut",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "7-3",
+      "res": "W",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-10-03",
+      "iso": "2026-10-03",
+      "score": "2-3",
+      "res": "L",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-10-03",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "EC Bad Nauheim",
+    "left": [
+     {
+      "date": "2026-09-26",
+      "iso": "2026-09-26",
+      "score": "2-1",
+      "res": "W",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "4-3",
+      "res": "W",
+      "comp": "Germany / DEL2"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-26",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-05"
+ }
+}

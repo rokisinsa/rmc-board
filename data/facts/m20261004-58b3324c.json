@@ -1,0 +1,179 @@
+{
+ "match_id": "m20261004-58b3324c",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Ratiopharm Ulm",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Wuerzburg Baskets",
+    "comp": "Germany / BBL",
+    "ha": "H",
+    "score": "67-90",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Phoenix Hagen",
+    "comp": "Germany / BBL",
+    "ha": "A",
+    "score": "93-78",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Riesen Ludwigsburg",
+    "comp": "Germany / BBL",
+    "ha": "H",
+    "score": "86-77",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Mitteldeutscher BC",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Telekom Baskets Bonn",
+    "comp": "Germany / BBL",
+    "ha": "A",
+    "score": "72-77",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-26",
+    "opp": "Science City Jena",
+    "comp": "Germany / BBL",
+    "ha": "H",
+    "score": "77-62",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "EWE Baskets Oldenburg",
+    "comp": "Germany / BBL",
+    "ha": "A",
+    "score": "81-96",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Germany / BBL eid=1853659）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ",
+  "right.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Germany / BBL eid=1853659"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 66.7,
+   "gd_pg": 0.33,
+   "pd_pg": 0.33,
+   "rd_pg": 0.33,
+   "pts_rate": 0.667
+  },
+  "right": {
+   "season_wr": 33.3,
+   "gd_pg": -1.67,
+   "pd_pg": -1.67,
+   "rd_pg": -1.67,
+   "pts_rate": 0.333
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 6,
+   "played": 3,
+   "W": 2,
+   "D": 0,
+   "L": 1,
+   "gf": 246,
+   "ga": 245,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 13,
+   "played": 3,
+   "W": 1,
+   "D": 0,
+   "L": 2,
+   "gf": 230,
+   "ga": 235,
+   "pts": 2,
+   "group": null
+  },
+  "source": "LiveScore順位表 Germany / BBL（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 2,
+   "L": 1,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 246,
+   "points_against": 245,
+   "points_games": 3
+  },
+  "right": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 230,
+   "points_against": 235,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "match_id": "m20261004-71921499",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Kano Pillars",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Enyimba",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Inter Lagos",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Doma United",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Niger Tornadoes",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Kwara United",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Sporting Lagos",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Ikorodu City",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Barau",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Enyimba",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Abia Warriors",
+    "comp": "Nigeria / NPFL",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Inter Lagos",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Doma United",
+    "comp": "Nigeria / NPFL",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Nigeria / NPFL eid=1881195）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Nigeria / NPFL eid=1881195"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 40.0,
+   "gd_pg": 0.8,
+   "pd_pg": 0.8,
+   "rd_pg": 0.8,
+   "pts_rate": 0.6
+  },
+  "right": {
+   "season_wr": 33.3,
+   "gd_pg": 0.0,
+   "pd_pg": 0.0,
+   "rd_pg": 0.0,
+   "pts_rate": 0.444
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 6,
+   "played": 5,
+   "W": 2,
+   "D": 3,
+   "L": 0,
+   "gf": 10,
+   "ga": 6,
+   "pts": 9,
+   "group": null
+  },
+  "right": {
+   "rank": 9,
+   "played": 6,
+   "W": 2,
+   "D": 2,
+   "L": 2,
+   "gf": 7,
+   "ga": 7,
+   "pts": 8,
+   "group": null
+  },
+  "source": "LiveScore順位表 Nigeria / NPFL（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 2,
+   "L": 0,
+   "D": 3,
+   "win_rate": 40.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 2
+   },
+   "streak": "2連分",
+   "points_for": 10,
+   "points_against": 6,
+   "points_games": 5
+  },
+  "right": {
+   "games": 6,
+   "W": 2,
+   "L": 2,
+   "D": 2,
+   "win_rate": 33.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連分",
+   "points_for": 7,
+   "points_against": 7,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Enyimba",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "3-2",
+      "res": "W",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Inter Lagos",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-14",
+      "iso": "2026-09-14",
+      "score": "3-0",
+      "res": "W",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-24",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Doma United",
+    "left": [
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "4-1",
+      "res": "W",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Nigeria / NPFL"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-21",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

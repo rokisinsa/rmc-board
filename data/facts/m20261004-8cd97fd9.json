@@ -1,0 +1,346 @@
+{
+ "match_id": "m20261004-8cd97fd9",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Monopoli",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Casarano",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Crotone",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Scafatese",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Foggia",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Potenza",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Catania",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "Team Altamura",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Savoia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Cavese",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "2-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Casarano",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Foggia",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Crotone",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Team Altamura",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Casertana",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "AZ Picerno ASD",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Italy / Serie C: Group C eid=1856071）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Italy / Serie C: Group C eid=1856071"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 42.9,
+   "gd_pg": 0.29,
+   "pd_pg": 0.29,
+   "rd_pg": 0.29,
+   "pts_rate": 0.524
+  },
+  "right": {
+   "season_wr": 14.3,
+   "gd_pg": -0.29,
+   "pd_pg": -0.29,
+   "rd_pg": -0.29,
+   "pts_rate": 0.286
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 6,
+   "played": 7,
+   "W": 3,
+   "D": 2,
+   "L": 2,
+   "gf": 6,
+   "ga": 4,
+   "pts": 11,
+   "group": null
+  },
+  "right": {
+   "rank": 17,
+   "played": 7,
+   "W": 1,
+   "D": 3,
+   "L": 3,
+   "gf": 9,
+   "ga": 11,
+   "pts": 6,
+   "group": null
+  },
+  "source": "LiveScore順位表 Italy / Serie C: Group C（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 3,
+   "L": 2,
+   "D": 2,
+   "win_rate": 42.9,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 4,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 1,
+   "L": 3,
+   "D": 3,
+   "win_rate": 14.3,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "away": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 9,
+   "points_against": 11,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Casarano",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Crotone",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Foggia",
+    "left": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-16",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Team Altamura",
+    "left": [
+     {
+      "date": "2026-08-25",
+      "iso": "2026-08-25",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "2-0",
+      "res": "W",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-07",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

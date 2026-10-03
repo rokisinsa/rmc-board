@@ -1,0 +1,219 @@
+{
+ "match_id": "ls-1897386",
+ "data_as_of": "2026-10-03T21:04:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Senegal",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-06-10",
+    "opp": "Saudi Arabia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-01",
+    "opp": "USA",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Gambia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-29",
+    "opp": "Peru",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   }
+  ],
+  "lineup": []
+ },
+ "right": {
+  "name": "Comoros",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-03-31",
+    "opp": "Kazakhstan",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "Namibia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "親善試合でテスト起用が多いと格差が縮む",
+  "会場（ホーム/アウェー/中立）不明",
+  "招集メンバー未確認のため主力不在の可能性を排除できない"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1897386）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "欠場": "今回の招集・負傷報道が検索でヒットせず",
+  "ロスター変更": "監督・招集変更の報道が検索でヒットせず",
+  "ランキング（最新）": "最新FIFAランキング取得不可（2025年11月版を参考掲載）"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1897386",
+  "https://elgrafico.com.ar/articulo/la-jornada-esta-aqui/95152/anticipo-como-quedo-el-nuevo-ranking-fifa"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Senegal：2勝1分1敗／Comoros：0勝1分1敗",
+  "last10": "Senegal：2勝1分1敗（4試合）／Comoros：0勝1分1敗（2試合）",
+  "streak": "Senegal：1連分／Comoros：1連敗",
+  "avg_points": "Senegal：1試合平均得失差 +0.75（4試合）／Comoros：1試合平均得失差 -0.50（2試合）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし",
+  "absences": "左（Senegal）：未確認（10月の招集リスト・欠場報道を仏語/英語で検索したが、ヒットは2025年予選・2026W杯時のリストのみ）／右（Comoros）：未確認（招集報道見つからず）",
+  "roster_changes": "左：未確認（W杯2026はパプ・ティアウ監督で臨んだことは確認。W杯後の監督去就・代表引退者は確認できず）／右：未確認",
+  "ranking": "参考値：FIFAランキング2025年11月版 Senegal 19位（1648.07）／Comoros 108位（1189.75）（El Gráfico 2025-11-18記事。最新版は取得できず）",
+  "current_competition": "国際親善試合（大会順位なし）。existing：Senegal 直近4試合2勝1分1敗／Comoros 直近2試合0勝1分1敗"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Senegal）はホーム。直近のホーム成績 2勝0分0敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：Senegal・Comorosとも今回の招集リストや負傷報道を検索で見つけられず（ヒットは過去の予選・W杯本大会のリスト）。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "順位のかからない親善試合で、W杯後のテスト期間にあたるため新顔起用・大幅な選手入替の可能性は構造的に高い。具体的な起用方針は未確認。",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "未確認：2026W杯後のSenegal代表の世代交代（マネ、クリバリ世代の代表引退など）の報道を確認できず。W杯後サイクルの初期で世代交代が進行している可能性はある。",
+   "impact": "minor",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "existingの直近成績でComorosは0勝1分1敗と改善の兆候は見られず、検索でも躍進報道はなし。ただし招集情報自体が未確認。",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：両国の監督交代・招集メンバー変更の報道を検索で見つけられず。",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "親善試合のため勝敗の重要度は低く、上位側Senegalの勝利動機は公式戦より弱い。",
+   "impact": "minor",
+   "applies": true
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 4,
+   "heaviest_step": "今回の両国招集リストの検索（仏語・英語で4回検索したが過去のW杯予選/本大会記事しかヒットせず）"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 1,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 4,
+   "points_games": 4
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 1,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 0,
+   "points_against": 1,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

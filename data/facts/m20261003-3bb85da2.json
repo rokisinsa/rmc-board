@@ -1,0 +1,346 @@
+{
+ "match_id": "m20261003-3bb85da2",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Reading",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Wycombe Wanderers",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Notts County",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Cambridge United",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Blackpool",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "3-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-03",
+    "opp": "Mansfield Town",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "AFC Wimbledon",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Luton Town",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "3-4",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Bradford City",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-19",
+    "opp": "Luton Town",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Notts County",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Mansfield Town",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-02",
+    "opp": "Cambridge United",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Plymouth Argyle",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-21",
+    "opp": "Sheffield Wednesday",
+    "comp": "England / League 1",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Peterborough United",
+    "comp": "England / League 1",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore England / League 1 eid=1803003）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore England / League 1 eid=1803003"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 42.9,
+   "gd_pg": 1.0,
+   "pd_pg": 1.0,
+   "rd_pg": 1.0,
+   "pts_rate": 0.524
+  },
+  "right": {
+   "season_wr": 71.4,
+   "gd_pg": 0.43,
+   "pd_pg": 0.43,
+   "rd_pg": 0.43,
+   "pts_rate": 0.714
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 9,
+   "played": 7,
+   "W": 3,
+   "D": 2,
+   "L": 2,
+   "gf": 16,
+   "ga": 9,
+   "pts": 11,
+   "group": null
+  },
+  "right": {
+   "rank": 1,
+   "played": 7,
+   "W": 5,
+   "D": 0,
+   "L": 2,
+   "gf": 7,
+   "ga": 4,
+   "pts": 15,
+   "group": null
+  },
+  "source": "LiveScore順位表 England / League 1（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 3,
+   "L": 2,
+   "D": 2,
+   "win_rate": 42.9,
+   "home": {
+    "W": 3,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 16,
+   "points_against": 9,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 5,
+   "L": 2,
+   "D": 0,
+   "win_rate": 71.4,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 7,
+   "points_against": 4,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Notts County",
+    "left": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "2-0",
+      "res": "W",
+      "comp": "England / League 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "1-0",
+      "res": "W",
+      "comp": "England / League 1"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-19",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Luton Town",
+    "left": [
+     {
+      "date": "2026-08-15",
+      "iso": "2026-08-15",
+      "score": "3-4",
+      "res": "L",
+      "comp": "England / League 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "1-0",
+      "res": "W",
+      "comp": "England / League 1"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-19",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "Cambridge United",
+    "left": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "1-2",
+      "res": "L",
+      "comp": "England / League 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-02",
+      "iso": "2026-09-02",
+      "score": "1-2",
+      "res": "L",
+      "comp": "England / League 1"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-12",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Mansfield Town",
+    "left": [
+     {
+      "date": "2026-09-03",
+      "iso": "2026-09-03",
+      "score": "5-0",
+      "res": "W",
+      "comp": "England / League 1"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-05",
+      "iso": "2026-09-05",
+      "score": "1-0",
+      "res": "W",
+      "comp": "England / League 1"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-05",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

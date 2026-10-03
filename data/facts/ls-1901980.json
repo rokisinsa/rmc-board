@@ -1,0 +1,169 @@
+{
+ "match_id": "ls-1901980",
+ "data_as_of": "2026-10-03T20:33:53+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Morocco",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-06-08",
+    "opp": "Norway",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-06-03",
+    "opp": "Madagascar",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-26",
+    "opp": "Burundi",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "5-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Paraguay",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-03-28",
+    "opp": "Ecuador",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Mali",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-06-05",
+    "opp": "Iran",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1901980）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1901980"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Morocco：3勝2分0敗／Mali：0勝1敗",
+  "last10": "Morocco：3勝2分0敗（5試合）／Mali：0勝1敗（1試合）",
+  "streak": "Morocco：1連分／Mali：1連敗",
+  "avg_points": "Morocco：1試合平均得失差 +2.00（5試合）／Mali：1試合平均得失差 -2.00（1試合）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Morocco）はホーム。直近のホーム成績 3勝2分0敗（5試合）",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 3,
+   "L": 0,
+   "D": 2,
+   "win_rate": 60.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 2
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 13,
+   "points_against": 3,
+   "points_games": 5
+  },
+  "right": {
+   "games": 1,
+   "W": 0,
+   "L": 1,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 0,
+   "points_against": 2,
+   "points_games": 1
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-05"
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "match_id": "m20261003-f246acfb",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "VV Katwijk",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "AFC",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "De Treffers",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Jong Sparta Rotterdam",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Jong Almere City FC",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "Barendrecht",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "Hoek",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "Spakenburg",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Kozakken Boys",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Koninklijke HFC",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "HHC Hardenberg",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Rijnsburgse Boys",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "6-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Rohda Raalte",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-29",
+    "opp": "GVVV Veenendaal",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-22",
+    "opp": "Kloetinge",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "A",
+    "score": "3-3",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-15",
+    "opp": "IJsselmeervogels",
+    "comp": "Netherlands / Tweede Divisie",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Netherlands / Tweede Divisie eid=1841289）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Netherlands / Tweede Divisie eid=1841289"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 42.9,
+   "gd_pg": 0.29,
+   "pd_pg": 0.29,
+   "rd_pg": 0.29,
+   "pts_rate": 0.524
+  },
+  "right": {
+   "season_wr": 57.1,
+   "gd_pg": 1.0,
+   "pd_pg": 1.0,
+   "rd_pg": 1.0,
+   "pts_rate": 0.667
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 8,
+   "played": 7,
+   "W": 3,
+   "D": 2,
+   "L": 2,
+   "gf": 10,
+   "ga": 8,
+   "pts": 11,
+   "group": null
+  },
+  "right": {
+   "rank": 3,
+   "played": 7,
+   "W": 4,
+   "D": 2,
+   "L": 1,
+   "gf": 18,
+   "ga": 11,
+   "pts": 14,
+   "group": null
+  },
+  "source": "LiveScore順位表 Netherlands / Tweede Divisie（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 3,
+   "L": 2,
+   "D": 2,
+   "win_rate": 42.9,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 10,
+   "points_against": 8,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 4,
+   "L": 1,
+   "D": 2,
+   "win_rate": 57.1,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 18,
+   "points_against": 11,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "match_id": "ls-1897379",
+ "data_as_of": "2026-10-03T20:33:53+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Uganda",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-02",
+    "opp": "DR Congo",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "A",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "DR Congo",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-02",
+    "opp": "Uganda",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-10",
+    "opp": "Chile",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-04",
+    "opp": "Denmark",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-03-26",
+    "opp": "Bermuda",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-10-02",
+   "event": "International Friendlies / Friendlies",
+   "winner": "left",
+   "score": "2-0"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1897379"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "Uganda：1勝0敗／DR Congo：1勝1分2敗",
+  "last10": "Uganda：1勝0敗（1試合）／DR Congo：1勝1分2敗（4試合）",
+  "streak": "Uganda：1連勝／DR Congo：2連敗",
+  "avg_points": "Uganda：1試合平均得失差 +2.00（1試合）／DR Congo：1試合平均得失差 -0.25（4試合）",
+  "h2h_all": "1件：2026-10-02 International Friendlies / Friendlies 2-0（左）（出典：LiveScore International Friendlies / Friendlies eid=1897379。自動取得元の収録範囲内）",
+  "h2h_points": "H2H合計 Uganda 2-0 DR Congo（1件・得点）",
+  "h2h_home_away": "2026-10-02 DR Congo（ホーム）0-2 Uganda",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "サッカーは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "サッカーは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "H2H 1件（最古2026・最新2026）。格差判定はH2Hの古さに依存しない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（DR Congo）はアウェー。直近のアウェー成績 0勝0分0敗（0試合）",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 0,
+   "points_games": 1
+  },
+  "right": {
+   "games": 4,
+   "W": 1,
+   "L": 2,
+   "D": 1,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 3,
+   "points_against": 4,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 2,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 0.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-05"
+ }
+}

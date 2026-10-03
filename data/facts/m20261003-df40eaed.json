@@ -1,0 +1,195 @@
+{
+ "match_id": "m20261003-df40eaed",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Elche Ilicitano",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Yeclano",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "SCR Pena Deportiva",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "CD Cieza",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Lorca Deportiva",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "UCAM Murcia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "CF Intercity",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Atletico Baleares",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Valencia B",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Castellonense",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Spain / Segunda Division RFEF: Group 3 eid=1815435）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Spain / Segunda Division RFEF: Group 3 eid=1815435"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 25.0,
+   "gd_pg": -0.25,
+   "pd_pg": -0.25,
+   "rd_pg": -0.25,
+   "pts_rate": 0.333
+  },
+  "right": {
+   "season_wr": 50.0,
+   "gd_pg": 0.5,
+   "pd_pg": 0.5,
+   "rd_pg": 0.5,
+   "pts_rate": 0.5
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 13,
+   "played": 4,
+   "W": 1,
+   "D": 1,
+   "L": 2,
+   "gf": 2,
+   "ga": 3,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 8,
+   "played": 4,
+   "W": 2,
+   "D": 0,
+   "L": 2,
+   "gf": 7,
+   "ga": 5,
+   "pts": 6,
+   "group": null
+  },
+  "source": "LiveScore順位表 Spain / Segunda Division RFEF: Group 3（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 2,
+   "D": 1,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 3,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 2,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 5,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

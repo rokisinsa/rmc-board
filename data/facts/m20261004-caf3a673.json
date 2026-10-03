@@ -1,0 +1,248 @@
+{
+ "match_id": "m20261004-caf3a673",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Asteras Tripolis B",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Athens Kallithea",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Kalamaria",
+    "comp": "Greece / Super League 2",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-14",
+    "opp": "Panserraikos FC",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Panionios",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Anagennisi Karditsa",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Kalamaria",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Panionios",
+    "comp": "Greece / Super League 2",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Hellas Syrou",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "AE Larissa",
+    "comp": "Greece / Super League 2",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Greece / Super League 2 eid=1890689）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Greece / Super League 2 eid=1890689"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 25.0,
+   "gd_pg": -1.0,
+   "pd_pg": -1.0,
+   "rd_pg": -1.0,
+   "pts_rate": 0.25
+  },
+  "right": {
+   "season_wr": 0.0,
+   "gd_pg": -1.0,
+   "pd_pg": -1.0,
+   "rd_pg": -1.0,
+   "pts_rate": 0.167
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 13,
+   "played": 4,
+   "W": 1,
+   "D": 0,
+   "L": 3,
+   "gf": 1,
+   "ga": 5,
+   "pts": 3,
+   "group": null
+  },
+  "right": {
+   "rank": 14,
+   "played": 4,
+   "W": 0,
+   "D": 2,
+   "L": 2,
+   "gf": 1,
+   "ga": 5,
+   "pts": 2,
+   "group": null
+  },
+  "source": "LiveScore順位表 Greece / Super League 2（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 3,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 5,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 0,
+   "L": 2,
+   "D": 2,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 1,
+   "points_against": 5,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Kalamaria",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Greece / Super League 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Greece / Super League 2"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-27",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Panionios",
+    "left": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Greece / Super League 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Greece / Super League 2"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-19",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

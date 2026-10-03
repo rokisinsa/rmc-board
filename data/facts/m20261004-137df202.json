@@ -1,0 +1,119 @@
+{
+ "match_id": "m20261004-137df202",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "BC Prievidza",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "MBK Lucenec",
+    "comp": "Slovakia / SBL",
+    "ha": "H",
+    "score": "97-79",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Kosice Wolves",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "BK Svit",
+    "comp": "Slovakia / SBL",
+    "ha": "A",
+    "score": "80-66",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-25",
+    "opp": "Inter Bratislava",
+    "comp": "Slovakia / SBL",
+    "ha": "H",
+    "score": "59-94",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Slovakia / SBL eid=1880548）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が1試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Slovakia / SBL eid=1880548"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 1,
+   "W": 1,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 97,
+   "points_against": 79,
+   "points_games": 1
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 139,
+   "points_against": 160,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

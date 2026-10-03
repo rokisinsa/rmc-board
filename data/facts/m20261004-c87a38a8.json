@@ -1,0 +1,209 @@
+{
+ "match_id": "m20261004-c87a38a8",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "USA",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Chile",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Peru",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "4-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-06-01",
+    "opp": "Senegal",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Mexico",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-30",
+    "opp": "Peru",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Colombia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-05-31",
+    "opp": "Australia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-05-23",
+    "opp": "Ghana",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-04-01",
+    "opp": "Belgium",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-02-26",
+    "opp": "Iceland",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-26",
+    "opp": "Bolivia",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-23",
+    "opp": "Panama",
+    "comp": "International Friendlies / Friendlies",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore International Friendlies / Friendlies eid=1854943）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore International Friendlies / Friendlies eid=1854943"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 3,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "3連勝",
+   "points_for": 11,
+   "points_against": 5,
+   "points_games": 3
+  },
+  "right": {
+   "games": 8,
+   "W": 5,
+   "L": 0,
+   "D": 3,
+   "win_rate": 62.5,
+   "home": {
+    "W": 5,
+    "L": 0,
+    "D": 3
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連分",
+   "points_for": 12,
+   "points_against": 3,
+   "points_games": 8
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Peru",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "4-1",
+      "res": "W",
+      "comp": "International Friendlies / Friendlies"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-30",
+      "iso": "2026-09-30",
+      "score": "1-1",
+      "res": "D",
+      "comp": "International Friendlies / Friendlies"
+     }
+    ],
+    "edge": "left",
+    "basis": "勝率",
+    "latest": "2026-09-30",
+    "left_rec": "1勝0敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "match_id": "m20261004-4e7cff0c",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Catania",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Casertana",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Barletta",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "AZ Picerno ASD",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "4-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Scafatese",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Cosenza",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Monopoli",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-24",
+    "opp": "Inter U23",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Crotone",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-26",
+    "opp": "Salernitana",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Monopoli",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "Inter U23",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Savoia",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Barletta",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Sorrento",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-08-25",
+    "opp": "Foggia",
+    "comp": "Italy / Serie C: Group C",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Italy / Serie C: Group C eid=1856062）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Italy / Serie C: Group C eid=1856062"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 42.9,
+   "gd_pg": 0.43,
+   "pd_pg": 0.43,
+   "rd_pg": 0.43,
+   "pts_rate": 0.476
+  },
+  "right": {
+   "season_wr": 14.3,
+   "gd_pg": -0.43,
+   "pd_pg": -0.43,
+   "rd_pg": -0.43,
+   "pts_rate": 0.0
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 8,
+   "played": 7,
+   "W": 3,
+   "D": 1,
+   "L": 3,
+   "gf": 12,
+   "ga": 9,
+   "pts": 10,
+   "group": null
+  },
+  "right": {
+   "rank": 20,
+   "played": 7,
+   "W": 1,
+   "D": 3,
+   "L": 3,
+   "gf": 7,
+   "ga": 10,
+   "pts": 0,
+   "group": null
+  },
+  "source": "LiveScore順位表 Italy / Serie C: Group C（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 3,
+   "L": 3,
+   "D": 1,
+   "win_rate": 42.9,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 12,
+   "points_against": 9,
+   "points_games": 7
+  },
+  "right": {
+   "games": 7,
+   "W": 1,
+   "L": 3,
+   "D": 3,
+   "win_rate": 14.3,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 10,
+   "points_games": 7
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Barletta",
+    "left": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Monopoli",
+    "left": [
+     {
+      "date": "2026-08-30",
+      "iso": "2026-08-30",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-20",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Inter U23",
+    "left": [
+     {
+      "date": "2026-08-24",
+      "iso": "2026-08-24",
+      "score": "1-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-16",
+      "iso": "2026-09-16",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Italy / Serie C: Group C"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-16",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

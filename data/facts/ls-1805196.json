@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1805196",
- "data_as_of": "2026-10-02T03:49:36+09:00",
+ "data_as_of": "2026-10-03T21:05:28+09:00",
  "unit": "なし",
  "left": {
   "name": "Ringerike",
@@ -46,7 +46,8 @@
     "score": "3-2",
     "res": "W"
    }
-  ]
+  ],
+  "lineup": []
  },
  "right": {
   "name": "Nidaros",
@@ -81,7 +82,11 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "Nidarosは得失14-13で、得失点の内容は3勝1敗の勝点ほど優位ではない",
+  "Nidarosは監督交代・GK流出の再編期にある",
+  "開幕4〜5試合の小さいサンプル"
+ ],
  "missing": [
   "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
  ],
@@ -92,10 +97,13 @@
   "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
-  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "欠場": "Ringerike側の負傷・欠場情報は検索でヒットせず。Nidarosもロスターページ以外の報道は未確認"
  },
  "source_urls": [
-  "LiveScore Norway / EHL eid=1805196"
+  "LiveScore Norway / EHL eid=1805196",
+  "https://www.eliteprospects.com/team/12510/nidaros-hockey/2026-2027",
+  "https://www.hockey4you.no/en/nidaros-med-solid-seier-i-opprykksfinale-fortsatt-ubeseiret-pa-hjemmebane/"
  ],
  "metrics": {
   "left": {
@@ -149,7 +157,9 @@
   "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
   "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
   "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
-  "common_60d": "60日以内の共通相手2：左 Stavanger 2-6L（2026-10-02） ／ 右 Stavanger 6-3W（2026-09-19）／左 Lillehammer 3-2W（2026-09-18） ／ 右 Lillehammer 3-2W（2026-09-25）"
+  "common_60d": "60日以内の共通相手2：左 Stavanger 2-6L（2026-10-02） ／ 右 Stavanger 6-3W（2026-09-19）／左 Lillehammer 3-2W（2026-09-18） ／ 右 Lillehammer 3-2W（2026-09-25）",
+  "absences": "左（Ringerike）：未確認。地元紙・クラブ情報はヒットせず／右（Nidaros）：Eliteprospectsの2026-27ロスターページには負傷者の表示なし（ただし網羅的な情報源ではない）",
+  "roster_changes": "左（Ringerike）：DのAlbert LyckåsenがNidarosから加入（2026/07/29、Eliteprospects）。それ以外は未確認／右（Nidaros）：新HCにVictor Wallsonが就任（2026-27）。加入はFredrik Vethe Bye（F、Frisk Asker からレンタル、07/29）。退団はSondre Krogh（F、08/10）、GKのJoakim Stokvik（Fagersta AIK へ、07/31）、Albert Lyckåsen（D、Ringerike へ、07/29）、Matteus Söderbom（D、Herning Blue Fox へ、07/26）"
  },
  "counter_evidence": {
   "BO1": {
@@ -174,6 +184,31 @@
   },
   "最近の急改善": {
    "finding": "格差下位側（Ringerike）の直近3試合 2026-10-02 2-6L・2026-09-26 2-5L・2026-09-25 0-8L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "Nidarosの2026-27ロスターページ（Eliteprospects）を確認したが負傷者の表示はなし。Ringerikeの欠場情報は検索でヒットせず未確認。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "EHLのレギュラーシーズン序盤（4〜5試合消化）のリーグ戦。過密日程や欧州大会への出場の情報はなく、ローテーションの兆候は見当たらない。",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "Nidarosは新HC就任に加え、GK・D2人・F1人が退団しており、チームの再編期にある。昨季までの実績をそのまま当てはめにくい。",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "上位側のNidarosは監督が交代し、GKのStokvikとDのLyckåsenらが退団した。そのLyckåsenが下位側のRingerikeに移籍しており、下位側の補強かつ上位側の流出になっている。ただしチームが別物になるほどの規模ではない。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン序盤のリーグ戦なので該当しない。両軍は2025年春のEHL昇格決定戦で対戦した因縁のカードでもある。",
    "impact": "none",
    "applies": false
   }
@@ -283,5 +318,12 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-03"
- }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 3,
+   "heaviest_step": "Ringerikeの今季情報の検索（Eliteprospectsのトップチームのページや地元紙の記事がヒットせず、空振りが続いた）"
+  }
+ ]
 }

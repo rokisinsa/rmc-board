@@ -1,0 +1,222 @@
+{
+ "match_id": "m20261004-677e3190",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Intercity",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "UCAM Murcia",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Lorca Deportiva",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Atletico Baleares",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Castellon B",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Yeclano",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Elche Ilicitano",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "La Nucia",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "SCR Pena Deportiva",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Atletico Baleares",
+    "comp": "Spain / Segunda Division RFEF: Group 3",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Spain / Segunda Division RFEF: Group 3 eid=1815442）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Spain / Segunda Division RFEF: Group 3 eid=1815442"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 50.0,
+   "gd_pg": 0.5,
+   "pd_pg": 0.5,
+   "rd_pg": 0.5,
+   "pts_rate": 0.667
+  },
+  "right": {
+   "season_wr": 50.0,
+   "gd_pg": 0.25,
+   "pd_pg": 0.25,
+   "rd_pg": 0.25,
+   "pts_rate": 0.583
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 4,
+   "played": 4,
+   "W": 2,
+   "D": 2,
+   "L": 0,
+   "gf": 6,
+   "ga": 4,
+   "pts": 8,
+   "group": null
+  },
+  "right": {
+   "rank": 6,
+   "played": 4,
+   "W": 2,
+   "D": 1,
+   "L": 1,
+   "gf": 3,
+   "ga": 2,
+   "pts": 7,
+   "group": null
+  },
+  "source": "LiveScore順位表 Spain / Segunda Division RFEF: Group 3（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 0,
+   "D": 2,
+   "win_rate": 50.0,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 6,
+   "points_against": 4,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 2,
+   "L": 1,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 2,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Atletico Baleares",
+    "left": [
+     {
+      "date": "2026-09-13",
+      "iso": "2026-09-13",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Spain / Segunda Division RFEF: Group 3"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "1-0",
+      "res": "W",
+      "comp": "Spain / Segunda Division RFEF: Group 3"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-13",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

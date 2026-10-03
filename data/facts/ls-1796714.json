@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1796714",
- "data_as_of": "2026-10-02T03:49:36+09:00",
+ "data_as_of": "2026-10-03T21:10:45+09:00",
  "unit": "なし",
  "left": {
   "name": "Brampton Steelheads",
@@ -46,6 +46,11 @@
     "score": "2-3",
     "res": "L"
    }
+  ],
+  "lineup": [
+   "会場：Brampton本拠 CAA Centre（左＝ホーム、現地10/3 16:00 ET）",
+   "Brampton：主将トロイ・パットン（9/23指名）",
+   "Saginaw：主将ディマ・ジルキン（昨季75点）、GKシュリギン／ノウリング"
   ]
  },
  "right": {
@@ -89,7 +94,11 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "上位側Saginaw自体が1勝3敗で、格差は共通相手指標と5連敗の材料に依存",
+  "Saginawはアウェー、Bramptonはホーム",
+  "両チームとも欠場情報未確認"
+ ],
  "missing": [
   "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
  ],
@@ -100,10 +109,18 @@
   "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
-  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "ランキング": "OHL公式順位表を取得していない（chl.ca系ページの取得が承認待ちで撤回）",
+  "現在大会成績": "同上",
+  "欠場": "公式ニュース未取得・検索で直近の負傷報道なし"
  },
  "source_urls": [
-  "LiveScore Canada / OHL eid=1796714"
+  "LiveScore Canada / OHL eid=1796714",
+  "https://www.tickpick.com/buy-brampton-steelheads-vs-saginaw-spirit-tickets-caa-centre-10-3-26-4pm/8166522/",
+  "https://www.oursportscentral.com/services/releases/2026-27-season-preview-saginaw-spirit/n-6409556",
+  "https://thehockeynews.com/ohl/latest-news/2026-27-season-preview-brampton-steelheads",
+  "https://thehockeynews.com/ohl/latest-news/brampton-steelheads-name-troy-patton-captain",
+  "https://thehockeynews.com/ohl/latest-news"
  ],
  "metrics": {
   "left": {},
@@ -118,7 +135,11 @@
   "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
   "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
   "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
-  "common_60d": "60日以内の共通相手2：左 Sault Ste. Marie Greyhounds 3-6L（2026-09-26） ／ 右 Sault Ste. Marie Greyhounds 4-5L（2026-09-19）／左 Niagara IceDogs 1-4L（2026-09-20） ／ 右 Niagara IceDogs 5-3W（2026-09-26）"
+  "common_60d": "60日以内の共通相手2：左 Sault Ste. Marie Greyhounds 3-6L（2026-09-26） ／ 右 Sault Ste. Marie Greyhounds 4-5L（2026-09-19）／左 Niagara IceDogs 1-4L（2026-09-20） ／ 右 Niagara IceDogs 5-3W（2026-09-26）",
+  "absences": "左（Brampton）：未確認（シーズンプレビュー8/30時点で負傷報道なし、以降の欠場情報は見つからず）／右（Saginaw）：未確認（9/4プレビューではC ライアン・ハンラハンが負傷明けで復帰予定とのみ記載、直近の欠場報道は見つからず）",
+  "roster_changes": "左（Brampton）：全面的な再建中。昨季の主力FWポーター・マートーン、GKジャック・イヴァンコヴィッチが大学へ流出、全体3位指名タナー・アダムズは入団拒否。インポートGKアフマヤルヴィ、FWクリャチェンコフ、コリンズ双子(17歳)ら若手加入。9/23にトロイ・パットンを主将に指名／右（Saginaw）：得点王ニキータ・クレポフがアナハイムとELC締結で退団。主将ジルキン、クルーティエ、DFハーパー、GKシュリギンが残留。GKノウリング、NTDP出身のマルティニュク、ミロイェヴィッチ加入。新HCブレンダン・テイラー就任",
+  "ranking": "未取得（OHL順位表を取得できず）。参考：既存データの直近成績はBrampton 0勝5敗、Saginaw 1勝3敗",
+  "current_competition": "未取得（OHL公式順位表未取得）。2026-27 OHLレギュラーシーズン序盤（Saginawは9/18開幕）。試合はBrampton本拠CAA Centre（現地10/3 16:00）"
  },
  "counter_evidence": {
   "BO1": {
@@ -143,6 +164,31 @@
   },
   "最近の急改善": {
    "finding": "格差下位側（Brampton Steelheads）の直近3試合 2026-09-28 2-4L・2026-09-26 3-6L・2026-09-25 2-5L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：両チームの公式ニュース(chl.ca)が取得できず、検索でも10月時点の欠場報道は見つからなかった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "OHLは週末連戦が通常で、Saginawはアウェー（ブランプトン）遠征。前後の試合日程は未確認。",
+   "impact": "minor",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "下位側Bramptonは主力流出後の全面再建で若手中心（格差方向と一致）。上位側Saginawも新HC就任・得点王退団で若いコアの育成段階にあり、昨季はWC最下位シードでのプレーオフ進出と、上位側自体も強豪ではない。",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "上位側Saginawは得点王クレポフ退団と監督交代があり、格差の根拠は4試合1勝3敗と薄い。下位側の大型補強はなく、むしろ戦力流出。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "シーズン開幕から約2週の序盤戦で、消化試合には該当しない。",
    "impact": "none",
    "applies": false
   }
@@ -252,5 +298,12 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-04"
- }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 7,
+   "heaviest_step": "直近の欠場・順位情報の探索（chl.ca公式が開けず、プレビュー記事で代替）"
+  }
+ ]
 }

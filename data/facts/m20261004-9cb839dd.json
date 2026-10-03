@@ -1,0 +1,272 @@
+{
+ "match_id": "m20261004-9cb839dd",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "NH Ostrava",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Kralovsti Sokoli",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "89-82",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "BK Olomoucko",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "76-77",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "MMCITE Brno",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "85-76",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "BK Opava",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "89-77",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "BK JIP Pardubice",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Srsni Pisek",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "92-82",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "Kralovsti Sokoli",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "88-78",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "BK Olomoucko",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "100-54",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "MMCITE Brno",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "85-79",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Czech Republic / NBL eid=1824911）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Czech Republic / NBL eid=1824911"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 75.0,
+   "gd_pg": 6.75,
+   "pd_pg": 6.75,
+   "rd_pg": 6.75
+  },
+  "right": {
+   "season_wr": 100.0,
+   "gd_pg": 18.0,
+   "pd_pg": 18.0,
+   "rd_pg": 18.0
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 5,
+   "played": 4,
+   "W": 3,
+   "D": 0,
+   "L": 1,
+   "gf": 339,
+   "ga": 312,
+   "pts": null,
+   "group": null
+  },
+  "right": {
+   "rank": 2,
+   "played": 4,
+   "W": 4,
+   "D": 0,
+   "L": 0,
+   "gf": 365,
+   "ga": 293,
+   "pts": null,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / NBL（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 339,
+   "points_against": 312,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 4,
+   "L": 0,
+   "D": 0,
+   "win_rate": 100.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 3,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "4連勝",
+   "points_for": 365,
+   "points_against": 293,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Kralovsti Sokoli",
+    "left": [
+     {
+      "date": "2026-10-01",
+      "iso": "2026-10-01",
+      "score": "89-82",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "88-78",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-10-01",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "BK Olomoucko",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "76-77",
+      "res": "L",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "100-54",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "right",
+    "basis": "勝率",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "1勝0敗"
+   },
+   {
+    "opp": "MMCITE Brno",
+    "left": [
+     {
+      "date": "2026-09-24",
+      "iso": "2026-09-24",
+      "score": "85-76",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-19",
+      "iso": "2026-09-19",
+      "score": "85-79",
+      "res": "W",
+      "comp": "Czech Republic / NBL"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-24",
+    "left_rec": "1勝0敗",
+    "right_rec": "1勝0敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

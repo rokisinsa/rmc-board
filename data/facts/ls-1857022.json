@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1857022",
- "data_as_of": "2026-10-02T03:49:36+09:00",
+ "data_as_of": "2026-10-03T21:09:50+09:00",
  "unit": "なし",
  "left": {
   "name": "HDD Jesenice",
@@ -38,6 +38,10 @@
     "score": "2-3",
     "res": "L"
    }
+  ],
+  "lineup": [
+   "Jesenice：2025-26の主将Gregor Koblar、守備Ziga Urukalo（EP上はHD Jeseniceへ登録移行）",
+   "Jesenice：GK Žan Usは2025-26に57セーブの試合あり（2026-27在籍は未確認）"
   ]
  },
  "right": {
@@ -65,7 +69,11 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "Jeseniceはクラブ運営母体の交代・財政難が継続しており、選手層が薄い",
+  "KAC IIはファームでKAC本隊からの選手派遣によりメンバーが試合ごとに大きく変わる",
+  "両チームとも試合数3〜4と少なく、格差指標のサンプルが小さい"
+ ],
  "missing": [
   "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
  ],
@@ -76,10 +84,14 @@
   "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
-  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "欠場": "Slovenia地元紙（siol.net、rtvslo.siアルプスリーグ欄）のWebFetchが承認待ちで取得できず、delo.siはエラーページへリダイレクト。KAC II側は検索予算内で未調査。"
  },
  "source_urls": [
-  "LiveScore International / Alps Hockey League eid=1857022"
+  "LiveScore International / Alps Hockey League eid=1857022",
+  "https://www.rtvslo.si/sport/jeseniski-hokej-na-aparatih-resitev-ponuja-hd-mladi-jesenice/788739",
+  "https://www.rtvslo.si/n/759312",
+  "https://www.eliteprospects.com/team/15803/hdd-jesenice"
  ],
  "metrics": {
   "left": {
@@ -133,7 +145,9 @@
   "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
   "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
   "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
-  "common_60d": "60日以内の共通相手2：左 Salzburg II 5-1W（2026-09-30） ／ 右 Salzburg II 4-0W（2026-09-25）／左 Asiago 7-2W（2026-09-25） ／ 右 Asiago 3-8L（2026-09-23）"
+  "common_60d": "60日以内の共通相手2：左 Salzburg II 5-1W（2026-09-30） ／ 右 Salzburg II 4-0W（2026-09-25）／左 Asiago 7-2W（2026-09-25） ／ 右 Asiago 3-8L（2026-09-23）",
+  "absences": "左（HDD Jesenice）：未確認（Slovenia各紙の直近ニュースページを開けず、検索でも10月の負傷・欠場報道はヒットせず）／右（Klagenfurter AC II）：未確認（検索未実施・予算打ち切り。KACのファームチームで、トップチームICEHLとの選手往来により毎試合メンバーが変動しうる）",
+  "roster_changes": "左：2026年7月21日のRTV SLO報道で、HDD Jesenice旧経営陣が未開示債務を理由に総辞職し、兄弟クラブHD Mladi Jesenice（ユース組織）が運営を引き継ぐ方針。EliteProspectsでは2026年8〜9月にUrukalo（A）、Sojer、Ulcar、Jakupovic、Burgar、Baloh、Sodja Zalokar、Oblakらが『HD Jesenice』へ移籍登録（新運営体への登録移行とみられる）。2025-26はクラブ予算がリーグ最低で、監督Zupančičら無給状態と報道（2025/10）。2026-27の監督は未確認／右：未確認（KAC IIはKACの育成・ファーム枠で、毎季若手中心に入れ替わる）"
  },
  "counter_evidence": {
   "BO1": {
@@ -154,6 +168,36 @@
   "ホーム/アウェー差": {
    "finding": "格差上位側（HDD Jesenice）はホーム。直近のホーム成績 2勝0分0敗（2試合）",
    "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：Jesenice・KAC IIともに直近の負傷/欠場報道を検索で確認できず、地元紙（siol.net、rtvslo.si競技ページ）は取得不可だった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "AHL序盤のレギュラーシーズン戦で、上位側Jeseniceに過密日程や控え起用の情報はなし。ただし下位側KAC IIはファームのため、ICEHLのKAC本隊の日程次第でトップ選手が降りてきて戦力が上振れする可能性がある。",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "Jeseniceは財政難で2025-26から若手中心（EP上の平均年齢約23歳）・ユース組織HD Mladi Jeseniceが運営継承と報じられており、若年化・戦力の不安定さは残る。ただし今季は既に3勝1敗（得失17-8）と結果は出ている。",
+   "impact": "minor",
+   "applies": true
+  },
+  "ロスター変更": {
+   "finding": "Jeseniceは2026年夏に運営母体がHD Mladi Jesenice側へ移行（RTV SLO 7/21）、主力の移籍登録先が『HD Jesenice』に変わっている（EliteProspects）。実質的な主力流出かは確認できず、KAC II側の補強情報も未確認。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "AHL 2026-27レギュラーシーズン第4〜5節相当の序盤戦で、両チームとも消化試合ではない。",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "KAC IIは3試合1勝2敗（得失9-11）とサンプルが少なく、急改善を示すデータはない。ただ試合数が少なく格差の根拠自体の信頼度は低い。",
+   "impact": "minor",
    "applies": false
   }
  },
@@ -262,5 +306,12 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-04"
- }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 5,
+   "heaviest_step": "Jesenice側の欠場・体制情報の検索（スロベニア語検索と地元紙ページ取得の失敗）"
+  }
+ ]
 }

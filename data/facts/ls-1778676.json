@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1778676",
- "data_as_of": "2026-10-02T03:49:36+09:00",
+ "data_as_of": "2026-10-03T21:04:46+09:00",
  "unit": "なし",
  "left": {
   "name": "Timraa",
@@ -38,7 +38,8 @@
     "score": "2-3",
     "res": "L"
    }
-  ]
+  ],
+  "lineup": []
  },
  "right": {
   "name": "Skellefteaa",
@@ -81,7 +82,11 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "Skellefteåは2026-27 CHLにも出場中のため、過密日程による疲労やGKのローテーションの可能性がある",
+  "開幕5試合時点の小さいサンプルに基づく格差",
+  "欠場情報が未確認のまま"
+ ],
  "missing": [
   "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
  ],
@@ -92,10 +97,16 @@
   "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
-  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "欠場": "今季の欠場報道が検索でヒットせず、Timrå公式サイトのWebFetchは承認待ちで取り下げられた",
+  "ロスター変更": "今季の移籍・監督情報を取得できず"
  },
  "source_urls": [
-  "LiveScore Sweden / SHL eid=1778676"
+  "LiveScore Sweden / SHL eid=1778676",
+  "https://www.tv4.se/artikel/2HVlM52aad1NR9isnWtBHw/timras-mardroem-infoer-toppmoetet-med-skelleftea-jonathan-dahlen-saknas",
+  "https://www.tv4.se/artikel/3sNYz0zWwltyLrD0qgOlcj/tunga-beskedet-blir-borta-tio-veckor",
+  "https://www.chl.hockey/en/news/we-re-in-it-to-win-it-shl-clubs-react-to-2026-27-chl-draw",
+  "https://www.eliteprospects.com/team/19241/skelleftea-aik/2026-2027?tab=stats"
  ],
  "metrics": {
   "left": {
@@ -149,7 +160,9 @@
   "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
   "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
   "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
-  "common_60d": "60日以内の共通相手2：左 Brynaes 0-1L（2026-09-30） ／ 右 Brynaes 7-2W（2026-09-19）／左 Oerebro HK 1-5L（2026-09-23） ／ 右 Oerebro HK 0-3L（2026-09-27）"
+  "common_60d": "60日以内の共通相手2：左 Brynaes 0-1L（2026-09-30） ／ 右 Brynaes 7-2W（2026-09-19）／左 Oerebro HK 1-5L（2026-09-23） ／ 右 Oerebro HK 0-3L（2026-09-27）",
+  "absences": "左（Timrå）：未確認。検索で出た負傷記事（Dahlén欠場・Strömberg10週離脱など）はいずれも2024〜2025年の旧記事で今季の欠場情報は得られず／右（Skellefteå）：未確認。今季の欠場報道は検索でヒットせず",
+  "roster_changes": "左（Timrå）：未確認（クラブ公式ページは取得できず）／右（Skellefteå）：未確認。CHL記事によるとSkellefteåは前季SHL王者として2026-27 CHLに出場中"
  },
  "counter_evidence": {
   "BO1": {
@@ -174,6 +187,31 @@
   },
   "最近の急改善": {
    "finding": "格差下位側（Timraa）の直近3試合 2026-09-30 0-1L・2026-09-27 3-2W・2026-09-23 1-5L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：検索でヒットしたTV4の負傷記事は2024年10月・2025年1月の旧記事で、2026-27シーズンの両軍の欠場情報は見つからず、Timrå公式サイトは取得できなかった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "Skellefteå（上位側）は前季SHL王者として2026-27 CHLに出場しており、平日のCHL戦と並行する日程のため、GKなどの入れ替えの可能性はある。ただし具体的な日程と先発は確認できていない。",
+   "impact": "minor",
+   "applies": true
+  },
+  "世代交代": {
+   "finding": "未確認：今季のロスター構成（若手の起用など）に関する情報は得られなかった。開幕5試合目の段階で、大きな世代交代の報道は見つかっていない。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：オフの移籍や監督交代の情報は取得できなかった（Eliteprospectsで取れたのは同名の女子チームのページで対象外）。",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "SHLのレギュラーシーズン序盤（各5試合消化）のリーグ戦なので、消化試合には当たらない。",
    "impact": "none",
    "applies": false
   }
@@ -283,5 +321,12 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-03"
- }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 4,
+   "heaviest_step": "今季の欠場情報の検索（スウェーデン語の検索では旧シーズンの負傷記事ばかりヒットし、日付の確認に取得を要した）"
+  }
+ ]
 }

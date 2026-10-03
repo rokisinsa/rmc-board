@@ -1,0 +1,140 @@
+{
+ "match_id": "m20261004-3a0d8883",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Siauliai",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Zalgiris Kaunas",
+    "comp": "Lithuania / LKL",
+    "ha": "A",
+    "score": "82-101",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Lietkabelis",
+    "comp": "Lithuania / LKL",
+    "ha": "H",
+    "score": "86-77",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Gargzdai",
+    "comp": "Lithuania / LKL",
+    "ha": "A",
+    "score": "79-90",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Jonava",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Nevezis",
+    "comp": "Lithuania / LKL",
+    "ha": "H",
+    "score": "85-65",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Taurage",
+    "comp": "Lithuania / LKL",
+    "ha": "A",
+    "score": "90-95",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "右＝ホーム（配信の「@」表記・左＝アウェイ）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Lithuania / LKL eid=1867643）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が3試合のみ",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Lithuania / LKL eid=1867643"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 33.3,
+   "gd_pg": -7.0,
+   "pd_pg": -7.0,
+   "rd_pg": -7.0
+  },
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 3,
+   "W": 1,
+   "L": 2,
+   "D": 0,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 247,
+   "points_against": 268,
+   "points_games": 3
+  },
+  "right": {
+   "games": 2,
+   "W": 1,
+   "L": 1,
+   "D": 0,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 175,
+   "points_against": 160,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

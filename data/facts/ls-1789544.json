@@ -1,6 +1,6 @@
 {
  "match_id": "ls-1789544",
- "data_as_of": "2026-10-02T03:49:36+09:00",
+ "data_as_of": "2026-10-03T21:04:50+09:00",
  "unit": "なし",
  "left": {
   "name": "SaiPa",
@@ -70,6 +70,12 @@
     "score": "4-2",
     "res": "W"
    }
+  ],
+  "lineup": [
+   "Jokerit：テーム・トゥルネン離脱（6〜8週、9/14発表）",
+   "Jokerit：オリ・ユオレヴィ離脱（4〜6週、9/14発表）",
+   "Jokerit：オッレ・エリクソン・エク 9/18負傷（以降の状態不明）",
+   "Jokerit：GKトミ・カルフネンが直近好調（9/23完封、10/2タッパラ戦でも好評価）"
   ]
  },
  "right": {
@@ -153,7 +159,11 @@
  "h2h": [],
  "common_opponents_notes": [],
  "venue": "",
- "risks": [],
+ "risks": [
+  "SaiPa側の欠場状況が未確認",
+  "Jokeritは10/2の強豪タッパラ戦を延長3-2惜敗と内容改善の兆し（最近の改善）",
+  "元SaiPaのフォルティエが古巣相手に出場"
+ ],
  "missing": [
   "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
  ],
@@ -164,10 +174,15 @@
   "save_pct": "Save%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "gsaa": "GSAA等: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
   "pp_pct": "PP%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
-  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録"
+  "pk_pct": "PK%: 自動取得元（LiveScore）に個人・特殊チーム統計がない。下位リーグは公開統計が乏しく、深掘りで確認できた分だけ deep5 に記録",
+  "欠場（SaiPa側）": "saipa.fi の取得が承認待ちで撤回され、検索でも該当報道なし"
  },
  "source_urls": [
-  "LiveScore Finland / Liiga eid=1789544"
+  "LiveScore Finland / Liiga eid=1789544",
+  "https://icehockeyman.com/tag/jokerit/",
+  "https://icehockeyman.com/tag/liiga/",
+  "https://www.mtvuutiset.fi/artikkeli/jokerit-teki-jattihankinnan-saipasta/9334954",
+  "https://www.mtvuutiset.fi/artikkeli/jokerit-kaappasi-jalleen-saipasta-oma-kasvatti-palaa/9341190"
  ],
  "metrics": {
   "left": {
@@ -221,7 +236,9 @@
   "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
   "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
   "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
-  "common_60d": "60日以内の共通相手3：左 Aessaet 5-0W（2026-09-26）・Aessaet 1-2L（2026-09-24） ／ 右 Aessaet 2-3L（2026-09-10）／左 Tappara 4-2W（2026-09-26）・Tappara 4-2W（2026-09-02） ／ 右 Tappara 0-6L（2026-09-19）／左 Kiekko-Espoo 2-1W（2026-09-16） ／ 右 Kiekko-Espoo 1-4L（2026-09-26）"
+  "common_60d": "60日以内の共通相手3：左 Aessaet 5-0W（2026-09-26）・Aessaet 1-2L（2026-09-24） ／ 右 Aessaet 2-3L（2026-09-10）／左 Tappara 4-2W（2026-09-26）・Tappara 4-2W（2026-09-02） ／ 右 Tappara 0-6L（2026-09-19）／左 Kiekko-Espoo 2-1W（2026-09-16） ／ 右 Kiekko-Espoo 1-4L（2026-09-26）",
+  "absences": "左（SaiPa）：未確認（クラブ公式は取得不可、英語/フィンランド語検索で欠場報道ヒットせず）／右（Jokerit）：FWテーム・トゥルネン（9/14時点で6〜8週離脱見込み）、DFオリ・ユオレヴィ（9/14時点で4〜6週離脱見込み）、オッレ・エリクソン・エク（9/18 JYP戦で負傷退場、その後不明）",
+  "roster_changes": "左（SaiPa）：昨季得点3位のFWマキシム・フォルティエ（29+37=66点）がオフにJokeritへ移籍（2026/5/7報道）、その他のSaiPa選手もJokeritへ流出した報道あり／右（Jokerit）：12年ぶりのリーガ復帰組。フォルティエ、パトリック・カリー、ヴァルッテリ・プル、パトリク・ヴィルタらを補強。監督トメク・ヴァルトネン続投"
  },
  "counter_evidence": {
   "BO1": {
@@ -246,6 +263,31 @@
   },
   "最近の急改善": {
    "finding": "格差下位側（Jokerit）の直近3試合 2026-09-30 3-0W・2026-09-26 1-2L・2026-09-26 1-4L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "下位側Jokeritは主力FWトゥルネン・DFユオレヴィが長期離脱中（下位側不利で格差方向と一致）。上位側SaiPaは公式サイトが開けず、検索でも欠場報道は見つからなかったため未確認。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "リーグ戦序盤（8〜9試合消化）の通常日程。Jokeritは前日10/2にタッパラ戦（延長負け）があり連戦。SaiPaの前日試合有無は未確認。カップ戦等の過密要因は見当たらない。",
+   "impact": "none",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "シーズン序盤のリーグ戦であり、若手主体への切り替えを示す報道は見つからない。SaiPaはエース級フォルティエを失ったが既に8試合で6勝しており新体制で機能している。",
+   "impact": "none",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "SaiPaの昨季得点源フォルティエが下位側Jokeritへ移籍し、10/2にも同点弾を記録。下位側は復帰初年度の補強組で、上位側は主力流出。ただしシーズン成績(8試合)は既に移籍後の戦力を反映済み。",
+   "impact": "minor",
+   "applies": true
+  },
+  "消化試合": {
+   "finding": "Liigaは9試合前後消化のシーズン序盤で、両チームとも順位確定とは無縁。消化試合には該当しない。",
    "impact": "none",
    "applies": false
   }
@@ -395,5 +437,12 @@
   ],
   "common_window_days": 60,
   "common_ref_date": "2026-10-03"
- }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 6,
+   "heaviest_step": "SaiPa側の欠場・負傷情報の探索（公式サイト取得失敗、フィンランド語/英語検索とも空振り）"
+  }
+ ]
 }

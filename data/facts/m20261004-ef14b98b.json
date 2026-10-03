@@ -1,0 +1,158 @@
+{
+ "match_id": "m20261004-ef14b98b",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Mechelen",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-07-25",
+    "opp": "Willem II",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-18",
+    "opp": "ADO Den Haag",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-16",
+    "opp": "KSK Heist",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "Sporting Hasselt",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-07-04",
+    "opp": "Rupel Boom",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-10",
+    "opp": "Servette",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "Karpaty Lviv",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-02-07",
+    "opp": "GAIS",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-01-28",
+    "opp": "OB",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Club Friendlies / Club Friendlies 2026 eid=1901995）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "right.form": "自動取得元の収録が2試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Club Friendlies / Club Friendlies 2026 eid=1901995"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 6,
+   "W": 4,
+   "L": 2,
+   "D": 0,
+   "win_rate": 66.7,
+   "home": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 2,
+    "L": 1,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 10,
+   "points_against": 6,
+   "points_games": 6
+  },
+  "right": {
+   "games": 2,
+   "W": 0,
+   "L": 2,
+   "D": 0,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 0
+   },
+   "streak": "2連敗",
+   "points_for": 2,
+   "points_against": 4,
+   "points_games": 2
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "match_id": "m20261004-08922508",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Floresta EC CE",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Santa Cruz",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Santa Cruz",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Botafogo PB",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Maringa FC",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Botafogo PB",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Maringa FC",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Maringa FC",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Floresta",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Santa Cruz",
+    "comp": "Brazil / Serie C: 2nd Stage: Group C",
+    "ha": "A",
+    "score": "0-1",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-09-13",
+   "event": "Brazil / Serie C: 2nd Stage: Group C",
+   "winner": "left",
+   "score": "1-0"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Brazil / Serie C: 2nd Stage: Group C eid=1885821"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 25.0,
+   "gd_pg": -0.25,
+   "pd_pg": -0.25,
+   "rd_pg": -0.25,
+   "pts_rate": 0.333
+  },
+  "right": {
+   "season_wr": 0.0,
+   "gd_pg": -1.0,
+   "pd_pg": -1.0,
+   "rd_pg": -1.0,
+   "pts_rate": 0.083
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 3,
+   "played": 4,
+   "W": 1,
+   "D": 1,
+   "L": 2,
+   "gf": 2,
+   "ga": 3,
+   "pts": 4,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 4,
+   "W": 0,
+   "D": 1,
+   "L": 3,
+   "gf": 0,
+   "ga": 4,
+   "pts": 1,
+   "group": null
+  },
+  "source": "LiveScore順位表 Brazil / Serie C: 2nd Stage: Group C（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 2,
+   "D": 1,
+   "win_rate": 25.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 3,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 0,
+   "L": 3,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 0,
+   "points_against": 4,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 1,
+   "left": 1,
+   "right": 0,
+   "draw": 0,
+   "points_left": 1,
+   "points_right": 0,
+   "points_games": 1,
+   "avg_left": 1.0,
+   "avg_right": 0.0
+  },
+  "common": [
+   {
+    "opp": "Santa Cruz",
+    "left": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     },
+     {
+      "date": "2026-09-21",
+      "iso": "2026-09-21",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-27",
+    "left_rec": "0勝2敗",
+    "right_rec": "0勝1敗"
+   },
+   {
+    "opp": "Maringa FC",
+    "left": [
+     {
+      "date": "2026-09-07",
+      "iso": "2026-09-07",
+      "score": "0-1",
+      "res": "L",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "0-0",
+      "res": "D",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     },
+     {
+      "date": "2026-09-20",
+      "iso": "2026-09-20",
+      "score": "0-2",
+      "res": "L",
+      "comp": "Brazil / Serie C: 2nd Stage: Group C"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝2敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

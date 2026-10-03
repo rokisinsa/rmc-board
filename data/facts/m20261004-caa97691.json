@@ -1,0 +1,195 @@
+{
+ "match_id": "m20261004-caa97691",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Basconia",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Marino Luanco",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Arosa SC",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Atletico Astorga",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "H",
+    "score": "3-2",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Ourense CF",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Llanera",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Rayo Cantabria",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "SD Gernika",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Deportivo Alaves B",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "RS Gimnastica",
+    "comp": "Spain / Segunda Division RFEF: Group 1",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Spain / Segunda Division RFEF: Group 1 eid=1815133）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Spain / Segunda Division RFEF: Group 1 eid=1815133"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 50.0,
+   "gd_pg": 0.25,
+   "pd_pg": 0.25,
+   "rd_pg": 0.25,
+   "pts_rate": 0.583
+  },
+  "right": {
+   "season_wr": 25.0,
+   "gd_pg": -1.25,
+   "pd_pg": -1.25,
+   "rd_pg": -1.25,
+   "pts_rate": 0.25
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 7,
+   "played": 4,
+   "W": 2,
+   "D": 1,
+   "L": 1,
+   "gf": 8,
+   "ga": 7,
+   "pts": 7,
+   "group": null
+  },
+  "right": {
+   "rank": 16,
+   "played": 4,
+   "W": 1,
+   "D": 0,
+   "L": 3,
+   "gf": 4,
+   "ga": 9,
+   "pts": 3,
+   "group": null
+  },
+  "source": "LiveScore順位表 Spain / Segunda Division RFEF: Group 1（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 2,
+   "L": 1,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 8,
+   "points_against": 7,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 4,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "match_id": "m20261004-030be338",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Inter Playa del Carmen",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "Montaneses",
+    "comp": "Mexico / Primera Premier",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Chapulineros de Oaxaca",
+    "comp": "Mexico / Primera Premier",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Tapachula Soconusco FC",
+    "comp": "Mexico / Primera Premier",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-08",
+    "opp": "Pioneros de Cancun",
+    "comp": "Mexico / Primera Premier",
+    "ha": "H",
+    "score": "0-4",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "Deportiva Venados",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Celaya",
+    "comp": "Mexico / Primera Premier",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Racing FC Porto Palmeiras",
+    "comp": "Mexico / Primera Premier",
+    "ha": "A",
+    "score": "3-3",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Jaguares Chiapas",
+    "comp": "Mexico / Primera Premier",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Montaneses",
+    "comp": "Mexico / Primera Premier",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Mexico / Primera Premier eid=1883027）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が4試合のみ",
+  "right.form": "自動取得元の収録が4試合のみ"
+ },
+ "source_urls": [
+  "LiveScore Mexico / Primera Premier eid=1883027"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 0,
+   "L": 3,
+   "D": 1,
+   "win_rate": 0.0,
+   "home": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 2,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 2,
+   "points_against": 9,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 1,
+   "L": 0,
+   "D": 3,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 2
+   },
+   "streak": "2連分",
+   "points_for": 8,
+   "points_against": 6,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Montaneses",
+    "left": [
+     {
+      "date": "2026-09-28",
+      "iso": "2026-09-28",
+      "score": "2-3",
+      "res": "L",
+      "comp": "Mexico / Primera Premier"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Mexico / Primera Premier"
+     }
+    ],
+    "edge": "right",
+    "basis": "得失差",
+    "latest": "2026-09-28",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

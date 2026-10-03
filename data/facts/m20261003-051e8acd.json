@@ -1,0 +1,135 @@
+{
+ "match_id": "m20261003-051e8acd",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Truro City",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Merthyr Town",
+    "comp": "England / FA Cup: Qualification",
+    "ha": "H",
+    "score": "2-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Merthyr Town",
+    "comp": "England / FA Cup: Qualification",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Cirencester Town",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-23",
+    "opp": "Farnham Town",
+    "comp": "England / FA Cup: Qualification",
+    "ha": "A",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Farnham Town",
+    "comp": "England / FA Cup: Qualification",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-05",
+    "opp": "Fleetlands",
+    "comp": "England / FA Cup: Qualification",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore England / FA Cup: Qualification eid=1897089）に直接対戦の記録なし（初対戦か収録範囲外）",
+  "left.form": "自動取得元の収録が2試合のみ",
+  "right.form": "自動取得元の収録が3試合のみ"
+ },
+ "source_urls": [
+  "LiveScore England / FA Cup: Qualification eid=1897089"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 2,
+   "W": 1,
+   "L": 0,
+   "D": 1,
+   "win_rate": 50.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 1,
+   "points_games": 2
+  },
+  "right": {
+   "games": 3,
+   "W": 2,
+   "L": 0,
+   "D": 1,
+   "win_rate": 66.7,
+   "home": {
+    "W": 0,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 3,
+   "points_games": 3
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}

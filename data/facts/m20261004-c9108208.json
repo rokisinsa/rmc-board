@@ -1,0 +1,236 @@
+{
+ "match_id": "m20261004-c9108208",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Huesca",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-28",
+    "opp": "CD Teruel",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "A",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Atletico Madrid B",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-13",
+    "opp": "Villarreal B",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Real Jaen",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-30",
+    "opp": "Sant Andreu",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   }
+  ]
+ },
+ "right": {
+  "name": "CE Europa",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Rayo Majadahonda",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-19",
+    "opp": "Real Murcia",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Hercules",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "1-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-07",
+    "opp": "Alcorcon",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-08-31",
+    "opp": "Real Jaen",
+    "comp": "Spain / Primera Division RFEF: Group 2",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Spain / Primera Division RFEF: Group 2 eid=1814458）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Spain / Primera Division RFEF: Group 2 eid=1814458"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 20.0,
+   "gd_pg": -0.4,
+   "pd_pg": -0.4,
+   "rd_pg": -0.4,
+   "pts_rate": 0.4
+  },
+  "right": {
+   "season_wr": 20.0,
+   "gd_pg": -0.8,
+   "pd_pg": -0.8,
+   "rd_pg": -0.8,
+   "pts_rate": 0.267
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 13,
+   "played": 5,
+   "W": 1,
+   "D": 3,
+   "L": 1,
+   "gf": 4,
+   "ga": 6,
+   "pts": 6,
+   "group": null
+  },
+  "right": {
+   "rank": 18,
+   "played": 5,
+   "W": 1,
+   "D": 1,
+   "L": 3,
+   "gf": 3,
+   "ga": 7,
+   "pts": 4,
+   "group": null
+  },
+  "source": "LiveScore順位表 Spain / Primera Division RFEF: Group 2（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 1,
+   "L": 1,
+   "D": 3,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 0,
+    "D": 2
+   },
+   "streak": "2連分",
+   "points_for": 4,
+   "points_against": 6,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 1,
+   "L": 3,
+   "D": 1,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 1
+   },
+   "streak": null,
+   "points_for": 3,
+   "points_against": 7,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Real Jaen",
+    "left": [
+     {
+      "date": "2026-09-06",
+      "iso": "2026-09-06",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Spain / Primera Division RFEF: Group 2"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-08-31",
+      "iso": "2026-08-31",
+      "score": "0-3",
+      "res": "L",
+      "comp": "Spain / Primera Division RFEF: Group 2"
+     }
+    ],
+    "edge": "left",
+    "basis": "得失差",
+    "latest": "2026-09-06",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

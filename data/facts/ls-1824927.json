@@ -1,0 +1,268 @@
+{
+ "match_id": "ls-1824927",
+ "data_as_of": "2026-10-03T21:12:00+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "BK Olomoucko",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "Nymburk",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "62-88",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-28",
+    "opp": "Ostrava",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "77-76",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "Pardubice",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "54-100",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-21",
+    "opp": "Kralovsti Sokoli",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "81-93",
+    "res": "L"
+   }
+  ],
+  "lineup": []
+ },
+ "right": {
+  "name": "Decin",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-10-01",
+    "opp": "MMCITE Brno",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "86-78",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-27",
+    "opp": "BK Opava",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "76-83",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-24",
+    "opp": "USK Prague",
+    "comp": "Czech Republic / NBL",
+    "ha": "H",
+    "score": "74-57",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-18",
+    "opp": "Lokomotive Plzen",
+    "comp": "Czech Republic / NBL",
+    "ha": "A",
+    "score": "109-79",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "",
+ "risks": [
+  "格差の根拠は開幕4試合のみ（得失点差・勝率）で、サンプルが非常に小さい",
+  "ホーム/アウェーが不明",
+  "両チームの欠場・補強情報が未確認のまま"
+ ],
+ "missing": [
+  "⑤の完全深掘りで追記する項目あり（欠場・ロスター・先制率・反対材料など）"
+ ],
+ "unavailable": {
+  "h2h": "自動取得元（LiveScore Czech Republic / NBL eid=1824927）に直接対戦の記録なし。他の資料で要確認",
+  "first_rate": "先制率/第1セット/Map1: 自動取得元（LiveScore・tennisexplorer一覧）は最終スコアのみで得点順・ピリオド別の記録がなく、Tier1の検索予算（1試合5回目安）内で取得できる公開統計もない",
+  "欠場": "検索ヒットなし、nbl.cz・bkdecin.cz の WebFetch が承認待ちで遮断（再試行せず）",
+  "ロスター変更": "検索ヒットなし（過去シーズンの記事のみ）"
+ },
+ "source_urls": [
+  "LiveScore Czech Republic / NBL eid=1824927"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 25.0,
+   "gd_pg": -20.75,
+   "pd_pg": -20.75,
+   "rd_pg": -20.75
+  },
+  "right": {
+   "season_wr": 75.0,
+   "gd_pg": 12.0,
+   "pd_pg": 12.0,
+   "rd_pg": 12.0
+  },
+  "source": "LiveScore順位表（2026-10-03T20:33:53+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 10,
+   "played": 4,
+   "W": 1,
+   "D": 0,
+   "L": 3,
+   "gf": 274,
+   "ga": 357,
+   "pts": null,
+   "group": null
+  },
+  "right": {
+   "rank": 4,
+   "played": 4,
+   "W": 3,
+   "D": 0,
+   "L": 1,
+   "gf": 345,
+   "ga": 297,
+   "pts": null,
+   "group": null
+  },
+  "source": "LiveScore順位表 Czech Republic / NBL（2026-10-03T20:33:53+09:00取得）"
+ },
+ "deep5": {
+  "last5": "BK Olomoucko：1勝3敗／Decin：3勝1敗",
+  "last10": "BK Olomoucko：1勝3敗（4試合）／Decin：3勝1敗（4試合）",
+  "streak": "BK Olomoucko：1連敗／Decin：1連勝",
+  "avg_points": "BK Olomoucko：1試合平均得失差 -20.75（4試合）／Decin：1試合平均得失差 +12.00（4試合）",
+  "current_competition": "BK Olomoucko {'rank': 10, 'played': 4, 'W': 1, 'D': 0, 'L': 3, 'gf': 274, 'ga': 357, 'pts': None, 'group': None}／Decin {'rank': 4, 'played': 4, 'W': 3, 'D': 0, 'L': 1, 'gf': 345, 'ga': 297, 'pts': None, 'group': None}（LiveScore順位表 Czech Republic / NBL（2026-10-03T20:33:53+09:00取得））",
+  "ranking": "BK Olomoucko 10位（4試合 勝点None・1勝0分3敗 得失274-357）／Decin 4位（4試合 勝点None・3勝0分1敗 得失345-297）（LiveScore順位表 Czech Republic / NBL・2026-10-03T20:33:53+09:00取得）",
+  "h2h_all": "自動取得元（LiveScore今季ステージ結果）で直接対戦の記録なし",
+  "h2h_points": "直接対戦の記録なし（H2H得失点は算出対象なし）",
+  "h2h_home_away": "直接対戦の記録なし（会場別H2Hなし）",
+  "common_60d": "両者の直近成績（60日以内）に共通の対戦相手なし",
+  "absences": "未確認：左（BK Olomoucko）／右（Decin）とも、チェコ語・英語検索で2026/27シーズンの負傷・欠場報道がヒットせず、リーグ公式（nbl.cz）・Decin公式（bkdecin.cz）の取得は承認待ちで遮断",
+  "roster_changes": "未確認：左／右とも、2026年夏の補強・放出・監督交代に関する記事が検索でヒットせず（過去シーズンの記事のみ）"
+ },
+ "counter_evidence": {
+  "BO1": {
+   "finding": "バスケットボールは1試合で決着する通常形式（eスポーツのBO1/BO3の区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "LAN/Online差": {
+   "finding": "バスケットボールは対面の通常開催（LAN/Onlineの区別は該当しない）",
+   "impact": "none",
+   "applies": false
+  },
+  "古いH2H": {
+   "finding": "直接対戦の記録なし（自動取得元の範囲）。格差判定はH2Hに依存していない",
+   "impact": "none",
+   "applies": false
+  },
+  "ホーム/アウェー差": {
+   "finding": "格差上位側（Decin）はアウェー。直近のアウェー成績 1勝0分1敗（2試合）",
+   "impact": "none",
+   "applies": false
+  },
+  "最近の急改善": {
+   "finding": "格差下位側（BK Olomoucko）の直近3試合 2026-10-01 62-88L・2026-09-28 77-76W・2026-09-24 54-100L：急改善の兆候なし",
+   "impact": "none",
+   "applies": false
+  },
+  "主力欠場": {
+   "finding": "未確認：チェコ語・英語で3回検索したが今季の負傷・欠場報道が見つからず、リーグ公式・クラブ公式サイトは取得できなかった。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ローテーション": {
+   "finding": "未確認：今季日程の過密度（欧州カップ戦の有無・中日数）を一次情報で確認できず。開幕4試合消化の序盤で、ローテーションを強いる要因は既存データからは見当たらない。",
+   "impact": "minor",
+   "applies": false
+  },
+  "世代交代": {
+   "finding": "未確認：オフシーズンの主力入替・若手起用方針の報道を確認できず。",
+   "impact": "minor",
+   "applies": false
+  },
+  "ロスター変更": {
+   "finding": "未確認：夏の移籍情報が検索でヒットせず。開幕4試合（左1勝3敗・右3勝1敗）とサンプルが小さく、ロスター変化の影響を判断できない。",
+   "impact": "minor",
+   "applies": false
+  },
+  "消化試合": {
+   "finding": "LiveScore順位表（既存データ）では各チーム4試合消化のレギュラーシーズン序盤で、優勝・降格が確定する段階ではない。消化試合ではない。",
+   "impact": "none",
+   "applies": false
+  }
+ },
+ "deep_dive_log": [
+  {
+   "run": "run-20261003-2033",
+   "searches": 4,
+   "heaviest_step": "チェコ語での欠場・補強ニュース検索（過去シーズンや無関係ページばかりヒット）と公式サイト取得の失敗"
+  }
+ ],
+ "calc": {
+  "left": {
+   "games": 4,
+   "W": 1,
+   "L": 3,
+   "D": 0,
+   "win_rate": 25.0,
+   "home": {
+    "W": 1,
+    "L": 2,
+    "D": 0
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 274,
+   "points_against": 357,
+   "points_games": 4
+  },
+  "right": {
+   "games": 4,
+   "W": 3,
+   "L": 1,
+   "D": 0,
+   "win_rate": 75.0,
+   "home": {
+    "W": 2,
+    "L": 0,
+    "D": 0
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 345,
+   "points_against": 297,
+   "points_games": 4
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-05"
+ }
+}

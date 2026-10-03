@@ -1,0 +1,236 @@
+{
+ "match_id": "m20261004-16fd2a4e",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Atletico Calcio Afragolese",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Citta di Anagni",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "A",
+    "score": "0-4",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Venafro",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "H",
+    "score": "4-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-17",
+    "opp": "Paganese",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Sarnese 1926",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Gelbison Cilento",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "A",
+    "score": "0-0",
+    "res": "D"
+   }
+  ]
+ },
+ "right": {
+  "name": "Ossese",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-09-27",
+    "opp": "Sarnese 1926",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-20",
+    "opp": "Unipomezia",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "A",
+    "score": "0-2",
+    "res": "L"
+   },
+   {
+    "date": "2026-09-16",
+    "opp": "ASD Trastevere",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-09-12",
+    "opp": "Viterbese",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "A",
+    "score": "1-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-09-06",
+    "opp": "Latte Dolce",
+    "comp": "Italy / Serie D: Group G",
+    "ha": "H",
+    "score": "3-0",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得",
+  "h2h": "自動取得元（LiveScore Italy / Serie D: Group G eid=1864882）に直接対戦の記録なし（初対戦か収録範囲外）"
+ },
+ "source_urls": [
+  "LiveScore Italy / Serie D: Group G eid=1864882"
+ ],
+ "metrics": {
+  "left": {
+   "season_wr": 20.0,
+   "gd_pg": 0.0,
+   "pd_pg": 0.0,
+   "rd_pg": 0.0,
+   "pts_rate": 0.4
+  },
+  "right": {
+   "season_wr": 40.0,
+   "gd_pg": 0.4,
+   "pd_pg": 0.4,
+   "rd_pg": 0.4,
+   "pts_rate": 0.533
+  },
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {
+  "left": {
+   "rank": 13,
+   "played": 5,
+   "W": 1,
+   "D": 3,
+   "L": 1,
+   "gf": 5,
+   "ga": 5,
+   "pts": 6,
+   "group": null
+  },
+  "right": {
+   "rank": 8,
+   "played": 5,
+   "W": 2,
+   "D": 2,
+   "L": 1,
+   "gf": 7,
+   "ga": 5,
+   "pts": 8,
+   "group": null
+  },
+  "source": "LiveScore順位表 Italy / Serie D: Group G（2026-10-03T20:58:25+09:00取得）"
+ },
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 5,
+   "W": 1,
+   "L": 1,
+   "D": 3,
+   "win_rate": 20.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 1,
+    "D": 2
+   },
+   "streak": null,
+   "points_for": 5,
+   "points_against": 5,
+   "points_games": 5
+  },
+  "right": {
+   "games": 5,
+   "W": 2,
+   "L": 1,
+   "D": 2,
+   "win_rate": 40.0,
+   "home": {
+    "W": 1,
+    "L": 0,
+    "D": 2
+   },
+   "away": {
+    "W": 1,
+    "L": 1,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 7,
+   "points_against": 5,
+   "points_games": 5
+  },
+  "h2h": {
+   "games": 0,
+   "left": 0,
+   "right": 0,
+   "draw": 0
+  },
+  "common": [
+   {
+    "opp": "Sarnese 1926",
+    "left": [
+     {
+      "date": "2026-09-12",
+      "iso": "2026-09-12",
+      "score": "1-1",
+      "res": "D",
+      "comp": "Italy / Serie D: Group G"
+     }
+    ],
+    "right": [
+     {
+      "date": "2026-09-27",
+      "iso": "2026-09-27",
+      "score": "2-2",
+      "res": "D",
+      "comp": "Italy / Serie D: Group G"
+     }
+    ],
+    "edge": "even",
+    "basis": null,
+    "latest": "2026-09-27",
+    "left_rec": "0勝1敗",
+    "right_rec": "0勝1敗"
+   }
+  ],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-04"
+ }
+}

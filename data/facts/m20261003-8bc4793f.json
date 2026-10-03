@@ -1,0 +1,208 @@
+{
+ "match_id": "m20261003-8bc4793f",
+ "data_as_of": "2026-10-03T20:58:25+09:00",
+ "unit": "なし",
+ "left": {
+  "name": "Winterthur",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-07-18",
+    "opp": "Union Berlin",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "1-1",
+    "res": "D"
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "Basel",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-07-04",
+    "opp": "Luzern",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "2-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-02",
+    "opp": "St. Gallen",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-1",
+    "res": "L"
+   },
+   {
+    "date": "2026-03-27",
+    "opp": "Xamax",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-1",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-09",
+    "opp": "1860 Munich",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-01-06",
+    "opp": "Magdeburg",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "1-2",
+    "res": "L"
+   }
+  ]
+ },
+ "right": {
+  "name": "FC Basel",
+  "ranking": "",
+  "form": [
+   {
+    "date": "2026-08-16",
+    "opp": "Barcelona",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-5",
+    "res": "L"
+   },
+   {
+    "date": "2026-07-11",
+    "opp": "Winterthur",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "2-2",
+    "res": "D"
+   },
+   {
+    "date": "2026-07-08",
+    "opp": "Yverdon",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "0-3",
+    "res": "L"
+   },
+   {
+    "date": "2026-06-27",
+    "opp": "FC Rapperswil-Jona",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "A",
+    "score": "3-0",
+    "res": "W"
+   },
+   {
+    "date": "2026-01-09",
+    "opp": "Elversberg",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "5-6",
+    "res": "L"
+   },
+   {
+    "date": "2026-01-06",
+    "opp": "Slavia Prague",
+    "comp": "Club Friendlies / Club Friendlies 2026",
+    "ha": "H",
+    "score": "4-3",
+    "res": "W"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "date": "2026-07-11",
+   "event": "Club Friendlies / Club Friendlies 2026",
+   "winner": "draw",
+   "score": "2-2"
+  }
+ ],
+ "common_opponents_notes": [],
+ "venue": "左＝ホーム（配信表記）",
+ "risks": [
+  "自動取得の行データのみ（欠場・ロスター等のWeb確認なし）"
+ ],
+ "missing": [
+  "欠場・ロスター・先発（Web未確認）"
+ ],
+ "unavailable": {
+  "history": "60日共通相手は直近成績（form）内で照合。自動取得元以外の追加試合は未取得"
+ },
+ "source_urls": [
+  "LiveScore Club Friendlies / Club Friendlies 2026 eid=1901996"
+ ],
+ "metrics": {
+  "left": {},
+  "right": {},
+  "source": "LiveScore順位表（2026-10-03T20:58:25+09:00取得）"
+ },
+ "current_competition": {},
+ "auto_facts": true,
+ "calc": {
+  "left": {
+   "games": 7,
+   "W": 1,
+   "L": 4,
+   "D": 2,
+   "win_rate": 14.3,
+   "home": {
+    "W": 1,
+    "L": 1,
+    "D": 1
+   },
+   "away": {
+    "W": 0,
+    "L": 3,
+    "D": 1
+   },
+   "streak": "2連分",
+   "points_for": 9,
+   "points_against": 13,
+   "points_games": 7
+  },
+  "right": {
+   "games": 6,
+   "W": 2,
+   "L": 3,
+   "D": 1,
+   "win_rate": 33.3,
+   "home": {
+    "W": 1,
+    "L": 3,
+    "D": 1
+   },
+   "away": {
+    "W": 1,
+    "L": 0,
+    "D": 0
+   },
+   "streak": null,
+   "points_for": 16,
+   "points_against": 19,
+   "points_games": 6
+  },
+  "h2h": {
+   "games": 1,
+   "left": 0,
+   "right": 0,
+   "draw": 1,
+   "points_left": 2,
+   "points_right": 2,
+   "points_games": 1,
+   "avg_left": 2.0,
+   "avg_right": 2.0
+  },
+  "common": [],
+  "common_window_days": 60,
+  "common_ref_date": "2026-10-03"
+ }
+}
