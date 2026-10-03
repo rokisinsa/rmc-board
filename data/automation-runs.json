@@ -25210,8 +25210,8 @@
   "publish_status": {
    "analysis": "success",
    "local_commit": "success",
-   "github_push": "pending",
-   "rmc_public": "pending"
+   "github_push": "success",
+   "rmc_public": "success"
   },
   "feed_duplicates_skipped": [],
   "facts_written": 290,
@@ -25258,13 +25258,13 @@
    "31": true,
    "32": true,
    "33": true,
-   "34": false,
-   "35": false,
-   "36": false,
-   "37": false,
-   "38": false,
-   "39": false,
-   "40": false,
+   "34": true,
+   "35": true,
+   "36": true,
+   "37": true,
+   "38": true,
+   "39": true,
+   "40": true,
    "41": false
   },
   "checklist_notes": {
@@ -25287,15 +25287,16 @@
    "19": "テニスは配信登録時と同じ tennisexplorer match-detail ID で照合（開始時刻のずれ・日程繰下げは同一IDで確認）。LiveScore は競技・開始±30分・両チーム名・向き（ホーム/アウェイ）で照合。LNBP は連日開催の Game1 を日付・会場で確認",
    "21": "同じ match_id の全ロジック・経験値取引へ反映。テニスの途中棄権4試合：1セット完了後の3試合は試合成立で通常精算（前例 m20260928-7ac3f1df）、第1セット途中の Potapova-Kraus は無効（返金）",
    "27": "敗戦カードは reviews/<entry_id>.md に post-match review（variance/structural 判定・1敗で係数変更なし）",
-   "34": "commit/push後に確認",
-   "35": "push後に確認",
-   "36": "push後に確認",
-   "37": "push後に確認",
-   "38": "push後に確認",
-   "39": "push後に確認",
-   "40": "報告送信後に確定",
-   "41": "上記未完了があるため更新完了とはしない",
+   "34": "main へ push 成功（772c4c4、競合なし）。テスト・validate はpush前にローカルで全件通過",
+   "35": "test-validate-deploy run 37122950928：test・deploy・verify-public すべて success",
+   "36": "読み替え表の方法：verify-public ジョブ success（公開SHA一致・公開ファイルとリポジトリのバイト一致・公開JSONからの収支再計算一致・run_id一致）",
+   "37": "読み替え表の方法：verify-public ジョブ success（公開SHA一致・公開ファイルとリポジトリのバイト一致・公開JSONからの収支再計算一致・run_id一致）",
+   "38": "読み替え表の方法：verify-public ジョブ success（公開SHA一致・公開ファイルとリポジトリのバイト一致・公開JSONからの収支再計算一致・run_id一致）",
+   "39": "読み替え表の方法：verify-public ジョブ success（公開SHA一致・公開ファイルとリポジトリのバイト一致・公開JSONからの収支再計算一致・run_id一致）",
+   "40": "報告（SendUserMessage）で送信",
+   "41": "⑤ Tier1 未完了52件（②重要候補complete 不成立）・深掘りが24時間以内価格ありの全件に届かない等のため、完了扱いにしない",
    "⑤": "⑤ complete段階：①探索=True／②重要候補=False／③全候補=False。Tier1未完了52件（Web検索のセッション上限200回に到達し主力欠場等が未確認）・Tier2残42件／Tier3残412件は次回へ引き継ぎ"
-  }
+  },
+  "end_sha": "772c4c4"
  }
 ]
