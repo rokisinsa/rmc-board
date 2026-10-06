@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 24,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014237",
@@ -299,7 +328,7 @@
    "dateTime": "2026-10-06T09:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -339,6 +368,87 @@
    "type": "MATCHDAY"
   },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250171241.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "FEMALE",
+     "id": "250171241",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Merve",
+       "FR": "Merve",
+       "DE": "Merve",
+       "ES": "Merve",
+       "PT": "Merve",
+       "IT": "Merve",
+       "RU": "Мерве",
+       "ZH": "Merve",
+       "AR": "Merve"
+      },
+      "lastName": {
+       "EN": "Turan",
+       "FR": "Turan",
+       "DE": "Turan",
+       "ES": "Turan",
+       "PT": "Turan",
+       "IT": "Turan",
+       "RU": "Туран",
+       "ZH": "Turan",
+       "AR": "Turan"
+      },
+      "name": {
+       "EN": "Merve Turan",
+       "FR": "Merve Turan",
+       "DE": "Merve Turan",
+       "ES": "Merve Turan",
+       "PT": "Merve Turan",
+       "IT": "Merve Turan",
+       "RU": "Мерве Туран",
+       "ZH": "Merve Turan",
+       "AR": "Merve Turan"
+      },
+      "shortName": {
+       "EN": "Turan",
+       "FR": "Turan",
+       "DE": "Turan",
+       "ES": "Turan",
+       "PT": "Turan",
+       "IT": "Turan",
+       "RU": "Туран",
+       "ZH": "Turan",
+       "AR": "Turan"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250023204.jpg"
@@ -503,87 +613,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217292.jpg"
-    },
-    "person": {
-     "countryCode": "MLT",
-     "gender": "FEMALE",
-     "id": "250217292",
-     "translations": {
-      "countryName": {
-       "EN": "Malta",
-       "FR": "Malte",
-       "DE": "Malta",
-       "ES": "Malta",
-       "PT": "Malta",
-       "IT": "Malta",
-       "RU": "Мальта",
-       "ZH": "马耳他",
-       "AR": "مالطا"
-      },
-      "firstName": {
-       "EN": "Sara",
-       "FR": "Sara",
-       "DE": "Sara",
-       "ES": "Sara",
-       "PT": "Sara",
-       "IT": "Sara",
-       "RU": "Sara",
-       "ZH": "Sara",
-       "AR": "Sara"
-      },
-      "lastName": {
-       "EN": "Kankaras",
-       "FR": "Kankaras",
-       "DE": "Kankaras",
-       "ES": "Kankaras",
-       "PT": "Kankaras",
-       "IT": "Kankaras",
-       "RU": "Kankaras",
-       "ZH": "Kankaras",
-       "AR": "Kankaras"
-      },
-      "name": {
-       "EN": "Sara Kankaras",
-       "FR": "Sara Kankaras",
-       "DE": "Sara Kankaras",
-       "ES": "Sara Kankaras",
-       "PT": "Sara Kankaras",
-       "IT": "Sara Kankaras",
-       "RU": "Sara Kankaras",
-       "ZH": "Sara Kankaras",
-       "AR": "Sara Kankaras"
-      },
-      "shortName": {
-       "EN": "Kankaras",
-       "FR": "Kankaras",
-       "DE": "Kankaras",
-       "ES": "Kankaras",
-       "PT": "Kankaras",
-       "IT": "Kankaras",
-       "RU": "Kankaras",
-       "ZH": "Kankaras",
-       "AR": "Kankaras"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279646.jpg"
     },
     "person": {
@@ -665,87 +694,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250171241.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "FEMALE",
-     "id": "250171241",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Merve",
-       "FR": "Merve",
-       "DE": "Merve",
-       "ES": "Merve",
-       "PT": "Merve",
-       "IT": "Merve",
-       "RU": "Мерве",
-       "ZH": "Merve",
-       "AR": "Merve"
-      },
-      "lastName": {
-       "EN": "Turan",
-       "FR": "Turan",
-       "DE": "Turan",
-       "ES": "Turan",
-       "PT": "Turan",
-       "IT": "Turan",
-       "RU": "Туран",
-       "ZH": "Turan",
-       "AR": "Turan"
-      },
-      "name": {
-       "EN": "Merve Turan",
-       "FR": "Merve Turan",
-       "DE": "Merve Turan",
-       "ES": "Merve Turan",
-       "PT": "Merve Turan",
-       "IT": "Merve Turan",
-       "RU": "Мерве Туран",
-       "ZH": "Merve Turan",
-       "AR": "Merve Turan"
-      },
-      "shortName": {
-       "EN": "Turan",
-       "FR": "Turan",
-       "DE": "Turan",
-       "ES": "Turan",
-       "PT": "Turan",
-       "IT": "Turan",
-       "RU": "Туран",
-       "ZH": "Turan",
-       "AR": "Turan"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166872.jpg"
     },
     "person": {
@@ -822,6 +770,87 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217292.jpg"
+    },
+    "person": {
+     "countryCode": "MLT",
+     "gender": "FEMALE",
+     "id": "250217292",
+     "translations": {
+      "countryName": {
+       "EN": "Malta",
+       "FR": "Malte",
+       "DE": "Malta",
+       "ES": "Malta",
+       "PT": "Malta",
+       "IT": "Malta",
+       "RU": "Мальта",
+       "ZH": "马耳他",
+       "AR": "مالطا"
+      },
+      "firstName": {
+       "EN": "Sara",
+       "FR": "Sara",
+       "DE": "Sara",
+       "ES": "Sara",
+       "PT": "Sara",
+       "IT": "Sara",
+       "RU": "Sara",
+       "ZH": "Sara",
+       "AR": "Sara"
+      },
+      "lastName": {
+       "EN": "Kankaras",
+       "FR": "Kankaras",
+       "DE": "Kankaras",
+       "ES": "Kankaras",
+       "PT": "Kankaras",
+       "IT": "Kankaras",
+       "RU": "Kankaras",
+       "ZH": "Kankaras",
+       "AR": "Kankaras"
+      },
+      "name": {
+       "EN": "Sara Kankaras",
+       "FR": "Sara Kankaras",
+       "DE": "Sara Kankaras",
+       "ES": "Sara Kankaras",
+       "PT": "Sara Kankaras",
+       "IT": "Sara Kankaras",
+       "RU": "Sara Kankaras",
+       "ZH": "Sara Kankaras",
+       "AR": "Sara Kankaras"
+      },
+      "shortName": {
+       "EN": "Kankaras",
+       "FR": "Kankaras",
+       "DE": "Kankaras",
+       "ES": "Kankaras",
+       "PT": "Kankaras",
+       "IT": "Kankaras",
+       "RU": "Kankaras",
+       "ZH": "Kankaras",
+       "AR": "Kankaras"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    }
@@ -1382,249 +1411,6 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250179261.jpg"
-    },
-    "person": {
-     "countryCode": "ENG",
-     "gender": "FEMALE",
-     "id": "250179261",
-     "translations": {
-      "countryName": {
-       "EN": "England",
-       "FR": "Angleterre",
-       "DE": "England",
-       "ES": "Inglaterra",
-       "PT": "Inglaterra",
-       "IT": "Inghilterra",
-       "RU": "Англия",
-       "ZH": "英格兰",
-       "AR": "إنجلترا"
-      },
-      "firstName": {
-       "EN": "Isabel",
-       "FR": "Isabel",
-       "DE": "Isabel",
-       "ES": "Isabel",
-       "PT": "Isabel",
-       "IT": "Isabel",
-       "RU": "Изабел",
-       "ZH": "Isabel",
-       "AR": "Isabel"
-      },
-      "lastName": {
-       "EN": "Chaplin",
-       "FR": "Chaplin",
-       "DE": "Chaplin",
-       "ES": "Chaplin",
-       "PT": "Chaplin",
-       "IT": "Chaplin",
-       "RU": "Чаплин",
-       "ZH": "Chaplin",
-       "AR": "Chaplin"
-      },
-      "name": {
-       "EN": "Isabel Chaplin",
-       "FR": "Isabel Chaplin",
-       "DE": "Isabel Chaplin",
-       "ES": "Isabel Chaplin",
-       "PT": "Isabel Chaplin",
-       "IT": "Isabel Chaplin",
-       "RU": "Изабел Чаплин",
-       "ZH": "Isabel Chaplin",
-       "AR": "Isabel Chaplin"
-      },
-      "shortName": {
-       "EN": "Chaplin",
-       "FR": "Chaplin",
-       "DE": "Chaplin",
-       "ES": "Chaplin",
-       "PT": "Chaplin",
-       "IT": "Chaplin",
-       "RU": "Чаплин",
-       "ZH": "Chaplin",
-       "AR": "Chaplin"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250128627.jpg"
-    },
-    "person": {
-     "countryCode": "ENG",
-     "gender": "FEMALE",
-     "id": "250128627",
-     "translations": {
-      "countryName": {
-       "EN": "England",
-       "FR": "Angleterre",
-       "DE": "England",
-       "ES": "Inglaterra",
-       "PT": "Inglaterra",
-       "IT": "Inghilterra",
-       "RU": "Англия",
-       "ZH": "英格兰",
-       "AR": "إنجلترا"
-      },
-      "firstName": {
-       "EN": "Melissa",
-       "FR": "Melissa",
-       "DE": "Melissa",
-       "ES": "Melissa",
-       "PT": "Melissa",
-       "IT": "Melissa",
-       "RU": "Melissa",
-       "ZH": "Melissa",
-       "AR": "Melissa"
-      },
-      "lastName": {
-       "EN": "Burgin",
-       "FR": "Burgin",
-       "DE": "Burgin",
-       "ES": "Burgin",
-       "PT": "Burgin",
-       "IT": "Burgin",
-       "RU": "Burgin",
-       "ZH": "Burgin",
-       "AR": "Burgin"
-      },
-      "name": {
-       "EN": "Melissa Burgin",
-       "FR": "Melissa Burgin",
-       "DE": "Melissa Burgin",
-       "ES": "Melissa Burgin",
-       "PT": "Melissa Burgin",
-       "IT": "Melissa Burgin",
-       "RU": "Мелисса Берджин",
-       "ZH": "Melissa Burgin",
-       "AR": "Melissa Burgin"
-      },
-      "shortName": {
-       "EN": "Burgin",
-       "FR": "Burgin",
-       "DE": "Burgin",
-       "ES": "Burgin",
-       "PT": "Burgin",
-       "IT": "Burgin",
-       "RU": "Берджин",
-       "ZH": "Burgin",
-       "AR": "Burgin"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250023204.jpg"
-    },
-    "person": {
-     "countryCode": "BIH",
-     "gender": "FEMALE",
-     "id": "250023204",
-     "translations": {
-      "countryName": {
-       "EN": "Bosnia and Herzegovina",
-       "FR": "Bosnie-Herzégovine",
-       "DE": "Bosnien-Herzegowina",
-       "ES": "Bosnia y Herzegovina",
-       "PT": "Bósnia e Herzegovina",
-       "IT": "Bosnia ed Erzegovina",
-       "RU": "Босния и Герцеговина",
-       "ZH": "波黑",
-       "AR": "البوسنة والهرسك"
-      },
-      "firstName": {
-       "EN": "Nermina",
-       "FR": "Nermina",
-       "DE": "Nermina",
-       "ES": "Nermina",
-       "PT": "Nermina",
-       "IT": "Nermina",
-       "RU": "Nermina",
-       "ZH": "Nermina",
-       "AR": "Nermina"
-      },
-      "lastName": {
-       "EN": "Hadžibajrić",
-       "FR": "Hadžibajrić",
-       "DE": "Hadžibajrić",
-       "ES": "Hadžibajrić",
-       "PT": "Hadžibajrić",
-       "IT": "Hadžibajrić",
-       "RU": "Hadzibajric",
-       "ZH": "Hadzibajric",
-       "AR": "Hadžibajrić"
-      },
-      "name": {
-       "EN": "Nermina Hadžibajrić",
-       "FR": "Nermina Hadžibajrić",
-       "DE": "Nermina Hadžibajrić",
-       "ES": "Nermina Hadžibajrić",
-       "PT": "Nermina Hadžibajrić",
-       "IT": "Nermina Hadžibajrić",
-       "RU": "Nermina Hadzibaoric",
-       "ZH": "Nermina Hadzibaoric",
-       "AR": "Nermina Hadžibajrić"
-      },
-      "shortName": {
-       "EN": "Hadžibajrić",
-       "FR": "Hadžibajrić",
-       "DE": "Hadžibajrić",
-       "ES": "Hadžibajrić",
-       "PT": "Hadžibajrić",
-       "IT": "Hadžibajrić",
-       "RU": "Hadzibaoric",
-       "ZH": "Hadzibaoric",
-       "AR": "Hadžibajrić"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250100631.jpg"
     },
     "person": {
@@ -1701,6 +1487,87 @@
       "RU": "Ассистенты рефери",
       "ZH": "Assistant referees",
       "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250179261.jpg"
+    },
+    "person": {
+     "countryCode": "ENG",
+     "gender": "FEMALE",
+     "id": "250179261",
+     "translations": {
+      "countryName": {
+       "EN": "England",
+       "FR": "Angleterre",
+       "DE": "England",
+       "ES": "Inglaterra",
+       "PT": "Inglaterra",
+       "IT": "Inghilterra",
+       "RU": "Англия",
+       "ZH": "英格兰",
+       "AR": "إنجلترا"
+      },
+      "firstName": {
+       "EN": "Isabel",
+       "FR": "Isabel",
+       "DE": "Isabel",
+       "ES": "Isabel",
+       "PT": "Isabel",
+       "IT": "Isabel",
+       "RU": "Изабел",
+       "ZH": "Isabel",
+       "AR": "Isabel"
+      },
+      "lastName": {
+       "EN": "Chaplin",
+       "FR": "Chaplin",
+       "DE": "Chaplin",
+       "ES": "Chaplin",
+       "PT": "Chaplin",
+       "IT": "Chaplin",
+       "RU": "Чаплин",
+       "ZH": "Chaplin",
+       "AR": "Chaplin"
+      },
+      "name": {
+       "EN": "Isabel Chaplin",
+       "FR": "Isabel Chaplin",
+       "DE": "Isabel Chaplin",
+       "ES": "Isabel Chaplin",
+       "PT": "Isabel Chaplin",
+       "IT": "Isabel Chaplin",
+       "RU": "Изабел Чаплин",
+       "ZH": "Isabel Chaplin",
+       "AR": "Isabel Chaplin"
+      },
+      "shortName": {
+       "EN": "Chaplin",
+       "FR": "Chaplin",
+       "DE": "Chaplin",
+       "ES": "Chaplin",
+       "PT": "Chaplin",
+       "IT": "Chaplin",
+       "RU": "Чаплин",
+       "ZH": "Chaplin",
+       "AR": "Chaplin"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    },
@@ -1787,6 +1654,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250128627.jpg"
+    },
+    "person": {
+     "countryCode": "ENG",
+     "gender": "FEMALE",
+     "id": "250128627",
+     "translations": {
+      "countryName": {
+       "EN": "England",
+       "FR": "Angleterre",
+       "DE": "England",
+       "ES": "Inglaterra",
+       "PT": "Inglaterra",
+       "IT": "Inghilterra",
+       "RU": "Англия",
+       "ZH": "英格兰",
+       "AR": "إنجلترا"
+      },
+      "firstName": {
+       "EN": "Melissa",
+       "FR": "Melissa",
+       "DE": "Melissa",
+       "ES": "Melissa",
+       "PT": "Melissa",
+       "IT": "Melissa",
+       "RU": "Melissa",
+       "ZH": "Melissa",
+       "AR": "Melissa"
+      },
+      "lastName": {
+       "EN": "Burgin",
+       "FR": "Burgin",
+       "DE": "Burgin",
+       "ES": "Burgin",
+       "PT": "Burgin",
+       "IT": "Burgin",
+       "RU": "Burgin",
+       "ZH": "Burgin",
+       "AR": "Burgin"
+      },
+      "name": {
+       "EN": "Melissa Burgin",
+       "FR": "Melissa Burgin",
+       "DE": "Melissa Burgin",
+       "ES": "Melissa Burgin",
+       "PT": "Melissa Burgin",
+       "IT": "Melissa Burgin",
+       "RU": "Мелисса Берджин",
+       "ZH": "Melissa Burgin",
+       "AR": "Melissa Burgin"
+      },
+      "shortName": {
+       "EN": "Burgin",
+       "FR": "Burgin",
+       "DE": "Burgin",
+       "ES": "Burgin",
+       "PT": "Burgin",
+       "IT": "Burgin",
+       "RU": "Берджин",
+       "ZH": "Burgin",
+       "AR": "Burgin"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/73569.jpg"
     },
     "person": {
@@ -1863,6 +1811,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250023204.jpg"
+    },
+    "person": {
+     "countryCode": "BIH",
+     "gender": "FEMALE",
+     "id": "250023204",
+     "translations": {
+      "countryName": {
+       "EN": "Bosnia and Herzegovina",
+       "FR": "Bosnie-Herzégovine",
+       "DE": "Bosnien-Herzegowina",
+       "ES": "Bosnia y Herzegovina",
+       "PT": "Bósnia e Herzegovina",
+       "IT": "Bosnia ed Erzegovina",
+       "RU": "Босния и Герцеговина",
+       "ZH": "波黑",
+       "AR": "البوسنة والهرسك"
+      },
+      "firstName": {
+       "EN": "Nermina",
+       "FR": "Nermina",
+       "DE": "Nermina",
+       "ES": "Nermina",
+       "PT": "Nermina",
+       "IT": "Nermina",
+       "RU": "Nermina",
+       "ZH": "Nermina",
+       "AR": "Nermina"
+      },
+      "lastName": {
+       "EN": "Hadžibajrić",
+       "FR": "Hadžibajrić",
+       "DE": "Hadžibajrić",
+       "ES": "Hadžibajrić",
+       "PT": "Hadžibajrić",
+       "IT": "Hadžibajrić",
+       "RU": "Hadzibajric",
+       "ZH": "Hadzibajric",
+       "AR": "Hadžibajrić"
+      },
+      "name": {
+       "EN": "Nermina Hadžibajrić",
+       "FR": "Nermina Hadžibajrić",
+       "DE": "Nermina Hadžibajrić",
+       "ES": "Nermina Hadžibajrić",
+       "PT": "Nermina Hadžibajrić",
+       "IT": "Nermina Hadžibajrić",
+       "RU": "Nermina Hadzibaoric",
+       "ZH": "Nermina Hadzibaoric",
+       "AR": "Nermina Hadžibajrić"
+      },
+      "shortName": {
+       "EN": "Hadžibajrić",
+       "FR": "Hadžibajrić",
+       "DE": "Hadžibajrić",
+       "ES": "Hadžibajrić",
+       "PT": "Hadžibajrić",
+       "IT": "Hadžibajrić",
+       "RU": "Hadzibaoric",
+       "ZH": "Hadzibaoric",
+       "AR": "Hadžibajrić"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
