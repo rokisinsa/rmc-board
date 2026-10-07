@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 17,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014233",
@@ -299,7 +328,7 @@
    "dateTime": "2026-10-07T08:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -338,7 +367,92 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 35
+  },
+  "phase": "FIRST_HALF",
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122675.jpg"
+    },
+    "person": {
+     "countryCode": "POL",
+     "gender": "FEMALE",
+     "id": "250122675",
+     "translations": {
+      "countryName": {
+       "EN": "Poland",
+       "FR": "Pologne",
+       "DE": "Polen",
+       "ES": "Polonia",
+       "PT": "Polónia",
+       "IT": "Polonia",
+       "RU": "Польша",
+       "ZH": "波兰",
+       "AR": "بولندا"
+      },
+      "firstName": {
+       "EN": "Anna",
+       "FR": "Anna",
+       "DE": "Anna",
+       "ES": "Anna",
+       "PT": "Anna",
+       "IT": "Anna",
+       "RU": "Анна",
+       "ZH": "Anna",
+       "AR": "Anna"
+      },
+      "lastName": {
+       "EN": "Adamska",
+       "FR": "Adamska",
+       "DE": "Adamska",
+       "ES": "Adamska",
+       "PT": "Adamska",
+       "IT": "Adamska",
+       "RU": "Адамска",
+       "ZH": "Adamska",
+       "AR": "Adamska"
+      },
+      "name": {
+       "EN": "Anna Adamska",
+       "FR": "Anna Adamska",
+       "DE": "Anna Adamska",
+       "ES": "Anna Adamska",
+       "PT": "Anna Adamska",
+       "IT": "Anna Adamska",
+       "RU": "Анна Адамска",
+       "ZH": "Anna Adamska",
+       "AR": "Anna Adamska"
+      },
+      "shortName": {
+       "EN": "Adamska",
+       "FR": "Adamska",
+       "DE": "Adamska",
+       "ES": "Adamska",
+       "PT": "Adamska",
+       "IT": "Adamska",
+       "RU": "Адамска",
+       "ZH": "Adamska",
+       "AR": "Adamska"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/41413.jpg"
@@ -417,87 +531,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217109.jpg"
-    },
-    "person": {
-     "countryCode": "SWE",
-     "gender": "FEMALE",
-     "id": "250217109",
-     "translations": {
-      "countryName": {
-       "EN": "Sweden",
-       "FR": "Suède",
-       "DE": "Schweden",
-       "ES": "Suecia",
-       "PT": "Suécia",
-       "IT": "Svezia",
-       "RU": "Швеция",
-       "ZH": "瑞典",
-       "AR": "السويد"
-      },
-      "firstName": {
-       "EN": "Mekdelawit Nigussu",
-       "FR": "Mekdelawit Nigussu",
-       "DE": "Mekdelawit Nigussu",
-       "ES": "Mekdelawit Nigussu",
-       "PT": "Mekdelawit Nigussu",
-       "IT": "Mekdelawit Nigussu",
-       "RU": "Mekdelawit Nigussu",
-       "ZH": "Mekdelawit Nigussu",
-       "AR": "Mekdelawit Nigussu"
-      },
-      "lastName": {
-       "EN": "Damtew",
-       "FR": "Damtew",
-       "DE": "Damtew",
-       "ES": "Damtew",
-       "PT": "Damtew",
-       "IT": "Damtew",
-       "RU": "Damtew",
-       "ZH": "Damtew",
-       "AR": "Damtew"
-      },
-      "name": {
-       "EN": "Mekdelawit Nigussu Damtew",
-       "FR": "Mekdelawit Nigussu Damtew",
-       "DE": "Mekdelawit Nigussu Damtew",
-       "ES": "Mekdelawit Nigussu Damtew",
-       "PT": "Mekdelawit Nigussu Damtew",
-       "IT": "Mekdelawit Nigussu Damtew",
-       "RU": "Mekdelawit Nigussu Damtew",
-       "ZH": "Mekdelawit Nigussu Damtew",
-       "AR": "Mekdelawit Nigussu Damtew"
-      },
-      "shortName": {
-       "EN": "Damtew",
-       "FR": "Damtew",
-       "DE": "Damtew",
-       "ES": "Damtew",
-       "PT": "Damtew",
-       "IT": "Damtew",
-       "RU": "Damtew",
-       "ZH": "Damtew",
-       "AR": "Damtew"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -665,82 +698,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122675.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217109.jpg"
     },
     "person": {
-     "countryCode": "POL",
+     "countryCode": "SWE",
      "gender": "FEMALE",
-     "id": "250122675",
+     "id": "250217109",
      "translations": {
       "countryName": {
-       "EN": "Poland",
-       "FR": "Pologne",
-       "DE": "Polen",
-       "ES": "Polonia",
-       "PT": "Polónia",
-       "IT": "Polonia",
-       "RU": "Польша",
-       "ZH": "波兰",
-       "AR": "بولندا"
+       "EN": "Sweden",
+       "FR": "Suède",
+       "DE": "Schweden",
+       "ES": "Suecia",
+       "PT": "Suécia",
+       "IT": "Svezia",
+       "RU": "Швеция",
+       "ZH": "瑞典",
+       "AR": "السويد"
       },
       "firstName": {
-       "EN": "Anna",
-       "FR": "Anna",
-       "DE": "Anna",
-       "ES": "Anna",
-       "PT": "Anna",
-       "IT": "Anna",
-       "RU": "Анна",
-       "ZH": "Anna",
-       "AR": "Anna"
+       "EN": "Mekdelawit Nigussu",
+       "FR": "Mekdelawit Nigussu",
+       "DE": "Mekdelawit Nigussu",
+       "ES": "Mekdelawit Nigussu",
+       "PT": "Mekdelawit Nigussu",
+       "IT": "Mekdelawit Nigussu",
+       "RU": "Mekdelawit Nigussu",
+       "ZH": "Mekdelawit Nigussu",
+       "AR": "Mekdelawit Nigussu"
       },
       "lastName": {
-       "EN": "Adamska",
-       "FR": "Adamska",
-       "DE": "Adamska",
-       "ES": "Adamska",
-       "PT": "Adamska",
-       "IT": "Adamska",
-       "RU": "Адамска",
-       "ZH": "Adamska",
-       "AR": "Adamska"
+       "EN": "Damtew",
+       "FR": "Damtew",
+       "DE": "Damtew",
+       "ES": "Damtew",
+       "PT": "Damtew",
+       "IT": "Damtew",
+       "RU": "Damtew",
+       "ZH": "Damtew",
+       "AR": "Damtew"
       },
       "name": {
-       "EN": "Anna Adamska",
-       "FR": "Anna Adamska",
-       "DE": "Anna Adamska",
-       "ES": "Anna Adamska",
-       "PT": "Anna Adamska",
-       "IT": "Anna Adamska",
-       "RU": "Анна Адамска",
-       "ZH": "Anna Adamska",
-       "AR": "Anna Adamska"
+       "EN": "Mekdelawit Nigussu Damtew",
+       "FR": "Mekdelawit Nigussu Damtew",
+       "DE": "Mekdelawit Nigussu Damtew",
+       "ES": "Mekdelawit Nigussu Damtew",
+       "PT": "Mekdelawit Nigussu Damtew",
+       "IT": "Mekdelawit Nigussu Damtew",
+       "RU": "Mekdelawit Nigussu Damtew",
+       "ZH": "Mekdelawit Nigussu Damtew",
+       "AR": "Mekdelawit Nigussu Damtew"
       },
       "shortName": {
-       "EN": "Adamska",
-       "FR": "Adamska",
-       "DE": "Adamska",
-       "ES": "Adamska",
-       "PT": "Adamska",
-       "IT": "Adamska",
-       "RU": "Адамска",
-       "ZH": "Adamska",
-       "AR": "Adamska"
+       "EN": "Damtew",
+       "FR": "Damtew",
+       "DE": "Damtew",
+       "ES": "Damtew",
+       "PT": "Damtew",
+       "IT": "Damtew",
+       "RU": "Damtew",
+       "ZH": "Damtew",
+       "AR": "Damtew"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -942,6 +975,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 0
+   },
+   "total": {
+    "away": 0,
+    "home": 0
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 5,
   "stadium": {
@@ -1037,7 +1080,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "First half",
+    "FR": "Première période",
+    "DE": "Erste Halbzeit",
+    "ES": "Primera parte",
+    "PT": "Primeira parte",
+    "IT": "Primo tempo",
+    "RU": "Первый тайм",
+    "ZH": "上半场",
+    "AR": "الشوط الأول"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1382,174 +1438,12 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250111237.jpg"
-    },
-    "person": {
-     "countryCode": "CYP",
-     "gender": "FEMALE",
-     "id": "250111237",
-     "translations": {
-      "countryName": {
-       "EN": "Cyprus",
-       "FR": "Chypre",
-       "DE": "Zypern",
-       "ES": "Chipre",
-       "PT": "Chipre",
-       "IT": "Cipro",
-       "RU": "Кипр",
-       "ZH": "塞浦路斯",
-       "AR": "قبرص"
-      },
-      "firstName": {
-       "EN": "Ioanna",
-       "FR": "Ioanna",
-       "DE": "Ioanna",
-       "ES": "Ioanna",
-       "PT": "Ioanna",
-       "IT": "Ioanna",
-       "RU": "Ioanna",
-       "ZH": "Ioanna",
-       "AR": "Ioanna"
-      },
-      "lastName": {
-       "EN": "Allayiotou",
-       "FR": "Allayiotou",
-       "DE": "Allayiotou",
-       "ES": "Allayiotou",
-       "PT": "Allayiotou",
-       "IT": "Allayiotou",
-       "RU": "Allayiotou",
-       "ZH": "Allayiotou",
-       "AR": "Allayiotou"
-      },
-      "name": {
-       "EN": "Ioanna Allayiotou",
-       "FR": "Ioanna Allayiotou",
-       "DE": "Ioanna Allayiotou",
-       "ES": "Ioanna Allayiotou",
-       "PT": "Ioanna Allayiotou",
-       "IT": "Ioanna Allayiotou",
-       "RU": "Янна Аллайоту",
-       "ZH": "Ioanna Allayiotou",
-       "AR": "Ioanna Allayiotou"
-      },
-      "shortName": {
-       "EN": "Allayiotou",
-       "FR": "Allayiotou",
-       "DE": "Allayiotou",
-       "ES": "Allayiotou",
-       "PT": "Allayiotou",
-       "IT": "Allayiotou",
-       "RU": "Аллайоту",
-       "ZH": "Allayiotou",
-       "AR": "Allayiotou"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250105644.jpg"
-    },
-    "person": {
-     "countryCode": "FRO",
-     "gender": "MALE",
-     "id": "250105644",
-     "translations": {
-      "countryName": {
-       "EN": "Faroe Islands",
-       "FR": "Îles Féroé",
-       "DE": "Färöer-Inseln",
-       "ES": "Islas Feroe",
-       "PT": "Ilhas Faroé",
-       "IT": "Isole Faroe",
-       "RU": "Фарерские острова",
-       "ZH": "法罗群岛",
-       "AR": "جزر فارو"
-      },
-      "firstName": {
-       "EN": "Fródi",
-       "FR": "Fródi",
-       "DE": "Fródi",
-       "ES": "Fródi",
-       "PT": "Fródi",
-       "IT": "Fródi",
-       "RU": "Fródi",
-       "ZH": "Fródi",
-       "AR": "Fródi"
-      },
-      "lastName": {
-       "EN": "Danielsen",
-       "FR": "Danielsen",
-       "DE": "Danielsen",
-       "ES": "Danielsen",
-       "PT": "Danielsen",
-       "IT": "Danielsen",
-       "RU": "Danielsen",
-       "ZH": "Danielsen",
-       "AR": "Danielsen"
-      },
-      "name": {
-       "EN": "Fródi Danielsen",
-       "FR": "Fródi Danielsen",
-       "DE": "Fródi Danielsen",
-       "ES": "Fródi Danielsen",
-       "PT": "Fródi Danielsen",
-       "IT": "Fródi Danielsen",
-       "RU": "Fródi Danielsen",
-       "ZH": "Fródi Danielsen",
-       "AR": "Fródi Danielsen"
-      },
-      "shortName": {
-       "EN": "Danielsen",
-       "FR": "Danielsen",
-       "DE": "Danielsen",
-       "ES": "Danielsen",
-       "PT": "Danielsen",
-       "IT": "Danielsen",
-       "RU": "Danielsen",
-       "ZH": "Danielsen",
-       "AR": "Danielsen"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250206639.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227031.jpg"
     },
     "person": {
      "countryCode": "SCO",
      "gender": "FEMALE",
-     "id": "250206639",
+     "id": "250227031",
      "translations": {
       "countryName": {
        "EN": "Scotland",
@@ -1563,63 +1457,63 @@
        "AR": "اسكتلندا"
       },
       "firstName": {
-       "EN": "Paulina",
-       "FR": "Paulina",
-       "DE": "Paulina",
-       "ES": "Paulina",
-       "PT": "Paulina",
-       "IT": "Paulina",
-       "RU": "Paulina",
-       "ZH": "Paulina",
-       "AR": "Paulina"
+       "EN": "Jana",
+       "FR": "Jana",
+       "DE": "Jana",
+       "ES": "Jana",
+       "PT": "Jana",
+       "IT": "Jana",
+       "RU": "Jana",
+       "ZH": "Jana",
+       "AR": "Jana"
       },
       "lastName": {
-       "EN": "Ruszniak",
-       "FR": "Ruszniak",
-       "DE": "Ruszniak",
-       "ES": "Ruszniak",
-       "PT": "Ruszniak",
-       "IT": "Ruszniak",
-       "RU": "Ruszniak",
-       "ZH": "Ruszniak",
-       "AR": "Ruszniak"
+       "EN": "Brady",
+       "FR": "Brady",
+       "DE": "Brady",
+       "ES": "Brady",
+       "PT": "Brady",
+       "IT": "Brady",
+       "RU": "Brady",
+       "ZH": "Brady",
+       "AR": "Brady"
       },
       "name": {
-       "EN": "Paulina Ruszniak",
-       "FR": "Paulina Ruszniak",
-       "DE": "Paulina Ruszniak",
-       "ES": "Paulina Ruszniak",
-       "PT": "Paulina Ruszniak",
-       "IT": "Paulina Ruszniak",
-       "RU": "Paulina Ruszniak",
-       "ZH": "Paulina Ruszniak",
-       "AR": "Paulina Ruszniak"
+       "EN": "Jana Brady",
+       "FR": "Jana Brady",
+       "DE": "Jana Brady",
+       "ES": "Jana Brady",
+       "PT": "Jana Brady",
+       "IT": "Jana Brady",
+       "RU": "Jana Brady",
+       "ZH": "Jana Brady",
+       "AR": "Jana Brady"
       },
       "shortName": {
-       "EN": "Ruszniak",
-       "FR": "Ruszniak",
-       "DE": "Ruszniak",
-       "ES": "Ruszniak",
-       "PT": "Ruszniak",
-       "IT": "Ruszniak",
-       "RU": "Ruszniak",
-       "ZH": "Ruszniak",
-       "AR": "Ruszniak"
+       "EN": "Brady",
+       "FR": "Brady",
+       "DE": "Brady",
+       "ES": "Brady",
+       "PT": "Brady",
+       "IT": "Brady",
+       "RU": "Brady",
+       "ZH": "Brady",
+       "AR": "Brady"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    },
@@ -1706,12 +1600,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227031.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250206639.jpg"
     },
     "person": {
      "countryCode": "SCO",
      "gender": "FEMALE",
-     "id": "250227031",
+     "id": "250206639",
      "translations": {
       "countryName": {
        "EN": "Scotland",
@@ -1725,63 +1619,63 @@
        "AR": "اسكتلندا"
       },
       "firstName": {
-       "EN": "Jana",
-       "FR": "Jana",
-       "DE": "Jana",
-       "ES": "Jana",
-       "PT": "Jana",
-       "IT": "Jana",
-       "RU": "Jana",
-       "ZH": "Jana",
-       "AR": "Jana"
+       "EN": "Paulina",
+       "FR": "Paulina",
+       "DE": "Paulina",
+       "ES": "Paulina",
+       "PT": "Paulina",
+       "IT": "Paulina",
+       "RU": "Paulina",
+       "ZH": "Paulina",
+       "AR": "Paulina"
       },
       "lastName": {
-       "EN": "Brady",
-       "FR": "Brady",
-       "DE": "Brady",
-       "ES": "Brady",
-       "PT": "Brady",
-       "IT": "Brady",
-       "RU": "Brady",
-       "ZH": "Brady",
-       "AR": "Brady"
+       "EN": "Ruszniak",
+       "FR": "Ruszniak",
+       "DE": "Ruszniak",
+       "ES": "Ruszniak",
+       "PT": "Ruszniak",
+       "IT": "Ruszniak",
+       "RU": "Ruszniak",
+       "ZH": "Ruszniak",
+       "AR": "Ruszniak"
       },
       "name": {
-       "EN": "Jana Brady",
-       "FR": "Jana Brady",
-       "DE": "Jana Brady",
-       "ES": "Jana Brady",
-       "PT": "Jana Brady",
-       "IT": "Jana Brady",
-       "RU": "Jana Brady",
-       "ZH": "Jana Brady",
-       "AR": "Jana Brady"
+       "EN": "Paulina Ruszniak",
+       "FR": "Paulina Ruszniak",
+       "DE": "Paulina Ruszniak",
+       "ES": "Paulina Ruszniak",
+       "PT": "Paulina Ruszniak",
+       "IT": "Paulina Ruszniak",
+       "RU": "Paulina Ruszniak",
+       "ZH": "Paulina Ruszniak",
+       "AR": "Paulina Ruszniak"
       },
       "shortName": {
-       "EN": "Brady",
-       "FR": "Brady",
-       "DE": "Brady",
-       "ES": "Brady",
-       "PT": "Brady",
-       "IT": "Brady",
-       "RU": "Brady",
-       "ZH": "Brady",
-       "AR": "Brady"
+       "EN": "Ruszniak",
+       "FR": "Ruszniak",
+       "DE": "Ruszniak",
+       "ES": "Ruszniak",
+       "PT": "Ruszniak",
+       "IT": "Ruszniak",
+       "RU": "Ruszniak",
+       "ZH": "Ruszniak",
+       "AR": "Ruszniak"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    },
@@ -1863,6 +1757,168 @@
       "RU": "Ассистенты рефери",
       "ZH": "Assistant referees",
       "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250105644.jpg"
+    },
+    "person": {
+     "countryCode": "FRO",
+     "gender": "MALE",
+     "id": "250105644",
+     "translations": {
+      "countryName": {
+       "EN": "Faroe Islands",
+       "FR": "Îles Féroé",
+       "DE": "Färöer-Inseln",
+       "ES": "Islas Feroe",
+       "PT": "Ilhas Faroé",
+       "IT": "Isole Faroe",
+       "RU": "Фарерские острова",
+       "ZH": "法罗群岛",
+       "AR": "جزر فارو"
+      },
+      "firstName": {
+       "EN": "Fródi",
+       "FR": "Fródi",
+       "DE": "Fródi",
+       "ES": "Fródi",
+       "PT": "Fródi",
+       "IT": "Fródi",
+       "RU": "Fródi",
+       "ZH": "Fródi",
+       "AR": "Fródi"
+      },
+      "lastName": {
+       "EN": "Danielsen",
+       "FR": "Danielsen",
+       "DE": "Danielsen",
+       "ES": "Danielsen",
+       "PT": "Danielsen",
+       "IT": "Danielsen",
+       "RU": "Danielsen",
+       "ZH": "Danielsen",
+       "AR": "Danielsen"
+      },
+      "name": {
+       "EN": "Fródi Danielsen",
+       "FR": "Fródi Danielsen",
+       "DE": "Fródi Danielsen",
+       "ES": "Fródi Danielsen",
+       "PT": "Fródi Danielsen",
+       "IT": "Fródi Danielsen",
+       "RU": "Fródi Danielsen",
+       "ZH": "Fródi Danielsen",
+       "AR": "Fródi Danielsen"
+      },
+      "shortName": {
+       "EN": "Danielsen",
+       "FR": "Danielsen",
+       "DE": "Danielsen",
+       "ES": "Danielsen",
+       "PT": "Danielsen",
+       "IT": "Danielsen",
+       "RU": "Danielsen",
+       "ZH": "Danielsen",
+       "AR": "Danielsen"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250111237.jpg"
+    },
+    "person": {
+     "countryCode": "CYP",
+     "gender": "FEMALE",
+     "id": "250111237",
+     "translations": {
+      "countryName": {
+       "EN": "Cyprus",
+       "FR": "Chypre",
+       "DE": "Zypern",
+       "ES": "Chipre",
+       "PT": "Chipre",
+       "IT": "Cipro",
+       "RU": "Кипр",
+       "ZH": "塞浦路斯",
+       "AR": "قبرص"
+      },
+      "firstName": {
+       "EN": "Ioanna",
+       "FR": "Ioanna",
+       "DE": "Ioanna",
+       "ES": "Ioanna",
+       "PT": "Ioanna",
+       "IT": "Ioanna",
+       "RU": "Ioanna",
+       "ZH": "Ioanna",
+       "AR": "Ioanna"
+      },
+      "lastName": {
+       "EN": "Allayiotou",
+       "FR": "Allayiotou",
+       "DE": "Allayiotou",
+       "ES": "Allayiotou",
+       "PT": "Allayiotou",
+       "IT": "Allayiotou",
+       "RU": "Allayiotou",
+       "ZH": "Allayiotou",
+       "AR": "Allayiotou"
+      },
+      "name": {
+       "EN": "Ioanna Allayiotou",
+       "FR": "Ioanna Allayiotou",
+       "DE": "Ioanna Allayiotou",
+       "ES": "Ioanna Allayiotou",
+       "PT": "Ioanna Allayiotou",
+       "IT": "Ioanna Allayiotou",
+       "RU": "Янна Аллайоту",
+       "ZH": "Ioanna Allayiotou",
+       "AR": "Ioanna Allayiotou"
+      },
+      "shortName": {
+       "EN": "Allayiotou",
+       "FR": "Allayiotou",
+       "DE": "Allayiotou",
+       "ES": "Allayiotou",
+       "PT": "Allayiotou",
+       "IT": "Allayiotou",
+       "RU": "Аллайоту",
+       "ZH": "Allayiotou",
+       "AR": "Allayiotou"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    }
