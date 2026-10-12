@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": 10,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy night",
+     "FR": "ciel nuageux",
+     "DE": "bewölkter Abend",
+     "ES": "Noche nublada",
+     "PT": "Noite nublada",
+     "IT": "Serata nuvolosa",
+     "RU": "Облачный вечер",
+     "ZH": "多云夜晚",
+     "AR": "ليلة غائمة"
+    }
+   },
+   "weatherCondition": "CLOUDY_NIGHT"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013678",
@@ -300,7 +329,7 @@
    "dateTime": "2026-10-12T10:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-23T06:00:00+0000",
@@ -340,249 +369,6 @@
    "type": "MATCHDAY"
   },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250135422.jpg"
-    },
-    "person": {
-     "countryCode": "LVA",
-     "gender": "MALE",
-     "id": "250135422",
-     "translations": {
-      "countryName": {
-       "EN": "Latvia",
-       "FR": "Lettonie",
-       "DE": "Lettland",
-       "ES": "Letonia",
-       "PT": "Letónia",
-       "IT": "Lettonia",
-       "RU": "Латвия",
-       "ZH": "拉脱维亚",
-       "AR": "لاتفيا"
-      },
-      "firstName": {
-       "EN": "Arturs",
-       "FR": "Arturs",
-       "DE": "Arturs",
-       "ES": "Arturs",
-       "PT": "Arturs",
-       "IT": "Arturs",
-       "RU": "Артур",
-       "ZH": "Arturs",
-       "AR": "أرتورس "
-      },
-      "lastName": {
-       "EN": "Šakurovs",
-       "FR": "Šakurovs",
-       "DE": "Šakurovs",
-       "ES": "Šakurovs",
-       "PT": "Šakurovs",
-       "IT": "Šakurovs",
-       "RU": "Шакуров",
-       "ZH": "Šakurovs",
-       "AR": "شاكوروفس"
-      },
-      "name": {
-       "EN": "Arturs Šakurovs",
-       "FR": "Arturs Šakurovs",
-       "DE": "Arturs Šakurovs",
-       "ES": "Arturs Šakurovs",
-       "PT": "Arturs Šakurovs",
-       "IT": "Arturs Šakurovs",
-       "RU": "Артур Шакуров",
-       "ZH": "Arturs Šakurovs",
-       "AR": "أرتورس شاكوروفس"
-      },
-      "shortName": {
-       "EN": "Šakurovs",
-       "FR": "Šakurovs",
-       "DE": "Šakurovs",
-       "ES": "Šakurovs",
-       "PT": "Šakurovs",
-       "IT": "Šakurovs",
-       "RU": "Шакуров",
-       "ZH": "Šakurovs",
-       "AR": "شاكوروفس"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203235.jpg"
-    },
-    "person": {
-     "countryCode": "BUL",
-     "gender": "MALE",
-     "id": "250203235",
-     "translations": {
-      "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
-      },
-      "firstName": {
-       "EN": "Krasimir",
-       "FR": "Krasimir",
-       "DE": "Krasimir",
-       "ES": "Krasimir",
-       "PT": "Krasimir",
-       "IT": "Krasimir",
-       "RU": "Красимир",
-       "ZH": "Krasimir",
-       "AR": "كراسيمير "
-      },
-      "lastName": {
-       "EN": "Atanasov",
-       "FR": "Atanasov",
-       "DE": "Atanasov",
-       "ES": "Atanasov",
-       "PT": "Atanasov",
-       "IT": "Atanasov",
-       "RU": "Атанасов",
-       "ZH": "Atanasov",
-       "AR": "أتاناسوف"
-      },
-      "name": {
-       "EN": "Krasimir Atanasov",
-       "FR": "Krasimir Atanasov",
-       "DE": "Krasimir Atanasov",
-       "ES": "Krasimir Atanasov",
-       "PT": "Krasimir Atanasov",
-       "IT": "Krasimir Atanasov",
-       "RU": "Красимир Атанасов",
-       "ZH": "Krasimir Atanasov",
-       "AR": "كراسيمير أتاناسوف"
-      },
-      "shortName": {
-       "EN": "Atanasov",
-       "FR": "Atanasov",
-       "DE": "Atanasov",
-       "ES": "Atanasov",
-       "PT": "Atanasov",
-       "IT": "Atanasov",
-       "RU": "Атанасов",
-       "ZH": "Atanasov",
-       "AR": "أتاناسوف"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
-    },
-    "person": {
-     "countryCode": "BUL",
-     "gender": "MALE",
-     "id": "250063724",
-     "translations": {
-      "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
-      },
-      "firstName": {
-       "EN": "Martin Zhivkov",
-       "FR": "Martin Zhivkov",
-       "DE": "Martin Zhivkov",
-       "ES": "Martin Zhivkov",
-       "PT": "Martin Zhivkov",
-       "IT": "Martin Zhivkov",
-       "RU": "Мартин",
-       "ZH": "Martin Zhivkov",
-       "AR": "مارتن زيفكوف"
-      },
-      "lastName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
-      },
-      "name": {
-       "EN": "Martin Zhivkov Velikov",
-       "FR": "Martin Zhivkov Velikov",
-       "DE": "Martin Zhivkov Velikov",
-       "ES": "Martin Zhivkov Velikov",
-       "PT": "Martin Zhivkov Velikov",
-       "IT": "Martin Zhivkov Velikov",
-       "RU": "Мартин Великов",
-       "ZH": "Martin Zhivkov Velikov",
-       "AR": "مارتن جيفكوف فيليكوف"
-      },
-      "shortName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
@@ -747,6 +533,168 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250135422.jpg"
+    },
+    "person": {
+     "countryCode": "LVA",
+     "gender": "MALE",
+     "id": "250135422",
+     "translations": {
+      "countryName": {
+       "EN": "Latvia",
+       "FR": "Lettonie",
+       "DE": "Lettland",
+       "ES": "Letonia",
+       "PT": "Letónia",
+       "IT": "Lettonia",
+       "RU": "Латвия",
+       "ZH": "拉脱维亚",
+       "AR": "لاتفيا"
+      },
+      "firstName": {
+       "EN": "Arturs",
+       "FR": "Arturs",
+       "DE": "Arturs",
+       "ES": "Arturs",
+       "PT": "Arturs",
+       "IT": "Arturs",
+       "RU": "Артур",
+       "ZH": "Arturs",
+       "AR": "أرتورس "
+      },
+      "lastName": {
+       "EN": "Šakurovs",
+       "FR": "Šakurovs",
+       "DE": "Šakurovs",
+       "ES": "Šakurovs",
+       "PT": "Šakurovs",
+       "IT": "Šakurovs",
+       "RU": "Шакуров",
+       "ZH": "Šakurovs",
+       "AR": "شاكوروفس"
+      },
+      "name": {
+       "EN": "Arturs Šakurovs",
+       "FR": "Arturs Šakurovs",
+       "DE": "Arturs Šakurovs",
+       "ES": "Arturs Šakurovs",
+       "PT": "Arturs Šakurovs",
+       "IT": "Arturs Šakurovs",
+       "RU": "Артур Шакуров",
+       "ZH": "Arturs Šakurovs",
+       "AR": "أرتورس شاكوروفس"
+      },
+      "shortName": {
+       "EN": "Šakurovs",
+       "FR": "Šakurovs",
+       "DE": "Šakurovs",
+       "ES": "Šakurovs",
+       "PT": "Šakurovs",
+       "IT": "Šakurovs",
+       "RU": "Шакуров",
+       "ZH": "Šakurovs",
+       "AR": "شاكوروفس"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203235.jpg"
+    },
+    "person": {
+     "countryCode": "BUL",
+     "gender": "MALE",
+     "id": "250203235",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "firstName": {
+       "EN": "Krasimir",
+       "FR": "Krasimir",
+       "DE": "Krasimir",
+       "ES": "Krasimir",
+       "PT": "Krasimir",
+       "IT": "Krasimir",
+       "RU": "Красимир",
+       "ZH": "Krasimir",
+       "AR": "كراسيمير "
+      },
+      "lastName": {
+       "EN": "Atanasov",
+       "FR": "Atanasov",
+       "DE": "Atanasov",
+       "ES": "Atanasov",
+       "PT": "Atanasov",
+       "IT": "Atanasov",
+       "RU": "Атанасов",
+       "ZH": "Atanasov",
+       "AR": "أتاناسوف"
+      },
+      "name": {
+       "EN": "Krasimir Atanasov",
+       "FR": "Krasimir Atanasov",
+       "DE": "Krasimir Atanasov",
+       "ES": "Krasimir Atanasov",
+       "PT": "Krasimir Atanasov",
+       "IT": "Krasimir Atanasov",
+       "RU": "Красимир Атанасов",
+       "ZH": "Krasimir Atanasov",
+       "AR": "كراسيمير أتاناسوف"
+      },
+      "shortName": {
+       "EN": "Atanasov",
+       "FR": "Atanasov",
+       "DE": "Atanasov",
+       "ES": "Atanasov",
+       "PT": "Atanasov",
+       "IT": "Atanasov",
+       "RU": "Атанасов",
+       "ZH": "Atanasov",
+       "AR": "أتاناسوف"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
     },
     "person": {
@@ -823,6 +771,87 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
+    },
+    "person": {
+     "countryCode": "BUL",
+     "gender": "MALE",
+     "id": "250063724",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "firstName": {
+       "EN": "Martin Zhivkov",
+       "FR": "Martin Zhivkov",
+       "DE": "Martin Zhivkov",
+       "ES": "Martin Zhivkov",
+       "PT": "Martin Zhivkov",
+       "IT": "Martin Zhivkov",
+       "RU": "Мартин",
+       "ZH": "Martin Zhivkov",
+       "AR": "مارتن زيفكوف"
+      },
+      "lastName": {
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
+      },
+      "name": {
+       "EN": "Martin Zhivkov Velikov",
+       "FR": "Martin Zhivkov Velikov",
+       "DE": "Martin Zhivkov Velikov",
+       "ES": "Martin Zhivkov Velikov",
+       "PT": "Martin Zhivkov Velikov",
+       "IT": "Martin Zhivkov Velikov",
+       "RU": "Мартин Великов",
+       "ZH": "Martin Zhivkov Velikov",
+       "AR": "مارتن جيفكوف فيليكوف"
+      },
+      "shortName": {
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
      }
     }
    }
@@ -1387,87 +1416,6 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250194468.jpg"
-    },
-    "person": {
-     "countryCode": "ENG",
-     "gender": "FEMALE",
-     "id": "250194468",
-     "translations": {
-      "countryName": {
-       "EN": "England",
-       "FR": "Angleterre",
-       "DE": "England",
-       "ES": "Inglaterra",
-       "PT": "Inglaterra",
-       "IT": "Inghilterra",
-       "RU": "Англия",
-       "ZH": "英格兰",
-       "AR": "إنجلترا"
-      },
-      "firstName": {
-       "EN": "Ruby",
-       "FR": "Ruby",
-       "DE": "Ruby",
-       "ES": "Ruby",
-       "PT": "Ruby",
-       "IT": "Ruby",
-       "RU": "Руби",
-       "ZH": "Ruby",
-       "AR": "Ruby"
-      },
-      "lastName": {
-       "EN": "Sykes",
-       "FR": "Sykes",
-       "DE": "Sykes",
-       "ES": "Sykes",
-       "PT": "Sykes",
-       "IT": "Sykes",
-       "RU": "Сайкс",
-       "ZH": "Sykes",
-       "AR": "Sykes"
-      },
-      "name": {
-       "EN": "Ruby Sykes",
-       "FR": "Ruby Sykes",
-       "DE": "Ruby Sykes",
-       "ES": "Ruby Sykes",
-       "PT": "Ruby Sykes",
-       "IT": "Ruby Sykes",
-       "RU": "Руби Сайкс",
-       "ZH": "Ruby Sykes",
-       "AR": "Ruby Sykes"
-      },
-      "shortName": {
-       "EN": "Sykes",
-       "FR": "Sykes",
-       "DE": "Sykes",
-       "ES": "Sykes",
-       "PT": "Sykes",
-       "IT": "Sykes",
-       "RU": "Сайкс",
-       "ZH": "Sykes",
-       "AR": "Sykes"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166872.jpg"
     },
     "person": {
@@ -1544,87 +1492,6 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279646.jpg"
-    },
-    "person": {
-     "countryCode": "ESP",
-     "gender": "FEMALE",
-     "id": "279646",
-     "translations": {
-      "countryName": {
-       "EN": "Spain",
-       "FR": "Espagne",
-       "DE": "Spanien",
-       "ES": "España",
-       "PT": "Espanha",
-       "IT": "Spagna",
-       "RU": "Испания",
-       "ZH": "西班牙",
-       "AR": "إسبانيا"
-      },
-      "firstName": {
-       "EN": "Paloma",
-       "FR": "Paloma",
-       "DE": "Paloma",
-       "ES": "Paloma",
-       "PT": "Paloma",
-       "IT": "Paloma",
-       "RU": "Paloma",
-       "ZH": "Paloma",
-       "AR": "Paloma"
-      },
-      "lastName": {
-       "EN": "Quintero Siles",
-       "FR": "Quintero Siles",
-       "DE": "Quintero Siles",
-       "ES": "Quintero Siles",
-       "PT": "Quintero Siles",
-       "IT": "Quintero Siles",
-       "RU": "Quintero Siles",
-       "ZH": "Quintero Siles",
-       "AR": "Quintero Siles"
-      },
-      "name": {
-       "EN": "Paloma Quintero Siles",
-       "FR": "Paloma Quintero Siles",
-       "DE": "Paloma Quintero Siles",
-       "ES": "Paloma Quintero Siles",
-       "PT": "Paloma Quintero Siles",
-       "IT": "Paloma Quintero Siles",
-       "RU": "Палома Кинтеро Силес",
-       "ZH": "Paloma Quintero Siles",
-       "AR": "Paloma Quintero Siles"
-      },
-      "shortName": {
-       "EN": "Quintero Siles",
-       "FR": "Quintero Siles",
-       "DE": "Quintero Siles",
-       "ES": "Quintero Siles",
-       "PT": "Quintero Siles",
-       "IT": "Quintero Siles",
-       "RU": "Кинтеро Силес",
-       "ZH": "Quintero Siles",
-       "AR": "Quintero Siles"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee Observer",
-      "FR": "Observateur ou observatrice d'arbitre",
-      "DE": "Schiedsrichterbeobachterin",
-      "ES": "Observadora arbitral",
-      "PT": "Observadora de Arbitragem",
-      "IT": "Osservatrice arbitrale",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكم"
      }
     }
    },
@@ -1711,87 +1578,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217292.jpg"
-    },
-    "person": {
-     "countryCode": "MLT",
-     "gender": "FEMALE",
-     "id": "250217292",
-     "translations": {
-      "countryName": {
-       "EN": "Malta",
-       "FR": "Malte",
-       "DE": "Malta",
-       "ES": "Malta",
-       "PT": "Malta",
-       "IT": "Malta",
-       "RU": "Мальта",
-       "ZH": "马耳他",
-       "AR": "مالطا"
-      },
-      "firstName": {
-       "EN": "Sara",
-       "FR": "Sara",
-       "DE": "Sara",
-       "ES": "Sara",
-       "PT": "Sara",
-       "IT": "Sara",
-       "RU": "Sara",
-       "ZH": "Sara",
-       "AR": "Sara"
-      },
-      "lastName": {
-       "EN": "Kankaras",
-       "FR": "Kankaras",
-       "DE": "Kankaras",
-       "ES": "Kankaras",
-       "PT": "Kankaras",
-       "IT": "Kankaras",
-       "RU": "Kankaras",
-       "ZH": "Kankaras",
-       "AR": "Kankaras"
-      },
-      "name": {
-       "EN": "Sara Kankaras",
-       "FR": "Sara Kankaras",
-       "DE": "Sara Kankaras",
-       "ES": "Sara Kankaras",
-       "PT": "Sara Kankaras",
-       "IT": "Sara Kankaras",
-       "RU": "Sara Kankaras",
-       "ZH": "Sara Kankaras",
-       "AR": "Sara Kankaras"
-      },
-      "shortName": {
-       "EN": "Kankaras",
-       "FR": "Kankaras",
-       "DE": "Kankaras",
-       "ES": "Kankaras",
-       "PT": "Kankaras",
-       "IT": "Kankaras",
-       "RU": "Kankaras",
-       "ZH": "Kankaras",
-       "AR": "Kankaras"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279646.jpg"
     },
     "person": {
@@ -1868,6 +1654,249 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250194468.jpg"
+    },
+    "person": {
+     "countryCode": "ENG",
+     "gender": "FEMALE",
+     "id": "250194468",
+     "translations": {
+      "countryName": {
+       "EN": "England",
+       "FR": "Angleterre",
+       "DE": "England",
+       "ES": "Inglaterra",
+       "PT": "Inglaterra",
+       "IT": "Inghilterra",
+       "RU": "Англия",
+       "ZH": "英格兰",
+       "AR": "إنجلترا"
+      },
+      "firstName": {
+       "EN": "Ruby",
+       "FR": "Ruby",
+       "DE": "Ruby",
+       "ES": "Ruby",
+       "PT": "Ruby",
+       "IT": "Ruby",
+       "RU": "Руби",
+       "ZH": "Ruby",
+       "AR": "Ruby"
+      },
+      "lastName": {
+       "EN": "Sykes",
+       "FR": "Sykes",
+       "DE": "Sykes",
+       "ES": "Sykes",
+       "PT": "Sykes",
+       "IT": "Sykes",
+       "RU": "Сайкс",
+       "ZH": "Sykes",
+       "AR": "Sykes"
+      },
+      "name": {
+       "EN": "Ruby Sykes",
+       "FR": "Ruby Sykes",
+       "DE": "Ruby Sykes",
+       "ES": "Ruby Sykes",
+       "PT": "Ruby Sykes",
+       "IT": "Ruby Sykes",
+       "RU": "Руби Сайкс",
+       "ZH": "Ruby Sykes",
+       "AR": "Ruby Sykes"
+      },
+      "shortName": {
+       "EN": "Sykes",
+       "FR": "Sykes",
+       "DE": "Sykes",
+       "ES": "Sykes",
+       "PT": "Sykes",
+       "IT": "Sykes",
+       "RU": "Сайкс",
+       "ZH": "Sykes",
+       "AR": "Sykes"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279646.jpg"
+    },
+    "person": {
+     "countryCode": "ESP",
+     "gender": "FEMALE",
+     "id": "279646",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "firstName": {
+       "EN": "Paloma",
+       "FR": "Paloma",
+       "DE": "Paloma",
+       "ES": "Paloma",
+       "PT": "Paloma",
+       "IT": "Paloma",
+       "RU": "Paloma",
+       "ZH": "Paloma",
+       "AR": "Paloma"
+      },
+      "lastName": {
+       "EN": "Quintero Siles",
+       "FR": "Quintero Siles",
+       "DE": "Quintero Siles",
+       "ES": "Quintero Siles",
+       "PT": "Quintero Siles",
+       "IT": "Quintero Siles",
+       "RU": "Quintero Siles",
+       "ZH": "Quintero Siles",
+       "AR": "Quintero Siles"
+      },
+      "name": {
+       "EN": "Paloma Quintero Siles",
+       "FR": "Paloma Quintero Siles",
+       "DE": "Paloma Quintero Siles",
+       "ES": "Paloma Quintero Siles",
+       "PT": "Paloma Quintero Siles",
+       "IT": "Paloma Quintero Siles",
+       "RU": "Палома Кинтеро Силес",
+       "ZH": "Paloma Quintero Siles",
+       "AR": "Paloma Quintero Siles"
+      },
+      "shortName": {
+       "EN": "Quintero Siles",
+       "FR": "Quintero Siles",
+       "DE": "Quintero Siles",
+       "ES": "Quintero Siles",
+       "PT": "Quintero Siles",
+       "IT": "Quintero Siles",
+       "RU": "Кинтеро Силес",
+       "ZH": "Quintero Siles",
+       "AR": "Quintero Siles"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250217292.jpg"
+    },
+    "person": {
+     "countryCode": "MLT",
+     "gender": "FEMALE",
+     "id": "250217292",
+     "translations": {
+      "countryName": {
+       "EN": "Malta",
+       "FR": "Malte",
+       "DE": "Malta",
+       "ES": "Malta",
+       "PT": "Malta",
+       "IT": "Malta",
+       "RU": "Мальта",
+       "ZH": "马耳他",
+       "AR": "مالطا"
+      },
+      "firstName": {
+       "EN": "Sara",
+       "FR": "Sara",
+       "DE": "Sara",
+       "ES": "Sara",
+       "PT": "Sara",
+       "IT": "Sara",
+       "RU": "Sara",
+       "ZH": "Sara",
+       "AR": "Sara"
+      },
+      "lastName": {
+       "EN": "Kankaras",
+       "FR": "Kankaras",
+       "DE": "Kankaras",
+       "ES": "Kankaras",
+       "PT": "Kankaras",
+       "IT": "Kankaras",
+       "RU": "Kankaras",
+       "ZH": "Kankaras",
+       "AR": "Kankaras"
+      },
+      "name": {
+       "EN": "Sara Kankaras",
+       "FR": "Sara Kankaras",
+       "DE": "Sara Kankaras",
+       "ES": "Sara Kankaras",
+       "PT": "Sara Kankaras",
+       "IT": "Sara Kankaras",
+       "RU": "Sara Kankaras",
+       "ZH": "Sara Kankaras",
+       "AR": "Sara Kankaras"
+      },
+      "shortName": {
+       "EN": "Kankaras",
+       "FR": "Kankaras",
+       "DE": "Kankaras",
+       "ES": "Kankaras",
+       "PT": "Kankaras",
+       "IT": "Kankaras",
+       "RU": "Kankaras",
+       "ZH": "Kankaras",
+       "AR": "Kankaras"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    }
