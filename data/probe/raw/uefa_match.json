@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "WET",
+   "temperature": 13,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "wet",
+     "FR": "très humide",
+     "DE": "nass",
+     "ES": "húmedo",
+     "PT": "molhado",
+     "IT": "umido",
+     "RU": "сырое",
+     "ZH": "潮湿",
+     "AR": "أرضية مبتلة"
+    },
+    "weatherConditionName": {
+     "EN": "Rain",
+     "FR": "pluie",
+     "DE": "Regen",
+     "ES": "Lluvia",
+     "PT": "Chuva",
+     "IT": "Pioggia",
+     "RU": "Дождь",
+     "ZH": "有雨",
+     "AR": "ممطر"
+    }
+   },
+   "weatherCondition": "RAIN"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014233",
@@ -299,7 +328,7 @@
    "dateTime": "2026-10-13T10:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-12T06:00:00+0000",
@@ -1179,6 +1208,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "SOFT",
+   "temperature": 13,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "soft",
+     "FR": "souple",
+     "DE": "weich",
+     "ES": "suave",
+     "PT": "suave",
+     "IT": "morbido",
+     "RU": "мягкое",
+     "ZH": "柔软",
+     "AR": "تدخل خفيف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014233",
@@ -1340,7 +1398,7 @@
    "dateTime": "2026-10-13T10:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-12T06:00:00+0000",
