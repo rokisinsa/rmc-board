@@ -139,6 +139,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 20,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
+  "fullTimeAt": "2026-10-15T11:52:06.653Z",
   "group": {
    "competitionId": "23",
    "id": "2013678",
@@ -300,7 +330,8 @@
    "dateTime": "2026-10-15T10:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 225,
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-26T06:00:00+0000",
@@ -339,250 +370,209 @@
    },
    "type": "MATCHDAY"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "aee77611-580e-43b1-ac0a-5061a13abf4f",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-29",
+      "clubShirtName": "MICHELENA ZUBIETA",
+      "countryCode": "ESP",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250217144",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250217144.jpg",
+      "internationalName": "Kemen Mitxelena",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "4",
+      "nationalShirtName": "Michelena Zubieta",
+      "nationalTeamId": "400122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "RU": "Kemen",
+        "ZH": "Kemen",
+        "AR": "Kemen"
+       },
+       "lastName": {
+        "EN": "Kemen Mitxelena",
+        "FR": "Kemen Mitxelena",
+        "DE": "Kemen Mitxelena",
+        "ES": "Kemen Mitxelena",
+        "PT": "Kemen Mitxelena",
+        "IT": "Kemen Mitxelena",
+        "RU": "Michelena Zubieta",
+        "ZH": "Michelena Zubieta",
+        "AR": "Michelena Zubieta"
+       },
+       "name": {
+        "EN": "Kemen Mitxelena",
+        "FR": "Kemen Mitxelena",
+        "DE": "Kemen Mitxelena",
+        "ES": "Kemen Mitxelena",
+        "PT": "Kemen Mitxelena",
+        "IT": "Kemen Mitxelena",
+        "RU": "Kemen Michelena Zubieta",
+        "ZH": "Kemen Michelena Zubieta",
+        "AR": "Kemen Michelena Zubieta"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Kemen Mitxelena",
+        "FR": "Kemen Mitxelena",
+        "DE": "Kemen Mitxelena",
+        "ES": "Kemen Mitxelena",
+        "PT": "Kemen Mitxelena",
+        "IT": "Kemen Mitxelena",
+        "RU": "Michelena Zubieta",
+        "ZH": "Michelena Zubieta",
+        "AR": "Michelena Zubieta"
+       }
+      }
+     },
+     "teamId": "400122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 47,
+      "second": 13
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "af14b3fc-2f16-4430-b8bf-7e7ef1f6a67c",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-03-23",
+      "clubShirtName": "Aranda Murgui",
+      "countryCode": "ESP",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250227489",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250227489.jpg",
+      "internationalName": "Iker Aranda",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Aranda Murgui",
+      "nationalTeamId": "400122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "RU": "Iker",
+        "ZH": "Iker",
+        "AR": "Iker"
+       },
+       "lastName": {
+        "EN": "Iker Aranda",
+        "FR": "Iker Aranda",
+        "DE": "Iker Aranda",
+        "ES": "Iker Aranda",
+        "PT": "Iker Aranda",
+        "IT": "Iker Aranda",
+        "RU": "Aranda Murgui",
+        "ZH": "Aranda Murgui",
+        "AR": "Aranda Murgui"
+       },
+       "name": {
+        "EN": "Iker Aranda",
+        "FR": "Iker Aranda",
+        "DE": "Iker Aranda",
+        "ES": "Iker Aranda",
+        "PT": "Iker Aranda",
+        "IT": "Iker Aranda",
+        "RU": "Iker Aranda Murgui",
+        "ZH": "Iker Aranda Murgui",
+        "AR": "Iker Aranda Murgui"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Iker Aranda",
+        "FR": "Iker Aranda",
+        "DE": "Iker Aranda",
+        "ES": "Iker Aranda",
+        "PT": "Iker Aranda",
+        "IT": "Iker Aranda",
+        "RU": "Aranda Murgui",
+        "ZH": "Aranda Murgui",
+        "AR": "Aranda Murgui"
+       }
+      }
+     },
+     "teamId": "400122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 67,
+      "second": 20
+     }
+    }
+   ]
+  },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203116.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250203116",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Julian",
-       "FR": "Julian",
-       "DE": "Julian",
-       "ES": "Julian",
-       "PT": "Julian",
-       "IT": "Julian",
-       "RU": "Julian",
-       "ZH": "Julian",
-       "AR": "Julian"
-      },
-      "lastName": {
-       "EN": "Müller",
-       "FR": "Müller",
-       "DE": "Müller",
-       "ES": "Müller",
-       "PT": "Müller",
-       "IT": "Müller",
-       "RU": "Müller",
-       "ZH": "Müller",
-       "AR": "Müller"
-      },
-      "name": {
-       "EN": "Julian Müller",
-       "FR": "Julian Müller",
-       "DE": "Julian Müller",
-       "ES": "Julian Müller",
-       "PT": "Julian Müller",
-       "IT": "Julian Müller",
-       "RU": "Julian Müller",
-       "ZH": "Julian Müller",
-       "AR": "Julian Müller"
-      },
-      "shortName": {
-       "EN": "Müller",
-       "FR": "Müller",
-       "DE": "Müller",
-       "ES": "Müller",
-       "PT": "Müller",
-       "IT": "Müller",
-       "RU": "Müller",
-       "ZH": "Müller",
-       "AR": "Müller"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227068.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250227068",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Carsten",
-       "FR": "Carsten",
-       "DE": "Carsten",
-       "ES": "Carsten",
-       "PT": "Carsten",
-       "IT": "Carsten",
-       "RU": "Carsten",
-       "ZH": "Carsten",
-       "AR": "Carsten"
-      },
-      "lastName": {
-       "EN": "König",
-       "FR": "König",
-       "DE": "König",
-       "ES": "König",
-       "PT": "König",
-       "IT": "König",
-       "RU": "König",
-       "ZH": "König",
-       "AR": "König"
-      },
-      "name": {
-       "EN": "Carsten König",
-       "FR": "Carsten König",
-       "DE": "Carsten König",
-       "ES": "Carsten König",
-       "PT": "Carsten König",
-       "IT": "Carsten König",
-       "RU": "Carsten König",
-       "ZH": "Carsten König",
-       "AR": "Carsten König"
-      },
-      "shortName": {
-       "EN": "König",
-       "FR": "König",
-       "DE": "König",
-       "ES": "König",
-       "PT": "König",
-       "IT": "König",
-       "RU": "König",
-       "ZH": "König",
-       "AR": "König"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
-    },
-    "person": {
-     "countryCode": "LTU",
-     "gender": "MALE",
-     "id": "23515",
-     "translations": {
-      "countryName": {
-       "EN": "Lithuania",
-       "FR": "Lituanie",
-       "DE": "Litauen",
-       "ES": "Lituania",
-       "PT": "Lituânia",
-       "IT": "Lituania",
-       "RU": "Литва",
-       "ZH": "立陶宛",
-       "AR": "ليتوانيا"
-      },
-      "firstName": {
-       "EN": "Nerijus",
-       "FR": "Nerijus",
-       "DE": "Nerijus",
-       "ES": "Nerijus",
-       "PT": "Nerijus",
-       "IT": "Nerijus",
-       "RU": "Nerijus",
-       "ZH": "Nerijus",
-       "AR": "Nerijus"
-      },
-      "lastName": {
-       "EN": "Dunauskas",
-       "FR": "Dunauskas",
-       "DE": "Dunauskas",
-       "ES": "Dunauskas",
-       "PT": "Dunauskas",
-       "IT": "Dunauskas",
-       "RU": "DUNAUSKAS",
-       "ZH": "Dunauskas",
-       "AR": "Dunauskas"
-      },
-      "name": {
-       "EN": "Nerijus Dunauskas",
-       "FR": "Nerijus Dunauskas",
-       "DE": "Nerijus Dunauskas",
-       "ES": "Nerijus Dunauskas",
-       "PT": "Nerijus Dunauskas",
-       "IT": "Nerijus Dunauskas",
-       "RU": "Нериюс Дунаускас",
-       "ZH": "内里由斯·杜闹斯卡斯",
-       "AR": "Nerijus Dunauskas"
-      },
-      "shortName": {
-       "EN": "Dunauskas",
-       "FR": "Dunauskas",
-       "DE": "Dunauskas",
-       "ES": "Dunauskas",
-       "PT": "Dunauskas",
-       "IT": "Dunauskas",
-       "RU": "Дунаускас",
-       "ZH": "杜闹斯卡斯",
-       "AR": "Dunauskas"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250135422.jpg"
@@ -747,6 +737,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203116.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250203116",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Julian",
+       "FR": "Julian",
+       "DE": "Julian",
+       "ES": "Julian",
+       "PT": "Julian",
+       "IT": "Julian",
+       "RU": "Julian",
+       "ZH": "Julian",
+       "AR": "Julian"
+      },
+      "lastName": {
+       "EN": "Müller",
+       "FR": "Müller",
+       "DE": "Müller",
+       "ES": "Müller",
+       "PT": "Müller",
+       "IT": "Müller",
+       "RU": "Müller",
+       "ZH": "Müller",
+       "AR": "Müller"
+      },
+      "name": {
+       "EN": "Julian Müller",
+       "FR": "Julian Müller",
+       "DE": "Julian Müller",
+       "ES": "Julian Müller",
+       "PT": "Julian Müller",
+       "IT": "Julian Müller",
+       "RU": "Julian Müller",
+       "ZH": "Julian Müller",
+       "AR": "Julian Müller"
+      },
+      "shortName": {
+       "EN": "Müller",
+       "FR": "Müller",
+       "DE": "Müller",
+       "ES": "Müller",
+       "PT": "Müller",
+       "IT": "Müller",
+       "RU": "Müller",
+       "ZH": "Müller",
+       "AR": "Müller"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
     },
     "person": {
@@ -823,6 +894,168 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
+    },
+    "person": {
+     "countryCode": "LTU",
+     "gender": "MALE",
+     "id": "23515",
+     "translations": {
+      "countryName": {
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
+      },
+      "firstName": {
+       "EN": "Nerijus",
+       "FR": "Nerijus",
+       "DE": "Nerijus",
+       "ES": "Nerijus",
+       "PT": "Nerijus",
+       "IT": "Nerijus",
+       "RU": "Nerijus",
+       "ZH": "Nerijus",
+       "AR": "Nerijus"
+      },
+      "lastName": {
+       "EN": "Dunauskas",
+       "FR": "Dunauskas",
+       "DE": "Dunauskas",
+       "ES": "Dunauskas",
+       "PT": "Dunauskas",
+       "IT": "Dunauskas",
+       "RU": "DUNAUSKAS",
+       "ZH": "Dunauskas",
+       "AR": "Dunauskas"
+      },
+      "name": {
+       "EN": "Nerijus Dunauskas",
+       "FR": "Nerijus Dunauskas",
+       "DE": "Nerijus Dunauskas",
+       "ES": "Nerijus Dunauskas",
+       "PT": "Nerijus Dunauskas",
+       "IT": "Nerijus Dunauskas",
+       "RU": "Нериюс Дунаускас",
+       "ZH": "内里由斯·杜闹斯卡斯",
+       "AR": "Nerijus Dunauskas"
+      },
+      "shortName": {
+       "EN": "Dunauskas",
+       "FR": "Dunauskas",
+       "DE": "Dunauskas",
+       "ES": "Dunauskas",
+       "PT": "Dunauskas",
+       "IT": "Dunauskas",
+       "RU": "Дунаускас",
+       "ZH": "杜闹斯卡斯",
+       "AR": "Dunauskas"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227068.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250227068",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Carsten",
+       "FR": "Carsten",
+       "DE": "Carsten",
+       "ES": "Carsten",
+       "PT": "Carsten",
+       "IT": "Carsten",
+       "RU": "Carsten",
+       "ZH": "Carsten",
+       "AR": "Carsten"
+      },
+      "lastName": {
+       "EN": "König",
+       "FR": "König",
+       "DE": "König",
+       "ES": "König",
+       "PT": "König",
+       "IT": "König",
+       "RU": "König",
+       "ZH": "König",
+       "AR": "König"
+      },
+      "name": {
+       "EN": "Carsten König",
+       "FR": "Carsten König",
+       "DE": "Carsten König",
+       "ES": "Carsten König",
+       "PT": "Carsten König",
+       "IT": "Carsten König",
+       "RU": "Carsten König",
+       "ZH": "Carsten König",
+       "AR": "Carsten König"
+      },
+      "shortName": {
+       "EN": "König",
+       "FR": "König",
+       "DE": "König",
+       "ES": "König",
+       "PT": "König",
+       "IT": "König",
+       "RU": "König",
+       "ZH": "König",
+       "AR": "König"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -947,6 +1180,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 2
+   },
+   "total": {
+    "away": 0,
+    "home": 2
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 1,
   "stadium": {
@@ -1042,8 +1285,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200122",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/ESP.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/ESP.png",
+     "confederationType": "UEFA",
+     "countryCode": "ESP",
+     "id": "400122",
+     "idProvider": "FAME",
+     "internationalName": "Spain",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/ESP.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+     "organizationId": "200122",
+     "teamCode": "ESP",
+     "teamTypeDetail": "NATIONAL_MEN_U17",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "displayName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "Spain"
+      },
+      "displayOfficialName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "Spain"
+      },
+      "displayTeamCode": {
+       "EN": "ESP",
+       "FR": "ESP",
+       "DE": "ESP",
+       "ES": "ESP",
+       "PT": "ESP",
+       "IT": "ESP",
+       "RU": "ESP",
+       "ZH": "ESP",
+       "AR": "ESP"
+      },
+      "shortName": {
+       "EN": "ESP",
+       "FR": "ESP",
+       "DE": "ESP",
+       "ES": "ESP",
+       "PT": "ESP",
+       "IT": "ESP",
+       "RU": "Испания",
+       "ZH": "RFEF",
+       "AR": "ESP"
+      }
+     },
+     "typeIsNational": true,
+     "typeTeam": "NATIONAL"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1184,6 +1507,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": 11,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
+  "fullTimeAt": "2026-10-15T12:21:59.089Z",
   "group": {
    "competitionId": "101",
    "id": "2012442",
@@ -1345,7 +1698,8 @@
    "dateTime": "2026-10-15T10:30:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 229,
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-13T06:00:00+0000",
@@ -1383,6 +1737,221 @@
     }
    },
    "type": "MATCHDAY"
+  },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "ecb00b7c-c2d4-4b53-9ee8-538c55d29cfb",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-08-05",
+      "clubShirtName": "Kural",
+      "countryCode": "GER",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250220800",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250220800.jpg",
+      "internationalName": "Ela Kural",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "",
+      "nationalTeamId": "2600043",
+      "translations": {
+       "countryName": {
+        "EN": "Germany",
+        "FR": "Allemagne",
+        "DE": "Deutschland",
+        "ES": "Alemania",
+        "PT": "Alemanha",
+        "IT": "Germania",
+        "RU": "Германия",
+        "ZH": "德国",
+        "AR": "ألمانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Ela",
+        "FR": "Ela",
+        "DE": "Ela",
+        "ES": "Ela",
+        "PT": "Ela",
+        "IT": "Ela",
+        "RU": "Ela",
+        "ZH": "Ela",
+        "AR": "Ela"
+       },
+       "lastName": {
+        "EN": "Kural",
+        "FR": "Kural",
+        "DE": "Kural",
+        "ES": "Kural",
+        "PT": "Kural",
+        "IT": "Kural",
+        "RU": "Kural",
+        "ZH": "Kural",
+        "AR": "Kural"
+       },
+       "name": {
+        "EN": "Ela Kural",
+        "FR": "Ela Kural",
+        "DE": "Ela Kural",
+        "ES": "Ela Kural",
+        "PT": "Ela Kural",
+        "IT": "Ela Kural",
+        "RU": "Ela Kural",
+        "ZH": "Ela Kural",
+        "AR": "Ela Kural"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Kural",
+        "FR": "Kural",
+        "DE": "Kural",
+        "ES": "Kural",
+        "PT": "Kural",
+        "IT": "Kural",
+        "RU": "Kural",
+        "ZH": "Kural",
+        "AR": "Kural"
+       }
+      }
+     },
+     "teamId": "2600043",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 6,
+      "second": 26
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "158ddfa0-a7c2-44f4-95da-17c54ab9a0f1",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-09-28",
+      "clubShirtName": "Bauerová",
+      "countryCode": "CZE",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250214579",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250214579.jpg",
+      "internationalName": "Klára Bauerová",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "",
+      "nationalTeamId": "2600063",
+      "translations": {
+       "countryName": {
+        "EN": "Czechia",
+        "FR": "Tchéquie",
+        "DE": "Tschechien",
+        "ES": "Chequia",
+        "PT": "Chéquia",
+        "IT": "Cechia",
+        "RU": "Чехия",
+        "ZH": "捷克语",
+        "AR": "جمهورية التشيك"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Klára",
+        "FR": "Klára",
+        "DE": "Klára",
+        "ES": "Klára",
+        "PT": "Klára",
+        "IT": "Klára",
+        "RU": "Klára",
+        "ZH": "Klára",
+        "AR": "Klára"
+       },
+       "lastName": {
+        "EN": "Bauerová",
+        "FR": "Bauerová",
+        "DE": "Bauerová",
+        "ES": "Bauerová",
+        "PT": "Bauerová",
+        "IT": "Bauerová",
+        "RU": "Bauerová",
+        "ZH": "Bauerová",
+        "AR": "Bauerová"
+       },
+       "name": {
+        "EN": "Klára Bauerová",
+        "FR": "Klára Bauerová",
+        "DE": "Klára Bauerová",
+        "ES": "Klára Bauerová",
+        "PT": "Klára Bauerová",
+        "IT": "Klára Bauerová",
+        "RU": "Klára Bauerová",
+        "ZH": "Klára Bauerová",
+        "AR": "Klára Bauerová"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Bauerová",
+        "FR": "Bauerová",
+        "DE": "Bauerová",
+        "ES": "Bauerová",
+        "PT": "Bauerová",
+        "IT": "Bauerová",
+        "RU": "Bauerová",
+        "ZH": "Bauerová",
+        "AR": "Bauerová"
+       }
+      }
+     },
+     "teamId": "2600063",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 59,
+      "second": 22
+     }
+    }
+   ]
   },
   "referees": [
    {
@@ -1463,168 +2032,6 @@
       "RU": "Рефери",
       "ZH": "Referee",
       "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250016345.jpg"
-    },
-    "person": {
-     "countryCode": "UKR",
-     "gender": "FEMALE",
-     "id": "250016345",
-     "translations": {
-      "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
-      },
-      "firstName": {
-       "EN": "Liudmyla",
-       "FR": "Liudmyla",
-       "DE": "Liudmyla",
-       "ES": "Liudmyla",
-       "PT": "Liudmyla",
-       "IT": "Liudmyla",
-       "RU": "Liudmyla",
-       "ZH": "Liudmyla",
-       "AR": "Liudmyla"
-      },
-      "lastName": {
-       "EN": "Telbukh",
-       "FR": "Telbukh",
-       "DE": "Telbukh",
-       "ES": "Telbukh",
-       "PT": "Telbukh",
-       "IT": "Telbukh",
-       "RU": "Telbukh",
-       "ZH": "Telbukh",
-       "AR": "Telbukh"
-      },
-      "name": {
-       "EN": "Liudmyla Telbukh",
-       "FR": "Liudmyla Telbukh",
-       "DE": "Liudmyla Telbukh",
-       "ES": "Liudmyla Telbukh",
-       "PT": "Liudmyla Telbukh",
-       "IT": "Liudmyla Telbukh",
-       "RU": "Людмила Тельбух",
-       "ZH": "Liudmyla Telbukh",
-       "AR": "Liudmyla Telbukh"
-      },
-      "shortName": {
-       "EN": "Telbukh",
-       "FR": "Telbukh",
-       "DE": "Telbukh",
-       "ES": "Telbukh",
-       "PT": "Telbukh",
-       "IT": "Telbukh",
-       "RU": "Тельбух",
-       "ZH": "Telbukh",
-       "AR": "Telbukh"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250012219.jpg"
-    },
-    "person": {
-     "countryCode": "UKR",
-     "gender": "FEMALE",
-     "id": "250012219",
-     "translations": {
-      "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
-      },
-      "firstName": {
-       "EN": "Maryna",
-       "FR": "Maryna",
-       "DE": "Maryna",
-       "ES": "Maryna",
-       "PT": "Maryna",
-       "IT": "Maryna",
-       "RU": "Maryna",
-       "ZH": "Maryna",
-       "AR": "Maryna"
-      },
-      "lastName": {
-       "EN": "Striletska",
-       "FR": "Striletska",
-       "DE": "Striletska",
-       "ES": "Striletska",
-       "PT": "Striletska",
-       "IT": "Striletska",
-       "RU": "Striletska",
-       "ZH": "Striletska",
-       "AR": "Striletska"
-      },
-      "name": {
-       "EN": "Maryna Striletska",
-       "FR": "Maryna Striletska",
-       "DE": "Maryna Striletska",
-       "ES": "Maryna Striletska",
-       "PT": "Maryna Striletska",
-       "IT": "Maryna Striletska",
-       "RU": "Марина Стрелецкая",
-       "ZH": "Maryna Striletska",
-       "AR": "Maryna Striletska"
-      },
-      "shortName": {
-       "EN": "Striletska",
-       "FR": "Striletska",
-       "DE": "Striletska",
-       "ES": "Striletska",
-       "PT": "Striletska",
-       "IT": "Striletska",
-       "RU": "Стрелецкая",
-       "ZH": "Striletska",
-       "AR": "Striletska"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
      }
     }
    },
@@ -1870,6 +2277,168 @@
       "AR": "الحكام المساعدون"
      }
     }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250012219.jpg"
+    },
+    "person": {
+     "countryCode": "UKR",
+     "gender": "FEMALE",
+     "id": "250012219",
+     "translations": {
+      "countryName": {
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
+      },
+      "firstName": {
+       "EN": "Maryna",
+       "FR": "Maryna",
+       "DE": "Maryna",
+       "ES": "Maryna",
+       "PT": "Maryna",
+       "IT": "Maryna",
+       "RU": "Maryna",
+       "ZH": "Maryna",
+       "AR": "Maryna"
+      },
+      "lastName": {
+       "EN": "Striletska",
+       "FR": "Striletska",
+       "DE": "Striletska",
+       "ES": "Striletska",
+       "PT": "Striletska",
+       "IT": "Striletska",
+       "RU": "Striletska",
+       "ZH": "Striletska",
+       "AR": "Striletska"
+      },
+      "name": {
+       "EN": "Maryna Striletska",
+       "FR": "Maryna Striletska",
+       "DE": "Maryna Striletska",
+       "ES": "Maryna Striletska",
+       "PT": "Maryna Striletska",
+       "IT": "Maryna Striletska",
+       "RU": "Марина Стрелецкая",
+       "ZH": "Maryna Striletska",
+       "AR": "Maryna Striletska"
+      },
+      "shortName": {
+       "EN": "Striletska",
+       "FR": "Striletska",
+       "DE": "Striletska",
+       "ES": "Striletska",
+       "PT": "Striletska",
+       "IT": "Striletska",
+       "RU": "Стрелецкая",
+       "ZH": "Striletska",
+       "AR": "Striletska"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250016345.jpg"
+    },
+    "person": {
+     "countryCode": "UKR",
+     "gender": "FEMALE",
+     "id": "250016345",
+     "translations": {
+      "countryName": {
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
+      },
+      "firstName": {
+       "EN": "Liudmyla",
+       "FR": "Liudmyla",
+       "DE": "Liudmyla",
+       "ES": "Liudmyla",
+       "PT": "Liudmyla",
+       "IT": "Liudmyla",
+       "RU": "Liudmyla",
+       "ZH": "Liudmyla",
+       "AR": "Liudmyla"
+      },
+      "lastName": {
+       "EN": "Telbukh",
+       "FR": "Telbukh",
+       "DE": "Telbukh",
+       "ES": "Telbukh",
+       "PT": "Telbukh",
+       "IT": "Telbukh",
+       "RU": "Telbukh",
+       "ZH": "Telbukh",
+       "AR": "Telbukh"
+      },
+      "name": {
+       "EN": "Liudmyla Telbukh",
+       "FR": "Liudmyla Telbukh",
+       "DE": "Liudmyla Telbukh",
+       "ES": "Liudmyla Telbukh",
+       "PT": "Liudmyla Telbukh",
+       "IT": "Liudmyla Telbukh",
+       "RU": "Людмила Тельбух",
+       "ZH": "Liudmyla Telbukh",
+       "AR": "Liudmyla Telbukh"
+      },
+      "shortName": {
+       "EN": "Telbukh",
+       "FR": "Telbukh",
+       "DE": "Telbukh",
+       "ES": "Telbukh",
+       "PT": "Telbukh",
+       "IT": "Telbukh",
+       "RU": "Тельбух",
+       "ZH": "Telbukh",
+       "AR": "Telbukh"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
    }
   ],
   "round": {
@@ -1986,6 +2555,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 1,
+    "home": 1
+   },
+   "total": {
+    "away": 1,
+    "home": 1
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 3,
   "stadium": {
@@ -2080,7 +2659,12 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "DRAW"
+   }
+  }
  }
 ]
