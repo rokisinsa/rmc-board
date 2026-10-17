@@ -128,6 +128,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": 26,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
+  "fullTimeAt": "2026-10-17T11:50:35.941Z",
   "group": {
    "competitionId": "22",
    "id": "2013491",
@@ -242,7 +272,8 @@
    "dateTime": "2026-10-17T10:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 7,
   "matchday": {
    "competitionId": "22",
    "dateFrom": "2026-09-05T06:00:00+0000",
@@ -281,169 +312,1482 @@
    },
    "type": "MATCHDAY"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "cb9ae9db-c1be-45d9-aff5-81707cd3b60f",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-09-03",
+      "clubId": "86589",
+      "clubJerseyNumber": "14",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226623",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226623.jpg",
+      "internationalName": "Martin Fotirov",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Martin",
+        "FR": "Martin",
+        "DE": "Martin",
+        "ES": "Martin",
+        "PT": "Martin",
+        "IT": "Martin",
+        "RU": "Martin",
+        "ZH": "Martin",
+        "AR": "Martin"
+       },
+       "lastName": {
+        "EN": "Fotirov",
+        "FR": "Fotirov",
+        "DE": "Fotirov",
+        "ES": "Fotirov",
+        "PT": "Fotirov",
+        "IT": "Fotirov",
+        "RU": "Fotirov",
+        "ZH": "Fotirov",
+        "AR": "Fotirov"
+       },
+       "name": {
+        "EN": "Martin Fotirov",
+        "FR": "Martin Fotirov",
+        "DE": "Martin Fotirov",
+        "ES": "Martin Fotirov",
+        "PT": "Martin Fotirov",
+        "IT": "Martin Fotirov",
+        "RU": "Martin Fotirov",
+        "ZH": "Martin Fotirov",
+        "AR": "Martin Fotirov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Fotirov",
+        "FR": "Fotirov",
+        "DE": "Fotirov",
+        "ES": "Fotirov",
+        "PT": "Fotirov",
+        "IT": "Fotirov",
+        "RU": "Fotirov",
+        "ZH": "Fotirov",
+        "AR": "Fotirov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 6,
+      "second": 46
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "498f217d-51e9-4caf-96f9-32b7fd0d7fb6",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "19",
+      "birthDate": "2007-09-17",
+      "clubId": "86589",
+      "clubJerseyNumber": "15",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250226636",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226636.jpg",
+      "internationalName": "Todor Paskov",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Todor",
+        "FR": "Todor",
+        "DE": "Todor",
+        "ES": "Todor",
+        "PT": "Todor",
+        "IT": "Todor",
+        "RU": "Todor",
+        "ZH": "Todor",
+        "AR": "Todor"
+       },
+       "lastName": {
+        "EN": "Paskov",
+        "FR": "Paskov",
+        "DE": "Paskov",
+        "ES": "Paskov",
+        "PT": "Paskov",
+        "IT": "Paskov",
+        "RU": "Paskov",
+        "ZH": "Paskov",
+        "AR": "Paskov"
+       },
+       "name": {
+        "EN": "Todor Paskov",
+        "FR": "Todor Paskov",
+        "DE": "Todor Paskov",
+        "ES": "Todor Paskov",
+        "PT": "Todor Paskov",
+        "IT": "Todor Paskov",
+        "RU": "Todor Paskov",
+        "ZH": "Todor Paskov",
+        "AR": "Todor Paskov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Paskov",
+        "FR": "Paskov",
+        "DE": "Paskov",
+        "ES": "Paskov",
+        "PT": "Paskov",
+        "IT": "Paskov",
+        "RU": "Paskov",
+        "ZH": "Paskov",
+        "AR": "Paskov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 22,
+      "second": 16
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "444c922a-291c-442b-a4e3-2e3e45310f5f",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-04-18",
+      "clubId": "86589",
+      "clubJerseyNumber": "18",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226621",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226621.jpg",
+      "internationalName": "Teodor Cholev",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Teodor",
+        "FR": "Teodor",
+        "DE": "Teodor",
+        "ES": "Teodor",
+        "PT": "Teodor",
+        "IT": "Teodor",
+        "RU": "Teodor",
+        "ZH": "Teodor",
+        "AR": "Teodor"
+       },
+       "lastName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       },
+       "name": {
+        "EN": "Teodor Cholev",
+        "FR": "Teodor Cholev",
+        "DE": "Teodor Cholev",
+        "ES": "Teodor Cholev",
+        "PT": "Teodor Cholev",
+        "IT": "Teodor Cholev",
+        "RU": "Teodor Cholev",
+        "ZH": "Teodor Cholev",
+        "AR": "Teodor Cholev"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 24,
+      "second": 59
+     }
+    },
+    {
+     "goalType": "PENALTY",
+     "id": "7856bd1c-4e79-47fe-9565-eb0c8c66e7e2",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "24",
+      "birthDate": "2002-04-28",
+      "clubId": "86589",
+      "clubJerseyNumber": "9",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250203920",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250203920.jpg",
+      "internationalName": "Mario Evtimov",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Mario",
+        "FR": "Mario",
+        "DE": "Mario",
+        "ES": "Mario",
+        "PT": "Mario",
+        "IT": "Mario",
+        "RU": "Mario",
+        "ZH": "Mario",
+        "AR": "Mario"
+       },
+       "lastName": {
+        "EN": "Evtimov",
+        "FR": "Evtimov",
+        "DE": "Evtimov",
+        "ES": "Evtimov",
+        "PT": "Evtimov",
+        "IT": "Evtimov",
+        "RU": "Evtimov",
+        "ZH": "Evtimov",
+        "AR": "Evtimov"
+       },
+       "name": {
+        "EN": "Mario Evtimov",
+        "FR": "Mario Evtimov",
+        "DE": "Mario Evtimov",
+        "ES": "Mario Evtimov",
+        "PT": "Mario Evtimov",
+        "IT": "Mario Evtimov",
+        "RU": "Mario Evtimov",
+        "ZH": "Mario Evtimov",
+        "AR": "Mario Evtimov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Evtimov",
+        "FR": "Evtimov",
+        "DE": "Evtimov",
+        "ES": "Evtimov",
+        "PT": "Evtimov",
+        "IT": "Evtimov",
+        "RU": "Evtimov",
+        "ZH": "Evtimov",
+        "AR": "Evtimov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 42,
+      "second": 36
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "9d8b7a7d-b140-4326-b8f4-97fec642d7b7",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-06-14",
+      "clubId": "86589",
+      "clubJerseyNumber": "5",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250226627",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226627.jpg",
+      "internationalName": "Joshua Nickolas Harris",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Joshua Nickolas",
+        "FR": "Joshua Nickolas",
+        "DE": "Joshua Nickolas",
+        "ES": "Joshua Nickolas",
+        "PT": "Joshua Nickolas",
+        "IT": "Joshua Nickolas",
+        "RU": "Joshua Nickolas",
+        "ZH": "Joshua Nickolas",
+        "AR": "Joshua Nickolas"
+       },
+       "lastName": {
+        "EN": "Harris",
+        "FR": "Harris",
+        "DE": "Harris",
+        "ES": "Harris",
+        "PT": "Harris",
+        "IT": "Harris",
+        "RU": "Harris",
+        "ZH": "Harris",
+        "AR": "Harris"
+       },
+       "name": {
+        "EN": "Joshua Nickolas Harris",
+        "FR": "Joshua Nickolas Harris",
+        "DE": "Joshua Nickolas Harris",
+        "ES": "Joshua Nickolas Harris",
+        "PT": "Joshua Nickolas Harris",
+        "IT": "Joshua Nickolas Harris",
+        "RU": "Joshua Nickolas Harris",
+        "ZH": "Joshua Nickolas Harris",
+        "AR": "Joshua Nickolas Harris"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Harris",
+        "FR": "Harris",
+        "DE": "Harris",
+        "ES": "Harris",
+        "PT": "Harris",
+        "IT": "Harris",
+        "RU": "Harris",
+        "ZH": "Harris",
+        "AR": "Harris"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "injuryMinute": 2,
+      "minute": 45,
+      "second": 55
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "bebf91df-c9fb-40bd-87bd-ac9f8bd3a223",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "20",
+      "birthDate": "2006-08-10",
+      "clubId": "86589",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226638",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226638.jpg",
+      "internationalName": "Ibrahim Sherif",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Ibrahim",
+        "FR": "Ibrahim",
+        "DE": "Ibrahim",
+        "ES": "Ibrahim",
+        "PT": "Ibrahim",
+        "IT": "Ibrahim",
+        "RU": "Ibrahim",
+        "ZH": "Ibrahim",
+        "AR": "Ibrahim"
+       },
+       "lastName": {
+        "EN": "Sherif",
+        "FR": "Sherif",
+        "DE": "Sherif",
+        "ES": "Sherif",
+        "PT": "Sherif",
+        "IT": "Sherif",
+        "RU": "Sherif",
+        "ZH": "Sherif",
+        "AR": "Sherif"
+       },
+       "name": {
+        "EN": "Ibrahim Sherif",
+        "FR": "Ibrahim Sherif",
+        "DE": "Ibrahim Sherif",
+        "ES": "Ibrahim Sherif",
+        "PT": "Ibrahim Sherif",
+        "IT": "Ibrahim Sherif",
+        "RU": "Ibrahim Sherif",
+        "ZH": "Ibrahim Sherif",
+        "AR": "Ibrahim Sherif"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Sherif",
+        "FR": "Sherif",
+        "DE": "Sherif",
+        "ES": "Sherif",
+        "PT": "Sherif",
+        "IT": "Sherif",
+        "RU": "Sherif",
+        "ZH": "Sherif",
+        "AR": "Sherif"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 50,
+      "second": 52
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "7ed90011-d0e2-4e98-b0c0-3ffe758ee8ae",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-02-03",
+      "clubId": "86589",
+      "clubJerseyNumber": "19",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226620",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226620.jpg",
+      "internationalName": "Deyan Aleksov",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Deyan",
+        "FR": "Deyan",
+        "DE": "Deyan",
+        "ES": "Deyan",
+        "PT": "Deyan",
+        "IT": "Deyan",
+        "RU": "Deyan",
+        "ZH": "Deyan",
+        "AR": "Deyan"
+       },
+       "lastName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       },
+       "name": {
+        "EN": "Deyan Aleksov",
+        "FR": "Deyan Aleksov",
+        "DE": "Deyan Aleksov",
+        "ES": "Deyan Aleksov",
+        "PT": "Deyan Aleksov",
+        "IT": "Deyan Aleksov",
+        "RU": "Deyan Aleksov",
+        "ZH": "Deyan Aleksov",
+        "AR": "Deyan Aleksov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 53,
+      "second": 41
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "308f463b-bb10-4322-b4b7-69a6754380b1",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-02-03",
+      "clubId": "86589",
+      "clubJerseyNumber": "19",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226620",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226620.jpg",
+      "internationalName": "Deyan Aleksov",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Deyan",
+        "FR": "Deyan",
+        "DE": "Deyan",
+        "ES": "Deyan",
+        "PT": "Deyan",
+        "IT": "Deyan",
+        "RU": "Deyan",
+        "ZH": "Deyan",
+        "AR": "Deyan"
+       },
+       "lastName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       },
+       "name": {
+        "EN": "Deyan Aleksov",
+        "FR": "Deyan Aleksov",
+        "DE": "Deyan Aleksov",
+        "ES": "Deyan Aleksov",
+        "PT": "Deyan Aleksov",
+        "IT": "Deyan Aleksov",
+        "RU": "Deyan Aleksov",
+        "ZH": "Deyan Aleksov",
+        "AR": "Deyan Aleksov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 71,
+      "second": 15
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "4e7f3bea-32cf-4bd7-a56b-41bc29276524",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-04-18",
+      "clubId": "86589",
+      "clubJerseyNumber": "18",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226621",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226621.jpg",
+      "internationalName": "Teodor Cholev",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Teodor",
+        "FR": "Teodor",
+        "DE": "Teodor",
+        "ES": "Teodor",
+        "PT": "Teodor",
+        "IT": "Teodor",
+        "RU": "Teodor",
+        "ZH": "Teodor",
+        "AR": "Teodor"
+       },
+       "lastName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       },
+       "name": {
+        "EN": "Teodor Cholev",
+        "FR": "Teodor Cholev",
+        "DE": "Teodor Cholev",
+        "ES": "Teodor Cholev",
+        "PT": "Teodor Cholev",
+        "IT": "Teodor Cholev",
+        "RU": "Teodor Cholev",
+        "ZH": "Teodor Cholev",
+        "AR": "Teodor Cholev"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 72,
+      "second": 56
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "c1e2499b-b94e-478e-9ea5-88c8b111cefb",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-04-18",
+      "clubId": "86589",
+      "clubJerseyNumber": "18",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250226621",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226621.jpg",
+      "internationalName": "Teodor Cholev",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Teodor",
+        "FR": "Teodor",
+        "DE": "Teodor",
+        "ES": "Teodor",
+        "PT": "Teodor",
+        "IT": "Teodor",
+        "RU": "Teodor",
+        "ZH": "Teodor",
+        "AR": "Teodor"
+       },
+       "lastName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       },
+       "name": {
+        "EN": "Teodor Cholev",
+        "FR": "Teodor Cholev",
+        "DE": "Teodor Cholev",
+        "ES": "Teodor Cholev",
+        "PT": "Teodor Cholev",
+        "IT": "Teodor Cholev",
+        "RU": "Teodor Cholev",
+        "ZH": "Teodor Cholev",
+        "AR": "Teodor Cholev"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Cholev",
+        "FR": "Cholev",
+        "DE": "Cholev",
+        "ES": "Cholev",
+        "PT": "Cholev",
+        "IT": "Cholev",
+        "RU": "Cholev",
+        "ZH": "Cholev",
+        "AR": "Cholev"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 77,
+      "second": 40
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "8260264d-10f9-44de-a183-b5c2ba0af5e3",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "22",
+      "birthDate": "2004-08-02",
+      "clubId": "86589",
+      "clubJerseyNumber": "11",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226617",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226617.jpg",
+      "internationalName": "Antonio Valeriev",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Antonio",
+        "FR": "Antonio",
+        "DE": "Antonio",
+        "ES": "Antonio",
+        "PT": "Antonio",
+        "IT": "Antonio",
+        "RU": "Antonio",
+        "ZH": "Antonio",
+        "AR": "Antonio"
+       },
+       "lastName": {
+        "EN": "Valeriev",
+        "FR": "Valeriev",
+        "DE": "Valeriev",
+        "ES": "Valeriev",
+        "PT": "Valeriev",
+        "IT": "Valeriev",
+        "RU": "Valeriev",
+        "ZH": "Valeriev",
+        "AR": "Valeriev"
+       },
+       "name": {
+        "EN": "Antonio Valeriev",
+        "FR": "Antonio Valeriev",
+        "DE": "Antonio Valeriev",
+        "ES": "Antonio Valeriev",
+        "PT": "Antonio Valeriev",
+        "IT": "Antonio Valeriev",
+        "RU": "Antonio Valeriev",
+        "ZH": "Antonio Valeriev",
+        "AR": "Antonio Valeriev"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Valeriev",
+        "FR": "Valeriev",
+        "DE": "Valeriev",
+        "ES": "Valeriev",
+        "PT": "Valeriev",
+        "IT": "Valeriev",
+        "RU": "Valeriev",
+        "ZH": "Valeriev",
+        "AR": "Valeriev"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 78,
+      "second": 53
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "dee86184-893b-4f50-be72-9ca18894b01c",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "36",
+      "birthDate": "1989-11-10",
+      "clubId": "2614245",
+      "clubJerseyNumber": "3",
+      "clubShirtName": "Sugurbayev",
+      "countryCode": "KAZ",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250226574",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226574.jpg",
+      "internationalName": "Askar Sugurbayev",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "Sugurbayev",
+      "translations": {
+       "countryName": {
+        "EN": "Kazakhstan",
+        "FR": "Kazakhstan",
+        "DE": "Kasachstan",
+        "ES": "Kazajstán",
+        "PT": "Cazaquistão",
+        "IT": "Kazakistan",
+        "RU": "Казахстан",
+        "ZH": "哈萨克斯坦",
+        "AR": "كازاخستان"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Askar",
+        "FR": "Askar",
+        "DE": "Askar",
+        "ES": "Askar",
+        "PT": "Askar",
+        "IT": "Askar",
+        "RU": "Askar",
+        "ZH": "Askar",
+        "AR": "Askar"
+       },
+       "lastName": {
+        "EN": "Sugurbayev",
+        "FR": "Sugurbayev",
+        "DE": "Sugurbayev",
+        "ES": "Sugurbayev",
+        "PT": "Sugurbayev",
+        "IT": "Sugurbayev",
+        "RU": "Sugurbayev",
+        "ZH": "Sugurbayev",
+        "AR": "Sugurbayev"
+       },
+       "name": {
+        "EN": "Askar Sugurbayev",
+        "FR": "Askar Sugurbayev",
+        "DE": "Askar Sugurbayev",
+        "ES": "Askar Sugurbayev",
+        "PT": "Askar Sugurbayev",
+        "IT": "Askar Sugurbayev",
+        "RU": "Askar Sugurbayev",
+        "ZH": "Askar Sugurbayev",
+        "AR": "Askar Sugurbayev"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Sugurbayev",
+        "FR": "Sugurbayev",
+        "DE": "Sugurbayev",
+        "ES": "Sugurbayev",
+        "PT": "Sugurbayev",
+        "IT": "Sugurbayev",
+        "RU": "Sugurbayev",
+        "ZH": "Sugurbayev",
+        "AR": "Sugurbayev"
+       }
+      }
+     },
+     "teamId": "2614245",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 80,
+      "second": 37
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "76f1831b-7102-413d-8853-bf0a48617cfa",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "20",
+      "birthDate": "2006-08-10",
+      "clubId": "86589",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226638",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226638.jpg",
+      "internationalName": "Ibrahim Sherif",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Ibrahim",
+        "FR": "Ibrahim",
+        "DE": "Ibrahim",
+        "ES": "Ibrahim",
+        "PT": "Ibrahim",
+        "IT": "Ibrahim",
+        "RU": "Ibrahim",
+        "ZH": "Ibrahim",
+        "AR": "Ibrahim"
+       },
+       "lastName": {
+        "EN": "Sherif",
+        "FR": "Sherif",
+        "DE": "Sherif",
+        "ES": "Sherif",
+        "PT": "Sherif",
+        "IT": "Sherif",
+        "RU": "Sherif",
+        "ZH": "Sherif",
+        "AR": "Sherif"
+       },
+       "name": {
+        "EN": "Ibrahim Sherif",
+        "FR": "Ibrahim Sherif",
+        "DE": "Ibrahim Sherif",
+        "ES": "Ibrahim Sherif",
+        "PT": "Ibrahim Sherif",
+        "IT": "Ibrahim Sherif",
+        "RU": "Ibrahim Sherif",
+        "ZH": "Ibrahim Sherif",
+        "AR": "Ibrahim Sherif"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Sherif",
+        "FR": "Sherif",
+        "DE": "Sherif",
+        "ES": "Sherif",
+        "PT": "Sherif",
+        "IT": "Sherif",
+        "RU": "Sherif",
+        "ZH": "Sherif",
+        "AR": "Sherif"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 86,
+      "second": 33
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "a6a65396-bc59-4a34-a694-a86cf8510f47",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-02-03",
+      "clubId": "86589",
+      "clubJerseyNumber": "19",
+      "clubShirtName": "",
+      "countryCode": "BUL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250226620",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250226620.jpg",
+      "internationalName": "Deyan Aleksov",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Bulgaria",
+        "FR": "Bulgarie",
+        "DE": "Bulgarien",
+        "ES": "Bulgaria",
+        "PT": "Bulgária",
+        "IT": "Bulgaria",
+        "RU": "Болгария",
+        "ZH": "保加利亚",
+        "AR": "بلغاريا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Deyan",
+        "FR": "Deyan",
+        "DE": "Deyan",
+        "ES": "Deyan",
+        "PT": "Deyan",
+        "IT": "Deyan",
+        "RU": "Deyan",
+        "ZH": "Deyan",
+        "AR": "Deyan"
+       },
+       "lastName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       },
+       "name": {
+        "EN": "Deyan Aleksov",
+        "FR": "Deyan Aleksov",
+        "DE": "Deyan Aleksov",
+        "ES": "Deyan Aleksov",
+        "PT": "Deyan Aleksov",
+        "IT": "Deyan Aleksov",
+        "RU": "Deyan Aleksov",
+        "ZH": "Deyan Aleksov",
+        "AR": "Deyan Aleksov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Aleksov",
+        "FR": "Aleksov",
+        "DE": "Aleksov",
+        "ES": "Aleksov",
+        "PT": "Aleksov",
+        "IT": "Aleksov",
+        "RU": "Aleksov",
+        "ZH": "Aleksov",
+        "AR": "Aleksov"
+       }
+      }
+     },
+     "teamId": "86589",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 90,
+      "second": 37
+     }
+    }
+   ]
+  },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/276414.jpg"
-    },
-    "person": {
-     "countryCode": "HUN",
-     "gender": "MALE",
-     "id": "276414",
-     "translations": {
-      "countryName": {
-       "EN": "Hungary",
-       "FR": "Hongrie",
-       "DE": "Ungarn",
-       "ES": "Hungría",
-       "PT": "Hungria",
-       "IT": "Ungheria",
-       "RU": "Венгрия",
-       "ZH": "匈牙利",
-       "AR": "المجر"
-      },
-      "firstName": {
-       "EN": "Ferenc",
-       "FR": "Ferenc",
-       "DE": "Ferenc",
-       "ES": "Ferenc",
-       "PT": "Ferenc",
-       "IT": "Ferenc",
-       "RU": "Ференц",
-       "ZH": "Ferenc",
-       "AR": "Ferenc"
-      },
-      "lastName": {
-       "EN": "Székely",
-       "FR": "Székely",
-       "DE": "Székely",
-       "ES": "Székely",
-       "PT": "Székely",
-       "IT": "Székely",
-       "RU": "Шекели",
-       "ZH": "SZÉKELY",
-       "AR": "Székely"
-      },
-      "name": {
-       "EN": "Ferenc Székely",
-       "FR": "Ferenc Székely",
-       "DE": "Ferenc Székely",
-       "ES": "Ferenc Székely",
-       "PT": "Ferenc Székely",
-       "IT": "Ferenc Székely",
-       "RU": "Ференц Секей",
-       "ZH": "菲伦克-斯泽科里",
-       "AR": "Ferenc Székely"
-      },
-      "shortName": {
-       "EN": "Székely",
-       "FR": "Székely",
-       "DE": "Székely",
-       "ES": "Székely",
-       "PT": "Székely",
-       "IT": "Székely",
-       "RU": "Секей",
-       "ZH": "斯泽科里",
-       "AR": "Székely"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096632.jpg"
-    },
-    "person": {
-     "countryCode": "SMR",
-     "gender": "MALE",
-     "id": "250096632",
-     "translations": {
-      "countryName": {
-       "EN": "San Marino",
-       "FR": "Saint-Marin",
-       "DE": "San Marino",
-       "ES": "San Marino",
-       "PT": "San Marino",
-       "IT": "San Marino",
-       "RU": "Сан-Марино",
-       "ZH": "圣马力诺",
-       "AR": "سان مارينو"
-      },
-      "firstName": {
-       "EN": "Massimo",
-       "FR": "Massimo",
-       "DE": "Massimo",
-       "ES": "Massimo",
-       "PT": "Massimo",
-       "IT": "Massimo",
-       "RU": "Массимо",
-       "ZH": "Massimo",
-       "AR": "Massimo"
-      },
-      "lastName": {
-       "EN": "Nanni",
-       "FR": "Nanni",
-       "DE": "Nanni",
-       "ES": "Nanni",
-       "PT": "Nanni",
-       "IT": "Nanni",
-       "RU": "Массимо",
-       "ZH": "Nanni",
-       "AR": "Nanni"
-      },
-      "name": {
-       "EN": "Massimo Nanni",
-       "FR": "Massimo Nanni",
-       "DE": "Massimo Nanni",
-       "ES": "Massimo Nanni",
-       "PT": "Massimo Nanni",
-       "IT": "Massimo Nanni",
-       "RU": "Массимо Нанни",
-       "ZH": "Massimo Nanni",
-       "AR": "Massimo Nanni"
-      },
-      "shortName": {
-       "EN": "Nanni",
-       "FR": "Nanni",
-       "DE": "Nanni",
-       "ES": "Nanni",
-       "PT": "Nanni",
-       "IT": "Nanni",
-       "RU": "Нанни",
-       "ZH": "Nanni",
-       "AR": "Nanni"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227420.jpg"
@@ -522,6 +1866,168 @@
       "RU": "Ассистент рефери 2",
       "ZH": "Árbitro-assistente 2",
       "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166343.jpg"
+    },
+    "person": {
+     "countryCode": "BEL",
+     "gender": "MALE",
+     "id": "250166343",
+     "translations": {
+      "countryName": {
+       "EN": "Belgium",
+       "FR": "Belgique",
+       "DE": "Belgien",
+       "ES": "Bélgica",
+       "PT": "Bélgica",
+       "IT": "Belgio",
+       "RU": "Бельгия",
+       "ZH": "比利时",
+       "AR": "بلجيكا"
+      },
+      "firstName": {
+       "EN": "Simon",
+       "FR": "Simon",
+       "DE": "Simon",
+       "ES": "Simon",
+       "PT": "Simon",
+       "IT": "Simon",
+       "RU": "Симон",
+       "ZH": "Simon",
+       "AR": "سيمون "
+      },
+      "lastName": {
+       "EN": "Bourdeaud'hui",
+       "FR": "Bourdeaud'hui",
+       "DE": "Bourdeaud'hui",
+       "ES": "Bourdeaud'hui",
+       "PT": "Bourdeaud'hui",
+       "IT": "Bourdeaud'hui",
+       "RU": "Бурдодуи",
+       "ZH": "Bourdeaud'hui",
+       "AR": "بوردودوي"
+      },
+      "name": {
+       "EN": "Simon Bourdeaud'hui",
+       "FR": "Simon Bourdeaud'hui",
+       "DE": "Simon Bourdeaud'hui",
+       "ES": "Simon Bourdeaud'hui",
+       "PT": "Simon Bourdeaud'hui",
+       "IT": "Simon Bourdeaud'hui",
+       "RU": "Симон Бурдодуи",
+       "ZH": "Simon Bourdeaud'hui",
+       "AR": "سيمون بوردودوي"
+      },
+      "shortName": {
+       "EN": "Bourdeaud'hui",
+       "FR": "Bourdeaud'hui",
+       "DE": "Bourdeaud'hui",
+       "ES": "Bourdeaud'hui",
+       "PT": "Bourdeaud'hui",
+       "IT": "Bourdeaud'hui",
+       "RU": "Бурдодуи",
+       "ZH": "Bourdeaud'hui",
+       "AR": "بوردودوي"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/276414.jpg"
+    },
+    "person": {
+     "countryCode": "HUN",
+     "gender": "MALE",
+     "id": "276414",
+     "translations": {
+      "countryName": {
+       "EN": "Hungary",
+       "FR": "Hongrie",
+       "DE": "Ungarn",
+       "ES": "Hungría",
+       "PT": "Hungria",
+       "IT": "Ungheria",
+       "RU": "Венгрия",
+       "ZH": "匈牙利",
+       "AR": "المجر"
+      },
+      "firstName": {
+       "EN": "Ferenc",
+       "FR": "Ferenc",
+       "DE": "Ferenc",
+       "ES": "Ferenc",
+       "PT": "Ferenc",
+       "IT": "Ferenc",
+       "RU": "Ференц",
+       "ZH": "Ferenc",
+       "AR": "Ferenc"
+      },
+      "lastName": {
+       "EN": "Székely",
+       "FR": "Székely",
+       "DE": "Székely",
+       "ES": "Székely",
+       "PT": "Székely",
+       "IT": "Székely",
+       "RU": "Шекели",
+       "ZH": "SZÉKELY",
+       "AR": "Székely"
+      },
+      "name": {
+       "EN": "Ferenc Székely",
+       "FR": "Ferenc Székely",
+       "DE": "Ferenc Székely",
+       "ES": "Ferenc Székely",
+       "PT": "Ferenc Székely",
+       "IT": "Ferenc Székely",
+       "RU": "Ференц Секей",
+       "ZH": "菲伦克-斯泽科里",
+       "AR": "Ferenc Székely"
+      },
+      "shortName": {
+       "EN": "Székely",
+       "FR": "Székely",
+       "DE": "Székely",
+       "ES": "Székely",
+       "PT": "Székely",
+       "IT": "Székely",
+       "RU": "Секей",
+       "ZH": "斯泽科里",
+       "AR": "Székely"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
      }
     }
    },
@@ -689,82 +2195,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166343.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096632.jpg"
     },
     "person": {
-     "countryCode": "BEL",
+     "countryCode": "SMR",
      "gender": "MALE",
-     "id": "250166343",
+     "id": "250096632",
      "translations": {
       "countryName": {
-       "EN": "Belgium",
-       "FR": "Belgique",
-       "DE": "Belgien",
-       "ES": "Bélgica",
-       "PT": "Bélgica",
-       "IT": "Belgio",
-       "RU": "Бельгия",
-       "ZH": "比利时",
-       "AR": "بلجيكا"
+       "EN": "San Marino",
+       "FR": "Saint-Marin",
+       "DE": "San Marino",
+       "ES": "San Marino",
+       "PT": "San Marino",
+       "IT": "San Marino",
+       "RU": "Сан-Марино",
+       "ZH": "圣马力诺",
+       "AR": "سان مارينو"
       },
       "firstName": {
-       "EN": "Simon",
-       "FR": "Simon",
-       "DE": "Simon",
-       "ES": "Simon",
-       "PT": "Simon",
-       "IT": "Simon",
-       "RU": "Симон",
-       "ZH": "Simon",
-       "AR": "سيمون "
+       "EN": "Massimo",
+       "FR": "Massimo",
+       "DE": "Massimo",
+       "ES": "Massimo",
+       "PT": "Massimo",
+       "IT": "Massimo",
+       "RU": "Массимо",
+       "ZH": "Massimo",
+       "AR": "Massimo"
       },
       "lastName": {
-       "EN": "Bourdeaud'hui",
-       "FR": "Bourdeaud'hui",
-       "DE": "Bourdeaud'hui",
-       "ES": "Bourdeaud'hui",
-       "PT": "Bourdeaud'hui",
-       "IT": "Bourdeaud'hui",
-       "RU": "Бурдодуи",
-       "ZH": "Bourdeaud'hui",
-       "AR": "بوردودوي"
+       "EN": "Nanni",
+       "FR": "Nanni",
+       "DE": "Nanni",
+       "ES": "Nanni",
+       "PT": "Nanni",
+       "IT": "Nanni",
+       "RU": "Массимо",
+       "ZH": "Nanni",
+       "AR": "Nanni"
       },
       "name": {
-       "EN": "Simon Bourdeaud'hui",
-       "FR": "Simon Bourdeaud'hui",
-       "DE": "Simon Bourdeaud'hui",
-       "ES": "Simon Bourdeaud'hui",
-       "PT": "Simon Bourdeaud'hui",
-       "IT": "Simon Bourdeaud'hui",
-       "RU": "Симон Бурдодуи",
-       "ZH": "Simon Bourdeaud'hui",
-       "AR": "سيمون بوردودوي"
+       "EN": "Massimo Nanni",
+       "FR": "Massimo Nanni",
+       "DE": "Massimo Nanni",
+       "ES": "Massimo Nanni",
+       "PT": "Massimo Nanni",
+       "IT": "Massimo Nanni",
+       "RU": "Массимо Нанни",
+       "ZH": "Massimo Nanni",
+       "AR": "Massimo Nanni"
       },
       "shortName": {
-       "EN": "Bourdeaud'hui",
-       "FR": "Bourdeaud'hui",
-       "DE": "Bourdeaud'hui",
-       "ES": "Bourdeaud'hui",
-       "PT": "Bourdeaud'hui",
-       "IT": "Bourdeaud'hui",
-       "RU": "Бурдодуи",
-       "ZH": "Bourdeaud'hui",
-       "AR": "بوردودوي"
+       "EN": "Nanni",
+       "FR": "Nanni",
+       "DE": "Nanni",
+       "ES": "Nanni",
+       "PT": "Nanni",
+       "IT": "Nanni",
+       "RU": "Нанни",
+       "ZH": "Nanni",
+       "AR": "Nanni"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -865,6 +2371,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 1,
+    "home": 13
+   },
+   "total": {
+    "away": 1,
+    "home": 13
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 4,
   "stadium": {
@@ -960,8 +2476,77 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200020",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/BUL.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/700x700/86589.png",
+     "confederationType": "UEFA",
+     "countryCode": "BUL",
+     "id": "86589",
+     "idProvider": "FAME",
+     "internationalName": "SW Bulgaria",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/TP/teams/logos/70x70/86589.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/240x240/86589.png",
+     "organizationId": "286589",
+     "teamCode": "",
+     "teamTypeDetail": "DOMESTIC_AMATEUR",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "displayName": {
+       "EN": "SW Bulgaria",
+       "FR": "SW Bulgaria",
+       "DE": "SW Bulgaria",
+       "ES": "SW Bulgaria",
+       "PT": "SW Bulgaria",
+       "IT": "SW Bulgaria",
+       "RU": "Юго-западная Болгария",
+       "ZH": "South-West Sofia",
+       "AR": "SW Bulgaria"
+      },
+      "displayOfficialName": {
+       "EN": "South-West Bulgaria",
+       "FR": "South-West Bulgaria",
+       "DE": "South-West Bulgaria",
+       "ES": "South-West Bulgaria",
+       "PT": "South-West Bulgaria",
+       "IT": "South-West Bulgaria",
+       "RU": "Юго-западная Болгария",
+       "ZH": "South-West Region-Sofia (BUL)",
+       "AR": "South-West Bulgaria"
+      },
+      "shortName": {
+       "EN": "SW Bulgaria",
+       "FR": "SW Bulgaria",
+       "DE": "SW Bulgaria",
+       "ES": "SW Bulgaria",
+       "PT": "SW Bulgaria",
+       "IT": "SW Bulgaria",
+       "RU": "София Юго-Запад",
+       "ZH": "Sofia AMA",
+       "AR": "SW Bulgaria"
+      }
+     },
+     "typeIsNational": false,
+     "typeTeam": "DOMESTIC"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1259,168 +2844,6 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096632.jpg"
-    },
-    "person": {
-     "countryCode": "SMR",
-     "gender": "MALE",
-     "id": "250096632",
-     "translations": {
-      "countryName": {
-       "EN": "San Marino",
-       "FR": "Saint-Marin",
-       "DE": "San Marino",
-       "ES": "San Marino",
-       "PT": "San Marino",
-       "IT": "San Marino",
-       "RU": "Сан-Марино",
-       "ZH": "圣马力诺",
-       "AR": "سان مارينو"
-      },
-      "firstName": {
-       "EN": "Massimo",
-       "FR": "Massimo",
-       "DE": "Massimo",
-       "ES": "Massimo",
-       "PT": "Massimo",
-       "IT": "Massimo",
-       "RU": "Массимо",
-       "ZH": "Massimo",
-       "AR": "Massimo"
-      },
-      "lastName": {
-       "EN": "Nanni",
-       "FR": "Nanni",
-       "DE": "Nanni",
-       "ES": "Nanni",
-       "PT": "Nanni",
-       "IT": "Nanni",
-       "RU": "Массимо",
-       "ZH": "Nanni",
-       "AR": "Nanni"
-      },
-      "name": {
-       "EN": "Massimo Nanni",
-       "FR": "Massimo Nanni",
-       "DE": "Massimo Nanni",
-       "ES": "Massimo Nanni",
-       "PT": "Massimo Nanni",
-       "IT": "Massimo Nanni",
-       "RU": "Массимо Нанни",
-       "ZH": "Massimo Nanni",
-       "AR": "Massimo Nanni"
-      },
-      "shortName": {
-       "EN": "Nanni",
-       "FR": "Nanni",
-       "DE": "Nanni",
-       "ES": "Nanni",
-       "PT": "Nanni",
-       "IT": "Nanni",
-       "RU": "Нанни",
-       "ZH": "Nanni",
-       "AR": "Nanni"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279872.jpg"
-    },
-    "person": {
-     "countryCode": "BIH",
-     "gender": "MALE",
-     "id": "279872",
-     "translations": {
-      "countryName": {
-       "EN": "Bosnia and Herzegovina",
-       "FR": "Bosnie-Herzégovine",
-       "DE": "Bosnien-Herzegowina",
-       "ES": "Bosnia y Herzegovina",
-       "PT": "Bósnia e Herzegovina",
-       "IT": "Bosnia ed Erzegovina",
-       "RU": "Босния и Герцеговина",
-       "ZH": "波黑",
-       "AR": "البوسنة والهرسك"
-      },
-      "firstName": {
-       "EN": "Rusmir",
-       "FR": "Rusmir",
-       "DE": "Rusmir",
-       "ES": "Rusmir",
-       "PT": "Rusmir",
-       "IT": "Rusmir",
-       "RU": "Rusmir",
-       "ZH": "Rusmir",
-       "AR": "Rusmir"
-      },
-      "lastName": {
-       "EN": "Mrković",
-       "FR": "Mrković",
-       "DE": "Mrković",
-       "ES": "Mrković",
-       "PT": "Mrković",
-       "IT": "Mrković",
-       "RU": "Mrkovic",
-       "ZH": "Mrkovic",
-       "AR": "Mrković"
-      },
-      "name": {
-       "EN": "Rusmir Mrković",
-       "FR": "Rusmir Mrković",
-       "DE": "Rusmir Mrković",
-       "ES": "Rusmir Mrković",
-       "PT": "Rusmir Mrković",
-       "IT": "Rusmir Mrković",
-       "RU": "Русмир Мркович",
-       "ZH": "鲁斯米尔·米科维奇",
-       "AR": "Rusmir Mrković"
-      },
-      "shortName": {
-       "EN": "Mrković",
-       "FR": "Mrković",
-       "DE": "Mrković",
-       "ES": "Mrković",
-       "PT": "Mrković",
-       "IT": "Mrković",
-       "RU": "Мркович",
-       "ZH": "米科维奇",
-       "AR": "Mrković"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250103999.jpg"
     },
     "person": {
@@ -1583,6 +3006,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250011260.jpg"
+    },
+    "person": {
+     "countryCode": "MNE",
+     "gender": "MALE",
+     "id": "250011260",
+     "translations": {
+      "countryName": {
+       "EN": "Montenegro",
+       "FR": "Monténégro",
+       "DE": "Montenegro",
+       "ES": "Montenegro",
+       "PT": "Montenegro",
+       "IT": "Montenegro",
+       "RU": "Черногория",
+       "ZH": "黑山",
+       "AR": "مونتنيجرو"
+      },
+      "firstName": {
+       "EN": "Miloš",
+       "FR": "Miloš",
+       "DE": "Miloš",
+       "ES": "Miloš",
+       "PT": "Miloš",
+       "IT": "Miloš",
+       "RU": "Miloš",
+       "ZH": "Miloš",
+       "AR": "ميلوش "
+      },
+      "lastName": {
+       "EN": "Bošković",
+       "FR": "Bošković",
+       "DE": "Bošković",
+       "ES": "Bošković",
+       "PT": "Bošković",
+       "IT": "Bošković",
+       "RU": "Bošković",
+       "ZH": "Bošković",
+       "AR": "بوشكوفيتش"
+      },
+      "name": {
+       "EN": "Miloš Bošković",
+       "FR": "Miloš Bošković",
+       "DE": "Miloš Bošković",
+       "ES": "Miloš Bošković",
+       "PT": "Miloš Bošković",
+       "IT": "Miloš Bošković",
+       "RU": "Милош Бошкович",
+       "ZH": "米洛斯·博斯科维奇",
+       "AR": "ميلوش بوشكوفيتش"
+      },
+      "shortName": {
+       "EN": "Bošković",
+       "FR": "Bošković",
+       "DE": "Bošković",
+       "ES": "Bošković",
+       "PT": "Bošković",
+       "IT": "Bošković",
+       "RU": "Бошкович",
+       "ZH": "博斯科维奇",
+       "AR": "بوشكوفيتش"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250079493.jpg"
     },
     "person": {
@@ -1664,82 +3168,163 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250011260.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279872.jpg"
     },
     "person": {
-     "countryCode": "MNE",
+     "countryCode": "BIH",
      "gender": "MALE",
-     "id": "250011260",
+     "id": "279872",
      "translations": {
       "countryName": {
-       "EN": "Montenegro",
-       "FR": "Monténégro",
-       "DE": "Montenegro",
-       "ES": "Montenegro",
-       "PT": "Montenegro",
-       "IT": "Montenegro",
-       "RU": "Черногория",
-       "ZH": "黑山",
-       "AR": "مونتنيجرو"
+       "EN": "Bosnia and Herzegovina",
+       "FR": "Bosnie-Herzégovine",
+       "DE": "Bosnien-Herzegowina",
+       "ES": "Bosnia y Herzegovina",
+       "PT": "Bósnia e Herzegovina",
+       "IT": "Bosnia ed Erzegovina",
+       "RU": "Босния и Герцеговина",
+       "ZH": "波黑",
+       "AR": "البوسنة والهرسك"
       },
       "firstName": {
-       "EN": "Miloš",
-       "FR": "Miloš",
-       "DE": "Miloš",
-       "ES": "Miloš",
-       "PT": "Miloš",
-       "IT": "Miloš",
-       "RU": "Miloš",
-       "ZH": "Miloš",
-       "AR": "ميلوش "
+       "EN": "Rusmir",
+       "FR": "Rusmir",
+       "DE": "Rusmir",
+       "ES": "Rusmir",
+       "PT": "Rusmir",
+       "IT": "Rusmir",
+       "RU": "Rusmir",
+       "ZH": "Rusmir",
+       "AR": "Rusmir"
       },
       "lastName": {
-       "EN": "Bošković",
-       "FR": "Bošković",
-       "DE": "Bošković",
-       "ES": "Bošković",
-       "PT": "Bošković",
-       "IT": "Bošković",
-       "RU": "Bošković",
-       "ZH": "Bošković",
-       "AR": "بوشكوفيتش"
+       "EN": "Mrković",
+       "FR": "Mrković",
+       "DE": "Mrković",
+       "ES": "Mrković",
+       "PT": "Mrković",
+       "IT": "Mrković",
+       "RU": "Mrkovic",
+       "ZH": "Mrkovic",
+       "AR": "Mrković"
       },
       "name": {
-       "EN": "Miloš Bošković",
-       "FR": "Miloš Bošković",
-       "DE": "Miloš Bošković",
-       "ES": "Miloš Bošković",
-       "PT": "Miloš Bošković",
-       "IT": "Miloš Bošković",
-       "RU": "Милош Бошкович",
-       "ZH": "米洛斯·博斯科维奇",
-       "AR": "ميلوش بوشكوفيتش"
+       "EN": "Rusmir Mrković",
+       "FR": "Rusmir Mrković",
+       "DE": "Rusmir Mrković",
+       "ES": "Rusmir Mrković",
+       "PT": "Rusmir Mrković",
+       "IT": "Rusmir Mrković",
+       "RU": "Русмир Мркович",
+       "ZH": "鲁斯米尔·米科维奇",
+       "AR": "Rusmir Mrković"
       },
       "shortName": {
-       "EN": "Bošković",
-       "FR": "Bošković",
-       "DE": "Bošković",
-       "ES": "Bošković",
-       "PT": "Bošković",
-       "IT": "Bošković",
-       "RU": "Бошкович",
-       "ZH": "博斯科维奇",
-       "AR": "بوشكوفيتش"
+       "EN": "Mrković",
+       "FR": "Mrković",
+       "DE": "Mrković",
+       "ES": "Mrković",
+       "PT": "Mrković",
+       "IT": "Mrković",
+       "RU": "Мркович",
+       "ZH": "米科维奇",
+       "AR": "Mrković"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096632.jpg"
+    },
+    "person": {
+     "countryCode": "SMR",
+     "gender": "MALE",
+     "id": "250096632",
+     "translations": {
+      "countryName": {
+       "EN": "San Marino",
+       "FR": "Saint-Marin",
+       "DE": "San Marino",
+       "ES": "San Marino",
+       "PT": "San Marino",
+       "IT": "San Marino",
+       "RU": "Сан-Марино",
+       "ZH": "圣马力诺",
+       "AR": "سان مارينو"
+      },
+      "firstName": {
+       "EN": "Massimo",
+       "FR": "Massimo",
+       "DE": "Massimo",
+       "ES": "Massimo",
+       "PT": "Massimo",
+       "IT": "Massimo",
+       "RU": "Массимо",
+       "ZH": "Massimo",
+       "AR": "Massimo"
+      },
+      "lastName": {
+       "EN": "Nanni",
+       "FR": "Nanni",
+       "DE": "Nanni",
+       "ES": "Nanni",
+       "PT": "Nanni",
+       "IT": "Nanni",
+       "RU": "Массимо",
+       "ZH": "Nanni",
+       "AR": "Nanni"
+      },
+      "name": {
+       "EN": "Massimo Nanni",
+       "FR": "Massimo Nanni",
+       "DE": "Massimo Nanni",
+       "ES": "Massimo Nanni",
+       "PT": "Massimo Nanni",
+       "IT": "Massimo Nanni",
+       "RU": "Массимо Нанни",
+       "ZH": "Massimo Nanni",
+       "AR": "Massimo Nanni"
+      },
+      "shortName": {
+       "EN": "Nanni",
+       "FR": "Nanni",
+       "DE": "Nanni",
+       "ES": "Nanni",
+       "PT": "Nanni",
+       "IT": "Nanni",
+       "RU": "Нанни",
+       "ZH": "Nanni",
+       "AR": "Nanni"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
