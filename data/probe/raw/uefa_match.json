@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 12,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013678",
@@ -300,7 +329,7 @@
    "dateTime": "2026-10-18T11:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-29T06:00:00+0000",
@@ -339,85 +368,299 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 82
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "penaltiesMissed": [
+    {
+     "id": "0c4afc01-54ad-4a46-ae38-ced2998ba182",
+     "penaltyType": "MISSED",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-06-03",
+      "clubShirtName": "TORONDEL GARCIA",
+      "countryCode": "ESP",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250217150",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250217150.jpg",
+      "internationalName": "Aitor Torondel",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Torondel Garcia",
+      "nationalTeamId": "400122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "RU": "Aitor",
+        "ZH": "Aitor",
+        "AR": "Aitor"
+       },
+       "lastName": {
+        "EN": "Aitor Torondel",
+        "FR": "Aitor Torondel",
+        "DE": "Aitor Torondel",
+        "ES": "Aitor Torondel",
+        "PT": "Aitor Torondel",
+        "IT": "Aitor Torondel",
+        "RU": "Torondel Garcia",
+        "ZH": "Torondel Garcia",
+        "AR": "Torondel Garcia"
+       },
+       "name": {
+        "EN": "Aitor Torondel",
+        "FR": "Aitor Torondel",
+        "DE": "Aitor Torondel",
+        "ES": "Aitor Torondel",
+        "PT": "Aitor Torondel",
+        "IT": "Aitor Torondel",
+        "RU": "Aitor Torondel Garcia",
+        "ZH": "Aitor Torondel Garcia",
+        "AR": "Aitor Torondel Garcia"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Aitor Torondel",
+        "FR": "Aitor Torondel",
+        "DE": "Aitor Torondel",
+        "ES": "Aitor Torondel",
+        "PT": "Aitor Torondel",
+        "IT": "Aitor Torondel",
+        "RU": "Torondel Garcia",
+        "ZH": "Torondel Garcia",
+        "AR": "Torondel Garcia"
+       }
+      }
+     },
+     "teamId": "400122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 53,
+      "second": 52
+     }
+    }
+   ],
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "0ddd63d5-772d-489a-8638-37875e4aa946",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-06",
+      "clubShirtName": "Kele",
+      "countryCode": "SUI",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250219185",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219185.jpg",
+      "internationalName": "Eron Kele",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "",
+      "nationalTeamId": "400128",
+      "translations": {
+       "countryName": {
+        "EN": "Switzerland",
+        "FR": "Suisse",
+        "DE": "Schweiz",
+        "ES": "Suiza",
+        "PT": "Suíça",
+        "IT": "Svizzera",
+        "RU": "Швейцария",
+        "ZH": "瑞士",
+        "AR": "سويسرا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Eron",
+        "FR": "Eron",
+        "DE": "Eron",
+        "ES": "Eron",
+        "PT": "Eron",
+        "IT": "Eron",
+        "RU": "Eron",
+        "ZH": "Eron",
+        "AR": "Eron"
+       },
+       "lastName": {
+        "EN": "Kele",
+        "FR": "Kele",
+        "DE": "Kele",
+        "ES": "Kele",
+        "PT": "Kele",
+        "IT": "Kele",
+        "RU": "Kele",
+        "ZH": "Kele",
+        "AR": "Kele"
+       },
+       "name": {
+        "EN": "Eron Kele",
+        "FR": "Eron Kele",
+        "DE": "Eron Kele",
+        "ES": "Eron Kele",
+        "PT": "Eron Kele",
+        "IT": "Eron Kele",
+        "RU": "Eron Kele",
+        "ZH": "Eron Kele",
+        "AR": "Eron Kele"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Kele",
+        "FR": "Kele",
+        "DE": "Kele",
+        "ES": "Kele",
+        "PT": "Kele",
+        "IT": "Kele",
+        "RU": "Kele",
+        "ZH": "Kele",
+        "AR": "Kele"
+       }
+      }
+     },
+     "teamId": "400128",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 35,
+      "second": 56
+     }
+    }
+   ]
+  },
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
     },
     "person": {
-     "countryCode": "BUL",
+     "countryCode": "LTU",
      "gender": "MALE",
-     "id": "250063724",
+     "id": "23515",
      "translations": {
       "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
       },
       "firstName": {
-       "EN": "Martin Zhivkov",
-       "FR": "Martin Zhivkov",
-       "DE": "Martin Zhivkov",
-       "ES": "Martin Zhivkov",
-       "PT": "Martin Zhivkov",
-       "IT": "Martin Zhivkov",
-       "RU": "Мартин",
-       "ZH": "Martin Zhivkov",
-       "AR": "مارتن زيفكوف"
+       "EN": "Nerijus",
+       "FR": "Nerijus",
+       "DE": "Nerijus",
+       "ES": "Nerijus",
+       "PT": "Nerijus",
+       "IT": "Nerijus",
+       "RU": "Nerijus",
+       "ZH": "Nerijus",
+       "AR": "Nerijus"
       },
       "lastName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
+       "EN": "Dunauskas",
+       "FR": "Dunauskas",
+       "DE": "Dunauskas",
+       "ES": "Dunauskas",
+       "PT": "Dunauskas",
+       "IT": "Dunauskas",
+       "RU": "DUNAUSKAS",
+       "ZH": "Dunauskas",
+       "AR": "Dunauskas"
       },
       "name": {
-       "EN": "Martin Zhivkov Velikov",
-       "FR": "Martin Zhivkov Velikov",
-       "DE": "Martin Zhivkov Velikov",
-       "ES": "Martin Zhivkov Velikov",
-       "PT": "Martin Zhivkov Velikov",
-       "IT": "Martin Zhivkov Velikov",
-       "RU": "Мартин Великов",
-       "ZH": "Martin Zhivkov Velikov",
-       "AR": "مارتن جيفكوف فيليكوف"
+       "EN": "Nerijus Dunauskas",
+       "FR": "Nerijus Dunauskas",
+       "DE": "Nerijus Dunauskas",
+       "ES": "Nerijus Dunauskas",
+       "PT": "Nerijus Dunauskas",
+       "IT": "Nerijus Dunauskas",
+       "RU": "Нериюс Дунаускас",
+       "ZH": "内里由斯·杜闹斯卡斯",
+       "AR": "Nerijus Dunauskas"
       },
       "shortName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
+       "EN": "Dunauskas",
+       "FR": "Dunauskas",
+       "DE": "Dunauskas",
+       "ES": "Dunauskas",
+       "PT": "Dunauskas",
+       "IT": "Dunauskas",
+       "RU": "Дунаускас",
+       "ZH": "杜闹斯卡斯",
+       "AR": "Dunauskas"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
      }
     }
    },
@@ -504,12 +747,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203235.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
     },
     "person": {
      "countryCode": "BUL",
      "gender": "MALE",
-     "id": "250203235",
+     "id": "250063724",
      "translations": {
       "countryName": {
        "EN": "Bulgaria",
@@ -523,63 +766,63 @@
        "AR": "بلغاريا"
       },
       "firstName": {
-       "EN": "Krasimir",
-       "FR": "Krasimir",
-       "DE": "Krasimir",
-       "ES": "Krasimir",
-       "PT": "Krasimir",
-       "IT": "Krasimir",
-       "RU": "Красимир",
-       "ZH": "Krasimir",
-       "AR": "كراسيمير "
+       "EN": "Martin Zhivkov",
+       "FR": "Martin Zhivkov",
+       "DE": "Martin Zhivkov",
+       "ES": "Martin Zhivkov",
+       "PT": "Martin Zhivkov",
+       "IT": "Martin Zhivkov",
+       "RU": "Мартин",
+       "ZH": "Martin Zhivkov",
+       "AR": "مارتن زيفكوف"
       },
       "lastName": {
-       "EN": "Atanasov",
-       "FR": "Atanasov",
-       "DE": "Atanasov",
-       "ES": "Atanasov",
-       "PT": "Atanasov",
-       "IT": "Atanasov",
-       "RU": "Атанасов",
-       "ZH": "Atanasov",
-       "AR": "أتاناسوف"
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
       },
       "name": {
-       "EN": "Krasimir Atanasov",
-       "FR": "Krasimir Atanasov",
-       "DE": "Krasimir Atanasov",
-       "ES": "Krasimir Atanasov",
-       "PT": "Krasimir Atanasov",
-       "IT": "Krasimir Atanasov",
-       "RU": "Красимир Атанасов",
-       "ZH": "Krasimir Atanasov",
-       "AR": "كراسيمير أتاناسوف"
+       "EN": "Martin Zhivkov Velikov",
+       "FR": "Martin Zhivkov Velikov",
+       "DE": "Martin Zhivkov Velikov",
+       "ES": "Martin Zhivkov Velikov",
+       "PT": "Martin Zhivkov Velikov",
+       "IT": "Martin Zhivkov Velikov",
+       "RU": "Мартин Великов",
+       "ZH": "Martin Zhivkov Velikov",
+       "AR": "مارتن جيفكوف فيليكوف"
       },
       "shortName": {
-       "EN": "Atanasov",
-       "FR": "Atanasov",
-       "DE": "Atanasov",
-       "ES": "Atanasov",
-       "PT": "Atanasov",
-       "IT": "Atanasov",
-       "RU": "Атанасов",
-       "ZH": "Atanasov",
-       "AR": "أتاناسوف"
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
      }
     }
    },
@@ -649,18 +892,18 @@
       }
      }
     },
-    "role": "REFEREE_OBSERVER",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
@@ -747,82 +990,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/23515.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250203235.jpg"
     },
     "person": {
-     "countryCode": "LTU",
+     "countryCode": "BUL",
      "gender": "MALE",
-     "id": "23515",
+     "id": "250203235",
      "translations": {
       "countryName": {
-       "EN": "Lithuania",
-       "FR": "Lituanie",
-       "DE": "Litauen",
-       "ES": "Lituania",
-       "PT": "Lituânia",
-       "IT": "Lituania",
-       "RU": "Литва",
-       "ZH": "立陶宛",
-       "AR": "ليتوانيا"
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
       },
       "firstName": {
-       "EN": "Nerijus",
-       "FR": "Nerijus",
-       "DE": "Nerijus",
-       "ES": "Nerijus",
-       "PT": "Nerijus",
-       "IT": "Nerijus",
-       "RU": "Nerijus",
-       "ZH": "Nerijus",
-       "AR": "Nerijus"
+       "EN": "Krasimir",
+       "FR": "Krasimir",
+       "DE": "Krasimir",
+       "ES": "Krasimir",
+       "PT": "Krasimir",
+       "IT": "Krasimir",
+       "RU": "Красимир",
+       "ZH": "Krasimir",
+       "AR": "كراسيمير "
       },
       "lastName": {
-       "EN": "Dunauskas",
-       "FR": "Dunauskas",
-       "DE": "Dunauskas",
-       "ES": "Dunauskas",
-       "PT": "Dunauskas",
-       "IT": "Dunauskas",
-       "RU": "DUNAUSKAS",
-       "ZH": "Dunauskas",
-       "AR": "Dunauskas"
+       "EN": "Atanasov",
+       "FR": "Atanasov",
+       "DE": "Atanasov",
+       "ES": "Atanasov",
+       "PT": "Atanasov",
+       "IT": "Atanasov",
+       "RU": "Атанасов",
+       "ZH": "Atanasov",
+       "AR": "أتاناسوف"
       },
       "name": {
-       "EN": "Nerijus Dunauskas",
-       "FR": "Nerijus Dunauskas",
-       "DE": "Nerijus Dunauskas",
-       "ES": "Nerijus Dunauskas",
-       "PT": "Nerijus Dunauskas",
-       "IT": "Nerijus Dunauskas",
-       "RU": "Нериюс Дунаускас",
-       "ZH": "内里由斯·杜闹斯卡斯",
-       "AR": "Nerijus Dunauskas"
+       "EN": "Krasimir Atanasov",
+       "FR": "Krasimir Atanasov",
+       "DE": "Krasimir Atanasov",
+       "ES": "Krasimir Atanasov",
+       "PT": "Krasimir Atanasov",
+       "IT": "Krasimir Atanasov",
+       "RU": "Красимир Атанасов",
+       "ZH": "Krasimir Atanasov",
+       "AR": "كراسيمير أتاناسوف"
       },
       "shortName": {
-       "EN": "Dunauskas",
-       "FR": "Dunauskas",
-       "DE": "Dunauskas",
-       "ES": "Dunauskas",
-       "PT": "Dunauskas",
-       "IT": "Dunauskas",
-       "RU": "Дунаускас",
-       "ZH": "杜闹斯卡斯",
-       "AR": "Dunauskas"
+       "EN": "Atanasov",
+       "FR": "Atanasov",
+       "DE": "Atanasov",
+       "ES": "Atanasov",
+       "PT": "Atanasov",
+       "IT": "Atanasov",
+       "RU": "Атанасов",
+       "ZH": "Atanasov",
+       "AR": "أتاناسوف"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -947,6 +1190,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 1
+   },
+   "total": {
+    "away": 0,
+    "home": 1
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 1,
   "stadium": {
@@ -1042,7 +1295,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1185,6 +1451,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": 11,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013678",
@@ -1346,7 +1641,7 @@
    "dateTime": "2026-10-18T11:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-29T06:00:00+0000",
@@ -1384,6 +1679,1284 @@
     }
    },
    "type": "MATCHDAY"
+  },
+  "minute": {
+   "normal": 83
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "OWN",
+     "id": "7eb0634b-2530-4e65-9f0a-39575a78ce4a",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-03-16",
+      "clubShirtName": "",
+      "countryCode": "LIE",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250216105",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250216105.jpg",
+      "internationalName": "Alexander Matheis",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "4",
+      "nationalShirtName": "",
+      "nationalTeamId": "400081",
+      "translations": {
+       "countryName": {
+        "EN": "Liechtenstein",
+        "FR": "Liechtenstein",
+        "DE": "Liechtenstein",
+        "ES": "Liechtenstein",
+        "PT": "Liechtenstein",
+        "IT": "Liechtenstein",
+        "RU": "Лихтенштейн",
+        "ZH": "列支敦士登",
+        "AR": "ليختنشتاين"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Alexander",
+        "FR": "Alexander",
+        "DE": "Alexander",
+        "ES": "Alexander",
+        "PT": "Alexander",
+        "IT": "Alexander",
+        "RU": "Alexander",
+        "ZH": "Alexander",
+        "AR": "Alexander"
+       },
+       "lastName": {
+        "EN": "Matheis",
+        "FR": "Matheis",
+        "DE": "Matheis",
+        "ES": "Matheis",
+        "PT": "Matheis",
+        "IT": "Matheis",
+        "RU": "Matheis",
+        "ZH": "Matheis",
+        "AR": "Matheis"
+       },
+       "name": {
+        "EN": "Alexander Matheis",
+        "FR": "Alexander Matheis",
+        "DE": "Alexander Matheis",
+        "ES": "Alexander Matheis",
+        "PT": "Alexander Matheis",
+        "IT": "Alexander Matheis",
+        "RU": "Alexander Matheis",
+        "ZH": "Alexander Matheis",
+        "AR": "Alexander Matheis"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Matheis",
+        "FR": "Matheis",
+        "DE": "Matheis",
+        "ES": "Matheis",
+        "PT": "Matheis",
+        "IT": "Matheis",
+        "RU": "Matheis",
+        "ZH": "Matheis",
+        "AR": "Matheis"
+       }
+      }
+     },
+     "teamId": "400081",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 14,
+      "second": 59
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "6cdd1ed3-b848-4b3a-a59c-858a5d0892e3",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-22",
+      "clubId": "2608357",
+      "clubJerseyNumber": "26",
+      "clubShirtName": "Goldenberg",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250216912",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250216912.jpg",
+      "internationalName": "Noam Goldenberg",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "8",
+      "nationalShirtName": "Goldenberg",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Noam",
+        "FR": "Noam",
+        "DE": "Noam",
+        "ES": "Noam",
+        "PT": "Noam",
+        "IT": "Noam",
+        "RU": "Noam",
+        "ZH": "Noam",
+        "AR": "Noam"
+       },
+       "lastName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       },
+       "name": {
+        "EN": "Noam Goldenberg",
+        "FR": "Noam Goldenberg",
+        "DE": "Noam Goldenberg",
+        "ES": "Noam Goldenberg",
+        "PT": "Noam Goldenberg",
+        "IT": "Noam Goldenberg",
+        "RU": "Noam Goldenberg",
+        "ZH": "Noam Goldenberg",
+        "AR": "Noam Goldenberg"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 22,
+      "second": 35
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "b9a9739b-12d4-4833-adb0-e8396b919558",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-03-27",
+      "clubId": "2605553",
+      "clubShirtName": "Dabach",
+      "countryCode": "ISR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250219429",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219429.jpg",
+      "internationalName": "Tomer Dabah",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Dabah",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Tomer",
+        "FR": "Tomer",
+        "DE": "Tomer",
+        "ES": "Tomer",
+        "PT": "Tomer",
+        "IT": "Tomer",
+        "RU": "Tomer",
+        "ZH": "Tomer",
+        "AR": "Tomer"
+       },
+       "lastName": {
+        "EN": "Dabah",
+        "FR": "Dabah",
+        "DE": "Dabah",
+        "ES": "Dabah",
+        "PT": "Dabah",
+        "IT": "Dabah",
+        "RU": "Dabah",
+        "ZH": "Dabah",
+        "AR": "Dabah"
+       },
+       "name": {
+        "EN": "Tomer Dabah",
+        "FR": "Tomer Dabah",
+        "DE": "Tomer Dabah",
+        "ES": "Tomer Dabah",
+        "PT": "Tomer Dabah",
+        "IT": "Tomer Dabah",
+        "RU": "Tomer Dabah",
+        "ZH": "Tomer Dabah",
+        "AR": "Tomer Dabah"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Dabah",
+        "FR": "Dabah",
+        "DE": "Dabah",
+        "ES": "Dabah",
+        "PT": "Dabah",
+        "IT": "Dabah",
+        "RU": "Dabah",
+        "ZH": "Dabah",
+        "AR": "Dabah"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 31,
+      "second": 55
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "6162d91e-2962-41e9-8955-4106522fd6f8",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-05",
+      "clubShirtName": "Koriat",
+      "countryCode": "ISR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250227471",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250227471.jpg",
+      "internationalName": "Jonathan Koriat",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "13",
+      "nationalShirtName": "Koriat",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Jonathan",
+        "FR": "Jonathan",
+        "DE": "Jonathan",
+        "ES": "Jonathan",
+        "PT": "Jonathan",
+        "IT": "Jonathan",
+        "RU": "Jonathan",
+        "ZH": "Jonathan",
+        "AR": "Jonathan"
+       },
+       "lastName": {
+        "EN": "Koriat",
+        "FR": "Koriat",
+        "DE": "Koriat",
+        "ES": "Koriat",
+        "PT": "Koriat",
+        "IT": "Koriat",
+        "RU": "Koriat",
+        "ZH": "Koriat",
+        "AR": "Koriat"
+       },
+       "name": {
+        "EN": "Jonathan Koriat",
+        "FR": "Jonathan Koriat",
+        "DE": "Jonathan Koriat",
+        "ES": "Jonathan Koriat",
+        "PT": "Jonathan Koriat",
+        "IT": "Jonathan Koriat",
+        "RU": "Jonathan Koriat",
+        "ZH": "Jonathan Koriat",
+        "AR": "Jonathan Koriat"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Koriat",
+        "FR": "Koriat",
+        "DE": "Koriat",
+        "ES": "Koriat",
+        "PT": "Koriat",
+        "IT": "Koriat",
+        "RU": "Koriat",
+        "ZH": "Koriat",
+        "AR": "Koriat"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 32,
+      "second": 52
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "c341f732-c9e2-4f3c-87c9-9cb47e180e9c",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-22",
+      "clubId": "2608357",
+      "clubJerseyNumber": "26",
+      "clubShirtName": "Goldenberg",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250216912",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250216912.jpg",
+      "internationalName": "Noam Goldenberg",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "8",
+      "nationalShirtName": "Goldenberg",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Noam",
+        "FR": "Noam",
+        "DE": "Noam",
+        "ES": "Noam",
+        "PT": "Noam",
+        "IT": "Noam",
+        "RU": "Noam",
+        "ZH": "Noam",
+        "AR": "Noam"
+       },
+       "lastName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       },
+       "name": {
+        "EN": "Noam Goldenberg",
+        "FR": "Noam Goldenberg",
+        "DE": "Noam Goldenberg",
+        "ES": "Noam Goldenberg",
+        "PT": "Noam Goldenberg",
+        "IT": "Noam Goldenberg",
+        "RU": "Noam Goldenberg",
+        "ZH": "Noam Goldenberg",
+        "AR": "Noam Goldenberg"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 38,
+      "second": 48
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "905a83a9-5a9b-421d-8b56-dcb6f6024647",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-03-27",
+      "clubId": "2605553",
+      "clubShirtName": "Dabach",
+      "countryCode": "ISR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250219429",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219429.jpg",
+      "internationalName": "Tomer Dabah",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Dabah",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Tomer",
+        "FR": "Tomer",
+        "DE": "Tomer",
+        "ES": "Tomer",
+        "PT": "Tomer",
+        "IT": "Tomer",
+        "RU": "Tomer",
+        "ZH": "Tomer",
+        "AR": "Tomer"
+       },
+       "lastName": {
+        "EN": "Dabah",
+        "FR": "Dabah",
+        "DE": "Dabah",
+        "ES": "Dabah",
+        "PT": "Dabah",
+        "IT": "Dabah",
+        "RU": "Dabah",
+        "ZH": "Dabah",
+        "AR": "Dabah"
+       },
+       "name": {
+        "EN": "Tomer Dabah",
+        "FR": "Tomer Dabah",
+        "DE": "Tomer Dabah",
+        "ES": "Tomer Dabah",
+        "PT": "Tomer Dabah",
+        "IT": "Tomer Dabah",
+        "RU": "Tomer Dabah",
+        "ZH": "Tomer Dabah",
+        "AR": "Tomer Dabah"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Dabah",
+        "FR": "Dabah",
+        "DE": "Dabah",
+        "ES": "Dabah",
+        "PT": "Dabah",
+        "IT": "Dabah",
+        "RU": "Dabah",
+        "ZH": "Dabah",
+        "AR": "Dabah"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 50,
+      "second": 25
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "2f5a09d2-9618-436c-87e4-6e8fd89c43a7",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-22",
+      "clubId": "2608357",
+      "clubJerseyNumber": "26",
+      "clubShirtName": "Goldenberg",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250216912",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250216912.jpg",
+      "internationalName": "Noam Goldenberg",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "8",
+      "nationalShirtName": "Goldenberg",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Noam",
+        "FR": "Noam",
+        "DE": "Noam",
+        "ES": "Noam",
+        "PT": "Noam",
+        "IT": "Noam",
+        "RU": "Noam",
+        "ZH": "Noam",
+        "AR": "Noam"
+       },
+       "lastName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       },
+       "name": {
+        "EN": "Noam Goldenberg",
+        "FR": "Noam Goldenberg",
+        "DE": "Noam Goldenberg",
+        "ES": "Noam Goldenberg",
+        "PT": "Noam Goldenberg",
+        "IT": "Noam Goldenberg",
+        "RU": "Noam Goldenberg",
+        "ZH": "Noam Goldenberg",
+        "AR": "Noam Goldenberg"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Goldenberg",
+        "FR": "Goldenberg",
+        "DE": "Goldenberg",
+        "ES": "Goldenberg",
+        "PT": "Goldenberg",
+        "IT": "Goldenberg",
+        "RU": "Goldenberg",
+        "ZH": "Goldenberg",
+        "AR": "Goldenberg"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 55,
+      "second": 33
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "64e3a0b5-a0c4-4e2f-a286-692da10c7906",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-06-24",
+      "clubShirtName": "dorra",
+      "countryCode": "ISR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250219428",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219428.jpg",
+      "internationalName": "Ariel Dorra",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Dorra",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Ariel",
+        "FR": "Ariel",
+        "DE": "Ariel",
+        "ES": "Ariel",
+        "PT": "Ariel",
+        "IT": "Ariel",
+        "RU": "Ariel",
+        "ZH": "Ariel",
+        "AR": "Ariel"
+       },
+       "lastName": {
+        "EN": "Dorra",
+        "FR": "Dorra",
+        "DE": "Dorra",
+        "ES": "Dorra",
+        "PT": "Dorra",
+        "IT": "Dorra",
+        "RU": "Dorra",
+        "ZH": "Dorra",
+        "AR": "Dorra"
+       },
+       "name": {
+        "EN": "Ariel Dorra",
+        "FR": "Ariel Dorra",
+        "DE": "Ariel Dorra",
+        "ES": "Ariel Dorra",
+        "PT": "Ariel Dorra",
+        "IT": "Ariel Dorra",
+        "RU": "Ariel Dorra",
+        "ZH": "Ariel Dorra",
+        "AR": "Ariel Dorra"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Dorra",
+        "FR": "Dorra",
+        "DE": "Dorra",
+        "ES": "Dorra",
+        "PT": "Dorra",
+        "IT": "Dorra",
+        "RU": "Dorra",
+        "ZH": "Dorra",
+        "AR": "Dorra"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 58,
+      "second": 19
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "bb82a1b8-8002-421f-b90d-03a2035acfda",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-06-24",
+      "clubShirtName": "dorra",
+      "countryCode": "ISR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250219428",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219428.jpg",
+      "internationalName": "Ariel Dorra",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Dorra",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Ariel",
+        "FR": "Ariel",
+        "DE": "Ariel",
+        "ES": "Ariel",
+        "PT": "Ariel",
+        "IT": "Ariel",
+        "RU": "Ariel",
+        "ZH": "Ariel",
+        "AR": "Ariel"
+       },
+       "lastName": {
+        "EN": "Dorra",
+        "FR": "Dorra",
+        "DE": "Dorra",
+        "ES": "Dorra",
+        "PT": "Dorra",
+        "IT": "Dorra",
+        "RU": "Dorra",
+        "ZH": "Dorra",
+        "AR": "Dorra"
+       },
+       "name": {
+        "EN": "Ariel Dorra",
+        "FR": "Ariel Dorra",
+        "DE": "Ariel Dorra",
+        "ES": "Ariel Dorra",
+        "PT": "Ariel Dorra",
+        "IT": "Ariel Dorra",
+        "RU": "Ariel Dorra",
+        "ZH": "Ariel Dorra",
+        "AR": "Ariel Dorra"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Dorra",
+        "FR": "Dorra",
+        "DE": "Dorra",
+        "ES": "Dorra",
+        "PT": "Dorra",
+        "IT": "Dorra",
+        "RU": "Dorra",
+        "ZH": "Dorra",
+        "AR": "Dorra"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 64,
+      "second": 36
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "3b688a95-8e57-4191-82c7-2d70fc13f039",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2010-11-02",
+      "clubId": "2605553",
+      "clubShirtName": "Azrane",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250214997",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250214997.jpg",
+      "internationalName": "Noam Azrane",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Azrane",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Noam",
+        "FR": "Noam",
+        "DE": "Noam",
+        "ES": "Noam",
+        "PT": "Noam",
+        "IT": "Noam",
+        "RU": "Noam",
+        "ZH": "Noam",
+        "AR": "Noam"
+       },
+       "lastName": {
+        "EN": "Azrane",
+        "FR": "Azrane",
+        "DE": "Azrane",
+        "ES": "Azrane",
+        "PT": "Azrane",
+        "IT": "Azrane",
+        "RU": "Azrane",
+        "ZH": "Azrane",
+        "AR": "Azrane"
+       },
+       "name": {
+        "EN": "Noam Azrane",
+        "FR": "Noam Azrane",
+        "DE": "Noam Azrane",
+        "ES": "Noam Azrane",
+        "PT": "Noam Azrane",
+        "IT": "Noam Azrane",
+        "RU": "Noam Azrane",
+        "ZH": "Noam Azrane",
+        "AR": "Noam Azrane"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Azrane",
+        "FR": "Azrane",
+        "DE": "Azrane",
+        "ES": "Azrane",
+        "PT": "Azrane",
+        "IT": "Azrane",
+        "RU": "Azrane",
+        "ZH": "Azrane",
+        "AR": "Azrane"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 71,
+      "second": 43
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "9da16102-4ff1-435c-9f2e-58e466b0df58",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2010-11-02",
+      "clubId": "2605553",
+      "clubShirtName": "Azrane",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250214997",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250214997.jpg",
+      "internationalName": "Noam Azrane",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Azrane",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Noam",
+        "FR": "Noam",
+        "DE": "Noam",
+        "ES": "Noam",
+        "PT": "Noam",
+        "IT": "Noam",
+        "RU": "Noam",
+        "ZH": "Noam",
+        "AR": "Noam"
+       },
+       "lastName": {
+        "EN": "Azrane",
+        "FR": "Azrane",
+        "DE": "Azrane",
+        "ES": "Azrane",
+        "PT": "Azrane",
+        "IT": "Azrane",
+        "RU": "Azrane",
+        "ZH": "Azrane",
+        "AR": "Azrane"
+       },
+       "name": {
+        "EN": "Noam Azrane",
+        "FR": "Noam Azrane",
+        "DE": "Noam Azrane",
+        "ES": "Noam Azrane",
+        "PT": "Noam Azrane",
+        "IT": "Noam Azrane",
+        "RU": "Noam Azrane",
+        "ZH": "Noam Azrane",
+        "AR": "Noam Azrane"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Azrane",
+        "FR": "Azrane",
+        "DE": "Azrane",
+        "ES": "Azrane",
+        "PT": "Azrane",
+        "IT": "Azrane",
+        "RU": "Azrane",
+        "ZH": "Azrane",
+        "AR": "Azrane"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 76,
+      "second": 8
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "3cb50854-99fb-4e43-85d4-c10da1e005f0",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-10-15",
+      "clubShirtName": "kalfa",
+      "countryCode": "ISR",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250219425",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219425.jpg",
+      "internationalName": "Yotam Kalfa",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "7",
+      "nationalShirtName": "Kalfa",
+      "nationalTeamId": "400065",
+      "translations": {
+       "countryName": {
+        "EN": "Israel",
+        "FR": "Israël",
+        "DE": "Israel",
+        "ES": "Israel",
+        "PT": "Israel",
+        "IT": "Israele",
+        "RU": "Израиль",
+        "ZH": "以色列",
+        "AR": "إسرائيل"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Yotam",
+        "FR": "Yotam",
+        "DE": "Yotam",
+        "ES": "Yotam",
+        "PT": "Yotam",
+        "IT": "Yotam",
+        "RU": "Yotam",
+        "ZH": "Yotam",
+        "AR": "Yotam"
+       },
+       "lastName": {
+        "EN": "Kalfa",
+        "FR": "Kalfa",
+        "DE": "Kalfa",
+        "ES": "Kalfa",
+        "PT": "Kalfa",
+        "IT": "Kalfa",
+        "RU": "Kalfa",
+        "ZH": "Kalfa",
+        "AR": "Kalfa"
+       },
+       "name": {
+        "EN": "Yotam Kalfa",
+        "FR": "Yotam Kalfa",
+        "DE": "Yotam Kalfa",
+        "ES": "Yotam Kalfa",
+        "PT": "Yotam Kalfa",
+        "IT": "Yotam Kalfa",
+        "RU": "Yotam Kalfa",
+        "ZH": "Yotam Kalfa",
+        "AR": "Yotam Kalfa"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Kalfa",
+        "FR": "Kalfa",
+        "DE": "Kalfa",
+        "ES": "Kalfa",
+        "PT": "Kalfa",
+        "IT": "Kalfa",
+        "RU": "Kalfa",
+        "ZH": "Kalfa",
+        "AR": "Kalfa"
+       }
+      }
+     },
+     "teamId": "400065",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 80,
+      "second": 48
+     }
+    }
+   ]
   },
   "referees": [
    {
@@ -1550,168 +3123,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250009636.jpg"
-    },
-    "person": {
-     "countryCode": "BIH",
-     "gender": "MALE",
-     "id": "250009636",
-     "translations": {
-      "countryName": {
-       "EN": "Bosnia and Herzegovina",
-       "FR": "Bosnie-Herzégovine",
-       "DE": "Bosnien-Herzegowina",
-       "ES": "Bosnia y Herzegovina",
-       "PT": "Bósnia e Herzegovina",
-       "IT": "Bosnia ed Erzegovina",
-       "RU": "Босния и Герцеговина",
-       "ZH": "波黑",
-       "AR": "البوسنة والهرسك"
-      },
-      "firstName": {
-       "EN": "Milan",
-       "FR": "Milan",
-       "DE": "Milan",
-       "ES": "Milan",
-       "PT": "Milan",
-       "IT": "Milan",
-       "RU": "Milan",
-       "ZH": "Milan",
-       "AR": "Milan"
-      },
-      "lastName": {
-       "EN": "Jankovic",
-       "FR": "Jankovic",
-       "DE": "Jankovic",
-       "ES": "Jankovic",
-       "PT": "Jankovic",
-       "IT": "Jankovic",
-       "RU": "Jankovic",
-       "ZH": "Jankovic",
-       "AR": "Jankovic"
-      },
-      "name": {
-       "EN": "Milan Jankovic",
-       "FR": "Milan Jankovic",
-       "DE": "Milan Jankovic",
-       "ES": "Milan Jankovic",
-       "PT": "Milan Jankovic",
-       "IT": "Milan Jankovic",
-       "RU": "Milan Jankovic",
-       "ZH": "Milan Jankovic",
-       "AR": "Milan Jankovic"
-      },
-      "shortName": {
-       "EN": "Janković",
-       "FR": "Janković",
-       "DE": "Janković",
-       "ES": "Janković",
-       "PT": "Janković",
-       "IT": "Janković",
-       "RU": "Janković",
-       "ZH": "Janković",
-       "AR": "Janković"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227068.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "250227068",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Carsten",
-       "FR": "Carsten",
-       "DE": "Carsten",
-       "ES": "Carsten",
-       "PT": "Carsten",
-       "IT": "Carsten",
-       "RU": "Carsten",
-       "ZH": "Carsten",
-       "AR": "Carsten"
-      },
-      "lastName": {
-       "EN": "König",
-       "FR": "König",
-       "DE": "König",
-       "ES": "König",
-       "PT": "König",
-       "IT": "König",
-       "RU": "König",
-       "ZH": "König",
-       "AR": "König"
-      },
-      "name": {
-       "EN": "Carsten König",
-       "FR": "Carsten König",
-       "DE": "Carsten König",
-       "ES": "Carsten König",
-       "PT": "Carsten König",
-       "IT": "Carsten König",
-       "RU": "Carsten König",
-       "ZH": "Carsten König",
-       "AR": "Carsten König"
-      },
-      "shortName": {
-       "EN": "König",
-       "FR": "König",
-       "DE": "König",
-       "ES": "König",
-       "PT": "König",
-       "IT": "König",
-       "RU": "König",
-       "ZH": "König",
-       "AR": "König"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/266806.jpg"
     },
     "person": {
@@ -1793,6 +3204,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250009636.jpg"
+    },
+    "person": {
+     "countryCode": "BIH",
+     "gender": "MALE",
+     "id": "250009636",
+     "translations": {
+      "countryName": {
+       "EN": "Bosnia and Herzegovina",
+       "FR": "Bosnie-Herzégovine",
+       "DE": "Bosnien-Herzegowina",
+       "ES": "Bosnia y Herzegovina",
+       "PT": "Bósnia e Herzegovina",
+       "IT": "Bosnia ed Erzegovina",
+       "RU": "Босния и Герцеговина",
+       "ZH": "波黑",
+       "AR": "البوسنة والهرسك"
+      },
+      "firstName": {
+       "EN": "Milan",
+       "FR": "Milan",
+       "DE": "Milan",
+       "ES": "Milan",
+       "PT": "Milan",
+       "IT": "Milan",
+       "RU": "Milan",
+       "ZH": "Milan",
+       "AR": "Milan"
+      },
+      "lastName": {
+       "EN": "Jankovic",
+       "FR": "Jankovic",
+       "DE": "Jankovic",
+       "ES": "Jankovic",
+       "PT": "Jankovic",
+       "IT": "Jankovic",
+       "RU": "Jankovic",
+       "ZH": "Jankovic",
+       "AR": "Jankovic"
+      },
+      "name": {
+       "EN": "Milan Jankovic",
+       "FR": "Milan Jankovic",
+       "DE": "Milan Jankovic",
+       "ES": "Milan Jankovic",
+       "PT": "Milan Jankovic",
+       "IT": "Milan Jankovic",
+       "RU": "Milan Jankovic",
+       "ZH": "Milan Jankovic",
+       "AR": "Milan Jankovic"
+      },
+      "shortName": {
+       "EN": "Janković",
+       "FR": "Janković",
+       "DE": "Janković",
+       "ES": "Janković",
+       "PT": "Janković",
+       "IT": "Janković",
+       "RU": "Janković",
+       "ZH": "Janković",
+       "AR": "Janković"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250135422.jpg"
     },
     "person": {
@@ -1869,6 +3361,87 @@
       "RU": "Ассистенты рефери",
       "ZH": "Árbitros assistentes",
       "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227068.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "250227068",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Carsten",
+       "FR": "Carsten",
+       "DE": "Carsten",
+       "ES": "Carsten",
+       "PT": "Carsten",
+       "IT": "Carsten",
+       "RU": "Carsten",
+       "ZH": "Carsten",
+       "AR": "Carsten"
+      },
+      "lastName": {
+       "EN": "König",
+       "FR": "König",
+       "DE": "König",
+       "ES": "König",
+       "PT": "König",
+       "IT": "König",
+       "RU": "König",
+       "ZH": "König",
+       "AR": "König"
+      },
+      "name": {
+       "EN": "Carsten König",
+       "FR": "Carsten König",
+       "DE": "Carsten König",
+       "ES": "Carsten König",
+       "PT": "Carsten König",
+       "IT": "Carsten König",
+       "RU": "Carsten König",
+       "ZH": "Carsten König",
+       "AR": "Carsten König"
+      },
+      "shortName": {
+       "EN": "König",
+       "FR": "König",
+       "DE": "König",
+       "ES": "König",
+       "PT": "König",
+       "IT": "König",
+       "RU": "König",
+       "ZH": "König",
+       "AR": "König"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -1993,6 +3566,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 12,
+    "home": 0
+   },
+   "total": {
+    "away": 12,
+    "home": 0
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 1,
   "stadium": {
@@ -2088,7 +3671,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  }
 ]
