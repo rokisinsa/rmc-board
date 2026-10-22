@@ -1,75 +1,75 @@
 [
  {
   "awayTeam": {
-   "associationId": "258837",
-   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/CZE.svg",
-   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/CZE.png",
+   "associationId": "200065",
+   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/ISR.svg",
+   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/ISR.png",
    "confederationType": "UEFA",
-   "countryCode": "CZE",
-   "id": "458837",
+   "countryCode": "ISR",
+   "id": "2600064",
    "idProvider": "FAME",
-   "internationalName": "Czechia",
+   "internationalName": "Israel",
    "isPlaceHolder": false,
-   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/CZE.png",
-   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
-   "organizationId": "258837",
-   "teamCode": "CZE",
-   "teamTypeDetail": "NATIONAL_MEN_U17",
+   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/ISR.png",
+   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/ISR.png",
+   "organizationId": "200065",
+   "teamCode": "ISR",
+   "teamTypeDetail": "NATIONAL_WOMEN_U17",
    "translations": {
     "countryName": {
-     "EN": "Czechia",
-     "FR": "Tchéquie",
-     "DE": "Tschechien",
-     "ES": "Chequia",
-     "PT": "Chéquia",
-     "IT": "Cechia",
-     "RU": "Чехия",
-     "ZH": "捷克语",
-     "AR": "جمهورية التشيك"
+     "EN": "Israel",
+     "FR": "Israël",
+     "DE": "Israel",
+     "ES": "Israel",
+     "PT": "Israel",
+     "IT": "Israele",
+     "RU": "Израиль",
+     "ZH": "以色列",
+     "AR": "إسرائيل"
     },
     "displayName": {
-     "EN": "Czechia",
-     "FR": "Tchéquie",
-     "DE": "Tschechien",
-     "ES": "Chequia",
-     "PT": "Chéquia",
-     "IT": "Cechia",
-     "RU": "Чехия",
-     "ZH": "捷克",
-     "AR": "Czechia"
+     "EN": "Israel",
+     "FR": "Israël",
+     "DE": "Israel",
+     "ES": "Israel",
+     "PT": "Israel",
+     "IT": "Israele",
+     "RU": "Израиль",
+     "ZH": "以色列",
+     "AR": "Israel"
     },
     "displayOfficialName": {
-     "EN": "Czechia",
-     "FR": "Tchéquie",
-     "DE": "Tschechien",
-     "ES": "Chequia",
-     "PT": "Chéquia",
-     "IT": "Cechia",
-     "RU": "Чехия",
-     "ZH": "捷克",
-     "AR": "Czechia"
+     "EN": "Israel",
+     "FR": "Israël",
+     "DE": "Israel",
+     "ES": "Israel",
+     "PT": "Israel",
+     "IT": "Israele",
+     "RU": "Израиль",
+     "ZH": "以色列",
+     "AR": "Israel"
     },
     "displayTeamCode": {
-     "EN": "CZE",
-     "FR": "CZE",
-     "DE": "CZE",
-     "ES": "CZE",
-     "PT": "CZE",
-     "IT": "CZE",
-     "RU": "CZE",
-     "ZH": "CZE",
-     "AR": "CZE"
+     "EN": "ISR",
+     "FR": "ISR",
+     "DE": "ISR",
+     "ES": "ISR",
+     "PT": "ISR",
+     "IT": "ISR",
+     "RU": "ISR",
+     "ZH": "ISR",
+     "AR": "ISR"
     },
     "shortName": {
-     "EN": "CZE",
-     "FR": "CZE",
-     "DE": "CZE",
-     "ES": "CZE",
-     "PT": "CZE",
-     "IT": "CZE",
-     "RU": "Чехия",
-     "ZH": "CMFS",
-     "AR": "CZE"
+     "EN": "IFA",
+     "FR": "IFA",
+     "DE": "IFA",
+     "ES": "IFA",
+     "PT": "IFA",
+     "IT": "IFA",
+     "RU": "IFA",
+     "ZH": "IFA",
+     "AR": "IFA"
     }
    },
    "typeIsNational": true,
@@ -77,999 +77,574 @@
   },
   "competition": {
    "age": "YOUTH",
-   "code": "U17",
-   "id": "23",
+   "code": "WU17",
+   "id": "101",
    "images": {
-    "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/23.svg"
+    "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/101.svg"
    },
    "metaData": {
-    "name": "European Under-17 Championship"
+    "name": "European Women's Under-17 Championship"
    },
    "region": "CONTINENTAL",
-   "sex": "MALE",
+   "sex": "FEMALE",
    "sportsType": "FOOTBALL",
    "teamCategory": "NATIONAL",
    "translations": {
     "name": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "prequalifyingName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "qualifyingName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "tournamentName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     }
    },
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
-  "condition": {
-   "pitchCondition": "DAMP",
-   "temperature": 18,
-   "translations": {
-    "pitchConditionName": {
-     "EN": "damp",
-     "FR": "humide",
-     "DE": "feucht",
-     "ES": "mojado",
-     "PT": "húmido",
-     "IT": "umido",
-     "RU": "влажное",
-     "ZH": "潮湿",
-     "AR": "رطوبة"
-    },
-    "weatherConditionName": {
-     "EN": "Cloudy",
-     "FR": "nuageux",
-     "DE": "bewölkt",
-     "ES": "Nublado",
-     "PT": "Nublado",
-     "IT": "Nuvoloso",
-     "RU": "Облачно",
-     "ZH": "多云",
-     "AR": "غائم"
-    }
-   },
-   "weatherCondition": "CLOUDY"
-  },
-  "fullTimeAt": "2026-10-22T11:46:53.648Z",
   "group": {
-   "competitionId": "23",
-   "id": "2013683",
+   "competitionId": "101",
+   "id": "2012444",
    "league": {
-    "competitionId": "23",
-    "id": "130",
+    "competitionId": "101",
+    "id": "137",
     "metaData": {
-     "leagueName": "League",
-     "leagueShortName": "L"
+     "leagueName": "League A",
+     "leagueShortName": "LA"
     },
     "order": 1,
     "phase": "QUALIFYING",
-    "roundId": "2002214",
+    "roundId": "2002006",
     "seasonYear": "2027",
     "translations": {
      "name": {
-      "EN": "League",
-      "FR": "League",
-      "DE": "League",
-      "ES": "League",
-      "PT": "League",
-      "IT": "League",
-      "RU": "League",
-      "ZH": "League",
-      "AR": "League"
+      "EN": "League A",
+      "FR": "Ligue A",
+      "DE": "Liga A",
+      "ES": "Liga A",
+      "PT": "Liga A",
+      "IT": "Lega A",
+      "RU": "Лига A",
+      "ZH": "League A",
+      "AR": "المستوى الأول"
      },
      "shortName": {
-      "EN": "L",
-      "FR": "L",
-      "DE": "L",
-      "ES": "L",
-      "PT": "L",
-      "IT": "L",
-      "RU": "L",
-      "ZH": "L",
-      "AR": "L"
+      "EN": "LA",
+      "FR": "LA",
+      "DE": "LA",
+      "ES": "LA",
+      "PT": "LA",
+      "IT": "LA",
+      "RU": "A",
+      "ZH": "LA",
+      "AR": "أ"
      }
     }
    },
    "metaData": {
-    "groupName": "Group 8",
-    "groupShortName": "Grp8"
+    "groupName": "Group A5",
+    "groupShortName": "GrpA5"
    },
-   "order": 8,
+   "order": 5,
    "phase": "QUALIFYING",
-   "roundId": "2002214",
+   "roundId": "2002006",
    "seasonYear": "2027",
    "teams": [
-    "458837",
-    "457160",
-    "457163",
-    "457155"
+    "2600051",
+    "2600064",
+    "2600044",
+    "2600049"
    ],
-   "teamsQualifiedNumber": 2,
+   "teamsQualifiedNumber": 0,
    "translations": {
     "name": {
-     "EN": "Group 8",
-     "FR": "Groupe 8",
-     "DE": "Gruppe 8",
-     "ES": "Grupo 8",
-     "PT": "Grupo 8",
-     "IT": "Gruppo 8",
-     "RU": "Группа 8",
-     "ZH": "8组",
-     "AR": "المجموعة 8"
+     "EN": "Group A5",
+     "FR": "Groupe A5",
+     "DE": "Group A5",
+     "ES": "Grupo A5",
+     "PT": "Grupo A5",
+     "IT": "Group A5",
+     "RU": "Группа A5",
+     "ZH": "Group A5",
+     "AR": "المجموعة A5"
     },
     "shortName": {
-     "EN": "8",
-     "FR": "8",
-     "DE": "8",
-     "ES": "8",
-     "PT": "8",
-     "IT": "8",
-     "RU": "8",
-     "ZH": "8",
-     "AR": "8"
+     "EN": "GrpA5",
+     "FR": "GrpA5",
+     "DE": "GrpA5",
+     "ES": "GrpA5",
+     "PT": "GrpA5",
+     "IT": "GrpA5",
+     "RU": "GrpA5",
+     "ZH": "GrpA5",
+     "AR": "GrpA5"
     }
    },
    "type": "STANDARD"
   },
   "homeTeam": {
-   "associationId": "257163",
-   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/SVN.svg",
-   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/SVN.png",
+   "associationId": "200095",
+   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/NED.svg",
+   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/NED.png",
    "confederationType": "UEFA",
-   "countryCode": "SVN",
-   "id": "457163",
+   "countryCode": "NED",
+   "id": "2600051",
    "idProvider": "FAME",
-   "internationalName": "Slovenia",
+   "internationalName": "Netherlands",
    "isPlaceHolder": false,
-   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/SVN.png",
-   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/SVN.png",
-   "organizationId": "257163",
-   "teamCode": "SVN",
-   "teamTypeDetail": "NATIONAL_MEN_U17",
+   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/NED.png",
+   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/NED.png",
+   "organizationId": "200095",
+   "teamCode": "NED",
+   "teamTypeDetail": "NATIONAL_WOMEN_U17",
    "translations": {
     "countryName": {
-     "EN": "Slovenia",
-     "FR": "Slovénie",
-     "DE": "Slowenien",
-     "ES": "Eslovenia",
-     "PT": "Eslovénia",
-     "IT": "Slovenia",
-     "RU": "Словения",
-     "ZH": "斯洛文尼亚",
-     "AR": "سلوفينيا"
+     "EN": "Netherlands",
+     "FR": "Pays-Bas",
+     "DE": "Niederlande",
+     "ES": "Holanda",
+     "PT": "Holanda",
+     "IT": "Olanda",
+     "RU": "Нидерланды",
+     "ZH": "荷兰",
+     "AR": "هولندا"
     },
     "displayName": {
-     "EN": "Slovenia",
-     "FR": "Slovénie",
-     "DE": "Slowenien",
-     "ES": "Eslovenia",
-     "PT": "Eslovénia",
-     "IT": "Slovenia",
-     "RU": "Словения",
-     "ZH": "斯洛文尼亚",
-     "AR": "Slovenia"
+     "EN": "Netherlands",
+     "FR": "Pays-Bas",
+     "DE": "Niederlande",
+     "ES": "Países Bajos",
+     "PT": "Países Baixos",
+     "IT": "Olanda",
+     "RU": "Нидерланды",
+     "ZH": "荷兰",
+     "AR": "Netherlands"
     },
     "displayOfficialName": {
-     "EN": "Slovenia",
-     "FR": "Slovénie",
-     "DE": "Slowenien",
-     "ES": "Eslovenia",
-     "PT": "Eslovénia",
-     "IT": "Slovenia",
-     "RU": "Словения",
-     "ZH": "斯洛文尼亚",
-     "AR": "Slovenia"
+     "EN": "Netherlands",
+     "FR": "Pays-Bas",
+     "DE": "Niederlande",
+     "ES": "Países Bajos",
+     "PT": "Países Baixos",
+     "IT": "Olanda",
+     "RU": "Нидерланды",
+     "ZH": "荷兰",
+     "AR": "Netherlands"
     },
     "displayTeamCode": {
-     "EN": "SVN",
-     "FR": "SVN",
-     "DE": "SVN",
-     "ES": "SVN",
-     "PT": "SVN",
-     "IT": "SVN",
-     "RU": "SLO",
-     "ZH": "SVN",
-     "AR": "SVN"
+     "EN": "NED",
+     "FR": "NED",
+     "DE": "NED",
+     "ES": "NED",
+     "PT": "NED",
+     "IT": "NED",
+     "RU": "NED",
+     "ZH": "NED",
+     "AR": "NED"
     },
     "shortName": {
-     "EN": "SVN",
-     "FR": "SVN",
-     "DE": "SVN",
-     "ES": "SVN",
-     "PT": "SVN",
-     "IT": "SVN",
-     "RU": "Словения",
-     "ZH": "NZS",
-     "AR": "SVN"
+     "EN": "NED",
+     "FR": "NED",
+     "DE": "NED",
+     "ES": "NED",
+     "PT": "NED",
+     "IT": "NED",
+     "RU": "KNVB",
+     "ZH": "KNVB",
+     "AR": "NED"
     }
    },
    "typeIsNational": true,
    "typeTeam": "NATIONAL"
   },
-  "id": "2047321",
+  "id": "2048503",
   "kickOffTime": {
-   "date": "2026-10-22",
-   "dateTime": "2026-10-22T10:00:00Z",
-   "utcOffsetInHours": 3
+   "date": "2026-10-24",
+   "dateTime": "2026-10-24T11:00:00Z",
+   "utcOffsetInHours": 2
   },
-  "lineupStatus": "TACTICAL_AVAILABLE",
-  "matchAttendance": 25,
+  "lineupStatus": "NOT_AVAILABLE",
   "matchday": {
-   "competitionId": "23",
-   "dateFrom": "2026-09-29T06:00:00+0000",
-   "dateTo": "2026-11-17T22:59:59+0000",
-   "format": "PENALTIES_WITHOUT_EXTRA_TIME",
-   "id": "36535",
-   "longName": "Matchday 3",
-   "name": "MD3",
+   "competitionId": "101",
+   "dateFrom": "2026-10-10T06:00:00+0000",
+   "dateTo": "2026-12-01T22:59:59+0000",
+   "format": "REGULAR",
+   "id": "35963",
+   "longName": "Matchday 2",
+   "name": "MD2",
    "phase": "QUALIFYING",
-   "roundId": "2002214",
+   "roundId": "2002006",
    "seasonYear": "2027",
-   "sequenceNumber": "3",
+   "sequenceNumber": "2",
    "translations": {
     "longName": {
-     "EN": "Matchday 3",
-     "FR": "Journée 3",
-     "DE": "Spieltag 3",
-     "ES": "Jornada 3",
-     "PT": "Jornada 3",
-     "IT": "Giornata 3",
-     "RU": "Тур 3",
-     "ZH": "比赛日 3",
-     "AR": "الجولة 3"
+     "EN": "Matchday 2",
+     "FR": "Journée 2",
+     "DE": "Spieltag 2",
+     "ES": "Jornada 2",
+     "PT": "Jornada 2",
+     "IT": "Giornata 2",
+     "RU": "Тур 2",
+     "ZH": "比赛日 2",
+     "AR": "الجولة 2"
     },
     "name": {
-     "EN": "MD 3",
-     "FR": "J 3",
-     "DE": "ST 3",
-     "ES": "JOR 3",
-     "PT": "J 3",
-     "IT": "G 3",
-     "RU": "Тур 3",
-     "ZH": "比赛日 3",
-     "AR": "MD 3"
+     "EN": "MD 2",
+     "FR": "J 2",
+     "DE": "ST 2",
+     "ES": "JOR 2",
+     "PT": "J 2",
+     "IT": "G 2",
+     "RU": "Тур 2",
+     "ZH": "比赛日 2",
+     "AR": "MD 2"
     }
    },
    "type": "MATCHDAY"
   },
-  "playerEvents": {
-   "scorers": [
-    {
-     "goalType": "SCORED",
-     "id": "200c5281-97f7-4b13-8a5e-933c3b553466",
-     "phase": "FIRST_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-01-12",
-      "clubShirtName": "Pernica",
-      "countryCode": "CZE",
-      "fieldPosition": "MIDFIELDER",
-      "gender": "MALE",
-      "id": "250220121",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250220121.jpg",
-      "internationalName": "Eric Pernica",
-      "nationalFieldPosition": "MIDFIELDER",
-      "nationalJerseyNumber": "7",
-      "nationalShirtName": "Pernica",
-      "nationalTeamId": "458837",
-      "translations": {
-       "countryName": {
-        "EN": "Czechia",
-        "FR": "Tchéquie",
-        "DE": "Tschechien",
-        "ES": "Chequia",
-        "PT": "Chéquia",
-        "IT": "Cechia",
-        "RU": "Чехия",
-        "ZH": "捷克语",
-        "AR": "جمهورية التشيك"
-       },
-       "fieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "firstName": {
-        "EN": "Eric",
-        "FR": "Eric",
-        "DE": "Eric",
-        "ES": "Eric",
-        "PT": "Eric",
-        "IT": "Eric",
-        "RU": "Eric",
-        "ZH": "Eric",
-        "AR": "Eric"
-       },
-       "lastName": {
-        "EN": "Pernica",
-        "FR": "Pernica",
-        "DE": "Pernica",
-        "ES": "Pernica",
-        "PT": "Pernica",
-        "IT": "Pernica",
-        "RU": "Pernica",
-        "ZH": "Pernica",
-        "AR": "Pernica"
-       },
-       "name": {
-        "EN": "Eric Pernica",
-        "FR": "Eric Pernica",
-        "DE": "Eric Pernica",
-        "ES": "Eric Pernica",
-        "PT": "Eric Pernica",
-        "IT": "Eric Pernica",
-        "RU": "Eric Pernica",
-        "ZH": "Eric Pernica",
-        "AR": "Eric Pernica"
-       },
-       "nationalFieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "shortName": {
-        "EN": "Pernica",
-        "FR": "Pernica",
-        "DE": "Pernica",
-        "ES": "Pernica",
-        "PT": "Pernica",
-        "IT": "Pernica",
-        "RU": "Pernica",
-        "ZH": "Pernica",
-        "AR": "Pernica"
-       }
-      }
-     },
-     "teamId": "458837",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 7,
-      "second": 42
-     }
-    },
-    {
-     "goalType": "SCORED",
-     "id": "b0205b09-297e-4832-ba0c-71294110d7c6",
-     "phase": "FIRST_HALF",
-     "player": {
-      "age": "15",
-      "birthDate": "2010-11-14",
-      "clubShirtName": "Hanel",
-      "countryCode": "CZE",
-      "fieldPosition": "FORWARD",
-      "gender": "MALE",
-      "id": "250227720",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250227720.jpg",
-      "internationalName": "Lukáš Hanel",
-      "nationalFieldPosition": "FORWARD",
-      "nationalJerseyNumber": "9",
-      "nationalShirtName": "Hanel",
-      "nationalTeamId": "458837",
-      "translations": {
-       "countryName": {
-        "EN": "Czechia",
-        "FR": "Tchéquie",
-        "DE": "Tschechien",
-        "ES": "Chequia",
-        "PT": "Chéquia",
-        "IT": "Cechia",
-        "RU": "Чехия",
-        "ZH": "捷克语",
-        "AR": "جمهورية التشيك"
-       },
-       "fieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "firstName": {
-        "EN": "Lukáš",
-        "FR": "Lukáš",
-        "DE": "Lukáš",
-        "ES": "Lukáš",
-        "PT": "Lukáš",
-        "IT": "Lukáš",
-        "RU": "Lukáš",
-        "ZH": "Lukáš",
-        "AR": "Lukáš"
-       },
-       "lastName": {
-        "EN": "Hanel",
-        "FR": "Hanel",
-        "DE": "Hanel",
-        "ES": "Hanel",
-        "PT": "Hanel",
-        "IT": "Hanel",
-        "RU": "Hanel",
-        "ZH": "Hanel",
-        "AR": "Hanel"
-       },
-       "name": {
-        "EN": "Lukáš Hanel",
-        "FR": "Lukáš Hanel",
-        "DE": "Lukáš Hanel",
-        "ES": "Lukáš Hanel",
-        "PT": "Lukáš Hanel",
-        "IT": "Lukáš Hanel",
-        "RU": "Lukáš Hanel",
-        "ZH": "Lukáš Hanel",
-        "AR": "Lukáš Hanel"
-       },
-       "nationalFieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "shortName": {
-        "EN": "Hanel",
-        "FR": "Hanel",
-        "DE": "Hanel",
-        "ES": "Hanel",
-        "PT": "Hanel",
-        "IT": "Hanel",
-        "RU": "Hanel",
-        "ZH": "Hanel",
-        "AR": "Hanel"
-       }
-      }
-     },
-     "teamId": "458837",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 25,
-      "second": 54
-     }
-    },
-    {
-     "goalType": "SCORED",
-     "id": "8d7650b4-d033-4a20-8828-be66de3a6ad0",
-     "phase": "FIRST_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-07-01",
-      "clubId": "2613480",
-      "clubShirtName": "",
-      "countryCode": "CZE",
-      "fieldPosition": "FORWARD",
-      "gender": "MALE",
-      "id": "250201618",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250201618.jpg",
-      "internationalName": "Tomáš Dočekal",
-      "nationalFieldPosition": "FORWARD",
-      "nationalJerseyNumber": "10",
-      "nationalShirtName": "Dočekal",
-      "nationalTeamId": "458837",
-      "translations": {
-       "countryName": {
-        "EN": "Czechia",
-        "FR": "Tchéquie",
-        "DE": "Tschechien",
-        "ES": "Chequia",
-        "PT": "Chéquia",
-        "IT": "Cechia",
-        "RU": "Чехия",
-        "ZH": "捷克语",
-        "AR": "جمهورية التشيك"
-       },
-       "fieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "firstName": {
-        "EN": "Tomáš",
-        "FR": "Tomáš",
-        "DE": "Tomáš",
-        "ES": "Tomáš",
-        "PT": "Tomáš",
-        "IT": "Tomáš",
-        "RU": "Tomáš",
-        "ZH": "Tomáš",
-        "AR": "Tomáš"
-       },
-       "lastName": {
-        "EN": "Dočekal",
-        "FR": "Dočekal",
-        "DE": "Dočekal",
-        "ES": "Dočekal",
-        "PT": "Dočekal",
-        "IT": "Dočekal",
-        "RU": "Dočekal",
-        "ZH": "Dočekal",
-        "AR": "Dočekal"
-       },
-       "name": {
-        "EN": "Tomáš Dočekal",
-        "FR": "Tomáš Dočekal",
-        "DE": "Tomáš Dočekal",
-        "ES": "Tomáš Dočekal",
-        "PT": "Tomáš Dočekal",
-        "IT": "Tomáš Dočekal",
-        "RU": "Tomáš Dočekal",
-        "ZH": "Tomáš Dočekal",
-        "AR": "Tomáš Dočekal"
-       },
-       "nationalFieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "shortName": {
-        "EN": "Dočekal",
-        "FR": "Dočekal",
-        "DE": "Dočekal",
-        "ES": "Dočekal",
-        "PT": "Dočekal",
-        "IT": "Dočekal",
-        "RU": "Dočekal",
-        "ZH": "Dočekal",
-        "AR": "Dočekal"
-       }
-      }
-     },
-     "teamId": "458837",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 27,
-      "second": 56
-     }
-    },
-    {
-     "goalType": "SCORED",
-     "id": "cbc22b6b-11d7-4b01-b315-39f6d708a7be",
-     "phase": "FIRST_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-01-12",
-      "clubShirtName": "Pernica",
-      "countryCode": "CZE",
-      "fieldPosition": "MIDFIELDER",
-      "gender": "MALE",
-      "id": "250220121",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250220121.jpg",
-      "internationalName": "Eric Pernica",
-      "nationalFieldPosition": "MIDFIELDER",
-      "nationalJerseyNumber": "7",
-      "nationalShirtName": "Pernica",
-      "nationalTeamId": "458837",
-      "translations": {
-       "countryName": {
-        "EN": "Czechia",
-        "FR": "Tchéquie",
-        "DE": "Tschechien",
-        "ES": "Chequia",
-        "PT": "Chéquia",
-        "IT": "Cechia",
-        "RU": "Чехия",
-        "ZH": "捷克语",
-        "AR": "جمهورية التشيك"
-       },
-       "fieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "firstName": {
-        "EN": "Eric",
-        "FR": "Eric",
-        "DE": "Eric",
-        "ES": "Eric",
-        "PT": "Eric",
-        "IT": "Eric",
-        "RU": "Eric",
-        "ZH": "Eric",
-        "AR": "Eric"
-       },
-       "lastName": {
-        "EN": "Pernica",
-        "FR": "Pernica",
-        "DE": "Pernica",
-        "ES": "Pernica",
-        "PT": "Pernica",
-        "IT": "Pernica",
-        "RU": "Pernica",
-        "ZH": "Pernica",
-        "AR": "Pernica"
-       },
-       "name": {
-        "EN": "Eric Pernica",
-        "FR": "Eric Pernica",
-        "DE": "Eric Pernica",
-        "ES": "Eric Pernica",
-        "PT": "Eric Pernica",
-        "IT": "Eric Pernica",
-        "RU": "Eric Pernica",
-        "ZH": "Eric Pernica",
-        "AR": "Eric Pernica"
-       },
-       "nationalFieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "shortName": {
-        "EN": "Pernica",
-        "FR": "Pernica",
-        "DE": "Pernica",
-        "ES": "Pernica",
-        "PT": "Pernica",
-        "IT": "Pernica",
-        "RU": "Pernica",
-        "ZH": "Pernica",
-        "AR": "Pernica"
-       }
-      }
-     },
-     "teamId": "458837",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 31,
-      "second": 38
-     }
-    },
-    {
-     "goalType": "SCORED",
-     "id": "8efb8eb3-1d27-4673-9ddd-705b319da4f9",
-     "phase": "SECOND_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-07-01",
-      "clubId": "2613480",
-      "clubShirtName": "",
-      "countryCode": "CZE",
-      "fieldPosition": "FORWARD",
-      "gender": "MALE",
-      "id": "250201618",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250201618.jpg",
-      "internationalName": "Tomáš Dočekal",
-      "nationalFieldPosition": "FORWARD",
-      "nationalJerseyNumber": "10",
-      "nationalShirtName": "Dočekal",
-      "nationalTeamId": "458837",
-      "translations": {
-       "countryName": {
-        "EN": "Czechia",
-        "FR": "Tchéquie",
-        "DE": "Tschechien",
-        "ES": "Chequia",
-        "PT": "Chéquia",
-        "IT": "Cechia",
-        "RU": "Чехия",
-        "ZH": "捷克语",
-        "AR": "جمهورية التشيك"
-       },
-       "fieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "firstName": {
-        "EN": "Tomáš",
-        "FR": "Tomáš",
-        "DE": "Tomáš",
-        "ES": "Tomáš",
-        "PT": "Tomáš",
-        "IT": "Tomáš",
-        "RU": "Tomáš",
-        "ZH": "Tomáš",
-        "AR": "Tomáš"
-       },
-       "lastName": {
-        "EN": "Dočekal",
-        "FR": "Dočekal",
-        "DE": "Dočekal",
-        "ES": "Dočekal",
-        "PT": "Dočekal",
-        "IT": "Dočekal",
-        "RU": "Dočekal",
-        "ZH": "Dočekal",
-        "AR": "Dočekal"
-       },
-       "name": {
-        "EN": "Tomáš Dočekal",
-        "FR": "Tomáš Dočekal",
-        "DE": "Tomáš Dočekal",
-        "ES": "Tomáš Dočekal",
-        "PT": "Tomáš Dočekal",
-        "IT": "Tomáš Dočekal",
-        "RU": "Tomáš Dočekal",
-        "ZH": "Tomáš Dočekal",
-        "AR": "Tomáš Dočekal"
-       },
-       "nationalFieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "shortName": {
-        "EN": "Dočekal",
-        "FR": "Dočekal",
-        "DE": "Dočekal",
-        "ES": "Dočekal",
-        "PT": "Dočekal",
-        "IT": "Dočekal",
-        "RU": "Dočekal",
-        "ZH": "Dočekal",
-        "AR": "Dočekal"
-       }
-      }
-     },
-     "teamId": "458837",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 61,
-      "second": 52
-     }
-    },
-    {
-     "goalType": "SCORED",
-     "id": "5b8dd797-d480-4b12-8dd5-6b60ac85b444",
-     "phase": "SECOND_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-10-15",
-      "clubId": "2613832",
-      "clubShirtName": "Križanič",
-      "countryCode": "SVN",
-      "fieldPosition": "FORWARD",
-      "gender": "MALE",
-      "id": "250213781",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250213781.jpg",
-      "internationalName": "Nino Križanič",
-      "nationalFieldPosition": "FORWARD",
-      "nationalJerseyNumber": "11",
-      "nationalShirtName": "Križanič",
-      "nationalTeamId": "457163",
-      "translations": {
-       "countryName": {
-        "EN": "Slovenia",
-        "FR": "Slovénie",
-        "DE": "Slowenien",
-        "ES": "Eslovenia",
-        "PT": "Eslovénia",
-        "IT": "Slovenia",
-        "RU": "Словения",
-        "ZH": "斯洛文尼亚",
-        "AR": "سلوفينيا"
-       },
-       "fieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "firstName": {
-        "EN": "Nino",
-        "FR": "Nino",
-        "DE": "Nino",
-        "ES": "Nino",
-        "PT": "Nino",
-        "IT": "Nino",
-        "RU": "Nino",
-        "ZH": "Nino",
-        "AR": "Nino"
-       },
-       "lastName": {
-        "EN": "Križanič",
-        "FR": "Križanič",
-        "DE": "Križanič",
-        "ES": "Križanič",
-        "PT": "Križanič",
-        "IT": "Križanič",
-        "RU": "Križanič",
-        "ZH": "Križanič",
-        "AR": "Križanič"
-       },
-       "name": {
-        "EN": "Nino Križanič",
-        "FR": "Nino Križanič",
-        "DE": "Nino Križanič",
-        "ES": "Nino Križanič",
-        "PT": "Nino Križanič",
-        "IT": "Nino Križanič",
-        "RU": "Nino Križanič",
-        "ZH": "Nino Križanič",
-        "AR": "Nino Križanič"
-       },
-       "nationalFieldPosition": {
-        "EN": "Forward",
-        "FR": "Attaquant",
-        "DE": "Stürmer",
-        "ES": "Delantero",
-        "PT": "Avançado",
-        "IT": "Attaccante",
-        "RU": "Нападающий",
-        "ZH": "前锋",
-        "AR": "مهاجم"
-       },
-       "shortName": {
-        "EN": "Križanič",
-        "FR": "Križanič",
-        "DE": "Križanič",
-        "ES": "Križanič",
-        "PT": "Križanič",
-        "IT": "Križanič",
-        "RU": "Križanič",
-        "ZH": "Križanič",
-        "AR": "Križanič"
-       }
-      }
-     },
-     "teamId": "457163",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 63,
-      "second": 28
-     }
-    }
-   ]
-  },
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/267017.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250069505.jpg"
     },
     "person": {
-     "countryCode": "ALB",
-     "gender": "MALE",
-     "id": "267017",
+     "countryCode": "ESP",
+     "gender": "FEMALE",
+     "id": "250069505",
      "translations": {
       "countryName": {
-       "EN": "Albania",
-       "FR": "Albanie",
-       "DE": "Albanien",
-       "ES": "Albania",
-       "PT": "Albânia",
-       "IT": "Albania",
-       "RU": "Албания",
-       "ZH": "阿尔巴尼亚",
-       "AR": "ألبانيا"
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
       },
       "firstName": {
-       "EN": "Sokol",
-       "FR": "Sokol",
-       "DE": "Sokol",
-       "ES": "Sokol",
-       "PT": "Sokol",
-       "IT": "Sokol",
-       "RU": "Sokol",
-       "ZH": "Sokol",
-       "AR": "سوكول "
+       "EN": "Silvia",
+       "FR": "Silvia",
+       "DE": "Silvia",
+       "ES": "Silvia",
+       "PT": "Silvia",
+       "IT": "Silvia",
+       "RU": "Silvia",
+       "ZH": "Silvia",
+       "AR": "Silvia"
       },
       "lastName": {
-       "EN": "Jareci",
-       "FR": "Jareci",
-       "DE": "Jareci",
-       "ES": "Jareci",
-       "PT": "Jareci",
-       "IT": "Jareci",
-       "RU": "Jareci",
-       "ZH": "JARECI",
-       "AR": "جاريسي"
+       "EN": "Fernandez",
+       "FR": "Fernandez",
+       "DE": "Fernandez",
+       "ES": "Fernandez",
+       "PT": "Fernandez",
+       "IT": "Fernandez",
+       "RU": "Fernandez Perez",
+       "ZH": "Fernandez Perez",
+       "AR": "Fernandez"
       },
       "name": {
-       "EN": "Sokol Jareci",
-       "FR": "Sokol Jareci",
-       "DE": "Sokol Jareci",
-       "ES": "Sokol Jareci",
-       "PT": "Sokol Jareci",
-       "IT": "Sokol Jareci",
-       "RU": "Соколь Яреци",
-       "ZH": "索科尔·加雷西",
-       "AR": "سوكول جاريسي"
+       "EN": "Silvia Fernandez",
+       "FR": "Silvia Fernandez",
+       "DE": "Silvia Fernandez",
+       "ES": "Silvia Fernandez",
+       "PT": "Silvia Fernandez",
+       "IT": "Silvia Fernandez",
+       "RU": "Сильвия Фернандес Перес",
+       "ZH": "Silvia Fernandez Perez",
+       "AR": "Silvia Fernandez"
       },
       "shortName": {
-       "EN": "Jareci",
-       "FR": "Jareci",
-       "DE": "Jareci",
-       "ES": "Jareci",
-       "PT": "Jareci",
-       "IT": "Jareci",
-       "RU": "Яреци",
-       "ZH": "加雷西",
-       "AR": "جاريسي"
+       "EN": "Fernandez",
+       "FR": "Fernandez",
+       "DE": "Fernandez",
+       "ES": "Fernandez",
+       "PT": "Fernandez",
+       "IT": "Fernandez",
+       "RU": "Фернандес Перес",
+       "ZH": "Fernandez Perez",
+       "AR": "Fernandez"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216934.jpg"
+    },
+    "person": {
+     "countryCode": "SWE",
+     "gender": "FEMALE",
+     "id": "250216934",
+     "translations": {
+      "countryName": {
+       "EN": "Sweden",
+       "FR": "Suède",
+       "DE": "Schweden",
+       "ES": "Suecia",
+       "PT": "Suécia",
+       "IT": "Svezia",
+       "RU": "Швеция",
+       "ZH": "瑞典",
+       "AR": "السويد"
+      },
+      "firstName": {
+       "EN": "Nike",
+       "FR": "Nike",
+       "DE": "Nike",
+       "ES": "Nike",
+       "PT": "Nike",
+       "IT": "Nike",
+       "RU": "Nike",
+       "ZH": "Nike",
+       "AR": "Nike"
+      },
+      "lastName": {
+       "EN": "Sjögerås",
+       "FR": "Sjögerås",
+       "DE": "Sjögerås",
+       "ES": "Sjögerås",
+       "PT": "Sjögerås",
+       "IT": "Sjögerås",
+       "RU": "Sjögerås",
+       "ZH": "Sjögerås",
+       "AR": "Sjögerås"
+      },
+      "name": {
+       "EN": "Nike Sjögerås",
+       "FR": "Nike Sjögerås",
+       "DE": "Nike Sjögerås",
+       "ES": "Nike Sjögerås",
+       "PT": "Nike Sjögerås",
+       "IT": "Nike Sjögerås",
+       "RU": "Nike Sjögerås",
+       "ZH": "Nike Sjögerås",
+       "AR": "Nike Sjögerås"
+      },
+      "shortName": {
+       "EN": "Sjögerås",
+       "FR": "Sjögerås",
+       "DE": "Sjögerås",
+       "ES": "Sjögerås",
+       "PT": "Sjögerås",
+       "IT": "Sjögerås",
+       "RU": "Sjögerås",
+       "ZH": "Sjögerås",
+       "AR": "Sjögerås"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122652.jpg"
+    },
+    "person": {
+     "countryCode": "ESP",
+     "gender": "FEMALE",
+     "id": "250122652",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "firstName": {
+       "EN": "Paola",
+       "FR": "Paola",
+       "DE": "Paola",
+       "ES": "Paola",
+       "PT": "Paola",
+       "IT": "Paola",
+       "RU": "Паола",
+       "ZH": "Paola",
+       "AR": "Paola"
+      },
+      "lastName": {
+       "EN": "Cebollada López",
+       "FR": "Cebollada López",
+       "DE": "Cebollada López",
+       "ES": "Cebollada López",
+       "PT": "Cebollada López",
+       "IT": "Cebollada López",
+       "RU": "Себольяда Лопес",
+       "ZH": "Cebollada López",
+       "AR": "Cebollada López"
+      },
+      "name": {
+       "EN": "Paola Cebollada López",
+       "FR": "Paola Cebollada López",
+       "DE": "Paola Cebollada López",
+       "ES": "Paola Cebollada López",
+       "PT": "Paola Cebollada López",
+       "IT": "Paola Cebollada López",
+       "RU": "Паола Себольяда Лопес",
+       "ZH": "Paola Cebollada López",
+       "AR": "Paola Cebollada López"
+      },
+      "shortName": {
+       "EN": "Cebollada López",
+       "FR": "Cebollada López",
+       "DE": "Cebollada López",
+       "ES": "Cebollada López",
+       "PT": "Cebollada López",
+       "IT": "Cebollada López",
+       "RU": "Себольяда Лопес",
+       "ZH": "Cebollada López",
+       "AR": "Cebollada López"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/283317.jpg"
+    },
+    "person": {
+     "countryCode": "SCO",
+     "gender": "MALE",
+     "id": "283317",
+     "translations": {
+      "countryName": {
+       "EN": "Scotland",
+       "FR": "Écosse",
+       "DE": "Schottland",
+       "ES": "Escocia",
+       "PT": "Escócia",
+       "IT": "Scozia",
+       "RU": "Шотландия",
+       "ZH": "苏格兰",
+       "AR": "اسكتلندا"
+      },
+      "firstName": {
+       "EN": "Iain",
+       "FR": "Iain",
+       "DE": "Iain",
+       "ES": "Iain",
+       "PT": "Iain",
+       "IT": "Iain",
+       "RU": "Iain",
+       "ZH": "Iain",
+       "AR": "إيان "
+      },
+      "lastName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
+      },
+      "name": {
+       "EN": "Iain Blair",
+       "FR": "Iain Blair",
+       "DE": "Iain Blair",
+       "ES": "Iain Blair",
+       "PT": "Iain Blair",
+       "IT": "Iain Blair",
+       "RU": "Iain Blair",
+       "ZH": "Iain Blair",
+       "AR": "إيان بلير"
+      },
+      "shortName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
       }
      }
     },
@@ -1090,406 +665,163 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250105043.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/26975.jpg"
     },
     "person": {
-     "countryCode": "WAL",
-     "gender": "MALE",
-     "id": "250105043",
+     "countryCode": "ROU",
+     "gender": "FEMALE",
+     "id": "26975",
      "translations": {
       "countryName": {
-       "EN": "Wales",
-       "FR": "Pays de Galles",
-       "DE": "Wales",
-       "ES": "Gales",
-       "PT": "País de Gales",
-       "IT": "Galles",
-       "RU": "Уэльс",
-       "ZH": "威尔士",
-       "AR": "ويلز"
+       "EN": "Romania",
+       "FR": "Roumanie",
+       "DE": "Rumänien",
+       "ES": "Rumanía",
+       "PT": "Roménia",
+       "IT": "Romania",
+       "RU": "Румыния",
+       "ZH": "罗马尼亚",
+       "AR": "رومانيا"
       },
       "firstName": {
-       "EN": "Aaron Wyn",
-       "FR": "Aaron Wyn",
-       "DE": "Aaron Wyn",
-       "ES": "Aaron Wyn",
-       "PT": "Aaron Wyn",
-       "IT": "Aaron Wyn",
-       "RU": "Aaron Wyn",
-       "ZH": "Aaron Wyn",
-       "AR": "آرون وين"
+       "EN": "Teodora",
+       "FR": "Teodora",
+       "DE": "Teodora",
+       "ES": "Teodora",
+       "PT": "Teodora",
+       "IT": "Teodora",
+       "RU": "Teodora",
+       "ZH": "Teodora",
+       "AR": "Teodora"
       },
       "lastName": {
-       "EN": "Jones",
-       "FR": "Jones",
-       "DE": "Jones",
-       "ES": "Jones",
-       "PT": "Jones",
-       "IT": "Jones",
-       "RU": "Jones",
-       "ZH": "Jones",
-       "AR": "جونز"
+       "EN": "Albon",
+       "FR": "Albon",
+       "DE": "Albon",
+       "ES": "Albon",
+       "PT": "Albon",
+       "IT": "Albon",
+       "RU": "ALBON",
+       "ZH": "Albon",
+       "AR": "Albon"
       },
       "name": {
-       "EN": "Aaron Wyn Jones",
-       "FR": "Aaron Wyn Jones",
-       "DE": "Aaron Wyn Jones",
-       "ES": "Aaron Wyn Jones",
-       "PT": "Aaron Wyn Jones",
-       "IT": "Aaron Wyn Jones",
-       "RU": "Аарон Уин Джонс",
-       "ZH": "Aaron Wyn Jones",
-       "AR": "آرون وين جونز"
+       "EN": "Teodora Albon",
+       "FR": "Teodora Albon",
+       "DE": "Teodora Albon",
+       "ES": "Teodora Albon",
+       "PT": "Teodora Albon",
+       "IT": "Teodora Albon",
+       "RU": "Теодора Албон",
+       "ZH": "Teodora Albon",
+       "AR": "Teodora Albon"
       },
       "shortName": {
-       "EN": "Jones",
-       "FR": "Jones",
-       "DE": "Jones",
-       "ES": "Jones",
-       "PT": "Jones",
-       "IT": "Jones",
-       "RU": "Джонс",
-       "ZH": "Jones",
-       "AR": "جونز"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/267017.jpg"
-    },
-    "person": {
-     "countryCode": "ALB",
-     "gender": "MALE",
-     "id": "267017",
-     "translations": {
-      "countryName": {
-       "EN": "Albania",
-       "FR": "Albanie",
-       "DE": "Albanien",
-       "ES": "Albania",
-       "PT": "Albânia",
-       "IT": "Albania",
-       "RU": "Албания",
-       "ZH": "阿尔巴尼亚",
-       "AR": "ألبانيا"
-      },
-      "firstName": {
-       "EN": "Sokol",
-       "FR": "Sokol",
-       "DE": "Sokol",
-       "ES": "Sokol",
-       "PT": "Sokol",
-       "IT": "Sokol",
-       "RU": "Sokol",
-       "ZH": "Sokol",
-       "AR": "سوكول "
-      },
-      "lastName": {
-       "EN": "Jareci",
-       "FR": "Jareci",
-       "DE": "Jareci",
-       "ES": "Jareci",
-       "PT": "Jareci",
-       "IT": "Jareci",
-       "RU": "Jareci",
-       "ZH": "JARECI",
-       "AR": "جاريسي"
-      },
-      "name": {
-       "EN": "Sokol Jareci",
-       "FR": "Sokol Jareci",
-       "DE": "Sokol Jareci",
-       "ES": "Sokol Jareci",
-       "PT": "Sokol Jareci",
-       "IT": "Sokol Jareci",
-       "RU": "Соколь Яреци",
-       "ZH": "索科尔·加雷西",
-       "AR": "سوكول جاريسي"
-      },
-      "shortName": {
-       "EN": "Jareci",
-       "FR": "Jareci",
-       "DE": "Jareci",
-       "ES": "Jareci",
-       "PT": "Jareci",
-       "IT": "Jareci",
-       "RU": "Яреци",
-       "ZH": "加雷西",
-       "AR": "جاريسي"
+       "EN": "Albon",
+       "FR": "Albon",
+       "DE": "Albon",
+       "ES": "Albon",
+       "PT": "Albon",
+       "IT": "Albon",
+       "RU": "Албон",
+       "ZH": "Albon",
+       "AR": "Albon"
       }
      }
     },
     "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "AR": "مراقب الحكم"
      }
     }
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/150459886.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166372.jpg"
     },
     "person": {
-     "countryCode": "WAL",
-     "gender": "MALE",
-     "id": "150459886",
+     "countryCode": "SWE",
+     "gender": "FEMALE",
+     "id": "250166372",
      "translations": {
       "countryName": {
-       "EN": "Wales",
-       "FR": "Pays de Galles",
-       "DE": "Wales",
-       "ES": "Gales",
-       "PT": "País de Gales",
-       "IT": "Galles",
-       "RU": "Уэльс",
-       "ZH": "威尔士",
-       "AR": "ويلز"
+       "EN": "Sweden",
+       "FR": "Suède",
+       "DE": "Schweden",
+       "ES": "Suecia",
+       "PT": "Suécia",
+       "IT": "Svezia",
+       "RU": "Швеция",
+       "ZH": "瑞典",
+       "AR": "السويد"
       },
       "firstName": {
-       "EN": "Jordan Lee",
-       "FR": "Jordan Lee",
-       "DE": "Jordan Lee",
-       "ES": "Jordan Lee",
-       "PT": "Jordan Lee",
-       "IT": "Jordan Lee",
-       "RU": "Jordan Lee",
-       "ZH": "Jordan Lee",
-       "AR": "Jordan Lee"
+       "EN": "Selma",
+       "FR": "Selma",
+       "DE": "Selma",
+       "ES": "Selma",
+       "PT": "Selma",
+       "IT": "Selma",
+       "RU": "Сельма",
+       "ZH": "Selma",
+       "AR": "Selma"
       },
       "lastName": {
-       "EN": "Christopher",
-       "FR": "Christopher",
-       "DE": "Christopher",
-       "ES": "Christopher",
-       "PT": "Christopher",
-       "IT": "Christopher",
-       "RU": "Christopher",
-       "ZH": "Christopher",
-       "AR": "Christopher"
+       "EN": "Griberg",
+       "FR": "Griberg",
+       "DE": "Griberg",
+       "ES": "Griberg",
+       "PT": "Griberg",
+       "IT": "Griberg",
+       "RU": "Гриберг",
+       "ZH": "Griberg",
+       "AR": "Griberg"
       },
       "name": {
-       "EN": "Jordan Lee Christopher",
-       "FR": "Jordan Lee Christopher",
-       "DE": "Jordan Lee Christopher",
-       "ES": "Jordan Lee Christopher",
-       "PT": "Jordan Lee Christopher",
-       "IT": "Jordan Lee Christopher",
-       "RU": "Джордан Кристофер",
-       "ZH": "Jordan Lee Christopher",
-       "AR": "Jordan Lee Christopher"
+       "EN": "Selma Griberg",
+       "FR": "Selma Griberg",
+       "DE": "Selma Griberg",
+       "ES": "Selma Griberg",
+       "PT": "Selma Griberg",
+       "IT": "Selma Griberg",
+       "RU": "Сельма Гриберг",
+       "ZH": "Selma Griberg",
+       "AR": "Selma Griberg"
       },
       "shortName": {
-       "EN": "Christopher",
-       "FR": "Christopher",
-       "DE": "Christopher",
-       "ES": "Christopher",
-       "PT": "Christopher",
-       "IT": "Christopher",
-       "RU": "Кристофер",
-       "ZH": "Christopher",
-       "AR": "Christopher"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250156793.jpg"
-    },
-    "person": {
-     "countryCode": "MDA",
-     "gender": "MALE",
-     "id": "250156793",
-     "translations": {
-      "countryName": {
-       "EN": "Moldova",
-       "FR": "Moldavie",
-       "DE": "Moldau",
-       "ES": "Moldavia",
-       "PT": "Moldávia",
-       "IT": "Moldavia",
-       "RU": "Молдова",
-       "ZH": "摩尔多瓦",
-       "AR": "مولدوفا"
-      },
-      "firstName": {
-       "EN": "Andrei",
-       "FR": "Andrei",
-       "DE": "Andrei",
-       "ES": "Andrei",
-       "PT": "Andrei",
-       "IT": "Andrei",
-       "RU": "Андрей",
-       "ZH": "Andrei",
-       "AR": "Andrei"
-      },
-      "lastName": {
-       "EN": "Breguta",
-       "FR": "Breguta",
-       "DE": "Breguta",
-       "ES": "Breguta",
-       "PT": "Breguta",
-       "IT": "Breguta",
-       "RU": "Брегуцэ",
-       "ZH": "Breguta",
-       "AR": "Breguta"
-      },
-      "name": {
-       "EN": "Andrei Breguta",
-       "FR": "Andrei Breguta",
-       "DE": "Andrei Breguta",
-       "ES": "Andrei Breguta",
-       "PT": "Andrei Breguta",
-       "IT": "Andrei Breguta",
-       "RU": "Андрей Брегуцэ",
-       "ZH": "Andrei Breguta",
-       "AR": "Andrei Breguta"
-      },
-      "shortName": {
-       "EN": "Breguta",
-       "FR": "Breguta",
-       "DE": "Breguta",
-       "ES": "Breguta",
-       "PT": "Breguta",
-       "IT": "Breguta",
-       "RU": "Брегуцэ",
-       "ZH": "Breguta",
-       "AR": "Breguta"
+       "EN": "Griberg",
+       "FR": "Griberg",
+       "DE": "Griberg",
+       "ES": "Griberg",
+       "PT": "Griberg",
+       "IT": "Griberg",
+       "RU": "Гриберг",
+       "ZH": "Griberg",
+       "AR": "Griberg"
       }
      }
     },
     "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
       "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250139545.jpg"
-    },
-    "person": {
-     "countryCode": "MDA",
-     "gender": "MALE",
-     "id": "250139545",
-     "translations": {
-      "countryName": {
-       "EN": "Moldova",
-       "FR": "Moldavie",
-       "DE": "Moldau",
-       "ES": "Moldavia",
-       "PT": "Moldávia",
-       "IT": "Moldavia",
-       "RU": "Молдова",
-       "ZH": "摩尔多瓦",
-       "AR": "مولدوفا"
-      },
-      "firstName": {
-       "EN": "Denis",
-       "FR": "Denis",
-       "DE": "Denis",
-       "ES": "Denis",
-       "PT": "Denis",
-       "IT": "Denis",
-       "RU": "Денис",
-       "ZH": "Denis",
-       "AR": "دينيس "
-      },
-      "lastName": {
-       "EN": "Oala",
-       "FR": "Oala",
-       "DE": "Oala",
-       "ES": "Oala",
-       "PT": "Oala",
-       "IT": "Oala",
-       "RU": "Оалэ",
-       "ZH": "Oala",
-       "AR": "أوالا"
-      },
-      "name": {
-       "EN": "Denis Oala",
-       "FR": "Denis Oala",
-       "DE": "Denis Oala",
-       "ES": "Denis Oala",
-       "PT": "Denis Oala",
-       "IT": "Denis Oala",
-       "RU": "Денис Оалэ",
-       "ZH": "Denis Oala",
-       "AR": "دينيس أوالا"
-      },
-      "shortName": {
-       "EN": "Oala",
-       "FR": "Oala",
-       "DE": "Oala",
-       "ES": "Oala",
-       "PT": "Oala",
-       "IT": "Oala",
-       "RU": "Оалэ",
-       "ZH": "Oala",
-       "AR": "أوالا"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    }
@@ -1500,12 +832,12 @@
    "benchPlayersCount": 9,
    "benchStaffCount": 11,
    "coefficientWinnerBonus": 0.0,
-   "competitionId": "23",
-   "dateFrom": "2026-09-23T06:00:00+0000",
-   "dateTo": "2026-11-17T22:59:59+0000",
+   "competitionId": "101",
+   "dateFrom": "2026-07-01T06:00:00+0000",
+   "dateTo": "2026-12-05T22:59:59+0000",
    "fieldPlayersCount": 11,
-   "groupCount": 14,
-   "id": "2002214",
+   "groupCount": 13,
+   "id": "2002006",
    "metaData": {
     "name": "Round 1",
     "type": "QUALIFYING"
@@ -1515,68 +847,62 @@
    "orderInCompetition": 1,
    "phase": "QUALIFYING",
    "seasonYear": "2027",
-   "secondaryType": "QUALIFYING_ROUND",
    "stadiumNameType": "OFFICIAL_NAME",
-   "standingsRankingFormulaId": "625",
+   "standingsRankingFormulaId": "627",
    "status": "CURRENT",
    "substitutionCount": 5,
-   "teamCount": 54,
+   "teamCount": 50,
    "teams": [
-    "400082",
-    "400081",
-    "457419",
-    "400002",
-    "400047",
-    "400088",
-    "400122",
-    "400042",
-    "400043",
-    "400039",
-    "400117",
-    "456370",
-    "459205",
-    "492853",
-    "458837",
-    "458836",
-    "400035",
-    "400113",
-    "400033",
-    "400110",
-    "400109",
-    "2605255",
-    "451218",
-    "400147",
-    "450168",
-    "457154",
-    "457155",
-    "457157",
-    "400101",
-    "400069",
-    "400066",
-    "400144",
-    "400020",
-    "400064",
-    "400065",
-    "400063",
-    "2608697",
-    "457160",
-    "460094",
-    "457163",
-    "457166",
-    "456556",
-    "456557",
-    "456558",
-    "460618",
-    "400013",
-    "400057",
-    "400058",
-    "400135",
-    "465146",
-    "400095",
-    "400008",
-    "400127",
-    "400128",
-    "400049"
+    "2600312",
+    "2600313",
+    "2600314",
+    "2606939",
+    "2600073",
+    "2600074",
+    "2600075",
+    "2600076",
+    "2600077",
+    "2600078",
+    "2600079",
+    "2609404",
+    "2600070",
+    "2600071",
+    "2600072",
+    "2600048",
+    "2600049",
+    "2603077",
+    "2607952",
+    "2605257",
+    "2600043",
+    "2600044",
+    "2600046",
+    "2600047",
+    "2600080",
+    "2600081",
+    "2600059",
+    "2600051",
+    "2600052",
+    "2600053",
+    "2610942",
+    "2600054",
+    "2600055",
+    "2600056",
+    "2604337",
+    "2600057",
+    "2600058",
+    "2600050",
+    "2611583",
+    "2600062",
+    "2600063",
+    "2600064",
+    "2600581",
+    "2600065",
+    "2600066",
+    "2600067",
+    "2600068",
+    "2600069",
+    "2600060",
+    "2600061"
    ],
    "translations": {
     "abbreviation": {
@@ -1614,265 +940,175 @@
     }
    }
   },
-  "score": {
-   "regular": {
-    "away": 5,
-    "home": 1
-   },
-   "total": {
-    "away": 5,
-    "home": 1
-   }
-  },
   "seasonYear": "2027",
-  "sessionNumber": 2,
+  "sessionNumber": 5,
   "stadium": {
-   "address": "Parcul Nistrean",
-   "capacity": 600,
+   "address": "Ålgårdsvägen 32",
+   "capacity": 12333,
    "city": {
-    "countryCode": "MDA",
-    "id": "250000277",
+    "countryCode": "SWE",
+    "id": "1271",
     "translations": {
      "name": {
-      "EN": "Vadul lui Voda",
-      "FR": "Vadul lui Voda",
-      "DE": "Vadul lui Voda",
-      "ES": "Vadul lui Voda",
-      "PT": "Vadul lui Voda",
-      "IT": "Vadul lui Voda",
-      "RU": "Вадул-луй-Водэ",
-      "ZH": "瓦杜尔·路易·沃达",
-      "AR": "فادول لوي فودا"
+      "EN": "Boras",
+      "FR": "Boras",
+      "DE": "Boras",
+      "ES": "Boras",
+      "PT": "Boras",
+      "IT": "Boras",
+      "RU": "Бурос",
+      "ZH": "波拉什",
+      "AR": "بوروس"
      }
     }
    },
-   "countryCode": "MDA",
+   "countryCode": "SWE",
    "geolocation": {
-    "latitude": 47.093384,
-    "longitude": 29.075732
+    "latitude": 57.7344194,
+    "longitude": 12.9347556
    },
-   "id": "250001164",
+   "id": "1100040",
    "images": {
-    "MEDIUM_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/w1/250001164.jpg",
-    "LARGE_ULTRA_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/uw/250001164.jpg"
+    "MEDIUM_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/w1/1100040.jpg",
+    "LARGE_ULTRA_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/uw/1100040.jpg"
    },
-   "openingDate": "2003-01-01",
+   "openingDate": "2005-01-01",
    "pitch": {
     "length": 105,
     "width": 68
    },
    "translations": {
     "mediaName": {
-     "EN": "CPSM",
-     "FR": "CPSM",
-     "DE": "CPSM",
-     "ES": "CPSM",
-     "PT": "CPSM",
-     "IT": "CPSM",
-     "RU": "ЦПСМ",
-     "ZH": "CPSM",
-     "AR": "CPSM"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "name": {
-     "EN": "Technical Centre Vadul lui Voda  ",
-     "FR": "Technical Centre Vadul lui Voda  ",
-     "DE": "Technical Centre Vadul lui Voda  ",
-     "ES": "Technical Centre Vadul lui Voda  ",
-     "PT": "Technical Centre Vadul lui Voda  ",
-     "IT": "Technical Centre Vadul lui Voda  ",
-     "RU": "ЦПСМ",
-     "ZH": "Technical Centre Vadul lui Voda  ",
-     "AR": "المركز الفني فادول لوي فودا"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "officialName": {
-     "EN": "Technical Centre Vadul lui Voda  ",
-     "FR": "Technical Centre Vadul lui Voda  ",
-     "DE": "Technical Centre Vadul lui Voda  ",
-     "ES": "Technical Centre Vadul lui Voda  ",
-     "PT": "Technical Centre Vadul lui Voda  ",
-     "IT": "Technical Centre Vadul lui Voda  ",
-     "RU": "ЦПСМ",
-     "ZH": "Technical Centre Vadul lui Voda  ",
-     "AR": "المركز الفني فادول لوي فودا"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "specialEventsName": {
-     "EN": "Technical Centre Vadul lui Voda  ",
-     "FR": "Technical Centre Vadul lui Voda  ",
-     "DE": "Technical Centre Vadul lui Voda  ",
-     "ES": "Technical Centre Vadul lui Voda  ",
-     "PT": "Technical Centre Vadul lui Voda  ",
-     "IT": "Technical Centre Vadul lui Voda  ",
-     "RU": "ЦПСМ",
-     "ZH": "Technical Centre Vadul lui Voda  ",
-     "AR": "المركز الفني فادول لوي فودا"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "sponsorName": {
-     "EN": "Technical Centre Vadul lui Voda  ",
-     "FR": "Technical Centre Vadul lui Voda  ",
-     "DE": "Technical Centre Vadul lui Voda  ",
-     "ES": "Technical Centre Vadul lui Voda  ",
-     "PT": "Technical Centre Vadul lui Voda  ",
-     "IT": "Technical Centre Vadul lui Voda  ",
-     "RU": "ЦПСМ",
-     "ZH": "Technical Centre Vadul lui Voda  ",
-     "AR": "المركز الفني فادول لوي فودا"
+     "EN": "None",
+     "FR": "None",
+     "DE": "None",
+     "ES": "None",
+     "PT": "None",
+     "IT": "None",
+     "RU": "None",
+     "ZH": "None",
+     "AR": "None"
     }
    }
   },
-  "status": "FINISHED",
-  "type": "GROUP_STAGE",
-  "winner": {
-   "match": {
-    "reason": "WIN_REGULAR",
-    "team": {
-     "associationId": "258837",
-     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/CZE.svg",
-     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/CZE.png",
-     "confederationType": "UEFA",
-     "countryCode": "CZE",
-     "id": "458837",
-     "idProvider": "FAME",
-     "internationalName": "Czechia",
-     "isPlaceHolder": false,
-     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/CZE.png",
-     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
-     "organizationId": "258837",
-     "teamCode": "CZE",
-     "teamTypeDetail": "NATIONAL_MEN_U17",
-     "translations": {
-      "countryName": {
-       "EN": "Czechia",
-       "FR": "Tchéquie",
-       "DE": "Tschechien",
-       "ES": "Chequia",
-       "PT": "Chéquia",
-       "IT": "Cechia",
-       "RU": "Чехия",
-       "ZH": "捷克语",
-       "AR": "جمهورية التشيك"
-      },
-      "displayName": {
-       "EN": "Czechia",
-       "FR": "Tchéquie",
-       "DE": "Tschechien",
-       "ES": "Chequia",
-       "PT": "Chéquia",
-       "IT": "Cechia",
-       "RU": "Чехия",
-       "ZH": "捷克",
-       "AR": "Czechia"
-      },
-      "displayOfficialName": {
-       "EN": "Czechia",
-       "FR": "Tchéquie",
-       "DE": "Tschechien",
-       "ES": "Chequia",
-       "PT": "Chéquia",
-       "IT": "Cechia",
-       "RU": "Чехия",
-       "ZH": "捷克",
-       "AR": "Czechia"
-      },
-      "displayTeamCode": {
-       "EN": "CZE",
-       "FR": "CZE",
-       "DE": "CZE",
-       "ES": "CZE",
-       "PT": "CZE",
-       "IT": "CZE",
-       "RU": "CZE",
-       "ZH": "CZE",
-       "AR": "CZE"
-      },
-      "shortName": {
-       "EN": "CZE",
-       "FR": "CZE",
-       "DE": "CZE",
-       "ES": "CZE",
-       "PT": "CZE",
-       "IT": "CZE",
-       "RU": "Чехия",
-       "ZH": "CMFS",
-       "AR": "CZE"
-      }
-     },
-     "typeIsNational": true,
-     "typeTeam": "NATIONAL"
-    }
-   }
-  }
+  "status": "UPCOMING",
+  "type": "GROUP_STAGE"
  },
  {
   "awayTeam": {
-   "associationId": "257155",
-   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/BLR.svg",
-   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/BLR.png",
+   "associationId": "200127",
+   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/SWE.svg",
+   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/SWE.png",
    "confederationType": "UEFA",
-   "countryCode": "BLR",
-   "id": "457155",
+   "countryCode": "SWE",
+   "id": "2600049",
    "idProvider": "FAME",
-   "internationalName": "Belarus",
+   "internationalName": "Sweden",
    "isPlaceHolder": false,
-   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/BLR.png",
-   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/BLR.png",
-   "organizationId": "257155",
-   "teamCode": "BLR",
-   "teamTypeDetail": "NATIONAL_MEN_U17",
+   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/SWE.png",
+   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/SWE.png",
+   "organizationId": "200127",
+   "teamCode": "SWE",
+   "teamTypeDetail": "NATIONAL_WOMEN_U17",
    "translations": {
     "countryName": {
-     "EN": "Belarus",
-     "FR": "Bélarus",
-     "DE": "Belarus",
-     "ES": "Bielorrusia",
-     "PT": "Bielorrússia",
-     "IT": "Bielorussia",
-     "RU": "Беларусь",
-     "ZH": "白俄罗斯",
-     "AR": "بيلاروسيا"
+     "EN": "Sweden",
+     "FR": "Suède",
+     "DE": "Schweden",
+     "ES": "Suecia",
+     "PT": "Suécia",
+     "IT": "Svezia",
+     "RU": "Швеция",
+     "ZH": "瑞典",
+     "AR": "السويد"
     },
     "displayName": {
-     "EN": "Belarus",
-     "FR": "Belarus",
-     "DE": "Belarus",
-     "ES": "Bielorrusia",
-     "PT": "Bielorrússia",
-     "IT": "Bielorussia",
-     "RU": "Беларусь",
-     "ZH": "白俄罗斯",
-     "AR": "Belarus"
+     "EN": "Sweden",
+     "FR": "Suède",
+     "DE": "Schweden",
+     "ES": "Suecia",
+     "PT": "Suécia",
+     "IT": "Svezia",
+     "RU": "Швеция",
+     "ZH": "瑞典",
+     "AR": "Sweden"
     },
     "displayOfficialName": {
-     "EN": "Belarus",
-     "FR": "Belarus",
-     "DE": "Belarus",
-     "ES": "Bielorrusia",
-     "PT": "Bielorrússia",
-     "IT": "Bielorussia",
-     "RU": "Беларусь",
-     "ZH": "白俄罗斯",
-     "AR": "Belarus"
+     "EN": "Sweden",
+     "FR": "Suède",
+     "DE": "Schweden",
+     "ES": "Suecia",
+     "PT": "Suécia",
+     "IT": "Svezia",
+     "RU": "Швеция",
+     "ZH": "瑞典",
+     "AR": "Sweden"
     },
     "displayTeamCode": {
-     "EN": "BLR",
-     "FR": "BLR",
-     "DE": "BLR",
-     "ES": "BLR",
-     "PT": "BLR",
-     "IT": "BLR",
-     "RU": "BLR",
-     "ZH": "BLR",
-     "AR": "BLR"
+     "EN": "SWE",
+     "FR": "SWE",
+     "DE": "SWE",
+     "ES": "SWE",
+     "PT": "SWE",
+     "IT": "SWE",
+     "RU": "SWE",
+     "ZH": "SWE",
+     "AR": "SWE"
     },
     "shortName": {
-     "EN": "BLR",
-     "FR": "BLR",
-     "DE": "BLR",
-     "ES": "BLR",
-     "PT": "BLR",
-     "IT": "BLR",
-     "RU": "Беларусь",
-     "ZH": "BYEL",
-     "AR": "BLR"
+     "EN": "SWE",
+     "FR": "SWE",
+     "DE": "SWE",
+     "ES": "SWE",
+     "PT": "SWE",
+     "IT": "SWE",
+     "RU": "SFF",
+     "ZH": "SFF",
+     "AR": "SWE"
     }
    },
    "typeIsNational": true,
@@ -1880,924 +1116,574 @@
   },
   "competition": {
    "age": "YOUTH",
-   "code": "U17",
-   "id": "23",
+   "code": "WU17",
+   "id": "101",
    "images": {
-    "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/23.svg"
+    "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/101.svg"
    },
    "metaData": {
-    "name": "European Under-17 Championship"
+    "name": "European Women's Under-17 Championship"
    },
    "region": "CONTINENTAL",
-   "sex": "MALE",
+   "sex": "FEMALE",
    "sportsType": "FOOTBALL",
    "teamCategory": "NATIONAL",
    "translations": {
     "name": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "prequalifyingName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "qualifyingName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     },
     "tournamentName": {
-     "EN": "UEFA European Under-17 Championship",
-     "FR": "Championnat d'Europe des moins de 17 ans de l'UEFA",
-     "DE": "UEFA U17-EM",
-     "ES": "Campeonato de Europa Sub-17 de la UEFA",
-     "PT": "Campeonato da Europa de Sub-17",
-     "IT": "Campionati Europei UEFA Under 17",
-     "RU": "Чемпионат Европы среди юношей U17",
-     "ZH": "欧足联U17足球锦标赛",
-     "AR": "بطولة أوروبا تحت 17 سنة UEFA"
+     "EN": "UEFA European Women's Under-17 Championship",
+     "FR": "Championnat d'Europe féminin des moins de 17 ans de l'UEFA",
+     "DE": "UEFA U17-EM Frauen",
+     "ES": "Campeonato de Europa Femenino Sub-17 de la UEFA",
+     "PT": "Campeonato Europeu Feminino de Sub-17",
+     "IT": "Campionati Europei UEFA Under 17 Femminili",
+     "RU": "Чемпионат Европы среди девушек U17",
+     "ZH": "欧足联女子U-17足球锦标赛",
+     "AR": "بطولة أوروبا للسيدات تحت 17 عاما UEFA"
     }
    },
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
-  "condition": {
-   "pitchCondition": "EXCELLENT",
-   "temperature": 16,
-   "translations": {
-    "pitchConditionName": {
-     "EN": "excellent",
-     "FR": "impeccable",
-     "DE": "exzellent",
-     "ES": "excelente",
-     "PT": "excelente",
-     "IT": "eccellente",
-     "RU": "превосходное",
-     "ZH": "非常好",
-     "AR": "ممتاز"
-    },
-    "weatherConditionName": {
-     "EN": "Cloudy",
-     "FR": "nuageux",
-     "DE": "bewölkt",
-     "ES": "Nublado",
-     "PT": "Nublado",
-     "IT": "Nuvoloso",
-     "RU": "Облачно",
-     "ZH": "多云",
-     "AR": "غائم"
-    }
-   },
-   "weatherCondition": "CLOUDY"
-  },
-  "fullTimeAt": "2026-10-22T11:49:18.456Z",
   "group": {
-   "competitionId": "23",
-   "id": "2013683",
+   "competitionId": "101",
+   "id": "2012444",
    "league": {
-    "competitionId": "23",
-    "id": "130",
+    "competitionId": "101",
+    "id": "137",
     "metaData": {
-     "leagueName": "League",
-     "leagueShortName": "L"
+     "leagueName": "League A",
+     "leagueShortName": "LA"
     },
     "order": 1,
     "phase": "QUALIFYING",
-    "roundId": "2002214",
+    "roundId": "2002006",
     "seasonYear": "2027",
     "translations": {
      "name": {
-      "EN": "League",
-      "FR": "League",
-      "DE": "League",
-      "ES": "League",
-      "PT": "League",
-      "IT": "League",
-      "RU": "League",
-      "ZH": "League",
-      "AR": "League"
+      "EN": "League A",
+      "FR": "Ligue A",
+      "DE": "Liga A",
+      "ES": "Liga A",
+      "PT": "Liga A",
+      "IT": "Lega A",
+      "RU": "Лига A",
+      "ZH": "League A",
+      "AR": "المستوى الأول"
      },
      "shortName": {
-      "EN": "L",
-      "FR": "L",
-      "DE": "L",
-      "ES": "L",
-      "PT": "L",
-      "IT": "L",
-      "RU": "L",
-      "ZH": "L",
-      "AR": "L"
+      "EN": "LA",
+      "FR": "LA",
+      "DE": "LA",
+      "ES": "LA",
+      "PT": "LA",
+      "IT": "LA",
+      "RU": "A",
+      "ZH": "LA",
+      "AR": "أ"
      }
     }
    },
    "metaData": {
-    "groupName": "Group 8",
-    "groupShortName": "Grp8"
+    "groupName": "Group A5",
+    "groupShortName": "GrpA5"
    },
-   "order": 8,
+   "order": 5,
    "phase": "QUALIFYING",
-   "roundId": "2002214",
+   "roundId": "2002006",
    "seasonYear": "2027",
    "teams": [
-    "458837",
-    "457160",
-    "457163",
-    "457155"
+    "2600051",
+    "2600064",
+    "2600044",
+    "2600049"
    ],
-   "teamsQualifiedNumber": 2,
+   "teamsQualifiedNumber": 0,
    "translations": {
     "name": {
-     "EN": "Group 8",
-     "FR": "Groupe 8",
-     "DE": "Gruppe 8",
-     "ES": "Grupo 8",
-     "PT": "Grupo 8",
-     "IT": "Gruppo 8",
-     "RU": "Группа 8",
-     "ZH": "8组",
-     "AR": "المجموعة 8"
+     "EN": "Group A5",
+     "FR": "Groupe A5",
+     "DE": "Group A5",
+     "ES": "Grupo A5",
+     "PT": "Grupo A5",
+     "IT": "Group A5",
+     "RU": "Группа A5",
+     "ZH": "Group A5",
+     "AR": "المجموعة A5"
     },
     "shortName": {
-     "EN": "8",
-     "FR": "8",
-     "DE": "8",
-     "ES": "8",
-     "PT": "8",
-     "IT": "8",
-     "RU": "8",
-     "ZH": "8",
-     "AR": "8"
+     "EN": "GrpA5",
+     "FR": "GrpA5",
+     "DE": "GrpA5",
+     "ES": "GrpA5",
+     "PT": "GrpA5",
+     "IT": "GrpA5",
+     "RU": "GrpA5",
+     "ZH": "GrpA5",
+     "AR": "GrpA5"
     }
    },
    "type": "STANDARD"
   },
   "homeTeam": {
-   "associationId": "257160",
-   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/MDA.svg",
-   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/MDA.png",
+   "associationId": "200043",
+   "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/FRA.svg",
+   "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/FRA.png",
    "confederationType": "UEFA",
-   "countryCode": "MDA",
-   "id": "457160",
+   "countryCode": "FRA",
+   "id": "2600044",
    "idProvider": "FAME",
-   "internationalName": "Moldova",
+   "internationalName": "France",
    "isPlaceHolder": false,
-   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/MDA.png",
-   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/MDA.png",
-   "organizationId": "257160",
-   "teamCode": "MDA",
-   "teamTypeDetail": "NATIONAL_MEN_U17",
+   "logoUrl": "https://img.uefa.com/imgml/flags/70x70/FRA.png",
+   "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/FRA.png",
+   "organizationId": "200043",
+   "teamCode": "FRA",
+   "teamTypeDetail": "NATIONAL_WOMEN_U17",
    "translations": {
     "countryName": {
-     "EN": "Moldova",
-     "FR": "Moldavie",
-     "DE": "Moldau",
-     "ES": "Moldavia",
-     "PT": "Moldávia",
-     "IT": "Moldavia",
-     "RU": "Молдова",
-     "ZH": "摩尔多瓦",
-     "AR": "مولدوفا"
+     "EN": "France",
+     "FR": "France",
+     "DE": "Frankreich",
+     "ES": "Francia",
+     "PT": "França",
+     "IT": "Francia",
+     "RU": "Франция",
+     "ZH": "法国",
+     "AR": "فرنسا"
     },
     "displayName": {
-     "EN": "Moldova",
-     "FR": "Moldavie",
-     "DE": "Moldawien",
-     "ES": "Moldavia",
-     "PT": "Rep. Moldava",
-     "IT": "Moldavia",
-     "RU": "Молдова",
-     "ZH": "摩尔多瓦",
-     "AR": "Moldova"
+     "EN": "France",
+     "FR": "France",
+     "DE": "Frankreich",
+     "ES": "Francia",
+     "PT": "França",
+     "IT": "Francia",
+     "RU": "Франция",
+     "ZH": "法国",
+     "AR": "France"
     },
     "displayOfficialName": {
-     "EN": "Moldova",
-     "FR": "Moldavie",
-     "DE": "Moldawien",
-     "ES": "Moldavia",
-     "PT": "Rep. Moldava",
-     "IT": "Moldavia",
-     "RU": "Молдова",
-     "ZH": "摩尔多瓦",
-     "AR": "Moldova"
+     "EN": "France",
+     "FR": "France",
+     "DE": "Frankreich",
+     "ES": "Francia",
+     "PT": "França",
+     "IT": "Francia",
+     "RU": "Франция",
+     "ZH": "法国",
+     "AR": "France"
     },
     "displayTeamCode": {
-     "EN": "MDA",
-     "FR": "MDA",
-     "DE": "MDA",
-     "ES": "MDA",
-     "PT": "MDA",
-     "IT": "MDA",
-     "RU": "MDA",
-     "ZH": "MDA",
-     "AR": "MDA"
+     "EN": "FRA",
+     "FR": "FRA",
+     "DE": "FRA",
+     "ES": "FRA",
+     "PT": "FRA",
+     "IT": "FRA",
+     "RU": "FRA",
+     "ZH": "FRA",
+     "AR": "FRA"
     },
     "shortName": {
-     "EN": "MDA",
-     "FR": "MDA",
-     "DE": "MDA",
-     "ES": "MDA",
-     "PT": "MDA",
-     "IT": "MDA",
-     "RU": "Молдова",
-     "ZH": "FMF",
-     "AR": "MDA"
+     "EN": "FRA",
+     "FR": "FRA",
+     "DE": "FRA",
+     "ES": "FRA",
+     "PT": "FRA",
+     "IT": "FRA",
+     "RU": "FFF",
+     "ZH": "FFF",
+     "AR": "FRA"
     }
    },
    "typeIsNational": true,
    "typeTeam": "NATIONAL"
   },
-  "id": "2047322",
+  "id": "2048502",
   "kickOffTime": {
-   "date": "2026-10-22",
-   "dateTime": "2026-10-22T10:00:00Z",
-   "utcOffsetInHours": 3
+   "date": "2026-10-24",
+   "dateTime": "2026-10-24T16:00:00Z",
+   "utcOffsetInHours": 2
   },
-  "lineupStatus": "TACTICAL_AVAILABLE",
-  "matchAttendance": 171,
+  "lineupStatus": "NOT_AVAILABLE",
   "matchday": {
-   "competitionId": "23",
-   "dateFrom": "2026-09-29T06:00:00+0000",
-   "dateTo": "2026-11-17T22:59:59+0000",
-   "format": "PENALTIES_WITHOUT_EXTRA_TIME",
-   "id": "36535",
-   "longName": "Matchday 3",
-   "name": "MD3",
+   "competitionId": "101",
+   "dateFrom": "2026-10-10T06:00:00+0000",
+   "dateTo": "2026-12-01T22:59:59+0000",
+   "format": "REGULAR",
+   "id": "35963",
+   "longName": "Matchday 2",
+   "name": "MD2",
    "phase": "QUALIFYING",
-   "roundId": "2002214",
+   "roundId": "2002006",
    "seasonYear": "2027",
-   "sequenceNumber": "3",
+   "sequenceNumber": "2",
    "translations": {
     "longName": {
-     "EN": "Matchday 3",
-     "FR": "Journée 3",
-     "DE": "Spieltag 3",
-     "ES": "Jornada 3",
-     "PT": "Jornada 3",
-     "IT": "Giornata 3",
-     "RU": "Тур 3",
-     "ZH": "比赛日 3",
-     "AR": "الجولة 3"
+     "EN": "Matchday 2",
+     "FR": "Journée 2",
+     "DE": "Spieltag 2",
+     "ES": "Jornada 2",
+     "PT": "Jornada 2",
+     "IT": "Giornata 2",
+     "RU": "Тур 2",
+     "ZH": "比赛日 2",
+     "AR": "الجولة 2"
     },
     "name": {
-     "EN": "MD 3",
-     "FR": "J 3",
-     "DE": "ST 3",
-     "ES": "JOR 3",
-     "PT": "J 3",
-     "IT": "G 3",
-     "RU": "Тур 3",
-     "ZH": "比赛日 3",
-     "AR": "MD 3"
+     "EN": "MD 2",
+     "FR": "J 2",
+     "DE": "ST 2",
+     "ES": "JOR 2",
+     "PT": "J 2",
+     "IT": "G 2",
+     "RU": "Тур 2",
+     "ZH": "比赛日 2",
+     "AR": "MD 2"
     }
    },
    "type": "MATCHDAY"
   },
-  "playerEvents": {
-   "redCards": [
-    {
-     "id": "0629a580-2145-4ade-b1fa-d89d3f5a6faf",
-     "phase": "SECOND_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-03-12",
-      "clubShirtName": "",
-      "countryCode": "MDA",
-      "fieldPosition": "MIDFIELDER",
-      "gender": "MALE",
-      "id": "250219964",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219964.jpg",
-      "internationalName": "Darius Dodonu",
-      "nationalFieldPosition": "MIDFIELDER",
-      "nationalJerseyNumber": "6",
-      "nationalShirtName": "",
-      "nationalTeamId": "457160",
-      "translations": {
-       "countryName": {
-        "EN": "Moldova",
-        "FR": "Moldavie",
-        "DE": "Moldau",
-        "ES": "Moldavia",
-        "PT": "Moldávia",
-        "IT": "Moldavia",
-        "RU": "Молдова",
-        "ZH": "摩尔多瓦",
-        "AR": "مولدوفا"
-       },
-       "fieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "firstName": {
-        "EN": "Darius",
-        "FR": "Darius",
-        "DE": "Darius",
-        "ES": "Darius",
-        "PT": "Darius",
-        "IT": "Darius",
-        "RU": "Darius",
-        "ZH": "Darius",
-        "AR": "Darius"
-       },
-       "lastName": {
-        "EN": "Dodonu",
-        "FR": "Dodonu",
-        "DE": "Dodonu",
-        "ES": "Dodonu",
-        "PT": "Dodonu",
-        "IT": "Dodonu",
-        "RU": "Dodonu",
-        "ZH": "Dodonu",
-        "AR": "Dodonu"
-       },
-       "name": {
-        "EN": "Darius Dodonu",
-        "FR": "Darius Dodonu",
-        "DE": "Darius Dodonu",
-        "ES": "Darius Dodonu",
-        "PT": "Darius Dodonu",
-        "IT": "Darius Dodonu",
-        "RU": "Darius Dodonu",
-        "ZH": "Darius Dodonu",
-        "AR": "Darius Dodonu"
-       },
-       "nationalFieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "shortName": {
-        "EN": "Dodonu",
-        "FR": "Dodonu",
-        "DE": "Dodonu",
-        "ES": "Dodonu",
-        "PT": "Dodonu",
-        "IT": "Dodonu",
-        "RU": "Dodonu",
-        "ZH": "Dodonu",
-        "AR": "Dodonu"
-       }
-      }
-     },
-     "teamId": "457160",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 53,
-      "second": 4
-     }
-    },
-    {
-     "id": "8381da5a-5554-4080-acbc-4d7e3d5f6f9b",
-     "phase": "SECOND_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-01-07",
-      "clubShirtName": "",
-      "countryCode": "MDA",
-      "fieldPosition": "DEFENDER",
-      "gender": "MALE",
-      "id": "250219960",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250219960.jpg",
-      "internationalName": "Stefan Colta",
-      "nationalFieldPosition": "DEFENDER",
-      "nationalJerseyNumber": "2",
-      "nationalShirtName": "",
-      "nationalTeamId": "457160",
-      "translations": {
-       "countryName": {
-        "EN": "Moldova",
-        "FR": "Moldavie",
-        "DE": "Moldau",
-        "ES": "Moldavia",
-        "PT": "Moldávia",
-        "IT": "Moldavia",
-        "RU": "Молдова",
-        "ZH": "摩尔多瓦",
-        "AR": "مولدوفا"
-       },
-       "fieldPosition": {
-        "EN": "Defender",
-        "FR": "Défenseur",
-        "DE": "Verteidiger",
-        "ES": "Defensa",
-        "PT": "Defesa",
-        "IT": "Difensore",
-        "RU": "Защитник",
-        "ZH": "后卫",
-        "AR": "مدافع"
-       },
-       "firstName": {
-        "EN": "Stefan",
-        "FR": "Stefan",
-        "DE": "Stefan",
-        "ES": "Stefan",
-        "PT": "Stefan",
-        "IT": "Stefan",
-        "RU": "Stefan",
-        "ZH": "Stefan",
-        "AR": "Stefan"
-       },
-       "lastName": {
-        "EN": "Colta",
-        "FR": "Colta",
-        "DE": "Colta",
-        "ES": "Colta",
-        "PT": "Colta",
-        "IT": "Colta",
-        "RU": "Colta",
-        "ZH": "Colta",
-        "AR": "Colta"
-       },
-       "name": {
-        "EN": "Stefan Colta",
-        "FR": "Stefan Colta",
-        "DE": "Stefan Colta",
-        "ES": "Stefan Colta",
-        "PT": "Stefan Colta",
-        "IT": "Stefan Colta",
-        "RU": "Stefan Colta",
-        "ZH": "Stefan Colta",
-        "AR": "Stefan Colta"
-       },
-       "nationalFieldPosition": {
-        "EN": "Defender",
-        "FR": "Défenseur",
-        "DE": "Verteidiger",
-        "ES": "Defensa",
-        "PT": "Defesa",
-        "IT": "Difensore",
-        "RU": "Защитник",
-        "ZH": "后卫",
-        "AR": "مدافع"
-       },
-       "shortName": {
-        "EN": "Colta",
-        "FR": "Colta",
-        "DE": "Colta",
-        "ES": "Colta",
-        "PT": "Colta",
-        "IT": "Colta",
-        "RU": "Colta",
-        "ZH": "Colta",
-        "AR": "Colta"
-       }
-      }
-     },
-     "teamId": "457160",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 84,
-      "second": 1
-     }
-    }
-   ],
-   "scorers": [
-    {
-     "goalType": "SCORED",
-     "id": "2864084a-e7d5-4540-9d89-ad0386a68d29",
-     "phase": "FIRST_HALF",
-     "player": {
-      "age": "16",
-      "birthDate": "2010-05-13",
-      "clubShirtName": "Tsimafeyeu",
-      "countryCode": "BLR",
-      "fieldPosition": "MIDFIELDER",
-      "gender": "MALE",
-      "id": "250227741",
-      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250227741.jpg",
-      "internationalName": "Tsimafei Tsimafeyeu",
-      "nationalFieldPosition": "MIDFIELDER",
-      "nationalJerseyNumber": "11",
-      "nationalShirtName": "Tsimafeyeu",
-      "nationalTeamId": "457155",
-      "translations": {
-       "countryName": {
-        "EN": "Belarus",
-        "FR": "Bélarus",
-        "DE": "Belarus",
-        "ES": "Bielorrusia",
-        "PT": "Bielorrússia",
-        "IT": "Bielorussia",
-        "RU": "Беларусь",
-        "ZH": "白俄罗斯",
-        "AR": "بيلاروسيا"
-       },
-       "fieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "firstName": {
-        "EN": "Tsimafei",
-        "FR": "Tsimafei",
-        "DE": "Tsimafei",
-        "ES": "Tsimafei",
-        "PT": "Tsimafei",
-        "IT": "Tsimafei",
-        "RU": "Tsimafei",
-        "ZH": "Tsimafei",
-        "AR": "Tsimafei"
-       },
-       "lastName": {
-        "EN": "Tsimafeyeu",
-        "FR": "Tsimafeyeu",
-        "DE": "Tsimafeyeu",
-        "ES": "Tsimafeyeu",
-        "PT": "Tsimafeyeu",
-        "IT": "Tsimafeyeu",
-        "RU": "Tsimafeyeu",
-        "ZH": "Tsimafeyeu",
-        "AR": "Tsimafeyeu"
-       },
-       "name": {
-        "EN": "Tsimafei Tsimafeyeu",
-        "FR": "Tsimafei Tsimafeyeu",
-        "DE": "Tsimafei Tsimafeyeu",
-        "ES": "Tsimafei Tsimafeyeu",
-        "PT": "Tsimafei Tsimafeyeu",
-        "IT": "Tsimafei Tsimafeyeu",
-        "RU": "Tsimafei Tsimafeyeu",
-        "ZH": "Tsimafei Tsimafeyeu",
-        "AR": "Tsimafei Tsimafeyeu"
-       },
-       "nationalFieldPosition": {
-        "EN": "Midfielder",
-        "FR": "Milieu",
-        "DE": "Mittelfeldspieler",
-        "ES": "Centrocampista",
-        "PT": "Médio",
-        "IT": "Centrocampista",
-        "RU": "Полузащитник",
-        "ZH": "中场球员",
-        "AR": "لاعب وسط"
-       },
-       "shortName": {
-        "EN": "Tsimafeyeu",
-        "FR": "Tsimafeyeu",
-        "DE": "Tsimafeyeu",
-        "ES": "Tsimafeyeu",
-        "PT": "Tsimafeyeu",
-        "IT": "Tsimafeyeu",
-        "RU": "Tsimafeyeu",
-        "ZH": "Tsimafeyeu",
-        "AR": "Tsimafeyeu"
-       }
-      }
-     },
-     "teamId": "457155",
-     "teamIdProvider": "FAME",
-     "time": {
-      "minute": 26,
-      "second": 38
-     }
-    }
-   ]
-  },
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250181965.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/4949.jpg"
     },
     "person": {
-     "countryCode": "ARM",
-     "gender": "MALE",
-     "id": "250181965",
+     "countryCode": "BUL",
+     "gender": "FEMALE",
+     "id": "4949",
      "translations": {
       "countryName": {
-       "EN": "Armenia",
-       "FR": "Arménie",
-       "DE": "Armenien",
-       "ES": "Armenia",
-       "PT": "Arménia",
-       "IT": "Armenia",
-       "RU": "Армения",
-       "ZH": "亚美尼亚",
-       "AR": "أرمينيا"
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
       },
       "firstName": {
-       "EN": "Yura",
-       "FR": "Yura",
-       "DE": "Yura",
-       "ES": "Yura",
-       "PT": "Yura",
-       "IT": "Yura",
-       "RU": "Юра",
-       "ZH": "Yura",
-       "AR": "يورا "
+       "EN": "Galina",
+       "FR": "Galina",
+       "DE": "Galina",
+       "ES": "Galina",
+       "PT": "Galina",
+       "IT": "Galina",
+       "RU": "Galina",
+       "ZH": "Galina",
+       "AR": "Galina"
       },
       "lastName": {
-       "EN": "Mahtesyan",
-       "FR": "Mahtesyan",
-       "DE": "Mahtesyan",
-       "ES": "Mahtesyan",
-       "PT": "Mahtesyan",
-       "IT": "Mahtesyan",
-       "RU": "Махтесян",
-       "ZH": "Mahtesyan",
-       "AR": "ماهتيسيان"
+       "EN": "Doneva",
+       "FR": "Doneva",
+       "DE": "Doneva",
+       "ES": "Doneva",
+       "PT": "Doneva",
+       "IT": "Doneva",
+       "RU": "Doneva",
+       "ZH": "Doneva",
+       "AR": "Doneva"
       },
       "name": {
-       "EN": "Yura Mahtesyan",
-       "FR": "Yura Mahtesyan",
-       "DE": "Yura Mahtesyan",
-       "ES": "Yura Mahtesyan",
-       "PT": "Yura Mahtesyan",
-       "IT": "Yura Mahtesyan",
-       "RU": "Юра Махтесян",
-       "ZH": "Yura Mahtesyan",
-       "AR": "يورا ماهتيسيان"
+       "EN": "Galina Doneva",
+       "FR": "Galina Doneva",
+       "DE": "Galina Doneva",
+       "ES": "Galina Doneva",
+       "PT": "Galina Doneva",
+       "IT": "Galina Doneva",
+       "RU": "Галина Донева",
+       "ZH": "Galina Doneva",
+       "AR": "Galina Doneva"
       },
       "shortName": {
-       "EN": "Mahtesyan",
-       "FR": "Mahtesyan",
-       "DE": "Mahtesyan",
-       "ES": "Mahtesyan",
-       "PT": "Mahtesyan",
-       "IT": "Mahtesyan",
-       "RU": "Махтесян",
-       "ZH": "Mahtesyan",
-       "AR": "ماهتيسيان"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250066326.jpg"
-    },
-    "person": {
-     "countryCode": "ARM",
-     "gender": "MALE",
-     "id": "250066326",
-     "translations": {
-      "countryName": {
-       "EN": "Armenia",
-       "FR": "Arménie",
-       "DE": "Armenien",
-       "ES": "Armenia",
-       "PT": "Arménia",
-       "IT": "Armenia",
-       "RU": "Армения",
-       "ZH": "亚美尼亚",
-       "AR": "أرمينيا"
-      },
-      "firstName": {
-       "EN": "Atom",
-       "FR": "Atom",
-       "DE": "Atom",
-       "ES": "Atom",
-       "PT": "Atom",
-       "IT": "Atom",
-       "RU": "Atom",
-       "ZH": "Atom",
-       "AR": "أتوم "
-      },
-      "lastName": {
-       "EN": "Sevgulyan",
-       "FR": "Sevgulyan",
-       "DE": "Sevgulyan",
-       "ES": "Sevgulyan",
-       "PT": "Sevgulyan",
-       "IT": "Sevgulyan",
-       "RU": "Sevgulyan",
-       "ZH": "Sevgulyan",
-       "AR": "سيفجوليان"
-      },
-      "name": {
-       "EN": "Atom Sevgulyan",
-       "FR": "Atom Sevgulyan",
-       "DE": "Atom Sevgulyan",
-       "ES": "Atom Sevgulyan",
-       "PT": "Atom Sevgulyan",
-       "IT": "Atom Sevgulyan",
-       "RU": "Атом Севгулян",
-       "ZH": "Atom Sevgulyan",
-       "AR": "أتوم سيفجوليان"
-      },
-      "shortName": {
-       "EN": "Sevgulyan",
-       "FR": "Sevgulyan",
-       "DE": "Sevgulyan",
-       "ES": "Sevgulyan",
-       "PT": "Sevgulyan",
-       "IT": "Sevgulyan",
-       "RU": "Севгулян",
-       "ZH": "Sevgulyan",
-       "AR": "سيفجوليان"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/262928.jpg"
-    },
-    "person": {
-     "countryCode": "ISR",
-     "gender": "MALE",
-     "id": "262928",
-     "translations": {
-      "countryName": {
-       "EN": "Israel",
-       "FR": "Israël",
-       "DE": "Israel",
-       "ES": "Israel",
-       "PT": "Israel",
-       "IT": "Israele",
-       "RU": "Израиль",
-       "ZH": "以色列",
-       "AR": "إسرائيل"
-      },
-      "firstName": {
-       "EN": "Haim",
-       "FR": "Haim",
-       "DE": "Haim",
-       "ES": "Haim",
-       "PT": "Haim",
-       "IT": "Haim",
-       "RU": "Хаим",
-       "ZH": "Haim",
-       "AR": "حاييم "
-      },
-      "lastName": {
-       "EN": "Jakov",
-       "FR": "Jakov",
-       "DE": "Jakov",
-       "ES": "Jakov",
-       "PT": "Jakov",
-       "IT": "Jakov",
-       "RU": "Яаков",
-       "ZH": "JAKOV",
-       "AR": "ياكوف"
-      },
-      "name": {
-       "EN": "Haim Jakov",
-       "FR": "Haim Jakov",
-       "DE": "Haim Jakov",
-       "ES": "Haim Jakov",
-       "PT": "Haim Jakov",
-       "IT": "Haim Jakov",
-       "RU": "Хаим Яаков",
-       "ZH": "海姆·贾科夫",
-       "AR": "حاييم ياكوف"
-      },
-      "shortName": {
-       "EN": "Jakov",
-       "FR": "Jakov",
-       "DE": "Jakov",
-       "ES": "Jakov",
-       "PT": "Jakov",
-       "IT": "Jakov",
-       "RU": "Яаков",
-       "ZH": "贾科夫",
-       "AR": "ياكوف"
+       "EN": "Doneva",
+       "FR": "Doneva",
+       "DE": "Doneva",
+       "ES": "Doneva",
+       "PT": "Doneva",
+       "IT": "Doneva",
+       "RU": "Донева",
+       "ZH": "Doneva",
+       "AR": "Doneva"
       }
      }
     },
     "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "AR": "مراقب الحكم"
      }
     }
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250041252.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216799.jpg"
     },
     "person": {
-     "countryCode": "ISR",
-     "gender": "MALE",
-     "id": "250041252",
+     "countryCode": "LTU",
+     "gender": "FEMALE",
+     "id": "250216799",
      "translations": {
       "countryName": {
-       "EN": "Israel",
-       "FR": "Israël",
-       "DE": "Israel",
-       "ES": "Israel",
-       "PT": "Israel",
-       "IT": "Israele",
-       "RU": "Израиль",
-       "ZH": "以色列",
-       "AR": "إسرائيل"
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
       },
       "firstName": {
-       "EN": "Avi",
-       "FR": "Avi",
-       "DE": "Avi",
-       "ES": "Avi",
-       "PT": "Avi",
-       "IT": "Avi",
-       "RU": "Avi",
-       "ZH": "Avi",
-       "AR": "Avi"
+       "EN": "Rusnė",
+       "FR": "Rusnė",
+       "DE": "Rusnė",
+       "ES": "Rusnė",
+       "PT": "Rusnė",
+       "IT": "Rusnė",
+       "RU": "Rusnė",
+       "ZH": "Rusnė",
+       "AR": "Rusnė"
       },
       "lastName": {
-       "EN": "Halevi Levi",
-       "FR": "Halevi Levi",
-       "DE": "Halevi Levi",
-       "ES": "Halevi Levi",
-       "PT": "Halevi Levi",
-       "IT": "Halevi Levi",
-       "RU": "Levi",
-       "ZH": "Levi",
-       "AR": "Halevi Levi"
+       "EN": "Vasarytė",
+       "FR": "Vasarytė",
+       "DE": "Vasarytė",
+       "ES": "Vasarytė",
+       "PT": "Vasarytė",
+       "IT": "Vasarytė",
+       "RU": "Vasarytė",
+       "ZH": "Vasarytė",
+       "AR": "Vasarytė"
       },
       "name": {
-       "EN": "Avi Levi",
-       "FR": "Avi Levi",
-       "DE": "Avi Levi",
-       "ES": "Avi Levi",
-       "PT": "Avi Levi",
-       "IT": "Avi Levi",
-       "RU": "Ави Леви",
-       "ZH": "Avi Levi",
-       "AR": "Avi Levi"
+       "EN": "Rusnė Vasarytė",
+       "FR": "Rusnė Vasarytė",
+       "DE": "Rusnė Vasarytė",
+       "ES": "Rusnė Vasarytė",
+       "PT": "Rusnė Vasarytė",
+       "IT": "Rusnė Vasarytė",
+       "RU": "Rusnė Vasarytė",
+       "ZH": "Rusnė Vasarytė",
+       "AR": "Rusnė Vasarytė"
       },
       "shortName": {
-       "EN": "Levi",
-       "FR": "Levi",
-       "DE": "Levi",
-       "ES": "Levi",
-       "PT": "Levi",
-       "IT": "Levi",
-       "RU": "Леви",
-       "ZH": "Levi",
-       "AR": "Levi"
+       "EN": "Vasarytė",
+       "FR": "Vasarytė",
+       "DE": "Vasarytė",
+       "ES": "Vasarytė",
+       "PT": "Vasarytė",
+       "IT": "Vasarytė",
+       "RU": "Vasarytė",
+       "ZH": "Vasarytė",
+       "AR": "Vasarytė"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250023128.jpg"
+    },
+    "person": {
+     "countryCode": "LTU",
+     "gender": "FEMALE",
+     "id": "250023128",
+     "translations": {
+      "countryName": {
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
+      },
+      "firstName": {
+       "EN": "Ugne",
+       "FR": "Ugne",
+       "DE": "Ugne",
+       "ES": "Ugne",
+       "PT": "Ugne",
+       "IT": "Ugne",
+       "RU": "Ugne",
+       "ZH": "Ugne",
+       "AR": "Ugne"
+      },
+      "lastName": {
+       "EN": "Šmitaite",
+       "FR": "Šmitaite",
+       "DE": "Šmitaite",
+       "ES": "Šmitaite",
+       "PT": "Šmitaite",
+       "IT": "Šmitaite",
+       "RU": "Šmitaite",
+       "ZH": "Šmitaite",
+       "AR": "Šmitaite"
+      },
+      "name": {
+       "EN": "Ugne Šmitaite",
+       "FR": "Ugne Šmitaite",
+       "DE": "Ugne Šmitaite",
+       "ES": "Ugne Šmitaite",
+       "PT": "Ugne Šmitaite",
+       "IT": "Ugne Šmitaite",
+       "RU": "Угне Шмитайте",
+       "ZH": "Ugne Šmitaite",
+       "AR": "Ugne Šmitaite"
+      },
+      "shortName": {
+       "EN": "Šmitaite",
+       "FR": "Šmitaite",
+       "DE": "Šmitaite",
+       "ES": "Šmitaite",
+       "PT": "Šmitaite",
+       "IT": "Šmitaite",
+       "RU": "Шмитайте",
+       "ZH": "Šmitaite",
+       "AR": "Šmitaite"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/283317.jpg"
+    },
+    "person": {
+     "countryCode": "SCO",
+     "gender": "MALE",
+     "id": "283317",
+     "translations": {
+      "countryName": {
+       "EN": "Scotland",
+       "FR": "Écosse",
+       "DE": "Schottland",
+       "ES": "Escocia",
+       "PT": "Escócia",
+       "IT": "Scozia",
+       "RU": "Шотландия",
+       "ZH": "苏格兰",
+       "AR": "اسكتلندا"
+      },
+      "firstName": {
+       "EN": "Iain",
+       "FR": "Iain",
+       "DE": "Iain",
+       "ES": "Iain",
+       "PT": "Iain",
+       "IT": "Iain",
+       "RU": "Iain",
+       "ZH": "Iain",
+       "AR": "إيان "
+      },
+      "lastName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
+      },
+      "name": {
+       "EN": "Iain Blair",
+       "FR": "Iain Blair",
+       "DE": "Iain Blair",
+       "ES": "Iain Blair",
+       "PT": "Iain Blair",
+       "IT": "Iain Blair",
+       "RU": "Iain Blair",
+       "ZH": "Iain Blair",
+       "AR": "إيان بلير"
+      },
+      "shortName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
       }
      }
     },
@@ -2818,163 +1704,163 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216435.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138655.jpg"
     },
     "person": {
-     "countryCode": "CYP",
-     "gender": "MALE",
-     "id": "250216435",
+     "countryCode": "MDA",
+     "gender": "FEMALE",
+     "id": "250138655",
      "translations": {
       "countryName": {
-       "EN": "Cyprus",
-       "FR": "Chypre",
-       "DE": "Zypern",
-       "ES": "Chipre",
-       "PT": "Chipre",
-       "IT": "Cipro",
-       "RU": "Кипр",
-       "ZH": "塞浦路斯",
-       "AR": "قبرص"
+       "EN": "Moldova",
+       "FR": "Moldavie",
+       "DE": "Moldau",
+       "ES": "Moldavia",
+       "PT": "Moldávia",
+       "IT": "Moldavia",
+       "RU": "Молдова",
+       "ZH": "摩尔多瓦",
+       "AR": "مولدوفا"
       },
       "firstName": {
-       "EN": "Savvas",
-       "FR": "Savvas",
-       "DE": "Savvas",
-       "ES": "Savvas",
-       "PT": "Savvas",
-       "IT": "Savvas",
-       "RU": "Savvas",
-       "ZH": "Savvas",
-       "AR": "Savvas"
+       "EN": "Oxana",
+       "FR": "Oxana",
+       "DE": "Oxana",
+       "ES": "Oxana",
+       "PT": "Oxana",
+       "IT": "Oxana",
+       "RU": "Оксана",
+       "ZH": "Oxana",
+       "AR": "Oxana"
       },
       "lastName": {
-       "EN": "Evangelides",
-       "FR": "Evangelides",
-       "DE": "Evangelides",
-       "ES": "Evangelides",
-       "PT": "Evangelides",
-       "IT": "Evangelides",
-       "RU": "Evangelides",
-       "ZH": "Evangelides",
-       "AR": "Evangelides"
+       "EN": "Cruc",
+       "FR": "Cruc",
+       "DE": "Cruc",
+       "ES": "Cruc",
+       "PT": "Cruc",
+       "IT": "Cruc",
+       "RU": "Крук",
+       "ZH": "Cruc",
+       "AR": "Cruc"
       },
       "name": {
-       "EN": "Savvas Evangelides",
-       "FR": "Savvas Evangelides",
-       "DE": "Savvas Evangelides",
-       "ES": "Savvas Evangelides",
-       "PT": "Savvas Evangelides",
-       "IT": "Savvas Evangelides",
-       "RU": "Savvas Evangelides",
-       "ZH": "Savvas Evangelides",
-       "AR": "Savvas Evangelides"
+       "EN": "Oxana Cruc",
+       "FR": "Oxana Cruc",
+       "DE": "Oxana Cruc",
+       "ES": "Oxana Cruc",
+       "PT": "Oxana Cruc",
+       "IT": "Oxana Cruc",
+       "RU": "Оксана Крук",
+       "ZH": "Oxana Cruc",
+       "AR": "Oxana Cruc"
       },
       "shortName": {
-       "EN": "Evangelides",
-       "FR": "Evangelides",
-       "DE": "Evangelides",
-       "ES": "Evangelides",
-       "PT": "Evangelides",
-       "IT": "Evangelides",
-       "RU": "Evangelides",
-       "ZH": "Evangelides",
-       "AR": "Evangelides"
+       "EN": "Cruc",
+       "FR": "Cruc",
+       "DE": "Cruc",
+       "ES": "Cruc",
+       "PT": "Cruc",
+       "IT": "Cruc",
+       "RU": "Крук",
+       "ZH": "Cruc",
+       "AR": "Cruc"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250179296.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/68225.jpg"
     },
     "person": {
-     "countryCode": "CYP",
-     "gender": "MALE",
-     "id": "250179296",
+     "countryCode": "MDA",
+     "gender": "FEMALE",
+     "id": "68225",
      "translations": {
       "countryName": {
-       "EN": "Cyprus",
-       "FR": "Chypre",
-       "DE": "Zypern",
-       "ES": "Chipre",
-       "PT": "Chipre",
-       "IT": "Cipro",
-       "RU": "Кипр",
-       "ZH": "塞浦路斯",
-       "AR": "قبرص"
+       "EN": "Moldova",
+       "FR": "Moldavie",
+       "DE": "Moldau",
+       "ES": "Moldavia",
+       "PT": "Moldávia",
+       "IT": "Moldavia",
+       "RU": "Молдова",
+       "ZH": "摩尔多瓦",
+       "AR": "مولدوفا"
       },
       "firstName": {
-       "EN": "Ioannis",
-       "FR": "Ioannis",
-       "DE": "Ioannis",
-       "ES": "Ioannis",
-       "PT": "Ioannis",
-       "IT": "Ioannis",
-       "RU": "Яннис",
-       "ZH": "CHRISTODOULOU",
-       "AR": "يوانيس "
+       "EN": "Natalia",
+       "FR": "Natalia",
+       "DE": "Natalia",
+       "ES": "Natalia",
+       "PT": "Natalia",
+       "IT": "Natalia",
+       "RU": "Natalia",
+       "ZH": "Natalia",
+       "AR": "Natalia"
       },
       "lastName": {
-       "EN": "Christodoulou",
-       "FR": "Christodoulou",
-       "DE": "Christodoulou",
-       "ES": "Christodoulou",
-       "PT": "Christodoulou",
-       "IT": "Christodoulou",
-       "RU": "Христодулу",
-       "ZH": "CHRISTODOULOU",
-       "AR": "كريستودولو"
+       "EN": "Ceban",
+       "FR": "Ceban",
+       "DE": "Ceban",
+       "ES": "Ceban",
+       "PT": "Ceban",
+       "IT": "Ceban",
+       "RU": "Ceban",
+       "ZH": "Ceban",
+       "AR": "Ceban"
       },
       "name": {
-       "EN": "Ioannis Christodoulou",
-       "FR": "Ioannis Christodoulou",
-       "DE": "Ioannis Christodoulou",
-       "ES": "Ioannis Christodoulou",
-       "PT": "Ioannis Christodoulou",
-       "IT": "Ioannis Christodoulou",
-       "RU": "Яннис Христодулу",
-       "ZH": "CHRISTODOULOU CHRISTODOULOU",
-       "AR": "يوانيس كريستودولو"
+       "EN": "Natalia Ceban",
+       "FR": "Natalia Ceban",
+       "DE": "Natalia Ceban",
+       "ES": "Natalia Ceban",
+       "PT": "Natalia Ceban",
+       "IT": "Natalia Ceban",
+       "RU": "Наталья Чебан",
+       "ZH": "Natalia Ceban",
+       "AR": "Natalia Ceban"
       },
       "shortName": {
-       "EN": "Christodoulou",
-       "FR": "Christodoulou",
-       "DE": "Christodoulou",
-       "ES": "Christodoulou",
-       "PT": "Christodoulou",
-       "IT": "Christodoulou",
-       "RU": "Христодулу",
-       "ZH": "CHRISTODOULOU",
-       "AR": "كريستودولو"
+       "EN": "Ceban",
+       "FR": "Ceban",
+       "DE": "Ceban",
+       "ES": "Ceban",
+       "PT": "Ceban",
+       "IT": "Ceban",
+       "RU": "Чебан",
+       "ZH": "Ceban",
+       "AR": "Ceban"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    }
@@ -2985,12 +1871,12 @@
    "benchPlayersCount": 9,
    "benchStaffCount": 11,
    "coefficientWinnerBonus": 0.0,
-   "competitionId": "23",
-   "dateFrom": "2026-09-23T06:00:00+0000",
-   "dateTo": "2026-11-17T22:59:59+0000",
+   "competitionId": "101",
+   "dateFrom": "2026-07-01T06:00:00+0000",
+   "dateTo": "2026-12-05T22:59:59+0000",
    "fieldPlayersCount": 11,
-   "groupCount": 14,
-   "id": "2002214",
+   "groupCount": 13,
+   "id": "2002006",
    "metaData": {
     "name": "Round 1",
     "type": "QUALIFYING"
@@ -3000,68 +1886,62 @@
    "orderInCompetition": 1,
    "phase": "QUALIFYING",
    "seasonYear": "2027",
-   "secondaryType": "QUALIFYING_ROUND",
    "stadiumNameType": "OFFICIAL_NAME",
-   "standingsRankingFormulaId": "625",
+   "standingsRankingFormulaId": "627",
    "status": "CURRENT",
    "substitutionCount": 5,
-   "teamCount": 54,
+   "teamCount": 50,
    "teams": [
-    "400082",
-    "400081",
-    "457419",
-    "400002",
-    "400047",
-    "400088",
-    "400122",
-    "400042",
-    "400043",
-    "400039",
-    "400117",
-    "456370",
-    "459205",
-    "492853",
-    "458837",
-    "458836",
-    "400035",
-    "400113",
-    "400033",
-    "400110",
-    "400109",
-    "2605255",
-    "451218",
-    "400147",
-    "450168",
-    "457154",
-    "457155",
-    "457157",
-    "400101",
-    "400069",
-    "400066",
-    "400144",
-    "400020",
-    "400064",
-    "400065",
-    "400063",
-    "2608697",
-    "457160",
-    "460094",
-    "457163",
-    "457166",
-    "456556",
-    "456557",
-    "456558",
-    "460618",
-    "400013",
-    "400057",
-    "400058",
-    "400135",
-    "465146",
-    "400095",
-    "400008",
-    "400127",
-    "400128",
-    "400049"
+    "2600312",
+    "2600313",
+    "2600314",
+    "2606939",
+    "2600073",
+    "2600074",
+    "2600075",
+    "2600076",
+    "2600077",
+    "2600078",
+    "2600079",
+    "2609404",
+    "2600070",
+    "2600071",
+    "2600072",
+    "2600048",
+    "2600049",
+    "2603077",
+    "2607952",
+    "2605257",
+    "2600043",
+    "2600044",
+    "2600046",
+    "2600047",
+    "2600080",
+    "2600081",
+    "2600059",
+    "2600051",
+    "2600052",
+    "2600053",
+    "2610942",
+    "2600054",
+    "2600055",
+    "2600056",
+    "2604337",
+    "2600057",
+    "2600058",
+    "2600050",
+    "2611583",
+    "2600062",
+    "2600063",
+    "2600064",
+    "2600581",
+    "2600065",
+    "2600066",
+    "2600067",
+    "2600068",
+    "2600069",
+    "2600060",
+    "2600061"
    ],
    "translations": {
     "abbreviation": {
@@ -3099,192 +1979,102 @@
     }
    }
   },
-  "score": {
-   "regular": {
-    "away": 1,
-    "home": 0
-   },
-   "total": {
-    "away": 1,
-    "home": 0
-   }
-  },
   "seasonYear": "2027",
-  "sessionNumber": 2,
+  "sessionNumber": 5,
   "stadium": {
-   "address": "45 Dacia b-d",
-   "capacity": 10104,
+   "address": "Ålgårdsvägen 32",
+   "capacity": 12333,
    "city": {
-    "countryCode": "MDA",
-    "id": "1423",
+    "countryCode": "SWE",
+    "id": "1271",
     "translations": {
      "name": {
-      "EN": "Chisinau",
-      "FR": "Chisinau",
-      "DE": "Chisinau",
-      "ES": "Chisinau",
-      "PT": "Chisinau",
-      "IT": "Chisinau",
-      "RU": "Кишинев",
-      "ZH": "基希讷乌",
-      "AR": "كيشيناو"
+      "EN": "Boras",
+      "FR": "Boras",
+      "DE": "Boras",
+      "ES": "Boras",
+      "PT": "Boras",
+      "IT": "Boras",
+      "RU": "Бурос",
+      "ZH": "波拉什",
+      "AR": "بوروس"
      }
     }
    },
-   "countryCode": "MDA",
+   "countryCode": "SWE",
    "geolocation": {
-    "latitude": 46.9803278,
-    "longitude": 28.8680861
+    "latitude": 57.7344194,
+    "longitude": 12.9347556
    },
-   "id": "88142",
+   "id": "1100040",
    "images": {
-    "MEDIUM_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/w1/88142.jpg",
-    "LARGE_ULTRA_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/uw/88142.jpg"
+    "MEDIUM_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/w1/1100040.jpg",
+    "LARGE_ULTRA_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/uw/1100040.jpg"
    },
-   "openingDate": "2006-01-01",
+   "openingDate": "2005-01-01",
    "pitch": {
     "length": 105,
     "width": 68
    },
    "translations": {
     "mediaName": {
-     "EN": "Stadionul Zimbru",
-     "FR": "Stadionul Zimbru",
-     "DE": "Stadionul Zimbru",
-     "ES": "Stadionul Zimbru",
-     "PT": "Stadionul Zimbru",
-     "IT": "Stadionul Zimbru",
-     "RU": "Зимбру",
-     "ZH": "Stadionul Zimbru",
-     "AR": "استاد زيمبرو"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "name": {
-     "EN": "Stadionul Zimbru",
-     "FR": "Stadionul Zimbru",
-     "DE": "Stadionul Zimbru",
-     "ES": "Stadionul Zimbru",
-     "PT": "Stadionul Zimbru",
-     "IT": "Stadionul Zimbru",
-     "RU": "Зимбру",
-     "ZH": "Stadionul Zimbru",
-     "AR": "استاد زيمبرو"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "officialName": {
-     "EN": "Stadionul Zimbru",
-     "FR": "Stadionul Zimbru",
-     "DE": "Stadionul Zimbru",
-     "ES": "Stadionul Zimbru",
-     "PT": "Stadionul Zimbru",
-     "IT": "Stadionul Zimbru",
-     "RU": "Зимбру",
-     "ZH": "Stadionul Zimbru",
-     "AR": "استاد زيمبرو"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "specialEventsName": {
-     "EN": "Stadionul Zimbru",
-     "FR": "Stadionul Zimbru",
-     "DE": "Stadionul Zimbru",
-     "ES": "Stadionul Zimbru",
-     "PT": "Stadionul Zimbru",
-     "IT": "Stadionul Zimbru",
-     "RU": "Зимбру",
-     "ZH": "Stadionul Zimbru",
-     "AR": "استاد زيمبرو"
+     "EN": "Borås Arena",
+     "FR": "Borås Arena",
+     "DE": "Borås Arena",
+     "ES": "Borås Arena",
+     "PT": "Borås Arena",
+     "IT": "Borås Arena",
+     "RU": "Бурос Арена",
+     "ZH": "Borås Arena",
+     "AR": "بوروس أرينا"
     },
     "sponsorName": {
-     "EN": "Stadionul Zimbru",
-     "FR": "Stadionul Zimbru",
-     "DE": "Stadionul Zimbru",
-     "ES": "Stadionul Zimbru",
-     "PT": "Stadionul Zimbru",
-     "IT": "Stadionul Zimbru",
-     "RU": "Зимбру",
-     "ZH": "Stadionul Zimbru",
-     "AR": "استاد زيمبرو"
+     "EN": "None",
+     "FR": "None",
+     "DE": "None",
+     "ES": "None",
+     "PT": "None",
+     "IT": "None",
+     "RU": "None",
+     "ZH": "None",
+     "AR": "None"
     }
    }
   },
-  "status": "FINISHED",
-  "type": "GROUP_STAGE",
-  "winner": {
-   "match": {
-    "reason": "WIN_REGULAR",
-    "team": {
-     "associationId": "257155",
-     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/BLR.svg",
-     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/BLR.png",
-     "confederationType": "UEFA",
-     "countryCode": "BLR",
-     "id": "457155",
-     "idProvider": "FAME",
-     "internationalName": "Belarus",
-     "isPlaceHolder": false,
-     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/BLR.png",
-     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/BLR.png",
-     "organizationId": "257155",
-     "teamCode": "BLR",
-     "teamTypeDetail": "NATIONAL_MEN_U17",
-     "translations": {
-      "countryName": {
-       "EN": "Belarus",
-       "FR": "Bélarus",
-       "DE": "Belarus",
-       "ES": "Bielorrusia",
-       "PT": "Bielorrússia",
-       "IT": "Bielorussia",
-       "RU": "Беларусь",
-       "ZH": "白俄罗斯",
-       "AR": "بيلاروسيا"
-      },
-      "displayName": {
-       "EN": "Belarus",
-       "FR": "Belarus",
-       "DE": "Belarus",
-       "ES": "Bielorrusia",
-       "PT": "Bielorrússia",
-       "IT": "Bielorussia",
-       "RU": "Беларусь",
-       "ZH": "白俄罗斯",
-       "AR": "Belarus"
-      },
-      "displayOfficialName": {
-       "EN": "Belarus",
-       "FR": "Belarus",
-       "DE": "Belarus",
-       "ES": "Bielorrusia",
-       "PT": "Bielorrússia",
-       "IT": "Bielorussia",
-       "RU": "Беларусь",
-       "ZH": "白俄罗斯",
-       "AR": "Belarus"
-      },
-      "displayTeamCode": {
-       "EN": "BLR",
-       "FR": "BLR",
-       "DE": "BLR",
-       "ES": "BLR",
-       "PT": "BLR",
-       "IT": "BLR",
-       "RU": "BLR",
-       "ZH": "BLR",
-       "AR": "BLR"
-      },
-      "shortName": {
-       "EN": "BLR",
-       "FR": "BLR",
-       "DE": "BLR",
-       "ES": "BLR",
-       "PT": "BLR",
-       "IT": "BLR",
-       "RU": "Беларусь",
-       "ZH": "BYEL",
-       "AR": "BLR"
-      }
-     },
-     "typeIsNational": true,
-     "typeTeam": "NATIONAL"
-    }
-   }
-  }
+  "status": "UPCOMING",
+  "type": "GROUP_STAGE"
  }
 ]
