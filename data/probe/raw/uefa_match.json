@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 8,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "101",
    "id": "2012444",
@@ -299,7 +328,7 @@
    "dateTime": "2026-10-24T11:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-10T06:00:00+0000",
@@ -338,169 +367,649 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 88
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "aae25578-1c2f-4b70-b99a-f6e70b38b881",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2010-11-22",
+      "clubShirtName": "Klooster",
+      "countryCode": "NED",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "FEMALE",
+      "id": "250227825",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250227825.jpg",
+      "internationalName": "Lisa Klooster",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Klooster",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "firstName": {
+        "EN": "Lisa",
+        "FR": "Lisa",
+        "DE": "Lisa",
+        "ES": "Lisa",
+        "PT": "Lisa",
+        "IT": "Lisa",
+        "RU": "Lisa Sara Anniek",
+        "ZH": "Lisa Sara Anniek",
+        "AR": "Lisa Sara Anniek"
+       },
+       "lastName": {
+        "EN": "Klooster",
+        "FR": "Klooster",
+        "DE": "Klooster",
+        "ES": "Klooster",
+        "PT": "Klooster",
+        "IT": "Klooster",
+        "RU": "Klooster",
+        "ZH": "Klooster",
+        "AR": "Klooster"
+       },
+       "name": {
+        "EN": "Lisa Klooster",
+        "FR": "Lisa Klooster",
+        "DE": "Lisa Klooster",
+        "ES": "Lisa Klooster",
+        "PT": "Lisa Klooster",
+        "IT": "Lisa Klooster",
+        "RU": "Lisa Sara Anniek Klooster",
+        "ZH": "Lisa Sara Anniek Klooster",
+        "AR": "Lisa Sara Anniek Klooster"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Klooster",
+        "FR": "Klooster",
+        "DE": "Klooster",
+        "ES": "Klooster",
+        "PT": "Klooster",
+        "IT": "Klooster",
+        "RU": "Klooster",
+        "ZH": "Klooster",
+        "AR": "Klooster"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 16,
+      "second": 6
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "e69fdaf2-ae58-429d-bdb6-86ac3d3e7f9f",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-06-14",
+      "clubShirtName": "de Boer",
+      "countryCode": "NED",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250227821",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250227821.jpg",
+      "internationalName": "Floorke De Boer",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "de Boer",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Floorke",
+        "FR": "Floorke",
+        "DE": "Floorke",
+        "ES": "Floorke",
+        "PT": "Floorke",
+        "IT": "Floorke",
+        "RU": "Floorke Diny",
+        "ZH": "Floorke Diny",
+        "AR": "Floorke Diny"
+       },
+       "lastName": {
+        "EN": "De Boer",
+        "FR": "De Boer",
+        "DE": "De Boer",
+        "ES": "De Boer",
+        "PT": "De Boer",
+        "IT": "De Boer",
+        "RU": "De Boer",
+        "ZH": "De Boer",
+        "AR": "De Boer"
+       },
+       "name": {
+        "EN": "Floorke De Boer",
+        "FR": "Floorke De Boer",
+        "DE": "Floorke De Boer",
+        "ES": "Floorke De Boer",
+        "PT": "Floorke De Boer",
+        "IT": "Floorke De Boer",
+        "RU": "Floorke Diny De Boer",
+        "ZH": "Floorke Diny De Boer",
+        "AR": "Floorke Diny De Boer"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "De Boer",
+        "FR": "De Boer",
+        "DE": "De Boer",
+        "ES": "De Boer",
+        "PT": "De Boer",
+        "IT": "De Boer",
+        "RU": "De Boer",
+        "ZH": "De Boer",
+        "AR": "De Boer"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 27,
+      "second": 13
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "de0aeb45-259e-486f-abea-56abae7bbe18",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-08-16",
+      "clubShirtName": "Ronkes",
+      "countryCode": "NED",
+      "fieldPosition": "DEFENDER",
+      "gender": "FEMALE",
+      "id": "250227830",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250227830.jpg",
+      "internationalName": "Madelief Ronkes",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "5",
+      "nationalShirtName": "Ronkes",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Madelief",
+        "FR": "Madelief",
+        "DE": "Madelief",
+        "ES": "Madelief",
+        "PT": "Madelief",
+        "IT": "Madelief",
+        "RU": "Madelief Isabelle",
+        "ZH": "Madelief Isabelle",
+        "AR": "Madelief Isabelle"
+       },
+       "lastName": {
+        "EN": "Ronkes",
+        "FR": "Ronkes",
+        "DE": "Ronkes",
+        "ES": "Ronkes",
+        "PT": "Ronkes",
+        "IT": "Ronkes",
+        "RU": "Ronkes",
+        "ZH": "Ronkes",
+        "AR": "Ronkes"
+       },
+       "name": {
+        "EN": "Madelief Ronkes",
+        "FR": "Madelief Ronkes",
+        "DE": "Madelief Ronkes",
+        "ES": "Madelief Ronkes",
+        "PT": "Madelief Ronkes",
+        "IT": "Madelief Ronkes",
+        "RU": "Madelief Isabelle Ronkes",
+        "ZH": "Madelief Isabelle Ronkes",
+        "AR": "Madelief Isabelle Ronkes"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Ronkes",
+        "FR": "Ronkes",
+        "DE": "Ronkes",
+        "ES": "Ronkes",
+        "PT": "Ronkes",
+        "IT": "Ronkes",
+        "RU": "Ronkes",
+        "ZH": "Ronkes",
+        "AR": "Ronkes"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 37,
+      "second": 18
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "465f42c2-0979-42cf-8836-13348ea84c88",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-04-05",
+      "clubId": "2611131",
+      "clubJerseyNumber": "46",
+      "clubShirtName": "Fischer",
+      "countryCode": "NED",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "FEMALE",
+      "id": "250214614",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250214614.jpg",
+      "internationalName": "Elise Fischer",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "6",
+      "nationalShirtName": "Fischer",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "firstName": {
+        "EN": "Elise",
+        "FR": "Elise",
+        "DE": "Elise",
+        "ES": "Elise",
+        "PT": "Elise",
+        "IT": "Elise",
+        "RU": "Elise",
+        "ZH": "Elise",
+        "AR": "Elise"
+       },
+       "lastName": {
+        "EN": "Fischer",
+        "FR": "Fischer",
+        "DE": "Fischer",
+        "ES": "Fischer",
+        "PT": "Fischer",
+        "IT": "Fischer",
+        "RU": "Fischer",
+        "ZH": "Fischer",
+        "AR": "Fischer"
+       },
+       "name": {
+        "EN": "Elise Fischer",
+        "FR": "Elise Fischer",
+        "DE": "Elise Fischer",
+        "ES": "Elise Fischer",
+        "PT": "Elise Fischer",
+        "IT": "Elise Fischer",
+        "RU": "Elise Fischer",
+        "ZH": "Elise Fischer",
+        "AR": "Elise Fischer"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Fischer",
+        "FR": "Fischer",
+        "DE": "Fischer",
+        "ES": "Fischer",
+        "PT": "Fischer",
+        "IT": "Fischer",
+        "RU": "Fischer",
+        "ZH": "Fischer",
+        "AR": "Fischer"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 45,
+      "second": 3
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "ca276b63-d7fe-42a8-904a-259ba2918de2",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-04-05",
+      "clubId": "2611131",
+      "clubJerseyNumber": "46",
+      "clubShirtName": "Fischer",
+      "countryCode": "NED",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "FEMALE",
+      "id": "250214614",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250214614.jpg",
+      "internationalName": "Elise Fischer",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "6",
+      "nationalShirtName": "Fischer",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "firstName": {
+        "EN": "Elise",
+        "FR": "Elise",
+        "DE": "Elise",
+        "ES": "Elise",
+        "PT": "Elise",
+        "IT": "Elise",
+        "RU": "Elise",
+        "ZH": "Elise",
+        "AR": "Elise"
+       },
+       "lastName": {
+        "EN": "Fischer",
+        "FR": "Fischer",
+        "DE": "Fischer",
+        "ES": "Fischer",
+        "PT": "Fischer",
+        "IT": "Fischer",
+        "RU": "Fischer",
+        "ZH": "Fischer",
+        "AR": "Fischer"
+       },
+       "name": {
+        "EN": "Elise Fischer",
+        "FR": "Elise Fischer",
+        "DE": "Elise Fischer",
+        "ES": "Elise Fischer",
+        "PT": "Elise Fischer",
+        "IT": "Elise Fischer",
+        "RU": "Elise Fischer",
+        "ZH": "Elise Fischer",
+        "AR": "Elise Fischer"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Fischer",
+        "FR": "Fischer",
+        "DE": "Fischer",
+        "ES": "Fischer",
+        "PT": "Fischer",
+        "IT": "Fischer",
+        "RU": "Fischer",
+        "ZH": "Fischer",
+        "AR": "Fischer"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 55,
+      "second": 41
+     }
+    },
+    {
+     "goalType": "PENALTY",
+     "id": "bbc70137-5e56-4ebd-9af1-7fe1b769af80",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-05-29",
+      "clubShirtName": "de Graaf",
+      "countryCode": "NED",
+      "fieldPosition": "DEFENDER",
+      "gender": "FEMALE",
+      "id": "250227822",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250227822.jpg",
+      "internationalName": "Lois De Graaf",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "2",
+      "nationalShirtName": "de Graaf",
+      "nationalTeamId": "2600051",
+      "translations": {
+       "countryName": {
+        "EN": "Netherlands",
+        "FR": "Pays-Bas",
+        "DE": "Niederlande",
+        "ES": "Holanda",
+        "PT": "Holanda",
+        "IT": "Olanda",
+        "RU": "Нидерланды",
+        "ZH": "荷兰",
+        "AR": "هولندا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Lois",
+        "FR": "Lois",
+        "DE": "Lois",
+        "ES": "Lois",
+        "PT": "Lois",
+        "IT": "Lois",
+        "RU": "Lois",
+        "ZH": "Lois",
+        "AR": "Lois"
+       },
+       "lastName": {
+        "EN": "De Graaf",
+        "FR": "De Graaf",
+        "DE": "De Graaf",
+        "ES": "De Graaf",
+        "PT": "De Graaf",
+        "IT": "De Graaf",
+        "RU": "De Graaf",
+        "ZH": "De Graaf",
+        "AR": "De Graaf"
+       },
+       "name": {
+        "EN": "Lois De Graaf",
+        "FR": "Lois De Graaf",
+        "DE": "Lois De Graaf",
+        "ES": "Lois De Graaf",
+        "PT": "Lois De Graaf",
+        "IT": "Lois De Graaf",
+        "RU": "Lois De Graaf",
+        "ZH": "Lois De Graaf",
+        "AR": "Lois De Graaf"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "De Graaf",
+        "FR": "De Graaf",
+        "DE": "De Graaf",
+        "ES": "De Graaf",
+        "PT": "De Graaf",
+        "IT": "De Graaf",
+        "RU": "De Graaf",
+        "ZH": "De Graaf",
+        "AR": "De Graaf"
+       }
+      }
+     },
+     "teamId": "2600051",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 80,
+      "second": 12
+     }
+    }
+   ]
+  },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122652.jpg"
-    },
-    "person": {
-     "countryCode": "ESP",
-     "gender": "FEMALE",
-     "id": "250122652",
-     "translations": {
-      "countryName": {
-       "EN": "Spain",
-       "FR": "Espagne",
-       "DE": "Spanien",
-       "ES": "España",
-       "PT": "Espanha",
-       "IT": "Spagna",
-       "RU": "Испания",
-       "ZH": "西班牙",
-       "AR": "إسبانيا"
-      },
-      "firstName": {
-       "EN": "Paola",
-       "FR": "Paola",
-       "DE": "Paola",
-       "ES": "Paola",
-       "PT": "Paola",
-       "IT": "Paola",
-       "RU": "Паола",
-       "ZH": "Paola",
-       "AR": "Paola"
-      },
-      "lastName": {
-       "EN": "Cebollada López",
-       "FR": "Cebollada López",
-       "DE": "Cebollada López",
-       "ES": "Cebollada López",
-       "PT": "Cebollada López",
-       "IT": "Cebollada López",
-       "RU": "Себольяда Лопес",
-       "ZH": "Cebollada López",
-       "AR": "Cebollada López"
-      },
-      "name": {
-       "EN": "Paola Cebollada López",
-       "FR": "Paola Cebollada López",
-       "DE": "Paola Cebollada López",
-       "ES": "Paola Cebollada López",
-       "PT": "Paola Cebollada López",
-       "IT": "Paola Cebollada López",
-       "RU": "Паола Себольяда Лопес",
-       "ZH": "Paola Cebollada López",
-       "AR": "Paola Cebollada López"
-      },
-      "shortName": {
-       "EN": "Cebollada López",
-       "FR": "Cebollada López",
-       "DE": "Cebollada López",
-       "ES": "Cebollada López",
-       "PT": "Cebollada López",
-       "IT": "Cebollada López",
-       "RU": "Себольяда Лопес",
-       "ZH": "Cebollada López",
-       "AR": "Cebollada López"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250069505.jpg"
-    },
-    "person": {
-     "countryCode": "ESP",
-     "gender": "FEMALE",
-     "id": "250069505",
-     "translations": {
-      "countryName": {
-       "EN": "Spain",
-       "FR": "Espagne",
-       "DE": "Spanien",
-       "ES": "España",
-       "PT": "Espanha",
-       "IT": "Spagna",
-       "RU": "Испания",
-       "ZH": "西班牙",
-       "AR": "إسبانيا"
-      },
-      "firstName": {
-       "EN": "Silvia",
-       "FR": "Silvia",
-       "DE": "Silvia",
-       "ES": "Silvia",
-       "PT": "Silvia",
-       "IT": "Silvia",
-       "RU": "Silvia",
-       "ZH": "Silvia",
-       "AR": "Silvia"
-      },
-      "lastName": {
-       "EN": "Fernandez",
-       "FR": "Fernandez",
-       "DE": "Fernandez",
-       "ES": "Fernandez",
-       "PT": "Fernandez",
-       "IT": "Fernandez",
-       "RU": "Fernandez Perez",
-       "ZH": "Fernandez Perez",
-       "AR": "Fernandez"
-      },
-      "name": {
-       "EN": "Silvia Fernandez",
-       "FR": "Silvia Fernandez",
-       "DE": "Silvia Fernandez",
-       "ES": "Silvia Fernandez",
-       "PT": "Silvia Fernandez",
-       "IT": "Silvia Fernandez",
-       "RU": "Сильвия Фернандес Перес",
-       "ZH": "Silvia Fernandez Perez",
-       "AR": "Silvia Fernandez"
-      },
-      "shortName": {
-       "EN": "Fernandez",
-       "FR": "Fernandez",
-       "DE": "Fernandez",
-       "ES": "Fernandez",
-       "PT": "Fernandez",
-       "IT": "Fernandez",
-       "RU": "Фернандес Перес",
-       "ZH": "Fernandez Perez",
-       "AR": "Fernandez"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/283317.jpg"
@@ -579,6 +1088,87 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216934.jpg"
+    },
+    "person": {
+     "countryCode": "SWE",
+     "gender": "FEMALE",
+     "id": "250216934",
+     "translations": {
+      "countryName": {
+       "EN": "Sweden",
+       "FR": "Suède",
+       "DE": "Schweden",
+       "ES": "Suecia",
+       "PT": "Suécia",
+       "IT": "Svezia",
+       "RU": "Швеция",
+       "ZH": "瑞典",
+       "AR": "السويد"
+      },
+      "firstName": {
+       "EN": "Nike",
+       "FR": "Nike",
+       "DE": "Nike",
+       "ES": "Nike",
+       "PT": "Nike",
+       "IT": "Nike",
+       "RU": "Nike",
+       "ZH": "Nike",
+       "AR": "Nike"
+      },
+      "lastName": {
+       "EN": "Sjögerås",
+       "FR": "Sjögerås",
+       "DE": "Sjögerås",
+       "ES": "Sjögerås",
+       "PT": "Sjögerås",
+       "IT": "Sjögerås",
+       "RU": "Sjögerås",
+       "ZH": "Sjögerås",
+       "AR": "Sjögerås"
+      },
+      "name": {
+       "EN": "Nike Sjögerås",
+       "FR": "Nike Sjögerås",
+       "DE": "Nike Sjögerås",
+       "ES": "Nike Sjögerås",
+       "PT": "Nike Sjögerås",
+       "IT": "Nike Sjögerås",
+       "RU": "Nike Sjögerås",
+       "ZH": "Nike Sjögerås",
+       "AR": "Nike Sjögerås"
+      },
+      "shortName": {
+       "EN": "Sjögerås",
+       "FR": "Sjögerås",
+       "DE": "Sjögerås",
+       "ES": "Sjögerås",
+       "PT": "Sjögerås",
+       "IT": "Sjögerås",
+       "RU": "Sjögerås",
+       "ZH": "Sjögerås",
+       "AR": "Sjögerås"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    },
@@ -746,82 +1336,163 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216934.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250069505.jpg"
     },
     "person": {
-     "countryCode": "SWE",
+     "countryCode": "ESP",
      "gender": "FEMALE",
-     "id": "250216934",
+     "id": "250069505",
      "translations": {
       "countryName": {
-       "EN": "Sweden",
-       "FR": "Suède",
-       "DE": "Schweden",
-       "ES": "Suecia",
-       "PT": "Suécia",
-       "IT": "Svezia",
-       "RU": "Швеция",
-       "ZH": "瑞典",
-       "AR": "السويد"
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
       },
       "firstName": {
-       "EN": "Nike",
-       "FR": "Nike",
-       "DE": "Nike",
-       "ES": "Nike",
-       "PT": "Nike",
-       "IT": "Nike",
-       "RU": "Nike",
-       "ZH": "Nike",
-       "AR": "Nike"
+       "EN": "Silvia",
+       "FR": "Silvia",
+       "DE": "Silvia",
+       "ES": "Silvia",
+       "PT": "Silvia",
+       "IT": "Silvia",
+       "RU": "Silvia",
+       "ZH": "Silvia",
+       "AR": "Silvia"
       },
       "lastName": {
-       "EN": "Sjögerås",
-       "FR": "Sjögerås",
-       "DE": "Sjögerås",
-       "ES": "Sjögerås",
-       "PT": "Sjögerås",
-       "IT": "Sjögerås",
-       "RU": "Sjögerås",
-       "ZH": "Sjögerås",
-       "AR": "Sjögerås"
+       "EN": "Fernandez",
+       "FR": "Fernandez",
+       "DE": "Fernandez",
+       "ES": "Fernandez",
+       "PT": "Fernandez",
+       "IT": "Fernandez",
+       "RU": "Fernandez Perez",
+       "ZH": "Fernandez Perez",
+       "AR": "Fernandez"
       },
       "name": {
-       "EN": "Nike Sjögerås",
-       "FR": "Nike Sjögerås",
-       "DE": "Nike Sjögerås",
-       "ES": "Nike Sjögerås",
-       "PT": "Nike Sjögerås",
-       "IT": "Nike Sjögerås",
-       "RU": "Nike Sjögerås",
-       "ZH": "Nike Sjögerås",
-       "AR": "Nike Sjögerås"
+       "EN": "Silvia Fernandez",
+       "FR": "Silvia Fernandez",
+       "DE": "Silvia Fernandez",
+       "ES": "Silvia Fernandez",
+       "PT": "Silvia Fernandez",
+       "IT": "Silvia Fernandez",
+       "RU": "Сильвия Фернандес Перес",
+       "ZH": "Silvia Fernandez Perez",
+       "AR": "Silvia Fernandez"
       },
       "shortName": {
-       "EN": "Sjögerås",
-       "FR": "Sjögerås",
-       "DE": "Sjögerås",
-       "ES": "Sjögerås",
-       "PT": "Sjögerås",
-       "IT": "Sjögerås",
-       "RU": "Sjögerås",
-       "ZH": "Sjögerås",
-       "AR": "Sjögerås"
+       "EN": "Fernandez",
+       "FR": "Fernandez",
+       "DE": "Fernandez",
+       "ES": "Fernandez",
+       "PT": "Fernandez",
+       "IT": "Fernandez",
+       "RU": "Фернандес Перес",
+       "ZH": "Fernandez Perez",
+       "AR": "Fernandez"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122652.jpg"
+    },
+    "person": {
+     "countryCode": "ESP",
+     "gender": "FEMALE",
+     "id": "250122652",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "firstName": {
+       "EN": "Paola",
+       "FR": "Paola",
+       "DE": "Paola",
+       "ES": "Paola",
+       "PT": "Paola",
+       "IT": "Paola",
+       "RU": "Паола",
+       "ZH": "Paola",
+       "AR": "Paola"
+      },
+      "lastName": {
+       "EN": "Cebollada López",
+       "FR": "Cebollada López",
+       "DE": "Cebollada López",
+       "ES": "Cebollada López",
+       "PT": "Cebollada López",
+       "IT": "Cebollada López",
+       "RU": "Себольяда Лопес",
+       "ZH": "Cebollada López",
+       "AR": "Cebollada López"
+      },
+      "name": {
+       "EN": "Paola Cebollada López",
+       "FR": "Paola Cebollada López",
+       "DE": "Paola Cebollada López",
+       "ES": "Paola Cebollada López",
+       "PT": "Paola Cebollada López",
+       "IT": "Paola Cebollada López",
+       "RU": "Паола Себольяда Лопес",
+       "ZH": "Paola Cebollada López",
+       "AR": "Paola Cebollada López"
+      },
+      "shortName": {
+       "EN": "Cebollada López",
+       "FR": "Cebollada López",
+       "DE": "Cebollada López",
+       "ES": "Cebollada López",
+       "PT": "Cebollada López",
+       "IT": "Cebollada López",
+       "RU": "Себольяда Лопес",
+       "ZH": "Cebollada López",
+       "AR": "Cebollada López"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    }
@@ -940,6 +1611,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 6
+   },
+   "total": {
+    "away": 0,
+    "home": 6
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 5,
   "stadium": {
@@ -1035,7 +1716,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1380,6 +2074,249 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216799.jpg"
+    },
+    "person": {
+     "countryCode": "LTU",
+     "gender": "FEMALE",
+     "id": "250216799",
+     "translations": {
+      "countryName": {
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
+      },
+      "firstName": {
+       "EN": "Rusnė",
+       "FR": "Rusnė",
+       "DE": "Rusnė",
+       "ES": "Rusnė",
+       "PT": "Rusnė",
+       "IT": "Rusnė",
+       "RU": "Rusnė",
+       "ZH": "Rusnė",
+       "AR": "Rusnė"
+      },
+      "lastName": {
+       "EN": "Vasarytė",
+       "FR": "Vasarytė",
+       "DE": "Vasarytė",
+       "ES": "Vasarytė",
+       "PT": "Vasarytė",
+       "IT": "Vasarytė",
+       "RU": "Vasarytė",
+       "ZH": "Vasarytė",
+       "AR": "Vasarytė"
+      },
+      "name": {
+       "EN": "Rusnė Vasarytė",
+       "FR": "Rusnė Vasarytė",
+       "DE": "Rusnė Vasarytė",
+       "ES": "Rusnė Vasarytė",
+       "PT": "Rusnė Vasarytė",
+       "IT": "Rusnė Vasarytė",
+       "RU": "Rusnė Vasarytė",
+       "ZH": "Rusnė Vasarytė",
+       "AR": "Rusnė Vasarytė"
+      },
+      "shortName": {
+       "EN": "Vasarytė",
+       "FR": "Vasarytė",
+       "DE": "Vasarytė",
+       "ES": "Vasarytė",
+       "PT": "Vasarytė",
+       "IT": "Vasarytė",
+       "RU": "Vasarytė",
+       "ZH": "Vasarytė",
+       "AR": "Vasarytė"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/283317.jpg"
+    },
+    "person": {
+     "countryCode": "SCO",
+     "gender": "MALE",
+     "id": "283317",
+     "translations": {
+      "countryName": {
+       "EN": "Scotland",
+       "FR": "Écosse",
+       "DE": "Schottland",
+       "ES": "Escocia",
+       "PT": "Escócia",
+       "IT": "Scozia",
+       "RU": "Шотландия",
+       "ZH": "苏格兰",
+       "AR": "اسكتلندا"
+      },
+      "firstName": {
+       "EN": "Iain",
+       "FR": "Iain",
+       "DE": "Iain",
+       "ES": "Iain",
+       "PT": "Iain",
+       "IT": "Iain",
+       "RU": "Iain",
+       "ZH": "Iain",
+       "AR": "إيان "
+      },
+      "lastName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
+      },
+      "name": {
+       "EN": "Iain Blair",
+       "FR": "Iain Blair",
+       "DE": "Iain Blair",
+       "ES": "Iain Blair",
+       "PT": "Iain Blair",
+       "IT": "Iain Blair",
+       "RU": "Iain Blair",
+       "ZH": "Iain Blair",
+       "AR": "إيان بلير"
+      },
+      "shortName": {
+       "EN": "Blair",
+       "FR": "Blair",
+       "DE": "Blair",
+       "ES": "Blair",
+       "PT": "Blair",
+       "IT": "Blair",
+       "RU": "Blair",
+       "ZH": "Blair",
+       "AR": "بلير"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138655.jpg"
+    },
+    "person": {
+     "countryCode": "MDA",
+     "gender": "FEMALE",
+     "id": "250138655",
+     "translations": {
+      "countryName": {
+       "EN": "Moldova",
+       "FR": "Moldavie",
+       "DE": "Moldau",
+       "ES": "Moldavia",
+       "PT": "Moldávia",
+       "IT": "Moldavia",
+       "RU": "Молдова",
+       "ZH": "摩尔多瓦",
+       "AR": "مولدوفا"
+      },
+      "firstName": {
+       "EN": "Oxana",
+       "FR": "Oxana",
+       "DE": "Oxana",
+       "ES": "Oxana",
+       "PT": "Oxana",
+       "IT": "Oxana",
+       "RU": "Оксана",
+       "ZH": "Oxana",
+       "AR": "Oxana"
+      },
+      "lastName": {
+       "EN": "Cruc",
+       "FR": "Cruc",
+       "DE": "Cruc",
+       "ES": "Cruc",
+       "PT": "Cruc",
+       "IT": "Cruc",
+       "RU": "Крук",
+       "ZH": "Cruc",
+       "AR": "Cruc"
+      },
+      "name": {
+       "EN": "Oxana Cruc",
+       "FR": "Oxana Cruc",
+       "DE": "Oxana Cruc",
+       "ES": "Oxana Cruc",
+       "PT": "Oxana Cruc",
+       "IT": "Oxana Cruc",
+       "RU": "Оксана Крук",
+       "ZH": "Oxana Cruc",
+       "AR": "Oxana Cruc"
+      },
+      "shortName": {
+       "EN": "Cruc",
+       "FR": "Cruc",
+       "DE": "Cruc",
+       "ES": "Cruc",
+       "PT": "Cruc",
+       "IT": "Cruc",
+       "RU": "Крук",
+       "ZH": "Cruc",
+       "AR": "Cruc"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/4949.jpg"
     },
     "person": {
@@ -1542,87 +2479,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250216799.jpg"
-    },
-    "person": {
-     "countryCode": "LTU",
-     "gender": "FEMALE",
-     "id": "250216799",
-     "translations": {
-      "countryName": {
-       "EN": "Lithuania",
-       "FR": "Lituanie",
-       "DE": "Litauen",
-       "ES": "Lituania",
-       "PT": "Lituânia",
-       "IT": "Lituania",
-       "RU": "Литва",
-       "ZH": "立陶宛",
-       "AR": "ليتوانيا"
-      },
-      "firstName": {
-       "EN": "Rusnė",
-       "FR": "Rusnė",
-       "DE": "Rusnė",
-       "ES": "Rusnė",
-       "PT": "Rusnė",
-       "IT": "Rusnė",
-       "RU": "Rusnė",
-       "ZH": "Rusnė",
-       "AR": "Rusnė"
-      },
-      "lastName": {
-       "EN": "Vasarytė",
-       "FR": "Vasarytė",
-       "DE": "Vasarytė",
-       "ES": "Vasarytė",
-       "PT": "Vasarytė",
-       "IT": "Vasarytė",
-       "RU": "Vasarytė",
-       "ZH": "Vasarytė",
-       "AR": "Vasarytė"
-      },
-      "name": {
-       "EN": "Rusnė Vasarytė",
-       "FR": "Rusnė Vasarytė",
-       "DE": "Rusnė Vasarytė",
-       "ES": "Rusnė Vasarytė",
-       "PT": "Rusnė Vasarytė",
-       "IT": "Rusnė Vasarytė",
-       "RU": "Rusnė Vasarytė",
-       "ZH": "Rusnė Vasarytė",
-       "AR": "Rusnė Vasarytė"
-      },
-      "shortName": {
-       "EN": "Vasarytė",
-       "FR": "Vasarytė",
-       "DE": "Vasarytė",
-       "ES": "Vasarytė",
-       "PT": "Vasarytė",
-       "IT": "Vasarytė",
-       "RU": "Vasarytė",
-       "ZH": "Vasarytė",
-       "AR": "Vasarytė"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250023128.jpg"
     },
     "person": {
@@ -1699,168 +2555,6 @@
       "RU": "Рефери",
       "ZH": "Referee",
       "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138655.jpg"
-    },
-    "person": {
-     "countryCode": "MDA",
-     "gender": "FEMALE",
-     "id": "250138655",
-     "translations": {
-      "countryName": {
-       "EN": "Moldova",
-       "FR": "Moldavie",
-       "DE": "Moldau",
-       "ES": "Moldavia",
-       "PT": "Moldávia",
-       "IT": "Moldavia",
-       "RU": "Молдова",
-       "ZH": "摩尔多瓦",
-       "AR": "مولدوفا"
-      },
-      "firstName": {
-       "EN": "Oxana",
-       "FR": "Oxana",
-       "DE": "Oxana",
-       "ES": "Oxana",
-       "PT": "Oxana",
-       "IT": "Oxana",
-       "RU": "Оксана",
-       "ZH": "Oxana",
-       "AR": "Oxana"
-      },
-      "lastName": {
-       "EN": "Cruc",
-       "FR": "Cruc",
-       "DE": "Cruc",
-       "ES": "Cruc",
-       "PT": "Cruc",
-       "IT": "Cruc",
-       "RU": "Крук",
-       "ZH": "Cruc",
-       "AR": "Cruc"
-      },
-      "name": {
-       "EN": "Oxana Cruc",
-       "FR": "Oxana Cruc",
-       "DE": "Oxana Cruc",
-       "ES": "Oxana Cruc",
-       "PT": "Oxana Cruc",
-       "IT": "Oxana Cruc",
-       "RU": "Оксана Крук",
-       "ZH": "Oxana Cruc",
-       "AR": "Oxana Cruc"
-      },
-      "shortName": {
-       "EN": "Cruc",
-       "FR": "Cruc",
-       "DE": "Cruc",
-       "ES": "Cruc",
-       "PT": "Cruc",
-       "IT": "Cruc",
-       "RU": "Крук",
-       "ZH": "Cruc",
-       "AR": "Cruc"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/283317.jpg"
-    },
-    "person": {
-     "countryCode": "SCO",
-     "gender": "MALE",
-     "id": "283317",
-     "translations": {
-      "countryName": {
-       "EN": "Scotland",
-       "FR": "Écosse",
-       "DE": "Schottland",
-       "ES": "Escocia",
-       "PT": "Escócia",
-       "IT": "Scozia",
-       "RU": "Шотландия",
-       "ZH": "苏格兰",
-       "AR": "اسكتلندا"
-      },
-      "firstName": {
-       "EN": "Iain",
-       "FR": "Iain",
-       "DE": "Iain",
-       "ES": "Iain",
-       "PT": "Iain",
-       "IT": "Iain",
-       "RU": "Iain",
-       "ZH": "Iain",
-       "AR": "إيان "
-      },
-      "lastName": {
-       "EN": "Blair",
-       "FR": "Blair",
-       "DE": "Blair",
-       "ES": "Blair",
-       "PT": "Blair",
-       "IT": "Blair",
-       "RU": "Blair",
-       "ZH": "Blair",
-       "AR": "بلير"
-      },
-      "name": {
-       "EN": "Iain Blair",
-       "FR": "Iain Blair",
-       "DE": "Iain Blair",
-       "ES": "Iain Blair",
-       "PT": "Iain Blair",
-       "IT": "Iain Blair",
-       "RU": "Iain Blair",
-       "ZH": "Iain Blair",
-       "AR": "إيان بلير"
-      },
-      "shortName": {
-       "EN": "Blair",
-       "FR": "Blair",
-       "DE": "Blair",
-       "ES": "Blair",
-       "PT": "Blair",
-       "IT": "Blair",
-       "RU": "Blair",
-       "ZH": "Blair",
-       "AR": "بلير"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
      }
     }
    }
