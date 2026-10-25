@@ -139,6 +139,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "WET",
+   "temperature": 15,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "wet",
+     "FR": "très humide",
+     "DE": "nass",
+     "ES": "húmedo",
+     "PT": "molhado",
+     "IT": "umido",
+     "RU": "сырое",
+     "ZH": "潮湿",
+     "AR": "أرضية مبتلة"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
+  "fullTimeAt": "2026-10-25T11:53:00.496Z",
   "group": {
    "competitionId": "101",
    "id": "2012450",
@@ -300,7 +330,8 @@
    "dateTime": "2026-10-25T10:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 5,
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-07T06:00:00+0000",
@@ -339,85 +370,404 @@
    },
    "type": "MATCHDAY"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "3efb34b6-f45c-4c79-a8d5-7d4c6f81cb37",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-05-24",
+      "clubShirtName": "Whiteway",
+      "countryCode": "WAL",
+      "fieldPosition": "DEFENDER",
+      "gender": "FEMALE",
+      "id": "250206120",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250206120.jpg",
+      "internationalName": "Katie Whiteway",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "5",
+      "nationalShirtName": "Whiteway",
+      "nationalTeamId": "2600060",
+      "translations": {
+       "countryName": {
+        "EN": "Wales",
+        "FR": "Pays de Galles",
+        "DE": "Wales",
+        "ES": "Gales",
+        "PT": "País de Gales",
+        "IT": "Galles",
+        "RU": "Уэльс",
+        "ZH": "威尔士",
+        "AR": "ويلز"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Katie",
+        "FR": "Katie",
+        "DE": "Katie",
+        "ES": "Katie",
+        "PT": "Katie",
+        "IT": "Katie",
+        "RU": "Katie",
+        "ZH": "Katie",
+        "AR": "Katie"
+       },
+       "lastName": {
+        "EN": "Whiteway",
+        "FR": "Whiteway",
+        "DE": "Whiteway",
+        "ES": "Whiteway",
+        "PT": "Whiteway",
+        "IT": "Whiteway",
+        "RU": "Whiteway",
+        "ZH": "Whiteway",
+        "AR": "Whiteway"
+       },
+       "name": {
+        "EN": "Katie Whiteway",
+        "FR": "Katie Whiteway",
+        "DE": "Katie Whiteway",
+        "ES": "Katie Whiteway",
+        "PT": "Katie Whiteway",
+        "IT": "Katie Whiteway",
+        "RU": "Katie Whiteway",
+        "ZH": "Katie Whiteway",
+        "AR": "Katie Whiteway"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Whiteway",
+        "FR": "Whiteway",
+        "DE": "Whiteway",
+        "ES": "Whiteway",
+        "PT": "Whiteway",
+        "IT": "Whiteway",
+        "RU": "Whiteway",
+        "ZH": "Whiteway",
+        "AR": "Whiteway"
+       }
+      }
+     },
+     "teamId": "2600060",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 17,
+      "second": 29
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "46eb2644-803c-497d-96fe-b141718046a1",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2011-06-20",
+      "clubShirtName": "Stiens",
+      "countryCode": "WAL",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250218551",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250218551.jpg",
+      "internationalName": "Maizie Stiens",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Stiens",
+      "nationalTeamId": "2600060",
+      "translations": {
+       "countryName": {
+        "EN": "Wales",
+        "FR": "Pays de Galles",
+        "DE": "Wales",
+        "ES": "Gales",
+        "PT": "País de Gales",
+        "IT": "Galles",
+        "RU": "Уэльс",
+        "ZH": "威尔士",
+        "AR": "ويلز"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Maizie",
+        "FR": "Maizie",
+        "DE": "Maizie",
+        "ES": "Maizie",
+        "PT": "Maizie",
+        "IT": "Maizie",
+        "RU": "Maizie",
+        "ZH": "Maizie",
+        "AR": "Maizie"
+       },
+       "lastName": {
+        "EN": "Stiens",
+        "FR": "Stiens",
+        "DE": "Stiens",
+        "ES": "Stiens",
+        "PT": "Stiens",
+        "IT": "Stiens",
+        "RU": "Stiens",
+        "ZH": "Stiens",
+        "AR": "Stiens"
+       },
+       "name": {
+        "EN": "Maizie Stiens",
+        "FR": "Maizie Stiens",
+        "DE": "Maizie Stiens",
+        "ES": "Maizie Stiens",
+        "PT": "Maizie Stiens",
+        "IT": "Maizie Stiens",
+        "RU": "Maizie Stiens",
+        "ZH": "Maizie Stiens",
+        "AR": "Maizie Stiens"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Stiens",
+        "FR": "Stiens",
+        "DE": "Stiens",
+        "ES": "Stiens",
+        "PT": "Stiens",
+        "IT": "Stiens",
+        "RU": "Stiens",
+        "ZH": "Stiens",
+        "AR": "Stiens"
+       }
+      }
+     },
+     "teamId": "2600060",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 62,
+      "second": 13
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "0c944530-7d82-4057-ba6c-a74d596dd604",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2011-06-20",
+      "clubShirtName": "Stiens",
+      "countryCode": "WAL",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250218551",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250218551.jpg",
+      "internationalName": "Maizie Stiens",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Stiens",
+      "nationalTeamId": "2600060",
+      "translations": {
+       "countryName": {
+        "EN": "Wales",
+        "FR": "Pays de Galles",
+        "DE": "Wales",
+        "ES": "Gales",
+        "PT": "País de Gales",
+        "IT": "Galles",
+        "RU": "Уэльс",
+        "ZH": "威尔士",
+        "AR": "ويلز"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Maizie",
+        "FR": "Maizie",
+        "DE": "Maizie",
+        "ES": "Maizie",
+        "PT": "Maizie",
+        "IT": "Maizie",
+        "RU": "Maizie",
+        "ZH": "Maizie",
+        "AR": "Maizie"
+       },
+       "lastName": {
+        "EN": "Stiens",
+        "FR": "Stiens",
+        "DE": "Stiens",
+        "ES": "Stiens",
+        "PT": "Stiens",
+        "IT": "Stiens",
+        "RU": "Stiens",
+        "ZH": "Stiens",
+        "AR": "Stiens"
+       },
+       "name": {
+        "EN": "Maizie Stiens",
+        "FR": "Maizie Stiens",
+        "DE": "Maizie Stiens",
+        "ES": "Maizie Stiens",
+        "PT": "Maizie Stiens",
+        "IT": "Maizie Stiens",
+        "RU": "Maizie Stiens",
+        "ZH": "Maizie Stiens",
+        "AR": "Maizie Stiens"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Stiens",
+        "FR": "Stiens",
+        "DE": "Stiens",
+        "ES": "Stiens",
+        "PT": "Stiens",
+        "IT": "Stiens",
+        "RU": "Stiens",
+        "ZH": "Stiens",
+        "AR": "Stiens"
+       }
+      }
+     },
+     "teamId": "2600060",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 89,
+      "second": 15
+     }
+    }
+   ]
+  },
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/265578.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250067649.jpg"
     },
     "person": {
-     "countryCode": "BEL",
+     "countryCode": "AZE",
      "gender": "FEMALE",
-     "id": "265578",
+     "id": "250067649",
      "translations": {
       "countryName": {
-       "EN": "Belgium",
-       "FR": "Belgique",
-       "DE": "Belgien",
-       "ES": "Bélgica",
-       "PT": "Bélgica",
-       "IT": "Belgio",
-       "RU": "Бельгия",
-       "ZH": "比利时",
-       "AR": "بلجيكا"
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
       },
       "firstName": {
-       "EN": "Claudine",
-       "FR": "Claudine",
-       "DE": "Claudine",
-       "ES": "Claudine",
-       "PT": "Claudine",
-       "IT": "Claudine",
-       "RU": "Claudine",
-       "ZH": "Claudine",
-       "AR": "Claudine"
+       "EN": "Farida",
+       "FR": "Farida",
+       "DE": "Farida",
+       "ES": "Farida",
+       "PT": "Farida",
+       "IT": "Farida",
+       "RU": "Farida",
+       "ZH": "Farida",
+       "AR": "Farida"
       },
       "lastName": {
-       "EN": "Brohet",
-       "FR": "Brohet",
-       "DE": "Brohet",
-       "ES": "Brohet",
-       "PT": "Brohet",
-       "IT": "Brohet",
-       "RU": "BROHET",
-       "ZH": "Brohet",
-       "AR": "Brohet"
+       "EN": "Lutfaliyeva",
+       "FR": "Lutfaliyeva",
+       "DE": "Lutfaliyeva",
+       "ES": "Lutfaliyeva",
+       "PT": "Lutfaliyeva",
+       "IT": "Lutfaliyeva",
+       "RU": "Lutfaliyeva",
+       "ZH": "Lutfaliyeva",
+       "AR": "Lutfaliyeva"
       },
       "name": {
-       "EN": "Claudine Brohet",
-       "FR": "Claudine Brohet",
-       "DE": "Claudine Brohet",
-       "ES": "Claudine Brohet",
-       "PT": "Claudine Brohet",
-       "IT": "Claudine Brohet",
-       "RU": "Клодин Броэ",
-       "ZH": "Claudine Brohet",
-       "AR": "Claudine Brohet"
+       "EN": "Farida Lutfaliyeva",
+       "FR": "Farida Lutfaliyeva",
+       "DE": "Farida Lutfaliyeva",
+       "ES": "Farida Lutfaliyeva",
+       "PT": "Farida Lutfaliyeva",
+       "IT": "Farida Lutfaliyeva",
+       "RU": "Фарида Лутфалиева",
+       "ZH": "Farida Lutfaliyeva",
+       "AR": "Farida Lutfaliyeva"
       },
       "shortName": {
-       "EN": "Brohet",
-       "FR": "Brohet",
-       "DE": "Brohet",
-       "ES": "Brohet",
-       "PT": "Brohet",
-       "IT": "Brohet",
-       "RU": "Броэ",
-       "ZH": "Brohet",
-       "AR": "Brohet"
+       "EN": "Lutfaliyeva",
+       "FR": "Lutfaliyeva",
+       "DE": "Lutfaliyeva",
+       "ES": "Lutfaliyeva",
+       "PT": "Lutfaliyeva",
+       "IT": "Lutfaliyeva",
+       "RU": "Лутфалиева",
+       "ZH": "Lutfaliyeva",
+       "AR": "Lutfaliyeva"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "REFEREE",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    },
@@ -504,163 +854,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250067649.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250193249.jpg"
     },
     "person": {
-     "countryCode": "AZE",
+     "countryCode": "GEO",
      "gender": "FEMALE",
-     "id": "250067649",
+     "id": "250193249",
      "translations": {
       "countryName": {
-       "EN": "Azerbaijan",
-       "FR": "Azerbaïdjan",
-       "DE": "Aserbaidschan",
-       "ES": "Azerbaiyán",
-       "PT": "Azerbaijão",
-       "IT": "Azerbaigian",
-       "RU": "Азербайджан",
-       "ZH": "阿赛拜疆",
-       "AR": "أذربيجان"
+       "EN": "Georgia",
+       "FR": "Géorgie",
+       "DE": "Georgien",
+       "ES": "Georgia",
+       "PT": "Geórgia",
+       "IT": "Georgia",
+       "RU": "Грузия",
+       "ZH": "格鲁吉亚",
+       "AR": "جورجيا"
       },
       "firstName": {
-       "EN": "Farida",
-       "FR": "Farida",
-       "DE": "Farida",
-       "ES": "Farida",
-       "PT": "Farida",
-       "IT": "Farida",
-       "RU": "Farida",
-       "ZH": "Farida",
-       "AR": "Farida"
+       "EN": "Mzevinari",
+       "FR": "Mzevinari",
+       "DE": "Mzevinari",
+       "ES": "Mzevinari",
+       "PT": "Mzevinari",
+       "IT": "Mzevinari",
+       "RU": "Мзевинари",
+       "ZH": "Mzevinari",
+       "AR": "Mzevinari"
       },
       "lastName": {
-       "EN": "Lutfaliyeva",
-       "FR": "Lutfaliyeva",
-       "DE": "Lutfaliyeva",
-       "ES": "Lutfaliyeva",
-       "PT": "Lutfaliyeva",
-       "IT": "Lutfaliyeva",
-       "RU": "Lutfaliyeva",
-       "ZH": "Lutfaliyeva",
-       "AR": "Lutfaliyeva"
+       "EN": "Sharashanidze",
+       "FR": "Sharashanidze",
+       "DE": "Sharashanidze",
+       "ES": "Sharashanidze",
+       "PT": "Sharashanidze",
+       "IT": "Sharashanidze",
+       "RU": "Шарашанидзе",
+       "ZH": "Sharashanidze",
+       "AR": "Sharashanidze"
       },
       "name": {
-       "EN": "Farida Lutfaliyeva",
-       "FR": "Farida Lutfaliyeva",
-       "DE": "Farida Lutfaliyeva",
-       "ES": "Farida Lutfaliyeva",
-       "PT": "Farida Lutfaliyeva",
-       "IT": "Farida Lutfaliyeva",
-       "RU": "Фарида Лутфалиева",
-       "ZH": "Farida Lutfaliyeva",
-       "AR": "Farida Lutfaliyeva"
+       "EN": "Mzevinari Sharashanidze",
+       "FR": "Mzevinari Sharashanidze",
+       "DE": "Mzevinari Sharashanidze",
+       "ES": "Mzevinari Sharashanidze",
+       "PT": "Mzevinari Sharashanidze",
+       "IT": "Mzevinari Sharashanidze",
+       "RU": "Мзевинари Шарашанидзе",
+       "ZH": "Mzevinari Sharashanidze",
+       "AR": "Mzevinari Sharashanidze"
       },
       "shortName": {
-       "EN": "Lutfaliyeva",
-       "FR": "Lutfaliyeva",
-       "DE": "Lutfaliyeva",
-       "ES": "Lutfaliyeva",
-       "PT": "Lutfaliyeva",
-       "IT": "Lutfaliyeva",
-       "RU": "Лутфалиева",
-       "ZH": "Lutfaliyeva",
-       "AR": "Lutfaliyeva"
+       "EN": "Sharashanidze",
+       "FR": "Sharashanidze",
+       "DE": "Sharashanidze",
+       "ES": "Sharashanidze",
+       "PT": "Sharashanidze",
+       "IT": "Sharashanidze",
+       "RU": "Шарашанидзе",
+       "ZH": "Sharashanidze",
+       "AR": "Sharashanidze"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/265578.jpg"
-    },
-    "person": {
-     "countryCode": "BEL",
-     "gender": "FEMALE",
-     "id": "265578",
-     "translations": {
-      "countryName": {
-       "EN": "Belgium",
-       "FR": "Belgique",
-       "DE": "Belgien",
-       "ES": "Bélgica",
-       "PT": "Bélgica",
-       "IT": "Belgio",
-       "RU": "Бельгия",
-       "ZH": "比利时",
-       "AR": "بلجيكا"
-      },
-      "firstName": {
-       "EN": "Claudine",
-       "FR": "Claudine",
-       "DE": "Claudine",
-       "ES": "Claudine",
-       "PT": "Claudine",
-       "IT": "Claudine",
-       "RU": "Claudine",
-       "ZH": "Claudine",
-       "AR": "Claudine"
-      },
-      "lastName": {
-       "EN": "Brohet",
-       "FR": "Brohet",
-       "DE": "Brohet",
-       "ES": "Brohet",
-       "PT": "Brohet",
-       "IT": "Brohet",
-       "RU": "BROHET",
-       "ZH": "Brohet",
-       "AR": "Brohet"
-      },
-      "name": {
-       "EN": "Claudine Brohet",
-       "FR": "Claudine Brohet",
-       "DE": "Claudine Brohet",
-       "ES": "Claudine Brohet",
-       "PT": "Claudine Brohet",
-       "IT": "Claudine Brohet",
-       "RU": "Клодин Броэ",
-       "ZH": "Claudine Brohet",
-       "AR": "Claudine Brohet"
-      },
-      "shortName": {
-       "EN": "Brohet",
-       "FR": "Brohet",
-       "DE": "Brohet",
-       "ES": "Brohet",
-       "PT": "Brohet",
-       "IT": "Brohet",
-       "RU": "Броэ",
-       "ZH": "Brohet",
-       "AR": "Brohet"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee Observer",
-      "FR": "Observateur ou observatrice d'arbitre",
-      "DE": "Schiedsrichterbeobachterin",
-      "ES": "Observadora arbitral",
-      "PT": "Observadora de Arbitragem",
-      "IT": "Osservatrice arbitrale",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكم"
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    },
@@ -747,82 +1016,163 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250193249.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/265578.jpg"
     },
     "person": {
-     "countryCode": "GEO",
+     "countryCode": "BEL",
      "gender": "FEMALE",
-     "id": "250193249",
+     "id": "265578",
      "translations": {
       "countryName": {
-       "EN": "Georgia",
-       "FR": "Géorgie",
-       "DE": "Georgien",
-       "ES": "Georgia",
-       "PT": "Geórgia",
-       "IT": "Georgia",
-       "RU": "Грузия",
-       "ZH": "格鲁吉亚",
-       "AR": "جورجيا"
+       "EN": "Belgium",
+       "FR": "Belgique",
+       "DE": "Belgien",
+       "ES": "Bélgica",
+       "PT": "Bélgica",
+       "IT": "Belgio",
+       "RU": "Бельгия",
+       "ZH": "比利时",
+       "AR": "بلجيكا"
       },
       "firstName": {
-       "EN": "Mzevinari",
-       "FR": "Mzevinari",
-       "DE": "Mzevinari",
-       "ES": "Mzevinari",
-       "PT": "Mzevinari",
-       "IT": "Mzevinari",
-       "RU": "Мзевинари",
-       "ZH": "Mzevinari",
-       "AR": "Mzevinari"
+       "EN": "Claudine",
+       "FR": "Claudine",
+       "DE": "Claudine",
+       "ES": "Claudine",
+       "PT": "Claudine",
+       "IT": "Claudine",
+       "RU": "Claudine",
+       "ZH": "Claudine",
+       "AR": "Claudine"
       },
       "lastName": {
-       "EN": "Sharashanidze",
-       "FR": "Sharashanidze",
-       "DE": "Sharashanidze",
-       "ES": "Sharashanidze",
-       "PT": "Sharashanidze",
-       "IT": "Sharashanidze",
-       "RU": "Шарашанидзе",
-       "ZH": "Sharashanidze",
-       "AR": "Sharashanidze"
+       "EN": "Brohet",
+       "FR": "Brohet",
+       "DE": "Brohet",
+       "ES": "Brohet",
+       "PT": "Brohet",
+       "IT": "Brohet",
+       "RU": "BROHET",
+       "ZH": "Brohet",
+       "AR": "Brohet"
       },
       "name": {
-       "EN": "Mzevinari Sharashanidze",
-       "FR": "Mzevinari Sharashanidze",
-       "DE": "Mzevinari Sharashanidze",
-       "ES": "Mzevinari Sharashanidze",
-       "PT": "Mzevinari Sharashanidze",
-       "IT": "Mzevinari Sharashanidze",
-       "RU": "Мзевинари Шарашанидзе",
-       "ZH": "Mzevinari Sharashanidze",
-       "AR": "Mzevinari Sharashanidze"
+       "EN": "Claudine Brohet",
+       "FR": "Claudine Brohet",
+       "DE": "Claudine Brohet",
+       "ES": "Claudine Brohet",
+       "PT": "Claudine Brohet",
+       "IT": "Claudine Brohet",
+       "RU": "Клодин Броэ",
+       "ZH": "Claudine Brohet",
+       "AR": "Claudine Brohet"
       },
       "shortName": {
-       "EN": "Sharashanidze",
-       "FR": "Sharashanidze",
-       "DE": "Sharashanidze",
-       "ES": "Sharashanidze",
-       "PT": "Sharashanidze",
-       "IT": "Sharashanidze",
-       "RU": "Шарашанидзе",
-       "ZH": "Sharashanidze",
-       "AR": "Sharashanidze"
+       "EN": "Brohet",
+       "FR": "Brohet",
+       "DE": "Brohet",
+       "ES": "Brohet",
+       "PT": "Brohet",
+       "IT": "Brohet",
+       "RU": "Броэ",
+       "ZH": "Brohet",
+       "AR": "Brohet"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/265578.jpg"
+    },
+    "person": {
+     "countryCode": "BEL",
+     "gender": "FEMALE",
+     "id": "265578",
+     "translations": {
+      "countryName": {
+       "EN": "Belgium",
+       "FR": "Belgique",
+       "DE": "Belgien",
+       "ES": "Bélgica",
+       "PT": "Bélgica",
+       "IT": "Belgio",
+       "RU": "Бельгия",
+       "ZH": "比利时",
+       "AR": "بلجيكا"
+      },
+      "firstName": {
+       "EN": "Claudine",
+       "FR": "Claudine",
+       "DE": "Claudine",
+       "ES": "Claudine",
+       "PT": "Claudine",
+       "IT": "Claudine",
+       "RU": "Claudine",
+       "ZH": "Claudine",
+       "AR": "Claudine"
+      },
+      "lastName": {
+       "EN": "Brohet",
+       "FR": "Brohet",
+       "DE": "Brohet",
+       "ES": "Brohet",
+       "PT": "Brohet",
+       "IT": "Brohet",
+       "RU": "BROHET",
+       "ZH": "Brohet",
+       "AR": "Brohet"
+      },
+      "name": {
+       "EN": "Claudine Brohet",
+       "FR": "Claudine Brohet",
+       "DE": "Claudine Brohet",
+       "ES": "Claudine Brohet",
+       "PT": "Claudine Brohet",
+       "IT": "Claudine Brohet",
+       "RU": "Клодин Броэ",
+       "ZH": "Claudine Brohet",
+       "AR": "Claudine Brohet"
+      },
+      "shortName": {
+       "EN": "Brohet",
+       "FR": "Brohet",
+       "DE": "Brohet",
+       "ES": "Brohet",
+       "PT": "Brohet",
+       "IT": "Brohet",
+       "RU": "Броэ",
+       "ZH": "Brohet",
+       "AR": "Brohet"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -941,6 +1291,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 3
+   },
+   "total": {
+    "away": 0,
+    "home": 3
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 11,
   "stadium": {
@@ -1036,8 +1396,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200144",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/WAL.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/WAL.png",
+     "confederationType": "UEFA",
+     "countryCode": "WAL",
+     "id": "2600060",
+     "idProvider": "FAME",
+     "internationalName": "Wales",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/WAL.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/WAL.png",
+     "organizationId": "200144",
+     "teamCode": "WAL",
+     "teamTypeDetail": "NATIONAL_WOMEN_U17",
+     "translations": {
+      "countryName": {
+       "EN": "Wales",
+       "FR": "Pays de Galles",
+       "DE": "Wales",
+       "ES": "Gales",
+       "PT": "País de Gales",
+       "IT": "Galles",
+       "RU": "Уэльс",
+       "ZH": "威尔士",
+       "AR": "ويلز"
+      },
+      "displayName": {
+       "EN": "Wales",
+       "FR": "Pays de Galles",
+       "DE": "Wales",
+       "ES": "Gales",
+       "PT": "País de Gales",
+       "IT": "Galles",
+       "RU": "Уэльс",
+       "ZH": "威尔士",
+       "AR": "Wales"
+      },
+      "displayOfficialName": {
+       "EN": "Wales",
+       "FR": "Pays de Galles",
+       "DE": "Wales",
+       "ES": "Gales",
+       "PT": "País de Gales",
+       "IT": "Galles",
+       "RU": "Уэльс",
+       "ZH": "威尔士",
+       "AR": "Wales"
+      },
+      "displayTeamCode": {
+       "EN": "WAL",
+       "FR": "WAL",
+       "DE": "WAL",
+       "ES": "WAL",
+       "PT": "WAL",
+       "IT": "WAL",
+       "RU": "WAL",
+       "ZH": "WAL",
+       "AR": "WAL"
+      },
+      "shortName": {
+       "EN": "WAL",
+       "FR": "WAL",
+       "DE": "WAL",
+       "ES": "WAL",
+       "PT": "WAL",
+       "IT": "WAL",
+       "RU": "FAW",
+       "ZH": "FAW",
+       "AR": "WAL"
+      }
+     },
+     "typeIsNational": true,
+     "typeTeam": "NATIONAL"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1340,7 +1780,7 @@
    "dateTime": "2026-10-25T12:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-07T06:00:00+0000",
@@ -1379,250 +1819,330 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 54
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "9f0f6062-9740-4cce-be15-a4e535df903b",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2011-08-25",
+      "clubShirtName": "gogoladze",
+      "countryCode": "GEO",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250219641",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250219641.jpg",
+      "internationalName": "Michal Gogoladze",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "11",
+      "nationalShirtName": "",
+      "nationalTeamId": "2600081",
+      "translations": {
+       "countryName": {
+        "EN": "Georgia",
+        "FR": "Géorgie",
+        "DE": "Georgien",
+        "ES": "Georgia",
+        "PT": "Geórgia",
+        "IT": "Georgia",
+        "RU": "Грузия",
+        "ZH": "格鲁吉亚",
+        "AR": "جورجيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Michal",
+        "FR": "Michal",
+        "DE": "Michal",
+        "ES": "Michal",
+        "PT": "Michal",
+        "IT": "Michal",
+        "RU": "Michal",
+        "ZH": "Michal",
+        "AR": "Michal"
+       },
+       "lastName": {
+        "EN": "Gogoladze",
+        "FR": "Gogoladze",
+        "DE": "Gogoladze",
+        "ES": "Gogoladze",
+        "PT": "Gogoladze",
+        "IT": "Gogoladze",
+        "RU": "Gogoladze",
+        "ZH": "Gogoladze",
+        "AR": "Gogoladze"
+       },
+       "name": {
+        "EN": "Michal Gogoladze",
+        "FR": "Michal Gogoladze",
+        "DE": "Michal Gogoladze",
+        "ES": "Michal Gogoladze",
+        "PT": "Michal Gogoladze",
+        "IT": "Michal Gogoladze",
+        "RU": "Michal Gogoladze",
+        "ZH": "Michal Gogoladze",
+        "AR": "Michal Gogoladze"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Gogoladze",
+        "FR": "Gogoladze",
+        "DE": "Gogoladze",
+        "ES": "Gogoladze",
+        "PT": "Gogoladze",
+        "IT": "Gogoladze",
+        "RU": "Gogoladze",
+        "ZH": "Gogoladze",
+        "AR": "Gogoladze"
+       }
+      }
+     },
+     "teamId": "2600081",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 24,
+      "second": 14
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "cc46886a-9564-4996-995f-60cdb30ccb66",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2011-02-06",
+      "clubShirtName": "",
+      "countryCode": "GEO",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "FEMALE",
+      "id": "250219838",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250219838.jpg",
+      "internationalName": "Natalia Gugulashvili Apciauri",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "6",
+      "nationalShirtName": "",
+      "nationalTeamId": "2600081",
+      "translations": {
+       "countryName": {
+        "EN": "Georgia",
+        "FR": "Géorgie",
+        "DE": "Georgien",
+        "ES": "Georgia",
+        "PT": "Geórgia",
+        "IT": "Georgia",
+        "RU": "Грузия",
+        "ZH": "格鲁吉亚",
+        "AR": "جورجيا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "firstName": {
+        "EN": "Natalia",
+        "FR": "Natalia",
+        "DE": "Natalia",
+        "ES": "Natalia",
+        "PT": "Natalia",
+        "IT": "Natalia",
+        "RU": "Natalia",
+        "ZH": "Natalia",
+        "AR": "Natalia"
+       },
+       "lastName": {
+        "EN": "Gugulashvili Apciauri",
+        "FR": "Gugulashvili Apciauri",
+        "DE": "Gugulashvili Apciauri",
+        "ES": "Gugulashvili Apciauri",
+        "PT": "Gugulashvili Apciauri",
+        "IT": "Gugulashvili Apciauri",
+        "RU": "Gugulashvili Apciauri",
+        "ZH": "Gugulashvili Apciauri",
+        "AR": "Gugulashvili Apciauri"
+       },
+       "name": {
+        "EN": "Natalia Gugulashvili Apciauri",
+        "FR": "Natalia Gugulashvili Apciauri",
+        "DE": "Natalia Gugulashvili Apciauri",
+        "ES": "Natalia Gugulashvili Apciauri",
+        "PT": "Natalia Gugulashvili Apciauri",
+        "IT": "Natalia Gugulashvili Apciauri",
+        "RU": "Natalia Gugulashvili Apciauri",
+        "ZH": "Natalia Gugulashvili Apciauri",
+        "AR": "Natalia Gugulashvili Apciauri"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Gugulashvili Apciauri",
+        "FR": "Gugulashvili Apciauri",
+        "DE": "Gugulashvili Apciauri",
+        "ES": "Gugulashvili Apciauri",
+        "PT": "Gugulashvili Apciauri",
+        "IT": "Gugulashvili Apciauri",
+        "RU": "Gugulashvili Apciauri",
+        "ZH": "Gugulashvili Apciauri",
+        "AR": "Gugulashvili Apciauri"
+       }
+      }
+     },
+     "teamId": "2600081",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 37,
+      "second": 44
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "2234bd42-f964-4e25-95fe-322d65ff2a42",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "15",
+      "birthDate": "2011-04-28",
+      "clubShirtName": "Spasovska",
+      "countryCode": "MKD",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250217509",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/101/2027/324x324/250217509.jpg",
+      "internationalName": "Lana Spasovska",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "7",
+      "nationalShirtName": "Spasovska",
+      "nationalTeamId": "2600077",
+      "translations": {
+       "countryName": {
+        "EN": "North Macedonia",
+        "FR": "Macédoine du Nord",
+        "DE": "Nordmazedonien",
+        "ES": "Macedonia del Norte",
+        "PT": "Macedónia do Norte",
+        "IT": "Macedonia del Nord",
+        "RU": "Северная Македония",
+        "ZH": "前南斯拉夫马其顿共和国",
+        "AR": "مقدونيا الشمالية"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Lana",
+        "FR": "Lana",
+        "DE": "Lana",
+        "ES": "Lana",
+        "PT": "Lana",
+        "IT": "Lana",
+        "RU": "Lana",
+        "ZH": "Lana",
+        "AR": "Lana"
+       },
+       "lastName": {
+        "EN": "Spasovska",
+        "FR": "Spasovska",
+        "DE": "Spasovska",
+        "ES": "Spasovska",
+        "PT": "Spasovska",
+        "IT": "Spasovska",
+        "RU": "Spasovska",
+        "ZH": "Spasovska",
+        "AR": "Spasovska"
+       },
+       "name": {
+        "EN": "Lana Spasovska",
+        "FR": "Lana Spasovska",
+        "DE": "Lana Spasovska",
+        "ES": "Lana Spasovska",
+        "PT": "Lana Spasovska",
+        "IT": "Lana Spasovska",
+        "RU": "Lana Spasovska",
+        "ZH": "Lana Spasovska",
+        "AR": "Lana Spasovska"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Spasovska",
+        "FR": "Spasovska",
+        "DE": "Spasovska",
+        "ES": "Spasovska",
+        "PT": "Spasovska",
+        "IT": "Spasovska",
+        "RU": "Spasovska",
+        "ZH": "Spasovska",
+        "AR": "Spasovska"
+       }
+      }
+     },
+     "teamId": "2600077",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 49,
+      "second": 35
+     }
+    }
+   ]
+  },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250117075.jpg"
-    },
-    "person": {
-     "countryCode": "LVA",
-     "gender": "FEMALE",
-     "id": "250117075",
-     "translations": {
-      "countryName": {
-       "EN": "Latvia",
-       "FR": "Lettonie",
-       "DE": "Lettland",
-       "ES": "Letonia",
-       "PT": "Letónia",
-       "IT": "Lettonia",
-       "RU": "Латвия",
-       "ZH": "拉脱维亚",
-       "AR": "لاتفيا"
-      },
-      "firstName": {
-       "EN": "Marita",
-       "FR": "Marita",
-       "DE": "Marita",
-       "ES": "Marita",
-       "PT": "Marita",
-       "IT": "Marita",
-       "RU": "Marita",
-       "ZH": "Marita",
-       "AR": "Marita"
-      },
-      "lastName": {
-       "EN": "Vitola",
-       "FR": "Vitola",
-       "DE": "Vitola",
-       "ES": "Vitola",
-       "PT": "Vitola",
-       "IT": "Vitola",
-       "RU": "Vitola",
-       "ZH": "Vitola",
-       "AR": "Vitola"
-      },
-      "name": {
-       "EN": "Marita Vitola",
-       "FR": "Marita Vitola",
-       "DE": "Marita Vitola",
-       "ES": "Marita Vitola",
-       "PT": "Marita Vitola",
-       "IT": "Marita Vitola",
-       "RU": "Марита Витола",
-       "ZH": "Marita Vitola",
-       "AR": "Marita Vitola"
-      },
-      "shortName": {
-       "EN": "Vitola",
-       "FR": "Vitola",
-       "DE": "Vitola",
-       "ES": "Vitola",
-       "PT": "Vitola",
-       "IT": "Vitola",
-       "RU": "Витола",
-       "ZH": "Vitola",
-       "AR": "Vitola"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205271.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "FEMALE",
-     "id": "250205271",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Duygu",
-       "FR": "Duygu",
-       "DE": "Duygu",
-       "ES": "Duygu",
-       "PT": "Duygu",
-       "IT": "Duygu",
-       "RU": "Хатыдже",
-       "ZH": "Duygu",
-       "AR": "Duygu"
-      },
-      "lastName": {
-       "EN": "Hatice Aydin",
-       "FR": "Hatice Aydin",
-       "DE": "Hatice Aydin",
-       "ES": "Hatice Aydin",
-       "PT": "Hatice Aydin",
-       "IT": "Hatice Aydin",
-       "RU": "Дуйгу",
-       "ZH": "Hatice Aydin",
-       "AR": "Hatice Aydin"
-      },
-      "name": {
-       "EN": "Duygu Hatice Aydin",
-       "FR": "Duygu Hatice Aydin",
-       "DE": "Duygu Hatice Aydin",
-       "ES": "Duygu Hatice Aydin",
-       "PT": "Duygu Hatice Aydin",
-       "IT": "Duygu Hatice Aydin",
-       "RU": "Хатыдже Дуйгу",
-       "ZH": "Duygu Hatice Aydin",
-       "AR": "Duygu Hatice Aydin"
-      },
-      "shortName": {
-       "EN": "Hatice Aydin",
-       "FR": "Hatice Aydin",
-       "DE": "Hatice Aydin",
-       "ES": "Hatice Aydin",
-       "PT": "Hatice Aydin",
-       "IT": "Hatice Aydin",
-       "RU": "Дуйгу",
-       "ZH": "Hatice Aydin",
-       "AR": "Hatice Aydin"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205438.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "FEMALE",
-     "id": "250205438",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Ayenur",
-       "FR": "Ayenur",
-       "DE": "Ayenur",
-       "ES": "Ayenur",
-       "PT": "Ayenur",
-       "IT": "Ayenur",
-       "RU": "Айенур",
-       "ZH": "Ayenur",
-       "AR": "Ayenur"
-      },
-      "lastName": {
-       "EN": "Karakoc",
-       "FR": "Karakoc",
-       "DE": "Karakoc",
-       "ES": "Karakoc",
-       "PT": "Karakoc",
-       "IT": "Karakoc",
-       "RU": "Каракодж",
-       "ZH": "Karakoc",
-       "AR": "Karakoc"
-      },
-      "name": {
-       "EN": "Ayenur Karakoc",
-       "FR": "Ayenur Karakoc",
-       "DE": "Ayenur Karakoc",
-       "ES": "Ayenur Karakoc",
-       "PT": "Ayenur Karakoc",
-       "IT": "Ayenur Karakoc",
-       "RU": "Айенур Каракодж",
-       "ZH": "Ayenur Karakoc",
-       "AR": "Ayenur Karakoc"
-      },
-      "shortName": {
-       "EN": "Karakoc",
-       "FR": "Karakoc",
-       "DE": "Karakoc",
-       "ES": "Karakoc",
-       "PT": "Karakoc",
-       "IT": "Karakoc",
-       "RU": "Каракодж",
-       "ZH": "Karakoc",
-       "AR": "Karakoc"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250081714.jpg"
@@ -1787,6 +2307,168 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250117075.jpg"
+    },
+    "person": {
+     "countryCode": "LVA",
+     "gender": "FEMALE",
+     "id": "250117075",
+     "translations": {
+      "countryName": {
+       "EN": "Latvia",
+       "FR": "Lettonie",
+       "DE": "Lettland",
+       "ES": "Letonia",
+       "PT": "Letónia",
+       "IT": "Lettonia",
+       "RU": "Латвия",
+       "ZH": "拉脱维亚",
+       "AR": "لاتفيا"
+      },
+      "firstName": {
+       "EN": "Marita",
+       "FR": "Marita",
+       "DE": "Marita",
+       "ES": "Marita",
+       "PT": "Marita",
+       "IT": "Marita",
+       "RU": "Marita",
+       "ZH": "Marita",
+       "AR": "Marita"
+      },
+      "lastName": {
+       "EN": "Vitola",
+       "FR": "Vitola",
+       "DE": "Vitola",
+       "ES": "Vitola",
+       "PT": "Vitola",
+       "IT": "Vitola",
+       "RU": "Vitola",
+       "ZH": "Vitola",
+       "AR": "Vitola"
+      },
+      "name": {
+       "EN": "Marita Vitola",
+       "FR": "Marita Vitola",
+       "DE": "Marita Vitola",
+       "ES": "Marita Vitola",
+       "PT": "Marita Vitola",
+       "IT": "Marita Vitola",
+       "RU": "Марита Витола",
+       "ZH": "Marita Vitola",
+       "AR": "Marita Vitola"
+      },
+      "shortName": {
+       "EN": "Vitola",
+       "FR": "Vitola",
+       "DE": "Vitola",
+       "ES": "Vitola",
+       "PT": "Vitola",
+       "IT": "Vitola",
+       "RU": "Витола",
+       "ZH": "Vitola",
+       "AR": "Vitola"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205438.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "FEMALE",
+     "id": "250205438",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Ayenur",
+       "FR": "Ayenur",
+       "DE": "Ayenur",
+       "ES": "Ayenur",
+       "PT": "Ayenur",
+       "IT": "Ayenur",
+       "RU": "Айенур",
+       "ZH": "Ayenur",
+       "AR": "Ayenur"
+      },
+      "lastName": {
+       "EN": "Karakoc",
+       "FR": "Karakoc",
+       "DE": "Karakoc",
+       "ES": "Karakoc",
+       "PT": "Karakoc",
+       "IT": "Karakoc",
+       "RU": "Каракодж",
+       "ZH": "Karakoc",
+       "AR": "Karakoc"
+      },
+      "name": {
+       "EN": "Ayenur Karakoc",
+       "FR": "Ayenur Karakoc",
+       "DE": "Ayenur Karakoc",
+       "ES": "Ayenur Karakoc",
+       "PT": "Ayenur Karakoc",
+       "IT": "Ayenur Karakoc",
+       "RU": "Айенур Каракодж",
+       "ZH": "Ayenur Karakoc",
+       "AR": "Ayenur Karakoc"
+      },
+      "shortName": {
+       "EN": "Karakoc",
+       "FR": "Karakoc",
+       "DE": "Karakoc",
+       "ES": "Karakoc",
+       "PT": "Karakoc",
+       "IT": "Karakoc",
+       "RU": "Каракодж",
+       "ZH": "Karakoc",
+       "AR": "Karakoc"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/800466.jpg"
     },
     "person": {
@@ -1863,6 +2545,87 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205271.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "FEMALE",
+     "id": "250205271",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Duygu",
+       "FR": "Duygu",
+       "DE": "Duygu",
+       "ES": "Duygu",
+       "PT": "Duygu",
+       "IT": "Duygu",
+       "RU": "Хатыдже",
+       "ZH": "Duygu",
+       "AR": "Duygu"
+      },
+      "lastName": {
+       "EN": "Hatice Aydin",
+       "FR": "Hatice Aydin",
+       "DE": "Hatice Aydin",
+       "ES": "Hatice Aydin",
+       "PT": "Hatice Aydin",
+       "IT": "Hatice Aydin",
+       "RU": "Дуйгу",
+       "ZH": "Hatice Aydin",
+       "AR": "Hatice Aydin"
+      },
+      "name": {
+       "EN": "Duygu Hatice Aydin",
+       "FR": "Duygu Hatice Aydin",
+       "DE": "Duygu Hatice Aydin",
+       "ES": "Duygu Hatice Aydin",
+       "PT": "Duygu Hatice Aydin",
+       "IT": "Duygu Hatice Aydin",
+       "RU": "Хатыдже Дуйгу",
+       "ZH": "Duygu Hatice Aydin",
+       "AR": "Duygu Hatice Aydin"
+      },
+      "shortName": {
+       "EN": "Hatice Aydin",
+       "FR": "Hatice Aydin",
+       "DE": "Hatice Aydin",
+       "ES": "Hatice Aydin",
+       "PT": "Hatice Aydin",
+       "IT": "Hatice Aydin",
+       "RU": "Дуйгу",
+       "ZH": "Hatice Aydin",
+       "AR": "Hatice Aydin"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    }
@@ -1981,6 +2744,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 1,
+    "home": 2
+   },
+   "total": {
+    "away": 1,
+    "home": 2
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 11,
   "stadium": {
@@ -2076,7 +2849,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  }
 ]
