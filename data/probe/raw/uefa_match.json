@@ -299,7 +299,7 @@
    "dateTime": "2026-10-26T09:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-07T06:00:00+0000",
@@ -339,87 +339,6 @@
    "type": "MATCHDAY"
   },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250169910.jpg"
-    },
-    "person": {
-     "countryCode": "KOS",
-     "gender": "FEMALE",
-     "id": "250169910",
-     "translations": {
-      "countryName": {
-       "EN": "Kosovo",
-       "FR": "Kosovo",
-       "DE": "Kosovo",
-       "ES": "Kosovo",
-       "PT": "Kosovo",
-       "IT": "Kosovo",
-       "RU": "Косово",
-       "ZH": "科索沃",
-       "AR": "كوسوفو"
-      },
-      "firstName": {
-       "EN": "Fitore",
-       "FR": "Fitore",
-       "DE": "Fitore",
-       "ES": "Fitore",
-       "PT": "Fitore",
-       "IT": "Fitore",
-       "RU": "Фиторе",
-       "ZH": "Fitore",
-       "AR": "Fitore"
-      },
-      "lastName": {
-       "EN": "Govori",
-       "FR": "Govori",
-       "DE": "Govori",
-       "ES": "Govori",
-       "PT": "Govori",
-       "IT": "Govori",
-       "RU": "Говори",
-       "ZH": "Govori",
-       "AR": "Govori"
-      },
-      "name": {
-       "EN": "Fitore Govori",
-       "FR": "Fitore Govori",
-       "DE": "Fitore Govori",
-       "ES": "Fitore Govori",
-       "PT": "Fitore Govori",
-       "IT": "Fitore Govori",
-       "RU": "Фиторе Говори",
-       "ZH": "Fitore Govori",
-       "AR": "Fitore Govori"
-      },
-      "shortName": {
-       "EN": "Govori",
-       "FR": "Govori",
-       "DE": "Govori",
-       "ES": "Govori",
-       "PT": "Govori",
-       "IT": "Govori",
-       "RU": "Говори",
-       "ZH": "Govori",
-       "AR": "Govori"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/60633.jpg"
@@ -498,6 +417,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250051861.jpg"
+    },
+    "person": {
+     "countryCode": "ROU",
+     "gender": "MALE",
+     "id": "250051861",
+     "translations": {
+      "countryName": {
+       "EN": "Romania",
+       "FR": "Roumanie",
+       "DE": "Rumänien",
+       "ES": "Rumanía",
+       "PT": "Roménia",
+       "IT": "Romania",
+       "RU": "Румыния",
+       "ZH": "罗马尼亚",
+       "AR": "رومانيا"
+      },
+      "firstName": {
+       "EN": "Alin",
+       "FR": "Alin",
+       "DE": "Alin",
+       "ES": "Alin",
+       "PT": "Alin",
+       "IT": "Alin",
+       "RU": "Alin",
+       "ZH": "Alin",
+       "AR": "Alin"
+      },
+      "lastName": {
+       "EN": "Cioban",
+       "FR": "Cioban",
+       "DE": "Cioban",
+       "ES": "Cioban",
+       "PT": "Cioban",
+       "IT": "Cioban",
+       "RU": "Cioban",
+       "ZH": "Cioban",
+       "AR": "Cioban"
+      },
+      "name": {
+       "EN": "Alin Cioban",
+       "FR": "Alin Cioban",
+       "DE": "Alin Cioban",
+       "ES": "Alin Cioban",
+       "PT": "Alin Cioban",
+       "IT": "Alin Cioban",
+       "RU": "Алин Чобан",
+       "ZH": "Alin Cioban",
+       "AR": "Alin Cioban"
+      },
+      "shortName": {
+       "EN": "Cioban",
+       "FR": "Cioban",
+       "DE": "Cioban",
+       "ES": "Cioban",
+       "PT": "Cioban",
+       "IT": "Cioban",
+       "RU": "Чобан",
+       "ZH": "Cioban",
+       "AR": "Cioban"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
@@ -584,82 +584,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250051861.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250169910.jpg"
     },
     "person": {
-     "countryCode": "ROU",
-     "gender": "MALE",
-     "id": "250051861",
+     "countryCode": "KOS",
+     "gender": "FEMALE",
+     "id": "250169910",
      "translations": {
       "countryName": {
-       "EN": "Romania",
-       "FR": "Roumanie",
-       "DE": "Rumänien",
-       "ES": "Rumanía",
-       "PT": "Roménia",
-       "IT": "Romania",
-       "RU": "Румыния",
-       "ZH": "罗马尼亚",
-       "AR": "رومانيا"
+       "EN": "Kosovo",
+       "FR": "Kosovo",
+       "DE": "Kosovo",
+       "ES": "Kosovo",
+       "PT": "Kosovo",
+       "IT": "Kosovo",
+       "RU": "Косово",
+       "ZH": "科索沃",
+       "AR": "كوسوفو"
       },
       "firstName": {
-       "EN": "Alin",
-       "FR": "Alin",
-       "DE": "Alin",
-       "ES": "Alin",
-       "PT": "Alin",
-       "IT": "Alin",
-       "RU": "Alin",
-       "ZH": "Alin",
-       "AR": "Alin"
+       "EN": "Fitore",
+       "FR": "Fitore",
+       "DE": "Fitore",
+       "ES": "Fitore",
+       "PT": "Fitore",
+       "IT": "Fitore",
+       "RU": "Фиторе",
+       "ZH": "Fitore",
+       "AR": "Fitore"
       },
       "lastName": {
-       "EN": "Cioban",
-       "FR": "Cioban",
-       "DE": "Cioban",
-       "ES": "Cioban",
-       "PT": "Cioban",
-       "IT": "Cioban",
-       "RU": "Cioban",
-       "ZH": "Cioban",
-       "AR": "Cioban"
+       "EN": "Govori",
+       "FR": "Govori",
+       "DE": "Govori",
+       "ES": "Govori",
+       "PT": "Govori",
+       "IT": "Govori",
+       "RU": "Говори",
+       "ZH": "Govori",
+       "AR": "Govori"
       },
       "name": {
-       "EN": "Alin Cioban",
-       "FR": "Alin Cioban",
-       "DE": "Alin Cioban",
-       "ES": "Alin Cioban",
-       "PT": "Alin Cioban",
-       "IT": "Alin Cioban",
-       "RU": "Алин Чобан",
-       "ZH": "Alin Cioban",
-       "AR": "Alin Cioban"
+       "EN": "Fitore Govori",
+       "FR": "Fitore Govori",
+       "DE": "Fitore Govori",
+       "ES": "Fitore Govori",
+       "PT": "Fitore Govori",
+       "IT": "Fitore Govori",
+       "RU": "Фиторе Говори",
+       "ZH": "Fitore Govori",
+       "AR": "Fitore Govori"
       },
       "shortName": {
-       "EN": "Cioban",
-       "FR": "Cioban",
-       "DE": "Cioban",
-       "ES": "Cioban",
-       "PT": "Cioban",
-       "IT": "Cioban",
-       "RU": "Чобан",
-       "ZH": "Cioban",
-       "AR": "Cioban"
+       "EN": "Govori",
+       "FR": "Govori",
+       "DE": "Govori",
+       "ES": "Govori",
+       "PT": "Govori",
+       "IT": "Govori",
+       "RU": "Говори",
+       "ZH": "Govori",
+       "AR": "Govori"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -1380,6 +1380,87 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250097479.jpg"
+    },
+    "person": {
+     "countryCode": "GEO",
+     "gender": "FEMALE",
+     "id": "250097479",
+     "translations": {
+      "countryName": {
+       "EN": "Georgia",
+       "FR": "Géorgie",
+       "DE": "Georgien",
+       "ES": "Georgia",
+       "PT": "Geórgia",
+       "IT": "Georgia",
+       "RU": "Грузия",
+       "ZH": "格鲁吉亚",
+       "AR": "جورجيا"
+      },
+      "firstName": {
+       "EN": "Teona",
+       "FR": "Teona",
+       "DE": "Teona",
+       "ES": "Teona",
+       "PT": "Teona",
+       "IT": "Teona",
+       "RU": "Теона",
+       "ZH": "Teona",
+       "AR": "Teona"
+      },
+      "lastName": {
+       "EN": "Sturua",
+       "FR": "Sturua",
+       "DE": "Sturua",
+       "ES": "Sturua",
+       "PT": "Sturua",
+       "IT": "Sturua",
+       "RU": "Стуруа",
+       "ZH": "Sturua",
+       "AR": "Sturua"
+      },
+      "name": {
+       "EN": "Teona Sturua",
+       "FR": "Teona Sturua",
+       "DE": "Teona Sturua",
+       "ES": "Teona Sturua",
+       "PT": "Teona Sturua",
+       "IT": "Teona Sturua",
+       "RU": "Теона Стуруа",
+       "ZH": "Teona Sturua",
+       "AR": "Teona Sturua"
+      },
+      "shortName": {
+       "EN": "Sturua",
+       "FR": "Sturua",
+       "DE": "Sturua",
+       "ES": "Sturua",
+       "PT": "Sturua",
+       "IT": "Sturua",
+       "RU": "Стуруа",
+       "ZH": "Sturua",
+       "AR": "Sturua"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250065113.jpg"
     },
     "person": {
@@ -1461,87 +1542,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250043981.jpg"
-    },
-    "person": {
-     "countryCode": "ESP",
-     "gender": "FEMALE",
-     "id": "250043981",
-     "translations": {
-      "countryName": {
-       "EN": "Spain",
-       "FR": "Espagne",
-       "DE": "Spanien",
-       "ES": "España",
-       "PT": "Espanha",
-       "IT": "Spagna",
-       "RU": "Испания",
-       "ZH": "西班牙",
-       "AR": "إسبانيا"
-      },
-      "firstName": {
-       "EN": "Marta",
-       "FR": "Marta",
-       "DE": "Marta",
-       "ES": "Marta",
-       "PT": "Marta",
-       "IT": "Marta",
-       "RU": "Marta",
-       "ZH": "Marta",
-       "AR": "Marta"
-      },
-      "lastName": {
-       "EN": "Frías Acedo",
-       "FR": "Frías Acedo",
-       "DE": "Frías Acedo",
-       "ES": "Frías Acedo",
-       "PT": "Frías Acedo",
-       "IT": "Frías Acedo",
-       "RU": "Frías Acedo",
-       "ZH": "Frias Acedo",
-       "AR": "Frías Acedo"
-      },
-      "name": {
-       "EN": "Marta Frias Acedo",
-       "FR": "Marta Frias Acedo",
-       "DE": "Marta Frias Acedo",
-       "ES": "Marta Frias Acedo",
-       "PT": "Marta Frias Acedo",
-       "IT": "Marta Frias Acedo",
-       "RU": "Марта Фриас",
-       "ZH": "Marta Frias Acedo",
-       "AR": "Marta Frias Acedo"
-      },
-      "shortName": {
-       "EN": "Frias Acedo",
-       "FR": "Frias Acedo",
-       "DE": "Frias Acedo",
-       "ES": "Frias Acedo",
-       "PT": "Frias Acedo",
-       "IT": "Frias Acedo",
-       "RU": "Фриас",
-       "ZH": "Frias Acedo",
-       "AR": "Frias Acedo"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee Observer",
-      "FR": "Observateur ou observatrice d'arbitre",
-      "DE": "Schiedsrichterbeobachterin",
-      "ES": "Observadora arbitral",
-      "PT": "Observadora de Arbitragem",
-      "IT": "Osservatrice arbitrale",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250051861.jpg"
     },
     "person": {
@@ -1618,6 +1618,87 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250043981.jpg"
+    },
+    "person": {
+     "countryCode": "ESP",
+     "gender": "FEMALE",
+     "id": "250043981",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "firstName": {
+       "EN": "Marta",
+       "FR": "Marta",
+       "DE": "Marta",
+       "ES": "Marta",
+       "PT": "Marta",
+       "IT": "Marta",
+       "RU": "Marta",
+       "ZH": "Marta",
+       "AR": "Marta"
+      },
+      "lastName": {
+       "EN": "Frías Acedo",
+       "FR": "Frías Acedo",
+       "DE": "Frías Acedo",
+       "ES": "Frías Acedo",
+       "PT": "Frías Acedo",
+       "IT": "Frías Acedo",
+       "RU": "Frías Acedo",
+       "ZH": "Frias Acedo",
+       "AR": "Frías Acedo"
+      },
+      "name": {
+       "EN": "Marta Frias Acedo",
+       "FR": "Marta Frias Acedo",
+       "DE": "Marta Frias Acedo",
+       "ES": "Marta Frias Acedo",
+       "PT": "Marta Frias Acedo",
+       "IT": "Marta Frias Acedo",
+       "RU": "Марта Фриас",
+       "ZH": "Marta Frias Acedo",
+       "AR": "Marta Frias Acedo"
+      },
+      "shortName": {
+       "EN": "Frias Acedo",
+       "FR": "Frias Acedo",
+       "DE": "Frias Acedo",
+       "ES": "Frias Acedo",
+       "PT": "Frias Acedo",
+       "IT": "Frias Acedo",
+       "RU": "Фриас",
+       "ZH": "Frias Acedo",
+       "AR": "Frias Acedo"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكم"
      }
     }
    },
@@ -1780,87 +1861,6 @@
       "RU": "Ассистенты рефери",
       "ZH": "Assistant referees",
       "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250097479.jpg"
-    },
-    "person": {
-     "countryCode": "GEO",
-     "gender": "FEMALE",
-     "id": "250097479",
-     "translations": {
-      "countryName": {
-       "EN": "Georgia",
-       "FR": "Géorgie",
-       "DE": "Georgien",
-       "ES": "Georgia",
-       "PT": "Geórgia",
-       "IT": "Georgia",
-       "RU": "Грузия",
-       "ZH": "格鲁吉亚",
-       "AR": "جورجيا"
-      },
-      "firstName": {
-       "EN": "Teona",
-       "FR": "Teona",
-       "DE": "Teona",
-       "ES": "Teona",
-       "PT": "Teona",
-       "IT": "Teona",
-       "RU": "Теона",
-       "ZH": "Teona",
-       "AR": "Teona"
-      },
-      "lastName": {
-       "EN": "Sturua",
-       "FR": "Sturua",
-       "DE": "Sturua",
-       "ES": "Sturua",
-       "PT": "Sturua",
-       "IT": "Sturua",
-       "RU": "Стуруа",
-       "ZH": "Sturua",
-       "AR": "Sturua"
-      },
-      "name": {
-       "EN": "Teona Sturua",
-       "FR": "Teona Sturua",
-       "DE": "Teona Sturua",
-       "ES": "Teona Sturua",
-       "PT": "Teona Sturua",
-       "IT": "Teona Sturua",
-       "RU": "Теона Стуруа",
-       "ZH": "Teona Sturua",
-       "AR": "Teona Sturua"
-      },
-      "shortName": {
-       "EN": "Sturua",
-       "FR": "Sturua",
-       "DE": "Sturua",
-       "ES": "Sturua",
-       "PT": "Sturua",
-       "IT": "Sturua",
-       "RU": "Стуруа",
-       "ZH": "Sturua",
-       "AR": "Sturua"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
      }
     }
    }
