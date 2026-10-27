@@ -138,6 +138,7 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "fullTimeAt": "2026-10-27T13:35:04.199Z",
   "group": {
    "competitionId": "27",
    "id": "2014316",
@@ -263,7 +264,8 @@
    "dateTime": "2026-10-27T12:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "AVAILABLE",
+  "matchAttendance": 52,
   "matchday": {
    "competitionId": "27",
    "dateFrom": "2026-10-27T07:00:00+0000",
@@ -302,7 +304,1056 @@
    },
    "type": "MATCHDAY"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "8ed809d0-6bf7-4254-bc02-e5df001a0f91",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "28",
+      "birthDate": "1998-03-18",
+      "clubId": "2603398",
+      "clubJerseyNumber": "9",
+      "clubShirtName": "Suscsák",
+      "countryCode": "HUN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250087788",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250087788.jpg",
+      "internationalName": "Máté Suscsák",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "13",
+      "nationalShirtName": "Suscsák",
+      "nationalTeamId": "700057",
+      "translations": {
+       "countryName": {
+        "EN": "Hungary",
+        "FR": "Hongrie",
+        "DE": "Ungarn",
+        "ES": "Hungría",
+        "PT": "Hungria",
+        "IT": "Ungheria",
+        "RU": "Венгрия",
+        "ZH": "匈牙利",
+        "AR": "المجر"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Máté",
+        "FR": "Máté",
+        "DE": "Máté",
+        "ES": "Máté",
+        "PT": "Máté",
+        "IT": "Máté",
+        "RU": "Мате",
+        "ZH": "Máté",
+        "AR": "Máté"
+       },
+       "lastName": {
+        "EN": "Suscsák",
+        "FR": "Suscsák",
+        "DE": "Suscsák",
+        "ES": "Suscsák",
+        "PT": "Suscsák",
+        "IT": "Suscsák",
+        "RU": "Шушчак",
+        "ZH": "Suscsák",
+        "AR": "Suscsák"
+       },
+       "name": {
+        "EN": "Máté Suscsák",
+        "FR": "Máté Suscsák",
+        "DE": "Máté Suscsák",
+        "ES": "Máté Suscsák",
+        "PT": "Máté Suscsák",
+        "IT": "Máté Suscsák",
+        "RU": "Мате Шушчак",
+        "ZH": "Máté Suscsák",
+        "AR": "Máté Suscsák"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Suscsák",
+        "FR": "Suscsák",
+        "DE": "Suscsák",
+        "ES": "Suscsák",
+        "PT": "Suscsák",
+        "IT": "Suscsák",
+        "RU": "Шушчак",
+        "ZH": "Suscsák",
+        "AR": "Suscsák"
+       }
+      }
+     },
+     "teamId": "2603398",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 1,
+      "second": 1
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "50f2ce2a-3d14-49ef-b284-5b787e424b9a",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "32",
+      "birthDate": "1994-04-06",
+      "clubId": "90395",
+      "clubJerseyNumber": "11",
+      "clubShirtName": "Rustamli",
+      "countryCode": "AZE",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250104577",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250104577.jpg",
+      "internationalName": "Oktay Rustamli",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Rustamli",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Oktay",
+        "FR": "Oktay",
+        "DE": "Oktay",
+        "ES": "Oktay",
+        "PT": "Oktay",
+        "IT": "Oktay",
+        "RU": "Октай",
+        "ZH": "Oktay",
+        "AR": "Oktay"
+       },
+       "lastName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       },
+       "name": {
+        "EN": "Oktay Rustamli",
+        "FR": "Oktay Rustamli",
+        "DE": "Oktay Rustamli",
+        "ES": "Oktay Rustamli",
+        "PT": "Oktay Rustamli",
+        "IT": "Oktay Rustamli",
+        "RU": "Октай Рустамли",
+        "ZH": "Oktay Rustamli",
+        "AR": "Oktay Rustamli"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 4,
+      "second": 38
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "92dfd1e4-4e63-4288-83b3-13bee1bcf27d",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "26",
+      "birthDate": "2000-04-16",
+      "clubId": "2603398",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "Thiago",
+      "countryCode": "BRA",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250223631",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250223631.jpg",
+      "internationalName": "Thiago Cardoso Alves",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Thiago",
+      "translations": {
+       "countryName": {
+        "EN": "Brazil",
+        "FR": "Brésil",
+        "DE": "Brasilien",
+        "ES": "Brasil",
+        "PT": "Brasil",
+        "IT": "Brasile",
+        "RU": "Бразилия",
+        "ZH": "巴西",
+        "AR": "البرازيل"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Thiago",
+        "FR": "Thiago",
+        "DE": "Thiago",
+        "ES": "Thiago",
+        "PT": "Thiago",
+        "IT": "Thiago",
+        "RU": "Thiago",
+        "ZH": "Thiago",
+        "AR": "Thiago"
+       },
+       "lastName": {
+        "EN": "Cardoso Alves",
+        "FR": "Cardoso Alves",
+        "DE": "Cardoso Alves",
+        "ES": "Cardoso Alves",
+        "PT": "Cardoso Alves",
+        "IT": "Cardoso Alves",
+        "RU": "Cardoso Alves",
+        "ZH": "Cardoso Alves",
+        "AR": "Cardoso Alves"
+       },
+       "name": {
+        "EN": "Thiago Cardoso Alves",
+        "FR": "Thiago Cardoso Alves",
+        "DE": "Thiago Cardoso Alves",
+        "ES": "Thiago Cardoso Alves",
+        "PT": "Thiago Cardoso Alves",
+        "IT": "Thiago Cardoso Alves",
+        "RU": "Thiago Cardoso Alves",
+        "ZH": "Thiago Cardoso Alves",
+        "AR": "Thiago Cardoso Alves"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Cardoso Alves",
+        "FR": "Cardoso Alves",
+        "DE": "Cardoso Alves",
+        "ES": "Cardoso Alves",
+        "PT": "Cardoso Alves",
+        "IT": "Cardoso Alves",
+        "RU": "Cardoso Alves",
+        "ZH": "Cardoso Alves",
+        "AR": "Cardoso Alves"
+       }
+      }
+     },
+     "teamId": "2603398",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 6,
+      "second": 2
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "d8792b79-d194-4ea1-9eeb-95a18d6fe441",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "40",
+      "birthDate": "1986-06-01",
+      "clubId": "90395",
+      "clubJerseyNumber": "77",
+      "clubShirtName": "Alakbarov",
+      "countryCode": "AZE",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250058036",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250058036.jpg",
+      "internationalName": "Farid Alakbarov",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "4",
+      "nationalShirtName": "Alakbarov",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Farid",
+        "FR": "Farid",
+        "DE": "Farid",
+        "ES": "Farid",
+        "PT": "Farid",
+        "IT": "Farid",
+        "RU": "Фарид",
+        "ZH": "Farid",
+        "AR": "Farid"
+       },
+       "lastName": {
+        "EN": "Alakbarov",
+        "FR": "Alakbarov",
+        "DE": "Alakbarov",
+        "ES": "Alakbarov",
+        "PT": "Alakbarov",
+        "IT": "Alakbarov",
+        "RU": "Алакбаров",
+        "ZH": "Alakbarov",
+        "AR": "Alakbarov"
+       },
+       "name": {
+        "EN": "Farid Alakbarov",
+        "FR": "Farid Alakbarov",
+        "DE": "Farid Alakbarov",
+        "ES": "Farid Alakbarov",
+        "PT": "Farid Alakbarov",
+        "IT": "Farid Alakbarov",
+        "RU": "Фарид Алакбаров",
+        "ZH": "Farid Alakbarov",
+        "AR": "Farid Alakbarov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Alakbarov",
+        "FR": "Alakbarov",
+        "DE": "Alakbarov",
+        "ES": "Alakbarov",
+        "PT": "Alakbarov",
+        "IT": "Alakbarov",
+        "RU": "Алакбаров",
+        "ZH": "Alakbarov",
+        "AR": "Alakbarov"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 10,
+      "second": 25
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "b7e3d4bc-938b-4e49-88c1-4f41dae89ad8",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "32",
+      "birthDate": "1994-04-06",
+      "clubId": "90395",
+      "clubJerseyNumber": "11",
+      "clubShirtName": "Rustamli",
+      "countryCode": "AZE",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250104577",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250104577.jpg",
+      "internationalName": "Oktay Rustamli",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Rustamli",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Oktay",
+        "FR": "Oktay",
+        "DE": "Oktay",
+        "ES": "Oktay",
+        "PT": "Oktay",
+        "IT": "Oktay",
+        "RU": "Октай",
+        "ZH": "Oktay",
+        "AR": "Oktay"
+       },
+       "lastName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       },
+       "name": {
+        "EN": "Oktay Rustamli",
+        "FR": "Oktay Rustamli",
+        "DE": "Oktay Rustamli",
+        "ES": "Oktay Rustamli",
+        "PT": "Oktay Rustamli",
+        "IT": "Oktay Rustamli",
+        "RU": "Октай Рустамли",
+        "ZH": "Oktay Rustamli",
+        "AR": "Oktay Rustamli"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 17,
+      "second": 41
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "5d89b5ca-8b9e-48f3-ac2f-8e31eebaa8df",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "31",
+      "birthDate": "1995-05-20",
+      "clubId": "90395",
+      "clubJerseyNumber": "3",
+      "clubShirtName": "Manafov",
+      "countryCode": "AZE",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250042682",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250042682.jpg",
+      "internationalName": "Kanan Manafov",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "3",
+      "nationalShirtName": "Manafov",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Kanan",
+        "FR": "Kanan",
+        "DE": "Kanan",
+        "ES": "Kanan",
+        "PT": "Kanan",
+        "IT": "Kanan",
+        "RU": "Канан",
+        "ZH": "Kanan",
+        "AR": "Kanan"
+       },
+       "lastName": {
+        "EN": "Manafov",
+        "FR": "Manafov",
+        "DE": "Manafov",
+        "ES": "Manafov",
+        "PT": "Manafov",
+        "IT": "Manafov",
+        "RU": "Манафов",
+        "ZH": "Manafov",
+        "AR": "Manafov"
+       },
+       "name": {
+        "EN": "Kanan Manafov",
+        "FR": "Kanan Manafov",
+        "DE": "Kanan Manafov",
+        "ES": "Kanan Manafov",
+        "PT": "Kanan Manafov",
+        "IT": "Kanan Manafov",
+        "RU": "Кенан Манафов",
+        "ZH": "Kanan Manafov",
+        "AR": "Kanan Manafov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Manafov",
+        "FR": "Manafov",
+        "DE": "Manafov",
+        "ES": "Manafov",
+        "PT": "Manafov",
+        "IT": "Manafov",
+        "RU": "Манафов",
+        "ZH": "Manafov",
+        "AR": "Manafov"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 20,
+      "second": 49
+     }
+    },
+    {
+     "goalType": "OWN",
+     "id": "188d4301-dfe5-40eb-8b93-ec46757ba60b",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "30",
+      "birthDate": "1996-06-14",
+      "clubId": "90395",
+      "clubJerseyNumber": "9",
+      "clubShirtName": "Guluzade",
+      "countryCode": "AZE",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250180939",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250180939.jpg",
+      "internationalName": "Murad Guluzade",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Guluzade",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Murad",
+        "FR": "Murad",
+        "DE": "Murad",
+        "ES": "Murad",
+        "PT": "Murad",
+        "IT": "Murad",
+        "RU": "Мурад",
+        "ZH": "Murad",
+        "AR": "Murad"
+       },
+       "lastName": {
+        "EN": "Guluzade",
+        "FR": "Guluzade",
+        "DE": "Guluzade",
+        "ES": "Guluzade",
+        "PT": "Guluzade",
+        "IT": "Guluzade",
+        "RU": "Гулузаде",
+        "ZH": "Guluzade",
+        "AR": "Guluzade"
+       },
+       "name": {
+        "EN": "Murad Guluzade",
+        "FR": "Murad Guluzade",
+        "DE": "Murad Guluzade",
+        "ES": "Murad Guluzade",
+        "PT": "Murad Guluzade",
+        "IT": "Murad Guluzade",
+        "RU": "Мурад Гулузаде",
+        "ZH": "Murad Guluzade",
+        "AR": "Murad Guluzade"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Guluzade",
+        "FR": "Guluzade",
+        "DE": "Guluzade",
+        "ES": "Guluzade",
+        "PT": "Guluzade",
+        "IT": "Guluzade",
+        "RU": "Гулузаде",
+        "ZH": "Guluzade",
+        "AR": "Guluzade"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 21,
+      "second": 33
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "9a581e8d-d932-487b-85d9-f98856209756",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "32",
+      "birthDate": "1994-04-06",
+      "clubId": "90395",
+      "clubJerseyNumber": "11",
+      "clubShirtName": "Rustamli",
+      "countryCode": "AZE",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250104577",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250104577.jpg",
+      "internationalName": "Oktay Rustamli",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Rustamli",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Oktay",
+        "FR": "Oktay",
+        "DE": "Oktay",
+        "ES": "Oktay",
+        "PT": "Oktay",
+        "IT": "Oktay",
+        "RU": "Октай",
+        "ZH": "Oktay",
+        "AR": "Oktay"
+       },
+       "lastName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       },
+       "name": {
+        "EN": "Oktay Rustamli",
+        "FR": "Oktay Rustamli",
+        "DE": "Oktay Rustamli",
+        "ES": "Oktay Rustamli",
+        "PT": "Oktay Rustamli",
+        "IT": "Oktay Rustamli",
+        "RU": "Октай Рустамли",
+        "ZH": "Oktay Rustamli",
+        "AR": "Oktay Rustamli"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Rustamli",
+        "FR": "Rustamli",
+        "DE": "Rustamli",
+        "ES": "Rustamli",
+        "PT": "Rustamli",
+        "IT": "Rustamli",
+        "RU": "Рустамли",
+        "ZH": "Rustamli",
+        "AR": "Rustamli"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 27,
+      "second": 13
+     }
+    },
+    {
+     "goalType": "OWN",
+     "id": "e8d2eef7-783d-44b7-b483-62ae042aa7ec",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "20",
+      "birthDate": "2006-08-27",
+      "clubId": "90395",
+      "clubJerseyNumber": "7",
+      "clubShirtName": "Alakbarov",
+      "countryCode": "AZE",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250205540",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/27/2027/324x324/250205540.jpg",
+      "internationalName": "Adalat Alakbarov",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "17",
+      "nationalShirtName": "Alakbarov",
+      "nationalTeamId": "757154",
+      "translations": {
+       "countryName": {
+        "EN": "Azerbaijan",
+        "FR": "Azerbaïdjan",
+        "DE": "Aserbaidschan",
+        "ES": "Azerbaiyán",
+        "PT": "Azerbaijão",
+        "IT": "Azerbaigian",
+        "RU": "Азербайджан",
+        "ZH": "阿赛拜疆",
+        "AR": "أذربيجان"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Adalat",
+        "FR": "Adalat",
+        "DE": "Adalat",
+        "ES": "Adalat",
+        "PT": "Adalat",
+        "IT": "Adalat",
+        "RU": "Adalat",
+        "ZH": "Adalat",
+        "AR": "Adalat"
+       },
+       "lastName": {
+        "EN": "Alakbarov",
+        "FR": "Alakbarov",
+        "DE": "Alakbarov",
+        "ES": "Alakbarov",
+        "PT": "Alakbarov",
+        "IT": "Alakbarov",
+        "RU": "Alakbarov",
+        "ZH": "Alakbarov",
+        "AR": "Alakbarov"
+       },
+       "name": {
+        "EN": "Adalat Alakbarov",
+        "FR": "Adalat Alakbarov",
+        "DE": "Adalat Alakbarov",
+        "ES": "Adalat Alakbarov",
+        "PT": "Adalat Alakbarov",
+        "IT": "Adalat Alakbarov",
+        "RU": "Adalat Alakbarov",
+        "ZH": "Adalat Alakbarov",
+        "AR": "Adalat Alakbarov"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Alakbarov",
+        "FR": "Alakbarov",
+        "DE": "Alakbarov",
+        "ES": "Alakbarov",
+        "PT": "Alakbarov",
+        "IT": "Alakbarov",
+        "RU": "Alakbarov",
+        "ZH": "Alakbarov",
+        "AR": "Alakbarov"
+       }
+      }
+     },
+     "teamId": "90395",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 38,
+      "second": 43
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/50015950.jpg"
+    },
+    "person": {
+     "countryCode": "UKR",
+     "gender": "FEMALE",
+     "id": "50015950",
+     "translations": {
+      "countryName": {
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
+      },
+      "firstName": {
+       "EN": "Maryna",
+       "FR": "Maryna",
+       "DE": "Maryna",
+       "ES": "Maryna",
+       "PT": "Maryna",
+       "IT": "Maryna",
+       "RU": "Марина",
+       "ZH": "Maryna",
+       "AR": "Maryna"
+      },
+      "lastName": {
+       "EN": "Kyryliuk",
+       "FR": "Kyryliuk",
+       "DE": "Kyryliuk",
+       "ES": "Kyryliuk",
+       "PT": "Kyryliuk",
+       "IT": "Kyryliuk",
+       "RU": "Кирилюк",
+       "ZH": "Kyryliuk",
+       "AR": "Kyryliuk"
+      },
+      "name": {
+       "EN": "Maryna Kyryliuk",
+       "FR": "Maryna Kyryliuk",
+       "DE": "Maryna Kyryliuk",
+       "ES": "Maryna Kyryliuk",
+       "PT": "Maryna Kyryliuk",
+       "IT": "Maryna Kyryliuk",
+       "RU": "Марина Кирилюк",
+       "ZH": "Maryna Kyryliuk",
+       "AR": "Maryna Kyryliuk"
+      },
+      "shortName": {
+       "EN": "Kyryliuk",
+       "FR": "Kyryliuk",
+       "DE": "Kyryliuk",
+       "ES": "Kyryliuk",
+       "PT": "Kyryliuk",
+       "IT": "Kyryliuk",
+       "RU": "Кирилюк",
+       "ZH": "Kyryliuk",
+       "AR": "Kyryliuk"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250080717.jpg"
@@ -381,87 +1432,6 @@
       "RU": "Первый рефери",
       "ZH": "Primeiro árbitro",
       "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1908951.jpg"
-    },
-    "person": {
-     "countryCode": "LVA",
-     "gender": "MALE",
-     "id": "1908951",
-     "translations": {
-      "countryName": {
-       "EN": "Latvia",
-       "FR": "Lettonie",
-       "DE": "Lettland",
-       "ES": "Letonia",
-       "PT": "Letónia",
-       "IT": "Lettonia",
-       "RU": "Латвия",
-       "ZH": "拉脱维亚",
-       "AR": "لاتفيا"
-      },
-      "firstName": {
-       "EN": "Igors",
-       "FR": "Igors",
-       "DE": "Igors",
-       "ES": "Igors",
-       "PT": "Igors",
-       "IT": "Igors",
-       "RU": "Igors",
-       "ZH": "Igors",
-       "AR": "Igors"
-      },
-      "lastName": {
-       "EN": "Jacevičs",
-       "FR": "Jacevičs",
-       "DE": "Jacevičs",
-       "ES": "Jacevičs",
-       "PT": "Jacevičs",
-       "IT": "Jacevičs",
-       "RU": "Jacevičs",
-       "ZH": "Jacevičs",
-       "AR": "Jacevičs"
-      },
-      "name": {
-       "EN": "Igors Jacevičs",
-       "FR": "Igors Jacevičs",
-       "DE": "Igors Jacevičs",
-       "ES": "Igors Jacevičs",
-       "PT": "Igors Jacevičs",
-       "IT": "Igors Jacevičs",
-       "RU": "Igors Jacevičs",
-       "ZH": "Igors Jacevičs",
-       "AR": "Igors Jacevičs"
-      },
-      "shortName": {
-       "EN": "Jacevičs",
-       "FR": "Jacevičs",
-       "DE": "Jacevičs",
-       "ES": "Jacevičs",
-       "PT": "Jacevičs",
-       "IT": "Jacevičs",
-       "RU": "Jacevičs",
-       "ZH": "Jacevičs",
-       "AR": "Jacevičs"
-      }
-     }
-    },
-    "role": "REFEREE_THREE",
-    "translations": {
-     "roleName": {
-      "EN": "Third Referee",
-      "FR": "Troisième arbitre",
-      "DE": "Dritter Schiedsrichter",
-      "ES": "Tercer árbitro",
-      "PT": "Terceiro árbitro",
-      "IT": "Terzo arbitro",
-      "RU": "Третий рефери",
-      "ZH": "Terceiro árbitro",
-      "AR": "الحكم الثالث"
      }
     }
    },
@@ -548,87 +1518,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/50015950.jpg"
-    },
-    "person": {
-     "countryCode": "UKR",
-     "gender": "FEMALE",
-     "id": "50015950",
-     "translations": {
-      "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
-      },
-      "firstName": {
-       "EN": "Maryna",
-       "FR": "Maryna",
-       "DE": "Maryna",
-       "ES": "Maryna",
-       "PT": "Maryna",
-       "IT": "Maryna",
-       "RU": "Марина",
-       "ZH": "Maryna",
-       "AR": "Maryna"
-      },
-      "lastName": {
-       "EN": "Kyryliuk",
-       "FR": "Kyryliuk",
-       "DE": "Kyryliuk",
-       "ES": "Kyryliuk",
-       "PT": "Kyryliuk",
-       "IT": "Kyryliuk",
-       "RU": "Кирилюк",
-       "ZH": "Kyryliuk",
-       "AR": "Kyryliuk"
-      },
-      "name": {
-       "EN": "Maryna Kyryliuk",
-       "FR": "Maryna Kyryliuk",
-       "DE": "Maryna Kyryliuk",
-       "ES": "Maryna Kyryliuk",
-       "PT": "Maryna Kyryliuk",
-       "IT": "Maryna Kyryliuk",
-       "RU": "Марина Кирилюк",
-       "ZH": "Maryna Kyryliuk",
-       "AR": "Maryna Kyryliuk"
-      },
-      "shortName": {
-       "EN": "Kyryliuk",
-       "FR": "Kyryliuk",
-       "DE": "Kyryliuk",
-       "ES": "Kyryliuk",
-       "PT": "Kyryliuk",
-       "IT": "Kyryliuk",
-       "RU": "Кирилюк",
-       "ZH": "Kyryliuk",
-       "AR": "Kyryliuk"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250006603.jpg"
     },
     "person": {
@@ -705,6 +1594,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1908951.jpg"
+    },
+    "person": {
+     "countryCode": "LVA",
+     "gender": "MALE",
+     "id": "1908951",
+     "translations": {
+      "countryName": {
+       "EN": "Latvia",
+       "FR": "Lettonie",
+       "DE": "Lettland",
+       "ES": "Letonia",
+       "PT": "Letónia",
+       "IT": "Lettonia",
+       "RU": "Латвия",
+       "ZH": "拉脱维亚",
+       "AR": "لاتفيا"
+      },
+      "firstName": {
+       "EN": "Igors",
+       "FR": "Igors",
+       "DE": "Igors",
+       "ES": "Igors",
+       "PT": "Igors",
+       "IT": "Igors",
+       "RU": "Igors",
+       "ZH": "Igors",
+       "AR": "Igors"
+      },
+      "lastName": {
+       "EN": "Jacevičs",
+       "FR": "Jacevičs",
+       "DE": "Jacevičs",
+       "ES": "Jacevičs",
+       "PT": "Jacevičs",
+       "IT": "Jacevičs",
+       "RU": "Jacevičs",
+       "ZH": "Jacevičs",
+       "AR": "Jacevičs"
+      },
+      "name": {
+       "EN": "Igors Jacevičs",
+       "FR": "Igors Jacevičs",
+       "DE": "Igors Jacevičs",
+       "ES": "Igors Jacevičs",
+       "PT": "Igors Jacevičs",
+       "IT": "Igors Jacevičs",
+       "RU": "Igors Jacevičs",
+       "ZH": "Igors Jacevičs",
+       "AR": "Igors Jacevičs"
+      },
+      "shortName": {
+       "EN": "Jacevičs",
+       "FR": "Jacevičs",
+       "DE": "Jacevičs",
+       "ES": "Jacevičs",
+       "PT": "Jacevičs",
+       "IT": "Jacevičs",
+       "RU": "Jacevičs",
+       "ZH": "Jacevičs",
+       "AR": "Jacevičs"
+      }
+     }
+    },
+    "role": "REFEREE_THREE",
+    "translations": {
+     "roleName": {
+      "EN": "Third Referee",
+      "FR": "Troisième arbitre",
+      "DE": "Dritter Schiedsrichter",
+      "ES": "Tercer árbitro",
+      "PT": "Terceiro árbitro",
+      "IT": "Terzo arbitro",
+      "RU": "Третий рефери",
+      "ZH": "Terceiro árbitro",
+      "AR": "الحكم الثالث"
      }
     }
    },
@@ -894,6 +1864,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 4,
+    "home": 5
+   },
+   "total": {
+    "away": 4,
+    "home": 5
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 1,
   "stadium": {
@@ -989,8 +1969,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "257154",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/AZE.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/700x700/90395.png",
+     "confederationType": "UEFA",
+     "countryCode": "AZE",
+     "id": "90395",
+     "idProvider": "FAME",
+     "internationalName": "Araz-Naxçivan",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/TP/teams/logos/70x70/90395.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/240x240/90395.png",
+     "organizationId": "290395",
+     "teamCode": "ARA",
+     "teamTypeDetail": "DOMESTIC_MEN_FUTSAL_TEAM_A",
+     "translations": {
+      "countryName": {
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
+      },
+      "displayName": {
+       "EN": "Araz-Naxçivan",
+       "FR": "Araz-Naxçivan",
+       "DE": "Araz-Naxçivan",
+       "ES": "Araz-Naxçivan",
+       "PT": "Araz-Naxçivan",
+       "IT": "Araz-Naxçivan",
+       "RU": "Араз",
+       "ZH": "Araz Naxçivan",
+       "AR": "أراز-ناخجيفان"
+      },
+      "displayOfficialName": {
+       "EN": "Araz-Naxçivan",
+       "FR": "Araz-Naxçivan",
+       "DE": "Araz-Naxçivan",
+       "ES": "Araz-Naxçivan",
+       "PT": "Araz-Naxçivan",
+       "IT": "Araz-Naxçivan",
+       "RU": "Араз",
+       "ZH": "Araz Naxçivan",
+       "AR": "أراز-ناخجيفان"
+      },
+      "displayTeamCode": {
+       "EN": "ARA",
+       "FR": "ARA",
+       "DE": "ARA",
+       "ES": "ARA",
+       "PT": "ARA",
+       "IT": "ARA",
+       "RU": "ARA",
+       "ZH": "ARA",
+       "AR": "ARA"
+      },
+      "shortName": {
+       "EN": "Araz",
+       "FR": "Araz",
+       "DE": "Araz",
+       "ES": "Araz",
+       "PT": "Araz",
+       "IT": "Araz",
+       "RU": "Араз",
+       "ZH": "Araz FUT",
+       "AR": "أراز-ناخجيفان"
+      }
+     },
+     "typeIsNational": false,
+     "typeTeam": "DOMESTIC"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1131,6 +2191,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 24,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013688",
@@ -1291,7 +2380,7 @@
    "dateTime": "2026-10-27T13:00:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-23T06:00:00+0000",
@@ -1329,6 +2418,329 @@
     }
    },
    "type": "MATCHDAY"
+  },
+  "minute": {
+   "normal": 70
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "009c045e-9394-47e7-963e-69d2c5cdd25b",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-05-06",
+      "clubShirtName": "Oniga",
+      "countryCode": "ROU",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250228197",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228197.jpg",
+      "internationalName": "Victor Oniga",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "19",
+      "nationalShirtName": "Oniga",
+      "nationalTeamId": "400113",
+      "translations": {
+       "countryName": {
+        "EN": "Romania",
+        "FR": "Roumanie",
+        "DE": "Rumänien",
+        "ES": "Rumanía",
+        "PT": "Roménia",
+        "IT": "Romania",
+        "RU": "Румыния",
+        "ZH": "罗马尼亚",
+        "AR": "رومانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Victor",
+        "FR": "Victor",
+        "DE": "Victor",
+        "ES": "Victor",
+        "PT": "Victor",
+        "IT": "Victor",
+        "RU": "Victor-Nicolae",
+        "ZH": "Victor-Nicolae",
+        "AR": "Victor-Nicolae"
+       },
+       "lastName": {
+        "EN": "Oniga",
+        "FR": "Oniga",
+        "DE": "Oniga",
+        "ES": "Oniga",
+        "PT": "Oniga",
+        "IT": "Oniga",
+        "RU": "Oniga",
+        "ZH": "Oniga",
+        "AR": "Oniga"
+       },
+       "name": {
+        "EN": "Victor Oniga",
+        "FR": "Victor Oniga",
+        "DE": "Victor Oniga",
+        "ES": "Victor Oniga",
+        "PT": "Victor Oniga",
+        "IT": "Victor Oniga",
+        "RU": "Victor-Nicolae Oniga",
+        "ZH": "Victor-Nicolae Oniga",
+        "AR": "Victor-Nicolae Oniga"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Oniga",
+        "FR": "Oniga",
+        "DE": "Oniga",
+        "ES": "Oniga",
+        "PT": "Oniga",
+        "IT": "Oniga",
+        "RU": "Oniga",
+        "ZH": "Oniga",
+        "AR": "Oniga"
+       }
+      }
+     },
+     "teamId": "400113",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 33,
+      "second": 58
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "8f3d32df-6546-4235-b65c-fe21ebd8a2b7",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-05-06",
+      "clubShirtName": "Oniga",
+      "countryCode": "ROU",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250228197",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228197.jpg",
+      "internationalName": "Victor Oniga",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "19",
+      "nationalShirtName": "Oniga",
+      "nationalTeamId": "400113",
+      "translations": {
+       "countryName": {
+        "EN": "Romania",
+        "FR": "Roumanie",
+        "DE": "Rumänien",
+        "ES": "Rumanía",
+        "PT": "Roménia",
+        "IT": "Romania",
+        "RU": "Румыния",
+        "ZH": "罗马尼亚",
+        "AR": "رومانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Victor",
+        "FR": "Victor",
+        "DE": "Victor",
+        "ES": "Victor",
+        "PT": "Victor",
+        "IT": "Victor",
+        "RU": "Victor-Nicolae",
+        "ZH": "Victor-Nicolae",
+        "AR": "Victor-Nicolae"
+       },
+       "lastName": {
+        "EN": "Oniga",
+        "FR": "Oniga",
+        "DE": "Oniga",
+        "ES": "Oniga",
+        "PT": "Oniga",
+        "IT": "Oniga",
+        "RU": "Oniga",
+        "ZH": "Oniga",
+        "AR": "Oniga"
+       },
+       "name": {
+        "EN": "Victor Oniga",
+        "FR": "Victor Oniga",
+        "DE": "Victor Oniga",
+        "ES": "Victor Oniga",
+        "PT": "Victor Oniga",
+        "IT": "Victor Oniga",
+        "RU": "Victor-Nicolae Oniga",
+        "ZH": "Victor-Nicolae Oniga",
+        "AR": "Victor-Nicolae Oniga"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Oniga",
+        "FR": "Oniga",
+        "DE": "Oniga",
+        "ES": "Oniga",
+        "PT": "Oniga",
+        "IT": "Oniga",
+        "RU": "Oniga",
+        "ZH": "Oniga",
+        "AR": "Oniga"
+       }
+      }
+     },
+     "teamId": "400113",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 36,
+      "second": 30
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "a546922f-bdeb-4ac5-b964-a706f7e388e2",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-18",
+      "clubShirtName": "Nastac",
+      "countryCode": "ROU",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250228201",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228201.jpg",
+      "internationalName": "Stefan Nastac",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "11",
+      "nationalShirtName": "Nastac",
+      "nationalTeamId": "400113",
+      "translations": {
+       "countryName": {
+        "EN": "Romania",
+        "FR": "Roumanie",
+        "DE": "Rumänien",
+        "ES": "Rumanía",
+        "PT": "Roménia",
+        "IT": "Romania",
+        "RU": "Румыния",
+        "ZH": "罗马尼亚",
+        "AR": "رومانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Stefan",
+        "FR": "Stefan",
+        "DE": "Stefan",
+        "ES": "Stefan",
+        "PT": "Stefan",
+        "IT": "Stefan",
+        "RU": "Stefan Marco",
+        "ZH": "Stefan Marco",
+        "AR": "Stefan Marco"
+       },
+       "lastName": {
+        "EN": "Nastac",
+        "FR": "Nastac",
+        "DE": "Nastac",
+        "ES": "Nastac",
+        "PT": "Nastac",
+        "IT": "Nastac",
+        "RU": "Nastac",
+        "ZH": "Nastac",
+        "AR": "Nastac"
+       },
+       "name": {
+        "EN": "Stefan Nastac",
+        "FR": "Stefan Nastac",
+        "DE": "Stefan Nastac",
+        "ES": "Stefan Nastac",
+        "PT": "Stefan Nastac",
+        "IT": "Stefan Nastac",
+        "RU": "Stefan Marco Nastac",
+        "ZH": "Stefan Marco Nastac",
+        "AR": "Stefan Marco Nastac"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Nastac",
+        "FR": "Nastac",
+        "DE": "Nastac",
+        "ES": "Nastac",
+        "PT": "Nastac",
+        "IT": "Nastac",
+        "RU": "Nastac",
+        "ZH": "Nastac",
+        "AR": "Nastac"
+       }
+      }
+     },
+     "teamId": "400113",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 63,
+      "second": 37
+     }
+    }
+   ]
   },
   "referees": [
    {
@@ -1495,87 +2907,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215385.jpg"
-    },
-    "person": {
-     "countryCode": "CYP",
-     "gender": "MALE",
-     "id": "250215385",
-     "translations": {
-      "countryName": {
-       "EN": "Cyprus",
-       "FR": "Chypre",
-       "DE": "Zypern",
-       "ES": "Chipre",
-       "PT": "Chipre",
-       "IT": "Cipro",
-       "RU": "Кипр",
-       "ZH": "塞浦路斯",
-       "AR": "قبرص"
-      },
-      "firstName": {
-       "EN": "Diogenis",
-       "FR": "Diogenis",
-       "DE": "Diogenis",
-       "ES": "Diogenis",
-       "PT": "Diogenis",
-       "IT": "Diogenis",
-       "RU": "Diogenis",
-       "ZH": "Diogenis",
-       "AR": "Diogenis"
-      },
-      "lastName": {
-       "EN": "Louka",
-       "FR": "Louka",
-       "DE": "Louka",
-       "ES": "Louka",
-       "PT": "Louka",
-       "IT": "Louka",
-       "RU": "Louka",
-       "ZH": "Louka",
-       "AR": "Louka"
-      },
-      "name": {
-       "EN": "Diogenis Louka",
-       "FR": "Diogenis Louka",
-       "DE": "Diogenis Louka",
-       "ES": "Diogenis Louka",
-       "PT": "Diogenis Louka",
-       "IT": "Diogenis Louka",
-       "RU": "Diogenis Louka",
-       "ZH": "Diogenis Louka",
-       "AR": "Diogenis Louka"
-      },
-      "shortName": {
-       "EN": "Louka",
-       "FR": "Louka",
-       "DE": "Louka",
-       "ES": "Louka",
-       "PT": "Louka",
-       "IT": "Louka",
-       "RU": "Louka",
-       "ZH": "Louka",
-       "AR": "Louka"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250129801.jpg"
     },
     "person": {
@@ -1652,6 +2983,87 @@
       "RU": "Ассистенты рефери",
       "ZH": "Árbitros assistentes",
       "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250202980.jpg"
+    },
+    "person": {
+     "countryCode": "CYP",
+     "gender": "MALE",
+     "id": "250202980",
+     "translations": {
+      "countryName": {
+       "EN": "Cyprus",
+       "FR": "Chypre",
+       "DE": "Zypern",
+       "ES": "Chipre",
+       "PT": "Chipre",
+       "IT": "Cipro",
+       "RU": "Кипр",
+       "ZH": "塞浦路斯",
+       "AR": "قبرص"
+      },
+      "firstName": {
+       "EN": "Antonis",
+       "FR": "Antonis",
+       "DE": "Antonis",
+       "ES": "Antonis",
+       "PT": "Antonis",
+       "IT": "Antonis",
+       "RU": "Антонис",
+       "ZH": "Antonis",
+       "AR": "Antonis"
+      },
+      "lastName": {
+       "EN": "Konstantinidis",
+       "FR": "Konstantinidis",
+       "DE": "Konstantinidis",
+       "ES": "Konstantinidis",
+       "PT": "Konstantinidis",
+       "IT": "Konstantinidis",
+       "RU": "Константинидис",
+       "ZH": "Konstantinidis",
+       "AR": "Konstantinidis"
+      },
+      "name": {
+       "EN": "Antonis Konstantinidis",
+       "FR": "Antonis Konstantinidis",
+       "DE": "Antonis Konstantinidis",
+       "ES": "Antonis Konstantinidis",
+       "PT": "Antonis Konstantinidis",
+       "IT": "Antonis Konstantinidis",
+       "RU": "Антонис Константинидис",
+       "ZH": "Antonis Konstantinidis",
+       "AR": "Antonis Konstantinidis"
+      },
+      "shortName": {
+       "EN": "Konstantinidis",
+       "FR": "Konstantinidis",
+       "DE": "Konstantinidis",
+       "ES": "Konstantinidis",
+       "PT": "Konstantinidis",
+       "IT": "Konstantinidis",
+       "RU": "Константинидис",
+       "ZH": "Konstantinidis",
+       "AR": "Konstantinidis"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
      }
     }
    },
@@ -1738,12 +3150,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250202980.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215385.jpg"
     },
     "person": {
      "countryCode": "CYP",
      "gender": "MALE",
-     "id": "250202980",
+     "id": "250215385",
      "translations": {
       "countryName": {
        "EN": "Cyprus",
@@ -1757,63 +3169,63 @@
        "AR": "قبرص"
       },
       "firstName": {
-       "EN": "Antonis",
-       "FR": "Antonis",
-       "DE": "Antonis",
-       "ES": "Antonis",
-       "PT": "Antonis",
-       "IT": "Antonis",
-       "RU": "Антонис",
-       "ZH": "Antonis",
-       "AR": "Antonis"
+       "EN": "Diogenis",
+       "FR": "Diogenis",
+       "DE": "Diogenis",
+       "ES": "Diogenis",
+       "PT": "Diogenis",
+       "IT": "Diogenis",
+       "RU": "Diogenis",
+       "ZH": "Diogenis",
+       "AR": "Diogenis"
       },
       "lastName": {
-       "EN": "Konstantinidis",
-       "FR": "Konstantinidis",
-       "DE": "Konstantinidis",
-       "ES": "Konstantinidis",
-       "PT": "Konstantinidis",
-       "IT": "Konstantinidis",
-       "RU": "Константинидис",
-       "ZH": "Konstantinidis",
-       "AR": "Konstantinidis"
+       "EN": "Louka",
+       "FR": "Louka",
+       "DE": "Louka",
+       "ES": "Louka",
+       "PT": "Louka",
+       "IT": "Louka",
+       "RU": "Louka",
+       "ZH": "Louka",
+       "AR": "Louka"
       },
       "name": {
-       "EN": "Antonis Konstantinidis",
-       "FR": "Antonis Konstantinidis",
-       "DE": "Antonis Konstantinidis",
-       "ES": "Antonis Konstantinidis",
-       "PT": "Antonis Konstantinidis",
-       "IT": "Antonis Konstantinidis",
-       "RU": "Антонис Константинидис",
-       "ZH": "Antonis Konstantinidis",
-       "AR": "Antonis Konstantinidis"
+       "EN": "Diogenis Louka",
+       "FR": "Diogenis Louka",
+       "DE": "Diogenis Louka",
+       "ES": "Diogenis Louka",
+       "PT": "Diogenis Louka",
+       "IT": "Diogenis Louka",
+       "RU": "Diogenis Louka",
+       "ZH": "Diogenis Louka",
+       "AR": "Diogenis Louka"
       },
       "shortName": {
-       "EN": "Konstantinidis",
-       "FR": "Konstantinidis",
-       "DE": "Konstantinidis",
-       "ES": "Konstantinidis",
-       "PT": "Konstantinidis",
-       "IT": "Konstantinidis",
-       "RU": "Константинидис",
-       "ZH": "Konstantinidis",
-       "AR": "Konstantinidis"
+       "EN": "Louka",
+       "FR": "Louka",
+       "DE": "Louka",
+       "ES": "Louka",
+       "PT": "Louka",
+       "IT": "Louka",
+       "RU": "Louka",
+       "ZH": "Louka",
+       "AR": "Louka"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -1938,6 +3350,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 3,
+    "home": 0
+   },
+   "total": {
+    "away": 3,
+    "home": 0
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 3,
   "stadium": {
@@ -2033,7 +3455,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  }
 ]
