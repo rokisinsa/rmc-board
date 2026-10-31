@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "WET",
+   "temperature": 17,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "wet",
+     "FR": "très humide",
+     "DE": "nass",
+     "ES": "húmedo",
+     "PT": "molhado",
+     "IT": "umido",
+     "RU": "сырое",
+     "ZH": "潮湿",
+     "AR": "أرضية مبتلة"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "101",
    "id": "2012450",
@@ -300,7 +329,7 @@
    "dateTime": "2026-10-31T09:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-13T06:00:00+0000",
@@ -342,12 +371,12 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205438.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205271.jpg"
     },
     "person": {
      "countryCode": "TUR",
      "gender": "FEMALE",
-     "id": "250205438",
+     "id": "250205271",
      "translations": {
       "countryName": {
        "EN": "Türkiye",
@@ -361,144 +390,63 @@
        "AR": "تركيا"
       },
       "firstName": {
-       "EN": "Ayenur",
-       "FR": "Ayenur",
-       "DE": "Ayenur",
-       "ES": "Ayenur",
-       "PT": "Ayenur",
-       "IT": "Ayenur",
-       "RU": "Айенур",
-       "ZH": "Ayenur",
-       "AR": "Ayenur"
+       "EN": "Duygu",
+       "FR": "Duygu",
+       "DE": "Duygu",
+       "ES": "Duygu",
+       "PT": "Duygu",
+       "IT": "Duygu",
+       "RU": "Хатыдже",
+       "ZH": "Duygu",
+       "AR": "Duygu"
       },
       "lastName": {
-       "EN": "Karakoc",
-       "FR": "Karakoc",
-       "DE": "Karakoc",
-       "ES": "Karakoc",
-       "PT": "Karakoc",
-       "IT": "Karakoc",
-       "RU": "Каракодж",
-       "ZH": "Karakoc",
-       "AR": "Karakoc"
+       "EN": "Hatice Aydin",
+       "FR": "Hatice Aydin",
+       "DE": "Hatice Aydin",
+       "ES": "Hatice Aydin",
+       "PT": "Hatice Aydin",
+       "IT": "Hatice Aydin",
+       "RU": "Дуйгу",
+       "ZH": "Hatice Aydin",
+       "AR": "Hatice Aydin"
       },
       "name": {
-       "EN": "Ayenur Karakoc",
-       "FR": "Ayenur Karakoc",
-       "DE": "Ayenur Karakoc",
-       "ES": "Ayenur Karakoc",
-       "PT": "Ayenur Karakoc",
-       "IT": "Ayenur Karakoc",
-       "RU": "Айенур Каракодж",
-       "ZH": "Ayenur Karakoc",
-       "AR": "Ayenur Karakoc"
+       "EN": "Duygu Hatice Aydin",
+       "FR": "Duygu Hatice Aydin",
+       "DE": "Duygu Hatice Aydin",
+       "ES": "Duygu Hatice Aydin",
+       "PT": "Duygu Hatice Aydin",
+       "IT": "Duygu Hatice Aydin",
+       "RU": "Хатыдже Дуйгу",
+       "ZH": "Duygu Hatice Aydin",
+       "AR": "Duygu Hatice Aydin"
       },
       "shortName": {
-       "EN": "Karakoc",
-       "FR": "Karakoc",
-       "DE": "Karakoc",
-       "ES": "Karakoc",
-       "PT": "Karakoc",
-       "IT": "Karakoc",
-       "RU": "Каракодж",
-       "ZH": "Karakoc",
-       "AR": "Karakoc"
+       "EN": "Hatice Aydin",
+       "FR": "Hatice Aydin",
+       "DE": "Hatice Aydin",
+       "ES": "Hatice Aydin",
+       "PT": "Hatice Aydin",
+       "IT": "Hatice Aydin",
+       "RU": "Дуйгу",
+       "ZH": "Hatice Aydin",
+       "AR": "Hatice Aydin"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "REFEREE",
     "translations": {
      "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250042271.jpg"
-    },
-    "person": {
-     "countryCode": "GEO",
-     "gender": "FEMALE",
-     "id": "250042271",
-     "translations": {
-      "countryName": {
-       "EN": "Georgia",
-       "FR": "Géorgie",
-       "DE": "Georgien",
-       "ES": "Georgia",
-       "PT": "Geórgia",
-       "IT": "Georgia",
-       "RU": "Грузия",
-       "ZH": "格鲁吉亚",
-       "AR": "جورجيا"
-      },
-      "firstName": {
-       "EN": "Sopiko",
-       "FR": "Sopiko",
-       "DE": "Sopiko",
-       "ES": "Sopiko",
-       "PT": "Sopiko",
-       "IT": "Sopiko",
-       "RU": "Софико",
-       "ZH": "Sopiko",
-       "AR": "Sopiko"
-      },
-      "lastName": {
-       "EN": "Rizhamadze",
-       "FR": "Rizhamadze",
-       "DE": "Rizhamadze",
-       "ES": "Rizhamadze",
-       "PT": "Rizhamadze",
-       "IT": "Rizhamadze",
-       "RU": "Рижамадзе",
-       "ZH": "Rizhamadze",
-       "AR": "Rizhamadze"
-      },
-      "name": {
-       "EN": "Sopiko Rizhamadze",
-       "FR": "Sopiko Rizhamadze",
-       "DE": "Sopiko Rizhamadze",
-       "ES": "Sopiko Rizhamadze",
-       "PT": "Sopiko Rizhamadze",
-       "IT": "Sopiko Rizhamadze",
-       "RU": "Софико Рижамадзе",
-       "ZH": "Sopiko Rizhamadze",
-       "AR": "Sopiko Rizhamadze"
-      },
-      "shortName": {
-       "EN": "Rizhamadze",
-       "FR": "Rizhamadze",
-       "DE": "Rizhamadze",
-       "ES": "Rizhamadze",
-       "PT": "Rizhamadze",
-       "IT": "Rizhamadze",
-       "RU": "Рижамадзе",
-       "ZH": "Rizhamadze",
-       "AR": "Rizhamadze"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    },
@@ -666,6 +614,168 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205438.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "FEMALE",
+     "id": "250205438",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Ayenur",
+       "FR": "Ayenur",
+       "DE": "Ayenur",
+       "ES": "Ayenur",
+       "PT": "Ayenur",
+       "IT": "Ayenur",
+       "RU": "Айенур",
+       "ZH": "Ayenur",
+       "AR": "Ayenur"
+      },
+      "lastName": {
+       "EN": "Karakoc",
+       "FR": "Karakoc",
+       "DE": "Karakoc",
+       "ES": "Karakoc",
+       "PT": "Karakoc",
+       "IT": "Karakoc",
+       "RU": "Каракодж",
+       "ZH": "Karakoc",
+       "AR": "Karakoc"
+      },
+      "name": {
+       "EN": "Ayenur Karakoc",
+       "FR": "Ayenur Karakoc",
+       "DE": "Ayenur Karakoc",
+       "ES": "Ayenur Karakoc",
+       "PT": "Ayenur Karakoc",
+       "IT": "Ayenur Karakoc",
+       "RU": "Айенур Каракодж",
+       "ZH": "Ayenur Karakoc",
+       "AR": "Ayenur Karakoc"
+      },
+      "shortName": {
+       "EN": "Karakoc",
+       "FR": "Karakoc",
+       "DE": "Karakoc",
+       "ES": "Karakoc",
+       "PT": "Karakoc",
+       "IT": "Karakoc",
+       "RU": "Каракодж",
+       "ZH": "Karakoc",
+       "AR": "Karakoc"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250042271.jpg"
+    },
+    "person": {
+     "countryCode": "GEO",
+     "gender": "FEMALE",
+     "id": "250042271",
+     "translations": {
+      "countryName": {
+       "EN": "Georgia",
+       "FR": "Géorgie",
+       "DE": "Georgien",
+       "ES": "Georgia",
+       "PT": "Geórgia",
+       "IT": "Georgia",
+       "RU": "Грузия",
+       "ZH": "格鲁吉亚",
+       "AR": "جورجيا"
+      },
+      "firstName": {
+       "EN": "Sopiko",
+       "FR": "Sopiko",
+       "DE": "Sopiko",
+       "ES": "Sopiko",
+       "PT": "Sopiko",
+       "IT": "Sopiko",
+       "RU": "Софико",
+       "ZH": "Sopiko",
+       "AR": "Sopiko"
+      },
+      "lastName": {
+       "EN": "Rizhamadze",
+       "FR": "Rizhamadze",
+       "DE": "Rizhamadze",
+       "ES": "Rizhamadze",
+       "PT": "Rizhamadze",
+       "IT": "Rizhamadze",
+       "RU": "Рижамадзе",
+       "ZH": "Rizhamadze",
+       "AR": "Rizhamadze"
+      },
+      "name": {
+       "EN": "Sopiko Rizhamadze",
+       "FR": "Sopiko Rizhamadze",
+       "DE": "Sopiko Rizhamadze",
+       "ES": "Sopiko Rizhamadze",
+       "PT": "Sopiko Rizhamadze",
+       "IT": "Sopiko Rizhamadze",
+       "RU": "Софико Рижамадзе",
+       "ZH": "Sopiko Rizhamadze",
+       "AR": "Sopiko Rizhamadze"
+      },
+      "shortName": {
+       "EN": "Rizhamadze",
+       "FR": "Rizhamadze",
+       "DE": "Rizhamadze",
+       "ES": "Rizhamadze",
+       "PT": "Rizhamadze",
+       "IT": "Rizhamadze",
+       "RU": "Рижамадзе",
+       "ZH": "Rizhamadze",
+       "AR": "Rizhamadze"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/265578.jpg"
     },
     "person": {
@@ -742,87 +852,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205271.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "FEMALE",
-     "id": "250205271",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Duygu",
-       "FR": "Duygu",
-       "DE": "Duygu",
-       "ES": "Duygu",
-       "PT": "Duygu",
-       "IT": "Duygu",
-       "RU": "Хатыдже",
-       "ZH": "Duygu",
-       "AR": "Duygu"
-      },
-      "lastName": {
-       "EN": "Hatice Aydin",
-       "FR": "Hatice Aydin",
-       "DE": "Hatice Aydin",
-       "ES": "Hatice Aydin",
-       "PT": "Hatice Aydin",
-       "IT": "Hatice Aydin",
-       "RU": "Дуйгу",
-       "ZH": "Hatice Aydin",
-       "AR": "Hatice Aydin"
-      },
-      "name": {
-       "EN": "Duygu Hatice Aydin",
-       "FR": "Duygu Hatice Aydin",
-       "DE": "Duygu Hatice Aydin",
-       "ES": "Duygu Hatice Aydin",
-       "PT": "Duygu Hatice Aydin",
-       "IT": "Duygu Hatice Aydin",
-       "RU": "Хатыдже Дуйгу",
-       "ZH": "Duygu Hatice Aydin",
-       "AR": "Duygu Hatice Aydin"
-      },
-      "shortName": {
-       "EN": "Hatice Aydin",
-       "FR": "Hatice Aydin",
-       "DE": "Hatice Aydin",
-       "ES": "Hatice Aydin",
-       "PT": "Hatice Aydin",
-       "IT": "Hatice Aydin",
-       "RU": "Дуйгу",
-       "ZH": "Hatice Aydin",
-       "AR": "Hatice Aydin"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
      }
     }
    }
@@ -1179,6 +1208,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 17,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "101",
    "id": "2012450",
@@ -1340,7 +1398,7 @@
    "dateTime": "2026-10-31T09:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "101",
    "dateFrom": "2026-10-13T06:00:00+0000",
@@ -1380,87 +1438,6 @@
    "type": "MATCHDAY"
   },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/800466.jpg"
-    },
-    "person": {
-     "countryCode": "MDA",
-     "gender": "FEMALE",
-     "id": "800466",
-     "translations": {
-      "countryName": {
-       "EN": "Moldova",
-       "FR": "Moldavie",
-       "DE": "Moldau",
-       "ES": "Moldavia",
-       "PT": "Moldávia",
-       "IT": "Moldavia",
-       "RU": "Молдова",
-       "ZH": "摩尔多瓦",
-       "AR": "مولدوفا"
-      },
-      "firstName": {
-       "EN": "Olesea",
-       "FR": "Olesea",
-       "DE": "Olesea",
-       "ES": "Olesea",
-       "PT": "Olesea",
-       "IT": "Olesea",
-       "RU": "Olesea",
-       "ZH": "Olesea",
-       "AR": "Olesea"
-      },
-      "lastName": {
-       "EN": "Berdea",
-       "FR": "Berdea",
-       "DE": "Berdea",
-       "ES": "Berdea",
-       "PT": "Berdea",
-       "IT": "Berdea",
-       "RU": "Berdea",
-       "ZH": "Berdea",
-       "AR": "Berdea"
-      },
-      "name": {
-       "EN": "Olesea Berdea",
-       "FR": "Olesea Berdea",
-       "DE": "Olesea Berdea",
-       "ES": "Olesea Berdea",
-       "PT": "Olesea Berdea",
-       "IT": "Olesea Berdea",
-       "RU": "Olesea Berdea",
-       "ZH": "Olesea Berdea",
-       "AR": "Olesea Berdea"
-      },
-      "shortName": {
-       "EN": "Berdea",
-       "FR": "Berdea",
-       "DE": "Berdea",
-       "ES": "Berdea",
-       "PT": "Berdea",
-       "IT": "Berdea",
-       "RU": "Berdea",
-       "ZH": "Berdea",
-       "AR": "Berdea"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250117075.jpg"
@@ -1539,6 +1516,87 @@
       "RU": "Ассистент рефери 2",
       "ZH": "Assistant referee two",
       "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/800466.jpg"
+    },
+    "person": {
+     "countryCode": "MDA",
+     "gender": "FEMALE",
+     "id": "800466",
+     "translations": {
+      "countryName": {
+       "EN": "Moldova",
+       "FR": "Moldavie",
+       "DE": "Moldau",
+       "ES": "Moldavia",
+       "PT": "Moldávia",
+       "IT": "Moldavia",
+       "RU": "Молдова",
+       "ZH": "摩尔多瓦",
+       "AR": "مولدوفا"
+      },
+      "firstName": {
+       "EN": "Olesea",
+       "FR": "Olesea",
+       "DE": "Olesea",
+       "ES": "Olesea",
+       "PT": "Olesea",
+       "IT": "Olesea",
+       "RU": "Olesea",
+       "ZH": "Olesea",
+       "AR": "Olesea"
+      },
+      "lastName": {
+       "EN": "Berdea",
+       "FR": "Berdea",
+       "DE": "Berdea",
+       "ES": "Berdea",
+       "PT": "Berdea",
+       "IT": "Berdea",
+       "RU": "Berdea",
+       "ZH": "Berdea",
+       "AR": "Berdea"
+      },
+      "name": {
+       "EN": "Olesea Berdea",
+       "FR": "Olesea Berdea",
+       "DE": "Olesea Berdea",
+       "ES": "Olesea Berdea",
+       "PT": "Olesea Berdea",
+       "IT": "Olesea Berdea",
+       "RU": "Olesea Berdea",
+       "ZH": "Olesea Berdea",
+       "AR": "Olesea Berdea"
+      },
+      "shortName": {
+       "EN": "Berdea",
+       "FR": "Berdea",
+       "DE": "Berdea",
+       "ES": "Berdea",
+       "PT": "Berdea",
+       "IT": "Berdea",
+       "RU": "Berdea",
+       "ZH": "Berdea",
+       "AR": "Berdea"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
