@@ -138,6 +138,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 7,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "2008",
    "id": "2014112",
@@ -295,7 +324,7 @@
    "dateTime": "2026-11-03T10:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "2008",
    "dateFrom": "2026-11-03T07:00:00+0000",
@@ -335,87 +364,6 @@
    "type": "MATCHDAY"
   },
   "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250141577.jpg"
-    },
-    "person": {
-     "countryCode": "BUL",
-     "gender": "MALE",
-     "id": "250141577",
-     "translations": {
-      "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
-      },
-      "firstName": {
-       "EN": "Hristo",
-       "FR": "Hristo",
-       "DE": "Hristo",
-       "ES": "Hristo",
-       "PT": "Hristo",
-       "IT": "Hristo",
-       "RU": "Hristo",
-       "ZH": "Hristo",
-       "AR": "هريستو "
-      },
-      "lastName": {
-       "EN": "Hadzhiyski",
-       "FR": "Hadzhiyski",
-       "DE": "Hadzhiyski",
-       "ES": "Hadzhiyski",
-       "PT": "Hadzhiyski",
-       "IT": "Hadzhiyski",
-       "RU": "Hadzhiyski",
-       "ZH": "Hadzhiyski",
-       "AR": "هادزييسكي"
-      },
-      "name": {
-       "EN": "Hristo Hadzhiyski",
-       "FR": "Hristo Hadzhiyski",
-       "DE": "Hristo Hadzhiyski",
-       "ES": "Hristo Hadzhiyski",
-       "PT": "Hristo Hadzhiyski",
-       "IT": "Hristo Hadzhiyski",
-       "RU": "Христо Хаджийски",
-       "ZH": "Hristo Hadzhiyski",
-       "AR": "هريستو هادزييسكي"
-      },
-      "shortName": {
-       "EN": "Hadzhiyski",
-       "FR": "Hadzhiyski",
-       "DE": "Hadzhiyski",
-       "ES": "Hadzhiyski",
-       "PT": "Hadzhiyski",
-       "IT": "Hadzhiyski",
-       "RU": "Хаджийски",
-       "ZH": "Hadzhiyski",
-       "AR": "هادزييسكي"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227109.jpg"
@@ -499,12 +447,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250141577.jpg"
     },
     "person": {
      "countryCode": "BUL",
      "gender": "MALE",
-     "id": "250063724",
+     "id": "250141577",
      "translations": {
       "countryName": {
        "EN": "Bulgaria",
@@ -518,63 +466,144 @@
        "AR": "بلغاريا"
       },
       "firstName": {
-       "EN": "Martin Zhivkov",
-       "FR": "Martin Zhivkov",
-       "DE": "Martin Zhivkov",
-       "ES": "Martin Zhivkov",
-       "PT": "Martin Zhivkov",
-       "IT": "Martin Zhivkov",
-       "RU": "Мартин",
-       "ZH": "Martin Zhivkov",
-       "AR": "مارتن زيفكوف"
+       "EN": "Hristo",
+       "FR": "Hristo",
+       "DE": "Hristo",
+       "ES": "Hristo",
+       "PT": "Hristo",
+       "IT": "Hristo",
+       "RU": "Hristo",
+       "ZH": "Hristo",
+       "AR": "هريستو "
       },
       "lastName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
+       "EN": "Hadzhiyski",
+       "FR": "Hadzhiyski",
+       "DE": "Hadzhiyski",
+       "ES": "Hadzhiyski",
+       "PT": "Hadzhiyski",
+       "IT": "Hadzhiyski",
+       "RU": "Hadzhiyski",
+       "ZH": "Hadzhiyski",
+       "AR": "هادزييسكي"
       },
       "name": {
-       "EN": "Martin Zhivkov Velikov",
-       "FR": "Martin Zhivkov Velikov",
-       "DE": "Martin Zhivkov Velikov",
-       "ES": "Martin Zhivkov Velikov",
-       "PT": "Martin Zhivkov Velikov",
-       "IT": "Martin Zhivkov Velikov",
-       "RU": "Мартин Великов",
-       "ZH": "Martin Zhivkov Velikov",
-       "AR": "مارتن جيفكوف فيليكوف"
+       "EN": "Hristo Hadzhiyski",
+       "FR": "Hristo Hadzhiyski",
+       "DE": "Hristo Hadzhiyski",
+       "ES": "Hristo Hadzhiyski",
+       "PT": "Hristo Hadzhiyski",
+       "IT": "Hristo Hadzhiyski",
+       "RU": "Христо Хаджийски",
+       "ZH": "Hristo Hadzhiyski",
+       "AR": "هريستو هادزييسكي"
       },
       "shortName": {
-       "EN": "Velikov",
-       "FR": "Velikov",
-       "DE": "Velikov",
-       "ES": "Velikov",
-       "PT": "Velikov",
-       "IT": "Velikov",
-       "RU": "Великов",
-       "ZH": "Velikov",
-       "AR": "فيليكوف"
+       "EN": "Hadzhiyski",
+       "FR": "Hadzhiyski",
+       "DE": "Hadzhiyski",
+       "ES": "Hadzhiyski",
+       "PT": "Hadzhiyski",
+       "IT": "Hadzhiyski",
+       "RU": "Хаджийски",
+       "ZH": "Hadzhiyski",
+       "AR": "هادزييسكي"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/271742.jpg"
+    },
+    "person": {
+     "countryCode": "GER",
+     "gender": "MALE",
+     "id": "271742",
+     "translations": {
+      "countryName": {
+       "EN": "Germany",
+       "FR": "Allemagne",
+       "DE": "Deutschland",
+       "ES": "Alemania",
+       "PT": "Alemanha",
+       "IT": "Germania",
+       "RU": "Германия",
+       "ZH": "德国",
+       "AR": "ألمانيا"
+      },
+      "firstName": {
+       "EN": "Knut",
+       "FR": "Knut",
+       "DE": "Knut",
+       "ES": "Knut",
+       "PT": "Knut",
+       "IT": "Knut",
+       "RU": "Кнут",
+       "ZH": "Knut",
+       "AR": "كنوت "
+      },
+      "lastName": {
+       "EN": "Kircher",
+       "FR": "Kircher",
+       "DE": "Kircher",
+       "ES": "Kircher",
+       "PT": "Kircher",
+       "IT": "Kircher",
+       "RU": "Кирхер",
+       "ZH": "Kircher",
+       "AR": "كيرشر"
+      },
+      "name": {
+       "EN": "Knut Kircher",
+       "FR": "Knut Kircher",
+       "DE": "Knut Kircher",
+       "ES": "Knut Kircher",
+       "PT": "Knut Kircher",
+       "IT": "Knut Kircher",
+       "RU": "Кнут Кирхер",
+       "ZH": "克努特·基彻尔",
+       "AR": "كنوت كيرشر"
+      },
+      "shortName": {
+       "EN": "Kircher",
+       "FR": "Kircher",
+       "DE": "Kircher",
+       "ES": "Kircher",
+       "PT": "Kircher",
+       "IT": "Kircher",
+       "RU": "Кирхер",
+       "ZH": "基彻尔",
+       "AR": "كيرشر"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
      }
     }
    },
@@ -661,6 +690,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250063724.jpg"
+    },
+    "person": {
+     "countryCode": "BUL",
+     "gender": "MALE",
+     "id": "250063724",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "firstName": {
+       "EN": "Martin Zhivkov",
+       "FR": "Martin Zhivkov",
+       "DE": "Martin Zhivkov",
+       "ES": "Martin Zhivkov",
+       "PT": "Martin Zhivkov",
+       "IT": "Martin Zhivkov",
+       "RU": "Мартин",
+       "ZH": "Martin Zhivkov",
+       "AR": "مارتن زيفكوف"
+      },
+      "lastName": {
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
+      },
+      "name": {
+       "EN": "Martin Zhivkov Velikov",
+       "FR": "Martin Zhivkov Velikov",
+       "DE": "Martin Zhivkov Velikov",
+       "ES": "Martin Zhivkov Velikov",
+       "PT": "Martin Zhivkov Velikov",
+       "IT": "Martin Zhivkov Velikov",
+       "RU": "Мартин Великов",
+       "ZH": "Martin Zhivkov Velikov",
+       "AR": "مارتن جيفكوف فيليكوف"
+      },
+      "shortName": {
+       "EN": "Velikov",
+       "FR": "Velikov",
+       "DE": "Velikov",
+       "ES": "Velikov",
+       "PT": "Velikov",
+       "IT": "Velikov",
+       "RU": "Великов",
+       "ZH": "Velikov",
+       "AR": "فيليكوف"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250140796.jpg"
     },
     "person": {
@@ -737,87 +847,6 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/271742.jpg"
-    },
-    "person": {
-     "countryCode": "GER",
-     "gender": "MALE",
-     "id": "271742",
-     "translations": {
-      "countryName": {
-       "EN": "Germany",
-       "FR": "Allemagne",
-       "DE": "Deutschland",
-       "ES": "Alemania",
-       "PT": "Alemanha",
-       "IT": "Germania",
-       "RU": "Германия",
-       "ZH": "德国",
-       "AR": "ألمانيا"
-      },
-      "firstName": {
-       "EN": "Knut",
-       "FR": "Knut",
-       "DE": "Knut",
-       "ES": "Knut",
-       "PT": "Knut",
-       "IT": "Knut",
-       "RU": "Кнут",
-       "ZH": "Knut",
-       "AR": "كنوت "
-      },
-      "lastName": {
-       "EN": "Kircher",
-       "FR": "Kircher",
-       "DE": "Kircher",
-       "ES": "Kircher",
-       "PT": "Kircher",
-       "IT": "Kircher",
-       "RU": "Кирхер",
-       "ZH": "Kircher",
-       "AR": "كيرشر"
-      },
-      "name": {
-       "EN": "Knut Kircher",
-       "FR": "Knut Kircher",
-       "DE": "Knut Kircher",
-       "ES": "Knut Kircher",
-       "PT": "Knut Kircher",
-       "IT": "Knut Kircher",
-       "RU": "Кнут Кирхер",
-       "ZH": "克努特·基彻尔",
-       "AR": "كنوت كيرشر"
-      },
-      "shortName": {
-       "EN": "Kircher",
-       "FR": "Kircher",
-       "DE": "Kircher",
-       "ES": "Kircher",
-       "PT": "Kircher",
-       "IT": "Kircher",
-       "RU": "Кирхер",
-       "ZH": "基彻尔",
-       "AR": "كيرشر"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
      }
     }
    }
@@ -1392,249 +1421,6 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250090432.jpg"
-    },
-    "person": {
-     "countryCode": "GRE",
-     "gender": "FEMALE",
-     "id": "250090432",
-     "translations": {
-      "countryName": {
-       "EN": "Greece",
-       "FR": "Grèce",
-       "DE": "Griechenland",
-       "ES": "Grecia",
-       "PT": "Grécia",
-       "IT": "Grecia",
-       "RU": "Греция",
-       "ZH": "希腊",
-       "AR": "اليونان"
-      },
-      "firstName": {
-       "EN": "Georgia",
-       "FR": "Georgia",
-       "DE": "Georgia",
-       "ES": "Georgia",
-       "PT": "Georgia",
-       "IT": "Georgia",
-       "RU": "Georgia",
-       "ZH": "Georgia",
-       "AR": "Georgia"
-      },
-      "lastName": {
-       "EN": "Komisopoulou",
-       "FR": "Komisopoulou",
-       "DE": "Komisopoulou",
-       "ES": "Komisopoulou",
-       "PT": "Komisopoulou",
-       "IT": "Komisopoulou",
-       "RU": "Komisopoulou",
-       "ZH": "Komisopoulou",
-       "AR": "Komisopoulou"
-      },
-      "name": {
-       "EN": "Georgia Komisopoulou",
-       "FR": "Georgia Komisopoulou",
-       "DE": "Georgia Komisopoulou",
-       "ES": "Georgia Komisopoulou",
-       "PT": "Georgia Komisopoulou",
-       "IT": "Georgia Komisopoulou",
-       "RU": "Джорджия Комисопулу",
-       "ZH": "Georgia Komisopoulou",
-       "AR": "Georgia Komisopoulou"
-      },
-      "shortName": {
-       "EN": "Komisopoulou",
-       "FR": "Komisopoulou",
-       "DE": "Komisopoulou",
-       "ES": "Komisopoulou",
-       "PT": "Komisopoulou",
-       "IT": "Komisopoulou",
-       "RU": "Комисопулу",
-       "ZH": "Komisopoulou",
-       "AR": "Komisopoulou"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250092766.jpg"
-    },
-    "person": {
-     "countryCode": "GRE",
-     "gender": "FEMALE",
-     "id": "250092766",
-     "translations": {
-      "countryName": {
-       "EN": "Greece",
-       "FR": "Grèce",
-       "DE": "Griechenland",
-       "ES": "Grecia",
-       "PT": "Grécia",
-       "IT": "Grecia",
-       "RU": "Греция",
-       "ZH": "希腊",
-       "AR": "اليونان"
-      },
-      "firstName": {
-       "EN": "Andromachi",
-       "FR": "Andromachi",
-       "DE": "Andromachi",
-       "ES": "Andromachi",
-       "PT": "Andromachi",
-       "IT": "Andromachi",
-       "RU": "Andromachi",
-       "ZH": "Andromachi",
-       "AR": "Andromachi"
-      },
-      "lastName": {
-       "EN": "Tsiofliki",
-       "FR": "Tsiofliki",
-       "DE": "Tsiofliki",
-       "ES": "Tsiofliki",
-       "PT": "Tsiofliki",
-       "IT": "Tsiofliki",
-       "RU": "Tsiofliki",
-       "ZH": "Tsiofliki",
-       "AR": "Tsiofliki"
-      },
-      "name": {
-       "EN": "Andromachi Tsiofliki",
-       "FR": "Andromachi Tsiofliki",
-       "DE": "Andromachi Tsiofliki",
-       "ES": "Andromachi Tsiofliki",
-       "PT": "Andromachi Tsiofliki",
-       "IT": "Andromachi Tsiofliki",
-       "RU": "Андромахи Цофлики",
-       "ZH": "Andromachi Tsiofliki",
-       "AR": "Andromachi Tsiofliki"
-      },
-      "shortName": {
-       "EN": "Tsiofliki",
-       "FR": "Tsiofliki",
-       "DE": "Tsiofliki",
-       "ES": "Tsiofliki",
-       "PT": "Tsiofliki",
-       "IT": "Tsiofliki",
-       "RU": "Цофлики",
-       "ZH": "Tsiofliki",
-       "AR": "Tsiofliki"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165558.jpg"
-    },
-    "person": {
-     "countryCode": "CRO",
-     "gender": "FEMALE",
-     "id": "250165558",
-     "translations": {
-      "countryName": {
-       "EN": "Croatia",
-       "FR": "Croatie",
-       "DE": "Kroatien",
-       "ES": "Croacia",
-       "PT": "Croácia",
-       "IT": "Croazia",
-       "RU": "Хорватия",
-       "ZH": "克罗地亚",
-       "AR": "كرواتيا"
-      },
-      "firstName": {
-       "EN": "Maja",
-       "FR": "Maja",
-       "DE": "Maja",
-       "ES": "Maja",
-       "PT": "Maja",
-       "IT": "Maja",
-       "RU": "Майя",
-       "ZH": "Maja",
-       "AR": "Maja"
-      },
-      "lastName": {
-       "EN": "Brozović",
-       "FR": "Brozović",
-       "DE": "Brozović",
-       "ES": "Brozović",
-       "PT": "Brozović",
-       "IT": "Brozović",
-       "RU": "Брозович",
-       "ZH": "Brozović",
-       "AR": "Brozović"
-      },
-      "name": {
-       "EN": "Maja Brozović",
-       "FR": "Maja Brozović",
-       "DE": "Maja Brozović",
-       "ES": "Maja Brozović",
-       "PT": "Maja Brozović",
-       "IT": "Maja Brozović",
-       "RU": "Майя Брозович",
-       "ZH": "Maja Brozović",
-       "AR": "Maja Brozović"
-      },
-      "shortName": {
-       "EN": "Brozović",
-       "FR": "Brozović",
-       "DE": "Brozović",
-       "ES": "Brozović",
-       "PT": "Brozović",
-       "IT": "Brozović",
-       "RU": "Брозович",
-       "ZH": "Brozović",
-       "AR": "Brozović"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/150030510.jpg"
     },
     "person": {
@@ -1797,6 +1583,87 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250090432.jpg"
+    },
+    "person": {
+     "countryCode": "GRE",
+     "gender": "FEMALE",
+     "id": "250090432",
+     "translations": {
+      "countryName": {
+       "EN": "Greece",
+       "FR": "Grèce",
+       "DE": "Griechenland",
+       "ES": "Grecia",
+       "PT": "Grécia",
+       "IT": "Grecia",
+       "RU": "Греция",
+       "ZH": "希腊",
+       "AR": "اليونان"
+      },
+      "firstName": {
+       "EN": "Georgia",
+       "FR": "Georgia",
+       "DE": "Georgia",
+       "ES": "Georgia",
+       "PT": "Georgia",
+       "IT": "Georgia",
+       "RU": "Georgia",
+       "ZH": "Georgia",
+       "AR": "Georgia"
+      },
+      "lastName": {
+       "EN": "Komisopoulou",
+       "FR": "Komisopoulou",
+       "DE": "Komisopoulou",
+       "ES": "Komisopoulou",
+       "PT": "Komisopoulou",
+       "IT": "Komisopoulou",
+       "RU": "Komisopoulou",
+       "ZH": "Komisopoulou",
+       "AR": "Komisopoulou"
+      },
+      "name": {
+       "EN": "Georgia Komisopoulou",
+       "FR": "Georgia Komisopoulou",
+       "DE": "Georgia Komisopoulou",
+       "ES": "Georgia Komisopoulou",
+       "PT": "Georgia Komisopoulou",
+       "IT": "Georgia Komisopoulou",
+       "RU": "Джорджия Комисопулу",
+       "ZH": "Georgia Komisopoulou",
+       "AR": "Georgia Komisopoulou"
+      },
+      "shortName": {
+       "EN": "Komisopoulou",
+       "FR": "Komisopoulou",
+       "DE": "Komisopoulou",
+       "ES": "Komisopoulou",
+       "PT": "Komisopoulou",
+       "IT": "Komisopoulou",
+       "RU": "Комисопулу",
+       "ZH": "Komisopoulou",
+       "AR": "Komisopoulou"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165557.jpg"
     },
     "person": {
@@ -1873,6 +1740,168 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250092766.jpg"
+    },
+    "person": {
+     "countryCode": "GRE",
+     "gender": "FEMALE",
+     "id": "250092766",
+     "translations": {
+      "countryName": {
+       "EN": "Greece",
+       "FR": "Grèce",
+       "DE": "Griechenland",
+       "ES": "Grecia",
+       "PT": "Grécia",
+       "IT": "Grecia",
+       "RU": "Греция",
+       "ZH": "希腊",
+       "AR": "اليونان"
+      },
+      "firstName": {
+       "EN": "Andromachi",
+       "FR": "Andromachi",
+       "DE": "Andromachi",
+       "ES": "Andromachi",
+       "PT": "Andromachi",
+       "IT": "Andromachi",
+       "RU": "Andromachi",
+       "ZH": "Andromachi",
+       "AR": "Andromachi"
+      },
+      "lastName": {
+       "EN": "Tsiofliki",
+       "FR": "Tsiofliki",
+       "DE": "Tsiofliki",
+       "ES": "Tsiofliki",
+       "PT": "Tsiofliki",
+       "IT": "Tsiofliki",
+       "RU": "Tsiofliki",
+       "ZH": "Tsiofliki",
+       "AR": "Tsiofliki"
+      },
+      "name": {
+       "EN": "Andromachi Tsiofliki",
+       "FR": "Andromachi Tsiofliki",
+       "DE": "Andromachi Tsiofliki",
+       "ES": "Andromachi Tsiofliki",
+       "PT": "Andromachi Tsiofliki",
+       "IT": "Andromachi Tsiofliki",
+       "RU": "Андромахи Цофлики",
+       "ZH": "Andromachi Tsiofliki",
+       "AR": "Andromachi Tsiofliki"
+      },
+      "shortName": {
+       "EN": "Tsiofliki",
+       "FR": "Tsiofliki",
+       "DE": "Tsiofliki",
+       "ES": "Tsiofliki",
+       "PT": "Tsiofliki",
+       "IT": "Tsiofliki",
+       "RU": "Цофлики",
+       "ZH": "Tsiofliki",
+       "AR": "Tsiofliki"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165558.jpg"
+    },
+    "person": {
+     "countryCode": "CRO",
+     "gender": "FEMALE",
+     "id": "250165558",
+     "translations": {
+      "countryName": {
+       "EN": "Croatia",
+       "FR": "Croatie",
+       "DE": "Kroatien",
+       "ES": "Croacia",
+       "PT": "Croácia",
+       "IT": "Croazia",
+       "RU": "Хорватия",
+       "ZH": "克罗地亚",
+       "AR": "كرواتيا"
+      },
+      "firstName": {
+       "EN": "Maja",
+       "FR": "Maja",
+       "DE": "Maja",
+       "ES": "Maja",
+       "PT": "Maja",
+       "IT": "Maja",
+       "RU": "Майя",
+       "ZH": "Maja",
+       "AR": "Maja"
+      },
+      "lastName": {
+       "EN": "Brozović",
+       "FR": "Brozović",
+       "DE": "Brozović",
+       "ES": "Brozović",
+       "PT": "Brozović",
+       "IT": "Brozović",
+       "RU": "Брозович",
+       "ZH": "Brozović",
+       "AR": "Brozović"
+      },
+      "name": {
+       "EN": "Maja Brozović",
+       "FR": "Maja Brozović",
+       "DE": "Maja Brozović",
+       "ES": "Maja Brozović",
+       "PT": "Maja Brozović",
+       "IT": "Maja Brozović",
+       "RU": "Майя Брозович",
+       "ZH": "Maja Brozović",
+       "AR": "Maja Brozović"
+      },
+      "shortName": {
+       "EN": "Brozović",
+       "FR": "Brozović",
+       "DE": "Brozović",
+       "ES": "Brozović",
+       "PT": "Brozović",
+       "IT": "Brozović",
+       "RU": "Брозович",
+       "ZH": "Brozović",
+       "AR": "Brozović"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    }
