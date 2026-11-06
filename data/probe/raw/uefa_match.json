@@ -305,6 +305,87 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/291746.jpg"
+    },
+    "person": {
+     "countryCode": "FRA",
+     "gender": "MALE",
+     "id": "291746",
+     "translations": {
+      "countryName": {
+       "EN": "France",
+       "FR": "France",
+       "DE": "Frankreich",
+       "ES": "Francia",
+       "PT": "França",
+       "IT": "Francia",
+       "RU": "Франция",
+       "ZH": "法国",
+       "AR": "فرنسا"
+      },
+      "firstName": {
+       "EN": "Pascal",
+       "FR": "Pascal",
+       "DE": "Pascal",
+       "ES": "Pascal",
+       "PT": "Pascal",
+       "IT": "Pascal",
+       "RU": "Pascal",
+       "ZH": "Pascal",
+       "AR": "Pascal"
+      },
+      "lastName": {
+       "EN": "Fritz",
+       "FR": "Fritz",
+       "DE": "Fritz",
+       "ES": "Fritz",
+       "PT": "Fritz",
+       "IT": "Fritz",
+       "RU": "FRITZ",
+       "ZH": "Fritz",
+       "AR": "Fritz"
+      },
+      "name": {
+       "EN": "Pascal Fritz",
+       "FR": "Pascal Fritz",
+       "DE": "Pascal Fritz",
+       "ES": "Pascal Fritz",
+       "PT": "Pascal Fritz",
+       "IT": "Pascal Fritz",
+       "RU": "Паскаль Фритц",
+       "ZH": "Pascal Fritz",
+       "AR": "Pascal Fritz"
+      },
+      "shortName": {
+       "EN": "Fritz",
+       "FR": "Fritz",
+       "DE": "Fritz",
+       "ES": "Fritz",
+       "PT": "Fritz",
+       "IT": "Fritz",
+       "RU": "Фритц",
+       "ZH": "Fritz",
+       "AR": "Fritz"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250127695.jpg"
     },
     "person": {
@@ -386,12 +467,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250182831.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250127707.jpg"
     },
     "person": {
      "countryCode": "DEN",
      "gender": "MALE",
-     "id": "250182831",
+     "id": "250127707",
      "translations": {
       "countryName": {
        "EN": "Denmark",
@@ -405,63 +486,63 @@
        "AR": "الدنمارك"
       },
       "firstName": {
-       "EN": "Jonas",
-       "FR": "Jonas",
-       "DE": "Jonas",
-       "ES": "Jonas",
-       "PT": "Jonas",
-       "IT": "Jonas",
-       "RU": "Йонас",
-       "ZH": "Jonas",
-       "AR": "Jonas"
+       "EN": "Martin",
+       "FR": "Martin",
+       "DE": "Martin",
+       "ES": "Martin",
+       "PT": "Martin",
+       "IT": "Martin",
+       "RU": "Мартин",
+       "ZH": "Martin",
+       "AR": "Martin"
       },
       "lastName": {
-       "EN": "Rossen",
-       "FR": "Rossen",
-       "DE": "Rossen",
-       "ES": "Rossen",
-       "PT": "Rossen",
-       "IT": "Rossen",
-       "RU": "Россен",
-       "ZH": "Rossen",
-       "AR": "Rossen"
+       "EN": "Køster",
+       "FR": "Køster",
+       "DE": "Køster",
+       "ES": "Køster",
+       "PT": "Køster",
+       "IT": "Køster",
+       "RU": "Кестер",
+       "ZH": "Køster",
+       "AR": "Køster"
       },
       "name": {
-       "EN": "Jonas Rossen",
-       "FR": "Jonas Rossen",
-       "DE": "Jonas Rossen",
-       "ES": "Jonas Rossen",
-       "PT": "Jonas Rossen",
-       "IT": "Jonas Rossen",
-       "RU": "Йонас Россен",
-       "ZH": "Jonas Rossen",
-       "AR": "Jonas Rossen"
+       "EN": "Martin Køster",
+       "FR": "Martin Køster",
+       "DE": "Martin Køster",
+       "ES": "Martin Køster",
+       "PT": "Martin Køster",
+       "IT": "Martin Køster",
+       "RU": "Мартин Кестер",
+       "ZH": "Martin Køster",
+       "AR": "Martin Køster"
       },
       "shortName": {
-       "EN": "Rossen",
-       "FR": "Rossen",
-       "DE": "Rossen",
-       "ES": "Rossen",
-       "PT": "Rossen",
-       "IT": "Rossen",
-       "RU": "Россен",
-       "ZH": "Rossen",
-       "AR": "Rossen"
+       "EN": "Køster",
+       "FR": "Køster",
+       "DE": "Køster",
+       "ES": "Køster",
+       "PT": "Køster",
+       "IT": "Køster",
+       "RU": "Кестер",
+       "ZH": "Køster",
+       "AR": "Køster"
       }
      }
     },
-    "role": "REFEREE_THREE",
+    "role": "REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Third Referee",
-      "FR": "Troisième arbitre",
-      "DE": "Dritter Schiedsrichter",
-      "ES": "Tercer árbitro",
-      "PT": "Terceiro árbitro",
-      "IT": "Terzo arbitro",
-      "RU": "Третий рефери",
-      "ZH": "Terceiro árbitro",
-      "AR": "الحكم الثالث"
+      "EN": "Second Referee",
+      "FR": "Deuxième arbitre",
+      "DE": "Zweiter Schiedsrichter",
+      "ES": "Segundo árbitro",
+      "PT": "Segundo árbitro",
+      "IT": "Secondo arbitro",
+      "RU": "Второй рефери",
+      "ZH": "Segundo árbitro",
+      "AR": "الحكم الثاني"
      }
     }
    },
@@ -629,12 +710,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250127707.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250182831.jpg"
     },
     "person": {
      "countryCode": "DEN",
      "gender": "MALE",
-     "id": "250127707",
+     "id": "250182831",
      "translations": {
       "countryName": {
        "EN": "Denmark",
@@ -648,144 +729,63 @@
        "AR": "الدنمارك"
       },
       "firstName": {
-       "EN": "Martin",
-       "FR": "Martin",
-       "DE": "Martin",
-       "ES": "Martin",
-       "PT": "Martin",
-       "IT": "Martin",
-       "RU": "Мартин",
-       "ZH": "Martin",
-       "AR": "Martin"
+       "EN": "Jonas",
+       "FR": "Jonas",
+       "DE": "Jonas",
+       "ES": "Jonas",
+       "PT": "Jonas",
+       "IT": "Jonas",
+       "RU": "Йонас",
+       "ZH": "Jonas",
+       "AR": "Jonas"
       },
       "lastName": {
-       "EN": "Køster",
-       "FR": "Køster",
-       "DE": "Køster",
-       "ES": "Køster",
-       "PT": "Køster",
-       "IT": "Køster",
-       "RU": "Кестер",
-       "ZH": "Køster",
-       "AR": "Køster"
+       "EN": "Rossen",
+       "FR": "Rossen",
+       "DE": "Rossen",
+       "ES": "Rossen",
+       "PT": "Rossen",
+       "IT": "Rossen",
+       "RU": "Россен",
+       "ZH": "Rossen",
+       "AR": "Rossen"
       },
       "name": {
-       "EN": "Martin Køster",
-       "FR": "Martin Køster",
-       "DE": "Martin Køster",
-       "ES": "Martin Køster",
-       "PT": "Martin Køster",
-       "IT": "Martin Køster",
-       "RU": "Мартин Кестер",
-       "ZH": "Martin Køster",
-       "AR": "Martin Køster"
+       "EN": "Jonas Rossen",
+       "FR": "Jonas Rossen",
+       "DE": "Jonas Rossen",
+       "ES": "Jonas Rossen",
+       "PT": "Jonas Rossen",
+       "IT": "Jonas Rossen",
+       "RU": "Йонас Россен",
+       "ZH": "Jonas Rossen",
+       "AR": "Jonas Rossen"
       },
       "shortName": {
-       "EN": "Køster",
-       "FR": "Køster",
-       "DE": "Køster",
-       "ES": "Køster",
-       "PT": "Køster",
-       "IT": "Køster",
-       "RU": "Кестер",
-       "ZH": "Køster",
-       "AR": "Køster"
+       "EN": "Rossen",
+       "FR": "Rossen",
+       "DE": "Rossen",
+       "ES": "Rossen",
+       "PT": "Rossen",
+       "IT": "Rossen",
+       "RU": "Россен",
+       "ZH": "Rossen",
+       "AR": "Rossen"
       }
      }
     },
-    "role": "REFEREE_TWO",
+    "role": "REFEREE_THREE",
     "translations": {
      "roleName": {
-      "EN": "Second Referee",
-      "FR": "Deuxième arbitre",
-      "DE": "Zweiter Schiedsrichter",
-      "ES": "Segundo árbitro",
-      "PT": "Segundo árbitro",
-      "IT": "Secondo arbitro",
-      "RU": "Второй рефери",
-      "ZH": "Segundo árbitro",
-      "AR": "الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/291746.jpg"
-    },
-    "person": {
-     "countryCode": "FRA",
-     "gender": "MALE",
-     "id": "291746",
-     "translations": {
-      "countryName": {
-       "EN": "France",
-       "FR": "France",
-       "DE": "Frankreich",
-       "ES": "Francia",
-       "PT": "França",
-       "IT": "Francia",
-       "RU": "Франция",
-       "ZH": "法国",
-       "AR": "فرنسا"
-      },
-      "firstName": {
-       "EN": "Pascal",
-       "FR": "Pascal",
-       "DE": "Pascal",
-       "ES": "Pascal",
-       "PT": "Pascal",
-       "IT": "Pascal",
-       "RU": "Pascal",
-       "ZH": "Pascal",
-       "AR": "Pascal"
-      },
-      "lastName": {
-       "EN": "Fritz",
-       "FR": "Fritz",
-       "DE": "Fritz",
-       "ES": "Fritz",
-       "PT": "Fritz",
-       "IT": "Fritz",
-       "RU": "FRITZ",
-       "ZH": "Fritz",
-       "AR": "Fritz"
-      },
-      "name": {
-       "EN": "Pascal Fritz",
-       "FR": "Pascal Fritz",
-       "DE": "Pascal Fritz",
-       "ES": "Pascal Fritz",
-       "PT": "Pascal Fritz",
-       "IT": "Pascal Fritz",
-       "RU": "Паскаль Фритц",
-       "ZH": "Pascal Fritz",
-       "AR": "Pascal Fritz"
-      },
-      "shortName": {
-       "EN": "Fritz",
-       "FR": "Fritz",
-       "DE": "Fritz",
-       "ES": "Fritz",
-       "PT": "Fritz",
-       "IT": "Fritz",
-       "RU": "Фритц",
-       "ZH": "Fritz",
-       "AR": "Fritz"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "EN": "Third Referee",
+      "FR": "Troisième arbitre",
+      "DE": "Dritter Schiedsrichter",
+      "ES": "Tercer árbitro",
+      "PT": "Terceiro árbitro",
+      "IT": "Terzo arbitro",
+      "RU": "Третий рефери",
+      "ZH": "Terceiro árbitro",
+      "AR": "الحكم الثالث"
      }
     }
    }
@@ -1293,82 +1293,163 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250057056.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250152396.jpg"
     },
     "person": {
-     "countryCode": "LVA",
-     "gender": "MALE",
-     "id": "250057056",
+     "countryCode": "SVN",
+     "gender": "FEMALE",
+     "id": "250152396",
      "translations": {
       "countryName": {
-       "EN": "Latvia",
-       "FR": "Lettonie",
-       "DE": "Lettland",
-       "ES": "Letonia",
-       "PT": "Letónia",
-       "IT": "Lettonia",
-       "RU": "Латвия",
-       "ZH": "拉脱维亚",
-       "AR": "لاتفيا"
+       "EN": "Slovenia",
+       "FR": "Slovénie",
+       "DE": "Slowenien",
+       "ES": "Eslovenia",
+       "PT": "Eslovénia",
+       "IT": "Slovenia",
+       "RU": "Словения",
+       "ZH": "斯洛文尼亚",
+       "AR": "سلوفينيا"
       },
       "firstName": {
-       "EN": "Ingus",
-       "FR": "Ingus",
-       "DE": "Ingus",
-       "ES": "Ingus",
-       "PT": "Ingus",
-       "IT": "Ingus",
-       "RU": "Ingus",
-       "ZH": "Ingus",
-       "AR": "Ingus"
+       "EN": "Azra",
+       "FR": "Azra",
+       "DE": "Azra",
+       "ES": "Azra",
+       "PT": "Azra",
+       "IT": "Azra",
+       "RU": "Azra",
+       "ZH": "Azra",
+       "AR": "Azra"
       },
       "lastName": {
-       "EN": "Purins",
-       "FR": "Purins",
-       "DE": "Purins",
-       "ES": "Purins",
-       "PT": "Purins",
-       "IT": "Purins",
-       "RU": "Purins",
-       "ZH": "purins",
-       "AR": "Purins"
+       "EN": "Ahmetovic",
+       "FR": "Ahmetovic",
+       "DE": "Ahmetovic",
+       "ES": "Ahmetovic",
+       "PT": "Ahmetovic",
+       "IT": "Ahmetovic",
+       "RU": "Ahmetovic",
+       "ZH": "Ahmetovic",
+       "AR": "Ahmetovic"
       },
       "name": {
-       "EN": "Ingus Puriņš",
-       "FR": "Ingus Puriņš",
-       "DE": "Ingus Puriņš",
-       "ES": "Ingus Puriņš",
-       "PT": "Ingus Puriņš",
-       "IT": "Ingus Puriņš",
-       "RU": "Ингус Пуриньш",
-       "ZH": "Ingus Purins",
-       "AR": "Ingus Puriņš"
+       "EN": "Azra Ahmetovic",
+       "FR": "Azra Ahmetovic",
+       "DE": "Azra Ahmetovic",
+       "ES": "Azra Ahmetovic",
+       "PT": "Azra Ahmetovic",
+       "IT": "Azra Ahmetovic",
+       "RU": "Азра Ахметович",
+       "ZH": "Azra Ahmetovic",
+       "AR": "Azra Ahmetovic"
       },
       "shortName": {
-       "EN": "Puriņš",
-       "FR": "Puriņš",
-       "DE": "Puriņš",
-       "ES": "Puriņš",
-       "PT": "Puriņš",
-       "IT": "Puriņš",
-       "RU": "Пуриньш",
-       "ZH": "Purins",
-       "AR": "Puriņš"
+       "EN": "Ahmetovic",
+       "FR": "Ahmetovic",
+       "DE": "Ahmetovic",
+       "ES": "Ahmetovic",
+       "PT": "Ahmetovic",
+       "IT": "Ahmetovic",
+       "RU": "Ахметович",
+       "ZH": "Ahmetovic",
+       "AR": "Ahmetovic"
       }
      }
     },
-    "role": "REFEREE_ONE",
+    "role": "TIMEKEEPER",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Первый рефери",
-      "ZH": "Primeiro árbitro",
-      "AR": "الحكم"
+      "EN": "Timekeeper",
+      "FR": "Chronométreur/euse",
+      "DE": "Timekeeper",
+      "ES": "Cronometrador/a",
+      "PT": "Cronometrista",
+      "IT": "Cronometrista",
+      "RU": "Хронометрист",
+      "ZH": "Timekeeper",
+      "AR": "ميقاتي"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205308.jpg"
+    },
+    "person": {
+     "countryCode": "BUL",
+     "gender": "MALE",
+     "id": "250205308",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "firstName": {
+       "EN": "Aleksandar",
+       "FR": "Aleksandar",
+       "DE": "Aleksandar",
+       "ES": "Aleksandar",
+       "PT": "Aleksandar",
+       "IT": "Aleksandar",
+       "RU": "Александар",
+       "ZH": "Aleksandar",
+       "AR": "Aleksandar"
+      },
+      "lastName": {
+       "EN": "Vangelov",
+       "FR": "Vangelov",
+       "DE": "Vangelov",
+       "ES": "Vangelov",
+       "PT": "Vangelov",
+       "IT": "Vangelov",
+       "RU": "Вангелов",
+       "ZH": "Vangelov",
+       "AR": "Vangelov"
+      },
+      "name": {
+       "EN": "Aleksandar Vangelov",
+       "FR": "Aleksandar Vangelov",
+       "DE": "Aleksandar Vangelov",
+       "ES": "Aleksandar Vangelov",
+       "PT": "Aleksandar Vangelov",
+       "IT": "Aleksandar Vangelov",
+       "RU": "Александар Вангелов",
+       "ZH": "Aleksandar Vangelov",
+       "AR": "Aleksandar Vangelov"
+      },
+      "shortName": {
+       "EN": "Vangelov",
+       "FR": "Vangelov",
+       "DE": "Vangelov",
+       "ES": "Vangelov",
+       "PT": "Vangelov",
+       "IT": "Vangelov",
+       "RU": "Вангелов",
+       "ZH": "Vangelov",
+       "AR": "Vangelov"
+      }
+     }
+    },
+    "role": "REFEREE_THREE",
+    "translations": {
+     "roleName": {
+      "EN": "Third Referee",
+      "FR": "Troisième arbitre",
+      "DE": "Dritter Schiedsrichter",
+      "ES": "Tercer árbitro",
+      "PT": "Terceiro árbitro",
+      "IT": "Terzo arbitro",
+      "RU": "Третий рефери",
+      "ZH": "Terceiro árbitro",
+      "AR": "الحكم الثالث"
      }
     }
    },
@@ -1450,87 +1531,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250152396.jpg"
-    },
-    "person": {
-     "countryCode": "SVN",
-     "gender": "FEMALE",
-     "id": "250152396",
-     "translations": {
-      "countryName": {
-       "EN": "Slovenia",
-       "FR": "Slovénie",
-       "DE": "Slowenien",
-       "ES": "Eslovenia",
-       "PT": "Eslovénia",
-       "IT": "Slovenia",
-       "RU": "Словения",
-       "ZH": "斯洛文尼亚",
-       "AR": "سلوفينيا"
-      },
-      "firstName": {
-       "EN": "Azra",
-       "FR": "Azra",
-       "DE": "Azra",
-       "ES": "Azra",
-       "PT": "Azra",
-       "IT": "Azra",
-       "RU": "Azra",
-       "ZH": "Azra",
-       "AR": "Azra"
-      },
-      "lastName": {
-       "EN": "Ahmetovic",
-       "FR": "Ahmetovic",
-       "DE": "Ahmetovic",
-       "ES": "Ahmetovic",
-       "PT": "Ahmetovic",
-       "IT": "Ahmetovic",
-       "RU": "Ahmetovic",
-       "ZH": "Ahmetovic",
-       "AR": "Ahmetovic"
-      },
-      "name": {
-       "EN": "Azra Ahmetovic",
-       "FR": "Azra Ahmetovic",
-       "DE": "Azra Ahmetovic",
-       "ES": "Azra Ahmetovic",
-       "PT": "Azra Ahmetovic",
-       "IT": "Azra Ahmetovic",
-       "RU": "Азра Ахметович",
-       "ZH": "Azra Ahmetovic",
-       "AR": "Azra Ahmetovic"
-      },
-      "shortName": {
-       "EN": "Ahmetovic",
-       "FR": "Ahmetovic",
-       "DE": "Ahmetovic",
-       "ES": "Ahmetovic",
-       "PT": "Ahmetovic",
-       "IT": "Ahmetovic",
-       "RU": "Ахметович",
-       "ZH": "Ahmetovic",
-       "AR": "Ahmetovic"
-      }
-     }
-    },
-    "role": "TIMEKEEPER",
-    "translations": {
-     "roleName": {
-      "EN": "Timekeeper",
-      "FR": "Chronométreur/euse",
-      "DE": "Timekeeper",
-      "ES": "Cronometrador/a",
-      "PT": "Cronometrista",
-      "IT": "Cronometrista",
-      "RU": "Хронометрист",
-      "ZH": "Timekeeper",
-      "AR": "ميقاتي"
      }
     }
    },
@@ -1698,82 +1698,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205308.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250057056.jpg"
     },
     "person": {
-     "countryCode": "BUL",
+     "countryCode": "LVA",
      "gender": "MALE",
-     "id": "250205308",
+     "id": "250057056",
      "translations": {
       "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
+       "EN": "Latvia",
+       "FR": "Lettonie",
+       "DE": "Lettland",
+       "ES": "Letonia",
+       "PT": "Letónia",
+       "IT": "Lettonia",
+       "RU": "Латвия",
+       "ZH": "拉脱维亚",
+       "AR": "لاتفيا"
       },
       "firstName": {
-       "EN": "Aleksandar",
-       "FR": "Aleksandar",
-       "DE": "Aleksandar",
-       "ES": "Aleksandar",
-       "PT": "Aleksandar",
-       "IT": "Aleksandar",
-       "RU": "Александар",
-       "ZH": "Aleksandar",
-       "AR": "Aleksandar"
+       "EN": "Ingus",
+       "FR": "Ingus",
+       "DE": "Ingus",
+       "ES": "Ingus",
+       "PT": "Ingus",
+       "IT": "Ingus",
+       "RU": "Ingus",
+       "ZH": "Ingus",
+       "AR": "Ingus"
       },
       "lastName": {
-       "EN": "Vangelov",
-       "FR": "Vangelov",
-       "DE": "Vangelov",
-       "ES": "Vangelov",
-       "PT": "Vangelov",
-       "IT": "Vangelov",
-       "RU": "Вангелов",
-       "ZH": "Vangelov",
-       "AR": "Vangelov"
+       "EN": "Purins",
+       "FR": "Purins",
+       "DE": "Purins",
+       "ES": "Purins",
+       "PT": "Purins",
+       "IT": "Purins",
+       "RU": "Purins",
+       "ZH": "purins",
+       "AR": "Purins"
       },
       "name": {
-       "EN": "Aleksandar Vangelov",
-       "FR": "Aleksandar Vangelov",
-       "DE": "Aleksandar Vangelov",
-       "ES": "Aleksandar Vangelov",
-       "PT": "Aleksandar Vangelov",
-       "IT": "Aleksandar Vangelov",
-       "RU": "Александар Вангелов",
-       "ZH": "Aleksandar Vangelov",
-       "AR": "Aleksandar Vangelov"
+       "EN": "Ingus Puriņš",
+       "FR": "Ingus Puriņš",
+       "DE": "Ingus Puriņš",
+       "ES": "Ingus Puriņš",
+       "PT": "Ingus Puriņš",
+       "IT": "Ingus Puriņš",
+       "RU": "Ингус Пуриньш",
+       "ZH": "Ingus Purins",
+       "AR": "Ingus Puriņš"
       },
       "shortName": {
-       "EN": "Vangelov",
-       "FR": "Vangelov",
-       "DE": "Vangelov",
-       "ES": "Vangelov",
-       "PT": "Vangelov",
-       "IT": "Vangelov",
-       "RU": "Вангелов",
-       "ZH": "Vangelov",
-       "AR": "Vangelov"
+       "EN": "Puriņš",
+       "FR": "Puriņš",
+       "DE": "Puriņš",
+       "ES": "Puriņš",
+       "PT": "Puriņš",
+       "IT": "Puriņš",
+       "RU": "Пуриньш",
+       "ZH": "Purins",
+       "AR": "Puriņš"
       }
      }
     },
-    "role": "REFEREE_THREE",
+    "role": "REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Third Referee",
-      "FR": "Troisième arbitre",
-      "DE": "Dritter Schiedsrichter",
-      "ES": "Tercer árbitro",
-      "PT": "Terceiro árbitro",
-      "IT": "Terzo arbitro",
-      "RU": "Третий рефери",
-      "ZH": "Terceiro árbitro",
-      "AR": "الحكم الثالث"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Первый рефери",
+      "ZH": "Primeiro árbitro",
+      "AR": "الحكم"
      }
     }
    }
