@@ -124,6 +124,7 @@
      "ZH": "五人制足球世界杯",
      "AR": "كأس العالم لكرة الصالات FIFA"
     },
+    "shortName": {},
     "tournamentName": {
      "EN": "FIFA Futsal World Cup",
      "FR": "Coupe du Monde de Futsal de la FIFA",
@@ -305,6 +306,168 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250017879.jpg"
+    },
+    "person": {
+     "countryCode": "ARM",
+     "gender": "MALE",
+     "id": "250017879",
+     "translations": {
+      "countryName": {
+       "EN": "Armenia",
+       "FR": "Arménie",
+       "DE": "Armenien",
+       "ES": "Armenia",
+       "PT": "Arménia",
+       "IT": "Armenia",
+       "RU": "Армения",
+       "ZH": "亚美尼亚",
+       "AR": "أرمينيا"
+      },
+      "firstName": {
+       "EN": "Arman",
+       "FR": "Arman",
+       "DE": "Arman",
+       "ES": "Arman",
+       "PT": "Arman",
+       "IT": "Arman",
+       "RU": "Arman",
+       "ZH": "Arman",
+       "AR": "Arman"
+      },
+      "lastName": {
+       "EN": "Alaberkyan",
+       "FR": "Alaberkyan",
+       "DE": "Alaberkyan",
+       "ES": "Alaberkyan",
+       "PT": "Alaberkyan",
+       "IT": "Alaberkyan",
+       "RU": "Alaberkyan",
+       "ZH": "Alaberkyan",
+       "AR": "Alaberkyan"
+      },
+      "name": {
+       "EN": "Arman Alaberkyan",
+       "FR": "Arman Alaberkyan",
+       "DE": "Arman Alaberkyan",
+       "ES": "Arman Alaberkyan",
+       "PT": "Arman Alaberkyan",
+       "IT": "Arman Alaberkyan",
+       "RU": "Арман Алабекян",
+       "ZH": "Arman Alaberkyan",
+       "AR": "Arman Alaberkyan"
+      },
+      "shortName": {
+       "EN": "Alaberkyan",
+       "FR": "Alaberkyan",
+       "DE": "Alaberkyan",
+       "ES": "Alaberkyan",
+       "PT": "Alaberkyan",
+       "IT": "Alaberkyan",
+       "RU": "Алабекян",
+       "ZH": "Alaberkyan",
+       "AR": "Alaberkyan"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250192232.jpg"
+    },
+    "person": {
+     "countryCode": "SRB",
+     "gender": "MALE",
+     "id": "250192232",
+     "translations": {
+      "countryName": {
+       "EN": "Serbia",
+       "FR": "Serbie",
+       "DE": "Serbien",
+       "ES": "Serbia",
+       "PT": "Sérvia",
+       "IT": "Serbia",
+       "RU": "Сербия",
+       "ZH": "塞尔维亚",
+       "AR": "صربيا"
+      },
+      "firstName": {
+       "EN": "Srdjan",
+       "FR": "Srdjan",
+       "DE": "Srdjan",
+       "ES": "Srdjan",
+       "PT": "Srdjan",
+       "IT": "Srdjan",
+       "RU": "Срджан",
+       "ZH": "Srdjan",
+       "AR": "Srdjan"
+      },
+      "lastName": {
+       "EN": "Mihajlovic",
+       "FR": "Mihajlovic",
+       "DE": "Mihajlovic",
+       "ES": "Mihajlovic",
+       "PT": "Mihajlovic",
+       "IT": "Mihajlovic",
+       "RU": "Михайлович",
+       "ZH": "Mihajlovic",
+       "AR": "Mihajlovic"
+      },
+      "name": {
+       "EN": "Srdjan Mihajlovic",
+       "FR": "Srdjan Mihajlovic",
+       "DE": "Srdjan Mihajlovic",
+       "ES": "Srdjan Mihajlovic",
+       "PT": "Srdjan Mihajlovic",
+       "IT": "Srdjan Mihajlovic",
+       "RU": "Срджан Михайлович",
+       "ZH": "Srdjan Mihajlovic",
+       "AR": "Srdjan Mihajlovic"
+      },
+      "shortName": {
+       "EN": "Mihajlovic",
+       "FR": "Mihajlovic",
+       "DE": "Mihajlovic",
+       "ES": "Mihajlovic",
+       "PT": "Mihajlovic",
+       "IT": "Mihajlovic",
+       "RU": "Михайлович",
+       "ZH": "Mihajlovic",
+       "AR": "Mihajlovic"
+      }
+     }
+    },
+    "role": "REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Second Referee",
+      "FR": "Deuxième arbitre",
+      "DE": "Zweiter Schiedsrichter",
+      "ES": "Segundo árbitro",
+      "PT": "Segundo árbitro",
+      "IT": "Secondo arbitro",
+      "RU": "Второй рефери",
+      "ZH": "Segundo árbitro",
+      "AR": "الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250228303.jpg"
     },
     "person": {
@@ -386,82 +549,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250017879.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096498.jpg"
     },
     "person": {
-     "countryCode": "ARM",
+     "countryCode": "SRB",
      "gender": "MALE",
-     "id": "250017879",
+     "id": "250096498",
      "translations": {
       "countryName": {
-       "EN": "Armenia",
-       "FR": "Arménie",
-       "DE": "Armenien",
-       "ES": "Armenia",
-       "PT": "Arménia",
-       "IT": "Armenia",
-       "RU": "Армения",
-       "ZH": "亚美尼亚",
-       "AR": "أرمينيا"
+       "EN": "Serbia",
+       "FR": "Serbie",
+       "DE": "Serbien",
+       "ES": "Serbia",
+       "PT": "Sérvia",
+       "IT": "Serbia",
+       "RU": "Сербия",
+       "ZH": "塞尔维亚",
+       "AR": "صربيا"
       },
       "firstName": {
-       "EN": "Arman",
-       "FR": "Arman",
-       "DE": "Arman",
-       "ES": "Arman",
-       "PT": "Arman",
-       "IT": "Arman",
-       "RU": "Arman",
-       "ZH": "Arman",
-       "AR": "Arman"
+       "EN": "Petar",
+       "FR": "Petar",
+       "DE": "Petar",
+       "ES": "Petar",
+       "PT": "Petar",
+       "IT": "Petar",
+       "RU": "Petar",
+       "ZH": "Petar",
+       "AR": "Petar"
       },
       "lastName": {
-       "EN": "Alaberkyan",
-       "FR": "Alaberkyan",
-       "DE": "Alaberkyan",
-       "ES": "Alaberkyan",
-       "PT": "Alaberkyan",
-       "IT": "Alaberkyan",
-       "RU": "Alaberkyan",
-       "ZH": "Alaberkyan",
-       "AR": "Alaberkyan"
+       "EN": "Radojcic",
+       "FR": "Radojcic",
+       "DE": "Radojcic",
+       "ES": "Radojcic",
+       "PT": "Radojcic",
+       "IT": "Radojcic",
+       "RU": "Radojcic",
+       "ZH": "Radojcic",
+       "AR": "Radojcic"
       },
       "name": {
-       "EN": "Arman Alaberkyan",
-       "FR": "Arman Alaberkyan",
-       "DE": "Arman Alaberkyan",
-       "ES": "Arman Alaberkyan",
-       "PT": "Arman Alaberkyan",
-       "IT": "Arman Alaberkyan",
-       "RU": "Арман Алабекян",
-       "ZH": "Arman Alaberkyan",
-       "AR": "Arman Alaberkyan"
+       "EN": "Petar Radojcic",
+       "FR": "Petar Radojcic",
+       "DE": "Petar Radojcic",
+       "ES": "Petar Radojcic",
+       "PT": "Petar Radojcic",
+       "IT": "Petar Radojcic",
+       "RU": "Петар Радойчич",
+       "ZH": "Petar Radojcic",
+       "AR": "Petar Radojcic"
       },
       "shortName": {
-       "EN": "Alaberkyan",
-       "FR": "Alaberkyan",
-       "DE": "Alaberkyan",
-       "ES": "Alaberkyan",
-       "PT": "Alaberkyan",
-       "IT": "Alaberkyan",
-       "RU": "Алабекян",
-       "ZH": "Alaberkyan",
-       "AR": "Alaberkyan"
+       "EN": "Radojcic",
+       "FR": "Radojcic",
+       "DE": "Radojcic",
+       "ES": "Radojcic",
+       "PT": "Radojcic",
+       "IT": "Radojcic",
+       "RU": "Радойчич",
+       "ZH": "Radojcic",
+       "AR": "Radojcic"
       }
      }
     },
-    "role": "REFEREE_OBSERVER",
+    "role": "REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Первый рефери",
+      "ZH": "Primeiro árbitro",
+      "AR": "الحكم"
      }
     }
    },
@@ -624,168 +787,6 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250192232.jpg"
-    },
-    "person": {
-     "countryCode": "SRB",
-     "gender": "MALE",
-     "id": "250192232",
-     "translations": {
-      "countryName": {
-       "EN": "Serbia",
-       "FR": "Serbie",
-       "DE": "Serbien",
-       "ES": "Serbia",
-       "PT": "Sérvia",
-       "IT": "Serbia",
-       "RU": "Сербия",
-       "ZH": "塞尔维亚",
-       "AR": "صربيا"
-      },
-      "firstName": {
-       "EN": "Srdjan",
-       "FR": "Srdjan",
-       "DE": "Srdjan",
-       "ES": "Srdjan",
-       "PT": "Srdjan",
-       "IT": "Srdjan",
-       "RU": "Срджан",
-       "ZH": "Srdjan",
-       "AR": "Srdjan"
-      },
-      "lastName": {
-       "EN": "Mihajlovic",
-       "FR": "Mihajlovic",
-       "DE": "Mihajlovic",
-       "ES": "Mihajlovic",
-       "PT": "Mihajlovic",
-       "IT": "Mihajlovic",
-       "RU": "Михайлович",
-       "ZH": "Mihajlovic",
-       "AR": "Mihajlovic"
-      },
-      "name": {
-       "EN": "Srdjan Mihajlovic",
-       "FR": "Srdjan Mihajlovic",
-       "DE": "Srdjan Mihajlovic",
-       "ES": "Srdjan Mihajlovic",
-       "PT": "Srdjan Mihajlovic",
-       "IT": "Srdjan Mihajlovic",
-       "RU": "Срджан Михайлович",
-       "ZH": "Srdjan Mihajlovic",
-       "AR": "Srdjan Mihajlovic"
-      },
-      "shortName": {
-       "EN": "Mihajlovic",
-       "FR": "Mihajlovic",
-       "DE": "Mihajlovic",
-       "ES": "Mihajlovic",
-       "PT": "Mihajlovic",
-       "IT": "Mihajlovic",
-       "RU": "Михайлович",
-       "ZH": "Mihajlovic",
-       "AR": "Mihajlovic"
-      }
-     }
-    },
-    "role": "REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Second Referee",
-      "FR": "Deuxième arbitre",
-      "DE": "Zweiter Schiedsrichter",
-      "ES": "Segundo árbitro",
-      "PT": "Segundo árbitro",
-      "IT": "Secondo arbitro",
-      "RU": "Второй рефери",
-      "ZH": "Segundo árbitro",
-      "AR": "الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096498.jpg"
-    },
-    "person": {
-     "countryCode": "SRB",
-     "gender": "MALE",
-     "id": "250096498",
-     "translations": {
-      "countryName": {
-       "EN": "Serbia",
-       "FR": "Serbie",
-       "DE": "Serbien",
-       "ES": "Serbia",
-       "PT": "Sérvia",
-       "IT": "Serbia",
-       "RU": "Сербия",
-       "ZH": "塞尔维亚",
-       "AR": "صربيا"
-      },
-      "firstName": {
-       "EN": "Petar",
-       "FR": "Petar",
-       "DE": "Petar",
-       "ES": "Petar",
-       "PT": "Petar",
-       "IT": "Petar",
-       "RU": "Petar",
-       "ZH": "Petar",
-       "AR": "Petar"
-      },
-      "lastName": {
-       "EN": "Radojcic",
-       "FR": "Radojcic",
-       "DE": "Radojcic",
-       "ES": "Radojcic",
-       "PT": "Radojcic",
-       "IT": "Radojcic",
-       "RU": "Radojcic",
-       "ZH": "Radojcic",
-       "AR": "Radojcic"
-      },
-      "name": {
-       "EN": "Petar Radojcic",
-       "FR": "Petar Radojcic",
-       "DE": "Petar Radojcic",
-       "ES": "Petar Radojcic",
-       "PT": "Petar Radojcic",
-       "IT": "Petar Radojcic",
-       "RU": "Петар Радойчич",
-       "ZH": "Petar Radojcic",
-       "AR": "Petar Radojcic"
-      },
-      "shortName": {
-       "EN": "Radojcic",
-       "FR": "Radojcic",
-       "DE": "Radojcic",
-       "ES": "Radojcic",
-       "PT": "Radojcic",
-       "IT": "Radojcic",
-       "RU": "Радойчич",
-       "ZH": "Radojcic",
-       "AR": "Radojcic"
-      }
-     }
-    },
-    "role": "REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Первый рефери",
-      "ZH": "Primeiro árbitro",
-      "AR": "الحكم"
      }
     }
    }
@@ -1111,6 +1112,7 @@
      "ZH": "五人制足球世界杯",
      "AR": "كأس العالم لكرة الصالات FIFA"
     },
+    "shortName": {},
     "tournamentName": {
      "EN": "FIFA Futsal World Cup",
      "FR": "Coupe du Monde de Futsal de la FIFA",
@@ -1292,6 +1294,168 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250207056.jpg"
+    },
+    "person": {
+     "countryCode": "POL",
+     "gender": "FEMALE",
+     "id": "250207056",
+     "translations": {
+      "countryName": {
+       "EN": "Poland",
+       "FR": "Pologne",
+       "DE": "Polen",
+       "ES": "Polonia",
+       "PT": "Polónia",
+       "IT": "Polonia",
+       "RU": "Польша",
+       "ZH": "波兰",
+       "AR": "بولندا"
+      },
+      "firstName": {
+       "EN": "Barbara",
+       "FR": "Barbara",
+       "DE": "Barbara",
+       "ES": "Barbara",
+       "PT": "Barbara",
+       "IT": "Barbara",
+       "RU": "Barbara",
+       "ZH": "Barbara",
+       "AR": "Barbara"
+      },
+      "lastName": {
+       "EN": "Mrozek",
+       "FR": "Mrozek",
+       "DE": "Mrozek",
+       "ES": "Mrozek",
+       "PT": "Mrozek",
+       "IT": "Mrozek",
+       "RU": "Mrozek",
+       "ZH": "Mrozek",
+       "AR": "Mrozek"
+      },
+      "name": {
+       "EN": "Barbara Mrozek",
+       "FR": "Barbara Mrozek",
+       "DE": "Barbara Mrozek",
+       "ES": "Barbara Mrozek",
+       "PT": "Barbara Mrozek",
+       "IT": "Barbara Mrozek",
+       "RU": "Barbara Mrozek",
+       "ZH": "Barbara Mrozek",
+       "AR": "Barbara Mrozek"
+      },
+      "shortName": {
+       "EN": "Mrozek",
+       "FR": "Mrozek",
+       "DE": "Mrozek",
+       "ES": "Mrozek",
+       "PT": "Mrozek",
+       "IT": "Mrozek",
+       "RU": "Mrozek",
+       "ZH": "Mrozek",
+       "AR": "Mrozek"
+      }
+     }
+    },
+    "role": "REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Second Referee",
+      "FR": "2e arbitre",
+      "DE": "Second Referee",
+      "ES": "Segundo/a árbitro/a",
+      "PT": "Segundo(a) árbitro(a)",
+      "IT": "Secondo Arbitro",
+      "RU": "Второй рефери",
+      "ZH": "Second Referee",
+      "AR": "الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/292035.jpg"
+    },
+    "person": {
+     "countryCode": "MKD",
+     "gender": "MALE",
+     "id": "292035",
+     "translations": {
+      "countryName": {
+       "EN": "North Macedonia",
+       "FR": "Macédoine du Nord",
+       "DE": "Nordmazedonien",
+       "ES": "Macedonia del Norte",
+       "PT": "Macedónia do Norte",
+       "IT": "Macedonia del Nord",
+       "RU": "Северная Македония",
+       "ZH": "前南斯拉夫马其顿共和国",
+       "AR": "مقدونيا الشمالية"
+      },
+      "firstName": {
+       "EN": "Josip",
+       "FR": "Josip",
+       "DE": "Josip",
+       "ES": "Josip",
+       "PT": "Josip",
+       "IT": "Josip",
+       "RU": "Josip",
+       "ZH": "Josip",
+       "AR": "Josip"
+      },
+      "lastName": {
+       "EN": "Barton",
+       "FR": "Barton",
+       "DE": "Barton",
+       "ES": "Barton",
+       "PT": "Barton",
+       "IT": "Barton",
+       "RU": "Barton",
+       "ZH": "Barton",
+       "AR": "Barton"
+      },
+      "name": {
+       "EN": "Josip Barton",
+       "FR": "Josip Barton",
+       "DE": "Josip Barton",
+       "ES": "Josip Barton",
+       "PT": "Josip Barton",
+       "IT": "Josip Barton",
+       "RU": "Йосип Бартон",
+       "ZH": "Josip Barton",
+       "AR": "Josip Barton"
+      },
+      "shortName": {
+       "EN": "Barton",
+       "FR": "Barton",
+       "DE": "Barton",
+       "ES": "Barton",
+       "PT": "Barton",
+       "IT": "Barton",
+       "RU": "Бартон",
+       "ZH": "Barton",
+       "AR": "Barton"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250122258.jpg"
     },
     "person": {
@@ -1368,6 +1532,87 @@
       "RU": "Первый рефери",
       "ZH": "Primeiro árbitro",
       "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250152396.jpg"
+    },
+    "person": {
+     "countryCode": "SVN",
+     "gender": "FEMALE",
+     "id": "250152396",
+     "translations": {
+      "countryName": {
+       "EN": "Slovenia",
+       "FR": "Slovénie",
+       "DE": "Slowenien",
+       "ES": "Eslovenia",
+       "PT": "Eslovénia",
+       "IT": "Slovenia",
+       "RU": "Словения",
+       "ZH": "斯洛文尼亚",
+       "AR": "سلوفينيا"
+      },
+      "firstName": {
+       "EN": "Azra",
+       "FR": "Azra",
+       "DE": "Azra",
+       "ES": "Azra",
+       "PT": "Azra",
+       "IT": "Azra",
+       "RU": "Azra",
+       "ZH": "Azra",
+       "AR": "Azra"
+      },
+      "lastName": {
+       "EN": "Ahmetovic",
+       "FR": "Ahmetovic",
+       "DE": "Ahmetovic",
+       "ES": "Ahmetovic",
+       "PT": "Ahmetovic",
+       "IT": "Ahmetovic",
+       "RU": "Ahmetovic",
+       "ZH": "Ahmetovic",
+       "AR": "Ahmetovic"
+      },
+      "name": {
+       "EN": "Azra Ahmetovic",
+       "FR": "Azra Ahmetovic",
+       "DE": "Azra Ahmetovic",
+       "ES": "Azra Ahmetovic",
+       "PT": "Azra Ahmetovic",
+       "IT": "Azra Ahmetovic",
+       "RU": "Азра Ахметович",
+       "ZH": "Azra Ahmetovic",
+       "AR": "Azra Ahmetovic"
+      },
+      "shortName": {
+       "EN": "Ahmetovic",
+       "FR": "Ahmetovic",
+       "DE": "Ahmetovic",
+       "ES": "Ahmetovic",
+       "PT": "Ahmetovic",
+       "IT": "Ahmetovic",
+       "RU": "Ахметович",
+       "ZH": "Ahmetovic",
+       "AR": "Ahmetovic"
+      }
+     }
+    },
+    "role": "TIMEKEEPER",
+    "translations": {
+     "roleName": {
+      "EN": "Timekeeper",
+      "FR": "Chronométreur/euse",
+      "DE": "Timekeeper",
+      "ES": "Cronometrador/a",
+      "PT": "Cronometrista",
+      "IT": "Cronometrista",
+      "RU": "Хронометрист",
+      "ZH": "Timekeeper",
+      "AR": "ميقاتي"
      }
     }
    },
@@ -1530,249 +1775,6 @@
       "RU": "Третий рефери",
       "ZH": "Terceiro árbitro",
       "AR": "الحكم الثالث"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250152396.jpg"
-    },
-    "person": {
-     "countryCode": "SVN",
-     "gender": "FEMALE",
-     "id": "250152396",
-     "translations": {
-      "countryName": {
-       "EN": "Slovenia",
-       "FR": "Slovénie",
-       "DE": "Slowenien",
-       "ES": "Eslovenia",
-       "PT": "Eslovénia",
-       "IT": "Slovenia",
-       "RU": "Словения",
-       "ZH": "斯洛文尼亚",
-       "AR": "سلوفينيا"
-      },
-      "firstName": {
-       "EN": "Azra",
-       "FR": "Azra",
-       "DE": "Azra",
-       "ES": "Azra",
-       "PT": "Azra",
-       "IT": "Azra",
-       "RU": "Azra",
-       "ZH": "Azra",
-       "AR": "Azra"
-      },
-      "lastName": {
-       "EN": "Ahmetovic",
-       "FR": "Ahmetovic",
-       "DE": "Ahmetovic",
-       "ES": "Ahmetovic",
-       "PT": "Ahmetovic",
-       "IT": "Ahmetovic",
-       "RU": "Ahmetovic",
-       "ZH": "Ahmetovic",
-       "AR": "Ahmetovic"
-      },
-      "name": {
-       "EN": "Azra Ahmetovic",
-       "FR": "Azra Ahmetovic",
-       "DE": "Azra Ahmetovic",
-       "ES": "Azra Ahmetovic",
-       "PT": "Azra Ahmetovic",
-       "IT": "Azra Ahmetovic",
-       "RU": "Азра Ахметович",
-       "ZH": "Azra Ahmetovic",
-       "AR": "Azra Ahmetovic"
-      },
-      "shortName": {
-       "EN": "Ahmetovic",
-       "FR": "Ahmetovic",
-       "DE": "Ahmetovic",
-       "ES": "Ahmetovic",
-       "PT": "Ahmetovic",
-       "IT": "Ahmetovic",
-       "RU": "Ахметович",
-       "ZH": "Ahmetovic",
-       "AR": "Ahmetovic"
-      }
-     }
-    },
-    "role": "TIMEKEEPER",
-    "translations": {
-     "roleName": {
-      "EN": "Timekeeper",
-      "FR": "Chronométreur/euse",
-      "DE": "Timekeeper",
-      "ES": "Cronometrador/a",
-      "PT": "Cronometrista",
-      "IT": "Cronometrista",
-      "RU": "Хронометрист",
-      "ZH": "Timekeeper",
-      "AR": "ميقاتي"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/292035.jpg"
-    },
-    "person": {
-     "countryCode": "MKD",
-     "gender": "MALE",
-     "id": "292035",
-     "translations": {
-      "countryName": {
-       "EN": "North Macedonia",
-       "FR": "Macédoine du Nord",
-       "DE": "Nordmazedonien",
-       "ES": "Macedonia del Norte",
-       "PT": "Macedónia do Norte",
-       "IT": "Macedonia del Nord",
-       "RU": "Северная Македония",
-       "ZH": "前南斯拉夫马其顿共和国",
-       "AR": "مقدونيا الشمالية"
-      },
-      "firstName": {
-       "EN": "Josip",
-       "FR": "Josip",
-       "DE": "Josip",
-       "ES": "Josip",
-       "PT": "Josip",
-       "IT": "Josip",
-       "RU": "Josip",
-       "ZH": "Josip",
-       "AR": "Josip"
-      },
-      "lastName": {
-       "EN": "Barton",
-       "FR": "Barton",
-       "DE": "Barton",
-       "ES": "Barton",
-       "PT": "Barton",
-       "IT": "Barton",
-       "RU": "Barton",
-       "ZH": "Barton",
-       "AR": "Barton"
-      },
-      "name": {
-       "EN": "Josip Barton",
-       "FR": "Josip Barton",
-       "DE": "Josip Barton",
-       "ES": "Josip Barton",
-       "PT": "Josip Barton",
-       "IT": "Josip Barton",
-       "RU": "Йосип Бартон",
-       "ZH": "Josip Barton",
-       "AR": "Josip Barton"
-      },
-      "shortName": {
-       "EN": "Barton",
-       "FR": "Barton",
-       "DE": "Barton",
-       "ES": "Barton",
-       "PT": "Barton",
-       "IT": "Barton",
-       "RU": "Бартон",
-       "ZH": "Barton",
-       "AR": "Barton"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250207056.jpg"
-    },
-    "person": {
-     "countryCode": "POL",
-     "gender": "FEMALE",
-     "id": "250207056",
-     "translations": {
-      "countryName": {
-       "EN": "Poland",
-       "FR": "Pologne",
-       "DE": "Polen",
-       "ES": "Polonia",
-       "PT": "Polónia",
-       "IT": "Polonia",
-       "RU": "Польша",
-       "ZH": "波兰",
-       "AR": "بولندا"
-      },
-      "firstName": {
-       "EN": "Barbara",
-       "FR": "Barbara",
-       "DE": "Barbara",
-       "ES": "Barbara",
-       "PT": "Barbara",
-       "IT": "Barbara",
-       "RU": "Barbara",
-       "ZH": "Barbara",
-       "AR": "Barbara"
-      },
-      "lastName": {
-       "EN": "Mrozek",
-       "FR": "Mrozek",
-       "DE": "Mrozek",
-       "ES": "Mrozek",
-       "PT": "Mrozek",
-       "IT": "Mrozek",
-       "RU": "Mrozek",
-       "ZH": "Mrozek",
-       "AR": "Mrozek"
-      },
-      "name": {
-       "EN": "Barbara Mrozek",
-       "FR": "Barbara Mrozek",
-       "DE": "Barbara Mrozek",
-       "ES": "Barbara Mrozek",
-       "PT": "Barbara Mrozek",
-       "IT": "Barbara Mrozek",
-       "RU": "Barbara Mrozek",
-       "ZH": "Barbara Mrozek",
-       "AR": "Barbara Mrozek"
-      },
-      "shortName": {
-       "EN": "Mrozek",
-       "FR": "Mrozek",
-       "DE": "Mrozek",
-       "ES": "Mrozek",
-       "PT": "Mrozek",
-       "IT": "Mrozek",
-       "RU": "Mrozek",
-       "ZH": "Mrozek",
-       "AR": "Mrozek"
-      }
-     }
-    },
-    "role": "REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Second Referee",
-      "FR": "2e arbitre",
-      "DE": "Second Referee",
-      "ES": "Segundo/a árbitro/a",
-      "PT": "Segundo(a) árbitro(a)",
-      "IT": "Secondo Arbitro",
-      "RU": "Второй рефери",
-      "ZH": "Second Referee",
-      "AR": "الحكم الثاني"
      }
     }
    }
