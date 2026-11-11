@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 0,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013685",
@@ -300,7 +329,7 @@
    "dateTime": "2026-11-11T08:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-23T06:00:00+0000",
@@ -339,7 +368,306 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 55
+  },
+  "phase": "SECOND_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "PENALTY",
+     "id": "8697ac09-f942-44cd-ae22-421656fd1a37",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-18",
+      "clubShirtName": "BORSA",
+      "countryCode": "ITA",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250228492",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228492.jpg",
+      "internationalName": "Gabriele Borsa",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "BORSA",
+      "nationalTeamId": "400066",
+      "translations": {
+       "countryName": {
+        "EN": "Italy",
+        "FR": "Italie",
+        "DE": "Italien",
+        "ES": "Italia",
+        "PT": "Itália",
+        "IT": "Italia",
+        "RU": "Италия",
+        "ZH": "意大利",
+        "AR": "إيطاليا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Gabriele",
+        "FR": "Gabriele",
+        "DE": "Gabriele",
+        "ES": "Gabriele",
+        "PT": "Gabriele",
+        "IT": "Gabriele",
+        "RU": "Gabriele",
+        "ZH": "Gabriele",
+        "AR": "Gabriele"
+       },
+       "lastName": {
+        "EN": "Borsa",
+        "FR": "Borsa",
+        "DE": "Borsa",
+        "ES": "Borsa",
+        "PT": "Borsa",
+        "IT": "Borsa",
+        "RU": "Borsa",
+        "ZH": "Borsa",
+        "AR": "Borsa"
+       },
+       "name": {
+        "EN": "Gabriele Borsa",
+        "FR": "Gabriele Borsa",
+        "DE": "Gabriele Borsa",
+        "ES": "Gabriele Borsa",
+        "PT": "Gabriele Borsa",
+        "IT": "Gabriele Borsa",
+        "RU": "Gabriele Borsa",
+        "ZH": "Gabriele Borsa",
+        "AR": "Gabriele Borsa"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Borsa",
+        "FR": "Borsa",
+        "DE": "Borsa",
+        "ES": "Borsa",
+        "PT": "Borsa",
+        "IT": "Borsa",
+        "RU": "Borsa",
+        "ZH": "Borsa",
+        "AR": "Borsa"
+       }
+      }
+     },
+     "teamId": "400066",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 10,
+      "second": 27
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "cd7c9621-14dd-4aa4-9c65-0fba5810eaba",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-04",
+      "clubShirtName": "SCAGLIONE",
+      "countryCode": "ITA",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250220645",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250220645.jpg",
+      "internationalName": "Roberto Scaglione",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Scaglione",
+      "nationalTeamId": "400066",
+      "translations": {
+       "countryName": {
+        "EN": "Italy",
+        "FR": "Italie",
+        "DE": "Italien",
+        "ES": "Italia",
+        "PT": "Itália",
+        "IT": "Italia",
+        "RU": "Италия",
+        "ZH": "意大利",
+        "AR": "إيطاليا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Roberto",
+        "FR": "Roberto",
+        "DE": "Roberto",
+        "ES": "Roberto",
+        "PT": "Roberto",
+        "IT": "Roberto",
+        "RU": "Roberto",
+        "ZH": "Roberto",
+        "AR": "Roberto"
+       },
+       "lastName": {
+        "EN": "Scaglione",
+        "FR": "Scaglione",
+        "DE": "Scaglione",
+        "ES": "Scaglione",
+        "PT": "Scaglione",
+        "IT": "Scaglione",
+        "RU": "Scaglione",
+        "ZH": "Scaglione",
+        "AR": "Scaglione"
+       },
+       "name": {
+        "EN": "Roberto Scaglione",
+        "FR": "Roberto Scaglione",
+        "DE": "Roberto Scaglione",
+        "ES": "Roberto Scaglione",
+        "PT": "Roberto Scaglione",
+        "IT": "Roberto Scaglione",
+        "RU": "Roberto Scaglione",
+        "ZH": "Roberto Scaglione",
+        "AR": "Roberto Scaglione"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Scaglione",
+        "FR": "Scaglione",
+        "DE": "Scaglione",
+        "ES": "Scaglione",
+        "PT": "Scaglione",
+        "IT": "Scaglione",
+        "RU": "Scaglione",
+        "ZH": "Scaglione",
+        "AR": "Scaglione"
+       }
+      }
+     },
+     "teamId": "400066",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 50,
+      "second": 21
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250075518.jpg"
+    },
+    "person": {
+     "countryCode": "SVK",
+     "gender": "MALE",
+     "id": "250075518",
+     "translations": {
+      "countryName": {
+       "EN": "Slovakia",
+       "FR": "Slovaquie",
+       "DE": "Slowakei",
+       "ES": "Eslovaquia",
+       "PT": "Eslováquia",
+       "IT": "Slovacchia",
+       "RU": "Словакия",
+       "ZH": "斯洛伐克",
+       "AR": "سلوفاكيا"
+      },
+      "firstName": {
+       "EN": "Frantisek",
+       "FR": "Frantisek",
+       "DE": "Frantisek",
+       "ES": "Frantisek",
+       "PT": "Frantisek",
+       "IT": "Frantisek",
+       "RU": "Frantisek",
+       "ZH": "Frantisek",
+       "AR": "فرانتيشيك "
+      },
+      "lastName": {
+       "EN": "Ferenc",
+       "FR": "Ferenc",
+       "DE": "Ferenc",
+       "ES": "Ferenc",
+       "PT": "Ferenc",
+       "IT": "Ferenc",
+       "RU": "Ferenc",
+       "ZH": "Ferenc",
+       "AR": "فيرينك"
+      },
+      "name": {
+       "EN": "František Ferenc",
+       "FR": "František Ferenc",
+       "DE": "František Ferenc",
+       "ES": "František Ferenc",
+       "PT": "František Ferenc",
+       "IT": "František Ferenc",
+       "RU": "Франтишек Ференц",
+       "ZH": "Frantisek Ferenc",
+       "AR": "فرانتيشيك فيرينك"
+      },
+      "shortName": {
+       "EN": "Ferenc",
+       "FR": "Ferenc",
+       "DE": "Ferenc",
+       "ES": "Ferenc",
+       "PT": "Ferenc",
+       "IT": "Ferenc",
+       "RU": "Ференц",
+       "ZH": "Ferenc",
+       "AR": "فيرينك"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250197845.jpg"
@@ -418,6 +746,168 @@
       "RU": "Четвертый рефери",
       "ZH": "Quarto árbitro",
       "AR": "الحكم الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138634.jpg"
+    },
+    "person": {
+     "countryCode": "SVK",
+     "gender": "MALE",
+     "id": "250138634",
+     "translations": {
+      "countryName": {
+       "EN": "Slovakia",
+       "FR": "Slovaquie",
+       "DE": "Slowakei",
+       "ES": "Eslovaquia",
+       "PT": "Eslováquia",
+       "IT": "Slovacchia",
+       "RU": "Словакия",
+       "ZH": "斯洛伐克",
+       "AR": "سلوفاكيا"
+      },
+      "firstName": {
+       "EN": "Bálint",
+       "FR": "Bálint",
+       "DE": "Bálint",
+       "ES": "Bálint",
+       "PT": "Bálint",
+       "IT": "Bálint",
+       "RU": "Балинт",
+       "ZH": "Bálint",
+       "AR": "بالينت "
+      },
+      "lastName": {
+       "EN": "Kišš",
+       "FR": "Kišš",
+       "DE": "Kišš",
+       "ES": "Kišš",
+       "PT": "Kišš",
+       "IT": "Kišš",
+       "RU": "Кишш",
+       "ZH": "Kišš",
+       "AR": "كيش"
+      },
+      "name": {
+       "EN": "Bálint Kišš",
+       "FR": "Bálint Kišš",
+       "DE": "Bálint Kišš",
+       "ES": "Bálint Kišš",
+       "PT": "Bálint Kišš",
+       "IT": "Bálint Kišš",
+       "RU": "Балинт Кишш",
+       "ZH": "Bálint Kišš",
+       "AR": "بالينت كيش"
+      },
+      "shortName": {
+       "EN": "Kišš",
+       "FR": "Kišš",
+       "DE": "Kišš",
+       "ES": "Kišš",
+       "PT": "Kišš",
+       "IT": "Kišš",
+       "RU": "Кишш",
+       "ZH": "Kišš",
+       "AR": "كيش"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/272576.jpg"
+    },
+    "person": {
+     "countryCode": "SVN",
+     "gender": "MALE",
+     "id": "272576",
+     "translations": {
+      "countryName": {
+       "EN": "Slovenia",
+       "FR": "Slovénie",
+       "DE": "Slowenien",
+       "ES": "Eslovenia",
+       "PT": "Eslovénia",
+       "IT": "Slovenia",
+       "RU": "Словения",
+       "ZH": "斯洛文尼亚",
+       "AR": "سلوفينيا"
+      },
+      "firstName": {
+       "EN": "Darko",
+       "FR": "Darko",
+       "DE": "Darko",
+       "ES": "Darko",
+       "PT": "Darko",
+       "IT": "Darko",
+       "RU": "Darko",
+       "ZH": "Darko",
+       "AR": "داركو "
+      },
+      "lastName": {
+       "EN": "Čeferin",
+       "FR": "Čeferin",
+       "DE": "Čeferin",
+       "ES": "Čeferin",
+       "PT": "Čeferin",
+       "IT": "Čeferin",
+       "RU": "Ceferin",
+       "ZH": "Ceferin",
+       "AR": "تشيفرين"
+      },
+      "name": {
+       "EN": "Darko Čeferin",
+       "FR": "Darko Čeferin",
+       "DE": "Darko Čeferin",
+       "ES": "Darko Čeferin",
+       "PT": "Darko Čeferin",
+       "IT": "Darko Čeferin",
+       "RU": "Дарко Чеферин",
+       "ZH": "达科·赛菲林",
+       "AR": "داركو تشيفرين"
+      },
+      "shortName": {
+       "EN": "Čeferin",
+       "FR": "Čeferin",
+       "DE": "Čeferin",
+       "ES": "Čeferin",
+       "PT": "Čeferin",
+       "IT": "Čeferin",
+       "RU": "Чеферин",
+       "ZH": "赛菲林",
+       "AR": "تشيفرين"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
@@ -568,87 +1058,6 @@
       }
      }
     },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/272576.jpg"
-    },
-    "person": {
-     "countryCode": "SVN",
-     "gender": "MALE",
-     "id": "272576",
-     "translations": {
-      "countryName": {
-       "EN": "Slovenia",
-       "FR": "Slovénie",
-       "DE": "Slowenien",
-       "ES": "Eslovenia",
-       "PT": "Eslovénia",
-       "IT": "Slovenia",
-       "RU": "Словения",
-       "ZH": "斯洛文尼亚",
-       "AR": "سلوفينيا"
-      },
-      "firstName": {
-       "EN": "Darko",
-       "FR": "Darko",
-       "DE": "Darko",
-       "ES": "Darko",
-       "PT": "Darko",
-       "IT": "Darko",
-       "RU": "Darko",
-       "ZH": "Darko",
-       "AR": "داركو "
-      },
-      "lastName": {
-       "EN": "Čeferin",
-       "FR": "Čeferin",
-       "DE": "Čeferin",
-       "ES": "Čeferin",
-       "PT": "Čeferin",
-       "IT": "Čeferin",
-       "RU": "Ceferin",
-       "ZH": "Ceferin",
-       "AR": "تشيفرين"
-      },
-      "name": {
-       "EN": "Darko Čeferin",
-       "FR": "Darko Čeferin",
-       "DE": "Darko Čeferin",
-       "ES": "Darko Čeferin",
-       "PT": "Darko Čeferin",
-       "IT": "Darko Čeferin",
-       "RU": "Дарко Чеферин",
-       "ZH": "达科·赛菲林",
-       "AR": "داركو تشيفرين"
-      },
-      "shortName": {
-       "EN": "Čeferin",
-       "FR": "Čeferin",
-       "DE": "Čeferin",
-       "ES": "Čeferin",
-       "PT": "Čeferin",
-       "IT": "Čeferin",
-       "RU": "Чеферин",
-       "ZH": "赛菲林",
-       "AR": "تشيفرين"
-      }
-     }
-    },
     "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
@@ -661,168 +1070,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250075518.jpg"
-    },
-    "person": {
-     "countryCode": "SVK",
-     "gender": "MALE",
-     "id": "250075518",
-     "translations": {
-      "countryName": {
-       "EN": "Slovakia",
-       "FR": "Slovaquie",
-       "DE": "Slowakei",
-       "ES": "Eslovaquia",
-       "PT": "Eslováquia",
-       "IT": "Slovacchia",
-       "RU": "Словакия",
-       "ZH": "斯洛伐克",
-       "AR": "سلوفاكيا"
-      },
-      "firstName": {
-       "EN": "Frantisek",
-       "FR": "Frantisek",
-       "DE": "Frantisek",
-       "ES": "Frantisek",
-       "PT": "Frantisek",
-       "IT": "Frantisek",
-       "RU": "Frantisek",
-       "ZH": "Frantisek",
-       "AR": "فرانتيشيك "
-      },
-      "lastName": {
-       "EN": "Ferenc",
-       "FR": "Ferenc",
-       "DE": "Ferenc",
-       "ES": "Ferenc",
-       "PT": "Ferenc",
-       "IT": "Ferenc",
-       "RU": "Ferenc",
-       "ZH": "Ferenc",
-       "AR": "فيرينك"
-      },
-      "name": {
-       "EN": "František Ferenc",
-       "FR": "František Ferenc",
-       "DE": "František Ferenc",
-       "ES": "František Ferenc",
-       "PT": "František Ferenc",
-       "IT": "František Ferenc",
-       "RU": "Франтишек Ференц",
-       "ZH": "Frantisek Ferenc",
-       "AR": "فرانتيشيك فيرينك"
-      },
-      "shortName": {
-       "EN": "Ferenc",
-       "FR": "Ferenc",
-       "DE": "Ferenc",
-       "ES": "Ferenc",
-       "PT": "Ferenc",
-       "IT": "Ferenc",
-       "RU": "Ференц",
-       "ZH": "Ferenc",
-       "AR": "فيرينك"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138634.jpg"
-    },
-    "person": {
-     "countryCode": "SVK",
-     "gender": "MALE",
-     "id": "250138634",
-     "translations": {
-      "countryName": {
-       "EN": "Slovakia",
-       "FR": "Slovaquie",
-       "DE": "Slowakei",
-       "ES": "Eslovaquia",
-       "PT": "Eslováquia",
-       "IT": "Slovacchia",
-       "RU": "Словакия",
-       "ZH": "斯洛伐克",
-       "AR": "سلوفاكيا"
-      },
-      "firstName": {
-       "EN": "Bálint",
-       "FR": "Bálint",
-       "DE": "Bálint",
-       "ES": "Bálint",
-       "PT": "Bálint",
-       "IT": "Bálint",
-       "RU": "Балинт",
-       "ZH": "Bálint",
-       "AR": "بالينت "
-      },
-      "lastName": {
-       "EN": "Kišš",
-       "FR": "Kišš",
-       "DE": "Kišš",
-       "ES": "Kišš",
-       "PT": "Kišš",
-       "IT": "Kišš",
-       "RU": "Кишш",
-       "ZH": "Kišš",
-       "AR": "كيش"
-      },
-      "name": {
-       "EN": "Bálint Kišš",
-       "FR": "Bálint Kišš",
-       "DE": "Bálint Kišš",
-       "ES": "Bálint Kišš",
-       "PT": "Bálint Kišš",
-       "IT": "Bálint Kišš",
-       "RU": "Балинт Кишш",
-       "ZH": "Bálint Kišš",
-       "AR": "بالينت كيش"
-      },
-      "shortName": {
-       "EN": "Kišš",
-       "FR": "Kišš",
-       "DE": "Kišš",
-       "ES": "Kišš",
-       "PT": "Kišš",
-       "IT": "Kišš",
-       "RU": "Кишш",
-       "ZH": "Kišš",
-       "AR": "كيش"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
      }
     }
    }
@@ -947,6 +1194,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 2,
+    "home": 0
+   },
+   "total": {
+    "away": 2,
+    "home": 0
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 4,
   "stadium": {
@@ -1042,7 +1299,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Second half",
+    "FR": "Deuxième période",
+    "DE": "Zweite Halbzeit",
+    "ES": "Segunda parte",
+    "PT": "Segunda parte",
+    "IT": "Secondo tempo",
+    "RU": "Второй тайм",
+    "ZH": "下半场",
+    "AR": "الشوط الثاني"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1185,6 +1455,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 13,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013686",
@@ -1346,7 +1645,7 @@
    "dateTime": "2026-11-11T09:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-23T06:00:00+0000",
@@ -1385,88 +1684,121 @@
    },
    "type": "MATCHDAY"
   },
-  "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
-    },
-    "person": {
-     "countryCode": "AZE",
-     "gender": "MALE",
-     "id": "282674",
-     "translations": {
-      "countryName": {
-       "EN": "Azerbaijan",
-       "FR": "Azerbaïdjan",
-       "DE": "Aserbaidschan",
-       "ES": "Azerbaiyán",
-       "PT": "Azerbaijão",
-       "IT": "Azerbaigian",
-       "RU": "Азербайджан",
-       "ZH": "阿赛拜疆",
-       "AR": "أذربيجان"
-      },
-      "firstName": {
-       "EN": "Babak",
-       "FR": "Babak",
-       "DE": "Babak",
-       "ES": "Babak",
-       "PT": "Babak",
-       "IT": "Babak",
-       "RU": "Babak",
-       "ZH": "Babak",
-       "AR": "Babak"
-      },
-      "lastName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "GULIYEV",
-       "ZH": "GULIYEV",
-       "AR": "Guliyev"
-      },
-      "name": {
-       "EN": "Babak Guliyev",
-       "FR": "Babak Guliyev",
-       "DE": "Babak Guliyev",
-       "ES": "Babak Guliyev",
-       "PT": "Babak Guliyev",
-       "IT": "Babak Guliyev",
-       "RU": "Бабак Гулиев",
-       "ZH": "巴巴克-古立耶夫",
-       "AR": "Babak Guliyev"
-      },
-      "shortName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "Гулиев",
-       "ZH": "古立耶夫",
-       "AR": "Guliyev"
+  "minute": {
+   "normal": 19
+  },
+  "phase": "FIRST_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "d03f60f1-bdb1-434f-a19a-4eae3cba2f10",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-01-11",
+      "clubShirtName": "Horváth",
+      "countryCode": "HUN",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228485",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228485.jpg",
+      "internationalName": "Áron Horváth",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "Horváth",
+      "nationalTeamId": "400057",
+      "translations": {
+       "countryName": {
+        "EN": "Hungary",
+        "FR": "Hongrie",
+        "DE": "Ungarn",
+        "ES": "Hungría",
+        "PT": "Hungria",
+        "IT": "Ungheria",
+        "RU": "Венгрия",
+        "ZH": "匈牙利",
+        "AR": "المجر"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Áron",
+        "FR": "Áron",
+        "DE": "Áron",
+        "ES": "Áron",
+        "PT": "Áron",
+        "IT": "Áron",
+        "RU": "Áron",
+        "ZH": "Áron",
+        "AR": "Áron"
+       },
+       "lastName": {
+        "EN": "Horváth",
+        "FR": "Horváth",
+        "DE": "Horváth",
+        "ES": "Horváth",
+        "PT": "Horváth",
+        "IT": "Horváth",
+        "RU": "Horváth",
+        "ZH": "Horváth",
+        "AR": "Horváth"
+       },
+       "name": {
+        "EN": "Áron Horváth",
+        "FR": "Áron Horváth",
+        "DE": "Áron Horváth",
+        "ES": "Áron Horváth",
+        "PT": "Áron Horváth",
+        "IT": "Áron Horváth",
+        "RU": "Áron Horváth",
+        "ZH": "Áron Horváth",
+        "AR": "Áron Horváth"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Horváth",
+        "FR": "Horváth",
+        "DE": "Horváth",
+        "ES": "Horváth",
+        "PT": "Horváth",
+        "IT": "Horváth",
+        "RU": "Horváth",
+        "ZH": "Horváth",
+        "AR": "Horváth"
+       }
       }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+     },
+     "teamId": "400057",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 8,
+      "second": 58
      }
     }
-   },
+   ]
+  },
+  "referees": [
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250228014.jpg"
@@ -1545,168 +1877,6 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215233.jpg"
-    },
-    "person": {
-     "countryCode": "SCO",
-     "gender": "MALE",
-     "id": "250215233",
-     "translations": {
-      "countryName": {
-       "EN": "Scotland",
-       "FR": "Écosse",
-       "DE": "Schottland",
-       "ES": "Escocia",
-       "PT": "Escócia",
-       "IT": "Scozia",
-       "RU": "Шотландия",
-       "ZH": "苏格兰",
-       "AR": "اسكتلندا"
-      },
-      "firstName": {
-       "EN": "Christopher",
-       "FR": "Christopher",
-       "DE": "Christopher",
-       "ES": "Christopher",
-       "PT": "Christopher",
-       "IT": "Christopher",
-       "RU": "Кристофер",
-       "ZH": "Christopher",
-       "AR": "Christopher"
-      },
-      "lastName": {
-       "EN": "Gentles",
-       "FR": "Gentles",
-       "DE": "Gentles",
-       "ES": "Gentles",
-       "PT": "Gentles",
-       "IT": "Gentles",
-       "RU": "Джентлз",
-       "ZH": "Gentles",
-       "AR": "Gentles"
-      },
-      "name": {
-       "EN": "Christopher Gentles",
-       "FR": "Christopher Gentles",
-       "DE": "Christopher Gentles",
-       "ES": "Christopher Gentles",
-       "PT": "Christopher Gentles",
-       "IT": "Christopher Gentles",
-       "RU": "Кристофер Джентлз",
-       "ZH": "Christopher Gentles",
-       "AR": "Christopher Gentles"
-      },
-      "shortName": {
-       "EN": "Gentles",
-       "FR": "Gentles",
-       "DE": "Gentles",
-       "ES": "Gentles",
-       "PT": "Gentles",
-       "IT": "Gentles",
-       "RU": "Джентлз",
-       "ZH": "Gentles",
-       "AR": "Gentles"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138927.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "MALE",
-     "id": "250138927",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Furkan",
-       "FR": "Furkan",
-       "DE": "Furkan",
-       "ES": "Furkan",
-       "PT": "Furkan",
-       "IT": "Furkan",
-       "RU": "Фуркан",
-       "ZH": "Furkan",
-       "AR": "فوركان "
-      },
-      "lastName": {
-       "EN": "Ürün",
-       "FR": "Ürün",
-       "DE": "Ürün",
-       "ES": "Ürün",
-       "PT": "Ürün",
-       "IT": "Ürün",
-       "RU": "Юрюн",
-       "ZH": "Ürün",
-       "AR": "أورون"
-      },
-      "name": {
-       "EN": "Furkan Ürün",
-       "FR": "Furkan Ürün",
-       "DE": "Furkan Ürün",
-       "ES": "Furkan Ürün",
-       "PT": "Furkan Ürün",
-       "IT": "Furkan Ürün",
-       "RU": "Фуркан Юрюн",
-       "ZH": "Furkan Ürün",
-       "AR": "فوركان أورون"
-      },
-      "shortName": {
-       "EN": "Ürün",
-       "FR": "Ürün",
-       "DE": "Ürün",
-       "ES": "Ürün",
-       "PT": "Ürün",
-       "IT": "Ürün",
-       "RU": "Юрюн",
-       "ZH": "Ürün",
-       "AR": "أورون"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -1857,6 +2027,168 @@
       }
      }
     },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138927.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "MALE",
+     "id": "250138927",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Furkan",
+       "FR": "Furkan",
+       "DE": "Furkan",
+       "ES": "Furkan",
+       "PT": "Furkan",
+       "IT": "Furkan",
+       "RU": "Фуркан",
+       "ZH": "Furkan",
+       "AR": "فوركان "
+      },
+      "lastName": {
+       "EN": "Ürün",
+       "FR": "Ürün",
+       "DE": "Ürün",
+       "ES": "Ürün",
+       "PT": "Ürün",
+       "IT": "Ürün",
+       "RU": "Юрюн",
+       "ZH": "Ürün",
+       "AR": "أورون"
+      },
+      "name": {
+       "EN": "Furkan Ürün",
+       "FR": "Furkan Ürün",
+       "DE": "Furkan Ürün",
+       "ES": "Furkan Ürün",
+       "PT": "Furkan Ürün",
+       "IT": "Furkan Ürün",
+       "RU": "Фуркан Юрюн",
+       "ZH": "Furkan Ürün",
+       "AR": "فوركان أورون"
+      },
+      "shortName": {
+       "EN": "Ürün",
+       "FR": "Ürün",
+       "DE": "Ürün",
+       "ES": "Ürün",
+       "PT": "Ürün",
+       "IT": "Ürün",
+       "RU": "Юрюн",
+       "ZH": "Ürün",
+       "AR": "أورون"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
+    },
+    "person": {
+     "countryCode": "AZE",
+     "gender": "MALE",
+     "id": "282674",
+     "translations": {
+      "countryName": {
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
+      },
+      "firstName": {
+       "EN": "Babak",
+       "FR": "Babak",
+       "DE": "Babak",
+       "ES": "Babak",
+       "PT": "Babak",
+       "IT": "Babak",
+       "RU": "Babak",
+       "ZH": "Babak",
+       "AR": "Babak"
+      },
+      "lastName": {
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "GULIYEV",
+       "ZH": "GULIYEV",
+       "AR": "Guliyev"
+      },
+      "name": {
+       "EN": "Babak Guliyev",
+       "FR": "Babak Guliyev",
+       "DE": "Babak Guliyev",
+       "ES": "Babak Guliyev",
+       "PT": "Babak Guliyev",
+       "IT": "Babak Guliyev",
+       "RU": "Бабак Гулиев",
+       "ZH": "巴巴克-古立耶夫",
+       "AR": "Babak Guliyev"
+      },
+      "shortName": {
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "Гулиев",
+       "ZH": "古立耶夫",
+       "AR": "Guliyev"
+      }
+     }
+    },
     "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
@@ -1869,6 +2201,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215233.jpg"
+    },
+    "person": {
+     "countryCode": "SCO",
+     "gender": "MALE",
+     "id": "250215233",
+     "translations": {
+      "countryName": {
+       "EN": "Scotland",
+       "FR": "Écosse",
+       "DE": "Schottland",
+       "ES": "Escocia",
+       "PT": "Escócia",
+       "IT": "Scozia",
+       "RU": "Шотландия",
+       "ZH": "苏格兰",
+       "AR": "اسكتلندا"
+      },
+      "firstName": {
+       "EN": "Christopher",
+       "FR": "Christopher",
+       "DE": "Christopher",
+       "ES": "Christopher",
+       "PT": "Christopher",
+       "IT": "Christopher",
+       "RU": "Кристофер",
+       "ZH": "Christopher",
+       "AR": "Christopher"
+      },
+      "lastName": {
+       "EN": "Gentles",
+       "FR": "Gentles",
+       "DE": "Gentles",
+       "ES": "Gentles",
+       "PT": "Gentles",
+       "IT": "Gentles",
+       "RU": "Джентлз",
+       "ZH": "Gentles",
+       "AR": "Gentles"
+      },
+      "name": {
+       "EN": "Christopher Gentles",
+       "FR": "Christopher Gentles",
+       "DE": "Christopher Gentles",
+       "ES": "Christopher Gentles",
+       "PT": "Christopher Gentles",
+       "IT": "Christopher Gentles",
+       "RU": "Кристофер Джентлз",
+       "ZH": "Christopher Gentles",
+       "AR": "Christopher Gentles"
+      },
+      "shortName": {
+       "EN": "Gentles",
+       "FR": "Gentles",
+       "DE": "Gentles",
+       "ES": "Gentles",
+       "PT": "Gentles",
+       "IT": "Gentles",
+       "RU": "Джентлз",
+       "ZH": "Gentles",
+       "AR": "Gentles"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
      }
     }
    }
@@ -1993,6 +2406,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 1
+   },
+   "total": {
+    "away": 0,
+    "home": 1
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 4,
   "stadium": {
@@ -2088,7 +2511,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "First half",
+    "FR": "Première période",
+    "DE": "Erste Halbzeit",
+    "ES": "Primera parte",
+    "PT": "Primeira parte",
+    "IT": "Primo tempo",
+    "RU": "Первый тайм",
+    "ZH": "上半场",
+    "AR": "الشوط الأول"
+   }
+  },
   "type": "GROUP_STAGE"
  }
 ]
