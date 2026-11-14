@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 7,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013685",
@@ -300,7 +329,7 @@
    "dateTime": "2026-11-14T08:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-26T06:00:00+0000",
@@ -339,7 +368,385 @@
    },
    "type": "MATCHDAY"
   },
+  "phase": "HALF_TIME_BREAK",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "ce8d0d0c-de25-44b8-9f6c-c1382d7281dd",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-02-25",
+      "clubShirtName": "BOUSSERA",
+      "countryCode": "FRA",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228369",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250228369.jpg",
+      "internationalName": "Yanis Boussera",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "20",
+      "nationalShirtName": "BOUSSERA",
+      "nationalTeamId": "400043",
+      "translations": {
+       "countryName": {
+        "EN": "France",
+        "FR": "France",
+        "DE": "Frankreich",
+        "ES": "Francia",
+        "PT": "França",
+        "IT": "Francia",
+        "RU": "Франция",
+        "ZH": "法国",
+        "AR": "فرنسا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Yanis",
+        "FR": "Yanis",
+        "DE": "Yanis",
+        "ES": "Yanis",
+        "PT": "Yanis",
+        "IT": "Yanis",
+        "RU": "Yanis",
+        "ZH": "Yanis",
+        "AR": "Yanis"
+       },
+       "lastName": {
+        "EN": "Boussera",
+        "FR": "Boussera",
+        "DE": "Boussera",
+        "ES": "Boussera",
+        "PT": "Boussera",
+        "IT": "Boussera",
+        "RU": "Boussera",
+        "ZH": "Boussera",
+        "AR": "Boussera"
+       },
+       "name": {
+        "EN": "Yanis Boussera",
+        "FR": "Yanis Boussera",
+        "DE": "Yanis Boussera",
+        "ES": "Yanis Boussera",
+        "PT": "Yanis Boussera",
+        "IT": "Yanis Boussera",
+        "RU": "Yanis Boussera",
+        "ZH": "Yanis Boussera",
+        "AR": "Yanis Boussera"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Boussera",
+        "FR": "Boussera",
+        "DE": "Boussera",
+        "ES": "Boussera",
+        "PT": "Boussera",
+        "IT": "Boussera",
+        "RU": "Boussera",
+        "ZH": "Boussera",
+        "AR": "Boussera"
+       }
+      }
+     },
+     "teamId": "400043",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 3,
+      "second": 9
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "7062b79d-655b-49ed-9dee-147ac4047b2b",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "16",
+      "birthDate": "2010-05-07",
+      "clubId": "2605456",
+      "clubShirtName": "Gervelain",
+      "countryCode": "FRA",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250224297",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/23/2027/324x324/250224297.jpg",
+      "internationalName": "Jordan Gervelain",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "3",
+      "nationalShirtName": "Gervelain",
+      "nationalTeamId": "400043",
+      "translations": {
+       "countryName": {
+        "EN": "France",
+        "FR": "France",
+        "DE": "Frankreich",
+        "ES": "Francia",
+        "PT": "França",
+        "IT": "Francia",
+        "RU": "Франция",
+        "ZH": "法国",
+        "AR": "فرنسا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Jordan",
+        "FR": "Jordan",
+        "DE": "Jordan",
+        "ES": "Jordan",
+        "PT": "Jordan",
+        "IT": "Jordan",
+        "RU": "Jordan",
+        "ZH": "Jordan",
+        "AR": "Jordan"
+       },
+       "lastName": {
+        "EN": "Gervelain",
+        "FR": "Gervelain",
+        "DE": "Gervelain",
+        "ES": "Gervelain",
+        "PT": "Gervelain",
+        "IT": "Gervelain",
+        "RU": "Gervelain",
+        "ZH": "Gervelain",
+        "AR": "Gervelain"
+       },
+       "name": {
+        "EN": "Jordan Gervelain",
+        "FR": "Jordan Gervelain",
+        "DE": "Jordan Gervelain",
+        "ES": "Jordan Gervelain",
+        "PT": "Jordan Gervelain",
+        "IT": "Jordan Gervelain",
+        "RU": "Jordan Gervelain",
+        "ZH": "Jordan Gervelain",
+        "AR": "Jordan Gervelain"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Gervelain",
+        "FR": "Gervelain",
+        "DE": "Gervelain",
+        "ES": "Gervelain",
+        "PT": "Gervelain",
+        "IT": "Gervelain",
+        "RU": "Gervelain",
+        "ZH": "Gervelain",
+        "AR": "Gervelain"
+       }
+      }
+     },
+     "teamId": "400043",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 32,
+      "second": 21
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250022344.jpg"
+    },
+    "person": {
+     "countryCode": "MKD",
+     "gender": "MALE",
+     "id": "250022344",
+     "translations": {
+      "countryName": {
+       "EN": "North Macedonia",
+       "FR": "Macédoine du Nord",
+       "DE": "Nordmazedonien",
+       "ES": "Macedonia del Norte",
+       "PT": "Macedónia do Norte",
+       "IT": "Macedonia del Nord",
+       "RU": "Северная Македония",
+       "ZH": "前南斯拉夫马其顿共和国",
+       "AR": "مقدونيا الشمالية"
+      },
+      "firstName": {
+       "EN": "Dejan",
+       "FR": "Dejan",
+       "DE": "Dejan",
+       "ES": "Dejan",
+       "PT": "Dejan",
+       "IT": "Dejan",
+       "RU": "Dejan",
+       "ZH": "Dejan",
+       "AR": "ديجان "
+      },
+      "lastName": {
+       "EN": "Jakimovski",
+       "FR": "Jakimovski",
+       "DE": "Jakimovski",
+       "ES": "Jakimovski",
+       "PT": "Jakimovski",
+       "IT": "Jakimovski",
+       "RU": "Jakimovksi",
+       "ZH": "Jakimovksi",
+       "AR": "ياكيموفسكي"
+      },
+      "name": {
+       "EN": "Dejan Jakimovksi",
+       "FR": "Dejan Jakimovksi",
+       "DE": "Dejan Jakimovksi",
+       "ES": "Dejan Jakimovksi",
+       "PT": "Dejan Jakimovksi",
+       "IT": "Dejan Jakimovksi",
+       "RU": "Деян Якимовски",
+       "ZH": "Dejan Jakimovksi",
+       "AR": "ديجان ياكيموفسكي"
+      },
+      "shortName": {
+       "EN": "Jakimovksi",
+       "FR": "Jakimovksi",
+       "DE": "Jakimovksi",
+       "ES": "Jakimovksi",
+       "PT": "Jakimovksi",
+       "IT": "Jakimovksi",
+       "RU": "Якимовски",
+       "ZH": "Jakimovksi",
+       "AR": "ياكيموفسكي"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250197845.jpg"
+    },
+    "person": {
+     "countryCode": "ARM",
+     "gender": "MALE",
+     "id": "250197845",
+     "translations": {
+      "countryName": {
+       "EN": "Armenia",
+       "FR": "Arménie",
+       "DE": "Armenien",
+       "ES": "Armenia",
+       "PT": "Arménia",
+       "IT": "Armenia",
+       "RU": "Армения",
+       "ZH": "亚美尼亚",
+       "AR": "أرمينيا"
+      },
+      "firstName": {
+       "EN": "Vardan",
+       "FR": "Vardan",
+       "DE": "Vardan",
+       "ES": "Vardan",
+       "PT": "Vardan",
+       "IT": "Vardan",
+       "RU": "Вардан",
+       "ZH": "Vardan",
+       "AR": "Vardan"
+      },
+      "lastName": {
+       "EN": "Vardumyan",
+       "FR": "Vardumyan",
+       "DE": "Vardumyan",
+       "ES": "Vardumyan",
+       "PT": "Vardumyan",
+       "IT": "Vardumyan",
+       "RU": "Вардумян",
+       "ZH": "Vardumyan",
+       "AR": "Vardumyan"
+      },
+      "name": {
+       "EN": "Vardan Vardumyan",
+       "FR": "Vardan Vardumyan",
+       "DE": "Vardan Vardumyan",
+       "ES": "Vardan Vardumyan",
+       "PT": "Vardan Vardumyan",
+       "IT": "Vardan Vardumyan",
+       "RU": "Вардан Вардумян",
+       "ZH": "Vardan Vardumyan",
+       "AR": "Vardan Vardumyan"
+      },
+      "shortName": {
+       "EN": "Vardumyan",
+       "FR": "Vardumyan",
+       "DE": "Vardumyan",
+       "ES": "Vardumyan",
+       "PT": "Vardumyan",
+       "IT": "Vardumyan",
+       "RU": "Вардумян",
+       "ZH": "Vardumyan",
+       "AR": "Vardumyan"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138634.jpg"
@@ -499,168 +906,6 @@
       "RU": "Ассистент рефери 2",
       "ZH": "Árbitro-assistente 2",
       "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250197845.jpg"
-    },
-    "person": {
-     "countryCode": "ARM",
-     "gender": "MALE",
-     "id": "250197845",
-     "translations": {
-      "countryName": {
-       "EN": "Armenia",
-       "FR": "Arménie",
-       "DE": "Armenien",
-       "ES": "Armenia",
-       "PT": "Arménia",
-       "IT": "Armenia",
-       "RU": "Армения",
-       "ZH": "亚美尼亚",
-       "AR": "أرمينيا"
-      },
-      "firstName": {
-       "EN": "Vardan",
-       "FR": "Vardan",
-       "DE": "Vardan",
-       "ES": "Vardan",
-       "PT": "Vardan",
-       "IT": "Vardan",
-       "RU": "Вардан",
-       "ZH": "Vardan",
-       "AR": "Vardan"
-      },
-      "lastName": {
-       "EN": "Vardumyan",
-       "FR": "Vardumyan",
-       "DE": "Vardumyan",
-       "ES": "Vardumyan",
-       "PT": "Vardumyan",
-       "IT": "Vardumyan",
-       "RU": "Вардумян",
-       "ZH": "Vardumyan",
-       "AR": "Vardumyan"
-      },
-      "name": {
-       "EN": "Vardan Vardumyan",
-       "FR": "Vardan Vardumyan",
-       "DE": "Vardan Vardumyan",
-       "ES": "Vardan Vardumyan",
-       "PT": "Vardan Vardumyan",
-       "IT": "Vardan Vardumyan",
-       "RU": "Вардан Вардумян",
-       "ZH": "Vardan Vardumyan",
-       "AR": "Vardan Vardumyan"
-      },
-      "shortName": {
-       "EN": "Vardumyan",
-       "FR": "Vardumyan",
-       "DE": "Vardumyan",
-       "ES": "Vardumyan",
-       "PT": "Vardumyan",
-       "IT": "Vardumyan",
-       "RU": "Вардумян",
-       "ZH": "Vardumyan",
-       "AR": "Vardumyan"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250022344.jpg"
-    },
-    "person": {
-     "countryCode": "MKD",
-     "gender": "MALE",
-     "id": "250022344",
-     "translations": {
-      "countryName": {
-       "EN": "North Macedonia",
-       "FR": "Macédoine du Nord",
-       "DE": "Nordmazedonien",
-       "ES": "Macedonia del Norte",
-       "PT": "Macedónia do Norte",
-       "IT": "Macedonia del Nord",
-       "RU": "Северная Македония",
-       "ZH": "前南斯拉夫马其顿共和国",
-       "AR": "مقدونيا الشمالية"
-      },
-      "firstName": {
-       "EN": "Dejan",
-       "FR": "Dejan",
-       "DE": "Dejan",
-       "ES": "Dejan",
-       "PT": "Dejan",
-       "IT": "Dejan",
-       "RU": "Dejan",
-       "ZH": "Dejan",
-       "AR": "ديجان "
-      },
-      "lastName": {
-       "EN": "Jakimovski",
-       "FR": "Jakimovski",
-       "DE": "Jakimovski",
-       "ES": "Jakimovski",
-       "PT": "Jakimovski",
-       "IT": "Jakimovski",
-       "RU": "Jakimovksi",
-       "ZH": "Jakimovksi",
-       "AR": "ياكيموفسكي"
-      },
-      "name": {
-       "EN": "Dejan Jakimovksi",
-       "FR": "Dejan Jakimovksi",
-       "DE": "Dejan Jakimovksi",
-       "ES": "Dejan Jakimovksi",
-       "PT": "Dejan Jakimovksi",
-       "IT": "Dejan Jakimovksi",
-       "RU": "Деян Якимовски",
-       "ZH": "Dejan Jakimovksi",
-       "AR": "ديجان ياكيموفسكي"
-      },
-      "shortName": {
-       "EN": "Jakimovksi",
-       "FR": "Jakimovksi",
-       "DE": "Jakimovksi",
-       "ES": "Jakimovksi",
-       "PT": "Jakimovksi",
-       "IT": "Jakimovksi",
-       "RU": "Якимовски",
-       "ZH": "Jakimovksi",
-       "AR": "ياكيموفسكي"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
      }
     }
    },
@@ -946,6 +1191,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 2
+   },
+   "total": {
+    "away": 0,
+    "home": 2
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 4,
   "stadium": {
@@ -1041,7 +1296,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Half-time",
+    "FR": "Mi-temps",
+    "DE": "Halbzeit",
+    "ES": "Descanso",
+    "PT": "Intervalo",
+    "IT": "Intervallo",
+    "RU": "Перерыв",
+    "ZH": "中场",
+    "AR": "استراحة"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1184,6 +1452,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 20,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "23",
    "id": "2013686",
@@ -1345,7 +1642,7 @@
    "dateTime": "2026-11-14T09:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "23",
    "dateFrom": "2026-09-26T06:00:00+0000",
@@ -1387,82 +1684,163 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250228014.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
     },
     "person": {
-     "countryCode": "TUR",
-     "gender": "FEMALE",
-     "id": "250228014",
+     "countryCode": "AZE",
+     "gender": "MALE",
+     "id": "282674",
      "translations": {
       "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
       },
       "firstName": {
-       "EN": "Reşat Onur",
-       "FR": "Reşat Onur",
-       "DE": "Reşat Onur",
-       "ES": "Reşat Onur",
-       "PT": "Reşat Onur",
-       "IT": "Reşat Onur",
-       "RU": "Reşat Onur",
-       "ZH": "Reşat Onur",
-       "AR": "Reşat Onur"
+       "EN": "Babak",
+       "FR": "Babak",
+       "DE": "Babak",
+       "ES": "Babak",
+       "PT": "Babak",
+       "IT": "Babak",
+       "RU": "Babak",
+       "ZH": "Babak",
+       "AR": "Babak"
       },
       "lastName": {
-       "EN": "Coşkunses",
-       "FR": "Coşkunses",
-       "DE": "Coşkunses",
-       "ES": "Coşkunses",
-       "PT": "Coşkunses",
-       "IT": "Coşkunses",
-       "RU": "Coşkunses",
-       "ZH": "Coşkunses",
-       "AR": "Coşkunses"
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "GULIYEV",
+       "ZH": "GULIYEV",
+       "AR": "Guliyev"
       },
       "name": {
-       "EN": "Reşat Onur Coşkunses",
-       "FR": "Reşat Onur Coşkunses",
-       "DE": "Reşat Onur Coşkunses",
-       "ES": "Reşat Onur Coşkunses",
-       "PT": "Reşat Onur Coşkunses",
-       "IT": "Reşat Onur Coşkunses",
-       "RU": "Reşat Onur Coşkunses",
-       "ZH": "Reşat Onur Coşkunses",
-       "AR": "Reşat Onur Coşkunses"
+       "EN": "Babak Guliyev",
+       "FR": "Babak Guliyev",
+       "DE": "Babak Guliyev",
+       "ES": "Babak Guliyev",
+       "PT": "Babak Guliyev",
+       "IT": "Babak Guliyev",
+       "RU": "Бабак Гулиев",
+       "ZH": "巴巴克-古立耶夫",
+       "AR": "Babak Guliyev"
       },
       "shortName": {
-       "EN": "Coşkunses",
-       "FR": "Coşkunses",
-       "DE": "Coşkunses",
-       "ES": "Coşkunses",
-       "PT": "Coşkunses",
-       "IT": "Coşkunses",
-       "RU": "Coşkunses",
-       "ZH": "Coşkunses",
-       "AR": "Coşkunses"
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "Гулиев",
+       "ZH": "古立耶夫",
+       "AR": "Guliyev"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
+    },
+    "person": {
+     "countryCode": "AZE",
+     "gender": "MALE",
+     "id": "282674",
+     "translations": {
+      "countryName": {
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
+      },
+      "firstName": {
+       "EN": "Babak",
+       "FR": "Babak",
+       "DE": "Babak",
+       "ES": "Babak",
+       "PT": "Babak",
+       "IT": "Babak",
+       "RU": "Babak",
+       "ZH": "Babak",
+       "AR": "Babak"
+      },
+      "lastName": {
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "GULIYEV",
+       "ZH": "GULIYEV",
+       "AR": "Guliyev"
+      },
+      "name": {
+       "EN": "Babak Guliyev",
+       "FR": "Babak Guliyev",
+       "DE": "Babak Guliyev",
+       "ES": "Babak Guliyev",
+       "PT": "Babak Guliyev",
+       "IT": "Babak Guliyev",
+       "RU": "Бабак Гулиев",
+       "ZH": "巴巴克-古立耶夫",
+       "AR": "Babak Guliyev"
+      },
+      "shortName": {
+       "EN": "Guliyev",
+       "FR": "Guliyev",
+       "DE": "Guliyev",
+       "ES": "Guliyev",
+       "PT": "Guliyev",
+       "IT": "Guliyev",
+       "RU": "Гулиев",
+       "ZH": "古立耶夫",
+       "AR": "Guliyev"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
      }
     }
    },
@@ -1549,163 +1927,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250061870.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250228014.jpg"
     },
     "person": {
-     "countryCode": "BLR",
-     "gender": "MALE",
-     "id": "250061870",
+     "countryCode": "TUR",
+     "gender": "FEMALE",
+     "id": "250228014",
      "translations": {
       "countryName": {
-       "EN": "Belarus",
-       "FR": "Bélarus",
-       "DE": "Belarus",
-       "ES": "Bielorrusia",
-       "PT": "Bielorrússia",
-       "IT": "Bielorussia",
-       "RU": "Беларусь",
-       "ZH": "白俄罗斯",
-       "AR": "بيلاروسيا"
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
       },
       "firstName": {
-       "EN": "Ihar",
-       "FR": "Ihar",
-       "DE": "Ihar",
-       "ES": "Ihar",
-       "PT": "Ihar",
-       "IT": "Ihar",
-       "RU": "Игорь",
-       "ZH": "Ihar",
-       "AR": "إيهار "
+       "EN": "Reşat Onur",
+       "FR": "Reşat Onur",
+       "DE": "Reşat Onur",
+       "ES": "Reşat Onur",
+       "PT": "Reşat Onur",
+       "IT": "Reşat Onur",
+       "RU": "Reşat Onur",
+       "ZH": "Reşat Onur",
+       "AR": "Reşat Onur"
       },
       "lastName": {
-       "EN": "Shumilau",
-       "FR": "Shumilau",
-       "DE": "Shumilau",
-       "ES": "Shumilau",
-       "PT": "Shumilau",
-       "IT": "Shumilau",
-       "RU": "Шумилов",
-       "ZH": "Shumilau",
-       "AR": "شوميلاو"
+       "EN": "Coşkunses",
+       "FR": "Coşkunses",
+       "DE": "Coşkunses",
+       "ES": "Coşkunses",
+       "PT": "Coşkunses",
+       "IT": "Coşkunses",
+       "RU": "Coşkunses",
+       "ZH": "Coşkunses",
+       "AR": "Coşkunses"
       },
       "name": {
-       "EN": "Ihar Shumilau",
-       "FR": "Ihar Shumilau",
-       "DE": "Ihar Shumilau",
-       "ES": "Ihar Shumilau",
-       "PT": "Ihar Shumilau",
-       "IT": "Ihar Shumilau",
-       "RU": "Игорь Шумилов",
-       "ZH": "Ihar Shumilau",
-       "AR": "إيهار شوميلاو"
+       "EN": "Reşat Onur Coşkunses",
+       "FR": "Reşat Onur Coşkunses",
+       "DE": "Reşat Onur Coşkunses",
+       "ES": "Reşat Onur Coşkunses",
+       "PT": "Reşat Onur Coşkunses",
+       "IT": "Reşat Onur Coşkunses",
+       "RU": "Reşat Onur Coşkunses",
+       "ZH": "Reşat Onur Coşkunses",
+       "AR": "Reşat Onur Coşkunses"
       },
       "shortName": {
-       "EN": "Shumilau",
-       "FR": "Shumilau",
-       "DE": "Shumilau",
-       "ES": "Shumilau",
-       "PT": "Shumilau",
-       "IT": "Shumilau",
-       "RU": "Шумилов",
-       "ZH": "Shumilau",
-       "AR": "شوميلاو"
+       "EN": "Coşkunses",
+       "FR": "Coşkunses",
+       "DE": "Coşkunses",
+       "ES": "Coşkunses",
+       "PT": "Coşkunses",
+       "IT": "Coşkunses",
+       "RU": "Coşkunses",
+       "ZH": "Coşkunses",
+       "AR": "Coşkunses"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
-    },
-    "person": {
-     "countryCode": "AZE",
-     "gender": "MALE",
-     "id": "282674",
-     "translations": {
-      "countryName": {
-       "EN": "Azerbaijan",
-       "FR": "Azerbaïdjan",
-       "DE": "Aserbaidschan",
-       "ES": "Azerbaiyán",
-       "PT": "Azerbaijão",
-       "IT": "Azerbaigian",
-       "RU": "Азербайджан",
-       "ZH": "阿赛拜疆",
-       "AR": "أذربيجان"
-      },
-      "firstName": {
-       "EN": "Babak",
-       "FR": "Babak",
-       "DE": "Babak",
-       "ES": "Babak",
-       "PT": "Babak",
-       "IT": "Babak",
-       "RU": "Babak",
-       "ZH": "Babak",
-       "AR": "Babak"
-      },
-      "lastName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "GULIYEV",
-       "ZH": "GULIYEV",
-       "AR": "Guliyev"
-      },
-      "name": {
-       "EN": "Babak Guliyev",
-       "FR": "Babak Guliyev",
-       "DE": "Babak Guliyev",
-       "ES": "Babak Guliyev",
-       "PT": "Babak Guliyev",
-       "IT": "Babak Guliyev",
-       "RU": "Бабак Гулиев",
-       "ZH": "巴巴克-古立耶夫",
-       "AR": "Babak Guliyev"
-      },
-      "shortName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "Гулиев",
-       "ZH": "古立耶夫",
-       "AR": "Guliyev"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
      }
     }
    },
@@ -1792,82 +2089,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/282674.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250061870.jpg"
     },
     "person": {
-     "countryCode": "AZE",
+     "countryCode": "BLR",
      "gender": "MALE",
-     "id": "282674",
+     "id": "250061870",
      "translations": {
       "countryName": {
-       "EN": "Azerbaijan",
-       "FR": "Azerbaïdjan",
-       "DE": "Aserbaidschan",
-       "ES": "Azerbaiyán",
-       "PT": "Azerbaijão",
-       "IT": "Azerbaigian",
-       "RU": "Азербайджан",
-       "ZH": "阿赛拜疆",
-       "AR": "أذربيجان"
+       "EN": "Belarus",
+       "FR": "Bélarus",
+       "DE": "Belarus",
+       "ES": "Bielorrusia",
+       "PT": "Bielorrússia",
+       "IT": "Bielorussia",
+       "RU": "Беларусь",
+       "ZH": "白俄罗斯",
+       "AR": "بيلاروسيا"
       },
       "firstName": {
-       "EN": "Babak",
-       "FR": "Babak",
-       "DE": "Babak",
-       "ES": "Babak",
-       "PT": "Babak",
-       "IT": "Babak",
-       "RU": "Babak",
-       "ZH": "Babak",
-       "AR": "Babak"
+       "EN": "Ihar",
+       "FR": "Ihar",
+       "DE": "Ihar",
+       "ES": "Ihar",
+       "PT": "Ihar",
+       "IT": "Ihar",
+       "RU": "Игорь",
+       "ZH": "Ihar",
+       "AR": "إيهار "
       },
       "lastName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "GULIYEV",
-       "ZH": "GULIYEV",
-       "AR": "Guliyev"
+       "EN": "Shumilau",
+       "FR": "Shumilau",
+       "DE": "Shumilau",
+       "ES": "Shumilau",
+       "PT": "Shumilau",
+       "IT": "Shumilau",
+       "RU": "Шумилов",
+       "ZH": "Shumilau",
+       "AR": "شوميلاو"
       },
       "name": {
-       "EN": "Babak Guliyev",
-       "FR": "Babak Guliyev",
-       "DE": "Babak Guliyev",
-       "ES": "Babak Guliyev",
-       "PT": "Babak Guliyev",
-       "IT": "Babak Guliyev",
-       "RU": "Бабак Гулиев",
-       "ZH": "巴巴克-古立耶夫",
-       "AR": "Babak Guliyev"
+       "EN": "Ihar Shumilau",
+       "FR": "Ihar Shumilau",
+       "DE": "Ihar Shumilau",
+       "ES": "Ihar Shumilau",
+       "PT": "Ihar Shumilau",
+       "IT": "Ihar Shumilau",
+       "RU": "Игорь Шумилов",
+       "ZH": "Ihar Shumilau",
+       "AR": "إيهار شوميلاو"
       },
       "shortName": {
-       "EN": "Guliyev",
-       "FR": "Guliyev",
-       "DE": "Guliyev",
-       "ES": "Guliyev",
-       "PT": "Guliyev",
-       "IT": "Guliyev",
-       "RU": "Гулиев",
-       "ZH": "古立耶夫",
-       "AR": "Guliyev"
+       "EN": "Shumilau",
+       "FR": "Shumilau",
+       "DE": "Shumilau",
+       "ES": "Shumilau",
+       "PT": "Shumilau",
+       "IT": "Shumilau",
+       "RU": "Шумилов",
+       "ZH": "Shumilau",
+       "AR": "شوميلاو"
       }
      }
     },
-    "role": "REFEREE_OBSERVER",
+    "role": "REFEREE",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
      }
     }
    }
