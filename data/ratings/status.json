@@ -1,5 +1,5 @@
 {
- "taken_at": "2026-11-16T18:28:32+09:00",
+ "taken_at": "2026-11-17T07:50:40+09:00",
  "sources": {
   "eloratings": {
    "ok": true,
@@ -8,18 +8,18 @@
   },
   "tennisabstract_atp": {
    "ok": true,
-   "n": 549,
+   "n": 553,
    "error": null
   },
   "tennisabstract_wta": {
    "ok": true,
-   "n": 505,
+   "n": 504,
    "error": null
   },
   "hltv": {
-   "ok": true,
-   "n": 252,
-   "error": null
+   "ok": false,
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "kept_previous": true
   },
   "vrs": {
    "ok": true,
