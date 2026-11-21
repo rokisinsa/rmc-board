@@ -128,6 +128,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 0,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "22",
    "id": "2013494",
@@ -253,7 +282,7 @@
    "dateTime": "2026-11-21T09:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "22",
    "dateFrom": "2026-09-02T06:00:00+0000",
@@ -292,7 +321,726 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 45
+  },
+  "phase": "FIRST_HALF",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "b4eb7e76-bf95-49af-97b9-a0b77e2ae062",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-06-23",
+      "clubId": "92336",
+      "clubJerseyNumber": "21",
+      "clubShirtName": "Wąsiewski",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228408",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250228408.jpg",
+      "internationalName": "Tymoteusz Wąsiewski",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Wąsiewski",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Tymoteusz",
+        "FR": "Tymoteusz",
+        "DE": "Tymoteusz",
+        "ES": "Tymoteusz",
+        "PT": "Tymoteusz",
+        "IT": "Tymoteusz",
+        "RU": "Tymoteusz",
+        "ZH": "Tymoteusz",
+        "AR": "Tymoteusz"
+       },
+       "lastName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       },
+       "name": {
+        "EN": "Tymoteusz Wąsiewski",
+        "FR": "Tymoteusz Wąsiewski",
+        "DE": "Tymoteusz Wąsiewski",
+        "ES": "Tymoteusz Wąsiewski",
+        "PT": "Tymoteusz Wąsiewski",
+        "IT": "Tymoteusz Wąsiewski",
+        "RU": "Tymoteusz Wąsiewski",
+        "ZH": "Tymoteusz Wąsiewski",
+        "AR": "Tymoteusz Wąsiewski"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 2,
+      "second": 52
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "3e08782f-ccad-461c-83fd-1927be492e02",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "29",
+      "birthDate": "1997-08-14",
+      "clubId": "92336",
+      "clubJerseyNumber": "4",
+      "clubShirtName": "Lazarowicz",
+      "countryCode": "POL",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250125631",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250125631.jpg",
+      "internationalName": "Mikołaj Łazarowicz",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "Łazarowicz",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Mikołaj",
+        "FR": "Mikołaj",
+        "DE": "Mikołaj",
+        "ES": "Mikołaj",
+        "PT": "Mikołaj",
+        "IT": "Mikołaj",
+        "RU": "Миколай",
+        "ZH": "Mikołaj",
+        "AR": "Mikołaj"
+       },
+       "lastName": {
+        "EN": "Łazarowicz",
+        "FR": "Łazarowicz",
+        "DE": "Łazarowicz",
+        "ES": "Łazarowicz",
+        "PT": "Łazarowicz",
+        "IT": "Łazarowicz",
+        "RU": "Лазарович",
+        "ZH": "Łazarowicz",
+        "AR": "Łazarowicz"
+       },
+       "name": {
+        "EN": "Mikołaj Łazarowicz",
+        "FR": "Mikołaj Łazarowicz",
+        "DE": "Mikołaj Łazarowicz",
+        "ES": "Mikołaj Łazarowicz",
+        "PT": "Mikołaj Łazarowicz",
+        "IT": "Mikołaj Łazarowicz",
+        "RU": "Миколай Лазарович",
+        "ZH": "Mikołaj Łazarowicz",
+        "AR": "Mikołaj Łazarowicz"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Łazarowicz",
+        "FR": "Łazarowicz",
+        "DE": "Łazarowicz",
+        "ES": "Łazarowicz",
+        "PT": "Łazarowicz",
+        "IT": "Łazarowicz",
+        "RU": "Лазарович",
+        "ZH": "Łazarowicz",
+        "AR": "Łazarowicz"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 5,
+      "second": 38
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "c83b065f-d7d1-4b98-8b2d-08e423614c8c",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "28",
+      "birthDate": "1998-08-25",
+      "clubId": "92336",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "Puchala",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250130698",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250130698.jpg",
+      "internationalName": "Adrian Puchala",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Puchala",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Adrian",
+        "FR": "Adrian",
+        "DE": "Adrian",
+        "ES": "Adrian",
+        "PT": "Adrian",
+        "IT": "Adrian",
+        "RU": "Адриан",
+        "ZH": "Adrian",
+        "AR": "Adrian"
+       },
+       "lastName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       },
+       "name": {
+        "EN": "Adrian Puchala",
+        "FR": "Adrian Puchala",
+        "DE": "Adrian Puchala",
+        "ES": "Adrian Puchala",
+        "PT": "Adrian Puchala",
+        "IT": "Adrian Puchala",
+        "RU": "Адриан Пухала",
+        "ZH": "Adrian Puchala",
+        "AR": "Adrian Puchala"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 8,
+      "second": 36
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "f59e89e6-753f-4cef-bf0f-701c6bd06f38",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "29",
+      "birthDate": "1997-11-08",
+      "clubId": "92336",
+      "clubJerseyNumber": "19",
+      "clubShirtName": "Sadowski",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250125632",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250125632.jpg",
+      "internationalName": "Kamil Sadowski",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "Sadowski",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Kamil",
+        "FR": "Kamil",
+        "DE": "Kamil",
+        "ES": "Kamil",
+        "PT": "Kamil",
+        "IT": "Kamil",
+        "RU": "Камиль",
+        "ZH": "Kamil",
+        "AR": "Kamil"
+       },
+       "lastName": {
+        "EN": "Sadowski",
+        "FR": "Sadowski",
+        "DE": "Sadowski",
+        "ES": "Sadowski",
+        "PT": "Sadowski",
+        "IT": "Sadowski",
+        "RU": "Садовски",
+        "ZH": "Sadowski",
+        "AR": "Sadowski"
+       },
+       "name": {
+        "EN": "Kamil Sadowski",
+        "FR": "Kamil Sadowski",
+        "DE": "Kamil Sadowski",
+        "ES": "Kamil Sadowski",
+        "PT": "Kamil Sadowski",
+        "IT": "Kamil Sadowski",
+        "RU": "Камиль Садовски",
+        "ZH": "Kamil Sadowski",
+        "AR": "Kamil Sadowski"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Sadowski",
+        "FR": "Sadowski",
+        "DE": "Sadowski",
+        "ES": "Sadowski",
+        "PT": "Sadowski",
+        "IT": "Sadowski",
+        "RU": "Садовски",
+        "ZH": "Sadowski",
+        "AR": "Sadowski"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 18,
+      "second": 4
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "5e21566e-6569-44bd-b74d-6323ea4785d2",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-06-23",
+      "clubId": "92336",
+      "clubJerseyNumber": "21",
+      "clubShirtName": "Wąsiewski",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228408",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250228408.jpg",
+      "internationalName": "Tymoteusz Wąsiewski",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Wąsiewski",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Tymoteusz",
+        "FR": "Tymoteusz",
+        "DE": "Tymoteusz",
+        "ES": "Tymoteusz",
+        "PT": "Tymoteusz",
+        "IT": "Tymoteusz",
+        "RU": "Tymoteusz",
+        "ZH": "Tymoteusz",
+        "AR": "Tymoteusz"
+       },
+       "lastName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       },
+       "name": {
+        "EN": "Tymoteusz Wąsiewski",
+        "FR": "Tymoteusz Wąsiewski",
+        "DE": "Tymoteusz Wąsiewski",
+        "ES": "Tymoteusz Wąsiewski",
+        "PT": "Tymoteusz Wąsiewski",
+        "IT": "Tymoteusz Wąsiewski",
+        "RU": "Tymoteusz Wąsiewski",
+        "ZH": "Tymoteusz Wąsiewski",
+        "AR": "Tymoteusz Wąsiewski"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 24,
+      "second": 24
+     }
+    },
+    {
+     "goalType": "PENALTY",
+     "id": "64e524fc-c57d-4882-a378-fc69dc4ccee7",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "19",
+      "birthDate": "2007-04-12",
+      "clubId": "92336",
+      "clubJerseyNumber": "13",
+      "clubShirtName": "Madej",
+      "countryCode": "POL",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250228404",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250228404.jpg",
+      "internationalName": "Alan Madej",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "Madej",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Alan",
+        "FR": "Alan",
+        "DE": "Alan",
+        "ES": "Alan",
+        "PT": "Alan",
+        "IT": "Alan",
+        "RU": "Alan",
+        "ZH": "Alan",
+        "AR": "Alan"
+       },
+       "lastName": {
+        "EN": "Madej",
+        "FR": "Madej",
+        "DE": "Madej",
+        "ES": "Madej",
+        "PT": "Madej",
+        "IT": "Madej",
+        "RU": "Madej",
+        "ZH": "Madej",
+        "AR": "Madej"
+       },
+       "name": {
+        "EN": "Alan Madej",
+        "FR": "Alan Madej",
+        "DE": "Alan Madej",
+        "ES": "Alan Madej",
+        "PT": "Alan Madej",
+        "IT": "Alan Madej",
+        "RU": "Alan Madej",
+        "ZH": "Alan Madej",
+        "AR": "Alan Madej"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Madej",
+        "FR": "Madej",
+        "DE": "Madej",
+        "ES": "Madej",
+        "PT": "Madej",
+        "IT": "Madej",
+        "RU": "Madej",
+        "ZH": "Madej",
+        "AR": "Madej"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 32,
+      "second": 25
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250110663.jpg"
+    },
+    "person": {
+     "countryCode": "BUL",
+     "gender": "MALE",
+     "id": "250110663",
+     "translations": {
+      "countryName": {
+       "EN": "Bulgaria",
+       "FR": "Bulgarie",
+       "DE": "Bulgarien",
+       "ES": "Bulgaria",
+       "PT": "Bulgária",
+       "IT": "Bulgaria",
+       "RU": "Болгария",
+       "ZH": "保加利亚",
+       "AR": "بلغاريا"
+      },
+      "firstName": {
+       "EN": "Volen",
+       "FR": "Volen",
+       "DE": "Volen",
+       "ES": "Volen",
+       "PT": "Volen",
+       "IT": "Volen",
+       "RU": "Volen",
+       "ZH": "Volen",
+       "AR": "فولين "
+      },
+      "lastName": {
+       "EN": "Chinkov",
+       "FR": "Chinkov",
+       "DE": "Chinkov",
+       "ES": "Chinkov",
+       "PT": "Chinkov",
+       "IT": "Chinkov",
+       "RU": "Chinkov",
+       "ZH": "Chinkov",
+       "AR": "تشينكوف"
+      },
+      "name": {
+       "EN": "Volen Chinkov",
+       "FR": "Volen Chinkov",
+       "DE": "Volen Chinkov",
+       "ES": "Volen Chinkov",
+       "PT": "Volen Chinkov",
+       "IT": "Volen Chinkov",
+       "RU": "Волен Чинков",
+       "ZH": "Volen Chinkov",
+       "AR": "فولين تشينكوف"
+      },
+      "shortName": {
+       "EN": "Chinkov",
+       "FR": "Chinkov",
+       "DE": "Chinkov",
+       "ES": "Chinkov",
+       "PT": "Chinkov",
+       "IT": "Chinkov",
+       "RU": "Чинков",
+       "ZH": "Chinkov",
+       "AR": "تشينكوف"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214572.jpg"
@@ -371,6 +1119,87 @@
       "RU": "Четвертый рефери",
       "ZH": "Quarto árbitro",
       "AR": "الحكم الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250163911.jpg"
+    },
+    "person": {
+     "countryCode": "TUR",
+     "gender": "MALE",
+     "id": "250163911",
+     "translations": {
+      "countryName": {
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
+      },
+      "firstName": {
+       "EN": "Murat Tugberk",
+       "FR": "Murat Tugberk",
+       "DE": "Murat Tugberk",
+       "ES": "Murat Tugberk",
+       "PT": "Murat Tugberk",
+       "IT": "Murat Tugberk",
+       "RU": "Мурат Тугберк",
+       "ZH": "Murat Tugberk",
+       "AR": "مراد توجبيرك"
+      },
+      "lastName": {
+       "EN": "Curbay",
+       "FR": "Curbay",
+       "DE": "Curbay",
+       "ES": "Curbay",
+       "PT": "Curbay",
+       "IT": "Curbay",
+       "RU": "Джурбай",
+       "ZH": "Curbay",
+       "AR": "كورباي"
+      },
+      "name": {
+       "EN": "Murat Tugberk Curbay",
+       "FR": "Murat Tugberk Curbay",
+       "DE": "Murat Tugberk Curbay",
+       "ES": "Murat Tugberk Curbay",
+       "PT": "Murat Tugberk Curbay",
+       "IT": "Murat Tugberk Curbay",
+       "RU": "Мурат Тугберк Джурбай",
+       "ZH": "Murat Tugberk Curbay",
+       "AR": "مراد توجبيرك كورباي"
+      },
+      "shortName": {
+       "EN": "Curbay",
+       "FR": "Curbay",
+       "DE": "Curbay",
+       "ES": "Curbay",
+       "PT": "Curbay",
+       "IT": "Curbay",
+       "RU": "Джурбай",
+       "ZH": "Curbay",
+       "AR": "كورباي"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -521,18 +1350,18 @@
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
      }
     }
    },
@@ -602,180 +1431,18 @@
       }
      }
     },
-    "role": "REFEREE_OBSERVER",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250110663.jpg"
-    },
-    "person": {
-     "countryCode": "BUL",
-     "gender": "MALE",
-     "id": "250110663",
-     "translations": {
-      "countryName": {
-       "EN": "Bulgaria",
-       "FR": "Bulgarie",
-       "DE": "Bulgarien",
-       "ES": "Bulgaria",
-       "PT": "Bulgária",
-       "IT": "Bulgaria",
-       "RU": "Болгария",
-       "ZH": "保加利亚",
-       "AR": "بلغاريا"
-      },
-      "firstName": {
-       "EN": "Volen",
-       "FR": "Volen",
-       "DE": "Volen",
-       "ES": "Volen",
-       "PT": "Volen",
-       "IT": "Volen",
-       "RU": "Volen",
-       "ZH": "Volen",
-       "AR": "فولين "
-      },
-      "lastName": {
-       "EN": "Chinkov",
-       "FR": "Chinkov",
-       "DE": "Chinkov",
-       "ES": "Chinkov",
-       "PT": "Chinkov",
-       "IT": "Chinkov",
-       "RU": "Chinkov",
-       "ZH": "Chinkov",
-       "AR": "تشينكوف"
-      },
-      "name": {
-       "EN": "Volen Chinkov",
-       "FR": "Volen Chinkov",
-       "DE": "Volen Chinkov",
-       "ES": "Volen Chinkov",
-       "PT": "Volen Chinkov",
-       "IT": "Volen Chinkov",
-       "RU": "Волен Чинков",
-       "ZH": "Volen Chinkov",
-       "AR": "فولين تشينكوف"
-      },
-      "shortName": {
-       "EN": "Chinkov",
-       "FR": "Chinkov",
-       "DE": "Chinkov",
-       "ES": "Chinkov",
-       "PT": "Chinkov",
-       "IT": "Chinkov",
-       "RU": "Чинков",
-       "ZH": "Chinkov",
-       "AR": "تشينكوف"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250163911.jpg"
-    },
-    "person": {
-     "countryCode": "TUR",
-     "gender": "MALE",
-     "id": "250163911",
-     "translations": {
-      "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
-      },
-      "firstName": {
-       "EN": "Murat Tugberk",
-       "FR": "Murat Tugberk",
-       "DE": "Murat Tugberk",
-       "ES": "Murat Tugberk",
-       "PT": "Murat Tugberk",
-       "IT": "Murat Tugberk",
-       "RU": "Мурат Тугберк",
-       "ZH": "Murat Tugberk",
-       "AR": "مراد توجبيرك"
-      },
-      "lastName": {
-       "EN": "Curbay",
-       "FR": "Curbay",
-       "DE": "Curbay",
-       "ES": "Curbay",
-       "PT": "Curbay",
-       "IT": "Curbay",
-       "RU": "Джурбай",
-       "ZH": "Curbay",
-       "AR": "كورباي"
-      },
-      "name": {
-       "EN": "Murat Tugberk Curbay",
-       "FR": "Murat Tugberk Curbay",
-       "DE": "Murat Tugberk Curbay",
-       "ES": "Murat Tugberk Curbay",
-       "PT": "Murat Tugberk Curbay",
-       "IT": "Murat Tugberk Curbay",
-       "RU": "Мурат Тугберк Джурбай",
-       "ZH": "Murat Tugberk Curbay",
-       "AR": "مراد توجبيرك كورباي"
-      },
-      "shortName": {
-       "EN": "Curbay",
-       "FR": "Curbay",
-       "DE": "Curbay",
-       "ES": "Curbay",
-       "PT": "Curbay",
-       "IT": "Curbay",
-       "RU": "Джурбай",
-       "ZH": "Curbay",
-       "AR": "كورباي"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -876,6 +1543,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 6
+   },
+   "total": {
+    "away": 0,
+    "home": 6
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 7,
   "stadium": {
@@ -971,7 +1648,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "First half",
+    "FR": "Première période",
+    "DE": "Erste Halbzeit",
+    "ES": "Primera parte",
+    "PT": "Primeira parte",
+    "IT": "Primo tempo",
+    "RU": "Первый тайм",
+    "ZH": "上半场",
+    "AR": "الشوط الأول"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1274,163 +1964,82 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166128.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250120995.jpg"
     },
     "person": {
-     "countryCode": "NOR",
+     "countryCode": "UKR",
      "gender": "MALE",
-     "id": "250166128",
+     "id": "250120995",
      "translations": {
       "countryName": {
-       "EN": "Norway",
-       "FR": "Norvège",
-       "DE": "Norwegen",
-       "ES": "Noruega",
-       "PT": "Noruega",
-       "IT": "Norvegia",
-       "RU": "Норвегия",
-       "ZH": "挪威",
-       "AR": "النرويج"
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
       },
       "firstName": {
-       "EN": "Ole Andreas",
-       "FR": "Ole Andreas",
-       "DE": "Ole Andreas",
-       "ES": "Ole Andreas",
-       "PT": "Ole Andreas",
-       "IT": "Ole Andreas",
-       "RU": "Уле-Андреас",
-       "ZH": "Ole Andreas",
-       "AR": "أولي أندرياس"
+       "EN": "Dmytro",
+       "FR": "Dmytro",
+       "DE": "Dmytro",
+       "ES": "Dmytro",
+       "PT": "Dmytro",
+       "IT": "Dmytro",
+       "RU": "Dmytro",
+       "ZH": "Dmytro",
+       "AR": "دميترو "
       },
       "lastName": {
-       "EN": "Haukåsen",
-       "FR": "Haukåsen",
-       "DE": "Haukåsen",
-       "ES": "Haukåsen",
-       "PT": "Haukåsen",
-       "IT": "Haukåsen",
-       "RU": "Хаукосен",
-       "ZH": "Haukåsen",
-       "AR": "هاوكاسن"
+       "EN": "Panchyshyn",
+       "FR": "Panchyshyn",
+       "DE": "Panchyshyn",
+       "ES": "Panchyshyn",
+       "PT": "Panchyshyn",
+       "IT": "Panchyshyn",
+       "RU": "Panchyshyn",
+       "ZH": "Panchyshyn",
+       "AR": "بانشيشين"
       },
       "name": {
-       "EN": "Ole Andreas Haukåsen",
-       "FR": "Ole Andreas Haukåsen",
-       "DE": "Ole Andreas Haukåsen",
-       "ES": "Ole Andreas Haukåsen",
-       "PT": "Ole Andreas Haukåsen",
-       "IT": "Ole Andreas Haukåsen",
-       "RU": "Уле-Андреас Хаукосен",
-       "ZH": "Ole Andreas Haukåsen",
-       "AR": "أولي أندرياس هاوكاسن"
+       "EN": "Dmytro Panchyshyn",
+       "FR": "Dmytro Panchyshyn",
+       "DE": "Dmytro Panchyshyn",
+       "ES": "Dmytro Panchyshyn",
+       "PT": "Dmytro Panchyshyn",
+       "IT": "Dmytro Panchyshyn",
+       "RU": "Дмитрий Панчишин",
+       "ZH": "Dmytro Panchyshyn",
+       "AR": "دميترو بانشيشين"
       },
       "shortName": {
-       "EN": "Haukåsen",
-       "FR": "Haukåsen",
-       "DE": "Haukåsen",
-       "ES": "Haukåsen",
-       "PT": "Haukåsen",
-       "IT": "Haukåsen",
-       "RU": "Хаукосен",
-       "ZH": "Haukåsen",
-       "AR": "هاوكاسن"
+       "EN": "Panchyshyn",
+       "FR": "Panchyshyn",
+       "DE": "Panchyshyn",
+       "ES": "Panchyshyn",
+       "PT": "Panchyshyn",
+       "IT": "Panchyshyn",
+       "RU": "Панчишин",
+       "ZH": "Panchyshyn",
+       "AR": "بانشيشين"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "REFEREE",
     "translations": {
      "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250117166.jpg"
-    },
-    "person": {
-     "countryCode": "NOR",
-     "gender": "MALE",
-     "id": "250117166",
-     "translations": {
-      "countryName": {
-       "EN": "Norway",
-       "FR": "Norvège",
-       "DE": "Norwegen",
-       "ES": "Noruega",
-       "PT": "Noruega",
-       "IT": "Norvegia",
-       "RU": "Норвегия",
-       "ZH": "挪威",
-       "AR": "النرويج"
-      },
-      "firstName": {
-       "EN": "Sigurd",
-       "FR": "Sigurd",
-       "DE": "Sigurd",
-       "ES": "Sigurd",
-       "PT": "Sigurd",
-       "IT": "Sigurd",
-       "RU": "Sigurd",
-       "ZH": "Sigurd",
-       "AR": "سيجورد "
-      },
-      "lastName": {
-       "EN": "Kringstad",
-       "FR": "Kringstad",
-       "DE": "Kringstad",
-       "ES": "Kringstad",
-       "PT": "Kringstad",
-       "IT": "Kringstad",
-       "RU": "Kringstad",
-       "ZH": "Kringstad",
-       "AR": "كرينجستاد"
-      },
-      "name": {
-       "EN": "Sigurd Kringstad",
-       "FR": "Sigurd Kringstad",
-       "DE": "Sigurd Kringstad",
-       "ES": "Sigurd Kringstad",
-       "PT": "Sigurd Kringstad",
-       "IT": "Sigurd Kringstad",
-       "RU": "Сигурд Крингстад",
-       "ZH": "Sigurd Kringstad",
-       "AR": "سيجورد كرينجستاد"
-      },
-      "shortName": {
-       "EN": "Kringstad",
-       "FR": "Kringstad",
-       "DE": "Kringstad",
-       "ES": "Kringstad",
-       "PT": "Kringstad",
-       "IT": "Kringstad",
-       "RU": "Крингстад",
-       "ZH": "Kringstad",
-       "AR": "كرينجستاد"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Árbitro",
+      "AR": "الحكم"
      }
     }
    },
@@ -1517,163 +2126,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250076733.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250117166.jpg"
     },
     "person": {
-     "countryCode": "UKR",
+     "countryCode": "NOR",
      "gender": "MALE",
-     "id": "250076733",
+     "id": "250117166",
      "translations": {
       "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
+       "EN": "Norway",
+       "FR": "Norvège",
+       "DE": "Norwegen",
+       "ES": "Noruega",
+       "PT": "Noruega",
+       "IT": "Norvegia",
+       "RU": "Норвегия",
+       "ZH": "挪威",
+       "AR": "النرويج"
       },
       "firstName": {
-       "EN": "Volodymyr",
-       "FR": "Volodymyr",
-       "DE": "Volodymyr",
-       "ES": "Volodymyr",
-       "PT": "Volodymyr",
-       "IT": "Volodymyr",
-       "RU": "Volodymyr",
-       "ZH": "Volodymyr",
-       "AR": "فولوديمير "
+       "EN": "Sigurd",
+       "FR": "Sigurd",
+       "DE": "Sigurd",
+       "ES": "Sigurd",
+       "PT": "Sigurd",
+       "IT": "Sigurd",
+       "RU": "Sigurd",
+       "ZH": "Sigurd",
+       "AR": "سيجورد "
       },
       "lastName": {
-       "EN": "Vysotskyi",
-       "FR": "Vysotskyi",
-       "DE": "Vysotskyi",
-       "ES": "Vysotskyi",
-       "PT": "Vysotskyi",
-       "IT": "Vysotskyi",
-       "RU": "Vysotskyi",
-       "ZH": "Vysotskyi",
-       "AR": "فولوديمير "
+       "EN": "Kringstad",
+       "FR": "Kringstad",
+       "DE": "Kringstad",
+       "ES": "Kringstad",
+       "PT": "Kringstad",
+       "IT": "Kringstad",
+       "RU": "Kringstad",
+       "ZH": "Kringstad",
+       "AR": "كرينجستاد"
       },
       "name": {
-       "EN": "Volodymyr Vysotskyi",
-       "FR": "Volodymyr Vysotskyi",
-       "DE": "Volodymyr Vysotskyi",
-       "ES": "Volodymyr Vysotskyi",
-       "PT": "Volodymyr Vysotskyi",
-       "IT": "Volodymyr Vysotskyi",
-       "RU": "Владимир Высоцкий",
-       "ZH": "Volodymyr Vysotskyi",
-       "AR": "فولوديمير فيسوتسكي"
+       "EN": "Sigurd Kringstad",
+       "FR": "Sigurd Kringstad",
+       "DE": "Sigurd Kringstad",
+       "ES": "Sigurd Kringstad",
+       "PT": "Sigurd Kringstad",
+       "IT": "Sigurd Kringstad",
+       "RU": "Сигурд Крингстад",
+       "ZH": "Sigurd Kringstad",
+       "AR": "سيجورد كرينجستاد"
       },
       "shortName": {
-       "EN": "Vysotskyi",
-       "FR": "Vysotskyi",
-       "DE": "Vysotskyi",
-       "ES": "Vysotskyi",
-       "PT": "Vysotskyi",
-       "IT": "Vysotskyi",
-       "RU": "Высоцкий",
-       "ZH": "Vysotskyi",
-       "AR": "فولوديمير "
+       "EN": "Kringstad",
+       "FR": "Kringstad",
+       "DE": "Kringstad",
+       "ES": "Kringstad",
+       "PT": "Kringstad",
+       "IT": "Kringstad",
+       "RU": "Крингстад",
+       "ZH": "Kringstad",
+       "AR": "كرينجستاد"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250120995.jpg"
-    },
-    "person": {
-     "countryCode": "UKR",
-     "gender": "MALE",
-     "id": "250120995",
-     "translations": {
-      "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
-      },
-      "firstName": {
-       "EN": "Dmytro",
-       "FR": "Dmytro",
-       "DE": "Dmytro",
-       "ES": "Dmytro",
-       "PT": "Dmytro",
-       "IT": "Dmytro",
-       "RU": "Dmytro",
-       "ZH": "Dmytro",
-       "AR": "دميترو "
-      },
-      "lastName": {
-       "EN": "Panchyshyn",
-       "FR": "Panchyshyn",
-       "DE": "Panchyshyn",
-       "ES": "Panchyshyn",
-       "PT": "Panchyshyn",
-       "IT": "Panchyshyn",
-       "RU": "Panchyshyn",
-       "ZH": "Panchyshyn",
-       "AR": "بانشيشين"
-      },
-      "name": {
-       "EN": "Dmytro Panchyshyn",
-       "FR": "Dmytro Panchyshyn",
-       "DE": "Dmytro Panchyshyn",
-       "ES": "Dmytro Panchyshyn",
-       "PT": "Dmytro Panchyshyn",
-       "IT": "Dmytro Panchyshyn",
-       "RU": "Дмитрий Панчишин",
-       "ZH": "Dmytro Panchyshyn",
-       "AR": "دميترو بانشيشين"
-      },
-      "shortName": {
-       "EN": "Panchyshyn",
-       "FR": "Panchyshyn",
-       "DE": "Panchyshyn",
-       "ES": "Panchyshyn",
-       "PT": "Panchyshyn",
-       "IT": "Panchyshyn",
-       "RU": "Панчишин",
-       "ZH": "Panchyshyn",
-       "AR": "بانشيشين"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Árbitro",
-      "AR": "الحكم"
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
      }
     }
    },
@@ -1755,6 +2283,168 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166128.jpg"
+    },
+    "person": {
+     "countryCode": "NOR",
+     "gender": "MALE",
+     "id": "250166128",
+     "translations": {
+      "countryName": {
+       "EN": "Norway",
+       "FR": "Norvège",
+       "DE": "Norwegen",
+       "ES": "Noruega",
+       "PT": "Noruega",
+       "IT": "Norvegia",
+       "RU": "Норвегия",
+       "ZH": "挪威",
+       "AR": "النرويج"
+      },
+      "firstName": {
+       "EN": "Ole Andreas",
+       "FR": "Ole Andreas",
+       "DE": "Ole Andreas",
+       "ES": "Ole Andreas",
+       "PT": "Ole Andreas",
+       "IT": "Ole Andreas",
+       "RU": "Уле-Андреас",
+       "ZH": "Ole Andreas",
+       "AR": "أولي أندرياس"
+      },
+      "lastName": {
+       "EN": "Haukåsen",
+       "FR": "Haukåsen",
+       "DE": "Haukåsen",
+       "ES": "Haukåsen",
+       "PT": "Haukåsen",
+       "IT": "Haukåsen",
+       "RU": "Хаукосен",
+       "ZH": "Haukåsen",
+       "AR": "هاوكاسن"
+      },
+      "name": {
+       "EN": "Ole Andreas Haukåsen",
+       "FR": "Ole Andreas Haukåsen",
+       "DE": "Ole Andreas Haukåsen",
+       "ES": "Ole Andreas Haukåsen",
+       "PT": "Ole Andreas Haukåsen",
+       "IT": "Ole Andreas Haukåsen",
+       "RU": "Уле-Андреас Хаукосен",
+       "ZH": "Ole Andreas Haukåsen",
+       "AR": "أولي أندرياس هاوكاسن"
+      },
+      "shortName": {
+       "EN": "Haukåsen",
+       "FR": "Haukåsen",
+       "DE": "Haukåsen",
+       "ES": "Haukåsen",
+       "PT": "Haukåsen",
+       "IT": "Haukåsen",
+       "RU": "Хаукосен",
+       "ZH": "Haukåsen",
+       "AR": "هاوكاسن"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250076733.jpg"
+    },
+    "person": {
+     "countryCode": "UKR",
+     "gender": "MALE",
+     "id": "250076733",
+     "translations": {
+      "countryName": {
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
+      },
+      "firstName": {
+       "EN": "Volodymyr",
+       "FR": "Volodymyr",
+       "DE": "Volodymyr",
+       "ES": "Volodymyr",
+       "PT": "Volodymyr",
+       "IT": "Volodymyr",
+       "RU": "Volodymyr",
+       "ZH": "Volodymyr",
+       "AR": "فولوديمير "
+      },
+      "lastName": {
+       "EN": "Vysotskyi",
+       "FR": "Vysotskyi",
+       "DE": "Vysotskyi",
+       "ES": "Vysotskyi",
+       "PT": "Vysotskyi",
+       "IT": "Vysotskyi",
+       "RU": "Vysotskyi",
+       "ZH": "Vysotskyi",
+       "AR": "فولوديمير "
+      },
+      "name": {
+       "EN": "Volodymyr Vysotskyi",
+       "FR": "Volodymyr Vysotskyi",
+       "DE": "Volodymyr Vysotskyi",
+       "ES": "Volodymyr Vysotskyi",
+       "PT": "Volodymyr Vysotskyi",
+       "IT": "Volodymyr Vysotskyi",
+       "RU": "Владимир Высоцкий",
+       "ZH": "Volodymyr Vysotskyi",
+       "AR": "فولوديمير فيسوتسكي"
+      },
+      "shortName": {
+       "EN": "Vysotskyi",
+       "FR": "Vysotskyi",
+       "DE": "Vysotskyi",
+       "ES": "Vysotskyi",
+       "PT": "Vysotskyi",
+       "IT": "Vysotskyi",
+       "RU": "Высоцкий",
+       "ZH": "Vysotskyi",
+       "AR": "فولوديمير "
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
      }
     }
    }
