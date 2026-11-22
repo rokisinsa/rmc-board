@@ -270,6 +270,87 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250193424.jpg"
+    },
+    "person": {
+     "countryCode": "KAZ",
+     "gender": "MALE",
+     "id": "250193424",
+     "translations": {
+      "countryName": {
+       "EN": "Kazakhstan",
+       "FR": "Kazakhstan",
+       "DE": "Kasachstan",
+       "ES": "Kazajstán",
+       "PT": "Cazaquistão",
+       "IT": "Kazakistan",
+       "RU": "Казахстан",
+       "ZH": "哈萨克斯坦",
+       "AR": "كازاخستان"
+      },
+      "firstName": {
+       "EN": "Nurlybek",
+       "FR": "Nurlybek",
+       "DE": "Nurlybek",
+       "ES": "Nurlybek",
+       "PT": "Nurlybek",
+       "IT": "Nurlybek",
+       "RU": "Нурлыбек",
+       "ZH": "Nurlybek",
+       "AR": "Nurlybek"
+      },
+      "lastName": {
+       "EN": "Kalimaganbetov",
+       "FR": "Kalimaganbetov",
+       "DE": "Kalimaganbetov",
+       "ES": "Kalimaganbetov",
+       "PT": "Kalimaganbetov",
+       "IT": "Kalimaganbetov",
+       "RU": "Калимаганбетов",
+       "ZH": "Kalimaganbetov",
+       "AR": "Kalimaganbetov"
+      },
+      "name": {
+       "EN": "Nurlybek Kalimaganbetov",
+       "FR": "Nurlybek Kalimaganbetov",
+       "DE": "Nurlybek Kalimaganbetov",
+       "ES": "Nurlybek Kalimaganbetov",
+       "PT": "Nurlybek Kalimaganbetov",
+       "IT": "Nurlybek Kalimaganbetov",
+       "RU": "Нурлыбек Калимаганбетов",
+       "ZH": "Nurlybek Kalimaganbetov",
+       "AR": "Nurlybek Kalimaganbetov"
+      },
+      "shortName": {
+       "EN": "Kalimaganbetov",
+       "FR": "Kalimaganbetov",
+       "DE": "Kalimaganbetov",
+       "ES": "Kalimaganbetov",
+       "PT": "Kalimaganbetov",
+       "IT": "Kalimaganbetov",
+       "RU": "Калимаганбетов",
+       "ZH": "Kalimaganbetov",
+       "AR": "Kalimaganbetov"
+      }
+     }
+    },
+    "role": "TIMEKEEPER",
+    "translations": {
+     "roleName": {
+      "EN": "Timekeeper",
+      "FR": "Chronométreur",
+      "DE": "Zeitnehmer",
+      "ES": "Cronómetro",
+      "PT": "Cronometrista",
+      "IT": "Cronometro",
+      "RU": "Хронометрист",
+      "ZH": "Cronometrista",
+      "AR": "ميقاتي المباراة"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250127703.jpg"
     },
     "person": {
@@ -346,87 +427,6 @@
       "RU": "Третий рефери",
       "ZH": "Terceiro árbitro",
       "AR": "الحكم الثالث"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250080716.jpg"
-    },
-    "person": {
-     "countryCode": "ENG",
-     "gender": "MALE",
-     "id": "250080716",
-     "translations": {
-      "countryName": {
-       "EN": "England",
-       "FR": "Angleterre",
-       "DE": "England",
-       "ES": "Inglaterra",
-       "PT": "Inglaterra",
-       "IT": "Inghilterra",
-       "RU": "Англия",
-       "ZH": "英格兰",
-       "AR": "إنجلترا"
-      },
-      "firstName": {
-       "EN": "Peter",
-       "FR": "Peter",
-       "DE": "Peter",
-       "ES": "Peter",
-       "PT": "Peter",
-       "IT": "Peter",
-       "RU": "Peter",
-       "ZH": "Peter",
-       "AR": "Peter"
-      },
-      "lastName": {
-       "EN": "Nurse",
-       "FR": "Nurse",
-       "DE": "Nurse",
-       "ES": "Nurse",
-       "PT": "Nurse",
-       "IT": "Nurse",
-       "RU": "Nurse",
-       "ZH": "Nurse",
-       "AR": "Nurse"
-      },
-      "name": {
-       "EN": "Peter Nurse",
-       "FR": "Peter Nurse",
-       "DE": "Peter Nurse",
-       "ES": "Peter Nurse",
-       "PT": "Peter Nurse",
-       "IT": "Peter Nurse",
-       "RU": "Питер Нерс",
-       "ZH": "Peter Nurse",
-       "AR": "Peter Nurse"
-      },
-      "shortName": {
-       "EN": "Nurse",
-       "FR": "Nurse",
-       "DE": "Nurse",
-       "ES": "Nurse",
-       "PT": "Nurse",
-       "IT": "Nurse",
-       "RU": "Нерс",
-       "ZH": "Nurse",
-       "AR": "Nurse"
-      }
-     }
-    },
-    "role": "REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Первый рефери",
-      "ZH": "Primeiro árbitro",
-      "AR": "الحكم"
      }
     }
    },
@@ -513,87 +513,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250193424.jpg"
-    },
-    "person": {
-     "countryCode": "KAZ",
-     "gender": "MALE",
-     "id": "250193424",
-     "translations": {
-      "countryName": {
-       "EN": "Kazakhstan",
-       "FR": "Kazakhstan",
-       "DE": "Kasachstan",
-       "ES": "Kazajstán",
-       "PT": "Cazaquistão",
-       "IT": "Kazakistan",
-       "RU": "Казахстан",
-       "ZH": "哈萨克斯坦",
-       "AR": "كازاخستان"
-      },
-      "firstName": {
-       "EN": "Nurlybek",
-       "FR": "Nurlybek",
-       "DE": "Nurlybek",
-       "ES": "Nurlybek",
-       "PT": "Nurlybek",
-       "IT": "Nurlybek",
-       "RU": "Нурлыбек",
-       "ZH": "Nurlybek",
-       "AR": "Nurlybek"
-      },
-      "lastName": {
-       "EN": "Kalimaganbetov",
-       "FR": "Kalimaganbetov",
-       "DE": "Kalimaganbetov",
-       "ES": "Kalimaganbetov",
-       "PT": "Kalimaganbetov",
-       "IT": "Kalimaganbetov",
-       "RU": "Калимаганбетов",
-       "ZH": "Kalimaganbetov",
-       "AR": "Kalimaganbetov"
-      },
-      "name": {
-       "EN": "Nurlybek Kalimaganbetov",
-       "FR": "Nurlybek Kalimaganbetov",
-       "DE": "Nurlybek Kalimaganbetov",
-       "ES": "Nurlybek Kalimaganbetov",
-       "PT": "Nurlybek Kalimaganbetov",
-       "IT": "Nurlybek Kalimaganbetov",
-       "RU": "Нурлыбек Калимаганбетов",
-       "ZH": "Nurlybek Kalimaganbetov",
-       "AR": "Nurlybek Kalimaganbetov"
-      },
-      "shortName": {
-       "EN": "Kalimaganbetov",
-       "FR": "Kalimaganbetov",
-       "DE": "Kalimaganbetov",
-       "ES": "Kalimaganbetov",
-       "PT": "Kalimaganbetov",
-       "IT": "Kalimaganbetov",
-       "RU": "Калимаганбетов",
-       "ZH": "Kalimaganbetov",
-       "AR": "Kalimaganbetov"
-      }
-     }
-    },
-    "role": "TIMEKEEPER",
-    "translations": {
-     "roleName": {
-      "EN": "Timekeeper",
-      "FR": "Chronométreur",
-      "DE": "Zeitnehmer",
-      "ES": "Cronómetro",
-      "PT": "Cronometrista",
-      "IT": "Cronometro",
-      "RU": "Хронометрист",
-      "ZH": "Cronometrista",
-      "AR": "ميقاتي المباراة"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/258054.jpg"
     },
     "person": {
@@ -670,6 +589,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250080716.jpg"
+    },
+    "person": {
+     "countryCode": "ENG",
+     "gender": "MALE",
+     "id": "250080716",
+     "translations": {
+      "countryName": {
+       "EN": "England",
+       "FR": "Angleterre",
+       "DE": "England",
+       "ES": "Inglaterra",
+       "PT": "Inglaterra",
+       "IT": "Inghilterra",
+       "RU": "Англия",
+       "ZH": "英格兰",
+       "AR": "إنجلترا"
+      },
+      "firstName": {
+       "EN": "Peter",
+       "FR": "Peter",
+       "DE": "Peter",
+       "ES": "Peter",
+       "PT": "Peter",
+       "IT": "Peter",
+       "RU": "Peter",
+       "ZH": "Peter",
+       "AR": "Peter"
+      },
+      "lastName": {
+       "EN": "Nurse",
+       "FR": "Nurse",
+       "DE": "Nurse",
+       "ES": "Nurse",
+       "PT": "Nurse",
+       "IT": "Nurse",
+       "RU": "Nurse",
+       "ZH": "Nurse",
+       "AR": "Nurse"
+      },
+      "name": {
+       "EN": "Peter Nurse",
+       "FR": "Peter Nurse",
+       "DE": "Peter Nurse",
+       "ES": "Peter Nurse",
+       "PT": "Peter Nurse",
+       "IT": "Peter Nurse",
+       "RU": "Питер Нерс",
+       "ZH": "Peter Nurse",
+       "AR": "Peter Nurse"
+      },
+      "shortName": {
+       "EN": "Nurse",
+       "FR": "Nurse",
+       "DE": "Nurse",
+       "ES": "Nurse",
+       "PT": "Nurse",
+       "IT": "Nurse",
+       "RU": "Нерс",
+       "ZH": "Nurse",
+       "AR": "Nurse"
+      }
+     }
+    },
+    "role": "REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Первый рефери",
+      "ZH": "Primeiro árbitro",
+      "AR": "الحكم"
      }
     }
    },
@@ -1354,93 +1354,12 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250179429.jpg"
-    },
-    "person": {
-     "countryCode": "NOR",
-     "gender": "MALE",
-     "id": "250179429",
-     "translations": {
-      "countryName": {
-       "EN": "Norway",
-       "FR": "Norvège",
-       "DE": "Norwegen",
-       "ES": "Noruega",
-       "PT": "Noruega",
-       "IT": "Norvegia",
-       "RU": "Норвегия",
-       "ZH": "挪威",
-       "AR": "النرويج"
-      },
-      "firstName": {
-       "EN": "Dag Erik",
-       "FR": "Dag Erik",
-       "DE": "Dag Erik",
-       "ES": "Dag Erik",
-       "PT": "Dag Erik",
-       "IT": "Dag Erik",
-       "RU": "Даг-Эрик",
-       "ZH": "Dag Erik",
-       "AR": "Dag Erik"
-      },
-      "lastName": {
-       "EN": "Tangvik",
-       "FR": "Tangvik",
-       "DE": "Tangvik",
-       "ES": "Tangvik",
-       "PT": "Tangvik",
-       "IT": "Tangvik",
-       "RU": "Тангвик",
-       "ZH": "Tangvik",
-       "AR": "Tangvik"
-      },
-      "name": {
-       "EN": "Dag Erik Tangvik",
-       "FR": "Dag Erik Tangvik",
-       "DE": "Dag Erik Tangvik",
-       "ES": "Dag Erik Tangvik",
-       "PT": "Dag Erik Tangvik",
-       "IT": "Dag Erik Tangvik",
-       "RU": "Даг-Эрик Тангвик",
-       "ZH": "Dag Erik Tangvik",
-       "AR": "Dag Erik Tangvik"
-      },
-      "shortName": {
-       "EN": "Tangvik",
-       "FR": "Tangvik",
-       "DE": "Tangvik",
-       "ES": "Tangvik",
-       "PT": "Tangvik",
-       "IT": "Tangvik",
-       "RU": "Тангвик",
-       "ZH": "Tangvik",
-       "AR": "Tangvik"
-      }
-     }
-    },
-    "role": "REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichter",
-      "ES": "Árbitro",
-      "PT": "Árbitro",
-      "IT": "Arbitro",
-      "RU": "Первый рефери",
-      "ZH": "Primeiro árbitro",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1908632.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/261727.jpg"
     },
     "person": {
      "countryCode": "FIN",
      "gender": "MALE",
-     "id": "1908632",
+     "id": "261727",
      "translations": {
       "countryName": {
        "EN": "Finland",
@@ -1454,225 +1373,63 @@
        "AR": "فنلندا"
       },
       "firstName": {
-       "EN": "Toni",
-       "FR": "Toni",
-       "DE": "Toni",
-       "ES": "Toni",
-       "PT": "Toni",
-       "IT": "Toni",
-       "RU": "Toni",
-       "ZH": "Toni",
-       "AR": "Toni"
+       "EN": "Jyrki",
+       "FR": "Jyrki",
+       "DE": "Jyrki",
+       "ES": "Jyrki",
+       "PT": "Jyrki",
+       "IT": "Jyrki",
+       "RU": "Jyrki",
+       "ZH": "Jyrki",
+       "AR": "Jyrki"
       },
       "lastName": {
-       "EN": "Lehtinen",
-       "FR": "Lehtinen",
-       "DE": "Lehtinen",
-       "ES": "Lehtinen",
-       "PT": "Lehtinen",
-       "IT": "Lehtinen",
-       "RU": "Lehtinen",
-       "ZH": "Lehtinen",
-       "AR": "Lehtinen"
+       "EN": "Filppu",
+       "FR": "Filppu",
+       "DE": "Filppu",
+       "ES": "Filppu",
+       "PT": "Filppu",
+       "IT": "Filppu",
+       "RU": "Filppu",
+       "ZH": "Filppu",
+       "AR": "Filppu"
       },
       "name": {
-       "EN": "Toni Lehtinen",
-       "FR": "Toni Lehtinen",
-       "DE": "Toni Lehtinen",
-       "ES": "Toni Lehtinen",
-       "PT": "Toni Lehtinen",
-       "IT": "Toni Lehtinen",
-       "RU": "Тони Лехтинен",
-       "ZH": "Toni Lehtinen",
-       "AR": "Toni Lehtinen"
+       "EN": "Jyrki Filppu",
+       "FR": "Jyrki Filppu",
+       "DE": "Jyrki Filppu",
+       "ES": "Jyrki Filppu",
+       "PT": "Jyrki Filppu",
+       "IT": "Jyrki Filppu",
+       "RU": "Юрки Филппу",
+       "ZH": "Jyrki Filppu",
+       "AR": "Jyrki Filppu"
       },
       "shortName": {
-       "EN": "Lehtinen",
-       "FR": "Lehtinen",
-       "DE": "Lehtinen",
-       "ES": "Lehtinen",
-       "PT": "Lehtinen",
-       "IT": "Lehtinen",
-       "RU": "Лехтинен",
-       "ZH": "Lehtinen",
-       "AR": "Lehtinen"
+       "EN": "Filppu",
+       "FR": "Filppu",
+       "DE": "Filppu",
+       "ES": "Filppu",
+       "PT": "Filppu",
+       "IT": "Filppu",
+       "RU": "Филппу",
+       "ZH": "Filppu",
+       "AR": "Filppu"
       }
      }
     },
-    "role": "REFEREE_OBSERVER",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Referee observer",
-      "FR": "Observateur d'arbitres",
-      "DE": "Referee observer",
-      "ES": "Observador arbitral",
-      "PT": "Observador de árbitro",
-      "IT": "Referee observer",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكام"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250206030.jpg"
-    },
-    "person": {
-     "countryCode": "LTU",
-     "gender": "MALE",
-     "id": "250206030",
-     "translations": {
-      "countryName": {
-       "EN": "Lithuania",
-       "FR": "Lituanie",
-       "DE": "Litauen",
-       "ES": "Lituania",
-       "PT": "Lituânia",
-       "IT": "Lituania",
-       "RU": "Литва",
-       "ZH": "立陶宛",
-       "AR": "ليتوانيا"
-      },
-      "firstName": {
-       "EN": "Kevin",
-       "FR": "Kevin",
-       "DE": "Kevin",
-       "ES": "Kevin",
-       "PT": "Kevin",
-       "IT": "Kevin",
-       "RU": "Kevin",
-       "ZH": "Kevin",
-       "AR": "Kevin"
-      },
-      "lastName": {
-       "EN": "Drungilas",
-       "FR": "Drungilas",
-       "DE": "Drungilas",
-       "ES": "Drungilas",
-       "PT": "Drungilas",
-       "IT": "Drungilas",
-       "RU": "Drungilas",
-       "ZH": "Drungilas",
-       "AR": "Drungilas"
-      },
-      "name": {
-       "EN": "Kevin Drungilas",
-       "FR": "Kevin Drungilas",
-       "DE": "Kevin Drungilas",
-       "ES": "Kevin Drungilas",
-       "PT": "Kevin Drungilas",
-       "IT": "Kevin Drungilas",
-       "RU": "Kevin Drungilas",
-       "ZH": "Kevin Drungilas",
-       "AR": "Kevin Drungilas"
-      },
-      "shortName": {
-       "EN": "Drungilas",
-       "FR": "Drungilas",
-       "DE": "Drungilas",
-       "ES": "Drungilas",
-       "PT": "Drungilas",
-       "IT": "Drungilas",
-       "RU": "Drungilas",
-       "ZH": "Drungilas",
-       "AR": "Drungilas"
-      }
-     }
-    },
-    "role": "TIMEKEEPER",
-    "translations": {
-     "roleName": {
-      "EN": "Timekeeper",
-      "FR": "Chronométreur",
-      "DE": "Zeitnehmer",
-      "ES": "Cronómetro",
-      "PT": "Cronometrista",
-      "IT": "Cronometro",
-      "RU": "Хронометрист",
-      "ZH": "Cronometrista",
-      "AR": "ميقاتي المباراة"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250181939.jpg"
-    },
-    "person": {
-     "countryCode": "LTU",
-     "gender": "MALE",
-     "id": "250181939",
-     "translations": {
-      "countryName": {
-       "EN": "Lithuania",
-       "FR": "Lituanie",
-       "DE": "Litauen",
-       "ES": "Lituania",
-       "PT": "Lituânia",
-       "IT": "Lituania",
-       "RU": "Литва",
-       "ZH": "立陶宛",
-       "AR": "ليتوانيا"
-      },
-      "firstName": {
-       "EN": "Irmantas",
-       "FR": "Irmantas",
-       "DE": "Irmantas",
-       "ES": "Irmantas",
-       "PT": "Irmantas",
-       "IT": "Irmantas",
-       "RU": "Ирмантас",
-       "ZH": "Irmantas",
-       "AR": "Irmantas"
-      },
-      "lastName": {
-       "EN": "Kaprašovas",
-       "FR": "Kaprašovas",
-       "DE": "Kaprašovas",
-       "ES": "Kaprašovas",
-       "PT": "Kaprašovas",
-       "IT": "Kaprašovas",
-       "RU": "Капрашовас",
-       "ZH": "Kaprasovas",
-       "AR": "Kaprašovas"
-      },
-      "name": {
-       "EN": "Irmantas Kaprašovas",
-       "FR": "Irmantas Kaprašovas",
-       "DE": "Irmantas Kaprašovas",
-       "ES": "Irmantas Kaprašovas",
-       "PT": "Irmantas Kaprašovas",
-       "IT": "Irmantas Kaprašovas",
-       "RU": "Ирмантас Капрашовас",
-       "ZH": "Irmantas Kaprasovas",
-       "AR": "Irmantas Kaprašovas"
-      },
-      "shortName": {
-       "EN": "Kaprašovas",
-       "FR": "Kaprašovas",
-       "DE": "Kaprašovas",
-       "ES": "Kaprašovas",
-       "PT": "Kaprašovas",
-       "IT": "Kaprašovas",
-       "RU": "Капрашовас",
-       "ZH": "Kaprasovas",
-       "AR": "Kaprašovas"
-      }
-     }
-    },
-    "role": "REFEREE_THREE",
-    "translations": {
-     "roleName": {
-      "EN": "Third Referee",
-      "FR": "Troisième arbitre",
-      "DE": "Dritter Schiedsrichter",
-      "ES": "Tercer árbitro",
-      "PT": "Terceiro árbitro",
-      "IT": "Terzo arbitro",
-      "RU": "Третий рефери",
-      "ZH": "Terceiro árbitro",
-      "AR": "الحكم الثالث"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
@@ -1759,12 +1516,12 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/261727.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1908632.jpg"
     },
     "person": {
      "countryCode": "FIN",
      "gender": "MALE",
-     "id": "261727",
+     "id": "1908632",
      "translations": {
       "countryName": {
        "EN": "Finland",
@@ -1778,63 +1535,306 @@
        "AR": "فنلندا"
       },
       "firstName": {
-       "EN": "Jyrki",
-       "FR": "Jyrki",
-       "DE": "Jyrki",
-       "ES": "Jyrki",
-       "PT": "Jyrki",
-       "IT": "Jyrki",
-       "RU": "Jyrki",
-       "ZH": "Jyrki",
-       "AR": "Jyrki"
+       "EN": "Toni",
+       "FR": "Toni",
+       "DE": "Toni",
+       "ES": "Toni",
+       "PT": "Toni",
+       "IT": "Toni",
+       "RU": "Toni",
+       "ZH": "Toni",
+       "AR": "Toni"
       },
       "lastName": {
-       "EN": "Filppu",
-       "FR": "Filppu",
-       "DE": "Filppu",
-       "ES": "Filppu",
-       "PT": "Filppu",
-       "IT": "Filppu",
-       "RU": "Filppu",
-       "ZH": "Filppu",
-       "AR": "Filppu"
+       "EN": "Lehtinen",
+       "FR": "Lehtinen",
+       "DE": "Lehtinen",
+       "ES": "Lehtinen",
+       "PT": "Lehtinen",
+       "IT": "Lehtinen",
+       "RU": "Lehtinen",
+       "ZH": "Lehtinen",
+       "AR": "Lehtinen"
       },
       "name": {
-       "EN": "Jyrki Filppu",
-       "FR": "Jyrki Filppu",
-       "DE": "Jyrki Filppu",
-       "ES": "Jyrki Filppu",
-       "PT": "Jyrki Filppu",
-       "IT": "Jyrki Filppu",
-       "RU": "Юрки Филппу",
-       "ZH": "Jyrki Filppu",
-       "AR": "Jyrki Filppu"
+       "EN": "Toni Lehtinen",
+       "FR": "Toni Lehtinen",
+       "DE": "Toni Lehtinen",
+       "ES": "Toni Lehtinen",
+       "PT": "Toni Lehtinen",
+       "IT": "Toni Lehtinen",
+       "RU": "Тони Лехтинен",
+       "ZH": "Toni Lehtinen",
+       "AR": "Toni Lehtinen"
       },
       "shortName": {
-       "EN": "Filppu",
-       "FR": "Filppu",
-       "DE": "Filppu",
-       "ES": "Filppu",
-       "PT": "Filppu",
-       "IT": "Filppu",
-       "RU": "Филппу",
-       "ZH": "Filppu",
-       "AR": "Filppu"
+       "EN": "Lehtinen",
+       "FR": "Lehtinen",
+       "DE": "Lehtinen",
+       "ES": "Lehtinen",
+       "PT": "Lehtinen",
+       "IT": "Lehtinen",
+       "RU": "Лехтинен",
+       "ZH": "Lehtinen",
+       "AR": "Lehtinen"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "REFEREE_OBSERVER",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Referee observer",
+      "FR": "Observateur d'arbitres",
+      "DE": "Referee observer",
+      "ES": "Observador arbitral",
+      "PT": "Observador de árbitro",
+      "IT": "Referee observer",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكام"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250179429.jpg"
+    },
+    "person": {
+     "countryCode": "NOR",
+     "gender": "MALE",
+     "id": "250179429",
+     "translations": {
+      "countryName": {
+       "EN": "Norway",
+       "FR": "Norvège",
+       "DE": "Norwegen",
+       "ES": "Noruega",
+       "PT": "Noruega",
+       "IT": "Norvegia",
+       "RU": "Норвегия",
+       "ZH": "挪威",
+       "AR": "النرويج"
+      },
+      "firstName": {
+       "EN": "Dag Erik",
+       "FR": "Dag Erik",
+       "DE": "Dag Erik",
+       "ES": "Dag Erik",
+       "PT": "Dag Erik",
+       "IT": "Dag Erik",
+       "RU": "Даг-Эрик",
+       "ZH": "Dag Erik",
+       "AR": "Dag Erik"
+      },
+      "lastName": {
+       "EN": "Tangvik",
+       "FR": "Tangvik",
+       "DE": "Tangvik",
+       "ES": "Tangvik",
+       "PT": "Tangvik",
+       "IT": "Tangvik",
+       "RU": "Тангвик",
+       "ZH": "Tangvik",
+       "AR": "Tangvik"
+      },
+      "name": {
+       "EN": "Dag Erik Tangvik",
+       "FR": "Dag Erik Tangvik",
+       "DE": "Dag Erik Tangvik",
+       "ES": "Dag Erik Tangvik",
+       "PT": "Dag Erik Tangvik",
+       "IT": "Dag Erik Tangvik",
+       "RU": "Даг-Эрик Тангвик",
+       "ZH": "Dag Erik Tangvik",
+       "AR": "Dag Erik Tangvik"
+      },
+      "shortName": {
+       "EN": "Tangvik",
+       "FR": "Tangvik",
+       "DE": "Tangvik",
+       "ES": "Tangvik",
+       "PT": "Tangvik",
+       "IT": "Tangvik",
+       "RU": "Тангвик",
+       "ZH": "Tangvik",
+       "AR": "Tangvik"
+      }
+     }
+    },
+    "role": "REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichter",
+      "ES": "Árbitro",
+      "PT": "Árbitro",
+      "IT": "Arbitro",
+      "RU": "Первый рефери",
+      "ZH": "Primeiro árbitro",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250181939.jpg"
+    },
+    "person": {
+     "countryCode": "LTU",
+     "gender": "MALE",
+     "id": "250181939",
+     "translations": {
+      "countryName": {
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
+      },
+      "firstName": {
+       "EN": "Irmantas",
+       "FR": "Irmantas",
+       "DE": "Irmantas",
+       "ES": "Irmantas",
+       "PT": "Irmantas",
+       "IT": "Irmantas",
+       "RU": "Ирмантас",
+       "ZH": "Irmantas",
+       "AR": "Irmantas"
+      },
+      "lastName": {
+       "EN": "Kaprašovas",
+       "FR": "Kaprašovas",
+       "DE": "Kaprašovas",
+       "ES": "Kaprašovas",
+       "PT": "Kaprašovas",
+       "IT": "Kaprašovas",
+       "RU": "Капрашовас",
+       "ZH": "Kaprasovas",
+       "AR": "Kaprašovas"
+      },
+      "name": {
+       "EN": "Irmantas Kaprašovas",
+       "FR": "Irmantas Kaprašovas",
+       "DE": "Irmantas Kaprašovas",
+       "ES": "Irmantas Kaprašovas",
+       "PT": "Irmantas Kaprašovas",
+       "IT": "Irmantas Kaprašovas",
+       "RU": "Ирмантас Капрашовас",
+       "ZH": "Irmantas Kaprasovas",
+       "AR": "Irmantas Kaprašovas"
+      },
+      "shortName": {
+       "EN": "Kaprašovas",
+       "FR": "Kaprašovas",
+       "DE": "Kaprašovas",
+       "ES": "Kaprašovas",
+       "PT": "Kaprašovas",
+       "IT": "Kaprašovas",
+       "RU": "Капрашовас",
+       "ZH": "Kaprasovas",
+       "AR": "Kaprašovas"
+      }
+     }
+    },
+    "role": "REFEREE_THREE",
+    "translations": {
+     "roleName": {
+      "EN": "Third Referee",
+      "FR": "Troisième arbitre",
+      "DE": "Dritter Schiedsrichter",
+      "ES": "Tercer árbitro",
+      "PT": "Terceiro árbitro",
+      "IT": "Terzo arbitro",
+      "RU": "Третий рефери",
+      "ZH": "Terceiro árbitro",
+      "AR": "الحكم الثالث"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250206030.jpg"
+    },
+    "person": {
+     "countryCode": "LTU",
+     "gender": "MALE",
+     "id": "250206030",
+     "translations": {
+      "countryName": {
+       "EN": "Lithuania",
+       "FR": "Lituanie",
+       "DE": "Litauen",
+       "ES": "Lituania",
+       "PT": "Lituânia",
+       "IT": "Lituania",
+       "RU": "Литва",
+       "ZH": "立陶宛",
+       "AR": "ليتوانيا"
+      },
+      "firstName": {
+       "EN": "Kevin",
+       "FR": "Kevin",
+       "DE": "Kevin",
+       "ES": "Kevin",
+       "PT": "Kevin",
+       "IT": "Kevin",
+       "RU": "Kevin",
+       "ZH": "Kevin",
+       "AR": "Kevin"
+      },
+      "lastName": {
+       "EN": "Drungilas",
+       "FR": "Drungilas",
+       "DE": "Drungilas",
+       "ES": "Drungilas",
+       "PT": "Drungilas",
+       "IT": "Drungilas",
+       "RU": "Drungilas",
+       "ZH": "Drungilas",
+       "AR": "Drungilas"
+      },
+      "name": {
+       "EN": "Kevin Drungilas",
+       "FR": "Kevin Drungilas",
+       "DE": "Kevin Drungilas",
+       "ES": "Kevin Drungilas",
+       "PT": "Kevin Drungilas",
+       "IT": "Kevin Drungilas",
+       "RU": "Kevin Drungilas",
+       "ZH": "Kevin Drungilas",
+       "AR": "Kevin Drungilas"
+      },
+      "shortName": {
+       "EN": "Drungilas",
+       "FR": "Drungilas",
+       "DE": "Drungilas",
+       "ES": "Drungilas",
+       "PT": "Drungilas",
+       "IT": "Drungilas",
+       "RU": "Drungilas",
+       "ZH": "Drungilas",
+       "AR": "Drungilas"
+      }
+     }
+    },
+    "role": "TIMEKEEPER",
+    "translations": {
+     "roleName": {
+      "EN": "Timekeeper",
+      "FR": "Chronométreur",
+      "DE": "Zeitnehmer",
+      "ES": "Cronómetro",
+      "PT": "Cronometrista",
+      "IT": "Cronometro",
+      "RU": "Хронометрист",
+      "ZH": "Cronometrista",
+      "AR": "ميقاتي المباراة"
      }
     }
    }
