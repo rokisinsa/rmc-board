@@ -139,6 +139,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 18,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
+  "fullTimeAt": "2026-11-24T10:47:38.474Z",
   "group": {
    "competitionId": "22",
    "id": "2013494",
@@ -264,7 +294,8 @@
    "dateTime": "2026-11-24T09:00:00Z",
    "utcOffsetInHours": 3
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 60,
   "matchday": {
    "competitionId": "22",
    "dateFrom": "2026-09-05T06:00:00+0000",
@@ -303,7 +334,828 @@
    },
    "type": "MATCHDAY"
   },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "0387c0c3-66cf-452c-8455-56f5b968e246",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "29",
+      "birthDate": "1997-08-14",
+      "clubId": "92336",
+      "clubJerseyNumber": "4",
+      "clubShirtName": "Lazarowicz",
+      "countryCode": "POL",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250125631",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250125631.jpg",
+      "internationalName": "Mikołaj Łazarowicz",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "Łazarowicz",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Mikołaj",
+        "FR": "Mikołaj",
+        "DE": "Mikołaj",
+        "ES": "Mikołaj",
+        "PT": "Mikołaj",
+        "IT": "Mikołaj",
+        "RU": "Миколай",
+        "ZH": "Mikołaj",
+        "AR": "Mikołaj"
+       },
+       "lastName": {
+        "EN": "Łazarowicz",
+        "FR": "Łazarowicz",
+        "DE": "Łazarowicz",
+        "ES": "Łazarowicz",
+        "PT": "Łazarowicz",
+        "IT": "Łazarowicz",
+        "RU": "Лазарович",
+        "ZH": "Łazarowicz",
+        "AR": "Łazarowicz"
+       },
+       "name": {
+        "EN": "Mikołaj Łazarowicz",
+        "FR": "Mikołaj Łazarowicz",
+        "DE": "Mikołaj Łazarowicz",
+        "ES": "Mikołaj Łazarowicz",
+        "PT": "Mikołaj Łazarowicz",
+        "IT": "Mikołaj Łazarowicz",
+        "RU": "Миколай Лазарович",
+        "ZH": "Mikołaj Łazarowicz",
+        "AR": "Mikołaj Łazarowicz"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Łazarowicz",
+        "FR": "Łazarowicz",
+        "DE": "Łazarowicz",
+        "ES": "Łazarowicz",
+        "PT": "Łazarowicz",
+        "IT": "Łazarowicz",
+        "RU": "Лазарович",
+        "ZH": "Łazarowicz",
+        "AR": "Łazarowicz"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 9,
+      "second": 46
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "ab417b14-dc02-4274-8fc5-487c5ff90734",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "23",
+      "birthDate": "2003-03-16",
+      "clubId": "2615125",
+      "clubJerseyNumber": "7",
+      "clubShirtName": "",
+      "countryCode": "ROU",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228280",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250228280.jpg",
+      "internationalName": "Catalin Florin Marius Grigore",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "",
+      "translations": {
+       "countryName": {
+        "EN": "Romania",
+        "FR": "Roumanie",
+        "DE": "Rumänien",
+        "ES": "Rumanía",
+        "PT": "Roménia",
+        "IT": "Romania",
+        "RU": "Румыния",
+        "ZH": "罗马尼亚",
+        "AR": "رومانيا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Catalin Florin Marius",
+        "FR": "Catalin Florin Marius",
+        "DE": "Catalin Florin Marius",
+        "ES": "Catalin Florin Marius",
+        "PT": "Catalin Florin Marius",
+        "IT": "Catalin Florin Marius",
+        "RU": "Catalin Florin Marius",
+        "ZH": "Catalin Florin Marius",
+        "AR": "Catalin Florin Marius"
+       },
+       "lastName": {
+        "EN": "Grigore",
+        "FR": "Grigore",
+        "DE": "Grigore",
+        "ES": "Grigore",
+        "PT": "Grigore",
+        "IT": "Grigore",
+        "RU": "Grigore",
+        "ZH": "Grigore",
+        "AR": "Grigore"
+       },
+       "name": {
+        "EN": "Catalin Florin Marius Grigore",
+        "FR": "Catalin Florin Marius Grigore",
+        "DE": "Catalin Florin Marius Grigore",
+        "ES": "Catalin Florin Marius Grigore",
+        "PT": "Catalin Florin Marius Grigore",
+        "IT": "Catalin Florin Marius Grigore",
+        "RU": "Catalin Florin Marius Grigore",
+        "ZH": "Catalin Florin Marius Grigore",
+        "AR": "Catalin Florin Marius Grigore"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Grigore",
+        "FR": "Grigore",
+        "DE": "Grigore",
+        "ES": "Grigore",
+        "PT": "Grigore",
+        "IT": "Grigore",
+        "RU": "Grigore",
+        "ZH": "Grigore",
+        "AR": "Grigore"
+       }
+      }
+     },
+     "teamId": "2615125",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 28,
+      "second": 43
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "bb73f1b0-10e6-428b-bd09-d0cbcf59f9b7",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "28",
+      "birthDate": "1998-08-25",
+      "clubId": "92336",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "Puchala",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250130698",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250130698.jpg",
+      "internationalName": "Adrian Puchala",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Puchala",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Adrian",
+        "FR": "Adrian",
+        "DE": "Adrian",
+        "ES": "Adrian",
+        "PT": "Adrian",
+        "IT": "Adrian",
+        "RU": "Адриан",
+        "ZH": "Adrian",
+        "AR": "Adrian"
+       },
+       "lastName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       },
+       "name": {
+        "EN": "Adrian Puchala",
+        "FR": "Adrian Puchala",
+        "DE": "Adrian Puchala",
+        "ES": "Adrian Puchala",
+        "PT": "Adrian Puchala",
+        "IT": "Adrian Puchala",
+        "RU": "Адриан Пухала",
+        "ZH": "Adrian Puchala",
+        "AR": "Adrian Puchala"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 66,
+      "second": 55
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "a79acd7e-c9a9-4e3a-a02d-e2b27b6ba021",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "21",
+      "birthDate": "2005-06-23",
+      "clubId": "92336",
+      "clubJerseyNumber": "21",
+      "clubShirtName": "Wąsiewski",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250228408",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250228408.jpg",
+      "internationalName": "Tymoteusz Wąsiewski",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Wąsiewski",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Tymoteusz",
+        "FR": "Tymoteusz",
+        "DE": "Tymoteusz",
+        "ES": "Tymoteusz",
+        "PT": "Tymoteusz",
+        "IT": "Tymoteusz",
+        "RU": "Tymoteusz",
+        "ZH": "Tymoteusz",
+        "AR": "Tymoteusz"
+       },
+       "lastName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       },
+       "name": {
+        "EN": "Tymoteusz Wąsiewski",
+        "FR": "Tymoteusz Wąsiewski",
+        "DE": "Tymoteusz Wąsiewski",
+        "ES": "Tymoteusz Wąsiewski",
+        "PT": "Tymoteusz Wąsiewski",
+        "IT": "Tymoteusz Wąsiewski",
+        "RU": "Tymoteusz Wąsiewski",
+        "ZH": "Tymoteusz Wąsiewski",
+        "AR": "Tymoteusz Wąsiewski"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Wąsiewski",
+        "FR": "Wąsiewski",
+        "DE": "Wąsiewski",
+        "ES": "Wąsiewski",
+        "PT": "Wąsiewski",
+        "IT": "Wąsiewski",
+        "RU": "Wąsiewski",
+        "ZH": "Wąsiewski",
+        "AR": "Wąsiewski"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 76,
+      "second": 58
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "005eb973-29e9-48db-a709-7e77d9c1c535",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "30",
+      "birthDate": "1996-06-16",
+      "clubId": "92336",
+      "clubJerseyNumber": "8",
+      "clubShirtName": "Bohdanowicz",
+      "countryCode": "POL",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250082686",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250082686.jpg",
+      "internationalName": "Jakub Bohdanowicz",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "Bohdanowicz",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Jakub",
+        "FR": "Jakub",
+        "DE": "Jakub",
+        "ES": "Jakub",
+        "PT": "Jakub",
+        "IT": "Jakub",
+        "RU": "Якуб",
+        "ZH": "Jakub",
+        "AR": "Jakub"
+       },
+       "lastName": {
+        "EN": "Bohdanowicz",
+        "FR": "Bohdanowicz",
+        "DE": "Bohdanowicz",
+        "ES": "Bohdanowicz",
+        "PT": "Bohdanowicz",
+        "IT": "Bohdanowicz",
+        "RU": "Бохданович",
+        "ZH": "Bohdanowicz",
+        "AR": "Bohdanowicz"
+       },
+       "name": {
+        "EN": "Jakub Bohdanowicz",
+        "FR": "Jakub Bohdanowicz",
+        "DE": "Jakub Bohdanowicz",
+        "ES": "Jakub Bohdanowicz",
+        "PT": "Jakub Bohdanowicz",
+        "IT": "Jakub Bohdanowicz",
+        "RU": "Якуб Бохданович",
+        "ZH": "Jakub Bohdanowicz",
+        "AR": "Jakub Bohdanowicz"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Bohdanowicz",
+        "FR": "Bohdanowicz",
+        "DE": "Bohdanowicz",
+        "ES": "Bohdanowicz",
+        "PT": "Bohdanowicz",
+        "IT": "Bohdanowicz",
+        "RU": "Бохданович",
+        "ZH": "Bohdanowicz",
+        "AR": "Bohdanowicz"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 80,
+      "second": 2
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "2e8d58d8-74cc-4f56-817c-266ee9d17b32",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "30",
+      "birthDate": "1996-03-27",
+      "clubId": "92336",
+      "clubJerseyNumber": "5",
+      "clubShirtName": "Niemienionek",
+      "countryCode": "POL",
+      "fieldPosition": "DEFENDER",
+      "gender": "MALE",
+      "id": "250130697",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250130697.jpg",
+      "internationalName": "Pawel Niemienionek",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Niemienionek",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Pawel",
+        "FR": "Pawel",
+        "DE": "Pawel",
+        "ES": "Pawel",
+        "PT": "Pawel",
+        "IT": "Pawel",
+        "RU": "Павел",
+        "ZH": "Pawel",
+        "AR": "Pawel"
+       },
+       "lastName": {
+        "EN": "Niemienionek",
+        "FR": "Niemienionek",
+        "DE": "Niemienionek",
+        "ES": "Niemienionek",
+        "PT": "Niemienionek",
+        "IT": "Niemienionek",
+        "RU": "Немененек",
+        "ZH": "Niemienionek",
+        "AR": "Niemienionek"
+       },
+       "name": {
+        "EN": "Pawel Niemienionek",
+        "FR": "Pawel Niemienionek",
+        "DE": "Pawel Niemienionek",
+        "ES": "Pawel Niemienionek",
+        "PT": "Pawel Niemienionek",
+        "IT": "Pawel Niemienionek",
+        "RU": "Павел Немененек",
+        "ZH": "Pawel Niemienionek",
+        "AR": "Pawel Niemienionek"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Niemienionek",
+        "FR": "Niemienionek",
+        "DE": "Niemienionek",
+        "ES": "Niemienionek",
+        "PT": "Niemienionek",
+        "IT": "Niemienionek",
+        "RU": "Немененек",
+        "ZH": "Niemienionek",
+        "AR": "Niemienionek"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 88,
+      "second": 9
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "a63c2edd-2125-44e9-a80d-bfb602531642",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "28",
+      "birthDate": "1998-08-25",
+      "clubId": "92336",
+      "clubJerseyNumber": "10",
+      "clubShirtName": "Puchala",
+      "countryCode": "POL",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250130698",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/22/2027/324x324/250130698.jpg",
+      "internationalName": "Adrian Puchala",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Puchala",
+      "translations": {
+       "countryName": {
+        "EN": "Poland",
+        "FR": "Pologne",
+        "DE": "Polen",
+        "ES": "Polonia",
+        "PT": "Polónia",
+        "IT": "Polonia",
+        "RU": "Польша",
+        "ZH": "波兰",
+        "AR": "بولندا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Adrian",
+        "FR": "Adrian",
+        "DE": "Adrian",
+        "ES": "Adrian",
+        "PT": "Adrian",
+        "IT": "Adrian",
+        "RU": "Адриан",
+        "ZH": "Adrian",
+        "AR": "Adrian"
+       },
+       "lastName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       },
+       "name": {
+        "EN": "Adrian Puchala",
+        "FR": "Adrian Puchala",
+        "DE": "Adrian Puchala",
+        "ES": "Adrian Puchala",
+        "PT": "Adrian Puchala",
+        "IT": "Adrian Puchala",
+        "RU": "Адриан Пухала",
+        "ZH": "Adrian Puchala",
+        "AR": "Adrian Puchala"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Puchala",
+        "FR": "Puchala",
+        "DE": "Puchala",
+        "ES": "Puchala",
+        "PT": "Puchala",
+        "IT": "Puchala",
+        "RU": "Пухала",
+        "ZH": "Puchala",
+        "AR": "Puchala"
+       }
+      }
+     },
+     "teamId": "92336",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 90,
+      "second": 46
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250076733.jpg"
+    },
+    "person": {
+     "countryCode": "UKR",
+     "gender": "MALE",
+     "id": "250076733",
+     "translations": {
+      "countryName": {
+       "EN": "Ukraine",
+       "FR": "Ukraine",
+       "DE": "Ukraine",
+       "ES": "Ucrania",
+       "PT": "Ucrânia",
+       "IT": "Ucraina",
+       "RU": "Украина",
+       "ZH": "乌克兰",
+       "AR": "أوكرانيا"
+      },
+      "firstName": {
+       "EN": "Volodymyr",
+       "FR": "Volodymyr",
+       "DE": "Volodymyr",
+       "ES": "Volodymyr",
+       "PT": "Volodymyr",
+       "IT": "Volodymyr",
+       "RU": "Volodymyr",
+       "ZH": "Volodymyr",
+       "AR": "فولوديمير "
+      },
+      "lastName": {
+       "EN": "Vysotskyi",
+       "FR": "Vysotskyi",
+       "DE": "Vysotskyi",
+       "ES": "Vysotskyi",
+       "PT": "Vysotskyi",
+       "IT": "Vysotskyi",
+       "RU": "Vysotskyi",
+       "ZH": "Vysotskyi",
+       "AR": "فولوديمير "
+      },
+      "name": {
+       "EN": "Volodymyr Vysotskyi",
+       "FR": "Volodymyr Vysotskyi",
+       "DE": "Volodymyr Vysotskyi",
+       "ES": "Volodymyr Vysotskyi",
+       "PT": "Volodymyr Vysotskyi",
+       "IT": "Volodymyr Vysotskyi",
+       "RU": "Владимир Высоцкий",
+       "ZH": "Volodymyr Vysotskyi",
+       "AR": "فولوديمير فيسوتسكي"
+      },
+      "shortName": {
+       "EN": "Vysotskyi",
+       "FR": "Vysotskyi",
+       "DE": "Vysotskyi",
+       "ES": "Vysotskyi",
+       "PT": "Vysotskyi",
+       "IT": "Vysotskyi",
+       "RU": "Высоцкий",
+       "ZH": "Vysotskyi",
+       "AR": "فولوديمير "
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250120995.jpg"
@@ -387,82 +1239,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250163911.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279982.jpg"
     },
     "person": {
-     "countryCode": "TUR",
+     "countryCode": "MKD",
      "gender": "MALE",
-     "id": "250163911",
+     "id": "279982",
      "translations": {
       "countryName": {
-       "EN": "Türkiye",
-       "FR": "Turquie",
-       "DE": "Türkei",
-       "ES": "Turquía",
-       "PT": "Turquia",
-       "IT": "Turchia",
-       "RU": "Турция",
-       "ZH": "土耳其",
-       "AR": "تركيا"
+       "EN": "North Macedonia",
+       "FR": "Macédoine du Nord",
+       "DE": "Nordmazedonien",
+       "ES": "Macedonia del Norte",
+       "PT": "Macedónia do Norte",
+       "IT": "Macedonia del Nord",
+       "RU": "Северная Македония",
+       "ZH": "前南斯拉夫马其顿共和国",
+       "AR": "مقدونيا الشمالية"
       },
       "firstName": {
-       "EN": "Murat Tugberk",
-       "FR": "Murat Tugberk",
-       "DE": "Murat Tugberk",
-       "ES": "Murat Tugberk",
-       "PT": "Murat Tugberk",
-       "IT": "Murat Tugberk",
-       "RU": "Мурат Тугберк",
-       "ZH": "Murat Tugberk",
-       "AR": "مراد توجبيرك"
+       "EN": "Dimitar",
+       "FR": "Dimitar",
+       "DE": "Dimitar",
+       "ES": "Dimitar",
+       "PT": "Dimitar",
+       "IT": "Dimitar",
+       "RU": "Dimitar",
+       "ZH": "Dimitar",
+       "AR": "ديميتار "
       },
       "lastName": {
-       "EN": "Curbay",
-       "FR": "Curbay",
-       "DE": "Curbay",
-       "ES": "Curbay",
-       "PT": "Curbay",
-       "IT": "Curbay",
-       "RU": "Джурбай",
-       "ZH": "Curbay",
-       "AR": "كورباي"
+       "EN": "Mechkarovski",
+       "FR": "Mechkarovski",
+       "DE": "Mechkarovski",
+       "ES": "Mechkarovski",
+       "PT": "Mechkarovski",
+       "IT": "Mechkarovski",
+       "RU": "Meckarovski",
+       "ZH": "MECKAROVSKI",
+       "AR": "ميكاروفسكي"
       },
       "name": {
-       "EN": "Murat Tugberk Curbay",
-       "FR": "Murat Tugberk Curbay",
-       "DE": "Murat Tugberk Curbay",
-       "ES": "Murat Tugberk Curbay",
-       "PT": "Murat Tugberk Curbay",
-       "IT": "Murat Tugberk Curbay",
-       "RU": "Мурат Тугберк Джурбай",
-       "ZH": "Murat Tugberk Curbay",
-       "AR": "مراد توجبيرك كورباي"
+       "EN": "Dimitar Meckarovski",
+       "FR": "Dimitar Meckarovski",
+       "DE": "Dimitar Meckarovski",
+       "ES": "Dimitar Meckarovski",
+       "PT": "Dimitar Meckarovski",
+       "IT": "Dimitar Meckarovski",
+       "RU": "Димитар Мечкароски",
+       "ZH": "迪米塔·梅卡洛夫斯基",
+       "AR": "ديميتار ميكاروفسكي"
       },
       "shortName": {
-       "EN": "Curbay",
-       "FR": "Curbay",
-       "DE": "Curbay",
-       "ES": "Curbay",
-       "PT": "Curbay",
-       "IT": "Curbay",
-       "RU": "Джурбай",
-       "ZH": "Curbay",
-       "AR": "كورباي"
+       "EN": "Meckarovski",
+       "FR": "Meckarovski",
+       "DE": "Meckarovski",
+       "ES": "Meckarovski",
+       "PT": "Meckarovski",
+       "IT": "Meckarovski",
+       "RU": "Мечкароски",
+       "ZH": "梅卡洛夫斯基",
+       "AR": "ميكاروفسكي"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_TWO",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    },
@@ -549,82 +1401,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250076733.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250163911.jpg"
     },
     "person": {
-     "countryCode": "UKR",
+     "countryCode": "TUR",
      "gender": "MALE",
-     "id": "250076733",
+     "id": "250163911",
      "translations": {
       "countryName": {
-       "EN": "Ukraine",
-       "FR": "Ukraine",
-       "DE": "Ukraine",
-       "ES": "Ucrania",
-       "PT": "Ucrânia",
-       "IT": "Ucraina",
-       "RU": "Украина",
-       "ZH": "乌克兰",
-       "AR": "أوكرانيا"
+       "EN": "Türkiye",
+       "FR": "Turquie",
+       "DE": "Türkei",
+       "ES": "Turquía",
+       "PT": "Turquia",
+       "IT": "Turchia",
+       "RU": "Турция",
+       "ZH": "土耳其",
+       "AR": "تركيا"
       },
       "firstName": {
-       "EN": "Volodymyr",
-       "FR": "Volodymyr",
-       "DE": "Volodymyr",
-       "ES": "Volodymyr",
-       "PT": "Volodymyr",
-       "IT": "Volodymyr",
-       "RU": "Volodymyr",
-       "ZH": "Volodymyr",
-       "AR": "فولوديمير "
+       "EN": "Murat Tugberk",
+       "FR": "Murat Tugberk",
+       "DE": "Murat Tugberk",
+       "ES": "Murat Tugberk",
+       "PT": "Murat Tugberk",
+       "IT": "Murat Tugberk",
+       "RU": "Мурат Тугберк",
+       "ZH": "Murat Tugberk",
+       "AR": "مراد توجبيرك"
       },
       "lastName": {
-       "EN": "Vysotskyi",
-       "FR": "Vysotskyi",
-       "DE": "Vysotskyi",
-       "ES": "Vysotskyi",
-       "PT": "Vysotskyi",
-       "IT": "Vysotskyi",
-       "RU": "Vysotskyi",
-       "ZH": "Vysotskyi",
-       "AR": "فولوديمير "
+       "EN": "Curbay",
+       "FR": "Curbay",
+       "DE": "Curbay",
+       "ES": "Curbay",
+       "PT": "Curbay",
+       "IT": "Curbay",
+       "RU": "Джурбай",
+       "ZH": "Curbay",
+       "AR": "كورباي"
       },
       "name": {
-       "EN": "Volodymyr Vysotskyi",
-       "FR": "Volodymyr Vysotskyi",
-       "DE": "Volodymyr Vysotskyi",
-       "ES": "Volodymyr Vysotskyi",
-       "PT": "Volodymyr Vysotskyi",
-       "IT": "Volodymyr Vysotskyi",
-       "RU": "Владимир Высоцкий",
-       "ZH": "Volodymyr Vysotskyi",
-       "AR": "فولوديمير فيسوتسكي"
+       "EN": "Murat Tugberk Curbay",
+       "FR": "Murat Tugberk Curbay",
+       "DE": "Murat Tugberk Curbay",
+       "ES": "Murat Tugberk Curbay",
+       "PT": "Murat Tugberk Curbay",
+       "IT": "Murat Tugberk Curbay",
+       "RU": "Мурат Тугберк Джурбай",
+       "ZH": "Murat Tugberk Curbay",
+       "AR": "مراد توجبيرك كورباي"
       },
       "shortName": {
-       "EN": "Vysotskyi",
-       "FR": "Vysotskyi",
-       "DE": "Vysotskyi",
-       "ES": "Vysotskyi",
-       "PT": "Vysotskyi",
-       "IT": "Vysotskyi",
-       "RU": "Высоцкий",
-       "ZH": "Vysotskyi",
-       "AR": "فولوديمير "
+       "EN": "Curbay",
+       "FR": "Curbay",
+       "DE": "Curbay",
+       "ES": "Curbay",
+       "PT": "Curbay",
+       "IT": "Curbay",
+       "RU": "Джурбай",
+       "ZH": "Curbay",
+       "AR": "كورباي"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -706,87 +1558,6 @@
       "RU": "Четвертый рефери",
       "ZH": "Quarto árbitro",
       "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/279982.jpg"
-    },
-    "person": {
-     "countryCode": "MKD",
-     "gender": "MALE",
-     "id": "279982",
-     "translations": {
-      "countryName": {
-       "EN": "North Macedonia",
-       "FR": "Macédoine du Nord",
-       "DE": "Nordmazedonien",
-       "ES": "Macedonia del Norte",
-       "PT": "Macedónia do Norte",
-       "IT": "Macedonia del Nord",
-       "RU": "Северная Македония",
-       "ZH": "前南斯拉夫马其顿共和国",
-       "AR": "مقدونيا الشمالية"
-      },
-      "firstName": {
-       "EN": "Dimitar",
-       "FR": "Dimitar",
-       "DE": "Dimitar",
-       "ES": "Dimitar",
-       "PT": "Dimitar",
-       "IT": "Dimitar",
-       "RU": "Dimitar",
-       "ZH": "Dimitar",
-       "AR": "ديميتار "
-      },
-      "lastName": {
-       "EN": "Mechkarovski",
-       "FR": "Mechkarovski",
-       "DE": "Mechkarovski",
-       "ES": "Mechkarovski",
-       "PT": "Mechkarovski",
-       "IT": "Mechkarovski",
-       "RU": "Meckarovski",
-       "ZH": "MECKAROVSKI",
-       "AR": "ميكاروفسكي"
-      },
-      "name": {
-       "EN": "Dimitar Meckarovski",
-       "FR": "Dimitar Meckarovski",
-       "DE": "Dimitar Meckarovski",
-       "ES": "Dimitar Meckarovski",
-       "PT": "Dimitar Meckarovski",
-       "IT": "Dimitar Meckarovski",
-       "RU": "Димитар Мечкароски",
-       "ZH": "迪米塔·梅卡洛夫斯基",
-       "AR": "ديميتار ميكاروفسكي"
-      },
-      "shortName": {
-       "EN": "Meckarovski",
-       "FR": "Meckarovski",
-       "DE": "Meckarovski",
-       "ES": "Meckarovski",
-       "PT": "Meckarovski",
-       "IT": "Meckarovski",
-       "RU": "Мечкароски",
-       "ZH": "梅卡洛夫斯基",
-       "AR": "ميكاروفسكي"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
      }
     }
    }
@@ -887,6 +1658,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 1,
+    "home": 6
+   },
+   "total": {
+    "away": 1,
+    "home": 6
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 7,
   "stadium": {
@@ -982,8 +1763,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200109",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/POL.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/700x700/92336.png",
+     "confederationType": "UEFA",
+     "countryCode": "POL",
+     "id": "92336",
+     "idProvider": "FAME",
+     "internationalName": "Dolnośląski",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/TP/teams/logos/70x70/92336.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/240x240/92336.png",
+     "organizationId": "292336",
+     "teamCode": "DOL",
+     "teamTypeDetail": "DOMESTIC_AMATEUR",
+     "translations": {
+      "countryName": {
+       "EN": "Poland",
+       "FR": "Pologne",
+       "DE": "Polen",
+       "ES": "Polonia",
+       "PT": "Polónia",
+       "IT": "Polonia",
+       "RU": "Польша",
+       "ZH": "波兰",
+       "AR": "بولندا"
+      },
+      "displayName": {
+       "EN": "Dolnośląski",
+       "FR": "Dolnośląski",
+       "DE": "Dolnośląski",
+       "ES": "Dolnośląski",
+       "PT": "Dolnośląski",
+       "IT": "Dolnośląski",
+       "RU": "Дольны Шленск",
+       "ZH": "Dolnoslazski",
+       "AR": "Dolnośląski"
+      },
+      "displayOfficialName": {
+       "EN": "Dolnośląski Region",
+       "FR": "Dolnośląski Region",
+       "DE": "Dolnośląski Region",
+       "ES": "Dolnośląski Region",
+       "PT": "Dolnośląski Region",
+       "IT": "Dolnośląski Region",
+       "RU": "Дольны Шленск",
+       "ZH": "Dolnoslazski ZPN (POL)",
+       "AR": "Dolnośląski Region"
+      },
+      "displayTeamCode": {
+       "EN": "DOL",
+       "FR": "DOL",
+       "DE": "DOL",
+       "ES": "DOL",
+       "PT": "DOL",
+       "IT": "DOL",
+       "RU": "DOL",
+       "ZH": "DOL",
+       "AR": "DOL"
+      },
+      "shortName": {
+       "EN": "Dolny Slask",
+       "FR": "Dolny Slask",
+       "DE": "Dolny Slask",
+       "ES": "Dolny Slask",
+       "PT": "Dolny Slask",
+       "IT": "Dolny Slask",
+       "RU": "Дольны Шленск",
+       "ZH": "Dolnoslaski",
+       "AR": "Dolny Slask"
+      }
+     },
+     "typeIsNational": false,
+     "typeTeam": "DOMESTIC"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1125,6 +1986,36 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": -3,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
+  "fullTimeAt": "2026-11-24T11:51:59.115Z",
   "group": {
    "competitionId": "2008",
    "id": "2014112",
@@ -1282,7 +2173,8 @@
    "dateTime": "2026-11-24T10:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 293,
   "matchday": {
    "competitionId": "2008",
    "dateFrom": "2026-11-24T07:00:00+0000",
@@ -1321,88 +2213,865 @@
    },
    "type": "MATCHDAY"
   },
-  "referees": [
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214686.jpg"
-    },
-    "person": {
-     "countryCode": "ITA",
-     "gender": "MALE",
-     "id": "250214686",
-     "translations": {
-      "countryName": {
-       "EN": "Italy",
-       "FR": "Italie",
-       "DE": "Italien",
-       "ES": "Italia",
-       "PT": "Itália",
-       "IT": "Italia",
-       "RU": "Италия",
-       "ZH": "意大利",
-       "AR": "إيطاليا"
-      },
-      "firstName": {
-       "EN": "Andrea",
-       "FR": "Andrea",
-       "DE": "Andrea",
-       "ES": "Andrea",
-       "PT": "Andrea",
-       "IT": "Andrea",
-       "RU": "Andrea",
-       "ZH": "Andrea",
-       "AR": "Andrea"
-      },
-      "lastName": {
-       "EN": "Bianchini",
-       "FR": "Bianchini",
-       "DE": "Bianchini",
-       "ES": "Bianchini",
-       "PT": "Bianchini",
-       "IT": "Bianchini",
-       "RU": "Bianchini",
-       "ZH": "Bianchini",
-       "AR": "Bianchini"
-      },
-      "name": {
-       "EN": "Andrea Bianchini",
-       "FR": "Andrea Bianchini",
-       "DE": "Andrea Bianchini",
-       "ES": "Andrea Bianchini",
-       "PT": "Andrea Bianchini",
-       "IT": "Andrea Bianchini",
-       "RU": "Andrea Bianchini",
-       "ZH": "Andrea Bianchini",
-       "AR": "Andrea Bianchini"
-      },
-      "shortName": {
-       "EN": "Bianchini",
-       "FR": "Bianchini",
-       "DE": "Bianchini",
-       "ES": "Bianchini",
-       "PT": "Bianchini",
-       "IT": "Bianchini",
-       "RU": "Bianchini",
-       "ZH": "Bianchini",
-       "AR": "Bianchini"
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "fa451265-2050-4021-9fe8-fd117016da63",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "17",
+      "birthDate": "2009-06-17",
+      "clubId": "2610551",
+      "clubJerseyNumber": "22",
+      "clubShirtName": "Bozsoki",
+      "countryCode": "AUT",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250224874",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250224874.jpg",
+      "internationalName": "Lukas Bozsoki",
+      "nationalFieldPosition": "FORWARD",
+      "nationalShirtName": "Bozsoki",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Lukas",
+        "FR": "Lukas",
+        "DE": "Lukas",
+        "ES": "Lukas",
+        "PT": "Lukas",
+        "IT": "Lukas",
+        "RU": "Лукас",
+        "ZH": "Lukas",
+        "AR": "Lukas"
+       },
+       "lastName": {
+        "EN": "Bozsoki",
+        "FR": "Bozsoki",
+        "DE": "Bozsoki",
+        "ES": "Bozsoki",
+        "PT": "Bozsoki",
+        "IT": "Bozsoki",
+        "RU": "Божоки",
+        "ZH": "Bozsoki",
+        "AR": "Bozsoki"
+       },
+       "name": {
+        "EN": "Lukas Bozsoki",
+        "FR": "Lukas Bozsoki",
+        "DE": "Lukas Bozsoki",
+        "ES": "Lukas Bozsoki",
+        "PT": "Lukas Bozsoki",
+        "IT": "Lukas Bozsoki",
+        "RU": "Лукас Божоки",
+        "ZH": "Lukas Bozsoki",
+        "AR": "Lukas Bozsoki"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Bozsoki",
+        "FR": "Bozsoki",
+        "DE": "Bozsoki",
+        "ES": "Bozsoki",
+        "PT": "Bozsoki",
+        "IT": "Bozsoki",
+        "RU": "Божоки",
+        "ZH": "Bozsoki",
+        "AR": "Bozsoki"
+       }
       }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 3,
+      "second": 30
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
+    {
+     "goalType": "SCORED",
+     "id": "4e67b71e-52d2-4c7b-a8ef-87bd27411325",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-08-29",
+      "clubId": "63405",
+      "clubJerseyNumber": "28",
+      "clubShirtName": "Krapf",
+      "countryCode": "AUT",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250217981",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250217981.jpg",
+      "internationalName": "Paul Krapf",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "17",
+      "nationalShirtName": "",
+      "nationalTeamId": "300008",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Paul",
+        "FR": "Paul",
+        "DE": "Paul",
+        "ES": "Paul",
+        "PT": "Paul",
+        "IT": "Paul",
+        "RU": "Пауль",
+        "ZH": "保罗",
+        "AR": "بول"
+       },
+       "lastName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       },
+       "name": {
+        "EN": "Paul Krapf",
+        "FR": "Paul Krapf",
+        "DE": "Paul Krapf",
+        "ES": "Paul Krapf",
+        "PT": "Paul Krapf",
+        "IT": "Paul Krapf",
+        "RU": "Пауль Крапф",
+        "ZH": "保罗·克拉普夫",
+        "AR": "بول كرابف"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       }
+      }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 5,
+      "second": 9
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "6bfe51bb-2928-4a78-83f7-d3de093d4cfb",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-06-18",
+      "clubId": "59333",
+      "clubJerseyNumber": "21",
+      "clubShirtName": "Chooly",
+      "countryCode": "NOR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250213093",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250213093.jpg",
+      "internationalName": "Hindrin Chooly",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "19",
+      "nationalShirtName": "Chooly",
+      "nationalTeamId": "300101",
+      "translations": {
+       "countryName": {
+        "EN": "Norway",
+        "FR": "Norvège",
+        "DE": "Norwegen",
+        "ES": "Noruega",
+        "PT": "Noruega",
+        "IT": "Norvegia",
+        "RU": "Норвегия",
+        "ZH": "挪威",
+        "AR": "النرويج"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Hindrin",
+        "FR": "Hindrin",
+        "DE": "Hindrin",
+        "ES": "Hindrin",
+        "PT": "Hindrin",
+        "IT": "Hindrin",
+        "RU": "Хиндрин",
+        "ZH": "欣德林",
+        "AR": "هندرين نجاح"
+       },
+       "lastName": {
+        "EN": "Chooly",
+        "FR": "Chooly",
+        "DE": "Chooly",
+        "ES": "Chooly",
+        "PT": "Chooly",
+        "IT": "Chooly",
+        "RU": "Чули",
+        "ZH": "霍利",
+        "AR": "شولي"
+       },
+       "name": {
+        "EN": "Hindrin Chooly",
+        "FR": "Hindrin Chooly",
+        "DE": "Hindrin Chooly",
+        "ES": "Hindrin Chooly",
+        "PT": "Hindrin Chooly",
+        "IT": "Hindrin Chooly",
+        "RU": "Хиндрин Чули",
+        "ZH": "欣德林·霍利",
+        "AR": "هندرين نجاح شولي"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Chooly",
+        "FR": "Chooly",
+        "DE": "Chooly",
+        "ES": "Chooly",
+        "PT": "Chooly",
+        "IT": "Chooly",
+        "RU": "Чули",
+        "ZH": "霍利",
+        "AR": "شولي"
+       }
+      }
+     },
+     "teamId": "2611772",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 17,
+      "second": 46
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "7732533b-2e78-447d-93ef-0fbc8ea188f8",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-08-29",
+      "clubId": "63405",
+      "clubJerseyNumber": "28",
+      "clubShirtName": "Krapf",
+      "countryCode": "AUT",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250217981",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250217981.jpg",
+      "internationalName": "Paul Krapf",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "17",
+      "nationalShirtName": "",
+      "nationalTeamId": "300008",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Paul",
+        "FR": "Paul",
+        "DE": "Paul",
+        "ES": "Paul",
+        "PT": "Paul",
+        "IT": "Paul",
+        "RU": "Пауль",
+        "ZH": "保罗",
+        "AR": "بول"
+       },
+       "lastName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       },
+       "name": {
+        "EN": "Paul Krapf",
+        "FR": "Paul Krapf",
+        "DE": "Paul Krapf",
+        "ES": "Paul Krapf",
+        "PT": "Paul Krapf",
+        "IT": "Paul Krapf",
+        "RU": "Пауль Крапф",
+        "ZH": "保罗·克拉普夫",
+        "AR": "بول كرابف"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       }
+      }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 20,
+      "second": 29
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "e464ba9d-fe72-4a88-a1e6-b19a60c531f7",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-08-29",
+      "clubId": "63405",
+      "clubJerseyNumber": "28",
+      "clubShirtName": "Krapf",
+      "countryCode": "AUT",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250217981",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250217981.jpg",
+      "internationalName": "Paul Krapf",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "17",
+      "nationalShirtName": "",
+      "nationalTeamId": "300008",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Paul",
+        "FR": "Paul",
+        "DE": "Paul",
+        "ES": "Paul",
+        "PT": "Paul",
+        "IT": "Paul",
+        "RU": "Пауль",
+        "ZH": "保罗",
+        "AR": "بول"
+       },
+       "lastName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       },
+       "name": {
+        "EN": "Paul Krapf",
+        "FR": "Paul Krapf",
+        "DE": "Paul Krapf",
+        "ES": "Paul Krapf",
+        "PT": "Paul Krapf",
+        "IT": "Paul Krapf",
+        "RU": "Пауль Крапф",
+        "ZH": "保罗·克拉普夫",
+        "AR": "بول كرابف"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Krapf",
+        "FR": "Krapf",
+        "DE": "Krapf",
+        "ES": "Krapf",
+        "PT": "Krapf",
+        "IT": "Krapf",
+        "RU": "Крапф",
+        "ZH": "克拉普夫",
+        "AR": "كرابف"
+       }
+      }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 74,
+      "second": 29
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "10879567-a1c5-4868-83f2-707b69526df9",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "19",
+      "birthDate": "2007-10-20",
+      "clubId": "63405",
+      "clubJerseyNumber": "66",
+      "clubShirtName": "Wimmer",
+      "countryCode": "AUT",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250223435",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250223435.jpg",
+      "internationalName": "Alan Wimmer",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalShirtName": "Wimmer",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Alan",
+        "FR": "Alan",
+        "DE": "Alan",
+        "ES": "Alan",
+        "PT": "Alan",
+        "IT": "Alan",
+        "RU": "Алан",
+        "ZH": "艾伦",
+        "AR": "آلان "
+       },
+       "lastName": {
+        "EN": "Wimmer",
+        "FR": "Wimmer",
+        "DE": "Wimmer",
+        "ES": "Wimmer",
+        "PT": "Wimmer",
+        "IT": "Wimmer",
+        "RU": "Виммер",
+        "ZH": "维默尔",
+        "AR": "ويمر"
+       },
+       "name": {
+        "EN": "Alan Wimmer",
+        "FR": "Alan Wimmer",
+        "DE": "Alan Wimmer",
+        "ES": "Alan Wimmer",
+        "PT": "Alan Wimmer",
+        "IT": "Alan Wimmer",
+        "RU": "Алан Виммер",
+        "ZH": "艾伦·维默尔",
+        "AR": "آلان ويمر"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseur",
+        "DE": "Verteidiger",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "后卫",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Wimmer",
+        "FR": "Wimmer",
+        "DE": "Wimmer",
+        "ES": "Wimmer",
+        "PT": "Wimmer",
+        "IT": "Wimmer",
+        "RU": "Виммер",
+        "ZH": "维默尔",
+        "AR": "ويمر"
+       }
+      }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 79,
+      "second": 18
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "2c678069-faae-4e91-afd7-a1be57e7c6e0",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-06-18",
+      "clubId": "59333",
+      "clubJerseyNumber": "21",
+      "clubShirtName": "Chooly",
+      "countryCode": "NOR",
+      "fieldPosition": "FORWARD",
+      "gender": "MALE",
+      "id": "250213093",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250213093.jpg",
+      "internationalName": "Hindrin Chooly",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "19",
+      "nationalShirtName": "Chooly",
+      "nationalTeamId": "300101",
+      "translations": {
+       "countryName": {
+        "EN": "Norway",
+        "FR": "Norvège",
+        "DE": "Norwegen",
+        "ES": "Noruega",
+        "PT": "Noruega",
+        "IT": "Norvegia",
+        "RU": "Норвегия",
+        "ZH": "挪威",
+        "AR": "النرويج"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Hindrin",
+        "FR": "Hindrin",
+        "DE": "Hindrin",
+        "ES": "Hindrin",
+        "PT": "Hindrin",
+        "IT": "Hindrin",
+        "RU": "Хиндрин",
+        "ZH": "欣德林",
+        "AR": "هندرين نجاح"
+       },
+       "lastName": {
+        "EN": "Chooly",
+        "FR": "Chooly",
+        "DE": "Chooly",
+        "ES": "Chooly",
+        "PT": "Chooly",
+        "IT": "Chooly",
+        "RU": "Чули",
+        "ZH": "霍利",
+        "AR": "شولي"
+       },
+       "name": {
+        "EN": "Hindrin Chooly",
+        "FR": "Hindrin Chooly",
+        "DE": "Hindrin Chooly",
+        "ES": "Hindrin Chooly",
+        "PT": "Hindrin Chooly",
+        "IT": "Hindrin Chooly",
+        "RU": "Хиндрин Чули",
+        "ZH": "欣德林·霍利",
+        "AR": "هندرين نجاح شولي"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquant",
+        "DE": "Stürmer",
+        "ES": "Delantero",
+        "PT": "Avançado",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "前锋",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Chooly",
+        "FR": "Chooly",
+        "DE": "Chooly",
+        "ES": "Chooly",
+        "PT": "Chooly",
+        "IT": "Chooly",
+        "RU": "Чули",
+        "ZH": "霍利",
+        "AR": "شولي"
+       }
+      }
+     },
+     "teamId": "2611772",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 86,
+      "second": 46
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "3f14d57a-9213-42c8-bf56-c124c95cd5d9",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-04-13",
+      "clubId": "2610551",
+      "clubJerseyNumber": "40",
+      "clubShirtName": "Miksch",
+      "countryCode": "AUT",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "MALE",
+      "id": "250224887",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/2008/2027/324x324/250224887.jpg",
+      "internationalName": "Luca Miksch",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalShirtName": "Miksch",
+      "translations": {
+       "countryName": {
+        "EN": "Austria",
+        "FR": "Autriche",
+        "DE": "Österreich",
+        "ES": "Austria",
+        "PT": "Áustria",
+        "IT": "Austria",
+        "RU": "Австрия",
+        "ZH": "奥地利",
+        "AR": "النمسا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "firstName": {
+        "EN": "Luca",
+        "FR": "Luca",
+        "DE": "Luca",
+        "ES": "Luca",
+        "PT": "Luca",
+        "IT": "Luca",
+        "RU": "Лука",
+        "ZH": "Luca",
+        "AR": "Luca"
+       },
+       "lastName": {
+        "EN": "Miksch",
+        "FR": "Miksch",
+        "DE": "Miksch",
+        "ES": "Miksch",
+        "PT": "Miksch",
+        "IT": "Miksch",
+        "RU": "Микш",
+        "ZH": "Miksch",
+        "AR": "Miksch"
+       },
+       "name": {
+        "EN": "Luca Miksch",
+        "FR": "Luca Miksch",
+        "DE": "Luca Miksch",
+        "ES": "Luca Miksch",
+        "PT": "Luca Miksch",
+        "IT": "Luca Miksch",
+        "RU": "Лука Микш",
+        "ZH": "Luca Miksch",
+        "AR": "Luca Miksch"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieu",
+        "DE": "Mittelfeldspieler",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "中场球员",
+        "AR": "لاعب وسط"
+       },
+       "shortName": {
+        "EN": "Miksch",
+        "FR": "Miksch",
+        "DE": "Miksch",
+        "ES": "Miksch",
+        "PT": "Miksch",
+        "IT": "Miksch",
+        "RU": "Микш",
+        "ZH": "Miksch",
+        "AR": "Miksch"
+       }
+      }
+     },
+     "teamId": "2610551",
+     "teamIdProvider": "FAME",
+     "time": {
+      "injuryMinute": 1,
+      "minute": 90,
+      "second": 31
      }
     }
-   },
+   ]
+  },
+  "referees": [
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/267163.jpg"
@@ -1481,87 +3150,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250139947.jpg"
-    },
-    "person": {
-     "countryCode": "IRL",
-     "gender": "FEMALE",
-     "id": "250139947",
-     "translations": {
-      "countryName": {
-       "EN": "Republic of Ireland",
-       "FR": "Eire",
-       "DE": "Republik Irland",
-       "ES": "República de Irlanda",
-       "PT": "República da Irlanda",
-       "IT": "Repubblica d'Irlanda",
-       "RU": "Ирландия",
-       "ZH": "爱尔兰",
-       "AR": "جمهورية أيرلندا"
-      },
-      "firstName": {
-       "EN": "Ursula",
-       "FR": "Ursula",
-       "DE": "Ursula",
-       "ES": "Ursula",
-       "PT": "Ursula",
-       "IT": "Ursula",
-       "RU": "Ursula",
-       "ZH": "Ursula",
-       "AR": "أورسولا "
-      },
-      "lastName": {
-       "EN": "Scully",
-       "FR": "Scully",
-       "DE": "Scully",
-       "ES": "Scully",
-       "PT": "Scully",
-       "IT": "Scully",
-       "RU": "Scully",
-       "ZH": "Scully",
-       "AR": "سكولي"
-      },
-      "name": {
-       "EN": "Ursula Scully",
-       "FR": "Ursula Scully",
-       "DE": "Ursula Scully",
-       "ES": "Ursula Scully",
-       "PT": "Ursula Scully",
-       "IT": "Ursula Scully",
-       "RU": "Ursula Scully",
-       "ZH": "Ursula Scully",
-       "AR": "أورسولا سكولي"
-      },
-      "shortName": {
-       "EN": "Scully",
-       "FR": "Scully",
-       "DE": "Scully",
-       "ES": "Scully",
-       "PT": "Scully",
-       "IT": "Scully",
-       "RU": "Scully",
-       "ZH": "Scully",
-       "AR": "سكولي"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
      }
     }
    },
@@ -1648,6 +3236,168 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227109.jpg"
+    },
+    "person": {
+     "countryCode": "NOR",
+     "gender": "MALE",
+     "id": "250227109",
+     "translations": {
+      "countryName": {
+       "EN": "Norway",
+       "FR": "Norvège",
+       "DE": "Norwegen",
+       "ES": "Noruega",
+       "PT": "Noruega",
+       "IT": "Norvegia",
+       "RU": "Норвегия",
+       "ZH": "挪威",
+       "AR": "النرويج"
+      },
+      "firstName": {
+       "EN": "Martin",
+       "FR": "Martin",
+       "DE": "Martin",
+       "ES": "Martin",
+       "PT": "Martin",
+       "IT": "Martin",
+       "RU": "Martin",
+       "ZH": "Martin",
+       "AR": "Martin"
+      },
+      "lastName": {
+       "EN": "Berg",
+       "FR": "Berg",
+       "DE": "Berg",
+       "ES": "Berg",
+       "PT": "Berg",
+       "IT": "Berg",
+       "RU": "Berg",
+       "ZH": "Berg",
+       "AR": "Berg"
+      },
+      "name": {
+       "EN": "Martin Berg",
+       "FR": "Martin Berg",
+       "DE": "Martin Berg",
+       "ES": "Martin Berg",
+       "PT": "Martin Berg",
+       "IT": "Martin Berg",
+       "RU": "Martin Berg",
+       "ZH": "Martin Berg",
+       "AR": "Martin Berg"
+      },
+      "shortName": {
+       "EN": "Berg",
+       "FR": "Berg",
+       "DE": "Berg",
+       "ES": "Berg",
+       "PT": "Berg",
+       "IT": "Berg",
+       "RU": "Berg",
+       "ZH": "Berg",
+       "AR": "Berg"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250214686.jpg"
+    },
+    "person": {
+     "countryCode": "ITA",
+     "gender": "MALE",
+     "id": "250214686",
+     "translations": {
+      "countryName": {
+       "EN": "Italy",
+       "FR": "Italie",
+       "DE": "Italien",
+       "ES": "Italia",
+       "PT": "Itália",
+       "IT": "Italia",
+       "RU": "Италия",
+       "ZH": "意大利",
+       "AR": "إيطاليا"
+      },
+      "firstName": {
+       "EN": "Andrea",
+       "FR": "Andrea",
+       "DE": "Andrea",
+       "ES": "Andrea",
+       "PT": "Andrea",
+       "IT": "Andrea",
+       "RU": "Andrea",
+       "ZH": "Andrea",
+       "AR": "Andrea"
+      },
+      "lastName": {
+       "EN": "Bianchini",
+       "FR": "Bianchini",
+       "DE": "Bianchini",
+       "ES": "Bianchini",
+       "PT": "Bianchini",
+       "IT": "Bianchini",
+       "RU": "Bianchini",
+       "ZH": "Bianchini",
+       "AR": "Bianchini"
+      },
+      "name": {
+       "EN": "Andrea Bianchini",
+       "FR": "Andrea Bianchini",
+       "DE": "Andrea Bianchini",
+       "ES": "Andrea Bianchini",
+       "PT": "Andrea Bianchini",
+       "IT": "Andrea Bianchini",
+       "RU": "Andrea Bianchini",
+       "ZH": "Andrea Bianchini",
+       "AR": "Andrea Bianchini"
+      },
+      "shortName": {
+       "EN": "Bianchini",
+       "FR": "Bianchini",
+       "DE": "Bianchini",
+       "ES": "Bianchini",
+       "PT": "Bianchini",
+       "IT": "Bianchini",
+       "RU": "Bianchini",
+       "ZH": "Bianchini",
+       "AR": "Bianchini"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250096912.jpg"
     },
     "person": {
@@ -1729,82 +3479,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227109.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250139947.jpg"
     },
     "person": {
-     "countryCode": "NOR",
-     "gender": "MALE",
-     "id": "250227109",
+     "countryCode": "IRL",
+     "gender": "FEMALE",
+     "id": "250139947",
      "translations": {
       "countryName": {
-       "EN": "Norway",
-       "FR": "Norvège",
-       "DE": "Norwegen",
-       "ES": "Noruega",
-       "PT": "Noruega",
-       "IT": "Norvegia",
-       "RU": "Норвегия",
-       "ZH": "挪威",
-       "AR": "النرويج"
+       "EN": "Republic of Ireland",
+       "FR": "Eire",
+       "DE": "Republik Irland",
+       "ES": "República de Irlanda",
+       "PT": "República da Irlanda",
+       "IT": "Repubblica d'Irlanda",
+       "RU": "Ирландия",
+       "ZH": "爱尔兰",
+       "AR": "جمهورية أيرلندا"
       },
       "firstName": {
-       "EN": "Martin",
-       "FR": "Martin",
-       "DE": "Martin",
-       "ES": "Martin",
-       "PT": "Martin",
-       "IT": "Martin",
-       "RU": "Martin",
-       "ZH": "Martin",
-       "AR": "Martin"
+       "EN": "Ursula",
+       "FR": "Ursula",
+       "DE": "Ursula",
+       "ES": "Ursula",
+       "PT": "Ursula",
+       "IT": "Ursula",
+       "RU": "Ursula",
+       "ZH": "Ursula",
+       "AR": "أورسولا "
       },
       "lastName": {
-       "EN": "Berg",
-       "FR": "Berg",
-       "DE": "Berg",
-       "ES": "Berg",
-       "PT": "Berg",
-       "IT": "Berg",
-       "RU": "Berg",
-       "ZH": "Berg",
-       "AR": "Berg"
+       "EN": "Scully",
+       "FR": "Scully",
+       "DE": "Scully",
+       "ES": "Scully",
+       "PT": "Scully",
+       "IT": "Scully",
+       "RU": "Scully",
+       "ZH": "Scully",
+       "AR": "سكولي"
       },
       "name": {
-       "EN": "Martin Berg",
-       "FR": "Martin Berg",
-       "DE": "Martin Berg",
-       "ES": "Martin Berg",
-       "PT": "Martin Berg",
-       "IT": "Martin Berg",
-       "RU": "Martin Berg",
-       "ZH": "Martin Berg",
-       "AR": "Martin Berg"
+       "EN": "Ursula Scully",
+       "FR": "Ursula Scully",
+       "DE": "Ursula Scully",
+       "ES": "Ursula Scully",
+       "PT": "Ursula Scully",
+       "IT": "Ursula Scully",
+       "RU": "Ursula Scully",
+       "ZH": "Ursula Scully",
+       "AR": "أورسولا سكولي"
       },
       "shortName": {
-       "EN": "Berg",
-       "FR": "Berg",
-       "DE": "Berg",
-       "ES": "Berg",
-       "PT": "Berg",
-       "IT": "Berg",
-       "RU": "Berg",
-       "ZH": "Berg",
-       "AR": "Berg"
+       "EN": "Scully",
+       "FR": "Scully",
+       "DE": "Scully",
+       "ES": "Scully",
+       "PT": "Scully",
+       "IT": "Scully",
+       "RU": "Scully",
+       "ZH": "Scully",
+       "AR": "سكولي"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "UEFA_DELEGATE",
     "translations": {
      "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -1909,6 +3659,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 6,
+    "home": 2
+   },
+   "total": {
+    "away": 6,
+    "home": 2
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 1,
   "stadium": {
@@ -2004,7 +3764,87 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200008",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/AUT.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/700x700/2610551.png",
+     "confederationType": "UEFA",
+     "countryCode": "AUT",
+     "id": "2610551",
+     "idProvider": "FAME",
+     "internationalName": "LASK",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2610551.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2610551.png",
+     "organizationId": "263405",
+     "teamCode": "LASK",
+     "teamTypeDetail": "DOMESTIC_MEN_TEAM_YOUTH",
+     "translations": {
+      "countryName": {
+       "EN": "Austria",
+       "FR": "Autriche",
+       "DE": "Österreich",
+       "ES": "Austria",
+       "PT": "Áustria",
+       "IT": "Austria",
+       "RU": "Австрия",
+       "ZH": "奥地利",
+       "AR": "النمسا"
+      },
+      "displayName": {
+       "EN": "LASK",
+       "FR": "LASK",
+       "DE": "LASK",
+       "ES": "LASK",
+       "PT": "LASK",
+       "IT": "LASK",
+       "RU": "ЛАСК",
+       "ZH": "LASK Youth",
+       "AR": "LASK Youth"
+      },
+      "displayOfficialName": {
+       "EN": "LASK",
+       "FR": "LASK",
+       "DE": "LASK",
+       "ES": "LASK",
+       "PT": "LASK",
+       "IT": "LASK",
+       "RU": "ЛАСК",
+       "ZH": "LASK Youth",
+       "AR": "LASK Youth"
+      },
+      "displayTeamCode": {
+       "EN": "LASK",
+       "FR": "LASK",
+       "DE": "LASK",
+       "ES": "LASK",
+       "PT": "LASK",
+       "IT": "LASK",
+       "RU": "LASK",
+       "ZH": "LASK",
+       "AR": "LASK"
+      },
+      "shortName": {
+       "EN": "LASK",
+       "FR": "LASK",
+       "DE": "LASK",
+       "ES": "LASK",
+       "PT": "LASK",
+       "IT": "LASK",
+       "RU": "ЛАСК",
+       "ZH": "LASK Youth",
+       "AR": "LASK Youth"
+      }
+     },
+     "typeIsNational": false,
+     "typeTeam": "DOMESTIC"
+    }
+   }
+  }
  }
 ]
