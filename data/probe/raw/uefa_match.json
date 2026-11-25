@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 7,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "2008",
    "id": "2014112",
@@ -285,7 +314,7 @@
    "dateTime": "2026-11-25T11:00:00Z",
    "utcOffsetInHours": 4
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "2008",
    "dateFrom": "2026-11-24T07:00:00+0000",
@@ -324,247 +353,89 @@
    },
    "type": "MATCHDAY"
   },
+  "minute": {
+   "normal": 12
+  },
+  "phase": "FIRST_HALF",
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250018969.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165633.jpg"
     },
     "person": {
-     "countryCode": "MDA",
+     "countryCode": "AZE",
      "gender": "MALE",
-     "id": "250018969",
+     "id": "250165633",
      "translations": {
       "countryName": {
-       "EN": "Moldova",
-       "FR": "Moldavie",
-       "DE": "Moldau",
-       "ES": "Moldavia",
-       "PT": "Moldávia",
-       "IT": "Moldavia",
-       "RU": "Молдова",
-       "ZH": "摩尔多瓦",
-       "AR": "مولدوفا"
+       "EN": "Azerbaijan",
+       "FR": "Azerbaïdjan",
+       "DE": "Aserbaidschan",
+       "ES": "Azerbaiyán",
+       "PT": "Azerbaijão",
+       "IT": "Azerbaigian",
+       "RU": "Азербайджан",
+       "ZH": "阿赛拜疆",
+       "AR": "أذربيجان"
       },
       "firstName": {
-       "EN": "Ion",
-       "FR": "Ion",
-       "DE": "Ion",
-       "ES": "Ion",
-       "PT": "Ion",
-       "IT": "Ion",
-       "RU": "Ion",
-       "ZH": "Ion",
-       "AR": "Ion"
+       "EN": "Farid",
+       "FR": "Farid",
+       "DE": "Farid",
+       "ES": "Farid",
+       "PT": "Farid",
+       "IT": "Farid",
+       "RU": "Фарид",
+       "ZH": "Farid",
+       "AR": "فريد "
       },
       "lastName": {
-       "EN": "Poalelungi",
-       "FR": "Poalelungi",
-       "DE": "Poalelungi",
-       "ES": "Poalelungi",
-       "PT": "Poalelungi",
-       "IT": "Poalelungi",
-       "RU": "Poalelungi",
-       "ZH": "Poalelungi",
-       "AR": "Poalelungi"
+       "EN": "Hajiyev",
+       "FR": "Hajiyev",
+       "DE": "Hajiyev",
+       "ES": "Hajiyev",
+       "PT": "Hajiyev",
+       "IT": "Hajiyev",
+       "RU": "Гаджиев",
+       "ZH": "Hajiyev",
+       "AR": "فريد "
       },
       "name": {
-       "EN": "Ion Poalelungi",
-       "FR": "Ion Poalelungi",
-       "DE": "Ion Poalelungi",
-       "ES": "Ion Poalelungi",
-       "PT": "Ion Poalelungi",
-       "IT": "Ion Poalelungi",
-       "RU": "Ion Poalelungi",
-       "ZH": "Ion Poalelungi",
-       "AR": "Ion Poalelungi"
+       "EN": "Farid Hajiyev",
+       "FR": "Farid Hajiyev",
+       "DE": "Farid Hajiyev",
+       "ES": "Farid Hajiyev",
+       "PT": "Farid Hajiyev",
+       "IT": "Farid Hajiyev",
+       "RU": "Фарид Гаджиев",
+       "ZH": "Farid Hajiyev",
+       "AR": "فريد حاجييف"
       },
       "shortName": {
-       "EN": "Poalelungi",
-       "FR": "Poalelungi",
-       "DE": "Poalelungi",
-       "ES": "Poalelungi",
-       "PT": "Poalelungi",
-       "IT": "Poalelungi",
-       "RU": "Poalelungi",
-       "ZH": "Poalelungi",
-       "AR": "Poalelungi"
+       "EN": "Hajiyev",
+       "FR": "Hajiyev",
+       "DE": "Hajiyev",
+       "ES": "Hajiyev",
+       "PT": "Hajiyev",
+       "IT": "Hajiyev",
+       "RU": "Гаджиев",
+       "ZH": "Hajiyev",
+       "AR": "حاجييف"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "FOURTH_OFFICIAL",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250146400.jpg"
-    },
-    "person": {
-     "countryCode": "FIN",
-     "gender": "MALE",
-     "id": "250146400",
-     "translations": {
-      "countryName": {
-       "EN": "Finland",
-       "FR": "Finlande",
-       "DE": "Finnland",
-       "ES": "Finlandia",
-       "PT": "Finlândia",
-       "IT": "Finlandia",
-       "RU": "Финляндия",
-       "ZH": "芬兰",
-       "AR": "فنلندا"
-      },
-      "firstName": {
-       "EN": "Samu",
-       "FR": "Samu",
-       "DE": "Samu",
-       "ES": "Samu",
-       "PT": "Samu",
-       "IT": "Samu",
-       "RU": "Саму",
-       "ZH": "Samu",
-       "AR": "سامو "
-      },
-      "lastName": {
-       "EN": "Koskinen",
-       "FR": "Koskinen",
-       "DE": "Koskinen",
-       "ES": "Koskinen",
-       "PT": "Koskinen",
-       "IT": "Koskinen",
-       "RU": "Коскинен",
-       "ZH": "Koskinen",
-       "AR": "كوسكينين"
-      },
-      "name": {
-       "EN": "Samu Koskinen",
-       "FR": "Samu Koskinen",
-       "DE": "Samu Koskinen",
-       "ES": "Samu Koskinen",
-       "PT": "Samu Koskinen",
-       "IT": "Samu Koskinen",
-       "RU": "Саму Коскинен",
-       "ZH": "Samu Koskinen",
-       "AR": "سامو كوسكينين"
-      },
-      "shortName": {
-       "EN": "Koskinen",
-       "FR": "Koskinen",
-       "DE": "Koskinen",
-       "ES": "Koskinen",
-       "PT": "Koskinen",
-       "IT": "Koskinen",
-       "RU": "Коскинен",
-       "ZH": "Koskinen",
-       "AR": "كوسكينين"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250181972.jpg"
-    },
-    "person": {
-     "countryCode": "FIN",
-     "gender": "MALE",
-     "id": "250181972",
-     "translations": {
-      "countryName": {
-       "EN": "Finland",
-       "FR": "Finlande",
-       "DE": "Finnland",
-       "ES": "Finlandia",
-       "PT": "Finlândia",
-       "IT": "Finlandia",
-       "RU": "Финляндия",
-       "ZH": "芬兰",
-       "AR": "فنلندا"
-      },
-      "firstName": {
-       "EN": "Christian",
-       "FR": "Christian",
-       "DE": "Christian",
-       "ES": "Christian",
-       "PT": "Christian",
-       "IT": "Christian",
-       "RU": "Кристиан",
-       "ZH": "Christian",
-       "AR": "كريستيان "
-      },
-      "lastName": {
-       "EN": "De Casseres",
-       "FR": "De Casseres",
-       "DE": "De Casseres",
-       "ES": "De Casseres",
-       "PT": "De Casseres",
-       "IT": "De Casseres",
-       "RU": "де Кассерес",
-       "ZH": "De Casseres",
-       "AR": " دي كاسيريس"
-      },
-      "name": {
-       "EN": "Christian De Casseres",
-       "FR": "Christian De Casseres",
-       "DE": "Christian De Casseres",
-       "ES": "Christian De Casseres",
-       "PT": "Christian De Casseres",
-       "IT": "Christian De Casseres",
-       "RU": "Кристиан де Кассерес",
-       "ZH": "Christian De Casseres",
-       "AR": "كريستيان دي كاسيريس"
-      },
-      "shortName": {
-       "EN": "De Casseres",
-       "FR": "De Casseres",
-       "DE": "De Casseres",
-       "ES": "De Casseres",
-       "PT": "De Casseres",
-       "IT": "De Casseres",
-       "RU": "де Кассерес",
-       "ZH": "De Casseres",
-       "AR": " دي كاسيريس"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
+      "EN": "Fourth official",
+      "FR": "Quatrième arbitre",
+      "DE": "Vierter Offizieller",
+      "ES": "Cuarto árbitro",
+      "PT": "Quarto árbitro",
+      "IT": "Quarto uomo",
+      "RU": "Четвертый рефери",
+      "ZH": "Quarto árbitro",
+      "AR": "الحكم الرابع"
      }
     }
    },
@@ -651,87 +522,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165633.jpg"
-    },
-    "person": {
-     "countryCode": "AZE",
-     "gender": "MALE",
-     "id": "250165633",
-     "translations": {
-      "countryName": {
-       "EN": "Azerbaijan",
-       "FR": "Azerbaïdjan",
-       "DE": "Aserbaidschan",
-       "ES": "Azerbaiyán",
-       "PT": "Azerbaijão",
-       "IT": "Azerbaigian",
-       "RU": "Азербайджан",
-       "ZH": "阿赛拜疆",
-       "AR": "أذربيجان"
-      },
-      "firstName": {
-       "EN": "Farid",
-       "FR": "Farid",
-       "DE": "Farid",
-       "ES": "Farid",
-       "PT": "Farid",
-       "IT": "Farid",
-       "RU": "Фарид",
-       "ZH": "Farid",
-       "AR": "فريد "
-      },
-      "lastName": {
-       "EN": "Hajiyev",
-       "FR": "Hajiyev",
-       "DE": "Hajiyev",
-       "ES": "Hajiyev",
-       "PT": "Hajiyev",
-       "IT": "Hajiyev",
-       "RU": "Гаджиев",
-       "ZH": "Hajiyev",
-       "AR": "فريد "
-      },
-      "name": {
-       "EN": "Farid Hajiyev",
-       "FR": "Farid Hajiyev",
-       "DE": "Farid Hajiyev",
-       "ES": "Farid Hajiyev",
-       "PT": "Farid Hajiyev",
-       "IT": "Farid Hajiyev",
-       "RU": "Фарид Гаджиев",
-       "ZH": "Farid Hajiyev",
-       "AR": "فريد حاجييف"
-      },
-      "shortName": {
-       "EN": "Hajiyev",
-       "FR": "Hajiyev",
-       "DE": "Hajiyev",
-       "ES": "Hajiyev",
-       "PT": "Hajiyev",
-       "IT": "Hajiyev",
-       "RU": "Гаджиев",
-       "ZH": "Hajiyev",
-       "AR": "حاجييف"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth official",
-      "FR": "Quatrième arbitre",
-      "DE": "Vierter Offizieller",
-      "ES": "Cuarto árbitro",
-      "PT": "Quarto árbitro",
-      "IT": "Quarto uomo",
-      "RU": "Четвертый рефери",
-      "ZH": "Quarto árbitro",
-      "AR": "الحكم الرابع"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250166059.jpg"
     },
     "person": {
@@ -808,6 +598,249 @@
       "RU": "Рефери",
       "ZH": "Árbitro",
       "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250018969.jpg"
+    },
+    "person": {
+     "countryCode": "MDA",
+     "gender": "MALE",
+     "id": "250018969",
+     "translations": {
+      "countryName": {
+       "EN": "Moldova",
+       "FR": "Moldavie",
+       "DE": "Moldau",
+       "ES": "Moldavia",
+       "PT": "Moldávia",
+       "IT": "Moldavia",
+       "RU": "Молдова",
+       "ZH": "摩尔多瓦",
+       "AR": "مولدوفا"
+      },
+      "firstName": {
+       "EN": "Ion",
+       "FR": "Ion",
+       "DE": "Ion",
+       "ES": "Ion",
+       "PT": "Ion",
+       "IT": "Ion",
+       "RU": "Ion",
+       "ZH": "Ion",
+       "AR": "Ion"
+      },
+      "lastName": {
+       "EN": "Poalelungi",
+       "FR": "Poalelungi",
+       "DE": "Poalelungi",
+       "ES": "Poalelungi",
+       "PT": "Poalelungi",
+       "IT": "Poalelungi",
+       "RU": "Poalelungi",
+       "ZH": "Poalelungi",
+       "AR": "Poalelungi"
+      },
+      "name": {
+       "EN": "Ion Poalelungi",
+       "FR": "Ion Poalelungi",
+       "DE": "Ion Poalelungi",
+       "ES": "Ion Poalelungi",
+       "PT": "Ion Poalelungi",
+       "IT": "Ion Poalelungi",
+       "RU": "Ion Poalelungi",
+       "ZH": "Ion Poalelungi",
+       "AR": "Ion Poalelungi"
+      },
+      "shortName": {
+       "EN": "Poalelungi",
+       "FR": "Poalelungi",
+       "DE": "Poalelungi",
+       "ES": "Poalelungi",
+       "PT": "Poalelungi",
+       "IT": "Poalelungi",
+       "RU": "Poalelungi",
+       "ZH": "Poalelungi",
+       "AR": "Poalelungi"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250181972.jpg"
+    },
+    "person": {
+     "countryCode": "FIN",
+     "gender": "MALE",
+     "id": "250181972",
+     "translations": {
+      "countryName": {
+       "EN": "Finland",
+       "FR": "Finlande",
+       "DE": "Finnland",
+       "ES": "Finlandia",
+       "PT": "Finlândia",
+       "IT": "Finlandia",
+       "RU": "Финляндия",
+       "ZH": "芬兰",
+       "AR": "فنلندا"
+      },
+      "firstName": {
+       "EN": "Christian",
+       "FR": "Christian",
+       "DE": "Christian",
+       "ES": "Christian",
+       "PT": "Christian",
+       "IT": "Christian",
+       "RU": "Кристиан",
+       "ZH": "Christian",
+       "AR": "كريستيان "
+      },
+      "lastName": {
+       "EN": "De Casseres",
+       "FR": "De Casseres",
+       "DE": "De Casseres",
+       "ES": "De Casseres",
+       "PT": "De Casseres",
+       "IT": "De Casseres",
+       "RU": "де Кассерес",
+       "ZH": "De Casseres",
+       "AR": " دي كاسيريس"
+      },
+      "name": {
+       "EN": "Christian De Casseres",
+       "FR": "Christian De Casseres",
+       "DE": "Christian De Casseres",
+       "ES": "Christian De Casseres",
+       "PT": "Christian De Casseres",
+       "IT": "Christian De Casseres",
+       "RU": "Кристиан де Кассерес",
+       "ZH": "Christian De Casseres",
+       "AR": "كريستيان دي كاسيريس"
+      },
+      "shortName": {
+       "EN": "De Casseres",
+       "FR": "De Casseres",
+       "DE": "De Casseres",
+       "ES": "De Casseres",
+       "PT": "De Casseres",
+       "IT": "De Casseres",
+       "RU": "де Кассерес",
+       "ZH": "De Casseres",
+       "AR": " دي كاسيريس"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250146400.jpg"
+    },
+    "person": {
+     "countryCode": "FIN",
+     "gender": "MALE",
+     "id": "250146400",
+     "translations": {
+      "countryName": {
+       "EN": "Finland",
+       "FR": "Finlande",
+       "DE": "Finnland",
+       "ES": "Finlandia",
+       "PT": "Finlândia",
+       "IT": "Finlandia",
+       "RU": "Финляндия",
+       "ZH": "芬兰",
+       "AR": "فنلندا"
+      },
+      "firstName": {
+       "EN": "Samu",
+       "FR": "Samu",
+       "DE": "Samu",
+       "ES": "Samu",
+       "PT": "Samu",
+       "IT": "Samu",
+       "RU": "Саму",
+       "ZH": "Samu",
+       "AR": "سامو "
+      },
+      "lastName": {
+       "EN": "Koskinen",
+       "FR": "Koskinen",
+       "DE": "Koskinen",
+       "ES": "Koskinen",
+       "PT": "Koskinen",
+       "IT": "Koskinen",
+       "RU": "Коскинен",
+       "ZH": "Koskinen",
+       "AR": "كوسكينين"
+      },
+      "name": {
+       "EN": "Samu Koskinen",
+       "FR": "Samu Koskinen",
+       "DE": "Samu Koskinen",
+       "ES": "Samu Koskinen",
+       "PT": "Samu Koskinen",
+       "IT": "Samu Koskinen",
+       "RU": "Саму Коскинен",
+       "ZH": "Samu Koskinen",
+       "AR": "سامو كوسكينين"
+      },
+      "shortName": {
+       "EN": "Koskinen",
+       "FR": "Koskinen",
+       "DE": "Koskinen",
+       "ES": "Koskinen",
+       "PT": "Koskinen",
+       "IT": "Koskinen",
+       "RU": "Коскинен",
+       "ZH": "Koskinen",
+       "AR": "كوسكينين"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    }
@@ -912,6 +945,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 0
+   },
+   "total": {
+    "away": 0,
+    "home": 0
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 2,
   "stadium": {
@@ -1007,7 +1050,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "First half",
+    "FR": "Première période",
+    "DE": "Erste Halbzeit",
+    "ES": "Primera parte",
+    "PT": "Primeira parte",
+    "IT": "Primo tempo",
+    "RU": "Первый тайм",
+    "ZH": "上半场",
+    "AR": "الشوط الأول"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1139,6 +1195,35 @@
    "type": "CUP"
   },
   "competitionPhase": "TOURNAMENT",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 2,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
   "homeTeam": {
    "associationId": "200109",
    "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/POL.svg",
@@ -1238,7 +1323,7 @@
     }
    }
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "2008",
    "dateFrom": "2026-11-25T07:00:00+0000",
@@ -1277,15 +1362,19 @@
    },
    "type": "FIRST_LEG"
   },
+  "minute": {
+   "normal": 8
+  },
+  "phase": "FIRST_HALF",
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250191171.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250229051.jpg"
     },
     "person": {
      "countryCode": "ISR",
      "gender": "MALE",
-     "id": "250191171",
+     "id": "250229051",
      "translations": {
       "countryName": {
        "EN": "Israel",
@@ -1299,63 +1388,63 @@
        "AR": "إسرائيل"
       },
       "firstName": {
-       "EN": "Dor",
-       "FR": "Dor",
-       "DE": "Dor",
-       "ES": "Dor",
-       "PT": "Dor",
-       "IT": "Dor",
-       "RU": "Дор",
-       "ZH": "Dor",
-       "AR": "دور "
+       "EN": "Artem",
+       "FR": "Artem",
+       "DE": "Artem",
+       "ES": "Artem",
+       "PT": "Artem",
+       "IT": "Artem",
+       "RU": "Artem",
+       "ZH": "Artem",
+       "AR": "Artem"
       },
       "lastName": {
-       "EN": "Medina",
-       "FR": "Medina",
-       "DE": "Medina",
-       "ES": "Medina",
-       "PT": "Medina",
-       "IT": "Medina",
-       "RU": "Медина",
-       "ZH": "Medina",
-       "AR": "مدينا"
+       "EN": "Glekov",
+       "FR": "Glekov",
+       "DE": "Glekov",
+       "ES": "Glekov",
+       "PT": "Glekov",
+       "IT": "Glekov",
+       "RU": "Glekov",
+       "ZH": "Glekov",
+       "AR": "Glekov"
       },
       "name": {
-       "EN": "Dor Medina",
-       "FR": "Dor Medina",
-       "DE": "Dor Medina",
-       "ES": "Dor Medina",
-       "PT": "Dor Medina",
-       "IT": "Dor Medina",
-       "RU": "Дор Медина",
-       "ZH": "Dor Medina",
-       "AR": "دور مدينا"
+       "EN": "Artem Glekov",
+       "FR": "Artem Glekov",
+       "DE": "Artem Glekov",
+       "ES": "Artem Glekov",
+       "PT": "Artem Glekov",
+       "IT": "Artem Glekov",
+       "RU": "Artem Glekov",
+       "ZH": "Artem Glekov",
+       "AR": "Artem Glekov"
       },
       "shortName": {
-       "EN": "Medina",
-       "FR": "Medina",
-       "DE": "Medina",
-       "ES": "Medina",
-       "PT": "Medina",
-       "IT": "Medina",
-       "RU": "Медина",
-       "ZH": "Medina",
-       "AR": "مدينا"
+       "EN": "Glekov",
+       "FR": "Glekov",
+       "DE": "Glekov",
+       "ES": "Glekov",
+       "PT": "Glekov",
+       "IT": "Glekov",
+       "RU": "Glekov",
+       "ZH": "Glekov",
+       "AR": "Glekov"
       }
      }
     },
-    "role": "ASSISTANT_REFEREE_ONE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Assistant referees",
-      "FR": "Arbitres assistants",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros asistentes",
-      "PT": "Árbitros assistentes",
-      "IT": "Assistenti arbitrali",
-      "RU": "Ассистенты рефери",
-      "ZH": "Árbitros assistentes",
-      "AR": "الحكام المساعدون"
+      "EN": "Assistant referee two",
+      "FR": "Arbitre assistant n°2",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Segundo árbitro asistente",
+      "PT": "Árbitro assistente 2",
+      "IT": "Guardalinee due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Árbitro-assistente 2",
+      "AR": "مساعد الحكم الثاني"
      }
     }
    },
@@ -1442,87 +1531,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250229051.jpg"
-    },
-    "person": {
-     "countryCode": "ISR",
-     "gender": "MALE",
-     "id": "250229051",
-     "translations": {
-      "countryName": {
-       "EN": "Israel",
-       "FR": "Israël",
-       "DE": "Israel",
-       "ES": "Israel",
-       "PT": "Israel",
-       "IT": "Israele",
-       "RU": "Израиль",
-       "ZH": "以色列",
-       "AR": "إسرائيل"
-      },
-      "firstName": {
-       "EN": "Artem",
-       "FR": "Artem",
-       "DE": "Artem",
-       "ES": "Artem",
-       "PT": "Artem",
-       "IT": "Artem",
-       "RU": "Artem",
-       "ZH": "Artem",
-       "AR": "Artem"
-      },
-      "lastName": {
-       "EN": "Glekov",
-       "FR": "Glekov",
-       "DE": "Glekov",
-       "ES": "Glekov",
-       "PT": "Glekov",
-       "IT": "Glekov",
-       "RU": "Glekov",
-       "ZH": "Glekov",
-       "AR": "Glekov"
-      },
-      "name": {
-       "EN": "Artem Glekov",
-       "FR": "Artem Glekov",
-       "DE": "Artem Glekov",
-       "ES": "Artem Glekov",
-       "PT": "Artem Glekov",
-       "IT": "Artem Glekov",
-       "RU": "Artem Glekov",
-       "ZH": "Artem Glekov",
-       "AR": "Artem Glekov"
-      },
-      "shortName": {
-       "EN": "Glekov",
-       "FR": "Glekov",
-       "DE": "Glekov",
-       "ES": "Glekov",
-       "PT": "Glekov",
-       "IT": "Glekov",
-       "RU": "Glekov",
-       "ZH": "Glekov",
-       "AR": "Glekov"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant referee two",
-      "FR": "Arbitre assistant n°2",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Segundo árbitro asistente",
-      "PT": "Árbitro assistente 2",
-      "IT": "Guardalinee due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Árbitro-assistente 2",
-      "AR": "مساعد الحكم الثاني"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250188417.jpg"
     },
     "person": {
@@ -1604,87 +1612,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/50222209.jpg"
-    },
-    "person": {
-     "countryCode": "ISR",
-     "gender": "MALE",
-     "id": "50222209",
-     "translations": {
-      "countryName": {
-       "EN": "Israel",
-       "FR": "Israël",
-       "DE": "Israel",
-       "ES": "Israel",
-       "PT": "Israel",
-       "IT": "Israele",
-       "RU": "Израиль",
-       "ZH": "以色列",
-       "AR": "إسرائيل"
-      },
-      "firstName": {
-       "EN": "Ran",
-       "FR": "Ran",
-       "DE": "Ran",
-       "ES": "Ran",
-       "PT": "Ran",
-       "IT": "Ran",
-       "RU": "Ran",
-       "ZH": "Ran",
-       "AR": "Ran"
-      },
-      "lastName": {
-       "EN": "Cohen",
-       "FR": "Cohen",
-       "DE": "Cohen",
-       "ES": "Cohen",
-       "PT": "Cohen",
-       "IT": "Cohen",
-       "RU": "Cohen",
-       "ZH": "Cohen",
-       "AR": "Cohen"
-      },
-      "name": {
-       "EN": "Ran Cohen",
-       "FR": "Ran Cohen",
-       "DE": "Ran Cohen",
-       "ES": "Ran Cohen",
-       "PT": "Ran Cohen",
-       "IT": "Ran Cohen",
-       "RU": "Ran Cohen",
-       "ZH": "Ran Cohen",
-       "AR": "Ran Cohen"
-      },
-      "shortName": {
-       "EN": "Cohen",
-       "FR": "Cohen",
-       "DE": "Cohen",
-       "ES": "Cohen",
-       "PT": "Cohen",
-       "IT": "Cohen",
-       "RU": "Cohen",
-       "ZH": "Cohen",
-       "AR": "Cohen"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250137904.jpg"
     },
     "person": {
@@ -1761,6 +1688,168 @@
       "RU": "Рефери",
       "ZH": "Árbitro",
       "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250191171.jpg"
+    },
+    "person": {
+     "countryCode": "ISR",
+     "gender": "MALE",
+     "id": "250191171",
+     "translations": {
+      "countryName": {
+       "EN": "Israel",
+       "FR": "Israël",
+       "DE": "Israel",
+       "ES": "Israel",
+       "PT": "Israel",
+       "IT": "Israele",
+       "RU": "Израиль",
+       "ZH": "以色列",
+       "AR": "إسرائيل"
+      },
+      "firstName": {
+       "EN": "Dor",
+       "FR": "Dor",
+       "DE": "Dor",
+       "ES": "Dor",
+       "PT": "Dor",
+       "IT": "Dor",
+       "RU": "Дор",
+       "ZH": "Dor",
+       "AR": "دور "
+      },
+      "lastName": {
+       "EN": "Medina",
+       "FR": "Medina",
+       "DE": "Medina",
+       "ES": "Medina",
+       "PT": "Medina",
+       "IT": "Medina",
+       "RU": "Медина",
+       "ZH": "Medina",
+       "AR": "مدينا"
+      },
+      "name": {
+       "EN": "Dor Medina",
+       "FR": "Dor Medina",
+       "DE": "Dor Medina",
+       "ES": "Dor Medina",
+       "PT": "Dor Medina",
+       "IT": "Dor Medina",
+       "RU": "Дор Медина",
+       "ZH": "Dor Medina",
+       "AR": "دور مدينا"
+      },
+      "shortName": {
+       "EN": "Medina",
+       "FR": "Medina",
+       "DE": "Medina",
+       "ES": "Medina",
+       "PT": "Medina",
+       "IT": "Medina",
+       "RU": "Медина",
+       "ZH": "Medina",
+       "AR": "مدينا"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant referees",
+      "FR": "Arbitres assistants",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros asistentes",
+      "PT": "Árbitros assistentes",
+      "IT": "Assistenti arbitrali",
+      "RU": "Ассистенты рефери",
+      "ZH": "Árbitros assistentes",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/50222209.jpg"
+    },
+    "person": {
+     "countryCode": "ISR",
+     "gender": "MALE",
+     "id": "50222209",
+     "translations": {
+      "countryName": {
+       "EN": "Israel",
+       "FR": "Israël",
+       "DE": "Israel",
+       "ES": "Israel",
+       "PT": "Israel",
+       "IT": "Israele",
+       "RU": "Израиль",
+       "ZH": "以色列",
+       "AR": "إسرائيل"
+      },
+      "firstName": {
+       "EN": "Ran",
+       "FR": "Ran",
+       "DE": "Ran",
+       "ES": "Ran",
+       "PT": "Ran",
+       "IT": "Ran",
+       "RU": "Ran",
+       "ZH": "Ran",
+       "AR": "Ran"
+      },
+      "lastName": {
+       "EN": "Cohen",
+       "FR": "Cohen",
+       "DE": "Cohen",
+       "ES": "Cohen",
+       "PT": "Cohen",
+       "IT": "Cohen",
+       "RU": "Cohen",
+       "ZH": "Cohen",
+       "AR": "Cohen"
+      },
+      "name": {
+       "EN": "Ran Cohen",
+       "FR": "Ran Cohen",
+       "DE": "Ran Cohen",
+       "ES": "Ran Cohen",
+       "PT": "Ran Cohen",
+       "IT": "Ran Cohen",
+       "RU": "Ran Cohen",
+       "ZH": "Ran Cohen",
+       "AR": "Ran Cohen"
+      },
+      "shortName": {
+       "EN": "Cohen",
+       "FR": "Cohen",
+       "DE": "Cohen",
+       "ES": "Cohen",
+       "PT": "Cohen",
+       "IT": "Cohen",
+       "RU": "Cohen",
+       "ZH": "Cohen",
+       "AR": "Cohen"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -1938,7 +2027,7 @@
    "phase": "TOURNAMENT",
    "seasonYear": "2027",
    "stadiumNameType": "OFFICIAL_NAME",
-   "status": "UPCOMING",
+   "status": "CURRENT",
    "substitutionCount": 5,
    "teamCount": 20,
    "teams": [
@@ -1997,6 +2086,16 @@
      "ZH": "Champions path R3",
      "AR": "Champions path R3"
     }
+   }
+  },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 0
+   },
+   "total": {
+    "away": 0,
+    "home": 0
    }
   },
   "seasonYear": "2027",
@@ -2094,7 +2193,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "First half",
+    "FR": "Première période",
+    "DE": "Erste Halbzeit",
+    "ES": "Primera parte",
+    "PT": "Primeira parte",
+    "IT": "Primo tempo",
+    "RU": "Первый тайм",
+    "ZH": "上半场",
+    "AR": "الشوط الأول"
+   }
+  },
   "type": "FIRST_LEG"
  }
 ]
