@@ -139,6 +139,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "WET",
+   "temperature": 5,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "wet",
+     "FR": "très humide",
+     "DE": "nass",
+     "ES": "húmedo",
+     "PT": "molhado",
+     "IT": "umido",
+     "RU": "сырое",
+     "ZH": "潮湿",
+     "AR": "أرضية مبتلة"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014234",
@@ -300,7 +329,7 @@
    "dateTime": "2026-11-26T10:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -339,7 +368,547 @@
    },
    "type": "MATCHDAY"
   },
+  "phase": "HALF_TIME_BREAK",
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "e556ee4e-8d75-45cf-918d-c89161831b1f",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-08-11",
+      "clubShirtName": "Todorović",
+      "countryCode": "SRB",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250193315",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/25/2027/324x324/250193315.jpg",
+      "internationalName": "Lana Todorović",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "9",
+      "nationalShirtName": "Todorović",
+      "nationalTeamId": "600147",
+      "translations": {
+       "countryName": {
+        "EN": "Serbia",
+        "FR": "Serbie",
+        "DE": "Serbien",
+        "ES": "Serbia",
+        "PT": "Sérvia",
+        "IT": "Serbia",
+        "RU": "Сербия",
+        "ZH": "塞尔维亚",
+        "AR": "صربيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "EN": "Lana",
+        "FR": "Lana",
+        "DE": "Lana",
+        "ES": "Lana",
+        "PT": "Lana",
+        "IT": "Lana",
+        "RU": "Lana",
+        "ZH": "Lana",
+        "AR": "Lana"
+       },
+       "lastName": {
+        "EN": "Todorović",
+        "FR": "Todorović",
+        "DE": "Todorović",
+        "ES": "Todorović",
+        "PT": "Todorović",
+        "IT": "Todorović",
+        "RU": "Todorović",
+        "ZH": "Todorović",
+        "AR": "Todorović"
+       },
+       "name": {
+        "EN": "Lana Todorović",
+        "FR": "Lana Todorović",
+        "DE": "Lana Todorović",
+        "ES": "Lana Todorović",
+        "PT": "Lana Todorović",
+        "IT": "Lana Todorović",
+        "RU": "Lana Todorović",
+        "ZH": "Lana Todorović",
+        "AR": "Lana Todorović"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Todorović",
+        "FR": "Todorović",
+        "DE": "Todorović",
+        "ES": "Todorović",
+        "PT": "Todorović",
+        "IT": "Todorović",
+        "RU": "Todorović",
+        "ZH": "Todorović",
+        "AR": "Todorović"
+       }
+      }
+     },
+     "teamId": "600147",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 13,
+      "second": 39
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "d9a98774-a4d8-4ec9-af9a-93ad6c004263",
+     "phase": "FIRST_HALF",
+     "player": {
+      "age": "17",
+      "birthDate": "2009-07-01",
+      "clubShirtName": "Miladinovic",
+      "countryCode": "SRB",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "MIDFIELDER",
+      "gender": "FEMALE",
+      "id": "250194140",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/25/2027/324x324/250194140.jpg",
+      "internationalName": "Iva Miladinović",
+      "nationalFieldPosition": "MIDFIELDER",
+      "nationalJerseyNumber": "10",
+      "nationalShirtName": "Miladinovic",
+      "nationalTeamId": "600147",
+      "translations": {
+       "countryName": {
+        "EN": "Serbia",
+        "FR": "Serbie",
+        "DE": "Serbien",
+        "ES": "Serbia",
+        "PT": "Sérvia",
+        "IT": "Serbia",
+        "RU": "Сербия",
+        "ZH": "塞尔维亚",
+        "AR": "صربيا"
+       },
+       "fieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "firstName": {
+        "EN": "Iva",
+        "FR": "Iva",
+        "DE": "Iva",
+        "ES": "Iva",
+        "PT": "Iva",
+        "IT": "Iva",
+        "RU": "Iva",
+        "ZH": "Iva",
+        "AR": "Iva"
+       },
+       "lastName": {
+        "EN": "Miladinović",
+        "FR": "Miladinović",
+        "DE": "Miladinović",
+        "ES": "Miladinović",
+        "PT": "Miladinović",
+        "IT": "Miladinović",
+        "RU": "Miladinovic",
+        "ZH": "Miladinovic",
+        "AR": "Miladinović"
+       },
+       "name": {
+        "EN": "Iva Miladinović",
+        "FR": "Iva Miladinović",
+        "DE": "Iva Miladinović",
+        "ES": "Iva Miladinović",
+        "PT": "Iva Miladinović",
+        "IT": "Iva Miladinović",
+        "RU": "Iva Miladinovic",
+        "ZH": "Iva Miladinovic",
+        "AR": "Iva Miladinović"
+       },
+       "nationalFieldPosition": {
+        "EN": "Midfielder",
+        "FR": "Milieue",
+        "DE": "Mittelfeldspielerin",
+        "ES": "Centrocampista",
+        "PT": "Médio",
+        "IT": "Centrocampista",
+        "RU": "Полузащитник",
+        "ZH": "MIDFIELDER",
+        "AR": "وسط"
+       },
+       "shortName": {
+        "EN": "Miladinović",
+        "FR": "Miladinović",
+        "DE": "Miladinović",
+        "ES": "Miladinović",
+        "PT": "Miladinović",
+        "IT": "Miladinović",
+        "RU": "Miladinovic",
+        "ZH": "Miladinovic",
+        "AR": "Miladinović"
+       }
+      }
+     },
+     "teamId": "600147",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 17,
+      "second": 48
+     }
+    }
+   ]
+  },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/257619.jpg"
+    },
+    "person": {
+     "countryCode": "SUI",
+     "gender": "MALE",
+     "id": "257619",
+     "translations": {
+      "countryName": {
+       "EN": "Switzerland",
+       "FR": "Suisse",
+       "DE": "Schweiz",
+       "ES": "Suiza",
+       "PT": "Suíça",
+       "IT": "Svizzera",
+       "RU": "Швейцария",
+       "ZH": "瑞士",
+       "AR": "سويسرا"
+      },
+      "firstName": {
+       "EN": "Claudio",
+       "FR": "Claudio",
+       "DE": "Claudio",
+       "ES": "Claudio",
+       "PT": "Claudio",
+       "IT": "Claudio",
+       "RU": "Claudio",
+       "ZH": "Claudio",
+       "AR": "Claudio"
+      },
+      "lastName": {
+       "EN": "Negroni",
+       "FR": "Negroni",
+       "DE": "Negroni",
+       "ES": "Negroni",
+       "PT": "Negroni",
+       "IT": "Negroni",
+       "RU": "Negroni",
+       "ZH": "Negroni",
+       "AR": "Negroni"
+      },
+      "name": {
+       "EN": "Claudio Negroni",
+       "FR": "Claudio Negroni",
+       "DE": "Claudio Negroni",
+       "ES": "Claudio Negroni",
+       "PT": "Claudio Negroni",
+       "IT": "Claudio Negroni",
+       "RU": "Claudio Negroni",
+       "ZH": "Claudio Negroni",
+       "AR": "Claudio Negroni"
+      },
+      "shortName": {
+       "EN": "Negroni",
+       "FR": "Negroni",
+       "DE": "Negroni",
+       "ES": "Negroni",
+       "PT": "Negroni",
+       "IT": "Negroni",
+       "RU": "Negroni",
+       "ZH": "Negroni",
+       "AR": "Negroni"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierter",
+      "ES": "Delegado UEFA",
+      "PT": "Delegado da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250204745.jpg"
+    },
+    "person": {
+     "countryCode": "ROU",
+     "gender": "FEMALE",
+     "id": "250204745",
+     "translations": {
+      "countryName": {
+       "EN": "Romania",
+       "FR": "Roumanie",
+       "DE": "Rumänien",
+       "ES": "Rumanía",
+       "PT": "Roménia",
+       "IT": "Romania",
+       "RU": "Румыния",
+       "ZH": "罗马尼亚",
+       "AR": "رومانيا"
+      },
+      "firstName": {
+       "EN": "Andreea Daniela",
+       "FR": "Andreea Daniela",
+       "DE": "Andreea Daniela",
+       "ES": "Andreea Daniela",
+       "PT": "Andreea Daniela",
+       "IT": "Andreea Daniela",
+       "RU": "Andreea Daniela",
+       "ZH": "Andreea Daniela",
+       "AR": "Andreea Daniela"
+      },
+      "lastName": {
+       "EN": "Şuşcă",
+       "FR": "Şuşcă",
+       "DE": "Şuşcă",
+       "ES": "Şuşcă",
+       "PT": "Şuşcă",
+       "IT": "Şuşcă",
+       "RU": "Susca",
+       "ZH": "Susca",
+       "AR": "Şuşcă"
+      },
+      "name": {
+       "EN": "Andreea Daniela Şuşcă",
+       "FR": "Andreea Daniela Şuşcă",
+       "DE": "Andreea Daniela Şuşcă",
+       "ES": "Andreea Daniela Şuşcă",
+       "PT": "Andreea Daniela Şuşcă",
+       "IT": "Andreea Daniela Şuşcă",
+       "RU": "Andreea Daniela Susca",
+       "ZH": "Andreea Daniela Susca",
+       "AR": "Andreea Daniela Şuşcă"
+      },
+      "shortName": {
+       "EN": "Şuşcă",
+       "FR": "Şuşcă",
+       "DE": "Şuşcă",
+       "ES": "Şuşcă",
+       "PT": "Şuşcă",
+       "IT": "Şuşcă",
+       "RU": "Susca",
+       "ZH": "Susca",
+       "AR": "Şuşcă"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167604.jpg"
+    },
+    "person": {
+     "countryCode": "DEN",
+     "gender": "FEMALE",
+     "id": "250167604",
+     "translations": {
+      "countryName": {
+       "EN": "Denmark",
+       "FR": "Danemark",
+       "DE": "Dänemark",
+       "ES": "Dinamarca",
+       "PT": "Dinamarca",
+       "IT": "Danimarca",
+       "RU": "Дания",
+       "ZH": "丹麦",
+       "AR": "الدنمارك"
+      },
+      "firstName": {
+       "EN": "Anna Kjær",
+       "FR": "Anna Kjær",
+       "DE": "Anna Kjær",
+       "ES": "Anna Kjær",
+       "PT": "Anna Kjær",
+       "IT": "Anna Kjær",
+       "RU": "Анна",
+       "ZH": "Anna Kjær",
+       "AR": "Anna Kjær"
+      },
+      "lastName": {
+       "EN": "Schmidt",
+       "FR": "Schmidt",
+       "DE": "Schmidt",
+       "ES": "Schmidt",
+       "PT": "Schmidt",
+       "IT": "Schmidt",
+       "RU": "Кьер-Шмидт",
+       "ZH": "Schmidt",
+       "AR": "Schmidt"
+      },
+      "name": {
+       "EN": "Anna Kjær Schmidt",
+       "FR": "Anna Kjær Schmidt",
+       "DE": "Anna Kjær Schmidt",
+       "ES": "Anna Kjær Schmidt",
+       "PT": "Anna Kjær Schmidt",
+       "IT": "Anna Kjær Schmidt",
+       "RU": "Анна Кьер-Шмидт",
+       "ZH": "Anna Kjær Schmidt",
+       "AR": "Anna Kjær Schmidt"
+      },
+      "shortName": {
+       "EN": "Schmidt",
+       "FR": "Schmidt",
+       "DE": "Schmidt",
+       "ES": "Schmidt",
+       "PT": "Schmidt",
+       "IT": "Schmidt",
+       "RU": "Кьер-Шмидт",
+       "ZH": "Schmidt",
+       "AR": "Schmidt"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167602.jpg"
+    },
+    "person": {
+     "countryCode": "ROU",
+     "gender": "FEMALE",
+     "id": "250167602",
+     "translations": {
+      "countryName": {
+       "EN": "Romania",
+       "FR": "Roumanie",
+       "DE": "Rumänien",
+       "ES": "Rumanía",
+       "PT": "Roménia",
+       "IT": "Romania",
+       "RU": "Румыния",
+       "ZH": "罗马尼亚",
+       "AR": "رومانيا"
+      },
+      "firstName": {
+       "EN": "Roxana",
+       "FR": "Roxana",
+       "DE": "Roxana",
+       "ES": "Roxana",
+       "PT": "Roxana",
+       "IT": "Roxana",
+       "RU": "Роксана",
+       "ZH": "Roxana",
+       "AR": "Roxana"
+      },
+      "lastName": {
+       "EN": "Recorean",
+       "FR": "Recorean",
+       "DE": "Recorean",
+       "ES": "Recorean",
+       "PT": "Recorean",
+       "IT": "Recorean",
+       "RU": "Рекорян",
+       "ZH": "Recorean",
+       "AR": "Recorean"
+      },
+      "name": {
+       "EN": "Roxana Recorean",
+       "FR": "Roxana Recorean",
+       "DE": "Roxana Recorean",
+       "ES": "Roxana Recorean",
+       "PT": "Roxana Recorean",
+       "IT": "Roxana Recorean",
+       "RU": "Роксана Рекорян",
+       "ZH": "Roxana Recorean",
+       "AR": "Roxana Recorean"
+      },
+      "shortName": {
+       "EN": "Recorean",
+       "FR": "Recorean",
+       "DE": "Recorean",
+       "ES": "Recorean",
+       "PT": "Recorean",
+       "IT": "Recorean",
+       "RU": "Рекорян",
+       "ZH": "Recorean",
+       "AR": "Recorean"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/4949.jpg"
@@ -501,330 +1070,6 @@
       "AR": "المسؤول الرابع"
      }
     }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167604.jpg"
-    },
-    "person": {
-     "countryCode": "DEN",
-     "gender": "FEMALE",
-     "id": "250167604",
-     "translations": {
-      "countryName": {
-       "EN": "Denmark",
-       "FR": "Danemark",
-       "DE": "Dänemark",
-       "ES": "Dinamarca",
-       "PT": "Dinamarca",
-       "IT": "Danimarca",
-       "RU": "Дания",
-       "ZH": "丹麦",
-       "AR": "الدنمارك"
-      },
-      "firstName": {
-       "EN": "Anna Kjær",
-       "FR": "Anna Kjær",
-       "DE": "Anna Kjær",
-       "ES": "Anna Kjær",
-       "PT": "Anna Kjær",
-       "IT": "Anna Kjær",
-       "RU": "Анна",
-       "ZH": "Anna Kjær",
-       "AR": "Anna Kjær"
-      },
-      "lastName": {
-       "EN": "Schmidt",
-       "FR": "Schmidt",
-       "DE": "Schmidt",
-       "ES": "Schmidt",
-       "PT": "Schmidt",
-       "IT": "Schmidt",
-       "RU": "Кьер-Шмидт",
-       "ZH": "Schmidt",
-       "AR": "Schmidt"
-      },
-      "name": {
-       "EN": "Anna Kjær Schmidt",
-       "FR": "Anna Kjær Schmidt",
-       "DE": "Anna Kjær Schmidt",
-       "ES": "Anna Kjær Schmidt",
-       "PT": "Anna Kjær Schmidt",
-       "IT": "Anna Kjær Schmidt",
-       "RU": "Анна Кьер-Шмидт",
-       "ZH": "Anna Kjær Schmidt",
-       "AR": "Anna Kjær Schmidt"
-      },
-      "shortName": {
-       "EN": "Schmidt",
-       "FR": "Schmidt",
-       "DE": "Schmidt",
-       "ES": "Schmidt",
-       "PT": "Schmidt",
-       "IT": "Schmidt",
-       "RU": "Кьер-Шмидт",
-       "ZH": "Schmidt",
-       "AR": "Schmidt"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/257619.jpg"
-    },
-    "person": {
-     "countryCode": "SUI",
-     "gender": "MALE",
-     "id": "257619",
-     "translations": {
-      "countryName": {
-       "EN": "Switzerland",
-       "FR": "Suisse",
-       "DE": "Schweiz",
-       "ES": "Suiza",
-       "PT": "Suíça",
-       "IT": "Svizzera",
-       "RU": "Швейцария",
-       "ZH": "瑞士",
-       "AR": "سويسرا"
-      },
-      "firstName": {
-       "EN": "Claudio",
-       "FR": "Claudio",
-       "DE": "Claudio",
-       "ES": "Claudio",
-       "PT": "Claudio",
-       "IT": "Claudio",
-       "RU": "Claudio",
-       "ZH": "Claudio",
-       "AR": "Claudio"
-      },
-      "lastName": {
-       "EN": "Negroni",
-       "FR": "Negroni",
-       "DE": "Negroni",
-       "ES": "Negroni",
-       "PT": "Negroni",
-       "IT": "Negroni",
-       "RU": "Negroni",
-       "ZH": "Negroni",
-       "AR": "Negroni"
-      },
-      "name": {
-       "EN": "Claudio Negroni",
-       "FR": "Claudio Negroni",
-       "DE": "Claudio Negroni",
-       "ES": "Claudio Negroni",
-       "PT": "Claudio Negroni",
-       "IT": "Claudio Negroni",
-       "RU": "Claudio Negroni",
-       "ZH": "Claudio Negroni",
-       "AR": "Claudio Negroni"
-      },
-      "shortName": {
-       "EN": "Negroni",
-       "FR": "Negroni",
-       "DE": "Negroni",
-       "ES": "Negroni",
-       "PT": "Negroni",
-       "IT": "Negroni",
-       "RU": "Negroni",
-       "ZH": "Negroni",
-       "AR": "Negroni"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierter",
-      "ES": "Delegado UEFA",
-      "PT": "Delegado da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250167602.jpg"
-    },
-    "person": {
-     "countryCode": "ROU",
-     "gender": "FEMALE",
-     "id": "250167602",
-     "translations": {
-      "countryName": {
-       "EN": "Romania",
-       "FR": "Roumanie",
-       "DE": "Rumänien",
-       "ES": "Rumanía",
-       "PT": "Roménia",
-       "IT": "Romania",
-       "RU": "Румыния",
-       "ZH": "罗马尼亚",
-       "AR": "رومانيا"
-      },
-      "firstName": {
-       "EN": "Roxana",
-       "FR": "Roxana",
-       "DE": "Roxana",
-       "ES": "Roxana",
-       "PT": "Roxana",
-       "IT": "Roxana",
-       "RU": "Роксана",
-       "ZH": "Roxana",
-       "AR": "Roxana"
-      },
-      "lastName": {
-       "EN": "Recorean",
-       "FR": "Recorean",
-       "DE": "Recorean",
-       "ES": "Recorean",
-       "PT": "Recorean",
-       "IT": "Recorean",
-       "RU": "Рекорян",
-       "ZH": "Recorean",
-       "AR": "Recorean"
-      },
-      "name": {
-       "EN": "Roxana Recorean",
-       "FR": "Roxana Recorean",
-       "DE": "Roxana Recorean",
-       "ES": "Roxana Recorean",
-       "PT": "Roxana Recorean",
-       "IT": "Roxana Recorean",
-       "RU": "Роксана Рекорян",
-       "ZH": "Roxana Recorean",
-       "AR": "Roxana Recorean"
-      },
-      "shortName": {
-       "EN": "Recorean",
-       "FR": "Recorean",
-       "DE": "Recorean",
-       "ES": "Recorean",
-       "PT": "Recorean",
-       "IT": "Recorean",
-       "RU": "Рекорян",
-       "ZH": "Recorean",
-       "AR": "Recorean"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250204745.jpg"
-    },
-    "person": {
-     "countryCode": "ROU",
-     "gender": "FEMALE",
-     "id": "250204745",
-     "translations": {
-      "countryName": {
-       "EN": "Romania",
-       "FR": "Roumanie",
-       "DE": "Rumänien",
-       "ES": "Rumanía",
-       "PT": "Roménia",
-       "IT": "Romania",
-       "RU": "Румыния",
-       "ZH": "罗马尼亚",
-       "AR": "رومانيا"
-      },
-      "firstName": {
-       "EN": "Andreea Daniela",
-       "FR": "Andreea Daniela",
-       "DE": "Andreea Daniela",
-       "ES": "Andreea Daniela",
-       "PT": "Andreea Daniela",
-       "IT": "Andreea Daniela",
-       "RU": "Andreea Daniela",
-       "ZH": "Andreea Daniela",
-       "AR": "Andreea Daniela"
-      },
-      "lastName": {
-       "EN": "Şuşcă",
-       "FR": "Şuşcă",
-       "DE": "Şuşcă",
-       "ES": "Şuşcă",
-       "PT": "Şuşcă",
-       "IT": "Şuşcă",
-       "RU": "Susca",
-       "ZH": "Susca",
-       "AR": "Şuşcă"
-      },
-      "name": {
-       "EN": "Andreea Daniela Şuşcă",
-       "FR": "Andreea Daniela Şuşcă",
-       "DE": "Andreea Daniela Şuşcă",
-       "ES": "Andreea Daniela Şuşcă",
-       "PT": "Andreea Daniela Şuşcă",
-       "IT": "Andreea Daniela Şuşcă",
-       "RU": "Andreea Daniela Susca",
-       "ZH": "Andreea Daniela Susca",
-       "AR": "Andreea Daniela Şuşcă"
-      },
-      "shortName": {
-       "EN": "Şuşcă",
-       "FR": "Şuşcă",
-       "DE": "Şuşcă",
-       "ES": "Şuşcă",
-       "PT": "Şuşcă",
-       "IT": "Şuşcă",
-       "RU": "Susca",
-       "ZH": "Susca",
-       "AR": "Şuşcă"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
    }
   ],
   "round": {
@@ -943,6 +1188,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 2
+   },
+   "total": {
+    "away": 0,
+    "home": 2
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 10,
   "stadium": {
@@ -1038,7 +1293,20 @@
     }
    }
   },
-  "status": "UPCOMING",
+  "status": "LIVE",
+  "translations": {
+   "phaseName": {
+    "EN": "Half-time",
+    "FR": "Mi-temps",
+    "DE": "Halbzeit",
+    "ES": "Descanso",
+    "PT": "Intervalo",
+    "IT": "Intervallo",
+    "RU": "Перерыв",
+    "ZH": "中场",
+    "AR": "استراحة"
+   }
+  },
   "type": "GROUP_STAGE"
  },
  {
@@ -1384,6 +1652,87 @@
   "referees": [
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250195872.jpg"
+    },
+    "person": {
+     "countryCode": "SRB",
+     "gender": "FEMALE",
+     "id": "250195872",
+     "translations": {
+      "countryName": {
+       "EN": "Serbia",
+       "FR": "Serbie",
+       "DE": "Serbien",
+       "ES": "Serbia",
+       "PT": "Sérvia",
+       "IT": "Serbia",
+       "RU": "Сербия",
+       "ZH": "塞尔维亚",
+       "AR": "صربيا"
+      },
+      "firstName": {
+       "EN": "Nikolina",
+       "FR": "Nikolina",
+       "DE": "Nikolina",
+       "ES": "Nikolina",
+       "PT": "Nikolina",
+       "IT": "Nikolina",
+       "RU": "Nikolina",
+       "ZH": "Nikolina",
+       "AR": "Nikolina"
+      },
+      "lastName": {
+       "EN": "Purtić",
+       "FR": "Purtić",
+       "DE": "Purtić",
+       "ES": "Purtić",
+       "PT": "Purtić",
+       "IT": "Purtić",
+       "RU": "Purtić",
+       "ZH": "Purtić",
+       "AR": "Purtić"
+      },
+      "name": {
+       "EN": "Nikolina Purtić",
+       "FR": "Nikolina Purtić",
+       "DE": "Nikolina Purtić",
+       "ES": "Nikolina Purtić",
+       "PT": "Nikolina Purtić",
+       "IT": "Nikolina Purtić",
+       "RU": "Nikolina Purtić",
+       "ZH": "Nikolina Purtić",
+       "AR": "Nikolina Purtić"
+      },
+      "shortName": {
+       "EN": "Purtić",
+       "FR": "Purtić",
+       "DE": "Purtić",
+       "ES": "Purtić",
+       "PT": "Purtić",
+       "IT": "Purtić",
+       "RU": "Purtić",
+       "ZH": "Purtić",
+       "AR": "Purtić"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/267675.jpg"
     },
     "person": {
@@ -1460,6 +1809,87 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250177870.jpg"
+    },
+    "person": {
+     "countryCode": "FRA",
+     "gender": "FEMALE",
+     "id": "250177870",
+     "translations": {
+      "countryName": {
+       "EN": "France",
+       "FR": "France",
+       "DE": "Frankreich",
+       "ES": "Francia",
+       "PT": "França",
+       "IT": "Francia",
+       "RU": "Франция",
+       "ZH": "法国",
+       "AR": "فرنسا"
+      },
+      "firstName": {
+       "EN": "Audrey",
+       "FR": "Audrey",
+       "DE": "Audrey",
+       "ES": "Audrey",
+       "PT": "Audrey",
+       "IT": "Audrey",
+       "RU": "Одри",
+       "ZH": "Audrey",
+       "AR": "Audrey"
+      },
+      "lastName": {
+       "EN": "Gerbel",
+       "FR": "Gerbel",
+       "DE": "Gerbel",
+       "ES": "Gerbel",
+       "PT": "Gerbel",
+       "IT": "Gerbel",
+       "RU": "Гербель",
+       "ZH": "Gerbel",
+       "AR": "Gerbel"
+      },
+      "name": {
+       "EN": "Audrey Gerbel",
+       "FR": "Audrey Gerbel",
+       "DE": "Audrey Gerbel",
+       "ES": "Audrey Gerbel",
+       "PT": "Audrey Gerbel",
+       "IT": "Audrey Gerbel",
+       "RU": "Одри Гербель",
+       "ZH": "Audrey Gerbel",
+       "AR": "Audrey Gerbel"
+      },
+      "shortName": {
+       "EN": "Gerbel",
+       "FR": "Gerbel",
+       "DE": "Gerbel",
+       "ES": "Gerbel",
+       "PT": "Gerbel",
+       "IT": "Gerbel",
+       "RU": "Гербель",
+       "ZH": "Gerbel",
+       "AR": "Gerbel"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    },
@@ -1546,168 +1976,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215856.jpg"
-    },
-    "person": {
-     "countryCode": "SRB",
-     "gender": "FEMALE",
-     "id": "250215856",
-     "translations": {
-      "countryName": {
-       "EN": "Serbia",
-       "FR": "Serbie",
-       "DE": "Serbien",
-       "ES": "Serbia",
-       "PT": "Sérvia",
-       "IT": "Serbia",
-       "RU": "Сербия",
-       "ZH": "塞尔维亚",
-       "AR": "صربيا"
-      },
-      "firstName": {
-       "EN": "Anja",
-       "FR": "Anja",
-       "DE": "Anja",
-       "ES": "Anja",
-       "PT": "Anja",
-       "IT": "Anja",
-       "RU": "Anja",
-       "ZH": "Anja",
-       "AR": "Anja"
-      },
-      "lastName": {
-       "EN": "Radulović",
-       "FR": "Radulović",
-       "DE": "Radulović",
-       "ES": "Radulović",
-       "PT": "Radulović",
-       "IT": "Radulović",
-       "RU": "Radulović",
-       "ZH": "Radulović",
-       "AR": "Radulović"
-      },
-      "name": {
-       "EN": "Anja Radulović",
-       "FR": "Anja Radulović",
-       "DE": "Anja Radulović",
-       "ES": "Anja Radulović",
-       "PT": "Anja Radulović",
-       "IT": "Anja Radulović",
-       "RU": "Anja Radulović",
-       "ZH": "Anja Radulović",
-       "AR": "Anja Radulović"
-      },
-      "shortName": {
-       "EN": "Radulović",
-       "FR": "Radulović",
-       "DE": "Radulović",
-       "ES": "Radulović",
-       "PT": "Radulović",
-       "IT": "Radulović",
-       "RU": "Radulović",
-       "ZH": "Radulović",
-       "AR": "Radulović"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250195872.jpg"
-    },
-    "person": {
-     "countryCode": "SRB",
-     "gender": "FEMALE",
-     "id": "250195872",
-     "translations": {
-      "countryName": {
-       "EN": "Serbia",
-       "FR": "Serbie",
-       "DE": "Serbien",
-       "ES": "Serbia",
-       "PT": "Sérvia",
-       "IT": "Serbia",
-       "RU": "Сербия",
-       "ZH": "塞尔维亚",
-       "AR": "صربيا"
-      },
-      "firstName": {
-       "EN": "Nikolina",
-       "FR": "Nikolina",
-       "DE": "Nikolina",
-       "ES": "Nikolina",
-       "PT": "Nikolina",
-       "IT": "Nikolina",
-       "RU": "Nikolina",
-       "ZH": "Nikolina",
-       "AR": "Nikolina"
-      },
-      "lastName": {
-       "EN": "Purtić",
-       "FR": "Purtić",
-       "DE": "Purtić",
-       "ES": "Purtić",
-       "PT": "Purtić",
-       "IT": "Purtić",
-       "RU": "Purtić",
-       "ZH": "Purtić",
-       "AR": "Purtić"
-      },
-      "name": {
-       "EN": "Nikolina Purtić",
-       "FR": "Nikolina Purtić",
-       "DE": "Nikolina Purtić",
-       "ES": "Nikolina Purtić",
-       "PT": "Nikolina Purtić",
-       "IT": "Nikolina Purtić",
-       "RU": "Nikolina Purtić",
-       "ZH": "Nikolina Purtić",
-       "AR": "Nikolina Purtić"
-      },
-      "shortName": {
-       "EN": "Purtić",
-       "FR": "Purtić",
-       "DE": "Purtić",
-       "ES": "Purtić",
-       "PT": "Purtić",
-       "IT": "Purtić",
-       "RU": "Purtić",
-       "ZH": "Purtić",
-       "AR": "Purtić"
-      }
-     }
-    },
-    "role": "FOURTH_OFFICIAL",
-    "translations": {
-     "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/257619.jpg"
     },
     "person": {
@@ -1789,82 +2057,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250177870.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250215856.jpg"
     },
     "person": {
-     "countryCode": "FRA",
+     "countryCode": "SRB",
      "gender": "FEMALE",
-     "id": "250177870",
+     "id": "250215856",
      "translations": {
       "countryName": {
-       "EN": "France",
-       "FR": "France",
-       "DE": "Frankreich",
-       "ES": "Francia",
-       "PT": "França",
-       "IT": "Francia",
-       "RU": "Франция",
-       "ZH": "法国",
-       "AR": "فرنسا"
+       "EN": "Serbia",
+       "FR": "Serbie",
+       "DE": "Serbien",
+       "ES": "Serbia",
+       "PT": "Sérvia",
+       "IT": "Serbia",
+       "RU": "Сербия",
+       "ZH": "塞尔维亚",
+       "AR": "صربيا"
       },
       "firstName": {
-       "EN": "Audrey",
-       "FR": "Audrey",
-       "DE": "Audrey",
-       "ES": "Audrey",
-       "PT": "Audrey",
-       "IT": "Audrey",
-       "RU": "Одри",
-       "ZH": "Audrey",
-       "AR": "Audrey"
+       "EN": "Anja",
+       "FR": "Anja",
+       "DE": "Anja",
+       "ES": "Anja",
+       "PT": "Anja",
+       "IT": "Anja",
+       "RU": "Anja",
+       "ZH": "Anja",
+       "AR": "Anja"
       },
       "lastName": {
-       "EN": "Gerbel",
-       "FR": "Gerbel",
-       "DE": "Gerbel",
-       "ES": "Gerbel",
-       "PT": "Gerbel",
-       "IT": "Gerbel",
-       "RU": "Гербель",
-       "ZH": "Gerbel",
-       "AR": "Gerbel"
+       "EN": "Radulović",
+       "FR": "Radulović",
+       "DE": "Radulović",
+       "ES": "Radulović",
+       "PT": "Radulović",
+       "IT": "Radulović",
+       "RU": "Radulović",
+       "ZH": "Radulović",
+       "AR": "Radulović"
       },
       "name": {
-       "EN": "Audrey Gerbel",
-       "FR": "Audrey Gerbel",
-       "DE": "Audrey Gerbel",
-       "ES": "Audrey Gerbel",
-       "PT": "Audrey Gerbel",
-       "IT": "Audrey Gerbel",
-       "RU": "Одри Гербель",
-       "ZH": "Audrey Gerbel",
-       "AR": "Audrey Gerbel"
+       "EN": "Anja Radulović",
+       "FR": "Anja Radulović",
+       "DE": "Anja Radulović",
+       "ES": "Anja Radulović",
+       "PT": "Anja Radulović",
+       "IT": "Anja Radulović",
+       "RU": "Anja Radulović",
+       "ZH": "Anja Radulović",
+       "AR": "Anja Radulović"
       },
       "shortName": {
-       "EN": "Gerbel",
-       "FR": "Gerbel",
-       "DE": "Gerbel",
-       "ES": "Gerbel",
-       "PT": "Gerbel",
-       "IT": "Gerbel",
-       "RU": "Гербель",
-       "ZH": "Gerbel",
-       "AR": "Gerbel"
+       "EN": "Radulović",
+       "FR": "Radulović",
+       "DE": "Radulović",
+       "ES": "Radulović",
+       "PT": "Radulović",
+       "IT": "Radulović",
+       "RU": "Radulović",
+       "ZH": "Radulović",
+       "AR": "Radulović"
       }
      }
     },
-    "role": "REFEREE",
+    "role": "ASSISTANT_REFEREE_TWO",
     "translations": {
      "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
      }
     }
    }
