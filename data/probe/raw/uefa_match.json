@@ -140,6 +140,36 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 22,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Sunny",
+     "FR": "ensoleillé",
+     "DE": "Sonnig",
+     "ES": "Soleado",
+     "PT": "Sol",
+     "IT": "Soleggiato",
+     "RU": "Солнечно",
+     "ZH": "晴天",
+     "AR": "مشمس"
+    }
+   },
+   "weatherCondition": "SUNNY"
+  },
+  "fullTimeAt": "2026-11-27T10:21:20Z",
   "group": {
    "competitionId": "25",
    "id": "2014226",
@@ -301,7 +331,8 @@
    "dateTime": "2026-11-27T08:30:00Z",
    "utcOffsetInHours": 2
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
+  "matchAttendance": 40,
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -339,6 +370,311 @@
     }
    },
    "type": "MATCHDAY"
+  },
+  "playerEvents": {
+   "scorers": [
+    {
+     "goalType": "SCORED",
+     "id": "cfa4bd74-aabc-4daf-9f2f-596629abbb32",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-03-27",
+      "clubShirtName": "",
+      "countryCode": "ESP",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250195050",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/25/2027/324x324/250195050.jpg",
+      "internationalName": "Claudia Indias",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "8",
+      "nationalShirtName": "",
+      "nationalTeamId": "600122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "ZH": "Claudia"
+       },
+       "lastName": {
+        "EN": "Claudia Indias",
+        "FR": "Claudia Indias",
+        "DE": "Claudia Indias",
+        "ES": "Claudia Indias",
+        "PT": "Claudia Indias",
+        "IT": "Claudia Indias",
+        "RU": "Клаудия Индиас",
+        "ZH": "Indias Álvarez",
+        "AR": "Claudia Indias"
+       },
+       "name": {
+        "EN": "Claudia Indias",
+        "FR": "Claudia Indias",
+        "DE": "Claudia Indias",
+        "ES": "Claudia Indias",
+        "PT": "Claudia Indias",
+        "IT": "Claudia Indias",
+        "RU": "Клаудия Индиас",
+        "ZH": "Claudia Indias Álvarez",
+        "AR": "Claudia Indias"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Indias",
+        "FR": "Indias",
+        "DE": "Indias",
+        "ES": "Indias",
+        "PT": "Indias",
+        "IT": "Indias",
+        "RU": "Индиас",
+        "ZH": "Indias Álvarez",
+        "AR": "Indias"
+       }
+      }
+     },
+     "teamId": "600122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 62,
+      "second": 15
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "bb5ce7f9-a05c-46c6-87de-38d4c5469034",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-03-27",
+      "clubShirtName": "",
+      "countryCode": "ESP",
+      "fieldPosition": "FORWARD",
+      "gender": "FEMALE",
+      "id": "250195050",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/25/2027/324x324/250195050.jpg",
+      "internationalName": "Claudia Indias",
+      "nationalFieldPosition": "FORWARD",
+      "nationalJerseyNumber": "8",
+      "nationalShirtName": "",
+      "nationalTeamId": "600122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "firstName": {
+        "ZH": "Claudia"
+       },
+       "lastName": {
+        "EN": "Claudia Indias",
+        "FR": "Claudia Indias",
+        "DE": "Claudia Indias",
+        "ES": "Claudia Indias",
+        "PT": "Claudia Indias",
+        "IT": "Claudia Indias",
+        "RU": "Клаудия Индиас",
+        "ZH": "Indias Álvarez",
+        "AR": "Claudia Indias"
+       },
+       "name": {
+        "EN": "Claudia Indias",
+        "FR": "Claudia Indias",
+        "DE": "Claudia Indias",
+        "ES": "Claudia Indias",
+        "PT": "Claudia Indias",
+        "IT": "Claudia Indias",
+        "RU": "Клаудия Индиас",
+        "ZH": "Claudia Indias Álvarez",
+        "AR": "Claudia Indias"
+       },
+       "nationalFieldPosition": {
+        "EN": "Forward",
+        "FR": "Attaquante",
+        "DE": "Stürmerin",
+        "ES": "Delantera",
+        "PT": "Avançada",
+        "IT": "Attaccante",
+        "RU": "Нападающий",
+        "ZH": "FORWARD",
+        "AR": "مهاجم"
+       },
+       "shortName": {
+        "EN": "Indias",
+        "FR": "Indias",
+        "DE": "Indias",
+        "ES": "Indias",
+        "PT": "Indias",
+        "IT": "Indias",
+        "RU": "Индиас",
+        "ZH": "Indias Álvarez",
+        "AR": "Indias"
+       }
+      }
+     },
+     "teamId": "600122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 68,
+      "second": 40
+     }
+    },
+    {
+     "goalType": "SCORED",
+     "id": "528f6d71-9f3b-4816-a7ae-b4fcad633b2f",
+     "phase": "SECOND_HALF",
+     "player": {
+      "age": "18",
+      "birthDate": "2008-09-06",
+      "clubId": "2601945",
+      "clubJerseyNumber": "28",
+      "clubShirtName": "LÚA ARUFE",
+      "countryCode": "ESP",
+      "detailedFieldPosition": "UNKNOWN",
+      "fieldPosition": "DEFENDER",
+      "gender": "FEMALE",
+      "id": "250185747",
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/25/2027/324x324/250185747.jpg",
+      "internationalName": "Lúa Arufe",
+      "nationalFieldPosition": "DEFENDER",
+      "nationalJerseyNumber": "14",
+      "nationalShirtName": "",
+      "nationalTeamId": "600122",
+      "translations": {
+       "countryName": {
+        "EN": "Spain",
+        "FR": "Espagne",
+        "DE": "Spanien",
+        "ES": "España",
+        "PT": "Espanha",
+        "IT": "Spagna",
+        "RU": "Испания",
+        "ZH": "西班牙",
+        "AR": "إسبانيا"
+       },
+       "fieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "firstName": {
+        "EN": "Lúa ",
+        "FR": "Lúa ",
+        "DE": "Lúa ",
+        "ES": "Lúa ",
+        "PT": "Lúa ",
+        "IT": "Lúa ",
+        "RU": "Луа ",
+        "ZH": "Lua"
+       },
+       "lastName": {
+        "EN": "Arufe",
+        "FR": "Arufe",
+        "DE": "Arufe",
+        "ES": "Arufe",
+        "PT": "Arufe",
+        "IT": "Arufe",
+        "RU": "Аруфе",
+        "ZH": "Arufe Calo",
+        "AR": "Lúa Arufe"
+       },
+       "name": {
+        "EN": "Lúa Arufe",
+        "FR": "Lúa Arufe",
+        "DE": "Lúa Arufe",
+        "ES": "Lúa Arufe",
+        "PT": "Lúa Arufe",
+        "IT": "Lúa Arufe",
+        "RU": "Луа Аруфе",
+        "ZH": "Lua Arufe Calo",
+        "AR": "Lúa Arufe"
+       },
+       "nationalFieldPosition": {
+        "EN": "Defender",
+        "FR": "Défenseure",
+        "DE": "Verteidigerin",
+        "ES": "Defensa",
+        "PT": "Defesa",
+        "IT": "Difensore",
+        "RU": "Защитник",
+        "ZH": "DEFENDER",
+        "AR": "مدافع"
+       },
+       "shortName": {
+        "EN": "Lúa Arufe",
+        "FR": "Lúa Arufe",
+        "DE": "Lúa Arufe",
+        "ES": "Lúa Arufe",
+        "PT": "Lúa Arufe",
+        "IT": "Lúa Arufe",
+        "RU": "Аруфе",
+        "ZH": "Arufe Calo",
+        "AR": "Lúa Arufe"
+       }
+      }
+     },
+     "teamId": "600122",
+     "teamIdProvider": "FAME",
+     "time": {
+      "minute": 88,
+      "second": 7
+     }
+    }
+   ]
   },
   "referees": [
    {
@@ -419,87 +755,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205022.jpg"
-    },
-    "person": {
-     "countryCode": "CYP",
-     "gender": "FEMALE",
-     "id": "250205022",
-     "translations": {
-      "countryName": {
-       "EN": "Cyprus",
-       "FR": "Chypre",
-       "DE": "Zypern",
-       "ES": "Chipre",
-       "PT": "Chipre",
-       "IT": "Cipro",
-       "RU": "Кипр",
-       "ZH": "塞浦路斯",
-       "AR": "قبرص"
-      },
-      "firstName": {
-       "EN": "Galatia",
-       "FR": "Galatia",
-       "DE": "Galatia",
-       "ES": "Galatia",
-       "PT": "Galatia",
-       "IT": "Galatia",
-       "RU": "Galatia",
-       "ZH": "Galatia",
-       "AR": "Galatia"
-      },
-      "lastName": {
-       "EN": "Kontakki",
-       "FR": "Kontakki",
-       "DE": "Kontakki",
-       "ES": "Kontakki",
-       "PT": "Kontakki",
-       "IT": "Kontakki",
-       "RU": "Kontakki",
-       "ZH": "Kontakki",
-       "AR": "Kontakki"
-      },
-      "name": {
-       "EN": "Galatia Kontakki",
-       "FR": "Galatia Kontakki",
-       "DE": "Galatia Kontakki",
-       "ES": "Galatia Kontakki",
-       "PT": "Galatia Kontakki",
-       "IT": "Galatia Kontakki",
-       "RU": "Galatia Kontakki",
-       "ZH": "Galatia Kontakki",
-       "AR": "Galatia Kontakki"
-      },
-      "shortName": {
-       "EN": "Kontakki",
-       "FR": "Kontakki",
-       "DE": "Kontakki",
-       "ES": "Kontakki",
-       "PT": "Kontakki",
-       "IT": "Kontakki",
-       "RU": "Kontakki",
-       "ZH": "Kontakki",
-       "AR": "Kontakki"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -667,82 +922,82 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/294014.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250205022.jpg"
     },
     "person": {
-     "countryCode": "ROU",
+     "countryCode": "CYP",
      "gender": "FEMALE",
-     "id": "294014",
+     "id": "250205022",
      "translations": {
       "countryName": {
-       "EN": "Romania",
-       "FR": "Roumanie",
-       "DE": "Rumänien",
-       "ES": "Rumanía",
-       "PT": "Roménia",
-       "IT": "Romania",
-       "RU": "Румыния",
-       "ZH": "罗马尼亚",
-       "AR": "رومانيا"
+       "EN": "Cyprus",
+       "FR": "Chypre",
+       "DE": "Zypern",
+       "ES": "Chipre",
+       "PT": "Chipre",
+       "IT": "Cipro",
+       "RU": "Кипр",
+       "ZH": "塞浦路斯",
+       "AR": "قبرص"
       },
       "firstName": {
-       "EN": "Roxana",
-       "FR": "Roxana",
-       "DE": "Roxana",
-       "ES": "Roxana",
-       "PT": "Roxana",
-       "IT": "Roxana",
-       "RU": "Roxana",
-       "ZH": "Roxana",
-       "AR": "روكسانا "
+       "EN": "Galatia",
+       "FR": "Galatia",
+       "DE": "Galatia",
+       "ES": "Galatia",
+       "PT": "Galatia",
+       "IT": "Galatia",
+       "RU": "Galatia",
+       "ZH": "Galatia",
+       "AR": "Galatia"
       },
       "lastName": {
-       "EN": "Berceanu",
-       "FR": "Berceanu",
-       "DE": "Berceanu",
-       "ES": "Berceanu",
-       "PT": "Berceanu",
-       "IT": "Berceanu",
-       "RU": "Berceanu",
-       "ZH": "Berceanu",
-       "AR": "بيرسيانو"
+       "EN": "Kontakki",
+       "FR": "Kontakki",
+       "DE": "Kontakki",
+       "ES": "Kontakki",
+       "PT": "Kontakki",
+       "IT": "Kontakki",
+       "RU": "Kontakki",
+       "ZH": "Kontakki",
+       "AR": "Kontakki"
       },
       "name": {
-       "EN": "Roxana Berceanu",
-       "FR": "Roxana Berceanu",
-       "DE": "Roxana Berceanu",
-       "ES": "Roxana Berceanu",
-       "PT": "Roxana Berceanu",
-       "IT": "Roxana Berceanu",
-       "RU": "Роксана Берчану",
-       "ZH": "Roxana Berceanu",
-       "AR": "روكسانا بيرسيانو"
+       "EN": "Galatia Kontakki",
+       "FR": "Galatia Kontakki",
+       "DE": "Galatia Kontakki",
+       "ES": "Galatia Kontakki",
+       "PT": "Galatia Kontakki",
+       "IT": "Galatia Kontakki",
+       "RU": "Galatia Kontakki",
+       "ZH": "Galatia Kontakki",
+       "AR": "Galatia Kontakki"
       },
       "shortName": {
-       "EN": "Berceanu",
-       "FR": "Berceanu",
-       "DE": "Berceanu",
-       "ES": "Berceanu",
-       "PT": "Berceanu",
-       "IT": "Berceanu",
-       "RU": "Берчану",
-       "ZH": "Berceanu",
-       "AR": "بيرسيانو"
+       "EN": "Kontakki",
+       "FR": "Kontakki",
+       "DE": "Kontakki",
+       "ES": "Kontakki",
+       "PT": "Kontakki",
+       "IT": "Kontakki",
+       "RU": "Kontakki",
+       "ZH": "Kontakki",
+       "AR": "Kontakki"
       }
      }
     },
-    "role": "UEFA_DELEGATE",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -824,6 +1079,87 @@
       "RU": "Рефери",
       "ZH": "Referee",
       "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/294014.jpg"
+    },
+    "person": {
+     "countryCode": "ROU",
+     "gender": "FEMALE",
+     "id": "294014",
+     "translations": {
+      "countryName": {
+       "EN": "Romania",
+       "FR": "Roumanie",
+       "DE": "Rumänien",
+       "ES": "Rumanía",
+       "PT": "Roménia",
+       "IT": "Romania",
+       "RU": "Румыния",
+       "ZH": "罗马尼亚",
+       "AR": "رومانيا"
+      },
+      "firstName": {
+       "EN": "Roxana",
+       "FR": "Roxana",
+       "DE": "Roxana",
+       "ES": "Roxana",
+       "PT": "Roxana",
+       "IT": "Roxana",
+       "RU": "Roxana",
+       "ZH": "Roxana",
+       "AR": "روكسانا "
+      },
+      "lastName": {
+       "EN": "Berceanu",
+       "FR": "Berceanu",
+       "DE": "Berceanu",
+       "ES": "Berceanu",
+       "PT": "Berceanu",
+       "IT": "Berceanu",
+       "RU": "Berceanu",
+       "ZH": "Berceanu",
+       "AR": "بيرسيانو"
+      },
+      "name": {
+       "EN": "Roxana Berceanu",
+       "FR": "Roxana Berceanu",
+       "DE": "Roxana Berceanu",
+       "ES": "Roxana Berceanu",
+       "PT": "Roxana Berceanu",
+       "IT": "Roxana Berceanu",
+       "RU": "Роксана Берчану",
+       "ZH": "Roxana Berceanu",
+       "AR": "روكسانا بيرسيانو"
+      },
+      "shortName": {
+       "EN": "Berceanu",
+       "FR": "Berceanu",
+       "DE": "Berceanu",
+       "ES": "Berceanu",
+       "PT": "Berceanu",
+       "IT": "Berceanu",
+       "RU": "Берчану",
+       "ZH": "Berceanu",
+       "AR": "بيرسيانو"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
      }
     }
    }
@@ -944,6 +1280,16 @@
     }
    }
   },
+  "score": {
+   "regular": {
+    "away": 0,
+    "home": 3
+   },
+   "total": {
+    "away": 0,
+    "home": 3
+   }
+  },
   "seasonYear": "2027",
   "sessionNumber": 2,
   "stadium": {
@@ -1039,8 +1385,88 @@
     }
    }
   },
-  "status": "UPCOMING",
-  "type": "GROUP_STAGE"
+  "status": "FINISHED",
+  "type": "GROUP_STAGE",
+  "winner": {
+   "match": {
+    "reason": "WIN_REGULAR",
+    "team": {
+     "associationId": "200122",
+     "associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/ESP.svg",
+     "bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/ESP.png",
+     "confederationType": "UEFA",
+     "countryCode": "ESP",
+     "id": "600122",
+     "idProvider": "FAME",
+     "internationalName": "Spain",
+     "isPlaceHolder": false,
+     "logoUrl": "https://img.uefa.com/imgml/flags/70x70/ESP.png",
+     "mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+     "organizationId": "200122",
+     "teamCode": "ESP",
+     "teamTypeDetail": "NATIONAL_WOMEN_U19",
+     "translations": {
+      "countryName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "إسبانيا"
+      },
+      "displayName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "Spain"
+      },
+      "displayOfficialName": {
+       "EN": "Spain",
+       "FR": "Espagne",
+       "DE": "Spanien",
+       "ES": "España",
+       "PT": "Espanha",
+       "IT": "Spagna",
+       "RU": "Испания",
+       "ZH": "西班牙",
+       "AR": "Spain"
+      },
+      "displayTeamCode": {
+       "EN": "ESP",
+       "FR": "ESP",
+       "DE": "ESP",
+       "ES": "ESP",
+       "PT": "ESP",
+       "IT": "ESP",
+       "RU": "ESP",
+       "ZH": "ESP",
+       "AR": "ESP"
+      },
+      "shortName": {
+       "EN": "ESP",
+       "FR": "ESP",
+       "DE": "ESP",
+       "ES": "ESP",
+       "PT": "ESP",
+       "IT": "ESP",
+       "RU": "RFEF",
+       "ZH": "RFEF",
+       "AR": "ESP"
+      }
+     },
+     "typeIsNational": true,
+     "typeTeam": "NATIONAL"
+    }
+   }
+  }
  },
  {
   "awayTeam": {
@@ -1182,6 +1608,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "EXCELLENT",
+   "temperature": 6,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "excellent",
+     "FR": "impeccable",
+     "DE": "exzellent",
+     "ES": "excelente",
+     "PT": "excelente",
+     "IT": "eccellente",
+     "RU": "превосходное",
+     "ZH": "非常好",
+     "AR": "ممتاز"
+    },
+    "weatherConditionName": {
+     "EN": "Partly cloudy",
+     "FR": "partiellement couvert",
+     "DE": "teilweise bewölkt",
+     "ES": "Parcialmente nublado",
+     "PT": "Parcialmente nublado",
+     "IT": "Parzialmente nuvoloso",
+     "RU": "Частичная облачность",
+     "ZH": "部分多云",
+     "AR": "غائم جزئيا"
+    }
+   },
+   "weatherCondition": "PARTLY_CLOUDY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014235",
@@ -1343,7 +1798,7 @@
    "dateTime": "2026-11-27T11:00:00Z",
    "utcOffsetInHours": 0
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-09T06:00:00+0000",
@@ -1385,82 +1840,82 @@
   "referees": [
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250192217.jpg"
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138696.jpg"
     },
     "person": {
-     "countryCode": "FRO",
+     "countryCode": "SVN",
      "gender": "FEMALE",
-     "id": "250192217",
+     "id": "250138696",
      "translations": {
       "countryName": {
-       "EN": "Faroe Islands",
-       "FR": "Îles Féroé",
-       "DE": "Färöer-Inseln",
-       "ES": "Islas Feroe",
-       "PT": "Ilhas Faroé",
-       "IT": "Isole Faroe",
-       "RU": "Фарерские острова",
-       "ZH": "法罗群岛",
-       "AR": "جزر فارو"
+       "EN": "Slovenia",
+       "FR": "Slovénie",
+       "DE": "Slowenien",
+       "ES": "Eslovenia",
+       "PT": "Eslovénia",
+       "IT": "Slovenia",
+       "RU": "Словения",
+       "ZH": "斯洛文尼亚",
+       "AR": "سلوفينيا"
       },
       "firstName": {
-       "EN": "Annika Eliasen",
-       "FR": "Annika Eliasen",
-       "DE": "Annika Eliasen",
-       "ES": "Annika Eliasen",
-       "PT": "Annika Eliasen",
-       "IT": "Annika Eliasen",
-       "RU": "Annika Eliasen",
-       "ZH": "Annika Eliasen",
-       "AR": "Annika Eliasen"
+       "EN": "Sladjana",
+       "FR": "Sladjana",
+       "DE": "Sladjana",
+       "ES": "Sladjana",
+       "PT": "Sladjana",
+       "IT": "Sladjana",
+       "RU": "Сладжана",
+       "ZH": "Sladjana",
+       "AR": "Sladjana"
       },
       "lastName": {
-       "EN": "Breiðaskarð",
-       "FR": "Breiðaskarð",
-       "DE": "Breiðaskarð",
-       "ES": "Breiðaskarð",
-       "PT": "Breiðaskarð",
-       "IT": "Breiðaskarð",
-       "RU": "Breiðaskarð",
-       "ZH": "Breiðaskarð",
-       "AR": "Breiðaskarð"
+       "EN": "Jovicic",
+       "FR": "Jovicic",
+       "DE": "Jovicic",
+       "ES": "Jovicic",
+       "PT": "Jovicic",
+       "IT": "Jovicic",
+       "RU": "Йовичич",
+       "ZH": "Jovicic",
+       "AR": "Jovicic"
       },
       "name": {
-       "EN": "Annika Eliasen Breiðaskarð",
-       "FR": "Annika Eliasen Breiðaskarð",
-       "DE": "Annika Eliasen Breiðaskarð",
-       "ES": "Annika Eliasen Breiðaskarð",
-       "PT": "Annika Eliasen Breiðaskarð",
-       "IT": "Annika Eliasen Breiðaskarð",
-       "RU": "Annika Eliasen Breiðaskarð",
-       "ZH": "Annika Eliasen Breiðaskarð",
-       "AR": "Annika Eliasen Breiðaskarð"
+       "EN": "Sladjana Jovičić",
+       "FR": "Sladjana Jovičić",
+       "DE": "Sladjana Jovičić",
+       "ES": "Sladjana Jovičić",
+       "PT": "Sladjana Jovičić",
+       "IT": "Sladjana Jovičić",
+       "RU": "Сладжана Йовичич",
+       "ZH": "Sladjana Jovicic",
+       "AR": "Sladjana Jovičić"
       },
       "shortName": {
-       "EN": "Breiðaskarð",
-       "FR": "Breiðaskarð",
-       "DE": "Breiðaskarð",
-       "ES": "Breiðaskarð",
-       "PT": "Breiðaskarð",
-       "IT": "Breiðaskarð",
-       "RU": "Breiðaskarð",
-       "ZH": "Breiðaskarð",
-       "AR": "Breiðaskarð"
+       "EN": "Jovičić",
+       "FR": "Jovičić",
+       "DE": "Jovičić",
+       "ES": "Jovičić",
+       "PT": "Jovičić",
+       "IT": "Jovičić",
+       "RU": "Йовичич",
+       "ZH": "Jovicic",
+       "AR": "Jovičić"
       }
      }
     },
-    "role": "FOURTH_OFFICIAL",
+    "role": "ASSISTANT_REFEREE_ONE",
     "translations": {
      "roleName": {
-      "EN": "Fourth Official",
-      "FR": "Quatrième officiel ou officielle",
-      "DE": "Vierte Offizielle",
-      "ES": "Cuarta árbitra",
-      "PT": "Quarta Árbitra",
-      "IT": "Quarto ufficiale",
-      "RU": "Четвертый рефери",
-      "ZH": "Fourth official",
-      "AR": "المسؤول الرابع"
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
      }
     }
    },
@@ -1547,6 +2002,168 @@
    },
    {
     "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250041526.jpg"
+    },
+    "person": {
+     "countryCode": "SVN",
+     "gender": "FEMALE",
+     "id": "250041526",
+     "translations": {
+      "countryName": {
+       "EN": "Slovenia",
+       "FR": "Slovénie",
+       "DE": "Slowenien",
+       "ES": "Eslovenia",
+       "PT": "Eslovénia",
+       "IT": "Slovenia",
+       "RU": "Словения",
+       "ZH": "斯洛文尼亚",
+       "AR": "سلوفينيا"
+      },
+      "firstName": {
+       "EN": "Tjaša",
+       "FR": "Tjaša",
+       "DE": "Tjaša",
+       "ES": "Tjaša",
+       "PT": "Tjaša",
+       "IT": "Tjaša",
+       "RU": "Tjaša",
+       "ZH": "Tjaša",
+       "AR": "Tjaša"
+      },
+      "lastName": {
+       "EN": "Misja",
+       "FR": "Misja",
+       "DE": "Misja",
+       "ES": "Misja",
+       "PT": "Misja",
+       "IT": "Misja",
+       "RU": "Misja",
+       "ZH": "Misja",
+       "AR": "Misja"
+      },
+      "name": {
+       "EN": "Tjaša Misja",
+       "FR": "Tjaša Misja",
+       "DE": "Tjaša Misja",
+       "ES": "Tjaša Misja",
+       "PT": "Tjaša Misja",
+       "IT": "Tjaša Misja",
+       "RU": "Тяша Мися",
+       "ZH": "Tjaša Misja",
+       "AR": "Tjaša Misja"
+      },
+      "shortName": {
+       "EN": "Misja",
+       "FR": "Misja",
+       "DE": "Misja",
+       "ES": "Misja",
+       "PT": "Misja",
+       "IT": "Misja",
+       "RU": "Мися",
+       "ZH": "Misja",
+       "AR": "Misja"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250192217.jpg"
+    },
+    "person": {
+     "countryCode": "FRO",
+     "gender": "FEMALE",
+     "id": "250192217",
+     "translations": {
+      "countryName": {
+       "EN": "Faroe Islands",
+       "FR": "Îles Féroé",
+       "DE": "Färöer-Inseln",
+       "ES": "Islas Feroe",
+       "PT": "Ilhas Faroé",
+       "IT": "Isole Faroe",
+       "RU": "Фарерские острова",
+       "ZH": "法罗群岛",
+       "AR": "جزر فارو"
+      },
+      "firstName": {
+       "EN": "Annika Eliasen",
+       "FR": "Annika Eliasen",
+       "DE": "Annika Eliasen",
+       "ES": "Annika Eliasen",
+       "PT": "Annika Eliasen",
+       "IT": "Annika Eliasen",
+       "RU": "Annika Eliasen",
+       "ZH": "Annika Eliasen",
+       "AR": "Annika Eliasen"
+      },
+      "lastName": {
+       "EN": "Breiðaskarð",
+       "FR": "Breiðaskarð",
+       "DE": "Breiðaskarð",
+       "ES": "Breiðaskarð",
+       "PT": "Breiðaskarð",
+       "IT": "Breiðaskarð",
+       "RU": "Breiðaskarð",
+       "ZH": "Breiðaskarð",
+       "AR": "Breiðaskarð"
+      },
+      "name": {
+       "EN": "Annika Eliasen Breiðaskarð",
+       "FR": "Annika Eliasen Breiðaskarð",
+       "DE": "Annika Eliasen Breiðaskarð",
+       "ES": "Annika Eliasen Breiðaskarð",
+       "PT": "Annika Eliasen Breiðaskarð",
+       "IT": "Annika Eliasen Breiðaskarð",
+       "RU": "Annika Eliasen Breiðaskarð",
+       "ZH": "Annika Eliasen Breiðaskarð",
+       "AR": "Annika Eliasen Breiðaskarð"
+      },
+      "shortName": {
+       "EN": "Breiðaskarð",
+       "FR": "Breiðaskarð",
+       "DE": "Breiðaskarð",
+       "ES": "Breiðaskarð",
+       "PT": "Breiðaskarð",
+       "IT": "Breiðaskarð",
+       "RU": "Breiðaskarð",
+       "ZH": "Breiðaskarð",
+       "AR": "Breiðaskarð"
+      }
+     }
+    },
+    "role": "FOURTH_OFFICIAL",
+    "translations": {
+     "roleName": {
+      "EN": "Fourth Official",
+      "FR": "Quatrième officiel ou officielle",
+      "DE": "Vierte Offizielle",
+      "ES": "Cuarta árbitra",
+      "PT": "Quarta Árbitra",
+      "IT": "Quarto ufficiale",
+      "RU": "Четвертый рефери",
+      "ZH": "Fourth official",
+      "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/278743.jpg"
     },
     "person": {
@@ -1628,87 +2245,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250138696.jpg"
-    },
-    "person": {
-     "countryCode": "SVN",
-     "gender": "FEMALE",
-     "id": "250138696",
-     "translations": {
-      "countryName": {
-       "EN": "Slovenia",
-       "FR": "Slovénie",
-       "DE": "Slowenien",
-       "ES": "Eslovenia",
-       "PT": "Eslovénia",
-       "IT": "Slovenia",
-       "RU": "Словения",
-       "ZH": "斯洛文尼亚",
-       "AR": "سلوفينيا"
-      },
-      "firstName": {
-       "EN": "Sladjana",
-       "FR": "Sladjana",
-       "DE": "Sladjana",
-       "ES": "Sladjana",
-       "PT": "Sladjana",
-       "IT": "Sladjana",
-       "RU": "Сладжана",
-       "ZH": "Sladjana",
-       "AR": "Sladjana"
-      },
-      "lastName": {
-       "EN": "Jovicic",
-       "FR": "Jovicic",
-       "DE": "Jovicic",
-       "ES": "Jovicic",
-       "PT": "Jovicic",
-       "IT": "Jovicic",
-       "RU": "Йовичич",
-       "ZH": "Jovicic",
-       "AR": "Jovicic"
-      },
-      "name": {
-       "EN": "Sladjana Jovičić",
-       "FR": "Sladjana Jovičić",
-       "DE": "Sladjana Jovičić",
-       "ES": "Sladjana Jovičić",
-       "PT": "Sladjana Jovičić",
-       "IT": "Sladjana Jovičić",
-       "RU": "Сладжана Йовичич",
-       "ZH": "Sladjana Jovicic",
-       "AR": "Sladjana Jovičić"
-      },
-      "shortName": {
-       "EN": "Jovičić",
-       "FR": "Jovičić",
-       "DE": "Jovičić",
-       "ES": "Jovičić",
-       "PT": "Jovičić",
-       "IT": "Jovičić",
-       "RU": "Йовичич",
-       "ZH": "Jovicic",
-       "AR": "Jovičić"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/24178.jpg"
     },
     "person": {
@@ -1785,87 +2321,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250041526.jpg"
-    },
-    "person": {
-     "countryCode": "SVN",
-     "gender": "FEMALE",
-     "id": "250041526",
-     "translations": {
-      "countryName": {
-       "EN": "Slovenia",
-       "FR": "Slovénie",
-       "DE": "Slowenien",
-       "ES": "Eslovenia",
-       "PT": "Eslovénia",
-       "IT": "Slovenia",
-       "RU": "Словения",
-       "ZH": "斯洛文尼亚",
-       "AR": "سلوفينيا"
-      },
-      "firstName": {
-       "EN": "Tjaša",
-       "FR": "Tjaša",
-       "DE": "Tjaša",
-       "ES": "Tjaša",
-       "PT": "Tjaša",
-       "IT": "Tjaša",
-       "RU": "Tjaša",
-       "ZH": "Tjaša",
-       "AR": "Tjaša"
-      },
-      "lastName": {
-       "EN": "Misja",
-       "FR": "Misja",
-       "DE": "Misja",
-       "ES": "Misja",
-       "PT": "Misja",
-       "IT": "Misja",
-       "RU": "Misja",
-       "ZH": "Misja",
-       "AR": "Misja"
-      },
-      "name": {
-       "EN": "Tjaša Misja",
-       "FR": "Tjaša Misja",
-       "DE": "Tjaša Misja",
-       "ES": "Tjaša Misja",
-       "PT": "Tjaša Misja",
-       "IT": "Tjaša Misja",
-       "RU": "Тяша Мися",
-       "ZH": "Tjaša Misja",
-       "AR": "Tjaša Misja"
-      },
-      "shortName": {
-       "EN": "Misja",
-       "FR": "Misja",
-       "DE": "Misja",
-       "ES": "Misja",
-       "PT": "Misja",
-       "IT": "Misja",
-       "RU": "Мися",
-       "ZH": "Misja",
-       "AR": "Misja"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
      }
     }
    }

@@ -1,10 +1,10 @@
 {
- "taken_at": "2026-11-27T07:14:40+09:00",
+ "taken_at": "2026-11-27T19:46:05+09:00",
  "sources": {
   "eloratings": {
-   "ok": true,
-   "n": 316,
-   "error": null
+   "ok": false,
+   "error": "解析結果が0件（ページ構造の変化の可能性）",
+   "kept_previous": true
   },
   "tennisabstract_atp": {
    "ok": true,
@@ -17,14 +17,14 @@
    "error": null
   },
   "hltv": {
-   "ok": true,
-   "n": 238,
-   "error": null
+   "ok": false,
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "kept_previous": true
   },
   "vrs": {
-   "ok": true,
-   "n": 347,
-   "error": null
+   "ok": false,
+   "error": "HTTPError: HTTP Error 403: rate limit exceeded",
+   "kept_previous": true
   },
   "vlr": {
    "ok": true,
