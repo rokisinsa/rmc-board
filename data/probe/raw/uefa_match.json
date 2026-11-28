@@ -140,6 +140,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "DRY",
+   "temperature": 1,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "dry",
+     "FR": "sec",
+     "DE": "trocken",
+     "ES": "seco",
+     "PT": "seco",
+     "IT": "asciutto",
+     "RU": "cухое",
+     "ZH": "干燥",
+     "AR": "جاف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014225",
@@ -301,7 +330,7 @@
    "dateTime": "2026-11-28T11:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -341,6 +370,249 @@
    "type": "MATCHDAY"
   },
   "referees": [
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165892.jpg"
+    },
+    "person": {
+     "countryCode": "NED",
+     "gender": "FEMALE",
+     "id": "250165892",
+     "translations": {
+      "countryName": {
+       "EN": "Netherlands",
+       "FR": "Pays-Bas",
+       "DE": "Niederlande",
+       "ES": "Holanda",
+       "PT": "Holanda",
+       "IT": "Olanda",
+       "RU": "Нидерланды",
+       "ZH": "荷兰",
+       "AR": "هولندا"
+      },
+      "firstName": {
+       "EN": "Martina",
+       "FR": "Martina",
+       "DE": "Martina",
+       "ES": "Martina",
+       "PT": "Martina",
+       "IT": "Martina",
+       "RU": "Мартина",
+       "ZH": "Martha Martina",
+       "AR": "Martina"
+      },
+      "lastName": {
+       "EN": "Boer",
+       "FR": "Boer",
+       "DE": "Boer",
+       "ES": "Boer",
+       "PT": "Boer",
+       "IT": "Boer",
+       "RU": "Бур",
+       "ZH": "Boer",
+       "AR": "Boer"
+      },
+      "name": {
+       "EN": "Martina Boer",
+       "FR": "Martina Boer",
+       "DE": "Martina Boer",
+       "ES": "Martina Boer",
+       "PT": "Martina Boer",
+       "IT": "Martina Boer",
+       "RU": "Мартина Бур",
+       "ZH": "Martha Martina Boer",
+       "AR": "Martina Boer"
+      },
+      "shortName": {
+       "EN": "Boer",
+       "FR": "Boer",
+       "DE": "Boer",
+       "ES": "Boer",
+       "PT": "Boer",
+       "IT": "Boer",
+       "RU": "Бур",
+       "ZH": "Boer",
+       "AR": "Boer"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_ONE",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referees",
+      "FR": "Arbitres assistant(e)s",
+      "DE": "Schiedsrichterassistenten",
+      "ES": "Árbitros/as Asistentes",
+      "PT": "Árbitros(as) assistentes",
+      "IT": "Assistente arbitrale",
+      "RU": "Ассистенты рефери",
+      "ZH": "Assistant referees",
+      "AR": "الحكام المساعدون"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/291495.jpg"
+    },
+    "person": {
+     "countryCode": "ITA",
+     "gender": "FEMALE",
+     "id": "291495",
+     "translations": {
+      "countryName": {
+       "EN": "Italy",
+       "FR": "Italie",
+       "DE": "Italien",
+       "ES": "Italia",
+       "PT": "Itália",
+       "IT": "Italia",
+       "RU": "Италия",
+       "ZH": "意大利",
+       "AR": "إيطاليا"
+      },
+      "firstName": {
+       "EN": "Scilla",
+       "FR": "Scilla",
+       "DE": "Scilla",
+       "ES": "Scilla",
+       "PT": "Scilla",
+       "IT": "Scilla",
+       "RU": "Scilla",
+       "ZH": "Scilla",
+       "AR": "سكيلا "
+      },
+      "lastName": {
+       "EN": "Gennaro",
+       "FR": "Gennaro",
+       "DE": "Gennaro",
+       "ES": "Gennaro",
+       "PT": "Gennaro",
+       "IT": "Gennaro",
+       "RU": "Gennaro",
+       "ZH": "GENNARO",
+       "AR": "جينارو"
+      },
+      "name": {
+       "EN": "Scilla Gennaro",
+       "FR": "Scilla Gennaro",
+       "DE": "Scilla Gennaro",
+       "ES": "Scilla Gennaro",
+       "PT": "Scilla Gennaro",
+       "IT": "Scilla Gennaro",
+       "RU": "Шилла Дженнаро",
+       "ZH": "Scilla Gennaro",
+       "AR": "سكيلا جينارو"
+      },
+      "shortName": {
+       "EN": "Gennaro",
+       "FR": "Gennaro",
+       "DE": "Gennaro",
+       "ES": "Gennaro",
+       "PT": "Gennaro",
+       "IT": "Gennaro",
+       "RU": "Дженнаро",
+       "ZH": "Gennaro",
+       "AR": "جينارو"
+      }
+     }
+    },
+    "role": "UEFA_DELEGATE",
+    "translations": {
+     "roleName": {
+      "EN": "UEFA Delegate",
+      "FR": "Délégué ou déléguée UEFA",
+      "DE": "UEFA-Delegierte",
+      "ES": "Delegada UEFA",
+      "PT": "Delegada da UEFA",
+      "IT": "Delegata UEFA",
+      "RU": "Делегат УЕФА",
+      "ZH": "UEFA delegate",
+      "AR": "مندوب UEFA"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227734.jpg"
+    },
+    "person": {
+     "countryCode": "AUT",
+     "gender": "FEMALE",
+     "id": "250227734",
+     "translations": {
+      "countryName": {
+       "EN": "Austria",
+       "FR": "Autriche",
+       "DE": "Österreich",
+       "ES": "Austria",
+       "PT": "Áustria",
+       "IT": "Austria",
+       "RU": "Австрия",
+       "ZH": "奥地利",
+       "AR": "النمسا"
+      },
+      "firstName": {
+       "EN": "Lejla",
+       "FR": "Lejla",
+       "DE": "Lejla",
+       "ES": "Lejla",
+       "PT": "Lejla",
+       "IT": "Lejla",
+       "RU": "Lejla",
+       "ZH": "Lejla",
+       "AR": "Lejla"
+      },
+      "lastName": {
+       "EN": "Velic",
+       "FR": "Velic",
+       "DE": "Velic",
+       "ES": "Velic",
+       "PT": "Velic",
+       "IT": "Velic",
+       "RU": "Velic",
+       "ZH": "Velic",
+       "AR": "Velic"
+      },
+      "name": {
+       "EN": "Lejla Velic",
+       "FR": "Lejla Velic",
+       "DE": "Lejla Velic",
+       "ES": "Lejla Velic",
+       "PT": "Lejla Velic",
+       "IT": "Lejla Velic",
+       "RU": "Lejla Velic",
+       "ZH": "Lejla Velic",
+       "AR": "Lejla Velic"
+      },
+      "shortName": {
+       "EN": "Velic",
+       "FR": "Velic",
+       "DE": "Velic",
+       "ES": "Velic",
+       "PT": "Velic",
+       "IT": "Velic",
+       "RU": "Velic",
+       "ZH": "Velic",
+       "AR": "Velic"
+      }
+     }
+    },
+    "role": "ASSISTANT_REFEREE_TWO",
+    "translations": {
+     "roleName": {
+      "EN": "Assistant Referee Two",
+      "FR": "2e arbitre assistant(e)",
+      "DE": "Schiedsrichterassistent zwei",
+      "ES": "Árbitro/a Asistente Dos",
+      "PT": "Árbitro(a)-assistente 2",
+      "IT": "Assistente arbitrale due",
+      "RU": "Ассистент рефери 2",
+      "ZH": "Assistant referee two",
+      "AR": "الحكم المساعد الثاني"
+     }
+    }
+   },
    {
     "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250126366.jpg"
@@ -581,249 +853,6 @@
       "RU": "Судейский наблюдатель",
       "ZH": "Referee observer",
       "AR": "مراقب الحكم"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/291495.jpg"
-    },
-    "person": {
-     "countryCode": "ITA",
-     "gender": "FEMALE",
-     "id": "291495",
-     "translations": {
-      "countryName": {
-       "EN": "Italy",
-       "FR": "Italie",
-       "DE": "Italien",
-       "ES": "Italia",
-       "PT": "Itália",
-       "IT": "Italia",
-       "RU": "Италия",
-       "ZH": "意大利",
-       "AR": "إيطاليا"
-      },
-      "firstName": {
-       "EN": "Scilla",
-       "FR": "Scilla",
-       "DE": "Scilla",
-       "ES": "Scilla",
-       "PT": "Scilla",
-       "IT": "Scilla",
-       "RU": "Scilla",
-       "ZH": "Scilla",
-       "AR": "سكيلا "
-      },
-      "lastName": {
-       "EN": "Gennaro",
-       "FR": "Gennaro",
-       "DE": "Gennaro",
-       "ES": "Gennaro",
-       "PT": "Gennaro",
-       "IT": "Gennaro",
-       "RU": "Gennaro",
-       "ZH": "GENNARO",
-       "AR": "جينارو"
-      },
-      "name": {
-       "EN": "Scilla Gennaro",
-       "FR": "Scilla Gennaro",
-       "DE": "Scilla Gennaro",
-       "ES": "Scilla Gennaro",
-       "PT": "Scilla Gennaro",
-       "IT": "Scilla Gennaro",
-       "RU": "Шилла Дженнаро",
-       "ZH": "Scilla Gennaro",
-       "AR": "سكيلا جينارو"
-      },
-      "shortName": {
-       "EN": "Gennaro",
-       "FR": "Gennaro",
-       "DE": "Gennaro",
-       "ES": "Gennaro",
-       "PT": "Gennaro",
-       "IT": "Gennaro",
-       "RU": "Дженнаро",
-       "ZH": "Gennaro",
-       "AR": "جينارو"
-      }
-     }
-    },
-    "role": "UEFA_DELEGATE",
-    "translations": {
-     "roleName": {
-      "EN": "UEFA Delegate",
-      "FR": "Délégué ou déléguée UEFA",
-      "DE": "UEFA-Delegierte",
-      "ES": "Delegada UEFA",
-      "PT": "Delegada da UEFA",
-      "IT": "Delegata UEFA",
-      "RU": "Делегат УЕФА",
-      "ZH": "UEFA delegate",
-      "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250165892.jpg"
-    },
-    "person": {
-     "countryCode": "NED",
-     "gender": "FEMALE",
-     "id": "250165892",
-     "translations": {
-      "countryName": {
-       "EN": "Netherlands",
-       "FR": "Pays-Bas",
-       "DE": "Niederlande",
-       "ES": "Holanda",
-       "PT": "Holanda",
-       "IT": "Olanda",
-       "RU": "Нидерланды",
-       "ZH": "荷兰",
-       "AR": "هولندا"
-      },
-      "firstName": {
-       "EN": "Martina",
-       "FR": "Martina",
-       "DE": "Martina",
-       "ES": "Martina",
-       "PT": "Martina",
-       "IT": "Martina",
-       "RU": "Мартина",
-       "ZH": "Martha Martina",
-       "AR": "Martina"
-      },
-      "lastName": {
-       "EN": "Boer",
-       "FR": "Boer",
-       "DE": "Boer",
-       "ES": "Boer",
-       "PT": "Boer",
-       "IT": "Boer",
-       "RU": "Бур",
-       "ZH": "Boer",
-       "AR": "Boer"
-      },
-      "name": {
-       "EN": "Martina Boer",
-       "FR": "Martina Boer",
-       "DE": "Martina Boer",
-       "ES": "Martina Boer",
-       "PT": "Martina Boer",
-       "IT": "Martina Boer",
-       "RU": "Мартина Бур",
-       "ZH": "Martha Martina Boer",
-       "AR": "Martina Boer"
-      },
-      "shortName": {
-       "EN": "Boer",
-       "FR": "Boer",
-       "DE": "Boer",
-       "ES": "Boer",
-       "PT": "Boer",
-       "IT": "Boer",
-       "RU": "Бур",
-       "ZH": "Boer",
-       "AR": "Boer"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_ONE",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referees",
-      "FR": "Arbitres assistant(e)s",
-      "DE": "Schiedsrichterassistenten",
-      "ES": "Árbitros/as Asistentes",
-      "PT": "Árbitros(as) assistentes",
-      "IT": "Assistente arbitrale",
-      "RU": "Ассистенты рефери",
-      "ZH": "Assistant referees",
-      "AR": "الحكام المساعدون"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250227734.jpg"
-    },
-    "person": {
-     "countryCode": "AUT",
-     "gender": "FEMALE",
-     "id": "250227734",
-     "translations": {
-      "countryName": {
-       "EN": "Austria",
-       "FR": "Autriche",
-       "DE": "Österreich",
-       "ES": "Austria",
-       "PT": "Áustria",
-       "IT": "Austria",
-       "RU": "Австрия",
-       "ZH": "奥地利",
-       "AR": "النمسا"
-      },
-      "firstName": {
-       "EN": "Lejla",
-       "FR": "Lejla",
-       "DE": "Lejla",
-       "ES": "Lejla",
-       "PT": "Lejla",
-       "IT": "Lejla",
-       "RU": "Lejla",
-       "ZH": "Lejla",
-       "AR": "Lejla"
-      },
-      "lastName": {
-       "EN": "Velic",
-       "FR": "Velic",
-       "DE": "Velic",
-       "ES": "Velic",
-       "PT": "Velic",
-       "IT": "Velic",
-       "RU": "Velic",
-       "ZH": "Velic",
-       "AR": "Velic"
-      },
-      "name": {
-       "EN": "Lejla Velic",
-       "FR": "Lejla Velic",
-       "DE": "Lejla Velic",
-       "ES": "Lejla Velic",
-       "PT": "Lejla Velic",
-       "IT": "Lejla Velic",
-       "RU": "Lejla Velic",
-       "ZH": "Lejla Velic",
-       "AR": "Lejla Velic"
-      },
-      "shortName": {
-       "EN": "Velic",
-       "FR": "Velic",
-       "DE": "Velic",
-       "ES": "Velic",
-       "PT": "Velic",
-       "IT": "Velic",
-       "RU": "Velic",
-       "ZH": "Velic",
-       "AR": "Velic"
-      }
-     }
-    },
-    "role": "ASSISTANT_REFEREE_TWO",
-    "translations": {
-     "roleName": {
-      "EN": "Assistant Referee Two",
-      "FR": "2e arbitre assistant(e)",
-      "DE": "Schiedsrichterassistent zwei",
-      "ES": "Árbitro/a Asistente Dos",
-      "PT": "Árbitro(a)-assistente 2",
-      "IT": "Assistente arbitrale due",
-      "RU": "Ассистент рефери 2",
-      "ZH": "Assistant referee two",
-      "AR": "الحكم المساعد الثاني"
      }
     }
    }
@@ -1181,6 +1210,35 @@
    "type": "CUP"
   },
   "competitionPhase": "QUALIFYING",
+  "condition": {
+   "pitchCondition": "SOFT",
+   "temperature": 2,
+   "translations": {
+    "pitchConditionName": {
+     "EN": "soft",
+     "FR": "souple",
+     "DE": "weich",
+     "ES": "suave",
+     "PT": "suave",
+     "IT": "morbido",
+     "RU": "мягкое",
+     "ZH": "柔软",
+     "AR": "تدخل خفيف"
+    },
+    "weatherConditionName": {
+     "EN": "Cloudy",
+     "FR": "nuageux",
+     "DE": "bewölkt",
+     "ES": "Nublado",
+     "PT": "Nublado",
+     "IT": "Nuvoloso",
+     "RU": "Облачно",
+     "ZH": "多云",
+     "AR": "غائم"
+    }
+   },
+   "weatherCondition": "CLOUDY"
+  },
   "group": {
    "competitionId": "25",
    "id": "2014231",
@@ -1342,7 +1400,7 @@
    "dateTime": "2026-11-28T11:00:00Z",
    "utcOffsetInHours": 1
   },
-  "lineupStatus": "NOT_AVAILABLE",
+  "lineupStatus": "TACTICAL_AVAILABLE",
   "matchday": {
    "competitionId": "25",
    "dateFrom": "2026-10-06T06:00:00+0000",
@@ -1465,87 +1523,6 @@
    },
    {
     "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250054118.jpg"
-    },
-    "person": {
-     "countryCode": "BIH",
-     "gender": "FEMALE",
-     "id": "250054118",
-     "translations": {
-      "countryName": {
-       "EN": "Bosnia and Herzegovina",
-       "FR": "Bosnie-Herzégovine",
-       "DE": "Bosnien-Herzegowina",
-       "ES": "Bosnia y Herzegovina",
-       "PT": "Bósnia e Herzegovina",
-       "IT": "Bosnia ed Erzegovina",
-       "RU": "Босния и Герцеговина",
-       "ZH": "波黑",
-       "AR": "البوسنة والهرسك"
-      },
-      "firstName": {
-       "EN": "Merima",
-       "FR": "Merima",
-       "DE": "Merima",
-       "ES": "Merima",
-       "PT": "Merima",
-       "IT": "Merima",
-       "RU": "Мерима ",
-       "ZH": "Merima",
-       "AR": "Merima"
-      },
-      "lastName": {
-       "EN": "Čelik",
-       "FR": "Čelik",
-       "DE": "Čelik",
-       "ES": "Čelik",
-       "PT": "Čelik",
-       "IT": "Čelik",
-       "RU": "Челик",
-       "ZH": "Celik",
-       "AR": "Čelik"
-      },
-      "name": {
-       "EN": "Merima Čelik",
-       "FR": "Merima Čelik",
-       "DE": "Merima Čelik",
-       "ES": "Merima Čelik",
-       "PT": "Merima Čelik",
-       "IT": "Merima Čelik",
-       "RU": "Мерима Челик",
-       "ZH": "梅里马·塞里克",
-       "AR": "Merima Čelik"
-      },
-      "shortName": {
-       "EN": "Čelik",
-       "FR": "Čelik",
-       "DE": "Čelik",
-       "ES": "Čelik",
-       "PT": "Čelik",
-       "IT": "Čelik",
-       "RU": "Челик",
-       "ZH": "塞里克",
-       "AR": "Čelik"
-      }
-     }
-    },
-    "role": "REFEREE",
-    "translations": {
-     "roleName": {
-      "EN": "Referee",
-      "FR": "Arbitre",
-      "DE": "Schiedsrichterin",
-      "ES": "Árbitra",
-      "PT": "Árbitra",
-      "IT": "Arbitro",
-      "RU": "Рефери",
-      "ZH": "Referee",
-      "AR": "الحكم"
-     }
-    }
-   },
-   {
-    "images": {
      "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250069394.jpg"
     },
     "person": {
@@ -1622,87 +1599,6 @@
       "RU": "Делегат УЕФА",
       "ZH": "UEFA delegate",
       "AR": "مندوب UEFA"
-     }
-    }
-   },
-   {
-    "images": {
-     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1909828.jpg"
-    },
-    "person": {
-     "countryCode": "POR",
-     "gender": "FEMALE",
-     "id": "1909828",
-     "translations": {
-      "countryName": {
-       "EN": "Portugal",
-       "FR": "Portugal",
-       "DE": "Portugal",
-       "ES": "Portugal",
-       "PT": "Portugal",
-       "IT": "Portogallo",
-       "RU": "Португалия",
-       "ZH": "葡萄牙",
-       "AR": "البرتغال"
-      },
-      "firstName": {
-       "EN": "Ana Sofia",
-       "FR": "Ana Sofia",
-       "DE": "Ana Sofia",
-       "ES": "Ana Sofia",
-       "PT": "Ana Sofia",
-       "IT": "Ana Sofia",
-       "RU": "Ana Sofia",
-       "ZH": "Ana Sofia",
-       "AR": "Ana Sofia"
-      },
-      "lastName": {
-       "EN": "Soares Aguiar",
-       "FR": "Soares Aguiar",
-       "DE": "Soares Aguiar",
-       "ES": "Soares Aguiar",
-       "PT": "Soares Aguiar",
-       "IT": "Soares Aguiar",
-       "RU": "Soares Aguiar",
-       "ZH": "Soares Aguiar",
-       "AR": "Soares Aguiar"
-      },
-      "name": {
-       "EN": "Ana Aguiar",
-       "FR": "Ana Aguiar",
-       "DE": "Ana Aguiar",
-       "ES": "Ana Aguiar",
-       "PT": "Ana Aguiar",
-       "IT": "Ana Aguiar",
-       "RU": "Ана Агияр",
-       "ZH": "Ana Sofia Soares Aguiar",
-       "AR": "Ana Aguiar"
-      },
-      "shortName": {
-       "EN": "Aguiar",
-       "FR": "Aguiar",
-       "DE": "Aguiar",
-       "ES": "Aguiar",
-       "PT": "Aguiar",
-       "IT": "Aguiar",
-       "RU": "Агияр",
-       "ZH": "Soares Aguiar",
-       "AR": "Aguiar"
-      }
-     }
-    },
-    "role": "REFEREE_OBSERVER",
-    "translations": {
-     "roleName": {
-      "EN": "Referee Observer",
-      "FR": "Observateur ou observatrice d'arbitre",
-      "DE": "Schiedsrichterbeobachterin",
-      "ES": "Observadora arbitral",
-      "PT": "Observadora de Arbitragem",
-      "IT": "Osservatrice arbitrale",
-      "RU": "Судейский наблюдатель",
-      "ZH": "Referee observer",
-      "AR": "مراقب الحكم"
      }
     }
    },
@@ -1865,6 +1761,168 @@
       "RU": "Четвертый рефери",
       "ZH": "Fourth official",
       "AR": "المسؤول الرابع"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/1909828.jpg"
+    },
+    "person": {
+     "countryCode": "POR",
+     "gender": "FEMALE",
+     "id": "1909828",
+     "translations": {
+      "countryName": {
+       "EN": "Portugal",
+       "FR": "Portugal",
+       "DE": "Portugal",
+       "ES": "Portugal",
+       "PT": "Portugal",
+       "IT": "Portogallo",
+       "RU": "Португалия",
+       "ZH": "葡萄牙",
+       "AR": "البرتغال"
+      },
+      "firstName": {
+       "EN": "Ana Sofia",
+       "FR": "Ana Sofia",
+       "DE": "Ana Sofia",
+       "ES": "Ana Sofia",
+       "PT": "Ana Sofia",
+       "IT": "Ana Sofia",
+       "RU": "Ana Sofia",
+       "ZH": "Ana Sofia",
+       "AR": "Ana Sofia"
+      },
+      "lastName": {
+       "EN": "Soares Aguiar",
+       "FR": "Soares Aguiar",
+       "DE": "Soares Aguiar",
+       "ES": "Soares Aguiar",
+       "PT": "Soares Aguiar",
+       "IT": "Soares Aguiar",
+       "RU": "Soares Aguiar",
+       "ZH": "Soares Aguiar",
+       "AR": "Soares Aguiar"
+      },
+      "name": {
+       "EN": "Ana Aguiar",
+       "FR": "Ana Aguiar",
+       "DE": "Ana Aguiar",
+       "ES": "Ana Aguiar",
+       "PT": "Ana Aguiar",
+       "IT": "Ana Aguiar",
+       "RU": "Ана Агияр",
+       "ZH": "Ana Sofia Soares Aguiar",
+       "AR": "Ana Aguiar"
+      },
+      "shortName": {
+       "EN": "Aguiar",
+       "FR": "Aguiar",
+       "DE": "Aguiar",
+       "ES": "Aguiar",
+       "PT": "Aguiar",
+       "IT": "Aguiar",
+       "RU": "Агияр",
+       "ZH": "Soares Aguiar",
+       "AR": "Aguiar"
+      }
+     }
+    },
+    "role": "REFEREE_OBSERVER",
+    "translations": {
+     "roleName": {
+      "EN": "Referee Observer",
+      "FR": "Observateur ou observatrice d'arbitre",
+      "DE": "Schiedsrichterbeobachterin",
+      "ES": "Observadora arbitral",
+      "PT": "Observadora de Arbitragem",
+      "IT": "Osservatrice arbitrale",
+      "RU": "Судейский наблюдатель",
+      "ZH": "Referee observer",
+      "AR": "مراقب الحكم"
+     }
+    }
+   },
+   {
+    "images": {
+     "SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250054118.jpg"
+    },
+    "person": {
+     "countryCode": "BIH",
+     "gender": "FEMALE",
+     "id": "250054118",
+     "translations": {
+      "countryName": {
+       "EN": "Bosnia and Herzegovina",
+       "FR": "Bosnie-Herzégovine",
+       "DE": "Bosnien-Herzegowina",
+       "ES": "Bosnia y Herzegovina",
+       "PT": "Bósnia e Herzegovina",
+       "IT": "Bosnia ed Erzegovina",
+       "RU": "Босния и Герцеговина",
+       "ZH": "波黑",
+       "AR": "البوسنة والهرسك"
+      },
+      "firstName": {
+       "EN": "Merima",
+       "FR": "Merima",
+       "DE": "Merima",
+       "ES": "Merima",
+       "PT": "Merima",
+       "IT": "Merima",
+       "RU": "Мерима ",
+       "ZH": "Merima",
+       "AR": "Merima"
+      },
+      "lastName": {
+       "EN": "Čelik",
+       "FR": "Čelik",
+       "DE": "Čelik",
+       "ES": "Čelik",
+       "PT": "Čelik",
+       "IT": "Čelik",
+       "RU": "Челик",
+       "ZH": "Celik",
+       "AR": "Čelik"
+      },
+      "name": {
+       "EN": "Merima Čelik",
+       "FR": "Merima Čelik",
+       "DE": "Merima Čelik",
+       "ES": "Merima Čelik",
+       "PT": "Merima Čelik",
+       "IT": "Merima Čelik",
+       "RU": "Мерима Челик",
+       "ZH": "梅里马·塞里克",
+       "AR": "Merima Čelik"
+      },
+      "shortName": {
+       "EN": "Čelik",
+       "FR": "Čelik",
+       "DE": "Čelik",
+       "ES": "Čelik",
+       "PT": "Čelik",
+       "IT": "Čelik",
+       "RU": "Челик",
+       "ZH": "塞里克",
+       "AR": "Čelik"
+      }
+     }
+    },
+    "role": "REFEREE",
+    "translations": {
+     "roleName": {
+      "EN": "Referee",
+      "FR": "Arbitre",
+      "DE": "Schiedsrichterin",
+      "ES": "Árbitra",
+      "PT": "Árbitra",
+      "IT": "Arbitro",
+      "RU": "Рефери",
+      "ZH": "Referee",
+      "AR": "الحكم"
      }
     }
    }
